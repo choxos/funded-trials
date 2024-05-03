@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T10:22:09Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:9557267" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:9557267</identifier>
+        <datestamp>2022-10-14</datestamp>
+        <setSpec>bmjo</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">BMJ Open</journal-id>
+              <journal-id journal-id-type="iso-abbrev">BMJ Open</journal-id>
+              <journal-id journal-id-type="hwp">bmjopen</journal-id>
+              <journal-id journal-id-type="publisher-id">bmjopen</journal-id>
+              <journal-title-group>
+                <journal-title>BMJ Open</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2044-6055</issn>
+              <publisher>
+                <publisher-name>BMJ Publishing Group</publisher-name>
+                <publisher-loc>BMA House, Tavistock Square, London, WC1H 9JR</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC9557267</article-id>
+              <article-id pub-id-type="pmcid">PMC9557267</article-id>
+              <article-id pub-id-type="pmc-uid">9557267</article-id>
+              <article-id pub-id-type="pmid">36220321</article-id>
+              <article-id pub-id-type="pmid">36220321</article-id>
+              <article-id pub-id-type="publisher-id">bmjopen-2022-064304</article-id>
+              <article-id pub-id-type="doi">10.1136/bmjopen-2022-064304</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research Methods</subject>
+                </subj-group>
+                <subj-group subj-group-type="hwp-journal-coll">
+                  <subject>1506</subject>
+                  <subject>1730</subject>
+                </subj-group>
+                <series-title>Protocol</series-title>
+              </article-categories>
+              <title-group>
+                <article-title>Protocol for the development of SPIRIT and CONSORT extensions for randomised controlled trials with surrogate primary endpoints: SPIRIT-SURROGATE and CONSORT-SURROGATE</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib id="author-84137960" contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-6276-926X</contrib-id>
+                  <name>
+                    <surname>Manyara</surname>
+                    <given-names>Anthony Muchai</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib id="author-79657019" contrib-type="author">
+                  <name>
+                    <surname>Davies</surname>
+                    <given-names>Philippa</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib id="author-96556914" contrib-type="author">
+                  <name>
+                    <surname>Stewart</surname>
+                    <given-names>Derek</given-names>
+                  </name>
+                  <xref rid="aff3" ref-type="aff">3</xref>
+                </contrib>
+                <contrib id="author-22055900" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-6494-4903</contrib-id>
+                  <name>
+                    <surname>Weir</surname>
+                    <given-names>Christopher J</given-names>
+                  </name>
+                  <xref rid="aff4" ref-type="aff">4</xref>
+                </contrib>
+                <contrib id="author-52357381" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-7205-492X</contrib-id>
+                  <name>
+                    <surname>Young</surname>
+                    <given-names>Amber</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib id="author-58751818" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-5152-0108</contrib-id>
+                  <name>
+                    <surname>Butcher</surname>
+                    <given-names>Nancy J</given-names>
+                  </name>
+                  <xref rid="aff5" ref-type="aff">5</xref>
+                  <xref rid="aff6" ref-type="aff">6</xref>
+                </contrib>
+                <contrib id="author-97894145" contrib-type="author">
+                  <name>
+                    <surname>Bujkiewicz</surname>
+                    <given-names>Sylwia</given-names>
+                  </name>
+                  <xref rid="aff7" ref-type="aff">7</xref>
+                </contrib>
+                <contrib id="author-20410114" contrib-type="author">
+                  <name>
+                    <surname>Chan</surname>
+                    <given-names>An-Wen</given-names>
+                  </name>
+                  <xref rid="aff8" ref-type="aff">8</xref>
+                  <xref rid="aff9" ref-type="aff">9</xref>
+                </contrib>
+                <contrib id="author-20406788" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-2772-2316</contrib-id>
+                  <name>
+                    <surname>Collins</surname>
+                    <given-names>Gary S</given-names>
+                  </name>
+                  <xref rid="aff10" ref-type="aff">10</xref>
+                </contrib>
+                <contrib id="author-80164615" contrib-type="author">
+                  <name>
+                    <surname>Dawoud</surname>
+                    <given-names>Dalia</given-names>
+                  </name>
+                  <xref rid="aff11" ref-type="aff">11</xref>
+                </contrib>
+                <contrib id="author-45740618" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-4402-5299</contrib-id>
+                  <name>
+                    <surname>Offringa</surname>
+                    <given-names>Martin</given-names>
+                  </name>
+                  <xref rid="aff6" ref-type="aff">6</xref>
+                </contrib>
+                <contrib id="author-97894150" contrib-type="author">
+                  <name>
+                    <surname>Ouwens</surname>
+                    <given-names>Mario</given-names>
+                  </name>
+                  <xref rid="aff12" ref-type="aff">12</xref>
+                </contrib>
+                <contrib id="author-27519119" contrib-type="author">
+                  <name>
+                    <surname>Ross</surname>
+                    <given-names>Joseph S</given-names>
+                  </name>
+                  <xref rid="aff13" ref-type="aff">13</xref>
+                  <xref rid="aff14" ref-type="aff">14</xref>
+                </contrib>
+                <contrib id="author-73157820" contrib-type="author">
+                  <name>
+                    <surname>Taylor</surname>
+                    <given-names>Rod S</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <xref rid="aff15" ref-type="aff">15</xref>
+                </contrib>
+                <contrib id="author-67373171" contrib-type="author">
+                  <name>
+                    <surname>Ciani</surname>
+                    <given-names>Oriana</given-names>
+                  </name>
+                  <xref rid="aff16" ref-type="aff">16</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1"><label>1</label><institution content-type="department">MRC/CSO Social and Public Health Sciences Unit, School of Health and Wellbeing, Glasgow, UK</institution>, <institution>University of Glasgow</institution>, <addr-line content-type="city">Glasgow</addr-line>, <country>UK</country></aff>
+              <aff id="aff2"><label>2</label><institution content-type="department">Population Health Sciences, Bristol Medical School</institution>, <institution>University of Bristol</institution>, <addr-line content-type="city">Bristol</addr-line>, <country>UK</country></aff>
+              <aff id="aff3"><label>3</label><institution>Patient and Public Involvement Lead</institution>, <addr-line content-type="city">Nottingham</addr-line>, <country>UK</country></aff>
+              <aff id="aff4"><label>4</label><institution content-type="department">Edinburgh Clinical Trials Unit, Usher Institute</institution>, <institution>University of Edinburgh</institution>, <addr-line content-type="city">Edinburgh</addr-line>, <country>UK</country></aff>
+              <aff id="aff5"><label>5</label><institution content-type="department">Department of Psychiatry</institution>, <institution>University of Toronto</institution>, <addr-line content-type="city">Toronto</addr-line>, <addr-line content-type="state">Ontario</addr-line>, <country>Canada</country></aff>
+              <aff id="aff6"><label>6</label><institution content-type="department">Child Health Evaluation Sciences</institution>, <institution>The Hospital for Sick Children</institution>, <addr-line content-type="city">Toronto</addr-line>, <addr-line content-type="state">Ontario</addr-line>, <country>Canada</country></aff>
+              <aff id="aff7"><label>7</label><institution>Biostatistics Research Group, Department of Health Sciences, University of Leicester</institution>, <addr-line content-type="city">Leicester</addr-line>, <country>UK</country></aff>
+              <aff id="aff8"><label>8</label><institution>Women’s College Institute Research Institute</institution>, <addr-line content-type="city">Toronto</addr-line>, <addr-line content-type="state">Ontario</addr-line>, <country>Canada</country></aff>
+              <aff id="aff9"><label>9</label><institution content-type="department">Department of Medicine</institution>, <institution>University of Toronto</institution>, <addr-line content-type="city">Toronto</addr-line>, <addr-line content-type="state">Ontario</addr-line>, <country>Canada</country></aff>
+              <aff id="aff10"><label>10</label><institution content-type="department">Centre for Statistics in Medicine, Nuffield Department of Orthopaedics, Rheumatology &amp; Musculoskeletal Sciences</institution>, <institution>Oxford University</institution>, <addr-line content-type="city">Oxford</addr-line>, <country>UK</country></aff>
+              <aff id="aff11"><label>11</label><institution>National Institute for Health and Care Excellence</institution>, <addr-line content-type="city">London</addr-line>, <country>UK</country></aff>
+              <aff id="aff12"><label>12</label><institution>AstraZeneca</institution>, <addr-line content-type="city">Mölndal</addr-line>, <country>Sweden</country></aff>
+              <aff id="aff13"><label>13</label><institution content-type="department">Department of Health Policy and Management</institution>, <institution>Yale School of Public Health</institution>, <addr-line content-type="city">New Haven</addr-line>, <addr-line content-type="state">Connecticut</addr-line>, <country>USA</country></aff>
+              <aff id="aff14"><label>14</label><institution content-type="department">Section of General Medicine, Department of Internal Medicine</institution>, <institution>Yale School of Medicine</institution>, <addr-line content-type="city">New Haven</addr-line>, <addr-line content-type="state">Connecticut</addr-line>, <country>USA</country></aff>
+              <aff id="aff15"><label>15</label><institution content-type="department">Robertson Centre for Biostatistics, School of Health and Well Being</institution>, <institution>University of Glasgow</institution>, <addr-line content-type="city">Glasgow</addr-line>, <country>UK</country></aff>
+              <aff id="aff16"><label>16</label><institution>SDA Bocconi School of Management</institution>, <addr-line content-type="city">Milan</addr-line>, <country>Italy</country></aff>
+              <author-notes>
+                <corresp><label>Correspondence to</label> Dr Anthony Muchai Manyara; <email>anthony.manyara@glasgow.ac.uk</email></corresp>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>11</day>
+                <month>10</month>
+                <year>2022</year>
+              </pub-date>
+              <volume>12</volume>
+              <issue>10</issue>
+              <elocation-id>e064304</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>28</day>
+                  <month>4</month>
+                  <year>2022</year>
+                </date>
+                <date date-type="accepted">
+                  <day>27</day>
+                  <month>9</month>
+                  <year>2022</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© Author(s) (or their employer(s)) 2022. Re-use permitted under CC BY. Published by BMJ.</copyright-statement>
+                <copyright-year>2022</copyright-year>
+                <ali:free_to_read/>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense" start_date="2022-10-11">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>This is an open access article distributed in accordance with the Creative Commons Attribution 4.0 Unported (CC BY 4.0) license, which permits others to copy, redistribute, remix, transform and build upon this work for any purpose, provided the original work is properly cited, a link to the licence is given, and indication of whether changes were made. See: <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:title="pdf" xlink:href="bmjopen-2022-064304.pdf"/>
+              <self-uri content-type="reviewers-comments-pdf" xlink:href="bmjopen-2022-064304.reviewer_comments.pdf"/>
+              <self-uri content-type="draft-revisions-pdf" xlink:href="bmjopen-2022-064304.draft_revisions.pdf"/>
+              <abstract>
+                <sec>
+                  <title>Introduction</title>
+                  <p>Randomised controlled trials (RCTs) may use surrogate endpoints as substitutes and predictors of patient-relevant/participant-relevant final outcomes (eg, survival, health-related quality of life). Translation of effects measured on a surrogate endpoint into health benefits for patients/participants is dependent on the validity of the surrogate; hence, more accurate and transparent reporting on surrogate endpoints is needed to limit misleading interpretation of trial findings. However, there is currently no explicit guidance for the reporting of such trials. Therefore, we aim to develop extensions to the SPIRIT (Standard Protocol Items: Recommendations for Interventional Trials) and CONSORT (Consolidated Standards of Reporting Trials) reporting guidelines to improve the design and completeness of reporting of RCTs and their protocols using a surrogate endpoint as a primary outcome.</p>
+                </sec>
+                <sec>
+                  <title>Methods and analysis</title>
+                  <p>The project will have four phases: phase 1 (literature reviews) to identify candidate reporting items to be rated in a Delphi study; phase 2 (Delphi study) to rate the importance of items identified in phase 1 and receive suggestions for additional items; phase 3 (consensus meeting) to agree on final set of items for inclusion in the extensions and phase 4 (knowledge translation) to engage stakeholders and disseminate the project outputs through various strategies including peer-reviewed publications. Patient and public involvement will be embedded into all project phases.</p>
+                </sec>
+                <sec>
+                  <title>Ethics and dissemination</title>
+                  <p>The study has received ethical approval from the University of Glasgow College of Medical, Veterinary and Life Sciences Ethics Committee (project no: 200210051). The findings will be published in open-access peer-reviewed publications and presented in conferences, meetings and relevant forums.</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>statistics &amp; research methods</kwd>
+                <kwd>protocols &amp; guidelines</kwd>
+                <kwd>general medicine (see internal medicine)</kwd>
+                <kwd>public health</kwd>
+              </kwd-group>
+              <funding-group specific-use="FundRef">
+                <award-group id="funding-1">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>UK Medical Research Council</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>MR/V038400/1</award-id>
+                </award-group>
+                <award-group id="funding-2">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>NIHR Biomedical Research Centre, Oxford</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>N/A</award-id>
+                </award-group>
+                <award-group id="funding-3">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100000289</institution-id>
+                      <institution>Cancer Research UK</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>C49297/A27294</award-id>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>special-feature</meta-name>
+                  <meta-value>unlocked</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <boxed-text id="BX1" position="float">
+              <caption>
+                <title>Strengths and limitations of this study</title>
+              </caption>
+              <list list-type="bullet">
+                <list-item>
+                  <p>We will follow the EQUATOR (Enhancing the QUAlity and Transparency Of health Research) Network’s recommended steps for developing a health research reporting guideline.</p>
+                </list-item>
+                <list-item>
+                  <p>The Delphi study will target an international and multidisciplinary group of participants.</p>
+                </list-item>
+                <list-item>
+                  <p>Patient and public involvement will be integrated in all phases of the study.</p>
+                </list-item>
+                <list-item>
+                  <p>Although we will target international participation, Delphi study and consensus meeting will be conducted in English which could limit participation from non-English speaking settings.</p>
+                </list-item>
+              </list>
+            </boxed-text>
+            <sec sec-type="intro" id="s1">
+              <title>Introduction</title>
+              <p>Evidence for the effectiveness of interventions should ideally come from randomised controlled trials (RCTs)<xref rid="R1" ref-type="bibr">1 2</xref> that assess a patient/study participant relevant final outcome (PRFO): a measurement that reflects how an individual feels, functions or survives,<xref rid="R3" ref-type="bibr">3</xref> such as mortality or health-related quality of life. Nevertheless, in order to meet the scientific, ethical and regulatory requirements, the conduct and delivery of many RCTs have become increasingly resource and time intensive.<xref rid="R4" ref-type="bibr">4</xref> By reducing follow-up time, sample size and cost, a surrogate endpoint that substitutes for a PRFO can provide a potentially attractive solution for improving trial efficiency.<xref rid="R5" ref-type="bibr">5</xref> This efficiency allows for early detection of intervention effects<xref rid="R6" ref-type="bibr">6</xref> which could lead to accelerated approval of interventions prior to confirmation of benefit on the PRFO<xref rid="R7" ref-type="bibr">7</xref> or when there is lack of effect, stopping of trials or roll out of interventions with no health benefit.</p>
+              <p>Over the last decade, a number of biomarkers (an objectively measured molecular, histological, radiographic or physiological characteristic used as an indicator of response to an intervention)<xref rid="R5" ref-type="bibr">5</xref> have been accepted as surrogate endpoints in the regulatory approval of pharmaceuticals and medical devices, for example, blood pressure and low density lipoprotein-cholesterol within the cardiovascular disease context.<xref rid="R8" ref-type="bibr">8</xref> However, for a wider range of interventions including surgical, organisational and public health interventions, the so-called intermediate outcomes (ie, an outcome that can be measured earlier than an effect on PRFO and is predictive of the intervention effect on the PRFO)<xref rid="R3" ref-type="bibr">3</xref> have been used with the aim of replacing and predicting for a PRFO (e.g., hospice enrolment instead of mortality with an intervention aimed at improving end of life care;<xref rid="R9" ref-type="bibr">9</xref> fruit and vegetable consumption instead of cardiovascular events for a behavioural intervention designed to improve cardiovascular risk<xref rid="R10" ref-type="bibr">10</xref>). To be accepted as a valid surrogate endpoint, a biomarker or intermediate outcome needs to both: (1) reliably predict the PRFO in individual participants (‘individual-level’ or ‘patient-level’ surrogacy) and (2) the intervention effect on surrogate endpoint should reliably predict the intervention effect on the PRFO (‘trial-level’ surrogacy) which is assessed through a meta-analytic model of data on both outcomes typically obtained from RCTs.<xref rid="R11" ref-type="bibr">11 12</xref> In summary, surrogacy validation depends on the use of various statistical methods, including meta-analysis of trial aggregate data and/or individual patient data,<xref rid="R13" ref-type="bibr">13 14</xref> principal stratification,<xref rid="R15" ref-type="bibr">15</xref> causal inference,<xref rid="R16" ref-type="bibr">16 17</xref> information theory<xref rid="R18" ref-type="bibr">18</xref> and/or bivariate network meta-analysis methods.<xref rid="R19" ref-type="bibr">19 20</xref></p>
+              <p>Despite their potential benefits, the use of surrogate endpoints in health and policy decision making remains controversial. Some regulatory approvals based on a surrogate endpoint have led to the use of interventions that have resulted in more harm than health benefit for patients due to the surrogate not being in the pathway of the PRFO or unintended effects of the intervention.<xref rid="R21" ref-type="bibr">21–24</xref> Additionally, RCTs using a surrogate endpoint primary outcome have been shown to overestimate treatment effects (adjusted ORs: 1.46, 95% CI: 1.05–2.04) compared with RCTs with PRFO as a primary outcome.<xref rid="R25" ref-type="bibr">25</xref> It is therefore important that RCTs using surrogate endpoints are appropriately designed and reported, for example, explicitly state that the primary outcome is a surrogate endpoint, give a clear rationale for its use and provide evidence of its validation (ie, prior evidence of the association between the intervention effect on the putative surrogate endpoint and PRFO).<xref rid="R7" ref-type="bibr">7</xref> However, a retrospective analysis of 626 RCTs published in 2005 and 2006 found that 109 (17%) used a surrogate primary endpoint, and of these, only a third discussed whether the surrogate endpoint was a valid predictor of health benefit on a PRFO.<xref rid="R26" ref-type="bibr">26</xref> Similarly, a more recent review of 220 cardiovascular intervention trials using surrogate biomarkers found that only 59 (27%) had confirmatory evidence validating the benefits of interventions on a PRFO.<xref rid="R27" ref-type="bibr">27</xref></p>
+              <p>Reporting guidelines can improve transparency and completeness in the reporting of RCTs at both the protocol and final report stages. The two prominent trial guidelines are: SPIRIT (Standard Protocol Items: Recommendations for Interventional Trials) 2013 statement is a 33-item checklist used to report RCT protocols;<xref rid="R28" ref-type="bibr">28</xref> and CONSORT (Consolidated Standards of Reporting Trials) 2010 statement is a 25-item checklist, which has improved reporting of completed trials.<xref rid="R29" ref-type="bibr">29 30</xref> Although SPIRIT and CONSORT and related extensions, including the SPIRIT-PRO,<xref rid="R31" ref-type="bibr">31</xref> CONSORT-PRO<xref rid="R32" ref-type="bibr">32</xref> and the ongoing CONSORT-Outcomes,<xref rid="R33" ref-type="bibr">33</xref> provide general guidance on trial outcome reporting, there remains no standard evidence-based guideline for the reporting of RCTs with a surrogate primary outcome. Therefore, in this study, we aim to develop specific extensions to report RCT protocols and final trial reports that use a surrogate primary endpoint: SPIRIT-SURROGATE and CONSORT-SURROGATE, respectively. These extensions will improve the transparency of reporting and design of RCTs with a surrogate endpoint as a primary outcome. Such improved reporting should enable the evidence base for surrogate endpoints to be more effectively scrutinised and used for interpretation of trial findings by patients, clinicians and healthcare policy makers. This protocol describes the methods that will be used in developing these extensions.</p>
+            </sec>
+            <sec sec-type="methods" id="s2">
+              <title>Methods</title>
+              <p>Our methodology will be guided by: the EQUATOR (Enhancing the QUAlity and Transparency Of health Research) Network’s recommended steps for developing a health research reporting guideline,<xref rid="R34" ref-type="bibr">34</xref> and methodological considerations used to develop other recent or ongoing SPIRIT/CONSORT extensions (e.g., ACE (Adaptive designs CONSORT Extension),<xref rid="R35" ref-type="bibr">35</xref> CONSORT-ROUTINE<xref rid="R36" ref-type="bibr">36</xref> and dose-finding CONSORT extension<xref rid="R37" ref-type="bibr">37</xref>)</p>
+              <p>The project will be overseen by a project management group (PMG) and an advisory executive committee (EC). The PMG includes the lead investigators (OC and RT) and project manager (AMM) responsible for the day-to-day management of the project plus project co-investigators (PD, AY and CW) and patient and public involvement (PPI) lead (DS). The EC is an international and multidisciplinary group (JSR (chair), NJB, SB, AWC, GSC, DD, MO and Mario Ouwens) providing strategic oversight of the project and will contribute to the dissemination, endorsement, and implementation of developed extensions.</p>
+              <p><xref rid="F1" ref-type="fig">Figure 1</xref> shows the project phases, timelines, activities in each phase and the integrated knowledge translation and PPI which are described in more detail below.</p>
+              <fig position="float" id="F1">
+                <label>Figure 1</label>
+                <caption>
+                  <p>Project phases, timelines, activities in each phase (middle), with integrated knowledge translation (left) and patient and public involvement (right). Timelines include preparatory work before start of each phase. Adapted from Kwakkenbos <italic toggle="yes">et al</italic><xref rid="R62" ref-type="bibr">62</xref>. RCTs, Randomised Controlled Trials.</p>
+                </caption>
+                <graphic xlink:href="bmjopen-2022-064304f01" position="float"/>
+              </fig>
+              <sec id="s2-1">
+                <title>Phase 1: literature reviews</title>
+                <p>A detailed protocol for this phase has been prepared, prospectively registered<xref rid="R38" ref-type="bibr">38</xref> and submitted for publication. Briefly, we will undertake two separate literature reviews that include a scoping review and a ‘targeted review’. The scoping review, conducted using the Arksey and O’Malley six-stage methodological framework,<xref rid="R39" ref-type="bibr">39</xref> will seek to explore the current understanding, limitations, acceptability and guidance on using surrogate endpoints in RCTs and generate two outputs: candidate items (‘long-list’) for rating through a Delphi exercise and a contact list of surrogate content experts who will be invited to participate in the exercise. Furthermore, one of the issues to be explored in the scoping review will be an appropriate and comprehensive working definition of surrogate endpoint, starting from the most commonly reported definition in 2001 by the National Institutes of Health (ie, a biomarker or laboratory measure intended to substitute and predict for a variable that reflects how patients feel, function or how long they survive).<xref rid="R5" ref-type="bibr">5</xref> The targeted review will seek to systematically identify recent protocols and full reports of RCTs that have used surrogate endpoints as primary outcomes. It will serve two purposes: (1) identify researchers who have used surrogate endpoints who will be invited to participate in the Delphi exercise and (2) the identified protocols and reports will inform a detailed contemporary analysis of the completeness of reporting of RCTs with surrogate endpoint primary outcomes.</p>
+                <sec id="s2-1-1">
+                  <title>Phase 2: Delphi study</title>
+                  <p>The primary objective of this phase will be to rate candidate items generated in phase 1. Secondary objectives will be to identify additional items not included in the initial list and allow for modifications in the wording of important items.<xref rid="R36" ref-type="bibr">36</xref></p>
+                </sec>
+                <sec id="s2-1-2">
+                  <title>Study design and setting</title>
+                  <p>The Delphi methodology is a widely used consensus-building technique whose main features are: use of experts as participants, anonymity between participants, iterations and controlled feedback (to allow for ‘communication’ and consensus building between participants), and summary of participant views.<xref rid="R40" ref-type="bibr">40–43</xref> Its key practical advantage is the non-requirement of face-to-face contact,<xref rid="R43" ref-type="bibr">43</xref> enabling more participants and broader representation in terms of geography and key groups in the development of health research reporting guidelines.<xref rid="R34" ref-type="bibr">34</xref> While our virtual Delphi approach provides participant anonymity that may allow for more open expression of views,<xref rid="R41" ref-type="bibr">41</xref> it has also the potential disadvantage of lack of group interaction which can contribute to consensus building.<xref rid="R43" ref-type="bibr">43</xref> However, the final consensus meeting (see below) will have an in-person element.</p>
+                  <p>Our Delphi study will be conducted online and facilitated by DelphiManager software (V.5.0), a bespoke software developed and maintained by the COMET (Core Outcome Measures in Effectiveness Trials) initiative (<ext-link xlink:href="https://www.comet-initiative.org/" ext-link-type="uri">https://www.comet-initiative.org/</ext-link>), which has been used to develop other SPIRIT and CONSORT extensions.<xref rid="R44" ref-type="bibr">44 45</xref></p>
+                  <p>It is recommended that the number of Delphi study rounds is determined a priori.<xref rid="R40" ref-type="bibr">40</xref> To meet project timelines and reduce potential participant burden/fatigue, we propose two rounds will be conducted. Two Delphi rounds have been used to develop SPIRIT/CONSORT extensions for reporting: pilot RCTs,<xref rid="R46" ref-type="bibr">46</xref> RCTs using adaptive design,<xref rid="R35" ref-type="bibr">35</xref> interventions involving artificial intelligence,<xref rid="R44" ref-type="bibr">44 47</xref> and social and psychological interventions.<xref rid="R48" ref-type="bibr">48</xref> However, if we fail to obtain consensus in most items after round 2 and based on advice from the EC, we will consider a third round.<xref rid="R33" ref-type="bibr">33 36 49</xref></p>
+                </sec>
+                <sec id="s2-1-3">
+                  <title>Sample size, recruitment and inclusion criteria</title>
+                  <p>Delphi studies do not require formal sample size calculations, although the number and characteristics of participants need to be carefully considered.<xref rid="R40" ref-type="bibr">40 42 43 50</xref> Consistent with the EQUATOR Network’s guidance,<xref rid="R34" ref-type="bibr">34</xref> we will seek to recruit an international multidisciplinary group of stakeholders, including trialists, trial methodologists, statisticians, healthcare professionals, researchers, content experts, journal editors, patient and public representatives, funders, regulators, health technology assessment experts and clinical guideline developers. <xref rid="SP1" ref-type="supplementary-material">Online supplemental file 1</xref> shows stakeholder categories, approximate target sample sizes and strategies for access. We will target to have at least 200 participants register interest to take part in the study. A sample size of ≥200 will allow recruitment of at least 20 participants per stakeholder group and reasonable numbers (&gt;70 participants) to complete the study, assuming ≥60% response rate of eligible participants and ≤40% attrition (in the context of completing all Delphi rounds), both as observed in previous Delphi studies that have developed extension guidelines.<xref rid="R35" ref-type="bibr">35 36 46 47</xref></p>
+                  <supplementary-material id="SP1" position="float" content-type="local-data">
+                    <object-id pub-id-type="doi">10.1136/bmjopen-2022-064304.supp1</object-id>
+                    <label>Supplementary data</label>
+                    <p>
+                      <inline-supplementary-material id="SS1" xlink:href="bmjopen-2022-064304supp001.pdf" content-type="local-data"/>
+                    </p>
+                  </supplementary-material>
+                  <p>We will use purposive and snowball sampling (non-probability sampling) to include participants.<xref rid="R51" ref-type="bibr">51</xref> Identification strategies will include: (1) professional contacts known to the PMG and EC; (2) relevant professional bodies and networks; (3) relevant conferences and meetings; (4) authors of records included in the scoping and targeted reviews (phase 1); (5) a call for participants on project website and social media pages; (6) asking registered participants to share link with other people, networks or organisations that would be interested in participating (see <xref rid="SP1" ref-type="supplementary-material">online supplemental table</xref>) and (7) we have published short articles<xref rid="R52" ref-type="bibr">52–54</xref> to create awareness of the project and signpost readers to the project website to register interest in participation. We acknowledge that our target sample size may be challenging, particularly for some stakeholder categories (eg, journal editors (n=20)); however, efforts will be made to reach as many of these stakeholders as possible.</p>
+                  <p>Participant inclusion criteria will be: (1) expertise in surrogate endpoints (through authored literature) or self-reported interest and basic understanding of the concept of surrogacy and (2) registered interest, in English (nevertheless participation will be international), to participate during the allocated period. We will have no exclusion criteria. During registration, the following descriptive data on participants will be collected: self-identified stakeholder group (primary/secondary roles), clinical or research area (if actively involved), country of work and self-reported basic understanding of surrogate endpoints.</p>
+                </sec>
+                <sec id="s2-1-4">
+                  <title>Data collection, analysis and consensus definition</title>
+                  <p>Prior to the launch of the first survey round, a pilot (with n=15 participants) will be conducted to gauge user-friendliness, improve wording/logical flow and identify any practical concerns.<xref rid="R55" ref-type="bibr">55</xref> Following the pilot, all registered participants will be emailed a web link prompting them to complete any of the Delphi rounds. The weblink will access the Delphi survey landing page that includes: a short text section emphasising the importance of completing the exercise,<xref rid="R43" ref-type="bibr">43</xref> a participant information sheet and a consent checkbox. Each round will be open for approximately 4 weeks, and the second round sent out 3–4 weeks after the closure of the first. Email reminders to complete the survey will be sent to participants to improve response rates. Participants who complete all Delphi rounds may opt to enter a prize draw to win one of two £100 vouchers.<xref rid="R56" ref-type="bibr">56</xref></p>
+                  <p>Candidate Delphi items will be ranked using a Likert scale. There is no consensus on the ideal rating scale in Delphi studies.<xref rid="R57" ref-type="bibr">57</xref> We will use the Grading of Recommendations Assessment, Development and Evaluations (GRADE) 9-point scale<xref rid="R58" ref-type="bibr">58</xref> that has been used in other extensions,<xref rid="R33" ref-type="bibr">33 35 44–46 56</xref> categorised and interpreted as follows:</p>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>1–3=not important (item should not be included in extensions).</p>
+                    </list-item>
+                    <list-item>
+                      <p>4–6=important but not critical (item should be discussed).</p>
+                    </list-item>
+                    <list-item>
+                      <p>7–9=important and critical (item should be included in extensions).</p>
+                    </list-item>
+                  </list>
+                  <p>Additionally, we will include an ‘unable to answer’ response, for participants who do not feel qualified to rank any specific item.<xref rid="R33" ref-type="bibr">33 40</xref> In round 1 of the Delphi,<xref rid="R33" ref-type="bibr">33 56</xref> participants will have the opportunity (through a free-text box) to add any proposed modification of items wording and suggestion of additional items.<xref rid="R36" ref-type="bibr">36</xref> We will consider new items in the second round if proposed by at least two Delphi participants.<xref rid="R59" ref-type="bibr">59</xref> Participants can also use the free-text box to explain any of their ratings.<xref rid="R36" ref-type="bibr">36</xref></p>
+                  <p>Quantitative analysis will be conducted in statistical software such as R.<xref rid="R60" ref-type="bibr">60</xref> After each round, the proportions for each candidate item will be calculated. In addition, measures to assess the consistency of response (agreement between Delphi rounds), such as median, IQR, mean and SD,<xref rid="R40" ref-type="bibr">40</xref> will be calculated for each item and round. Open text will be analysed using a simple thematic analysis<xref rid="R61" ref-type="bibr">61</xref> in Microsoft Excel sheets. Results after each round will be shared with the project team before a virtual meeting to discuss modifications and additions needed for the subsequent round.<xref rid="R36" ref-type="bibr">36</xref></p>
+                  <p>Overall results and participants’ own responses in round 1 will be shared with participants in round 2, and they can revise their judgement based on group scoring and explanation for ratings, if any. If conducted, the third round will only include items that have not reached a consensus by round 2.<xref rid="R56" ref-type="bibr">56 62</xref> Delphi studies have no ideal definition of consensus, and definitions vary with contexts.<xref rid="R40" ref-type="bibr">40 57</xref> We propose the following consensus definitions based on previous CONSORT extensions:<xref rid="R33" ref-type="bibr">33 35 56 62</xref></p>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>Consensus for inclusion: ≥70% participants scoring 7–9 and &lt;15% participants scoring 1–3.</p>
+                    </list-item>
+                    <list-item>
+                      <p>Consensus for exclusion: ≥70% participants scoring 1–3 and &lt;15% of participants scoring 7–9.</p>
+                    </list-item>
+                    <list-item>
+                      <p>No consensus for inclusion or exclusion: failure to achieve both the above.</p>
+                    </list-item>
+                  </list>
+                  <p>Nevertheless, the project team will have the option to over-rule items that achieve a borderline level of consensus (eg, 65%–69% scoring 7–9).</p>
+                </sec>
+              </sec>
+              <sec id="s2-2">
+                <title>Phase 3: consensus meeting</title>
+                <p>The primary objective of the consensus meeting will be to agree on the final items for inclusion in the SPIRIT and CONSORT extensions. Dependent on time availability, this meeting will also be used as an opportunity to finalise and refine our knowledge translation strategies for the developed extensions.<xref rid="R34" ref-type="bibr">34</xref> The meeting will closely follow the EQUATOR Network’s guidance on conducting face-to-face consensus meetings.<xref rid="R34" ref-type="bibr">34</xref></p>
+                <sec id="s2-2-1">
+                  <title>Structure and participants</title>
+                  <p>Given the ongoing COVID-19 pandemic and the range of geographical location of participants, we propose to conduct a hybrid meeting with some participants present physically and others joining virtually through an online video conference link. To allow sufficient time to discuss all agenda items<xref rid="R34" ref-type="bibr">34</xref> and participation from different time zones, we anticipate the meeting will be conducted over 2 days. Meeting participants will be limited to ≤30 to encourage interaction and debate.<xref rid="R34" ref-type="bibr">34</xref> Similar to the development of the CONSORT extension for adaptive design,<xref rid="R35" ref-type="bibr">35</xref> we propose the meeting will include the project team members (n=15) and purposively selected stakeholders (n=15). At the end of Delphi survey round 2, participants will be given the opportunity to register their interest in participating in the consensus meeting. The project team will select participants from those interested based on: (1) ability to attend the meeting on proposed dates and times and (2) need to have an international multidisciplinary group of participants.</p>
+                  <p>Prior to the meeting, all participants will be sent (via email): the meeting agenda, participant list, meeting engagement rules, summary of scoping review findings and Delphi study results.<xref rid="R34" ref-type="bibr">34</xref> The meeting will be led by the EC chair (JSR).</p>
+                </sec>
+                <sec id="s2-2-2">
+                  <title>Consensus procedure</title>
+                  <p>Items that reached consensus during the Delphi exercise will be discussed and ratified. Items that did not reach consensus will be discussed in detail. The chair will summarise discussions and encourage consensus based on implications (ie, scientific, ethical, statistical, practical, financial) for inclusion or exclusion of discussed items before voting is conducted. Voting will be conducted anonymously with the following options: ‘include in final extension’, ‘exclude from final extension’, ‘merge with another item’ and ‘unsure’.<xref rid="R33" ref-type="bibr">33</xref> Consensus will be defined as ≥70% voting for either the ‘include’, ‘exclude’ or ‘merge’ options.<xref rid="R33" ref-type="bibr">33 35 45</xref> Items that do not reach consensus will be discussed and a fresh round of voting conducted. This process will continue until consensus is reached or time allocated runs out.<xref rid="R33" ref-type="bibr">33</xref> If consensus is not reached at the end of the meeting, the PMG and EC will make a final decision<xref rid="R33" ref-type="bibr">33</xref> at a later virtual meeting held within a month after the consensus meeting. Discussion of items in both meetings will be audio recorded (with participant verbal consent) to help with comprehensive minuting (without direct reference to participants), which will provide a record of decisions taken.<xref rid="R34" ref-type="bibr">34</xref> Minutes will be shared with all participants after the meeting and archived with other project data.</p>
+                  <p>After discussion of items and dependent on time availability, participants will discuss other agenda items such as the possibility of developing a flow diagram, knowledge translation activities (including authorship of extensions statements), strategies to improve implementation and impact of extensions, and future evaluation of developed outputs.<xref rid="R34" ref-type="bibr">34</xref></p>
+                </sec>
+              </sec>
+              <sec id="s2-3">
+                <title>Phase 4: knowledge translation</title>
+                <p>This phase will aim to engage stakeholders and disseminate project outputs including the developed extensions and will be undertaken throughout the duration of project period.</p>
+                <sec id="s2-3-1">
+                  <title>Pilot testing and revision of final checklist</title>
+                  <p>We will pilot the developed SPIRIT and CONSORT extension checklists<xref rid="R34" ref-type="bibr">34</xref> on a sample of protocols and reports identified from the targeted review. The pilot will involve project team members and other invited researchers and will seek to identify any specific challenges of using the draft checklists and required modifications and inform writing of the explanation and elaboration documents.</p>
+                </sec>
+                <sec id="s2-3-2">
+                  <title>Publications</title>
+                  <p>We will seek to publish the SPIRIT-SURROGATE and CONSORT-SURROGATE extensions and ‘explanation and elaboration’ documents in high impact general medicine journals. To maximise dissemination, we will also seek to co-publish the extensions or editorials/commentaries in other journal settings such as trial-related and public health. We will seek the endorsement of the extensions from journals and editorial groups (eg, International Committee of Medical Journal Editors).<xref rid="R34" ref-type="bibr">34</xref> All project publications will be open access.</p>
+                </sec>
+                <sec id="s2-3-3">
+                  <title>Partner and stakeholder engagement</title>
+                  <p>The EQUATOR, CONSORT and SPIRIT groups each provided letters of support for our original funding application for this project and have representatives of EQUATOR (GSC), SPIRIT (AWC) and international SPIRIT/CONSORT-Outcomes Group (NJB and MO) on our advisory EC. The project is registered on the EQUATOR website,<xref rid="R63" ref-type="bibr">63 64</xref> and our entry will be regularly updated. We will seek to have the final extensions endorsed and published on the SPIRIT<xref rid="R65" ref-type="bibr">65</xref> and CONSORT<xref rid="R66" ref-type="bibr">66</xref> websites. The SPIRIT statement is endorsed by patient groups, trial groups, funders, regulators and over 100 journals,<xref rid="R67" ref-type="bibr">67</xref> while the CONSORT statement is endorsed by about 600 journals.<xref rid="R68" ref-type="bibr">68</xref></p>
+                  <p>We will directly engage potential users of developed extensions, including research funders, healthcare regulators, trial methodologists, and public health and healthcare professionals, to maximise impact. Our project funding application was endorsed by the UK Medical and Healthcare products Regulatory Agency and the National Institute for Health and Care Excellence, who will be sent the finalised extensions for implementation. We will seek to reach other stakeholders through presentations at relevant meetings and conferences. We will maintain an active social media presence (ie, @Consort_surr on Twitter, project team members LinkedIn posts), a project ResearchGate page<xref rid="R69" ref-type="bibr">69</xref> and project website page (<ext-link xlink:href="https://www.gla.ac.uk/spirit-consort-surrogate" ext-link-type="uri">https://www.gla.ac.uk/spirit-consort-surrogate</ext-link>). Finally, we propose to develop video tutorials to illustrate the application of the extensions.</p>
+                </sec>
+              </sec>
+              <sec id="s2-4">
+                <title>Patient and public involvement</title>
+                <p>PPI will be embedded in all project phases. Our PPI strategy is led by DS who is a member of the PMG and has extensive experience of public involvement in health services research methods. The results of our scoping review will be presented and discussed with PPI representatives in a virtual meeting. We aim to identify ~20 PPI representatives (through snowballing guided by our PPI lead) who will be given introductory training (through a 2-hour session) on RCT design and the use of surrogate endpoints to build their capacity to participate in rating items in the Delphi survey. Some of the PPI members who complete the Delphi study will be selected to participate in the consensus meeting based on availability and interest to participate. We will consult our PPI lead on our public/community dissemination plans. The GRIPP2 (Guidance for Reporting Involvement of Patients and the Public) checklist<xref rid="R70" ref-type="bibr">70</xref> will be used to guide and report PPI.</p>
+              </sec>
+            </sec>
+            <sec id="s3">
+              <title>Ethics and dissemination</title>
+              <p>The study has received ethical approval from the University of Glasgow College of Medical, Veterinary and Life Sciences Ethics Committee (project no: 200210051). Delphi participants will be provided with a participant information sheet and asked to record their online consent. Verbal consent for participation in the consensus meeting (including audio recording of discussions) will be sought at the start of the meeting. Participants will have a right to withdraw from any project activity without giving a reason. We anticipate that all project data collected will not be sensitive and that there is a low risk if the identity of participants was exposed. Nevertheless, all data will be securely managed and stored in a participant de-identified form. Delphi participants will be asked to opt-out (via a yes or no question) if they do not want to be publicly acknowledged in publications. Project outputs will be disseminated through meeting and conference presentations and open-access publications, with stakeholder engagement as outlined in the phase 4 (knowledge translation) and PPI sections.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Material</title>
+              <supplementary-material content-type="local-data" id="d64e359">
+                <caption>
+                  <title>Reviewer comments</title>
+                </caption>
+                <media xlink:href="bmjopen-2022-064304.reviewer_comments.pdf"/>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="d64e360">
+                <caption>
+                  <title>Author's
+manuscript</title>
+                </caption>
+                <media xlink:href="bmjopen-2022-064304.draft_revisions.pdf"/>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>We wish to acknowledge our dear colleague Professor Amber Young who lost her brave battle with cancer and passed away on 17th September 2022. The authors would like to thank Valerie Wells (University of Glasgow) for helping with development of a search strategy for the literature reviews and Rui Duarte and Rebecca Bresnahan (both from University of Liverpool) for their advice during conceptualisation of Delphi study design.</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="other">
+                <p><bold>Twitter:</bold> @AnthonyManyara_, @NancyJButcher</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Deceased:</bold> We wish to acknowledge our dear colleague Professor Amber Young who lost her brave battle with cancer and passed away on 17th September 2022.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Contributors:</bold> PD, CW, AY, RT and OC were involved in funding acquisition. AMM, PD, DS, CW, AY, RT and OC were involved in the initial phases of project phases conception and design. AMM, RT and OC were responsible for the first draft of the manuscript. NJB, SB, AWC, GSC, DD, MO, Mario Ouwens and JSR critically reviewed the first draft and approved the final version. The views expressed in this article are those of the authors and not their employers or funders.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Funding:</bold> The development of SPIRIT and CONSORT extensions has been funded by the UK Medical Research Council (grant number MR/V038400/1). GSC was supported by the NIHR Biomedical Research Centre, Oxford, and Cancer Research UK (programme grant: C49297/A27294).</p>
+              </fn>
+              <fn fn-type="COI-statement">
+                <p><bold>Competing interests:</bold> Sylwia Bujkiewicz has served as a paid consultant, providing methodological advice, to NICE, Roche and RTI Health Solutions, received payments for educational events from Roche and has received research funding from European Federation of Pharmaceutical Industries and Associations (EEPIA) and Johnson and Johnson. Mario Ouwens works for and has shares in AstraZeneca. Dr Joseph S Ross is an Associate Editor at BMJ and co-founder (unpaid) of medRxiv; Dr Ross currently receives research support through Yale University from Johnson and Johnson to develop methods of clinical trial data sharing, from the Medical Device Innovation Consortium as part of the National Evaluation System for Health Technology (NEST), from the Food and Drug Administration for the Yale-Mayo Clinic Centre for Excellence in Regulatory Science and Innovation (CERSI) programme (U01FD005938), from the Agency for Healthcare Research and Quality (R01HS022882), from the National Heart, Lung and Blood Institute of the National Institutes of Health (NIH) (R01HS025164 and R01HL144644), and from the Laura and John Arnold Foundation to establish the Good Pharma Scorecard at Bioethics International; in addition, Dr Ross is an expert witness at the request of Relator’s attorneys, the Greene Law Firm, in a qui tam suit alleging violations of the False Claims Act and Anti-Kickback Statute against Biogen Inc.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Patient and public involvement:</bold> Patients and/or the public were involved in the design, or conduct, or reporting, or dissemination plans of this research. Refer to the Methods section for further details.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Provenance and peer review:</bold> Not commissioned; externally peer reviewed.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Supplemental material:</bold> This content has been supplied by the author(s). It has not been vetted by BMJ Publishing Group Limited (BMJ) and may not have been peer-reviewed. Any opinions or recommendations discussed are solely those of the author(s) and are not endorsed by BMJ. BMJ disclaims all liability and responsibility arising from any reliance placed on the content. Where the content includes any translated material, BMJ does not warrant the accuracy and reliability of the translations (including but not limited to local regulations, clinical guidelines, terminology, drug names and drug dosages), and is not responsible for any error and/or omissions arising from translation and adaptation or otherwise.</p>
+              </fn>
+            </fn-group>
+            <sec sec-type="ethics-statement">
+              <title>Ethics statements</title>
+              <sec>
+                <title>Patient consent for publication</title>
+                <p content-type="ethics-consent-to-publish">Not applicable.</p>
+              </sec>
+            </sec>
+            <ref-list>
+              <title>References</title>
+              <ref id="R1">
+                <label>1</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Akobeng</surname><given-names>AK</given-names></string-name></person-group>. <article-title>Understanding randomised controlled trials</article-title>. <source>Arch Dis Child</source><year>2005</year>;<volume>90</volume>:<fpage>840</fpage>–<lpage>4</lpage>. <pub-id pub-id-type="doi">10.1136/adc.2004.058222</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/16040885?><pub-id pub-id-type="pmid">16040885</pub-id></mixed-citation>
+              </ref>
+              <ref id="R2">
+                <label>2</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hariton</surname><given-names>E</given-names></string-name>, <string-name><surname>Locascio</surname><given-names>JJ</given-names></string-name></person-group>. <article-title>Randomised controlled trials - the gold standard for effectiveness research: Study design: randomised controlled trials</article-title>. <source>BJOG</source><year>2018</year>;<volume>125</volume>:<fpage>1716</fpage>–<lpage>16</lpage>. <pub-id pub-id-type="doi">10.1111/1471-0528.15199</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/29916205?><pub-id pub-id-type="pmid">29916205</pub-id></mixed-citation>
+              </ref>
+              <ref id="R3">
+                <label>3</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><collab>FDA-NIH Biomarker Working Group</collab></person-group>. <article-title>BEST (biomarkers, endpoints, and other tools) resource</article-title>. <publisher-loc>Silver Spring (MD), Bethesda (MD)</publisher-loc><publisher-name>Food and Drug Administration (US), National Institutes of Health (US)</publisher-name>; <year>2021</year>.</mixed-citation>
+              </ref>
+              <ref id="R4">
+                <label>4</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Umscheid</surname><given-names>CA</given-names></string-name>, <string-name><surname>Margolis</surname><given-names>DJ</given-names></string-name>, <string-name><surname>Grossman</surname><given-names>CE</given-names></string-name></person-group>. <article-title>Key concepts of clinical trials: a narrative review</article-title>. <source>Postgrad Med</source><year>2011</year>;<volume>123</volume>:<fpage>194</fpage>–<lpage>204</lpage>. <pub-id pub-id-type="doi">10.3810/pgm.2011.09.2475</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/21904102?><pub-id pub-id-type="pmid">21904102</pub-id></mixed-citation>
+              </ref>
+              <ref id="R5">
+                <label>5</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><collab>Biomarkers Definitions Working Group.</collab></person-group>. <article-title>Biomarkers and surrogate endpoints: preferred definitions and conceptual framework</article-title>. <source>Clin Pharmacol Ther</source><year>2001</year>;<volume>69</volume>:<fpage>89</fpage>–<lpage>95</lpage>. <pub-id pub-id-type="doi">10.1067/mcp.2001.113989</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/11240971?><pub-id pub-id-type="pmid">11240971</pub-id></mixed-citation>
+              </ref>
+              <ref id="R6">
+                <label>6</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Fleming</surname><given-names>TR</given-names></string-name>, <string-name><surname>Powers</surname><given-names>JH</given-names></string-name></person-group>. <article-title>Biomarkers and surrogate endpoints in clinical trials</article-title>. <source>Stat Med</source><year>2012</year>;<volume>31</volume>:<fpage>2973</fpage>–<lpage>84</lpage>. <pub-id pub-id-type="doi">10.1002/sim.5403</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/22711298?><pub-id pub-id-type="pmid">22711298</pub-id></mixed-citation>
+              </ref>
+              <ref id="R7">
+                <label>7</label>
+                <mixed-citation publication-type="other"><person-group person-group-type="author"><collab>FDA-NIH Biomarker Working Group</collab></person-group>. <article-title>BEST (biomarkers, endpoints, and other tools) resource</article-title><year>2021</year>.</mixed-citation>
+              </ref>
+              <ref id="R8">
+                <label>8</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Yetley</surname><given-names>EA</given-names></string-name>, <string-name><surname>DeMets</surname><given-names>DL</given-names></string-name>, <string-name><surname>Harlan</surname><given-names>WR</given-names></string-name></person-group>. <article-title>Surrogate disease markers as substitutes for chronic disease outcomes in studies of diet and chronic disease relations</article-title>. <source>Am J Clin Nutr</source><year>2017</year>;<volume>106</volume>:<fpage>1175</fpage>–<lpage>89</lpage>. <pub-id pub-id-type="doi">10.3945/ajcn.117.164046</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/29021287?><pub-id pub-id-type="pmid">29021287</pub-id></mixed-citation>
+              </ref>
+              <ref id="R9">
+                <label>9</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Casarett</surname><given-names>D</given-names></string-name>, <string-name><surname>Karlawish</surname><given-names>J</given-names></string-name>, <string-name><surname>Morales</surname><given-names>K</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Improving the use of hospice services in nursing homes: a randomized controlled trial</article-title>. <source>JAMA</source><year>2005</year>;<volume>294</volume>:<fpage>211</fpage>–<lpage>7</lpage>. <pub-id pub-id-type="doi">10.1001/jama.294.2.211</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/16014595?><pub-id pub-id-type="pmid">16014595</pub-id></mixed-citation>
+              </ref>
+              <ref id="R10">
+                <label>10</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Domke</surname><given-names>A</given-names></string-name>, <string-name><surname>Keller</surname><given-names>J</given-names></string-name>, <string-name><surname>Heuse</surname><given-names>S</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Immediate effects of a very brief planning intervention on fruit and vegetable consumption: a randomized controlled trial</article-title>. <source>Appl Psychol Health Well Being</source><year>2021</year>;<volume>13</volume>:<fpage>377</fpage>–<lpage>93</lpage>. <pub-id pub-id-type="doi">10.1111/aphw.12254</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/33538409?><pub-id pub-id-type="pmid">33538409</pub-id></mixed-citation>
+              </ref>
+              <ref id="R11">
+                <label>11</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Buyse</surname><given-names>M</given-names></string-name>, <string-name><surname>Molenberghs</surname><given-names>G</given-names></string-name>, <string-name><surname>Burzykowski</surname><given-names>T</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>The validation of surrogate endpoints in meta-analyses of randomized experiments</article-title>. <source>Biostatistics</source><year>2000</year>;<volume>1</volume>:<fpage>49</fpage>–<lpage>67</lpage>. <pub-id pub-id-type="doi">10.1093/biostatistics/1.1.49</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/12933525?><pub-id pub-id-type="pmid">12933525</pub-id></mixed-citation>
+              </ref>
+              <ref id="R12">
+                <label>12</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Buyse</surname><given-names>M</given-names></string-name>, <string-name><surname>Saad</surname><given-names>ED</given-names></string-name>, <string-name><surname>Burzykowski</surname><given-names>T</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Surrogacy Beyond Prognosis: The Importance of "Trial-Level" Surrogacy</article-title>. <source>Oncologist</source><year>2022</year>;<volume>27</volume>:<fpage>266</fpage>–<lpage>71</lpage>. <pub-id pub-id-type="doi">10.1093/oncolo/oyac006</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/35380717?><pub-id pub-id-type="pmid">35380717</pub-id></mixed-citation>
+              </ref>
+              <ref id="R13">
+                <label>13</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Xie</surname><given-names>W</given-names></string-name>, <string-name><surname>Halabi</surname><given-names>S</given-names></string-name>, <string-name><surname>Tierney</surname><given-names>JF</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>A systematic review and recommendation for reporting of surrogate endpoint evaluation using meta-analyses</article-title>. <source>JNCI Cancer Spectr</source><year>2019</year>;<volume>3</volume>:<elocation-id>pkz002</elocation-id>. <pub-id pub-id-type="doi">10.1093/jncics/pkz002</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/31360890?><pub-id pub-id-type="pmid">31360890</pub-id></mixed-citation>
+              </ref>
+              <ref id="R14">
+                <label>14</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Daniels</surname><given-names>MJ</given-names></string-name>, <string-name><surname>Hughes</surname><given-names>MD</given-names></string-name></person-group>. <article-title>Meta-Analysis for the evaluation of potential surrogate markers</article-title>. <source>Stat Med</source><year>1997</year>;<volume>16</volume>:<fpage>1965</fpage>–<lpage>82</lpage>. <pub-id pub-id-type="doi">10.1002/(sici)1097-0258(19970915)16:17&amp;lt;1965::aid-sim630&amp;gt;3.0.co;2-m</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/9304767?><pub-id pub-id-type="pmid">9304767</pub-id></mixed-citation>
+              </ref>
+              <ref id="R15">
+                <label>15</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Weir</surname><given-names>CJ</given-names></string-name>, <string-name><surname>Walley</surname><given-names>RJ</given-names></string-name></person-group>. <article-title>Statistical evaluation of biomarkers as surrogate endpoints: a literature review</article-title>. <source>Stat Med</source><year>2006</year>;<volume>25</volume>:<fpage>183</fpage>–<lpage>203</lpage>. <pub-id pub-id-type="doi">10.1002/sim.2319</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/16252272?><pub-id pub-id-type="pmid">16252272</pub-id></mixed-citation>
+              </ref>
+              <ref id="R16">
+                <label>16</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Alonso</surname><given-names>A</given-names></string-name>, <string-name><surname>Van der Elst</surname><given-names>W</given-names></string-name>, <string-name><surname>Molenberghs</surname><given-names>G</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>On the relationship between the causal-inference and meta-analytic paradigms for the validation of surrogate endpoints</article-title>. <source>Biometrics</source><year>2015</year>;<volume>71</volume>:<fpage>15</fpage>–<lpage>24</lpage>. <pub-id pub-id-type="doi">10.1111/biom.12245</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/25274284?><pub-id pub-id-type="pmid">25274284</pub-id></mixed-citation>
+              </ref>
+              <ref id="R17">
+                <label>17</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Vanderweele</surname><given-names>TJ</given-names></string-name></person-group>. <article-title>Surrogate measures and consistent surrogates</article-title>. <source>Biometrics</source><year>2013</year>;<volume>69</volume>:<fpage>561</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1111/biom.12071</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/24073861?><pub-id pub-id-type="pmid">24073861</pub-id></mixed-citation>
+              </ref>
+              <ref id="R18">
+                <label>18</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Alonso</surname><given-names>A</given-names></string-name>, <string-name><surname>Van der Elst</surname><given-names>W</given-names></string-name>, <string-name><surname>Molenberghs</surname><given-names>G</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>An information-theoretic approach for the evaluation of surrogate endpoints based on causal inference</article-title>. <source>Biometrics</source><year>2016</year>;<volume>72</volume>:<fpage>669</fpage>–<lpage>77</lpage>. <pub-id pub-id-type="doi">10.1111/biom.12483</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/26864244?><pub-id pub-id-type="pmid">26864244</pub-id></mixed-citation>
+              </ref>
+              <ref id="R19">
+                <label>19</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Bujkiewicz</surname><given-names>S</given-names></string-name>, <string-name><surname>Jackson</surname><given-names>D</given-names></string-name>, <string-name><surname>Thompson</surname><given-names>JR</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Bivariate network meta-analysis for surrogate endpoint evaluation</article-title>. <source>Stat Med</source><year>2019</year>;<volume>38</volume>:<fpage>3322</fpage>–<lpage>41</lpage>. <pub-id pub-id-type="doi">10.1002/sim.8187</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/31131475?><pub-id pub-id-type="pmid">31131475</pub-id></mixed-citation>
+              </ref>
+              <ref id="R20">
+                <label>20</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Papanikos</surname><given-names>T</given-names></string-name>, <string-name><surname>Thompson</surname><given-names>JR</given-names></string-name>, <string-name><surname>Abrams</surname><given-names>KR</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Bayesian hierarchical meta-analytic methods for modeling surrogate relationships that vary across treatment classes using aggregate data</article-title>. <source>Stat Med</source><year>2020</year>;<volume>39</volume>:<fpage>1103</fpage>–<lpage>24</lpage>. <pub-id pub-id-type="doi">10.1002/sim.8465</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/31990083?><pub-id pub-id-type="pmid">31990083</pub-id></mixed-citation>
+              </ref>
+              <ref id="R21">
+                <label>21</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Grimes</surname><given-names>DA</given-names></string-name>, <string-name><surname>Schulz</surname><given-names>KF</given-names></string-name></person-group>. <article-title>Surrogate end points in clinical research: hazardous to your health</article-title>. <source>Obstet Gynecol</source><year>2005</year>;<volume>105</volume>:<fpage>1114</fpage>–<lpage>8</lpage>. <pub-id pub-id-type="doi">10.1097/01.AOG.0000157445.67309.19</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/15863552?><pub-id pub-id-type="pmid">15863552</pub-id></mixed-citation>
+              </ref>
+              <ref id="R22">
+                <label>22</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Fleming</surname><given-names>TR</given-names></string-name>, <string-name><surname>DeMets</surname><given-names>DL</given-names></string-name></person-group>. <article-title>Surrogate end points in clinical trials: are we being misled?</article-title><source>Ann Intern Med</source><year>1996</year>;<volume>125</volume>:<fpage>605</fpage>–<lpage>13</lpage>. <pub-id pub-id-type="doi">10.7326/0003-4819-125-7-199610010-00011</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/8815760?><pub-id pub-id-type="pmid">8815760</pub-id></mixed-citation>
+              </ref>
+              <ref id="R23">
+                <label>23</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Cohen</surname><given-names>D</given-names></string-name></person-group>. <article-title>Rosiglitazone: what went wrong?</article-title><source>BMJ</source><year>2010</year>;<volume>341</volume>:<elocation-id>c4848</elocation-id>. <pub-id pub-id-type="doi">10.1136/bmj.c4848</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/20819889?><pub-id pub-id-type="pmid">20819889</pub-id></mixed-citation>
+              </ref>
+              <ref id="R24">
+                <label>24</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kumar</surname><given-names>S</given-names></string-name>, <string-name><surname>Rajkumar</surname><given-names>SV</given-names></string-name></person-group>. <article-title>Surrogate endpoints in randomised controlled trials: a reality check</article-title>. <source>Lancet</source><year>2019</year>;<volume>394</volume>:<fpage>281</fpage>–<lpage>3</lpage>. <pub-id pub-id-type="doi">10.1016/S0140-6736(19)31711-8</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/31354129?><pub-id pub-id-type="pmid">31354129</pub-id></mixed-citation>
+              </ref>
+              <ref id="R25">
+                <label>25</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ciani</surname><given-names>O</given-names></string-name>, <string-name><surname>Buyse</surname><given-names>M</given-names></string-name>, <string-name><surname>Garside</surname><given-names>R</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Comparison of treatment effect sizes associated with surrogate and final patient relevant outcomes in randomised controlled trials: meta-epidemiological study</article-title>. <source>BMJ</source><year>2013</year>;<volume>346</volume>:<elocation-id>f457</elocation-id>. <pub-id pub-id-type="doi">10.1136/bmj.f457</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/23360719?><pub-id pub-id-type="pmid">23360719</pub-id></mixed-citation>
+              </ref>
+              <ref id="R26">
+                <label>26</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>la Cour</surname><given-names>JL</given-names></string-name>, <string-name><surname>Brok</surname><given-names>J</given-names></string-name>, <string-name><surname>Gøtzsche</surname><given-names>PC</given-names></string-name></person-group>. <article-title>Inconsistent reporting of surrogate outcomes in randomised clinical trials: cohort study</article-title>. <source>BMJ</source><year>2010</year>;<volume>341</volume>:<fpage>c3653</fpage>–<lpage>c53</lpage>. <pub-id pub-id-type="doi">10.1136/bmj.c3653</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/20719823?><pub-id pub-id-type="pmid">20719823</pub-id></mixed-citation>
+              </ref>
+              <ref id="R27">
+                <label>27</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Bikdeli</surname><given-names>B</given-names></string-name>, <string-name><surname>Punnanithinont</surname><given-names>N</given-names></string-name>, <string-name><surname>Akram</surname><given-names>Y</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Two decades of cardiovascular trials with primary surrogate endpoints: 1990-2011</article-title>. <source>J Am Heart Assoc</source><year>2017</year>;<volume>6</volume>:<elocation-id>e005285</elocation-id>. <pub-id pub-id-type="doi">10.1161/JAHA.116.005285</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/28325713?><pub-id pub-id-type="pmid">28325713</pub-id></mixed-citation>
+              </ref>
+              <ref id="R28">
+                <label>28</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Chan</surname><given-names>A-W</given-names></string-name>, <string-name><surname>Tetzlaff</surname><given-names>JM</given-names></string-name>, <string-name><surname>Altman</surname><given-names>DG</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>SPIRIT 2013 statement: defining standard protocol items for clinical trials</article-title>. <source>Ann Intern Med</source><year>2013</year>;<volume>158</volume>:<fpage>200</fpage>–<lpage>7</lpage>. <pub-id pub-id-type="doi">10.7326/0003-4819-158-3-201302050-00583</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/23295957?><pub-id pub-id-type="pmid">23295957</pub-id></mixed-citation>
+              </ref>
+              <ref id="R29">
+                <label>29</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Schulz</surname><given-names>KF</given-names></string-name>, <string-name><surname>Altman</surname><given-names>DG</given-names></string-name>, <string-name><surname>Moher</surname><given-names>D</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Consort 2010 statement: updated guidelines for reporting parallel group randomised trials</article-title>. <source>BMJ</source><year>2010</year>;<volume>340</volume>:<elocation-id>c332</elocation-id>. <pub-id pub-id-type="doi">10.1136/bmj.c332</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/20332509?><pub-id pub-id-type="pmid">20332509</pub-id></mixed-citation>
+              </ref>
+              <ref id="R30">
+                <label>30</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Turner</surname><given-names>L</given-names></string-name>, <string-name><surname>Shamseer</surname><given-names>L</given-names></string-name>, <string-name><surname>Altman</surname><given-names>DG</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Does use of the CONSORT statement impact the completeness of reporting of randomised controlled trials published in medical journals? A cochrane review</article-title>. <source>Syst Rev</source><year>2012</year>;<volume>1</volume>:<elocation-id>60</elocation-id>. <pub-id pub-id-type="doi">10.1186/2046-4053-1-60</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/23194585?><pub-id pub-id-type="pmid">23194585</pub-id></mixed-citation>
+              </ref>
+              <ref id="R31">
+                <label>31</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Calvert</surname><given-names>M</given-names></string-name>, <string-name><surname>King</surname><given-names>M</given-names></string-name>, <string-name><surname>Mercieca-Bebber</surname><given-names>R</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>SPIRIT-PRO extension explanation and elaboration: guidelines for inclusion of patient-reported outcomes in protocols of clinical trials</article-title>. <source>BMJ Open</source><year>2021</year>;<volume>11</volume>:<elocation-id>e045105</elocation-id>. <pub-id pub-id-type="doi">10.1136/bmjopen-2020-045105</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/34193486?></mixed-citation>
+              </ref>
+              <ref id="R32">
+                <label>32</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Calvert</surname><given-names>M</given-names></string-name>, <string-name><surname>Blazeby</surname><given-names>J</given-names></string-name>, <string-name><surname>Altman</surname><given-names>DG</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Reporting of patient-reported outcomes in randomized trials: the CONSORT pro extension</article-title>. <source>JAMA</source><year>2013</year>;<volume>309</volume>:<fpage>814</fpage>–<lpage>22</lpage>. <pub-id pub-id-type="doi">10.1001/jama.2013.879</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/23443445?><pub-id pub-id-type="pmid">23443445</pub-id></mixed-citation>
+              </ref>
+              <ref id="R33">
+                <label>33</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Butcher</surname><given-names>NJ</given-names></string-name>, <string-name><surname>Monsour</surname><given-names>A</given-names></string-name>, <string-name><surname>Mew</surname><given-names>EJ</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Improving outcome reporting in clinical trial reports and protocols: study protocol for the instrument for reporting planned endpoints in clinical trials (InsPECT)</article-title>. <source>Trials</source><year>2019</year>;<volume>20</volume>:<elocation-id>161</elocation-id>. <pub-id pub-id-type="doi">10.1186/s13063-019-3248-0</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/30841935?><pub-id pub-id-type="pmid">30841935</pub-id></mixed-citation>
+              </ref>
+              <ref id="R34">
+                <label>34</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Moher</surname><given-names>D</given-names></string-name>, <string-name><surname>Schulz</surname><given-names>KF</given-names></string-name>, <string-name><surname>Simera</surname><given-names>I</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Guidance for developers of health research reporting guidelines</article-title>. <source>PLoS Med</source><year>2010</year>;<volume>7</volume>:<elocation-id>e1000217</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pmed.1000217</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/20169112?><pub-id pub-id-type="pmid">20169112</pub-id></mixed-citation>
+              </ref>
+              <ref id="R35">
+                <label>35</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Dimairo</surname><given-names>M</given-names></string-name>, <string-name><surname>Coates</surname><given-names>E</given-names></string-name>, <string-name><surname>Pallmann</surname><given-names>P</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Development process of a consensus-driven consort extension for randomised trials using an adaptive design</article-title>. <source>BMC Med</source><year>2018</year>;<volume>16</volume>:<elocation-id>210</elocation-id>. <pub-id pub-id-type="doi">10.1186/s12916-018-1196-2</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/30442137?><pub-id pub-id-type="pmid">30442137</pub-id></mixed-citation>
+              </ref>
+              <ref id="R36">
+                <label>36</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Imran</surname><given-names>M</given-names></string-name>, <string-name><surname>Kwakkenbos</surname><given-names>L</given-names></string-name>, <string-name><surname>McCall</surname><given-names>SJ</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Methods and results used in the development of a consensus-driven extension to the consolidated standards of reporting trials (CONSORT) statement for trials conducted using cohorts and routinely collected data (CONSORT-ROUTINE)</article-title>. <source>BMJ Open</source><year>2021</year>;<volume>11</volume>:<elocation-id>e049093</elocation-id>. <pub-id pub-id-type="doi">10.1136/bmjopen-2021-049093</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/33926985?></mixed-citation>
+              </ref>
+              <ref id="R37">
+                <label>37</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Yap</surname><given-names>C</given-names></string-name>, <string-name><surname>Bedding</surname><given-names>A</given-names></string-name>, <string-name><surname>de Bono</surname><given-names>J</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>The need for reporting guidelines for early phase dose-finding trials: dose-finding consort extension</article-title>. <source>Nat Med</source><year>2022</year>;<volume>28</volume>:<fpage>6</fpage>–<lpage>7</lpage>. <pub-id pub-id-type="doi">10.1038/s41591-021-01594-1</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/34992264?><pub-id pub-id-type="pmid">34992264</pub-id></mixed-citation>
+              </ref>
+              <ref id="R38">
+                <label>38</label>
+                <mixed-citation publication-type="other"><person-group person-group-type="author"><string-name><surname>Manyara</surname><given-names>AM</given-names></string-name>, <string-name><surname>Davies</surname><given-names>P</given-names></string-name>, <string-name><surname>Stewart</surname><given-names>D</given-names></string-name></person-group>. <article-title>Protocol for scoping and targeted reviews to support development of spirit and consort extensions for randomised controlled trials with surrogate primary endpoints: OSF</article-title><year>2022</year>.</mixed-citation>
+              </ref>
+              <ref id="R39">
+                <label>39</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Arksey</surname><given-names>H</given-names></string-name>, <string-name><surname>O'Malley</surname><given-names>L</given-names></string-name></person-group>. <article-title>Scoping studies: towards a methodological framework</article-title>. <source>Int J Soc Res Methodol</source><year>2005</year>;<volume>8</volume>:<fpage>19</fpage>–<lpage>32</lpage>. <pub-id pub-id-type="doi">10.1080/1364557032000119616</pub-id></mixed-citation>
+              </ref>
+              <ref id="R40">
+                <label>40</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Trevelyan</surname><given-names>EG</given-names></string-name>, <string-name><surname>Robinson</surname><given-names>PN</given-names></string-name></person-group>. <article-title>Delphi methodology in health research: how to do it?</article-title><source>Eur J Integr Med</source><year>2015</year>;<volume>7</volume>:<fpage>423</fpage>–<lpage>8</lpage>. <pub-id pub-id-type="doi">10.1016/j.eujim.2015.07.002</pub-id></mixed-citation>
+              </ref>
+              <ref id="R41">
+                <label>41</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Goodman</surname><given-names>CM</given-names></string-name></person-group>. <article-title>The Delphi technique: a critique</article-title>. <source>J Adv Nurs</source><year>1987</year>;<volume>12</volume>:<fpage>729</fpage>–<lpage>34</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2648.1987.tb01376.x</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/3320139?><pub-id pub-id-type="pmid">3320139</pub-id></mixed-citation>
+              </ref>
+              <ref id="R42">
+                <label>42</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hsu</surname><given-names>C-C</given-names></string-name>, <string-name><surname>Sandford</surname><given-names>BA</given-names></string-name></person-group>. <article-title>The Delphi technique: making sense of consensus</article-title>. <source>Practical assessment, research, and evaluation</source><year>2007</year>;<volume>12</volume>:<fpage>10</fpage>.</mixed-citation>
+              </ref>
+              <ref id="R43">
+                <label>43</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Murphy</surname><given-names>MK</given-names></string-name>, <string-name><surname>Black</surname><given-names>NA</given-names></string-name>, <string-name><surname>Lamping</surname><given-names>DL</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Consensus development methods, and their use in clinical Guideline development</article-title>. <source>Health Technol Assess</source><year>1998</year>;<volume>2</volume>:<elocation-id>i-iv, 1-88</elocation-id>. <pub-id pub-id-type="doi">10.3310/hta2030</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/9561895?></mixed-citation>
+              </ref>
+              <ref id="R44">
+                <label>44</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Liu</surname><given-names>X</given-names></string-name>, <string-name><surname>Cruz Rivera</surname><given-names>S</given-names></string-name>, <string-name><surname>Moher</surname><given-names>D</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Reporting guidelines for clinical trial reports for interventions involving artificial intelligence: the CONSORT-AI extension</article-title>. <source>Nat Med</source><year>2020</year>;<volume>26</volume>:<fpage>1364</fpage>–<lpage>74</lpage>. <pub-id pub-id-type="doi">10.1038/s41591-020-1034-x</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/32908283?><pub-id pub-id-type="pmid">32908283</pub-id></mixed-citation>
+              </ref>
+              <ref id="R45">
+                <label>45</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Duarte</surname><given-names>RV</given-names></string-name>, <string-name><surname>Bresnahan</surname><given-names>R</given-names></string-name>, <string-name><surname>Copley</surname><given-names>S</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Reporting guidelines for clinical trial protocols and reports of implantable neurostimulation devices: protocol for the SPIRIT-iNeurostim and CONSORT-iNeurostim extensions</article-title>. <source>Neuromodulation</source><year>2021</year>. <pub-id pub-id-type="doi">10.1016/j.neurom.2021.10.006</pub-id>. [Epub ahead of print: <comment>17 Nov 2021</comment>].<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/35088759?></mixed-citation>
+              </ref>
+              <ref id="R46">
+                <label>46</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Thabane</surname><given-names>L</given-names></string-name>, <string-name><surname>Hopewell</surname><given-names>S</given-names></string-name>, <string-name><surname>Lancaster</surname><given-names>GA</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Methods and processes for development of a CONSORT extension for reporting pilot randomized controlled trials</article-title>. <source>Pilot Feasibility Stud</source><year>2016</year>;<volume>2</volume>:<fpage>25</fpage>. <pub-id pub-id-type="doi">10.1186/s40814-016-0065-z</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/27965844?><pub-id pub-id-type="pmid">27965844</pub-id></mixed-citation>
+              </ref>
+              <ref id="R47">
+                <label>47</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Rivera</surname><given-names>SC</given-names></string-name>, <string-name><surname>Liu</surname><given-names>X</given-names></string-name>, <string-name><surname>Chan</surname><given-names>A-W</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Guidelines for clinical trial protocols for interventions involving artificial intelligence: the SPIRIT-AI extension</article-title>. <source>BMJ</source><year>2020</year>;<volume>370</volume>:<elocation-id>m3210</elocation-id>. <pub-id pub-id-type="doi">10.1136/bmj.m3210</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/32907797?><pub-id pub-id-type="pmid">32907797</pub-id></mixed-citation>
+              </ref>
+              <ref id="R48">
+                <label>48</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Montgomery</surname><given-names>P</given-names></string-name>, <string-name><surname>Grant</surname><given-names>S</given-names></string-name>, <string-name><surname>Mayo-Wilson</surname><given-names>E</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Reporting randomised trials of social and psychological interventions: the CONSORT-SPI 2018 extension</article-title>. <source>Trials</source><year>2018</year>;<volume>19</volume>:<elocation-id>407</elocation-id>. <pub-id pub-id-type="doi">10.1186/s13063-018-2733-1</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/30060754?><pub-id pub-id-type="pmid">30060754</pub-id></mixed-citation>
+              </ref>
+              <ref id="R49">
+                <label>49</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hopewell</surname><given-names>S</given-names></string-name>, <string-name><surname>Clarke</surname><given-names>M</given-names></string-name>, <string-name><surname>Moher</surname><given-names>D</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>CONSORT for reporting randomized controlled trials in Journal and conference Abstracts: explanation and elaboration</article-title>. <source>PLoS Med</source><year>2008</year>;<volume>5</volume>:<elocation-id>e20</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pmed.0050020</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/18215107?><pub-id pub-id-type="pmid">18215107</pub-id></mixed-citation>
+              </ref>
+              <ref id="R50">
+                <label>50</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Black</surname><given-names>N</given-names></string-name>, <string-name><surname>Murphy</surname><given-names>M</given-names></string-name>, <string-name><surname>Lamping</surname><given-names>D</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Consensus development methods: a review of best practice in creating clinical guidelines</article-title>. <source>J Health Serv Res Policy</source><year>1999</year>;<volume>4</volume>:<fpage>236</fpage>–<lpage>48</lpage>. <pub-id pub-id-type="doi">10.1177/135581969900400410</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/10623041?><pub-id pub-id-type="pmid">10623041</pub-id></mixed-citation>
+              </ref>
+              <ref id="R51">
+                <label>51</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ritchie</surname><given-names>J</given-names></string-name>, <string-name><surname>Lewis</surname><given-names>J</given-names></string-name>, <string-name><surname>Elam</surname><given-names>G</given-names></string-name></person-group>. <article-title>Designing and selecting samples</article-title>. <source>Qualitative research methods</source><year>2003</year>:<fpage>77</fpage>–<lpage>108</lpage>.</mixed-citation>
+              </ref>
+              <ref id="R52">
+                <label>52</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ciani</surname><given-names>O</given-names></string-name>, <string-name><surname>Manyara</surname><given-names>AM</given-names></string-name>, <string-name><surname>Taylor</surname><given-names>RS</given-names></string-name></person-group>. <article-title>Surrogate endpoints in trials-a call for better reporting</article-title>. <source>BMJ</source><year>2022</year>;<volume>378</volume>:<elocation-id>o1912</elocation-id>. <pub-id pub-id-type="doi">10.1136/bmj.o1912</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/35905986?><pub-id pub-id-type="pmid">35905986</pub-id></mixed-citation>
+              </ref>
+              <ref id="R53">
+                <label>53</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Manyara</surname><given-names>AM</given-names></string-name>, <string-name><surname>Ciani</surname><given-names>O</given-names></string-name>, <string-name><surname>Taylor</surname><given-names>RS</given-names></string-name></person-group>. <article-title>A call for better reporting of trials using surrogate primary endpoints</article-title>. <source>Alzheimer’s &amp; Dementia: Translational Research &amp; Clinical Interventions</source><year>2022</year>;<volume>8</volume>:<elocation-id>e12340</elocation-id>.</mixed-citation>
+              </ref>
+              <ref id="R54">
+                <label>54</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ciani</surname><given-names>O</given-names></string-name>, <string-name><surname>Manyara</surname><given-names>A</given-names></string-name>, <string-name><surname>Taylor</surname><given-names>RS</given-names></string-name></person-group>. <article-title>Need for better reporting of trials with surrogate endpoints: SPIRIT|CONSORT-SURROGATE extensions</article-title>. <source>J Epidemiol Community Health</source><year>2022</year>:<elocation-id>jech-2022-219294</elocation-id>. <pub-id pub-id-type="doi">10.1136/jech-2022-219294</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/35750481?></mixed-citation>
+              </ref>
+              <ref id="R55">
+                <label>55</label>
+                <mixed-citation publication-type="other"><person-group person-group-type="author"><string-name><surname>Christina Yap</surname><given-names>MAE</given-names></string-name>, <string-name><surname>Solovyeva</surname><given-names>O</given-names></string-name>, <string-name><surname>Mander</surname><given-names>A</given-names></string-name></person-group>. <article-title>Development of a consort extension for early-phase DoseFinding trials (DF-CONSORT)</article-title><year>2021</year>.</mixed-citation>
+              </ref>
+              <ref id="R56">
+                <label>56</label>
+                <mixed-citation publication-type="other"><person-group person-group-type="author"><string-name><surname>Alan</surname><given-names>M</given-names></string-name>, <string-name><surname>Brennan</surname><given-names>K</given-names></string-name>, <string-name><surname>Diana</surname><given-names>E</given-names></string-name></person-group>. <article-title>Reporting of randomised factorial trials: development of extensions to the CONSORT 2010 and spirit 2013 guidance statements</article-title><year>2021</year>.</mixed-citation>
+              </ref>
+              <ref id="R57">
+                <label>57</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Keeney</surname><given-names>S</given-names></string-name>, <string-name><surname>Hasson</surname><given-names>F</given-names></string-name>, <string-name><surname>McKenna</surname><given-names>H</given-names></string-name></person-group>. <article-title>Consulting the oracle: ten lessons from using the Delphi technique in nursing research</article-title>. <source>J Adv Nurs</source><year>2006</year>;<volume>53</volume>:<fpage>205</fpage>–<lpage>12</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2648.2006.03716.x</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/16422719?><pub-id pub-id-type="pmid">16422719</pub-id></mixed-citation>
+              </ref>
+              <ref id="R58">
+                <label>58</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Guyatt</surname><given-names>GH</given-names></string-name>, <string-name><surname>Oxman</surname><given-names>AD</given-names></string-name>, <string-name><surname>Kunz</surname><given-names>R</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>GRADE guidelines: 2. framing the question and deciding on important outcomes</article-title>. <source>J Clin Epidemiol</source><year>2011</year>;<volume>64</volume>:<fpage>395</fpage>–<lpage>400</lpage>. <pub-id pub-id-type="doi">10.1016/j.jclinepi.2010.09.012</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/21194891?><pub-id pub-id-type="pmid">21194891</pub-id></mixed-citation>
+              </ref>
+              <ref id="R59">
+                <label>59</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>de Blacam</surname><given-names>C</given-names></string-name>, <string-name><surname>Baylis</surname><given-names>AL</given-names></string-name>, <string-name><surname>Kirschner</surname><given-names>RE</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Protocol for the development of a core outcome set for reporting outcomes of management of velopharyngeal dysfunction</article-title>. <source>BMJ Open</source><year>2020</year>;<volume>10</volume>:<elocation-id>e036824</elocation-id>. <pub-id pub-id-type="doi">10.1136/bmjopen-2020-036824</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/32792441?></mixed-citation>
+              </ref>
+              <ref id="R60">
+                <label>60</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><collab>R Core Team</collab></person-group>. <article-title>R: a language and environment for statistical computing</article-title>. <publisher-loc>Vienna, Austria</publisher-loc>; <year>2013</year>.</mixed-citation>
+              </ref>
+              <ref id="R61">
+                <label>61</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Braun</surname><given-names>V</given-names></string-name>, <string-name><surname>Clarke</surname><given-names>V</given-names></string-name></person-group>. <article-title>Using thematic analysis in psychology</article-title>. <source>Qual Res Psychol</source><year>2006</year>;<volume>3</volume>:<fpage>77</fpage>–<lpage>101</lpage>.</mixed-citation>
+              </ref>
+              <ref id="R62">
+                <label>62</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kwakkenbos</surname><given-names>L</given-names></string-name>, <string-name><surname>Juszczak</surname><given-names>E</given-names></string-name>, <string-name><surname>Hemkens</surname><given-names>LG</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Protocol for the development of a consort extension for RCTs using cohorts and routinely collected health data</article-title>. <source>Res Integr Peer Rev</source><year>2018</year>;<volume>3</volume>:<fpage>9</fpage>. <pub-id pub-id-type="doi">10.1186/s41073-018-0053-3</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/30397513?><pub-id pub-id-type="pmid">30397513</pub-id></mixed-citation>
+              </ref>
+              <ref id="R63">
+                <label>63</label>
+                <mixed-citation publication-type="webpage"><person-group person-group-type="author"><collab>EQUATOR Network</collab></person-group>. <article-title>CONSORT-SURROGATE – CONSORT extension for trials using surrogate primary endpoints (registered 10 March 2022)</article-title>, <year>2022</year>. Available: <uri xlink:href="https://www.equator-network.org/library/reporting-guidelines-under-development/reporting-guidelines-under-development-for-clinical-trials/#SURROGATE">https://www.equator-network.org/library/reporting-guidelines-under-development/reporting-guidelines-under-development-for-clinical-trials/#SURROGATE</uri></mixed-citation>
+              </ref>
+              <ref id="R64">
+                <label>64</label>
+                <mixed-citation publication-type="webpage"><person-group person-group-type="author"><collab>EQUATOR Network</collab></person-group>. <article-title>SPIRIT-SURROGATE – SPIRIT extension for protocols of studies using surrogate primary endpoints (registered 10 March 2022)</article-title>, <year>2022</year>. Available: <uri xlink:href="https://www.equator-network.org/library/reporting-guidelines-under-development/reporting-guidelines-under-development-for-clinical-trials-protocols/#SURROGATE">https://www.equator-network.org/library/reporting-guidelines-under-development/reporting-guidelines-under-development-for-clinical-trials-protocols/#SURROGATE</uri></mixed-citation>
+              </ref>
+              <ref id="R65">
+                <label>65</label>
+                <mixed-citation publication-type="webpage"><person-group person-group-type="author"><collab>SPIRIT Statement</collab></person-group>. <article-title>SPIRIT statement website</article-title>, <year>2022</year>. Available: <uri xlink:href="https://www.spirit-statement.org/">https://www.spirit-statement.org/</uri></mixed-citation>
+              </ref>
+              <ref id="R66">
+                <label>66</label>
+                <mixed-citation publication-type="webpage"><person-group person-group-type="author"><collab>CONSORT Statement</collab></person-group>. <article-title>Consort statement website</article-title>, <year>2022</year>. Available: <uri xlink:href="http://www.consort-statement.org/">http://www.consort-statement.org/</uri></mixed-citation>
+              </ref>
+              <ref id="R67">
+                <label>67</label>
+                <mixed-citation publication-type="webpage"><person-group person-group-type="author"><collab>SPIRIT Statement</collab></person-group>. <article-title>Endorsement</article-title>, <year>2022</year>. Available: <uri xlink:href="https://www.spirit-statement.org/about-spirit/spirit-endorsement/">https://www.spirit-statement.org/about-spirit/spirit-endorsement/</uri> [Accessed <comment>02 Mar 2022</comment>].</mixed-citation>
+              </ref>
+              <ref id="R68">
+                <label>68</label>
+                <mixed-citation publication-type="webpage"><person-group person-group-type="author"><collab>CONSORT Statement</collab></person-group>. <article-title>Endorsers</article-title>, <year>2022</year>. Available: <uri xlink:href="http://www.consort-statement.org/about-consort/endorsers1">http://www.consort-statement.org/about-consort/endorsers1</uri> [Accessed <comment>02 Mar 2022</comment>].</mixed-citation>
+              </ref>
+              <ref id="R69">
+                <label>69</label>
+                <mixed-citation publication-type="webpage"><person-group person-group-type="author"><collab>ResearchGate</collab></person-group>. <article-title>Development of surrogate endpoint reporting guidelines: SPIRIT-SURROGATE and CONSORT-SURROGATE</article-title>, <year>2022</year>. Available: <uri xlink:href="https://www.researchgate.net/project/Development-of-surrogate-endpoint-reporting-guidelines-SPIRIT-SURROGATE-and-CONSORT-SURROGATE">https://www.researchgate.net/project/Development-of-surrogate-endpoint-reporting-guidelines-SPIRIT-SURROGATE-and-CONSORT-SURROGATE</uri> [Accessed <comment>2 Mar 2022</comment>].</mixed-citation>
+              </ref>
+              <ref id="R70">
+                <label>70</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Staniszewska</surname><given-names>S</given-names></string-name>, <string-name><surname>Brett</surname><given-names>J</given-names></string-name>, <string-name><surname>Simera</surname><given-names>I</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>GRIPP2 reporting checklists: tools to improve reporting of patient and public involvement in research</article-title>. <source>BMJ</source><year>2017</year>;<volume>358</volume>:<elocation-id>j3453</elocation-id>. <pub-id pub-id-type="doi">10.1136/bmj.j3453</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/28768629?><pub-id pub-id-type="pmid">28768629</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

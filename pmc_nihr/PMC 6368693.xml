@@ -1,0 +1,1131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T10:51:50Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:6368693" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:6368693</identifier>
+        <datestamp>2019-02-15</datestamp>
+        <setSpec>trials</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Trials</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Trials</journal-id>
+              <journal-title-group>
+                <journal-title>Trials</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1745-6215</issn>
+              <publisher>
+                <publisher-name>BioMed Central</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC6368693</article-id>
+              <article-id pub-id-type="pmcid">PMC6368693</article-id>
+              <article-id pub-id-type="pmc-uid">6368693</article-id>
+              <article-id pub-id-type="pmid">30736841</article-id>
+              <article-id pub-id-type="publisher-id">3203</article-id>
+              <article-id pub-id-type="doi">10.1186/s13063-019-3203-0</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Methodology</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Design and implementation of a large and complex trial in emergency medical services</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-6978-8575</contrib-id>
+                  <name>
+                    <surname>Robinson</surname>
+                    <given-names>Maria J.</given-names>
+                  </name>
+                  <address>
+                    <email>maria.robinson@swast.nhs.uk</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Taylor</surname>
+                    <given-names>Jodi</given-names>
+                  </name>
+                  <address>
+                    <email>j.taylor@bristol.ac.uk</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Brett</surname>
+                    <given-names>Stephen J.</given-names>
+                  </name>
+                  <address>
+                    <email>Stephen.brett@imperial.ac.uk</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Nolan</surname>
+                    <given-names>Jerry P.</given-names>
+                  </name>
+                  <address>
+                    <email>jerry.nolan@nhs.net</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Thomas</surname>
+                    <given-names>Matthew</given-names>
+                  </name>
+                  <address>
+                    <email>Matthew.Thomas@UHBristol.nhs.uk</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Reeves</surname>
+                    <given-names>Barnaby C.</given-names>
+                  </name>
+                  <address>
+                    <email>Barney.Reeves@bristol.ac.uk</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rogers</surname>
+                    <given-names>Chris A.</given-names>
+                  </name>
+                  <address>
+                    <email>chris.rogers@bristol.ac.uk</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Voss</surname>
+                    <given-names>Sarah</given-names>
+                  </name>
+                  <address>
+                    <email>Sarah.Voss@uwe.ac.uk</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Clout</surname>
+                    <given-names>Madeleine</given-names>
+                  </name>
+                  <address>
+                    <email>madeleine.clout@bristol.ac.uk</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Benger</surname>
+                    <given-names>Jonathan R.</given-names>
+                  </name>
+                  <address>
+                    <phone>+44 (0) 117 3421498</phone>
+                    <email>Jonathan.Benger@uwe.ac.uk</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <collab>In collaboration with the AIRWAYS-2 study team</collab>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 0498 1379</institution-id><institution-id institution-id-type="GRID">grid.499043.3</institution-id><institution>South Western Ambulance Service NHS Foundation Trust, </institution></institution-wrap>Exeter, UK </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 1936 7603</institution-id><institution-id institution-id-type="GRID">grid.5337.2</institution-id><institution>Clinical Trials and Evaluation Unit, </institution><institution>Bristol Medical School, University of Bristol, </institution></institution-wrap>Bristol, UK </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 0693 2181</institution-id><institution-id institution-id-type="GRID">grid.417895.6</institution-id><institution>Centre for Perioperative Medicine and Critical Care Research, </institution><institution>Imperial College Healthcare NHS Trust, </institution></institution-wrap>London, UK </aff>
+                <aff id="Aff4"><label>4</label>Department of Anaesthesia, Royal United Hospitals Bath NHS Foundation Trust, Bath, UK </aff>
+                <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 0380 7336</institution-id><institution-id institution-id-type="GRID">grid.410421.2</institution-id><institution>University Hospitals Bristol NHS Foundation Trust, </institution></institution-wrap>Bristol, UK </aff>
+                <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2034 5266</institution-id><institution-id institution-id-type="GRID">grid.6518.a</institution-id><institution>Faculty of Health and Applied Sciences, </institution><institution>Glenside Campus, University of the West of England, </institution></institution-wrap>Bristol, BS16 1DD UK </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>8</day>
+                <month>2</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>8</day>
+                <month>2</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2019</year>
+              </pub-date>
+              <volume>20</volume>
+              <elocation-id>108</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>14</day>
+                  <month>2</month>
+                  <year>2018</year>
+                </date>
+                <date date-type="accepted">
+                  <day>17</day>
+                  <month>1</month>
+                  <year>2019</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s). 2019</copyright-statement>
+                <license license-type="OpenAccess">
+                  <license-p><bold>Open Access</bold>This article is distributed under the terms of the Creative Commons Attribution 4.0 International License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The Creative Commons Public Domain Dedication waiver (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link>) applies to the data made available in this article, unless otherwise stated.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <sec>
+                  <title>Background</title>
+                  <p id="Par1">The research study titled “Cluster randomised trial of the clinical and cost effectiveness of the i-gel supraglottic airway device versus tracheal intubation in the initial airway management of out-of-hospital cardiac arrest (AIRWAYS-2)” is a large-scale study being run in the English emergency medical (ambulance) services (EMS). It compares two airway management strategies (tracheal intubation and the i-gel) in out-of-hospital cardiac arrest. We describe the methods used to minimise bias and the challenges associated with the set-up, enrolment, and follow-up that were addressed.</p>
+                </sec>
+                <sec>
+                  <title>Methods</title>
+                  <p id="Par2">AIRWAYS-2 enrols adults without capacity when there is no opportunity to seek prior consent and when the intervention must be delivered immediately. We therefore adopted a cluster randomised design where the unit of randomisation is the individual EMS provider (paramedic). However, because paramedics could not be blinded to the intervention, it was necessary to automatically enrol all eligible patients in the study to avoid bias. Effective implementation required engagement with four large EMS and 95 receiving hospitals. Very high levels of data capture were required to ensure study integrity, and this necessitated collaborative working across multiple organisations. We sought to manage these processes by using a large and comprehensive electronic study database, implementing efficient trial procedures and comprehensive training.</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p id="Par3">Successful implementation of the study design was facilitated by the approaches used. The necessary regulatory and ethical approvals to conduct the study were secured, and benefited from strong patient and public involvement. Early and continued consultation with decision makers within the four participating EMS resulted in a coordinated approach to study set-up. All receiving hospitals gave approval and agreed to collect data. A comprehensive database and programme of training and support were implemented. More than 1500 paramedics have been recruited to the study, and patient enrolment and follow-up has proceeded as planned.</p>
+                </sec>
+                <sec>
+                  <title>Conclusion</title>
+                  <p id="Par4">Care provided by EMS needs to be based on evidence. Although participants may be experiencing life-threatening emergencies, high-quality pre-hospital research is possible in well-designed and well-managed studies. The approaches described here can be used to support successful research that will lead to improved treatment and outcomes in similar patient groups.</p>
+                </sec>
+                <sec>
+                  <title>Trial registration</title>
+                  <p id="Par5"><ext-link ext-link-type="uri" xlink:href="http://www.isrctn.com/ISRCTN08256118">ISRCTN08256118</ext-link>. Registered on 22 July 2014.</p>
+                </sec>
+                <sec>
+                  <title>Electronic supplementary material</title>
+                  <p>The online version of this article (10.1186/s13063-019-3203-0) contains supplementary material, which is available to authorized users.</p>
+                </sec>
+              </abstract>
+              <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>Out-of-hospital cardiac arrest</kwd>
+                <kwd>Cardiopulmonary resuscitation</kwd>
+                <kwd>Emergency medical services</kwd>
+                <kwd>Research design</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100000664</institution-id>
+                      <institution>Health Technology Assessment Programme</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>12/167/102</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Benger</surname>
+                      <given-names>Jonathan R.</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2019</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Background</title>
+              <p id="Par18">The research study titled “Cluster randomised trial of the clinical and cost effectiveness of the i-gel supraglottic airway device versus tracheal intubation in the initial airway management of out-of-hospital cardiac arrest (AIRWAYS-2)” is a randomised controlled trial of an intervention performed by emergency medical (ambulance) service (EMS) providers in the pre-hospital setting in England [<xref ref-type="bibr" rid="CR1">1</xref>, <xref ref-type="bibr" rid="CR2">2</xref>]. The study aims to determine whether a new supraglottic airway device (the i-gel) is superior to tracheal intubation when used as the first advanced airway device in adult patients who have sustained a non-traumatic out-of-hospital cardiac arrest (OHCA). It is funded by the National Institute for Health Research Health Technology Assessment Programme (HTA reference 12/167/102).</p>
+              <p id="Par19">When a cardiac arrest occurs, the heartbeat and breathing cease and the patient becomes unconscious immediately [<xref ref-type="bibr" rid="CR3">3</xref>]; this means that there is no opportunity to obtain prior consent. In addition, the outcome from cardiac arrest is very poor, and more than 90% of patients do not survive to hospital discharge [<xref ref-type="bibr" rid="CR4">4</xref>]. OHCA is sudden and unpredictable and conducting ethical research in patients who have suffered a cardiac arrest and are immediately incapacitated is challenging. Relatively small gains in survival of 3–4% would be clinically meaningful and worthwhile [<xref ref-type="bibr" rid="CR5">5</xref>], providing the intervention is cost effective. This means that large sample sizes are necessary, and missing data could substantially undermine the validity of study results. To improve survival following OHCA, high-quality research is required; however, as described, the logistical and ethical challenges of conducting research in this patient population are challenging. The pre-hospital phase of care is only part of the patient pathway in OHCA. Hospital teams play a key role in data collection and patient follow-up, and effective engagement with receiving hospitals is therefore necessary. Very few pre-hospital studies are randomised controlled trials (RCTs) [<xref ref-type="bibr" rid="CR6">6</xref>], and some previous pre-hospital RCTs have proved unsuccessful [<xref ref-type="bibr" rid="CR7">7</xref>]. Appropriate study features are therefore required to ensure that research in this patient population is:<list list-type="bullet"><list-item><p id="Par20">Ethical, socially acceptable, and compliant with legal and regulatory requirements</p></list-item><list-item><p id="Par21">Practicable in an emergency setting where patient care is the priority</p></list-item><list-item><p id="Par22">Of high methodological quality, addressing the unique challenges of this environment</p></list-item><list-item><p id="Par23">Implemented successfully to answer the study question</p></list-item></list></p>
+              <p id="Par24">The AIRWAYS-2 study protocol and primary results have been published previously [<xref ref-type="bibr" rid="CR1">1</xref>, <xref ref-type="bibr" rid="CR2">2</xref>]. This paper outlines the key methodological design features of AIRWAYS-2, and describes how these facilitated successful implementation of the study in receiving hospitals to address the requirements outlined above. Pre-hospital issues will be described in a separate publication. Our study design choices and experiences may inform future similar studies in patients suddenly incapacitated by life-threatening emergencies, to enhance research quality and success, and improve long-term outcomes for patients.</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Methods: study design</title>
+              <sec id="Sec3">
+                <title>Cluster randomisation and automatic enrolment</title>
+                <p id="Par25">In AIRWAYS-2, the potential participants are unconscious, in need of immediate emergency care, and clinical necessity is therefore the overriding priority. For this reason, it was not possible to design the study to randomise individual patients, and a cluster randomised design was deemed most appropriate. We chose to randomise the EMS provider (paramedic), treating each participating paramedic as a cluster. This choice meant the study had a large number of clusters, with average cluster size being relatively small (the median number of OHCAs attended by a paramedic annually was three in our previous feasibility study [<xref ref-type="bibr" rid="CR8">8</xref>]), which minimises the loss of efficiency due to observations within clusters not being independent.</p>
+                <p id="Par26">Paramedics were randomised in a 1:1 ratio using a purpose-designed, secure internet-based system. This ensured that the number of paramedics in each group was equal; however, some imbalance in the number of patients enrolled was possible as a result of chance. Since it was not possible to blind the participating paramedics to the study intervention, it was necessary to ensure that all eligible patients were enrolled in order to avoid bias. We therefore adopted a model whereby every eligible patient attended by a participating paramedic was automatically enrolled into the study. In this way, the participating paramedics could not influence whether a patient was enrolled, while EMS control room staff, who allocate paramedics to individual patient calls, were blinded to both paramedic participation and allocation. Where two participating paramedics were allocated to the same patient call, the first paramedic ‘at the patient’s side’ was assigned; if both paramedics arrived together, the attendant paramedic, rather than the driver was included for study purposes. Patients could either be consciously enrolled by the participating paramedic, or automatically enrolled following identification of their eligibility subsequent to the OHCA. Data for OHCA are routinely collected and reported by ambulance services [<xref ref-type="bibr" rid="CR9">9</xref>] and interrogation of these, in addition to the study-specific data collection, meant that all (i.e. as close to all as it is possible to be sure of) eligible participants were included; we do not anticipate that there was a significant level of ‘missingness’ in the data.</p>
+              </sec>
+              <sec id="Sec4">
+                <title>Data collection, patient information and consent</title>
+                <p id="Par27">Research in OHCA is challenging because it requires the recruitment of incapacitated adults without the opportunity to obtain prior informed consent. Furthermore, because AIRWAYS-2 is a trial of advanced airway management in the very early stages of OHCA, the intervention is completed within a very short time from the onset of the cardiac arrest and before consent can be sought. For this reason, we had to demonstrate that strict ethical safeguards and robust patient and public involvement were in place when we designed the study and that there was collective equipoise between the two study treatments.</p>
+                <p id="Par28">The following features addressed these challenges:<list list-type="bullet"><list-item><p id="Par29">We decided to use a model of deferred consent for survivors, and a waiver of consent for those who did not survive to hospital discharge. We therefore needed to obtain approval from the Confidentiality Advisory Group (CAG) in England to be able to retain data on our primary outcome (modified Rankin Scale score at hospital discharge or 30 days post-OHCA, which assigns a score of 6 to non-survivors) for all participants enrolled in the study.</p></list-item><list-item><p id="Par30">We considered a model of approaching relatives to seek their agreement to retain the data collected from patients who did not survive; however, there is no basis for this option in English law. There is also a risk that it could generate differential consent rates for patients who did and did not survive, undermining the internal validity of the study, which requires complete or near-complete primary outcome data on all patients enrolled. Furthermore, we are aware that informing relatives that their recently deceased loved one was involved in a research study has a high risk of increasing distress and uncertainty without benefit [<xref ref-type="bibr" rid="CR10">10</xref>–<xref ref-type="bibr" rid="CR12">12</xref>]. Therefore, after careful consideration, and with the agreement of our patient public involvement (PPI) group, we decided not to inform the relatives of enrolled patients who did not survive the initial cardiac arrest that they had participated in a research study. This approach was possible because both airway interventions are currently in use in English EMS, and so OHCA patients could have received one intervention or the other during routine patient care outside the study.</p></list-item><list-item><p id="Par31">For participants who survived to hospital discharge, we sought retrospective consent to collect follow-up data at 3 and 6 months. Our PPI group recommended that patients be informed of the study and asked to consent at the time that they were discharged from the intensive care or coronary care unit, but before hospital discharge. Seeking consent at this time required hospital-based research nurses to carefully monitor the status and location of patients recovering from OHCA, which was time consuming and also led to some patients being discharged from hospital before they could be approached. Therefore, to ensure all participants could be informed about the study, we also obtained approval to request written consent via post.</p></list-item></list></p>
+                <p id="Par32">To maximise consent rates, participants were given three consent options:<list list-type="order"><list-item><p id="Par33">Active follow-up. Data were collected from their medical records and they were invited to complete questionnaires about their ongoing health and wellbeing at 3 and 6 months after OHCA.</p></list-item><list-item><p id="Par34">Passive follow-up. Data were collected from the patient’s medical records, but they were not contacted again, nor invited to complete follow-up questionnaires.</p></list-item><list-item><p id="Par35">No further involvement. No further information was collected, but stating clearly that the information already collected would be retained and included in the data analysis. Anonymity of the participant was assured.</p></list-item></list></p>
+                <p id="Par36">A proportion of participants who experience an OHCA remain incapacitated, and so the study was designed so that a personal consultee (usually a close relative) could provide an opinion as to the follow-up option that would likely be preferred by the patient.</p>
+              </sec>
+              <sec id="Sec5">
+                <title>Securing regulatory approvals</title>
+                <p id="Par37">At the time of set-up, the approval process for research involving patients at hospitals in the UK involved each hospital completing a site-specific information (SSI) form, detailing the research activities performed at that site [<xref ref-type="bibr" rid="CR13">13</xref>]. Hospitals were then required to provide local research governance permissions, which included signing a contract [<xref ref-type="bibr" rid="CR14">14</xref>].</p>
+                <p id="Par38">We recognised that obtaining approval from each hospital would be time consuming, and a streamlined approach was required. Table <xref rid="Tab1" ref-type="table">1</xref> provides details of the process. The key objective was to reduce the burden of obtaining approvals.<table-wrap id="Tab1"><label>Table 1</label><caption><p>Streamlining the hospital approval process</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Normal process</th><th>AIRWAYS-2</th><th>Rationale for streamlining</th><th>Advantage for hospital</th></tr></thead><tbody><tr><td>Site-specific assessment form for each hospital</td><td>Generic site-specific form for all hospitals</td><td/><td>No need for hospital to complete information about local site activities</td></tr><tr><td>Patient consent and information forms on local hospital trust headed paper</td><td>Patient consent and information forms on sponsor/trust headed paper</td><td>Patient recruitment being carried out by ambulance services. No change of practice in hospital and activity limited to follow-up</td><td>No need for hospital to spend time localising patient documents, as documents provided to hospital by study team on ambulance trust/sponsor headed paper</td></tr><tr><td>Principal Investigator</td><td>Local collaborator</td><td>No serious adverse events expected to occur in hospital; likely to occur at roadside and would be reported by ambulance trust</td><td>A research nurse, rather than a doctor, could act as the hospital’s main point of contact for the study</td></tr><tr><td>Third-party contract requiring sign-off at each hospital</td><td>Simple one-page document ‘statement of responsibilities’ issued to hospital sites; no signature required</td><td>Hospital not responsible for participant enrolment or delivering intervention so a simpler agreement is sufficient</td><td>No complicated legal terminology for contracts department to review. No signature, therefore less administration for research and development teams</td></tr></tbody></table></table-wrap></p>
+                <p id="Par39">The lead Clinical Research Network (CRN) offered extensive support during the study set-up phase and agreed that a generic SSI form could be used to gain hospital approvals. This meant that all hospitals could be provided with the pre-populated generic SSI form, reducing the administrative burden. Obtaining contract signatures was identified as an aspect of the approval process that had the potential to cause significant delays [<xref ref-type="bibr" rid="CR13">13</xref>]. To mitigate this, we provided sites with a ‘Statement of Responsibilities’ document in place of the usual contract [<xref ref-type="bibr" rid="CR14">14</xref>], which detailed the support that each hospital would receive in respect of their participation. This document did not require individual site sign-off.</p>
+                <p id="Par40">As part of the approval process, it is usual for hospitals to format study information and consent forms on their own headed paper. Given that the study interventions were delivered in the pre-hospital phase of care and the in-hospital activities related to follow-up data collection, this was not necessary and standard documents could be provided, further reducing administration locally.</p>
+              </sec>
+            </sec>
+            <sec id="Sec6">
+              <title>Methods: study implementation</title>
+              <sec id="Sec7">
+                <title>Identification and engagement of key stakeholders</title>
+                <p id="Par41">All enrolled patients transferred to the emergency department required follow-up data to be collected in hospital. Hospitals identified as potential receiving sites were any of those within, or bordering the geographical area served by, the four participating EMS. It was not possible to predict or influence which hospital an enrolled patient would be taken to, and this meant that all 95 hospitals served by the four ambulance services needed to participate in the trial. If a hospital refused to take part or could not provide the necessary approval, we could not collect data for enrolled patients taken to that hospital.</p>
+                <p id="Par42">To facilitate engagement from all hospitals it was agreed that a multi-faceted approach would be required. We planned to identify key stakeholders who could promote awareness of the study and facilitate communication. Early engagement and good communication with hospitals was essential, as was a clear outline of what their participation would involve. The design of the study, with the intervention administered solely during the pre-hospital phase of care and hospital research activities being limited to obtaining informed consent and data collection meant that Principal Investigators (PIs) were not required at hospital sites; rather a non-medical local collaborator (LC) could be identified as the main point of contact. In the UK, the usual approach is for hospitals to be invited to express an interest in taking part in a research study, and for decisions regarding participation to be made according to local processes [<xref ref-type="bibr" rid="CR15">15</xref>]. A different approach was required to ensure that all hospitals that might receive an AIRWAYS-2 patient took part. In our communications, we provided concise study information and a clear rationale for including all receiving hospitals, rather than inviting hospitals to express an interest in participating.</p>
+              </sec>
+              <sec id="Sec8">
+                <title>Training and management of research staff at a large number of hospitals</title>
+                <p id="Par43">Another major challenge was training the staff at the receiving hospitals. We needed to train over 300 staff at 95 hospitals. When setting up a study it is imperative to ensure the research staff have the appropriate qualifications and training and understand the study protocol. Training is often delivered in the form of face-to-face trial initiation visits at each of the research sites. This can significantly increase the set-up costs and delay opening a site. To mitigate this, we decided to train the hospital staff using online training videos and a detailed, online study manual; this would enable staff to revisit the material as often as they wished and would also make it easier for new staff to join the hospital study teams.</p>
+              </sec>
+              <sec id="Sec9">
+                <title>Design and delivery of a comprehensive electronic study database</title>
+                <p id="Par44">We also invested resources in developing an in-house, bespoke electronic management system that would help manage hospital-specific documentation and facilitate access to central study documents. Figure <xref rid="Fig1" ref-type="fig">1</xref> shows the different components of the electronic management and training system.<fig id="Fig1"><label>Fig. 1</label><caption><p>Electronic trial management system. CV Curriculum Vitae, GCP Good Clinical Practice, GP general practitioner, SAE severe adverse event</p></caption><graphic xlink:href="13063_2019_3203_Fig1_HTML" id="MO1"/></fig></p>
+                <p id="Par45">In designing the electronic management system there were several objectives in mind. The system had to function as the primary communication tool between the study team and the hospital staff, facilitate online training, provide a document library, be easy to use, and reduce the carbon footprint of the trial.</p>
+                <p id="Par46">The system enabled users (principally research staff responsible for data collection in the pre-hospital and in-hospital phases of care) to register for a study account online, complete an electronic delegation log, and upload relevant information and certificates. It was designed to allow users to select their delegated tasks (as appropriate to their role within the study and differing for pre-hospital and in-hospital staff) and for approval for access to be granted by the study manager once the tasks and documentation checks were verified as accurate and complete. All sites had access to the trial master file that was maintained by the study team and a local site file that enabled sites to upload site-specific documents.</p>
+                <p id="Par47">The trial management system automatically generated a unique study identifier and produced patient-specific document packs once a minimum dataset had been uploaded by the research paramedics. Depending on the consent option selected by the patient or their consultee, the trial system created a set of electronic case report forms (eCRF; a copy of the eCRF is available in Additional file <xref rid="MOESM1" ref-type="media">1</xref>) to enable the correct data to be collected for each individual patient. This helped to reduce the workload for the sites, as contact information (for patients and regional research teams) was automatically pre-filled and the correct forms printed. The database had inbuilt and complex data verification and enabled data queries to be sent to research paramedics on a weekly basis.</p>
+              </sec>
+            </sec>
+            <sec id="Sec10">
+              <title>Results</title>
+              <p id="Par48">We obtained study-wide research ethics committee approval in September 2014, with support for automatic enrolment of eligible patients. Our PPI group provided valuable advice which guided various aspects of the study design; we described their input in our applications to demonstrate their role in addressing the major ethical challenges. At the same time, we obtained approval from the CAG to collect primary outcome data without prior consent.</p>
+              <p id="Par49">Four EMS agreed to collaborate in the study. Involving key stakeholders from the ambulance services at an early stage of the planning process enabled the identification of potential issues so that differences between services could be addressed. At two investigator meetings held during set-up, study-wide decisions on clinical practice, logistical issues, and study management were made. We agreed a common communications strategy that addressed paramedics’ concerns, and enabled the wider community (potential patients, EMS providers who were not participating, and healthcare providers) to be informed about the study. We commenced the approval process for the four EMS on 27 January 2015 and the NHS permissions were in place by 5 March 2015.</p>
+              <p id="Par50">We mapped the local National Institute for Health Research Clinical Research Networks (NIHR CRNs) [<xref ref-type="bibr" rid="CR16">16</xref>] (Fig. <xref rid="Fig2" ref-type="fig">2</xref>) covering the study sites, based on the destination hospital to which an AIRWAYS-2 patient might be taken.<fig id="Fig2"><label>Fig. 2</label><caption><p>Clinical Research Network (CRN) involvement in the AIRWAYS-2 trial</p></caption><graphic xlink:href="13063_2019_3203_Fig2_HTML" id="MO2"/></fig></p>
+              <p id="Par51">The lead CRN publicised the trial in their e-newsletter for the research community, and facilitated discussions with the critical care specialty research leads in the relevant CRN regions. This enabled the specialty leads to be approached for help in setting up the study in their local hospitals. A teleconference to further engage with the speciality leads was held and proved fruitful; they provided insights regarding variations in processes across the different hospital sites, gave valuable advice on how to utilise resources in each of their regions, agreed to promote the study at local meetings, and helped to identify suitable contacts within each hospital. Six of the 11 invited specialty leads and representatives from three of the four main CRN regions that covered the ambulance services took part in the teleconference. The representatives from the three CRNs were able to highlight any potential issues with study support in terms of lack of dedicated research nurses at individual sites. This enabled us to plan effectively and we identified hospitals that would potentially need the study regional research nurses to assist with data collection.</p>
+              <p id="Par52">We used the CRN mapping (previously described) to identify LCs during the planning phase. By identifying LCs early on, the hospital teams had time to discuss how the study would be implemented locally, and were able to nominate clinical staff in both emergency and critical care departments who would assist in tracking patients and collecting the required data. With the support of the critical care speciality research leads and the local CRNs, 61 of the 95 LCs were identified before hospital sites were invited to take part in the study. Most of the hospitals accepted that the role of LC could be undertaken by non-medic staff (research nurses in the majority of cases). Four hospitals requested that a doctor undertake this role, and in these sites an intensive care consultant was identified. The identification of LCs before opening the study facilitated internal discussions, raised awareness of AIRWAYS-2, and paved the way for the opening of the study.</p>
+              <p id="Par53">Obtaining NHS approvals was facilitated by the approaches used. We formally initiated the approval process for hospitals on 14 April 2015, and received the first approval 6 days later. Ninety-two of the 95 hospitals accepted the ‘Statement of Responsibilities’, with only three sites requesting a formal contract. We went on to receive NHS management permission from all 95 hospitals identified as potential receiving sites, with the last site agreeing to participate on 4 November 2015.</p>
+              <p id="Par54">Communications with hospital staff commenced 6 months before the planned start of patient enrolment. Figure <xref rid="Fig3" ref-type="fig">3</xref> shows the timeline for communication.<fig id="Fig3"><label>Fig. 3</label><caption><p>Timeline for hospital communications. Early correspondence with hospitals took the form of a trial introduction letter which answered the question “Why do Acute Trusts need to know about this trial”. Follow-up correspondence was sent 2 months later; this provided a trial design summary and information about the incentives the hospital would receive if they admitted an AIRWAYS-2 participant. Further correspondence was sent 1 month later; this provided targeted information answering common questions received from the hospitals. SSI site-specific information</p></caption><graphic xlink:href="13063_2019_3203_Fig3_HTML" id="MO3"/></fig></p>
+              <p id="Par55">The use of an electronic management system greatly enhanced the efficiency of the study; staff were able to access the electronic resources in their own time which meant that face-to-face site initiation visits were unnecessary and that the study manager was able to conduct these by telephone. In addition, the study team were able to monitor training records and site files without visiting the local hospital. The resources required to manage study amendments were reduced significantly; new study documents could be uploaded to the trial master file and all sites were then able to access these immediately.</p>
+              <p id="Par56">Hospital research staff were initially uncertain about online training and electronic site files, but after receiving the training manual and using the electronic management system, the feedback reported to the regional research nurses was extremely positive. One of the most important benefits of the electronic management system was its role as an efficient primary communication tool. On enrolment of an eligible patient, a minimum dataset was entered manually by the research paramedic (these data were not linked to hospital clinical records or other routine data sources); the system then allowed the central research team to notify hospital staff via email that an AIRWAYS-2 patient had entered their hospital, and enabled staff to track the patient through their hospital pathway, approach the patient for deferred consent at the correct time, and enter their data directly onto the database. In some auto-enrolment cases, some months had elapsed between the OHCA and data entry and this meant that the patient was no longer in hospital; these patients were sent a postal invitation by the hospital staff.</p>
+              <p id="Par57">Patient recruitment to the AIRWAYS-2 study commenced on 1 June 2015. More than 1520 paramedics were recruited, randomised, and trained across the four collaborating EMS. Patient recruitment was open for just over 2 years and closed on 13 August 2017. The primary clinical results have been reported previously [<xref ref-type="bibr" rid="CR2">2</xref>].</p>
+              <p id="Par58">The key lessons learnt from the design and implementation of this study are summarised in Table <xref rid="Tab2" ref-type="table">2</xref>.<table-wrap id="Tab2"><label>Table 2</label><caption><p>Key lessons from the AIRWAYS-2 trial</p></caption><table frame="hsides" rules="groups"><tbody><tr><td colspan="2"> • When the randomisation of individual patients is not possible, a cluster randomised design may be considered. A large number of small clusters will reduce intra-class correlation.</td></tr><tr><td colspan="2"> • Automatic enrolment of all eligible patients minimises the risk of bias in circumstances where those responsible for participant enrolment are not blinded to treatment allocation.</td></tr><tr><td colspan="2"> • For research in emergency situations it may be necessary to establish ways of collecting outcome data that do not rely on patient consent. In England, approval from the Confidentiality Advisory Group (CAG) can facilitate this.</td></tr><tr><td colspan="2"> • Strong patient and public involvement (PPI) in study design helps to address challenging ethical and patient consent issues.</td></tr><tr><td colspan="2"> • Hospital teams may not be used to collaborate in emergency medical (ambulance) services-led research.</td></tr><tr><td colspan="2"> • Once an emergency medical (ambulance) service begins patient recruitment, any of the hospitals in the area covered by that service could potentially receive a patient. Therefore, a phased approach to opening hospital sites is not possible and alternative approaches are required.</td></tr><tr><td colspan="2"> • Early identification of key stakeholders at participating healthcare organisations, and the provision of concise study documents, facilitates effective engagement and raises awareness of the study.</td></tr><tr><td colspan="2"> • A study-wide communications strategy, approved by an ethics committee, enables local communities and healthcare organisations to be informed about the study, and minimises the risk of unwilling patients being enrolled.</td></tr><tr><td colspan="2"> • An electronic system can support effective and efficient study management; it facilitates online training for site staff, provides an up-to-date document repository, and enables printing of patient-specific document packs.</td></tr><tr><td colspan="2"> • For patients recruited to clinical trials in emergency situations a flexible approach to follow-up will maximise participation.</td></tr></tbody></table></table-wrap></p>
+            </sec>
+            <sec id="Sec11">
+              <title>Discussion</title>
+              <p id="Par59">AIRWAYS-2 is a large and complex study that aims to guide future initial airway management by EMS providers (paramedics) in patients experiencing out-of-hospital cardiac arrest. All patients enrolled in the trial lacked the capacity to consent, and the time-critical nature of the condition meant that there was no opportunity to identify or approach a consultee. Research in the emergency setting is challenging but essential if we are to improve future clinical practice [<xref ref-type="bibr" rid="CR17">17</xref>]. The design of AIRWAYS-2 needed to be acceptable to patients, their family and carers, with due consideration of the many ethical issues that the study raised. We were guided by our patient and public group in this regard.</p>
+              <p id="Par60">Blinding of individual paramedics was clearly not possible; this presented another challenge because it required that all patients attended by participating paramedics were included. The only way to achieve this was enrol eligible patients automatically. To enable this, we needed to gain approval for the collection and retention of a minimal dataset without consent. Legal provisions enable research in an emergency setting providing all proposed activities have approval from an appropriate research ethics committee [<xref ref-type="bibr" rid="CR18">18</xref>]. The ethics committee demonstrated a high degree of understanding of the nature of prehospital research; recent increases in research activity by EMS and previous work completed by our team are likely to have been beneficial in this regard [<xref ref-type="bibr" rid="CR7">7</xref>].</p>
+              <p id="Par61">The set-up of AIRWAYS-2 was a large undertaking, and we identified a widespread lack of familiarity with the unique features and complexity of pre-hospital research. Many hospitals had no experience of participating in EMS-led studies, or of approaching patients for consent who had been enrolled in a study outside of hospital. There was a lack of understanding that the automatic enrolment of patients by participating EMS providers meant that hospitals might receive a recruited patient at any point following activation of the ambulance service site, and that the patient was already enrolled in the study under a waiver of consent. Consequently, it was not possible for us to take a staggered approach to set-up. We recognised the potential risks that delays in obtaining approvals would pose to the successful implementation of the study [<xref ref-type="bibr" rid="CR13">13</xref>, <xref ref-type="bibr" rid="CR19">19</xref>] and we adopted a proactive approach to managing these. Early and effective engagement and communication with hospital clinical and research management staff, regional clinical leads, and research network colleagues were key factors in this. In regions where we were unable to engage with the CRN representative or specialty leads it was necessary to follow-up with hospital teams individually, and the workload and the time taken to engage with the appropriate teams was increased in these cases.</p>
+              <p id="Par62">One of the greatest risks to the study was the requirement for all hospitals to agree to follow-up participants, and we recognised that it would be difficult to achieve approval from all hospitals that might receive an enrolled patient [<xref ref-type="bibr" rid="CR20">20</xref>–<xref ref-type="bibr" rid="CR22">22</xref>]. At the time of set-up, hospitals were assessed on various performance metrics as part of the national research governance process; one of these metrics was the time taken to review and provide approval for studies. In 16 of the 95 hospitals, it was not possible to identify an LC before the start of patient recruitment. In these sites, the hospital risked a metric target not being met, and seven hospitals initially abandoned the study as a result. We adopted a flexible approach, making allowances for the differing models, challenges, and staff shortages within individual organisations in order to engage all hospitals successfully. When a dedicated research nurse was not available in an individual hospital, we agreed that the AIRWAYS-2 regional research nurses would complete follow-up for admitted patients. The majority of hospitals had agreed to support the study in time for patient recruitment to commence. In sites where we had not received approval within 5 months, the sponsor escalated the issue to senior directors within the hospitals to remind them that they had a duty to support research. Where sites had not issued permission but had received an eligible patient, we worked closely with regional CRNs to expedite approvals in order that consent to follow-up could be requested. Eventually all 95 sites agreed to support the study.</p>
+              <p id="Par63">We made early contact with the NIHR CRNs for the regions covered by the collaborating ambulance services and utilised the support they provided to good effect [<xref ref-type="bibr" rid="CR17">17</xref>]. The assistance provided by the CRNs when communicating with hospitals in their area was helpful, and intelligence regarding local resources and capacity was used in planning. We found some inconsistency in terms of CRN support for AIRWAYS-2, and this had a direct bearing on the time taken to secure local approvals. In the three regions where good support was in place we experienced minimal resistance to setting up the study, whereas in the one region where the local CRN was not fully supportive the timelines for approval were extended, and more time and effort was needed to gain agreement from the hospitals.</p>
+              <p id="Par64">The electronic system was crucial when managing sites. In most trials with many hospitals taking part, a staggered approach to site start-up is used. In AIRWAYS-2 this was not possible since once patient enrolment began in an ambulance service, there was no way to predict which hospitals served by that ambulance service would receive a patient; approvals and training of staff at all 95 hospitals needed to be completed before patient enrolment commenced. Had this not been possible, there was a risk that participants would not be informed about the trial in a timely manner, and the opportunity to approach them and obtain consent for continued study involvement and data collection from those patients that survived to hospital discharge would be lost. The electronic study management and online training systems significantly reduced the time and resources required to deliver training to staff, and enabled the trial to operate virtually paper free throughout.</p>
+            </sec>
+            <sec id="Sec12">
+              <title>Conclusion</title>
+              <p id="Par65">EMS are increasingly research active. Incidents attended by EMS providers (paramedics) can be life-threatening emergencies, and this adds complexity to the design and implementation of research in this setting. Early and comprehensive engagement with key stakeholders is essential in the set-up of collaborative trials. Strategies to identify risks and practical problems before a study opens to recruitment can effectively mitigate against these, and a study-wide communication strategy can be utilised effectively.</p>
+              <p id="Par66">The AIRWAYS-2 trial describes a methodological approach to successful and ethical research in the most severely ill and injured patients who lack capacity and require immediate life-saving treatment. The key features of study design and implementation described here can be used to support deliverable research that will lead to improved treatment and outcomes in this and similar patient groups.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Additional files</title>
+              <sec id="Sec13">
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM1">
+                    <media xlink:href="13063_2019_3203_MOESM1_ESM.pdf">
+                      <label>Additional file 1:</label>
+                      <caption>
+                        <p>The electronic case report form (eCRF). (PDF 290 kb)</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                  <supplementary-material content-type="local-data" id="MOESM2">
+                    <media xlink:href="13063_2019_3203_MOESM2_ESM.docx">
+                      <label>Additional file 2:</label>
+                      <caption>
+                        <p>Contributorship statement. (DOCX 16 kb)</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term>CAG</term>
+                  <def>
+                    <p id="Par6">Confidentiality Advisory Group</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>CRN</term>
+                  <def>
+                    <p id="Par7">Clinical Research Network</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>eCRF</term>
+                  <def>
+                    <p id="Par8">Electronic case report form</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>EMS</term>
+                  <def>
+                    <p id="Par9">Emergency medical service</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>HTA</term>
+                  <def>
+                    <p id="Par10">Health Technology Assessment</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>LC</term>
+                  <def>
+                    <p id="Par11">Local collaborator</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>NIHR</term>
+                  <def>
+                    <p id="Par12">National Institute for Health Research Clinical Research Network</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>OHCA</term>
+                  <def>
+                    <p id="Par13">Out-of-hospital cardiac arrest</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>PI</term>
+                  <def>
+                    <p id="Par14">Principal Investigator</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>PPI</term>
+                  <def>
+                    <p id="Par15">Patient public involvement</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>RCT</term>
+                  <def>
+                    <p id="Par16">Randomised controlled trial</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>SSI</term>
+                  <def>
+                    <p id="Par17">Site-specific information</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>The AIRWAYS-2 study team acknowledges the vital contribution of all the paramedics in the East of England, East Midlands, South Western, and Yorkshire Ambulance Services who participated in the trial, and all the research staff, at 95 hospitals in England, who collected follow-up data for patients enrolled in the study. We also acknowledge the contribution of the staff of the Clinical Trials and Evaluation Unit, Bristol.</p>
+              <sec id="FPar1">
+                <title>Funding</title>
+                <p id="Par67">The trial is funded by the National Institute for Health Research (NIHR) Health Technology Assessment (HTA) (project number 12/167/102). SJB acknowledges the support of the Comprehensive Biomedical Research Centre based at Imperial College Healthcare NHS Trust and Imperial College London.The views and opinions expressed herein are those of the authors and do not necessarily reflect those of the HTA, NIHR, NHS, or the Department of Health.</p>
+              </sec>
+              <sec id="FPar2">
+                <title>Contributorship statement</title>
+                <p id="Par68">See Additional file <xref rid="MOESM2" ref-type="media">2</xref>.</p>
+              </sec>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Authors’ contributions</title>
+              <p>All authors contributed to the design and delivery of the AIRWAYS-2 trial. MJR, JT, and JRB drafted the manuscript. SJB, JPN, MT, BCR, CAR, SV, and MC critically revised the manuscript for important intellectual content. All authors approved the final version.</p>
+            </notes>
+            <notes notes-type="COI-statement">
+              <sec id="FPar3">
+                <title>Ethics approval and consent to participate</title>
+                <p>Ethical review and approval was provided by South Central - Oxford C Research Ethics Committee. The Confidentiality Advisory Group (CAG) gave approval for enrolment of patients without prior consent.</p>
+              </sec>
+              <sec id="FPar4">
+                <title>Consent for publication</title>
+                <p>Not applicable.</p>
+              </sec>
+              <sec id="FPar5">
+                <title>Competing interests</title>
+                <p>The authors declare that they have no competing interests.</p>
+              </sec>
+              <sec id="FPar6">
+                <title>Publisher’s Note</title>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </sec>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Taylor</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Black</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Brett</surname>
+                      <given-names>SJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Kirby</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Nolan</surname>
+                      <given-names>JP</given-names>
+                    </name>
+                    <name>
+                      <surname>Reeves</surname>
+                      <given-names>BC</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Design and implementation of the AIRWAYS-2 trial: a multi-centre cluster randomised controlled trial of the clinical and cost effectiveness of the i-gel supraglottic airway device versus tracheal intubation in the initial airway management of out of hospital cardiac arrest</article-title>
+                  <source>Resuscitation</source>
+                  <year>2016</year>
+                  <volume>109</volume>
+                  <fpage>25</fpage>
+                  <lpage>32</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.resuscitation.2016.09.016</pub-id>
+                  <?supplied-pmid 27697605?>
+                  <pub-id pub-id-type="pmid">27697605</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Benger</surname>
+                      <given-names>JR</given-names>
+                    </name>
+                    <name>
+                      <surname>Kirby</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Black</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Brett</surname>
+                      <given-names>SJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Clout</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Lazaroo</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Nolan</surname>
+                      <given-names>JP</given-names>
+                    </name>
+                    <name>
+                      <surname>Reeves</surname>
+                      <given-names>BC</given-names>
+                    </name>
+                    <name>
+                      <surname>Robinson</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Scott</surname>
+                      <given-names>LJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Smartt</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effect of a strategy of a supraglottic airway device vs tracheal intubation during out-of-hospital cardiac arrest on functional outcome: the AIRWAYS-2 randomized clinical trial</article-title>
+                  <source>JAMA</source>
+                  <year>2018</year>
+                  <volume>320</volume>
+                  <issue>8</issue>
+                  <fpage>779</fpage>
+                  <lpage>791</lpage>
+                  <pub-id pub-id-type="doi">10.1001/jama.2018.11597</pub-id>
+                  <pub-id pub-id-type="pmid">30167701</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <mixed-citation publication-type="other">Chamberlain D, Cummins RO, Abramson N, Allen M, Baskett P, Becker L, et al. Recommended guidelines for uniform reporting of data from out-of-hospital cardiac arrest: the ‘Utstein style’. Resuscitation. 22(1):1–26. 10.1016/0300-9572(91)90061-3.</mixed-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hawkes</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Booth</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Ji</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Brace-McDonnell</surname>
+                      <given-names>SJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Whittington</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Mapstone</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Epidemiology and outcomes from out-of-hospital cardiac arrests in England</article-title>
+                  <source>Resuscitation</source>
+                  <year>2017</year>
+                  <volume>110</volume>
+                  <fpage>133</fpage>
+                  <lpage>140</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.resuscitation.2016.10.030</pub-id>
+                  <?supplied-pmid 27865775?>
+                  <pub-id pub-id-type="pmid">27865775</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nichol</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Brown</surname>
+                      <given-names>SP</given-names>
+                    </name>
+                    <name>
+                      <surname>Perkins</surname>
+                      <given-names>GD</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>What change in outcomes after cardiac arrest is necessary to change practice? Results of an international survey</article-title>
+                  <source>Resuscitation</source>
+                  <year>2016</year>
+                  <volume>107</volume>
+                  <fpage>115</fpage>
+                  <lpage>120</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.resuscitation.2016.08.004</pub-id>
+                  <?supplied-pmid 27565860?>
+                  <pub-id pub-id-type="pmid">27565860</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <mixed-citation publication-type="other">Venkataraman A, Anderson P, Bierens J, et al. Prehospital research: an introduction: Falck Foundation; 2014. <ext-link ext-link-type="uri" xlink:href="http://prehospitalresearch.eu/?p=3158">http://prehospitalresearch.eu/?p=3158</ext-link>. [Accessed 1 Dec 2017]</mixed-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Turner</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Nicholl</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Webber</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Cox</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Dixon</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Yates</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A randomised controlled trial of prehospital intravenous fluid replacement therapy in serious trauma</article-title>
+                  <source>Health Technol Assess (Winch Eng)</source>
+                  <year>2000</year>
+                  <volume>4</volume>
+                  <issue>31</issue>
+                  <fpage>1</fpage>
+                  <lpage>57</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Benger</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Coates</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Davies</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Greenwood</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Nolan</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Rhys</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Randomised comparison of the effectiveness of the laryngeal mask airway supreme, i-gel and current practice in the initial airway management of out of hospital cardiac arrest: a feasibility study</article-title>
+                  <source>Br J Anaesth</source>
+                  <year>2016</year>
+                  <volume>116</volume>
+                  <issue>2</issue>
+                  <fpage>262</fpage>
+                  <lpage>268</lpage>
+                  <pub-id pub-id-type="doi">10.1093/bja/aev477</pub-id>
+                  <?supplied-pmid 26787796?>
+                  <pub-id pub-id-type="pmid">26787796</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <mixed-citation publication-type="other">NHS England ambulance quality indicators. <ext-link ext-link-type="uri" xlink:href="https://www.england.nhs.uk/statistics/statistical-work-areas/ambulance-quality-indicators/">https://www.england.nhs.uk/statistics/statistical-work-areas/ambulance-quality-indicators/</ext-link> Accessed 10 Jan 2018.</mixed-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jansen</surname>
+                      <given-names>TC</given-names>
+                    </name>
+                    <name>
+                      <surname>Kompanje</surname>
+                      <given-names>EJO</given-names>
+                    </name>
+                    <name>
+                      <surname>Druml</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Menon</surname>
+                      <given-names>DK</given-names>
+                    </name>
+                    <name>
+                      <surname>Wiedermann</surname>
+                      <given-names>CJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Bakker</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Deferred consent in emergency intensive care research: what if the patient dies early? Use the data or not?</article-title>
+                  <source>Intensive Care Med</source>
+                  <year>2007</year>
+                  <volume>33</volume>
+                  <issue>5</issue>
+                  <fpage>894</fpage>
+                  <lpage>900</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00134-007-0580-8</pub-id>
+                  <?supplied-pmid 17342513?>
+                  <pub-id pub-id-type="pmid">17342513</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Whitesides</surname>
+                      <given-names>LW</given-names>
+                    </name>
+                    <name>
+                      <surname>Baren</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Biros</surname>
+                      <given-names>MH</given-names>
+                    </name>
+                    <name>
+                      <surname>Fleischman</surname>
+                      <given-names>RJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Govindarajan</surname>
+                      <given-names>PR</given-names>
+                    </name>
+                    <name>
+                      <surname>Jones</surname>
+                      <given-names>EB</given-names>
+                    </name>
+                    <name>
+                      <surname>Pancioli</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                    <name>
+                      <surname>Pentz</surname>
+                      <given-names>RD</given-names>
+                    </name>
+                    <name>
+                      <surname>Scicluna</surname>
+                      <given-names>VM</given-names>
+                    </name>
+                    <name>
+                      <surname>Wright</surname>
+                      <given-names>DW</given-names>
+                    </name>
+                    <name>
+                      <surname>Dickert</surname>
+                      <given-names>NW</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Impact of individual clinical outcomes on trial participants’ perspectives on enrollment in emergency research without consent</article-title>
+                  <source>Clinical Trials</source>
+                  <year>2017</year>
+                  <volume>14</volume>
+                  <issue>2</issue>
+                  <fpage>180</fpage>
+                  <lpage>186</lpage>
+                  <pub-id pub-id-type="doi">10.1177/1740774516677276</pub-id>
+                  <?supplied-pmid 28359192?>
+                  <pub-id pub-id-type="pmid">28359192</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Woolfall</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Young</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Frith</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Appleton</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Iyer</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Messahel</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Hickey</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Gamble</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Doing challenging research studies in a patient-centred way: a qualitative study to inform a randomised controlled trial in the paediatric emergency care setting</article-title>
+                  <source>BMJ Open</source>
+                  <year>2014</year>
+                  <volume>4</volume>
+                  <issue>5</issue>
+                  <fpage>e005045</fpage>
+                  <pub-id pub-id-type="doi">10.1136/bmjopen-2014-005045</pub-id>
+                  <?supplied-pmid 24833694?>
+                  <pub-id pub-id-type="pmid">24833694</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kearney</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>McKay</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Hickey</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Balabanova</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Marson</surname>
+                      <given-names>AG</given-names>
+                    </name>
+                    <name>
+                      <surname>Gamble</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Williamson</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Opening research sites in multicentre clinical trials within the UK: a detailed analysis of delays</article-title>
+                  <source>BMJ Open</source>
+                  <year>2014</year>
+                  <volume>4</volume>
+                  <issue>9</issue>
+                  <fpage>e005874</fpage>
+                  <pub-id pub-id-type="doi">10.1136/bmjopen-2014-005874</pub-id>
+                  <?supplied-pmid 25227630?>
+                  <pub-id pub-id-type="pmid">25227630</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <mixed-citation publication-type="other">Model agreement for non-commercial research in the Health Service. <ext-link ext-link-type="uri" xlink:href="https://www.ukcrc.org/regulation-governance/model-agreements/">https://www.ukcrc.org/regulation-governance/model-agreements/</ext-link>. Accessed 6 Dec 2017.</mixed-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <mixed-citation publication-type="other">NIHR site identification. <ext-link ext-link-type="uri" xlink:href="https://www.nihr.ac.uk/funding-and-support/study-support-service/site-identification/">https://www.nihr.ac.uk/funding-and-support/study-support-service/site-identification/</ext-link>. Accessed 31 Jan 2018.</mixed-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <mixed-citation publication-type="other">NIHR in your area, Local Clinical Research Networks. <ext-link ext-link-type="uri" xlink:href="https://www.nihr.ac.uk/nihr-in-your-area/local-clinical-research-networks.htm">https://www.nihr.ac.uk/nihr-in-your-area/local-clinical-research-networks.htm</ext-link>. Accessed 31 Jan 2018.</mixed-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lecouturier</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Rodgers</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Ford</surname>
+                      <given-names>GA</given-names>
+                    </name>
+                    <name>
+                      <surname>Rapley</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Stobbart</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Louw</surname>
+                      <given-names>SJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Murtagh</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Clinical research without consent in adults in the emergency setting: a review of patient and public views</article-title>
+                  <source>BMC Med Ethics</source>
+                  <year>2008</year>
+                  <volume>9</volume>
+                  <issue>1</issue>
+                  <fpage>9</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1472-6939-9-9</pub-id>
+                  <?supplied-pmid 18445261?>
+                  <pub-id pub-id-type="pmid">18445261</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <mixed-citation publication-type="other">The Medicines for Human Use (Clinical Trials) Amendment (No.2) Regulations 2006. <ext-link ext-link-type="uri" xlink:href="http://www.legislation.gov.uk/uksi/2006/2984/contents/made">http://www.legislation.gov.uk/uksi/2006/2984/contents/made</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hackshaw</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Farrant</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Bulley</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Seckl</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Ledermann</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Setting up non-commercial clinical trials takes too long in the UK: findings from a prospective study</article-title>
+                  <source>J R Soc Med</source>
+                  <year>2008</year>
+                  <volume>101</volume>
+                  <issue>6</issue>
+                  <fpage>299</fpage>
+                  <lpage>304</lpage>
+                  <pub-id pub-id-type="doi">10.1258/jrsm.2008.070373</pub-id>
+                  <?supplied-pmid 18515777?>
+                  <pub-id pub-id-type="pmid">18515777</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kielmann</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Tierney</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Porteous</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Huby</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Sheikh</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Pinnock</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Department of Health’s research governance framework remains an impediment to multi-centre studies: findings from a national descriptive study</article-title>
+                  <source>J R Soc Med</source>
+                  <year>2007</year>
+                  <volume>100</volume>
+                  <issue>5</issue>
+                  <fpage>234</fpage>
+                  <lpage>238</lpage>
+                  <pub-id pub-id-type="doi">10.1258/jrsm.100.5.234</pub-id>
+                  <?supplied-pmid 17470931?>
+                  <pub-id pub-id-type="pmid">17470931</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Thompson</surname>
+                      <given-names>AG</given-names>
+                    </name>
+                    <name>
+                      <surname>France</surname>
+                      <given-names>EF</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>One stop or full stop? The continuing challenges for researchers despite the new streamlined NHS research governance process</article-title>
+                  <source>BMC Health Serv Res</source>
+                  <year>2010</year>
+                  <volume>10</volume>
+                  <issue>1</issue>
+                  <fpage>124</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1472-6963-10-124</pub-id>
+                  <?supplied-pmid 20465819?>
+                  <pub-id pub-id-type="pmid">20465819</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Snooks</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Hutchings</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Seagrove</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Stewart-Brown</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Williams</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Russell</surname>
+                      <given-names>I</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Bureaucracy stifles medical research in Britain: a tale of three trials</article-title>
+                  <source>BMC Med Res Methodol</source>
+                  <year>2012</year>
+                  <volume>12</volume>
+                  <issue>1</issue>
+                  <fpage>122</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1471-2288-12-122</pub-id>
+                  <?supplied-pmid 22898336?>
+                  <pub-id pub-id-type="pmid">22898336</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

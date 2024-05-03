@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T10:15:26Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:9535185" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:9535185</identifier>
+        <datestamp>2022-10-07</datestamp>
+        <setSpec>bmjo</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">BMJ Open</journal-id>
+              <journal-id journal-id-type="iso-abbrev">BMJ Open</journal-id>
+              <journal-id journal-id-type="hwp">bmjopen</journal-id>
+              <journal-id journal-id-type="publisher-id">bmjopen</journal-id>
+              <journal-title-group>
+                <journal-title>BMJ Open</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2044-6055</issn>
+              <publisher>
+                <publisher-name>BMJ Publishing Group</publisher-name>
+                <publisher-loc>BMA House, Tavistock Square, London, WC1H 9JR</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC9535185</article-id>
+              <article-id pub-id-type="pmcid">PMC9535185</article-id>
+              <article-id pub-id-type="pmc-uid">9535185</article-id>
+              <article-id pub-id-type="pmid">36198471</article-id>
+              <article-id pub-id-type="pmid">36198471</article-id>
+              <article-id pub-id-type="publisher-id">bmjopen-2022-067140</article-id>
+              <article-id pub-id-type="doi">10.1136/bmjopen-2022-067140</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Radiology and Imaging</subject>
+                </subj-group>
+                <subj-group subj-group-type="hwp-journal-coll">
+                  <subject>1506</subject>
+                  <subject>1726</subject>
+                </subj-group>
+                <series-title>Protocol</series-title>
+              </article-categories>
+              <title-group>
+                <article-title>Development of machine learning support for reading whole body diffusion-weighted MRI (WB-MRI) in myeloma for the detection and quantification of the extent of disease before and after treatment (MALIMAR): protocol for a cross-sectional diagnostic test accuracy study</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib id="author-100113973" contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-2935-6532</contrib-id>
+                  <name>
+                    <surname>Satchwell</surname>
+                    <given-names>Laura</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib id="author-100114050" contrib-type="author">
+                  <name>
+                    <surname>Wedlake</surname>
+                    <given-names>Linda</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib id="author-100114051" contrib-type="author">
+                  <name>
+                    <surname>Greenlay</surname>
+                    <given-names>Emily</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib id="author-100114052" contrib-type="author">
+                  <name>
+                    <surname>Li</surname>
+                    <given-names>Xingfeng</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib id="author-100114053" contrib-type="author">
+                  <name>
+                    <surname>Messiou</surname>
+                    <given-names>Christina</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <xref rid="aff3" ref-type="aff">3</xref>
+                </contrib>
+                <contrib id="author-77304248" contrib-type="author">
+                  <name>
+                    <surname>Glocker</surname>
+                    <given-names>Ben</given-names>
+                  </name>
+                  <xref rid="aff4" ref-type="aff">4</xref>
+                </contrib>
+                <contrib id="author-100114055" contrib-type="author">
+                  <name>
+                    <surname>Barwick</surname>
+                    <given-names>Tara</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                  <xref rid="aff5" ref-type="aff">5</xref>
+                </contrib>
+                <contrib id="author-100114056" contrib-type="author">
+                  <name>
+                    <surname>Barfoot</surname>
+                    <given-names>Theodore</given-names>
+                  </name>
+                  <xref rid="aff6" ref-type="aff">6</xref>
+                </contrib>
+                <contrib id="author-100114057" contrib-type="author">
+                  <name>
+                    <surname>Doran</surname>
+                    <given-names>Simon</given-names>
+                  </name>
+                  <xref rid="aff3" ref-type="aff">3</xref>
+                </contrib>
+                <contrib id="author-100114059" contrib-type="author">
+                  <name>
+                    <surname>Leach</surname>
+                    <given-names>Martin O</given-names>
+                  </name>
+                  <xref rid="aff3" ref-type="aff">3</xref>
+                </contrib>
+                <contrib id="author-100117564" contrib-type="author">
+                  <name>
+                    <surname>Koh</surname>
+                    <given-names>Dow Mu</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <xref rid="aff3" ref-type="aff">3</xref>
+                </contrib>
+                <contrib id="author-74069210" contrib-type="author">
+                  <name>
+                    <surname>Kaiser</surname>
+                    <given-names>Martin</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <xref rid="aff3" ref-type="aff">3</xref>
+                </contrib>
+                <contrib id="author-100117622" contrib-type="author">
+                  <name>
+                    <surname>Winzeck</surname>
+                    <given-names>Stefan</given-names>
+                  </name>
+                  <xref rid="aff4" ref-type="aff">4</xref>
+                </contrib>
+                <contrib id="author-100117644" contrib-type="author">
+                  <name>
+                    <surname>Qaiser</surname>
+                    <given-names>Talha</given-names>
+                  </name>
+                  <xref rid="aff4" ref-type="aff">4</xref>
+                </contrib>
+                <contrib id="author-100117677" contrib-type="author">
+                  <name>
+                    <surname>Aboagye</surname>
+                    <given-names>Eric</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib id="author-82131278" contrib-type="author">
+                  <name>
+                    <surname>Rockall</surname>
+                    <given-names>Andrea</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                  <xref rid="aff5" ref-type="aff">5</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1"><label>1</label><institution>Royal Marsden Hospital NHS Trust</institution>, <addr-line content-type="city">London</addr-line>, <country>UK</country></aff>
+              <aff id="aff2"><label>2</label><institution content-type="department">Department of Cancer and Surgery</institution>, <institution>Imperial College London</institution>, <addr-line content-type="city">London</addr-line>, <country>UK</country></aff>
+              <aff id="aff3"><label>3</label><institution>Institute of Cancer Research</institution>, <addr-line content-type="city">London</addr-line>, <country>UK</country></aff>
+              <aff id="aff4"><label>4</label><institution content-type="department">Department of Computing</institution>, <institution>Imperial College London</institution>, <addr-line content-type="city">London</addr-line>, <country>UK</country></aff>
+              <aff id="aff5"><label>5</label><institution content-type="department">Department of Radiology</institution>, <institution>Imperial College Healthcare NHS Trust</institution>, <addr-line content-type="city">London</addr-line>, <country>UK</country></aff>
+              <aff id="aff6"><label>6</label><institution>King's College London</institution>, <addr-line content-type="city">London</addr-line>, <country>UK</country></aff>
+              <author-notes>
+                <corresp><label>Correspondence to</label> Laura Satchwell; <email>laura.satchwell@rmh.nhs.uk</email></corresp>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>5</day>
+                <month>10</month>
+                <year>2022</year>
+              </pub-date>
+              <volume>12</volume>
+              <issue>10</issue>
+              <elocation-id>e067140</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>03</day>
+                  <month>8</month>
+                  <year>2022</year>
+                </date>
+                <date date-type="accepted">
+                  <day>25</day>
+                  <month>8</month>
+                  <year>2022</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© Author(s) (or their employer(s)) 2022. Re-use permitted under CC BY-NC. No commercial re-use. See rights and permissions. Published by BMJ.</copyright-statement>
+                <copyright-year>2022</copyright-year>
+                <ali:free_to_read/>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbynclicense" start_date="2022-10-05">https://creativecommons.org/licenses/by-nc/4.0/</ali:license_ref>
+                  <license-p>This is an open access article distributed in accordance with the Creative Commons Attribution Non Commercial (CC BY-NC 4.0) license, which permits others to distribute, remix, adapt, build upon this work non-commercially, and license their derivative works on different terms, provided the original work is properly cited, appropriate credit is given, any changes made indicated, and the use is non-commercial. See: <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:title="pdf" xlink:href="bmjopen-2022-067140.pdf"/>
+              <self-uri content-type="reviewers-comments-pdf" xlink:href="bmjopen-2022-067140.reviewer_comments.pdf"/>
+              <self-uri content-type="draft-revisions-pdf" xlink:href="bmjopen-2022-067140.draft_revisions.pdf"/>
+              <abstract>
+                <sec>
+                  <title>Introduction</title>
+                  <p>Whole-body MRI (WB-MRI) is recommended by the National Institute of Clinical Excellence as the first-line imaging tool for diagnosis of multiple myeloma. Reporting WB-MRI scans requires expertise to interpret and can be challenging for radiologists who need to meet rapid turn-around requirements. Automated computational tools based on machine learning (ML) could assist the radiologist in terms of sensitivity and reading speed and would facilitate improved accuracy, productivity and cost-effectiveness. The MALIMAR study aims to develop and validate a ML algorithm to increase the diagnostic accuracy and reading speed of radiological interpretation of WB-MRI compared with standard methods.</p>
+                </sec>
+                <sec>
+                  <title>Methods and analysis</title>
+                  <p>This phase II/III imaging trial will perform retrospective analysis of previously obtained clinical radiology MRI scans and scans from healthy volunteers obtained prospectively to implement training and validation of an ML algorithm. The study will comprise three project phases using approximately 633 scans to (1) train the ML algorithm to identify active disease, (2) clinically validate the ML algorithm and (3) determine change in disease status following treatment via a quantification of burden of disease in patients with myeloma. Phase 1 will primarily train the ML algorithm to detect active myeloma against an expert assessment (‘reference standard’). Phase 2 will use the ML output in the setting of radiology reader study to assess the difference in sensitivity when using ML-assisted reading or human-alone reading. Phase 3 will assess the agreement between experienced readers (with and without ML) and the reference standard in scoring both overall burden of disease before and after treatment, and response.</p>
+                </sec>
+                <sec>
+                  <title>Ethics and dissemination</title>
+                  <p>MALIMAR has ethical approval from South Central—Oxford C Research Ethics Committee (REC Reference: 17/SC/0630). IRAS Project ID: 233501. CPMS Portfolio adoption (CPMS ID: 36766). Participants gave informed consent to participate in the study before taking part. MALIMAR is funded by National Institute for Healthcare Research Efficacy and Mechanism Evaluation funding (NIHR EME Project ID: 16/68/34). Findings will be made available through peer-reviewed publications and conference dissemination.</p>
+                </sec>
+                <sec>
+                  <title>Trial registration number</title>
+                  <p><ext-link xlink:href="NCT03574454" ext-link-type="uri">NCT03574454</ext-link>.</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>Myeloma</kwd>
+                <kwd>Diagnostic radiology</kwd>
+                <kwd>Magnetic resonance imaging</kwd>
+                <kwd>ONCOLOGY</kwd>
+              </kwd-group>
+              <funding-group specific-use="FundRef">
+                <award-group id="funding-1">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100001922</institution-id>
+                      <institution>Efficacy and Mechanism Evaluation Programme</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>16/68/34</award-id>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>special-feature</meta-name>
+                  <meta-value>unlocked</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <boxed-text id="BX1" position="float">
+              <caption>
+                <title>Strengths and limitations of this study:</title>
+              </caption>
+              <list list-type="bullet">
+                <list-item>
+                  <p>The MALIMAR study has the potential to acquire and characterise what is possibly the largest set of myeloma WB-MRI scans in the UK.</p>
+                </list-item>
+                <list-item>
+                  <p>The cross-sectional diagnostic accuracy design allows for retrospective analysis of previously obtained clinical radiology scans for training and validation of an ML algorithm.</p>
+                </list-item>
+                <list-item>
+                  <p>This study will provide ML outputs that can be tested across the National Health Service in live real-time clinical settings.</p>
+                </list-item>
+                <list-item>
+                  <p>As data will be acquired over a long period of time, scan quality could vary.</p>
+                </list-item>
+                <list-item>
+                  <p>Replicating clinical reporting in a retrospective study setting can be difficult to achieve, particularly for analysis of scan reading time.</p>
+                </list-item>
+              </list>
+            </boxed-text>
+            <sec sec-type="intro" id="s1">
+              <title>Introduction</title>
+              <p>There is strong evidence in the existing literature for the use of whole-body MRI (WB-MRI) in the management of patients with multiple myeloma. In 2016, the National Institute of Clinical Excellence (NICE) made the recommendation of using WB-MRI as the first-line imaging tool for diagnosis, based on the literature.<xref rid="R1" ref-type="bibr">1</xref> A consensus from the International Myeloma Working Group agreed that identification of focal lesions more than 5 mm on MRI should now be used as an indication to treat.<xref rid="R2" ref-type="bibr">2 3</xref> Evidence suggests that diffusion-weighted (DW) WB-MRI (WB-DW-MRI) is the most sensitive magnetic resonance technique for detecting marrow disease<xref rid="R4" ref-type="bibr">4–8</xref> and superior to fluorodeoxyglucose positron emission tomography/CT for the detection of small sites of disease and diffuse infiltration.<xref rid="R9" ref-type="bibr">9 10</xref> Therefore, WB-MRI is increasingly being adopted at centres worldwide for patients with myeloma. Treatment of high-risk patients is known to improve overall survival,<xref rid="R11" ref-type="bibr">11</xref> therefore improved diagnostic accuracy is likely to translate into improved patient selection for treatment and prolonged survival.</p>
+              <p>Despite the acknowledged benefits of WB-MRI for patients with myeloma, with publication of the NICE guidance, one of the major concerns is how these complex scans can be reported by a radiology workforce in crisis. Specificity of disease detection in the marrow is improved by viewing source DW images alongside quantitative apparent diffusion coefficient (ADC) maps. This allows differentiation of active sites of disease with restricted diffusion from treated sites of disease and vertebral haemangiomas, which conversely return a very high ADC.<xref rid="R12" ref-type="bibr">12</xref> Dixon images are also integral to image interpretation and morphological imaging is also necessary to identify mechanical complications of myeloma bone disease. Therefore, diagnostic accuracy is dependent on viewing multiple imaging sequences<xref rid="R7" ref-type="bibr">7</xref> and typically over 1200 image slices per WB-MRI scan in order to achieve whole body coverage. Consequently, reading time for the scans may be significant. At least 9% of UK radiology posts are unfilled,<xref rid="R13" ref-type="bibr">13</xref> and in 2015, clinical radiology was placed on the national shortage occupation list. The time-consuming process of reporting WB-MRI scans is a concern for radiologists who need to provide rapid turn around with a high productivity to support the National Health Service (NHS). Automated computational tools based on machine learning (ML) could support reporting of these large data sets and facilitate translation of this valuable imaging technique into the NHS, not only in detecting active disease but also in identifying response to treatment. Ideally, an ML algorithm would automatically detect and highlight suspicious regions and could reduce reading time. An accurate and automatic detection of pathology may also increase diagnostic accuracy.</p>
+              <p>The possibility of using computer-assisted ML techniques has been considered in aiding interpretation of complex imaging data sets.<xref rid="R14" ref-type="bibr">14–16</xref> Current work in the EME NIHR (Efficacy and Mechanism Evaluation National Institute of Health Research) funded MALIBO study<xref rid="R17" ref-type="bibr">17 18</xref> (13/122/01) has demonstrated fully automatic multiorgan segmentation using WB-MRI in healthy volunteers (HV) and ML detection of primary colorectal cancer and metastatic lesions.</p>
+              <sec id="s1-1">
+                <title>Aim</title>
+                <p>The aim of the MALIMAR study is to develop and validate an ML algorithm to improve the sensitivity of radiologists to detect the presence and extent of active myeloma before and after treatment, with high reproducibility and reduced reading time (WB-MRI with ML, the intervention) when compared with the standard of care radiology read (WB-MRI without ML support, the comparator).</p>
+              </sec>
+            </sec>
+            <sec sec-type="methods" id="s2">
+              <title>Methods and analysis</title>
+              <sec id="s2-1">
+                <title>Study design</title>
+                <p>The study is based on a cross-sectional diagnostic test accuracy design and will comprise three distinct project phases as summarised in <xref rid="F1" ref-type="fig">figure 1</xref>.</p>
+                <fig position="float" id="F1">
+                  <label>Figure 1</label>
+                  <caption>
+                    <p>MALIMAR study flow diagram. ADC, apparent diffusion coefficient; CNN, convolutional neural network; ML, machine learning; NICE, National Institute of Clinical Excellence; TMG, trial management group; WB-MRI, whole-body MRI.</p>
+                  </caption>
+                  <graphic xlink:href="bmjopen-2022-067140f01" position="float"/>
+                </fig>
+                <list list-type="bullet">
+                  <list-item>
+                    <p>In phase 1, the ML algorithm will be trained using both HV and myeloma patient scans to recognise active myeloma deposits as distinct from cases with no active disease, classifying disease as ‘focal’, ‘diffuse’ or ‘inactive’.</p>
+                  </list-item>
+                  <list-item>
+                    <p>In phase 2, the ML algorithm will be validated using a second unseen data set against a reference standard (ie, ground truth) to assess how accurately radiologists classify disease using scans with the ML algorithm and compared with readings without ML. Diagnostic accuracy on a per patient and per region (using 16 predefined anatomical sites—<xref rid="T1" ref-type="table">table 1</xref>) basis and reading time will be measured.</p>
+                  </list-item>
+                  <list-item>
+                    <p>In phase 3, further development of the ML algorithm to quantify disease burden will be undertaken using data sets from phase 1 and 2. This quantification output will be tested in the phase 3 reader study in which readers will record disease burden and response between paired baseline (new diagnosis or relapse prior to initiation of treatment) and single post-treatment WB-MRI scans, with or without ML support, and tested against the reference standard.</p>
+                  </list-item>
+                </list>
+                <table-wrap position="float" id="T1">
+                  <label>Table 1</label>
+                  <caption>
+                    <p>Comparison of MALIMAR anatomical regions between ground truth CRFs and reader CRFs</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <thead>
+                      <tr>
+                        <td align="left" valign="bottom" colspan="2" rowspan="1">Anatomical regions</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Ground truth CRFs (phases 1 and 2)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Reader CRFs (phase 2)</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Skull</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Skull</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Scapula right</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Ribs/clavicles/sternum/scapulae</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Scapula left</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Ribs/clavicles/sternum/scapulae</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Clavicle right</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Ribs/clavicles/sternum/scapulae</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Clavicle left</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Ribs/clavicles/sternum/scapulae</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Sternum</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Ribs/clavicles/sternum/scapulae</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Spine upper</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Cervical spine</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Spine middle</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Dorsal spine</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Spine lower</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Lumbar spine</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Ribs right</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Ribs/clavicles/sternum/scapulae</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Ribs left</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Ribs/clavicles/sternum/scapulae</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Sacrum</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Pelvis</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Femur right</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Long bones</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Femur left</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Long bones</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Humerus right</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Long bones</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Humerus left</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Long bones</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="T1_FN1">
+                      <p>CRFs, case report forms.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+              <sec id="s2-2">
+                <title>Participants and recruiting centres</title>
+                <p>The study will be run at The Royal Marsden NHS Foundation Trust across two Royal Marsden Hospital (RMH) sites; Chelsea and Sutton and Imperial College Healthcare Trust (ICHT). Patient and HV scans will make up the study population, and disease classification will be at both the scan and anatomical site level.</p>
+                <p>The scan population will comprise of; HV WB-MRI scans acquired from participants prospectively recruited from the sponsor site only (RMH), with the option of the Imperial Site providing previously acquired HV scans; WB-MRI scans acquired as part of clinical care from patients being managed at RMH and ICHT and WB-MRI scans previously acquired for a prospective research study in WB-MRI (iTIMM study).<xref rid="R9" ref-type="bibr">9 19</xref> All scans acquired for the study will be done, so using clinical standard of care trust protocols.</p>
+                <p>The inclusion/exclusion criteria for the HV and patient scans are detailed in <xref rid="T2" ref-type="table">table 2</xref> and the planned number of scans for each study phase is detailed in <xref rid="T3" ref-type="table">table 3</xref>.</p>
+                <table-wrap position="float" id="T2">
+                  <label>Table 2</label>
+                  <caption>
+                    <p>Inclusion and exclusion criteria</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <thead>
+                      <tr>
+                        <td align="left" valign="bottom" rowspan="1" colspan="1"/>
+                        <td align="left" valign="bottom" rowspan="1" colspan="1">Inclusion criteria</td>
+                        <td align="left" valign="bottom" rowspan="1" colspan="1">Exclusion criteria</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Healthy volunteers</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Written informed consent<break/>No contra-indication to MRI<break/>40 years or above in age (attempts will be made to include similar age range as myeloma patients)<break/>No known significant illness<break/>No known metallic implant</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Significant artefact on scan<break/>Corrupted scan data</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Patients in phases 1 and 2</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Patient with confirmed myeloma with WB-MRI scan previously performed as part of clinical care.<break/>Sufficient imaging and clinical data for the expert reference panel to categorise the WB-MRI scan as:<list list-type="order"><list-item><p>Previously treated inactive disease with no evidence of active disease based on expert reference panel</p></list-item><list-item><p>Active disease—focal</p></list-item><list-item><p>Active disease—diffuse</p></list-item><list-item><p>Active disease—extra-medullary</p></list-item><list-item><p>New active myeloma, no previous treatment</p></list-item></list><break/>Patients may be included if the pattern of disease is a combination of focal, diffuse and/or extra-medullary.</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Corrupted WB-MRI scan data.<break/>Insufficient clinical data to allow the expert reference panel to categorise the scan.</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Patients in phase 3</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Training set: phase 1 active disease cases and their post-treatment scans from phase 2.<break/>Validation set: from iTIMM study.<break/>Written informed consent for iTIMM study<break/>All patients over the age of 18 with multiple myeloma planned for autograft.</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Corrupted scan data.<break/>MRI incompatible metal implants<break/>Claustrophobia<break/>Diagnosis of other malignancy within 5 years</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="T2_FN1">
+                      <p>iTIMM, Image-guided Theranostics in Multiple Myeloma; WB-MRI, Whole-Body Magnetic Resonance Imaging.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+                <table-wrap position="float" id="T3">
+                  <label>Table 3</label>
+                  <caption>
+                    <p>Number of healthy volunteer (HV) and multiple myeloma (MM) scans in each category for each study phase</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <thead>
+                      <tr>
+                        <td align="left" valign="bottom" rowspan="1" colspan="1"/>
+                        <td align="left" valign="bottom" rowspan="1" colspan="1">HV*</td>
+                        <td align="left" valign="bottom" rowspan="1" colspan="1">MM inactive</td>
+                        <td align="left" valign="bottom" rowspan="1" colspan="1">MM active focal</td>
+                        <td align="left" valign="bottom" rowspan="1" colspan="1">MM active diffuse</td>
+                        <td align="left" valign="bottom" rowspan="1" colspan="1">MM new diagnosis</td>
+                        <td align="left" valign="bottom" rowspan="1" colspan="1">Total</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Phase 1†</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">40</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">40</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">60</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">40</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">20</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">200</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Phase 2</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">50</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">100</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">105</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">70</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">28</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">353</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Phase 3 training‡</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">(80 post-treatment)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">60</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">40</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">20</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">200</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Phase 3 validation</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0</td>
+                        <td align="left" valign="top" colspan="4" rowspan="1">60 patients in iTIMM study scanned at baseline and post-treatment</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">120</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="T3_FN1">
+                      <p>*A total of 50 HV will be used, 40 in phase 1, which will be used again in phase 2, with the addition of 10 more HV.</p>
+                    </fn>
+                    <fn id="T3_FN2">
+                      <p>†The number of scans in phase 1 may increase by 140–180 scans (100 subjects) if there is evidence of over-fitting in the development of the algorithm.</p>
+                    </fn>
+                    <fn id="T3_FN3">
+                      <p>‡Scans used in phase 3 training are scans that have been previously used in phases 1 and 2.</p>
+                    </fn>
+                    <fn id="T3_FN4">
+                      <p>HV, Healthy Volunteer; iTIMM, Image-guided Theranostics in Multiple Myeloma; MM, Multiple Myeloma.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+              <sec id="s2-3">
+                <title>Intervention and reference standard</title>
+                <sec id="s2-3-1">
+                  <title>Intervention (including comparator)</title>
+                  <p>The comparator in this study is defined as WB-MRI scans read by experienced radiologists, as per standard care (WB-MRI, the COMPARATOR). The intervention will use these standard methods with the addition of ML (WB-MRI+ML, the INTERVENTION). The ML algorithm will be developed during phase 1 of the study following data curation and scan allocation to phases 1 and 2. DW imaging, ADC map and T1-weighted sequences (Dixon fat and water scans) will be used, reflecting the radiological reading tools used by expert readers.</p>
+                  <p>Radiologists or readers are defined as experienced based on their previous clinical radiology reading skills and responsibilities and their length of service in this role. Experienced readers will be required to have completed at least 100 WB-MRI clinical scan reports.</p>
+                </sec>
+                <sec id="s2-3-2">
+                  <title>Reference standard</title>
+                  <p>There is no available histological reference standard for every site of bone marrow disease, as trephine biopsy is usually restricted to a single site. The proposed reference standard, thus, comprises the interpretation of an expert panel; a radiologist and a haematologist who are experts in myeloma. They will have access to (1) WB-MR images, (2) bone marrow histopathology reports (with quantitation), (3) serum paraproteins, (4) serum-free light chain (sFLC), in order to categorise per scan:</p>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>Presence or absence of active disease.</p>
+                    </list-item>
+                    <list-item>
+                      <p>The detailed disease distribution by anatomical site.</p>
+                    </list-item>
+                    <list-item>
+                      <p>Quantitation of the burden of disease (using a validated MRI score<xref rid="R20" ref-type="bibr">20 21</xref> and sFLC) including category of response to treatment.</p>
+                    </list-item>
+                  </list>
+                  <p>Scan and site-level data from these scans will be captured on case report forms (CRFs) for all cases in phases 1 and 2 and used as ‘ground truth’ in the classification of study output. Reference standard for phase 3 will be obtained from the source (iTIMM study).<xref rid="R19" ref-type="bibr">19</xref></p>
+                </sec>
+              </sec>
+              <sec id="s2-4">
+                <title>Objectives</title>
+                <sec id="s2-4-1">
+                  <title>Primary research objectives</title>
+                  <p>Phase 1: to develop a myeloma-specific ML algorithm to detect the presence of active disease on WB-MRI+ML (with machine learning ‘+ML’) with sufficient sensitivity.</p>
+                  <p>Phase 2: to validate WB-MRI+ML against the comparator WB-MRI for sensitivity on a per-patient and per-site basis.</p>
+                  <p>Phase 3: to develop and validate an ML algorithm to automatically quantify the burden of active disease, before and after treatment.</p>
+                </sec>
+                <sec id="s2-4-2">
+                  <title>Secondary research objectives (phases 2 and 3 only)</title>
+                  <p>For each of the following, our objective is to compare WB-MRI with and without ML support to the reference standard for:</p>
+                  <list list-type="order">
+                    <list-item>
+                      <p>Reading time.</p>
+                    </list-item>
+                    <list-item>
+                      <p>Specificity.</p>
+                    </list-item>
+                    <list-item>
+                      <p>Sensitivity of non-experienced readers.</p>
+                    </list-item>
+                    <list-item>
+                      <p>Agreement of categorising disease as focal, diffuse and/or extramedullary.</p>
+                    </list-item>
+                    <list-item>
+                      <p>Agreement of categorising patients as responder or non-responder.</p>
+                    </list-item>
+                  </list>
+                </sec>
+              </sec>
+              <sec id="s2-5">
+                <title>Procedure</title>
+                <sec id="s2-5-1">
+                  <title>Scan acquisition—HV</title>
+                  <p>HV will be recruited to obtain data from normal bone marrow within the age range typical of myeloma. Up to 50 HVs aged 40 years or above will be recruited using approved advertisements at the Sponsor site and consented with the help of clinical research network (CRN) resources (see <xref rid="SP1" ref-type="supplementary-material">online supplemental file 1a</xref> for consent form). The HV information sheet (<xref rid="SP1" ref-type="supplementary-material">online supplemental file 1b</xref>) will clearly explain the MRI scanning procedure and the actions that will be taken in the event of incidental (ie, unexpected) findings. Contact details will be supplied on the HV information sheet to enable volunteers to respond to the invitation or ask any questions. A total of 22 HV scans previously acquired are also available for use from ICHT if needed.</p>
+                  <supplementary-material id="SP1" position="float" content-type="local-data">
+                    <object-id pub-id-type="doi">10.1136/bmjopen-2022-067140.supp1</object-id>
+                    <label>Supplementary data</label>
+                    <p>
+                      <inline-supplementary-material id="SS1" xlink:href="bmjopen-2022-067140supp001.pdf" content-type="local-data"/>
+                    </p>
+                  </supplementary-material>
+                  <p>Participating HVs will undergo a single whole body MRI scan at RMH according to the trial-specific scanning protocol. HV scans will be acquired in the following sequences (T1, fat/water, Dixon, ADC, etc) to mirror the clinical setting and on Siemens, Avanto and Aero (wide bore) MRI scanners. Subjects with a larger body mass index will be scanned on the Siemens Aero, which has a larger bore diameter to optimise comfort.</p>
+                </sec>
+                <sec id="s2-5-2">
+                  <title>Scan acquisition—patients with myeloma</title>
+                  <p>Previously acquired patient scans will be identified by the investigators within the Sponsor’s myeloma clinical service (between 2011 and 2020), supplemented by scans from ICHT, until the required sample size is reached. Scans will normally include the following sequences; T1, fat/water, Dixon, ADC, etc, and on the following MRI machines; Siemens, Avanto and Aero MRI scanners (<xref rid="SP2" ref-type="supplementary-material">online supplemental file 2</xref> for sequence details).</p>
+                  <supplementary-material id="SP2" position="float" content-type="local-data">
+                    <object-id pub-id-type="doi">10.1136/bmjopen-2022-067140.supp2</object-id>
+                    <label>Supplementary data</label>
+                    <p>
+                      <inline-supplementary-material id="SS2" xlink:href="bmjopen-2022-067140supp002.pdf" content-type="local-data"/>
+                    </p>
+                  </supplementary-material>
+                </sec>
+                <sec id="s2-5-3">
+                  <title>Scan classification and allocation to study phase</title>
+                  <p>Patient scans will be categorised by the expert reference panel as showing inactive disease, active focal, active diffuse (focal or diffuse) and new disease. HV scans will be classified as normal (ie, non-diseased). Scans will be allocated to Phase one or two as per <xref rid="T3" ref-type="table">table 3</xref>. To minimise bias or ‘over-learning’, no more than five scans from the same patient will be allocated to Phase 1. Phase two scans will not include any patient scans that have been used in Phase one and thus comprise only those previously unseen by the ML algorithm. A subset of scans from phase 1 and 2 will be used to further train the algorithm at the start of Phase 3. Phase three validation scans have previously been acquired for the iTTiM trial (NCT02403102) and include a unique series of paired scans, previously unseen by the ML algorithm.</p>
+                </sec>
+                <sec id="s2-5-4">
+                  <title>Scan curation (quality control) and anatomical segmentation</title>
+                  <p>Eligible scans will be curated immediately prior to transfer to an online platform for secure storage (ICR XNAT). This will ensure that the ML algorithm is able to interpret all scans consistently. Curation scripts will be written in python and ensure that scans exhibit consistent characteristics such as: correct sequential display of images, no missing slices, noting presence of unusual artefacts that might interrupt ML reads and other factors which might compromise interpretation. Further details on the data curation will be published elsewhere.</p>
+                  <p>Phase 1 scans will then be manually segmented into 16 bone regions (<xref rid="T1" ref-type="table">table 1</xref>) using a boundary box approach. These scans will be used to teach the ML algorithm to recognise active myeloma disease (focal or diffuse) and precision metrics will be evaluated in order to achieve the optimal algorithm. Initially, scans will be classified by the ML algorithm at scan level (ie, patient level) only.</p>
+                </sec>
+                <sec id="s2-5-5">
+                  <title>Testing of ML algorithm—radiology reading process</title>
+                  <p>The ML algorithm will be tested by both experienced and inexperienced radiology readers.</p>
+                  <p>Phase 2 scans will be subjected to the ML algorithm, which will provide an ML overlay on all scans, indicating areas of disease by means of a heat map. For each scan, a ‘standard’ and ‘ML’ version will be available. The trial statistician will randomly allocate reads to each of the (approximately 15–20) readers, using trial-specific algorithms written using Stata software (StataCorp, Texas). The reads will be performed in two batches to incorporate a wash-out period. Each batch will have 50% of cases with ML support and 50% without, to avoid reader training bias. The reading process will be described in a reader manual and all readers will receive appropriate training in viewing scans using the Biotronics 3D web-based platform and completing a Read CRF available via Microsoft Forms (see <xref rid="SP3" ref-type="supplementary-material">online supplemental file 3a</xref>). In the case of ‘inexperienced’ readers, training will comprise a review of the CRFs and the viewing software with a basic training on reporting lexicon. A scribe will be provided to assist readers during the reading process and input data to the CRF in each batch of reads. Following a 4-week wash out period, readers will be presented with the second batch of reads with the opposite reading paradigm with regards to the ML support. The same cases will be allocated to the same readers. A subset of approximately 50 scans will be read a second time by a different reader as an inter-rater check.</p>
+                  <supplementary-material id="SP3" position="float" content-type="local-data">
+                    <object-id pub-id-type="doi">10.1136/bmjopen-2022-067140.supp3</object-id>
+                    <label>Supplementary data</label>
+                    <p>
+                      <inline-supplementary-material id="SS3" xlink:href="bmjopen-2022-067140supp003.pdf" content-type="local-data"/>
+                    </p>
+                  </supplementary-material>
+                  <p>In phase 3, scans from the iTIMM study, comprising paired baseline and follow-up post-treatment scans, will be used to test whether the ML algorithm is capable of distinguishing change in disease status (ie, disease burden) between the two time points. Reads will again be randomly allocated to the readers by the trial statistician. Readers will follow similar procedures to that outlined above with one set of paired scans having the ML overlay and the other with no ML overlay (for CRF, see <xref rid="SP3" ref-type="supplementary-material">online supplemental file 3b</xref>). A 4-week wash out period will again apply between the two batches of reads. A subset of approximately 20 scans will be read a second time by a different reader as an inter-rater check.</p>
+                </sec>
+                <sec id="s2-5-6">
+                  <title>Data collection</title>
+                  <p>Reader responses will be captured using MS Forms with responses being transferred directly to an excel spreadsheet. Examples of the CRFs to be used in both ML validation phases are given as <xref rid="SP3" ref-type="supplementary-material">online supplemental file 3 a, b</xref>. All readers will be provided with a manual describing CRF completion (including a lexicon of disease definitions) and use of the software viewing tools and overlay of the ML output heatmap and opportunity for live training using the online platform.</p>
+                </sec>
+              </sec>
+              <sec id="s2-6">
+                <title>Outcome measures</title>
+                <sec id="s2-6-1">
+                  <title>Phase 1—ML algorithm training phase</title>
+                  <p>Primary: sensitivity for the detection of active myeloma on WB-MRI+ML detection tool against the reference standard.</p>
+                  <p>Secondary: (1) specificity; (2) F1 score (a single measure of precision and recall).</p>
+                </sec>
+                <sec id="s2-6-2">
+                  <title>Phase 2—ML algorithm clinical testing phase (presence/absence of active myeloma)</title>
+                  <p>Primary: difference in sensitivity of WB-MRI−/+ML detection tool to diagnose the presence of active myeloma on a per-patient basis, by experienced readers, assessed against the reference standard.</p>
+                  <p>Secondary: for comparison of WB-MRI−/+ML: (1) per-site sensitivity to diagnose active disease, (2) reading time, (3) specificity, (4) agreement with reference standard to categorise disease as focal, diffuse and/or extramedullary, (5) Sensitivity of non-experienced readers for presence of active disease.</p>
+                </sec>
+                <sec id="s2-6-3">
+                  <title>Phase 3—ML algorithm for quantification of disease burden with clinical testing</title>
+                  <p>Primary : agreement between experienced readers and the reference standard in scoring overall burden of disease before and after treatment for response categorisation −/+ ML quantification tool.</p>
+                  <p>Secondary: for comparison of WB-MRI −/+ML: (1) reading time, (2) agreement of categorisation of patients as responder or non-responder with the reference standard, (3) agreement of non-experienced readers for burden of disease and categorisation of response, (4) estimated difference in cost for radiology reading time for WB-MRI −/+ML.</p>
+                  <p>Proposed tertiary: verification of the team’s previously published work regarding reverse classification accuracy: predicting segmentation performance in the absence of a reference standard.<xref rid="R22" ref-type="bibr">22</xref></p>
+                </sec>
+              </sec>
+              <sec id="s2-7">
+                <title>Sample size</title>
+                <sec id="s2-7-1">
+                  <title>Phase 1</title>
+                  <p>We will train the ML algorithm on a set of scans without and with active disease that will reflect the categories of disease that may be encountered in clinical practice. The number of cases used for training are arbitrarily chosen reflecting the knowledge that a large number of training data sets will improve training accuracy, counterbalanced with the resources needed to curate and annotate a large number of data sets.</p>
+                </sec>
+                <sec id="s2-7-2">
+                  <title>Phase 2</title>
+                  <p>The study is powered on the primary outcome of sensitivity.</p>
+                  <p>In a meta-analysis, Wu <italic toggle="yes">et al</italic> have reported a pooled sensitivity of 88% and a pooled specificity of 86% (0.86 for WB-MRI with DW-MRI).<xref rid="R8" ref-type="bibr">8</xref> We anticipate that the addition of ML could increase this by at least 7.5%, from 88% to 95.5%. There is no background data to indicate the expected proportion of discordant pairs, so we have estimated this as (1–0.955)×0.88+0.955×(1–0.88), which is equal to 0.154. To achieve 80% power using a two-sided alpha of 0.05 would require a total of 203 patients positive for myeloma using the gold standard.</p>
+                  <p>If it is assumed that the specificity will be unchanged using ML, a total number of cases with no active disease of 150 (50 HV, 100 inactive treated myeloma) will give 80% power to show that the difference is above a non-inferiority limit of 10%.</p>
+                </sec>
+                <sec id="s2-7-3">
+                  <title>Phase 3 training</title>
+                  <p>Approximately 200 cases that have at least two time points will be taken from phases 1 and 2, with active disease present at least at one time point, and used for training and validation for burden of disease; this will ensure efficient use of all data and segmentations.</p>
+                </sec>
+                <sec id="s2-7-4">
+                  <title>Phase 3 clinical testing</title>
+                  <p>This sample size is fixed at 60 patients, the full sample size of the iTIMM study, each of whom has a baseline and one post-treatment scan.</p>
+                </sec>
+              </sec>
+              <sec id="s2-8">
+                <title>Statistical analysis</title>
+                <sec id="s2-8-1">
+                  <title>Phase 1 analysis</title>
+                  <p>The ability to correctly localise and detect active disease will be evaluated by calculating sensitivity, specificity and the F1 score (a single measure of precision (positive predictive value) and recall (sensitivity)) for multiple algorithms and compared against the reference standard. Following Trial Steering Committee (TSC) approval, the optimal algorithm will move forward to phase 2.</p>
+                </sec>
+                <sec id="s2-8-2">
+                  <title>Phase 2 analysis</title>
+                  <p>In phase 2, the percentage of patients with active disease on WB-MRI+/−ML support who have positive reference standard will be compared using McNemar’s test with a two-sided alpha of 0.05. Per-patient and per-site sensitivity and specificity with and without ML support will be reported with 95% CIs. Reading time will be compared using Wilcoxon’s test for paired data and described using summary statistics.</p>
+                  <p>The same analysis of sensitivity, specificity and reading time will be repeated for inexperienced readers.</p>
+                  <p>Agreement between experienced and inexperienced readers will be measured in a subset of cases with a Kappa coefficient and overall proportion of concordant cases.</p>
+                  <p>All other endpoints will be summarised using descriptive statistics.</p>
+                  <p>Although the study is powered to detect superiority of the primary endpoint, if sensitivity is shown to be non-inferior using ML and reading time is both clinically and statistically significantly lower using ML, this would be considered as an indication to proceed. Non-inferiority in this context will be defined as having any possible reduction in sensitivity with ML significantly higher than a lower limit of −10% (using Tangos’ test with one-sided alpha of 0.05).</p>
+                </sec>
+                <sec id="s2-8-3">
+                  <title>Phase 3 analysis</title>
+                  <p>In phase 3, the difference between the experienced readers’ disease score to the reference standard disease score will be recorded and compared+/−ML support using Wilcoxon’s test. Differences from scores given by experienced readers and the reference standard will be described using Bland-Altman plots for scores±ML support.</p>
+                  <p>All other endpoints will be summarised using descriptive statistics.</p>
+                  <p>A simple cost-effectiveness analysis may be performed depending on study findings, such as the reading time.</p>
+                </sec>
+                <sec id="s2-8-4">
+                  <title>Procedure(s) to account for missing or spurious data</title>
+                  <p>If a scan is incomplete or the file is corrupted and not evaluable, it will be excluded from the data set. If a set of radiology reads is incomplete, a new trained reader will be identified to do the full allocation of reads.</p>
+                </sec>
+                <sec id="s2-8-5">
+                  <title>Timing and responsibility for analyses</title>
+                  <p>Analyses will take place at both the end of phase 2 and then again at the end of phase 3, when all readings have been completed.</p>
+                </sec>
+              </sec>
+              <sec id="s2-9">
+                <title>Patient and public involvement</title>
+                <p>A patient and public involvement (PPI) representative was appointed from an established group at Myeloma UK. The individual gave in-depth feedback on the study, particularly on the relevance to patient care and the use of retrospective patient data and HV scans. Myeloma UK is fully supportive of the project and is willing to assist with dissemination of important findings to the Myeloma UK community.</p>
+              </sec>
+              <sec id="s2-10">
+                <title>Safety</title>
+                <p>As this study is recruiting HV only, an a priori agreement has been reached with the sponsor that safety reporting is not required. Sponsor procedures in respect of incidental (ie, unexpected) findings in HV will be adhered to and results were captured within the Trust’s Clinical Record.</p>
+                <p>Monitoring against Source Data will not be required, which is in line with the Sponsor’s policy on non-Clinical Trial of Investigational Medicinal Product trials.</p>
+              </sec>
+              <sec id="s2-11">
+                <title>Trial funding, organisation and administration</title>
+                <p>The study has been awarded funding by Medical Research Council NIHR EME Awards Body (NIHR EME Project ID: 16/68/34). In addition, the department of radiology has agreed to fund the cost of HV WB-MRI scans. The cost of recruitment and consenting of HVs will be requested through the NHS CRN. RMH is the study sponsor responsible for initiating and managing the study and the coordinating centre, including sign-off of the study protocol.</p>
+                <p>A trial management group (TMG) meeting will be held regularly to ensure satisfactory progress of the study. A TSC will provide independent oversight for the study, review the development of the ML algorithm and advise the TMG where problems may arise. The TSC will include a patient advocate.</p>
+              </sec>
+              <sec id="s2-12">
+                <title>Ethics and dissemination</title>
+                <p>Ethical approval for MALIMAR was granted on 21/11/2017 (REC) and 21/12/2017 (Health Research Authority) Here, we report V.3.0 of the protocol. All participating sites gained local approval prior to study participation.</p>
+                <p>Any protocol modifications will be submitted for approval to the REC, reflected in the online registration and disseminated by e-mail to site principal investigators and trial coordinators. The statistician will have access to the final linked trial data set. There are no plans to provide public access to the full protocol, participant-level data or statistical code. The researchers aim to publish results in a peer-reviewed journal and share via social media and conferences. Authorship will be determined according to academic standards.</p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="s3">
+              <title>Discussion</title>
+              <p>This study aims to develop and validate an ML algorithm to augment the performance and efficiency of the radiology reading process using WB-MRI. The results will show the impact of using the ML tool and outcomes of the study will have implications for the application of ML with WB-MRI in patients with patients across the NHS. It is anticipated that feasibility analysis will follow the successful completion of this study to pilot the implementation of the ML tool in a real-time prospective study prior to future clinical setting.</p>
+              <p>To avoid bias, we ensure: (1) comparator and intervention tests are read by readers that are fully blinded to the reference standard, (2) a mixture of cases with and without disease, (3) the reads will be presented such that radiologists must read a mixture of cases without or with ML support during each round of reading including a wash out period. We will have unavoidable incorporation bias, as the expert reference panel will use the MRI as part of the reference standard. The reference panel will consist of a single person’s opinion, which is a limitation to our study. If resources had allowed, the gold standard would have been to have two blinded opinions with a consensus panel in cases of disagreement. Other limitations include varying scan quality as data are acquired over a 9-year period; and replicating clinical reporting in a retrospective study setting can be challenging.</p>
+              <p>In conducting this study, we will have acquired possibly the largest set of characterised myeloma patient MRI scans in the UK and we anticipate that this will form the basis of a unique training resource in the future.</p>
+              <p>ML techniques in WB-MRI scans of patients with myeloma are likely to be transferable to other malignancies. In prostate and breast cancer, quantification of metastatic bone disease is an unmet need as bone only disease is not uncommon and is currently classified as non-measurable by RECIST V.1.1.<xref rid="R23" ref-type="bibr">23</xref> The participating HVs will be consented to allow the anonymised datasets to be a future resource for the wider research community.</p>
+              <sec id="s3-1">
+                <title>Study status</title>
+                <p>The MALIMAR study opened on 26 April 2018 using protocol V.1.0 (30 October 2017). The study was in phase II, using protocol V.3.0 (31 January 2019), at date of submission. Protocol amendments are documented in <xref rid="SP4" ref-type="supplementary-material">online supplemental file 4</xref>.</p>
+                <supplementary-material id="SP4" position="float" content-type="local-data">
+                  <object-id pub-id-type="doi">10.1136/bmjopen-2022-067140.supp4</object-id>
+                  <label>Supplementary data</label>
+                  <p>
+                    <inline-supplementary-material id="SS4" xlink:href="bmjopen-2022-067140supp004.pdf" content-type="local-data"/>
+                  </p>
+                </supplementary-material>
+              </sec>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Material</title>
+              <supplementary-material content-type="local-data" id="d64e237">
+                <caption>
+                  <title>Reviewer comments</title>
+                </caption>
+                <media xlink:href="bmjopen-2022-067140.reviewer_comments.pdf"/>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="d64e238">
+                <caption>
+                  <title>Author's
+manuscript</title>
+                </caption>
+                <media xlink:href="bmjopen-2022-067140.draft_revisions.pdf"/>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>We acknowledge NHS funding to the NIHR Biomedical Research Centre (BRC) at The Royal Marsden and Institute of Cancer Research and the NIHR Royal Marsden Clinical Research Facility. We acknowledge the support of the Imperial College London NIHR BRC Imaging Theme and the Cancer Research UK (CRUK) Imperial Centre and the Imaging Research Office at ICHT. We acknowledge the support of the CRUK funded National Cancer Imaging Translational Accelerator award (Institute of Cancer Research and Imperial College London).</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="other">
+                <p><bold>Contributors:</bold> AR, CM, TaB, BG, SW, TQ, ThB, SD, MOL, MK and DK: conceptualisation and methodology; AR, CM, TaB, ThB, MK, BG, TQ, XF and SW: investigation; EA and AR: resources; ThB and SD: data curation; LS and EG: formal analysis; AR, DK and CM: supervision; LS: writing—original draft; AR, CM, TaB, BG, LW and LS: writing—review and editing; BG, TQ, XF and SW: data visualisation; LW project administration; EA and AR: funding acquisition.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Funding:</bold> This study (ID: 16/68/34) is funded by the Efficacy and Mechanism Evaluation (EME) Programme, an MRC and NIHR partnership. In addition, the Department of Radiology has agreed to fund the cost of healthy volunteer whole body MRI scans. The cost of recruitment and consenting of healthy volunteers will be requested through the NHS Clinical Research Network. The views expressed in this publication are those of the authors and not necessarily those of the MRC, NHS, the NIHR, or the Department of Health and Social Care. EG and LS’s posts are part funded by the National Institute for Health and Care Research (NIHR) Biomedical Research Centre at The Royal Marsden NHS Foundation Trust and the Institute of Cancer Research, London. The views expressed are those of the authors and not necessarily those of the NIHR or the Department of Health and Social Care. SW is supported by the UKRI London Medical Imaging &amp; Artificial Intelligence Centre for Value Based Healthcare.</p>
+              </fn>
+              <fn fn-type="COI-statement">
+                <p><bold>Competing interests:</bold> AR receives honoraria for educational lecture at Garmisch International Symposium, has an unpaid role on the European Society of Radiology Board of Directors and receives travel cost support where necessary. BG receives grants from other entities; EU commission and UKRI London Medical Imaging &amp; Artificial Intelligence Centre for Value Based Healthcare, is a Scientific advisor for Kheiron Medical Technologies (January 2018–September 2021) and receives stock options as part of standard employment packages from both Kheiron Medical Technologies and HeartFlow. EA has a patent pending for Machine Learning in Alzheimer’s disease and has a role on the scientific advisory board for Radiopharm Theranostics Limited. MK receives grants from both Myeloma UK and Celgene/BMS, and consulting fees or payments from AbbVie, BMS/Celgene, Janssen, GSK, Karyopharm, Takeda and Seagen. CM &amp; DK receive additional funding as a co-investigator on a radiology NIHR study and is part of the joint venture Celescan with the Royal Marsden, The Institute of Cancer Research and Sopra Steria. TB receives additional funding from CRUK grant funding (NCITA) and NIHR (HTA) and receives honoraria from Bayer.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Patient and public involvement:</bold> Patients and/or the public were involved in the design, or conduct, or reporting, or dissemination plans of this research. Refer to the Methods section for further details.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Provenance and peer review:</bold> Not commissioned; peer reviewed for ethical and funding approval prior to submission.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Supplemental material:</bold> This content has been supplied by the author(s). It has not been vetted by BMJ Publishing Group Limited (BMJ) and may not have been peer-reviewed. Any opinions or recommendations discussed are solely those of the author(s) and are not endorsed by BMJ. BMJ disclaims all liability and responsibility arising from any reliance placed on the content. Where the content includes any translated material, BMJ does not warrant the accuracy and reliability of the translations (including but not limited to local regulations, clinical guidelines, terminology, drug names and drug dosages), and is not responsible for any error and/or omissions arising from translation and adaptation or otherwise.</p>
+              </fn>
+            </fn-group>
+            <sec sec-type="ethics-statement">
+              <title>Ethics statements</title>
+              <sec>
+                <title>Patient consent for publication</title>
+                <p content-type="ethics-consent-to-publish">Not applicable.</p>
+              </sec>
+            </sec>
+            <ref-list>
+              <title>References</title>
+              <ref id="R1">
+                <label>1</label>
+                <mixed-citation publication-type="webpage"><person-group person-group-type="author"><collab>NICE</collab></person-group>. <article-title>Myeloma: diagnosis and management NICE guideline [NG35]</article-title>, <year>2016</year></mixed-citation>
+              </ref>
+              <ref id="R2">
+                <label>2</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Rajkumar</surname><given-names>SV</given-names></string-name>, <string-name><surname>Dimopoulos</surname><given-names>MA</given-names></string-name>, <string-name><surname>Palumbo</surname><given-names>A</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>International myeloma Working group updated criteria for the diagnosis of multiple myeloma</article-title>. <source>Lancet Oncol</source><year>2014</year>;<volume>15</volume>:<fpage>e538</fpage>–<lpage>48</lpage>. <pub-id pub-id-type="doi">10.1016/S1470-2045(14)70442-5</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/25439696?><pub-id pub-id-type="pmid">25439696</pub-id></mixed-citation>
+              </ref>
+              <ref id="R3">
+                <label>3</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Dimopoulos</surname><given-names>MA</given-names></string-name>, <string-name><surname>Hillengass</surname><given-names>J</given-names></string-name>, <string-name><surname>Usmani</surname><given-names>S</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Role of magnetic resonance imaging in the management of patients with multiple myeloma: a consensus statement</article-title>. <source>J Clin Oncol</source><year>2015</year>;<volume>33</volume>:<fpage>657</fpage>–<lpage>64</lpage>. <pub-id pub-id-type="doi">10.1200/JCO.2014.57.9961</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/25605835?><pub-id pub-id-type="pmid">25605835</pub-id></mixed-citation>
+              </ref>
+              <ref id="R4">
+                <label>4</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Pearce</surname><given-names>T</given-names></string-name>, <string-name><surname>Philip</surname><given-names>S</given-names></string-name>, <string-name><surname>Brown</surname><given-names>J</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Bone metastases from prostate, breast and multiple myeloma: differences in lesion conspicuity at short-tau inversion recovery and diffusion-weighted MRI</article-title>. <source>Br J Radiol</source><year>2012</year>;<volume>85</volume>:<fpage>1102</fpage>–<lpage>6</lpage>. <pub-id pub-id-type="doi">10.1259/bjr/30649204</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/22457319?><pub-id pub-id-type="pmid">22457319</pub-id></mixed-citation>
+              </ref>
+              <ref id="R5">
+                <label>5</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Squillaci</surname><given-names>E</given-names></string-name>, <string-name><surname>Manenti</surname><given-names>G</given-names></string-name>, <string-name><surname>Di Stefano</surname><given-names>F</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Diffusion-Weighted MR imaging in the evaluation of renal tumours</article-title>. <source>J Exp Clin Cancer Res</source><year>2004</year>;<volume>23</volume>:<fpage>39</fpage>–<lpage>46</lpage>.<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/15149149?><pub-id pub-id-type="pmid">15149149</pub-id></mixed-citation>
+              </ref>
+              <ref id="R6">
+                <label>6</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Dutoit</surname><given-names>JC</given-names></string-name>, <string-name><surname>Vanderkerken</surname><given-names>MA</given-names></string-name>, <string-name><surname>Anthonissen</surname><given-names>J</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>The diagnostic value of Se MRI and DWI of the spine in patients with monoclonal gammopathy of undetermined significance, smouldering myeloma and multiple myeloma</article-title>. <source>Eur Radiol</source><year>2014</year>;<volume>24</volume>:<fpage>2754</fpage>–<lpage>65</lpage>. <pub-id pub-id-type="doi">10.1007/s00330-014-3324-5</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/25106487?><pub-id pub-id-type="pmid">25106487</pub-id></mixed-citation>
+              </ref>
+              <ref id="R7">
+                <label>7</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Messiou</surname><given-names>C</given-names></string-name>, <string-name><surname>Hillengass</surname><given-names>J</given-names></string-name>, <string-name><surname>Delorme</surname><given-names>S</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Guidelines for acquisition, interpretation, and reporting of whole-body MRI in myeloma: myeloma response assessment and diagnosis system (MY-RADS)</article-title>. <source>Radiology</source><year>2019</year>;<volume>291</volume>:<fpage>5</fpage>–<lpage>13</lpage>. <pub-id pub-id-type="doi">10.1148/radiol.2019181949</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/30806604?><pub-id pub-id-type="pmid">30806604</pub-id></mixed-citation>
+              </ref>
+              <ref id="R8">
+                <label>8</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Wu</surname><given-names>L-M</given-names></string-name>, <string-name><surname>Gu</surname><given-names>H-Y</given-names></string-name>, <string-name><surname>Zheng</surname><given-names>J</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Diagnostic value of whole-body magnetic resonance imaging for bone metastases: a systematic review and meta-analysis</article-title>. <source>J Magn Reson Imaging</source><year>2011</year>;<volume>34</volume>:<fpage>128</fpage>–<lpage>35</lpage>. <pub-id pub-id-type="doi">10.1002/jmri.22608</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/21618333?><pub-id pub-id-type="pmid">21618333</pub-id></mixed-citation>
+              </ref>
+              <ref id="R9">
+                <label>9</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Messiou</surname><given-names>C</given-names></string-name>, <string-name><surname>Porta</surname><given-names>N</given-names></string-name>, <string-name><surname>Sharma</surname><given-names>B</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Prospective evaluation of whole-body MRI versus FDG PET/CT for lesion detection in participants with myeloma</article-title>. <source>Radiol Imaging Cancer</source><year>2021</year>;<volume>3</volume>:<elocation-id>e210048</elocation-id>. <pub-id pub-id-type="doi">10.1148/rycan.2021210048</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/34559006?><pub-id pub-id-type="pmid">34559006</pub-id></mixed-citation>
+              </ref>
+              <ref id="R10">
+                <label>10</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Pawlyn</surname><given-names>C</given-names></string-name>, <string-name><surname>Fowkes</surname><given-names>L</given-names></string-name>, <string-name><surname>Otero</surname><given-names>S</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Whole-Body diffusion-weighted MRI: a new gold standard for assessing disease burden in patients with multiple myeloma?</article-title><source>Leukemia</source><year>2016</year>;<volume>30</volume>:<fpage>1446</fpage>–<lpage>8</lpage>. <pub-id pub-id-type="doi">10.1038/leu.2015.338</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/26648535?><pub-id pub-id-type="pmid">26648535</pub-id></mixed-citation>
+              </ref>
+              <ref id="R11">
+                <label>11</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Mateos</surname><given-names>M-V</given-names></string-name>, <string-name><surname>Hernández</surname><given-names>M-T</given-names></string-name>, <string-name><surname>Giraldo</surname><given-names>P</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Lenalidomide plus dexamethasone for high-risk smoldering multiple myeloma</article-title>. <source>N Engl J Med</source><year>2013</year>;<volume>369</volume>:<fpage>438</fpage>–<lpage>47</lpage>. <pub-id pub-id-type="doi">10.1056/NEJMoa1300439</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/23902483?><pub-id pub-id-type="pmid">23902483</pub-id></mixed-citation>
+              </ref>
+              <ref id="R12">
+                <label>12</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Padhani</surname><given-names>AR</given-names></string-name>, <string-name><surname>Koh</surname><given-names>D-M</given-names></string-name>, <string-name><surname>Collins</surname><given-names>DJ</given-names></string-name></person-group>. <article-title>Whole-Body diffusion-weighted MR imaging in cancer: current status and research directions</article-title>. <source>Radiology</source><year>2011</year>;<volume>261</volume>:<fpage>700</fpage>–<lpage>18</lpage>. <pub-id pub-id-type="doi">10.1148/radiol.11110474</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/22095994?><pub-id pub-id-type="pmid">22095994</pub-id></mixed-citation>
+              </ref>
+              <ref id="R13">
+                <label>13</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><collab>The Royal College of Radiologists London</collab></person-group>. <source>Radiologists rC of. Clinical radiology UK workforce census 2015 report</source>, <year>2016</year>.</mixed-citation>
+              </ref>
+              <ref id="R14">
+                <label>14</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Juntu</surname><given-names>J</given-names></string-name>, <string-name><surname>Sijbers</surname><given-names>J</given-names></string-name>, <string-name><surname>De Backer</surname><given-names>S</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Machine learning study of several classifiers trained with texture analysis features to differentiate benign from malignant soft-tissue tumors in T1-MRI images</article-title>. <source>J Magn Reson Imaging</source><year>2010</year>;<volume>31</volume>:<fpage>680</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1002/jmri.22095</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/20187212?><pub-id pub-id-type="pmid">20187212</pub-id></mixed-citation>
+              </ref>
+              <ref id="R15">
+                <label>15</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Pauly</surname><given-names>O</given-names></string-name>, <string-name><surname>Glocker</surname><given-names>B</given-names></string-name>, <string-name><surname>Criminisi</surname><given-names>A</given-names></string-name></person-group>. <article-title>Fast multiple organ detection and localization in whole-body Mr Dixon sequences. in: International Conference on medical image computing and computer-assisted intervention</article-title>. <source>Springer</source><year>2011</year>:<fpage>239</fpage>–<lpage>47</lpage>. <pub-id pub-id-type="doi">10.1007/978-3-642-23626-6_30</pub-id></mixed-citation>
+              </ref>
+              <ref id="R16">
+                <label>16</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Lavdas</surname><given-names>I</given-names></string-name>, <string-name><surname>Rockall</surname><given-names>AG</given-names></string-name>, <string-name><surname>Castelli</surname><given-names>F</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Apparent diffusion coefficient of normal abdominal organs and bone marrow from whole-body DWI at 1.5 T: the effect of sex and age</article-title>. <source>AJR Am J Roentgenol</source><year>2015</year>;<volume>205</volume>:<fpage>242</fpage>–<lpage>50</lpage>. <pub-id pub-id-type="doi">10.2214/AJR.14.13964</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/26204271?><pub-id pub-id-type="pmid">26204271</pub-id></mixed-citation>
+              </ref>
+              <ref id="R17">
+                <label>17</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Lavdas</surname><given-names>I</given-names></string-name>, <string-name><surname>Glocker</surname><given-names>B</given-names></string-name>, <string-name><surname>Rueckert</surname><given-names>D</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Machine learning in whole-body MRI: experiences and challenges from an applied study using multicentre data</article-title>. <source>Clin Radiol</source><year>2019</year>;<volume>74</volume>:<fpage>346</fpage>–<lpage>56</lpage>. <pub-id pub-id-type="doi">10.1016/j.crad.2019.01.012</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/30803815?><pub-id pub-id-type="pmid">30803815</pub-id></mixed-citation>
+              </ref>
+              <ref id="R18">
+                <label>18</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Lavdas</surname><given-names>I</given-names></string-name>, <string-name><surname>Glocker</surname><given-names>B</given-names></string-name>, <string-name><surname>Kamnitsas</surname><given-names>K</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Fully automatic, multiorgan segmentation in normal whole body magnetic resonance imaging (MRI), using classification forests (CFs), convolutional neural networks (CNNs), and a multi-atlas (MA) approach</article-title>. <source>Med Phys</source><year>2017</year>;<volume>44</volume>:<fpage>5210</fpage>–<lpage>20</lpage>. <pub-id pub-id-type="doi">10.1002/mp.12492</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/28756622?><pub-id pub-id-type="pmid">28756622</pub-id></mixed-citation>
+              </ref>
+              <ref id="R19">
+                <label>19</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kaiser</surname><given-names>MF</given-names></string-name>, <string-name><surname>Porta</surname><given-names>N</given-names></string-name>, <string-name><surname>Sharma</surname><given-names>B</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Prospective comparison of whole body MRI and FDG PET/CT for detection of multiple myeloma and correlation with markers of disease burden: results of the iTIMM trial</article-title>. <source>JCO</source><year>2021</year>;<volume>39</volume>:<elocation-id>8012</elocation-id>. <pub-id pub-id-type="doi">10.1200/JCO.2021.39.15_suppl.8012</pub-id></mixed-citation>
+              </ref>
+              <ref id="R20">
+                <label>20</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Giles</surname><given-names>SL</given-names></string-name>, <string-name><surname>deSouza</surname><given-names>NM</given-names></string-name>, <string-name><surname>Collins</surname><given-names>DJ</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Assessing myeloma bone disease with whole-body diffusion-weighted imaging: comparison with X-ray skeletal survey by region and relationship with laboratory estimates of disease burden</article-title>. <source>Clin Radiol</source><year>2015</year>;<volume>70</volume>:<fpage>614</fpage>–<lpage>21</lpage>. <pub-id pub-id-type="doi">10.1016/j.crad.2015.02.013</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/25799364?><pub-id pub-id-type="pmid">25799364</pub-id></mixed-citation>
+              </ref>
+              <ref id="R21">
+                <label>21</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Giles</surname><given-names>SL</given-names></string-name>, <string-name><surname>Messiou</surname><given-names>C</given-names></string-name>, <string-name><surname>Collins</surname><given-names>DJ</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Whole-Body diffusion-weighted MR imaging for assessment of treatment response in myeloma</article-title>. <source>Radiology</source><year>2014</year>;<volume>271</volume>:<fpage>785</fpage>–<lpage>94</lpage>. <pub-id pub-id-type="doi">10.1148/radiol.13131529</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/24475858?><pub-id pub-id-type="pmid">24475858</pub-id></mixed-citation>
+              </ref>
+              <ref id="R22">
+                <label>22</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Valindria</surname><given-names>VV</given-names></string-name>, <string-name><surname>Lavdas</surname><given-names>I</given-names></string-name>, <string-name><surname>Bai</surname><given-names>W</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Reverse classification accuracy: predicting segmentation performance in the absence of ground truth</article-title>. <source>IEEE Trans Med Imaging</source><year>2017</year>;<volume>36</volume>:<fpage>1597</fpage>–<lpage>606</lpage>. <pub-id pub-id-type="doi">10.1109/TMI.2017.2665165</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/28436849?><pub-id pub-id-type="pmid">28436849</pub-id></mixed-citation>
+              </ref>
+              <ref id="R23">
+                <label>23</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Lecouvet</surname><given-names>FE</given-names></string-name>, <string-name><surname>Talbot</surname><given-names>JN</given-names></string-name>, <string-name><surname>Messiou</surname><given-names>C</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Monitoring the response of bone metastases to treatment with magnetic resonance imaging and nuclear medicine techniques: a review and position statement by the European organisation for research and treatment of cancer imaging group</article-title>. <source>Eur J Cancer</source><year>2014</year>;<volume>50</volume>:<fpage>2519</fpage>–<lpage>31</lpage>. <pub-id pub-id-type="doi">10.1016/j.ejca.2014.07.002</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/25139492?><pub-id pub-id-type="pmid">25139492</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

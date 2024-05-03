@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T10:03:37Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8603280" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8603280</identifier>
+        <datestamp>2021-12-03</datestamp>
+        <setSpec>rmdopen</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">RMD Open</journal-id>
+              <journal-id journal-id-type="iso-abbrev">RMD Open</journal-id>
+              <journal-id journal-id-type="hwp">rmdopen</journal-id>
+              <journal-id journal-id-type="publisher-id">rmdopen</journal-id>
+              <journal-title-group>
+                <journal-title>RMD Open</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2056-5933</issn>
+              <publisher>
+                <publisher-name>BMJ Publishing Group</publisher-name>
+                <publisher-loc>BMA House, Tavistock Square, London, WC1H 9JR</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8603280</article-id>
+              <article-id pub-id-type="pmcid">PMC8603280</article-id>
+              <article-id pub-id-type="pmc-uid">8603280</article-id>
+              <article-id pub-id-type="pmid">34795065</article-id>
+              <article-id pub-id-type="publisher-id">rmdopen-2021-001845</article-id>
+              <article-id pub-id-type="doi">10.1136/rmdopen-2021-001845</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Psoriatic Arthritis</subject>
+                </subj-group>
+                <subj-group subj-group-type="hwp-journal-coll">
+                  <subject>1506</subject>
+                </subj-group>
+                <series-title>Original research</series-title>
+              </article-categories>
+              <title-group>
+                <article-title>Clinically relevant patient clusters identified by machine learning from the clinical development programme of secukinumab in psoriatic arthritis</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib id="author-81163176" contrib-type="author">
+                  <name>
+                    <surname>Pournara</surname>
+                    <given-names>Effie</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib id="author-89912485" contrib-type="author">
+                  <name>
+                    <surname>Kormaksson</surname>
+                    <given-names>Matthias</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib id="author-58095393" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-2571-788X</contrib-id>
+                  <name>
+                    <surname>Nash</surname>
+                    <given-names>Peter</given-names>
+                  </name>
+                  <xref rid="aff3" ref-type="aff">3</xref>
+                </contrib>
+                <contrib id="author-22407835" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-2602-1219</contrib-id>
+                  <name>
+                    <surname>Ritchlin</surname>
+                    <given-names>Christopher T</given-names>
+                  </name>
+                  <xref rid="aff4" ref-type="aff">4</xref>
+                </contrib>
+                <contrib id="author-22408808" contrib-type="author">
+                  <name>
+                    <surname>Kirkham</surname>
+                    <given-names>Bruce W</given-names>
+                  </name>
+                  <xref rid="aff5" ref-type="aff">5</xref>
+                </contrib>
+                <contrib id="author-89912631" contrib-type="author">
+                  <name>
+                    <surname>Ligozio</surname>
+                    <given-names>Gregory</given-names>
+                  </name>
+                  <xref rid="aff6" ref-type="aff">6</xref>
+                </contrib>
+                <contrib id="author-62576129" contrib-type="author">
+                  <name>
+                    <surname>Pricop</surname>
+                    <given-names>Luminita</given-names>
+                  </name>
+                  <xref rid="aff6" ref-type="aff">6</xref>
+                </contrib>
+                <contrib id="author-71010189" contrib-type="author">
+                  <name>
+                    <surname>Ogdie</surname>
+                    <given-names>Alexis</given-names>
+                  </name>
+                  <xref rid="aff7" ref-type="aff">7</xref>
+                </contrib>
+                <contrib id="author-23017088" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-4756-663X</contrib-id>
+                  <name>
+                    <surname>Coates</surname>
+                    <given-names>Laura C</given-names>
+                  </name>
+                  <xref rid="aff8" ref-type="aff">8</xref>
+                </contrib>
+                <contrib id="author-39858953" contrib-type="author">
+                  <name>
+                    <surname>Schett</surname>
+                    <given-names>Georg</given-names>
+                  </name>
+                  <xref rid="aff9" ref-type="aff">9</xref>
+                </contrib>
+                <contrib id="author-44034655" contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-4449-8501</contrib-id>
+                  <name>
+                    <surname>McInnes</surname>
+                    <given-names>Iain B</given-names>
+                  </name>
+                  <xref rid="aff10" ref-type="aff">10</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1"><label>1</label><institution content-type="department">Immunology, Heptatology and Dermatology</institution>, <institution>Novartis AG</institution>, <addr-line content-type="city">Basel</addr-line>, <country>Switzerland</country></aff>
+              <aff id="aff2"><label>2</label><institution content-type="department">Advanced Exploratory Analytics</institution>, <institution>Novartis Pharmaceuticals Corporation</institution>, <addr-line content-type="city">East Hanover</addr-line>, <addr-line content-type="state">New Jersey</addr-line>, <country>USA</country></aff>
+              <aff id="aff3"><label>3</label><institution content-type="department">School of Medicine</institution>, <institution>Griffith University School of Medicine</institution>, <addr-line content-type="city">Gold Coast</addr-line>, <addr-line content-type="state">Queensland</addr-line>, <country>Australia</country></aff>
+              <aff id="aff4"><label>4</label><institution content-type="department">Department of Medicine, Allergy/Immunology and Rheumatology (SMD)</institution>, <institution>University of Rochester</institution>, <addr-line content-type="city">Rochester</addr-line>, <addr-line content-type="state">New York</addr-line>, <country>USA</country></aff>
+              <aff id="aff5"><label>5</label><institution content-type="department">Rheumatology</institution>, <institution>Guy's and St Thomas' NHS Foundation Trust</institution>, <addr-line content-type="city">London</addr-line>, <country>UK</country></aff>
+              <aff id="aff6"><label>6</label><institution content-type="department">Immunology, Heptatology and Dermatology</institution>, <institution>Novartis Pharmaceuticals Corporation</institution>, <addr-line content-type="city">East Hanover</addr-line>, <addr-line content-type="state">New Jersey</addr-line>, <country>USA</country></aff>
+              <aff id="aff7"><label>7</label><institution content-type="department">Rheumatology</institution>, <institution>University of Pennsylvania Perelman School of Medicine</institution>, <addr-line content-type="city">Philadelphia</addr-line>, <addr-line content-type="state">Pennsylvania</addr-line>, <country>USA</country></aff>
+              <aff id="aff8"><label>8</label><institution content-type="department">Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences</institution>, <institution>University of Oxford</institution>, <addr-line content-type="city">Oxford</addr-line>, <country>UK</country></aff>
+              <aff id="aff9"><label>9</label><institution content-type="department">Rheumatology</institution>, <institution>Friedrich-Alexander-Universitat Erlangen-Nurnberg</institution>, <addr-line content-type="city">Erlangen</addr-line>, <country>Germany</country></aff>
+              <aff id="aff10"><label>10</label><institution content-type="department">College of Medical Veterinary and Life Sciences</institution>, <institution>University of Glasgow</institution>, <addr-line content-type="city">Glasgow</addr-line>, <country>UK</country></aff>
+              <author-notes>
+                <corresp><label>Correspondence to</label> Professor Iain B McInnes; <email>iain.mcinnes@glasgow.ac.uk</email></corresp>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>18</day>
+                <month>11</month>
+                <year>2021</year>
+              </pub-date>
+              <volume>7</volume>
+              <issue>3</issue>
+              <elocation-id>e001845</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>26</day>
+                  <month>7</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>29</day>
+                  <month>10</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© Author(s) (or their employer(s)) 2021. Re-use permitted under CC BY-NC. No commercial re-use. See rights and permissions. Published by BMJ.</copyright-statement>
+                <copyright-year>2021</copyright-year>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbynclicense" start_date="2021-11-17">https://creativecommons.org/licenses/by-nc/4.0/</ali:license_ref>
+                  <license-p>This is an open access article distributed in accordance with the Creative Commons Attribution Non Commercial (CC BY-NC 4.0) license, which permits others to distribute, remix, adapt, build upon this work non-commercially, and license their derivative works on different terms, provided the original work is properly cited, appropriate credit is given, any changes made indicated, and the use is non-commercial. See: <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:title="pdf" xlink:href="rmdopen-2021-001845.pdf"/>
+              <abstract>
+                <sec>
+                  <title>Objectives</title>
+                  <p>Identify distinct clusters of psoriatic arthritis (PsA) patients based on their baseline articular, entheseal and cutaneous disease manifestations and explore their clinical and therapeutic value.</p>
+                </sec>
+                <sec>
+                  <title>Methods</title>
+                  <p>Pooled baseline data in PsA patients (n=1894) treated with secukinumab across four phase 3 studies (FUTURE 2–5) were analysed to determine phenotypes based on clusters of clinical indicators. Finite mixture models methodology was applied to generate clinical clusters and mean longitudinal responses were compared between secukinumab doses (300 vs 150 mg) across identified clusters and clinical indicators through week 52 using machine learning (ML) techniques.</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p>Seven distinct patient clusters were identified. Cluster 1 (very-high (VH) – SWO/TEN (swollen/tender); n=187) was characterised by VH polyarticular burden for both tenderness and swelling of joints, while cluster 2 (H (high) – TEN; n=251) was marked by high polyarticular burden in tender joints and cluster 3 (H – Feet – Dactylitis; n=175) by high burden in joints of feet and dactylitis. For cluster 4 (L (Low) – Nails – Skin; n=209), cluster 5 (L – skin; n=283), cluster 6 (L – Nails; n=294) and cluster 7 (L; n=495) articular burden was low but nail and skin involvement was variable, with cluster 7 marked by mild disease activity across all domains. Greater improvements in the longitudinal responses for enthesitis in cluster 2, enthesitis and Psoriasis Area and Severity Index (PASI) in cluster 4 and PASI in cluster 6 were shown for secukinumab 300 mg compared with 150 mg.</p>
+                </sec>
+                <sec>
+                  <title>Conclusions</title>
+                  <p>PsA clusters identified by ML follow variable response trajectories indicating their potential to predict precise impact on patients’ outcomes.</p>
+                </sec>
+                <sec>
+                  <title>Trial registration numbers</title>
+                  <p><ext-link xlink:href="NCT01752634" ext-link-type="uri">NCT01752634</ext-link>, <ext-link xlink:href="NCT01989468" ext-link-type="uri">NCT01989468</ext-link>, <ext-link xlink:href="NCT02294227" ext-link-type="uri">NCT02294227</ext-link>, <ext-link xlink:href="NCT02404350" ext-link-type="uri">NCT02404350</ext-link></p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>biological therapy</kwd>
+                <kwd>arthritis</kwd>
+                <kwd>psoriatic</kwd>
+                <kwd>tumor necrosis factor inhibitors</kwd>
+                <kwd>inflammation</kwd>
+                <kwd>t-lymphocyte subsets</kwd>
+              </kwd-group>
+              <funding-group specific-use="FundRef">
+                <award-group id="funding-1">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100008792</institution-id>
+                      <institution>Novartis Pharma</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>N/A</award-id>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>special-feature</meta-name>
+                  <meta-value>unlocked</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <boxed-text id="BX1" position="float">
+              <caption>
+                <title>Key messages</title>
+              </caption>
+              <sec>
+                <title>What is already known about this subject?</title>
+                <list list-type="bullet">
+                  <list-item>
+                    <p>Machine learning (ML), a subfield of artificial intelligence, allows learning from experience and improves the performance of data analytics efforts. ML algorithms can detect data patterns of vast amounts of clinical data and identify clusters with therapeutic or prognostic significance. The FUTURE programme comprises five randomised placebo controlled trials of secukinumab and enrolled over 2750 patients with psoriatic arthritis (PsA).</p>
+                  </list-item>
+                </list>
+              </sec>
+              <sec>
+                <title>What does this study add?</title>
+                <list list-type="bullet">
+                  <list-item>
+                    <p>Based on the presence and severity at baseline of the PsA clinical manifestations in patients enrolled in a large clinical development phase III programme, this study identified seven distinct clusters by using ML techniques.</p>
+                  </list-item>
+                  <list-item>
+                    <p>The subsequent analyses of their longitudinal responses to two secukinumab doses has shown greater improvements in Psoriasis Area and Severity Index scores and enthesitis resolution for secukinumab 300 mg compared with 150 mg in some clusters.</p>
+                  </list-item>
+                </list>
+              </sec>
+              <sec>
+                <title>How might this impact on clinical practice or further developments?</title>
+                <list list-type="bullet">
+                  <list-item>
+                    <p>This proof-of-concept study demonstrated that the seven distinct PsA clinical clusters identified by ML follow variable response trajectories to secukinumab therapy.</p>
+                  </list-item>
+                  <list-item>
+                    <p>Further studies from other classes of drugs with a different mode of action, head-to-head trials and longitudinal observational studies, are warranted to explore the potential of these clusters to determine PsA patient phenotypes of prognostic significance by anticipating disease trajectories, tailoring treatment choices, optimising therapeutic regimens and ultimately improving clinical care of PsA patients.</p>
+                  </list-item>
+                </list>
+              </sec>
+            </boxed-text>
+            <sec sec-type="intro" id="s1">
+              <title>Introduction</title>
+              <p>A personalised treatment approach based on the integration of phenotypic, biomarker and imaging data represents an unmet need for patients with psoriatic arthritis (PsA) and would have a significant impact on their quality of life and functional ability.<xref rid="R1" ref-type="bibr">1 2</xref> Amidst the heterogeneity of the clinical manifestations of PsA and the variability of response to multiple therapeutic modalities, identifying patient phenotypes and endotypes that vary in their response to therapy is a challenging but important quest.<xref rid="R1" ref-type="bibr">1 2</xref> Currently historically defined clinical subgroups that have not been tested for either their therapeutic response or their pathogenetic homogeneity are relied on.</p>
+              <p>The availability of large quantities of data generated from diverse sources such as composite outcome measures, high-resolution imaging, genome sequencing and electronic medical records require implementation of complex algorithms to identify patterns. Consequently, computational strategies are increasingly applied to analyse large-scale data.<xref rid="R3" ref-type="bibr">3 4</xref> Machine learning (ML), a subfield of artificial intelligence that allows for the ability to learn from experience and improve performance of specific tasks, is expected to play a pivotal role in the development of personalised medicine in the future.<xref rid="R1" ref-type="bibr">1 2</xref> ML algorithms can be designed to detect data patterns from vast amounts of clinical data,<xref rid="R3" ref-type="bibr">3</xref> and identify clusters with therapeutic or prognostic significance.<xref rid="R4" ref-type="bibr">4</xref> Using ML techniques could be the first critical step towards gaining a better understanding of disease pathotypes, and support progression towards precision medicine.<xref rid="R3" ref-type="bibr">3 5 6</xref> One of the advantages of ML methods is that they are ‘unbiased’ or ‘semibiased’ and largely agnostic to preconceived notions of clinical phenotypic historical subsets, allowing the computer to identify novel subgroups. The FUTURE programme comprises five randomised controlled trials (RCTs) of secukinumab vs placebo and enrolled over 2750 patients with PsA. This study aimed to identify distinct clusters of patients with PsA by using ML techniques based on their baseline articular, entheseal and cutaneous disease manifestations as captured in the FUTURE programme.<xref rid="R7" ref-type="bibr">7–10</xref> These clusters were subsequently examined for differences in their longitudinal responses to different secukinumab doses to explore their prognostic value.</p>
+            </sec>
+            <sec sec-type="methods" id="s2">
+              <title>Methods</title>
+              <sec id="s2-1">
+                <title>Data description</title>
+                <p>Pooled clinical data at baseline in PsA patients treated with secukinumab across four phase 3 studies, namely, FUTURE 2,<xref rid="R7" ref-type="bibr">7</xref> FUTURE 3,<xref rid="R8" ref-type="bibr">8</xref> FUTURE 4<xref rid="R9" ref-type="bibr">9</xref> and FUTURE 5<xref rid="R10" ref-type="bibr">10</xref> were analysed.</p>
+              </sec>
+              <sec id="s2-2">
+                <title>Cluster analysis</title>
+                <p>As shown in <xref rid="T1" ref-type="table">table 1</xref>, six clinical indicators of the five PsA manifestations (joints, entheses, dactylitis, skin and nails) were analysed to identify clusters of patients and determine PsA phenotypes. In total, 206 baseline variables were identified, notably 76 joints from the swollen joint count (SJC), 78 joints from tender joint count (TJC), 6 entheseal sites from Leeds Enthesitis Index (LEI), 10 fingers and 10 toes for dactylitis, 10 fingers for nail psoriasis (Pso) (and 4 body locations each for erythema, scaling, thickening and area score. Finite mixture models methodology<xref rid="R11" ref-type="bibr">11</xref> (sometimes also called latent class mixture models<xref rid="R12" ref-type="bibr">12</xref> was applied to generate patient clusters from the pooled clinical data of 1894 patients treated with secukinumab in the four pivotal phase 3 trials. This methodology has been shown to be a principled statistical approach to practical issues that can come up in clustering.<xref rid="R11" ref-type="bibr">11</xref> More specifically, the method relies on a robust statistical model where patients that share a cluster have a common probability distribution of key measurements such as joints, enthesitis, etc . The statistical model provides a mathematical criterion, such as Bayesian information criterion (BIC), for determining the number of clusters, which is a notoriously difficult choice in the literature. Other non-model-based clustering algorithms (such as K-means and hierarchical clustering) tend to rely on heuristics to choose the number of clusters. We applied the latent class mixture model defined in ‘How to find an appropriate clustering for mixed‐type variables with application to socioeconomic stratification’.<xref rid="R12" ref-type="bibr">12</xref> The principal author of this paper published an R-software package called ‘fpc’<xref rid="R13" ref-type="bibr">13</xref> along with that paper, which is an algorithmic implementation of the method. This software package allowed us to fit the exact finite mixture model that we wanted, namely the so-called multinomial mixture model, which is a special type of finite mixture model appropriate for categorical variables. Since each of the 206 clinical variables were either binary (tender and swollen joints, enthesitis and dactylitis) or categorical with categories 0–4 (modified Nail Psoriasis Severity Index (mNAPSI) and Psoriasis Area and Severity Index (PASI)-related variables), this multinomial mixture fits naturally to the clinical data set. The fundamental mathematical assumption of the clustering algorithm was that if two patients belong to the same cluster then their clinical measurements (across the 206 variables) share the same multinomial distribution. Mathematically, let <inline-formula><mml:math id="M1" overflow="scroll"><mml:mstyle displaystyle="true" scriptlevel="0"><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>…</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mn>206</mml:mn></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mstyle></mml:math></inline-formula> denote the 206 categorical measurements for patient <inline-formula><mml:math id="M2" overflow="scroll"><mml:mi>i</mml:mi></mml:math></inline-formula> (among the 1894 patients). Assume that the patients can be partitioned into K distinct clusters. If patient <inline-formula><mml:math id="M3" overflow="scroll"><mml:mi>i</mml:mi></mml:math></inline-formula> was in cluster <inline-formula><mml:math id="M4" overflow="scroll"><mml:mi>c</mml:mi></mml:math></inline-formula>, then it was assumed that the measurements follow a cluster-specific multinomial distribution, namely:</p>
+                <p>
+                  <disp-formula id="E1">
+                    <mml:math id="eqn1" overflow="scroll">
+                      <mml:mstyle displaystyle="true" scriptlevel="0">
+                        <mml:mrow>
+                          <mml:msub>
+                            <mml:mi>y</mml:mi>
+                            <mml:mrow>
+                              <mml:mi>i</mml:mi>
+                              <mml:mi>j</mml:mi>
+                            </mml:mrow>
+                          </mml:msub>
+                          <mml:mo>∼</mml:mo>
+                          <mml:mi>M</mml:mi>
+                          <mml:mi>u</mml:mi>
+                          <mml:mi>l</mml:mi>
+                          <mml:mi>t</mml:mi>
+                          <mml:mi>i</mml:mi>
+                          <mml:mi>n</mml:mi>
+                          <mml:mi>o</mml:mi>
+                          <mml:mi>m</mml:mi>
+                          <mml:mrow>
+                            <mml:mo>(</mml:mo>
+                            <mml:msub>
+                              <mml:mi>p</mml:mi>
+                              <mml:mrow>
+                                <mml:mi>c</mml:mi>
+                                <mml:mi>j</mml:mi>
+                              </mml:mrow>
+                            </mml:msub>
+                            <mml:mo>)</mml:mo>
+                          </mml:mrow>
+                        </mml:mrow>
+                      </mml:mstyle>
+                    </mml:math>
+                  </disp-formula>
+                </p>
+                <table-wrap position="float" id="T1">
+                  <label>Table 1</label>
+                  <caption>
+                    <p>Clinical indicators of PSA disease manifestation</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <tbody>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Tender joints</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">For each of the 78 joints based on the presence or absence of tenderness</td>
+                      </tr>
+                      <tr>
+                        <td align="char" char="." valign="top" rowspan="1" colspan="1">2</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Swollen joints</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">For each of the 76 joints based on the presence or absence of swelling</td>
+                      </tr>
+                      <tr>
+                        <td align="char" char="." valign="top" rowspan="1" colspan="1">3</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Enthesitis</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">For each of the six LEI entheseal sites based on presence or absence</td>
+                      </tr>
+                      <tr>
+                        <td align="char" char="." valign="top" rowspan="1" colspan="1">4</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Dactylitis</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">For each of the 10 fingers and 10 toes based on presence or absence</td>
+                      </tr>
+                      <tr>
+                        <td align="char" char="." valign="top" rowspan="1" colspan="1">5</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">mNAPSI</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">For each of the 10 fingers defined as clear, mild, mild-to-moderate, moderate-to-severe, severe for a mNAPSI of 0, 1, 2, 3–4, 5–13</td>
+                      </tr>
+                      <tr>
+                        <td align="char" char="." valign="top" rowspan="1" colspan="1">6</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">PASI</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">For each of the four body areas (upper limbs, lower limbs, head and trunk) erythema, scaling and thickening were defined as clear, mild, mild-to-moderate, moderate-to-severe or severe on a scale from 0 to 4. The affected body areas were rescaled from a 0–6 scale onto the same scale of 0–4 (0 (clear), 1 (mild), 2 (mild-to-moderate), 3–4 (moderate-to-severe), 4–6 (severe))</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="T1_FN1">
+                      <p>LEI, Leeds Enthesitis Index; mNAPSI, modified nail psoriasis severity index; PASI, psoriasis area severity index; PsA, psoriatic arthritis.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+                <p>Where <inline-formula><mml:math id="M5" overflow="scroll"><mml:mstyle displaystyle="true" scriptlevel="0"><mml:mrow><mml:msub><mml:mi>p</mml:mi><mml:mrow><mml:mi>c</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mi>p</mml:mi><mml:mrow><mml:mi>c</mml:mi><mml:mi>j</mml:mi><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mrow><mml:mi>c</mml:mi><mml:mi>j</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mstyle></mml:math></inline-formula> for binary variables <inline-formula><mml:math id="M6" overflow="scroll"><mml:mi>j</mml:mi></mml:math></inline-formula> (tender, swollen joints, enthesitis, and dactylitis variables are either 0 or 1) and <inline-formula><mml:math id="M7" overflow="scroll"><mml:mstyle displaystyle="true" scriptlevel="0"><mml:mrow><mml:msub><mml:mi>p</mml:mi><mml:mrow><mml:mi>c</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mi>p</mml:mi><mml:mrow><mml:mi>c</mml:mi><mml:mi>j</mml:mi><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mrow><mml:mi>c</mml:mi><mml:mi>j</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mrow><mml:mi>c</mml:mi><mml:mi>j</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mrow><mml:mi>c</mml:mi><mml:mi>j</mml:mi><mml:mn>3</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mrow><mml:mi>c</mml:mi><mml:mi>j</mml:mi><mml:mn>4</mml:mn></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mstyle></mml:math></inline-formula> for the cateogorical variables <inline-formula><mml:math id="M8" overflow="scroll"><mml:mi>j</mml:mi></mml:math></inline-formula> (mNAPSI and PASI variables are on a scale from 0 to 4); <inline-formula><mml:math id="M9" overflow="scroll"><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mi>c</mml:mi><mml:mi>j</mml:mi><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>P</mml:mi><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mi>k</mml:mi><mml:mo>)</mml:mo></mml:math></inline-formula> was interpreted as the probability that the <inline-formula><mml:math id="M10" overflow="scroll"><mml:mi>j</mml:mi></mml:math></inline-formula>-th clinical variable for patient <inline-formula><mml:math id="M11" overflow="scroll"><mml:mi>i</mml:mi></mml:math></inline-formula> is equal to <inline-formula><mml:math id="M12" overflow="scroll"><mml:mi>k</mml:mi></mml:math></inline-formula>. It was also assumed for mathematical convenience that the clinical variables <inline-formula><mml:math id="M13" overflow="scroll"><mml:mi>j</mml:mi></mml:math></inline-formula> are probabilistically independent, which results in a mathematically attractive likelihood formulation. It is important to note that many of the clinical variables are in fact naturally dependent. We have reported this in a previous abstract presented at American College of Rheumatology (ACR) Annual Meeting in 2021<xref rid="R14" ref-type="bibr">14</xref> where we observed a natural grouping of joints consistent with the body’s anatomy purely based on intervariable correlations. However, modelling adequately dependencies with categorical data is challenging and, to the best of our knowledge, there are no previous references of implementation of the multinomial mixture model with additional dependence/correlation assumptions. Therefore, the independence assumption was applied for mathematical feasibility reasons. Implementation of a more complex correlated multivariate multinomial mixture models could be an interesting future methodological research. The resulting multinomial mixture model can be fit using the R-package<xref rid="R15" ref-type="bibr">15</xref> ‘flexmix’ in conjunction with the “lcmixed” module from the R-package ‘fpc’. The ‘flexmix’ package estimates the mixture model using maximum likelihood and once the parameters of the model were estimated we determined cluster memberships of each patient (given a prespecified number of clusters K). Furthermore, as it was not known in advance how many patient clusters there were in reality, it was important to run the clustering algorithm across a wide range of K (eg, K=2, 3… 10) and choose the optimal K according to some pre-specified mathematical criteria. BIC<xref rid="R16" ref-type="bibr">16</xref> was used to choose the mathematically optimal number of clusters K.</p>
+                <p>Finally, to assess clustering robustness and stability, the clustering algorithm was applied repeatedly on different subsamples of the 1894 patients. More specifically, the clustering algorithm was run 200 times for each of the different K 2,3, …, 10, each time on different subsets of 80% of the patients (~1467 patients). With the subsampling we essentially perform Consensus Clustering of Monti <italic toggle="yes">et al</italic>,<xref rid="R17" ref-type="bibr">17</xref> which is an established method to represent the consensus across multiple runs of a clustering algorithm and to assess the stability of the discovered clusters.</p>
+              </sec>
+              <sec id="s2-3">
+                <title>Longitudinal analysis</title>
+                <p>The next step was to compare the longitudinal responses between the doses of secukinumab (300 vs 150 mg) both across the identified clusters and the six clinical indicators, namely tender joints, swollen joints, enthesitis, dactylitis, nail and skin PsO defined by the 206 clinical variables as described above. The longitudinal treatment differences were explored for secukinumab 150 and 300 mg by visual comparisons on a relative scale. Furthermore, curves depicting the difference between the relative mean to secukinumab 150 mg response and 300 mg response were generated for each cluster and endpoint. The relative mean of each endpoint at time t was defined as the endpoint mean at time t divided by the endpoint mean at baseline; hence all curves of the visual comparisons depicting the longitudinal relative treatment differences start at the same value of one at baseline. The corresponding Bonferroni adjusted 95% bootstrap CIs were represented by coloured shaded regions.</p>
+              </sec>
+            </sec>
+            <sec sec-type="results" id="s3">
+              <title>Results</title>
+              <p>Baseline demographics and disease characteristics are shown in <xref rid="SP1" ref-type="supplementary-material">online supplemental table 1</xref>. Baseline characteristics were balanced across treatment groups. At baseline,~63% had enthesitis, 36% had dactylitis, the mean adjusted TJC ranged from 19.1 to 21.5, the mean adjusted SJC ranged from 7.6 to 10.0, ~46% had C reactive protein &gt;5 mg/L,~42% had PsO of ≥3% of body surface area, and 66% had nail PsO.</p>
+              <supplementary-material id="SP1" position="float" content-type="local-data">
+                <object-id pub-id-type="doi">10.1136/rmdopen-2021-001845.supp1</object-id>
+                <label>Supplementary data</label>
+                <p>
+                  <inline-supplementary-material id="SS1" xlink:href="rmdopen-2021-001845supp001.pdf" content-type="local-data"/>
+                </p>
+              </supplementary-material>
+              <sec id="s3-1">
+                <title>Cluster analysis</title>
+                <p>Approximately 375 000 data entries collected at baseline for 1894 patients across the 206 clinical variables contributed to the cluster analysis. A heat-map underlying the clustering was generated wherein each row corresponded to one patient (hence there were 1894 rows in total), and each column corresponded to one clinical variable (hence there were 206 columns in total; <xref rid="F1" ref-type="fig">figure 1</xref>). The rows (patients) have been ordered according to optimal clustering and the columns (clinical variables) according to which clinical domain they belong to gear towards exploration of patterns that are clinically meaningful. The optimal (minimum) BIC was achieved when K=7 as shown in the plot of K vs BIC for each of the 200 models per K=2, 3, …, 10 along with a blue mean curve as depicted in <xref rid="SP1" ref-type="supplementary-material">online supplemental figure 1</xref>. Seven distinct patient clusters were identified based on the baseline disease manifestations as noted in <xref rid="F1" ref-type="fig">figure 1</xref>. Cluster 1, labelled very high (VH)-SWO/TEN (swollen/tender) cluster (n=187), was characterised by VH polyarticular burden (tender and swollen joints), high disease activity for enthesitis, mild-to-moderate for skin disease, nail disease and dactylitis. Cluster 2 labelled as H-TEN (n=251) was marked by high burden for tender joints, whereas all other disease domains were of mild-to-moderate activity. Cluster 3, labelled as H-Feet-Dactylitis (n=175), was characterised by high disease burden in the joints of the feet and dactylitis, whereas mild-to-moderate activity was seen across all other disease domains. Cluster 4 labelled L-Nails-Skin (n=209) was marked by low polyarticular burden but moderate-to-severe activity of nail and skin disease. Cluster 5 and cluster 6 labelled L-Skin (n=283) and L-Nails (n=294) were characterised by moderate activity for skin or nail disease, respectively, but low articular burden as well as low disease activity in all other domains. Finally, patients in cluster 7 labelled L (n=495) had low disease activity across all domains. The mean variable value for each of the six clusters based on baseline disease manifestations, namely swollen joint, tender joint, enthesitis, mNAPSI, PASI and dactylitis are shown in <xref rid="T2" ref-type="table">table 2</xref>.</p>
+                <fig position="float" id="F1">
+                  <label>Figure 1</label>
+                  <caption>
+                    <p>Heat map of baseline clusters from FUTURE 2–5 studiesA dark red colour signifies the presence of a symptom or sign in the case of binary variables (swollen joints, tender joints, enthesitis or dactylitis) or severe symptom or sign (value of 4 on the scale 0–4) for categorical variables (mNAPSI and PASI). A light yellow signifies absence of a symptom or sign for both binary and categorical variables. Gradual shades of yellow-orange-red refer to mild, mild-to-moderate, moderate-to-severe signs among the categorical variables. AC, acromioclavicular; ACh, Achilles; CMC 1, Carpometacarpal 1; DAC, Dactylitis; DIP_F, distal interphalangeal joints feet; DIP_H, distal interphalangeal joints hand; Dist., distance; ELB, elbow; Fem, femur; hum: humerus; LEI, Leeds Enthesitis Index; low, lower limbs; MCP_H, metacarpophalangeal joints hand; mNAPSI, modified nail psoriasis severity index; MT, Mid-tarsal; MTP_F, Metatarsophalangeal joint; N, number of evaluable patients; PASI, psoriasis area severity index; PIP_F, proximal interphalangeal joints feet; PIP_H, proximal interphalangeal joints hand; SC, sternoclavicular; SHL, shoulder; swo, swollen; ten, tender; TM, temporomandibular joint; Tru, trunk; TT, Talo-tibial; UPP, upper limbs; WST, wrist.</p>
+                  </caption>
+                  <graphic xlink:href="rmdopen-2021-001845f01" position="float"/>
+                </fig>
+                <table-wrap position="float" id="T2">
+                  <label>Table 2</label>
+                  <caption>
+                    <p>Mean variable value for the baseline clusters: future 2–5</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <thead>
+                      <tr>
+                        <td align="left" valign="bottom" rowspan="1" colspan="1">Cluster</td>
+                        <td align="left" valign="bottom" rowspan="1" colspan="1">Variable</td>
+                        <td align="left" valign="bottom" rowspan="1" colspan="1">Mean</td>
+                        <td align="left" valign="bottom" rowspan="1" colspan="1">SD</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td align="left" valign="top" rowspan="6" colspan="1">1.VH-SWO/TEN (n=187)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">DACTCNT</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">3.5</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.57</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">LEI</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">3.8</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">2.06</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">mNAPSI</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">16.7</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">20.44</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">PASI</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">7.6</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">11.29</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">SJC</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">27.6</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">16.13</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">TJC</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">56.9</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">12.08</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="6" colspan="1">2.H-TEN (n=251)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">DACTCNT</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.7</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1.59</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">LEI</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">2.6</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">2.01</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">mNAPSI</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">2.9</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.57</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">PASI</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">2.8</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">3.29</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">SJC</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">12.7</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">7.17</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">TJC</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">34.3</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">8.97</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="6" colspan="1">3.H-Feet (n=175)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">DACTCNT</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.3</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.36</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">LEI</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1.5</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1.66</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">mNAPSI</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">16.4</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">17.16</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">PASI</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">6.7</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">6.21</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">SJC</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">14.9</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">8.15</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">TJC</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">21.1</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">8.46</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="6" colspan="1">4.L-Nails-Skin (n=209)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">DACTCNT</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1.8</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">2.88</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">LEI</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">2.0</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1.73</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">mNAPSI</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">35.9</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">20.66</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">PASI</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">19.3</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">12.74</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">SJC</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">9.6</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.49</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">TJC</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">17.8</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">9.14</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="6" colspan="1">5.L-Skin (n=283)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">DACTCNT</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.8</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1.47</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">LEI</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1.6</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1.72</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">mNAPSI</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">3.7</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.83</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">PASI</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">12.9</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">8.08</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">SJC</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">7.8</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.21</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">TJC</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">13.2</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">6.64</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="6" colspan="1">6.L-Nails (n=294)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">DACTCNT</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.7</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1.64</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">LEI</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1.2</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1.48</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">mNAPSI</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">21.0</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">16.16</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">PASI</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">3.2</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">2.68</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">SJC</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">7.3</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.11</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">TJC</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">12.1</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">6.68</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="6" colspan="1">7.L (n=495)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">DACTCNT</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.4</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1.08</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">LEI</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1.3</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1.54</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">mNAPSI</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1.1</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">2.36</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">PASI</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1.8</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1.94</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">SJC</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">6.9</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">3.91</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">TJC</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">11.6</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.33</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="T2_FN1">
+                      <p>DACTCNT, dactylitis count; LEI, Leeds Enthesitis Index; mNAPSI, modified nail psoriasis severity index; PASI, psoriasis area severity index; SJC, swollen joint count; TJC, tender joint count.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+                <p>The consensus matrix to measure cluster stability showed that the overall clustering was fairly stable across the 200 subsamples (<xref rid="F2" ref-type="fig">figure 2</xref>). The column ordering of patients from left to right was the same as the row ordering of patients from bottom to top. For each pair of patients, we had a coloured pixel in the heat-map corresponding to that pair. A white colour meant that this pair of patients were never clustered together (across all 200 replicated clusterings). A dark blue colour meant that the pair of patients were always clustered together (100% of the time). The black vertical and horizontal lines separated the seven optimal clusters. Dark blue blocks along the diagonal of the heat-map indicated strong cluster stability and robustness. Conversely, large patches of blue on the off diagonal indicated cluster instability.</p>
+                <fig position="float" id="F2">
+                  <label>Figure 2</label>
+                  <caption>
+                    <p>Consensus matrix to measure cluster stability. Cluster 1: VH-SWO/TEN cluster (n=187); cluster 2: H – TEN (n=251); cluster 3: H – feet – Dactylitis (n=175); cluster 4: L – nails –s kin (n=209); cluster 5: L–skin (n=283); cluster 6: L–nails (n=294); cluster 7: L (low) (n=495). H, high; L, low; SWO, swollen; TEN, tender; VH, very high.</p>
+                  </caption>
+                  <graphic xlink:href="rmdopen-2021-001845f02" position="float"/>
+                </fig>
+              </sec>
+              <sec id="s3-2">
+                <title>Longitudinal responses</title>
+                <p>A visual comparison of the two relative mean longitudinal response curves for secukinumab 300 and 150 mg across the seven identified clusters and six clinical indicators of the five PsA manifestations is shown in <xref rid="F3" ref-type="fig">figure 3</xref>. The curves depicting the difference between the relative mean responses to secukinumab 300 and 150 mg across the seven clusters for each of the six clinical indicators are shown in <xref rid="F4" ref-type="fig">figure 4</xref>. Overall, there were relatively small differences in response to secukinumab 300 vs 150 mg across the seven clusters. Statistically significant higher improvements in the secukinumab 300 mg pooled groups compared with 150 mg were shown in cluster 2 (H-TEN) for enthesitis, in cluster 4 (L-Nails-Skin) for enthesitis, and PsO, and in cluster 6 (L-Nails) for PsO. For a more detailed list of which endpoints (and at which timepoints) showed differential response stratified by clusters, see <xref rid="SP1" ref-type="supplementary-material">online supplemental table 2</xref>. Note that only those Bootstrap CIs that exclude zero have been deemed statistically significant.</p>
+                <fig position="float" id="F3">
+                  <label>Figure 3</label>
+                  <caption>
+                    <p>Relative mean response curves for patients on secukinumab. Relative mean response curves for patients on secukinumab 150 mg (red curves) and 300 mg (green curves) across the seven clusters for the six clinical indicators. The red curves depicted the relative mean responses for patients having received secukinumab 150 mg, while the green curves depicted that for secukinumab 300 mg. It is to be noted that the two relative dose response curves always started at baseline at the same mean value equal to 1 to adjust for different starting values. The coloured shaded regions represented 95% bootstrap CIs.</p>
+                  </caption>
+                  <graphic xlink:href="rmdopen-2021-001845f03" position="float"/>
+                </fig>
+                <fig position="float" id="F4">
+                  <label>Figure 4</label>
+                  <caption>
+                    <p>Differences between the relative mean responses to secukinumab doses. Differences between the relative mean responses to secukinumab 300 and 150 mg across the seven clusters for each of the six clinical indicators. The curves pass through zero at baseline to ensure that the observed treatment differences are not due to the two patient populations starting from a different baseline disease activity. The shaded region provides a Bonferroni adjusted 95% bootstrap CI to make inference on treatment differences. If the shaded region excluded the zero line, (the red dashed line) then the longitudinal treatment difference between secukinumab 300 and 150 mg is deemed statistically significant. If, however, the shaded region included the zero line then there was not enough evidence to claim a treatment difference for that cluster and clinical indicator.</p>
+                  </caption>
+                  <graphic xlink:href="rmdopen-2021-001845f04" position="float"/>
+                </fig>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="s4">
+              <title>Discussion and conclusion</title>
+              <p>Unsupervised ML of the pooled FUTURE 2–5 database across the five PsA clinical manifestations (joints, entheses, dactylitis, skin and nails) identified seven distinct phenotypically defined patient clusters. The 206 baseline clinical variables, including individual tender or swollen peripheral joints, tenderness of the six LEI sites, dactylitis of the fingers and the toes, the PASI components of separate body areas, and mNAPSI scores of the fingers, were not previously classified or categorised for each of the 1894 patients included in this analysis; the clusters were, however, clinically relevant. In particular, patients in cluster 1 with VH polyarticular burden for both tender and swollen joints, high entheseal and moderate dactylitic involvement and mild-to-moderate skin and nail PsO were distinguished from patients in cluster 2 with high polyarticular burden only in terms of joint tenderness and mild-to-moderate activity for all other disease domains. For cluster 3, the high polyarticular burden was mainly driven by the feet in terms of swelling and tenderness of the joints and dactylitic involvement of the feet. Clusters 4, 5, 6 and 7 were all characterised by low polyarticular burden, and were grouped together based on the presence of nail or skin PsO separately or in combination.</p>
+              <p>It is worth noting that despite the FUTURE dataset including predominantly polyarticular patients due to the inclusion criteria of the trials, the seven identified clusters presented with variable joint distribution patterns in terms of swelling and/or tenderness, number of affected joints and feet involvement. For example, cluster 2 is marked by high polyarticular burden in tender joints and cluster 3 by high burden in the joints of the feet.</p>
+              <p>Furthermore, in an initial exploration of the relative means of longitudinally collected outcome measures for secukinumab 300 mg vs 150 mg, good responses were generally shown for both doses of secukinumab across all patient clusters. Nevertheless, as depicted by the two relative dose response curves starting at baseline at the same mean value equal to 1 to adjust for different starting values, these clusters follow variable response trajectories. Additionally, in the analysis of the difference of the relative means of the outcome measures for secukinumab 300 mg vs 150 mg, although some of the findings, such as secukinumab 300 mg performing better in PsO patients were largely anticipated, secukinumab 300 mg performed better for enthesitis in cluster 2 and cluster 4.</p>
+              <p>A limitation of the current analysis was that it was performed on a population of RCTs and therefore patients with oligoarthritis, although highly prevalent in the real world, represent a very small subgroup of the present dataset. Additionally, only certain clinical variables were included in the analyses, which makes the assumption that these were the important factors in identifying subgroups. Furthermore, information on axial PsA was limited at the time of this analysis and data from recent trials specifically those evaluating PsA patients with axial manifestations could not be integrated in the pooled dataset.</p>
+              <p>This was a proof-of-concept study; hence the potential of these clusters to determine PsA patient phenotypes with predictive value in terms of response to therapy should be further assessed through available efficacy data from other classes of drugs with a different mode of action, head-to-head trials and longitudinal observational studies. Additionally, future studies may consider integrating similar methods or applying such models to assess response to therapy and potentially identify subgroups of PsA patients with predictive implications. Further studies in this direction have the potential to expand the therapeutic or prognostic significance of the identified PsA clusters by anticipating disease trajectories in specific patient phenotypes, tailoring treatment choices, optimising therapeutic regimens, and ultimately, improving clinical care of PsA patients.</p>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>The authors thank the patients and study investigators who participated in the clinical studies from which data have been reported in this manuscript. Authors thank John Gallagher, Novartis Pharmaceuticals UK, London, UK for valuable review and publication support. Medical writing support, under the guidance of the authors, was provided by M K Vivek Sanker and Hemangi N Rawal, Novartis Healthcare Private Limited, India. The first draft of this manuscript was written by M K Vivek Sanker based on inputs from all the authors.</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="other">
+                <p><bold>Contributors:</bold> All authors were involved in the drafting and critical review of the manuscript and approved the final version for submission. EP was responsible for overall content as the guarantor. PN, CTR, BWK, LCC and IBM were involved in the acquisition of clinical data and participated as investigators in the clinical study from which data are reported in the manuscript. EP, MK, GL, LP, GS and IBM were involved with the conception or design of the work. MK and GL were involved with the analysis of the data in the manuscript. All authors were involved with the interpretation of data in the manuscript. All authors agreed to be accountable for all aspects of the work and attest to the accuracy and integrity of the work.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Funding:</bold> The research study was funded by Novartis Pharma AG, Basel, Switzerland.</p>
+              </fn>
+              <fn fn-type="COI-statement">
+                <p><bold>Competing interests:</bold> EP: Shareholder and Employee of Novartis. MK: Shareholder and Employee of Novartis. PN: Speaker’s bureau: Novartis, Eli Lilly and AbbVie. CTR: Research grants: AbbVie, Amgen, UCB; Consultant for: AbbVie, Amgen, UCB, Novartis, Pfizer, Lilly, Janssen, BMS. BWK: Research grants, consultation fees, or speaker honoraria: AbbVie, Gilead, Janssen, Lilly, Novartis, Pfizer and UCB. GL: Shareholder and Employee of Novartis. LP: Shareholder and Employee of Novartis. AO: Consultant: AbbVie, Amgen, BMS, Celgene, Corrona, Gilead, Janssen, Lilly, Novartis, Pfizer, UCB. Research grants: Novartis (to Penn), Pfizer (to Penn), Amgen (to Forward). Royalties to husband from Novartis. LCC: Grant/research support: AbbVie, Amgen, Gilead, Janssen, Lilly, Novartis, Pfizer Consultant/speaker for: AbbVie, Amgen, Biogen, Celgene, Pfizer, UCB, Boehringer Ingelheim, Novartis, Lilly, Janssen, Gilead, Medac. GS: Speakers honoraria from AbbVie, BMS, Celgene, Janssen, Lilly, Novartis, Roche and UCB. IBM: Research grants, consultation fees, or speaker honoraria: AbbVie, Amgen, BMS, Celgene, Janssen, Lilly, Novartis, Pfizer and UCB.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Provenance and peer review:</bold> Not commissioned; externally peer reviewed.</p>
+              </fn>
+            </fn-group>
+            <sec sec-type="data-availability">
+              <title>Data availability statement</title>
+              <p>All data relevant to the study are included in the article or uploaded as online supplemental information. The datasets generated during and/or analysed during the current study are not publicly available. Novartis is committed to sharing with qualified external researchers’ access to patient-level data and supporting clinical documents from eligible studies. These requests are reviewed and approved on the basis of scientific merit. All data provided is anonymised to respect the privacy of patients who have participated in the trial in line with applicable laws and regulations. The data may be requested from the corresponding author of the manuscript.</p>
+            </sec>
+            <sec sec-type="ethics-statement">
+              <title>Ethics statements</title>
+              <sec>
+                <title>Patient consent for publication</title>
+                <p content-type="ethics-consent-to-publish">Not applicable.</p>
+              </sec>
+            </sec>
+            <ref-list>
+              <title>References</title>
+              <ref id="R1">
+                <label>1</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Coates</surname><given-names>LC</given-names></string-name>, <string-name><surname>Helliwell</surname><given-names>PS</given-names></string-name></person-group>. <article-title>Psoriatic arthritis: state of the art review</article-title>. <source>Clin Med</source><year>2017</year>;<volume>17</volume>:<fpage>65</fpage>–<lpage>70</lpage>. <pub-id pub-id-type="doi">10.7861/clinmedicine.17-1-65</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/28148584?></mixed-citation>
+              </ref>
+              <ref id="R2">
+                <label>2</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hügle</surname><given-names>M</given-names></string-name>, <string-name><surname>Omoumi</surname><given-names>P</given-names></string-name>, <string-name><surname>van Laar</surname><given-names>JM</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Applied machine learning and artificial intelligence in rheumatology</article-title>. <source>Rheumatol Adv Pract</source><year>2020</year>;<volume>4</volume>:<elocation-id>rkaa005</elocation-id>. <pub-id pub-id-type="doi">10.1093/rap/rkaa005</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/32296743?><pub-id pub-id-type="pmid">32296743</pub-id></mixed-citation>
+              </ref>
+              <ref id="R3">
+                <label>3</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Watson</surname><given-names>DS</given-names></string-name>, <string-name><surname>Krutzinna</surname><given-names>J</given-names></string-name>, <string-name><surname>Bruce</surname><given-names>IN</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Clinical applications of machine learning algorithms: beyond the black box</article-title>. <source>BMJ</source><year>2019</year>;<volume>364</volume>:<elocation-id>l886</elocation-id>. <pub-id pub-id-type="doi">10.1136/bmj.l886</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/30862612?><pub-id pub-id-type="pmid">30862612</pub-id></mixed-citation>
+              </ref>
+              <ref id="R4">
+                <label>4</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Grys</surname><given-names>BT</given-names></string-name>, <string-name><surname>Lo</surname><given-names>DS</given-names></string-name>, <string-name><surname>Sahin</surname><given-names>N</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Machine learning and computer vision approaches for phenotypic profiling</article-title>. <source>J Cell Biol</source><year>2017</year>;<volume>216</volume>:<fpage>65</fpage>–<lpage>71</lpage>. <pub-id pub-id-type="doi">10.1083/jcb.201610026</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/27940887?><pub-id pub-id-type="pmid">27940887</pub-id></mixed-citation>
+              </ref>
+              <ref id="R5">
+                <label>5</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Orange</surname><given-names>DE</given-names></string-name>, <string-name><surname>Agius</surname><given-names>P</given-names></string-name>, <string-name><surname>DiCarlo</surname><given-names>EF</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Identification of three rheumatoid arthritis disease subtypes by machine learning integration of synovial histologic features and RNA sequencing data</article-title>. <source>Arthritis Rheumatol</source><year>2018</year>;<volume>70</volume>:<fpage>690</fpage>–<lpage>701</lpage>. <pub-id pub-id-type="doi">10.1002/art.40428</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/29468833?><pub-id pub-id-type="pmid">29468833</pub-id></mixed-citation>
+              </ref>
+              <ref id="R6">
+                <label>6</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Seyhan</surname><given-names>AA</given-names></string-name>, <string-name><surname>Carini</surname><given-names>C</given-names></string-name></person-group>. <article-title>Are innovation and new technologies in precision medicine paving a new era in patients centric care?</article-title><source>J Transl Med</source><year>2019</year>;<volume>17</volume>:<elocation-id>114</elocation-id>. <pub-id pub-id-type="doi">10.1186/s12967-019-1864-9</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/30953518?><pub-id pub-id-type="pmid">30953518</pub-id></mixed-citation>
+              </ref>
+              <ref id="R7">
+                <label>7</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>McInnes</surname><given-names>IB</given-names></string-name>, <string-name><surname>Mease</surname><given-names>PJ</given-names></string-name>, <string-name><surname>Kirkham</surname><given-names>B</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Secukinumab, a human anti-interleukin-17A monoclonal antibody, in patients with psoriatic arthritis (future 2): a randomised, double-blind, placebo-controlled, phase 3 trial</article-title>. <source>Lancet</source><year>2015</year>;<volume>386</volume>:<fpage>1137</fpage>–<lpage>46</lpage>. <pub-id pub-id-type="doi">10.1016/S0140-6736(15)61134-5</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/26135703?><pub-id pub-id-type="pmid">26135703</pub-id></mixed-citation>
+              </ref>
+              <ref id="R8">
+                <label>8</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Nash</surname><given-names>P</given-names></string-name>, <string-name><surname>Mease</surname><given-names>PJ</given-names></string-name>, <string-name><surname>McInnes</surname><given-names>IB</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Efficacy and safety of secukinumab administration by autoinjector in patients with psoriatic arthritis: results from a randomized, placebo-controlled trial (future 3)</article-title>. <source>Arthritis Res Ther</source><year>2018</year>;<volume>20</volume>:<fpage>47</fpage>. <pub-id pub-id-type="doi">10.1186/s13075-018-1551-x</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/29544534?><pub-id pub-id-type="pmid">29544534</pub-id></mixed-citation>
+              </ref>
+              <ref id="R9">
+                <label>9</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kivitz</surname><given-names>AJ</given-names></string-name>, <string-name><surname>Nash</surname><given-names>P</given-names></string-name>, <string-name><surname>Tahir</surname><given-names>H</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Efficacy and Safety of Subcutaneous Secukinumab 150 mg with or Without Loading Regimen in Psoriatic Arthritis: Results from the FUTURE 4 Study</article-title>. <source>Rheumatol Ther</source><year>2019</year>;<volume>6</volume>:<fpage>393</fpage>–<lpage>407</lpage>. <pub-id pub-id-type="doi">10.1007/s40744-019-0163-5</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/31228101?><pub-id pub-id-type="pmid">31228101</pub-id></mixed-citation>
+              </ref>
+              <ref id="R10">
+                <label>10</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Mease</surname><given-names>P</given-names></string-name>, <string-name><surname>van der Heijde</surname><given-names>D</given-names></string-name>, <string-name><surname>Landewé</surname><given-names>R</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Secukinumab improves active psoriatic arthritis symptoms and inhibits radiographic progression: primary results from the randomised, double-blind, phase III future 5 study</article-title>. <source>Ann Rheum Dis</source><year>2018</year>;<volume>77</volume>:<fpage>annrheumdis-2017-212687</fpage>–<lpage>7</lpage>. <pub-id pub-id-type="doi">10.1136/annrheumdis-2017-212687</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/29550766?></mixed-citation>
+              </ref>
+              <ref id="R11">
+                <label>11</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>McLachlan</surname><given-names>G</given-names></string-name>, <string-name><surname>Peel</surname><given-names>D</given-names></string-name></person-group>. <source>Finite mixture models</source>. <publisher-loc>New York, USA</publisher-loc>: <publisher-name>John Wiley &amp; Sons</publisher-name>, <year>2004</year>.</mixed-citation>
+              </ref>
+              <ref id="R12">
+                <label>12</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hennig</surname><given-names>C</given-names></string-name>, <string-name><surname>Liao</surname><given-names>TF</given-names></string-name></person-group>. <article-title>How to find an appropriate clustering for mixed-type variables with application to socio-economic stratification</article-title>. <source>Journal of the Royal Statistical Society: Series C</source><year>2013</year>;<volume>62</volume>:<fpage>309</fpage>–<lpage>69</lpage>. <pub-id pub-id-type="doi">10.1111/j.1467-9876.2012.01066.x</pub-id></mixed-citation>
+              </ref>
+              <ref id="R13">
+                <label>13</label>
+                <mixed-citation publication-type="webpage"><person-group person-group-type="author"><string-name><surname>Hennig</surname><given-names>C</given-names></string-name></person-group>. <article-title>fpc: flexible procedures for clustering. R package version 2.2-9</article-title>, <year>2020</year>. Available: <uri xlink:href="https://CRAN.R-project.org/package=fpc">https://CRAN.R-project.org/package=fpc</uri></mixed-citation>
+              </ref>
+              <ref id="R14">
+                <label>14</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>McInnes</surname><given-names>I</given-names></string-name>, <string-name><surname>Kormaksson</surname><given-names>M</given-names></string-name>, <string-name><surname>Pournara</surname><given-names>E</given-names></string-name></person-group>. <article-title>Clinically Relevant Patient Clusters Identified by Machine Learning Tools in a Large Database from the Secukinumab Psoriatic Arthritis Clinical Development Program [abstract]</article-title>. <source>Arthritis Rheumatol</source><year>2019</year>;<volume>71</volume><uri xlink:href="https://acrabstracts.org/abstract/clinically-relevant-patient-clusters-identified-by-machine-learning-tools-in-a-large-database-from-the-secukinumab-psoriatic-arthritis-clinical-development-program/">https://acrabstracts.org/abstract/clinically-relevant-patient-clusters-identified-by-machine-learning-tools-in-a-large-database-from-the-secukinumab-psoriatic-arthritis-clinical-development-program/</uri></mixed-citation>
+              </ref>
+              <ref id="R15">
+                <label>15</label>
+                <mixed-citation publication-type="other"><article-title>The R project for statistical computing</article-title><year>2020</year>.</mixed-citation>
+              </ref>
+              <ref id="R16">
+                <label>16</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Schwarz</surname><given-names>G</given-names></string-name></person-group>. <article-title>Estimating the dimension of a model</article-title>. <source>Ann Statist</source><year>1978</year>;<volume>6</volume>:<fpage>461</fpage>–<lpage>4</lpage>. <pub-id pub-id-type="doi">10.1214/aos/1176344136</pub-id></mixed-citation>
+              </ref>
+              <ref id="R17">
+                <label>17</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Monti</surname><given-names>S</given-names></string-name>, <string-name><surname>Tamayo</surname><given-names>P</given-names></string-name>, <string-name><surname>Mesirov</surname><given-names>J</given-names></string-name></person-group>. <article-title>Consensus clustering: a resampling-based method for class discovery and visualization of gene expression microarray data</article-title>. <source>Mach Learn</source><year>2003</year>;<volume>52</volume>:<fpage>91</fpage>–<lpage>118</lpage>. <pub-id pub-id-type="doi">10.1023/A:1023949509487</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

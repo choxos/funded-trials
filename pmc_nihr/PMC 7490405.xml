@@ -1,0 +1,2122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T10:33:18Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7490405" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7490405</identifier>
+        <datestamp>2020-09-16</datestamp>
+        <setSpec>scirep</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Sci Rep</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Sci Rep</journal-id>
+              <journal-title-group>
+                <journal-title>Scientific Reports</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2045-2322</issn>
+              <publisher>
+                <publisher-name>Nature Publishing Group UK</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7490405</article-id>
+              <article-id pub-id-type="pmcid">PMC7490405</article-id>
+              <article-id pub-id-type="pmc-uid">7490405</article-id>
+              <article-id pub-id-type="pmid">32929109</article-id>
+              <article-id pub-id-type="publisher-id">72060</article-id>
+              <article-id pub-id-type="doi">10.1038/s41598-020-72060-0</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>A data-driven typology of asthma medication adherence using cluster analysis</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Tibble</surname>
+                    <given-names>Holly</given-names>
+                  </name>
+                  <address>
+                    <email>Holly.Tibble@ed.ac.uk</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Chan</surname>
+                    <given-names>Amy</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Mitchell</surname>
+                    <given-names>Edwin A.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Horne</surname>
+                    <given-names>Elsie</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Doudesis</surname>
+                    <given-names>Dimitrios</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Horne</surname>
+                    <given-names>Rob</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Mizani</surname>
+                    <given-names>Mehrdad A.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Sheikh</surname>
+                    <given-names>Aziz</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                  <xref ref-type="aff" rid="Aff7">7</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Tsanas</surname>
+                    <given-names>Athanasios</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.4305.2</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 7988</institution-id><institution>Usher Institute, Edinburgh Medical School, College of Medicine and Veterinary Medicine, </institution><institution>University of Edinburgh, </institution></institution-wrap>Doorway 1, Old Medical School, Teviot Place, Edinburgh, EH8 9AG UK </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.4305.2</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 7988</institution-id><institution>Asthma UK Centre for Applied Research, Usher Institute, Centre for Medical Informatics, </institution><institution>University of Edinburgh, </institution></institution-wrap>Edinburgh, UK </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.9654.e</institution-id><institution-id institution-id-type="ISNI">0000 0004 0372 3343</institution-id><institution>School of Pharmacy, Faculty of Medical and Health Sciences, </institution><institution>University of Auckland, </institution></institution-wrap>Auckland, New Zealand </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.83440.3b</institution-id><institution-id institution-id-type="ISNI">0000000121901201</institution-id><institution>Centre for Behavioural Medicine, Department for Practice and Policy, UCL School of Pharmacy, </institution><institution>University College London, </institution></institution-wrap>London, UK </aff>
+                <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.9654.e</institution-id><institution-id institution-id-type="ISNI">0000 0004 0372 3343</institution-id><institution>Department of Paediatrics: Child and Youth Health, Faculty of Medicine and Health Sciences, </institution><institution>University of Auckland, </institution></institution-wrap>Auckland, New Zealand </aff>
+                <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="GRID">grid.4305.2</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 7988</institution-id><institution>BHF Centre for Cardiovascular Sciences, </institution><institution>University of Edinburgh, </institution></institution-wrap>Edinburgh, UK </aff>
+                <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="GRID">grid.507332.0</institution-id><institution>Health Data Research UK, </institution></institution-wrap>London, UK </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>14</day>
+                <month>9</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>14</day>
+                <month>9</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2020</year>
+              </pub-date>
+              <volume>10</volume>
+              <elocation-id>14999</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>11</day>
+                  <month>10</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="accepted">
+                  <day>20</day>
+                  <month>8</month>
+                  <year>2020</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2020</copyright-statement>
+                <license license-type="OpenAccess">
+                  <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par1">Asthma preventer medication non-adherence is strongly associated with poor asthma control. One-dimensional measures of adherence may ignore clinically important patterns of medication-taking behavior. We sought to construct a data-driven multi-dimensional typology of medication non-adherence in children with asthma. We analyzed data from an intervention study of electronic inhaler monitoring devices, comprising 211 patients yielding 35,161 person-days of data. Five adherence measures were extracted: the percentage of doses taken, the percentage of days on which zero doses were taken, the percentage of days on which both doses were taken, the number of treatment intermissions per 100 study days, and the duration of treatment intermissions per 100 study days. We applied principal component analysis on the measures and subsequently applied k-means to determine cluster membership. Decision trees identified the measure that could predict cluster assignment with the highest accuracy, increasing interpretability and increasing clinical utility. We demonstrate the use of adherence measures towards a three-group categorization of medication non-adherence, which succinctly describes the diversity of patient medication taking patterns in asthma. The percentage of prescribed doses taken during the study contributed to the prediction of cluster assignment most accurately (84% in out-of-sample data).</p>
+              </abstract>
+              <kwd-group kwd-group-type="npg-subject">
+                <title>Subject terms</title>
+                <kwd>Data mining</kwd>
+                <kwd>Risk factors</kwd>
+                <kwd>Epidemiology</kwd>
+                <kwd>Asthma</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>Farr Institute</institution>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>Medical Research Council</institution>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>Academy of Medical Sciences</institution>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100010897</institution-id>
+                      <institution>Newton Fund</institution>
+                    </institution-wrap>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100000272</institution-id>
+                      <institution>National Institute for Health Research</institution>
+                    </institution-wrap>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2020</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Introduction</title>
+              <p id="Par10">Asthma is a long-term condition that can be effectively managed in the majority of individuals through regular use of inhaled corticosteroids (ICS)<sup><xref ref-type="bibr" rid="CR1">1</xref>–<xref ref-type="bibr" rid="CR3">3</xref></sup>. <italic>Medication non-adherence</italic>, that is not taking a medication as prescribed, is however very common and is a major factor associated with poor asthma control, leading to increased likelihood of asthma attacks<sup><xref ref-type="bibr" rid="CR4">4</xref>–<xref ref-type="bibr" rid="CR8">8</xref></sup>. Sub-optimal adherence is a costly problem due to medication waste and unnecessary additional healthcare utilization to treat uncontrolled symptoms that may have arisen from non-adherence<sup><xref ref-type="bibr" rid="CR9">9</xref>–<xref ref-type="bibr" rid="CR14">14</xref></sup>.
+</p>
+              <p id="Par11">Numerous studies have used targeted interventions to improve medication adherence in patients with asthma, with the aim of improving clinical outcomes (such as reducing the risk of asthma symptoms or attacks). While some studies have shown positive changes in adherence behavior, they are usually short in duration, making their true clinical and cost-effectiveness hard to assess<sup><xref ref-type="bibr" rid="CR15">15</xref>–<xref ref-type="bibr" rid="CR25">25</xref></sup>.
+</p>
+              <p id="Par12">Electronic monitoring devices (EMDs) enable the real-time tracking of inhaler use, by means of a small electronic chip fitted onto an inhaler, which records the date and time of each dose taken. EMDs are commonly used in research studies aimed at measuring adherence to inhaler asthma therapy<sup><xref ref-type="bibr" rid="CR26">26</xref></sup>, as they can track the exact time and frequency of inhaler actuations. EMDs can thus measure medication use more accurately than either self-report or indirect adherence measurement methods such as using prescribing or dispensing records, which makes their data a valuable resource for investigating patterns of adherence behaviors.</p>
+              <p id="Par13">There are many ways of measuring medication non-adherence and the correlation between these measures within the same data is heavily context dependant<sup><xref ref-type="bibr" rid="CR27">27</xref>,<xref ref-type="bibr" rid="CR28">28</xref></sup>. There is currently no consensus on what should be considered the gold standard<sup><xref ref-type="bibr" rid="CR27">27</xref>–<xref ref-type="bibr" rid="CR30">30</xref></sup>. Furthermore, despite the multitude of medication non-adherence measures<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>, many intervention studies describe medication adherence using only a single average measure over time (such as reporting the percentage of days on which the prescribed doses of ICS were taken<sup><xref ref-type="bibr" rid="CR32">32</xref>–<xref ref-type="bibr" rid="CR36">36</xref></sup>), without supporting rationale for their choice.</p>
+              <p id="Par14">Previous studies of adherence using EMDs in asthma have most commonly used the proportion of prescribed doses that were taken<sup><xref ref-type="bibr" rid="CR34">34</xref>,<xref ref-type="bibr" rid="CR37">37</xref>–<xref ref-type="bibr" rid="CR40">40</xref></sup>, or the percentage of days on which adherence was deemed acceptable by the authors, according to timing of doses<sup><xref ref-type="bibr" rid="CR38">38</xref>,<xref ref-type="bibr" rid="CR41">41</xref></sup>.</p>
+              <p id="Par15">Adherence is often reported categorically by dichotomizing individuals into “good” and “poor” adherers, according to a binary threshold, commonly 80%<sup><xref ref-type="bibr" rid="CR40">40</xref>,<xref ref-type="bibr" rid="CR42">42</xref>–<xref ref-type="bibr" rid="CR50">50</xref></sup>. This threshold, based on a hypothesised level of adherence required to maintain therapeutic effect, which may be considered arbitrary, as any such level would be condition and drug-specific<sup><xref ref-type="bibr" rid="CR51">51</xref></sup> and rely on consistency in the space between doses over time<sup><xref ref-type="bibr" rid="CR52">52</xref>–<xref ref-type="bibr" rid="CR54">54</xref></sup>. Very few studies have attempted a more detailed and meaningful dissection, such as categorising based on trends over time<sup><xref ref-type="bibr" rid="CR55">55</xref>,<xref ref-type="bibr" rid="CR56">56</xref></sup>, or by assessing multiple components of adherence<sup><xref ref-type="bibr" rid="CR7">7</xref>,<xref ref-type="bibr" rid="CR57">57</xref>,<xref ref-type="bibr" rid="CR58">58</xref></sup>.</p>
+              <p id="Par16">This study aimed to investigate the underlying patterns of medication non-adherence in children with asthma, and to identify multidimensional behavior subgroups.</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Methods</title>
+              <sec id="Sec3">
+                <title>Data sources</title>
+                <p id="Par17">We undertook a secondary analysis of data from a previously published randomized controlled trial (RCT)<sup><xref ref-type="bibr" rid="CR37">37</xref></sup>. Chan et al.<sup><xref ref-type="bibr" rid="CR37">37</xref></sup> investigated the effect of an EMD inhaler with an audio-visual reminder function (timed alarm) on ICS adherence. The study enrolled children who presented to the emergency department for acute asthma symptoms and were diagnosed with asthma by the emergency department medical team. The diagnosis process would usually include a clinical diagnosis based on the presentation and medical assessment, supported by pulmonary function tests.</p>
+                <p id="Par18">There were 220 children enrolled, aged 6–15 years, of whom 110 were randomized to the control group, and 110 to the intervention group. Both groups received the same EMD; however, in the intervention group, the EMD had the audio-visual function enabled, whilst the control group had this function disabled. The device was provided to study participants at the baseline appointment, and data from each device was collected at each of the three follow-up appointments (approximately week 8, week 16, and week 24).</p>
+                <p id="Par19">The original study inclusion criteria were: children between 6 and 15 years, with physician-diagnosed asthma, presenting to the emergency department with an asthma attack, and on twice-daily ICS treatment (with or without additional asthma treatments). Diagnosis of a chronic lung disease other than asthma, or congenital heart disease, led to exclusion from participating in the study, as well as living outside of the Auckland, New Zealand catchment area.</p>
+              </sec>
+              <sec id="Sec4">
+                <title>Measures of adherence</title>
+                <p id="Par20">In chronic disease management, it is common for patients to take <italic>intermissions</italic> of treatment (periods of consecutively missed doses), followed by <italic>re-initiations</italic> (returning to treatment following an intermission). As such, it is possible to categorise adherence measures into the subdomains of <italic>implementation</italic> (dose-taking within a day<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>) and <italic>persistence</italic> (the incidence and duration of treatment intermissions lasting at least five days, as discussed by Andrade et al.<sup><xref ref-type="bibr" rid="CR59">59</xref></sup>).</p>
+                <p id="Par21">Twice daily asthma medications are typically taken in the morning and evening, to ensure consistent bioavailability throughout a 24-h period. As such, we refer herein to a ‘dose’ as one or more actuations (puffs) of the inhaler during a 12-h period (midnight to midday, and midday to midnight). Each individual in this study, by virtue of the inclusion criteria, was on a twice daily regimen, and thus had two potential doses in a day (before and after midday). Herein we define five measures of adherence used in this analysis, calculated at the person-level, with denominators excluding periods in which the electronic inhaler device was malfunctioning. Their algorithmic definitions are as follows:</p>
+                <p id="Par22">The percentage of doses that were taken:<disp-formula id="Equ1"><label>A</label><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \frac{{\text{Doses taken}}}{{2 \times {\text{Days with device}}}} \times 100 $$\end{document}</tex-math><mml:math id="M2" display="block"><mml:mrow><mml:mfrac><mml:mrow><mml:mtext>Doses taken</mml:mtext></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:mo>×</mml:mo><mml:mrow><mml:mtext>Days with device</mml:mtext></mml:mrow></mml:mrow></mml:mfrac><mml:mo>×</mml:mo><mml:mn>100</mml:mn></mml:mrow></mml:math><graphic xlink:href="41598_2020_72060_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula>
+The percentage of days on which zero doses were taken:<disp-formula id="Equ2"><label>B</label><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \frac{{\text{Days on which zero doses were actuated}}}{{\text{Days with device}}} \times 100 $$\end{document}</tex-math><mml:math id="M4" display="block"><mml:mrow><mml:mfrac><mml:mrow><mml:mtext>Days on which zero doses were actuated</mml:mtext></mml:mrow><mml:mrow><mml:mtext>Days with device</mml:mtext></mml:mrow></mml:mfrac><mml:mo>×</mml:mo><mml:mn>100</mml:mn></mml:mrow></mml:math><graphic xlink:href="41598_2020_72060_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula>
+The percentage of days on which both doses were taken:<disp-formula id="Equ3"><label>C</label><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \frac{{\text{Days on which doses were actuated in both the AM and PM}}}{{\text{Days with device}}} \times 100 $$\end{document}</tex-math><mml:math id="M6" display="block"><mml:mrow><mml:mfrac><mml:mrow><mml:mtext>Days on which doses were actuated in both the AM and PM</mml:mtext></mml:mrow><mml:mrow><mml:mtext>Days with device</mml:mtext></mml:mrow></mml:mfrac><mml:mo>×</mml:mo><mml:mn>100</mml:mn></mml:mrow></mml:math><graphic xlink:href="41598_2020_72060_Article_Equ3.gif" position="anchor"/></alternatives></disp-formula>
+The number of treatment intermissions, per 100 days of follow-up:<disp-formula id="Equ4"><label>D</label><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \frac{{\text{Number of treatment intermissions}}}{{\text{Days with device}}} \times 100 $$\end{document}</tex-math><mml:math id="M8" display="block"><mml:mrow><mml:mfrac><mml:mrow><mml:mtext>Number of treatment intermissions</mml:mtext></mml:mrow><mml:mrow><mml:mtext>Days with device</mml:mtext></mml:mrow></mml:mfrac><mml:mo>×</mml:mo><mml:mn>100</mml:mn></mml:mrow></mml:math><graphic xlink:href="41598_2020_72060_Article_Equ4.gif" position="anchor"/></alternatives></disp-formula>
+The duration of time spent on treatment intermissions, per 100 days of follow-up:<disp-formula id="Equ5"><label>E</label><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \frac{{\text{Total duration of time spent on treatment intermission}}}{{\text{Days with device}}} \times 100 $$\end{document}</tex-math><mml:math id="M10" display="block"><mml:mrow><mml:mfrac><mml:mrow><mml:mtext>Total duration of time spent on treatment intermission</mml:mtext></mml:mrow><mml:mrow><mml:mtext>Days with device</mml:mtext></mml:mrow></mml:mfrac><mml:mo>×</mml:mo><mml:mn>100</mml:mn></mml:mrow></mml:math><graphic xlink:href="41598_2020_72060_Article_Equ5.gif" position="anchor"/></alternatives></disp-formula></p>
+              </sec>
+              <sec id="Sec5">
+                <title>Data analysis</title>
+                <p id="Par27">Using principal component analysis (PCA), we extracted the <italic>latent variables</italic> of the adherence measures<italic>.</italic> Latent variables (also known as <italic>principal components</italic>) are linear functions of the original measures, which identify the underlying structure of the measures and avoid redundant information<sup><xref ref-type="bibr" rid="CR60">60</xref></sup>. We identified the minimum number of principal components required to explain at least 95% of the variance between the measures.</p>
+                <p id="Par28">Principal components can be influenced by varying magnitudes of scale (e.g. range 0–1 versus range 0–1,000) in the input features. As a benchmark, we used only <italic>zero-centering</italic> (subtracting the mean from each value) to pre-process the adherence measures prior to applying PCA. We also compared the computed principal components generated from the adherence measures when the measures underwent different pre-processing before applying PCA: (1) after scaling each variable to <italic>unit variance</italic> (subtracting the mean from each value, and dividing by the variance), and (2) using <italic>min–max scaling</italic> (each variable was scaled to lie between 0 and 1).</p>
+                <p id="Par29">We used k-means clustering with 25 random initiations, searching through for the optimal number <italic>k</italic> of clusters (we searched for <italic>k</italic> = 1, 2, …, 15). We visually assessed the within groups sum of squares using a <italic>scree plot</italic><sup><xref ref-type="bibr" rid="CR61">61</xref></sup>, to determine the optimal number of clusters. For each method of scaling/centering applied to the data in the principal component computation, we performed clustering on bootstrapped samples of the principal components, repeating the process 1,000 times to assess the stability of the resulting clusters.</p>
+                <p id="Par30">The optimal scaling method was selected as the one that led to the most stable clusters, formally assessed using measures derived from the Jaccard similarity coefficient.</p>
+                <p id="Par31">The Jaccard coefficient of cluster solution similarity<sup><xref ref-type="bibr" rid="CR62">62</xref></sup> is the mean Jaccard similarity between (1) the clusters constructed from the full sample, and (2) the corresponding cluster constructed from bootstrapped samples. The cluster in the bootstrap sample corresponding to the original cluster is determined as the one with the highest Jaccard similarity to the original cluster.</p>
+                <p id="Par32">In this process, a bootstrap sample cluster is considered <italic>dissolved</italic> when the Jaccard similarity between the full data cluster and the associated cluster from a bootstrap sample is less than 0.5<sup><xref ref-type="bibr" rid="CR63">63</xref></sup>. As such, we can also measure the cluster dissolution rate, the proportion of bootstrap samples for which the cluster dissolved.</p>
+                <p id="Par33">Finally, we trained standard classification and regression trees (CARTs)<sup><xref ref-type="bibr" rid="CR60">60</xref></sup>, using each of the measures described above to estimate the adherence groups, using the computed cluster labels as ground truth. The trees were constructed using the Breiman et al. algorithm<sup><xref ref-type="bibr" rid="CR64">64</xref></sup> with the following parameters:<list list-type="bullet"><list-item><p id="Par34">At least 20 patients must be at a node for a split to be considered,</p></list-item><list-item><p id="Par35">There must be at least 6 patients at any terminal node,</p></list-item><list-item><p id="Par36">The maximum tree height is 2 nodes,</p></list-item></list>
+tenfold cross-validation was conducted to estimate the optimal <italic>complexity parameter</italic> (threshold improvement in model fit required for a split to be retained) for use in the tree pruning in order to minimize the cross-validated error rate. The tree is then pruned according to this estimated complexity parameter.</p>
+                <p id="Par38">The tree was built on 70% of the data (randomly sampled). A partition of 15% was used to generate a confusion matrix for each measure; mapping the combinations of cluster labels and tree labels, to quantify the quality of the estimates produced by the decision tree. The best measure was selected by highest accuracy was identified, as follows:<disp-formula id="Equa"><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\text{Accuracy}} = \frac{{\text{Number of correctly classified patients}}}{{\text{Number of patients}}} $$\end{document}</tex-math><mml:math id="M12" display="block"><mml:mrow><mml:mtext>Accuracy</mml:mtext><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mtext>Number of correctly classified patients</mml:mtext></mml:mrow><mml:mrow><mml:mtext>Number of patients</mml:mtext></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="41598_2020_72060_Article_Equa.gif" position="anchor"/></alternatives></disp-formula>
+We then used the remaining 15% of the data (the test set) to report the final accuracy.</p>
+                <p id="Par40">All analyses were conducted in R version 3.5.1, and scripts for data cleaning, setup and analysis will be made available on GitHub, a platform which host open-source projects (<ext-link ext-link-type="uri" xlink:href="https://github.com/hollytibble/Electronic-Monitoring-Device-Adherence-Typology">https://github.com/hollytibble/Electronic-Monitoring-Device-Adherence-Typology</ext-link>).</p>
+              </sec>
+              <sec id="Sec6">
+                <title>Ethics</title>
+                <p id="Par41">Ethics approval was granted by the New Zealand Northern Y Regional Ethics Committee (NTY/08/12/116) and District Health Boards. Verbal and written informed consent was obtained at data collection from the parent or guardian of all participants. Analysis and reporting in this study was performed in accordance with the relevant guidelines and regulations.
+</p>
+              </sec>
+            </sec>
+            <sec id="Sec7">
+              <title>Results</title>
+              <sec id="Sec8">
+                <title>Data cleaning and missing data</title>
+                <p id="Par42">A total of 220 children were enrolled into the study. There were nine participants (seven from the control group and two from the intervention group) who did not complete the study. Reasons for drop-out were loss to follow-up (n = 5), missing data from one or more follow-up appointment (n = 2), non-compliance with protocol (n = 1) and study withdrawal (n = 1). This left a total of 211 participants with data from all study follow-up periods for inclusion in this analysis, yielding 36,902 person-days of data.</p>
+                <p id="Par43">There were 1,741 person-days of missing data, out of a total 36,902 person-days (5% missing). This was due to battery failure, indicated in the device log, rather than simply individuals missing doses. 55 (26%) children in the study sample had at least one day with missing data, with a median 22 days missing (interquartile range (IQR): 10–48, range 2–122) from a median 185 days of follow-up (IQR: 176–190, range: 155–210). These periods of missing data were removed, resulting in 35,161 person-days for analysis.</p>
+                <p id="Par44">The peak hours for actuations were 7–10 AM (96% of actuations between midnight and midday) and 7–10 AM (93% of actuations between midday and midnight).</p>
+              </sec>
+              <sec id="Sec9">
+                <title>Study population</title>
+                <p id="Par45">The study population consisted of 108 boys and 103 girls, aged between 6 and 15 (median 8) years. The most common ethnicity was White European origin (38%; eTable <xref rid="MOESM2" ref-type="media">1</xref>).</p>
+              </sec>
+              <sec id="Sec10">
+                <title>Adherence</title>
+                <p id="Par46">In the control group, 36% of prescribed doses were taken, compared to 80% in the intervention group. 54% of the overall cohort (n = 114) had at least one treatment intermission (Fig. <xref rid="Fig1" ref-type="fig">1</xref>), with the first starting a median of 42 days after the baseline visit (IQR 14–95 days). Individual’s first treatment intermissions had a median duration of eight days (IQR 6–14 days).<fig id="Fig1"><label>Figure 1</label><caption><p>Histogram of the number of treatment intermissions (continuous abstinence of 5 days or longer) per person during study period.</p></caption><graphic xlink:href="41598_2020_72060_Fig1_HTML" id="MO1"/></fig></p>
+                <p id="Par47">The difference between the intervention arms was marked, with 27% (n = 29) of the intervention group participants having at least one treatment intermission, compared to 83% (n = 85) in the control group.</p>
+              </sec>
+              <sec id="Sec11">
+                <title>Exploratory cluster analysis</title>
+                <p id="Par48">The correlations between the adherence measures used herein have previously been reported<sup><xref ref-type="bibr" rid="CR65">65</xref></sup>. For each scaling method, the scree plot consistently found three as the most appropriate number of clusters. Computing the principal components from the unit-variance scaled measures gave the most robust solution (eTable <xref rid="MOESM2" ref-type="media">2</xref>). Table <xref rid="Tab1" ref-type="table">1</xref> shows the variable loadings for the first four principal components.<table-wrap id="Tab1"><label>Table 1</label><caption><p>Principal components to identify the latent variable structure of (unit-scaled) medication non-adherence.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"/><th align="left">PC1</th><th align="left">PC2</th><th align="left">PC3</th><th align="left">PC4</th></tr></thead><tbody><tr><td align="left">(A) Percentage of doses taken</td><td align="left">0.98</td><td align="left">− 0.18</td><td align="left">− 0.03</td><td align="left">0.02</td></tr><tr><td align="left">(B) Percentage of days on which zero doses were taken</td><td align="left">− 0.99</td><td align="left">− 0.04</td><td align="left">0.10</td><td align="left">− 0.09</td></tr><tr><td align="left">(C) Percentage of days on which both doses were taken</td><td align="left">0.93</td><td align="left">− 0.36</td><td align="left">0.04</td><td align="left">− 0.05</td></tr><tr><td align="left">(D) Number of treatment intermissions per 100 study days</td><td align="left">− 0.94</td><td align="left">− 0.28</td><td align="left">0.19</td><td align="left">0.07</td></tr><tr><td align="left">(E) Duration of treatment intermissions per 100 study days</td><td align="left">− 0.93</td><td align="left">− 0.23</td><td align="left">− 0.29</td><td align="left">0.00</td></tr><tr><td align="left">Percentage of variance explained</td><td align="left">91%</td><td align="left">6%</td><td align="left">&lt; 1%</td><td align="left">&lt; 1%</td></tr></tbody></table></table-wrap></p>
+              </sec>
+              <sec id="Sec12">
+                <title>Determining clinically meaningful subgroups</title>
+                <p id="Par49">Statistics to summarize the distribution of the measures by cluster are presented in eTable <xref rid="MOESM2" ref-type="media">3</xref>. Cluster 1 had the poorest adherence—taking on average (between individuals median) 16% of their prescribed doses and approximately 4.0 treatment intermissions of five or more days in length for every 100 days of follow-up. In Cluster 3, only 7 individual (11%) took any treatment intermissions, and on average they took 91% of their doses. For each measure, Cluster 2 was somewhere between the first and third clusters.</p>
+                <p id="Par50">We constructed a decision tree for each adherence measure in isolation, using the cluster labels as the response variable, in a standard supervised learning set-up framework. We used a random 70% sample of the data as a training set and the remaining 30% as a testing set. The percentage of doses taken yielded the highest accuracy (i.e. the group using the decision tree matching the group computed using the exploratory clustering approach) at 88%. The resulting decision tree (Fig. <xref rid="Fig2" ref-type="fig">2</xref>) had an accuracy of 84% in the test set (Table <xref rid="Tab2" ref-type="table">2</xref>). Figure <xref rid="Fig3" ref-type="fig">3</xref>A–E present the boxplots of the measures by group.<fig id="Fig2"><label>Figure 2</label><caption><p>Decision tree for estimating exploratory adherence clusters.</p></caption><graphic xlink:href="41598_2020_72060_Fig2_HTML" id="MO2"/></fig><table-wrap id="Tab2"><label>Table 2</label><caption><p>Confusion matrix using the automatically determined cluster labels (used as 'ground truth') and CART estimates in the testing set.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="2">n = 32</th><th align="left" colspan="3">Exploratory clusters</th></tr><tr><th align="left">C1</th><th align="left">C2</th><th align="left">C3</th></tr></thead><tbody><tr><td align="left" colspan="4"><bold>CART groups</bold></td></tr><tr><td align="left">G1</td><td align="left"><bold>4</bold></td><td align="left">2</td><td align="left">0</td></tr><tr><td align="left">G2</td><td align="left">1</td><td align="left"><bold>18</bold></td><td align="left">0</td></tr><tr><td align="left">G3</td><td align="left">0</td><td align="left">0</td><td align="left"><bold>5</bold></td></tr></tbody></table></table-wrap><fig id="Fig3"><label>Figure 3</label><caption><p>Boxplots of the five adherence measures by tree-derived groups. (<bold>A</bold>) Percentage of doses taken, (<bold>B</bold>) Percentage of days zero doses taken, (<bold>C</bold>) Percentage of days both doses taken, (<bold>D</bold>) Number of treatment intermissions per 100 study days, (<bold>E</bold>) Duration of treatment intermissions per 100 study days.</p></caption><graphic xlink:href="41598_2020_72060_Fig3_HTML" id="MO3"/></fig></p>
+              </sec>
+            </sec>
+            <sec id="Sec13">
+              <title>Discussion</title>
+              <p id="Par51">In this study, we identified three exploratory clusters of adherence, which were found to be very stable across the 1,000 bootstrapped repetitions to assess cluster stability. These clusters, representing poor, moderate, and good medication adherence, were best approximated in a decision tree using the measure of the percentage of prescribed doses that were taken during the study (84% accuracy in data unseen to the training model).</p>
+              <p id="Par52">Due to the limited follow-up time, we were required to aggregate adherence measures over the duration of the study. It is likely that with a larger sample and a longer follow-up we may have observed transitioning between states of behavior, perhaps triggered by clinical events such as an asthma attack. This study used data from 211 children, and hence findings should be interpreted tentatively: it is possible that having more samples would enable finer stratification and exploration of additional clusters.</p>
+              <p id="Par53">Some individuals with asthma are instructed to take their medication ‘as needed’, as they are able to maintain adequate asthma control despite taking medicine inconsistently. We did not remove such children from the population, as their adherence patterns remain of interest. We were additionally unable to stratify the population accordingly due to the small sample size. In a larger study, it might have been that different groups were detected according to the strictness of their regimen, or that observed groups occurred in different frequencies.</p>
+              <p id="Par54">The proportion of days on which both daily doses were taken was used as one of the measures of adherence. This measure was calculated assuming that one dose (of at least one actuation) was taken between midnight and midday, and one between midday and midnight. For the most part, this meant one dose in the morning, and one in the evening, as is usually recommended. However, if a dose was taken at 11.30 in the morning, followed by another at 12.30 in the afternoon, this would be recorded as having taken both the morning and evening doses, despite their being insufficient time between the doses for optimal distribution throughout the day. In this cohort, over 96% of morning and 93% of evening doses were taken within a 3-h window in each period (between 7:00–10:00 o’clock in the morning window, and between 19:00–22:00 in the afternoon window). As such, this is unlikely to have been a common concern in the context of this study.</p>
+              <p id="Par55">Finally, this study was undertaken in a narrow cohort with narrowly defined inclusion criteria i.e. children on a twice daily regimen for clinician-diagnosed asthma, with a recent history of emergency care presentation for an asthma attack. The generalizability of these findings to all children diagnosed with asthma, (or adults diagnosed with asthma) would therefore need to be further studied.</p>
+              <sec id="Sec14">
+                <title>Future work</title>
+                <p id="Par56">There is a need to study adherence patterns in adults with asthma, as well as in children (and adults) in primary care setting rather than only using a cohort of those with asthma related emergency department presentations. As technology advances and the cost of manufacturing EMDs decreases, we envisage an increase in their adoption in clinical care<sup><xref ref-type="bibr" rid="CR66">66</xref>,<xref ref-type="bibr" rid="CR67">67</xref></sup>, which may mean that future large scale studies can be conducted on routine practice datasets.</p>
+                <p id="Par57">There are no studies which have attempted data driven categorisation, as far as we are aware. A recent study by Allemann et al. generated simulated pharmacy refill records according to six proposed adherence subtypes and attempted to detect them using data driven trajectory-based models<sup><xref ref-type="bibr" rid="CR68">68</xref></sup>. Trajectory-based models offer little scope for the integration of domain-specific knowledge. As the authors note, this means that identifying clusters which are clinically interpretable and meaningful according to their temporal patterns is challenging. While electronic monitoring devices are considered the gold standard for adherence measurement in asthma, adapting our methods to refill data may result in the identification of some of the clusters described by the authors. Furthermore, the application of such trajectory-based models in a (larger) electronic monitoring device dataset could potentially uncover some previously unidentified subgroups.</p>
+              </sec>
+            </sec>
+            <sec id="Sec15">
+              <title>Conclusions</title>
+              <p id="Par58">Medication taking behavior in children with asthma is highly heterogeneous, and there is no consistent pattern of a patient with poor adherence. Through analysis of multiple adherence measures, we identified subgroups of asthma patients according to data-driven thresholds. Our findings suggest that the simple measurement of percentage of doses taken is sufficient in this population, and that combinations measures of non-adherence are unlikely to be of further clinical value than any of these measures in isolation.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary information</title>
+              <sec id="Sec16">
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM1">
+                    <media xlink:href="41598_2020_72060_MOESM1_ESM.docx">
+                      <caption>
+                        <p>Supplementary information 1</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                  <supplementary-material content-type="local-data" id="MOESM2">
+                    <media xlink:href="41598_2020_72060_MOESM2_ESM.docx">
+                      <caption>
+                        <p>Supplementary information 2</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term>CART</term>
+                  <def>
+                    <p id="Par2">Classification and regression tree</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>EMD</term>
+                  <def>
+                    <p id="Par3">Electronic monitoring device</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>ICS</term>
+                  <def>
+                    <p id="Par4">Inhaled corticosteroids</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>IQR</term>
+                  <def>
+                    <p id="Par5">Interquartile range</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>PC</term>
+                  <def>
+                    <p id="Par6">Principal component</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>PCA</term>
+                  <def>
+                    <p id="Par7">Principal component analysis</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>RCT</term>
+                  <def>
+                    <p id="Par8">Randomized controlled trial</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>US</term>
+                  <def>
+                    <p id="Par9">United States</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Publisher's note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <sec>
+              <title>Supplementary information</title>
+              <p>is available for this paper at 10.1038/s41598-020-72060-0.</p>
+            </sec>
+            <notes notes-type="author-contribution">
+              <title>Author contributions</title>
+              <p>H.T., E.H., D.D. and A.T. conceived and planned the analysis. H.T. wrote the first draft, with contributions from E.H., A.C., E.A.M., D.D., R.H., M.A.M., A.S., and A.T. All authors approved the final version and jointly take responsibility for the decision to submit this manuscript to be considered for publication.</p>
+            </notes>
+            <notes notes-type="funding-information">
+              <title>Funding</title>
+              <p>HT is supported by College of Medicine and Veterinary Medicine PhD (eHERC/Farr Institute) Studentships from The University of Edinburgh. EH is supported by a Medical Research Council PhD Studentship (eHERC/Farr). DD is supported by a Medical Research Council PhD Studentship (DTP Precision Medicine). MAM’s Newton International Fellowship is awarded by the Academy of Medical Sciences and Newton Fund. This work is carried out with the support of the Asthma UK Centre for Applied Research [AUK-AC-2012-01] and Breathe - The Health Data Research Hub for Respiratory Health [MC_PC_19004] in partnership with SAIL Databank. BREATHE is funded through the UK Research and Innovation Industrial Strategy Challenge Fund and delivered through Health Data Research UK. The original study was supported by Health Research Council of New Zealand and Cure Kids, using Electronic monitoring devices provided by Nexus 6 (Auckland, New Zealand).</p>
+            </notes>
+            <notes id="FPar1" notes-type="COI-statement">
+              <title>Competing interests</title>
+              <p id="Par59">The authors declare no competing interests.</p>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Barnes</surname>
+                      <given-names>PJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Efficacy of inhaled corticosteroids in asthma</article-title>
+                  <source>J. Allergy Clin. Immunol.</source>
+                  <year>1998</year>
+                  <volume>102</volume>
+                  <fpage>531</fpage>
+                  <lpage>538</lpage>
+                  <?supplied-pmid 9802359?>
+                  <pub-id pub-id-type="pmid">9802359</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Barnes</surname>
+                      <given-names>PJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Pedersen</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Efficacy and safety of inhaled corticosteroids in asthma</article-title>
+                  <source>Am. Rev. Respir. Dis.</source>
+                  <year>1993</year>
+                  <volume>148</volume>
+                  <fpage>S1</fpage>
+                  <lpage>S26</lpage>
+                  <?supplied-pmid 8214958?>
+                  <pub-id pub-id-type="pmid">8214958</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Suissa</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Ernst</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Benayoun</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Baltzan</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Cai</surname>
+                      <given-names>B</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Low-dose inhaled corticosteroids and the prevention of death from asthma</article-title>
+                  <source>N. Engl. J. Med.</source>
+                  <year>2000</year>
+                  <volume>343</volume>
+                  <fpage>332</fpage>
+                  <lpage>336</lpage>
+                  <?supplied-pmid 10922423?>
+                  <pub-id pub-id-type="pmid">10922423</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Urquhart</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Pharmacoeconomic consequences of variable patient compliance with prescribed drug regimens</article-title>
+                  <source>Pharmacoeconomics</source>
+                  <year>1999</year>
+                  <volume>15</volume>
+                  <fpage>217</fpage>
+                  <lpage>228</lpage>
+                  <?supplied-pmid 10537430?>
+                  <pub-id pub-id-type="pmid">10537430</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Papi</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Relationship of inhaled corticosteroid adherence to asthma exacerbations in patients with moderate-to-severe asthma</article-title>
+                  <source>J. Allergy Clin. Immunol. Pract.</source>
+                  <year>2018</year>
+                  <pub-id pub-id-type="doi">10.1016/j.jaip.2018.03.008</pub-id>
+                  <?supplied-pmid 29627457?>
+                  <pub-id pub-id-type="pmid">29627457</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Boslev</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Md</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Suppli</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Dmsc</surname>
+                      <given-names>UM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Asthma and adherence to inhaled corticosteroids: Current status and future perspectives</article-title>
+                  <source>Respir. Care</source>
+                  <year>2015</year>
+                  <volume>60</volume>
+                  <fpage>455</fpage>
+                  <lpage>468</lpage>
+                  <pub-id pub-id-type="pmid">25118311</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Engelkes</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Janssens</surname>
+                      <given-names>HM</given-names>
+                    </name>
+                    <name>
+                      <surname>De Jongste</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                    <name>
+                      <surname>Sturkenboom</surname>
+                      <given-names>MCJM</given-names>
+                    </name>
+                    <name>
+                      <surname>Verhamme</surname>
+                      <given-names>KMC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Medication adherence and the risk of severe asthma exacerbations: A systematic review</article-title>
+                  <source>Eur. Respir. J.</source>
+                  <year>2015</year>
+                  <volume>45</volume>
+                  <fpage>396</fpage>
+                  <lpage>407</lpage>
+                  <?supplied-pmid 25323234?>
+                  <pub-id pub-id-type="pmid">25323234</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Guedes</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Risk factors for death in patients with severe asthma</article-title>
+                  <source>J. Bras. Pneumol.</source>
+                  <year>2014</year>
+                  <volume>40</volume>
+                  <fpage>364</fpage>
+                  <lpage>372</lpage>
+                  <pub-id pub-id-type="pmid">25210958</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Van Boven</surname>
+                      <given-names>JFM</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Clinical and economic impact of non-adherence in COPD: A systematic review</article-title>
+                  <source>Respir. Med.</source>
+                  <year>2014</year>
+                  <volume>108</volume>
+                  <fpage>103</fpage>
+                  <lpage>113</lpage>
+                  <?supplied-pmid 24070566?>
+                  <pub-id pub-id-type="pmid">24070566</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hommel</surname>
+                      <given-names>KA</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Longitudinal patterns of medication nonadherence and associated health care costs</article-title>
+                  <source>Inflamm. Bowel Dis.</source>
+                  <year>2017</year>
+                  <volume>23</volume>
+                  <fpage>1577</fpage>
+                  <lpage>1583</lpage>
+                  <?supplied-pmid 28617754?>
+                  <pub-id pub-id-type="pmid">28617754</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Iuga</surname>
+                      <given-names>AO</given-names>
+                    </name>
+                    <name>
+                      <surname>Mcguire</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Adherence and health care costs</article-title>
+                  <source>Risk Manag. Healthc. Policy</source>
+                  <year>2014</year>
+                  <volume>7</volume>
+                  <fpage>35</fpage>
+                  <lpage>44</lpage>
+                  <?supplied-pmid 24591853?>
+                  <pub-id pub-id-type="pmid">24591853</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cutler</surname>
+                      <given-names>RL</given-names>
+                    </name>
+                    <name>
+                      <surname>Fernandez-Llimos</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Frommer</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Benrimoj</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Garcia-Cardenas</surname>
+                      <given-names>V</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Economic impact of medication non-adherence by disease groups: A systematic review</article-title>
+                  <source>BMJ Open</source>
+                  <year>2018</year>
+                  <volume>8</volume>
+                  <fpage>e016982</fpage>
+                  <?supplied-pmid 29358417?>
+                  <pub-id pub-id-type="pmid">29358417</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ho</surname>
+                      <given-names>SC</given-names>
+                    </name>
+                    <name>
+                      <surname>Chong</surname>
+                      <given-names>HY</given-names>
+                    </name>
+                    <name>
+                      <surname>Chaiyakunapruk</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Tangiisuran</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Jacob</surname>
+                      <given-names>SA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Clinical and economic impact of non-adherence to antidepressants in major depressive disorder: A systematic review</article-title>
+                  <source>J. Affect. Disord. J.</source>
+                  <year>2016</year>
+                  <volume>193</volume>
+                  <fpage>1</fpage>
+                  <lpage>10</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>AC</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Primary adherence to controller medications for asthma is poor</article-title>
+                  <source>Ann. Am. Thorac. Soc.</source>
+                  <year>2015</year>
+                  <volume>12</volume>
+                  <fpage>161</fpage>
+                  <lpage>166</lpage>
+                  <?supplied-pmid 25569765?>
+                  <pub-id pub-id-type="pmid">25569765</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fireman</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Friday</surname>
+                      <given-names>GA</given-names>
+                    </name>
+                    <name>
+                      <surname>Gira</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Vierthaler</surname>
+                      <given-names>WA</given-names>
+                    </name>
+                    <name>
+                      <surname>Michaels</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Teaching self-management skills to asthmatic children and their parents in an ambulatory care setting</article-title>
+                  <source>Pediatrics</source>
+                  <year>1981</year>
+                  <volume>68</volume>
+                  <fpage>341</fpage>
+                  <lpage>348</lpage>
+                  <?supplied-pmid 6792585?>
+                  <pub-id pub-id-type="pmid">6792585</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lewis</surname>
+                      <given-names>CE</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A randomized trial of A.C.T. (Asthma Care Training) for kids</article-title>
+                  <source>Pediatrics</source>
+                  <year>1984</year>
+                  <volume>74</volume>
+                  <fpage>478</fpage>
+                  <lpage>486</lpage>
+                  <?supplied-pmid 6384911?>
+                  <pub-id pub-id-type="pmid">6384911</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zullig</surname>
+                      <given-names>LL</given-names>
+                    </name>
+                    <name>
+                      <surname>Deschodt</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Liska</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Bosworth</surname>
+                      <given-names>HB</given-names>
+                    </name>
+                    <name>
+                      <surname>Geest</surname>
+                      <given-names>SD</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Moving from the trial to the real world: Improving medication adherence using insights of implementation science</article-title>
+                  <source>Annu. Rev. Pharmacol. Toxicol.</source>
+                  <year>2019</year>
+                  <pub-id pub-id-type="doi">10.1146/annurev-pharmtox-010818-021348</pub-id>
+                  <?supplied-pmid 30125127?>
+                  <pub-id pub-id-type="pmid">30125127</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mcnabb</surname>
+                      <given-names>WL</given-names>
+                    </name>
+                    <name>
+                      <surname>Wilson-Pessano</surname>
+                      <given-names>SR</given-names>
+                    </name>
+                    <name>
+                      <surname>Hughes</surname>
+                      <given-names>GW</given-names>
+                    </name>
+                    <name>
+                      <surname>Scamagas</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Self-management education of children with asthma: AIR WISE</article-title>
+                  <source>Public Health</source>
+                  <year>1985</year>
+                  <volume>75</volume>
+                  <fpage>1219</fpage>
+                  <lpage>1220</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Weingarten</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Goldberg</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Teperberg</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Harrison</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Oded</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A pilot study of the multidisciplinary management of childhood asthma in a family practice</article-title>
+                  <source>J. Asthma</source>
+                  <year>1985</year>
+                  <volume>22</volume>
+                  <fpage>261</fpage>
+                  <lpage>265</lpage>
+                  <?supplied-pmid 3902784?>
+                  <pub-id pub-id-type="pmid">3902784</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shields</surname>
+                      <given-names>MC</given-names>
+                    </name>
+                    <name>
+                      <surname>Griffin</surname>
+                      <given-names>KW</given-names>
+                    </name>
+                    <name>
+                      <surname>Mcnabb</surname>
+                      <given-names>WL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The effect of a patient education program on emergency room use for inner-city children with asthma</article-title>
+                  <source>Am. J. Public Health</source>
+                  <year>1990</year>
+                  <volume>80</volume>
+                  <fpage>36</fpage>
+                  <lpage>38</lpage>
+                  <?supplied-pmid 2293801?>
+                  <pub-id pub-id-type="pmid">2293801</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hughes</surname>
+                      <given-names>DM</given-names>
+                    </name>
+                    <name>
+                      <surname>McLeod</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Garner</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Goldbloom</surname>
+                      <given-names>RB</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Controlled trial of a home and ambulatory program for asthmatic children</article-title>
+                  <source>Pediatrics</source>
+                  <year>1991</year>
+                  <volume>87</volume>
+                  <fpage>54</fpage>
+                  <lpage>60</lpage>
+                  <?supplied-pmid 1984619?>
+                  <pub-id pub-id-type="pmid">1984619</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Elliott</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                    <name>
+                      <surname>Barber</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Horne</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cost-effectiveness of adherence-enhancing interventions: A quality assessment of the evidence</article-title>
+                  <source>Ann. Pharmacother.</source>
+                  <year>2005</year>
+                  <volume>39</volume>
+                  <fpage>508</fpage>
+                  <lpage>515</lpage>
+                  <?supplied-pmid 15657115?>
+                  <pub-id pub-id-type="pmid">15657115</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Weinstein</surname>
+                      <given-names>AG</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A pilot study of the effect of an educational web application on asthma control and medication adherence</article-title>
+                  <source>J. Allergy Clin. Immunol. Pract.</source>
+                  <year>2019</year>
+                  <volume>7</volume>
+                  <fpage>1497</fpage>
+                  <lpage>1506</lpage>
+                  <?supplied-pmid 30641146?>
+                  <pub-id pub-id-type="pmid">30641146</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Riley</surname>
+                      <given-names>IL</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A systematic review of patient- and family-level inhaled corticosteroid adherence interventions in Black/African Americans</article-title>
+                  <source>J. Allergy Clin. Immunol. Pract.</source>
+                  <year>2019</year>
+                  <volume>7</volume>
+                  <fpage>1184</fpage>
+                  <lpage>1193.e3</lpage>
+                  <?supplied-pmid 30395992?>
+                  <pub-id pub-id-type="pmid">30395992</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Normansell</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Kew</surname>
+                      <given-names>KM</given-names>
+                    </name>
+                    <name>
+                      <surname>Mathioudakis</surname>
+                      <given-names>AG</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Interventions to improve inhaler technique for people with asthma</article-title>
+                  <source>Cochrane Database Syst. Rev.</source>
+                  <year>2017</year>
+                  <pub-id pub-id-type="doi">10.1002/14651858.CD012286.pub2</pub-id>
+                  <?supplied-pmid 29182799?>
+                  <pub-id pub-id-type="pmid">29182799</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chan</surname>
+                      <given-names>AHY</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Adherence monitoring and e-health: How clinicians and researchers can use technology to promote inhaler adherence for asthma</article-title>
+                  <source>J. Allergy Clin. Immunol. Pract.</source>
+                  <year>2013</year>
+                  <volume>1</volume>
+                  <fpage>446</fpage>
+                  <lpage>454</lpage>
+                  <?supplied-pmid 24565615?>
+                  <pub-id pub-id-type="pmid">24565615</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hess</surname>
+                      <given-names>LM</given-names>
+                    </name>
+                    <name>
+                      <surname>Raebel</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Conner</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                    <name>
+                      <surname>Malone</surname>
+                      <given-names>DC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Measurement of adherence in pharmacy administrative databases: A proposal for standard definitions and preferred measures</article-title>
+                  <source>Ann. Pharmacother.</source>
+                  <year>2006</year>
+                  <volume>40</volume>
+                  <fpage>1280</fpage>
+                  <lpage>1288</lpage>
+                  <?supplied-pmid 16868217?>
+                  <pub-id pub-id-type="pmid">16868217</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sajatovic</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Velligan</surname>
+                      <given-names>DI</given-names>
+                    </name>
+                    <name>
+                      <surname>Weiden</surname>
+                      <given-names>PJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Valenstein</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Ogedegbe</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Measurement of psychiatric treatment adherence</article-title>
+                  <source>J. Psychosom. Res.</source>
+                  <year>2010</year>
+                  <volume>69</volume>
+                  <fpage>591</fpage>
+                  <lpage>599</lpage>
+                  <?supplied-pmid 21109048?>
+                  <pub-id pub-id-type="pmid">21109048</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lehmann</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Assessing medication adherence: Options to consider</article-title>
+                  <source>Int. J. Clin. Pharm.</source>
+                  <year>2014</year>
+                  <volume>36</volume>
+                  <fpage>55</fpage>
+                  <lpage>69</lpage>
+                  <?supplied-pmid 24166659?>
+                  <pub-id pub-id-type="pmid">24166659</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Williams</surname>
+                      <given-names>AB</given-names>
+                    </name>
+                    <name>
+                      <surname>Amico</surname>
+                      <given-names>KR</given-names>
+                    </name>
+                    <name>
+                      <surname>Bova</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Womack</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A proposal for quality standards for measuring medication adherence in research</article-title>
+                  <source>AIDS Behav.</source>
+                  <year>2013</year>
+                  <volume>17</volume>
+                  <fpage>284</fpage>
+                  <lpage>297</lpage>
+                  <?supplied-pmid 22407465?>
+                  <pub-id pub-id-type="pmid">22407465</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vrijens</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A new taxonomy for describing and defining adherence to medications</article-title>
+                  <source>Br. J. Clin. Pharmacol.</source>
+                  <year>2012</year>
+                  <volume>73</volume>
+                  <fpage>691</fpage>
+                  <lpage>705</lpage>
+                  <?supplied-pmid 22486599?>
+                  <pub-id pub-id-type="pmid">22486599</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chatkin</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Impact of a low-cost and simple intervention in enhancing treatment adherence in a Brazilian asthma sample</article-title>
+                  <source>J. Asthma</source>
+                  <year>2006</year>
+                  <volume>434</volume>
+                  <fpage>263</fpage>
+                  <lpage>266</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bender</surname>
+                      <given-names>BG</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Test of an interactive voice response intervention to improve adherence to controller medications in adults with asthma</article-title>
+                  <source>J. Am. Board Fam. Med.</source>
+                  <year>2010</year>
+                  <volume>23</volume>
+                  <fpage>159</fpage>
+                  <lpage>165</lpage>
+                  <?supplied-pmid 20207925?>
+                  <pub-id pub-id-type="pmid">20207925</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Charles</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>An audiovisual reminder function improves adherence with inhaled corticosteroid therapy in asthma</article-title>
+                  <source>J. Allergy Clin. Immunol.</source>
+                  <year>2007</year>
+                  <volume>119</volume>
+                  <fpage>811</fpage>
+                  <lpage>816</lpage>
+                  <?supplied-pmid 17320942?>
+                  <pub-id pub-id-type="pmid">17320942</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ducharme</surname>
+                      <given-names>FM</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Written action plan in pediatric emergency room improves asthma prescribing, adherence, and control</article-title>
+                  <source>Am. J. Respir. Crit. Care Med.</source>
+                  <year>2011</year>
+                  <volume>183</volume>
+                  <fpage>195</fpage>
+                  <lpage>203</lpage>
+                  <?supplied-pmid 20802165?>
+                  <pub-id pub-id-type="pmid">20802165</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Foster</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Inhaler reminders improve adherence with controller treatment in primary care patients with asthma</article-title>
+                  <source>J. Allergy Clin. Immunol.</source>
+                  <year>2014</year>
+                  <volume>134</volume>
+                  <fpage>1260</fpage>
+                  <lpage>1268.e3</lpage>
+                  <?supplied-pmid 25062783?>
+                  <pub-id pub-id-type="pmid">25062783</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chan</surname>
+                      <given-names>AHY</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The effect of an electronic monitoring device with audiovisual reminder function on adherence to inhaled corticosteroids and school attendance in children with asthma: A randomised controlled trial</article-title>
+                  <source>Lancet Respir. Med.</source>
+                  <year>2015</year>
+                  <volume>3</volume>
+                  <fpage>210</fpage>
+                  <lpage>219</lpage>
+                  <?supplied-pmid 25617215?>
+                  <pub-id pub-id-type="pmid">25617215</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chung</surname>
+                      <given-names>KF</given-names>
+                    </name>
+                    <name>
+                      <surname>Naya</surname>
+                      <given-names>I</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Compliance with an oral asthma medication: A pilot study using an electronic monitoring device</article-title>
+                  <source>Respir. Med.</source>
+                  <year>2000</year>
+                  <volume>94</volume>
+                  <fpage>852</fpage>
+                  <lpage>858</lpage>
+                  <?supplied-pmid 11001076?>
+                  <pub-id pub-id-type="pmid">11001076</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jentzsch</surname>
+                      <given-names>NS</given-names>
+                    </name>
+                    <name>
+                      <surname>Camargos</surname>
+                      <given-names>PAM</given-names>
+                    </name>
+                    <name>
+                      <surname>Colosimo</surname>
+                      <given-names>EA</given-names>
+                    </name>
+                    <name>
+                      <surname>Bousquet</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Monitoring adherence to beclomethasone in asthmatic children and adolescents through four different methods</article-title>
+                  <source>Allergy Eur. J. Allergy Clin. Immunol.</source>
+                  <year>2009</year>
+                  <volume>64</volume>
+                  <fpage>1458</fpage>
+                  <lpage>1462</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Garcia-Marcos</surname>
+                      <given-names>PW</given-names>
+                    </name>
+                    <name>
+                      <surname>Brand</surname>
+                      <given-names>PLP</given-names>
+                    </name>
+                    <name>
+                      <surname>Kaptein</surname>
+                      <given-names>AA</given-names>
+                    </name>
+                    <name>
+                      <surname>Klok</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Is the MARS questionnaire a reliable measure of medication adherence in childhood asthma?</article-title>
+                  <source>J. Asthma</source>
+                  <year>2016</year>
+                  <volume>53</volume>
+                  <fpage>1085</fpage>
+                  <lpage>1089</lpage>
+                  <?supplied-pmid 27177241?>
+                  <pub-id pub-id-type="pmid">27177241</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nides</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Improving inhaler adherence in a clinical trial through the use of the nebulizer chronolog*</article-title>
+                  <source>Chest</source>
+                  <year>1993</year>
+                  <volume>104</volume>
+                  <fpage>501</fpage>
+                  <lpage>507</lpage>
+                  <?supplied-pmid 8339641?>
+                  <pub-id pub-id-type="pmid">8339641</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR42">
+                <label>42.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Haupt</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Nilsson</surname>
+                      <given-names>JLG</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Asthma medication—Persistence with adrenergics, steroids and combination products over a 5-year period</article-title>
+                  <source>J. Clin. Pharm. Ther.</source>
+                  <year>2009</year>
+                  <volume>34</volume>
+                  <fpage>507</fpage>
+                  <lpage>513</lpage>
+                  <?supplied-pmid 19753678?>
+                  <pub-id pub-id-type="pmid">19753678</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR43">
+                <label>43.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Salazar</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Tarwala</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Reznik</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>School-based supervised therapy programs to improve asthma outcomes: Current perspectives</article-title>
+                  <source>J. Asthma Allergy</source>
+                  <year>2018</year>
+                  <volume>11</volume>
+                  <fpage>205</fpage>
+                  <lpage>215</lpage>
+                  <?supplied-pmid 30214248?>
+                  <pub-id pub-id-type="pmid">30214248</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR44">
+                <label>44.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Krishnan</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Adherence to inhaled corticosteroids: An ancillary study of the Childhood Asthma Management Program clinical trial</article-title>
+                  <source>J. Allergy Clin. Immunol.</source>
+                  <year>2012</year>
+                  <volume>129</volume>
+                  <fpage>112</fpage>
+                  <lpage>118</lpage>
+                  <?supplied-pmid 22104610?>
+                  <pub-id pub-id-type="pmid">22104610</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR45">
+                <label>45.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Creer</surname>
+                      <given-names>TL</given-names>
+                    </name>
+                    <name>
+                      <surname>Levstek</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <person-group person-group-type="editor">
+                    <name>
+                      <surname>Gochman</surname>
+                      <given-names>DS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Adherence to asthma regimens</article-title>
+                  <source>Handbook of Health Behavior Research</source>
+                  <year>1997</year>
+                  <publisher-loc>Boston</publisher-loc>
+                  <publisher-name>Springer</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR46">
+                <label>46.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>George</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Bender</surname>
+                      <given-names>B</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>New insights to improve treatment adherence in asthma and COPD</article-title>
+                  <source>Patient Prefer. Adherence</source>
+                  <year>2019</year>
+                  <pub-id pub-id-type="doi">10.2147/PPA.S209532</pub-id>
+                  <?supplied-pmid 31534319?>
+                  <pub-id pub-id-type="pmid">31534319</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR47">
+                <label>47.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Murphy</surname>
+                      <given-names>AC</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The relationship between clinical outcomes and medication adherence in difficult-to-control asthma</article-title>
+                  <source>Thorax</source>
+                  <year>2012</year>
+                  <volume>67</volume>
+                  <fpage>751</fpage>
+                  <lpage>753</lpage>
+                  <?supplied-pmid 22436168?>
+                  <pub-id pub-id-type="pmid">22436168</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR48">
+                <label>48.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Feehan</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Adherence to controller asthma medications: 6-month prevalence across a US community pharmacy chain</article-title>
+                  <source>J. Clin. Pharm. Ther.</source>
+                  <year>2015</year>
+                  <volume>40</volume>
+                  <fpage>590</fpage>
+                  <lpage>593</lpage>
+                  <?supplied-pmid 26291693?>
+                  <pub-id pub-id-type="pmid">26291693</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR49">
+                <label>49.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ismaila</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Impact of adherence to treatment with fluticasone propionate/salmeterol in asthma patients</article-title>
+                  <source>Curr. Med. Res. Opin.</source>
+                  <year>2014</year>
+                  <volume>30</volume>
+                  <fpage>1417</fpage>
+                  <lpage>1425</lpage>
+                  <?supplied-pmid 24666139?>
+                  <pub-id pub-id-type="pmid">24666139</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR50">
+                <label>50.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Arcoleo</surname>
+                      <given-names>KJ</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Longitudinal patterns of Mexican and Puerto Rican children’s asthma controller medication adherence and acute healthcare use</article-title>
+                  <source>Ann. Am. Thorac. Soc.</source>
+                  <year>2019</year>
+                  <volume>16</volume>
+                  <fpage>715</fpage>
+                  <lpage>723</lpage>
+                  <?supplied-pmid 30860858?>
+                  <pub-id pub-id-type="pmid">30860858</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR51">
+                <label>51.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Stauffer</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Hutson</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Kaufman</surname>
+                      <given-names>AS</given-names>
+                    </name>
+                    <name>
+                      <surname>Morrison</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The adherence rate threshold is drug specific</article-title>
+                  <source>Drugs R&amp;D</source>
+                  <year>2017</year>
+                  <volume>17</volume>
+                  <fpage>645</fpage>
+                  <lpage>653</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR52">
+                <label>52.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Morrison</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Stauffer</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Kaufman</surname>
+                      <given-names>AS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Relationship between adherence rate threshold and drug ‘forgiveness’</article-title>
+                  <source>Clin. Pharmacokinet.</source>
+                  <year>2017</year>
+                  <volume>56</volume>
+                  <fpage>1435</fpage>
+                  <lpage>1440</lpage>
+                  <?supplied-pmid 28470545?>
+                  <pub-id pub-id-type="pmid">28470545</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR53">
+                <label>53.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Urquhart</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Role of patient compliance in clinical pharmacokinetics: A review of recent research</article-title>
+                  <source>Clin. Pharmacokinet.</source>
+                  <year>1994</year>
+                  <volume>27</volume>
+                  <fpage>202</fpage>
+                  <lpage>215</lpage>
+                  <?supplied-pmid 7988102?>
+                  <pub-id pub-id-type="pmid">7988102</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR54">
+                <label>54.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Boissel</surname>
+                      <given-names>JP</given-names>
+                    </name>
+                    <name>
+                      <surname>Nony</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Using pharmacokinetic-pharmacodynamic relationships to predict the effect of poor compliance</article-title>
+                  <source>Clin. Pharmacokinet.</source>
+                  <year>2002</year>
+                  <volume>41</volume>
+                  <fpage>1</fpage>
+                  <lpage>6</lpage>
+                  <?supplied-pmid 11825093?>
+                  <pub-id pub-id-type="pmid">11825093</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR55">
+                <label>55.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Knafl</surname>
+                      <given-names>GJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Schoenthaler</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Ogedegbe</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Secondary analysis of electronically monitored medication adherence data for a cohort of hypertensive African-Americans</article-title>
+                  <source>Patient Prefer. Adherence</source>
+                  <year>2012</year>
+                  <volume>6</volume>
+                  <fpage>207</fpage>
+                  <lpage>219</lpage>
+                  <?supplied-pmid 22536057?>
+                  <pub-id pub-id-type="pmid">22536057</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR56">
+                <label>56.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dillon</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Stewart</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>SM</given-names>
+                    </name>
+                    <name>
+                      <surname>Gallagher</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Ainne Cousins</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Group-based trajectory models: Assessing adherence to antihypertensive medication in older adults in a community pharmacy setting</article-title>
+                  <source>Clin. Pharmacol. Ther.</source>
+                  <year>2018</year>
+                  <volume>103</volume>
+                  <fpage>1052</fpage>
+                  <lpage>1060</lpage>
+                  <?supplied-pmid 28875569?>
+                  <pub-id pub-id-type="pmid">28875569</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR57">
+                <label>57.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Holvast</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Non-adherence to cardiovascular drugs in older patients with depression: A population-based cohort study</article-title>
+                  <source>Int. J. Cardiol.</source>
+                  <year>2019</year>
+                  <volume>274</volume>
+                  <fpage>366</fpage>
+                  <lpage>371</lpage>
+                  <?supplied-pmid 30249352?>
+                  <pub-id pub-id-type="pmid">30249352</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR58">
+                <label>58.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Holvast</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Non-adherence to antidepressants among older patients with depression: A longitudinal cohort study in primary care</article-title>
+                  <source>Fam. Pract.</source>
+                  <year>2018</year>
+                  <pub-id pub-id-type="doi">10.1093/fampra/cmy106</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR59">
+                <label>59.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Andrade</surname>
+                      <given-names>SE</given-names>
+                    </name>
+                    <name>
+                      <surname>Kahler</surname>
+                      <given-names>KH</given-names>
+                    </name>
+                    <name>
+                      <surname>Frech</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Chan</surname>
+                      <given-names>KA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Methods for evaluation of medication adherence and persistence using automated databases</article-title>
+                  <source>Pharmacoepidemiol. Drug Saf.</source>
+                  <year>2006</year>
+                  <volume>15</volume>
+                  <fpage>565</fpage>
+                  <lpage>574</lpage>
+                  <?supplied-pmid 16514590?>
+                  <pub-id pub-id-type="pmid">16514590</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR60">
+                <label>60.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hastie</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Tibshirani</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Friedman</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <source>Elements of Statistical Learning. Springer Series in Statistics</source>
+                  <year>2009</year>
+                  <edition>2</edition>
+                  <publisher-loc>New York</publisher-loc>
+                  <publisher-name>Springer</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR61">
+                <label>61.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cattell</surname>
+                      <given-names>RB</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The scree test for the number of factors</article-title>
+                  <source>Multivar. Behav. Res.</source>
+                  <year>1966</year>
+                  <volume>1</volume>
+                  <fpage>245</fpage>
+                  <lpage>276</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR62">
+                <label>62.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hennig</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cluster-wise assessment of cluster stability</article-title>
+                  <source>Comput. Stat. Data Anal.</source>
+                  <year>2007</year>
+                  <pub-id pub-id-type="doi">10.1016/j.csda.2006.11.025</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR63">
+                <label>63.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hennig</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Dissolution point and isolation robustness: Robustness criteria for general cluster analysis methods</article-title>
+                  <source>J. Multivar. Anal.</source>
+                  <year>2008</year>
+                  <volume>99</volume>
+                  <fpage>1154</fpage>
+                  <lpage>1176</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR64">
+                <label>64.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Breiman</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Friedman</surname>
+                      <given-names>JH</given-names>
+                    </name>
+                    <name>
+                      <surname>Olshen</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                    <name>
+                      <surname>Stone</surname>
+                      <given-names>CJ</given-names>
+                    </name>
+                  </person-group>
+                  <source>Classification and Regression Trees. Classification and Regression Trees</source>
+                  <year>1984</year>
+                  <publisher-loc>London</publisher-loc>
+                  <publisher-name>Routledge</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR65">
+                <label>65.</label>
+                <mixed-citation publication-type="other">Tibble, H. <italic>et al.</italic> Heterogeneity in asthma medication adherence measurement. In <italic>BIBE 2019; International Conference on Biological Information and Biomedical Engineering</italic>.</mixed-citation>
+              </ref>
+              <ref id="CR66">
+                <label>66.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chan</surname>
+                      <given-names>AHY</given-names>
+                    </name>
+                    <name>
+                      <surname>Harrison</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Black</surname>
+                      <given-names>PN</given-names>
+                    </name>
+                    <name>
+                      <surname>Mitchell</surname>
+                      <given-names>EA</given-names>
+                    </name>
+                    <name>
+                      <surname>Foster</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Using electronic monitoring devices to measure inhaler adherence: A practical guide for clinicians</article-title>
+                  <source>J. Allergy Clin. Immunol. Pract.</source>
+                  <year>2015</year>
+                  <volume>3</volume>
+                  <fpage>335</fpage>
+                  <lpage>349.e5</lpage>
+                  <?supplied-pmid 25840665?>
+                  <pub-id pub-id-type="pmid">25840665</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR67">
+                <label>67.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Howard</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Lang</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Sharples</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Shaw</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>What are the pros and cons of electronically monitoring inhaler use in asthma? A multistakeholder perspective</article-title>
+                  <source>BMJ Open Respir. Res.</source>
+                  <year>2016</year>
+                  <volume>3</volume>
+                  <fpage>1</fpage>
+                  <lpage>10</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR68">
+                <label>68.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Allemann</surname>
+                      <given-names>SS</given-names>
+                    </name>
+                    <name>
+                      <surname>Dediu</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Dima</surname>
+                      <given-names>AL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Beyond adherence thresholds: A simulation study of the optimal classification of longitudinal adherence trajectories from medication refill histories</article-title>
+                  <source>Front. Pharmacol.</source>
+                  <year>2019</year>
+                  <volume>10</volume>
+                  <fpage>1</fpage>
+                  <lpage>13</lpage>
+                  <pub-id pub-id-type="pmid">30728774</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>
