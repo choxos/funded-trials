@@ -1,0 +1,1989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T11:10:21Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:4755003" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:4755003</identifier>
+        <datestamp>2016-02-17</datestamp>
+        <setSpec>brcnres</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Breast Cancer Res</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Breast Cancer Res</journal-id>
+              <journal-title-group>
+                <journal-title>Breast Cancer Research : BCR</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">1465-5411</issn>
+              <issn pub-type="epub">1465-542X</issn>
+              <publisher>
+                <publisher-name>BioMed Central</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC4755003</article-id>
+              <article-id pub-id-type="pmcid">PMC4755003</article-id>
+              <article-id pub-id-type="pmc-uid">4755003</article-id>
+              <article-id pub-id-type="pmid">26882907</article-id>
+              <article-id pub-id-type="publisher-id">682</article-id>
+              <article-id pub-id-type="doi">10.1186/s13058-016-0682-8</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Computational pathology of pre-treatment biopsies identifies lymphocyte density as a predictor of response to neoadjuvant chemotherapy in breast cancer</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" equal-contrib="yes">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7587-0906</contrib-id>
+                  <name>
+                    <surname>Ali</surname>
+                    <given-names>H. Raza</given-names>
+                  </name>
+                  <address>
+                    <email>raza.ali@cruk.cam.ac.uk</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1"/>
+                  <xref ref-type="aff" rid="Aff2"/>
+                </contrib>
+                <contrib contrib-type="author" equal-contrib="yes">
+                  <name>
+                    <surname>Dariush</surname>
+                    <given-names>Aliakbar</given-names>
+                  </name>
+                  <address>
+                    <email>adariush@ast.cam.ac.uk</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff3"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Provenzano</surname>
+                    <given-names>Elena</given-names>
+                  </name>
+                  <address>
+                    <email>elena.provenzano@addenbrookes.nhs.uk</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff4"/>
+                  <xref ref-type="aff" rid="Aff5"/>
+                  <xref ref-type="aff" rid="Aff6"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Bardwell</surname>
+                    <given-names>Helen</given-names>
+                  </name>
+                  <address>
+                    <email>helen.bardwell@cruk.cam.ac.uk</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Abraham</surname>
+                    <given-names>Jean E.</given-names>
+                  </name>
+                  <address>
+                    <email>ja344@medschl.cam.ac.uk</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff4"/>
+                  <xref ref-type="aff" rid="Aff6"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Iddawela</surname>
+                    <given-names>Mahesh</given-names>
+                  </name>
+                  <address>
+                    <email>mahesh.iddawela@monash.edu</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff4"/>
+                  <xref ref-type="aff" rid="Aff12"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Vallier</surname>
+                    <given-names>Anne-Laure</given-names>
+                  </name>
+                  <address>
+                    <email>Anne-Laure.Vallier@addenbrookes.nhs.uk</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff4"/>
+                  <xref ref-type="aff" rid="Aff6"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Hiller</surname>
+                    <given-names>Louise</given-names>
+                  </name>
+                  <address>
+                    <email>l.hiller@warwick.ac.uk</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff7"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Dunn</surname>
+                    <given-names>Janet. A.</given-names>
+                  </name>
+                  <address>
+                    <email>J.A.Dunn@warwick.ac.uk</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff7"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Bowden</surname>
+                    <given-names>Sarah J.</given-names>
+                  </name>
+                  <address>
+                    <email>s.j.bowden@bham.ac.uk</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff8"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Hickish</surname>
+                    <given-names>Tamas</given-names>
+                  </name>
+                  <address>
+                    <email>tamas.hickish@rbch.nhs.uk</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff9"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>McAdam</surname>
+                    <given-names>Karen</given-names>
+                  </name>
+                  <address>
+                    <email>karen.mcadam@pbh-tr.nhs.uk</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff10"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Houston</surname>
+                    <given-names>Stephen</given-names>
+                  </name>
+                  <address>
+                    <email>shouston@nhs.net</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff11"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Irwin</surname>
+                    <given-names>Mike J.</given-names>
+                  </name>
+                  <address>
+                    <email>mike@ast.cam.ac.uk</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff3"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Pharoah</surname>
+                    <given-names>Paul D. P.</given-names>
+                  </name>
+                  <address>
+                    <email>pp10001@medschl.cam.ac.uk</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff4"/>
+                  <xref ref-type="aff" rid="Aff6"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Brenton</surname>
+                    <given-names>James D.</given-names>
+                  </name>
+                  <address>
+                    <email>james.brenton@cruk.cam.ac.uk</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1"/>
+                  <xref ref-type="aff" rid="Aff4"/>
+                  <xref ref-type="aff" rid="Aff6"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Walton</surname>
+                    <given-names>Nicholas A.</given-names>
+                  </name>
+                  <address>
+                    <email>naw@ast.cam.ac.uk</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff3"/>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Earl</surname>
+                    <given-names>Helena M.</given-names>
+                  </name>
+                  <address>
+                    <email>hme22@cam.ac.uk</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff4"/>
+                  <xref ref-type="aff" rid="Aff6"/>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Caldas</surname>
+                    <given-names>Carlos</given-names>
+                  </name>
+                  <address>
+                    <email>carlos.caldas@cruk.cam.ac.uk</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1"/>
+                  <xref ref-type="aff" rid="Aff4"/>
+                  <xref ref-type="aff" rid="Aff6"/>
+                </contrib>
+                <aff id="Aff1"><label/>Cancer Research UK Cambridge Institute, University of Cambridge, Li Ka Shing Centre, Cambridge, UK </aff>
+                <aff id="Aff2"><label/>Department of Pathology, University of Cambridge, Cambridge, UK </aff>
+                <aff id="Aff3"><label/>Institute of Astronomy, University of Cambridge, Cambridge, UK </aff>
+                <aff id="Aff4"><label/>Department of Oncology, University of Cambridge, Addenbrooke’s Hospital, Cambridge, UK </aff>
+                <aff id="Aff5"><label/>Department of Histopathology, Addenbrooke’s Hospital, Cambridge University Hospitals NHS Foundation Trust, Cambridge, UK </aff>
+                <aff id="Aff6"><label/>Cambridge Experimental Cancer Medicine Centre and NIHR Cambridge Biomedical Research Centre, Cambridge, UK </aff>
+                <aff id="Aff7"><label/>Warwick Clinical Trials Unit, University of Warwick, Coventry, UK </aff>
+                <aff id="Aff8"><label/>Cancer Research UK Clinical Trials Unit, Institute for Cancer Studies, The University of Birmingham, Edgbaston, Birmingham, UK </aff>
+                <aff id="Aff9"><label/>Royal Bournemouth Hospital and Bournemouth University, Castle Lane East, Bournemouth, UK </aff>
+                <aff id="Aff10"><label/>Peterborough and Stamford Hospitals NHS Foundation Trust and Cambridge University Hospital NHS Foundation Trust, Peterborough, UK </aff>
+                <aff id="Aff11"><label/>Royal Surrey County Hospital NHS Foundation Trust, Egerton Road, Guildford, UK </aff>
+                <aff id="Aff12"><label/>Present address: Department of Anatomy and Developmental Biology, Monash University, Clayton, Victoria Australia </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>16</day>
+                <month>2</month>
+                <year>2016</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>16</day>
+                <month>2</month>
+                <year>2016</year>
+              </pub-date>
+              <pub-date pub-type="ppub">
+                <year>2016</year>
+              </pub-date>
+              <volume>18</volume>
+              <elocation-id>21</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>5</day>
+                  <month>10</month>
+                  <year>2015</year>
+                </date>
+                <date date-type="accepted">
+                  <day>1</day>
+                  <month>2</month>
+                  <year>2016</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© Ali et al. 2016</copyright-statement>
+                <license license-type="OpenAccess">
+                  <license-p><bold>Open Access</bold>This article is distributed under the terms of the Creative Commons Attribution 4.0 International License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The Creative Commons Public Domain Dedication waiver (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link>) applies to the data made available in this article, unless otherwise stated.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <sec>
+                  <title>Background</title>
+                  <p>There is a need to improve prediction of response to chemotherapy in breast cancer in order to improve clinical management and this may be achieved by harnessing computational metrics of tissue pathology. We investigated the association between quantitative image metrics derived from computational analysis of digital pathology slides and response to chemotherapy in women with breast cancer who received neoadjuvant chemotherapy.</p>
+                </sec>
+                <sec>
+                  <title>Methods</title>
+                  <p>We digitised tissue sections of both diagnostic and surgical samples of breast tumours from 768 patients enrolled in the Neo-tAnGo randomized controlled trial. We subjected digital images to systematic analysis optimised for detection of single cells. Machine-learning methods were used to classify cells as cancer, stromal or lymphocyte and we computed estimates of absolute numbers, relative fractions and cell densities using these data. Pathological complete response (pCR), a histological indicator of chemotherapy response, was the primary endpoint. Fifteen image metrics were tested for their association with pCR using univariate and multivariate logistic regression.</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p>Median lymphocyte density proved most strongly associated with pCR on univariate analysis (OR 4.46, 95 % CI 2.34-8.50, p &lt; 0.0001; observations = 614) and on multivariate analysis (OR 2.42, 95 % CI 1.08-5.40, p = 0.03; observations = 406) after adjustment for clinical factors. Further exploratory analyses revealed that in approximately one quarter of cases there was an increase in lymphocyte density in the tumour removed at surgery compared to diagnostic biopsies. A reduction in lymphocyte density at surgery was strongly associated with pCR (OR 0.28, 95 % CI 0.17-0.47, p &lt; 0.0001; observations = 553).</p>
+                </sec>
+                <sec>
+                  <title>Conclusions</title>
+                  <p>A data-driven analysis of computational pathology reveals lymphocyte density as an independent predictor of pCR. Paradoxically an increase in lymphocyte density, following exposure to chemotherapy, is associated with a lack of pCR. Computational pathology can provide objective, quantitative and reproducible tissue metrics and represents a viable means of outcome prediction in breast cancer.</p>
+                </sec>
+                <sec>
+                  <title>Trial registration</title>
+                  <p>ClinicalTrials.gov <ext-link ext-link-type="uri" xlink:href="https://clinicaltrials.gov/ct2/show/NCT00070278">NCT00070278</ext-link>; 03/10/2003</p>
+                </sec>
+                <sec>
+                  <title>Electronic supplementary material</title>
+                  <p>The online version of this article (doi:10.1186/s13058-016-0682-8) contains supplementary material, which is available to authorized users.</p>
+                </sec>
+              </abstract>
+              <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>Breast cancer</kwd>
+                <kwd>Computational pathology</kwd>
+                <kwd>Neoadjuvant</kwd>
+                <kwd>Lymphocytes</kwd>
+                <kwd>Treatment resistance</kwd>
+                <kwd>Immunology</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100000289</institution-id>
+                      <institution>Cancer Research UK (GB)</institution>
+                    </institution-wrap>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2016</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1" sec-type="introduction">
+              <title>Background</title>
+              <p>Women with high-risk early breast cancer are increasingly being offered chemotherapy before definitive surgery because neoadjuvant chemotherapy can enable breast-conserving surgery [<xref ref-type="bibr" rid="CR1">1</xref>]. Complete eradication of tumour cells in the surgically removed tumour bed or pathological complete response (pCR) is associated with improved survival [<xref ref-type="bibr" rid="CR2">2</xref>, <xref ref-type="bibr" rid="CR3">3</xref>]. The likelihood of pCR is profoundly affected by the oestrogen receptor (ER) and human epidermal growth factor receptor 2 (HER2) status of the primary tumour [<xref ref-type="bibr" rid="CR2">2</xref>, <xref ref-type="bibr" rid="CR4">4</xref>]. In spite of these differences, improved prediction of the probability of pCR is needed because alternative regimens of chemotherapy or enrolment in clinical trials might be offered to patients deemed unlikely to experience pCR at baseline.</p>
+              <p>Novel pathological and genomic predictors of pCR have been described. Hatzis et al<italic>.</italic> used gene-expression microarrays to generate a gene set encompassing modules for response to endocrine therapy and cytotoxic chemotherapy, which identified patients likely to undergo pCR and to have longer survival [<xref ref-type="bibr" rid="CR5">5</xref>]. The proportion of tumour infiltrating lymphocytes has also been shown to predict pCR in several studies of neoadjuvant chemotherapy [<xref ref-type="bibr" rid="CR6">6</xref>–<xref ref-type="bibr" rid="CR12">12</xref>]. Automated quantitative estimates of tumour morphology using digital images of tissue sections have been shown to be associated with prognosis [<xref ref-type="bibr" rid="CR13">13</xref>, <xref ref-type="bibr" rid="CR14">14</xref>]. Therefore, comparable computational analysis of histological sections might provide a similar method for prediction of pCR.</p>
+              <p>We hypothesized that systematic quantitative analysis of tumour morphology at diagnosis would objectively identify tissue characteristics associated with pCR. We undertook a digital pathology study using a newly developed image processing method for single cell detection and material from the Neo-tAnGo randomized controlled trial [<xref ref-type="bibr" rid="CR15">15</xref>], both from diagnosis and at surgery, in order to objectively identify tissue features associated with pCR and to investigate changes in quantitative morphological metrics between pre-treatment and post-treatment samples and their relationship to pCR.</p>
+            </sec>
+            <sec id="Sec2" sec-type="materials|methods">
+              <title>Methods</title>
+              <sec id="Sec3">
+                <title>Patients and clinical samples</title>
+                <p>Neo-tAnGo was a phase III, randomized trial with two-by-two factorial design addressing both the role of gemcitabine in a sequential neoadjuvant chemotherapy regimen of epirubicin/cyclophosphamide and paclitaxel, and the role of sequencing of these treatment components [<xref ref-type="bibr" rid="CR15">15</xref>]. The trial recruited women with high-risk early breast cancer between 2005 and 2007 across 57 centres in the UK. Women with HER2-positive disease did not receive neo-adjuvant trastuzumab although most did receive adjuvant trastuzumab depending on local protocols. A total of 812 patients were included in the primary endpoint analysis [<xref ref-type="bibr" rid="CR15">15</xref>]. Pathological complete response, the primary endpoint, was defined as the complete absence of tumour cells in resected breast tissue and axillary lymph nodes. Whether pCR had occurred was determined by independent analysis of histopathology reports by two investigators (EP and HME) as previously described [<xref ref-type="bibr" rid="CR16">16</xref>]. The trial found no effect of the addition of gemcitabine on the proportion of cases with pCR but did find that sequencing of taxanes before anthracyclines led to an overall increase in pCR [<xref ref-type="bibr" rid="CR15">15</xref>]. Details of eligibility and ascertainment of clinical characteristics are provided in the main trial report [<xref ref-type="bibr" rid="CR15">15</xref>]. The trial was approved by the multicentre research ethics committee and subsequently by the local research ethics committees at all participating centres (full names and details are provided in Additional file <xref rid="MOESM1" ref-type="media">1</xref>). All patients provided written informed consent and the trial was registered (ClinicalTrials.gov NCT00070278).</p>
+              </sec>
+              <sec id="Sec4">
+                <title>Image acquisition, processing and pathology review</title>
+                <p>Haematoxylin and eosin (H&amp;E)-stained histological slides from formalin-fixed paraffin embedded (FFPE) pre-treatment core biopsies and tumours resected at surgery were requested from all centres for central review and digitization. Image analysis was conducted by AD at the Institute of Astronomy in Cambridge, as part of a collaboration with Oncology [<xref ref-type="bibr" rid="CR17">17</xref>]. Our image-processing pipeline is summarized in Fig. <xref rid="Fig1" ref-type="fig">1</xref>. Our approach is entirely automated and consists of identifying tissue for analysis, segmenting cell nuclei and finally using machine-learning to classify nuclei as cancer, stromal or lymphocyte based on a training set. Adipocytes were included in the stromal category because based on nuclear features alone, it was not possible to reliably identify them. Further details are provided in Additional file <xref rid="MOESM1" ref-type="media">1</xref>.<fig id="Fig1"><label>Fig. 1</label><caption><p>Overview of the image processing method. <bold>a</bold> Full-face H&amp;E scanned images consist of four levels (L0–L3) across a gradation of resolutions. The levels L3 (lowest resolution) and L0 (highest resolution) are used to process each image. <bold>b</bold> Automated identification of regions of interest was performed by dividing image layer L3 into several small blocks (<italic>grid</italic>) and by analysing the pixel intensity distribution of each block. <bold>c</bold> Each image block found to contain tissue was mapped onto layer L0 and image segmentation and object detection (<italic>green ellipses</italic>) was conducted to construct an object catalogue. <bold>d</bold> Illustrative representation as a contour map of lymphocyte density derived using a k-nearest neighbour algorithm of the 50 nearest like-class neighbours. <bold>e</bold> Distribution of lymphocyte metrics by categories of lymphocytic infiltration based on central pathology review. <italic>SVM</italic> support vector machine</p></caption><graphic xlink:href="13058_2016_682_Fig1_HTML" id="MO1"/></fig></p>
+              </sec>
+              <sec id="Sec5">
+                <title>Statistical analyses</title>
+                <p>All image analyses were conducted prior to receipt of clinical data from the trial statistician. Associations between continuous automated image metrics and categorical clinical variables were tested using Wilcoxon’s rank-sum test or the Kruskal-Wallis test. Pearson’s correlation coefficient was used to investigate the relationship between continuous variables. Logistic regression was used to test for associations with pCR providing an odds ratio (OR), 95 % confidence interval (CI) and <italic>p</italic> value. Candidate image-based predictors were initially tested against pCR in univariate analysis, with absolute cell counts as log-transformed variables. Next, a multivariate model was fitted iteratively in a backward stepwise manner to retain metrics significantly associated with pCR after adjustment for others remaining in the model. These metrics were finally included in a multivariate analysis further adjusted for patient age, radiological tumour size at diagnosis, lymph node status, histological grade, ER status and HER2 status. All image metrics were modelled as continuous variables. Whether an image metric predicted pCR differently between taxane sequencing groups (first vs second) was investigated by inclusion of an interaction term in a logistic regression model and the fit of this model compared to a model lacking the term using a likelihood ratio test. Statistical analyses were conducted in Intercooled Stata version 11.2 (Stata Corp, College Station, TX, USA). This study was conducted in compliance with the Reporting recommendations for tumor marker prognostic studies (REMARK) criteria [<xref ref-type="bibr" rid="CR18">18</xref>] as detailed in Additional file <xref rid="MOESM1" ref-type="media">1</xref>.</p>
+              </sec>
+            </sec>
+            <sec id="Sec6" sec-type="results">
+              <title>Results</title>
+              <sec id="Sec7">
+                <title>A digital pathology resource and image-processing pipeline for quantitative cell-level metrics</title>
+                <p>We used material from 765 patients enrolled in the Neo-tAnGo randomized controlled trial. Additional file <xref rid="MOESM2" ref-type="media">2</xref> depicts the flow of patients through each analytical stage in this study. A total of 2,436 slides were received and digitized, of which 1,992 contained tumour or tumour bed with the remainder containing adjacent normal breast tissue. All images used for analyses are available to download together with open-source image analysis code at <ext-link ext-link-type="uri" xlink:href="http://www.ast.cam.ac.uk/~adariush/files/images/">http://www.ast.cam.ac.uk/~adariush/files/images/</ext-link> and <ext-link ext-link-type="uri" xlink:href="http://www.ast.cam.ac.uk/~adariush/files/codes/">http://www.ast.cam.ac.uk/~adariush/files/codes/</ext-link>.</p>
+                <p>On average, each patient’s tumour or residual tumour bed was represented in 1.2 pre-treatment slides (range 1–23) and 1.8 slides from the post-treatment surgical specimen (range 1–35). Figure <xref rid="Fig1" ref-type="fig">1</xref> summarizes our novel image processing pipeline: scanned slide images were extracted as four layers differing in their size and resolution, and using the lowest resolution image, areas that contained tissue were automatically identified and white space was excluded from further analysis. Next, using the highest resolution layer, single cell nuclei were detected, and using a support-vector-machine (SVM) approach trained using around 1,000 objects per class, cells were sub-classified into readily distinguishable categories (cancer, stromal or lymphocyte). Metrics relating to these three cell types and describing absolute cell number (count), relative cell type proportion (fraction) and density (minimum, median and maximum) based on the 50 nearest like-class neighbors, were computed. That is, every detected cell was assigned a density estimate based on the distance between it and the 50 nearest cells of the same type. Pathologist assessment of lymphocytic infiltration in pre-treatment biopsies with paired automated data, to which the pathologist was blinded, was available for comparison in 377 samples. All automated metrics of lymphocytic infiltration were significantly associated with pathologist scores (<italic>p</italic> &lt;0.0001 for all three comparisons; Fig. <xref rid="Fig1" ref-type="fig">1</xref>), attesting to the validity of the automated image analysis approach.</p>
+                <p>Image metrics were calculated for a total of 765 patients of which 623 provided data on pre-treatment biopsies and 699 provided data on post-treatment surgical samples, with paired (pre- and post-treatment) data available in 557 patients. Patient and tumor characteristics are detailed in Table <xref rid="Tab1" ref-type="table">1</xref>. Fifteen machine-learning-derived image metrics were used for downstream correlative analysis with clinical and pathological features. Additional files <xref rid="MOESM3" ref-type="media">3</xref> and <xref rid="MOESM4" ref-type="media">4</xref> depict histograms of the distributions of image metrics for pre-treatment biopsies and post-treatment surgical samples. The correlation matrix of image metrics from data generated using pre-treatment biopsies is depicted in Additional file <xref rid="MOESM5" ref-type="media">5</xref> and from surgical samples in Additional file <xref rid="MOESM6" ref-type="media">6</xref>. In pre-treatment biopsies, the strongest positive correlation was between the absolute number of lymphocytes and the number of cancer cells (rho = 0.84) and, conversely, the strongest negative correlation was between the relative fraction of cancer cells and the fraction of lymphocytes (rho = –0.59). These contrasting correlations highlight the extent to which absolute cell counts simply reflect sample cellularity, warranting cautious interpretation.<table-wrap id="Tab1"><label>Table 1</label><caption><p>Patient and tumour characteristics</p></caption><table frame="hsides" rules="groups"><thead><tr><th/><th>Number</th><th>Percent</th></tr></thead><tbody><tr><td colspan="3">Tumour size</td></tr><tr><td> ≤50 mm</td><td>613</td><td>80.1</td></tr><tr><td> &gt;50 mm</td><td>152</td><td>19.9</td></tr><tr><td> Total</td><td>765</td><td>100</td></tr><tr><td colspan="3">Node status</td></tr><tr><td> Negative</td><td>388</td><td>50.7</td></tr><tr><td> Positive</td><td>377</td><td>49.3</td></tr><tr><td> Total</td><td>765</td><td>100</td></tr><tr><td colspan="3">Grade</td></tr><tr><td> 1</td><td>22</td><td>2.9</td></tr><tr><td> 2</td><td>245</td><td>32</td></tr><tr><td> 3</td><td>328</td><td>42.9</td></tr><tr><td> Missing</td><td>170</td><td>22.2</td></tr><tr><td> Total</td><td>765</td><td>100</td></tr><tr><td colspan="3">Taxane sequence</td></tr><tr><td> Taxane first</td><td>387</td><td>50.6</td></tr><tr><td> Taxane second</td><td>378</td><td>49.4</td></tr><tr><td> Total</td><td>765</td><td>100</td></tr><tr><td colspan="3">pCR</td></tr><tr><td> No pCR</td><td>633</td><td>82.7</td></tr><tr><td> pCR</td><td>122</td><td>15.9</td></tr><tr><td> Missing</td><td>10</td><td>1.3</td></tr><tr><td> Total</td><td>765</td><td>100</td></tr><tr><td colspan="3">ER, HER2 status</td></tr><tr><td> ER–, HER2–</td><td>152</td><td>19.9</td></tr><tr><td> ER–, HER2+</td><td>64</td><td>8.4</td></tr><tr><td> ER+, HER2–</td><td>342</td><td>44.7</td></tr><tr><td> ER+, HER2+</td><td>116</td><td>15.2</td></tr><tr><td> Missing</td><td>91</td><td>11.9</td></tr><tr><td> Total</td><td>765</td><td>100</td></tr><tr><td colspan="3">Diagnostic biopsies</td></tr><tr><td> Missing</td><td>142</td><td>18.6</td></tr><tr><td> Analysed</td><td>623</td><td>81.4</td></tr><tr><td> Total</td><td>765</td><td>100</td></tr><tr><td colspan="3">Surgical samples</td></tr><tr><td> Missing</td><td>66</td><td>8.6</td></tr><tr><td> Analysed</td><td>699</td><td>91.4</td></tr><tr><td> Total</td><td>765</td><td>100</td></tr></tbody></table><table-wrap-foot><p><italic>pCR</italic> pathological complete response, <italic>ER</italic> oestrogen receptor, <italic>HER2</italic> human epidermal growth factor receptor 2</p></table-wrap-foot></table-wrap></p>
+              </sec>
+              <sec id="Sec8">
+                <title>Image metrics reflect molecular subtype of the primary tumor</title>
+                <p>Figure <xref rid="Fig2" ref-type="fig">2</xref> depicts the distribution of image metrics by the molecular subtype of the tumour based on ER and HER2 status. The distribution of cancer cell fraction significantly differed between groups (<italic>p</italic> = 0.04), with the highest median cancer cell fraction observed in ER-negative, HER2-negative tumours. Similarly, the distribution of stromal cell fraction was significantly different between groups (<italic>p</italic> = 0.00001), with the highest median level observed in ER-positive, HER2-negative tumours. The distribution of lymphocyte fraction was also significantly different between groups (<italic>p</italic> = 0.002) with the highest median level observed in ER-negative, HER2-positive tumours. Median lymphocyte density was not correlated with patient age at diagnosis (Pearson’s correlation coefficient –0.01), suggesting that the association with tumour molecular subtype was not age-related. However, these relationships did not hold following chemotherapy in post-treatment surgical samples for which none of the metrics were significantly different across molecular subtypes (Additional file <xref rid="MOESM7" ref-type="media">7</xref>), likely due to the diminishing influence of tumour cells on the composition of samples, owing both to widespread cell death and to other effects of chemotherapy on the tissue environment.<fig id="Fig2"><label>Fig. 2</label><caption><p>Distribution of pre-treatment sample image metrics by tumour molecular subtype. <italic>Horizontal grey lines</italic> represent median values. Results of the Kruskal-Wallis test are depicted within graphs; <italic>red text</italic> denotes <italic>p</italic> values &lt;0.05. <italic>ER</italic> oestrogen receptor, <italic>HER2</italic> human epidermal growth factor receptor 2</p></caption><graphic xlink:href="13058_2016_682_Fig2_HTML" id="MO2"/></fig></p>
+              </sec>
+              <sec id="Sec9">
+                <title>Chemotherapy response is most strongly associated with median lymphocyte density</title>
+                <p>Univariate analysis of the 15 image metrics was conducted using pretreatment biopsies in 614 patients, of whom 98 (16 %) had tumors that underwent pCR. Six of the fifteen metrics were significantly (at a nominal <italic>p</italic> value &lt;0.05) associated with pCR (Fig. <xref rid="Fig3" ref-type="fig">3</xref> and Additional file <xref rid="MOESM8" ref-type="media">8</xref>). Of these six, four were related to lymphocytes, one to cancer cells and one to stromal cells. The association between median lymphocyte density and pCR was by far the strongest (OR 4.46, 95 % CI 2.34-8.50, <italic>p</italic> &lt;0.0001) with the next most significant being maximum lymphocyte density (OR 3.48, 95 % CI 1.54, 7.86, <italic>p</italic> = 0.003). To determine whether sample cellularity influenced the relationship between median lymphocyte density and pCR, a model adjusted for the total number of cells in a sample was fit. This showed that sample cellularity had little effect on this association, which remained significant in the model (OR 4.56, 95 % CI 2.27, 9.15, <italic>p</italic> &lt;0.0001). A multivariate model comprising these 15 predictors was modified in a backward stepwise manner resulting in a final model of 5 significant predictors, including median lymphocyte density (Additional file <xref rid="MOESM8" ref-type="media">8</xref>). However, on further adjustment of this model for clinical variables only median lymphocyte density was significantly associated with pCR (Additional file <xref rid="MOESM9" ref-type="media">9</xref>). When included in a multivariate model with only clinical predictors, median lymphocyte density remained significantly associated with pCR (OR 2.42, 95 % CI 1.08, 5.40, <italic>p</italic> = 0.03; Table <xref rid="Tab2" ref-type="table">2</xref>). However, approximately one third of observations were lost between univariate (n = 614) and multivariate analyses (n = 406). For deciles of median lymphocyte density, differences in the proportion of cases that underwent pCR varied between 4.9 % (3/61) for the first decile up to 35.5 % (22/62) for the last.<fig id="Fig3"><label>Fig. 3</label><caption><p>Association between image metrics and pathological complete response (pCR). Manhattan plot illustrates <italic>p</italic> values (–log10) from univariate logistic regression analyses testing the association between 15 image metrics and pCR</p></caption><graphic xlink:href="13058_2016_682_Fig3_HTML" id="MO3"/></fig><table-wrap id="Tab2"><label>Table 2</label><caption><p>Univariate and multivariate logistic regression models of clinical factors and median lymphocyte density</p></caption><table frame="hsides" rules="groups"><thead><tr><th/><th/><th colspan="4">Univariate</th><th colspan="4">Multivariate</th></tr><tr><th>Variable</th><th>Categories</th><th>Odds ratio</th><th>95 % CI</th><th><italic>P</italic> value</th><th>Observations</th><th>Odds ratio</th><th>95 % CI</th><th><italic>P</italic> value</th><th>Observations</th></tr></thead><tbody><tr><td>Age</td><td>Continuous</td><td>0.99</td><td>0.97, 1.02</td><td>0.6</td><td>755</td><td>0.99</td><td>0.96-1.02</td><td>0.44</td><td>406</td></tr><tr><td>Tumour size</td><td>≤50 mm, &gt;50 mm</td><td>0.89</td><td>0.54, 1.48</td><td>0.66</td><td>755</td><td>0.68</td><td>0.27-1.75</td><td>0.43</td><td>406</td></tr><tr><td>Node status</td><td>Negative, positive</td><td>0.8</td><td>0.54, 1.18</td><td>0.25</td><td>755</td><td>0.56</td><td>0.31-1.00</td><td>0.05</td><td>406</td></tr><tr><td>Grade</td><td>1, 2, 3</td><td>3.98</td><td>2.38, 6.67</td><td>&lt;0.00001</td><td>588</td><td>3.62</td><td>1.74-7.52</td><td>0.0006</td><td>406</td></tr><tr><td>ER status</td><td>Negative, positive</td><td>0.26</td><td>0.17, 0.38</td><td>&lt;0.00001</td><td>755</td><td>0.3</td><td>0.17-0.53</td><td>0.00004</td><td>406</td></tr><tr><td>HER2 status</td><td>Negative, positive</td><td>1.6</td><td>1.03, 2.50</td><td>0.04</td><td>665</td><td>1.81</td><td>0.97-3.37</td><td>0.06</td><td>406</td></tr><tr><td>Median lymphocyte density</td><td>Continuous</td><td>4.46</td><td>2.34, 8.50</td><td>&lt;0.00001</td><td>614</td><td>2.42</td><td>1.08-5.40</td><td>0.03</td><td>406</td></tr></tbody></table><table-wrap-foot><p><italic>ER</italic> oestrogen receptor; <italic>HER2</italic> human epidermal growth factor receptor 2</p></table-wrap-foot></table-wrap></p>
+                <p>Figure <xref rid="Fig4" ref-type="fig">4</xref> depicts the distribution of pCR, receptor status and cellular composition in all samples ranked according to the median lymphocyte density for each sample. In addition to depicting the sample-level relationship between these variables, the relationship between median lymphocyte density, pCR and molecular subtype is also depicted in Fig. <xref rid="Fig4" ref-type="fig">4</xref>. To address whether the association between median lymphocyte density and pCR significantly differed by ER status, we compared the fit of two logistic regression models: one with an interaction term between median lymphocyte density and ER status, and one without. The likelihood ratio test comparing these models was not significant (<italic>p</italic> = 0.72), however, it should be noted that for comparison of effect between subgroups these analyses are relatively underpowered, precluding reliable conclusions. In addition, Fig. <xref rid="Fig4" ref-type="fig">4</xref> highlights that although higher median lymphocyte density is generally associated with a larger lymphocyte fraction (rho = 0.69), it is not simply a reflection of higher numbers of infiltrating lymphocytes. There are both instances where the relative fraction of lymphocytes is high but where the density of lymphocytes is low compared to other samples, and conversely in some instances the fraction of lymphocytes is relatively low but their median density is high (Fig. <xref rid="Fig4" ref-type="fig">4</xref>). Additional file <xref rid="MOESM10" ref-type="media">10</xref> depicts this relationship as a scatter plot, further highlighting the existence of outlier cases. This suggests that a measure of lymphocytic density may reflect a functional aspect of the immune response not entirely encompassed by lymphocyte fraction. Additional file <xref rid="MOESM11" ref-type="media">11</xref> depicts example images together with contour representations of lymphocyte density and automated metrics for each image. Median lymphocyte density was positively associated with both axillary lymph node status (<italic>p</italic> = 0.002) and histological grade (<italic>p</italic> &lt;0.00001) but not with tumor size (<italic>p</italic> = 0.47) as depicted in Additional file <xref rid="MOESM12" ref-type="media">12</xref>.<fig id="Fig4"><label>Fig. 4</label><caption><p>Relationship between median lymphocyte density, cellular composition, pathological complete response (<italic>pCR</italic>) and receptor status. Bar plots illustrating the relationship between pathological complete response, oestrogen receptor (<italic>ER</italic>) status, human epidermal growth factor receptor 2 (<italic>HER2</italic>) status, cellular composition and median lymphocyte density. Plots are sorted by increasing level of median lymphocyte density. For illustration, median lymphocyte density has been rescaled to positive values</p></caption><graphic xlink:href="13058_2016_682_Fig4_HTML" id="MO4"/></fig></p>
+              </sec>
+              <sec id="Sec10">
+                <title>Increased post-treatment lymphocyte density is associated with relative chemoresistance</title>
+                <p>We further investigated whether the change in median lymphocyte density between pre- and post-treatment samples was reflected in the probability of pCR and the extent to which the degree of change varied between patients. Change in median lymphocyte density across all 557 samples for which paired data was available is depicted as a waterfall plot in Fig. <xref rid="Fig5" ref-type="fig">5</xref>. In the majority of cases (75.6 %, 421/557 cases) lymphocyte density decreased in the surgical specimen. In addition, on assessment of the association between change in lymphocyte density and pCR in the 553 cases with sufficient data, there was strong association between reduction in lymphocyte density in the surgical sample and higher likelihood of pCR (OR 0.28, 95 % CI 0.17, 0.47, <italic>p</italic> &lt;0.0001) with 17 % (71/418) of cases with a decrease in density undergoing pCR, in comparison to just 6.7 % (9/135) of those where there was an increase. Change in lymphocyte density was negatively correlated with median lymphocyte density at diagnosis (Correlation coefficient –0.6, <italic>p</italic> &lt;0.0001). In a model adjusted for median lymphocyte density at diagnosis, change in lymphocyte density remained significantly associated with pCR (OR 0.38, 95 % CI 0.21, 0.71, <italic>p</italic> = 0.002).<fig id="Fig5"><label>Fig. 5</label><caption><p>Change in lymphocyte density and association with pathological complete response (<italic>pCR</italic>). Plot depicts the change in median lymphocyte density between paired pre-treatment and post-treatment surgical samples. The primary sort key is taxane sequence and the secondary sort key is change in lymphocyte density. Annotated rug depicts oestrogen receptor (<italic>ER</italic>), human epidermal growth factor receptor 2 (<italic>HER2</italic>) status and taxane sequence for samples corresponding to those depicted in the plot above</p></caption><graphic xlink:href="13058_2016_682_Fig5_HTML" id="MO5"/></fig></p>
+                <p>The main finding of the Neo-tAnGo trial was that administration of a taxane prior to other chemotherapy agents led to a significant increase in pCR [<xref ref-type="bibr" rid="CR15">15</xref>]. Therefore, we next evaluated whether the association between increased post-treatment lymphocyte density and reduced likelihood of pCR was equally distributed according to whether a taxane was received first or second (Fig. <xref rid="Fig5" ref-type="fig">5</xref>). The association between increased post-treatment lymphocyte density and reduced likelihood of pCR was significantly stronger where a taxane was received second compared to where it was received first (likelihood-ratio test for interaction, <italic>p</italic> = 0.02). The OR in the taxane second group was 0.12 (95 % CI 0.05, 0.31, <italic>p</italic> &lt;0.0001) compared to 0.45 (95 % CI 0.24, 0.84, <italic>p</italic> = 0.01) in the taxane first group. It should be noted that the proportion of cases with increased post-treatment lymphocyte density was equally distributed across taxane groups (24 % and 25 %).</p>
+              </sec>
+            </sec>
+            <sec id="Sec11" sec-type="discussion">
+              <title>Discussion</title>
+              <p>We used computational pathology to generate image metrics of both pre- and post-treatment biopsies in a randomized controlled trial of neoadjuvant chemotherapy in breast cancer in order to investigate associations with chemosensitivity. Median lymphocyte density in pre-treatment biopsies emerged as the best predictor of response to chemotherapy, improving prediction based on known clinical factors. In addition, change in lymphocyte density between pre and post-treatment samples revealed that an increase in lymphocyte density was, paradoxically, associated with relative chemoresistance.</p>
+              <p>Computational pathology was used here to generate objective quantitative estimates of the cellular composition of tissue samples and, importantly, of the spatial heterogeneity of different cell types across a tissue section. Median density of lymphocytes, a spatial estimate, outperformed simple cellular quantification. Similarly, we have previously reported that the spatial distribution of stromal cells is prognostic in breast cancer and that this feature is not easily measurable by genomic assays [<xref ref-type="bibr" rid="CR13">13</xref>]. Previous work in the context of breast and prostate cancer, has demonstrated the capacity of a computational approach to interrogate spatial, relational and geometric features of tissues for outcome prediction [<xref ref-type="bibr" rid="CR14">14</xref>, <xref ref-type="bibr" rid="CR19">19</xref>, <xref ref-type="bibr" rid="CR20">20</xref>]. Many of these parameters could not be practically estimated by other means, and in this respect machine learning can provide deeper insight into tissue morphology than is possible by manual evaluation.</p>
+              <p>We performed a data-driven selection of tissue features associated with pCR. Median lymphocyte density emerged as the best predictor of chemosensitivity. In a previous study we have reported an association between automated estimates of lymphocytic infiltration and breast cancer survival in ER-negative disease [<xref ref-type="bibr" rid="CR13">13</xref>, <xref ref-type="bibr" rid="CR21">21</xref>]. Similarly, studies of patients who received neo-adjuvant chemotherapy based on genomic assays and histopathology have also reported an association between the immune response and pCR [<xref ref-type="bibr" rid="CR22">22</xref>]. Ignatiadis et al<italic>.</italic> conducted a meta-analysis of gene-expression data from pre-surgical specimens in 996 patients and investigated associations between 17 previously reported gene modules and pCR [<xref ref-type="bibr" rid="CR22">22</xref>]. They found that the gene modules most reliably associated with pCR across cancer subtypes were those relating to the immune response. Tumour infiltrating lymphocytes estimated by a pathologist from H&amp;E sections have also been found to be associated with outcome and response to chemotherapy [<xref ref-type="bibr" rid="CR8">8</xref>, <xref ref-type="bibr" rid="CR23">23</xref>], including some in the neo-adjuvant setting [<xref ref-type="bibr" rid="CR6">6</xref>, <xref ref-type="bibr" rid="CR10">10</xref>], largely in accord with the findings of this study.</p>
+              <p>To our knowledge, this is the first report showing that an increase in lymphocyte density following the perturbation of chemotherapy is associated with a lower likelihood of pCR. Previous studies have also shown that the composition of the post-treatment immune repertoire is associated with survival [<xref ref-type="bibr" rid="CR24">24</xref>, <xref ref-type="bibr" rid="CR25">25</xref>]. In addition, we found that the sequence in which chemotherapy agents were administered affected the strength of this association. Where patients received a taxane second, increased lymphocyte density was more strongly associated with relative resistance to chemotherapy than in patients who received a taxane first.</p>
+              <p>A limitation of this study is that we were not able to digitize and analyse samples from all patients enrolled in the Neo-tAnGo trial and that associated clinical data were not complete, leading to a loss of around one third of observations in multivariate analyses. This is inevitable in the context of large multicentre trials. A second limitation is that by using H&amp;E sections we have not accounted for the immune phenotype or functional state of infiltrating lymphocytes.</p>
+              <p>The functional basis of the interaction we observed between the immune response and chemotherapy is uncertain. It should, however, be noted that all patients received an anthracycline (epirubicin) as part of their treatment. Anthracyclines have been extensively investigated in pre-clinical studies as a chemotherapeutic agent with a tumoricidal effect that can in part be attributed to stimulation of the immune response [<xref ref-type="bibr" rid="CR26">26</xref>]. For example, a recent study reported that upon exposure to an anthracycline tumour cells produce type I interferons evoking an immunological cascade reminiscent of that seen in cells infected by a virus and that this effect may be partly explained by the release of self-RNAs by dying cells [<xref ref-type="bibr" rid="CR27">27</xref>]. That greater clinical benefit of anthracyclines is significantly associated with the presence of a pre-existing immune response (tumour-infiltrating lymphocytes) has also been shown in several clinical studies [<xref ref-type="bibr" rid="CR8">8</xref>, <xref ref-type="bibr" rid="CR23">23</xref>, <xref ref-type="bibr" rid="CR28">28</xref>]. However, our results suggest that the effect of chemotherapy may be more complex than simply boosting pre-existing immune attack. First, we find that where the density of lymphocytes is increased following treatment, fewer tumours undergo pCR. That is, in this subset of around one quarter of patients, tumour cells apparently continue to resist the effects of immune attack in spite of its increased intensity. Second, we find that this effect is significantly greater where a taxane (paclitaxel) was administered after, as opposed to before, other agents. In the Neo-tAnGo trial, giving paclitaxel before the other agents significantly increased the proportion of cases with pCR [<xref ref-type="bibr" rid="CR15">15</xref>]. While the association between increased post-treatment lymphocyte density and treatment resistance holds whether paclitaxel is given first or second, the effect is significantly larger in cases where it is given second. Collectively, these findings raise the possibility that not only is a chemotherapy-stimulated immune response not universally effective, but that the efficacy of this response can be influenced by the sequence in which tumour cells are exposed to different chemotherapeutic agents, most notably taxanes and anthracyclines.</p>
+              <p>The existence of a substantial subgroup of relatively resistant tumours in which lymphocyte density is increased following chemotherapy further suggests a clinical opportunity. The variability in the immune response between primary breast tumours is well-known and recent genomic analyses suggest that some of this difference may be explained by the mutational burden of the primary tumour [<xref ref-type="bibr" rid="CR29">29</xref>]. Analyses of clinical trials of immune checkpoint inhibitors report that responses are best where there is a significant pre-existing immune response to the primary tumour [<xref ref-type="bibr" rid="CR30">30</xref>, <xref ref-type="bibr" rid="CR31">31</xref>]. Given that a large subset of breast tumours evoke only a mild immune response if any [<xref ref-type="bibr" rid="CR23">23</xref>, <xref ref-type="bibr" rid="CR32">32</xref>], methods for increasing immune attack against immunologically quiescent tumours are needed. Therefore the subgroup we have identified may benefit from receiving chemotherapy first, to increase the immune response, followed by immune checkpoint inhibitors to amplify its effect.</p>
+              <p>Digitization of pathology slides from clinical trials affords the important advantages of providing an enduring archive of tumour pathology and the opportunity for systematic image analysis. We anticipate analyses such as ours becoming more common as digital pathology is implemented more widely in clinical trials. We provide a valuable resource of digital pathology images to the research community, together with all our image-analysis codes. In addition, linked multiplatform genomic annotation (gene expression, copy number, targeted sequencing) will be made available for a subset of cases, following primary reporting of the data. While invaluable resources such as the Human Protein Atlas already provide access to an enormous array of tissue images [<xref ref-type="bibr" rid="CR33">33</xref>], some already utilized in translational studies [<xref ref-type="bibr" rid="CR34">34</xref>, <xref ref-type="bibr" rid="CR35">35</xref>], widely available digital images of tumour tissue from large high-quality clinical studies with molecular annotation such as ours are currently exceedingly rare. However, general access to such resources will be necessary to fulfil the potential of computational pathology as a novel modality that spans the research and clinical arenas.</p>
+            </sec>
+            <sec id="Sec12" sec-type="conclusion">
+              <title>Conclusions</title>
+              <p>This data-driven analysis of computational pathology metrics reveals that median lymphocyte density is an independent predictor of response to neoadjuvant chemotherapy in breast cancer. Paradoxically, we find that an increase in the density of lymphocytes following chemotherapy is associated with relative resistance to chemotherapy. Computational pathology is a novel and quantitative method for interrogation of tumour tissues, which can improve prediction of clinical endpoints.</p>
+            </sec>
+          </body>
+          <back>
+            <app-group>
+              <app id="App1">
+                <sec id="Sec13">
+                  <title>Additional files</title>
+                  <p>
+                    <media position="anchor" xlink:href="13058_2016_682_MOESM1_ESM.docx" id="MOESM1">
+                      <label>Additional file 1:</label>
+                      <caption>
+                        <p><bold>Supplementary methods.</bold> (DOCX 38 kb)</p>
+                      </caption>
+                    </media>
+                    <media position="anchor" xlink:href="13058_2016_682_MOESM2_ESM.pdf" id="MOESM2">
+                      <label>Additional file 2:</label>
+                      <caption>
+                        <p><bold>CONSORT diagram illustrating the flow of patients at each analytical stage.</bold> (PDF 7 kb)</p>
+                      </caption>
+                    </media>
+                    <media position="anchor" xlink:href="13058_2016_682_MOESM3_ESM.pdf" id="MOESM3">
+                      <label>Additional file 3:</label>
+                      <caption>
+                        <p><bold>Histograms depicting the distribution of all image metrics from pre-treatment samples.</bold> (PDF 25 kb)</p>
+                      </caption>
+                    </media>
+                    <media position="anchor" xlink:href="13058_2016_682_MOESM4_ESM.pdf" id="MOESM4">
+                      <label>Additional file 4:</label>
+                      <caption>
+                        <p><bold>Histograms depicting the distribution of all image metrics from post-treatment surgical samples.</bold> (PDF 26 kb)</p>
+                      </caption>
+                    </media>
+                    <media position="anchor" xlink:href="13058_2016_682_MOESM5_ESM.pdf" id="MOESM5">
+                      <label>Additional file 5:</label>
+                      <caption>
+                        <p><bold>Correlation matrix of all image metrics from pre-treatment samples.</bold> Correlation matrix of 15 image metrics derived from pre-treatment biopsies. Correlations are Pearson’s coefficients. Text size is proportional to the strength of the correlation. <italic>Pink boxes</italic> denote positive correlations and <italic>blue boxes</italic> denote negative correlations. (PDF 82 kb)</p>
+                      </caption>
+                    </media>
+                    <media position="anchor" xlink:href="13058_2016_682_MOESM6_ESM.pdf" id="MOESM6">
+                      <label>Additional file 6:</label>
+                      <caption>
+                        <p><bold>Correlation matrix of all image metrics from post-treatment surgical samples.</bold> Correlation matrix of 15 image metrics derived from post-treatment surgical samples. Correlations are Pearson’s coefficients. Text size is proportional to the strength of the correlation. <italic>Pink boxes</italic> denote positive correlations and those blue <italic>boxes</italic> denote negative correlations. (PDF 82 kb)</p>
+                      </caption>
+                    </media>
+                    <media position="anchor" xlink:href="13058_2016_682_MOESM7_ESM.pdf" id="MOESM7">
+                      <label>Additional file 7:</label>
+                      <caption>
+                        <p><bold>Distribution of post-treatment sample image metrics by tumor molecular subtype.</bold><italic>Horizontal gray lines</italic> represent median values. Results of Kruskal-Wallis tests are depicted within graphs; <italic>red text</italic> denotes <italic>p</italic> values &lt;0.05. (PDF 177 kb)</p>
+                      </caption>
+                    </media>
+                    <media position="anchor" xlink:href="13058_2016_682_MOESM8_ESM.docx" id="MOESM8">
+                      <label>Additional file 8:</label>
+                      <caption>
+                        <p><bold>Univariate and multivariate logistic regression models for all 15 image metrics.</bold> (DOCX 16 kb)</p>
+                      </caption>
+                    </media>
+                    <media position="anchor" xlink:href="13058_2016_682_MOESM9_ESM.docx" id="MOESM9">
+                      <label>Additional file 9:</label>
+                      <caption>
+                        <p><bold>Multivariate logistic regression model including clinical prognostic factors and image metrics derived from model depicted in Additional File 8.</bold> (DOCX 14 kb)</p>
+                      </caption>
+                    </media>
+                    <media position="anchor" xlink:href="13058_2016_682_MOESM10_ESM.pdf" id="MOESM10">
+                      <label>Additional file 10:</label>
+                      <caption>
+                        <p><bold>Scatter plot of median lymphocyte density and lymphocyte fraction in pre-treatment biopsies.</bold> Depicted rho value is a Pearson’s correlation coefficient. <italic>a.u.</italic> arbitrary units. (PDF 19 kb)</p>
+                      </caption>
+                    </media>
+                    <media position="anchor" xlink:href="13058_2016_682_MOESM11_ESM.pdf" id="MOESM11">
+                      <label>Additional file 11:</label>
+                      <caption>
+                        <p><bold>Examples of images and associated metrics from cases with varying median lymphocyte density.</bold> Depicted density metrics have been arbitrarily offset to depict positive values but are normalized across samples, hence comparable between plots (<italic>right y-axis</italic>). Note that absolute counts are depicted against different scales (<italic>left y-axis</italic>). (PDF 63 kb)</p>
+                      </caption>
+                    </media>
+                    <media position="anchor" xlink:href="13058_2016_682_MOESM12_ESM.pdf" id="MOESM12">
+                      <label>Additional file 12:</label>
+                      <caption>
+                        <p><bold>Distribution of median lymphocyte density from pre-treatment biopsies by clinical variables.</bold><italic>Horizontal gray lines</italic> represent median values. Results of Kruskal-Wallis tests are depicted within graphs; <italic>red text</italic> denotes <italic>p</italic> values &lt;0.05. (PDF 62 kb)</p>
+                      </caption>
+                    </media>
+                  </p>
+                </sec>
+              </app>
+            </app-group>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term>CI</term>
+                  <def>
+                    <p>confidence interval</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>ER</term>
+                  <def>
+                    <p>oestrogen receptor</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>FFPE</term>
+                  <def>
+                    <p>formalin-fixed paraffin-embedded</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>H&amp;E</term>
+                  <def>
+                    <p>haematoxylin and eosin</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>HER2</term>
+                  <def>
+                    <p>human epidermal growth factor receptor 2</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>OR</term>
+                  <def>
+                    <p>odds ratio</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>pCR</term>
+                  <def>
+                    <p>pathological complete response</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>SVM</term>
+                  <def>
+                    <p>support vector machine</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Competing interests</bold>
+                </p>
+                <p>The authors declare that they have no competing interests.</p>
+              </fn>
+              <fn>
+                <p>
+                  <bold>Authors’ contributions</bold>
+                </p>
+                <p>HRA and CC conceived of and designed the study. AD and HRA conducted image analysis. HRA conducted statistical analyses. NW and MJI supervised image analysis methods. HB conducted slide scanning and associated data curation. EP was the lead trial pathologist and conducted pathology review of pre-treatment biopsies. LH was the trial statistician and provided matched, curated clinical data. HME, A-LV, LH, JD, SB and CC led the Neo-tAnGo trial. JA, MI, TH, KM and SH recruited patients and provided samples. HRA, AD, CC, PDP, JB, MI and NW led collaborative studies between Oncology and Astronomy. HRA and CC wrote the manuscript and all authors provided edits and agreed to its publication.</p>
+              </fn>
+            </fn-group>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>We thank the patients who enrolled in the Neo-tAnGo trial and permitted use of their tissue for research. We are grateful to the many healthcare professionals who recruited patients to the trial and enabled the conduct of translational research by provision of bio specimens. We are grateful to the Histopathology Core Facility at the CRUK Cambridge Institue for digital slide archiving. We acknowledge funding from Cancer Research UK and NIHR Cambridge Biomedical Research Centre. HRA is an NIHR Academic Clinical Lecturer supported by a Career Development Fellowship from the Pathological Society of Great Britain and Northern Ireland and a Starter Grant for Clinical Lecturers from the Academy of Medical Sciences.</p>
+            </ack>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Killelea</surname>
+                      <given-names>BK</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>VQ</given-names>
+                    </name>
+                    <name>
+                      <surname>Mougalian</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Horowitz</surname>
+                      <given-names>NR</given-names>
+                    </name>
+                    <name>
+                      <surname>Pusztai</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Chagpar</surname>
+                      <given-names>AB</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Neoadjuvant chemotherapy for breast cancer increases the rate of breast conservation: results from the National Cancer Database</article-title>
+                  <source>J Am Coll Surg</source>
+                  <year>2015</year>
+                  <volume>220</volume>
+                  <issue>6</issue>
+                  <fpage>1063</fpage>
+                  <lpage>9</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jamcollsurg.2015.02.011</pub-id>
+                  <?supplied-pmid 25868410?>
+                  <pub-id pub-id-type="pmid">25868410</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cortazar</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Untch</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Mehta</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Costantino</surname>
+                      <given-names>JP</given-names>
+                    </name>
+                    <name>
+                      <surname>Wolmark</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Pathological complete response and long-term clinical benefit in breast cancer: the CTNeoBC pooled analysis</article-title>
+                  <source>Lancet</source>
+                  <year>2014</year>
+                  <volume>384</volume>
+                  <issue>9938</issue>
+                  <fpage>164</fpage>
+                  <lpage>72</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0140-6736(13)62422-8</pub-id>
+                  <?supplied-pmid 24529560?>
+                  <pub-id pub-id-type="pmid">24529560</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Berruti</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Amoroso</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Gallo</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Bertaglia</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Simoncini</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Pedersini</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Pathologic complete response as a potential surrogate for the clinical outcome in patients with breast cancer after neoadjuvant therapy: a meta-regression of 29 randomized prospective studies</article-title>
+                  <source>J Clin Oncol</source>
+                  <year>2014</year>
+                  <volume>32</volume>
+                  <issue>34</issue>
+                  <fpage>3883</fpage>
+                  <lpage>91</lpage>
+                  <pub-id pub-id-type="doi">10.1200/JCO.2014.55.2836</pub-id>
+                  <?supplied-pmid 25349292?>
+                  <pub-id pub-id-type="pmid">25349292</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Houssami</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Macaskill</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>von Minckwitz</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Marinovich</surname>
+                      <given-names>ML</given-names>
+                    </name>
+                    <name>
+                      <surname>Mamounas</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Meta-analysis of the association of breast cancer subtype and pathologic complete response to neoadjuvant chemotherapy</article-title>
+                  <source>Eur J Cancer</source>
+                  <year>2012</year>
+                  <volume>48</volume>
+                  <issue>18</issue>
+                  <fpage>3342</fpage>
+                  <lpage>54</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ejca.2012.05.023</pub-id>
+                  <?supplied-pmid 22766518?>
+                  <pub-id pub-id-type="pmid">22766518</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hatzis</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Pusztai</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Valero</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Booser</surname>
+                      <given-names>DJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Esserman</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Lluch</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A genomic predictor of response and survival following taxane-anthracycline chemotherapy for invasive breast cancer</article-title>
+                  <source>JAMA</source>
+                  <year>2011</year>
+                  <volume>305</volume>
+                  <issue>18</issue>
+                  <fpage>1873</fpage>
+                  <lpage>81</lpage>
+                  <pub-id pub-id-type="doi">10.1001/jama.2011.593</pub-id>
+                  <?supplied-pmid 21558518?>
+                  <pub-id pub-id-type="pmid">21558518</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Denkert</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Loibl</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Noske</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Roller</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Muller</surname>
+                      <given-names>BM</given-names>
+                    </name>
+                    <name>
+                      <surname>Komor</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Tumor-associated lymphocytes as an independent predictor of response to neoadjuvant chemotherapy in breast cancer</article-title>
+                  <source>J Clin Oncol</source>
+                  <year>2010</year>
+                  <volume>28</volume>
+                  <issue>1</issue>
+                  <fpage>105</fpage>
+                  <lpage>13</lpage>
+                  <pub-id pub-id-type="doi">10.1200/JCO.2009.23.7370</pub-id>
+                  <?supplied-pmid 19917869?>
+                  <pub-id pub-id-type="pmid">19917869</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Denkert</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>von Minckwitz</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Brase</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                    <name>
+                      <surname>Sinn</surname>
+                      <given-names>BV</given-names>
+                    </name>
+                    <name>
+                      <surname>Gade</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Kronenwett</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Tumor-infiltrating lymphocytes and response to neoadjuvant chemotherapy with or without carboplatin in human epidermal growth factor receptor 2-positive and triple-negative primary breast cancers</article-title>
+                  <source>J Clin Oncol</source>
+                  <year>2015</year>
+                  <volume>33</volume>
+                  <issue>9</issue>
+                  <fpage>983</fpage>
+                  <lpage>91</lpage>
+                  <pub-id pub-id-type="doi">10.1200/JCO.2014.58.1967</pub-id>
+                  <?supplied-pmid 25534375?>
+                  <pub-id pub-id-type="pmid">25534375</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Loi</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Sirtaine</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Piette</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Salgado</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Viale</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Van Eenoo</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Prognostic and predictive value of tumor-infiltrating lymphocytes in a phase III randomized adjuvant breast cancer trial in node-positive breast cancer comparing the addition of docetaxel to doxorubicin with doxorubicin-based chemotherapy: BIG 02-98</article-title>
+                  <source>J Clin Oncol</source>
+                  <year>2013</year>
+                  <volume>31</volume>
+                  <issue>7</issue>
+                  <fpage>860</fpage>
+                  <lpage>7</lpage>
+                  <pub-id pub-id-type="doi">10.1200/JCO.2011.41.0902</pub-id>
+                  <?supplied-pmid 23341518?>
+                  <pub-id pub-id-type="pmid">23341518</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Salgado</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Denkert</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Demaria</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Sirtaine</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Klauschen</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Pruneri</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The evaluation of tumor-infiltrating lymphocytes (TILs) in breast cancer: recommendations by an International TILs Working Group 2014</article-title>
+                  <source>Ann Oncol</source>
+                  <year>2015</year>
+                  <volume>26</volume>
+                  <issue>2</issue>
+                  <fpage>259</fpage>
+                  <lpage>71</lpage>
+                  <pub-id pub-id-type="doi">10.1093/annonc/mdu450</pub-id>
+                  <?supplied-pmid 25214542?>
+                  <pub-id pub-id-type="pmid">25214542</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Adams</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Gray</surname>
+                      <given-names>RJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Demaria</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Goldstein</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Perez</surname>
+                      <given-names>EA</given-names>
+                    </name>
+                    <name>
+                      <surname>Shulman</surname>
+                      <given-names>LN</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Prognostic value of tumor-infiltrating lymphocytes in triple-negative breast cancers from two phase III randomized adjuvant breast cancer trials: ECOG 2197 and ECOG 1199</article-title>
+                  <source>J Clin Oncol</source>
+                  <year>2014</year>
+                  <volume>32</volume>
+                  <issue>27</issue>
+                  <fpage>2959</fpage>
+                  <lpage>66</lpage>
+                  <pub-id pub-id-type="doi">10.1200/JCO.2013.55.0491</pub-id>
+                  <?supplied-pmid 25071121?>
+                  <pub-id pub-id-type="pmid">25071121</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ocana</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Diez-Gonzalez</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Adrover</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Fernandez-Aramburo</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Pandiella</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Amir</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Tumor-infiltrating lymphocytes in breast cancer: ready for prime time?</article-title>
+                  <source>J Clin Oncol</source>
+                  <year>2015</year>
+                  <volume>33</volume>
+                  <issue>11</issue>
+                  <fpage>1298</fpage>
+                  <lpage>9</lpage>
+                  <pub-id pub-id-type="doi">10.1200/JCO.2014.59.7286</pub-id>
+                  <?supplied-pmid 25753437?>
+                  <pub-id pub-id-type="pmid">25753437</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tsoutsou</surname>
+                      <given-names>PG</given-names>
+                    </name>
+                    <name>
+                      <surname>Bourhis</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Coukos</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Tumor-infiltrating lymphocytes in triple-negative breast cancer: a biomarker for use beyond prognosis?</article-title>
+                  <source>J Clin Oncol</source>
+                  <year>2015</year>
+                  <volume>33</volume>
+                  <issue>11</issue>
+                  <fpage>1297</fpage>
+                  <lpage>8</lpage>
+                  <pub-id pub-id-type="doi">10.1200/JCO.2014.59.2808</pub-id>
+                  <?supplied-pmid 25753438?>
+                  <pub-id pub-id-type="pmid">25753438</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yuan</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Failmezger</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Rueda</surname>
+                      <given-names>OM</given-names>
+                    </name>
+                    <name>
+                      <surname>Ali</surname>
+                      <given-names>HR</given-names>
+                    </name>
+                    <name>
+                      <surname>Graf</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Chin</surname>
+                      <given-names>SF</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Quantitative image analysis of cellular heterogeneity in breast tumors complements genomic profiling</article-title>
+                  <source>Sci Transl Med</source>
+                  <year>2012</year>
+                  <volume>4</volume>
+                  <issue>157</issue>
+                  <fpage>157ra143</fpage>
+                  <pub-id pub-id-type="doi">10.1126/scitranslmed.3004330</pub-id>
+                  <?supplied-pmid 23100629?>
+                  <pub-id pub-id-type="pmid">23100629</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Beck</surname>
+                      <given-names>AH</given-names>
+                    </name>
+                    <name>
+                      <surname>Sangoi</surname>
+                      <given-names>AR</given-names>
+                    </name>
+                    <name>
+                      <surname>Leung</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Marinelli</surname>
+                      <given-names>RJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Nielsen</surname>
+                      <given-names>TO</given-names>
+                    </name>
+                    <name>
+                      <surname>van de Vijver</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Systematic analysis of breast cancer morphology uncovers stromal features associated with survival</article-title>
+                  <source>Sci Transl Med</source>
+                  <year>2011</year>
+                  <volume>3</volume>
+                  <issue>108</issue>
+                  <fpage>108ra113</fpage>
+                  <pub-id pub-id-type="doi">10.1126/scitranslmed.3002564</pub-id>
+                  <?supplied-pmid 22072638?>
+                  <pub-id pub-id-type="pmid">22072638</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Earl</surname>
+                      <given-names>HM</given-names>
+                    </name>
+                    <name>
+                      <surname>Vallier</surname>
+                      <given-names>AL</given-names>
+                    </name>
+                    <name>
+                      <surname>Hiller</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Fenwick</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Young</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Iddawela</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Effects of the addition of gemcitabine, and paclitaxel-first sequencing, in neoadjuvant sequential epirubicin, cyclophosphamide, and paclitaxel for women with high-risk early breast cancer (Neo-tAnGo): an open-label, 2x2 factorial randomised phase 3 trial</article-title>
+                  <source>Lancet Oncol</source>
+                  <year>2014</year>
+                  <volume>15</volume>
+                  <issue>2</issue>
+                  <fpage>201</fpage>
+                  <lpage>12</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S1470-2045(13)70554-0</pub-id>
+                  <?supplied-pmid 24360787?>
+                  <pub-id pub-id-type="pmid">24360787</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Provenzano</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Vallier</surname>
+                      <given-names>AL</given-names>
+                    </name>
+                    <name>
+                      <surname>Champ</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Walland</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Bowden</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Grier</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A central review of histopathology reports after breast cancer neoadjuvant chemotherapy in the neo-tango trial</article-title>
+                  <source>Br J Cancer</source>
+                  <year>2013</year>
+                  <volume>108</volume>
+                  <issue>4</issue>
+                  <fpage>866</fpage>
+                  <lpage>72</lpage>
+                  <pub-id pub-id-type="doi">10.1038/bjc.2012.547</pub-id>
+                  <?supplied-pmid 23299526?>
+                  <pub-id pub-id-type="pmid">23299526</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ali</surname>
+                      <given-names>HR</given-names>
+                    </name>
+                    <name>
+                      <surname>Irwin</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Morris</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Dawson</surname>
+                      <given-names>SJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Blows</surname>
+                      <given-names>FM</given-names>
+                    </name>
+                    <name>
+                      <surname>Provenzano</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Astronomical algorithms for automated analysis of tissue protein expression in breast cancer</article-title>
+                  <source>Br J Cancer</source>
+                  <year>2013</year>
+                  <volume>108</volume>
+                  <issue>3</issue>
+                  <fpage>602</fpage>
+                  <lpage>12</lpage>
+                  <pub-id pub-id-type="doi">10.1038/bjc.2012.558</pub-id>
+                  <?supplied-pmid 23329232?>
+                  <pub-id pub-id-type="pmid">23329232</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Altman</surname>
+                      <given-names>DG</given-names>
+                    </name>
+                    <name>
+                      <surname>McShane</surname>
+                      <given-names>LM</given-names>
+                    </name>
+                    <name>
+                      <surname>Sauerbrei</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Taube</surname>
+                      <given-names>SE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Reporting recommendations for tumor marker prognostic studies (REMARK): explanation and elaboration</article-title>
+                  <source>BMC Med</source>
+                  <year>2012</year>
+                  <volume>10</volume>
+                  <fpage>51</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1741-7015-10-51</pub-id>
+                  <?supplied-pmid 22642691?>
+                  <pub-id pub-id-type="pmid">22642691</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Donovan</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Hamann</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Clayton</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Khan</surname>
+                      <given-names>FM</given-names>
+                    </name>
+                    <name>
+                      <surname>Sapir</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Bayer-Zubek</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Systems pathology approach for the prediction of prostate cancer progression after radical prostatectomy</article-title>
+                  <source>J Clin Oncol</source>
+                  <year>2008</year>
+                  <volume>26</volume>
+                  <issue>24</issue>
+                  <fpage>3923</fpage>
+                  <lpage>9</lpage>
+                  <pub-id pub-id-type="doi">10.1200/JCO.2007.15.3155</pub-id>
+                  <?supplied-pmid 18711180?>
+                  <pub-id pub-id-type="pmid">18711180</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cordon-Cardo</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Kotsianti</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Verbel</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                    <name>
+                      <surname>Teverovskiy</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Capodieci</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Hamann</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Improved prediction of prostate cancer recurrence through systems pathology</article-title>
+                  <source>J Clin Invest</source>
+                  <year>2007</year>
+                  <volume>117</volume>
+                  <issue>7</issue>
+                  <fpage>1876</fpage>
+                  <lpage>83</lpage>
+                  <pub-id pub-id-type="doi">10.1172/JCI31399</pub-id>
+                  <?supplied-pmid 17557117?>
+                  <pub-id pub-id-type="pmid">17557117</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Curtis</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Shah</surname>
+                      <given-names>SP</given-names>
+                    </name>
+                    <name>
+                      <surname>Chin</surname>
+                      <given-names>SF</given-names>
+                    </name>
+                    <name>
+                      <surname>Turashvili</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Rueda</surname>
+                      <given-names>OM</given-names>
+                    </name>
+                    <name>
+                      <surname>Dunning</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The genomic and transcriptomic architecture of 2,000 breast tumours reveals novel subgroups</article-title>
+                  <source>Nature</source>
+                  <year>2012</year>
+                  <volume>486</volume>
+                  <issue>7403</issue>
+                  <fpage>346</fpage>
+                  <lpage>52</lpage>
+                  <?supplied-pmid 22522925?>
+                  <pub-id pub-id-type="pmid">22522925</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ignatiadis</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Singhal</surname>
+                      <given-names>SK</given-names>
+                    </name>
+                    <name>
+                      <surname>Desmedt</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Haibe-Kains</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Criscitiello</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Andre</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Gene modules and response to neoadjuvant chemotherapy in breast cancer subtypes: a pooled analysis</article-title>
+                  <source>J Clin Oncol</source>
+                  <year>2012</year>
+                  <volume>30</volume>
+                  <issue>16</issue>
+                  <fpage>1996</fpage>
+                  <lpage>2004</lpage>
+                  <pub-id pub-id-type="doi">10.1200/JCO.2011.39.5624</pub-id>
+                  <?supplied-pmid 22508827?>
+                  <pub-id pub-id-type="pmid">22508827</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ali</surname>
+                      <given-names>HR</given-names>
+                    </name>
+                    <name>
+                      <surname>Provenzano</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Dawson</surname>
+                      <given-names>SJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Blows</surname>
+                      <given-names>FM</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Shah</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Association between CD8+ T-cell infiltration and breast cancer survival in 12 439 patients</article-title>
+                  <source>Ann Oncol</source>
+                  <year>2014</year>
+                  <volume>25</volume>
+                  <issue>8</issue>
+                  <fpage>1536</fpage>
+                  <lpage>43</lpage>
+                  <pub-id pub-id-type="doi">10.1093/annonc/mdu191</pub-id>
+                  <?supplied-pmid 24915873?>
+                  <pub-id pub-id-type="pmid">24915873</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ladoire</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Mignot</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Dabakuyo</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Arnould</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Apetoh</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Rébé</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>In situ immune response after neoadjuvant chemotherapy for breast cancer predicts survival</article-title>
+                  <source>J Pathol</source>
+                  <year>2011</year>
+                  <volume>224</volume>
+                  <issue>3</issue>
+                  <fpage>389</fpage>
+                  <lpage>400</lpage>
+                  <pub-id pub-id-type="doi">10.1002/path.2866</pub-id>
+                  <?supplied-pmid 21437909?>
+                  <pub-id pub-id-type="pmid">21437909</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Garcia-Martinez</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Gil</surname>
+                      <given-names>GL</given-names>
+                    </name>
+                    <name>
+                      <surname>Benito</surname>
+                      <given-names>AC</given-names>
+                    </name>
+                    <name>
+                      <surname>Gonzalez-Billalabeitia</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Conesa</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Garcia Garcia</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Tumor-infiltrating immune cell profiles and their change after neoadjuvant chemotherapy predict response and prognosis of breast cancer</article-title>
+                  <source>Breast Cancer Res</source>
+                  <year>2014</year>
+                  <volume>16</volume>
+                  <issue>6</issue>
+                  <fpage>488</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s13058-014-0488-5</pub-id>
+                  <?supplied-pmid 25432519?>
+                  <pub-id pub-id-type="pmid">25432519</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mattarollo</surname>
+                      <given-names>SR</given-names>
+                    </name>
+                    <name>
+                      <surname>Loi</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Duret</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Ma</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Zitvogel</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Smyth</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Pivotal role of innate and adaptive immunity in anthracycline chemotherapy of established tumors</article-title>
+                  <source>Cancer Res</source>
+                  <year>2011</year>
+                  <volume>71</volume>
+                  <issue>14</issue>
+                  <fpage>4809</fpage>
+                  <lpage>20</lpage>
+                  <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-11-0753</pub-id>
+                  <?supplied-pmid 21646474?>
+                  <pub-id pub-id-type="pmid">21646474</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sistigu</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Yamazaki</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Vacchelli</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Chaba</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Enot</surname>
+                      <given-names>DP</given-names>
+                    </name>
+                    <name>
+                      <surname>Adam</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Cancer cell-autonomous contribution of type I interferon signaling to the efficacy of chemotherapy</article-title>
+                  <source>Nat Med</source>
+                  <year>2014</year>
+                  <volume>20</volume>
+                  <issue>11</issue>
+                  <fpage>1301</fpage>
+                  <lpage>9</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nm.3708</pub-id>
+                  <?supplied-pmid 25344738?>
+                  <pub-id pub-id-type="pmid">25344738</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>West</surname>
+                      <given-names>NR</given-names>
+                    </name>
+                    <name>
+                      <surname>Milne</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Truong</surname>
+                      <given-names>PT</given-names>
+                    </name>
+                    <name>
+                      <surname>Macpherson</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Nelson</surname>
+                      <given-names>BH</given-names>
+                    </name>
+                    <name>
+                      <surname>Watson</surname>
+                      <given-names>PH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Tumor-infiltrating lymphocytes predict response to anthracycline-based chemotherapy in estrogen receptor-negative breast cancer</article-title>
+                  <source>Breast Cancer Res</source>
+                  <year>2011</year>
+                  <volume>13</volume>
+                  <issue>6</issue>
+                  <fpage>R126</fpage>
+                  <pub-id pub-id-type="doi">10.1186/bcr3072</pub-id>
+                  <?supplied-pmid 22151962?>
+                  <pub-id pub-id-type="pmid">22151962</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rooney</surname>
+                      <given-names>MS</given-names>
+                    </name>
+                    <name>
+                      <surname>Shukla</surname>
+                      <given-names>SA</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>CJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Getz</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Hacohen</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Molecular and genetic properties of tumors associated with local immune cytolytic activity</article-title>
+                  <source>Cell</source>
+                  <year>2015</year>
+                  <volume>160</volume>
+                  <issue>1-2</issue>
+                  <fpage>48</fpage>
+                  <lpage>61</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.cell.2014.12.033</pub-id>
+                  <?supplied-pmid 25594174?>
+                  <pub-id pub-id-type="pmid">25594174</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Herbst</surname>
+                      <given-names>RS</given-names>
+                    </name>
+                    <name>
+                      <surname>Soria</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                    <name>
+                      <surname>Kowanetz</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Fine</surname>
+                      <given-names>GD</given-names>
+                    </name>
+                    <name>
+                      <surname>Hamid</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <name>
+                      <surname>Gordon</surname>
+                      <given-names>MS</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Predictive correlates of response to the anti-PD-L1 antibody MPDL3280A in cancer patients</article-title>
+                  <source>Nature</source>
+                  <year>2014</year>
+                  <volume>515</volume>
+                  <issue>7528</issue>
+                  <fpage>563</fpage>
+                  <lpage>7</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nature14011</pub-id>
+                  <?supplied-pmid 25428504?>
+                  <pub-id pub-id-type="pmid">25428504</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Powles</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Eder</surname>
+                      <given-names>JP</given-names>
+                    </name>
+                    <name>
+                      <surname>Fine</surname>
+                      <given-names>GD</given-names>
+                    </name>
+                    <name>
+                      <surname>Braiteh</surname>
+                      <given-names>FS</given-names>
+                    </name>
+                    <name>
+                      <surname>Loriot</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Cruz</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>MPDL3280A (anti-PD-L1) treatment leads to clinical activity in metastatic bladder cancer</article-title>
+                  <source>Nature</source>
+                  <year>2014</year>
+                  <volume>515</volume>
+                  <issue>7528</issue>
+                  <fpage>558</fpage>
+                  <lpage>62</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nature13904</pub-id>
+                  <?supplied-pmid 25428503?>
+                  <pub-id pub-id-type="pmid">25428503</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ali</surname>
+                      <given-names>HR</given-names>
+                    </name>
+                    <name>
+                      <surname>Glont</surname>
+                      <given-names>SE</given-names>
+                    </name>
+                    <name>
+                      <surname>Blows</surname>
+                      <given-names>FM</given-names>
+                    </name>
+                    <name>
+                      <surname>Provenzano</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Dawson</surname>
+                      <given-names>SJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>PD-L1 protein expression in breast cancer is rare, enriched in basal-like tumours and associated with infiltrating lymphocytes</article-title>
+                  <source>Ann Oncol</source>
+                  <year>2015</year>
+                  <volume>26</volume>
+                  <issue>7</issue>
+                  <fpage>1488</fpage>
+                  <lpage>93</lpage>
+                  <?supplied-pmid 25897014?>
+                  <pub-id pub-id-type="pmid">25897014</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Uhlen</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Fagerberg</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Hallstrom</surname>
+                      <given-names>BM</given-names>
+                    </name>
+                    <name>
+                      <surname>Lindskog</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Oksvold</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Mardinoglu</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Proteomics. Tissue-based map of the human proteome</article-title>
+                  <source>Science</source>
+                  <year>2015</year>
+                  <volume>347</volume>
+                  <issue>6220</issue>
+                  <fpage>1260419</fpage>
+                  <pub-id pub-id-type="doi">10.1126/science.1260419</pub-id>
+                  <?supplied-pmid 25613900?>
+                  <pub-id pub-id-type="pmid">25613900</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Oh</surname>
+                      <given-names>EY</given-names>
+                    </name>
+                    <name>
+                      <surname>Christensen</surname>
+                      <given-names>SM</given-names>
+                    </name>
+                    <name>
+                      <surname>Ghanta</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Jeong</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                    <name>
+                      <surname>Bucur</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <name>
+                      <surname>Glass</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Extensive rewiring of epithelial-stromal co-expression networks in breast cancer</article-title>
+                  <source>Genome Biol</source>
+                  <year>2015</year>
+                  <volume>16</volume>
+                  <issue>1</issue>
+                  <fpage>128</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s13059-015-0675-4</pub-id>
+                  <?supplied-pmid 26087699?>
+                  <pub-id pub-id-type="pmid">26087699</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kumar</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Rao</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Bhavani</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Newberg</surname>
+                      <given-names>JY</given-names>
+                    </name>
+                    <name>
+                      <surname>Murphy</surname>
+                      <given-names>RF</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Automated analysis of immunohistochemistry images identifies candidate location biomarkers for cancers</article-title>
+                  <source>Proc Natl Acad Sci U S A</source>
+                  <year>2014</year>
+                  <volume>111</volume>
+                  <issue>51</issue>
+                  <fpage>18249</fpage>
+                  <lpage>54</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.1415120112</pub-id>
+                  <?supplied-pmid 25489103?>
+                  <pub-id pub-id-type="pmid">25489103</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

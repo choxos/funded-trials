@@ -1,0 +1,1929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T11:33:50Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3592827" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:3592827</identifier>
+        <datestamp>2013-03-21</datestamp>
+        <setSpec>plosone</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+              <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+              <journal-id journal-id-type="publisher-id">plos</journal-id>
+              <journal-id journal-id-type="pmc">plosone</journal-id>
+              <journal-title-group>
+                <journal-title>PLoS ONE</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1932-6203</issn>
+              <publisher>
+                <publisher-name>Public Library of Science</publisher-name>
+                <publisher-loc>San Francisco, USA</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC3592827</article-id>
+              <article-id pub-id-type="pmcid">PMC3592827</article-id>
+              <article-id pub-id-type="pmc-uid">3592827</article-id>
+              <article-id pub-id-type="pmid">23520532</article-id>
+              <article-id pub-id-type="pmid">23520532</article-id>
+              <article-id pub-id-type="publisher-id">PONE-D-12-35061</article-id>
+              <article-id pub-id-type="doi">10.1371/journal.pone.0058790</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research Article</subject>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v2">
+                  <subject>Computer Science</subject>
+                  <subj-group>
+                    <subject>Information Technology</subject>
+                    <subj-group>
+                      <subject>Databases</subject>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v2">
+                  <subject>Medicine</subject>
+                  <subj-group>
+                    <subject>Diagnostic Medicine</subject>
+                  </subj-group>
+                  <subj-group>
+                    <subject>Mental Health</subject>
+                    <subj-group>
+                      <subject>Psychology</subject>
+                      <subj-group>
+                        <subject>Clinical Psychology</subject>
+                        <subject>Neuropsychology</subject>
+                      </subj-group>
+                    </subj-group>
+                    <subj-group>
+                      <subject>Psychiatry</subject>
+                    </subj-group>
+                  </subj-group>
+                  <subj-group>
+                    <subject>Non-Clinical Medicine</subject>
+                    <subj-group>
+                      <subject>Health Care Policy</subject>
+                      <subj-group>
+                        <subject>Health Statistics</subject>
+                      </subj-group>
+                    </subj-group>
+                    <subj-group>
+                      <subject>Health Informatics</subject>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Harnessing Clinical Psychiatric Data with an Electronic Assessment Tool (OPCRIT+): The Utility of Symptom Dimensions</article-title>
+                <alt-title alt-title-type="running-head">Harnessing Psychiatric Data for Reuse in Research</alt-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Brittain</surname>
+                    <given-names>Philip James</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="corresp" rid="cor1">
+                    <sup>*</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lobo</surname>
+                    <given-names>Sarah Elizabeth Margaret</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rucker</surname>
+                    <given-names>James</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Amarasinghe</surname>
+                    <given-names>Myanthi</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Anilkumar</surname>
+                    <given-names>Anantha Padmanabha Pillai</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Baggaley</surname>
+                    <given-names>Martin</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Banerjee</surname>
+                    <given-names>Pallavi</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Bearn</surname>
+                    <given-names>Jenny</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Broadbent</surname>
+                    <given-names>Matthew</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Butler</surname>
+                    <given-names>Matthew</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Campbell</surname>
+                    <given-names>Colin Donald</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff4">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Cleare</surname>
+                    <given-names>Anthony James</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Dratcu</surname>
+                    <given-names>Luiz</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Frangou</surname>
+                    <given-names>Sophia</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Gaughran</surname>
+                    <given-names>Fiona</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff5">
+                    <sup>5</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Goldin</surname>
+                    <given-names>Matthew</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Henke</surname>
+                    <given-names>Annika</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kern</surname>
+                    <given-names>Nikola</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Krayem</surname>
+                    <given-names>Abdallah</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Mufti</surname>
+                    <given-names>Faiza</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>McIvor</surname>
+                    <given-names>Ronan</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Needham-Bennett</surname>
+                    <given-names>Humphrey</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Newman</surname>
+                    <given-names>Stuart</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Olajide</surname>
+                    <given-names>Dele</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>O’Flynn</surname>
+                    <given-names>David</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rao</surname>
+                    <given-names>Ranga</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rehman</surname>
+                    <given-names>Ijaz Ur</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Seneviratne</surname>
+                    <given-names>Gertrude</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Stahl</surname>
+                    <given-names>Daniel</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff3">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Suleman</surname>
+                    <given-names>Sajid</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Treasure</surname>
+                    <given-names>Janet</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Tully</surname>
+                    <given-names>John</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Veale</surname>
+                    <given-names>David</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Stewart</surname>
+                    <given-names>Robert</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>McGuffin</surname>
+                    <given-names>Peter</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lovestone</surname>
+                    <given-names>Simon</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Hotopf</surname>
+                    <given-names>Matthew</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Schumann</surname>
+                    <given-names>Gunter</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1">
+                <label>1</label>
+                <addr-line>National Institute for Health Research Specialist Biomedical Research Centre for Mental Health at the South London and Maudsley National Health Service Foundation Trust and The Institute of Psychiatry, King's College London, London, United Kingdom</addr-line>
+              </aff>
+              <aff id="aff2">
+                <label>2</label>
+                <addr-line>Medical Research Council Social, Genetic and Developmental Psychiatry Centre, Institute of Psychiatry, King’s College London, London, United Kingdom</addr-line>
+              </aff>
+              <aff id="aff3">
+                <label>3</label>
+                <addr-line>Institute of Psychiatry, King’s College London, London, United Kingdom</addr-line>
+              </aff>
+              <aff id="aff4">
+                <label>4</label>
+                <addr-line>Department of Forensic and Developmental Neuroscience, Institute of Psychiatry, King’s College London, London, United Kingdom</addr-line>
+              </aff>
+              <aff id="aff5">
+                <label>5</label>
+                <addr-line>National Psychosis Service, South London and Maudsley National Health Service Foundation Trust, Bethlem Royal Hospital, London, United Kingdom</addr-line>
+              </aff>
+              <aff id="aff6">
+                <label>6</label>
+                <addr-line>South London and Maudsley National Health Service Foundation Trust, Bethlem Royal Hospital, London, United Kingdom</addr-line>
+              </aff>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Davey</surname>
+                    <given-names>Christopher G.</given-names>
+                  </name>
+                  <role>Editor</role>
+                  <xref ref-type="aff" rid="edit1"/>
+                </contrib>
+              </contrib-group>
+              <aff id="edit1">
+                <addr-line>University of Melbourne, Australia</addr-line>
+              </aff>
+              <author-notes>
+                <corresp id="cor1">* E-mail: <email>Philip.Brittain@kcl.ac.uk</email></corresp>
+                <fn fn-type="COI-statement">
+                  <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+                </fn>
+                <fn fn-type="con">
+                  <p>Conceived and designed the experiments: PJB G. Schumann. Performed the experiments: PJB G. Schumann. Analyzed the data: PJB DS G. Schumann. Contributed reagents/materials/analysis tools: SEML JR MA AA M. Baggaley PB JB M. Broadbent M. Butler CDC AJC LD SF FG MG AH NK AK FM RM HNB SN D. Olajide D. O’Flynn RR IR G. Seneviratne DS SS J. Treasure J. Tully DV RS PM SL MH. Wrote the paper: PJB SEML JR MA AA M. Baggaley PB JB M. Broadbent M. Butler CDC AJC LD SF FG MG AH NK AK FM RM HNB SN D. Olajide D. O’Flynn RR IR G. Seneviratne DS SS J. Treasure J. Tully DV RS PM SL MH G. Schumann.</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <year>2013</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>8</day>
+                <month>3</month>
+                <year>2013</year>
+              </pub-date>
+              <volume>8</volume>
+              <issue>3</issue>
+              <elocation-id>e58790</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>5</day>
+                  <month>11</month>
+                  <year>2012</year>
+                </date>
+                <date date-type="accepted">
+                  <day>6</day>
+                  <month>2</month>
+                  <year>2013</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2013 Brittain et al</copyright-statement>
+                <copyright-year>2013</copyright-year>
+                <copyright-holder>Brittain et al</copyright-holder>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                  <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>Progress in personalised psychiatry is dependent on researchers having access to systematic and accurately acquired symptom data across clinical diagnoses. We have developed a structured psychiatric assessment tool, OPCRIT+, that is being introduced into the electronic medical records system of the South London and Maudsley NHS Foundation Trust which can help to achieve this. In this report we examine the utility of the symptom data being collected with the tool. Cross-sectional mental state data from a mixed-diagnostic cohort of 876 inpatients was subjected to a principal components analysis (PCA). Six components, explaining 46% of the variance in recorded symptoms, were extracted. The components represented dimensions of mania, depression, positive symptoms, anxiety, negative symptoms and disorganization. As indicated by component scores, different clinical diagnoses demonstrated distinct symptom profiles characterized by wide-ranging levels of severity. When comparing the predictive value of symptoms against diagnosis for a variety of clinical outcome measures (e.g. ‘Overactive, aggressive behaviour’), symptoms proved superior in five instances (R<sup>2</sup> range: 0.06–0.28) whereas diagnosis was best just once (R<sup>2</sup>∶0.25). This report demonstrates that symptom data being routinely gathered in an NHS trust, when documented on the appropriate tool, have considerable potential for onward use in a variety of clinical and research applications via representation as dimensions of psychopathology.</p>
+              </abstract>
+              <funding-group>
+                <funding-statement>Philip Brittain, Sarah Lobo, Myanthi Amarasinghe, Matthew Broadbent, Tony Cleare, Sophia Frangou, Janet Treasure, David Veale, Rob Stewart, Peter McGuffin, Simon Lovestone, Matthew Hotopf and Gunter Schumann are part-funded by the National Institute for Health Research (NIHR) Biomedical Research Centre at South London and Maudsley NHS Foundation Trust and King's College London. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+              </funding-group>
+              <counts>
+                <page-count count="8"/>
+              </counts>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="s1">
+              <title>Introduction</title>
+              <p>Advances in personalized psychiatry depend on large-scale biological sampling as well as researchers having ready access to high-quality patient characterization information, including systematic and accurately acquired data on clinical signs and symptoms. The OPCRIT program <xref rid="pone.0058790-McGuffin1" ref-type="bibr">[1]</xref>, which in the last 20 years has been used extensively as a patient characterization tool, is suitable for such a role. It contains a checklist constructed from the operational criteria for the major psychiatric classificatory systems, as well as a suite of proprietary algorithms which produce research-quality diagnoses.</p>
+              <p>Due to the extensive prior use in research and concise structure of OPCRIT, we recently introduced ‘OPCRIT+’ <xref rid="pone.0058790-Rucker1" ref-type="bibr">[2]</xref> into routine use within a large mental health trust (The South London and Maudsley NHS Foundation Trust – ‘SLaM’). OPCRIT+ is an expansion of the original OPCRIT, incorporating patient history and an increased diagnostic repertoire and sits within SLaM’s electronic health record (ePJS), where all of the trust’s clinical information is stored. OPCRIT+ acts as a data collection and diagnostic device, useable across a broad range of patient settings and from which data suitable for a variety of clinical and research applications are made available.</p>
+              <p>Although OPCRIT has most commonly been used to produce diagnoses, one potential application of the symptom data systematically acquired on OPCRIT+ will be to generate dimensional representations of psychopathology. In such an approach, a patient’s illness is represented by scores on clusters of symptoms found to occur together in specific patient groups. A number of studies have already used OPCRIT in this manner in psychotic and affective disorders. Using principal components analysis (PCA) or factor analysis, the extracted dimensions have typically been found to represent mania, depression, positive symptoms, disorganization and negative symptoms. Several studies have also compared dimensional against categorical (diagnostic) representations of illness in exploring associations with illness characteristics and clinical outcome measures <xref rid="pone.0058790-VanOs1" ref-type="bibr">[3]</xref>, <xref rid="pone.0058790-Rosenman1" ref-type="bibr">[4]</xref>, <xref rid="pone.0058790-Dikeos1" ref-type="bibr">[5]</xref>, <xref rid="pone.0058790-Allardyce1" ref-type="bibr">[6]</xref>. All of these reported that a dimensional, or a dimensional and categorical approach combined, was superior to a categorical approach alone. This indicates the considerable research potential offered from the use of the symptom data being recorded with OPCRIT+.</p>
+              <p>Whilst the introduction of such a tool into routine clinical settings holds considerable promise, there are notable methodological differences between the previous use of OPCRIT and the use of OPCRIT+ in routine clinical care. Typically, OPCRIT has been completed by experienced psychopathology raters reviewing medical notes whereas OPCRIT+ is mainly being completed by junior doctors in busy inpatient units. Therefore, the viability and potential utility of creating dimensional representations of psychopathology from the symptom data being recorded on OPCRIT+ cannot be assumed. In this paper we have set out to examine this. First, we report a PCA which determined the underlying dimensional structure of the symptom data. Next, using component scores, we report on differences between clinical diagnoses in terms of psychopathology represented by these dimensions. Finally, to gain insight into the utility of this approach, we detail the predictive power of component scores, in comparison to clinical diagnosis, for a variety of clinical outcome measures.</p>
+            </sec>
+            <sec sec-type="materials|methods" id="s2">
+              <title>Materials and Methods</title>
+              <sec id="s2a">
+                <title>Ethics Statement</title>
+                <p>All clinical data, stored on the forms used in this analysis, was extracted from ePJS via the ‘Clinical Record Interactive Search’ system (‘CRIS’; <xref rid="pone.0058790-Stewart1" ref-type="bibr">[7]</xref>) which is a search engine and anonymization portal allowing researchers access to patient data stored on the electronic record. Ethical approval for CRIS as an anonymised data resource for secondary analyses was provided by Oxfordshire REC in 2008 (Reference 08/H0606/71), in accordance with the Declaration of Helsinki, as well as by the Institute of Psychiatry’s Institutional Review Board. Individual patient consent is therefore not necessary for CRIS projects as all data is anonymized at the point of extraction.</p>
+              </sec>
+              <sec id="s2b">
+                <title>Subjects</title>
+                <p>Data on 876 patients admitted to SLaM inpatient units between May 2008 and November 2011 were used in this analysis. SLaM operates 68 inpatient units across four main hospital sites. As the introduction of OPCRIT+ within SLaM is an on-going process, we could only use data from units where the form was currently in use; this included: 1 addictions unit, 1 affective disorders unit, 1 eating disorders unit, 1 brain injury unit, 1 psychiatric triage service, 4 forensic units and 8 ‘acute’ wards. For this analysis, ICD-10 diagnosis was assigned by using the closest recorded clinical diagnosis to when the assessment of symptoms with OPCRIT+ was made (mean difference: 82 days, S.D: 322). The distribution of diagnoses and demographic information are detailed in <xref ref-type="table" rid="pone-0058790-t001">Table 1</xref>.</p>
+                <table-wrap id="pone-0058790-t001" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0058790.t001</object-id>
+                  <label>Table 1</label>
+                  <caption>
+                    <title>Distribution of ICD-10 clinical diagnoses and demographic information.</title>
+                  </caption>
+                  <alternatives>
+                    <graphic id="pone-0058790-t001-1" xlink:href="pone.0058790.t001"/>
+                    <table frame="hsides" rules="groups">
+                      <colgroup span="1">
+                        <col align="left" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>Diagnosis</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>N (%)</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>Median age</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>Percent male</italic>
+                          </td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>F00–09 Organic, including symptomatic, mental disorders</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>17 (1.9)</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>53</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>70.6</bold>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">F06 Other mental disorders due to brain damage and dysfunction and to physical disease</td>
+                          <td align="left" rowspan="1" colspan="1">8 (0.9)</td>
+                          <td align="left" rowspan="1" colspan="1">49</td>
+                          <td align="left" rowspan="1" colspan="1">62.5</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>F10–F19 Mental and behavioural disorders due to psychoactive substance use</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>314 (35.8)</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>41</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>65.3</bold>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">F10 Mental and behavioural disorders due to use of alcohol</td>
+                          <td align="left" rowspan="1" colspan="1">165 (18.8)</td>
+                          <td align="left" rowspan="1" colspan="1">45</td>
+                          <td align="left" rowspan="1" colspan="1">67.3</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>F20–F29 Schizophrenia, schizotypal and delusional disorders</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>292 (33.3)</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>37</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>75.7</bold>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">F20 Schizophrenia</td>
+                          <td align="left" rowspan="1" colspan="1">200 (22.8)</td>
+                          <td align="left" rowspan="1" colspan="1">37.5</td>
+                          <td align="left" rowspan="1" colspan="1">78</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>F30–F39 Mood (affective) disorders</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>143 (16.3)</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>44</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>60.1</bold>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">F31 Bipolar affective disorder</td>
+                          <td align="left" rowspan="1" colspan="1">67 (7.6)</td>
+                          <td align="left" rowspan="1" colspan="1">47</td>
+                          <td align="left" rowspan="1" colspan="1">50.7</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>F40–F48 Neurotic, stress-related and somatoform disorders</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>40 (4.6)</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>42</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>80</bold>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">F43 Reaction to severe stress, and adjustment disorders</td>
+                          <td align="left" rowspan="1" colspan="1">24 (2.7)</td>
+                          <td align="left" rowspan="1" colspan="1">40</td>
+                          <td align="left" rowspan="1" colspan="1">83.3</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>F50–F59 Behavioural syndromes associated with physiological disturbances and physical factors</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>38 (4.3)</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>28</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>0</bold>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">F50 Eating disorders</td>
+                          <td align="left" rowspan="1" colspan="1">38 (4.3)</td>
+                          <td align="left" rowspan="1" colspan="1">28</td>
+                          <td align="left" rowspan="1" colspan="1">0</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>F60–F69 Disorders of adult personality and behaviour</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>26 (3)</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>39.5</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>65.4</bold>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">F60 Specific personality disorders</td>
+                          <td align="left" rowspan="1" colspan="1">26 (3)</td>
+                          <td align="left" rowspan="1" colspan="1">39.5</td>
+                          <td align="left" rowspan="1" colspan="1">65.4</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>F70–F79 Mental retardation</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>6 (0.7)</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>35</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>66.7</bold>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">F70 Mild mental retardation</td>
+                          <td align="left" rowspan="1" colspan="1">5 (0.6)</td>
+                          <td align="left" rowspan="1" colspan="1">32</td>
+                          <td align="left" rowspan="1" colspan="1">80</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Total</td>
+                          <td align="left" rowspan="1" colspan="1">876</td>
+                          <td align="left" rowspan="1" colspan="1">40</td>
+                          <td align="left" rowspan="1" colspan="1">65.9</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </alternatives>
+                  <table-wrap-foot>
+                    <fn id="nt101">
+                      <label/>
+                      <p>Rows provide details for all cases within 8 broad ICD ranges (in bold) and underneath each of these the accompanying largest two-digit subgroup within that range.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+              <sec id="s2c">
+                <title>Assessments</title>
+                <sec id="s2c1">
+                  <title>ICD-10 form</title>
+                  <p>Primary (used in this analysis) and secondary ICD-10 clinical diagnoses are recorded on this form. Diagnoses were recorded either at the two e.g. F20 or three-digit level e.g. F20.2. Therefore, for the purposes of this analysis, we compressed all diagnoses into the two digit level.</p>
+                </sec>
+                <sec id="s2c2">
+                  <title>OPCRIT+</title>
+                  <p>Psychopathology present at, or near to, inpatient admission was rated with the ‘Mental State Examination’ section of OPCRIT+ <xref rid="pone.0058790-Rucker1" ref-type="bibr">[2]</xref>. Only symptom data is detailed in this analysis, as other sections required for OPCRIT+ to produce diagnoses (e.g. ‘History of Presenting Complaint’) were not yet in use. The majority of mental state examinations undertaken within SLaM are done by junior doctors; as such, they were tasked with completing OPCRIT+.</p>
+                  <p>The Mental State Examination section consists of a series of free-text fields corresponding to the standard categories of a mental state examination e.g. ‘Appearance &amp; Behaviour’ under each of which lie the original OPCRIT items e.g. ‘Agitated activity’ and the items unique to OPCRIT+ e.g. ‘Anxiety levels abnormal’. Raters typed their assessments, as a standard part of the clinical documentation process, and then coded observed signs and symptoms as ‘present’. Items not marked as such were considered absent. All doctors received training in the use of the form. OPCRIT has established reliability and validity <xref rid="pone.0058790-Brittain1" ref-type="bibr">[8]</xref> and OPCRIT+, although only recently developed, has demonstrated substantial inter-rater reliability <xref rid="pone.0058790-Rucker1" ref-type="bibr">[2]</xref>. OPCRIT+ is available for download via the following link: <ext-link ext-link-type="uri" xlink:href="http://sgdp.iop.kcl.ac.uk/opcritplus/">http://sgdp.iop.kcl.ac.uk/opcritplus/</ext-link>.</p>
+                </sec>
+                <sec id="s2c3">
+                  <title>HoNOS (Health of the nation outcome scales)</title>
+                  <p>The HoNOS instrument <xref rid="pone.0058790-Wing1" ref-type="bibr">[9]</xref> contains 12 items measuring behaviour, impairment, symptoms and social functioning, each on a 0–4 scale of severity. A HoNOS ‘total’ score is also produced. The scales form part of the English Minimum Data Set for Mental Health and as such are routinely completed for SLaM patients. Assessments are usually made by nursing staff. HoNOS has demonstrated good reliability <xref rid="pone.0058790-Wing1" ref-type="bibr">[9]</xref>. A cut-off point, for HoNOS completion, of 14 days either side of the assessment of symptoms was used (mean difference: 0.46 days, S.D: 5.33), reducing the maximum sample size for analysis using these variables to 452. A further 1.3% of data was missing, which was imputed using the expectation-maximization method.</p>
+                </sec>
+                <sec id="s2c4">
+                  <title>Ward stay form</title>
+                  <p>Duration of inpatient episode was ascertained from the ‘Ward stay’ form. These record admission and discharge dates and are usually completed by administrative staff. For the analysis using this variable, we only used subjects who were admitted to one of seven acute wards, as the duration of stay on many of the other wards e.g. an addictions unit, was likely to be determined primarily by factors other than the presence of symptoms e.g. a predefined period of detoxification. We also only included subjects where the documentation of symptoms with OPCRIT+ was made during the first ward stay of an admission i.e. not if the assessment of symptoms was made on a ward they had been transferred to. However, if a subject was subsequently transferred to another ward, after their initial admission, this subject was included. These factors reduced the maximum number of subjects available for analysis with this variable to 252.</p>
+                </sec>
+              </sec>
+              <sec id="s2d">
+                <title>Statistics</title>
+                <p>All analyses were undertaken using SPSS version 19. <xref ref-type="fig" rid="pone-0058790-g001">Figure 1</xref> details the various steps in the analysis.</p>
+                <fig id="pone-0058790-g001" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0058790.g001</object-id>
+                  <label>Figure 1</label>
+                  <caption>
+                    <title>Flow chart detailing the four steps of the analysis and the number of subjects included at each step.</title>
+                  </caption>
+                  <graphic xlink:href="pone.0058790.g001"/>
+                </fig>
+                <sec id="s2d1">
+                  <title>Principal Components Analysis (PCA)</title>
+                  <p>Individual OPCRIT+ items were entered into a PCA, a variable reduction technique which maximizes the amount of variance accounted for in the observed variables by a smaller group of variables called components <xref rid="pone.0058790-Pearson1" ref-type="bibr">[10]</xref>. Items unrelated to phenomenology were excluded e.g. ‘source of rating’, as were items whose variance was near zero i.e. scoring 0 for almost all subjects. In line with previous studies <xref rid="pone.0058790-Dikeos1" ref-type="bibr">[5]</xref>, <xref rid="pone.0058790-Allardyce1" ref-type="bibr">[6]</xref>, there were several instances where items which had similar meaning were combined to form one variable. These composite items were ‘Restricted or blunted affect’ (combining ‘Restricted affect’ and ‘Blunted affect’), ‘Sleep abnormal’ (combining ‘Initial insomnia’, ‘Middle insomnia’, ‘Early morning waking’ and ‘Excessive sleep’) and ‘Problems with appetite and/or weight’ (combining ‘Poor appetite’, ‘Increased appetite’, ‘Weight loss’ and ‘Weight gain’). A total of 43 items, for each subject, entered the initial analysis as either 0 (symptom not present) or 1 (symptom present). The number of components extracted was based on examination of the scree plot, parallel analysis (a Monte Carlo simulation method) and a requirement that they be interpretable and clinically meaningful. Direct oblimin rotation <xref rid="pone.0058790-Carroll1" ref-type="bibr">[11]</xref>, <xref rid="pone.0058790-Harman1" ref-type="bibr">[12]</xref>, which allows the extracted components to correlate, was used to aid interpretation.</p>
+                </sec>
+                <sec id="s2d2">
+                  <title>Component score estimation and their distribution within diagnostic classes</title>
+                  <p>Component scores are values indicating a person’s relative standing on a component. These scores can be used to represent severity levels for each subject, on each component, based on a sum of the weighted items which are recorded as being present at the mental state examination e.g. Subject 1 is recorded as having elevated mood+thoughts racing+reduced need for sleep and is therefore more severely manic than subject 2 who is only recorded as having pressured speech. Scores were estimated using the Anderson-Rubin method <xref rid="pone.0058790-Anderson1" ref-type="bibr">[13]</xref>. Scores are produced based on a group mean centred on 0 with a standard deviation of 1. Scores for components 4–6 were inverted as their initial loadings were negative. Thus, for all components, higher scores represented greater symptom severity. For each component, median scores and the proportion of high scorers (above the upper tertile) were calculated and differences between six of the most frequent diagnoses across the ICD spectrum (F10, F20, F31, F43, F50, and F60) were examined with non-parametric tests of difference (median and chi-squared tests).</p>
+                </sec>
+                <sec id="s2d3">
+                  <title>The relationship of component scores and clinical diagnosis to clinical outcome measures</title>
+                  <p>For each clinical outcome measure (HoNOS ratings and duration of ward stay) we ran three regression models: a full model (Diagnosis+Symptoms; D+S) and two nested models (Diagnosis only; D and Symptoms only; S). Logistic, ordinal or linear regression was used where appropriate. So as to meet cell count assumptions, each model used only a limited number of the more frequent diagnoses (range: 4–9; n: 203–361) with schizophrenia being used as the reference diagnosis in each case. For the same reason, HoNOS items were collapsed into three categories (i.e. 0, 1–2, 3–4) for use in ordinal regression and into a binary rating (i.e. 0, 1–4) for use in logistic regression. Significant models only were compared using the likelihood ratio test. There were four possible conclusions for each clinical outcome measure: 1) D+S&gt;D AND S, meaning a combination of both predictors is best 2) D+S&gt;D but = S, meaning a symptoms only model provides the best fit 3) D+S&gt;S but = D, meaning a diagnosis only model provides the best fit and 4) D+S&lt;D AND S, meaning a combination of the two does not provide a better solution than either alone. In this case, we compared the D and S models separately using Akaike’s Information Criterion <xref rid="pone.0058790-Burnham1" ref-type="bibr">[14]</xref>.</p>
+                </sec>
+              </sec>
+            </sec>
+            <sec id="s3">
+              <title>Results</title>
+              <sec id="s3a">
+                <title>Component Structure and Correlations</title>
+                <p>Inspection of the scree plot and Monte Carlo simulation showed that between 5 and 7 components could be extracted. Examination of the items loading to each component (<xref ref-type="table" rid="pone-0058790-t002">table 2</xref>) suggested that the 6 component solution was superior. These can be considered as representing dimensions of mania, depression, positive symptoms, anxiety, negative symptoms and disorganization. All items had good face validity in relation to their component e.g. ‘Elevated mood’ is a symptom of mania. Primary loadings were all &gt;0.30 with the majority &gt;0.40. Secondary loadings were all &lt;0.25, except in six instances. This solution explained 46% of the overall variance in the data (the sum of the ‘Percent of variance explained’). Four items, ‘agitated activity’, ‘grandiose delusions’, ‘lack of insight’ and ‘inappropriate affect’ were excluded from the final analysis as each one either cross-loaded on more than one component or did not account for a substantial proportion (&gt;0.30) of any components variance.</p>
+                <table-wrap id="pone-0058790-t002" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0058790.t002</object-id>
+                  <label>Table 2</label>
+                  <caption>
+                    <title>Component loadings, after direct oblimin rotation, of the 39 symptoms extracted from the OPCRIT+ checklist.</title>
+                  </caption>
+                  <alternatives>
+                    <graphic id="pone-0058790-t002-2" xlink:href="pone.0058790.t002"/>
+                    <table frame="hsides" rules="groups">
+                      <colgroup span="1">
+                        <col align="left" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>Item</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>Component 1</italic>
+                            <italic>(Mania)</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>Component 2</italic>
+                            <italic>(Depression)</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>Component 3</italic>
+                            <italic>(Positive symptoms)</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>Component 4</italic>
+                            <italic>(Anxiety)</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>Component 5</italic>
+                            <italic>(Negative symptoms)</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>Component 6</italic>
+                            <italic>(Disorganization)</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>Communality</italic>
+                          </td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Elevated mood</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>.79</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">−.03</td>
+                          <td align="left" rowspan="1" colspan="1">−.03</td>
+                          <td align="left" rowspan="1" colspan="1">.04</td>
+                          <td align="left" rowspan="1" colspan="1">−.03</td>
+                          <td align="left" rowspan="1" colspan="1">.00</td>
+                          <td align="left" rowspan="1" colspan="1">.62</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Increased self-esteem</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>.77</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">−.02</td>
+                          <td align="left" rowspan="1" colspan="1">−.07</td>
+                          <td align="left" rowspan="1" colspan="1">.03</td>
+                          <td align="left" rowspan="1" colspan="1">.01</td>
+                          <td align="left" rowspan="1" colspan="1">.07</td>
+                          <td align="left" rowspan="1" colspan="1">.57</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Thoughts racing</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>.74</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">.00</td>
+                          <td align="left" rowspan="1" colspan="1">−.06</td>
+                          <td align="left" rowspan="1" colspan="1">.01</td>
+                          <td align="left" rowspan="1" colspan="1">.08</td>
+                          <td align="left" rowspan="1" colspan="1">−.06</td>
+                          <td align="left" rowspan="1" colspan="1">.57</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Excessive activity</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>.73</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">−.05</td>
+                          <td align="left" rowspan="1" colspan="1">−.02</td>
+                          <td align="left" rowspan="1" colspan="1">−.05</td>
+                          <td align="left" rowspan="1" colspan="1">−.01</td>
+                          <td align="left" rowspan="1" colspan="1">−.11</td>
+                          <td align="left" rowspan="1" colspan="1">.60</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Reckless activity</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>.70</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">−.06</td>
+                          <td align="left" rowspan="1" colspan="1">−.03</td>
+                          <td align="left" rowspan="1" colspan="1">−.04</td>
+                          <td align="left" rowspan="1" colspan="1">−.16</td>
+                          <td align="left" rowspan="1" colspan="1">−.03</td>
+                          <td align="left" rowspan="1" colspan="1">.54</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Reduced need for sleep</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>.68</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">.04</td>
+                          <td align="left" rowspan="1" colspan="1">.13</td>
+                          <td align="left" rowspan="1" colspan="1">.05</td>
+                          <td align="left" rowspan="1" colspan="1">.02</td>
+                          <td align="left" rowspan="1" colspan="1">.22</td>
+                          <td align="left" rowspan="1" colspan="1">.44</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Pressured speech</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>.65</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">−.03</td>
+                          <td align="left" rowspan="1" colspan="1">−.07</td>
+                          <td align="left" rowspan="1" colspan="1">.05</td>
+                          <td align="left" rowspan="1" colspan="1">.13</td>
+                          <td align="left" rowspan="1" colspan="1">−.19</td>
+                          <td align="left" rowspan="1" colspan="1">.53</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Irritable mood</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>.38</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">.08</td>
+                          <td align="left" rowspan="1" colspan="1">.07</td>
+                          <td align="left" rowspan="1" colspan="1">−.02</td>
+                          <td align="left" rowspan="1" colspan="1">.00</td>
+                          <td align="left" rowspan="1" colspan="1">−.11</td>
+                          <td align="left" rowspan="1" colspan="1">.19</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Loss of energy/tiredness</td>
+                          <td align="left" rowspan="1" colspan="1">−.12</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>.75</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">−.07</td>
+                          <td align="left" rowspan="1" colspan="1">−.00</td>
+                          <td align="left" rowspan="1" colspan="1">−.11</td>
+                          <td align="left" rowspan="1" colspan="1">−.04</td>
+                          <td align="left" rowspan="1" colspan="1">.60</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Loss of pleasure</td>
+                          <td align="left" rowspan="1" colspan="1">−.11</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>.74</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">−.04</td>
+                          <td align="left" rowspan="1" colspan="1">−.06</td>
+                          <td align="left" rowspan="1" colspan="1">−.06</td>
+                          <td align="left" rowspan="1" colspan="1">−.1</td>
+                          <td align="left" rowspan="1" colspan="1">.58</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Poor concentration</td>
+                          <td align="left" rowspan="1" colspan="1">.13</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>.68</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">−.08</td>
+                          <td align="left" rowspan="1" colspan="1">−.02</td>
+                          <td align="left" rowspan="1" colspan="1">−.13</td>
+                          <td align="left" rowspan="1" colspan="1">−.12</td>
+                          <td align="left" rowspan="1" colspan="1">.54</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Dysphoria</td>
+                          <td align="left" rowspan="1" colspan="1">.03</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>.66</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">.13</td>
+                          <td align="left" rowspan="1" colspan="1">−.01</td>
+                          <td align="left" rowspan="1" colspan="1">.01</td>
+                          <td align="left" rowspan="1" colspan="1">−.08</td>
+                          <td align="left" rowspan="1" colspan="1">.46</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Suicidal ideation</td>
+                          <td align="left" rowspan="1" colspan="1">−.04</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>.64</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">.19</td>
+                          <td align="left" rowspan="1" colspan="1">.01</td>
+                          <td align="left" rowspan="1" colspan="1">.14</td>
+                          <td align="left" rowspan="1" colspan="1">.08</td>
+                          <td align="left" rowspan="1" colspan="1">.46</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Excessive self-reproach</td>
+                          <td align="left" rowspan="1" colspan="1">−.09</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>.54</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">−.05</td>
+                          <td align="left" rowspan="1" colspan="1">−.09</td>
+                          <td align="left" rowspan="1" colspan="1">−.12</td>
+                          <td align="left" rowspan="1" colspan="1">−.05</td>
+                          <td align="left" rowspan="1" colspan="1">.36</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Sleep abnormal</td>
+                          <td align="left" rowspan="1" colspan="1">.20</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>.50</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">.06</td>
+                          <td align="left" rowspan="1" colspan="1">−.03</td>
+                          <td align="left" rowspan="1" colspan="1">.09</td>
+                          <td align="left" rowspan="1" colspan="1">.24</td>
+                          <td align="left" rowspan="1" colspan="1">.37</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Problems with appetite and/or weight</td>
+                          <td align="left" rowspan="1" colspan="1">−.05</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>.41</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">−.03</td>
+                          <td align="left" rowspan="1" colspan="1">.03</td>
+                          <td align="left" rowspan="1" colspan="1">.03</td>
+                          <td align="left" rowspan="1" colspan="1">.14</td>
+                          <td align="left" rowspan="1" colspan="1">.20</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Altered libido</td>
+                          <td align="left" rowspan="1" colspan="1">.26</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>.39</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">−.09</td>
+                          <td align="left" rowspan="1" colspan="1">−.13</td>
+                          <td align="left" rowspan="1" colspan="1">−.05</td>
+                          <td align="left" rowspan="1" colspan="1">−.02</td>
+                          <td align="left" rowspan="1" colspan="1">.28</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Abusive/accusatory/persecutory voices</td>
+                          <td align="left" rowspan="1" colspan="1">−.02</td>
+                          <td align="left" rowspan="1" colspan="1">.03</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>.68</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">−.01</td>
+                          <td align="left" rowspan="1" colspan="1">.00</td>
+                          <td align="left" rowspan="1" colspan="1">.06</td>
+                          <td align="left" rowspan="1" colspan="1">.46</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Third person auditory hallucinations</td>
+                          <td align="left" rowspan="1" colspan="1">.04</td>
+                          <td align="left" rowspan="1" colspan="1">.02</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>.60</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">.07</td>
+                          <td align="left" rowspan="1" colspan="1">−.00</td>
+                          <td align="left" rowspan="1" colspan="1">−.01</td>
+                          <td align="left" rowspan="1" colspan="1">.36</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Thought insertion</td>
+                          <td align="left" rowspan="1" colspan="1">−.04</td>
+                          <td align="left" rowspan="1" colspan="1">−.02</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>.59</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">.06</td>
+                          <td align="left" rowspan="1" colspan="1">−.08</td>
+                          <td align="left" rowspan="1" colspan="1">−.04</td>
+                          <td align="left" rowspan="1" colspan="1">.36</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Paranoid/persecutory delusions</td>
+                          <td align="left" rowspan="1" colspan="1">.07</td>
+                          <td align="left" rowspan="1" colspan="1">−.04</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>.58</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">.01</td>
+                          <td align="left" rowspan="1" colspan="1">.00</td>
+                          <td align="left" rowspan="1" colspan="1">−.29</td>
+                          <td align="left" rowspan="1" colspan="1">.50</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Visual hallucinations</td>
+                          <td align="left" rowspan="1" colspan="1">−.01</td>
+                          <td align="left" rowspan="1" colspan="1">−.03</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>.55</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">−.13</td>
+                          <td align="left" rowspan="1" colspan="1">.00</td>
+                          <td align="left" rowspan="1" colspan="1">.15</td>
+                          <td align="left" rowspan="1" colspan="1">.32</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Delusions of influence</td>
+                          <td align="left" rowspan="1" colspan="1">.02</td>
+                          <td align="left" rowspan="1" colspan="1">.05</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>.48</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">.03</td>
+                          <td align="left" rowspan="1" colspan="1">.11</td>
+                          <td align="left" rowspan="1" colspan="1">−.26</td>
+                          <td align="left" rowspan="1" colspan="1">.33</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Hallucination other modality (non-affective)</td>
+                          <td align="left" rowspan="1" colspan="1">−.02</td>
+                          <td align="left" rowspan="1" colspan="1">−.02</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>.47</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">−.10</td>
+                          <td align="left" rowspan="1" colspan="1">.02</td>
+                          <td align="left" rowspan="1" colspan="1">.08</td>
+                          <td align="left" rowspan="1" colspan="1">.22</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Other (non-affective) auditory hallucinations</td>
+                          <td align="left" rowspan="1" colspan="1">−.02</td>
+                          <td align="left" rowspan="1" colspan="1">.03</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>.44</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">.06</td>
+                          <td align="left" rowspan="1" colspan="1">−.11</td>
+                          <td align="left" rowspan="1" colspan="1">.00</td>
+                          <td align="left" rowspan="1" colspan="1">.21</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Autonomic arousal symptoms during anxiety</td>
+                          <td align="left" rowspan="1" colspan="1">−.04</td>
+                          <td align="left" rowspan="1" colspan="1">−.06</td>
+                          <td align="left" rowspan="1" colspan="1">−.01</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>−.87</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">−.00</td>
+                          <td align="left" rowspan="1" colspan="1">.01</td>
+                          <td align="left" rowspan="1" colspan="1">.74</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Recurrent abrupt attacks of severe anxiety</td>
+                          <td align="left" rowspan="1" colspan="1">−.04</td>
+                          <td align="left" rowspan="1" colspan="1">−.05</td>
+                          <td align="left" rowspan="1" colspan="1">−.02</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>−.81</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">−.00</td>
+                          <td align="left" rowspan="1" colspan="1">−.00</td>
+                          <td align="left" rowspan="1" colspan="1">.63</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Anxiety levels abnormal</td>
+                          <td align="left" rowspan="1" colspan="1">−.00</td>
+                          <td align="left" rowspan="1" colspan="1">.05</td>
+                          <td align="left" rowspan="1" colspan="1">.04</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>−.81</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">.05</td>
+                          <td align="left" rowspan="1" colspan="1">−.01</td>
+                          <td align="left" rowspan="1" colspan="1">.67</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Prominent, excessive free-floating anxiety</td>
+                          <td align="left" rowspan="1" colspan="1">.01</td>
+                          <td align="left" rowspan="1" colspan="1">.12</td>
+                          <td align="left" rowspan="1" colspan="1">.02</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>−.65</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">.00</td>
+                          <td align="left" rowspan="1" colspan="1">−.02</td>
+                          <td align="left" rowspan="1" colspan="1">.48</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Negative formal thought disorder</td>
+                          <td align="left" rowspan="1" colspan="1">−.04</td>
+                          <td align="left" rowspan="1" colspan="1">−.16</td>
+                          <td align="left" rowspan="1" colspan="1">.04</td>
+                          <td align="left" rowspan="1" colspan="1">.00</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>−.83</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">.05</td>
+                          <td align="left" rowspan="1" colspan="1">.67</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Slowed activity</td>
+                          <td align="left" rowspan="1" colspan="1">.06</td>
+                          <td align="left" rowspan="1" colspan="1">.12</td>
+                          <td align="left" rowspan="1" colspan="1">−.04</td>
+                          <td align="left" rowspan="1" colspan="1">.03</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>−.75</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">.17</td>
+                          <td align="left" rowspan="1" colspan="1">.58</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Restricted or blunted affect</td>
+                          <td align="left" rowspan="1" colspan="1">−.08</td>
+                          <td align="left" rowspan="1" colspan="1">.22</td>
+                          <td align="left" rowspan="1" colspan="1">.06</td>
+                          <td align="left" rowspan="1" colspan="1">−.05</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>−.57</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">−.03</td>
+                          <td align="left" rowspan="1" colspan="1">.44</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Lack of self-care</td>
+                          <td align="left" rowspan="1" colspan="1">.01</td>
+                          <td align="left" rowspan="1" colspan="1">.06</td>
+                          <td align="left" rowspan="1" colspan="1">.10</td>
+                          <td align="left" rowspan="1" colspan="1">.09</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>−.37</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">−.29</td>
+                          <td align="left" rowspan="1" colspan="1">.30</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Speech incoherent</td>
+                          <td align="left" rowspan="1" colspan="1">.07</td>
+                          <td align="left" rowspan="1" colspan="1">.04</td>
+                          <td align="left" rowspan="1" colspan="1">−.09</td>
+                          <td align="left" rowspan="1" colspan="1">−.04</td>
+                          <td align="left" rowspan="1" colspan="1">.01</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>−.71</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">.52</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Positive formal thought disorder</td>
+                          <td align="left" rowspan="1" colspan="1">.11</td>
+                          <td align="left" rowspan="1" colspan="1">−.04</td>
+                          <td align="left" rowspan="1" colspan="1">.04</td>
+                          <td align="left" rowspan="1" colspan="1">.00</td>
+                          <td align="left" rowspan="1" colspan="1">.13</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>−.71</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">.56</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Speech difficult to understand</td>
+                          <td align="left" rowspan="1" colspan="1">.02</td>
+                          <td align="left" rowspan="1" colspan="1">.01</td>
+                          <td align="left" rowspan="1" colspan="1">−.15</td>
+                          <td align="left" rowspan="1" colspan="1">.00</td>
+                          <td align="left" rowspan="1" colspan="1">−.11</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>−.70</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">.53</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Bizarre delusions</td>
+                          <td align="left" rowspan="1" colspan="1">.00</td>
+                          <td align="left" rowspan="1" colspan="1">−.01</td>
+                          <td align="left" rowspan="1" colspan="1">.25</td>
+                          <td align="left" rowspan="1" colspan="1">.02</td>
+                          <td align="left" rowspan="1" colspan="1">.04</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>−.44</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">.28</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Bizarre behaviour</td>
+                          <td align="left" rowspan="1" colspan="1">.23</td>
+                          <td align="left" rowspan="1" colspan="1">−.17</td>
+                          <td align="left" rowspan="1" colspan="1">.12</td>
+                          <td align="left" rowspan="1" colspan="1">−.07</td>
+                          <td align="left" rowspan="1" colspan="1">−.24</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>−.35</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">.39</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Distractibility</td>
+                          <td align="left" rowspan="1" colspan="1">.27</td>
+                          <td align="left" rowspan="1" colspan="1">−.09</td>
+                          <td align="left" rowspan="1" colspan="1">.16</td>
+                          <td align="left" rowspan="1" colspan="1">−.10</td>
+                          <td align="left" rowspan="1" colspan="1">−.21</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>−.32</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">.40</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Percent of variance explained</td>
+                          <td align="left" rowspan="1" colspan="1">13.5</td>
+                          <td align="left" rowspan="1" colspan="1">11</td>
+                          <td align="left" rowspan="1" colspan="1">7.5</td>
+                          <td align="left" rowspan="1" colspan="1">5.5</td>
+                          <td align="left" rowspan="1" colspan="1">5</td>
+                          <td align="left" rowspan="1" colspan="1">3.5</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </alternatives>
+                  <table-wrap-foot>
+                    <fn id="nt102">
+                      <label/>
+                      <p>Loadings greater than 0.3 are printed in bold. A six-component solution, with their interpretations, is presented. Item communalities and the percent of variance explained by each component are also presented.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+                <p>Correlations between component scores, as indicated by Spearman’s rank coefficients, were generally low (<xref ref-type="table" rid="pone-0058790-t003">table 3</xref>). Only a positive correlation between negative and disorganization symptom scores approached a moderate effect size <xref rid="pone.0058790-Ferguson1" ref-type="bibr">[15]</xref>.</p>
+                <table-wrap id="pone-0058790-t003" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0058790.t003</object-id>
+                  <label>Table 3</label>
+                  <caption>
+                    <title>Component scores Spearman’s correlations.</title>
+                  </caption>
+                  <alternatives>
+                    <graphic id="pone-0058790-t003-3" xlink:href="pone.0058790.t003"/>
+                    <table frame="hsides" rules="groups">
+                      <colgroup span="1">
+                        <col align="left" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>Mania</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>Depression</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>Positive</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>Anxiety</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>Negative</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>Disorganization</italic>
+                          </td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Mania</td>
+                          <td align="left" rowspan="1" colspan="1">1.000</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Depression</td>
+                          <td align="left" rowspan="1" colspan="1">.21<xref ref-type="table-fn" rid="nt104">**</xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">1.000</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Positive</td>
+                          <td align="left" rowspan="1" colspan="1">.26<xref ref-type="table-fn" rid="nt104">**</xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">.08<xref ref-type="table-fn" rid="nt103">*</xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">1.000</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Anxiety</td>
+                          <td align="left" rowspan="1" colspan="1">.19<xref ref-type="table-fn" rid="nt104">**</xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">.06</td>
+                          <td align="left" rowspan="1" colspan="1">.03</td>
+                          <td align="left" rowspan="1" colspan="1">1.000</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Negative</td>
+                          <td align="left" rowspan="1" colspan="1">−.02</td>
+                          <td align="left" rowspan="1" colspan="1">.00</td>
+                          <td align="left" rowspan="1" colspan="1">−.01</td>
+                          <td align="left" rowspan="1" colspan="1">.00</td>
+                          <td align="left" rowspan="1" colspan="1">1.000</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Disorganization</td>
+                          <td align="left" rowspan="1" colspan="1">.13<xref ref-type="table-fn" rid="nt104">**</xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">−.20<xref ref-type="table-fn" rid="nt104">**</xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">.11<xref ref-type="table-fn" rid="nt104">**</xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">−.07<xref ref-type="table-fn" rid="nt103">*</xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">.43<xref ref-type="table-fn" rid="nt104">**</xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">1.000</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </alternatives>
+                  <table-wrap-foot>
+                    <fn id="nt103">
+                      <label>*</label>
+                      <p>Correlation is significant at the 0.05 level.</p>
+                    </fn>
+                    <fn id="nt104">
+                      <label>**</label>
+                      <p>Correlation is significant at the 0.01 level.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+              <sec id="s3b">
+                <title>Distribution of Component Scores within ICD-10 Clinical Diagnoses</title>
+                <p>Median component scores differed significantly between the different diagnoses detailed in <xref ref-type="table" rid="pone-0058790-t004">table 4</xref> (F06 and F70 were excluded to meet cell count assumptions) for all symptom dimensions except anxiety (Median tests. Mania: X<sup>2</sup> = 35.263, p&lt;.001, Depression: X<sup>2</sup> = 48.202, p&lt;.001, Positive: X<sup>2</sup> = 107.128, p&lt;.001, Negative: X<sup>2</sup> = 60.261, p&lt;.001, Disorganization: X<sup>2</sup> = 119.557, p&lt;.001, Anxiety: X<sup>2</sup> = 5.805, p = 0.326) with the same split occurring in relation to the proportions of individuals scoring about the upper tertile (Chi-squared tests. Mania: X<sup>2</sup> = 48.614, p&lt;.001, Depression: X<sup>2</sup> = 27.710, p&lt;.001, Positive: X<sup>2</sup> = 73.180, p&lt;.001, Negative: X<sup>2</sup> = 43.465, p&lt;.001, Disorganization: X<sup>2</sup> = 87.503, p&lt;.001, Anxiety: X<sup>2</sup> = 10.476, p = 0.063).</p>
+                <table-wrap id="pone-0058790-t004" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0058790.t004</object-id>
+                  <label>Table 4</label>
+                  <caption>
+                    <title>Median and interquartile range Anderson-Rubin component scores and proportion of individuals with high scores (above the upper tertile) as a function of clinical ICD diagnostic category.</title>
+                  </caption>
+                  <alternatives>
+                    <graphic id="pone-0058790-t004-4" xlink:href="pone.0058790.t004"/>
+                    <table frame="hsides" rules="groups">
+                      <colgroup span="1">
+                        <col align="left" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>ICD-10 diagnostic category</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>Mania</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>Depressive</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>Positive symptoms</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>Anxiety</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>Negative symptoms</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>Disorganization</italic>
+                          </td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">F06 Other mental disorders due to brain damage and dysfunction and to physical disease</td>
+                          <td align="left" rowspan="1" colspan="1">−.40/1.44/37</td>
+                          <td align="left" rowspan="1" colspan="1">−.47/.99/25</td>
+                          <td align="left" rowspan="1" colspan="1">−.48/.59/37</td>
+                          <td align="left" rowspan="1" colspan="1">−.39/1.66/37</td>
+                          <td align="left" rowspan="1" colspan="1">−.06/.64/50</td>
+                          <td align="left" rowspan="1" colspan="1">.13/.50/87</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">F10 Mental and behavioural disorders due to use of alcohol</td>
+                          <td align="left" rowspan="1" colspan="1">−.34/.14/17</td>
+                          <td align="left" rowspan="1" colspan="1">−.24/1.22/38</td>
+                          <td align="left" rowspan="1" colspan="1">−.49/.10/14</td>
+                          <td align="left" rowspan="1" colspan="1">−.37/.15/26</td>
+                          <td align="left" rowspan="1" colspan="1">−.43/.18/15</td>
+                          <td align="left" rowspan="1" colspan="1">−.48/.28/8</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">F20 Schizophrenia</td>
+                          <td align="left" rowspan="1" colspan="1">−.25/.66/48</td>
+                          <td align="left" rowspan="1" colspan="1">−.70/.54/18</td>
+                          <td align="left" rowspan="1" colspan="1">.07/1.52/60</td>
+                          <td align="left" rowspan="1" colspan="1">−.38/.19/31</td>
+                          <td align="left" rowspan="1" colspan="1">−.05/.99/53</td>
+                          <td align="left" rowspan="1" colspan="1">.09/1.58/62</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">F31 Bipolar affective disorder</td>
+                          <td align="left" rowspan="1" colspan="1">.07/3.12/67</td>
+                          <td align="left" rowspan="1" colspan="1">−.34/1.55/39</td>
+                          <td align="left" rowspan="1" colspan="1">−.42/.47/30</td>
+                          <td align="left" rowspan="1" colspan="1">−.33/.20/49</td>
+                          <td align="left" rowspan="1" colspan="1">−.26/.88/42</td>
+                          <td align="left" rowspan="1" colspan="1">−.28/.87/40</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">F43 Reaction to severe stress, and adjustment disorders</td>
+                          <td align="left" rowspan="1" colspan="1">−.32/.24/29</td>
+                          <td align="left" rowspan="1" colspan="1">.65/1.62/71</td>
+                          <td align="left" rowspan="1" colspan="1">−.33/.99/37</td>
+                          <td align="left" rowspan="1" colspan="1">−.37/.55/33</td>
+                          <td align="left" rowspan="1" colspan="1">−.38/.84/42</td>
+                          <td align="left" rowspan="1" colspan="1">−.43/.50/12</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">F50 Eating disorders</td>
+                          <td align="left" rowspan="1" colspan="1">−.46/.13/13</td>
+                          <td align="left" rowspan="1" colspan="1">−.24/1.76/37</td>
+                          <td align="left" rowspan="1" colspan="1">−.53/.07/3</td>
+                          <td align="left" rowspan="1" colspan="1">−.37/.80/45</td>
+                          <td align="left" rowspan="1" colspan="1">−.40/.43/24</td>
+                          <td align="left" rowspan="1" colspan="1">−.38/.26/11</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">F60 Specific personality disorders</td>
+                          <td align="left" rowspan="1" colspan="1">−.34/.32/31</td>
+                          <td align="left" rowspan="1" colspan="1">.07/1.77/50</td>
+                          <td align="left" rowspan="1" colspan="1">.32/.98/69</td>
+                          <td align="left" rowspan="1" colspan="1">−.36/.69/46</td>
+                          <td align="left" rowspan="1" colspan="1">−.44/.47/19</td>
+                          <td align="left" rowspan="1" colspan="1">−.40/.58/23</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">F70 Mild mental retardation</td>
+                          <td align="left" rowspan="1" colspan="1">−.46/.23/20</td>
+                          <td align="left" rowspan="1" colspan="1">−.72/.78/0</td>
+                          <td align="left" rowspan="1" colspan="1">−.53/1.00/40</td>
+                          <td align="left" rowspan="1" colspan="1">−.37/.14/20</td>
+                          <td align="left" rowspan="1" colspan="1">−.38/.37/20</td>
+                          <td align="left" rowspan="1" colspan="1">−.09/.78/60</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </alternatives>
+                  <table-wrap-foot>
+                    <fn id="nt105">
+                      <label/>
+                      <p>Diagnoses listed are the largest two-digit subgroups within each broad ICD range (e.g. F06/F00–09). Figures are in the format of Median/Interquartile range/Proportion of individuals with high scores.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+              <sec id="s3c">
+                <title>Association of Component Scores and Clinical Diagnosis to Clinical Outcome Measures</title>
+                <p>The likelihood ratio test revealed that there were four measures (Overactive, aggressive behaviour; Non-accidental, self-injury; Problems with hallucinations/delusions and Problems with depressed mood) where symptoms alone provided the best fitting model and one measure (Duration of inpatient episode) where diagnosis alone provided the best fit (see <xref ref-type="table" rid="pone-0058790-t005">table 5</xref>). Thus, although the R<sup>2</sup> was higher in the combined model for all of these measures, removing the diagnoses as a predictor (or symptoms, in the case of ‘Duration of inpatient episode’) did not significantly reduce the fit of the model and thus the smaller model was chosen for reasons of parsimony. ‘Problems with activities of daily living’ was only significantly associated with the symptoms model. R<sup>2</sup> values in these models was generally low (range: 0.06–0.28). Depression and disorganization were the most frequent significant predictors. Anxiety was not a significant predictor in any of the models. There were a further eight clinical outcome measures which were not significantly associated with any of the three models.</p>
+                <table-wrap id="pone-0058790-t005" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0058790.t005</object-id>
+                  <label>Table 5</label>
+                  <caption>
+                    <title>Diagnosis only (D), symptoms only (S) and models containing both sets of predictors (D+S) and their associations with various clinical outcome measures.</title>
+                  </caption>
+                  <alternatives>
+                    <graphic id="pone-0058790-t005-5" xlink:href="pone.0058790.t005"/>
+                    <table frame="hsides" rules="groups">
+                      <colgroup span="1">
+                        <col align="left" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>Clinical outcome measure</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>D</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>S</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>D+S</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>Best model</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>Predictors</italic>
+                          </td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Overactive, aggressive behaviour</td>
+                          <td align="left" rowspan="1" colspan="1">.09**</td>
+                          <td align="left" rowspan="1" colspan="1">.14***</td>
+                          <td align="left" rowspan="1" colspan="1">.17***</td>
+                          <td align="left" rowspan="1" colspan="1">S</td>
+                          <td align="left" rowspan="1" colspan="1">D, M, Di</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Non-accidental, self-injury</td>
+                          <td align="left" rowspan="1" colspan="1">.13***</td>
+                          <td align="left" rowspan="1" colspan="1">.16***</td>
+                          <td align="left" rowspan="1" colspan="1">.19***</td>
+                          <td align="left" rowspan="1" colspan="1">S</td>
+                          <td align="left" rowspan="1" colspan="1">D, Di</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Problem drinking or drug taking</td>
+                          <td align="left" rowspan="1" colspan="1">.02</td>
+                          <td align="left" rowspan="1" colspan="1">.04</td>
+                          <td align="left" rowspan="1" colspan="1">.07</td>
+                          <td align="left" rowspan="1" colspan="1">n/a</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Cognitive problems</td>
+                          <td align="left" rowspan="1" colspan="1">.02</td>
+                          <td align="left" rowspan="1" colspan="1">.04</td>
+                          <td align="left" rowspan="1" colspan="1">.06</td>
+                          <td align="left" rowspan="1" colspan="1">n/a</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Physical illness or disability problems</td>
+                          <td align="left" rowspan="1" colspan="1">.01</td>
+                          <td align="left" rowspan="1" colspan="1">.02</td>
+                          <td align="left" rowspan="1" colspan="1">.02</td>
+                          <td align="left" rowspan="1" colspan="1">n/a</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Problems with hallucinations/delusions</td>
+                          <td align="left" rowspan="1" colspan="1">.15***</td>
+                          <td align="left" rowspan="1" colspan="1">.28***</td>
+                          <td align="left" rowspan="1" colspan="1">.33***</td>
+                          <td align="left" rowspan="1" colspan="1">S</td>
+                          <td align="left" rowspan="1" colspan="1">P, D, N, Di</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Problems with depressed mood</td>
+                          <td align="left" rowspan="1" colspan="1">.11***</td>
+                          <td align="left" rowspan="1" colspan="1">.16***</td>
+                          <td align="left" rowspan="1" colspan="1">.20***</td>
+                          <td align="left" rowspan="1" colspan="1">S</td>
+                          <td align="left" rowspan="1" colspan="1">M, D</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Other mental and behavioural problems</td>
+                          <td align="left" rowspan="1" colspan="1">.02</td>
+                          <td align="left" rowspan="1" colspan="1">.01</td>
+                          <td align="left" rowspan="1" colspan="1">.03</td>
+                          <td align="left" rowspan="1" colspan="1">n/a</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Problems with relationships</td>
+                          <td align="left" rowspan="1" colspan="1">.01</td>
+                          <td align="left" rowspan="1" colspan="1">.01</td>
+                          <td align="left" rowspan="1" colspan="1">.03</td>
+                          <td align="left" rowspan="1" colspan="1">n/a</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Problems with activities of daily living</td>
+                          <td align="left" rowspan="1" colspan="1">.02</td>
+                          <td align="left" rowspan="1" colspan="1">.06*</td>
+                          <td align="left" rowspan="1" colspan="1">.09</td>
+                          <td align="left" rowspan="1" colspan="1">S<sup>b</sup>
+</td>
+                          <td align="left" rowspan="1" colspan="1">N, Di</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Problems with living conditions</td>
+                          <td align="left" rowspan="1" colspan="1">.01</td>
+                          <td align="left" rowspan="1" colspan="1">.02</td>
+                          <td align="left" rowspan="1" colspan="1">.03</td>
+                          <td align="left" rowspan="1" colspan="1">n/a</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Problems with occupation and activities</td>
+                          <td align="left" rowspan="1" colspan="1">.02</td>
+                          <td align="left" rowspan="1" colspan="1">.03</td>
+                          <td align="left" rowspan="1" colspan="1">.05</td>
+                          <td align="left" rowspan="1" colspan="1">n/a</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">HoNOS Total</td>
+                          <td align="left" rowspan="1" colspan="1">.03</td>
+                          <td align="left" rowspan="1" colspan="1">.02</td>
+                          <td align="left" rowspan="1" colspan="1">.06</td>
+                          <td align="left" rowspan="1" colspan="1">n/a</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Duration of inpatient episode<sup>a</sup>
+</td>
+                          <td align="left" rowspan="1" colspan="1">.25***</td>
+                          <td align="left" rowspan="1" colspan="1">.18***</td>
+                          <td align="left" rowspan="1" colspan="1">.29***</td>
+                          <td align="left" rowspan="1" colspan="1">D</td>
+                          <td align="left" rowspan="1" colspan="1">F10, F32, F60, F43, F23</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </alternatives>
+                  <table-wrap-foot>
+                    <fn id="nt106">
+                      <label/>
+                      <p>Columns 2–4 report Nagelkerke’s Pseudo R<sup>2</sup> (<sup>a</sup>adjusted R<sup>2</sup> where linear regression is used) for each model and overall model significance (*significant at the &lt;0.05 level, **significant at the &lt;0.01 level, ***significant at the &lt;0.001 level). Column 5 details the best fitting model based on the likelihood ratio test (p&lt;0.05) or the non-significance of other models in the comparison<sup>b</sup>. Column 6 details, in descending order of significance, predictors in the best model with a p-value of &lt;0.1. M = Mania, D = Depression, P = Positive symptoms, A = Anxiety, N = Negative symptoms, Di = Disorganization, FXX = ICD10 diagnostic category.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+            </sec>
+            <sec id="s4">
+              <title>Discussion</title>
+              <p>In this analysis, using a newly developed electronic assessment tool (OPCRIT+), we identified a six-component symptom structure underlying the psychopathology recorded in a large, mixed-diagnostic, inpatient cohort. Using component scores to indicate severity, we demonstrated distinct symptom profiles across different clinical diagnoses for five of the six components. Furthermore, these severity scores provided significant predictive value, which was more informative than diagnosis, for a range of clinical outcome measures.</p>
+              <p>The component structure we extracted is similar to those reported in studies using the original OPCRIT for this purpose <xref rid="pone.0058790-VanOs1" ref-type="bibr">[3]</xref>, <xref rid="pone.0058790-Rosenman1" ref-type="bibr">[4]</xref>, <xref rid="pone.0058790-Dikeos1" ref-type="bibr">[5]</xref>, <xref rid="pone.0058790-Allardyce1" ref-type="bibr">[6]</xref>, <xref rid="pone.0058790-Cardno1" ref-type="bibr">[16]</xref>, <xref rid="pone.0058790-Serretti1" ref-type="bibr">[17]</xref>, <xref rid="pone.0058790-VanOs2" ref-type="bibr">[18]</xref>, <xref rid="pone.0058790-Cardno2" ref-type="bibr">[19]</xref>, <xref rid="pone.0058790-Serretti2" ref-type="bibr">[20]</xref>, <xref rid="pone.0058790-Cardno3" ref-type="bibr">[21]</xref>, <xref rid="pone.0058790-Serretti3" ref-type="bibr">[22]</xref>, <xref rid="pone.0058790-Cardno4" ref-type="bibr">[23]</xref>, <xref rid="pone.0058790-McIntosh1" ref-type="bibr">[24]</xref>, <xref rid="pone.0058790-Serretti4" ref-type="bibr">[25]</xref>, <xref rid="pone.0058790-Rosenman2" ref-type="bibr">[26]</xref>, <xref rid="pone.0058790-Matsuura1" ref-type="bibr">[27]</xref>, <xref rid="pone.0058790-Serretti5" ref-type="bibr">[28]</xref>, <xref rid="pone.0058790-Kim1" ref-type="bibr">[29]</xref>, <xref rid="pone.0058790-Maciukiewicz1" ref-type="bibr">[30]</xref>. In fact, the five most commonly reported components (or factors) in those studies were also extracted in our PCA: mania, depression, negative symptoms, disorganization and positive symptoms (although the specific OPCRIT items associated with these components varies somewhat across studies). This similarity occurred despite the fact that over half of the patients in our study belonged to diagnostic categories outside the psychotic and affective spectrum, from where cohorts in the other studies were drawn. One notable difference in our component structure however, was the extraction of an ‘anxiety’ component. This occurred due to the additional items in OPCRIT+ allowing the diagnosis of anxiety spectrum disorders.</p>
+              <p>The extracted components explained 46% of the variance in the symptom data being recorded. This is at the lower end of the range seen in the studies cited above (mean: 52.2% range: 39–71%). There are a number of possible explanations for this. For example, it may be because our PCA contained ratings from a large number of doctors, whereas those in the cited studies typically contained far fewer raters. Alternatively, it could have resulted from the addition of patients whose primary diagnosis was outside the psychotic and affective spectrum and who may have presented with more heterogeneous symptom profiles. Despite this, the successful extraction of an underlying component structure is a vital first step in onward use of the data.</p>
+              <p>Following the PCA, we created component scores for all subjects to indicate severity levels on each of the six symptom dimensions. We then investigated the distributions of these scores as a function of clinical diagnosis. There were distinct distributions, by diagnosis, for five out of the six components, demonstrated by different median scores and proportions of ‘high-scorers’. Scores on the anxiety dimension did not differ in these respects, indicating that doctors were rating all in-patients as having similar levels of anxiety. Different distributions of symptoms between diagnoses would be expected and support the construct validity of measuring symptom severity in this way. It is notable though, from inspection of the median and inter-quartile range figures, that there was substantial symptom heterogeneity within diagnoses. This variability, in its most extreme form meant that, for example, there were patients with a diagnosis of F10 ‘Mental and behavioural disorders due to use of alcohol’ in the upper and lower 5% of scores on four out of the six dimensions (positive symptoms, mania, depression and anxiety).</p>
+              <p>We then investigated the predictive power of component scores by following an existing literature whose aim has been to establish the superiority of dimensional, categorical or combinatorial representations of psychopathology. There were five clinical outcome measures where dimensional representations of illness alone provided the best model, whereas there was only one measure where a categorical representation alone was best. There were no measures where a combined approach provided the best solution. The superiority of dimensional over categorical representations of psychopathology, as demonstrated here, is in agreement with other studies which have asked this question using the original OPCRIT <xref rid="pone.0058790-VanOs1" ref-type="bibr">[3]</xref>, <xref rid="pone.0058790-Rosenman1" ref-type="bibr">[4]</xref>, <xref rid="pone.0058790-Dikeos1" ref-type="bibr">[5]</xref>; although one study concluded that combinatorial approaches were best <xref rid="pone.0058790-Allardyce1" ref-type="bibr">[6]</xref>. It is important to note however, in relation to the above observations, that we were using ICD diagnoses collapsed to the 2-digit level (due to variation in the way clinical diagnoses were documented). It may be, that at the three digit level or higher (e.g. F10.52), categorical representations of psychopathology would exhibit greater predictive power as well as less symptom heterogeneity.</p>
+              <p>Despite their overall superiority to diagnosis in this analysis, the predictive value of the component scores, for this set of clinical outcome variables, was only modest (indicated by low R<sup>2</sup> values and eight measures having no association with the ‘symptoms only’ model). It is therefore important that the utility of this approach in other research realms (e.g. biomarker research) is explored further, particularly as one intended use of the data will be to characterize associated biological and neuroimaging information being gathered in a Bioresource (Biobank) operated by the trust and its partners. It may be that categorical or combinatorial representations of psychopathology are more appropriate for other research areas. Crucially though, via the adoption of OPCRIT+ by SLaM, researchers will now have access to both symptom and diagnosis data recorded in the clinic.</p>
+              <p>In summary, our analysis has demonstrated that using OPCRIT+, symptom data being routinely recorded across a broad diagnostic spectrum within inpatient settings can be reused to represent severity levels on psychopathological dimensions. This has been achieved despite the very different methodological circumstances between our study and the previous use of OPCRIT for this purpose. Symptom dimensions are applicable across a variety of research and clinical applications and have the potential to add significant explanatory power to many types of analyses.</p>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>The authors would like to thank Avi Reichenberg, Anbarasu Lourdusamy, Martina Sattlecker and Harvey Wickham for their support and advice.</p>
+            </ack>
+            <ref-list>
+              <title>References</title>
+              <ref id="pone.0058790-McGuffin1">
+                <label>1</label>
+                <mixed-citation publication-type="journal"><name><surname>McGuffin</surname><given-names>P</given-names></name>, <name><surname>Farmer</surname><given-names>A</given-names></name>, <name><surname>Harvey</surname><given-names>I</given-names></name> (<year>1991</year>) <article-title>A Polydiagnostic application of operational criteria in studies of psychotic illness. Development and Reliability of the OPCRIT System</article-title>. <source>Arch Gen Psychiatry</source>
+<volume>48</volume>: <fpage>764</fpage>–<lpage>770</lpage>.<pub-id pub-id-type="pmid">1883262</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0058790-Rucker1">
+                <label>2</label>
+                <mixed-citation publication-type="journal"><name><surname>Rucker</surname><given-names>J</given-names></name>, <name><surname>Newman</surname><given-names>S</given-names></name>, <name><surname>Gray</surname><given-names>J</given-names></name>, <name><surname>Gunasinghe</surname><given-names>C</given-names></name>, <name><surname>Broadbent</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>OPCRIT+: an electronic system for psychiatric diagnosis and data collection in clinical and research settings</article-title>. <source>Br J Psychiatry</source>
+<volume>199</volume>: <fpage>151</fpage>–<lpage>155</lpage>.<pub-id pub-id-type="pmid">21804150</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0058790-VanOs1">
+                <label>3</label>
+                <mixed-citation publication-type="journal"><name><surname>Van Os</surname><given-names>J</given-names></name>, <name><surname>Gilvarry</surname><given-names>C</given-names></name>, <name><surname>Bale</surname><given-names>R</given-names></name>, <name><surname>Van Horn</surname><given-names>E</given-names></name>, <name><surname>Tattan</surname><given-names>T</given-names></name>, <etal>et al</etal> (<year>1999</year>) <article-title>A comparison of the utility of dimensional and categorical representations of psychosis</article-title>. <source>Psychol Med</source>
+<volume>29</volume>: <fpage>595</fpage>–<lpage>606</lpage>.<pub-id pub-id-type="pmid">10405080</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0058790-Rosenman1">
+                <label>4</label>
+                <mixed-citation publication-type="journal"><name><surname>Rosenman</surname><given-names>S</given-names></name>, <name><surname>Korten</surname><given-names>A</given-names></name>, <name><surname>Medway</surname><given-names>J</given-names></name>, <name><surname>Evans</surname><given-names>M</given-names></name> (<year>2003</year>) <article-title>Dimensional vs. categorical diagnosis in psychosis</article-title>. <source>Acta Psychiatr Scand</source>
+<volume>107</volume>: <fpage>378</fpage>–<lpage>384</lpage>.<pub-id pub-id-type="pmid">12752034</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0058790-Dikeos1">
+                <label>5</label>
+                <mixed-citation publication-type="journal"><name><surname>Dikeos</surname><given-names>DG</given-names></name>, <name><surname>Wickham</surname><given-names>H</given-names></name>, <name><surname>McDonald</surname><given-names>C</given-names></name>, <name><surname>Walshe</surname><given-names>M</given-names></name>, <name><surname>Sigmundsson</surname><given-names>T</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>Distribution of symptom dimensions across Kraepelinian divisions</article-title>. <source>Br J Psychiatry</source>
+<volume>189</volume>: <fpage>346</fpage>–<lpage>353</lpage>.<pub-id pub-id-type="pmid">17012658</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0058790-Allardyce1">
+                <label>6</label>
+                <mixed-citation publication-type="journal"><name><surname>Allardyce</surname><given-names>J</given-names></name>, <name><surname>McCreadie</surname><given-names>RG</given-names></name>, <name><surname>Morrison</surname><given-names>G</given-names></name>, <name><surname>Van Os</surname><given-names>J</given-names></name> (<year>2007</year>) <article-title>Do symptom dimensions or categorical diagnoses best discriminate between known risk factors for psychosis</article-title>? <source>Soc Psychiatry Psychiatr Epidemiol</source>
+<volume>42</volume>: <fpage>429</fpage>–<lpage>437</lpage>.<pub-id pub-id-type="pmid">17502977</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0058790-Stewart1">
+                <label>7</label>
+                <mixed-citation publication-type="journal"><name><surname>Stewart</surname><given-names>R</given-names></name>, <name><surname>Soremekun</surname><given-names>M</given-names></name>, <name><surname>Perera</surname><given-names>G</given-names></name>, <name><surname>Broadbent</surname><given-names>M</given-names></name>, <name><surname>Callard</surname><given-names>F</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>The South London and Maudsley NHS Foundation Trust Biomedical Research Centre (SLAM BRC) case register: development and descriptive data</article-title>. <source>BMC Psychiatry</source>
+<volume>9</volume>: <fpage>51</fpage>.<pub-id pub-id-type="pmid">19674459</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0058790-Brittain1">
+                <label>8</label>
+                <mixed-citation publication-type="other">Brittain PJ, Stahl D, Rucker J, Kawadler J, Schumann G (2012) A review of the reliability and validity of OPCRIT in relation to its use for the routine clinical assessment of mental health patients. Int J Methods Psychiatr Res, In press.</mixed-citation>
+              </ref>
+              <ref id="pone.0058790-Wing1">
+                <label>9</label>
+                <mixed-citation publication-type="journal"><name><surname>Wing</surname><given-names>JK</given-names></name>, <name><surname>Beevor</surname><given-names>AS</given-names></name>, <name><surname>Curtis</surname><given-names>RH</given-names></name>, <name><surname>Park</surname><given-names>SBG</given-names></name>, <name><surname>Hadden</surname><given-names>S</given-names></name>, <etal>et al</etal> (<year>1998</year>) <article-title>Health of the Nation Outcome Scales (HoNOS). Research and development</article-title>. <source>Br J Psychiatry</source>
+<volume>172</volume>: <fpage>11</fpage>–<lpage>18</lpage>.<pub-id pub-id-type="pmid">9534825</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0058790-Pearson1">
+                <label>10</label>
+                <mixed-citation publication-type="journal"><name><surname>Pearson</surname><given-names>K</given-names></name> (<year>1901</year>) <article-title>On Lines and Planes of Closest Fit to Systems of Points in Space</article-title>. <source>Philosophical Magazine</source>
+<volume>2</volume>: <fpage>559</fpage>–<lpage>572</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0058790-Carroll1">
+                <label>11</label>
+                <mixed-citation publication-type="other">Carroll JB (1960) IBM 704 program for generalized analytic rotation solution in factor analysis. (Unpublished manuscript, Harvard University).</mixed-citation>
+              </ref>
+              <ref id="pone.0058790-Harman1">
+                <label>12</label>
+                <mixed-citation publication-type="other">Harman HH (1976) Modern Factor Analysis, 3<sup>rd</sup> edition. Chicago: The University of Chicago Press. 322p.</mixed-citation>
+              </ref>
+              <ref id="pone.0058790-Anderson1">
+                <label>13</label>
+                <mixed-citation publication-type="journal"><name><surname>Anderson</surname><given-names>TW</given-names></name>, <name><surname>Rubin</surname><given-names>H</given-names></name> (<year>1956</year>) <article-title>Statistical inference in factor analysis</article-title>. <source>Proceedings of the Third Berkeley Symposium of Mathematical Statistics and Probability</source>
+<volume>5</volume>: <fpage>111</fpage>–<lpage>150</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0058790-Burnham1">
+                <label>14</label>
+                <mixed-citation publication-type="other">Burnham KP, Anderson DR (2002) Model Selection and Multimodel Inference: a practical information-theoretic approach, 2<sup>nd</sup> edition. Springer-Verlag, New York.</mixed-citation>
+              </ref>
+              <ref id="pone.0058790-Ferguson1">
+                <label>15</label>
+                <mixed-citation publication-type="journal"><name><surname>Ferguson</surname><given-names>CJ</given-names></name> (<year>2009</year>) <article-title>An effect size primer: A guide for clinicians and researchers</article-title>. <source>Prof Psychol Res Pr</source>
+<volume>40</volume>: <fpage>532</fpage>–<lpage>538</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0058790-Cardno1">
+                <label>16</label>
+                <mixed-citation publication-type="journal"><name><surname>Cardno</surname><given-names>AG</given-names></name>, <name><surname>Jones</surname><given-names>LA</given-names></name>, <name><surname>Murphy</surname><given-names>KC</given-names></name>, <name><surname>Asherson</surname><given-names>P</given-names></name>, <name><surname>Scott</surname><given-names>LC</given-names></name>, <etal>et al</etal> (<year>1996</year>) <article-title>Factor analysis of schizophrenic symptoms using the OPCRIT checklist</article-title>. <source>Schizophr Res</source>
+<volume>22</volume>: <fpage>233</fpage>–<lpage>239</lpage>.<pub-id pub-id-type="pmid">9000320</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0058790-Serretti1">
+                <label>17</label>
+                <mixed-citation publication-type="journal"><name><surname>Serretti</surname><given-names>A</given-names></name>, <name><surname>Macciardi</surname><given-names>F</given-names></name>, <name><surname>Smeraldi</surname><given-names>E</given-names></name> (<year>1996</year>) <article-title>Identification of symptomatologic patterns common to major psychoses: proposal for a phenotype definition</article-title>. <source>Am J Med Genet</source>
+<volume>67</volume>: <fpage>393</fpage>–<lpage>400</lpage>.<pub-id pub-id-type="pmid">8837708</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0058790-VanOs2">
+                <label>18</label>
+                <mixed-citation publication-type="journal"><name><surname>Van Os</surname><given-names>J</given-names></name>, <name><surname>Fahy</surname><given-names>TA</given-names></name>, <name><surname>Jones</surname><given-names>P</given-names></name>, <name><surname>Harvey</surname><given-names>I</given-names></name>, <name><surname>Sham</surname><given-names>P</given-names></name>, <etal>et al</etal> (<year>1996</year>) <article-title>Psychopathological syndromes in the functional psychoses: associations with course and outcome</article-title>. <source>Psychol Med</source>
+<volume>26</volume>: <fpage>161</fpage>–<lpage>176</lpage>.<pub-id pub-id-type="pmid">8643756</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0058790-Cardno2">
+                <label>19</label>
+                <mixed-citation publication-type="journal"><name><surname>Cardno</surname><given-names>AG</given-names></name>, <name><surname>Holmans</surname><given-names>PA</given-names></name>, <name><surname>Harvey</surname><given-names>I</given-names></name>, <name><surname>Williams</surname><given-names>MB</given-names></name>, <name><surname>Owen</surname><given-names>MJ</given-names></name>, <etal>et al</etal> (<year>1997</year>) <article-title>Factor-derived subsyndromes of schizophrenia and familial morbid risks</article-title>. <source>Schizophr Res</source>
+<volume>23</volume>: <fpage>231</fpage>–<lpage>238</lpage>.<pub-id pub-id-type="pmid">9075301</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0058790-Serretti2">
+                <label>20</label>
+                <mixed-citation publication-type="journal"><name><surname>Serretti</surname><given-names>A</given-names></name>, <name><surname>Lattuada</surname><given-names>E</given-names></name>, <name><surname>Cusin</surname><given-names>C</given-names></name>, <name><surname>Macciardi</surname><given-names>F</given-names></name>, <name><surname>Smeraldi</surname><given-names>E</given-names></name> (<year>1998</year>) <article-title>Analysis of depressive symptomatology in mood disorders</article-title>. <source>Depress Anxiety</source>
+<volume>8</volume>: <fpage>80</fpage>–<lpage>85</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0058790-Cardno3">
+                <label>21</label>
+                <mixed-citation publication-type="journal"><name><surname>Cardno</surname><given-names>AG</given-names></name>, <name><surname>Jones</surname><given-names>LA</given-names></name>, <name><surname>Murphy</surname><given-names>KC</given-names></name>, <name><surname>Sanders</surname><given-names>RD</given-names></name>, <name><surname>Asherson</surname><given-names>P</given-names></name>, <etal>et al</etal> (<year>1999</year>) <article-title>Dimensions of Psychosis in Affected Sibling Pairs</article-title>. <source>Schizophr Bull</source>
+<volume>25</volume>: <fpage>841</fpage>–<lpage>850</lpage>.<pub-id pub-id-type="pmid">10667752</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0058790-Serretti3">
+                <label>22</label>
+                <mixed-citation publication-type="journal"><name><surname>Serretti</surname><given-names>A</given-names></name>, <name><surname>Lattuada</surname><given-names>E</given-names></name>, <name><surname>Cusin</surname><given-names>C</given-names></name>, <name><surname>Smeraldi</surname><given-names>E</given-names></name> (<year>1999</year>) <article-title>Factor Analysis of Delusional Disorder Symptomatology</article-title>. <source>Compr Psychiatry</source>
+<volume>40</volume>: <fpage>143</fpage>–<lpage>147</lpage>.<pub-id pub-id-type="pmid">10080261</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0058790-Cardno4">
+                <label>23</label>
+                <mixed-citation publication-type="journal"><name><surname>Cardno</surname><given-names>AG</given-names></name>, <name><surname>Sham</surname><given-names>PC</given-names></name>, <name><surname>Murray</surname><given-names>RM</given-names></name>, <name><surname>McGuffin</surname><given-names>P</given-names></name> (<year>2001</year>) <article-title>Twin study of symptom dimensions in psychoses</article-title>. <source>Br J Psychiatry</source>
+<volume>179</volume>: <fpage>39</fpage>–<lpage>45</lpage>.<pub-id pub-id-type="pmid">11435267</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0058790-McIntosh1">
+                <label>24</label>
+                <mixed-citation publication-type="journal"><name><surname>McIntosh</surname><given-names>AM</given-names></name>, <name><surname>Forrester</surname><given-names>A</given-names></name>, <name><surname>Lawrie</surname><given-names>SM</given-names></name>, <name><surname>Byrne</surname><given-names>M</given-names></name>, <name><surname>Harper</surname><given-names>A</given-names></name>, <etal>et al</etal> (<year>2001</year>) <article-title>A factor model of the functional psychoses and the relationship of factors to clinical variables and brain morphology</article-title>. <source>Psychol Med</source>
+<volume>31</volume>: <fpage>159</fpage>–<lpage>171</lpage>.<pub-id pub-id-type="pmid">11200955</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0058790-Serretti4">
+                <label>25</label>
+                <mixed-citation publication-type="journal"><name><surname>Serretti</surname><given-names>A</given-names></name>, <name><surname>Rietschel</surname><given-names>M</given-names></name>, <name><surname>Lattuada</surname><given-names>E</given-names></name>, <name><surname>Krauss</surname><given-names>H</given-names></name>, <name><surname>Schulze</surname><given-names>TG</given-names></name>, <etal>et al</etal> (<year>2001</year>) <article-title>Major psychoses symptomatology: factor analysis of 2241 psychotic subjects</article-title>. <source>European Archives of Psychiatry and Clinical Neurosciences</source>
+<volume>251</volume>: <fpage>193</fpage>–<lpage>198</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0058790-Rosenman2">
+                <label>26</label>
+                <mixed-citation publication-type="journal"><name><surname>Rosenman</surname><given-names>S</given-names></name>, <name><surname>Korten</surname><given-names>A</given-names></name>, <name><surname>Medway</surname><given-names>J</given-names></name>, <name><surname>Evans</surname><given-names>M</given-names></name> (<year>2000</year>) <article-title>Characterising psychosis in the Australian National Survey of Mental Health and Wellbeing Study on Low Prevalence (psychotic) Disorders</article-title>. <source>Aust N Z J Psychiatry</source>
+<volume>34</volume>: <fpage>792</fpage>–<lpage>800</lpage>.<pub-id pub-id-type="pmid">11037365</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0058790-Matsuura1">
+                <label>27</label>
+                <mixed-citation publication-type="journal"><name><surname>Matsuura</surname><given-names>M</given-names></name>, <name><surname>Adachi</surname><given-names>N</given-names></name>, <name><surname>Oana</surname><given-names>Y</given-names></name>, <name><surname>Okubo</surname><given-names>Y</given-names></name>, <name><surname>Kato</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>2004</year>) <article-title>A polydiagnostic and dimensional comparison of epileptic psychoses and schizophrenia spectrum disorders</article-title>. <source>Schizophr Res</source>
+<volume>69</volume>: <fpage>189</fpage>–<lpage>201</lpage>.<pub-id pub-id-type="pmid">15469193</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0058790-Serretti5">
+                <label>28</label>
+                <mixed-citation publication-type="journal"><name><surname>Serretti</surname><given-names>A</given-names></name>, <name><surname>Olgiati</surname><given-names>P</given-names></name> (<year>2004</year>) <article-title>Dimensions of major psychoses: a confirmatory factor analysis of six competing models</article-title>. <source>Psychiatry Res</source>
+<volume>127</volume>: <fpage>101</fpage>–<lpage>109</lpage>.<pub-id pub-id-type="pmid">15261709</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0058790-Kim1">
+                <label>29</label>
+                <mixed-citation publication-type="journal"><name><surname>Kim</surname><given-names>T</given-names></name>, <name><surname>Kim</surname><given-names>HJ</given-names></name>, <name><surname>Park</surname><given-names>JK</given-names></name>, <name><surname>Kim</surname><given-names>JW</given-names></name>, <name><surname>Chung</surname><given-names>JH</given-names></name> (<year>2010</year>) <article-title>Association between polymorphisms of arachidonate 12-lipoxygenase (ALOX12) and schizophrenia in a Korean population</article-title>. <source>Behav Brain Funct</source>
+<volume>6</volume>: <fpage>44</fpage>.<pub-id pub-id-type="pmid">20626912</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0058790-Maciukiewicz1">
+                <label>30</label>
+                <mixed-citation publication-type="journal"><name><surname>Maciukiewicz</surname><given-names>M</given-names></name>, <name><surname>Czerski</surname><given-names>PM</given-names></name>, <name><surname>Leszczynska-Rodziewicz</surname><given-names>A</given-names></name>, <name><surname>Kapelski</surname><given-names>P</given-names></name>, <name><surname>Szczepankiewicz</surname><given-names>A</given-names></name>, <etal>et al</etal> (<year>2012</year>) <article-title>Analysis of OPCRIT results indicate the presence of a novel ‘social functioning’ domain and complex structure of other dimensions in the Wielkopolska (Poland) population</article-title>. <source>Schizophr Res</source>
+<volume>138</volume>: <fpage>223</fpage>–<lpage>232</lpage>.<pub-id pub-id-type="pmid">22521495</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>
