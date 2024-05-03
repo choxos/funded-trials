@@ -1,0 +1,1202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T07:15:38Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3005737" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:3005737</identifier>
+        <datestamp>2010-12-21</datestamp>
+        <setSpec>brcnres</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Breast Cancer Res</journal-id>
+              <journal-title-group>
+                <journal-title>Breast Cancer Research : BCR</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">1465-5411</issn>
+              <issn pub-type="epub">1465-542X</issn>
+              <publisher>
+                <publisher-name>BioMed Central</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC3005737</article-id>
+              <article-id pub-id-type="pmcid">PMC3005737</article-id>
+              <article-id pub-id-type="pmc-uid">3005737</article-id>
+              <article-id pub-id-type="pmid">21172079</article-id>
+              <article-id pub-id-type="publisher-id">bcr2746</article-id>
+              <article-id pub-id-type="doi">10.1186/bcr2746</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Short Communication</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Genome-wide case-control study of musculoskeletal adverse events and functional genomics in women receiving aromatase inhibitors: going beyond associations</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes" id="A1">
+                  <name>
+                    <surname>Ingle</surname>
+                    <given-names>James N</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="I1">1</xref>
+                  <email>ingle.james@mayo.edu</email>
+                </contrib>
+              </contrib-group>
+              <aff id="I1"><label>1</label>Mayo Clinic, 200 First Street SW, Rochester, MN 55905, USA</aff>
+              <pub-date pub-type="ppub">
+                <year>2010</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>20</day>
+                <month>12</month>
+                <year>2010</year>
+              </pub-date>
+              <volume>12</volume>
+              <issue>Suppl 4</issue>
+              <supplement>
+                <named-content content-type="supplement-title">Controversies in Breast Cancer 2010</named-content>
+                <named-content content-type="supplement-editor">William R Miller</named-content>
+                <ext-link ext-link-type="uri" xlink:href="http://breast-cancer-research.com/supplements/notes/bcr-vol12-suppl4-info.pdf">http://breast-cancer-research.com/supplements/notes/bcr-vol12-suppl4-info.pdf</ext-link>
+              </supplement>
+              <fpage>S17</fpage>
+              <lpage>S17</lpage>
+              <permissions>
+                <copyright-statement>Copyright ©2010 BioMed Central Ltd.</copyright-statement>
+                <copyright-year>2010</copyright-year>
+                <copyright-holder>BioMed Central Ltd.</copyright-holder>
+              </permissions>
+              <self-uri xlink:href="http://breast-cancer-research.com/content/12/S4/S17"/>
+              <conference>
+                <conf-date>12–13 July 2010</conf-date>
+                <conf-name>Controversies in Breast Cancer 2010</conf-name>
+                <conf-loc>Edinburgh, UK</conf-loc>
+              </conference>
+            </article-meta>
+          </front>
+          <body>
+            <sec>
+              <title>Introduction</title>
+              <p>In postmenopausal women with early breast cancer, the third-generation aromatase inhibitors (AIs; anastrozole, exemestane, and letrozole) have been proven to be of value in multiple large well-conducted clinical trials as initial adjuvant endocrine therapy, after several years of tamoxifen, and as extended adjuvant endocrine therapy after about 5 years of tamoxifen [<xref ref-type="bibr" rid="B1">1</xref>-<xref ref-type="bibr" rid="B8">8</xref>]. A recent American Society of Clinical Oncology clinical practice guideline stated that an AI should be used in the adjuvant setting either initially or after some period of tamoxifen therapy [<xref ref-type="bibr" rid="B9">9</xref>].</p>
+              <p>Despite the proven value of the AIs, many women are not adherent [<xref ref-type="bibr" rid="B10">10</xref>]. About one-half of women treated with an AI have new or worsening joint complaints [<xref ref-type="bibr" rid="B11">11</xref>]. The importance of musculoskeletal complaints was identified in reviewing the experience with MA.27, a large phase III trial comparing the non-steroidal AI anastrozole with the steroidal AI exemestane as adjuvant therapy for early breast cancer. These musculoskeletal adverse events (MS-AEs) were the most common reason why patients discontinued AI therapy. We had previously demonstrated marked variability in metabolism and pharmacodynamics of one of the AIs, anastrozole [<xref ref-type="bibr" rid="B12">12</xref>]. We hypothesized that the variability seen with respect to MS-AEs in women treated with anastrozole or exemestane on MA.27 could be related to genetic variability of the patients. We proceeded to perform a genome-wide association study (GWAS) aimed at identifying SNPs associated with MS-AEs. The results of this GWAS and the functional genomic laboratory studies performed have recently been published [<xref ref-type="bibr" rid="B13">13</xref>]. This short communication summarizes the highlights of this work plus a commentary on future pharmacogenomic studies of anti-cancer agents.</p>
+            </sec>
+            <sec sec-type="methods">
+              <title>Methods</title>
+              <p>MA.27 is a randomized clinical trial conducted by the Breast Cancer Intergroup of North America that was coordinated by the NCIC Clinical Trials Group [<xref ref-type="bibr" rid="B13">13</xref>]. Eligible patients were those with a postmenopausal status and resected American Joint Committee on Cancer (version 6) stage I to III breast cancer that was hormone receptor positive. Patients were randomized to anastrozole or exemestane for a period of 5 years. A total of 6,827 women in North America were randomized and the majority provided DNA and consent for its use in genetic studies.</p>
+              <p>Cases were defined as those patients who developed a MS-AE, as previously defined [<xref ref-type="bibr" rid="B13">13</xref>], and each case was matched to two controls. The design utilized was a nested matched case-control study and the primary analyses were based on conditional logistic regression. The RIKEN Center for Genomic Medicine performed genotyping with the Illumina Human610-Quad platform. Imputation and fine mapping were performed in the region of interest on chromosome 14 containing the SNPs with the smallest <italic>P</italic>-values. Functional genomic studies, relating to the SNPs on chromosome 14, were performed using electrophoretic motility shift (EMS) assays, chromatin immunoprecipitation (ChIP) assays, and transfection studies.</p>
+            </sec>
+            <sec>
+              <title>Results</title>
+              <p>We studied 293 cases and 585 controls, and cases and controls were well balanced for all factors except prior hormone replacement therapy, which was significantly higher in cases than controls (66% versus 44%), and fractures within the past 10 years, which were slightly higher in cases than controls (13% versus 9%). A total of 551,395 SNPs were used in the association analyses after exclusion of genotype failures (<italic>n </italic>= 11,281), SNPs with a minor allele frequency &lt;0.01 (<italic>n </italic>= 29,478), and SNPs with a departure (<italic>P </italic>&lt; 1E-06) from Hardy-Weinberg equilibrium (<italic>n </italic>= 82). The conditional logistic regression analyses were adjusted for population stratification and revealed three SNPs (rs7158782, rs7159713, rs2369049) on chromosome 14 in high linkage disequilibrium with the smallest <italic>P</italic>-values (7.74E-07 to 2.23E-06), which approach the Bonferroni threshold of 1E-07. Subsequently, imputation and fine mapping revealed an additional SNP (rs11849538), also on chromosome 14 and in high linkage disequilibrium with the three genotyped SNPS, with the smallest <italic>P</italic>-value (6.67E-07). These four SNPs were all found to be close (that is, within 7,109 bp) of the 3' end of the T-cell leukemia 1A <italic>(TCL1A</italic>) gene with the closest SNP (rs11849538) being only 926 bp away.</p>
+              <p>Initially, we determined that <italic>TCL1A </italic>is variably expressed in 288 lymphoblastoid cell lines from three different ethnic groups for which we have expression array and genome-wide SNP data. Functional genomic studies were performed with the three genotyped SNPs and the one imputed/fine mapped SNP to examine for any functional significance. Lymphoblastoid cell nuclear extract used in EMS assays showed a 'shift', that is, protein binding, for three of the SNPs (rs11849538, rs7158782, rs7159713) with less binding by the variant than wild-type sequences. Of particular interest as it relates to a drug that lowers estrogen levels, a TRANSFAC database search predicted that the SNP (rs11849538) with the smallest <italic>P</italic>-value would create an estrogen response element and this was confirmed with a ChIP assay utilizing lymphoblastoid cells with known genotype for this SNP that had been transfected with estrogen receptor (ER)α. <italic>TCL1A </italic>expression was linked to estrogen by exposing U20S cells that had been stably transfected with ERα or ERβ to 0.1 nM E2, and demonstrating eight-and six-fold increases in <italic>TCL1A </italic>mRNA expression after 18 hours and 1 hour, respectively. To determine the effect of these four SNPs on estrogen-dependent <italic>TCL1A </italic>expression, lymphoblastoid cell lines with genotypes known for the four SNPs were transiently transfected with ERα and exposed to various concentrations of estradiol. All three ethnic groups showed greater <italic>TCL1A </italic>expression with the variant than the wild-type sequence. Because the clinical picture of the MS-AEs is reminiscent of a chronic inflammatory state, we utilized the same 288 lymphoblastoid cell lines noted above and determined the correlation between TCL1A expression and expression of IL17 and the IL17 receptor A (IL17RA). Remarkably, TCL1A and IL7RA expression were highly correlated (<italic>P </italic>&lt; 1.9E-10). In studies using U20S cells transfected with either ERα or ERβ, small interfering RNA (siRNA) knockdown of TCL1A resulted in decreased expression of IL17RA but increased expression of IL17, whereas TCL1A overexpression resulted in increased IL17RA expression and decreased expression of IL17.</p>
+            </sec>
+            <sec>
+              <title>Discussion</title>
+              <p>We identified four SNPs on chromosome 14 that were associated with MS-AEs in women receiving AIs as adjuvant therapy for early-stage breast cancer. Given that AIs perturb estrogen levels in these women, we examined the relationship between the SNPs and estrogen action. Of particular note is that the SNP with the smallest <italic>P</italic>-value (rs11849538) created an estrogen response element that was shown by ChIP assay to be functional. Estrogens induced TCL1A expression that was significantly higher in cells with the variant SNPs than those with the wild-type sequence. Expression of TCL1A was directly associated with IL17RA expression in that siRNA knockdown of <italic>TCL1A </italic>resulted in decreased expression of IL17RA and increased expression of IL17 whereas overexpression of TCL1A resulted in increased expression of IL17RA and decreased expression of IL17.</p>
+              <p>The identification of a relationship between TCL1A expression and the inflammatory cytokine IL17 is particularly noteworthy given the recent identification of a third lineage of T-helper cells (in addition to Th1 and Th 2), that is, Th17, that is associated with chronic inflammation [<xref ref-type="bibr" rid="B14">14</xref>], and in which IL17 plays a central role. IL17 and IL17RA represent potential targets and efforts to target these factors in a variety of inflammatory diseases are in progress (reviewed in [<xref ref-type="bibr" rid="B14">14</xref>]).</p>
+              <p>The study reported here demonstrates the value of GWASs. A GWAS is, by definition, a 'hypothesis-free' interrogation of the entire genome and, in our study, identified a gene, <italic>TCL1A</italic>, which was totally unexpected. However, it was clearly necessary to perform the functional genomic studies to begin to understand the potential biologic implications of these findings. Clearly, replication is an important consideration in the performance of a GWAS because of the problem of false positive associations [<xref ref-type="bibr" rid="B15">15</xref>]. The replication of genome-wide pharmacogenomic studies of anti-cancer agents will likely be found to be substantially more problematic than genome-wide studies examining risk of developing a cancer. For example, in a recent study to identify breast cancer susceptibility alleles, a GWAS was performed in 3,659 cases and 4,897 controls, and then promising associations were then studied in 12,576 cases and 12,223 controls [<xref ref-type="bibr" rid="B16">16</xref>]. In the case of pharmacogenomic studies of anti-cancer agents, a GWAS will likely be best conducted utilizing patients entered into a prospectively conducted clinical trial. MA.27, the study from which the patients in our GWAS were obtained, is such a trial but is the largest study conducted of AIs alone, taking 8 years to complete at a cost of tens of millions of dollars. Replication will not be possible utilizing a larger cohort of patients as it simply does not exist. Although the conduct of rigorous and insightful functional genomic studies can be viewed as important in pursuing leads from any GWAS, such studies may have greater importance in the case of anti-cancer agents because of limitations imposed by a relative paucity of patient cohorts, at least compared to studies examining risk, that is, genetic predisposition, of developing cancer.</p>
+              <p>In conclusion, our GWAS identified four SNPs related to MS-AEs in women receiving AIs as adjuvant therapy for their early breast cancer. These SNPs were related to <italic>TCL1A</italic>, which in turn was related to the inflammatory cytokine IL17. Further work is ongoing in our laboratory to expand our understanding of the mechanisms involved in the <italic>TCL1A-</italic>IL17 relationship. Ultimately, this new knowledge should help identify means to ameliorate the AI-related MS-AEs in order to allow more women with early breast cancer to take these potentially life-saving drugs.</p>
+            </sec>
+            <sec>
+              <title>Abbreviations</title>
+              <p>AI: aromatase inhibitor; bp: base pair; ChIP: chromatin immunoprecipitation; EMS: electrophoretic motility shift; ER: estrogen receptor; GWAS: genome-wide association study; IL: interleukin; IL17RA: IL17 receptor A; MS-AE: musculoskeletal adverse event; siRNA: small interfering RNA; SNP: single nucleotide polymorphism.</p>
+            </sec>
+            <sec>
+              <title>Competing interests</title>
+              <p>The author declares that he has no competing interests.</p>
+            </sec>
+          </body>
+          <back>
+            <sec>
+              <title>Acknowledgements</title>
+              <p>Supported in part by NIH grants U01GM61388, U01GM63173, P50CA116201, U10CA77202, CCS 015469 from the Canadian Cancer Society, the Biobank Japan Project funded by the Ministry of Education, Culture, Sports, Science and Technology, Japan, and the Breast Cancer Research Foundation. The MA.27 trial, from which the patients in this study were obtained, was supported in part by Pfizer, Inc.</p>
+              <p>This article has been published as part of <italic>Breast Cancer Research </italic>Volume 12 Supplement 4, 2010: Controversies in Breast Cancer 2010. The full contents of the supplement are available online at <ext-link ext-link-type="uri" xlink:href="http://breast-cancer-research.com/supplements/12/S4">http://breast-cancer-research.com/supplements/12/S4</ext-link></p>
+            </sec>
+            <ref-list>
+              <ref id="B1">
+                <mixed-citation publication-type="journal">
+                  <collab>The Arimidex, Tamoxifen, Alone or in Combination (ATAC) Trialists' Group</collab>
+                  <article-title>Effect of anastrozole and tamoxifen as adjuvant treatment for early-stage breast cancer: 100-month analysis of the ATAC trial</article-title>
+                  <source>Lancet Oncol</source>
+                  <year>2008</year>
+                  <volume>9</volume>
+                  <fpage>45</fpage>
+                  <lpage>53</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S1470-2045(07)70385-6</pub-id>
+                  <pub-id pub-id-type="pmid">18083636</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B2">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Coates</surname>
+                    <given-names>AS</given-names>
+                  </name>
+                  <name>
+                    <surname>Keshaviah</surname>
+                    <given-names>A</given-names>
+                  </name>
+                  <name>
+                    <surname>Thürlimann</surname>
+                    <given-names>B</given-names>
+                  </name>
+                  <name>
+                    <surname>Mouridsen</surname>
+                    <given-names>H</given-names>
+                  </name>
+                  <name>
+                    <surname>Mauriac</surname>
+                    <given-names>L</given-names>
+                  </name>
+                  <name>
+                    <surname>Paridaens</surname>
+                    <given-names>R</given-names>
+                  </name>
+                  <name>
+                    <surname>Castiglione-Gertsch</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <name>
+                    <surname>Gelber</surname>
+                    <given-names>RD</given-names>
+                  </name>
+                  <name>
+                    <surname>Colleoni</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <name>
+                    <surname>Láng</surname>
+                    <given-names>I</given-names>
+                  </name>
+                  <name>
+                    <surname>Del Mastro</surname>
+                    <given-names>L</given-names>
+                  </name>
+                  <name>
+                    <surname>Smith</surname>
+                    <given-names>I</given-names>
+                  </name>
+                  <name>
+                    <surname>Chirgwin</surname>
+                    <given-names>J</given-names>
+                  </name>
+                  <name>
+                    <surname>Nogaret</surname>
+                    <given-names>J-M</given-names>
+                  </name>
+                  <name>
+                    <surname>Pienkowski</surname>
+                    <given-names>T</given-names>
+                  </name>
+                  <name>
+                    <surname>Wardely</surname>
+                    <given-names>A</given-names>
+                  </name>
+                  <name>
+                    <surname>Jakobsen</surname>
+                    <given-names>EH</given-names>
+                  </name>
+                  <name>
+                    <surname>Price</surname>
+                    <given-names>KN</given-names>
+                  </name>
+                  <name>
+                    <surname>Goldhirsch</surname>
+                    <given-names>A</given-names>
+                  </name>
+                  <article-title>Five years of letrozole compared with tamoxifen as initial adjuvant therapy for postmenopausal women with endocrine-responsive early breast cancer: update of study BIG 1-98</article-title>
+                  <source>J Clin Oncol</source>
+                  <year>2007</year>
+                  <volume>25</volume>
+                  <fpage>486</fpage>
+                  <lpage>492</lpage>
+                  <pub-id pub-id-type="doi">10.1200/JCO.2006.08.8617</pub-id>
+                  <pub-id pub-id-type="pmid">17200148</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B3">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Coombes</surname>
+                    <given-names>RC</given-names>
+                  </name>
+                  <name>
+                    <surname>Kilburn</surname>
+                    <given-names>LS</given-names>
+                  </name>
+                  <name>
+                    <surname>Snowdon</surname>
+                    <given-names>CF</given-names>
+                  </name>
+                  <name>
+                    <surname>Paridaens</surname>
+                    <given-names>R</given-names>
+                  </name>
+                  <name>
+                    <surname>Coleman</surname>
+                    <given-names>RE</given-names>
+                  </name>
+                  <name>
+                    <surname>Jones</surname>
+                    <given-names>SE</given-names>
+                  </name>
+                  <name>
+                    <surname>Jassem</surname>
+                    <given-names>J</given-names>
+                  </name>
+                  <name>
+                    <surname>Van de Velde</surname>
+                    <given-names>CJH</given-names>
+                  </name>
+                  <name>
+                    <surname>Delozier</surname>
+                    <given-names>T</given-names>
+                  </name>
+                  <name>
+                    <surname>Alvarez</surname>
+                    <given-names>I</given-names>
+                  </name>
+                  <name>
+                    <surname>Del Mastro</surname>
+                    <given-names>L</given-names>
+                  </name>
+                  <name>
+                    <surname>Ortmann</surname>
+                    <given-names>O</given-names>
+                  </name>
+                  <name>
+                    <surname>Diedrich</surname>
+                    <given-names>K</given-names>
+                  </name>
+                  <name>
+                    <surname>Coates</surname>
+                    <given-names>AS</given-names>
+                  </name>
+                  <name>
+                    <surname>Bajetta</surname>
+                    <given-names>E</given-names>
+                  </name>
+                  <name>
+                    <surname>Holmberg</surname>
+                    <given-names>SB</given-names>
+                  </name>
+                  <name>
+                    <surname>Dodwell</surname>
+                    <given-names>D</given-names>
+                  </name>
+                  <name>
+                    <surname>Mickiewicz</surname>
+                    <given-names>E</given-names>
+                  </name>
+                  <name>
+                    <surname>Andersen</surname>
+                    <given-names>J</given-names>
+                  </name>
+                  <name>
+                    <surname>Lǿnning</surname>
+                    <given-names>PE</given-names>
+                  </name>
+                  <name>
+                    <surname>Cocconi</surname>
+                    <given-names>G</given-names>
+                  </name>
+                  <name>
+                    <surname>Forbes</surname>
+                    <given-names>J</given-names>
+                  </name>
+                  <name>
+                    <surname>Castiglione</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <name>
+                    <surname>Stuart</surname>
+                    <given-names>N</given-names>
+                  </name>
+                  <name>
+                    <surname>Stewart</surname>
+                    <given-names>A</given-names>
+                  </name>
+                  <name>
+                    <surname>Fallowfield</surname>
+                    <given-names>LJ</given-names>
+                  </name>
+                  <name>
+                    <surname>Bertelli</surname>
+                    <given-names>G</given-names>
+                  </name>
+                  <name>
+                    <surname>Hall</surname>
+                    <given-names>E</given-names>
+                  </name>
+                  <name>
+                    <surname>Bogle</surname>
+                    <given-names>RG</given-names>
+                  </name>
+                  <name>
+                    <surname>Carpentieri</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <etal/>
+                  <article-title>Intergroup Exemestane Study. Survival and safety of exemestane versus tamoxifen after 2-3 years' tamoxifen treatment (Intergroup Exemestane Study): a randomised controlled trial</article-title>
+                  <source>Lancet</source>
+                  <year>2007</year>
+                  <volume>369</volume>
+                  <fpage>559</fpage>
+                  <lpage>570</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0140-6736(07)60200-1</pub-id>
+                  <pub-id pub-id-type="pmid">17307102</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B4">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Jakesz</surname>
+                    <given-names>R</given-names>
+                  </name>
+                  <name>
+                    <surname>Jonat</surname>
+                    <given-names>W</given-names>
+                  </name>
+                  <name>
+                    <surname>Gnant</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <name>
+                    <surname>Mittlboeck</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <name>
+                    <surname>Greil</surname>
+                    <given-names>R</given-names>
+                  </name>
+                  <name>
+                    <surname>Tausch</surname>
+                    <given-names>C</given-names>
+                  </name>
+                  <name>
+                    <surname>Hilfrich</surname>
+                    <given-names>J</given-names>
+                  </name>
+                  <name>
+                    <surname>Kwasny</surname>
+                    <given-names>W</given-names>
+                  </name>
+                  <name>
+                    <surname>Menzel</surname>
+                    <given-names>C</given-names>
+                  </name>
+                  <name>
+                    <surname>Samonigg</surname>
+                    <given-names>H</given-names>
+                  </name>
+                  <name>
+                    <surname>Seifert</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <name>
+                    <surname>Gademann</surname>
+                    <given-names>G</given-names>
+                  </name>
+                  <name>
+                    <surname>Kaufmann</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <collab>on behalf of the ABCSG and the GABG</collab>
+                  <article-title>Switching of postmenopausal women with endocrine-responsive early breast cancer to anastrozole after 2 years' adjuvant tamoxifen: combined results of ABCSG trial 8 and ARNO 95 trial</article-title>
+                  <source>Lancet</source>
+                  <year>2005</year>
+                  <volume>366</volume>
+                  <fpage>455</fpage>
+                  <lpage>462</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0140-6736(05)67059-6</pub-id>
+                  <pub-id pub-id-type="pmid">16084253</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B5">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Boccardo</surname>
+                    <given-names>F</given-names>
+                  </name>
+                  <name>
+                    <surname>Rubagotti</surname>
+                    <given-names>A</given-names>
+                  </name>
+                  <name>
+                    <surname>Guglielmini</surname>
+                    <given-names>P</given-names>
+                  </name>
+                  <name>
+                    <surname>Fini</surname>
+                    <given-names>A</given-names>
+                  </name>
+                  <name>
+                    <surname>Paladini</surname>
+                    <given-names>G</given-names>
+                  </name>
+                  <name>
+                    <surname>Mesiti</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <name>
+                    <surname>Rinaldini</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <name>
+                    <surname>Scali</surname>
+                    <given-names>S</given-names>
+                  </name>
+                  <name>
+                    <surname>Porpiglia</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <name>
+                    <surname>Benedetto</surname>
+                    <given-names>C</given-names>
+                  </name>
+                  <name>
+                    <surname>Restuccia</surname>
+                    <given-names>N</given-names>
+                  </name>
+                  <name>
+                    <surname>Buzzi</surname>
+                    <given-names>F</given-names>
+                  </name>
+                  <name>
+                    <surname>Franchi</surname>
+                    <given-names>R</given-names>
+                  </name>
+                  <name>
+                    <surname>Massidda</surname>
+                    <given-names>B</given-names>
+                  </name>
+                  <name>
+                    <surname>Distante</surname>
+                    <given-names>V</given-names>
+                  </name>
+                  <name>
+                    <surname>Amadori</surname>
+                    <given-names>D</given-names>
+                  </name>
+                  <name>
+                    <surname>Sismondi</surname>
+                    <given-names>P</given-names>
+                  </name>
+                  <article-title>Switching to anastrozole versus continued tamoxifen treatment of early breast cancer. Updated results of the Italian tamoxifen anastrozole (ITA) trial</article-title>
+                  <source>Ann Oncol</source>
+                  <year>2006</year>
+                  <volume>17</volume>
+                  <issue>Suppl 7</issue>
+                  <fpage>vii10</fpage>
+                  <lpage>4</lpage>
+                  <pub-id pub-id-type="doi">10.1093/annonc/mdl941</pub-id>
+                  <pub-id pub-id-type="pmid">16760270</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B6">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Kaufmann</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <name>
+                    <surname>Jonat</surname>
+                    <given-names>W</given-names>
+                  </name>
+                  <name>
+                    <surname>Hilfrich</surname>
+                    <given-names>J</given-names>
+                  </name>
+                  <name>
+                    <surname>Eidtmann</surname>
+                    <given-names>H</given-names>
+                  </name>
+                  <name>
+                    <surname>Gademann</surname>
+                    <given-names>G</given-names>
+                  </name>
+                  <name>
+                    <surname>Zuna</surname>
+                    <given-names>I</given-names>
+                  </name>
+                  <name>
+                    <surname>von Minckwitz</surname>
+                    <given-names>G</given-names>
+                  </name>
+                  <article-title>Improved overall survival in postmenopausal women with early breast cancer after anastrozole initiated after treatment with tamoxifen compared with continued tamoxifen: The ARNO 95 study</article-title>
+                  <source>J Clin Oncol</source>
+                  <year>2007</year>
+                  <volume>25</volume>
+                  <fpage>2664</fpage>
+                  <lpage>2670</lpage>
+                  <pub-id pub-id-type="doi">10.1200/JCO.2006.08.8054</pub-id>
+                  <pub-id pub-id-type="pmid">17563395</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B7">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Goss</surname>
+                    <given-names>PE</given-names>
+                  </name>
+                  <name>
+                    <surname>Ingle</surname>
+                    <given-names>JN</given-names>
+                  </name>
+                  <name>
+                    <surname>Martino</surname>
+                    <given-names>S</given-names>
+                  </name>
+                  <name>
+                    <surname>Robert</surname>
+                    <given-names>NJ</given-names>
+                  </name>
+                  <name>
+                    <surname>Muss</surname>
+                    <given-names>HB</given-names>
+                  </name>
+                  <name>
+                    <surname>Piccart</surname>
+                    <given-names>MJ</given-names>
+                  </name>
+                  <name>
+                    <surname>Castiglione</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <name>
+                    <surname>Tu</surname>
+                    <given-names>DS</given-names>
+                  </name>
+                  <name>
+                    <surname>Shepherd</surname>
+                    <given-names>LE</given-names>
+                  </name>
+                  <name>
+                    <surname>Pritchard</surname>
+                    <given-names>KI</given-names>
+                  </name>
+                  <name>
+                    <surname>Livingston</surname>
+                    <given-names>RB</given-names>
+                  </name>
+                  <name>
+                    <surname>Davidson</surname>
+                    <given-names>NE</given-names>
+                  </name>
+                  <name>
+                    <surname>Norton</surname>
+                    <given-names>L</given-names>
+                  </name>
+                  <name>
+                    <surname>Perez</surname>
+                    <given-names>EA</given-names>
+                  </name>
+                  <name>
+                    <surname>Abrams</surname>
+                    <given-names>JS</given-names>
+                  </name>
+                  <name>
+                    <surname>Cameron</surname>
+                    <given-names>DA</given-names>
+                  </name>
+                  <name>
+                    <surname>Palmer</surname>
+                    <given-names>MJ</given-names>
+                  </name>
+                  <name>
+                    <surname>Pater</surname>
+                    <given-names>JL</given-names>
+                  </name>
+                  <article-title>Randomized trial of letrozole following tamoxifen as extended adjuvant therapy in receptor-positive breast cancer: updated findings from NCICCTG MA.17</article-title>
+                  <source>J Natl Cancer Inst</source>
+                  <year>2005</year>
+                  <volume>97</volume>
+                  <fpage>1262</fpage>
+                  <lpage>1271</lpage>
+                  <pub-id pub-id-type="doi">10.1093/jnci/dji250</pub-id>
+                  <pub-id pub-id-type="pmid">16145047</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B8">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Mamounas</surname>
+                    <given-names>EP</given-names>
+                  </name>
+                  <name>
+                    <surname>Jeong</surname>
+                    <given-names>J-H</given-names>
+                  </name>
+                  <name>
+                    <surname>Wickerham</surname>
+                    <given-names>DL</given-names>
+                  </name>
+                  <name>
+                    <surname>Smith</surname>
+                    <given-names>RE</given-names>
+                  </name>
+                  <name>
+                    <surname>Ganz</surname>
+                    <given-names>PA</given-names>
+                  </name>
+                  <name>
+                    <surname>Land</surname>
+                    <given-names>SR</given-names>
+                  </name>
+                  <name>
+                    <surname>Eisen</surname>
+                    <given-names>A</given-names>
+                  </name>
+                  <name>
+                    <surname>Fehrenbacher</surname>
+                    <given-names>L</given-names>
+                  </name>
+                  <name>
+                    <surname>Farrar</surname>
+                    <given-names>WB</given-names>
+                  </name>
+                  <name>
+                    <surname>Atkins</surname>
+                    <given-names>JN</given-names>
+                  </name>
+                  <name>
+                    <surname>Pajon</surname>
+                    <given-names>ER</given-names>
+                  </name>
+                  <name>
+                    <surname>Vogel</surname>
+                    <given-names>VG</given-names>
+                  </name>
+                  <name>
+                    <surname>Kroener</surname>
+                    <given-names>JF</given-names>
+                  </name>
+                  <name>
+                    <surname>Hutchins</surname>
+                    <given-names>LF</given-names>
+                  </name>
+                  <name>
+                    <surname>Robidoux</surname>
+                    <given-names>A</given-names>
+                  </name>
+                  <name>
+                    <surname>Hoehn</surname>
+                    <given-names>JL</given-names>
+                  </name>
+                  <name>
+                    <surname>Ingle</surname>
+                    <given-names>JN</given-names>
+                  </name>
+                  <name>
+                    <surname>Geyer</surname>
+                    <given-names>CE</given-names>
+                    <suffix>Jr</suffix>
+                  </name>
+                  <name>
+                    <surname>Costantino</surname>
+                    <given-names>JP</given-names>
+                  </name>
+                  <name>
+                    <surname>Wolmark</surname>
+                    <given-names>N</given-names>
+                  </name>
+                  <article-title>Benefit from exemestane as extended adjuvant therapy after 5 years of adjuvant tamoxifen: intention-to-treat analysis of the National Surgical Adjuvant Breast and Bowel Project B-33 trial</article-title>
+                  <source>J Clin Oncol</source>
+                  <year>2008</year>
+                  <volume>26</volume>
+                  <fpage>1965</fpage>
+                  <lpage>1971</lpage>
+                  <pub-id pub-id-type="doi">10.1200/JCO.2007.14.0228</pub-id>
+                  <pub-id pub-id-type="pmid">18332472</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B9">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Burstein</surname>
+                    <given-names>HJ</given-names>
+                  </name>
+                  <name>
+                    <surname>Prestrud</surname>
+                    <given-names>AA</given-names>
+                  </name>
+                  <name>
+                    <surname>Seidenfeld</surname>
+                    <given-names>J</given-names>
+                  </name>
+                  <name>
+                    <surname>Anderson</surname>
+                    <given-names>H</given-names>
+                  </name>
+                  <name>
+                    <surname>Buchholz</surname>
+                    <given-names>TA</given-names>
+                  </name>
+                  <name>
+                    <surname>Davidson</surname>
+                    <given-names>NE</given-names>
+                  </name>
+                  <name>
+                    <surname>Gelmon</surname>
+                    <given-names>KE</given-names>
+                  </name>
+                  <name>
+                    <surname>Giordano</surname>
+                    <given-names>SH</given-names>
+                  </name>
+                  <name>
+                    <surname>Hudis</surname>
+                    <given-names>CA</given-names>
+                  </name>
+                  <name>
+                    <surname>Malin</surname>
+                    <given-names>J</given-names>
+                  </name>
+                  <name>
+                    <surname>Mamounas</surname>
+                    <given-names>EP</given-names>
+                  </name>
+                  <name>
+                    <surname>Rowden</surname>
+                    <given-names>D</given-names>
+                  </name>
+                  <name>
+                    <surname>Solky</surname>
+                    <given-names>AJ</given-names>
+                  </name>
+                  <name>
+                    <surname>Sowers</surname>
+                    <given-names>MR</given-names>
+                  </name>
+                  <name>
+                    <surname>Winer</surname>
+                    <given-names>EP</given-names>
+                  </name>
+                  <name>
+                    <surname>Somerfield</surname>
+                    <given-names>MR</given-names>
+                  </name>
+                  <name>
+                    <surname>Griggs</surname>
+                    <given-names>JJ</given-names>
+                  </name>
+                  <article-title>American Society of Clinical Oncology clinical practice guidelines: update on adjuvant endocrine therapy for women with hormone receptor-positive breast cancer</article-title>
+                  <source>J Clin Oncol</source>
+                  <year>2010</year>
+                  <volume>28</volume>
+                  <fpage>3784</fpage>
+                  <lpage>3796</lpage>
+                  <pub-id pub-id-type="doi">10.1200/JCO.2009.26.3756</pub-id>
+                  <pub-id pub-id-type="pmid">20625130</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B10">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Partridge</surname>
+                    <given-names>AH</given-names>
+                  </name>
+                  <name>
+                    <surname>LaFountain</surname>
+                    <given-names>A</given-names>
+                  </name>
+                  <name>
+                    <surname>Mayer</surname>
+                    <given-names>E</given-names>
+                  </name>
+                  <name>
+                    <surname>Taylor</surname>
+                    <given-names>BS</given-names>
+                  </name>
+                  <name>
+                    <surname>Winer</surname>
+                    <given-names>E</given-names>
+                  </name>
+                  <name>
+                    <surname>Asnis-Alibozek</surname>
+                    <given-names>A</given-names>
+                  </name>
+                  <article-title>Adherence to initial adjuvant anastrozole therapy among women with early-stage breast cancer</article-title>
+                  <source>J Clin Oncol</source>
+                  <year>2008</year>
+                  <volume>26</volume>
+                  <fpage>556</fpage>
+                  <lpage>562</lpage>
+                  <pub-id pub-id-type="doi">10.1200/JCO.2007.11.5451</pub-id>
+                  <pub-id pub-id-type="pmid">18180462</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B11">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Crew</surname>
+                    <given-names>KD</given-names>
+                  </name>
+                  <name>
+                    <surname>Greenlee</surname>
+                    <given-names>H</given-names>
+                  </name>
+                  <name>
+                    <surname>Capodice</surname>
+                    <given-names>J</given-names>
+                  </name>
+                  <name>
+                    <surname>Raptis</surname>
+                    <given-names>G</given-names>
+                  </name>
+                  <name>
+                    <surname>Brafman</surname>
+                    <given-names>L</given-names>
+                  </name>
+                  <name>
+                    <surname>Fuentes</surname>
+                    <given-names>D</given-names>
+                  </name>
+                  <name>
+                    <surname>Sierra</surname>
+                    <given-names>A</given-names>
+                  </name>
+                  <name>
+                    <surname>Hershman</surname>
+                    <given-names>DL</given-names>
+                  </name>
+                  <article-title>Prevalence of joint symptoms in postmenopausal women taking aromatase inhibitors for early-stage breast cancer</article-title>
+                  <source>J Clin Oncol</source>
+                  <year>2007</year>
+                  <volume>25</volume>
+                  <fpage>3877</fpage>
+                  <lpage>3883</lpage>
+                  <pub-id pub-id-type="doi">10.1200/JCO.2007.10.7573</pub-id>
+                  <pub-id pub-id-type="pmid">17761973</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B12">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Ingle</surname>
+                    <given-names>JN</given-names>
+                  </name>
+                  <name>
+                    <surname>Buzdar</surname>
+                    <given-names>AU</given-names>
+                  </name>
+                  <name>
+                    <surname>Schaid</surname>
+                    <given-names>DJ</given-names>
+                  </name>
+                  <name>
+                    <surname>Goetz</surname>
+                    <given-names>MP</given-names>
+                  </name>
+                  <name>
+                    <surname>Batzler</surname>
+                    <given-names>A</given-names>
+                  </name>
+                  <name>
+                    <surname>Robson</surname>
+                    <given-names>ME</given-names>
+                  </name>
+                  <name>
+                    <surname>Northfelt</surname>
+                    <given-names>DW</given-names>
+                  </name>
+                  <name>
+                    <surname>Olson</surname>
+                    <given-names>JE</given-names>
+                  </name>
+                  <name>
+                    <surname>Perez</surname>
+                    <given-names>EA</given-names>
+                  </name>
+                  <name>
+                    <surname>Desta</surname>
+                    <given-names>Z</given-names>
+                  </name>
+                  <name>
+                    <surname>Weintraub</surname>
+                    <given-names>RA</given-names>
+                  </name>
+                  <name>
+                    <surname>Williard</surname>
+                    <given-names>CV</given-names>
+                  </name>
+                  <name>
+                    <surname>Flockhart</surname>
+                    <given-names>DA</given-names>
+                  </name>
+                  <name>
+                    <surname>Weinshilboum</surname>
+                    <given-names>RM</given-names>
+                  </name>
+                  <article-title>Variation in anastrozole metabolism and pharmacodynamics in women with early breast cancer</article-title>
+                  <source>Cancer Res</source>
+                  <year>2010</year>
+                  <volume>70</volume>
+                  <fpage>3278</fpage>
+                  <lpage>3286</lpage>
+                  <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-09-3024</pub-id>
+                  <pub-id pub-id-type="pmid">20354183</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B13">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Schaid</surname>
+                    <given-names>DJ</given-names>
+                  </name>
+                  <name>
+                    <surname>Goss</surname>
+                    <given-names>PE</given-names>
+                  </name>
+                  <name>
+                    <surname>Liu</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <name>
+                    <surname>Mushiroda</surname>
+                    <given-names>T</given-names>
+                  </name>
+                  <name>
+                    <surname>Chapman</surname>
+                    <given-names>J-AW</given-names>
+                  </name>
+                  <name>
+                    <surname>Kubo</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <name>
+                    <surname>Jenkins</surname>
+                    <given-names>GD</given-names>
+                  </name>
+                  <name>
+                    <surname>Batzler</surname>
+                    <given-names>A</given-names>
+                  </name>
+                  <name>
+                    <surname>Shepherd</surname>
+                    <given-names>L</given-names>
+                  </name>
+                  <name>
+                    <surname>Pater</surname>
+                    <given-names>J</given-names>
+                  </name>
+                  <name>
+                    <surname>Wang</surname>
+                    <given-names>L</given-names>
+                  </name>
+                  <name>
+                    <surname>Ellis</surname>
+                    <given-names>MJ</given-names>
+                  </name>
+                  <name>
+                    <surname>Stearns</surname>
+                    <given-names>V</given-names>
+                  </name>
+                  <name>
+                    <surname>Rohrer</surname>
+                    <given-names>DC</given-names>
+                  </name>
+                  <name>
+                    <surname>Goetz</surname>
+                    <given-names>MP</given-names>
+                  </name>
+                  <name>
+                    <surname>Pritchard</surname>
+                    <given-names>KI</given-names>
+                  </name>
+                  <name>
+                    <surname>Flockhart</surname>
+                    <given-names>DA</given-names>
+                  </name>
+                  <name>
+                    <surname>Nakamura</surname>
+                    <given-names>Y</given-names>
+                  </name>
+                  <name>
+                    <surname>Weinshilboum</surname>
+                    <given-names>RM</given-names>
+                  </name>
+                  <article-title>Genome-wide associations and functional genomic studies of musculoskeletal adverse events in women receiving aromatase inhibitors</article-title>
+                  <source>J Clin Oncol</source>
+                  <year>2010</year>
+                  <volume>28</volume>
+                  <fpage>4674</fpage>
+                  <lpage>4682</lpage>
+                  <pub-id pub-id-type="doi">10.1200/JCO.2010.28.5064</pub-id>
+                  <pub-id pub-id-type="pmid">20876420</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B14">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Miossec</surname>
+                    <given-names>P</given-names>
+                  </name>
+                  <name>
+                    <surname>Korn</surname>
+                    <given-names>T</given-names>
+                  </name>
+                  <name>
+                    <surname>Kuchroo</surname>
+                    <given-names>VK</given-names>
+                  </name>
+                  <article-title>Interleukin-17 and type 17 helper cells</article-title>
+                  <source>N Engl J Med</source>
+                  <year>2009</year>
+                  <volume>361</volume>
+                  <fpage>888</fpage>
+                  <lpage>898</lpage>
+                  <pub-id pub-id-type="doi">10.1056/NEJMra0707449</pub-id>
+                  <pub-id pub-id-type="pmid">19710487</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B15">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Pearson</surname>
+                    <given-names>TA</given-names>
+                  </name>
+                  <name>
+                    <surname>Manolio</surname>
+                    <given-names>T</given-names>
+                  </name>
+                  <article-title>How to interpret a genome-wide association study</article-title>
+                  <source>JAMA</source>
+                  <year>2008</year>
+                  <volume>299</volume>
+                  <fpage>1335</fpage>
+                  <lpage>1344</lpage>
+                  <pub-id pub-id-type="doi">10.1001/jama.299.11.1335</pub-id>
+                  <pub-id pub-id-type="pmid">18349094</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B16">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Turnbull</surname>
+                    <given-names>C</given-names>
+                  </name>
+                  <name>
+                    <surname>Ahmed</surname>
+                    <given-names>S</given-names>
+                  </name>
+                  <name>
+                    <surname>Morrison</surname>
+                    <given-names>J</given-names>
+                  </name>
+                  <name>
+                    <surname>Pernet</surname>
+                    <given-names>D</given-names>
+                  </name>
+                  <name>
+                    <surname>Renwick</surname>
+                    <given-names>A</given-names>
+                  </name>
+                  <name>
+                    <surname>Maranian</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <name>
+                    <surname>Seal</surname>
+                    <given-names>S</given-names>
+                  </name>
+                  <name>
+                    <surname>Ghoussaini</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <name>
+                    <surname>Hines</surname>
+                    <given-names>S</given-names>
+                  </name>
+                  <name>
+                    <surname>Healey</surname>
+                    <given-names>CS</given-names>
+                  </name>
+                  <name>
+                    <surname>Hughes</surname>
+                    <given-names>D</given-names>
+                  </name>
+                  <name>
+                    <surname>Warren-Perry</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <name>
+                    <surname>Tapper</surname>
+                    <given-names>W</given-names>
+                  </name>
+                  <name>
+                    <surname>Eccles</surname>
+                    <given-names>D</given-names>
+                  </name>
+                  <name>
+                    <surname>Evans</surname>
+                    <given-names>DG</given-names>
+                  </name>
+                  <collab>The Breast Cancer Susceptibility Collaboration (UK)</collab>
+                  <name>
+                    <surname>Hooning</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <name>
+                    <surname>Schutte</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <name>
+                    <surname>van den Ouweland</surname>
+                    <given-names>A</given-names>
+                  </name>
+                  <name>
+                    <surname>Houlston</surname>
+                    <given-names>R</given-names>
+                  </name>
+                  <name>
+                    <surname>Ross</surname>
+                    <given-names>G</given-names>
+                  </name>
+                  <name>
+                    <surname>Langford</surname>
+                    <given-names>C</given-names>
+                  </name>
+                  <name>
+                    <surname>Pharoah</surname>
+                    <given-names>PDP</given-names>
+                  </name>
+                  <name>
+                    <surname>Stratton</surname>
+                    <given-names>MR</given-names>
+                  </name>
+                  <name>
+                    <surname>Dunning</surname>
+                    <given-names>AM</given-names>
+                  </name>
+                  <name>
+                    <surname>Rahman</surname>
+                    <given-names>N</given-names>
+                  </name>
+                  <name>
+                    <surname>Easton</surname>
+                    <given-names>DF</given-names>
+                  </name>
+                  <article-title>Genome-wide association study identifies five new breast cancer susceptibility loci</article-title>
+                  <source>Nat Genet</source>
+                  <year>2010</year>
+                  <volume>42</volume>
+                  <fpage>504</fpage>
+                  <lpage>507</lpage>
+                  <pub-id pub-id-type="doi">10.1038/ng.586</pub-id>
+                  <pub-id pub-id-type="pmid">20453838</pub-id>
+                </mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

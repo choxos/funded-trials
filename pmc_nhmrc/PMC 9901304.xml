@@ -1,0 +1,2817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T09:05:06Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:9901304" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:9901304</identifier>
+        <datestamp>2023-02-07</datestamp>
+        <setSpec>peerj</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">PeerJ</journal-id>
+              <journal-id journal-id-type="iso-abbrev">PeerJ</journal-id>
+              <journal-id journal-id-type="publisher-id">peerj</journal-id>
+              <journal-title-group>
+                <journal-title>PeerJ</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2167-8359</issn>
+              <publisher>
+                <publisher-name>PeerJ Inc.</publisher-name>
+                <publisher-loc>San Diego, USA</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC9901304</article-id>
+              <article-id pub-id-type="pmcid">PMC9901304</article-id>
+              <article-id pub-id-type="pmc-uid">9901304</article-id>
+              <article-id pub-id-type="pmid">36755865</article-id>
+              <article-id pub-id-type="publisher-id">14786</article-id>
+              <article-id pub-id-type="doi">10.7717/peerj.14786</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Bioinformatics</subject>
+                </subj-group>
+                <subj-group subj-group-type="heading">
+                  <subject>Gynecology and Obstetrics</subject>
+                </subj-group>
+                <subj-group subj-group-type="heading">
+                  <subject>Statistics</subject>
+                </subj-group>
+                <subj-group subj-group-type="heading">
+                  <subject>Data Science</subject>
+                </subj-group>
+                <subj-group subj-group-type="heading">
+                  <subject>Obesity</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Data processing choices can affect findings in differential methylation analyses: an investigation using data from the LIMIT RCT</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib id="author-1" contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Louise</surname>
+                    <given-names>Jennie</given-names>
+                  </name>
+                  <email>jennie.louise@adelaide.edu.au</email>
+                  <xref rid="aff-1" ref-type="aff">1</xref>
+                  <xref rid="aff-2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib id="author-2" contrib-type="author">
+                  <name>
+                    <surname>Deussen</surname>
+                    <given-names>Andrea R.</given-names>
+                  </name>
+                  <xref rid="aff-1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib id="author-3" contrib-type="author">
+                  <name>
+                    <surname>Dodd</surname>
+                    <given-names>Jodie M.</given-names>
+                  </name>
+                  <xref rid="aff-1" ref-type="aff">1</xref>
+                  <xref rid="aff-3" ref-type="aff">3</xref>
+                </contrib>
+                <aff id="aff-1"><label>1</label><institution>Discipline of Obstetrics &amp; Gynaecology and The Robinson Research Institute, The University of Adelaide</institution>, <city>Adelaide</city>, <country>Australia</country></aff>
+                <aff id="aff-2"><label>2</label><institution>Adelaide Health Technology Asseessment, The University of Adelaide</institution>, <city>Adelaide</city>, <country>Australia</country></aff>
+                <aff id="aff-3"><label>3</label><institution>Department of Perinatal Medicine, Women’s and Babies Division, The Women’s and Children’s Hospital</institution>, <city>Adelaide</city>, <state>South Australia</state>, <country>Australia</country></aff>
+              </contrib-group>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Navaneethabalakrishnan</surname>
+                    <given-names>Shobana</given-names>
+                  </name>
+                </contrib>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>3</day>
+                <month>2</month>
+                <year iso-8601-date="2023">2023</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2023</year>
+              </pub-date>
+              <volume>11</volume>
+              <elocation-id>e14786</elocation-id>
+              <history>
+                <date date-type="received" iso-8601-date="2022-10-11">
+                  <day>11</day>
+                  <month>10</month>
+                  <year iso-8601-date="2022">2022</year>
+                </date>
+                <date date-type="accepted" iso-8601-date="2023-01-03">
+                  <day>3</day>
+                  <month>1</month>
+                  <year iso-8601-date="2023">2023</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>©2023 Louise et al.</copyright-statement>
+                <copyright-year>2023</copyright-year>
+                <copyright-holder>Louise et al.</copyright-holder>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, reproduction and adaptation in any medium and for any purpose provided that it is properly attributed. For attribution, the original author(s), title, publication source (PeerJ) and either DOI or URL of the article must be cited.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:href="https://peerj.com/articles/14786"/>
+              <abstract>
+                <sec>
+                  <title>Objective</title>
+                  <p>A wide array of methods exist for processing and analysing DNA methylation data. We aimed to perform a systematic comparison of the behaviour of these methods, using cord blood DNAm from the LIMIT RCT, in relation to detecting hypothesised effects of interest (intervention and pre-pregnancy maternal BMI) as well as effects known to be spurious, and known to be present.</p>
+                </sec>
+                <sec>
+                  <title>Methods</title>
+                  <p>DNAm data, from 645 cord blood samples analysed using Illumina 450K BeadChip arrays, were normalised using three different methods (with probe filtering undertaken pre- or post- normalisation). Batch effects were handled with a supervised algorithm, an unsupervised algorithm, or adjustment in the analysis model. Analysis was undertaken with and without adjustment for estimated cell type proportions. The effects estimated included intervention and BMI (effects of interest in the original study), infant sex and randomly assigned groups. Data processing and analysis methods were compared in relation to number and identity of differentially methylated probes, rankings of probes by p value and log-fold-change, and distributions of <italic toggle="yes">p</italic> values and log-fold-change estimates.</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p>There were differences corresponding to each of the processing and analysis choices. Importantly, some combinations of data processing choices resulted in a substantial number of spurious ‘significant’ findings. We recommend greater emphasis on replication and greater use of sensitivity analyses.</p>
+                </sec>
+              </abstract>
+              <kwd-group kwd-group-type="author">
+                <kwd>DNA methylation</kwd>
+                <kwd>Bioinformatics</kwd>
+                <kwd>Differential methylation</kwd>
+                <kwd>Reproducibility</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group id="fund-1">
+                  <funding-source> NHMRC</funding-source>
+                  <award-id>ID519240</award-id>
+                </award-group>
+                <award-group id="fund-2">
+                  <funding-source> Commission of the European Communities</funding-source>
+                </award-group>
+                <award-group id="fund-3">
+                  <funding-source> 7th Framework Programme</funding-source>
+                  <award-id> FP7-289346-EARLY NUTRITION</award-id>
+                </award-group>
+                <award-group id="fund-4">
+                  <funding-source> NHMRC Practitioner Fellowships</funding-source>
+                  <award-id> ID627005</award-id>
+                  <award-id> ID1078980</award-id>
+                </award-group>
+                <award-group id="fund-5">
+                  <funding-source> Investigator Grant</funding-source>
+                  <award-id> ID1196133</award-id>
+                </award-group>
+                <funding-statement>The LIMIT Randomised Trial was funded by an NHMRC grant (ID519240), awarded to Jodie M. Dodd. Funding for the DNA methylation analysis was from the Commission of the European Communities, the 7th Framework Programme, contract FP7-289346-EARLY NUTRITION. Jodie M. Dodd was also supported by NHMRC Practitioner Fellowships (ID627005 and ID1078980) and Investigator Grant (ID1196133). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+              </funding-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec>
+              <title>Introduction and Background</title>
+              <p>With the advent of high-throughput assays, epigenome-wide DNA methylation studies have become more popular, and researchers are now investigating the effects on DNA methylation (DNAm) of a wide range of environmental exposures and physiological conditions, with particular interest in the contribution of epigenetic mechanisms such as DNAm to the early life origins of health and disease. The ability to perform EWAS is particularly useful in relation to conditions where associated differences in DNAm are likely to be fairly modest (<xref rid="ref-19" ref-type="bibr">Marabita et al., 2013</xref>). However, DNAm data—as with high-dimensional ‘omics’ data generally—requires substantial pre-processing prior to analysis, including probe and sample filtering, normalisation to remove variation due to technological factors, and correction for other factors which may confound effects of interest, such as batch effects or differences in cell type proportions between samples. Numerous methods exist to perform these processing steps, and many articles have been published which provide useful guidance for the use of analysis pipelines (<xref rid="ref-19" ref-type="bibr">Marabita et al., 2013</xref>; <xref rid="ref-40" ref-type="bibr">Yousefi et al., 2013</xref>; <xref rid="ref-15" ref-type="bibr">Lehne et al., 2015</xref>; <xref rid="ref-20" ref-type="bibr">Morris &amp; Beck, 2015</xref>; <xref rid="ref-18" ref-type="bibr">Maksimovic, Phipson &amp; Oshlack, 2017</xref>), or comparing some alternatives for individual steps in the overall processing pipeline, including probe filtering (<xref rid="ref-11" ref-type="bibr">Heiss &amp; Just, 2019</xref>), normalisation (<xref rid="ref-36" ref-type="bibr">Wang et al., 2012</xref>; <xref rid="ref-37" ref-type="bibr">Wang et al., 2015</xref>; <xref rid="ref-8" ref-type="bibr">Fortin et al., 2014</xref>; <xref rid="ref-38" ref-type="bibr">Wu et al., 2014</xref>; <xref rid="ref-12" ref-type="bibr">Hicks &amp; Irizarry, 2015</xref>), or correction for/avoidance of batch effects. These have led to some general conclusions regarding the need to account for batch effects, the importance of correcting for estimated cell type proportion, and perhaps the greater suitability of within-array normalisation methods compared to between-array methods when global methylation differences are not expected (<xref rid="ref-18" ref-type="bibr">Maksimovic, Phipson &amp; Oshlack, 2017</xref>), but there is no clear overall consensus on the best processing or analysis approach (<xref rid="ref-26" ref-type="bibr">Price &amp; Robinson, 2018</xref>; <xref rid="ref-41" ref-type="bibr">Zindler et al., 2020</xref>), or of the overall advantages and disadvantages of different combinations of processing choices.</p>
+              <p>We recently investigated the effect of an antenatal diet and lifestyle intervention, and of maternal early pregnancy BMI, on neonatal cord blood DNA methylation in infants of mothers who were overweight or obese in early pregnancy (<xref rid="ref-16" ref-type="bibr">Louise et al., 2022</xref>). We were unable to replicate findings from previous studies which reported a range of loci to be significantly differentially methylated in relation to maternal BMI or diet and lifestyle in pregnancy (<xref rid="ref-10" ref-type="bibr">Gemma et al., 2009</xref>; <xref rid="ref-29" ref-type="bibr">Sharp et al., 2015</xref>; <xref rid="ref-30" ref-type="bibr">Sharp et al., 2017</xref>; <xref rid="ref-35" ref-type="bibr">Thakali et al., 2017</xref>; <xref rid="ref-13" ref-type="bibr">Hjort et al., 2018</xref>) and indeed did not find any significant differences in methylation corresponding to either BMI or intervention effects. We were aware of literature suggesting that use of supervised batch-correction algorithms may produce spurious findings (<xref rid="ref-22" ref-type="bibr">Nygaard, Rødland &amp; Hovig, 2016a</xref>; <xref rid="ref-26" ref-type="bibr">Price &amp; Robinson, 2018</xref>; <xref rid="ref-41" ref-type="bibr">Zindler et al., 2020</xref>), and that the number of statistically significant findings may differ according to normalisation method (<xref rid="ref-38" ref-type="bibr">Wu et al., 2014</xref>), adjustment for estimated cell type proportion (<xref rid="ref-30" ref-type="bibr">Sharp et al., 2017</xref>) or stringency of type I error control (<xref rid="ref-38" ref-type="bibr">Wu et al., 2014</xref>), which led to the hypothesis that the discrepancy in findings may be due in part to differences in data processing and analysis methods. Following the common practice in clinical trials of conducting sensitivity analyses to assess robustness of results to various assumptions and decisions (<xref rid="ref-34" ref-type="bibr">Thabane et al., 2013</xref>), we performed several re-analyses with different normalisation methods, methods for batch effect handling, type I error control, and presence <italic toggle="yes">vs</italic> absence of adjustment for estimated cell type proportions. This confirmed that our findings indeed differed under different data-processing and analysis choices.</p>
+              <p>While previous studies comparing different methods have also produced different findings, these have tended to consider only one element of the processing and analysis pipeline (such as normalisation, or batch correction) in isolation. In addition, they have tended to concentrate on the tendency for some methods to produce results which are likely to be spurious (false positives), while often being unable to definitively confirm this due to the lack of known truth regarding the presence and magnitude of differential methylation effects.</p>
+              <p>We therefore set out to investigate the impact of different data-processing choices in a more systematic way, looking at the effect of combinations of data processing choices on findings specifically regarding statistically significant differentially methylated probes (DMPs), and of the behaviour of these combinations in cases where effects are known to be either absent or present, as well as their behaviour in relation to our effects of interest (maternal BMI and lifestyle intervention). We were able to create a scenario in which effects were known to be absent by randomly assigning samples to groupings. We could not similarly ensure a scenario where effects were known to be present (as the truth regarding the existence, location and magnitude of any effects in our samples is not known); however we investigated effects of infant sex as a rough proxy, since infant sex is known to have substantial effects on DNAm which can be detected by the 450K array (<xref rid="ref-39" ref-type="bibr">Yousefi et al., 2015</xref>).</p>
+            </sec>
+            <sec>
+              <title>Data and Methods</title>
+              <sec>
+                <title>The LIMIT randomised controlled trial</title>
+                <p>The LIMIT study was a randomised, controlled trial of an antenatal diet and lifestyle intervention for women with early pregnancy BMI ≥25.0 kg/m<sup>2</sup>. The study, and its primary and main secondary outcomes, have been extensively reported elsewhere (<xref rid="ref-7" ref-type="bibr">Dodd et al., 2014b</xref>). Inclusion criteria were early pregnancy BMI ≥25.0 kg/m<sup>2</sup> and pregnancy between 10 <sup>+0</sup> and 20 <sup>+0</sup> weeks’ gestation, with exclusion criteria of multiple gestation or previously existing diabetes. The study randomised 2,212 women in total to one of two groups: a comprehensive diet and lifestyle intervention (Lifestyle Advice; <italic toggle="yes">n</italic> = 1,108) or antenatal care delivered according to local guidelines (Standard Care; <italic toggle="yes">n</italic> = 1,104) which did not include information on diet or physical activity. The study was reviewed by the ethics committee of each participating institution including the Women’s and Children’s Health Network Human Research Ethics Committee (1839 &amp; 2051), the Central and Northern Adelaide Health Network Human Research Ethics Committee (2008033) and the Southern Adelaide Local Health Network Human Research Ethics Committee (128/08). Informed written consent was obtained for all participants to participate in the LIMIT study, and additional written consent was obtained to collect samples of umbilical cord blood at delivery for the purposes of gene expression research related to weight and to the diet and lifestyle intervention.</p>
+                <p>The primary outcome of the LIMIT study was birth of a large for gestational age (LGA) infant. There were no significant differences observed between the groups in relation to this outcome; however, a significantly lower incidence of high birthweight (&gt;4 kg) was observed in the Lifestyle Advice group, with a Relative Risk of 0.82 (95% CI: 0.68, 0.99, <italic toggle="yes">p</italic> = 0.04). Additionally, measures of diet quality and physical activity were improved in women in the Lifestyle Advice group compared to those in the Standard Care group (<xref rid="ref-6" ref-type="bibr">Dodd et al., 2014a</xref>).</p>
+                <p>As previously outlined in the companion paper (<xref rid="ref-16" ref-type="bibr">Louise et al., 2022</xref>), cord blood DNA for a range of secondary studies was collected at the time of birth from consenting participants, and was frozen as whole blood preserved with EDTA. Funding was available to perform DNA methylation analysis for a total of 649 samples, which were randomly selected from the total number of available samples, balanced between the Lifestyle Advice and Standard Care groups (<xref rid="supp-1" ref-type="supplementary-material">Table S1</xref>). After DNA extraction, genome-wide DNA methylation was performed using the Illumina Infinium HumanMethylation 450K Bead-Chip array. Results were supplied as raw probe intensities (IDAT files).</p>
+                <p>For the additional analyses investigating known spurious effects, artificial (fake) groups were created by assigning samples based on random draws from binomial distributions. The first grouping (‘Tortoiseshell’ <italic toggle="yes">vs</italic> ‘Tabby’) was generated using a binomial distribution with 50% probability of assignment to each group. The second grouping (‘Long’- <italic toggle="yes">vs</italic> ‘Short-Haired’) was created to mimic stratified randomisation as well as unequal proportions in each group: within each level of the first fake group, samples were assigned to Long-Haired with 40% probability and Short-Haired with 60% probability.</p>
+                <p>All data processing and analyses were undertaken using R version 4.0 (<xref rid="ref-27" ref-type="bibr">R Core Team, 2018</xref>).</p>
+              </sec>
+              <sec>
+                <title>Probe and sample filtering</title>
+                <p>The <italic toggle="yes">minfi</italic> package (<xref rid="ref-1" ref-type="bibr">Aryee et al., 2014</xref>) was used to read in the raw <italic toggle="yes">idats</italic> (without normalisation), and to calculate both probe-wise and sample-wise detection <italic toggle="yes">p</italic> values. Samples were identified as faulty if they had a detection <italic toggle="yes">p</italic>-value ≥0.05. A total of 13 such samples were excluded; however these were due to a known chip failure, and had subsequently been rerun. A further four samples were excluded because the correct corresponding study identifier could not be ascertained, leaving 645 samples for analysis.</p>
+                <p>Probes were filtered using multiple criteria. Firstly, probes were excluded if they had a detection <italic toggle="yes">p</italic>-value ≥0.001 in more than 25% of the 645 samples, indicating that their signal could not be accurately detected for a large proportion of samples (<xref rid="ref-5" ref-type="bibr">Dedeurwaerder et al., 2014</xref>; <xref rid="ref-18" ref-type="bibr">Maksimovic, Phipson &amp; Oshlack, 2017</xref>). Secondly, probes were excluded if they were on a list of those previously identified as cross-reactive (<xref rid="ref-4" ref-type="bibr">Chen et al., 2013</xref>); <italic toggle="yes">i.e.,</italic> there was a high probability they may hybridize to locations on the genome different to those for which the probe was designed (<xref rid="ref-5" ref-type="bibr">Dedeurwaerder et al., 2014</xref>; <xref rid="ref-21" ref-type="bibr">Naeem et al., 2014</xref>). Thirdly, probes with an identified SNP within 3 nucleotides of the CpG site and minor allele frequency &gt;1%, and probes on the X and Y chromosomes were excluded. This was done in order to avoid spurious methylation ‘differences’ due either to SNPs within the CpG targets, or due to X and Y chromosomes (<xref rid="ref-5" ref-type="bibr">Dedeurwaerder et al., 2014</xref>; <xref rid="ref-21" ref-type="bibr">Naeem et al., 2014</xref>). Filtering of cross-reactive probes, probes with a nearby SNP and probes on the X and Y chromosomes was performed using the <italic toggle="yes">DMRCate</italic> package (<xref rid="ref-24" ref-type="bibr">Peters et al., 2015</xref>). This left 426,572 probes available for analysis.</p>
+                <p>Probe filtering was performed either after normalisation (post-filtered) or prior to normalisation (pre-filtered). The one exception for pre-filtering was when normalising using the BMIQ method, where probes on the X and Y chromosome were retained as this was required in order for the function to run.</p>
+              </sec>
+              <sec>
+                <title>Normalisation</title>
+                <p>Normalisation involves making changes to the raw data in order to remove artifactual variation. In the case of Illumina 450K BeadChip arrays, this requires correcting for the presence of two different probe types. Infinium I probes use the same colour signal for methylated and unmethylated CpG and are often used for regions of high CpG density, while Infinium II probes use different colours to differentiate between methylated and unmethylated states (<xref rid="ref-25" ref-type="bibr">Pidsley et al., 2013</xref>; <xref rid="ref-37" ref-type="bibr">Wang et al., 2015</xref>). Normalisation is performed on <italic toggle="yes">β</italic>values, or the ratio of methylated to total intensity, defined as <inline-formula><alternatives><inline-graphic xlink:href="peerj-11-14786-i001.jpg"/><tex-math id="tex-ieqn-15">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$ \frac{M}{M+U+offset} $\end{document}</tex-math><mml:math id="mml-ieqn-15" overflow="scroll"><mml:mfrac><mml:mrow><mml:mi>M</mml:mi></mml:mrow><mml:mrow><mml:mi>M</mml:mi><mml:mo>+</mml:mo><mml:mi>U</mml:mi><mml:mo>+</mml:mo><mml:mi>o</mml:mi><mml:mi>f</mml:mi><mml:mi>f</mml:mi><mml:mi>s</mml:mi><mml:mi>e</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac></mml:math></alternatives></inline-formula> . Here, M is the methylated intensity and U is the unmethylated intensity; the offset is a constant added to regularize the <italic toggle="yes">β</italic>value where both methylated and unmethylated intensities are low. The distribution of <italic toggle="yes">β</italic> values is bimodal, with peaks corresponding to methylated and unmethylated states, but the distribution of Infinium II probes differs from that of Infinium I, being more compressed towards 0.5 (<xref rid="ref-25" ref-type="bibr">Pidsley et al., 2013</xref>) and hence having a smaller dynamic range (<xref rid="ref-32" ref-type="bibr">Teschendorff et al., 2013</xref>; <xref rid="ref-5" ref-type="bibr">Dedeurwaerder et al., 2014</xref>).</p>
+                <p>Numerous methods exist for normalising Illumina BeadChip array data, but there is little consensus or guidance on which should be employed in a given context. The main advice is that between-array methods, which normalise across samples, are preferable when global differences between samples are expected, while within-array methods, which normalise probes within each sample, are better suited to effects in which the majority of genes will not be differentially expressed. (<xref rid="ref-18" ref-type="bibr">Maksimovic, Phipson &amp; Oshlack, 2017</xref>). The latter is the context in which many EWAS studies, including the present one, are conducted; as noted above, only modest differences in a small proportion of genes are expected for most early-life exposures. The methods chosen for the present investigation have all been used in the context of studies such as this: Categorical-Subset Quantile Normalisation (SQN) (<xref rid="ref-38" ref-type="bibr">Wu et al., 2014</xref>; <xref rid="ref-37" ref-type="bibr">Wang et al., 2015</xref>), Beta-Mixture Quantile Normalisation (BMIQ) (<xref rid="ref-32" ref-type="bibr">Teschendorff et al., 2013</xref>), and Subset-Quantile Within-Array Normalisation (SWAN) (<xref rid="ref-17" ref-type="bibr">Maksimovic, Gordon &amp; Oshlack, 2012</xref>). While numerous other methods exist, a comparison of all available normalisation methods was beyond the scope of this paper. Further details on the methods are given in the <xref rid="supplemental-information" ref-type="sec">Supplemental Information</xref>.</p>
+                <p>Both Subset Quantile Normalisation and Subset-Within-Array-Normalisation were performed using functions in the <italic toggle="yes">minfi</italic> package (<italic toggle="yes">preprocessQuantile</italic> and <italic toggle="yes">preprocessSWAN</italic> respectively), on raw intensity data. Beta-Mixture Quantile normalisation was performed using the <italic toggle="yes">champ.norm</italic> function in the <italic toggle="yes">ChAMP</italic> package after converting intensities to <italic toggle="yes">β</italic> values.</p>
+              </sec>
+              <sec>
+                <title>Batch effects</title>
+                <p>Batch effects arise when samples are processed in separate groups, creating unwanted variation due, for example, to different reagents, different plates or different scanner settings (<xref rid="ref-20" ref-type="bibr">Morris &amp; Beck, 2015</xref>; <xref rid="ref-22" ref-type="bibr">Nygaard, Rødland &amp; Hovig, 2016a</xref>; <xref rid="ref-26" ref-type="bibr">Price &amp; Robinson, 2018</xref>).</p>
+                <p>There are 12 Illumina 450K arrays (samples) per chip (this is reduced to eight arrays per chip for the more recent 850K array); thus most studies involving large numbers of samples must be run on multiple chips. This introduces extra variability to the data, and may also confound the actual effects of interest, if samples from different groups are not evenly distributed between the batches. These effects must be accounted for in order to obtain valid estimates of the effects of interest.</p>
+                <p>Unlike probe filtering and normalisation, batch effects can be handled at the analysis stage, by adjusting for batch in the analysis model. However, it is also common to address batch effects at the data-processing stage, using a batch-correction algorithm, with the resulting data considered to be free of batch effects (<xref rid="ref-22" ref-type="bibr">Nygaard, Rødland &amp; Hovig, 2016a</xref>). The ComBat algorithm has been widely used and considered the most effective method (<xref rid="ref-41" ref-type="bibr">Zindler et al., 2020</xref>) of removing batch effects in DNAm data; it has been incorporated into various analysis pipelines. Until recently, ComBat could be implemented only as a supervised method, in which the biological factors of interest had to be specified along with the batch variable (<xref rid="ref-26" ref-type="bibr">Price &amp; Robinson, 2018</xref>; <xref rid="ref-9" ref-type="bibr">Fortin, Triche &amp; Hansen, 2016</xref>); it can now also be implemented as an unsupervised method, in which only the batch variable is specified.</p>
+                <p>For each of the normalised datasets (<italic toggle="yes">i.e.,</italic> SQN, BMIQ and SWAN normalised datasets, each with probes filtered either before or after normalisation), we handled batch effects in three ways: firstly, by adjusting for batch in the analysis model (BatchAdjust); secondly, implementing the supervised ComBat algorithm (sCB); and thirdly, implementing the unsupervised ComBat algorithm (uCB). For the supervised ComBat algorithm, it was necessary to run the process twice: once with the effects of interest specified as maternal early pregnancy BMI, antenatal intervention group, and their interaction; and again with the effects of interest specified as Fake Group 1, Fake Group 2, their interaction, and infant sex.</p>
+              </sec>
+              <sec>
+                <title>Cell type proportions</title>
+                <p>Cord blood, like whole blood, contains a mixture of different cell types, which have different DNA methylation profiles.(<xref rid="ref-14" ref-type="bibr">Jaffe &amp; Irizarry, 2014</xref>; <xref rid="ref-33" ref-type="bibr">Teschendorff &amp; Zheng, 2017</xref>) If samples differ in the proportion of these different cell types, this may confound effects of interest, either hiding true differences in DNAm, or giving rise to spurious differences. Most studies of the effect of BMI, lifestyle interventions, or similar factors on cord blood DNA methylation have not attempted (or have not documented an attempt) to correct for potential differences in cell type composition, perhaps because reference profiles for cord blood were not available until more recently (<xref rid="ref-2" ref-type="bibr">Bakulski et al., 2016</xref>), and the mix of cell types and DNAm profiles may differ in cord blood compared to whole blood, making it inappropriate to apply reference profiles from whole blood to cord blood data (<xref rid="ref-3" ref-type="bibr">Cardenas et al., 2016</xref>).</p>
+                <p>We estimated the proportion of B cells, CD4+T, CD8+T, granulocytes, monocytes, natural killer, and nucleated RBCs in the raw data using the <italic toggle="yes">estimateCellCounts()</italic> function in the <italic toggle="yes">minfi</italic> package, with the cord blood reference panel. The estimated proportions were then added to the metadata for use as adjustment variables in the analyses. We then undertook analyses either adjusted or not adjusted for estimated cell type proportion.</p>
+                <p><xref rid="fig-1" ref-type="fig">Figure 1</xref> depicts the combinations of data-processing and analysis choices that were undertaken. In brief, there were six normalised datasets (three different normalisation methods, with probe filtering performed before normalisation or after normalisation). These datasets were either used immediately for analysis, or processed using the ComBat algorithm (in both supervised and unsupervised form) prior to analysis. Non-ComBat-processed data were analysed with three different models: an unadjusted model (containing only the effects of interest), a model adjusted for batch, and a model adjusted for batch and estimated cell type proportions. ComBat-processed data were analysed with two different models: one containing no other adjustment variables (but assumed to be pre-adjusted for batch), and one adjusted for cell type proportion.</p>
+                <fig position="float" id="fig-1">
+                  <object-id pub-id-type="doi">10.7717/peerj.14786/fig-1</object-id>
+                  <label>Figure 1</label>
+                  <caption>
+                    <title>Flowchart of data processing and analysis.</title>
+                    <p>Combinations of data-processing and analysis choices, consisting of six normalised datasets (SQN, BMIQ or SWAN, with probe filering before or afterwards), use or non-use of ComBat processing (supervised or unsupervised), and analysis with either an unadjusted model, a model adjusted for batch, or a model adjusted for batch and cell type proportion.</p>
+                  </caption>
+                  <graphic xlink:href="peerj-11-14786-g001" position="float"/>
+                </fig>
+              </sec>
+              <sec>
+                <title>Statistical analysis</title>
+                <p>Differential methylation was investigated probe-wise using linear models with empirical Bayes variance correction as implemented in the <italic toggle="yes">limma</italic> package (<xref rid="ref-28" ref-type="bibr">Ritchie et al., 2015</xref>; <xref rid="ref-31" ref-type="bibr">Smyth, 2005</xref>). For effects of BMI and intervention, models specified BMI (as continuous and mean-centred), intervention (Lifestyle Advice <italic toggle="yes">vs</italic> Standard Care), and their interaction. Contrasts were specified to estimate the effect of the intervention and of maternal BMI. Because of the presence of the intervention-by-BMI interaction term, this required specification of the BMI values at which the intervention effect was to be estimated, and the intervention groups in which the effect of BMI was to be estimated. For estimating intervention effects, we chose the mean BMI of the cohort (<italic toggle="yes">i.e.,</italic> value of 0 for the mean-centred variable, corresponding to an actual BMI of approximately 33 kg/m<sup>2</sup>), and at 5 kg/m<sup>2</sup> above the mean (a value of 5, corresponding to an actual BMI of approximately 38 kg/m<sup>2</sup>. For the effect of BMI, we estimated the effect of an increase of 5 kg/m<sup>2</sup> in BMI in each of the intervention groups (Standard Care, Lifestyle Advice) respectively. For effects of fake groups and infant sex, the models specified sex (Female <italic toggle="yes">vs</italic> Male), Fake Group 1 (Tortoiseshell <italic toggle="yes">vs</italic> Tabby), Fake Group 2 (Long-Haired <italic toggle="yes">vs</italic> Short-Haired), and their interaction. Contrasts were specified for infant sex, and for the effect of each fake group separately within levels of the other fake group (<italic toggle="yes">i.e.,</italic> effect of Tortoiseshell in Long-Haired and in Short-Haired; and effect of Short-Haired in Tortoiseshell and Tabby). The model matrix and contrast matrices are shown in the <xref rid="supp-1" ref-type="supplementary-material">Table S4</xref>.</p>
+                <p>For each contrast in each model, the number and identity (where applicable) of any differentially methylated probes (DMPs) were obtained. For detection of DMPs, <italic toggle="yes">limma</italic>’s default method of multiple-comparisons correction (Benjamini–Hochberg) and default alpha of 0.05 was used; this method controls the false discovery rate, or the proportion of statistically significant results not corresponding to true effects. Where DMPs were obtained, a comparison was made using the Holm method (retaining alpha of 0.05), which controls the Family-Wise-Error Rate (the probability that at least one statistically significant result does not correspond to a true effect). The Holm method can be considered more stringent than Benjamini–Hochberg, but is less stringent than Bonferroni correction, which is known to be too conservative even outside the context of high-dimensional data and is therefore not generally appropriate for EWAS studies (and has not been used in other studies investigating cord blood DNAm in relation to maternal BMI or diet and lifestyle). The full set of <italic toggle="yes">p</italic> values and estimated log-fold-changes (for all 426,572 probes) corresponding to each contrast were also obtained, in order to compare probe rankings and overall distributions. To make the comparison more tractable, probe rankings were investigated using only those probes ranked in the top 10 (<italic toggle="yes">i.e.,</italic> the probes with the smallest <italic toggle="yes">p</italic> value, or largest estimated logFC, in a given model).</p>
+                <p>The findings from different data-processing choices were then compared along five dimensions:</p>
+                <list list-type="simple" id="list-1">
+                  <list-item>
+                    <label> 1.</label>
+                    <p>Number and identity of differentially methylated probes (DMPs); for infant sex, the direction of differential methylation (‘down’, corresponding to negative t-statistics or lower methylation in females, <italic toggle="yes">versus</italic> ‘up’, corresponding to higher methylation in females) was also examined. For BMI and intervention effects, the number and identity of statistically significant DMPs allows us to see differences in detection of effects, and whether the different analysis pipelines produce consistent results regarding the identity of any DMPs, though the truth is not known. For the fake groupings, the number of statistically significant DMPs is an indication of the tendency to produce spurious findings. For infant sex, while we do not know the actual number and identity of truly differentially methylated sites, differences in the number and identity of DMPs demonstrate that there must be either false positives or false negatives.</p>
+                  </list-item>
+                  <list-item>
+                    <label> 2.</label>
+                    <p>Consistency of rankings by <italic toggle="yes">p</italic> value for ‘top 10’ probes. This gives an indication of whether different methods will give the same results for the probes with the largest differences.</p>
+                  </list-item>
+                  <list-item>
+                    <label> 3.</label>
+                    <p>Consistency of rankings by logFC for ‘top 10’ probes, as well as the consistency of the logFC estimates. This gives an indication of whether the estimates of effect are similar between methods.</p>
+                  </list-item>
+                  <list-item>
+                    <label> 4.</label>
+                    <p>Overall distribution of <italic toggle="yes">p</italic> values. Under the null hypothesis of no effect, <italic toggle="yes">p</italic> values should have a uniform distribution between 0 and 1; if effects are present, there will be more <italic toggle="yes">p</italic> values at the lower end of the distribution, the extent of which will depend on how many DMPs there are and the strength of the effects.</p>
+                  </list-item>
+                  <list-item>
+                    <label> 5.</label>
+                    <p>Overall distribution of logFC estimates. Under the null hypothesis of no effect, logFC estimates should be roughly normally distributed around 0. If effects are present, there will be more estimates far away from 0 (with the direction depending on whether the effect is one of hypomethylation or hypermethylation, and the distance depending on the strength of the effect).</p>
+                  </list-item>
+                </list>
+              </sec>
+            </sec>
+            <sec sec-type="results">
+              <title>Results</title>
+              <p>All dimensions of data processing choices had some impact on downstream analysis results, in terms of the number (and identity) of differentially methylated probes, rankings of probes (by <italic toggle="yes">p</italic> value and logFC), estimates of logFC, and overall distribution of <italic toggle="yes">p</italic> values and logFC, corresponding to both real and spurious effects of interest. In some cases a consistent impact of a particular choice was observed, while in others there was no consistent pattern, or this pattern varied according to the other choices with which it was combined.</p>
+              <p><xref rid="table-1" ref-type="table">Tables 1</xref>–<xref rid="table-3" ref-type="table">3</xref> give information about the number of significantly differentially methylated probes in each of the models fitted for the combinations of filtering, normalisation, batch correction and cell adjustment approaches, for infant sex, maternal BMI (in the Standard Care group) and Tortoiseshell (in the Tabby group) respectively. <xref rid="supp-1" ref-type="supplementary-material">Figures S1</xref>-<xref rid="supp-1" ref-type="supplementary-material">S4</xref> show the degree of overlap in the actual probes found to be significantly differently methylated between models for infant sex, intervention (at the mean BMI of the cohort), BMI (in the Standard Care group), and the effect of Short-Haired in the Tabby group. <xref rid="fig-2" ref-type="fig">Figure 2</xref> and <xref rid="fig-3" ref-type="fig">Figs. 3</xref>–<xref rid="fig-5" ref-type="fig">5</xref> show the differences in ranking of probes (those which were in the top 10 in any model) by <italic toggle="yes">p</italic> value and log-Fold-Change for the same set of effects, and <xref rid="supp-1" ref-type="supplementary-material">Tables S4</xref>–<xref rid="supp-1" ref-type="supplementary-material">S6</xref> gives Spearman Rank Correlation matrices for these rankings. The overall distribution of <italic toggle="yes">p</italic> values, and of log-Fold-Change estimates, for the same set of effects is shown in <xref rid="fig-6" ref-type="fig">Figs. 6</xref> and <xref rid="fig-7" ref-type="fig">7</xref>.</p>
+              <table-wrap position="float" id="table-1">
+                <object-id pub-id-type="doi">10.7717/peerj.14786/table-1</object-id>
+                <label>Table 1</label>
+                <caption>
+                  <title>Number of DMPs for infant sex (female), by probe filtering method, batch correction method, normalisation method and cell type method.</title>
+                </caption>
+                <alternatives>
+                  <graphic xlink:href="peerj-11-14786-g008" position="float"/>
+                  <table frame="hsides" rules="groups">
+                    <colgroup span="1">
+                      <col span="1"/>
+                      <col span="1"/>
+                      <col span="1"/>
+                      <col span="1"/>
+                      <col span="1"/>
+                      <col span="1"/>
+                      <col span="1"/>
+                      <col span="1"/>
+                    </colgroup>
+                    <thead>
+                      <tr>
+                        <th rowspan="1" colspan="1">Model</th>
+                        <th rowspan="1" colspan="1"/>
+                        <th align="center" colspan="2" rowspan="1">SQN</th>
+                        <th align="center" colspan="2" rowspan="1">BMIQ</th>
+                        <th align="center" colspan="2" rowspan="1">SWAN</th>
+                      </tr>
+                      <tr>
+                        <th rowspan="1" colspan="1"/>
+                        <th rowspan="1" colspan="1"/>
+                        <th rowspan="1" colspan="1">Post Filtered</th>
+                        <th rowspan="1" colspan="1">Pre Filtered</th>
+                        <th rowspan="1" colspan="1">Post Filtered</th>
+                        <th rowspan="1" colspan="1">Pre Filtered</th>
+                        <th rowspan="1" colspan="1">Post Filtered</th>
+                        <th rowspan="1" colspan="1">Pre Filtered</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td rowspan="1" colspan="1">No ComBat</td>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">- Unadjusted</td>
+                        <td rowspan="1" colspan="1">Down <break/>Up</td>
+                        <td rowspan="1" colspan="1">15,088 <break/>20,587</td>
+                        <td rowspan="1" colspan="1">14,878 <break/>20,441</td>
+                        <td rowspan="1" colspan="1">7,935 <break/>28,004</td>
+                        <td rowspan="1" colspan="1">7,554 <break/>30,741</td>
+                        <td rowspan="1" colspan="1">7,581 <break/>25,784</td>
+                        <td rowspan="1" colspan="1">6,890 <break/>25,962</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">- Adjusted for Batch</td>
+                        <td rowspan="1" colspan="1">Down <break/>Up</td>
+                        <td rowspan="1" colspan="1">13,132 <break/>20,225</td>
+                        <td rowspan="1" colspan="1">13,215 <break/>19,956</td>
+                        <td rowspan="1" colspan="1">6,602 <break/>39,482</td>
+                        <td rowspan="1" colspan="1">6,112 <break/>34,408</td>
+                        <td rowspan="1" colspan="1">7,100 <break/>30,362</td>
+                        <td rowspan="1" colspan="1">6,140 <break/>29,780</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">- Adjusted for Batch + Cell</td>
+                        <td rowspan="1" colspan="1">Down <break/>Up</td>
+                        <td rowspan="1" colspan="1">28,406 <break/>31,973</td>
+                        <td rowspan="1" colspan="1">28,633 <break/>32,204</td>
+                        <td rowspan="1" colspan="1">15,855 <break/>39,719</td>
+                        <td rowspan="1" colspan="1">14,900 <break/>45,255</td>
+                        <td rowspan="1" colspan="1">14,239 <break/>43,155</td>
+                        <td rowspan="1" colspan="1">10,408 <break/>40,709</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">Supervised ComBat</td>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">- Unadjusted<xref rid="table-1fn1" ref-type="table-fn"><sup>*</sup></xref></td>
+                        <td rowspan="1" colspan="1">Down <break/>Up</td>
+                        <td rowspan="1" colspan="1">20,967 <break/>25,690</td>
+                        <td rowspan="1" colspan="1">21,230 <break/>25,320</td>
+                        <td rowspan="1" colspan="1">11,235 <break/>41,518</td>
+                        <td rowspan="1" colspan="1">10,180 <break/>48,191</td>
+                        <td rowspan="1" colspan="1">10,772 <break/>45,193</td>
+                        <td rowspan="1" colspan="1">9,252 <break/>43,237</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">- Adjusted for Cell</td>
+                        <td rowspan="1" colspan="1">Down <break/>Up</td>
+                        <td rowspan="1" colspan="1">35,559 <break/>37,068</td>
+                        <td rowspan="1" colspan="1">36,022 <break/>36,972</td>
+                        <td rowspan="1" colspan="1">18,036 <break/>56,521</td>
+                        <td rowspan="1" colspan="1">16,512 <break/>64,851</td>
+                        <td rowspan="1" colspan="1">16,423 <break/>68,769</td>
+                        <td rowspan="1" colspan="1">12,198 <break/>65,109</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">UnSupervised ComBat</td>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">- Unadjusted<xref rid="table-1fn1" ref-type="table-fn"><sup>*</sup></xref></td>
+                        <td rowspan="1" colspan="1">Down <break/>Up</td>
+                        <td rowspan="1" colspan="1">14,603 <break/>21,336</td>
+                        <td rowspan="1" colspan="1">14,763 <break/>21,041</td>
+                        <td rowspan="1" colspan="1">7,634 <break/>30,961</td>
+                        <td rowspan="1" colspan="1">6,836 <break/>34,882</td>
+                        <td rowspan="1" colspan="1">7,344 <break/>31,892</td>
+                        <td rowspan="1" colspan="1">6,377 <break/>31,170</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">- Adjusted for Cell</td>
+                        <td rowspan="1" colspan="1">Down <break/>Up</td>
+                        <td rowspan="1" colspan="1">28,012 <break/>32,478</td>
+                        <td rowspan="1" colspan="1">28,286 <break/>32,447</td>
+                        <td rowspan="1" colspan="1">14,060 <break/>43,370</td>
+                        <td rowspan="1" colspan="1">12,916 <break/>49,520</td>
+                        <td rowspan="1" colspan="1">13,030 <break/>52,037</td>
+                        <td rowspan="1" colspan="1">9,560 <break/>49,102</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </alternatives>
+                <table-wrap-foot>
+                  <fn id="table-1fn">
+                    <p>
+                      <bold>Notes.</bold>
+                    </p>
+                  </fn>
+                  <fn id="table-1fn1">
+                    <label>*</label>
+                    <p>No adjustment beyond the correction for batch as implemented in the ComBat algorithm.</p>
+                  </fn>
+                </table-wrap-foot>
+              </table-wrap>
+              <table-wrap position="float" id="table-2">
+                <object-id pub-id-type="doi">10.7717/peerj.14786/table-2</object-id>
+                <label>Table 2</label>
+                <caption>
+                  <title>DMPs for effect of maternal BMI in the standard care group.</title>
+                </caption>
+                <alternatives>
+                  <graphic xlink:href="peerj-11-14786-g009" position="float"/>
+                  <table frame="hsides" rules="groups">
+                    <colgroup span="1">
+                      <col span="1"/>
+                      <col span="1"/>
+                      <col span="1"/>
+                      <col span="1"/>
+                      <col span="1"/>
+                      <col span="1"/>
+                      <col span="1"/>
+                    </colgroup>
+                    <thead>
+                      <tr>
+                        <th rowspan="1" colspan="1"/>
+                        <th align="center" colspan="2" rowspan="1">SQN</th>
+                        <th align="center" colspan="2" rowspan="1">BMIQ</th>
+                        <th align="center" colspan="2" rowspan="1">SWAN</th>
+                      </tr>
+                      <tr>
+                        <th rowspan="1" colspan="1">Model</th>
+                        <th rowspan="1" colspan="1">Post Filtered</th>
+                        <th rowspan="1" colspan="1">Pre Filtered</th>
+                        <th rowspan="1" colspan="1">Post Filtered</th>
+                        <th rowspan="1" colspan="1">Pre Filtered</th>
+                        <th rowspan="1" colspan="1">Post Filtered</th>
+                        <th rowspan="1" colspan="1">Pre Filtered</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td align="center" colspan="7" rowspan="1">No ComBat</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">- Unadjusted</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">5</td>
+                        <td rowspan="1" colspan="1">6</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">- Adjusted for Batch</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">6</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">- Adjusted for Batch + Cell</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">8</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">6</td>
+                        <td rowspan="1" colspan="1">0</td>
+                      </tr>
+                      <tr>
+                        <td align="center" colspan="7" rowspan="1">Supervised ComBat</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">- Unadjusted</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">10</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">- Adjusted for Cell</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">99</td>
+                        <td rowspan="1" colspan="1">207</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                      </tr>
+                      <tr>
+                        <td align="center" colspan="7" rowspan="1">UnSupervised ComBat</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">- Unadjusted</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">- Adjusted for Cell</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">6</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </alternatives>
+              </table-wrap>
+              <table-wrap position="float" id="table-3">
+                <object-id pub-id-type="doi">10.7717/peerj.14786/table-3</object-id>
+                <label>Table 3</label>
+                <caption>
+                  <title>DMPs for fake groups: ‘short-haired’ in ‘Tabby’.</title>
+                </caption>
+                <alternatives>
+                  <graphic xlink:href="peerj-11-14786-g010" position="float"/>
+                  <table frame="hsides" rules="groups">
+                    <colgroup span="1">
+                      <col span="1"/>
+                      <col span="1"/>
+                      <col span="1"/>
+                      <col span="1"/>
+                      <col span="1"/>
+                      <col span="1"/>
+                      <col span="1"/>
+                    </colgroup>
+                    <thead>
+                      <tr>
+                        <th rowspan="1" colspan="1"/>
+                        <th align="center" colspan="2" rowspan="1">SQN</th>
+                        <th align="center" colspan="2" rowspan="1">BMIQ</th>
+                        <th align="center" colspan="2" rowspan="1">SWAN</th>
+                      </tr>
+                      <tr>
+                        <th rowspan="1" colspan="1">Model</th>
+                        <th rowspan="1" colspan="1">Post Filtered</th>
+                        <th rowspan="1" colspan="1">Pre Filtered</th>
+                        <th rowspan="1" colspan="1">Post Filtered</th>
+                        <th rowspan="1" colspan="1">Pre Filtered</th>
+                        <th rowspan="1" colspan="1">Post Filtered</th>
+                        <th rowspan="1" colspan="1">Pre Filtered</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td align="center" colspan="7" rowspan="1">No ComBat</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">- Unadjusted</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">- Adjusted for Batch</td>
+                        <td rowspan="1" colspan="1">2,180</td>
+                        <td rowspan="1" colspan="1">2,574</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">- Adjusted for Batch + Cell</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                      </tr>
+                      <tr>
+                        <td align="center" colspan="7" rowspan="1">Supervised ComBat</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">- Unadjusted</td>
+                        <td rowspan="1" colspan="1">6,768</td>
+                        <td rowspan="1" colspan="1">7,007</td>
+                        <td rowspan="1" colspan="1">3</td>
+                        <td rowspan="1" colspan="1">6</td>
+                        <td rowspan="1" colspan="1">8</td>
+                        <td rowspan="1" colspan="1">8</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">- Adjusted for Cell</td>
+                        <td rowspan="1" colspan="1">123</td>
+                        <td rowspan="1" colspan="1">133</td>
+                        <td rowspan="1" colspan="1">1</td>
+                        <td rowspan="1" colspan="1">1</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                      </tr>
+                      <tr>
+                        <td align="center" colspan="7" rowspan="1">UnSupervised ComBat</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">- Unadjusted</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">- Adjusted for Cell</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </alternatives>
+              </table-wrap>
+              <fig position="float" id="fig-2">
+                <object-id pub-id-type="doi">10.7717/peerj.14786/fig-2</object-id>
+                <label>Figure 2</label>
+                <caption>
+                  <title>Probes ranked in top 10 by <italic toggle="yes">p</italic>-value in batch+cell adjusted model, for (A) infant sex, (B) BMI in standard care, (C) short-haired in Tabby.</title>
+                  <p>For each probe the rank is given by pre- <italic toggle="yes">vs</italic> post-filtering, normalisation method, and batch-handling method. The model is one adjusting for batch (either explicitly in the model or <italic toggle="yes">via</italic> batch-correction algorithm) and cell type proportion. Adjust = adjusted for batch in the model; SCB = Supervised ComBat; UCB = Unsupervised ComBat.</p>
+                </caption>
+                <graphic xlink:href="peerj-11-14786-g002" position="float"/>
+              </fig>
+              <fig position="float" id="fig-3">
+                <object-id pub-id-type="doi">10.7717/peerj.14786/fig-3</object-id>
+                <label>Figure 3</label>
+                <caption>
+                  <title>Top 10 probes by LogFC: infant sex.</title>
+                  <p>Largest LogFC for Infant Sex (female), by normalisation and batch correction method.</p>
+                </caption>
+                <graphic xlink:href="peerj-11-14786-g003" position="float"/>
+              </fig>
+              <fig position="float" id="fig-4">
+                <object-id pub-id-type="doi">10.7717/peerj.14786/fig-4</object-id>
+                <label>Figure 4</label>
+                <caption>
+                  <title>Top 10 probes by LogFC: BMI in standard care.</title>
+                  <p>Largest LogFC for effect of BMI in standard care group, by normalisation and batch correction method.</p>
+                </caption>
+                <graphic xlink:href="peerj-11-14786-g004" position="float"/>
+              </fig>
+              <fig position="float" id="fig-5">
+                <object-id pub-id-type="doi">10.7717/peerj.14786/fig-5</object-id>
+                <label>Figure 5</label>
+                <caption>
+                  <title>Top 10 probes by LogFC: ‘short-haired’ in ‘Tabby’.</title>
+                  <p>Largest LogFC for effect of ‘Short-Haired’ in ‘Tabby’ group, by normalisation and batch correction method.</p>
+                </caption>
+                <graphic xlink:href="peerj-11-14786-g005" position="float"/>
+              </fig>
+              <fig position="float" id="fig-6">
+                <object-id pub-id-type="doi">10.7717/peerj.14786/fig-6</object-id>
+                <label>Figure 6</label>
+                <caption>
+                  <title>Distribution of unadjusted P values by normalisation and batch correction method, for batch and cell adjusted models.</title>
+                  <p>Only models from data where probe filtering was performed post-normalisation are included. The model is one adjusting for batch (either explicitly in the model or <italic toggle="yes">via</italic> batch-correction algorithm) and cell type proportion.</p>
+                </caption>
+                <graphic xlink:href="peerj-11-14786-g006" position="float"/>
+              </fig>
+              <fig position="float" id="fig-7">
+                <object-id pub-id-type="doi">10.7717/peerj.14786/fig-7</object-id>
+                <label>Figure 7</label>
+                <caption>
+                  <title>Distribution of log-fold-change estimates by normalisation and batch correction method, for batch and cell adjusted models.</title>
+                  <p>Only models from data where probe filtering was performed post-normalisation are included. The model is one adjusting for batch (either explicitly in the model or <italic toggle="yes">via</italic> batch-correction algorithm) and cell type proportion.</p>
+                </caption>
+                <graphic xlink:href="peerj-11-14786-g007" position="float"/>
+              </fig>
+              <p>Below we discuss the effect of each dimension (probe filtering, normalisation, batch effects, cell type correction) on results.</p>
+              <sec>
+                <title>Effect of probe filtering pre-normalisation <italic toggle="yes">vs</italic> post-normalisation</title>
+                <p>Filtering probes prior to normalisation, compared to filtering after normalisation, led to modest differences in number of DMPs, rankings of probes by logFC and <italic toggle="yes">p</italic> value, and overall distributions of <italic toggle="yes">p</italic> values and logFC estimates. Filtering pre-normalisation produced different numbers of DMPs for infant sex, but the nature of the effect differed by normalisation method: in SWAN data there was a consistent pattern of fewer significant probes both negative and positive, while in BMIQ data there were fewer negative but more positive probes, and in SQN data there were more negative but fewer positive probes. In relation to effects of BMI, intervention, and fake groups, differences were harder to discern due to the lack of any DMPs for many models; however, when DMPs were present for an effect, there was a tendency for there to be a greater number of them in the pre-filtered data.</p>
+                <p>Probe rankings, by logFC and <italic toggle="yes">p</italic> value, tended to be relatively consistent between pre-filtered and post-filtered data, with some cases of larger discrepancies in rankings for individual probes. The discrepancies were more common, and larger, for fake group, BMI and intervention effects than for infant sex. Similarly, there were no dramatic differences in distributions of <italic toggle="yes">p</italic> values or logFC estimates for infant sex; there were differences in distribution between pre- and post-filtered data for fake group, intervention and BMI effects, but there was no consistent pattern to these differences.</p>
+                <p>The question of whether probe filtering should be carried out before or after normalisation is one which has received surprisingly little attention in the literature, but our results suggest that it can make a difference to findings in some contexts. In particular there may be a higher risk of spurious findings in pre-filtered data, but there may also be a risk of failing to detect true differences –either any differences, or specifically hypomethylated or hypermethylated loci, depending upon the normalisation method employed.</p>
+              </sec>
+              <sec>
+                <title>Effect of normalisation method</title>
+                <p>Normalisation method had a substantial influence on number and identity of DMPs, rankings of probes and <italic toggle="yes">p</italic> values, and distributions of <italic toggle="yes">p</italic> values and logFC estimates. For infant sex, SQN data consistently had the highest number of significant negative probes and the lowest number of significant positive probes, while SWAN data always had the lowest number of significant positive probes. For BMI and intervention effects, only BMIQ data produced DMPs where no ComBat processing was used; in data processed using supervised ComBat, all three normalisation methods resulted in some DMPs, but the number and identity of these probes differed. In fake group data, SQN data produced a large number of significant probes in non-ComBat-processed and supervised-ComBat data, while BMIQ and SWAN data produced a small number of probes in supervised-ComBat data only; again, the number of significant probes differed between the normalisation methods (see <xref rid="table-1" ref-type="table">Tables 1</xref>–<xref rid="table-3" ref-type="table">3</xref> and <xref rid="supp-1" ref-type="supplementary-material">Figs. S1</xref>–<xref rid="supp-1" ref-type="supplementary-material">S4</xref>).</p>
+                <p>There was a fair degree of consistency in rankings of probes by <italic toggle="yes">p</italic> value for infant sex, but some large discrepancies in rankings for BMI, intervention, and fake group effects. The rankings were less consistent for highest-ranked probes by logFC, with some quite large differences in both rankings and effect estimates (including different directions of effect) for infant sex, BMI, intervention and fake groups. BMIQ estimates tended to be more extreme (further from 0) than the other two methods.</p>
+                <p>Distributions of <italic toggle="yes">p</italic> values and logFC estimates also differed between normalisation methods. For <italic toggle="yes">p</italic> values the differences were not consistent across models and effects, but for logFC there was a clear difference between BMIQ and the other two methods, with the range of estimates in BMIQ data being much more widely dispersed; SQN and SWAN data had more similar distributions, but SQN was moderately narrower than SWAN across all effects and models.</p>
+                <p>Overall, there was little difference between SQN and SWAN methods when adjusting for batch in the model. There is some evidence that SQN would result in fewer significant DMPs than SWAN for known effects (particularly when using supervised ComBat), but (many) more spuriously significant DMPs than either SWAN or BMIQ where effects are absent. The behaviour of BMIQ was more variable depending on other dimensions of the pipeline, but had a wider dispersion of logFC estimates than the other methods, particularly when adjusting for batch in the model. This tended to result in more DMPs in some scenarios, but in general will lead effect estimates derived from BMIQ data to be more extreme (and probably overestimates of the true effect).</p>
+              </sec>
+              <sec>
+                <title>Effect of batch correction method</title>
+                <p>There were clear differences in all dimensions between batch correction methods. For all effects (infant sex, BMI, intervention and fake groups), supervised ComBat processing produced a larger number of DMPs compared to either unsupervised ComBat processing or adjustment for batch in the analysis model. The difference between unsupervised ComBat and batch-adjustment was less consistent for infant sex effects, but for BMI, intervention and fake group effects, there were no DMPs in unsupervised ComBat models, whereas there were a few for batch-adjusted models.</p>
+                <p>Rankings of top probes by <italic toggle="yes">p</italic> value were relatively consistent between batch-adjustment methods for infant sex, but there were some large discrepancies particularly for BMI and intervention effects, and especially in BMIQ data. The same phenomenon was observed for logFC rankings, which also showed a tendency for logFC estimates in unsupervised-ComBat data to be smaller in absolute magnitude (closer to 0).</p>
+                <p>The distribution of <italic toggle="yes">p</italic> values showed clear and consistent differences between batch-correction methods, with the distribution in supervised ComBat data shifted substantially towards 0 relative to both unsupervised ComBat and batch-adjusted models, for all effects. For logFC estimates, supervised ComBat and batch-adjusted data were generally fairly similar, but unsupervised ComBat data generally resulted in a narrower range. This means that supervised ComBat will tend to produce more statistically significant probes, regardless of the presence or absence of an effect. Conversely, effect estimates from unsupervised ComBat may be underestimated; at least, they will tend to be smaller in magnitude than those derived from data where batch is handled differently.</p>
+                <p>Of particular note is the combination of SQN normalisation and either adjustment for batch in the model, or use of supervised ComBat. These combinations produced an extremely large number of significant DMPs for fake group effects; this was more extreme in the case of supervised ComBat (producing over 6,000 DMPs) than when adjusting for batch (somewhat over 2,000 DMPs). Additional adjustment for cell type proportion ameliorated this effect, as discussed below, but in the case of supervised ComBat data, did not eliminate spurious findings. This suggests that batch adjustment may be particularly ill-advised in the context of SQN normalisation; since SQN involves between-array as well as within-array normalisation, additional adjustment for batch may be over-correcting.</p>
+              </sec>
+              <sec>
+                <title>Effect of adjustment for estimated cell type proportion</title>
+                <p>Adjustment for cell type proportion affected results, but the impact was not consistent across the different types of effects studied. Adjustment for batch resulted in a substantially larger number of DMPs (both negative and positive) for infant sex, but reduced the number of DMPs for fake groups (for models where there were DMPs for fake groups effects). For BMI and intervention, the effect of cell type adjustment was mostly but not entirely to produce more DMPs.</p>
+                <p>The effect of cell type adjustment on top probe rankings was fairly modest, although some quite large discrepancies were observed for <italic toggle="yes">p</italic> value rankings, logFC rankings, and logFC estimates. The effect on distribution of <italic toggle="yes">p</italic> values depended on the effect: for infant sex, adjustment for cell type proportion consistently (for all normalisation and batch-correction methods) shifted the distribution downwards towards 0 (<italic toggle="yes">i.e.,</italic> more statistically significant probes), whereas the differences were less consistent and smaller in BMI, intervention and fake group effects. There were no large or consistent differences in distribution of logFC estimates between cell-type-adjusted and non-adjusted models.</p>
+                <p>Overall, adjustment for cell type proportion tended to improve model behaviour regarding spurious results: the number of significantly differentially methylated probes decreased with adjustment for cell type proportion, though they were not always eliminated. The number of differentially methylated probes for infant sex was increased, which may reflect either improvement (greater ability to detect true effects due to removal of noise due to cell type differences) or harm (greater number of spurious effects) depending on whether the extra probes are in fact differentially methylated between males and females; without knowing the true number and identity of DMPs, we cannot be certain. Similarly, adjustment for cell type proportion increased the number of DMPs for BMI effects in BMIQ and SWAN data, in one scenario (BMIQ with Supervised ComBat) by a substantial amount (from 99 to 2017 DMPs) and these are most likely to be false positives.</p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion">
+              <title>Discussion</title>
+              <p>Different choices in probe filtering, normalisation, batch handling, and adjustment for cell types resulted in different findings regarding the presence and identity of differentially methylated probes, rankings of probes by <italic toggle="yes">p</italic> value and log-fold-change, and different overall distributions of <italic toggle="yes">p</italic> values and log-fold-change estimates. While some of these differences were relatively modest, our results nevertheless show that particular combinations of data processing and analysis choices may result in spurious false positive findings, and/or potentially the failure to detect true effects. Additionally, while the magnitude of effect estimates is often not considered in differential methylation studies, some pipelines may result in an overestimate or underestimate of the true effect. Importantly, the results tended to depend on <italic toggle="yes">combinations</italic> of choices rather than individual elements of the analysis pipeline.</p>
+              <p>The results of our analyses are consistent with other investigations which have been undertaken into different data-processing and analysis choices. As noted above, the potential for ‘false positives’ to result from supervised batch-correction methods specifying effects of interest has been previously identified by a number of authors (<xref rid="ref-22" ref-type="bibr">Nygaard, Rødland &amp; Hovig, 2016a</xref>; <xref rid="ref-26" ref-type="bibr">Price &amp; Robinson, 2018</xref>; <xref rid="ref-41" ref-type="bibr">Zindler et al., 2020</xref>). Our finding that the distribution of <italic toggle="yes">p</italic> values in the supervised ComBat algorithm tends to shift the <italic toggle="yes">p</italic> value distribution downward is consistent with the finding of <xref rid="ref-22" ref-type="bibr">Nygaard, Rødland &amp; Hovig (2016a)</xref> that, in contexts where the effects of interest are not evenly spread between batches, the distribution of F-statistics will be biased upwards. While implementation as an unsupervised method may be preferable, our findings suggest that this may create a different problem, with the estimates of log-fold-change corresponding to effects of interest biased towards zero.</p>
+              <p><xref rid="ref-38" ref-type="bibr">Wu et al. (2014)</xref> compared a variety of normalisation approaches noted a tendency for more statistically significant differences to arise in SQN data, which they hypothesise may be due to reduced overall variance. In our investigation, the main context in which SQN data produced a large number of spurious differentially methylated probes was when supervised ComBat, or adjustment for batch in the model, was used; we additionally found that adjustment for cell type proportion reduced the number of spurious findings (while not necessarily eliminating them). Thus, SQN is not universally more prone to producing spurious findings than other normalisation methods.</p>
+              <p>Our findings do not suggest that there is one particular combination of methods which can be guaranteed to work in all contexts, and some of the recommendations which have been made by others may need to be modified somewhat. For example <xref rid="ref-23" ref-type="bibr">Nygaard, Rødland &amp; Hovig (2016b)</xref> conclude that adjustment for batch in the model is preferable to the use of batch-correction algorithms, but our results suggest that this is inadvisable for data that have been normalised using SQN; in our data, this combination resulted in a large number of spurious findings. In general, while our results support others’ findings that supervised bach-correction algorithms should not be used, there does not appear to be much difference between unsupervised batch-correction and adjustment for batch in the model. The only caveat here is that some of our results (particularly regarding effects of infant sex) suggest that unsupervised ComBat may underestimate the magnitude of effects, as the distribution of logFC estimates was substantially narrower than other methods. The use of a more stringent method of Type I error control may also help to reduce the number of spurious findings: the use of FDR correction methods such as Benjamini–Hochberg, while very common (<xref rid="ref-18" ref-type="bibr">Maksimovic, Phipson &amp; Oshlack, 2017</xref>), may not be sufficient to deal with higher rates of spurious results (<xref rid="ref-22" ref-type="bibr">Nygaard, Rødland &amp; Hovig, 2016a</xref>). In our data, the use of the Holm method (which controls the Family-Wise Error Rate) reduced, but did not eliminate, spurious findings associated with fake group effects. Investigation of DNA regions, rather than probe-wise analysis, may also help to differentiate true methylation differences from spurious ones (<xref rid="ref-37" ref-type="bibr">Wang et al., 2015</xref>): the statistically significant DMPs for fake group effects (as well as for BMI and intervention effects) tended to be isolated rather than being grouped in the same region, and in our companion paper, we found no significant differences in methylation for groups of probes on candidate genes (<xref rid="ref-16" ref-type="bibr">Louise et al., 2022</xref>).</p>
+              <p>One limitation of our study is our inability to compare model behaviour in relation to known effects. It was relatively simple to create fake groups to study behaviour of models for effects which were known <italic toggle="yes">not</italic> to exist, but as we do not know the truth about which effects actually exist in our data, we could not compare behaviour of models in their ability to detect these known effects. Simulated data could potentially be used for this purpose; however, the effects in the simulated data would have to be biologically plausible. This was beyond the scope of our study; however, it is a good subject for future research. We used infant sex as the nearest proxy to a known effect, as we knew at least that some effects existed. However, we cannot say whether, and to what extent, the differences observed in relation to infant sex reflect spurious findings <italic toggle="yes">versus</italic> the failure to detect true effects.</p>
+              <p>Overall, as many other authors have noted, researchers working with DNAm data should better understand the methods built into standard pipelines (<xref rid="ref-26" ref-type="bibr">Price &amp; Robinson, 2018</xref>; <xref rid="ref-41" ref-type="bibr">Zindler et al., 2020</xref>), and should better document the specific data-processing methods used (<xref rid="ref-22" ref-type="bibr">Nygaard, Rødland &amp; Hovig, 2016a</xref>; <xref rid="ref-41" ref-type="bibr">Zindler et al., 2020</xref>). It is also important, in our view, to pay more attention to the context in which a particular epigenome-wide analysis is performed. For example, a less stringent method of Type I error control may often be chosen because the study is exploratory (hypothesis-generating) rather than confirmatory, and it is considered more important not to miss potential findings than to rule out spurious ones. In this case, the results from such studies should be interpreted accordingly: as suggestive findings which cannot be confidently accepted until they are validated in new data. The validation of existing findings should be treated as a high priority in epigenetics research (<xref rid="ref-26" ref-type="bibr">Price &amp; Robinson, 2018</xref>).</p>
+              <p>Additionally, the degree of confidence that can be placed in any new discoveries could be enhanced by performing sensitivity analyses—re-performing analyses using different normalisation methods, batch correction methods, or models—which we believe should become standard in this area.</p>
+            </sec>
+            <sec sec-type="supplementary-material" id="supplemental-information">
+              <title> Supplemental Information</title>
+              <supplementary-material id="supp-1" position="float" content-type="local-data">
+                <object-id pub-id-type="doi">10.7717/peerj.14786/supp-1</object-id>
+                <label>Supplemental Information 1</label>
+                <caption>
+                  <title>Supplementary Material</title>
+                </caption>
+                <media xlink:href="peerj-11-14786-s001.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material id="supp-2" position="float" content-type="local-data">
+                <object-id pub-id-type="doi">10.7717/peerj.14786/supp-2</object-id>
+                <label>Supplemental Information 2</label>
+                <caption>
+                  <title>R scripts</title>
+                </caption>
+                <media xlink:href="peerj-11-14786-s002.zip">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>We would like to acknowledge the participants in the LIMIT Randomised Controlled Trial, whose samples and data are used in this study, as well as the LIMIT research team who collected data and samples for the study. We would also like to acknowledge Shobana Navaneethabalakrishnan, the Academic Editor at PeerJ and two anonymous reviewers, whose helpful suggestions have substantially improved the manuscript.</p>
+            </ack>
+            <sec sec-type="additional-information">
+              <title>Additional Information and Declarations</title>
+              <fn-group content-type="competing-interests">
+                <title>Competing Interests</title>
+                <fn id="conflict-1" fn-type="COI-statement">
+                  <p>The authors declare there are no competing interests.</p>
+                </fn>
+              </fn-group>
+              <fn-group content-type="author-contributions">
+                <title>Author Contributions</title>
+                <fn id="contribution-1" fn-type="con">
+                  <p><xref rid="author-1" ref-type="contrib">Jennie Louise</xref> conceived and designed the experiments, performed the experiments, analyzed the data, prepared figures and/or tables, authored or reviewed drafts of the article, and approved the final draft.</p>
+                </fn>
+                <fn id="contribution-2" fn-type="con">
+                  <p><xref rid="author-2" ref-type="contrib">Andrea R. Deussen</xref> conceived and designed the experiments, performed the experiments, prepared figures and/or tables, authored or reviewed drafts of the article, and approved the final draft.</p>
+                </fn>
+                <fn id="contribution-3" fn-type="con">
+                  <p><xref rid="author-3" ref-type="contrib">Jodie M. Dodd</xref> conceived and designed the experiments, performed the experiments, authored or reviewed drafts of the article, and approved the final draft.</p>
+                </fn>
+              </fn-group>
+              <fn-group content-type="other">
+                <title>Human Ethics</title>
+                <fn id="addinfo-1">
+                  <p>The following information was supplied relating to ethical approvals (i.e., approving body and any reference numbers):</p>
+                  <p>The study was reviewed by the ethics committee of each participating institution: the Women’s and Children’s Health Network Human Research Ethics Committee (1839 &amp; 2051), the Central and Northern Adelaide Health Network Human Research Ethics Committee (2008033) and the Southern Adelaide Local Health Network Human Research Ethics Committee (128/08).</p>
+                </fn>
+              </fn-group>
+              <fn-group content-type="other">
+                <title>Data Availability</title>
+                <fn id="addinfo-2">
+                  <p>The following information was supplied regarding data availability:</p>
+                  <p>The R scripts contain all code for data processing and analysis are available in the <xref rid="supplemental-information" ref-type="sec">Supplementary File</xref>.</p>
+                </fn>
+              </fn-group>
+            </sec>
+            <ref-list content-type="authoryear">
+              <title>References</title>
+              <ref id="ref-1">
+                <label>Aryee et al. (2014)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Aryee</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Jaffe</surname>
+                      <given-names>AE</given-names>
+                    </name>
+                    <name>
+                      <surname>Corrada-Bravo</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Ladd-Acosta</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Feinberg</surname>
+                      <given-names>AP</given-names>
+                    </name>
+                    <name>
+                      <surname>Hansen</surname>
+                      <given-names>KD</given-names>
+                    </name>
+                    <name>
+                      <surname>Irizarry</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2014">2014</year>
+                  <article-title>Minfi: a flexible and comprehensive Bioconductor package for the analysis of Infinium DNA methylation microarrays</article-title>
+                  <source>Bioinformatics</source>
+                  <volume>30</volume>
+                  <fpage>1363</fpage>
+                  <lpage>1369</lpage>
+                  <pub-id pub-id-type="doi">10.1093/bioinformatics/btu049</pub-id>
+                  <pub-id pub-id-type="pmid">24478339</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-2">
+                <label>Bakulski et al. (2016)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bakulski</surname>
+                      <given-names>KM</given-names>
+                    </name>
+                    <name>
+                      <surname>Feinberg</surname>
+                      <given-names>JI</given-names>
+                    </name>
+                    <name>
+                      <surname>Andrews</surname>
+                      <given-names>SV</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Brown</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>McKenney</surname>
+                      <given-names>SL</given-names>
+                    </name>
+                    <name>
+                      <surname>Witter</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Walston</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Feinberg</surname>
+                      <given-names>AP</given-names>
+                    </name>
+                    <name>
+                      <surname>Fallin</surname>
+                      <given-names>MD</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2016">2016</year>
+                  <article-title>DNA methylation of cord blood cell types: applications for mixed cell birth studies</article-title>
+                  <source>Epigenetics</source>
+                  <volume>11</volume>
+                  <fpage>354</fpage>
+                  <lpage>362</lpage>
+                  <pub-id pub-id-type="doi">10.1080/15592294.2016.1161875</pub-id>
+                  <pub-id pub-id-type="pmid">27019159</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-3">
+                <label>Cardenas et al. (2016)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cardenas</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Allard</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Doyon</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Houseman</surname>
+                      <given-names>EA</given-names>
+                    </name>
+                    <name>
+                      <surname>Bakulski</surname>
+                      <given-names>KM</given-names>
+                    </name>
+                    <name>
+                      <surname>Perron</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Bouchard</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Hivert</surname>
+                      <given-names>M-F</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2016">2016</year>
+                  <article-title>Validation of a DNA methylation reference panel for the estimation of nucleated cells types in cord blood</article-title>
+                  <source>Epigenetics</source>
+                  <volume>11</volume>
+                  <fpage>773</fpage>
+                  <lpage>779</lpage>
+                  <pub-id pub-id-type="doi">10.1080/15592294.2016.1233091</pub-id>
+                  <pub-id pub-id-type="pmid">27668573</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-4">
+                <label>Chen et al. (2013)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Lemire</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Choufani</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Butcher</surname>
+                      <given-names>DT</given-names>
+                    </name>
+                    <name>
+                      <surname>Grafodatskaya</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Zanke</surname>
+                      <given-names>BW</given-names>
+                    </name>
+                    <name>
+                      <surname>Gallinger</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Hudson</surname>
+                      <given-names>TJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Weksberg</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2013">2013</year>
+                  <article-title>Discovery of cross-reactive probes and polymorphic CpGs in the Illumina Infinium HumanMethylation450 microarray</article-title>
+                  <source>Epigenetics</source>
+                  <volume>8</volume>
+                  <fpage>203</fpage>
+                  <lpage>209</lpage>
+                  <pub-id pub-id-type="doi">10.4161/epi.23470</pub-id>
+                  <pub-id pub-id-type="pmid">23314698</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-5">
+                <label>Dedeurwaerder et al. (2014)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dedeurwaerder</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Defrance</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Bizet</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Calonne</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Bontempi</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Fuks</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2014">2014</year>
+                  <article-title>A comprehensive overview of Infinium HumanMethylation450 data processing</article-title>
+                  <source>Briefings in Bioinformatics</source>
+                  <volume>15</volume>
+                  <fpage>929</fpage>
+                  <lpage>941</lpage>
+                  <pub-id pub-id-type="doi">10.1093/bib/bbt054</pub-id>
+                  <pub-id pub-id-type="pmid">23990268</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-6">
+                <label>Dodd et al. (2014a)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dodd</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Cramp</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Sui</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Yelland</surname>
+                      <given-names>LN</given-names>
+                    </name>
+                    <name>
+                      <surname>Deussen</surname>
+                      <given-names>AR</given-names>
+                    </name>
+                    <name>
+                      <surname>Grivell</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                    <name>
+                      <surname>Moran</surname>
+                      <given-names>LJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Crowther</surname>
+                      <given-names>CA</given-names>
+                    </name>
+                    <name>
+                      <surname>Turnbull</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>McPhee</surname>
+                      <given-names>AJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Wittert</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Owens</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Robinson</surname>
+                      <given-names>JS</given-names>
+                    </name>
+                    <collab>For the LIMIT Randomised Trial Group</collab>
+                  </person-group>
+                  <year iso-8601-date="2014">2014a</year>
+                  <article-title>The effects of antenatal dietary and lifestyle advice for women who are overweight or obese on maternal diet and physical activity: the LIMIT randomised trial</article-title>
+                  <source>BMC Medicine</source>
+                  <volume>12</volume>
+                  <fpage>161</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s12916-014-0161-y</pub-id>
+                  <pub-id pub-id-type="pmid">25315237</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-7">
+                <label>Dodd et al. (2014b)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dodd</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Turnbull</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>McPhee</surname>
+                      <given-names>AJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Deussen</surname>
+                      <given-names>AR</given-names>
+                    </name>
+                    <name>
+                      <surname>Grivell</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                    <name>
+                      <surname>Yelland</surname>
+                      <given-names>LN</given-names>
+                    </name>
+                    <name>
+                      <surname>Crowther</surname>
+                      <given-names>CA</given-names>
+                    </name>
+                    <name>
+                      <surname>Wittert</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Owens</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Robinson</surname>
+                      <given-names>JS</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2014">2014b</year>
+                  <person-group person-group-type="author">
+                    <collab>for the LIMIT Randomised Trial Group</collab>
+                  </person-group>
+                  <article-title>Antenatal lifestyle advice for women who are overweight or obese: LIMIT randomised trial</article-title>
+                  <source>BMJ</source>
+                  <volume>348</volume>
+                  <fpage>g1285</fpage>
+                  <lpage>g1285</lpage>
+                  <pub-id pub-id-type="doi">10.1136/bmj.g1285</pub-id>
+                  <pub-id pub-id-type="pmid">24513442</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-8">
+                <label>Fortin et al. (2014)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fortin</surname>
+                      <given-names>J-P</given-names>
+                    </name>
+                    <name>
+                      <surname>Labbe</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Lemire</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Zanke</surname>
+                      <given-names>BW</given-names>
+                    </name>
+                    <name>
+                      <surname>Hudson</surname>
+                      <given-names>TJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Fertig</surname>
+                      <given-names>EJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Greenwood</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                    <name>
+                      <surname>Hansen</surname>
+                      <given-names>KD</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2014">2014</year>
+                  <article-title>Functional normalization of 450k methylation array data improves replication in large cancer studies</article-title>
+                  <source>Genome Biology</source>
+                  <volume>15</volume>
+                  <fpage>503</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s13059-014-0503-2</pub-id>
+                  <pub-id pub-id-type="pmid">25599564</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-9">
+                <label>Fortin, Triche &amp; Hansen (2016)</label>
+                <element-citation publication-type="other">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fortin</surname>
+                      <given-names>J-P</given-names>
+                    </name>
+                    <name>
+                      <surname>Triche</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Hansen</surname>
+                      <given-names>K</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2016">2016</year>
+                  <article-title>Preprocessing, normalization and integration of the Illumina HumanMethylationEPIC array</article-title>
+                  <pub-id pub-id-type="doi">10.1101/065490</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-10">
+                <label>Gemma et al. (2009)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gemma</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Sookoian</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Alvariñas</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>García</surname>
+                      <given-names>SI</given-names>
+                    </name>
+                    <name>
+                      <surname>Quintana</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Kanevsky</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>González</surname>
+                      <given-names>CD</given-names>
+                    </name>
+                    <name>
+                      <surname>Pirola</surname>
+                      <given-names>CJ</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2009">2009</year>
+                  <article-title>Maternal pregestational bmi is associated with methylation of the <italic toggle="yes">PPARGC1A</italic> promoter in newborns</article-title>
+                  <source>Obesity</source>
+                  <volume>17</volume>
+                  <fpage>1032</fpage>
+                  <lpage>1039</lpage>
+                  <pub-id pub-id-type="doi">10.1038/oby.2008.605</pub-id>
+                  <pub-id pub-id-type="pmid">19148128</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-11">
+                <label>Heiss &amp; Just (2019)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Heiss</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Just</surname>
+                      <given-names>AC</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2019">2019</year>
+                  <article-title>Improved filtering of DNA methylation microarray data by detection <italic toggle="yes">p</italic> values and its impact on downstream analyses</article-title>
+                  <source>Clinical Epigenetics</source>
+                  <volume>11</volume>
+                  <fpage>15</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s13148-019-0615-3</pub-id>
+                  <pub-id pub-id-type="pmid">30678737</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-12">
+                <label>Hicks &amp; Irizarry (2015)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hicks</surname>
+                      <given-names>SC</given-names>
+                    </name>
+                    <name>
+                      <surname>Irizarry</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2015">2015</year>
+                  <article-title>quantro: a data-driven approach to guide the choice of an appropriate normalization method</article-title>
+                  <source>Genome Biology</source>
+                  <volume>16</volume>
+                  <fpage>117</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s13059-015-0679-0</pub-id>
+                  <pub-id pub-id-type="pmid">26040460</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-13">
+                <label>Hjort et al. (2018)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hjort</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Martino</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Grunnet</surname>
+                      <given-names>LG</given-names>
+                    </name>
+                    <name>
+                      <surname>Naeem</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Maksimovic</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Olsson</surname>
+                      <given-names>AH</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Ling</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Olsen</surname>
+                      <given-names>SF</given-names>
+                    </name>
+                    <name>
+                      <surname>Saffery</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Vaag</surname>
+                      <given-names>AA</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2018">2018</year>
+                  <article-title>Gestational diabetes and maternal obesity are associated with epigenome-wide methylation changes in children</article-title>
+                  <source>JCI Insight</source>
+                  <volume>3</volume>
+                  <elocation-id>e122572</elocation-id>
+                  <pub-id pub-id-type="doi">10.1172/jci.insight.122572</pub-id>
+                  <pub-id pub-id-type="pmid">30185669</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-14">
+                <label>Jaffe &amp; Irizarry (2014)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jaffe</surname>
+                      <given-names>AE</given-names>
+                    </name>
+                    <name>
+                      <surname>Irizarry</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2014">2014</year>
+                  <article-title>Accounting for cellular heterogeneity is critical in epigenome-wide association studies</article-title>
+                  <source>Genome Biology</source>
+                  <volume>15</volume>
+                  <fpage>R31</fpage>
+                  <lpage>R31</lpage>
+                  <pub-id pub-id-type="doi">10.1186/gb-2014-15-2-r31</pub-id>
+                  <pub-id pub-id-type="pmid">24495553</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-15">
+                <label>Lehne et al. (2015)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lehne</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Drong</surname>
+                      <given-names>AW</given-names>
+                    </name>
+                    <name>
+                      <surname>Loh</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Scott</surname>
+                      <given-names>WR</given-names>
+                    </name>
+                    <name>
+                      <surname>Tan</surname>
+                      <given-names>S-T</given-names>
+                    </name>
+                    <name>
+                      <surname>Afzal</surname>
+                      <given-names>U</given-names>
+                    </name>
+                    <name>
+                      <surname>Scott</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Jarvelin</surname>
+                      <given-names>M-R</given-names>
+                    </name>
+                    <name>
+                      <surname>Elliott</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>McCarthy</surname>
+                      <given-names>MI</given-names>
+                    </name>
+                    <name>
+                      <surname>Kooner</surname>
+                      <given-names>JS</given-names>
+                    </name>
+                    <name>
+                      <surname>Chambers</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2015">2015</year>
+                  <article-title>A coherent approach for analysis of the Illumina HumanMethylation450 BeadChip improves data quality and performance in epigenome-wide association studies</article-title>
+                  <source>Genome Biology</source>
+                  <volume>16</volume>
+                  <fpage>37</fpage>
+                  <lpage>37</lpage>
+                  <pub-id pub-id-type="doi">10.1186/s13059-015-0600-x</pub-id>
+                  <pub-id pub-id-type="pmid">25853392</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-16">
+                <label>Louise et al. (2022)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Louise</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Deussen</surname>
+                      <given-names>AR</given-names>
+                    </name>
+                    <name>
+                      <surname>Koletzko</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Owens</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Saffery</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Dodd</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2022">2022</year>
+                  <article-title>Effect of an antenatal diet and lifestyle intervention and maternal BMI on cord blood DNA methylation in infants of overweight and obese women: the LIMIT randomised controlled trial</article-title>
+                  <source>PLOS ONE</source>
+                  <volume>17</volume>
+                  <elocation-id>e0269723</elocation-id>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0269723</pub-id>
+                  <pub-id pub-id-type="pmid">35749371</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-17">
+                <label>Maksimovic, Gordon &amp; Oshlack (2012)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Maksimovic</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Gordon</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Oshlack</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2012">2012</year>
+                  <article-title>SWAN: subset-quantile within array normalization for Illumina infinium HumanMethylation450 BeadChips</article-title>
+                  <source>Genome Biology</source>
+                  <volume>13</volume>
+                  <fpage>R44</fpage>
+                  <pub-id pub-id-type="doi">10.1186/gb-2012-13-6-r44</pub-id>
+                  <pub-id pub-id-type="pmid">22703947</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-18">
+                <label>Maksimovic, Phipson &amp; Oshlack (2017)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Maksimovic</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Phipson</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Oshlack</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2017">2017</year>
+                  <article-title>A cross-package Bioconductor workflow for analysing methylation array data</article-title>
+                  <source>F1000Research</source>
+                  <volume>5</volume>
+                  <fpage>1281</fpage>
+                  <pub-id pub-id-type="doi">10.12688/f1000research.8839.3</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-19">
+                <label>Marabita et al. (2013)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Marabita</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Almgren</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Lindholm</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Ruhrmann</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Fagerström-Billai</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Jagodic</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Sundberg</surname>
+                      <given-names>CJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Ekström</surname>
+                      <given-names>TJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Teschendorff</surname>
+                      <given-names>AE</given-names>
+                    </name>
+                    <name>
+                      <surname>Tegnér</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Gomez-Cabrero</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2013">2013</year>
+                  <article-title>An evaluation of analysis pipelines for DNA methylation profiling using the Illumina HumanMethylation450 BeadChip platform</article-title>
+                  <source>Epigenetics</source>
+                  <volume>8</volume>
+                  <fpage>333</fpage>
+                  <lpage>346</lpage>
+                  <pub-id pub-id-type="doi">10.4161/epi.24008</pub-id>
+                  <pub-id pub-id-type="pmid">23422812</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-20">
+                <label>Morris &amp; Beck (2015)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Morris</surname>
+                      <given-names>TJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Beck</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2015">2015</year>
+                  <article-title>Analysis pipelines and packages for Infinium HumanMethylation450 BeadChip (450k) data</article-title>
+                  <source>Methods</source>
+                  <volume>72</volume>
+                  <fpage>3</fpage>
+                  <lpage>8</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ymeth.2014.08.011</pub-id>
+                  <pub-id pub-id-type="pmid">25233806</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-21">
+                <label>Naeem et al. (2014)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Naeem</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Wong</surname>
+                      <given-names>NC</given-names>
+                    </name>
+                    <name>
+                      <surname>Chatterton</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Hong</surname>
+                      <given-names>MKH</given-names>
+                    </name>
+                    <name>
+                      <surname>Pedersen</surname>
+                      <given-names>JS</given-names>
+                    </name>
+                    <name>
+                      <surname>Corcoran</surname>
+                      <given-names>NM</given-names>
+                    </name>
+                    <name>
+                      <surname>Hovens</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                    <name>
+                      <surname>Macintyre</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2014">2014</year>
+                  <article-title>Reducing the risk of false discovery enabling identification of biologically significant genome-wide methylation status using the HumanMethylation450 array</article-title>
+                  <source>BMC Genomics</source>
+                  <volume>15</volume>
+                  <fpage>51</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1471-2164-15-51</pub-id>
+                  <pub-id pub-id-type="pmid">24447442</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-22">
+                <label>Nygaard, Rødland &amp; Hovig (2016a)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nygaard</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Rødland</surname>
+                      <given-names>EA</given-names>
+                    </name>
+                    <name>
+                      <surname>Hovig</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2016">2016a</year>
+                  <article-title>Methods that remove batch effects while retaining group differences may lead to exaggerated confidence in downstream analyses</article-title>
+                  <source>Biostatistics</source>
+                  <volume>17</volume>
+                  <fpage>29</fpage>
+                  <lpage>39</lpage>
+                  <pub-id pub-id-type="doi">10.1093/biostatistics/kxv027</pub-id>
+                  <pub-id pub-id-type="pmid">26272994</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-23">
+                <label>Nygaard, Rødland &amp; Hovig (2016b)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nygaard</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Rødland</surname>
+                      <given-names>EA</given-names>
+                    </name>
+                    <name>
+                      <surname>Hovig</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2016">2016b</year>
+                  <article-title>Methods that remove batch effects while retaining group differences may lead to exaggerated confidence in downstream analyses</article-title>
+                  <source>Biostatistics</source>
+                  <volume>17</volume>
+                  <fpage>29</fpage>
+                  <lpage>39</lpage>
+                  <pub-id pub-id-type="doi">10.1093/biostatistics/kxv027</pub-id>
+                  <pub-id pub-id-type="pmid">26272994</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-24">
+                <label>Peters et al. (2015)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Peters</surname>
+                      <given-names>TJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Buckley</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Statham</surname>
+                      <given-names>AL</given-names>
+                    </name>
+                    <name>
+                      <surname>Pidsley</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Samaras</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Lord</surname>
+                      <given-names>RV</given-names>
+                    </name>
+                    <name>
+                      <surname>Clark</surname>
+                      <given-names>SJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Molloy</surname>
+                      <given-names>PL</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2015">2015</year>
+                  <article-title>De novo identification of differentially methylated regions in the human genome</article-title>
+                  <source>Epigenetics &amp; Chromatin</source>
+                  <volume>8</volume>
+                  <fpage>6</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1756-8935-8-6</pub-id>
+                  <pub-id pub-id-type="pmid">25972926</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-25">
+                <label>Pidsley et al. (2013)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pidsley</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>YW</surname>
+                      <given-names>CC</given-names>
+                    </name>
+                    <name>
+                      <surname>Volta</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Lunnon</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Mill</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Schalkwyk</surname>
+                      <given-names>LC</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2013">2013</year>
+                  <article-title>A data-driven approach to preprocessing Illumina 450K methylation array data</article-title>
+                  <source>BMC Genomics</source>
+                  <volume>14</volume>
+                  <fpage>293</fpage>
+                  <lpage>293</lpage>
+                  <pub-id pub-id-type="doi">10.1186/1471-2164-14-293</pub-id>
+                  <pub-id pub-id-type="pmid">23631413</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-26">
+                <label>Price &amp; Robinson (2018)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Price</surname>
+                      <given-names>EM</given-names>
+                    </name>
+                    <name>
+                      <surname>Robinson</surname>
+                      <given-names>WP</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2018">2018</year>
+                  <article-title>Adjusting for batch effects in DNA methylation microarray data, a lesson learned</article-title>
+                  <source>Frontiers in Genetics</source>
+                  <volume>9</volume>
+                  <pub-id pub-id-type="doi">10.3389/fgene.2018.00083</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-27">
+                <label>R Core Team (2018)</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <collab>R Core Team</collab>
+                  </person-group>
+                  <year iso-8601-date="2018">2018</year>
+                  <data-title>R: a language and environment for statistical computing</data-title>
+                  <publisher-name>R Foundation for Statistical Computing</publisher-name>
+                  <publisher-loc>Vienna</publisher-loc>
+                  <uri xlink:href="https://www.R-project.org">https://www.R-project.org</uri>
+                </element-citation>
+              </ref>
+              <ref id="ref-28">
+                <label>Ritchie et al. (2015)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ritchie</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Phipson</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Hu</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Law</surname>
+                      <given-names>CW</given-names>
+                    </name>
+                    <name>
+                      <surname>Shi</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Smyth</surname>
+                      <given-names>GK</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2015">2015</year>
+                  <article-title>limma powers differential expression analyses for RNA-sequencing and microarray studies</article-title>
+                  <source>Nucleic Acids Research</source>
+                  <volume>43</volume>
+                  <elocation-id>e47–e47</elocation-id>
+                  <pub-id pub-id-type="doi">10.1093/nar/gkv007</pub-id>
+                  <pub-id pub-id-type="pmid">25605792</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-29">
+                <label>Sharp et al. (2015)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sharp</surname>
+                      <given-names>GC</given-names>
+                    </name>
+                    <name>
+                      <surname>Lawlor</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                    <name>
+                      <surname>Richmond</surname>
+                      <given-names>RC</given-names>
+                    </name>
+                    <name>
+                      <surname>Fraser</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Simpkin</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Suderman</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Shihab</surname>
+                      <given-names>HA</given-names>
+                    </name>
+                    <name>
+                      <surname>Lyttleton</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <name>
+                      <surname>McArdle</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Ring</surname>
+                      <given-names>SM</given-names>
+                    </name>
+                    <name>
+                      <surname>Gaunt</surname>
+                      <given-names>TR</given-names>
+                    </name>
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>GD</given-names>
+                    </name>
+                    <name>
+                      <surname>Relton</surname>
+                      <given-names>CL</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2015">2015</year>
+                  <article-title>Maternal pre-pregnancy BMI and gestational weight gain, offspring DNA methylation and later offspring adiposity: findings from the Avon longitudinal study of parents and children</article-title>
+                  <source>International Journal of Epidemiology</source>
+                  <volume>44</volume>
+                  <fpage>1288</fpage>
+                  <lpage>1304</lpage>
+                  <pub-id pub-id-type="doi">10.1093/ije/dyv042</pub-id>
+                  <pub-id pub-id-type="pmid">25855720</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-30">
+                <label>Sharp et al. (2017)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sharp</surname>
+                      <given-names>GC</given-names>
+                    </name>
+                    <name>
+                      <surname>Salas</surname>
+                      <given-names>LA</given-names>
+                    </name>
+                    <name>
+                      <surname>Monnereau</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Allard</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Yousefi</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Everson</surname>
+                      <given-names>TM</given-names>
+                    </name>
+                    <name>
+                      <surname>Bohlin</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>RC</given-names>
+                    </name>
+                    <name>
+                      <surname>Reese</surname>
+                      <given-names>SE</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>CJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Baïz</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Hoyo</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Agha</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Roy</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Holloway</surname>
+                      <given-names>JW</given-names>
+                    </name>
+                    <name>
+                      <surname>Ghantous</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Merid</surname>
+                      <given-names>SK</given-names>
+                    </name>
+                    <name>
+                      <surname>Bakulski</surname>
+                      <given-names>KM</given-names>
+                    </name>
+                    <name>
+                      <surname>Küpers</surname>
+                      <given-names>LK</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Richmond</surname>
+                      <given-names>RC</given-names>
+                    </name>
+                    <name>
+                      <surname>Page</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                    <name>
+                      <surname>Duijts</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Lie</surname>
+                      <given-names>RT</given-names>
+                    </name>
+                    <name>
+                      <surname>Melton</surname>
+                      <given-names>PE</given-names>
+                    </name>
+                    <name>
+                      <surname>Vonk</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Nohr</surname>
+                      <given-names>EA</given-names>
+                    </name>
+                    <name>
+                      <surname>Williams-DeVane</surname>
+                      <given-names>CL</given-names>
+                    </name>
+                    <name>
+                      <surname>Huen</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Rifas-Shiman</surname>
+                      <given-names>SL</given-names>
+                    </name>
+                    <name>
+                      <surname>Ruiz-Arenas</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Gonseth</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Rezwan</surname>
+                      <given-names>FI</given-names>
+                    </name>
+                    <name>
+                      <surname>Herceg</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Ekström</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Croen</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Falahi</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Perron</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Karagas</surname>
+                      <given-names>MR</given-names>
+                    </name>
+                    <name>
+                      <surname>Quraishi</surname>
+                      <given-names>BM</given-names>
+                    </name>
+                    <name>
+                      <surname>Suderman</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Magnus</surname>
+                      <given-names>MC</given-names>
+                    </name>
+                    <name>
+                      <surname>Jaddoe</surname>
+                      <given-names>VWV</given-names>
+                    </name>
+                    <name>
+                      <surname>Taylor</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Anderson</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Smit</surname>
+                      <given-names>HA</given-names>
+                    </name>
+                    <name>
+                      <surname>Josey</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Bradman</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Baccarelli</surname>
+                      <given-names>AA</given-names>
+                    </name>
+                    <name>
+                      <surname>Bustamante</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Håberg</surname>
+                      <given-names>SE</given-names>
+                    </name>
+                    <name>
+                      <surname>Pershagen</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Hertz-Picciotto</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Newschaffer</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Corpeleijn</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Bouchard</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Lawlor</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                    <name>
+                      <surname>Maguire</surname>
+                      <given-names>RL</given-names>
+                    </name>
+                    <name>
+                      <surname>Barcellos</surname>
+                      <given-names>LF</given-names>
+                    </name>
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>GD</given-names>
+                    </name>
+                    <name>
+                      <surname>Eskenazi</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Karmaus</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Marsit</surname>
+                      <given-names>CJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Hivert</surname>
+                      <given-names>MF</given-names>
+                    </name>
+                    <name>
+                      <surname>Snieder</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Fallin</surname>
+                      <given-names>MD</given-names>
+                    </name>
+                    <name>
+                      <surname>Melén</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Munthe-Kaas</surname>
+                      <given-names>MC</given-names>
+                    </name>
+                    <name>
+                      <surname>Arshad</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Wiemels</surname>
+                      <given-names>JL</given-names>
+                    </name>
+                    <name>
+                      <surname>Annesi-Maesano</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Vrijheid</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Oken</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Holland</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Murphy</surname>
+                      <given-names>SK</given-names>
+                    </name>
+                    <name>
+                      <surname>Sørensen</surname>
+                      <given-names>TIA</given-names>
+                    </name>
+                    <name>
+                      <surname>Koppelman</surname>
+                      <given-names>GH</given-names>
+                    </name>
+                    <name>
+                      <surname>Newnham</surname>
+                      <given-names>JP</given-names>
+                    </name>
+                    <name>
+                      <surname>Wilcox</surname>
+                      <given-names>AJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Nystad</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>London</surname>
+                      <given-names>SJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Felix</surname>
+                      <given-names>JF</given-names>
+                    </name>
+                    <name>
+                      <surname>Relton</surname>
+                      <given-names>CL</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2017">2017</year>
+                  <article-title>Maternal BMI at the start of pregnancy and offspring epigenome-wide DNA methylation: findings from the pregnancy and childhood epigenetics (PACE) consortium</article-title>
+                  <source>Human Molecular Genetics</source>
+                  <volume>26</volume>
+                  <fpage>4067</fpage>
+                  <lpage>4085</lpage>
+                  <pub-id pub-id-type="doi">10.1093/hmg/ddx290</pub-id>
+                  <pub-id pub-id-type="pmid">29016858</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-31">
+                <label>Smyth (2005)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Smyth</surname>
+                      <given-names>GK</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2005">2005</year>
+                  <article-title>limma: linear models for microarray data</article-title>
+                  <source>Bioinformatics and Computational Biology Solutions Using R and Bioconductor</source>
+                  <fpage>397</fpage>
+                  <lpage>420</lpage>
+                  <pub-id pub-id-type="doi">10.1007/0-387-29362-0_23</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-32">
+                <label>Teschendorff et al. (2013)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Teschendorff</surname>
+                      <given-names>AE</given-names>
+                    </name>
+                    <name>
+                      <surname>Marabita</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Lechner</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Bartlett</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Tegner</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Gomez-Cabrero</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Beck</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2013">2013</year>
+                  <article-title>A beta-mixture quantile normalization method for correcting probe design bias in Illumina Infinium 450 k DNA methylation data</article-title>
+                  <source>Bioinformatics</source>
+                  <volume>29</volume>
+                  <fpage>189</fpage>
+                  <lpage>196</lpage>
+                  <pub-id pub-id-type="doi">10.1093/bioinformatics/bts680</pub-id>
+                  <pub-id pub-id-type="pmid">23175756</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-33">
+                <label>Teschendorff &amp; Zheng (2017)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Teschendorff</surname>
+                      <given-names>AE</given-names>
+                    </name>
+                    <name>
+                      <surname>Zheng</surname>
+                      <given-names>SC</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2017">2017</year>
+                  <article-title>Cell-type deconvolution in epigenome-wide association studies: a review and recommendations</article-title>
+                  <source>Epigenomics</source>
+                  <volume>9</volume>
+                  <fpage>757</fpage>
+                  <lpage>768</lpage>
+                  <pub-id pub-id-type="doi">10.2217/epi-2016-0153</pub-id>
+                  <pub-id pub-id-type="pmid">28517979</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-34">
+                <label>Thabane et al. (2013)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Thabane</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Mbuagbaw</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Samaan</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Marcucci</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Ye</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Thabane</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Giangregorio</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Dennis</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Kosa</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Debono</surname>
+                      <given-names>VB</given-names>
+                    </name>
+                    <name>
+                      <surname>Dillenburg</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Fruci</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Bawor</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Wells</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Goldsmith</surname>
+                      <given-names>CH</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2013">2013</year>
+                  <article-title>A tutorial on sensitivity analyses in clinical trials: the what, why, when and how</article-title>
+                  <source>BMC Medical Research Methodology</source>
+                  <volume>13</volume>
+                  <fpage>92</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1471-2288-13-92</pub-id>
+                  <pub-id pub-id-type="pmid">23855337</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-35">
+                <label>Thakali et al. (2017)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Thakali</surname>
+                      <given-names>KM</given-names>
+                    </name>
+                    <name>
+                      <surname>Faske</surname>
+                      <given-names>JB</given-names>
+                    </name>
+                    <name>
+                      <surname>Ishwar</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Alfaro</surname>
+                      <given-names>MP</given-names>
+                    </name>
+                    <name>
+                      <surname>Cleves</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Badger</surname>
+                      <given-names>TM</given-names>
+                    </name>
+                    <name>
+                      <surname>Andres</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Shankar</surname>
+                      <given-names>K</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2017">2017</year>
+                  <article-title>Maternal obesity and gestational weight gain are modestly associated with umbilical cord DNA methylation</article-title>
+                  <source>Placenta</source>
+                  <volume>57</volume>
+                  <fpage>194</fpage>
+                  <lpage>203</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.placenta.2017.07.009</pub-id>
+                  <pub-id pub-id-type="pmid">28864012</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-36">
+                <label>Wang et al. (2012)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Cheng</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Guo</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2012">2012</year>
+                  <article-title>Comparison of different normalization assumptions for analyses of DNA methylation data from the cancer genome</article-title>
+                  <source>Gene</source>
+                  <volume>506</volume>
+                  <fpage>36</fpage>
+                  <lpage>42</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.gene.2012.06.075</pub-id>
+                  <pub-id pub-id-type="pmid">22771920</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-37">
+                <label>Wang et al. (2015)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Guan</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Lin</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Boutaoui</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Canino</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Luo</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Celedón</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>W</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2015">2015</year>
+                  <article-title>A systematic study of normalization methods for Infinium 450K methylation data using whole-genome bisulfite sequencing data</article-title>
+                  <source>Epigenetics</source>
+                  <volume>10</volume>
+                  <fpage>662</fpage>
+                  <lpage>669</lpage>
+                  <pub-id pub-id-type="doi">10.1080/15592294.2015.1057384</pub-id>
+                  <pub-id pub-id-type="pmid">26036609</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-38">
+                <label>Wu et al. (2014)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>MC</given-names>
+                    </name>
+                    <name>
+                      <surname>Joubert</surname>
+                      <given-names>BR</given-names>
+                    </name>
+                    <name>
+                      <surname>Kuan</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Håberg</surname>
+                      <given-names>SE</given-names>
+                    </name>
+                    <name>
+                      <surname>Nystad</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Peddada</surname>
+                      <given-names>SD</given-names>
+                    </name>
+                    <name>
+                      <surname>London</surname>
+                      <given-names>SJ</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2014">2014</year>
+                  <article-title>A systematic assessment of normalization approaches for the Infinium 450K methylation platform</article-title>
+                  <source>Epigenetics</source>
+                  <volume>9</volume>
+                  <fpage>318</fpage>
+                  <lpage>329</lpage>
+                  <pub-id pub-id-type="doi">10.4161/epi.27119</pub-id>
+                  <pub-id pub-id-type="pmid">24241353</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-39">
+                <label>Yousefi et al. (2015)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yousefi</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Huen</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Davé</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Barcellos</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Eskenazi</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Holland</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2015">2015</year>
+                  <article-title>Sex differences in DNA methylation assessed by 450 K BeadChip in newborns</article-title>
+                  <source>BMC Genomics</source>
+                  <volume>16</volume>
+                  <fpage>911</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s12864-015-2034-y</pub-id>
+                  <pub-id pub-id-type="pmid">26553366</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-40">
+                <label>Yousefi et al. (2013)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yousefi</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Huen</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Schall</surname>
+                      <given-names>RAguilar</given-names>
+                    </name>
+                    <name>
+                      <surname>Decker</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Elboudwarej</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Quach</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Barcellos</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Holland</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2013">2013</year>
+                  <article-title>Considerations for normalization of DNA methylation data by Illumina 450K BeadChip assay in population studies</article-title>
+                  <source>Epigenetics</source>
+                  <volume>8</volume>
+                  <fpage>1141</fpage>
+                  <lpage>1152</lpage>
+                  <pub-id pub-id-type="doi">10.4161/epi.26037</pub-id>
+                  <pub-id pub-id-type="pmid">23959097</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-41">
+                <label>Zindler et al. (2020)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zindler</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Frieling</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Neyazi</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Bleich</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Friedel</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <year iso-8601-date="2020">2020</year>
+                  <article-title>Simulating ComBat: how batch correction can lead to the systematic introduction of false positive results in DNA methylation microarray studies</article-title>
+                  <source>BMC Bioinformatics</source>
+                  <volume>21</volume>
+                  <fpage>271</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s12859-020-03559-6</pub-id>
+                  <pub-id pub-id-type="pmid">32605541</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

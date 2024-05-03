@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T03:11:26Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:9126529" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:9126529</identifier>
+        <datestamp>2022-05-24</datestamp>
+        <setSpec>jcocci</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">JCO Clin Cancer Inform</journal-id>
+              <journal-id journal-id-type="iso-abbrev">JCO Clin Cancer Inform</journal-id>
+              <journal-id journal-id-type="hwp">cci</journal-id>
+              <journal-id journal-id-type="publisher-id">CCI</journal-id>
+              <journal-title-group>
+                <journal-title>JCO Clinical Cancer Informatics</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2473-4276</issn>
+              <publisher>
+                <publisher-name>Wolters Kluwer Health</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC9126529</article-id>
+              <article-id pub-id-type="pmcid">PMC9126529</article-id>
+              <article-id pub-id-type="pmc-uid">9126529</article-id>
+              <article-id pub-id-type="pmid">35522898</article-id>
+              <article-id pub-id-type="pmid">35522898</article-id>
+              <article-id pub-id-type="publisher-id">CCI.21.00156</article-id>
+              <article-id pub-id-type="doi">10.1200/CCI.21.00156</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>ORIGINAL REPORTS</subject>
+                  <subj-group>
+                    <subject>Artificial Intelligence</subject>
+                  </subj-group>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Machine Learning to Predict Risk of Relapse Using Cytologic Image Markers in Patients With Acute Myeloid Leukemia Posthematopoietic Cell Transplantation</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Arabyarmohammadi</surname>
+                    <given-names>Sara</given-names>
+                  </name>
+                  <degrees>MS</degrees>
+                  <xref rid="aff1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2248-0610</contrib-id>
+                  <name>
+                    <surname>Leo</surname>
+                    <given-names>Patrick</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref rid="aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                  <xref rid="con1" ref-type="fn"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Viswanathan</surname>
+                    <given-names>Vidya Sankar</given-names>
+                  </name>
+                  <degrees>MBBS</degrees>
+                  <xref rid="aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                  <xref rid="con2" ref-type="fn"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Janowczyk</surname>
+                    <given-names>Andrew</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref rid="aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                  <xref rid="aff3" ref-type="aff">
+                    <sup>3</sup>
+                  </xref>
+                  <xref rid="con3" ref-type="fn"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3002-0937</contrib-id>
+                  <name>
+                    <surname>Corredor</surname>
+                    <given-names>German</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref rid="aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2334-5218</contrib-id>
+                  <name>
+                    <surname>Fu</surname>
+                    <given-names>Pingfu</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref rid="aff4" ref-type="aff">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Meyerson</surname>
+                    <given-names>Howard</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <xref rid="aff5" ref-type="aff">
+                    <sup>5</sup>
+                  </xref>
+                  <xref rid="con4" ref-type="fn"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1980-9999</contrib-id>
+                  <name>
+                    <surname>Metheny</surname>
+                    <given-names>Leland</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <xref rid="aff6" ref-type="aff">
+                    <sup>6</sup>
+                  </xref>
+                  <xref rid="con5" ref-type="fn"/>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-5741-0399</contrib-id>
+                  <name>
+                    <surname>Madabhushi</surname>
+                    <given-names>Anant</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref rid="aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                  <xref rid="aff7" ref-type="aff">
+                    <sup>7</sup>
+                  </xref>
+                  <xref rid="con6" ref-type="fn"/>
+                  <xref rid="cor1" ref-type="corresp"/>
+                </contrib>
+                <aff id="aff1"><label><sup>1</sup></label>Department of Computer and Data Sciences, Case Western Reserve University, Cleveland, OH</aff>
+                <aff id="aff2"><label><sup>2</sup></label>Department of Biomedical Engineering, Case Western Reserve University, Cleveland, OH</aff>
+                <aff id="aff3"><label><sup>3</sup></label>Lausanne University Hospital, Precision Oncology Center, Vaud, Switzerland</aff>
+                <aff id="aff4"><label><sup>4</sup></label>Department of Population and Quantitative Health Sciences, School of Medicine, Case Western Reserve University, Cleveland, OH</aff>
+                <aff id="aff5"><label><sup>5</sup></label>Department of Pathology, University Hospitals Cleveland Medical Center, Cleveland, OH</aff>
+                <aff id="aff6"><label><sup>6</sup></label>Department of Hematology and Oncology, University Hospitals Cleveland Medical Center, Cleveland, OH</aff>
+                <aff id="aff7"><label><sup>7</sup></label>Louis Stokes Veterans Administration Medical Center, Cleveland, OH</aff>
+              </contrib-group>
+              <author-notes>
+                <corresp id="cor1">Anant Madabhushi, PhD, Department of Biomedical Engineering, Case Western Reserve University, 2071 Martin Luther King Drive, Cleveland, OH 44106-7207, Wickenden 519; e-mail: <email>anant.madabhushi@case.edu</email>.</corresp>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>6</day>
+                <month>5</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>6</day>
+                <month>5</month>
+                <year>2022</year>
+              </pub-date>
+              <!--PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="epub"/>.-->
+              <volume>6</volume>
+              <elocation-id>e2100156</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>21</day>
+                  <month>9</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>28</day>
+                  <month>1</month>
+                  <year>2022</year>
+                </date>
+                <date date-type="accepted">
+                  <day>8</day>
+                  <month>3</month>
+                  <year>2022</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2022 by American Society of Clinical Oncology</copyright-statement>
+                <copyright-year>2022</copyright-year>
+                <copyright-holder>American Society of Clinical Oncology</copyright-holder>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>Licensed under the Creative Commons Attribution 4.0 License: <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link></license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:href="cci-6-e2100156.pdf"/>
+              <abstract>
+                <title>PURPOSE</title>
+                <p>Allogenic hematopoietic stem-cell transplant (HCT) is a curative therapy for acute myeloid leukemia (AML) and myelodysplastic syndrome (MDS). Relapse post-HCT is the most common cause of treatment failure and is associated with a poor prognosis. Pathologist-based visual assessment of aspirate images and the manual myeloblast counting have shown to be predictive of relapse post-HCT. However, this approach is time-intensive and subjective. The premise of this study was to explore whether computer-extracted morphology and texture features from myeloblasts' chromatin patterns could help predict relapse and prognosticate relapse-free survival (RFS) after HCT.</p>
+                <sec>
+                  <title>MATERIALS AND METHODS</title>
+                  <p>In this study, Wright-Giemsa–stained post-HCT aspirate images were collected from 92 patients with AML/MDS who were randomly assigned into a training set (<italic toggle="yes">S</italic><sub><italic toggle="yes">t</italic></sub> = 52) and a validation set (<italic toggle="yes">S</italic><sub><italic toggle="yes">v</italic></sub> = 40). First, a deep learning–based model was developed to segment myeloblasts. A total of 214 texture and shape descriptors were then extracted from the segmented myeloblasts on aspirate slide images. A risk score on the basis of texture features of myeloblast chromatin patterns was generated by using the least absolute shrinkage and selection operator with a Cox regression model.</p>
+                </sec>
+                <sec>
+                  <title>RESULTS</title>
+                  <p>The risk score was associated with RFS in <italic toggle="yes">S</italic><sub><italic toggle="yes">t</italic></sub> (hazard ratio = 2.38; 95% CI, 1.4 to 3.95; <italic toggle="yes">P</italic> = .0008) and <italic toggle="yes">S</italic><sub><italic toggle="yes">v</italic></sub> (hazard ratio = 1.57; 95% CI, 1.01 to 2.45; <italic toggle="yes">P</italic> = .044). We also demonstrate that this resulting signature was predictive of AML relapse with an area under the receiver operating characteristic curve of 0.71 within <italic toggle="yes">S</italic><sub><italic toggle="yes">v</italic></sub>. All the relevant code is available at GitHub.</p>
+                </sec>
+                <sec>
+                  <title>CONCLUSION</title>
+                  <p>The texture features extracted from chromatin patterns of myeloblasts can predict post-HCT relapse and prognosticate RFS of patients with AML/MDS.</p>
+                </sec>
+              </abstract>
+              <counts>
+                <fig-count count="5"/>
+                <table-count count="3"/>
+                <equation-count count="15"/>
+                <ref-count count="46"/>
+                <page-count count="0"/>
+              </counts>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>OPEN-ACCESS</meta-name>
+                  <meta-value>TRUE</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="introduction">
+              <title>INTRODUCTION</title>
+              <p>Myelodysplastic syndromes (MDSs) and acute myeloid leukemia (AML)<sup><xref rid="b1" ref-type="bibr">1</xref></sup> are hematologic diseases that are challenging to treat because of the associated high morbidity and mortality along with high rates of relapse. MDS constitutes a group of clonal hematopoietic disorders characterized by ineffective hematopoiesis and peripheral blood cytopenias. MDS can be either indolent or quickly progressive with a high risk of transformation into AML.<sup><xref rid="b2" ref-type="bibr">2</xref>,<xref rid="b3" ref-type="bibr">3</xref></sup> AML is defined by the infiltration of bone marrow or peripheral blood by &gt; 20% myeloblasts, commonly referred to as blasts, which do not undergo the typical lineage-specific WBC differentiation.<sup><xref rid="b4" ref-type="bibr">4</xref></sup> Consequently, these blasts overtake healthy stem cells in the blood and bone marrow.<sup><xref rid="b2" ref-type="bibr">2</xref>,<xref rid="b5" ref-type="bibr">5</xref></sup> As a result, patients with AML experience infection, anemia, and poor blood clotting.<sup><xref rid="b6" ref-type="bibr">6</xref></sup> Thus, detecting and quantifying myeloblasts plays an important role in diagnosing and monitoring response to treatment in AML.<sup><xref rid="b7" ref-type="bibr">7</xref></sup></p>
+              <boxed-text id="B1" position="anchor">
+                <sec sec-type="context-box">
+                  <title>CONTEXT</title>
+                  <p>
+                    <list list-type="simple">
+                      <list-item>
+                        <p>
+                          <bold>Key Objective</bold>
+                        </p>
+                      </list-item>
+                      <list-item>
+                        <p>Allogenic hematopoietic stem-cell transplant (HCT) is a last-resort therapy for acute myeloid leukemia (AML) that has a poor prognosis. Predicting relapse post-HCT could help direct more aggressive treatment to those patients who need it. In this study, we explore machine learning–extracted texture features from bone marrow aspirate slide images to predict relapse and to prognosticate relapse-free survival post-HCT.</p>
+                      </list-item>
+                      <list-item>
+                        <p>
+                          <bold>Knowledge Generated</bold>
+                        </p>
+                      </list-item>
+                      <list-item>
+                        <p>The machine learning model helped to identify unique morphologic and texture differences within the myeloblasts of the bone marrow aspirate images of patients with AML who were at a higher risk of relapse post-HCT.</p>
+                      </list-item>
+                      <list-item>
+                        <p>
+                          <bold>Relevance</bold>
+                        </p>
+                      </list-item>
+                      <list-item>
+                        <p>After prospective validation, the new machine classifier presented in this study could enable risk stratification of patients with AML, helping to identify patients who would relapse from those who would not within 5 years of HCT.</p>
+                      </list-item>
+                    </list>
+                  </p>
+                </sec>
+              </boxed-text>
+              <p>Nearly 40%-60% of patients with AML who achieve complete remission eventually relapse unless given consolidation therapy. Allogenic hematopoietic stem-cell transplantation (HCT), a procedure where a human leukocyte antigen matched or partially matched donor's hematopoietic system replaces the recipient hematopoietic system after immunosuppressive therapy, is the best postremission consolidation therapy. HCT is often the only curative option for patients with high-risk AML; however, it is associated with significant morbidity and mortality because of graft-versus-host disease and immunosuppression.<sup><xref rid="b2" ref-type="bibr">2</xref>-<xref rid="b6" ref-type="bibr">6</xref></sup> Although relapse rates can be reduced by intensifying conditioning chemotherapy, there is a concomitant increase in treatment-related mortality.<sup><xref rid="b6" ref-type="bibr">6</xref>,<xref rid="b8" ref-type="bibr">8</xref></sup> When patients relapse, the prognosis is especially poor, more so in the setting of early relapse where the patient cannot endure further intensive chemotherapy.<sup><xref rid="b9" ref-type="bibr">9</xref>,<xref rid="b10" ref-type="bibr">10</xref></sup> Moreover, only a minority of relapsed patients improve with salvage therapies such as donor lymphocyte infusions or a second HCT in selected patients.<sup><xref rid="b9" ref-type="bibr">9</xref>,<xref rid="b10" ref-type="bibr">10</xref></sup>. The low response rate, poor improvement under salvage therapy, and substantial side effects of these treatments make it vital to direct them only to patients at high risk of AML relapse.</p>
+              <p>An increase in the bone marrow blast percentage heralds the relapse of AML. The gold standard for diagnosis of relapse post-transplant is review of aspirates from bone marrow biopsy to evaluate blast percentage and morphology. In this process, a pathologist counts approximately 200-300 cells from randomly chosen regions of a bone marrow aspirate specimen, and if 5% or more of the cells are blasts, the patient is considered to have relapsed.<sup><xref rid="b11" ref-type="bibr">11</xref></sup> The examination of only a small proportion of cells and the limits of human perception contribute to limiting the accuracy and reproducibility of this process.<sup><xref rid="b11" ref-type="bibr">11</xref>-<xref rid="b14" ref-type="bibr">14</xref></sup> In this study, we are interested in using an automated computational approach to go beyond the pathologist-based visual assessment to identify features associated with relapse post-HCT and relapse-free survival (RFS). A reproducible and objective image analysis approach could allow for the segmentation of myeloblasts and subsequent extraction of subvisual features potentially carrying prognostic and predictive information regarding relapse post-HCT.</p>
+              <p>There have been many studies on using computational image analysis for disease prognosis from digitized histologic images of solid tumors.<sup><xref rid="b15" ref-type="bibr">15</xref>,<xref rid="b16" ref-type="bibr">16</xref></sup> However, there is limited literature in cytopathology, with most studies focusing on cell segmentation, WBC classification, and automated cell counting<sup><xref rid="b17" ref-type="bibr">17</xref>-<xref rid="b20" ref-type="bibr">20</xref></sup> rather than outcome prediction and prognosis.</p>
+              <p>In this study, we aimed to construct a quantitative pathological risk score (PRS) that uses features from myeloblasts derived from routine Wright-Giemsa–stained bone marrow aspirate images to (1) prognosticate RFS and (2) predict relapse post-HCT for patients with AML/MDS (see Fig <xref rid="fig1" ref-type="fig">1</xref>). Our approach used a novel model for myeloblast segmentation and used computational methods to analyze the quantity, texture, and shape of myeloblasts. Using a cohort of 92 patients treated after HCT, obtained from the University Hospitals Cleveland Medical Center (UH), we extracted image features from myeloblasts and identified a subset of features in post-HCT patients (1) associated with RFS and (2) predictive of relapse.</p>
+              <fig position="float" id="fig1" fig-type="figure">
+                <label>FIG 1.</label>
+                <caption>
+                  <p>Overview of the approach used in this article. First, the data set was randomly divided into training (<italic toggle="yes">S</italic><sub><italic toggle="yes">t</italic></sub>, n = 52) and validation (<italic toggle="yes">S</italic><sub><italic toggle="yes">v</italic></sub>, n = 40) sets. Six random 512 × 512 micron tiles were then selected from every Wright-Giemsa–stained aspirate slide image. Myeloblasts were segmented on all tiles, and features associated with the myeloblast shape and chromatic pattern were extracted. A subset of two features (contrast variance and correlation skewness) most correlating with relapse in the training data set were identified. Using these features, a LDA model for PRS was derived using <italic toggle="yes">S</italic><sub><italic toggle="yes">t</italic></sub>. This PRS was locked down and then validated on <italic toggle="yes">S</italic><sub><italic toggle="yes">v</italic></sub>. This figure has been designed using resources from Freepik.com.<sup><xref rid="b21" ref-type="bibr">21</xref></sup> AML, acute myeloid leukemia; HCT, hematopoietic stem-cell transplant; LDA, linear discriminant analysis; MDS, myelodysplastic syndrome; PRS, pathological risk score; RFS, relapse-free survival.</p>
+                </caption>
+                <graphic xlink:href="cci-6-e2100156-g002" position="float"/>
+              </fig>
+            </sec>
+            <sec sec-type="materials|methods">
+              <title>MATERIALS AND METHODS</title>
+              <sec sec-type="subjects">
+                <title>Patient Selection</title>
+                <p>Under an institutional review board–approved protocol, a chart review was performed to identify patients with AML or MDS who underwent HCT between January 1, 2009, and January 1, 2020, at the University Hospitals Cleveland Medical Center. Wright-Giemsa–stained bone marrow aspirate slides from 92 patients with AML/MDS (see Fig <xref rid="fig2" ref-type="fig">2</xref>) were collected 6-8 weeks after HCT. Of these patients, 48 had a relapse of AML within the first year. All slides were digitized at 40× magnification. Six random nonoverlapping 512 × 512 micron (2048 × 2048 pixel) tiles were selected from regions within each digitized aspirate slide image with dense WBCs and no artifacts, or bubbles, for a total of 552 tiles. Patients were randomly divided into training (<italic toggle="yes">S</italic><sub><italic toggle="yes">t</italic></sub>, n = 40 with 20 relapsed) and validation sets (<italic toggle="yes">S</italic><sub><italic toggle="yes">v</italic></sub>, n = 52 with 28 relapsed). Patients who did not experience relapse were censored at the date of the last follow-up.</p>
+                <fig position="float" id="fig2" fig-type="figure">
+                  <label>FIG 2.</label>
+                  <caption>
+                    <p>A CONSORT diagram outlining the eligibility criteria and distribution of patients in this study. AML, acute myeloid leukemia; HCT, hematopoietic stem-cell transplant; MDS, myelodysplastic syndrome; UH, University Hospitals Cleveland Medical Center.</p>
+                  </caption>
+                  <graphic xlink:href="cci-6-e2100156-g003" position="float"/>
+                </fig>
+                <p>RFS was defined as the time interval between the start of treatment (date of HCT) and the date of relapse, or the date of death whichever occurred earlier, in patients with AML. For censored patients, the survival is defined between the HCT date and the last follow-up date.</p>
+              </sec>
+              <sec>
+                <title>Image Analysis</title>
+                <sec>
+                  <title>
+Blast detection and segmentation.
+</title>
+                  <p>A blast segmentation framework on the basis of u-net,<sup><xref rid="b22" ref-type="bibr">22</xref></sup> a type of deep learning architecture, was trained on 795 64 × 64 micron (256 × 256 pixel) patches from 35 patients annotated for myeloblasts by a hematopathologist. Of these, 79 random patches were held out for model testing. On the held-out test set, the model yielded a per-pixel true-positive rate of 0.99, a true-negative rate of 0.96, and an F1 score of 0.76. Segmentation was then performed on all 552 tiles from 92 aspirate slide images, and results were visually verified to be suitable for feature extraction.</p>
+                </sec>
+                <sec>
+                  <title>
+Feature extraction.
+</title>
+                  <p>Features designed to reflect chromatin patterns, heterogeneity, shape complexity, and shape irregularity were extracted from each segmented myeloblast (see Table <xref rid="tbl1" ref-type="table">1</xref>). The mean, median, standard deviation, and skewness of each feature were calculated across all myeloblasts on every tile from a patient to arrive at a tile-level feature value and again across all six tiles to produce a patient-level value. This process yielded a 214-feature vector (see the Data Supplement) for each patient, which encodes their associated blast presentation characteristics.</p>
+                  <table-wrap position="float" id="tbl1">
+                    <label>TABLE 1.</label>
+                    <caption>
+                      <p>Features That Were Extracted From Myeloblasts Can Be Categorized Into Four Main Categories</p>
+                    </caption>
+                    <graphic xlink:href="cci-6-e2100156-g004" position="float"/>
+                  </table-wrap>
+                </sec>
+              </sec>
+              <sec>
+                <title>Model Construction and Statistical Analysis</title>
+                <sec>
+                  <title>
+Feature selection.
+</title>
+                  <p>The least absolute shrinkage and selection operator (LASSO) from the glmnet package in R<sup><xref rid="b26" ref-type="bibr">26</xref></sup> was used in an internal cross-validation fashion on <italic toggle="yes">S</italic><sub><italic toggle="yes">t</italic></sub> to tune the lambda (λ) parameter. This process selected two texture features (ie, average of contrast variance and average of correlation skewness) from the 214 features as most relevant for prognosticating RFS. Additional details about LASSO are provided in the Data Supplement. For convenience, we denote <inline-formula><mml:math id="M1" overflow="scroll"><mml:mrow><mml:msub><mml:mi>S</mml:mi><mml:mrow><mml:mover accent="true"><mml:mi>t</mml:mi><mml:mo>^</mml:mo></mml:mover></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> and <inline-formula><mml:math id="M2" overflow="scroll"><mml:mrow><mml:msub><mml:mi>S</mml:mi><mml:mrow><mml:mover accent="true"><mml:mi>v</mml:mi><mml:mo>^</mml:mo></mml:mover></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> as the subsets of the feature spaces of <italic toggle="yes">S</italic><sub><italic toggle="yes">t</italic></sub> and <italic toggle="yes">S</italic><sub><italic toggle="yes">v</italic></sub> containing these two texture features.</p>
+                </sec>
+                <sec>
+                  <title>
+Prediction of relapse.
+</title>
+                  <p>A linear discriminant analysis (LDA) classifier was trained on <inline-formula><mml:math id="M3" overflow="scroll"><mml:mrow><mml:msub><mml:mi>S</mml:mi><mml:mrow><mml:mover accent="true"><mml:mi>t</mml:mi><mml:mo>^</mml:mo></mml:mover></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> to predict which patients would experience relapse post-HCT therapy. The ability to identify relapse post-HCT was assessed by the area under the receiver operating characteristic curve (AUC) in <inline-formula><mml:math id="M4" overflow="scroll"><mml:mrow><mml:msub><mml:mi>S</mml:mi><mml:mrow><mml:mover accent="true"><mml:mi>v</mml:mi><mml:mo>^</mml:mo></mml:mover></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula>. Accuracy, sensitivity, and specificity were also computed at the optimal operating point of the receiver operating characteristic curve (ROC), defined as the threshold that maximized overall accuracy.</p>
+                </sec>
+                <sec>
+                  <title>
+Prognostic model creation and evaluation.
+</title>
+                  <p><inline-formula><mml:math id="M5" overflow="scroll"><mml:mrow><mml:msub><mml:mi>S</mml:mi><mml:mrow><mml:mover accent="true"><mml:mi>t</mml:mi><mml:mo>^</mml:mo></mml:mover></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> was subsequently used to construct a Cox proportional hazards model to obtain the PRS for each patient. Model performance was evaluated by the Kaplan-Meier method, the log-rank test, the hazard ratio (HR; 95% CI), and Harrell's concordance index (C index [95% CI]). Mean PRS in <inline-formula><mml:math id="M6" overflow="scroll"><mml:mrow><mml:msub><mml:mi>S</mml:mi><mml:mrow><mml:mover accent="true"><mml:mi>t</mml:mi><mml:mo>^</mml:mo></mml:mover></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> was used as a threshold in both <inline-formula><mml:math id="M7" overflow="scroll"><mml:mrow><mml:msub><mml:mi>S</mml:mi><mml:mrow><mml:mover accent="true"><mml:mi>t</mml:mi><mml:mo>^</mml:mo></mml:mover></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> and <inline-formula><mml:math id="M8" overflow="scroll"><mml:mrow><mml:msub><mml:mi>S</mml:mi><mml:mrow><mml:mover accent="true"><mml:mi>v</mml:mi><mml:mo>^</mml:mo></mml:mover></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> to dichotomize patients into high-risk/low-risk categories.</p>
+                </sec>
+                <sec>
+                  <title>
+Myeloblast baseline.
+</title>
+                  <p>To evaluate the effectiveness of machine-based myeloblast percentage alone in predicting relapse, segmented myeloblasts from all tiles for each patient were counted and were normalized by the total number of WBCs for each patient. This feature was used to train a LDA classifier to predict relapse and was also used to prognosticate RFS. A comparison was then performed between machine-based myeloblast counting and machine-detected texture features in predicting relapse and prognosticating RFS.</p>
+                </sec>
+              </sec>
+              <sec>
+                <title>Ethics Approval</title>
+                <p>This study (STUDY IRB NUMBER 20210380) was conducted in full accordance with the Health Insurance Portability and Accountability Act (HIPAA) regulations after approval from the Institutional Review Board (IRB) at Case Western Reserve University (Cleveland, OH). The IRB waived the requirements for informed consent of all patients because of the retrospective, non-interventional, and non-therapeutic nature of this study.</p>
+              </sec>
+            </sec>
+            <sec sec-type="results">
+              <title>RESULTS</title>
+              <sec sec-type="subjects">
+                <title>Patient Characteristics</title>
+                <p>The characteristics of the patients used in this study are summarized in Table <xref rid="tbl2" ref-type="table">2</xref>. Among the 48 relapse patients, the median time to relapse was 269 (range: 47-1,574) days, with 60% of these relapses occurring within 1 year of HCT. Among the 12 patients who relapsed beyond 18 months, the median time to relapse was 2.3 (range: 1.7-4.3) years.</p>
+                <table-wrap position="float" id="tbl2">
+                  <label>TABLE 2.</label>
+                  <caption>
+                    <p>Summary of Clinical and Pathological Variables in <italic toggle="yes">S</italic><sub><italic toggle="yes">t</italic></sub> and <italic toggle="yes">S</italic><sub><italic toggle="yes">v</italic></sub></p>
+                  </caption>
+                  <graphic xlink:href="cci-6-e2100156-g005" position="float"/>
+                </table-wrap>
+              </sec>
+              <sec>
+                <title>Experiment 1: Myeloblast Texture Features Are Associated With AML Relapse Post-HCT</title>
+                <p>LASSO was used for feature selection in <italic toggle="yes">S</italic><sub><italic toggle="yes">t</italic></sub>, and the Haralick texture features of <italic toggle="yes">contrast variance</italic> and <italic toggle="yes">correlation skewness</italic> were selected from 214 features to form the PRS. Both contrast variance and correlation skewness were reflecting the differences in chromatin patterns of the myeloblasts.<sup><xref rid="b27" ref-type="bibr">27</xref></sup> The texture feature of image contrast indicates the large differences between neighboring pixels, whereas the image correlation mostly focuses on the similarity of pixels and gives a low weight to elements with dissimilar gray levels.<sup><xref rid="b28" ref-type="bibr">28</xref></sup> These two features were subsequently used to build the LDA classifier for predicting relapse post-HCT<strike>.</strike> In <inline-formula><mml:math id="M9" overflow="scroll"><mml:mrow><mml:msub><mml:mi>S</mml:mi><mml:mrow><mml:mover accent="true"><mml:mi>v</mml:mi><mml:mo>^</mml:mo></mml:mover></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula>, this classifier was able to distinguish relapse from no-relapse patients with an AUC of 0.71, an accuracy of 0.68, a sensitivity of 0.8, and a precision of 0.64.</p>
+                <p>Qualitatively, Figure <xref rid="fig3" ref-type="fig">3</xref> illustrates the discriminability of the myeloblast's contrast and correlation features for representative no-relapse and relapse patients. There is higher textural pattern disorder (ie, heterogeneity) within myeloblasts of a relapse patient for Haralick contrast feature. Lower values were observed within myeloblasts of a relapse patient for Haralick correlation feature as compared with myeloblasts of a no-relapse patient.</p>
+                <fig position="float" id="fig3" fig-type="figure">
+                  <label>FIG 3.</label>
+                  <caption>
+                    <p>The two texture features of contrast and correlation that construct PRS visualized for patients experiencing relapse and no relapse. The Haralick contrast feature appears to have higher values in relapse patients compared with no-relapse patients. Conversely, the Haralick correlation feature has higher values in no-relapse patients on average. PRS, pathological risk score.</p>
+                  </caption>
+                  <graphic xlink:href="cci-6-e2100156-g006" position="float"/>
+                </fig>
+                <p>These results highlight that the contrast and correlation can begin to predict HCT outcomes (relapse versus no-relapse) when used within a LDA classifier.</p>
+              </sec>
+              <sec>
+                <title>Experiment 2: Myeloblast Texture Features Are Associated With RFS in AML/MDS</title>
+                <p>A univariate Cox regression analysis developed using the contrast variance and correlation skewness features indicated that PRS was significantly negatively associated with RFS in both <inline-formula><mml:math id="M10" overflow="scroll"><mml:mrow><mml:msub><mml:mi>S</mml:mi><mml:mrow><mml:mover accent="true"><mml:mi>t</mml:mi><mml:mo>^</mml:mo></mml:mover></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> (HR = 2.38; 95% CI, 1.43 to 3.95; <italic toggle="yes">P</italic> = .0008) and <inline-formula><mml:math id="M11" overflow="scroll"><mml:mrow><mml:msub><mml:mi>S</mml:mi><mml:mrow><mml:mover accent="true"><mml:mi>v</mml:mi><mml:mo>^</mml:mo></mml:mover></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> (HR = 1.58; 95% CI, 1.01 to 2.45; <italic toggle="yes">P</italic> = .04). The corresponding Kaplan-Meier survival curves (see Fig <xref rid="fig4" ref-type="fig">4</xref>) show a significant difference in RFS between patients with low and high PRS (<inline-formula><mml:math id="M12" overflow="scroll"><mml:mrow><mml:msub><mml:mi>S</mml:mi><mml:mrow><mml:mover accent="true"><mml:mi>t</mml:mi><mml:mo>^</mml:mo></mml:mover></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula>: <italic toggle="yes">P</italic> = .0008, <inline-formula><mml:math id="M13" overflow="scroll"><mml:mrow><mml:msub><mml:mi>S</mml:mi><mml:mrow><mml:mover accent="true"><mml:mi>v</mml:mi><mml:mo>^</mml:mo></mml:mover></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula>: <italic toggle="yes">P</italic> = .04).</p>
+                <fig position="float" id="fig4" fig-type="figure">
+                  <label>FIG 4.</label>
+                  <caption>
+                    <p>The Kaplan-Meier curves of the high-risk (red) and low-risk groups (blue) in (A) <inline-formula><mml:math id="M14" overflow="scroll"><mml:mrow><mml:msub><mml:mi>S</mml:mi><mml:mrow><mml:mover accent="true"><mml:mi>t</mml:mi><mml:mo>^</mml:mo></mml:mover></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> (training set; HR = 2.38, 95% CI, 1.43 to 3:95; <italic toggle="yes">P</italic> = .0008) and (B) <inline-formula><mml:math id="M15" overflow="scroll"><mml:mrow><mml:msub><mml:mi>S</mml:mi><mml:mrow><mml:mover accent="true"><mml:mi>v</mml:mi><mml:mo>^</mml:mo></mml:mover></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> (validation set; HR = 1.58; 95% CI, 1.01 to 2.4; <italic toggle="yes">P</italic> = .04); (C) distribution of high-risk and low-risk patients in different age ranges, with (D) and (E) showing the sex distribution in different groups; and (F) the LDA classification results via both a confusion matrix and the ROC curve. AML, acute myeloid leukemia; HR, hazard ratio; LDA, linear discriminant analysis; ROC, receiver operating characteristic curve.</p>
+                  </caption>
+                  <graphic xlink:href="cci-6-e2100156-g007" position="float"/>
+                </fig>
+                <p>A multivariable Cox regression model indicated that PRS was the only biomarker associated with RFS in <italic toggle="yes">S</italic><sub><italic toggle="yes">t</italic></sub> (PRS: HR = 3.09; 95% CI, 1.52 to 6.27; <italic toggle="yes">P</italic> = .002; sex: HR = 0.98; 95% CI, 0.33 to 2.87; <italic toggle="yes">P</italic> = .97; age: HR = 0.99, 95% CI, 0.96 to 1.03; <italic toggle="yes">P</italic> = .85; pathologist blast percentage: HR = 0.80; 95% CI, 0.41 to 1.57; <italic toggle="yes">P</italic> = .51; conditioning regimen: HR = 0.99; 95% CI, 0.35 to 2.83; <italic toggle="yes">P</italic> = .98; comorbidity index: HR = 1.17; 95% CI, 0.89 to 1.53; <italic toggle="yes">P</italic> = .27; disease type: HR = 0.14; 95% CI, 0.01 to 1.51; <italic toggle="yes">P</italic> = .11; C-index = 0.76) and also with RFS in <italic toggle="yes">S</italic><sub><italic toggle="yes">v</italic></sub> (PRS: HR = 1.83; 95% CI, 1.05 to 3.20; <italic toggle="yes">P</italic> = .03; sex: HR = 1.31; 95% CI, 0.48 to 3.55; <italic toggle="yes">P</italic> = .60; age: HR = 1.01; 95% CI, 0.98 to 1.05; <italic toggle="yes">P</italic> = .37; pathologist blast percentage: HR = 0.91; 95% CI, 0.34 to 2.46; <italic toggle="yes">P</italic> = .86; conditioning regimen: HR = 0.54; 95% CI, 0.11 to 2.66; <italic toggle="yes">P</italic> = .45; comorbidity index: HR = 1.44; 95% CI, 1.06 to 1.96; <italic toggle="yes">P</italic> = .03; disease type: HR = 1.85; 95% CI, 0.58 to 5.95; <italic toggle="yes">P</italic> = .30; C-index = 0.74).</p>
+              </sec>
+              <sec>
+                <title>Experiment 3: Comparison of Myeloblast Texture Features Versus Machine-Derived Myeloblast Percentage</title>
+                <p>Finally, a comparison between our classifier and the clinical standard of machine-derived blast percentage is shown in Table <xref rid="tbl3" ref-type="table">3</xref>. These metrics demonstrate that our image biomarker was better able to differentiate between relapse and no-relapse patients post-HCT and were also more robust in prognosticating RFS.</p>
+                <table-wrap position="float" id="tbl3">
+                  <label>TABLE 3.</label>
+                  <caption>
+                    <p>Summary of the Prognostic and Predictive Results on <italic toggle="yes">S</italic><sub><italic toggle="yes">v</italic></sub> Comparing the Machine-Based Myeloblast Percentage Versus Our Image-Based Biomarker</p>
+                  </caption>
+                  <graphic xlink:href="cci-6-e2100156-g008" position="float"/>
+                </table-wrap>
+              </sec>
+            </sec>
+            <sec sec-type="discussion">
+              <title>DISCUSSION</title>
+              <p>Timely prediction of AML relapse after allogenic HCT is crucial to direct chemotherapy to high-risk patients only. Traditionally, manual counting of the myeloblasts on aspirate smear slides by hematopathologists is used to discover which patients will relapse post-HCT.<sup><xref rid="b29" ref-type="bibr">29</xref></sup> However, this method is time-consuming and error-prone.<sup><xref rid="b11" ref-type="bibr">11</xref>-<xref rid="b14" ref-type="bibr">14</xref></sup> We also know that the myeloblast count may fail to distinguish relapse patients and other approaches such as high-risk cytogenetics can better predict relapse.<sup><xref rid="b29" ref-type="bibr">29</xref></sup> Aside from prognostic factors, such as relevant molecular and cytogenetic aberrations,<sup><xref rid="b25" ref-type="bibr">25</xref></sup> routine analysis of cytologic images reveals crucial information on cell physiology.<sup><xref rid="b13" ref-type="bibr">13</xref></sup> Our approach of computational image analysis of aspirate images goes above and beyond myeloblast count, aiming to capture myeloblast morphology and appearance. The significance of cytologic interrogation of cells in different types of leukemias has also been suggested in other studies.<sup><xref rid="b11" ref-type="bibr">11</xref>,<xref rid="b13" ref-type="bibr">13</xref>,<xref rid="b14" ref-type="bibr">14</xref>,<xref rid="b25" ref-type="bibr">25</xref>,<xref rid="b30" ref-type="bibr">30</xref>,<xref rid="b31" ref-type="bibr">31</xref></sup> Textural and morphological differences that we measure in myeloblasts using our method offer an approximate estimate of complexity in chromatin patterns,<sup><xref rid="b12" ref-type="bibr">12</xref>,<xref rid="b25" ref-type="bibr">25</xref></sup> which may be related to how patients respond to treatment.<sup><xref rid="b14" ref-type="bibr">14</xref></sup> As an example, Auer rods or cytoplasmic granules are reddish, linear structures composed of fused primary granules that may exist in leukemic myeloblasts. Their presence indicates myeloid malignancy, which may lead to resistance to treatments or ultimately relapse.<sup><xref rid="b32" ref-type="bibr">32</xref>,<xref rid="b33" ref-type="bibr">33</xref></sup> In addition, computational analysis of myeloblasts across aspirate images to capture information about post-HCT relapse is in consonance with the current laboratory diagnosis of hematologic disorders that are also generally based on evaluation of characteristics of blood cell chromatin patterns in peripheral blood smears and bone marrow.<sup><xref rid="b34" ref-type="bibr">34</xref>,<xref rid="b32" ref-type="bibr">32</xref></sup> The rationale behind this diagnosis is that the chromatin pattern especially in the nucleus is related to cell function, and therefore, the abnormalities within the nucleus chromatin are associated with the malignancy.<sup><xref rid="b35" ref-type="bibr">35</xref></sup> Therefore, interrogation of myeloblast shape and texture features using computational analysis would allow the development of accurate decision support tools for prognosticating relapse after transplantation.</p>
+              <p>Previous work<sup><xref rid="b11" ref-type="bibr">11</xref>,<xref rid="b36" ref-type="bibr">36</xref>,<xref rid="b37" ref-type="bibr">37</xref></sup> on predicting probability of relapse in patients with AML focused on traditional visual (or manual) blast counts and clinical markers (eg, cytogenetic risk stratification). Although other studies were focused on automating and replicating a pathologist's manual review, this work aimed to explore prognostic and predictive features derived from myeloblast presentation. We studied features in the context of two AML use cases, predicting (1) post-HCT relapse and (2) RFS, and used a hand-crafted feature-engineering approach, with features designed to quantify characteristics of myeloblast cells as described by hematopathologists.<sup><xref rid="b38" ref-type="bibr">38</xref></sup> These features, we hypothesize, correspond to traits of appearance and chromatin texture that are biologically known and interpretable. This contrasts with more opaque deep learning approaches where the features are extracted in an unsupervised manner and do not necessarily have an informed biologic rationale. The relative simplicity of our models stands is another advantage over deep learning approaches, which often uses models trained with millions of parameters that cannot be biologically interpreted.<sup><xref rid="b39" ref-type="bibr">39</xref></sup></p>
+              <p>Results from our first experiment showed that textural features of contrast variance and correlation skewness were predictive of relapse post-HCT, with less skewed correlation between myeloblasts and more contrast variance, that is, higher texture heterogeneity<sup><xref rid="b28" ref-type="bibr">28</xref></sup> being associated with increased risk of relapse. This finding is concordant with other studies, which have associated chromatin pattern heterogeneity and complexity with cytoplasmic and membranous protein expression.<sup><xref rid="b13" ref-type="bibr">13</xref>,<xref rid="b40" ref-type="bibr">40</xref></sup> Therefore, greater heterogeneity in chromatin pattern presentation may indicate a lack of cell maturation, driving disease relapse.<sup><xref rid="b13" ref-type="bibr">13</xref>,<xref rid="b40" ref-type="bibr">40</xref></sup> The notion that myeloblasts with higher contrast variance values are associated with elevated relapse risk is also consistent with previous studies.<sup><xref rid="b41" ref-type="bibr">41</xref>-<xref rid="b43" ref-type="bibr">43</xref></sup> These studies found that higher heterogeneity in leukemic cells (myeloblasts) is a result of multiple mutations in the nucleus, which lead to patient resistance to therapy and relapse.<sup><xref rid="b41" ref-type="bibr">41</xref>,<xref rid="b42" ref-type="bibr">42</xref>,<xref rid="b44" ref-type="bibr">44</xref>,<xref rid="b45" ref-type="bibr">45</xref></sup> Taken together, myeloblast chromatin patterns reflect the total sum of various underlying biologic interactions and thus may provide utility in prognostic prediction.</p>
+              <p>In addition, our results suggest these features were not only predictive of relapse but were also associated with RFS of patients with AML post-transplant. Our findings were consistent with previous work in which cell chromatin pattern heterogeneity and complexity reflected DNA methylation patterns<sup><xref rid="b13" ref-type="bibr">13</xref>,<xref rid="b29" ref-type="bibr">29</xref></sup> and are related to patient shorter overall survival.<sup><xref rid="b13" ref-type="bibr">13</xref>,<xref rid="b31" ref-type="bibr">31</xref></sup> Other studies found that increases in roughness of cell surfaces in patients with leukemia were associated with clinical response to therapy.<sup><xref rid="b14" ref-type="bibr">14</xref></sup> These findings motivate the appearance of cells in leukemia cases as possessing information about a patient's disease-free survival post-therapy. In this study, patients with myeloblasts of smoother chromatin (lower contrast variance) texture were more likely to respond to treatment, whereas patients with higher myeloblast chromatin contrast variance (higher heterogeneity) mostly experienced AML relapse post-HCT.</p>
+              <p>In relation to existing clinical AML grading relapse and in agreement with the study by Yeung et al,<sup><xref rid="b29" ref-type="bibr">29</xref></sup> we found that myeloblast count was not a good predictive or prognostic feature. This finding contributes to the growing body of work, which suggests that textural features are much more predictive of AML relapse than simple myeloblast counts.</p>
+              <p>Our study had some limitations worth noting. One was the relatively small size of the validation cohort and the fact that these came from a single institution. The study was retrospective in nature and not prospective. In addition, we did not compare the PRS against well-established clinical and cytogenetic/molecular markers such as mutations in DNMT3A and IDH,<sup><xref rid="b46" ref-type="bibr">46</xref></sup> limitations we intend to address in future work. To ensure the validity of PRS for clinical use, prospective clinical trials will be needed to be performed. Patients with AML/MDS who are categorized as high risk by the PRS may merit the maintenance of treatment intensity by consistently using concurrent chemotherapy or intensifying chemotherapy. Taken together, this would represent a novel, viable precision oncology approach to treating patients who undergo HCT in the modern era.</p>
+              <p>In summary, we developed a quantitative PRS, on the basis of two features related to the textural appearance of myeloblasts, automatically extracted from bone marrow cytologic images of patients with AML. PRS was prognostic of RFS after HCT in patients with AML/MDS. A machine classifier in conjunction with the myeloblast texture parameters was able to predict relapse post-HCT. Further multisite validation including retrospective validation of archived samples from completed clinical trials followed by large prospective clinical trial evaluation is necessary to validate PRS as a prognostic and predictive biomarker to risk stratify patients post-HCT.</p>
+            </sec>
+          </body>
+          <back>
+            <fn-group content-type="disclaimer">
+              <title>DISCLAIMER</title>
+              <fn specific-use="disclaimer" fn-type="other">
+                <p>The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health, the US Department of Veterans Affairs, the Department of Defense, or the US Government.</p>
+              </fn>
+            </fn-group>
+            <fn-group content-type="supported-by">
+              <title>SUPPORT</title>
+              <fn specific-use="supported-by" fn-type="supported-by">
+                <p>Supported by the National Cancer Institute under award numbers R01CA249992-01A1, R01CA202752-01A1, R01CA208236-01A1, R01CA216579-01A1, R01CA220581-01A1, R01CA257612-01A1, 1U01CA239055-01, 1U01CA248226-01, 1U54CA254566-01, National Heart, Lung, and Blood Institute 1R01HL15127701A1, R01HL15807101A1, National Institute of Biomedical Imaging and Bioengineering 1R43EB028736-01, National Center for Research Resources under award number 1 C06 RR12463-01, VA Merit Review Award IBX004121A from the United States Department of Veterans Affairs Biomedical Laboratory Research and Development Service the Office of the Assistant Secretary of Defense for Health Affairs, through the Breast Cancer Research Program (W81XWH-19-1-0668), the Prostate Cancer Research Program (W81XWH-15-1-0558, W81XWH-20-1 0851), the Lung Cancer Research Program (W81XWH-18-1-0440, W81XWH-20-1-0595), the Peer-Reviewed Cancer Research Program (W81XWH-18-1-0404, W81XWH-21-1-0345, W81XWH-21-1-0160), the Kidney Precision Medicine Project (KPMP) Glue Grant and sponsored research agreements from Bristol Myers-Squibb, Boehringer-Ingelheim, Eli-Lilly and AstraZeneca.</p>
+              </fn>
+            </fn-group>
+            <sec sec-type="data-availability">
+              <title>DATA SHARING STATEMENT</title>
+              <p>The data underlying this article were provided by the University Hospitals Cleveland Medical Center (UH) under license/by permission. Data will be shared on request to the corresponding author with the permission of UH.</p>
+            </sec>
+            <sec sec-type="contributed">
+              <title>AUTHOR CONTRIBUTIONS</title>
+              <p><bold>Conception and design:</bold> Sara Arabyarmohammadi, Leland Metheny, Anant Madabhushi</p>
+              <p><bold>Provision of study materials or patients:</bold> Howard Meyerson, LelandMetheny</p>
+              <p><bold>Collection and assembly of data:</bold> Sara Arabyarmohammadi, Vidya Sankar Viswanathan, Howard Meyerson, Leland Metheny, Anant Madabhushi</p>
+              <p><bold>Data analysis and interpretation:</bold> Sara Arabyarmohammadi, Patrick Leo, Andrew Janowczyk, German Corredor, Pingfu Fu, Anant Madabhushi</p>
+              <p><bold>Manuscript writing:</bold> All authors</p>
+              <p><bold>Final approval of manuscript:</bold> All authors</p>
+              <p><bold>Accountable for all aspects of the work:</bold> All authors</p>
+            </sec>
+            <sec sec-type="COI-statement">
+              <title>AUTHORS' DISCLOSURES OF POTENTIAL CONFLICTS OF INTEREST</title>
+              <p>The following represents disclosure information provided by authors of this manuscript. All relationships are considered compensated unless otherwise noted. Relationships are self-held unless noted. I = Immediate Family Member, Inst = My Institution. Relationships may not relate to the subject matter of this manuscript. For more information about ASCO's conflict of interest policy, please refer to <ext-link xlink:href="http://www.asco.org/rwc" ext-link-type="uri">www.asco.org/rwc</ext-link> or <ext-link xlink:href="https://ascopubs.org/cci/author-center" ext-link-type="uri">ascopubs.org/cci/author-center</ext-link>.</p>
+              <p>Open Payments is a public database containing information reported by companies about payments made to US-licensed physicians (<ext-link xlink:href="https://openpaymentsdata.cms.gov/" ext-link-type="uri">Open Payments</ext-link>).</p>
+              <fn-group content-type="COI-statement">
+                <fn id="con1" specific-use="COI-statement" fn-type="other">
+                  <p>
+                    <bold>Patrick Leo</bold>
+                  </p>
+                  <p><bold>Employment:</bold> Genentech</p>
+                  <p><bold>Stock and Other Ownership Interests:</bold> Roche</p>
+                  <p><bold>Patents, Royalties, Other Intellectual Property:</bold> Hold patents related to using digital pathology in precision medicine</p>
+                </fn>
+                <fn id="con2" specific-use="COI-statement" fn-type="other">
+                  <p>
+                    <bold>Vidya Sankar Viswanathan</bold>
+                  </p>
+                  <p><bold>Stock and Other Ownership Interests:</bold> Pfizer</p>
+                </fn>
+                <fn id="con3" specific-use="COI-statement" fn-type="other">
+                  <p>
+                    <bold>Andrew Janowczyk</bold>
+                  </p>
+                  <p><bold>Consulting or Advisory Role:</bold> Merck Sharp &amp; Dohme</p>
+                </fn>
+                <fn id="con4" specific-use="COI-statement" fn-type="other">
+                  <p>
+                    <bold>Howard Meyerson</bold>
+                  </p>
+                  <p><bold>Stock and Other Ownership Interests:</bold> Lilly (I)</p>
+                </fn>
+                <fn id="con5" specific-use="COI-statement" fn-type="other">
+                  <p>
+                    <bold>Leland Metheny</bold>
+                  </p>
+                  <p><bold>Consulting or Advisory Role:</bold> Pharmacosmos</p>
+                  <p><bold>Speakers' Bureau:</bold> Takeda, Incyte</p>
+                  <p><bold>Research Funding:</bold> Pfizer (Inst)</p>
+                </fn>
+                <fn id="con6" specific-use="COI-statement" fn-type="other">
+                  <p>
+                    <bold>Anant Madabhushi</bold>
+                  </p>
+                  <p><bold>Leadership:</bold> Inspirata</p>
+                  <p><bold>Stock and Other Ownership Interests:</bold> Inspirata, Elucid Bioimaging</p>
+                  <p><bold>Honoraria:</bold> AstraZeneca, Inspirata</p>
+                  <p><bold>Consulting or Advisory Role:</bold> Merck, Aiforia, Roche, Caris Life Sciences, Cernostics</p>
+                  <p><bold>Research Funding:</bold> Inspirata (Inst), Philips Healthcare (Inst), Bristol Myers Squibb (Inst), AstraZeneca (Inst), Boehringer Ingelheim (Inst)</p>
+                  <p><bold>Patents, Royalties, Other Intellectual Property:</bold> IP licensed by Inspirata Inc (Inst), IP licensed by Elucid Bioimaging (Inst)</p>
+                  <p>No other potential conflicts of interest were reported.</p>
+                </fn>
+              </fn-group>
+            </sec>
+            <notes>
+              <fn-group content-type="COI-statement">
+                <fn specific-use="COI-statement" fn-type="other">
+                  <p>
+                    <bold>Patrick Leo</bold>
+                  </p>
+                  <p><bold>Employment:</bold> Genentech</p>
+                  <p><bold>Stock and Other Ownership Interests:</bold> Roche</p>
+                  <p><bold>Patents, Royalties, Other Intellectual Property:</bold> Hold patents related to using digital pathology in precision medicine</p>
+                </fn>
+                <fn specific-use="COI-statement" fn-type="other">
+                  <p>
+                    <bold>Vidya Sankar Viswanathan</bold>
+                  </p>
+                  <p><bold>Stock and Other Ownership Interests:</bold> Pfizer</p>
+                </fn>
+                <fn specific-use="COI-statement" fn-type="other">
+                  <p>
+                    <bold>Andrew Janowczyk</bold>
+                  </p>
+                  <p><bold>Consulting or Advisory Role:</bold> Merck Sharp &amp; Dohme</p>
+                </fn>
+                <fn specific-use="COI-statement" fn-type="other">
+                  <p>
+                    <bold>Howard Meyerson</bold>
+                  </p>
+                  <p><bold>Stock and Other Ownership Interests:</bold> Lilly (I)</p>
+                </fn>
+                <fn specific-use="COI-statement" fn-type="other">
+                  <p>
+                    <bold>Leland Metheny</bold>
+                  </p>
+                  <p><bold>Consulting or Advisory Role:</bold> Pharmacosmos</p>
+                  <p><bold>Speakers' Bureau:</bold> Takeda, Incyte</p>
+                  <p><bold>Research Funding:</bold> Pfizer (Inst)</p>
+                </fn>
+                <fn specific-use="COI-statement" fn-type="other">
+                  <p>
+                    <bold>Anant Madabhushi</bold>
+                  </p>
+                  <p><bold>Leadership:</bold> Inspirata</p>
+                  <p><bold>Stock and Other Ownership Interests:</bold> Inspirata, Elucid Bioimaging</p>
+                  <p><bold>Honoraria:</bold> AstraZeneca, Inspirata</p>
+                  <p><bold>Consulting or Advisory Role:</bold> Merck, Aiforia, Roche, Caris Life Sciences, Cernostics</p>
+                  <p><bold>Research Funding:</bold> Inspirata (Inst), Philips Healthcare (Inst), Bristol Myers Squibb (Inst), AstraZeneca (Inst), Boehringer Ingelheim (Inst)</p>
+                  <p><bold>Patents, Royalties, Other Intellectual Property:</bold> IP licensed by Inspirata Inc (Inst), IP licensed by Elucid Bioimaging (Inst)</p>
+                  <p>No other potential conflicts of interest were reported.</p>
+                </fn>
+              </fn-group>
+            </notes>
+            <ref-list>
+              <title>REFERENCES</title>
+              <ref id="b1">
+                <label>1. </label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Klepin</surname><given-names>HD</given-names></name></person-group>: <article-title>Myelodysplastic syndromes and acute myeloid leukemia in the elderly</article-title>. <source>Physiol Behav</source><volume>32</volume>:<fpage>155</fpage>-<lpage>173</lpage>, <year>2016</year></mixed-citation>
+              </ref>
+              <ref id="b2">
+                <label>2. </label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Saultz</surname><given-names>JN</given-names></name>, <name><surname>Garzon</surname><given-names>R</given-names></name></person-group>: <article-title>Acute myeloid leukemia: A concise review</article-title>. <source>J Clin Med</source><volume>5</volume>:<fpage>33</fpage>, <year>2016</year><pub-id pub-id-type="pmid">26959069</pub-id></mixed-citation>
+              </ref>
+              <ref id="b3">
+                <label>3. </label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Zhang</surname><given-names>T</given-names></name>, <name><surname>Yang</surname><given-names>J</given-names></name>, <name><surname>Vaikari</surname><given-names>VP</given-names></name>, <etal>et al</etal></person-group>: <article-title>Apolipoprotein C2—CD36 promotes leukemia growth and presents a targetable axis in acute myeloid leukemia</article-title>. <source>Blood Cancer Discov</source><volume>1</volume>:<fpage>198</fpage>-<lpage>213</lpage>, <year>2020</year><pub-id pub-id-type="pmid">32944714</pub-id></mixed-citation>
+              </ref>
+              <ref id="b4">
+                <label>4.</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Swerdlow</surname><given-names>SH</given-names></name>, <name><surname>Campo</surname><given-names>E</given-names></name>, <name><surname>Harris</surname><given-names>NL</given-names></name>, <etal>et al</etal></person-group>: <source>WHO Classification of Tumours of Haematopoietic and Lymphoid Tissues</source>. <publisher-loc>Lyon, France</publisher-loc>, <publisher-name>IARC Press</publisher-name>, <year>2020</year></mixed-citation>
+              </ref>
+              <ref id="b5">
+                <label>5.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lin</surname><given-names>M</given-names></name>, <name><surname>Jaitly</surname><given-names>V</given-names></name>, <name><surname>Wang</surname><given-names>I</given-names></name>, <etal>et al</etal></person-group>: <article-title>Application of deep learning on predicting prognosis of acute myeloid leukemia with cytogenetics, age , and mutations</article-title>. <source>arXiv</source>, <volume>1810</volume>:<fpage>1</fpage>-<lpage>11</lpage>, <year>2018</year></mixed-citation>
+              </ref>
+              <ref id="b6">
+                <label>6.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Barrett</surname><given-names>AJ</given-names></name>, <name><surname>Battiwalla</surname><given-names>M</given-names></name></person-group>: <article-title>Relapse after allogeneic stem cell transplantation</article-title>. <source>Expert Rev Hematol</source><volume>3</volume>:<fpage>429</fpage>-<lpage>441</lpage>, <year>2010</year><pub-id pub-id-type="pmid">21083034</pub-id></mixed-citation>
+              </ref>
+              <ref id="b7">
+                <label>7.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Dinardo</surname><given-names>CD</given-names></name>, <name><surname>Garcia-Manero</surname><given-names>G</given-names></name>, <name><surname>Pierce</surname><given-names>S</given-names></name>, <etal>et al</etal></person-group>: <article-title>Interactions and relevance of blast percentage and treatment strategy among younger and older patients with acute myeloid leukemia (AML) and myelodysplastic syndrome (MDS)</article-title>. <source>Am J Hematol</source><volume>91</volume>:<fpage>227</fpage>-<lpage>232</lpage>, <year>2016</year><pub-id pub-id-type="pmid">26799610</pub-id></mixed-citation>
+              </ref>
+              <ref id="b8">
+                <label>8.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Elfenbein</surname><given-names>GJ</given-names></name>, <name><surname>Brogaonkar</surname><given-names>DS</given-names></name>, <name><surname>Bias</surname><given-names>WB</given-names></name>, <etal>et al</etal></person-group>: <article-title>Cytogenetic evidence for recurrence of acute myelogenous leukemia after allogeneic bone marrow transplantation in donor hematopoietic cells</article-title>. <source>Blood</source><volume>52</volume>:<fpage>627</fpage>-<lpage>636</lpage>, <year>1978</year><pub-id pub-id-type="pmid">354703</pub-id></mixed-citation>
+              </ref>
+              <ref id="b9">
+                <label>9.</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><collab>PDQ Adult Treatment Editorial Board</collab></person-group>: <article-title>Adult acute myeloid leukemia treatment</article-title>, in <source>PDQ Cancer Information Summaries</source>. <publisher-loc>Bethesda, MD</publisher-loc>, <publisher-name>National Cancer Institute (US)</publisher-name>, <year>2021</year></mixed-citation>
+              </ref>
+              <ref id="b10">
+                <label>10.</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><collab>PDQ Adult Treatment Editorial Board</collab></person-group>: <article-title>Adult acute myeloid leukemia treatment (PDQ<sup>®</sup>): Health professional version</article-title>, in <source>PDQ Cancer Information Summaries</source>. <publisher-loc>Bethesda, MD</publisher-loc>, <publisher-name>National Cancer Institute (US)</publisher-name>, <year>2021</year></mixed-citation>
+              </ref>
+              <ref id="b11">
+                <label>11.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Su</surname><given-names>J</given-names></name>, <name><surname>Liu</surname><given-names>S</given-names></name>, <name><surname>Song</surname><given-names>J</given-names></name></person-group>: <article-title>A segmentation method based on HMRF for the aided diagnosis of acute myeloid leukemia</article-title>. <source>Comput Methods Programs Biomed</source><volume>152</volume>:<fpage>115</fpage>-<lpage>123</lpage>, <year>2017</year><pub-id pub-id-type="pmid">29054251</pub-id></mixed-citation>
+              </ref>
+              <ref id="b12">
+                <label>12.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Reta</surname><given-names>C</given-names></name>, <name><surname>Altamirano</surname><given-names>L</given-names></name>, <name><surname>Gonzalez</surname><given-names>JA</given-names></name>: <etal>et al</etal></person-group>: <article-title>Segmentation and classification of bone marrow cells images using contextual information for medical diagnosis of acute leukemias</article-title>. <source>PLoS One</source><volume>10</volume>:<fpage>1</fpage>-<lpage>18</lpage>, <year>2015</year></mixed-citation>
+              </ref>
+              <ref id="b13">
+                <label>13.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Adam</surname><given-names>RL</given-names></name>, <name><surname>Silva</surname><given-names>RC</given-names></name>, <name><surname>Pereira</surname><given-names>FG</given-names></name>, <etal>et al</etal></person-group>: <article-title>The fractal dimension of nuclear chromatin as a prognostic factor in acute precursor B lymphoblastic leukemia</article-title>. <source>Cell Oncol</source>,<volume>28</volume>:<fpage>55</fpage>-<lpage>59</lpage>, <year>2006</year><pub-id pub-id-type="pmid">16675881</pub-id></mixed-citation>
+              </ref>
+              <ref id="b14">
+                <label>14.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Mashiah</surname><given-names>A</given-names></name>, <name><surname>Wolach</surname><given-names>O</given-names></name>, <name><surname>Sandbank</surname><given-names>J</given-names></name>, <etal>et al</etal></person-group>: <article-title>Lymphoma and leukemia cells possess fractal dimensions that correlate with their biological features</article-title>. <source>Acta Haematol</source><volume>119</volume>:<fpage>142</fpage>-<lpage>150</lpage>, <year>2008</year><pub-id pub-id-type="pmid">18417956</pub-id></mixed-citation>
+              </ref>
+              <ref id="b15">
+                <label>15.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Li</surname><given-names>Y</given-names></name>, <name><surname>Bai</surname><given-names>S</given-names></name>, <name><surname>Carroll</surname><given-names>W</given-names></name>, <etal>et al</etal></person-group>: <article-title>Validation of the risk model: High-risk classification and tumor pattern of invasion predict outcome for patients with low-stage oral cavity squamous cell carcinoma</article-title>. <source>Head Neck Pathol</source><volume>7</volume>:<fpage>211</fpage>-<lpage>223</lpage>, <year>2013</year><pub-id pub-id-type="pmid">23250819</pub-id></mixed-citation>
+              </ref>
+              <ref id="b16">
+                <label>16.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Beck</surname><given-names>AH</given-names></name>, <name><surname>Sangoi</surname><given-names>AR</given-names></name>, <name><surname>Leung</surname><given-names>S</given-names></name>, <etal>et al</etal></person-group>: <article-title>Systematic analysis of breast cancer morphology uncovers stromal features associated with survival</article-title>. <source>Sci Transl Med</source><volume>3</volume>:<fpage>108ra113</fpage>, <year>2011</year></mixed-citation>
+              </ref>
+              <ref id="b17">
+                <label>17.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Choi</surname><given-names>JW</given-names></name>, <name><surname>Ku</surname><given-names>Y</given-names></name>, <name><surname>Yoo</surname><given-names>BW</given-names></name>, <etal>et al</etal></person-group>: <article-title>White blood cell differential count of maturation stages in bone marrow smear using dual-stage convolutional neural networks</article-title>. <source>PLoS One</source><volume>12</volume>:<fpage>1</fpage>-<lpage>15</lpage>, <year>2019</year></mixed-citation>
+              </ref>
+              <ref id="b18">
+                <label>18.</label>
+                <mixed-citation publication-type="other"><person-group person-group-type="author"><name><surname>Agrawal</surname><given-names>R</given-names></name>, <name><surname>Satapathy</surname><given-names>S</given-names></name>, <name><surname>Bagla</surname><given-names>G</given-names></name>, <etal>et al</etal></person-group>: <article-title>Detection of white blood cell cancer using image processing</article-title>. <comment>Presented at 2019 International Conference on Vision Towards Emerging Trends in Communication and Networking (ViTECoN), Vellore, India, March 30-31, 2019, pp 1-6</comment></mixed-citation>
+              </ref>
+              <ref id="b19">
+                <label>19.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Rozycka</surname><given-names>M</given-names></name>, <name><surname>Sawicki</surname><given-names>W</given-names></name>, <name><surname>Traczyk</surname><given-names>Z</given-names></name>, <etal>et al</etal></person-group>: <article-title>Analysis of chromatin pattern in blood lymphocytes of healthy donors and in lymphoid cells of patients with chronic lymphocytic leukaemia</article-title>. <source>J Clin Pathol</source><volume>41</volume>:<fpage>504</fpage>-<lpage>509</lpage>, <year>1988</year><pub-id pub-id-type="pmid">2454955</pub-id></mixed-citation>
+              </ref>
+              <ref id="b20">
+                <label>20.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Sanjuan-Pla</surname><given-names>A</given-names></name>, <name><surname>Bueno</surname><given-names>C</given-names></name>, <name><surname>Prieto</surname><given-names>C</given-names></name>, <etal>et al</etal></person-group>: <article-title>Revisiting the biology of infant t(4;11)/MLL-AF4+ B-cell acute lymphoblastic leukemia</article-title>. <source>Blood</source><volume>126</volume>:<fpage>2676</fpage>-<lpage>2686</lpage>, <year>2015</year><pub-id pub-id-type="pmid">26463423</pub-id></mixed-citation>
+              </ref>
+              <ref id="b21">
+                <label>21.</label>
+                <mixed-citation publication-type="webpage">
+Freepik.com
+</mixed-citation>
+              </ref>
+              <ref id="b22">
+                <label>22.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Ronneberger</surname><given-names>O</given-names></name>, <name><surname>Fischer</surname><given-names>P</given-names></name>, <name><surname>Brox</surname><given-names>T</given-names></name></person-group>: <article-title>U-net: Convolutional networks for biomedical image segmentation</article-title>. <source>arXiv</source><volume>9</volume>:<fpage>16591</fpage>-<lpage>16603</lpage>, <year>2015</year></mixed-citation>
+              </ref>
+              <ref id="b23">
+                <label>23.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Haralick</surname><given-names>RM</given-names></name>, <name><surname>Shanmugam</surname><given-names>K</given-names></name>, <name><surname>Dinstein</surname><given-names>I</given-names></name>, <etal>et al</etal></person-group>: <article-title>Textural features for image classification</article-title>. <source>IEEE Trans Syst Man Cybern</source><volume>3</volume>:<fpage>610</fpage>-<lpage>621</lpage>, <year>1973</year></mixed-citation>
+              </ref>
+              <ref id="b24">
+                <label>24.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Metze</surname><given-names>K</given-names></name>, <name><surname>Adam</surname><given-names>R</given-names></name>, <name><surname>Florindo</surname><given-names>JB</given-names></name></person-group>: <article-title>The fractal dimension of chromatin—A potential molecular marker for carcinogenesis, tumor progression and prognosis</article-title>. <source>Expert Rev Mol Diagn</source><volume>19</volume>:<fpage>299</fpage>-<lpage>312</lpage>, <year>2019</year><pub-id pub-id-type="pmid">31006377</pub-id></mixed-citation>
+              </ref>
+              <ref id="b25">
+                <label>25.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Metze</surname><given-names>K</given-names></name></person-group>: <article-title>Fractal dimension of chromatin and cancer prognosis</article-title>. <source>Epigenomics</source><volume>2</volume>:<fpage>601</fpage>–<lpage>604</lpage>, <year>2010</year><pub-id pub-id-type="pmid">22122044</pub-id></mixed-citation>
+              </ref>
+              <ref id="b26">
+                <label>26.</label>
+                <mixed-citation publication-type="book"><source>R: Package “Glmnet”</source>, <year>2021</year>. <ext-link xlink:href="https://cran.r-project.org/web/packages/glmnet/glmnet.pdf" ext-link-type="uri">https://cran.r-project.org/web/packages/glmnet/glmnet.pdf</ext-link></mixed-citation>
+              </ref>
+              <ref id="b27">
+                <label>27.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Li</surname><given-names>H</given-names></name>, <name><surname>Whitney</surname><given-names>J</given-names></name>, <name><surname>Bera</surname><given-names>K</given-names></name>, <etal>et al</etal></person-group>: <article-title>Quantitative nuclear histomorphometric features are predictive of Oncotype DX risk categories in ductal carcinoma in situ: Preliminary findings</article-title>. <source>Breast Cancer Res</source><volume>21</volume>:<fpage>114</fpage>-<lpage>116</lpage>, <year>2019</year><pub-id pub-id-type="pmid">31623652</pub-id></mixed-citation>
+              </ref>
+              <ref id="b28">
+                <label>28.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Brynolfsson</surname><given-names>P</given-names></name>, <name><surname>Nilsson</surname><given-names>D</given-names></name>, <name><surname>Torheim</surname><given-names>T</given-names></name>, <etal>et al</etal></person-group>: <article-title>Haralick texture features from apparent diffusion coefficient (ADC) MRI images depend on imaging and pre-processing parameters</article-title>. <source>Sci Rep</source><volume>7</volume>:<fpage>4041</fpage>-<lpage>4111</lpage>, <year>2017</year><pub-id pub-id-type="pmid">28642480</pub-id></mixed-citation>
+              </ref>
+              <ref id="b29">
+                <label>29.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Yeung</surname><given-names>CCS</given-names></name>, <name><surname>Gerds</surname><given-names>AT</given-names></name>, <name><surname>Fang</surname><given-names>M</given-names></name>, <etal>et al</etal></person-group>: <article-title>Relapse after allogeneic hematopoietic cell transplantation for myelodysplastic syndromes: Analysis of late relapse using comparative karyotype and chromosome genome array testing</article-title>. <source>Biol Blood Marrow Transpl</source><volume>176</volume>:<fpage>139</fpage>-<lpage>148</lpage>, <year>2018</year></mixed-citation>
+              </ref>
+              <ref id="b30">
+                <label>30.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lorand-Metze</surname><given-names>I</given-names></name>, <name><surname>Carvalho</surname><given-names>MA</given-names></name>, <name><surname>Metze</surname><given-names>K</given-names></name></person-group>: <article-title>Relationship between morphometric analysis of nucleolar organizer regions and cell proliferation in acute leukemias</article-title>. <source>Cytometry</source><volume>32</volume>:<fpage>51</fpage>-<lpage>56</lpage>, <year>1998</year><pub-id pub-id-type="pmid">9581624</pub-id></mixed-citation>
+              </ref>
+              <ref id="b31">
+                <label>31.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>De Mello</surname><given-names>MRB</given-names></name><name><surname>Albuquerque</surname><given-names>DM</given-names></name>, <name><surname>Pereira-Cunha</surname><given-names>FG</given-names></name>, <etal>et al</etal></person-group>: <article-title>Molecular characteristics and chromatin texture features in acute promyelocytic leukemia</article-title>. <source>Diagn Pathol</source><volume>7</volume>:<fpage>1</fpage>-<lpage>8</lpage>, <year>2012</year><pub-id pub-id-type="pmid">22217299</pub-id></mixed-citation>
+              </ref>
+              <ref id="b32">
+                <label>32.</label>
+                <mixed-citation publication-type="book"><source>Blood Morphology</source>, <year>2018</year>. <ext-link xlink:href="https://askhematologist.com/blood-morphology/" ext-link-type="uri">https://askhematologist.com/blood-morphology/</ext-link></mixed-citation>
+              </ref>
+              <ref id="b33">
+                <label>33.</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><collab>eClinpath</collab></person-group>: <source>Normal Leukocytes</source>. <publisher-loc>Ithaca, NY</publisher-loc>, <publisher-name>Cornell University Collage of Veterinary Medicine</publisher-name>. <ext-link xlink:href="https://eclinpath.com/hematology/morphologic-features/white-blood-cells/normal-leukocytes/" ext-link-type="uri">https://eclinpath.com/hematology/morphologic-features/white-blood-cells/normal-leukocytes/</ext-link></mixed-citation>
+              </ref>
+              <ref id="b34">
+                <label>34.</label>
+                <mixed-citation publication-type="book"><source>The Identification of Mature and Immature Leucocytes in Peripheral Blood Smears and Bone Marrow</source>, <year>2021</year>. <ext-link xlink:href="http://lymerick.net/blood-cells.pdf" ext-link-type="uri">http://lymerick.net/blood-cells.pdf</ext-link></mixed-citation>
+              </ref>
+              <ref id="b35">
+                <label>35.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Fischer</surname><given-names>EG</given-names></name></person-group>: <article-title>Nuclear morphology and the biology of cancer cells</article-title>. <source>Acta Cytol</source><volume>64</volume>:<fpage>511</fpage>-<lpage>519</lpage>, <year>2020</year><pub-id pub-id-type="pmid">32570234</pub-id></mixed-citation>
+              </ref>
+              <ref id="b36">
+                <label>36.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Basso</surname><given-names>G</given-names></name>, <name><surname>Veltroni</surname><given-names>M</given-names></name>, <name><surname>Valsecchi</surname><given-names>MG</given-names></name>, <etal>et al</etal></person-group>: <article-title>Risk of relapse of childhood acute lymphoblastic leukemia is predicted by flow cytometric measurement of residual disease on day 15 bone marrow</article-title>. <source>J Clin Oncol</source><volume>27</volume>:<fpage>5168</fpage>-<lpage>5174</lpage>, <year>2009</year><pub-id pub-id-type="pmid">19805690</pub-id></mixed-citation>
+              </ref>
+              <ref id="b37">
+                <label>37.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Breems</surname><given-names>DA</given-names></name>, <name><surname>Van Putten</surname><given-names>WL</given-names></name>, <name><surname>Huijgens</surname><given-names>PC</given-names></name>, <etal>et al</etal></person-group>: <article-title>Prognostic index for adult patients with acute myeloid leukemia in first relapse</article-title>. <source>J Clin Oncol</source><volume>23</volume>:<fpage>1969</fpage>-<lpage>1978</lpage>, <year>2005</year><pub-id pub-id-type="pmid">15632409</pub-id></mixed-citation>
+              </ref>
+              <ref id="b38">
+                <label>38.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Bera</surname><given-names>K</given-names></name>, <name><surname>Schalper</surname><given-names>KA</given-names></name>, <name><surname>Rimm</surname><given-names>DL</given-names></name>, <etal>et al</etal></person-group>: <article-title>Diagnosis and precision oncology</article-title>. <source>Nat Rev Clin Oncol</source><volume>16</volume>:<fpage>703</fpage>-<lpage>715</lpage>, <year>2019</year><pub-id pub-id-type="pmid">31399699</pub-id></mixed-citation>
+              </ref>
+              <ref id="b39">
+                <label>39.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Peyster</surname><given-names>EG</given-names></name>, <name><surname>Arabyarmohammadi</surname><given-names>S</given-names></name>, <name><surname>Janowczyk</surname><given-names>A</given-names></name>, <etal>et al</etal></person-group>: <article-title>An automated computational image analysis pipeline for histological grading of cardiac allograft rejection</article-title>. <source>Eur Heart J</source><volume>42</volume>:<fpage>2356</fpage>-<lpage>2369</lpage>, <year>2021</year><pub-id pub-id-type="pmid">33982079</pub-id></mixed-citation>
+              </ref>
+              <ref id="b40">
+                <label>40.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Metze</surname><given-names>I</given-names></name>, <name><surname>Silva</surname><given-names>K</given-names></name>, <name><surname>Adam</surname><given-names>RC</given-names></name>, <etal>et al</etal></person-group>: <article-title>Relation between chromatin texture and phenotype in acute leukemias</article-title>. <source>Cel Oncol</source><volume>27</volume>:<fpage>112</fpage>-<lpage>113</lpage>, <year>2005</year></mixed-citation>
+              </ref>
+              <ref id="b41">
+                <label>41.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>McGranahan</surname><given-names>N</given-names></name>, <name><surname>Swanton</surname><given-names>C</given-names></name></person-group>: <article-title>Clonal heterogeneity and tumor evolution: Past, present, and the future</article-title>. <source>Cell</source><volume>168</volume>:<fpage>613</fpage>-<lpage>628</lpage>, <year>2017</year><pub-id pub-id-type="pmid">28187284</pub-id></mixed-citation>
+              </ref>
+              <ref id="b42">
+                <label>42.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Davnall</surname><given-names>F</given-names></name>, <name><surname>Yip</surname><given-names>CSP</given-names></name>, <name><surname>Ljungqvist</surname><given-names>G</given-names></name>, <etal>et al</etal></person-group>: <article-title>Assessment of tumor heterogeneity: An emerging imaging tool for clinical practice?</article-title><source>Insights Imaging</source><volume>3</volume>:<fpage>573</fpage>-<lpage>589</lpage>, <year>2012</year><pub-id pub-id-type="pmid">23093486</pub-id></mixed-citation>
+              </ref>
+              <ref id="b43">
+                <label>43.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Loeb</surname><given-names>LA</given-names></name>, <name><surname>Kohrn</surname><given-names>BF</given-names></name>, <name><surname>Loubet-Senear</surname><given-names>KJ</given-names></name>, <etal>et al</etal></person-group>: <article-title>Extensive subclonal mutational diversity in human colorectal cancer and its significance</article-title>. <source>Proc Natl Acad Sci USA</source><volume>116</volume>:<fpage>26863</fpage>-<lpage>26872</lpage>, <year>2019</year><pub-id pub-id-type="pmid">31806761</pub-id></mixed-citation>
+              </ref>
+              <ref id="b44">
+                <label>44.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Morita</surname><given-names>K</given-names></name>, <name><surname>Wang</surname><given-names>F</given-names></name>, <name><surname>Jahn</surname><given-names>K</given-names></name>, <etal>et al</etal></person-group>: <article-title>Clonal evolution of acute myeloid leukemia revealed by high-throughput single-cell genomics</article-title>. <source>Nat Commun</source><volume>11</volume>:<fpage>5327</fpage>-<lpage>5417</lpage>, <year>2020</year><pub-id pub-id-type="pmid">33087716</pub-id></mixed-citation>
+              </ref>
+              <ref id="b45">
+                <label>45.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Schuster-Böckler</surname><given-names>B</given-names></name>, <name><surname>Lehner</surname><given-names>B</given-names></name></person-group>: <article-title>Chromatin organization is a major influence on regional mutation rates in human cancer cells</article-title>. <source>Nature</source><volume>488</volume>:<fpage>504</fpage>-<lpage>507</lpage>, <year>2012</year><pub-id pub-id-type="pmid">22820252</pub-id></mixed-citation>
+              </ref>
+              <ref id="b46">
+                <label>46.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kayser</surname><given-names>S</given-names></name>, <name><surname>Levis</surname><given-names>MJ</given-names></name></person-group>: <article-title>Clinical implications of molecular markers in acute myeloid leukemia</article-title>. <source>Eur J Haematol</source><volume>102</volume>:<fpage>20</fpage>-<lpage>35</lpage>, <year>2019</year><pub-id pub-id-type="pmid">30203623</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

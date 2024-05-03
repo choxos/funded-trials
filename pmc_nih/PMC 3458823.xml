@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T07:26:51Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3458823" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:3458823</identifier>
+        <datestamp>2012-10-03</datestamp>
+        <setSpec>plosone</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+              <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+              <journal-id journal-id-type="publisher-id">plos</journal-id>
+              <journal-id journal-id-type="pmc">plosone</journal-id>
+              <journal-title-group>
+                <journal-title>PLoS ONE</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1932-6203</issn>
+              <publisher>
+                <publisher-name>Public Library of Science</publisher-name>
+                <publisher-loc>San Francisco, USA</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC3458823</article-id>
+              <article-id pub-id-type="pmcid">PMC3458823</article-id>
+              <article-id pub-id-type="pmc-uid">3458823</article-id>
+              <article-id pub-id-type="pmid">23049929</article-id>
+              <article-id pub-id-type="pmid">23049929</article-id>
+              <article-id pub-id-type="publisher-id">PONE-D-12-15248</article-id>
+              <article-id pub-id-type="doi">10.1371/journal.pone.0046034</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research Article</subject>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v2">
+                  <subject>Biology</subject>
+                  <subj-group>
+                    <subject>Anatomy and Physiology</subject>
+                    <subj-group>
+                      <subject>Cardiovascular System</subject>
+                    </subj-group>
+                  </subj-group>
+                  <subj-group>
+                    <subject>Biophysics</subject>
+                    <subj-group>
+                      <subject>Biophysics Simulations</subject>
+                    </subj-group>
+                  </subj-group>
+                  <subj-group>
+                    <subject>Computational Biology</subject>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v2">
+                  <subject>Medicine</subject>
+                  <subj-group>
+                    <subject>Anatomy and Physiology</subject>
+                    <subj-group>
+                      <subject>Cardiovascular System</subject>
+                    </subj-group>
+                  </subj-group>
+                  <subj-group>
+                    <subject>Cardiovascular</subject>
+                    <subj-group>
+                      <subject>Arrhythmias</subject>
+                      <subject>Electrophysiology</subject>
+                    </subj-group>
+                  </subj-group>
+                  <subj-group>
+                    <subject>Clinical Research Design</subject>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v2">
+                  <subject>Physics</subject>
+                  <subj-group>
+                    <subject>Biophysics</subject>
+                    <subj-group>
+                      <subject>Biophysics Theory</subject>
+                    </subj-group>
+                  </subj-group>
+                  <subj-group>
+                    <subject>Interdisciplinary Physics</subject>
+                  </subj-group>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Computational Mapping Identifies Localized Mechanisms for Ablation of Atrial Fibrillation</article-title>
+                <alt-title alt-title-type="running-head">Mechanisms for Atrial Fibrillation</alt-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Narayan</surname>
+                    <given-names>Sanjiv M.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Krummen</surname>
+                    <given-names>David E.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Enyeart</surname>
+                    <given-names>Michael W.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rappel</surname>
+                    <given-names>Wouter-Jan</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                  <xref ref-type="corresp" rid="cor1">
+                    <sup>*</sup>
+                  </xref>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1">
+                <label>1</label>
+                <addr-line>Department of Medicine and Veterans Affairs Medical Center, University of California San Diego, San Diego, California, United States of America</addr-line>
+              </aff>
+              <aff id="aff2">
+                <label>2</label>
+                <addr-line>Department of Physics and Center for Theoretical Biological Physics, University of California San Diego, San Diego, California, United States of America</addr-line>
+              </aff>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Bondarenko</surname>
+                    <given-names>Vladimir E.</given-names>
+                  </name>
+                  <role>Editor</role>
+                  <xref ref-type="aff" rid="edit1"/>
+                </contrib>
+              </contrib-group>
+              <aff id="edit1">
+                <addr-line>Georgia State University, United States of America</addr-line>
+              </aff>
+              <author-notes>
+                <corresp id="cor1">* E-mail: <email>rappel@physics.ucsd.edu</email></corresp>
+                <fn fn-type="COI-statement">
+                  <p><bold>Competing Interests: </bold>Intellectual property has been registered on the use of computational mapping for use as an AF ablation procedure by the University of California Regents, with Drs. Narayan and Rappel named as inventors, and is licensed to Topera Medical Inc.. Dr. Narayan is a co-founder and holds equity in Topera Medical Inc. Dr. Rappel is a consultant to Topera Medical. Topera Medical does not support any research conducted by Dr. Narayan nor Dr. Rappel, including that presented here. This does not alter the authors' adherence to all the PLOS ONE policies on sharing data and materials.</p>
+                </fn>
+                <fn fn-type="con">
+                  <p>Conceived and designed the experiments: SMN WJR. Performed the experiments: SMN DEK. Analyzed the data: SMN DEK MWE WJR. Contributed reagents/materials/analysis tools: SMN WJR. Wrote the paper: SMN WJR.</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <year>2012</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>26</day>
+                <month>9</month>
+                <year>2012</year>
+              </pub-date>
+              <volume>7</volume>
+              <issue>9</issue>
+              <elocation-id>e46034</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>21</day>
+                  <month>5</month>
+                  <year>2012</year>
+                </date>
+                <date date-type="accepted">
+                  <day>28</day>
+                  <month>8</month>
+                  <year>2012</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2012 Narayan et al</copyright-statement>
+                <copyright-year>2012</copyright-year>
+                <copyright-holder>Narayan et al</copyright-holder>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                  <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>Atrial fibrillation (AF) is the most common heart rhythm disorder in the Western world and a common cause of hospitalization and death. Pharmacologic and non-pharmacologic therapies have met with limited success, in part due to an incomplete understanding of the underlying mechanisms for AF. AF is traditionally characterized by spatiotemporally disorganized electrical activation and, although initiating triggers for AF are described, it is unclear whether AF is sustained by spatially meandering continuous excitation (re-entrant waves), localized electrical sources within the atria, or some other mechanism. This has limited therapeutic options for this condition. Here we show that human AF is predominantly caused by a small number (1.8±0.9) of localized re-entrant waves or repetitive focal beats, that remain stable with limited spatial migration over prolonged periods of time. Radiofrequency ablation that selectively targeted the sites of these sources was able to immediately terminate fibrillation and eliminate the arrhythmia with high success. Our results show that human AF, despite apparent spatiotemporal disorganization, is often perpetuated by a few spatially-constrained and temporally conserved sources whose targeted ablation can eliminate this complex rhythm disorder.</p>
+              </abstract>
+              <funding-group>
+                <funding-statement>This study was funded by grants to SMN and WJR from the National Heart Lung and Blood Institute (HL70529, HL83359, HL103800) and Doris Duke Charitable foundation. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+              </funding-group>
+              <counts>
+                <page-count count="8"/>
+              </counts>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="s1">
+              <title>Introduction</title>
+              <p>Heart rhythm disorders are defined by abnormal spatial or temporal patterns of electrical propagation. Fibrillation, the most prevalent human rhythm disorder, is characterized by extremely rapid, temporally irregular and spatially disorganized electrical activity with potentially disastrous consequences. In the ventricles, fibrillation causes an abrupt loss of cardiac output (sudden death), and is the leading cause of death world-wide <xref rid="pone.0046034-Zipes1" ref-type="bibr">[1]</xref>. Fibrillation of the atria affects over 10 million individuals in the U.S. and Europe <xref rid="pone.0046034-ACCAHAESC1" ref-type="bibr">[2]</xref>, <xref rid="pone.0046034-Miyasaka1" ref-type="bibr">[3]</xref> in whom it contributes to heart failure, stroke and death. Despite numerous advances in therapy, AF is rarely cured <xref rid="pone.0046034-ACCAHAESC1" ref-type="bibr">[2]</xref>–<xref rid="pone.0046034-Calkins1" ref-type="bibr">[4]</xref> by defibrillating electrical shocks <xref rid="pone.0046034-ACCAHAESC1" ref-type="bibr">[2]</xref>, <xref rid="pone.0046034-Luther1" ref-type="bibr">[5]</xref> or anti-arrhythmic medications, both of which have modest long-term efficacy <xref rid="pone.0046034-ACCAHAESC1" ref-type="bibr">[2]</xref>, <xref rid="pone.0046034-Calkins1" ref-type="bibr">[4]</xref>. Organized arrhythmias <xref rid="pone.0046034-Jackman1" ref-type="bibr">[6]</xref>, <xref rid="pone.0046034-Waldo1" ref-type="bibr">[7]</xref>, including the Wolff-Parkinson-White syndrome which contains an anatomically fixed reentry pathway <xref rid="pone.0046034-Durrer1" ref-type="bibr">[8]</xref>, <xref rid="pone.0046034-Cox1" ref-type="bibr">[9]</xref>, exhibit rapid activity that can be destroyed by targeted ablation for a cure. However, this is not currently true for fibrillation.</p>
+              <p>Several mechanisms have been proposed for the maintenance and recurrence of AF, including electrical remodeling <xref rid="pone.0046034-Wijffels1" ref-type="bibr">[10]</xref>, <xref rid="pone.0046034-Kirchhof1" ref-type="bibr">[11]</xref>, structural remodeling <xref rid="pone.0046034-Benjamin1" ref-type="bibr">[12]</xref>–<xref rid="pone.0046034-Schotten1" ref-type="bibr">[14]</xref> and disturbed intracellular calcium homeostasis <xref rid="pone.0046034-Wakili1" ref-type="bibr">[15]</xref>. Seminal work by Haïssaguerre et al. has described initiating triggers for AF that can be eliminated by ablation <xref rid="pone.0046034-Haissaguerre1" ref-type="bibr">[16]</xref> and genetic factors have been identified that contribute to the underlying propensity to AF <xref rid="pone.0046034-Ellinor1" ref-type="bibr">[17]</xref>, <xref rid="pone.0046034-Gudbjartsson1" ref-type="bibr">[18]</xref>. However, understanding the mechanisms that sustain AF, once triggered, is lacking <xref rid="pone.0046034-Calkins1" ref-type="bibr">[4]</xref>, <xref rid="pone.0046034-Nattel1" ref-type="bibr">[19]</xref>, such that current ablation procedures often fail to terminate AF and require electrical shock to restore sinus rhythm <xref rid="pone.0046034-Calkins1" ref-type="bibr">[4]</xref>. AF subsequently recurs in 30–50% of these patients within a 1-year period <xref rid="pone.0046034-Calkins1" ref-type="bibr">[4]</xref>, <xref rid="pone.0046034-Weerasooriya1" ref-type="bibr">[20]</xref> with little improvements in outcome in recent years <xref rid="pone.0046034-Winkle1" ref-type="bibr">[21]</xref>.</p>
+              <p>In some animal models, reentrant spiral waves (rotors) may act as sources for fibrillation <xref rid="pone.0046034-Davidenko1" ref-type="bibr">[22]</xref>–<xref rid="pone.0046034-Chou1" ref-type="bibr">[25]</xref>, and may be numerous <xref rid="pone.0046034-Gray1" ref-type="bibr">[23]</xref>, drift within the atria <xref rid="pone.0046034-Skanes1" ref-type="bibr">[26]</xref> or ventricles <xref rid="pone.0046034-Gray1" ref-type="bibr">[23]</xref>, or extinguish over time <xref rid="pone.0046034-Gray1" ref-type="bibr">[23]</xref>, <xref rid="pone.0046034-Skanes1" ref-type="bibr">[26]</xref>, <xref rid="pone.0046034-Witkowski1" ref-type="bibr">[27]</xref>. In other models, AF exhibits non-localized waves within the atrium <xref rid="pone.0046034-Moe1" ref-type="bibr">[28]</xref>–<xref rid="pone.0046034-Rensma1" ref-type="bibr">[30]</xref>. Due to interspecies differences, including the rarity of spontaneous AF in animals and the fact that human AF is age-related and the product of co-existing diseases that are difficult to model, none of these mechanisms has yet been proven in human AF. Indeed, the existence of rotors is disputed in human AF <xref rid="pone.0046034-deGroot1" ref-type="bibr">[29]</xref>, <xref rid="pone.0046034-Cuculich1" ref-type="bibr">[31]</xref>. Similarly, focal beats, small regions of tissue from where activation emanates centrifugally and that may drive AF in animal models <xref rid="pone.0046034-Cuculich1" ref-type="bibr">[31]</xref>–<xref rid="pone.0046034-Yamazaki1" ref-type="bibr">[33]</xref>, are rarely identified <italic>a priori</italic> as sustaining mechanisms for human AF <xref rid="pone.0046034-deGroot1" ref-type="bibr">[29]</xref>, <xref rid="pone.0046034-Cuculich1" ref-type="bibr">[31]</xref>.</p>
+              <p>To define the predominant mechanisms underlying the perpetuation of AF in humans, we developed an approach to map human AF during minimally invasive procedures, combining high temporospatial resolution mapping of both atria (<xref ref-type="fig" rid="pone-0046034-g001">Fig. 1A–D</xref>) with patient-specific computational analyses of atrial activation and recovery.</p>
+              <fig id="pone-0046034-g001" orientation="portrait" position="float">
+                <object-id pub-id-type="doi">10.1371/journal.pone.0046034.g001</object-id>
+                <label>Figure 1</label>
+                <caption>
+                  <title>Electrical and Anatomic Mapping of Human Atria.</title>
+                  <p><bold>A</bold>. Basket catheter splines are represented as colored lines registered within the right (blue) and left (grey) atria in left anterior oblique and <bold>B</bold>. right anterior oblique projections. The figure shows alternate splines with positions D (distal) to 4 representing electrodes 1 to 8. <bold>C</bold>. Bi-atrial schematic showing right atrium as if opened at its poles and left atrium as if opened at its equator, with electrode positions (black dots). <bold>D</bold>. ECG leads I, aVF and V1 and electrograms of one sinus rhythm beat (red box) captured by baskets in right and left atrium. <bold>E</bold>. Maps of sinus rhythm activation (isochrones) from high right atrium (sinus node) to low lateral left atrium created from bi-atrial basket recordings.</p>
+                </caption>
+                <graphic xlink:href="pone.0046034.g001"/>
+              </fig>
+              <p>We studied 80 subjects with a broad range of AF phenotypes including paroxysmal AF (defined as episodes that self-limit within 7 days), persistent AF (episodes that terminate only with cardioversion) or longstanding persistent AF (continuous AF for over 1 year) <xref rid="pone.0046034-Calkins1" ref-type="bibr">[4]</xref>, and undergoing a first ablation as well as those who had failed conventional ablation (see <xref ref-type="supplementary-material" rid="pone.0046034.s001">Table S1</xref> for patient characteristics). Details of our patient population and mapping technique are presented in the <xref ref-type="sec" rid="s4">Methods</xref> and Supporting Information. Our mapping technique revealed localized sources (electrical rotors or focal beats) in almost all patients. Furthermore, we found that these sources were few in number and stable over prolonged periods of time that can be as long as months. These surprising findings enabled us to terminate AF with targeted ablation at the site of the localized sources. Finally, patients undergoing this targeted ablation experienced a superior rate of AF elimination in the long-term compared to patients undergoing traditional ablation procedures focusing on trigger mechanisms near the pulmonary veins.</p>
+            </sec>
+            <sec id="s2">
+              <title>Results and Discussion</title>
+              <sec id="s2a">
+                <title>Mapping of sinus rhythm</title>
+                <p>As a validation for our approach, we first computed activation patterns in patients during normal sinus rhythm using baskets in both the left and right atrium. This approach led to no adverse events in our experience. <xref ref-type="fig" rid="pone-0046034-g001">Fig. 1A–B</xref> depicts electrode locations registered within patient-specific atrial geometry, and shows that the baskets cover the vast majority of both atria. <xref ref-type="fig" rid="pone-0046034-g001">Fig. 1D</xref> shows the electrograms of one sinus rhythm beat in a patient, along with ECG leads. From this, a spatial map of normal sinus rhythm (isochrones) can be computed and shows activation from high right atrium (sinus node) to low lateral left atrium (<xref ref-type="fig" rid="pone-0046034-g001">Fig. 1E</xref>), consistent with known activation patterns.</p>
+              </sec>
+              <sec id="s2b">
+                <title>Rotors and focal sources are common during AF</title>
+                <p>When applied to AF, our computational mapping technique revealed localized and stable sources in 96% of patients. This is in contrast to recent human studies in which localized sources for AF were rarely or never observed <xref rid="pone.0046034-deGroot1" ref-type="bibr">[29]</xref>, <xref rid="pone.0046034-Cuculich1" ref-type="bibr">[31]</xref>. Electrical rotors in AF, defined in this study as continuous sequential activation rotating around a central region, were revealed in 86% of patients (<xref ref-type="fig" rid="pone-0046034-g002">Fig. 2A–F</xref> and <xref ref-type="supplementary-material" rid="pone.0046034.s002">Table S2</xref>). Different computational approaches gave the same results on rotor location and characteristics (see <xref ref-type="sec" rid="s4">Methods</xref> and compare <xref ref-type="fig" rid="pone-0046034-g003">fig. 3</xref> with <xref ref-type="supplementary-material" rid="pone.0046034.s003">Figure S1</xref>).</p>
+                <fig id="pone-0046034-g002" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0046034.g002</object-id>
+                  <label>Figure 2</label>
+                  <caption>
+                    <title>Stable Localized sources underlie human atrial fibrillation.</title>
+                    <p><bold>A</bold>. Isochrones show an LA rotor in paroxysmal AF, with electrograms during AF (ECG lead I and CS electrodes; scale bar 1 second). Activation times are color-coded (black indicates non-activated, diastole). <bold>B</bold>. Spatially constrained migration locus of the rotational center, computed every 25–45 ms and joined using third-order Bézier curve fitting. <bold>C</bold>. Isochrones 90 minutes later, indicating temporal conservation of the rotor. <bold>D</bold>. Isochrones of a RA rotor in persistent AF. <bold>E</bold>. Migration locus. <bold>F</bold>. Isochrones 1 hour later. <bold>G</bold>. LA repetitive focal beat in paroxysmal AF. <bold>H</bold>. Conservation of focal beat 1 hour later. In each case, ablation only at the source locus terminated AF within &lt;5 minutes. Scale bar 1 cm.</p>
+                  </caption>
+                  <graphic xlink:href="pone.0046034.g002"/>
+                </fig>
+                <fig id="pone-0046034-g003" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0046034.g003</object-id>
+                  <label>Figure 3</label>
+                  <caption>
+                    <title>AF termination by ablation of Stable LA rotor.</title>
+                    <p><bold>A</bold>. Left atrial rotor during paroxysmal AF visualized using isochrones. <bold>B</bold>. Migration locus of the rotational center, color-coded over time. <bold>C</bold>. Ablation lesions at rotor in low left atrium, applied 1 hour after initial recording of the rotor, shown on patient specific geometry. Red lesion is where AF terminated, and 3 other lesions (gray) were also applied. <bold>D</bold>. Electrode recordings during AF with termination to sinus rhythm by &lt;1 minute ablation at the rotational center (ECG lead aVF, and electrodes at ablation catheter, coronary sinus). <bold>E</bold>. Isochronal map of sinus rhythm. The patient remains free of AF on implanted cardiac monitor at 9 months. Scale Bar 1 cm.</p>
+                  </caption>
+                  <graphic xlink:href="pone.0046034.g003"/>
+                </fig>
+                <p>Repetitive focal beats in AF, defined in this study as activation radiating from a source region, were revealed in 29% of patients (<xref ref-type="fig" rid="pone-0046034-g002">Fig. 2GH</xref> and <xref ref-type="supplementary-material" rid="pone.0046034.s002">Table S2</xref>). Although elegant studies suggest that focal beats in fibrillation may represent breakthrough from reentrant waves on the opposing cardiac surface <xref rid="pone.0046034-deGroot1" ref-type="bibr">[29]</xref>, simultaneous epicardial mapping would be required to resolve differences across the cardiac wall. Analysis of the directionality of propagation across cycles confirmed that localized sources drive fibrillatory activity (<xref ref-type="supplementary-material" rid="pone.0046034.s004">Figure S2</xref>).</p>
+                <p>Study patients often demonstrated more than one coexisting electrical rotor or repetitive focal beat (<xref ref-type="fig" rid="pone-0046034-g004">Fig. 4</xref>, <xref ref-type="supplementary-material" rid="pone.0046034.s002">Table S2</xref>), for an average of 1.8±0.9 for both atria. By comparison, single fibrillating sheep atria <xref rid="pone.0046034-Skanes1" ref-type="bibr">[26]</xref>, that are substantially smaller than either human atrium, showed 1–3 sources. The number of coexisting sources was higher in patients presenting with advanced AF (i.e. persistent compared to paroxysmal AF, p&lt;0.05), but was unrelated to whether patients were being studied for the first time or had previously failed conventional ablation (1.8±0.9 vs 1.8±0.6, respectively p = 0.84), patient age, left atrial diameter or duration of AF history.</p>
+                <fig id="pone-0046034-g004" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0046034.g004</object-id>
+                  <label>Figure 4</label>
+                  <caption>
+                    <title>AF Termination by ablation of a Stable RA Rotor.</title>
+                    <p><bold>A</bold>. Isochrones show a RA rotor and concurrent LA focal beat during persistent AF. <bold>B</bold>. Spatially constrained rotational center locus. <bold>C</bold>. Ablation lesions at lateral RA rotor on patient specific geometry (performed 2 hours after initial recording of rotor). A total of 11 lesions were applied (shown), with AF termination to sinus rhythm at 5.5 minutes. The red lesion indicates where ablation terminated AF. <bold>D</bold>. Electrograms AF terminating to sinus rhythm with localized ablation at rotor (total duration 5.5 minutes) (ECG lead I, intracardiac electrodes in RA, LA and CS). <bold>E</bold>. Isochrones of sinus rhythm. After ablation, the patient remains AF-free at 12 months on implanted cardiac monitor. Scale bar 1 cm.</p>
+                  </caption>
+                  <graphic xlink:href="pone.0046034.g004"/>
+                </fig>
+              </sec>
+              <sec id="s2c">
+                <title>Localized sources are stable during AF</title>
+                <p>Computational mapping showed that rotational centers and focal beat origins in fibrillation were unexpectedly stable, migrating along circumscribed loci that partially overlapped between cycles (<xref ref-type="fig" rid="pone-0046034-g002">Fig. 2BE</xref>, <xref ref-type="fig" rid="pone-0046034-g003">3B</xref> and <xref ref-type="fig" rid="pone-0046034-g004">4B</xref> and <xref ref-type="supplementary-material" rid="pone.0046034.s002">Table S2</xref>) with areas 2.5±1.2 cm<sup>2</sup> and 2.1±1.8 cm<sup>2</sup>, respectively. Notably, source locations were conserved between maps acquired 115±57 minutes apart throughout mapping (<xref ref-type="fig" rid="pone-0046034-g002">Fig. 2</xref>), showing that sources for human cardiac fibrillation are conserved for at least several hours. One patient presented the unusual opportunity to demonstrate conservation of a left atrial rotor during AF between procedures separated by 8 months (<xref ref-type="supplementary-material" rid="pone.0046034.s005">Figure S3</xref>). Conversely, rotors in animal models of AF may last for short periods before extinguishing <xref rid="pone.0046034-Skanes1" ref-type="bibr">[26]</xref>. Focal beats in human AF were also stable for hours (<xref ref-type="fig" rid="pone-0046034-g004">Fig. 4</xref> and <xref ref-type="supplementary-material" rid="pone.0046034.s002">Table S2</xref>), while focal beats in animal models of AF were spatially variable and destabilized AF rotors <xref rid="pone.0046034-Yamazaki1" ref-type="bibr">[33]</xref>. This illustrates potential differences between AF in animals and the human condition.</p>
+              </sec>
+              <sec id="s2d">
+                <title>Targeted ablation of localized sources can eliminate AF</title>
+                <p>The spatially constrained and temporally conserved nature of a small number of rotors and focal beat sources in human AF presented an opportunity to establish their causal role via targeted elimination. We ablated the rotational center or origin of localized sources during ongoing AF by directly applying radiofrequency energy in 26 patients (of the population of n = 80), of whom 19 had persistent AF. Of 16 of 26 patients who exhibited 1 or 2 coexisting sources, ablation targeted to the limited migration loci of rotational centers or focal origins, with no other ablation, terminated AF in 3.9±3.8 minutes of total ablation to sinus rhythm (n = 13, <xref ref-type="fig" rid="pone-0046034-g003">Fig. 3</xref> and <xref ref-type="fig" rid="pone-0046034-g004">4</xref>), or organized atrial flutter (n = 3). Ablation was typically applied 60–120 minutes after the rotor or focal source was first recorded, further illustrating the temporal stability of human AF sources. Targeted ablation destroyed approximately 2 cm<sup>2</sup> of tissue to terminate AF, via 5–10 ablation lesions of typical area 0.25 cm<sup>2</sup>, in contrast with conventional ablation for persistent AF that may destroy &gt;12–50 cm<sup>2</sup> of tissue via 50–200 lesions <xref rid="pone.0046034-Haissaguerre2" ref-type="bibr">[34]</xref> (each 0.25 cm<sup>2</sup>) or &gt;30% of the area of a 4.6 cm diameter atrium <xref rid="pone.0046034-Calkins1" ref-type="bibr">[4]</xref> yet terminates persistent AF in fewer than 20% of cases <xref rid="pone.0046034-Oral1" ref-type="bibr">[35]</xref>. Specialist centers often aim to achieve AF termination yet, when successful, typically convert AF to atrial tachycardia rather than sinus rhythm <xref rid="pone.0046034-Haissaguerre2" ref-type="bibr">[34]</xref>. The mechanism by which localized ablation terminates rotors is unclear but likely involves the elimination or alteration of functional or anatomical heterogeneities such as fiber anisotropy <xref rid="pone.0046034-Waldo1" ref-type="bibr">[7]</xref>, <xref rid="pone.0046034-Davidenko1" ref-type="bibr">[22]</xref>, <xref rid="pone.0046034-deGroot1" ref-type="bibr">[29]</xref>, fibrosis, scar or other factors <xref rid="pone.0046034-Fenton1" ref-type="bibr">[36]</xref> central to maintaining AF, leading to its termination. These results demonstrate that targeted ablation of all identified AF sources may terminate fibrillation to normal sinus rhythm in 1–2 orders of magnitude less time and tissue destruction than conventional ablation.</p>
+                <p>Ablation of rotors or focal beats was successful independent of the type or location of sources. For example, targeted ablation at the rotational center of a left atrial rotor for less than 1 minute converted AF to sinus rhythm (<xref ref-type="fig" rid="pone-0046034-g003">Fig. 3</xref>), while targeted ablation of a right atrial rotor terminated AF to sinus rhythm within 5.5 minutes (<xref ref-type="fig" rid="pone-0046034-g004">Fig. 4</xref>). <xref ref-type="fig" rid="pone-0046034-g003">Figures 3</xref>, <xref ref-type="fig" rid="pone-0046034-g004">4</xref> and <xref ref-type="supplementary-material" rid="pone.0046034.s006">S4</xref> also show clinical electroanatomic shells of the precise ablation lesions applied to terminate AF. Acute termination of AF after localized therapy in only the right atrium is very unusual, and contrasts with conventional ablation which is primarily performed in the left atrium <xref rid="pone.0046034-Calkins1" ref-type="bibr">[4]</xref>. Our study finds that AF sources often lay in the right atrium (<xref ref-type="supplementary-material" rid="pone.0046034.s002">Table S2</xref>). The distribution of sources, or the ability of targeted ablation at sources to terminate AF, were unrelated to whether patients were studied for the first time or had previously failed conventional AF ablation.</p>
+                <p>Ten of the 26 patients had 3 or more organized AF sources, although our protocol permitted ablation at only 2 regions. Localized ablation at 2 sites slowed AF (prolonged cycle length, measured on the coronary sinus channel in routine fashion) by 15±12% in these patients after 6.3±4.3 minutes of targeted ablation. These results show that ablation of all identified localized sources can terminate fibrillation, regardless of the location of the source and whether it is a rotor or a focal beat.</p>
+              </sec>
+              <sec id="s2e">
+                <title>Targeted ablation results in long-term freedom of AF in patients</title>
+                <p>After performing targeted ablation, we also performed standard-of-care ablation per our approved protocol (further detailed in <xref ref-type="sec" rid="s4">Materials and Methods</xref>). We then implanted continuous cardiac ECG monitors in 22 of 26 patients to detect recurrent AF, providing more rigorous follow-up than prior studies <xref rid="pone.0046034-Calkins1" ref-type="bibr">[4]</xref>. Of n = 16 patients with 1–2 localized sources targeted for ablation, 93.8% were continuously free of AF during followup (359±220 days; range: 90 days, blanking, to 861 days) after this single procedure, substantially higher than the single procedure success of conventional ablation <xref rid="pone.0046034-Calkins1" ref-type="bibr">[4]</xref>, <xref rid="pone.0046034-Weerasooriya1" ref-type="bibr">[20]</xref>. Of n = 10 patients with 3 or more sources, 60% were continuously free of AF during followup (347±272 days; range 90 days, blanking, to 717 days) after this single procedure. Kaplan-Meier curves in <xref ref-type="supplementary-material" rid="pone.0046034.s007">figure S5</xref> illustrate these data. These results demonstrate that eliminating all identified rotors or focal impulses sources can improve elimination of AF in the long term.</p>
+                <p>Our study differs substantially from previous studies using alternative mapping modalities. For example, numerous studies have centered on triggering foci for AF near the pulmonary veins using contact electrodes <xref rid="pone.0046034-Mangrum1" ref-type="bibr">[37]</xref> in populations including those with mitral valve disease <xref rid="pone.0046034-Nitta1" ref-type="bibr">[38]</xref>. Recent studies have applied the inverse solution to multielectrode arrays within the heart (Ensite 3000, St Jude Medical, Minnesota) <xref rid="pone.0046034-Hindricks1" ref-type="bibr">[39]</xref>, <xref rid="pone.0046034-Schilling1" ref-type="bibr">[40]</xref> or electrodes at the patient's body surface (EcVue™, Cardioinsight, Cleveland, Ohio) <xref rid="pone.0046034-Ramanathan1" ref-type="bibr">[41]</xref> to produce maps showing mixed patterns of unstable reentry, focal discharges and less defined waves <xref rid="pone.0046034-Cuculich1" ref-type="bibr">[31]</xref>. Further studies are required using interventions such as ablation to define which of these patterns represent sustaining mechanisms. Contact mapping studies by Allessie and co-workers used high spatial resolution circular electrode plaques (1.8 cm radius) to show transient reentry of meandering wavelets, but covered relatively small atrial regions in patients undergoing surgical valve repair (&lt;15% of the surface area, assuming spherical atria of mean diameter 5.9 cm as reported) <xref rid="pone.0046034-deGroot1" ref-type="bibr">[29]</xref>, <xref rid="pone.0046034-Allessie1" ref-type="bibr">[42]</xref>. These studies could thus plausibly miss stable sources revealed by our wide field of view mapping, and thus explain why wide-field-of-view mapping revealed localized sources in nearly all patients. Haïssaguerre et al. used careful mapping with a roving catheter to find ‘organized sources’ for AF adjacent to sites of prior unsuccessful ablation <xref rid="pone.0046034-Haissaguerre3" ref-type="bibr">[43]</xref>. However, our technique revealed sources in all patients (with or without prior ablation), and sources in patients with prior ablation often lay remote from previously ablated left atrial tissue (for instance, in right atrium). Ablation at only rotors and focal sources revealed by our mapping approach (without pulmonary vein isolation) terminated AF predominantly to sinus rhythm in seconds to minutes.</p>
+                <p>Although electrode separation in our approach is not always equal between splines, this will not alter sequential activation across adjacent electrodes that defines rotational or focal activation. Additional work is required to test whether mitigation of these basket limitations will further improve spatial targeting of rotors or focal sources. Of note, the size of a clinical ablation lesion (5–7 mm) defines the practical resolution required for mapping.</p>
+                <p>Clinically, while conventional ablation can isolate initiating mechanisms for AF in the pulmonary veins, other initiating mechanisms must remain to explain its suboptimal success <xref rid="pone.0046034-Calkins1" ref-type="bibr">[4]</xref>. Freedom from AF following a single procedure to directly eliminate AF sustaining sources in our study (81.6%) is substantially higher than after a single procedure to isolate pulmonary veins and other triggers (≈40–50%) in several studies <xref rid="pone.0046034-Calkins1" ref-type="bibr">[4]</xref>, <xref rid="pone.0046034-Weerasooriya1" ref-type="bibr">[20]</xref>. Moreover, we confirmed success using implanted subcutaneous ECG monitors, that was not used in prior AF ablation trials and is the most rigorous monitoring currently available. Ectopic beats or short-lived AF from initiators may theoretically occur if AF-perpetuating regions alone are destroyed. However, in 2 patients in our study with persistent AF despite prior conventional ablation, targeted ablation at AF sources alone acutely terminated AF and eliminated AF on implanted monitors with no additional ablation. This suggests that the localized sources alone were primary mechanisms sustaining AF in these patients. Further studies are required to identify populations in whom targeted source ablation alone, without conventional ablation, may eliminate AF.</p>
+              </sec>
+            </sec>
+            <sec id="s3">
+              <title>Conclusions</title>
+              <p>Our results demonstrate that cardiac fibrillation in human atria, despite its substantial spatiotemporal variability, may be directly caused by very few stable electrical rotors or repetitive focal beats, that are spatially constrained and temporally conserved. Accordingly, limited and rapid ablation was able to terminate fibrillation for long-term elimination. These results were observed in patients with a wide range of AF phenotypes. The demonstration of localized perpetuating sources for human AF using this approach may enable the development of a number of targeted interventions in addition to ablation, including pacing, pharmacologic, gene or regenerative therapies.</p>
+            </sec>
+            <sec sec-type="materials|methods" id="s4">
+              <title>Materials and Methods</title>
+              <sec id="s4a">
+                <title>Ethics Statement</title>
+                <p>The study was approved by the joint Ethics committee of the University of California and Veterans Affairs Medical Centers, San Diego, and written informed consent was obtained from each subject. The authors' responsible joint institutional review board approved the study.</p>
+              </sec>
+              <sec id="s4b">
+                <title>Patient population</title>
+                <p>We studied 80 consecutive patients with drug-resistant AF referred for ablation (<xref ref-type="supplementary-material" rid="pone.0046034.s001">Table S1</xref>), all of whom provided written informed consent for the protocol. The study was approved by our Institutional Review Board (IRB) in two phases (I) n = 54 recruited for procedural collection of data on AF organization; (II) n = 26 in whom intraprocedural mapping enabled targeted ablation at identified AF sources. We enrolled consecutive patients, the only exclusion being an inability or unwillingness to provide informed consent.</p>
+              </sec>
+              <sec id="s4c">
+                <title>Electrophysiological Data Acquisition</title>
+                <p>Electrophysiology study was performed after discontinuing anti-arrhythmic medications for &gt;5 half-lives (&gt;60 days after amiodarone). Catheters were advanced to the heart from peripheral veins. After trans-septal puncture, 64-pole basket catheters (Constellation, Boston Scientific, MA) were advanced to the left atrium (all patients) and the right atrium (n = 54 patients) (<xref ref-type="fig" rid="pone-0046034-g001">Fig. 1A–C</xref>). Catheters were manipulated carefully to ensure good electrode contact. Electrodes are separated by 4–6 mm along each spline and by 4–10 mm between splines, and thus are able to resolve the ≈40–50 mm minimum reentrant wavelength predicted from minimum human atrial repolarization time (100–110 ms) and slowest dynamic conduction velocity (≈40 cm/s) <xref rid="pone.0046034-Rensma1" ref-type="bibr">[30]</xref>, <xref rid="pone.0046034-Narayan1" ref-type="bibr">[44]</xref>. Because sources should control activation over a wider area than just the rotor core or focal origin <xref rid="pone.0046034-Ideker1" ref-type="bibr">[45]</xref>, our panoramic approach covers the vast majority of both atria (<xref ref-type="fig" rid="pone-0046034-g001">Fig. 1</xref>). This is in contrast to previous contact mapping studies which have a higher spatial resolution but cover far smaller atrial regions <xref rid="pone.0046034-deGroot1" ref-type="bibr">[29]</xref>, <xref rid="pone.0046034-Allessie1" ref-type="bibr">[42]</xref>. In general, point-by-point (sequential) mapping has focused on electrogram characteristics such as fractionation <xref rid="pone.0046034-Nademanee1" ref-type="bibr">[46]</xref>, since spatial maps of AF vary over the timeframe required to complete sequential maps. As discussed above, non-contact mapping techniques have been developed that use mathematical inverse solution approaches to perform global atrial mapping (EcVue™, Cardioinsight, Cleveland, Ohio <xref rid="pone.0046034-Ramanathan1" ref-type="bibr">[41]</xref> and Ensite 3000™, St Jude Medical, Minnesota <xref rid="pone.0046034-Hindricks1" ref-type="bibr">[39]</xref>, <xref rid="pone.0046034-Schilling1" ref-type="bibr">[40]</xref>).</p>
+                <p>Electrode locations were verified within atrial geometry by fluoroscopy and clinical mapping (NavX, St Jude Medical, MN; <xref ref-type="fig" rid="pone-0046034-g001">Fig. 1AB</xref>) and enabled creation of spatial maps of normal sinus rhythm (<xref ref-type="fig" rid="pone-0046034-g001">Fig. 1DE</xref>) and AF. In phase I, a deflectable 7F monophasic action potential (MAP) catheter (EP technologies, Sunnyvale, CA) was advanced to record MAPs from the right atrium and, via a second trans-septal puncture (performed for clinical ablation), from multiple sites in the left atrium. MAP recordings in AF were used to determine MAP restitution (rate-response) <xref rid="pone.0046034-Garfinkel1" ref-type="bibr">[47]</xref> and validate unipolar recordings: activation time intervals that were smaller than the minimum MAP-derived recovery time were discarded.</p>
+              </sec>
+              <sec id="s4d">
+                <title>Signal Processing</title>
+                <p>Intracardiac signals were filtered at 0.05–500 Hz, and the ECG at 0.05–100 Hz. Signals were digitized at 1 kHz to 16-bit resolution (Bard Pro, Billerica, MA) for analysis.</p>
+                <p>We computed spatial activity in AF using 2 approaches. First, we determined AF activation from potentials (electrograms) at each electrode to construct isochronal maps. Second, we performed phase analysis to fibrillation, as first described by Gray et al. <xref rid="pone.0046034-Gray1" ref-type="bibr">[23]</xref>, by applying the Hilbert transform directly to human unipolar electrograms (<xref ref-type="supplementary-material" rid="pone.0046034.s003">Figure S1</xref>). Phase analysis can be used to determine spiral wave dynamics in complex computational models <xref rid="pone.0046034-Bray1" ref-type="bibr">[48]</xref> and has also been applied to human ventricles <xref rid="pone.0046034-Nash1" ref-type="bibr">[49]</xref>. Both approaches led to similar qualitative results. Tip trajectories for each localized source were computed directly from isochronal maps by manual processing, or from phase maps <xref rid="pone.0046034-Gray1" ref-type="bibr">[23]</xref>. For the latter, the phase singularity, defined as the point around which the integral of the gradient of the phase did not equate to zero, was assigned periodically throughout multiple cycles. Isolated extreme outlying points representing interpolation errors were excluded. The spatial constraint of rotors (<xref ref-type="fig" rid="pone-0046034-g002">Fig. 2</xref>–<xref ref-type="fig" rid="pone-0046034-g004">4</xref>) was maintained when data were plotted in raw form or interpolated by third-order Bézier curves, as shown, computed such that first and second derivatives were continuous at the location of the migration locus. In patients undergoing targeted ablation at sources in phase II, the areas of source migration were calculated.</p>
+              </sec>
+              <sec id="s4e">
+                <title>Ablation to Demonstrate the Mechanistic Role of AF Rotors and Focal Beats</title>
+                <p>In phase II, targeted ablation was performed directly at AF rotor and focal beat locations to demonstrate their mechanistic role in perpetuating AF in each patient. This is quite distinct to prior mapping studies of AF that generally did not use such interventions to establish whether mapped features were causal or simply associative. Targeted ablation at rotors and focal beats was performed prior to any other intervention. Ablation was performed using an irrigated catheter (Biosense-Webster, Diamond-Bar, CA) at 25–35 W or, in patients with heart failure, a non-irrigated catheter (Boston Scientific, Natick, MA) at 40–50 W, target 52°C. In n = 2 patients with prior conventional ablation in whom targeted ablation terminated AF to sinus rhythm, the pulmonary veins were still isolated and no other ablation was performed. In all other patients, targeted ablation was <italic>followed</italic> by current standard-of-care ablation <xref rid="pone.0046034-Calkins1" ref-type="bibr">[4]</xref> utilizing wide area circumferential ablation to isolate left and right pulmonary vein pairs with electrical verification of pulmonary vein isolation. Patients with persistent AF also received a left atrial roof line and those with typical atrial flutter received a cavotricuspid isthmus ablation. No other ablation was performed.</p>
+                <p>To establish that identified AF sources caused the clinical AF phenotype, and not just AF seen acutely in the laboratory, we rigorously followed patients for recurrent AF after targeted elimination of sources. Anti-arrhythmic medications were discontinued after a 3 month blanking period <xref rid="pone.0046034-Calkins1" ref-type="bibr">[4]</xref>, then we used continuous subcutaneous ECG monitoring (84.6% of patients) or external monitors in the remaining 15.4%. No additional ablation was permitted in the blanking period. Freedom from AF was assessed quarterly in clinic for up to 2 years after ablation, and defined as &lt;1% total AF burden. The use of implanted monitors is considerably more rigorous than patient-activated event monitors, ECGs or symptoms alone <xref rid="pone.0046034-Calkins1" ref-type="bibr">[4]</xref>, <xref rid="pone.0046034-Ziegler1" ref-type="bibr">[50]</xref>, <xref rid="pone.0046034-Kirchhof3" ref-type="bibr">[51]</xref> used in almost all prior AF studies <xref rid="pone.0046034-Calkins1" ref-type="bibr">[4]</xref>.</p>
+              </sec>
+              <sec id="s4f">
+                <title>Statistical Analysis</title>
+                <p>Continuous data are represented as mean ± standard deviation (SD). The t-test was used to compare variables between 2 groups. Paired continuous variables were compared using linear regression and the paired <italic>t</italic>-test. Contingency tables were analyzed using the Fisher exact or the Chi-tests when appropriate. A p-value of &lt;0.05 was considered statistically significant. Statistics were calculated using SPSS 19 (IBM, Somers, NY, USA).</p>
+              </sec>
+            </sec>
+            <sec sec-type="supplementary-material" id="s5">
+              <title>Supporting Information</title>
+              <supplementary-material content-type="local-data" id="pone.0046034.s001">
+                <label>Table S1</label>
+                <caption>
+                  <p>
+                    <bold>Patient Characteristics.</bold>
+                  </p>
+                  <p>(DOCX)</p>
+                </caption>
+                <media xlink:href="pone.0046034.s001.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="pone.0046034.s002">
+                <label>Table S2</label>
+                <caption>
+                  <p>
+                    <bold>Characteristics of Human AF Sources.</bold>
+                  </p>
+                  <p>(DOCX)</p>
+                </caption>
+                <media xlink:href="pone.0046034.s002.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="pone.0046034.s003">
+                <label>Figure S1</label>
+                <caption>
+                  <p><bold>Phase map of Human Left Atrial Activation During AF.</bold> The phase map was computed using the Hilbert Transform <xref rid="pone.0046034-Bray2" ref-type="bibr">[52]</xref> and shows a phase singularity (indicated by the white dot), corresponding to the location of a rotor (same patient as <xref ref-type="fig" rid="pone-0046034-g003">figure 3</xref> of the main manuscript).</p>
+                  <p>(TIF)</p>
+                </caption>
+                <media xlink:href="pone.0046034.s003.tif">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="pone.0046034.s004">
+                <label>Figure S2</label>
+                <caption>
+                  <p><bold>Directionality Analysis of a Rotor During Human Atrial Fibrillation.</bold><bold>A. shows propagation emanating from the left atrial rotor to the remaining atrium</bold>, in the same patient shown in <xref ref-type="fig" rid="pone-0046034-g003">figure 3</xref> of the main manuscript. The arrows indicate activation direction <xref rid="pone.0046034-Kalifa1" ref-type="bibr">[53]</xref> between isochrones (color bar). <bold>B. Recurrence of predominant direction</bold>, shown as the correlation at each site of the direction over consecutive cycles, showing high recurrence (repeatability) in the annulus adjacent to the rotational center (warm colors) with markedly reduced correlation in a surrounding annulus of tissue (cool colors) with some recovery of repeatability at distant sites.</p>
+                  <p>(TIF)</p>
+                </caption>
+                <media xlink:href="pone.0046034.s004.tif">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="pone.0046034.s005">
+                <label>Figure S3</label>
+                <caption>
+                  <p><bold>Temporal Conservation of a Left atrial rotor in human AF for 237 days.</bold><bold>A</bold>. Isochronal map of a left atrial rotor obtained prior to conventional ablation that passed outside this source, and did not target it. Atrial fibrillation failed to terminate during ablation, and recurred after the procedure. <bold>B</bold>. Isochronal map of a left atrial rotor at the same location obtained at repeat electrophysiology study 237 days later. Targeted ablation at this source eliminated AF.</p>
+                  <p>(TIF)</p>
+                </caption>
+                <media xlink:href="pone.0046034.s005.tif">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="pone.0046034.s006">
+                <label>Figure S4</label>
+                <caption>
+                  <p><bold>Additional Examples of Brief Targeted Ablation at Stable Sources for Human Atrial Fibrillation.</bold><bold>A</bold>. Isochronal map of a left atrial focal beat source that lay outside traditional ablation lesion locations. Localized ablation at this site (red dot, and contiguous white dots) terminated AF directly to sinus rhythm in &lt;5 minutes. <bold>B</bold>. Isochronal map of a counterclockwise left atrial rotor on the posterior left atrium near (but not within) the left pulmonary vein antra, where localized ablation (red dots in right panel) terminated AF to sinus rhythm within 3 minutes. Both patients are free of AF on implanted monitors.</p>
+                  <p>(TIF)</p>
+                </caption>
+                <media xlink:href="pone.0046034.s006.tif">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="pone.0046034.s007">
+                <label>Figure S5</label>
+                <caption>
+                  <p><bold>Kaplan-Meier curves for freedom from AF,</bold> detected using rigorous monitoring including implanted continuous ECG recordings.</p>
+                  <p>(TIF)</p>
+                </caption>
+                <media xlink:href="pone.0046034.s007.tif">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>We are indebted to Kathleen Mills, BA for coordinating this study, and to Antonio Moyeda, RCVT, Kenneth Hopper, RCVT, Judith Hildreth, RN, Sherie Jaynes, RN, Stephanie Yoakum, RNP, Elizabeth Greer, RN and Donna Cooper, RN for assisting with clinical data collection and followup.</p>
+            </ack>
+            <ref-list>
+              <title>References</title>
+              <ref id="pone.0046034-Zipes1">
+                <label>1</label>
+                <mixed-citation publication-type="journal"><name><surname>Zipes</surname><given-names>D</given-names></name>, <name><surname>Camm</surname><given-names>A</given-names></name>, <name><surname>Borggrefe</surname><given-names>M</given-names></name>, <name><surname>Buxton</surname><given-names>A</given-names></name>, <name><surname>Chaitman</surname><given-names>B</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>ACC/AHA/ESC 2006 Guidelines for Management of Patients With Ventricular Arrhythmias and the Prevention of Sudden Cardiac Death: a report of the American College of Cardiology/American Heart Association Task Force and the European Society of Cardiology Committee for Practice Guidelines (writing committee to develop Guidelines for Management of Patients With Ventricular Arrhythmias and the Prevention of Sudden Cardiac Death): developed in collaboration with the European Heart Rhythm Association and the Heart Rhythm Society</article-title>. <source>Circulation</source>
+<volume>114</volume>: <fpage>e385</fpage>–<lpage>484</lpage>.<pub-id pub-id-type="pmid">16935995</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-ACCAHAESC1">
+                <label>2</label>
+                <mixed-citation publication-type="journal"><collab>ACC/AHA/ESC</collab> (<year>2006</year>) <article-title>ACC/AHA/ESC 2006 Guidelines for the Management of Patients With Atrial Fibrillation—Executive Summary: A Report of the American College of Cardiology/American Heart Association Task Force on Practice Guidelines and the European Society of Cardiology Committee for Practice Guidelines (Writing Committee to Revise the 2001 Guidelines for the Management of Patients With Atrial Fibrillation): Developed in Collaboration With the European Heart Rhythm Association and the Heart Rhythm Society</article-title>. <source>Circulation</source>
+<volume>114</volume>: <fpage>700</fpage>–<lpage>752</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Miyasaka1">
+                <label>3</label>
+                <mixed-citation publication-type="journal"><name><surname>Miyasaka</surname><given-names>Y</given-names></name>, <name><surname>Barnes</surname><given-names>ME</given-names></name>, <name><surname>Gersh</surname><given-names>BJ</given-names></name>, <name><surname>Cha</surname><given-names>SS</given-names></name>, <name><surname>Bailey</surname><given-names>KR</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>Secular trends in incidence of atrial fibrillation in Olmsted County, Minnesota, 1980 to 2000, and implications on the projections for future prevalence</article-title>. <source>Circulation</source>
+<volume>114</volume>: <fpage>119</fpage>–<lpage>125</lpage>.<pub-id pub-id-type="pmid">16818816</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Calkins1">
+                <label>4</label>
+                <mixed-citation publication-type="journal"><name><surname>Calkins</surname><given-names>H</given-names></name>, <name><surname>Kuck</surname><given-names>KH</given-names></name>, <name><surname>Cappato</surname><given-names>R</given-names></name>, <name><surname>Brugada</surname><given-names>J</given-names></name>, <name><surname>Camm</surname><given-names>AJ</given-names></name>, <etal>et al</etal> (<year>2012</year>) <article-title>2012 HRS/EHRA/ECAS Expert Consensus Statement on Catheter and Surgical Ablation of Atrial Fibrillation: Recommendations for Patient Selection, Procedural Techniques, Patient Management and Follow-up, Definitions, Endpoints, and Research Trial Design: A report of the Heart Rhythm Society (HRS) Task Force on Catheter and Surgical Ablation of Atrial Fibrillation. Developed in partnership with the European Heart Rhythm Association (EHRA), a registered branch of the European Society of Cardiology (ESC) and the European Cardiac Arrhythmia Society (ECAS); and in collaboration with the American College of Cardiology (ACC), American Heart Association (AHA), the Asia Pacific Heart Rhythm Society (APHRS), and the Society of Thoracic Surgeons (STS). Endorsed by the governing bodies of the American College of Cardiology Foundation, the American Heart Association, the European Cardiac Arrhythmia Society, the European Heart Rhythm Association, the Society of Thoracic Surgeons, the Asia Pacific Heart Rhythm Society, and the Heart Rhythm Society</article-title>. <source>Heart Rhythm</source>
+<volume>9</volume>: <fpage>632</fpage>–<lpage>696.e621</lpage>.<pub-id pub-id-type="pmid">22386883</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Luther1">
+                <label>5</label>
+                <mixed-citation publication-type="journal"><name><surname>Luther</surname><given-names>S</given-names></name>, <name><surname>Fenton</surname><given-names>FH</given-names></name>, <name><surname>Kornreich</surname><given-names>BG</given-names></name>, <name><surname>Squires</surname><given-names>A</given-names></name>, <name><surname>Bittihn</surname><given-names>P</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Low-energy control of electrical turbulence in the heart</article-title>. <source>Nature</source>
+<volume>475</volume>: <fpage>235</fpage>–<lpage>239</lpage>.<pub-id pub-id-type="pmid">21753855</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Jackman1">
+                <label>6</label>
+                <mixed-citation publication-type="journal"><name><surname>Jackman</surname><given-names>WM</given-names></name>, <name><surname>Beckman</surname><given-names>KJ</given-names></name>, <name><surname>McClelland</surname><given-names>JH</given-names></name>, <name><surname>Wang</surname><given-names>X</given-names></name>, <name><surname>Friday</surname><given-names>KJ</given-names></name>, <etal>et al</etal> (<year>1992</year>) <article-title>Treatment of supraventricular tachycardia due to atrioventricular nodal reentry by radiofrequency catheter ablation of slow-pathway conduction</article-title>. <source>N Engl J Med</source>
+<volume>327</volume>: <fpage>313</fpage>–<lpage>318</lpage>.<pub-id pub-id-type="pmid">1620170</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Waldo1">
+                <label>7</label>
+                <mixed-citation publication-type="journal"><name><surname>Waldo</surname><given-names>AL</given-names></name>, <name><surname>Feld</surname><given-names>GK</given-names></name> (<year>2008</year>) <article-title>Inter-relationships of atrial fibrillation and atrial flutter mechanisms and clinical implications</article-title>. <source>J Am Coll Cardiol</source>
+<volume>51</volume>: <fpage>779</fpage>–<lpage>786</lpage>.<pub-id pub-id-type="pmid">18294560</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Durrer1">
+                <label>8</label>
+                <mixed-citation publication-type="journal"><name><surname>Durrer</surname><given-names>D</given-names></name>, <name><surname>Roos</surname><given-names>J</given-names></name> (<year>1967</year>) <article-title>Epicardial Excitation of the Ventricles in a patient with the Wolff-Parkinson-White Syndrome (type B): temporary ablation at surgery</article-title>. <source>Circulation</source>
+<volume>35</volume>: <fpage>15</fpage>.<pub-id pub-id-type="pmid">6015856</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Cox1">
+                <label>9</label>
+                <mixed-citation publication-type="journal"><name><surname>Cox</surname><given-names>JL</given-names></name> (<year>2004</year>) <article-title>Cardiac Surgery For Arrhythmias</article-title>. <source>J Cardiovasc Electrophysiol</source>
+<volume>15</volume>: <fpage>250</fpage>–<lpage>262</lpage>.<pub-id pub-id-type="pmid">15028063</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Wijffels1">
+                <label>10</label>
+                <mixed-citation publication-type="journal"><name><surname>Wijffels</surname><given-names>MC</given-names></name>, <name><surname>Kirchhof</surname><given-names>CJ</given-names></name>, <name><surname>Dorland</surname><given-names>R</given-names></name>, <name><surname>Allessie</surname><given-names>MA</given-names></name> (<year>1995</year>) <article-title>Atrial fibrillation begets atrial fibrillation. A study in awake chronically instrumented goats</article-title>. <source>Circulation</source>
+<volume>92</volume>: <fpage>1954</fpage>–<lpage>1968</lpage>.<pub-id pub-id-type="pmid">7671380</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Kirchhof1">
+                <label>11</label>
+                <mixed-citation publication-type="journal"><name><surname>Kirchhof</surname><given-names>P</given-names></name>, <name><surname>Andresen</surname><given-names>D</given-names></name>, <name><surname>Bosch</surname><given-names>R</given-names></name>, <name><surname>Borggrefe</surname><given-names>M</given-names></name>, <name><surname>Meinertz</surname><given-names>T</given-names></name>, <etal>et al</etal> (<year>2012</year>) <article-title>Short-term versus long-term antiarrhythmic drug treatment after cardioversion of atrial fibrillation (Flec-SL): a prospective, randomised, open-label, blinded endpoint assessment trial</article-title>. <source>Lancet</source>
+</mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Benjamin1">
+                <label>12</label>
+                <mixed-citation publication-type="journal"><name><surname>Benjamin</surname><given-names>EJ</given-names></name>, <name><surname>Chen</surname><given-names>PS</given-names></name>, <name><surname>Bild</surname><given-names>DE</given-names></name>, <name><surname>Mascette</surname><given-names>AM</given-names></name>, <name><surname>Albert</surname><given-names>CM</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>Prevention of atrial fibrillation: report from a national heart, lung, and blood institute workshop</article-title>. <source>Circulation</source>
+<volume>119</volume>: <fpage>606</fpage>–<lpage>618</lpage>.<pub-id pub-id-type="pmid">19188521</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Kirchhof2">
+                <label>13</label>
+                <mixed-citation publication-type="journal"><name><surname>Kirchhof</surname><given-names>P</given-names></name>, <name><surname>Nabauer</surname><given-names>M</given-names></name>, <name><surname>Gerth</surname><given-names>A</given-names></name>, <name><surname>Limbourg</surname><given-names>T</given-names></name>, <name><surname>Lewalter</surname><given-names>T</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Impact of the type of centre on management of AF patients: surprising evidence for differences in antithrombotic therapy decisions</article-title>. <source>Thromb Haemost</source>
+<volume>105</volume>: <fpage>1010</fpage>–<lpage>1023</lpage>.<pub-id pub-id-type="pmid">21544322</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Schotten1">
+                <label>14</label>
+                <mixed-citation publication-type="journal"><name><surname>Schotten</surname><given-names>U</given-names></name>, <name><surname>Verheule</surname><given-names>S</given-names></name>, <name><surname>Kirchhof</surname><given-names>P</given-names></name>, <name><surname>Goette</surname><given-names>A</given-names></name> (<year>2011</year>) <article-title>Pathophysiological Mechanisms of Atrial Fibrillation: A Translational Appraisal</article-title>. <source>Physiol Rev</source>
+<volume>91</volume>: <fpage>265</fpage>–<lpage>325</lpage>.<pub-id pub-id-type="pmid">21248168</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Wakili1">
+                <label>15</label>
+                <mixed-citation publication-type="journal"><name><surname>Wakili</surname><given-names>R</given-names></name>, <name><surname>Voigt</surname><given-names>N</given-names></name>, <name><surname>Kaab</surname><given-names>S</given-names></name>, <name><surname>Dobrev</surname><given-names>D</given-names></name>, <name><surname>Nattel</surname><given-names>S</given-names></name> (<year>2011</year>) <article-title>Recent advances in the molecular pathophysiology of atrial fibrillation</article-title>. <source>J Clin Invest</source>
+<volume>121</volume>: <fpage>2955</fpage>–<lpage>2968</lpage>.<pub-id pub-id-type="pmid">21804195</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Haissaguerre1">
+                <label>16</label>
+                <mixed-citation publication-type="journal"><name><surname>Haissaguerre</surname><given-names>M</given-names></name>, <name><surname>Jais</surname><given-names>P</given-names></name>, <name><surname>Shah</surname><given-names>DC</given-names></name>, <name><surname>Takahashi</surname><given-names>A</given-names></name>, <name><surname>Hocini</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>1998</year>) <article-title>Spontaneous initiation of atrial fibrillation by ectopic beats originating in the pulmonary veins</article-title>. <source>N Engl J Med</source>
+<volume>339</volume>: <fpage>659</fpage>–<lpage>666</lpage>.<pub-id pub-id-type="pmid">9725923</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Ellinor1">
+                <label>17</label>
+                <mixed-citation publication-type="journal"><name><surname>Ellinor</surname><given-names>PT</given-names></name>, <name><surname>Lunetta</surname><given-names>KL</given-names></name>, <name><surname>Glazer</surname><given-names>NL</given-names></name>, <name><surname>Pfeufer</surname><given-names>A</given-names></name>, <name><surname>Alonso</surname><given-names>A</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Common variants in KCNN3 are associated with lone atrial fibrillation</article-title>. <source>Nat Genet</source>
+<volume>42</volume>: <fpage>240</fpage>–<lpage>244</lpage>.<pub-id pub-id-type="pmid">20173747</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Gudbjartsson1">
+                <label>18</label>
+                <mixed-citation publication-type="journal"><name><surname>Gudbjartsson</surname><given-names>DF</given-names></name>, <name><surname>Arnar</surname><given-names>DO</given-names></name>, <name><surname>Helgadottir</surname><given-names>A</given-names></name>, <name><surname>Gretarsdottir</surname><given-names>S</given-names></name>, <name><surname>Holm</surname><given-names>H</given-names></name>, <etal>et al</etal> (<year>2007</year>) <article-title>Variants conferring risk of atrial fibrillation on chromosome 4q25</article-title>. <source>Nature</source>
+<volume>448</volume>: <fpage>353</fpage>–<lpage>357</lpage>.<pub-id pub-id-type="pmid">17603472</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Nattel1">
+                <label>19</label>
+                <mixed-citation publication-type="journal"><name><surname>Nattel</surname><given-names>S</given-names></name> (<year>2002</year>) <article-title>New ideas about atrial fibrillation 50 years on</article-title>. <source>Nature</source>
+<volume>415</volume>: <fpage>219</fpage>–<lpage>226</lpage>.<pub-id pub-id-type="pmid">11805846</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Weerasooriya1">
+                <label>20</label>
+                <mixed-citation publication-type="journal"><name><surname>Weerasooriya</surname><given-names>R</given-names></name>, <name><surname>Khairy</surname><given-names>P</given-names></name>, <name><surname>Litalien</surname><given-names>J</given-names></name>, <name><surname>Macle</surname><given-names>L</given-names></name>, <name><surname>Hocini</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Catheter ablation for atrial fibrillation: Are results maintained at 5 years of follow-up?</article-title>
+<source>J Am Coll Cardiol</source>
+<volume>57</volume>: <fpage>160</fpage>–<lpage>166</lpage>.<pub-id pub-id-type="pmid">21211687</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Winkle1">
+                <label>21</label>
+                <mixed-citation publication-type="journal"><name><surname>Winkle</surname><given-names>RA</given-names></name>, <name><surname>Mead</surname><given-names>RH</given-names></name>, <name><surname>Engel</surname><given-names>G</given-names></name>, <name><surname>Kong</surname><given-names>MH</given-names></name>, <name><surname>Patrawala</surname><given-names>RA</given-names></name> (<year>2012</year>) <article-title>Trends in atrial fibrillation ablation: have we maximized the current paradigms?</article-title>
+<source>J Interv Card Electrophysiol</source>
+</mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Davidenko1">
+                <label>22</label>
+                <mixed-citation publication-type="journal"><name><surname>Davidenko</surname><given-names>JM</given-names></name>, <name><surname>Pertsov</surname><given-names>AV</given-names></name>, <name><surname>Salomonsz</surname><given-names>R</given-names></name>, <name><surname>Baxter</surname><given-names>W</given-names></name>, <name><surname>Jalife</surname><given-names>J</given-names></name> (<year>1992</year>) <article-title>Stationary and drifting spiral waves of excitation in isolated cardiac muscle</article-title>. <source>Nature</source>
+<volume>355</volume>: <fpage>349</fpage>–<lpage>351</lpage>.<pub-id pub-id-type="pmid">1731248</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Gray1">
+                <label>23</label>
+                <mixed-citation publication-type="journal"><name><surname>Gray</surname><given-names>RA</given-names></name>, <name><surname>Pertsov</surname><given-names>AM</given-names></name>, <name><surname>Jalife</surname><given-names>J</given-names></name> (<year>1998</year>) <article-title>Spatial and temporal organization during cardiac fibrillation</article-title>. <source>Nature</source>
+<volume>392</volume>: <fpage>75</fpage>–<lpage>78</lpage>.<pub-id pub-id-type="pmid">9510249</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Chen1">
+                <label>24</label>
+                <mixed-citation publication-type="journal"><name><surname>Chen</surname><given-names>P-S</given-names></name>, <name><surname>Wu</surname><given-names>T-J</given-names></name>, <name><surname>Ting</surname><given-names>C-T</given-names></name>, <name><surname>Karagueuzian</surname><given-names>HS</given-names></name>, <name><surname>Garfinkel</surname><given-names>A</given-names></name>, <etal>et al</etal> (<year>2003a</year>) <article-title>A Tale of Two Fibrillations</article-title>. <source>Circulation</source>
+<volume>108</volume>: <fpage>2298</fpage>–<lpage>2303</lpage>.<pub-id pub-id-type="pmid">14609997</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Chou1">
+                <label>25</label>
+                <mixed-citation publication-type="journal"><name><surname>Chou</surname><given-names>CC</given-names></name>, <name><surname>Chang</surname><given-names>PC</given-names></name>, <name><surname>Wen</surname><given-names>MS</given-names></name>, <name><surname>Lee</surname><given-names>HL</given-names></name>, <name><surname>Chen</surname><given-names>TC</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Epicardial ablation of rotors suppresses inducibility of acetylcholine-induced atrial fibrillation in left pulmonary vein-left atrium preparations in a beagle heart failure model</article-title>. <source>J Am Coll Cardiol</source>
+<volume>58</volume>: <fpage>158</fpage>–<lpage>166</lpage>.<pub-id pub-id-type="pmid">21718913</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Skanes1">
+                <label>26</label>
+                <mixed-citation publication-type="journal"><name><surname>Skanes</surname><given-names>AC</given-names></name>, <name><surname>Mandapati</surname><given-names>R</given-names></name>, <name><surname>Berenfeld</surname><given-names>O</given-names></name>, <name><surname>Davidenko</surname><given-names>JM</given-names></name>, <name><surname>Jalife</surname><given-names>J</given-names></name> (<year>1998</year>) <article-title>Spatiotemporal Periodicity During Atrial Fibrillation in the Isolated Sheep Heart</article-title>. <source>Circulation</source>
+<volume>98</volume>: <fpage>1236</fpage>–<lpage>1248</lpage>.<pub-id pub-id-type="pmid">9743516</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Witkowski1">
+                <label>27</label>
+                <mixed-citation publication-type="journal"><name><surname>Witkowski</surname><given-names>FX</given-names></name>, <name><surname>Leon</surname><given-names>LJ</given-names></name>, <name><surname>Penkoske</surname><given-names>PA</given-names></name>, <name><surname>Giles</surname><given-names>WR</given-names></name>, <name><surname>Spano</surname><given-names>ML</given-names></name>, <etal>et al</etal> (<year>1998</year>) <article-title>Spatiotemporal evolution of ventricular fibrillation</article-title>. <source>Nature</source>
+<volume>392</volume>: <fpage>78</fpage>–<lpage>82</lpage>.<pub-id pub-id-type="pmid">9510250</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Moe1">
+                <label>28</label>
+                <mixed-citation publication-type="journal"><name><surname>Moe</surname><given-names>GK</given-names></name>, <name><surname>Rheinboldt</surname><given-names>W</given-names></name>, <name><surname>Abildskov</surname><given-names>J</given-names></name> (<year>1964</year>) <article-title>A computer model of atrial fibrillation</article-title>. <source>American Heart Journal</source>
+<volume>67</volume>: <fpage>200</fpage>–<lpage>220</lpage>.<pub-id pub-id-type="pmid">14118488</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-deGroot1">
+                <label>29</label>
+                <mixed-citation publication-type="journal"><name><surname>de Groot</surname><given-names>NM</given-names></name>, <name><surname>Houben</surname><given-names>RP</given-names></name>, <name><surname>Smeets</surname><given-names>JL</given-names></name>, <name><surname>Boersma</surname><given-names>E</given-names></name>, <name><surname>Schotten</surname><given-names>U</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Electropathological substrate of longstanding persistent atrial fibrillation in patients with structural heart disease: epicardial breakthrough</article-title>. <source>Circulation</source>
+<volume>122</volume>: <fpage>1674</fpage>–<lpage>1682</lpage>.<pub-id pub-id-type="pmid">20937979</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Rensma1">
+                <label>30</label>
+                <mixed-citation publication-type="journal"><name><surname>Rensma</surname><given-names>P</given-names></name>, <name><surname>Allessie</surname><given-names>M</given-names></name>, <name><surname>Lammers</surname><given-names>W</given-names></name>, <name><surname>Bonke</surname><given-names>F</given-names></name>, <name><surname>Schalij</surname><given-names>M</given-names></name> (<year>1988</year>) <article-title>Length of excitation wave and susceptibility to reentrant atrial arrhythmias in normal conscious dogs</article-title>. <source>Circulation Research</source>
+<volume>62</volume>: <fpage>395</fpage>–<lpage>410</lpage>.<pub-id pub-id-type="pmid">3338122</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Cuculich1">
+                <label>31</label>
+                <mixed-citation publication-type="journal"><name><surname>Cuculich</surname><given-names>PS</given-names></name>, <name><surname>Wang</surname><given-names>Y</given-names></name>, <name><surname>Lindsay</surname><given-names>BD</given-names></name>, <name><surname>Faddis</surname><given-names>MN</given-names></name>, <name><surname>Schuessler</surname><given-names>RB</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Noninvasive Characterization of Epicardial Activation in Humans With Diverse Atrial Fibrillation Patterns</article-title>. <source>Circulation</source>
+<volume>122</volume>: <fpage>1364</fpage>–<lpage>1372</lpage>.<pub-id pub-id-type="pmid">20855661</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Ryu1">
+                <label>32</label>
+                <mixed-citation publication-type="journal"><name><surname>Ryu</surname><given-names>K</given-names></name>, <name><surname>Shroff</surname><given-names>SC</given-names></name>, <name><surname>Sahadevan</surname><given-names>J</given-names></name>, <name><surname>Martovitz</surname><given-names>NL</given-names></name>, <name><surname>Khrestian</surname><given-names>CM</given-names></name>, <etal>et al</etal> (<year>2005</year>) <article-title>Mapping of Atrial Activation During Sustained Atrial Fibrillation in Dogs with Rapid Ventricular Pacing Induced Heart Failure: Evidence for a Role of Driver Regions</article-title>. <source>Journal of Cardiovascular Electrophysiology</source>
+<volume>16</volume>: <fpage>1348</fpage>–<lpage>1358</lpage>.<pub-id pub-id-type="pmid">16403068</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Yamazaki1">
+                <label>33</label>
+                <mixed-citation publication-type="journal"><name><surname>Yamazaki</surname><given-names>M</given-names></name>, <name><surname>Vaquero</surname><given-names>LM</given-names></name>, <name><surname>Hou</surname><given-names>L</given-names></name>, <name><surname>Campbell</surname><given-names>K</given-names></name>, <name><surname>Zlochiver</surname><given-names>S</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>Mechanisms of stretch-induced atrial fibrillation in the presence and the absence of adrenocholinergic stimulation: interplay between rotors and focal discharges</article-title>. <source>Heart Rhythm</source>
+<volume>6</volume>: <fpage>1009</fpage>–<lpage>1017</lpage>.<pub-id pub-id-type="pmid">19560089</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Haissaguerre2">
+                <label>34</label>
+                <mixed-citation publication-type="journal"><name><surname>Haissaguerre</surname><given-names>M</given-names></name>, <name><surname>Sanders</surname><given-names>P</given-names></name>, <name><surname>Hocini</surname><given-names>M</given-names></name>, <name><surname>Takahashi</surname><given-names>Y</given-names></name>, <name><surname>Rotter</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>2005a</year>) <article-title>Catheter Ablation of Long-Lasting Persistent Atrial Fibrillation: Critical Structures for Termination</article-title>. <source>Journal of Cardiovascular Electrophysiology</source>
+<volume>16</volume>: <fpage>1125</fpage>–<lpage>1137</lpage>.<pub-id pub-id-type="pmid">16302892</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Oral1">
+                <label>35</label>
+                <mixed-citation publication-type="journal"><name><surname>Oral</surname><given-names>H</given-names></name>, <name><surname>Pappone</surname><given-names>C</given-names></name>, <name><surname>Chugh</surname><given-names>A</given-names></name>, <name><surname>Good</surname><given-names>E</given-names></name>, <name><surname>Bogun</surname><given-names>F</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>Circumferential Pulmonary-Vein Ablation for Chronic Atrial Fibrillation</article-title>. <source>N Engl J Med</source>
+<volume>354</volume>: <fpage>934</fpage>–<lpage>941</lpage>.<pub-id pub-id-type="pmid">16510747</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Fenton1">
+                <label>36</label>
+                <mixed-citation publication-type="journal"><name><surname>Fenton</surname><given-names>FH</given-names></name>, <name><surname>Cherry</surname><given-names>EM</given-names></name>, <name><surname>Hastings</surname><given-names>HM</given-names></name>, <name><surname>Evans</surname><given-names>SJ</given-names></name> (<year>2002</year>) <article-title>Multiple mechanisms of spiral wave breakup in a model of cardiac electrical activity</article-title>. <source>Chaos</source>
+<volume>12</volume>: <fpage>852</fpage>–<lpage>892</lpage>.<pub-id pub-id-type="pmid">12779613</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Mangrum1">
+                <label>37</label>
+                <mixed-citation publication-type="journal"><name><surname>Mangrum</surname><given-names>JM</given-names></name>, <name><surname>Haines</surname><given-names>DE</given-names></name>, <name><surname>DiMarco</surname><given-names>JP</given-names></name>, <name><surname>Mounsey</surname><given-names>JP</given-names></name> (<year>2000</year>) <article-title>Elimination of Focal Atrial Fibrillation with a Single Radiofrequency Ablation: Use of a Basket Catheter in a Pulmonary Vein for Computerized Activation Sequence Mapping</article-title>. <source>J Cardiovasc Electrophysiol</source>
+<volume>11</volume>: <fpage>1159</fpage>–<lpage>1164</lpage>.<pub-id pub-id-type="pmid">11059981</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Nitta1">
+                <label>38</label>
+                <mixed-citation publication-type="journal"><name><surname>Nitta</surname><given-names>T</given-names></name>, <name><surname>Ishii</surname><given-names>Y</given-names></name>, <name><surname>Miyagi</surname><given-names>Y</given-names></name>, <name><surname>Ohmori</surname><given-names>H</given-names></name>, <name><surname>Sakamoto</surname><given-names>S</given-names></name>, <etal>et al</etal> (<year>2004</year>) <article-title>Concurrent multiple left atrial focal activations with fibrillatory conduction and right atrial focal or reentrant activation as the mechanism in atrial fibrillation</article-title>. <source>J Thorac Cardiovasc Surg</source>
+<volume>127</volume>: <fpage>770</fpage>–<lpage>778</lpage>.<pub-id pub-id-type="pmid">15001906</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Hindricks1">
+                <label>39</label>
+                <mixed-citation publication-type="journal"><name><surname>Hindricks</surname><given-names>G</given-names></name>, <name><surname>Kottkamp</surname><given-names>H</given-names></name> (<year>2001</year>) <article-title>Simultaneous noncontact mapping of left atrium in patients with paroxysmal atrial fibrillation</article-title>. <source>Circulation</source>
+<volume>104</volume>: <fpage>297</fpage>–<lpage>303</lpage>.<pub-id pub-id-type="pmid">11457748</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Schilling1">
+                <label>40</label>
+                <mixed-citation publication-type="journal"><name><surname>Schilling</surname><given-names>RJ</given-names></name>, <name><surname>Kadish</surname><given-names>AH</given-names></name>, <name><surname>Peters</surname><given-names>NS</given-names></name>, <name><surname>Goldberger</surname><given-names>J</given-names></name>, <name><surname>Davies</surname><given-names>DW</given-names></name> (<year>2000</year>) <article-title>Endocardial mapping of atrial fibrillation in the human right atrium using a non-contact catheter</article-title>. <source>European Heart Journal</source>
+<volume>21</volume>: <fpage>550</fpage>–<lpage>564</lpage>.<pub-id pub-id-type="pmid">10775010</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Ramanathan1">
+                <label>41</label>
+                <mixed-citation publication-type="journal"><name><surname>Ramanathan</surname><given-names>C</given-names></name>, <name><surname>Ghanem</surname><given-names>RN</given-names></name>, <name><surname>Jia</surname><given-names>P</given-names></name>, <name><surname>Ryu</surname><given-names>K</given-names></name>, <name><surname>Rudy</surname><given-names>Y</given-names></name> (<year>2004</year>) <article-title>Noninvasive electrocardiographic imaging for cardiac electrophysiology and arrhythmia</article-title>. <source>Nat Med</source>
+<volume>10</volume>: <fpage>422</fpage>–<lpage>428</lpage>.<pub-id pub-id-type="pmid">15034569</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Allessie1">
+                <label>42</label>
+                <mixed-citation publication-type="journal"><name><surname>Allessie</surname><given-names>MA</given-names></name>, <name><surname>de Groot</surname><given-names>NM</given-names></name>, <name><surname>Houben</surname><given-names>RP</given-names></name>, <name><surname>Schotten</surname><given-names>U</given-names></name>, <name><surname>Boersma</surname><given-names>E</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Electropathological substrate of long-standing persistent atrial fibrillation in patients with structural heart disease: longitudinal dissociation</article-title>. <source>Circ Arrhythm Electrophysiol</source>
+<volume>3</volume>: <fpage>606</fpage>–<lpage>615</lpage>.<pub-id pub-id-type="pmid">20719881</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Haissaguerre3">
+                <label>43</label>
+                <mixed-citation publication-type="journal"><name><surname>Haissaguerre</surname><given-names>M</given-names></name>, <name><surname>Hocini</surname><given-names>M</given-names></name>, <name><surname>Sanders</surname><given-names>P</given-names></name>, <name><surname>Takahashi</surname><given-names>Y</given-names></name>, <name><surname>Rotter</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>Localized sources maintaining atrial fibrillation organized by prior ablation</article-title>. <source>Circulation</source>
+<volume>113</volume>: <fpage>616</fpage>–<lpage>625</lpage>.<pub-id pub-id-type="pmid">16461833</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Narayan1">
+                <label>44</label>
+                <mixed-citation publication-type="journal"><name><surname>Narayan</surname><given-names>SM</given-names></name>, <name><surname>Kazi</surname><given-names>D</given-names></name>, <name><surname>Krummen</surname><given-names>DE</given-names></name>, <name><surname>Rappel</surname><given-names>W-J</given-names></name> (<year>2008c</year>) <article-title>Repolarization and Activation Restitution Near Human Pulmonary Veins and Atrial Fibrillation Initiation: A Mechanism for the Initiation of Atrial Fibrillation by Premature Beats</article-title>. <source>J Am Coll Cardiol</source>
+<volume>52</volume>: <fpage>1222</fpage>–<lpage>1230</lpage>.<pub-id pub-id-type="pmid">18926325</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Ideker1">
+                <label>45</label>
+                <mixed-citation publication-type="journal"><name><surname>Ideker</surname><given-names>RE</given-names></name>, <name><surname>Rogers</surname><given-names>JM</given-names></name>, <name><surname>Fast</surname><given-names>V</given-names></name>, <name><surname>Li</surname><given-names>L</given-names></name>, <name><surname>Kay</surname><given-names>GN</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>Can mapping differentiate microreentry from a focus in the ventricle?</article-title>
+<source>Heart Rhythm</source>
+<volume>6</volume>: <fpage>1666</fpage>–<lpage>1669</lpage>.<pub-id pub-id-type="pmid">19793684</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Nademanee1">
+                <label>46</label>
+                <mixed-citation publication-type="journal"><name><surname>Nademanee</surname><given-names>K</given-names></name>, <name><surname>McKenzie</surname><given-names>J</given-names></name>, <name><surname>Kosar</surname><given-names>E</given-names></name>, <name><surname>Schwab</surname><given-names>M</given-names></name>, <name><surname>Sunsaneewitayakul</surname><given-names>B</given-names></name>, <etal>et al</etal> (<year>2004</year>) <article-title>A new approach for catheter ablation of atrial fibrillation: mapping of the electrophysiologic substrate</article-title>. <source>J Am Coll Cardiol</source>
+<volume>43</volume>: <fpage>2044</fpage>–<lpage>2053</lpage>.<pub-id pub-id-type="pmid">15172410</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Garfinkel1">
+                <label>47</label>
+                <mixed-citation publication-type="journal"><name><surname>Garfinkel</surname><given-names>A</given-names></name>, <name><surname>Kim</surname><given-names>Y-H</given-names></name>, <name><surname>Voroshilovsky</surname><given-names>O</given-names></name>, <name><surname>Qu</surname><given-names>Z</given-names></name>, <name><surname>Kil</surname><given-names>J</given-names></name>, <etal>et al</etal> (<year>2000</year>) <article-title>Preventing Ventricular fibrillation by flattening cardiac restitution</article-title>. <source>Proc Natl Acad Sci U S A</source>
+<volume>97</volume>: <fpage>6061</fpage>–<lpage>6066</lpage>.<pub-id pub-id-type="pmid">10811880</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Bray1">
+                <label>48</label>
+                <mixed-citation publication-type="journal"><name><surname>Bray</surname><given-names>MA</given-names></name>, <name><surname>Wikswo</surname><given-names>JP</given-names></name> (<year>2002</year>) <article-title>Considerations in phase plane analysis for nonstationary reentrant cardiac behavior</article-title>. <source>Phys Rev E Stat Nonlin Soft Matter Phys</source>
+<volume>65</volume>: <fpage>051902</fpage>.<pub-id pub-id-type="pmid">12059588</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Nash1">
+                <label>49</label>
+                <mixed-citation publication-type="journal"><name><surname>Nash</surname><given-names>MP</given-names></name>, <name><surname>Mourad</surname><given-names>A</given-names></name>, <name><surname>Clayton</surname><given-names>RH</given-names></name>, <name><surname>Sutton</surname><given-names>PM</given-names></name>, <name><surname>Bradley</surname><given-names>CP</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>Evidence for Multiple Mechanisms in Human Ventricular Fibrillation</article-title>. <source>Circulation</source>
+<volume>114</volume>: <fpage>536</fpage>–<lpage>542</lpage>.<pub-id pub-id-type="pmid">16880326</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Ziegler1">
+                <label>50</label>
+                <mixed-citation publication-type="journal"><name><surname>Ziegler</surname><given-names>P</given-names></name>, <name><surname>Koehler</surname><given-names>J</given-names></name>, <name><surname>Mehra</surname><given-names>R</given-names></name> (<year>2006</year>) <article-title>Comparison of continuous versus intermittent monitoring of atrial arrhythmias</article-title>. <source>Heart Rhythm</source>
+<volume>3</volume>: <fpage>1445</fpage>–<lpage>1452</lpage>.<pub-id pub-id-type="pmid">17161787</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Kirchhof3">
+                <label>51</label>
+                <mixed-citation publication-type="journal"><name><surname>Kirchhof</surname><given-names>P</given-names></name>, <name><surname>Auricchio</surname><given-names>A</given-names></name>, <name><surname>Bax</surname><given-names>J</given-names></name>, <name><surname>Crijns</surname><given-names>H</given-names></name>, <name><surname>Camm</surname><given-names>J</given-names></name>, <etal>et al</etal> (<year>2007</year>) <article-title>Outcome parameters for trials in atrial fibrillation: executive summary</article-title>. <source>Eur Heart J</source>
+<volume>28</volume>: <fpage>2803</fpage>–<lpage>2817</lpage>.<pub-id pub-id-type="pmid">17897924</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Bray2">
+                <label>52</label>
+                <mixed-citation publication-type="journal"><name><surname>Bray</surname><given-names>MA</given-names></name>, <name><surname>Wikswo</surname><given-names>JP</given-names></name> (<year>2002</year>) <article-title>Considerations in phase plane analysis for nonstationary reentrant cardiac behavior</article-title>. <source>Phys Rev E Stat Nonlin Soft Matter Phys</source>
+<volume>65</volume>: <fpage>051902</fpage>.<pub-id pub-id-type="pmid">12059588</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0046034-Kalifa1">
+                <label>53</label>
+                <mixed-citation publication-type="journal"><name><surname>Kalifa</surname><given-names>J</given-names></name>, <name><surname>Tanaka</surname><given-names>K</given-names></name>, <name><surname>Zaitsev</surname><given-names>AV</given-names></name>, <name><surname>Warren</surname><given-names>M</given-names></name>, <name><surname>Vaidyanathan</surname><given-names>R</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>Mechanisms of Wave Fractionation at Boundaries of High-Frequency Excitation in the Posterior Left Atrium of the Isolated Sheep Heart During Atrial Fibrillation</article-title>. <source>Circulation</source>
+<volume>113</volume>: <fpage>626</fpage>–<lpage>633</lpage>.<pub-id pub-id-type="pmid">16461834</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T03:18:37Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:6563570" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:6563570</identifier>
+        <datestamp>2019-06-28</datestamp>
+        <setSpec>jamasd</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">JAMA Netw Open</journal-id>
+              <journal-id journal-id-type="iso-abbrev">JAMA Netw Open</journal-id>
+              <journal-id journal-id-type="pmc">JAMA Netw Open</journal-id>
+              <journal-title-group>
+                <journal-title>JAMA Network Open</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2574-3805</issn>
+              <publisher>
+                <publisher-name>American Medical Association</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC6563570</article-id>
+              <article-id pub-id-type="pmcid">PMC6563570</article-id>
+              <article-id pub-id-type="pmc-uid">6563570</article-id>
+              <article-id pub-id-type="pmid">31173130</article-id>
+              <article-id pub-id-type="doi">10.1001/jamanetworkopen.2019.5600</article-id>
+              <article-id pub-id-type="publisher-id">zoi190228</article-id>
+              <article-categories>
+                <subj-group subj-group-type="category" specific-use="electronic">
+                  <subject>Research</subject>
+                </subj-group>
+                <subj-group subj-group-type="heading">
+                  <subject>Original Investigation</subject>
+                </subj-group>
+                <subj-group subj-group-type="online-only">
+                  <subject>Online Only</subject>
+                </subj-group>
+                <subj-group subj-group-type="subject-area">
+                  <subject>Health Informatics</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Deep Learning–Assisted Diagnosis of Cerebral Aneurysms Using the HeadXNet Model</article-title>
+                <alt-title alt-title-type="headline">Deep Learning–Assisted Diagnosis of Cerebral Aneurysms From CT Angiograms</alt-title>
+                <alt-title alt-title-type="running-head">Deep Learning–Assisted Diagnosis of Cerebral Aneurysms From CT Angiograms</alt-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Park</surname>
+                    <given-names>Allison</given-names>
+                  </name>
+                  <degrees>BA</degrees>
+                  <xref ref-type="aff" rid="zoi190228aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Chute</surname>
+                    <given-names>Chris</given-names>
+                  </name>
+                  <degrees>BS</degrees>
+                  <xref ref-type="aff" rid="zoi190228aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rajpurkar</surname>
+                    <given-names>Pranav</given-names>
+                  </name>
+                  <degrees>MS</degrees>
+                  <xref ref-type="aff" rid="zoi190228aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lou</surname>
+                    <given-names>Joe</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="zoi190228aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ball</surname>
+                    <given-names>Robyn L.</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="zoi190228aff2">
+                    <sup>2</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="zoi190228aff3">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Shpanskaya</surname>
+                    <given-names>Katie</given-names>
+                  </name>
+                  <degrees>BS</degrees>
+                  <xref ref-type="aff" rid="zoi190228aff4">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Jabarkheel</surname>
+                    <given-names>Rashad</given-names>
+                  </name>
+                  <degrees>BS</degrees>
+                  <xref ref-type="aff" rid="zoi190228aff4">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kim</surname>
+                    <given-names>Lily H.</given-names>
+                  </name>
+                  <degrees>BS</degrees>
+                  <xref ref-type="aff" rid="zoi190228aff4">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>McKenna</surname>
+                    <given-names>Emily</given-names>
+                  </name>
+                  <degrees>BS</degrees>
+                  <xref ref-type="aff" rid="zoi190228aff5">
+                    <sup>5</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Tseng</surname>
+                    <given-names>Joe</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <xref ref-type="aff" rid="zoi190228aff5">
+                    <sup>5</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ni</surname>
+                    <given-names>Jason</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <xref ref-type="aff" rid="zoi190228aff5">
+                    <sup>5</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Wishah</surname>
+                    <given-names>Fidaa</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <xref ref-type="aff" rid="zoi190228aff5">
+                    <sup>5</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Wittber</surname>
+                    <given-names>Fred</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <xref ref-type="aff" rid="zoi190228aff5">
+                    <sup>5</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Hong</surname>
+                    <given-names>David S.</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <xref ref-type="aff" rid="zoi190228aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Wilson</surname>
+                    <given-names>Thomas J.</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <xref ref-type="aff" rid="zoi190228aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Halabi</surname>
+                    <given-names>Safwan</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <xref ref-type="aff" rid="zoi190228aff5">
+                    <sup>5</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Basu</surname>
+                    <given-names>Sanjay</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="zoi190228aff5">
+                    <sup>5</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Patel</surname>
+                    <given-names>Bhavik N.</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <degrees>MBA</degrees>
+                  <xref ref-type="aff" rid="zoi190228aff5">
+                    <sup>5</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lungren</surname>
+                    <given-names>Matthew P.</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <degrees>MPH</degrees>
+                  <xref ref-type="aff" rid="zoi190228aff5">
+                    <sup>5</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ng</surname>
+                    <given-names>Andrew Y.</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="zoi190228aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Yeom</surname>
+                    <given-names>Kristen W.</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <xref ref-type="aff" rid="zoi190228aff5">
+                    <sup>5</sup>
+                  </xref>
+                </contrib>
+              </contrib-group>
+              <aff id="zoi190228aff1"><label>1</label>Department of Computer Science, Stanford University, Stanford, California</aff>
+              <aff id="zoi190228aff2"><label>2</label>AIMI Center, Stanford University, Stanford, California</aff>
+              <aff id="zoi190228aff3"><label>3</label>Roam Analytics, San Mateo, California</aff>
+              <aff id="zoi190228aff4"><label>4</label>School of Medicine, Stanford University, Stanford, California</aff>
+              <aff id="zoi190228aff5"><label>5</label>School of Medicine, Department of Radiology, Stanford University, Stanford, California</aff>
+              <aff id="zoi190228aff6"><label>6</label>School of Medicine, Department of Neurosurgery, Stanford University, Stanford, California</aff>
+              <author-notes>
+                <title>Article Information</title>
+                <p><bold>Accepted for Publication:</bold> April 23, 2019.</p>
+                <p content-type="published-online"><bold>Published:</bold> June 7, 2019. <?xpp bx;1?>doi:<uri content-type="doi">10.1001/jamanetworkopen.2019.5600</uri></p>
+                <p content-type="open-access-note"><bold>Open Access:</bold> This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="https://jamanetwork.com/journals/jamanetworkopen/pages/instructions-for-authors#SecOpenAccess">CC-BY License</ext-link>. © 2019 Park A et al. <italic>JAMA Network Open</italic>.</p>
+                <corresp id="zoi190228cor1"><bold>Corresponding Author:</bold> Kristen W. Yeom, MD, School of Medicine, Department of Radiology, Stanford University, 725 Welch Rd, Ste G516, Palo Alto, CA 94304 (<email xlink:href="kyeom@stanford.edu">kyeom@stanford.edu</email>).</corresp>
+                <p content-type="author-contributions"><bold>Author Contributions:</bold> Ms Park and Dr Yeom had full access to all of the data in the study and take responsibility for the integrity of the data and the accuracy of the data analysis. Ms Park and Messrs Chute and Rajpurkar are co–first authors. Drs Ng and Yeom are co–senior authors.</p>
+                <p><italic>Concept and design:</italic> Park, Chute, Rajpurkar, Lou, Shpanskaya, Ni, Basu, Lungren, Ng, Yeom.</p>
+                <p><italic>Acquisition, analysis, or interpretation of data:</italic> Park, Chute, Rajpurkar, Lou, Ball, Shpanskaya, Jabarkheel, Kim, McKenna, Tseng, Ni, Wishah, Wittber, Hong, Wilson, Halabi, Patel, Lungren, Yeom.</p>
+                <p><italic>Drafting of the manuscript:</italic> Park, Chute, Rajpurkar, Lou, Ball, Jabarkheel, Kim, McKenna, Hong, Halabi, Lungren, Yeom.</p>
+                <p><italic>Critical revision of the manuscript for important intellectual content:</italic> Park, Chute, Rajpurkar, Ball, Shpanskaya, Jabarkheel, Kim, Tseng, Ni, Wishah, Wittber, Wilson, Basu, Patel, Lungren, Ng, Yeom.</p>
+                <p><italic>Statistical analysis:</italic> Park, Chute, Rajpurkar, Lou, Ball, Lungren.</p>
+                <p><italic>Administrative, technical, or material support:</italic> Park, Chute, Shpanskaya, Jabarkheel, Kim, McKenna, Tseng, Wittber, Hong, Wilson, Lungren, Ng, Yeom.</p>
+                <p><italic>Supervision:</italic> Park, Ball, Tseng, Halabi, Basu, Lungren, Ng, Yeom.</p>
+                <p content-type="COI-statement"><bold>Conflict of Interest Disclosures:</bold> Drs Wishah and Patel reported grants from GE and Siemens outside the submitted work. Dr Patel reported participation in the speakers bureau for GE. Dr Lungren reported personal fees from Nines Inc outside the submitted work. Dr Yeom reported grants from Philips outside the submitted work. No other disclosures were reported.</p>
+                <p><bold>Funding/Support: </bold>This work was supported by National Institutes of Health National Center for Advancing Translational Science Clinical and Translational Science Award UL1TR001085.</p>
+                <p><bold>Role of the Funder/Sponsor:</bold> The National Institutes of Health had no role in the design and conduct of the study; collection, management, analysis, and interpretation of the data; preparation, review, or approval of the manuscript; and decision to submit the manuscript for publication.</p>
+                <p><bold>Disclaimer: </bold>The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.</p>
+              </author-notes>
+              <pub-date pub-type="epub" iso-8601-date="2019-06-07T10:00">
+                <day>7</day>
+                <month>6</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <month>6</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>7</day>
+                <month>6</month>
+                <year>2019</year>
+              </pub-date>
+              <!-- PMC Release delay is 0 months and
+						0 days and was based on the <pub-date
+						pub-type="epub"/>. -->
+              <volume>2</volume>
+              <issue>6</issue>
+              <elocation-id>e195600</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>18</day>
+                  <month>1</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="accepted">
+                  <day>23</day>
+                  <month>4</month>
+                  <year>2019</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>Copyright 2019 Park A et al. <italic>JAMA Network Open</italic>.</copyright-statement>
+                <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                  <license-p>This is an open access article distributed under the terms of the CC-BY License.</license-p>
+                </license>
+              </permissions>
+              <self-uri content-type="pdf-version" xlink:href="jamanetwopen-2-e195600.pdf">jamanetwopen-2-e195600.pdf</self-uri>
+              <self-uri content-type="silverchair" xlink:href="https://jamanetworkopen.jamanetwork.com/article.aspx?doi=10.1001/jamanetworkopen.2019.5600"/>
+              <abstract abstract-type="key-points">
+                <title>Key Points</title>
+                <sec id="ab-zoi190228-1">
+                  <title>Question</title>
+                  <p>How does augmentation with a deep learning segmentation model influence the performance of clinicians in identifying intracranial aneurysms from computed tomographic angiography examinations?</p>
+                </sec>
+                <sec id="ab-zoi190228-2">
+                  <title>Findings</title>
+                  <p>In this diagnostic study of intracranial aneurysms, a test set of 115 examinations was reviewed once with model augmentation and once without in a randomized order by 8 clinicians. The clinicians showed significant increases in sensitivity, accuracy, and interrater agreement when augmented with neural network model–generated segmentations.</p>
+                </sec>
+                <sec id="ab-zoi190228-3">
+                  <title>Meaning</title>
+                  <p>This study suggests that the performance of clinicians in the detection of intracranial aneurysms can be improved by augmentation using deep learning segmentation models.</p>
+                </sec>
+              </abstract>
+              <abstract abstract-type="teaser">
+                <p>This diagnostic study investigates the use of a neural network segmentation model to assist clinicians in the detection of intracranial aneurisms.</p>
+              </abstract>
+              <abstract>
+                <sec id="ab-zoi190228-4">
+                  <title>Importance</title>
+                  <p>Deep learning has the potential to augment clinician performance in medical imaging interpretation and reduce time to diagnosis through automated segmentation. Few studies to date have explored this topic.</p>
+                </sec>
+                <sec id="ab-zoi190228-5">
+                  <title>Objective</title>
+                  <p>To develop and apply a neural network segmentation model (the HeadXNet model) capable of generating precise voxel-by-voxel predictions of intracranial aneurysms on head computed tomographic angiography (CTA) imaging to augment clinicians’ intracranial aneurysm diagnostic performance.</p>
+                </sec>
+                <sec id="ab-zoi190228-6">
+                  <title>Design, Setting, and Participants</title>
+                  <p>In this diagnostic study, a 3-dimensional convolutional neural network architecture was developed using a training set of 611 head CTA examinations to generate aneurysm segmentations. Segmentation outputs from this support model on a test set of 115 examinations were provided to clinicians. Between August 13, 2018, and October 4, 2018, 8 clinicians diagnosed the presence of aneurysm on the test set, both with and without model augmentation, in a crossover design using randomized order and a 14-day washout period. Head and neck examinations performed between January 3, 2003, and May 31, 2017, at a single academic medical center were used to train, validate, and test the model. Examinations positive for aneurysm had at least 1 clinically significant, nonruptured intracranial aneurysm. Examinations with hemorrhage, ruptured aneurysm, posttraumatic or infectious pseudoaneurysm, arteriovenous malformation, surgical clips, coils, catheters, or other surgical hardware were excluded. All other CTA examinations were considered controls.</p>
+                </sec>
+                <sec id="ab-zoi190228-7">
+                  <title>Main Outcomes and Measures</title>
+                  <p>Sensitivity, specificity, accuracy, time, and interrater agreement were measured. Metrics for clinician performance with and without model augmentation were compared.</p>
+                </sec>
+                <sec id="ab-zoi190228-8">
+                  <title>Results</title>
+                  <p>The data set contained 818 examinations from 662 unique patients with 328 CTA examinations (40.1%) containing at least 1 intracranial aneurysm and 490 examinations (59.9%) without intracranial aneurysms. The 8 clinicians reading the test set ranged in experience from 2 to 12 years. Augmenting clinicians with artificial intelligence–produced segmentation predictions resulted in clinicians achieving statistically significant improvements in sensitivity, accuracy, and interrater agreement when compared with no augmentation. The clinicians’ mean sensitivity increased by 0.059 (95% CI, 0.028-0.091; adjusted <italic>P</italic> = .01), mean accuracy increased by 0.038 (95% CI, 0.014-0.062; adjusted <italic>P</italic> = .02), and mean interrater agreement (Fleiss κ) increased by 0.060, from 0.799 to 0.859 (adjusted <italic>P</italic> = .05). There was no statistically significant change in mean specificity (0.016; 95% CI, −0.010 to 0.041; adjusted <italic>P</italic> = .16) and time to diagnosis (5.71 seconds; 95% CI, 7.22-18.63 seconds; adjusted <italic>P</italic> = .19).</p>
+                </sec>
+                <sec id="ab-zoi190228-9">
+                  <title>Conclusions and Relevance</title>
+                  <p>The deep learning model developed successfully detected clinically significant intracranial aneurysms on CTA. This suggests that integration of an artificial intelligence–assisted diagnostic model may augment clinician performance with dependable and accurate predictions and thereby optimize patient care.</p>
+                </sec>
+              </abstract>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="H1-1-ZOI190228">
+              <title>Introduction</title>
+              <p>Diagnosis of unruptured aneurysms is a critically important clinical task: intracranial aneurysms occur in 1% to 3% of the population and account for more than 80% of nontraumatic life-threatening subarachnoid hemorrhages.<sup><xref rid="zoi190228r1" ref-type="bibr">1</xref></sup> Computed tomographic angiography (CTA) is the primary, minimally invasive imaging modality currently used for diagnosis, surveillance, and presurgical planning of intracranial aneurysms,<sup><xref rid="zoi190228r2" ref-type="bibr">2</xref>,<xref rid="zoi190228r3" ref-type="bibr">3</xref></sup> but interpretation is time consuming even for subspecialty-trained neuroradiologists. Low interrater agreement poses an additional challenge for reliable diagnosis.<sup><xref rid="zoi190228r4" ref-type="bibr">4</xref>,<xref rid="zoi190228r5" ref-type="bibr">5</xref>,<xref rid="zoi190228r6" ref-type="bibr">6</xref>,<xref rid="zoi190228r7" ref-type="bibr">7</xref></sup></p>
+              <p>Deep learning has recently shown significant potential in accurately performing diagnostic tasks on medical imaging.<sup><xref rid="zoi190228r8" ref-type="bibr">8</xref></sup> Specifically, convolutional neural networks (CNNs) have demonstrated excellent performance on a range of visual tasks, including medical image analysis.<sup><xref rid="zoi190228r9" ref-type="bibr">9</xref></sup> Moreover, the ability of deep learning systems to augment clinician workflow remains relatively unexplored.<sup><xref rid="zoi190228r10" ref-type="bibr">10</xref></sup> The development of an accurate deep learning model to help clinicians reliably identify clinically significant aneurysms in CTA has the potential to provide radiologists, neurosurgeons, and other clinicians an easily accessible and immediately applicable diagnostic support tool.</p>
+              <p>In this study, a deep learning model to automatically detect intracranial aneurysms on CTA and produce segmentations specifying regions of interest was developed to assist clinicians in the interpretation of CTA examinations for the diagnosis of intracranial aneurysms. Sensitivity, specificity, accuracy, time to diagnosis, and interrater agreement for clinicians with and without model augmentation were compared.</p>
+            </sec>
+            <sec id="H1-2-ZOI190228">
+              <title>Methods</title>
+              <p>The Stanford University institutional review board approved this study. Owing to the retrospective nature of the study, patient consent or assent was waived. The Standards for Reporting of Diagnostic Accuracy (<ext-link ext-link-type="uri" xlink:href="http://www.equator-network.org/reporting-guidelines/stard/">STARD</ext-link>) reporting guideline was used for the reporting of this study.</p>
+              <sec id="H2-1-ZOI190228">
+                <title>Data</title>
+                <p>A total of 9455 consecutive CTA examination reports of the head or head and neck performed between January 3, 2003, and May 31, 2017, at Stanford University Medical Center were retrospectively reviewed. Examinations with parenchymal hemorrhage, subarachnoid hemorrhage, posttraumatic or infectious pseudoaneurysm, arteriovenous malformation, ischemic stroke, nonspecific or chronic vascular findings such as intracranial atherosclerosis or other vasculopathies, surgical clips, coils, catheters, or other surgical hardware were excluded. Examinations of injuries that resulted from trauma or contained images degraded by motion were also excluded on visual review by a board-certified neuroradiologist with 12 years of experience. Examinations with nonruptured clinically significant aneurysms (&gt;3 mm) were included.<sup><xref rid="zoi190228r11" ref-type="bibr">11</xref></sup></p>
+              </sec>
+              <sec id="H2-2-ZOI190228">
+                <title>Radiologist Annotations</title>
+                <p>The reference standard for all examinations in the test set was determined by a board-certified neuroradiologist at a large academic practice with 12 years of experience who determined the presence of aneurysm by review of the original radiology report, double review of the CTA examination, and further confirmation of the aneurysm by diagnostic cerebral angiograms, if available. The neuroradiologist had access to all of the Digital Imaging and Communications in Medicine (DICOM) series, original reports, and clinical histories, as well as previous and follow-up examinations during interpretation to establish the best possible reference standard for the labels. For each of the aneurysm examinations, the radiologist also identified the location of each of the aneurysms. Using the open-source annotation software ITK-SNAP,<sup><xref rid="zoi190228r12" ref-type="bibr">12</xref></sup> the identified aneurysms were manually segmented on each slice.</p>
+              </sec>
+              <sec id="H2-3-ZOI190228">
+                <title>Model Development</title>
+                <p>In this study, we developed a 3-dimensional (3-D) CNN called HeadXNet for segmentation of intracranial aneurysms from CT scans. Neural networks are functions with parameters structured as a sequence of layers to learn different levels of abstraction. Convolutional neural networks are a type of neural network designed to process image data, and 3-D CNNs are particularly well suited to handle sequences of images, or volumes.</p>
+                <p>HeadXNet is a CNN with an encoder-decoder structure (eFigure 1 in the <xref ref-type="supplementary-material" rid="note-ZOI190228-1-s">Supplement</xref>), where the encoder maps a volume to an abstract low-resolution encoding, and the decoder expands this encoding to a full-resolution segmentation volume. The segmentation volume is of the same size as the corresponding study and specifies the probability of aneurysm for each voxel, which is the atomic unit of a 3-D volume, analogous to a pixel in a 2-D image. The encoder is adapted from a 50-layer SE-ResNeXt network,<sup><xref rid="zoi190228r13" ref-type="bibr">13</xref>,<xref rid="zoi190228r14" ref-type="bibr">14</xref>,<xref rid="zoi190228r15" ref-type="bibr">15</xref></sup> and the decoder is a sequence of 3 × 3 transposed convolutions. Similar to UNet,<sup><xref rid="zoi190228r16" ref-type="bibr">16</xref></sup> skip connections are used in 3 layers of the encoder to transmit outputs directly to the decoder. The encoder was pretrained on the Kinetics-600 data set,<sup><xref rid="zoi190228r17" ref-type="bibr">17</xref></sup> a large collection of YouTube videos labeled with human actions; after pretraining the encoder, the final 3 convolutional blocks and the 600-way softmax output layer were removed. In their place, an atrous spatial pyramid pooling<sup><xref rid="zoi190228r18" ref-type="bibr">18</xref></sup> layer and the decoder were added.</p>
+              </sec>
+              <sec id="H2-4-ZOI190228">
+                <title>Training Procedure</title>
+                <p>Subvolumes of 16 slices were randomly sampled from volumes during training. The data set was preprocessed to find contours of the skull, and each volume was cropped around the skull in the axial plane before resizing each slice to 208 × 208 pixels. The slices were then cropped to 192 × 192 pixels (using random crops during training and centered crops during testing), resulting in a final input of size 16 × 192 × 192 per example; the same transformations were applied to the segmentation label. The segmentation output was trained to optimize a weighted combination of the voxelwise binary cross-entropy and Dice losses.<sup><xref rid="zoi190228r19" ref-type="bibr">19</xref></sup></p>
+                <p>Before reaching the model, inputs were clipped to [−300, 700] Hounsfield units, normalized to [−1, 1], and zero-centered. The model was trained on 3 Titan Xp graphical processing units (GPUs) (NVIDIA) using a minibatch of 2 examples per GPU. The parameters of the model were optimized using a stochastic gradient descent optimizer with momentum of 0.9 and a peak learning rate of 0.1 for randomly initialized weights and 0.01 for pretrained weights. The learning rate was scheduled with a linear warm-up from 0 to the peak learning rate for 10 000 iterations, followed by cosine annealing<sup><xref rid="zoi190228r20" ref-type="bibr">20</xref></sup> over 300 000 iterations. Additionally, the learning rate was fixed at 0 for the first 10 000 iterations for the pretrained encoder. For regularization, L2 weight decay of 0.001 was added to the loss for all trainable parameters and stochastic depth dropout<sup><xref rid="zoi190228r21" ref-type="bibr">21</xref></sup> was used in the encoder blocks. Standard dropout was not used.</p>
+                <p>To control for class imbalance, 3 methods were used. First, an auxiliary loss was added after the encoder and focal loss was used to encourage larger parameter updates on misclassified positive examples. Second, abnormal training examples were sampled more frequently than normal examples such that abnormal examples made up 30% of training iterations. Third, parameters of the decoder were not updated on training iterations where the segmentation label consisted of purely background (normal) voxels.</p>
+                <p>To produce a segmentation prediction for the entire volume, the segmentation outputs for sequential 16-slice subvolumes were simply concatenated. If the number of slices was not divisible by 16, the last input volume was padded with 0s and the corresponding output volume was truncated back to the original size.</p>
+              </sec>
+              <sec id="H2-5-ZOI190228">
+                <title>Study Design</title>
+                <p>We performed a diagnostic accuracy study comparing performance metrics of clinicians with and without model augmentation. Each of the 8 clinicians participating in the study diagnosed a test set of 115 examinations, once with and once without assistance of the model. The clinicians were blinded to the original reports, clinical histories, and follow-up imaging examinations. Using a crossover design, the clinicians were randomly and equally divided into 2 groups. Within each group, examinations were sorted in a fixed random order for half of the group and sorted in reverse order for the other half. Group 1 first read the examinations without model augmentation, and group 2 first read the examinations with model augmentation. After a washout period of 14 days, the augmentation arrangement was reversed such that group 1 performed reads with model augmentation and group 2 read the examinations without model augmentation (<xref ref-type="fig" rid="zoi190228f1">Figure 1</xref>A).</p>
+                <fig id="zoi190228f1" fig-type="figure" orientation="portrait" position="float">
+                  <label>Figure 1. </label>
+                  <caption>
+                    <title>Study Design</title>
+                    <p>A, Crossover study design. Clinicians were divided into 2 groups to perform reads with and without model augmentation in random order, with a 2-week washout period between. B, Unaugmented read, with original CTA scan in axial, coronal, and sagittal view. C, Augmented read, with model segmentation overlay on CTA in axial, coronal, and sagittal view. Readers had the option to toggle overlays off and view the scan as shown in B. AI indicates artificial intelligence; CTA, computed tomographic angiography.</p>
+                  </caption>
+                  <graphic xlink:href="jamanetwopen-2-e195600-g001"/>
+                </fig>
+                <p>Clinicians were instructed to assign a binary label for the presence or absence of at least 1 clinically significant aneurysm, defined as having a diameter greater than 3 mm. Clinicians read alone in a diagnostic reading room, all using the same high-definition monitor (3840 × 2160 pixels) displaying CTA examinations on a standard open-source DICOM viewer (Horos).<sup><xref rid="zoi190228r22" ref-type="bibr">22</xref></sup> Clinicians entered their labels into a data entry software application that automatically logged the time difference between labeling of the previous examination and the current examination.</p>
+                <p>When reading with model augmentation, clinicians were provided the model’s predictions in the form of region of interest (ROI) segmentations directly overlaid on top of CTA examinations. To ensure an image display interface that was familiar to all clinicians, the model’s predictions were presented as ROIs in a standard DICOM viewing software. At every voxel where the model predicted a probability greater than 0.5, readers saw a semiopaque red overlay on the axial, sagittal, and coronal series (<xref ref-type="fig" rid="zoi190228f1">Figure 1</xref>C). Readers had access to the ROIs immediately on loading the examinations, and the ROIs could be toggled off to reveal the unaltered CTA images (<xref ref-type="fig" rid="zoi190228f1">Figure 1</xref>B). The red overlays were the only indication that was given whether a particular CTA examination had been predicted by the model to contain an aneurysm. Given these model results, readers had the option to take it into consideration or disregard it based on clinical judgment. When readers performed diagnoses without augmentation, no ROIs were present on any of the examinations. Otherwise, the diagnostic tools were identical for augmented and nonaugmented reads.</p>
+              </sec>
+              <sec id="H2-6-ZOI190228">
+                <title>Statistical Analysis</title>
+                <p>On the binary task of determining whether an examination contained an aneurysm, sensitivity, specificity, and accuracy were used to assess the performance of clinicians with and without model augmentation. Sensitivity denotes the number of true-positive results over total aneurysm-positive cases, specificity denotes the number of true-negative results over total aneurysm-negative cases, and accuracy denotes the number of true-positive and true-negative results over all test cases. The microaverage of these statistics across all clinicians was also computed by measuring each statistic pertaining to the total number of true-positive, false-negative, and false-positive results. In addition, to convert the models’ segmentation output of the model into a binary prediction, a prediction was considered positive if the model predicted at least 1 voxel as belonging to an aneurysm and negative otherwise. The 95% Wilson score confidence intervals were used to assess the variability in the estimates for sensitivity, specificity, and accuracy.<sup><xref rid="zoi190228r23" ref-type="bibr">23</xref></sup></p>
+                <p>To assess whether the clinicians achieved significant increases in performance with model augmentation, a 1-tailed <italic>t</italic> test was performed on the differences in sensitivity, specificity, and accuracy across all 8 clinicians. To determine the robustness of the findings and whether results were due to inclusion of the resident radiologist and neurosurgeon, we performed a sensitivity analysis: we computed the <italic>t</italic> test on the differences in sensitivity, specificity, and accuracy across board-certified radiologists only.</p>
+                <p>The average time to diagnosis for the clinicians with and without augmentation was computed as the difference between the mean entry times into the spreadsheet of consecutive diagnoses; 95% <italic>t</italic> score confidence intervals were used to assess the variability in the estimates. To account for interruptions in the clinical read or time logging errors, the 5 longest and 5 shortest time to diagnosis for each clinician in each reading were excluded. To assess whether model augmentation significantly decreased the time to diagnosis, a 1-tailed <italic>t</italic> test was performed on the difference in average time with and without augmentation across all 8 clinicians.</p>
+                <p>The interrater agreement of clinicians and for the radiologist subset was computed using the exact Fleiss κ.<sup><xref rid="zoi190228r24" ref-type="bibr">24</xref></sup> To assess whether model augmentation increased interrater agreement, a 1-tailed permutation test was performed on the difference between the interrater agreement of clinicians on the test set with and without augmentation. The permutation procedure consisted of randomly swapping clinician annotations with and without augmentation so that a random subset of the test set that had previously been labeled as <italic>read with augmentation</italic> was now labeled as being <italic>read without augmentation</italic>, and vice versa; the exact Fleiss κ values (and the difference) were computed on the test set with permuted labels. This permutation procedure was repeated 10 000 times to generate the null distribution of the Fleiss κ difference (the interrater agreement of clinician annotations with augmentation is not higher than without augmentation) and the unadjusted <italic>P </italic>value calculated as the proportion of Fleiss κ differences that were higher than the observed Fleiss κ difference.</p>
+                <p>To control the familywise error rate, the Benjamini-Hochberg correction was applied to account for multiple hypothesis testing; a Benjamini-Hochberg–adjusted <italic>P</italic> ≤ .05 indicated statistical significance. All tests were 1-tailed.<sup><xref rid="zoi190228r25" ref-type="bibr">25</xref></sup></p>
+              </sec>
+            </sec>
+            <sec id="H1-3-ZOI190228">
+              <title>Results</title>
+              <p>The data set contained 818 examinations from 662 unique patients with 328 CTA examinations (40.1%) containing at least 1 intracranial aneurysm and 490 examinations (59.9%) without intracranial aneurysms (<xref ref-type="fig" rid="zoi190228f2">Figure 2</xref>). Of the 328 aneurysm cases, 20 cases from 15 unique patients contained 2 or more aneurysms. One hundred forty-eight aneurysm cases contained aneurysms between 3 mm and 7 mm, 108 cases had aneurysms between 7 mm and 12 mm, 61 cases had aneurysms between 12 mm and 24 mm, and 11 cases had aneurysms 24 mm or greater. The location of the aneurysms varied according to the following distribution: 99 were located in the internal carotid artery, 78 were in the middle cerebral artery, 50 were cavernous internal carotid artery aneurysms, 44 were basilar tip aneurysms, 41 were in the anterior communicating artery, 18 were in the posterior communicating artery, 16 were in the vertebrobasilar system, and 12 were in the anterior cerebral artery. All examinations were performed either on a GE Discovery, GE LightSpeed, GE Revolution, Siemens Definition, Siemens Sensation, or a Siemens Force scanner, with slice thicknesses of 1.0 mm or 1.25 mm, using standard clinical protocols for head angiogram or head/neck angiogram. There was no difference between the protocols or slice thicknesses between the aneurysm and nonaneurysm examinations. For this study, axial series were extracted from each examination and a segmentation label was produced on every axial slice containing an aneurysm. The number of images per examination ranged from 113 to 802 (mean [SD], 373 [157]).</p>
+              <fig id="zoi190228f2" fig-type="figure" orientation="portrait" position="float">
+                <label>Figure 2. </label>
+                <caption>
+                  <title>Data Set Selection Flow Diagram and Patient Demographics</title>
+                  <p>Of 9455 computed tomography angiogram (CTA) examinations performed between 2003 and 2017 at Stanford University Medical Center, 818 were selected according to an exclusion criteria validated by a board-certified neuroradiologist. These examinations were split into the training set, development set, and test set to be used for training models, selecting the best model, and assessing the selected model, respectively.</p>
+                </caption>
+                <graphic xlink:href="jamanetwopen-2-e195600-g002"/>
+              </fig>
+              <p>The examinations were split into a training set of 611 examinations (494 patients; mean [SD] age, 55.8 [18.1] years; 372 [60.9%] female) used to train the model, a development set of 92 examinations (86 patients; mean [SD] age, 61.6 [16.7] years; 59 [64.1%] female) used for model selection, and a test set of 115 examinations (82 patients; mean [SD] age, 57.8 [18.3] years; 74 [64.4%] female) to evaluate the performance of the clinicians when augmented with the model (<xref ref-type="fig" rid="zoi190228f2">Figure 2</xref>). Using stratified random sampling, the development and test sets were formed to include 50% aneurysm examinations and 50% normal examinations; the remaining examinations composed the training set, of which 36.5% were aneurysm examinations. Forty-three patients had multiple examinations in the data set due to examinations performed for follow-up of the aneurysm. To account for these repeat patients, examinations were split so that there was no patient overlap between the different sets. <xref ref-type="fig" rid="zoi190228f2">Figure 2</xref> contains pathology and patient demographic characteristics for each set.</p>
+              <p>A total of 8 clinicians, including 6 board-certified practicing radiologists, 1 practicing neurosurgeon, and 1 radiology resident, participated as readers in the study. The radiologists’ years of experience ranged from 3 to 12 years, the neurosurgeon had 2 years of experience as attending, and the resident was in the second year of training at Stanford University Medical Center. Groups 1 and 2 consisted of 3 radiologists each; the resident and neurosurgeon were both in group 1. None of the clinicians were involved in establishing the reference standard for the examinations.</p>
+              <p>Without augmentation, clinicians achieved a microaveraged sensitivity of 0.831 (95% CI, 0.794-0.862), specificity of 0.960 (95% CI, 0.937-0.974), and an accuracy of 0.893 (95% CI, 0.872-0.912). With augmentation, the clinicians achieved a microaveraged sensitivity of 0.890 (95% CI, 0.858-0.915), specificity of 0.975 (95% CI, 0.957-0.986), and an accuracy of 0.932 (95% CI, 0.913-0.946). The underlying model had a sensitivity of 0.949 (95% CI, 0.861-0.983), specificity of 0.661 (95% CI, 0.530-0.771), and accuracy of 0.809 (95% CI, 0.727-0.870). The performances of the model, individual clinicians, and their microaverages are reported in eTable 1 in the <xref ref-type="supplementary-material" rid="note-ZOI190228-1-s">Supplement</xref>.</p>
+              <p>With augmentation, there was a statistically significant increase in the mean sensitivity (0.059; 95% CI, 0.028-0.091; adjusted <italic>P</italic> = .01) and mean accuracy (0.038; 95% CI, 0.014-0.062; adjusted <italic>P</italic> = .02) of the clinicians as a group. There was no statistically significant change in mean specificity (0.016; 95% CI, −0.010 to 0.041; adjusted <italic>P</italic> = .16). Performance improvements across clinicians are detailed in the <xref rid="zoi190228t1" ref-type="table">Table</xref>, and individual clinician improvement in <xref ref-type="fig" rid="zoi190228f3">Figure 3</xref>. Individual performances with and without model augmentation are shown in eTable 1 in the <xref ref-type="supplementary-material" rid="note-ZOI190228-1-s">Supplement</xref>. The sensitivity analysis confirmed that even among board-certified radiologists, there was a statistically significant increase in mean sensitivity (0.059; 95% CI, 0.013-0.105; adjusted <italic>P</italic> = .04) and accuracy (0.036; 95% CI, 0.001-0.072; adjusted <italic>P</italic> = .05). Performance improvements of board-certified radiologists as a group are shown in eTable 2 in the <xref ref-type="supplementary-material" rid="note-ZOI190228-1-s">Supplement</xref>.</p>
+              <table-wrap id="zoi190228t1" orientation="portrait" position="float">
+                <?xpp 2col?>
+                <label>Table. </label>
+                <caption>
+                  <title>Clinician Performance Metrics With and Without Augmentation</title>
+                </caption>
+                <table frame="hsides" rules="groups">
+                  <col width="12.17%" span="1"/>
+                  <col width="22.77%" span="1"/>
+                  <col width="21.96%" span="1"/>
+                  <col width="22.77%" span="1"/>
+                  <col width="9.76%" span="1"/>
+                  <col width="10.57%" span="1"/>
+                  <thead>
+                    <tr>
+                      <th rowspan="2" valign="top" align="left" scope="col" colspan="1">Metric</th>
+                      <th colspan="2" valign="top" align="left" scope="colgroup" rowspan="1">Microaverage (95% CI)</th>
+                      <th rowspan="2" valign="top" align="left" scope="col" colspan="1">Mean Increase (95% CI)</th>
+                      <th colspan="2" valign="top" align="left" scope="colgroup" rowspan="1"><italic>P</italic> Value</th>
+                    </tr>
+                    <tr>
+                      <th valign="top" colspan="1" align="left" scope="colgroup" rowspan="1">Without Augmentation</th>
+                      <th valign="top" align="left" scope="col" rowspan="1" colspan="1">With Augmentation</th>
+                      <th valign="top" colspan="1" align="left" scope="colgroup" rowspan="1">Unadjusted</th>
+                      <th valign="top" align="left" scope="col" rowspan="1" colspan="1">Adjusted<xref ref-type="table-fn" rid="zoi190228t1n1"><sup>a</sup></xref></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Sensitivity</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.831 (0.794 to 0.862)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.890 (0.858 to 0.915)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.059 (0.028 to 0.091)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">.001</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">.01</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Specificity</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.960 (0.937 to 0.974)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.975 (0.957 to 0.986)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.016 (−0.010 to 0.041)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">.10</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">.16</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Accuracy</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.893 (0.782 to 0.912)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.932 (0.913 to 0.946)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.038 (0.014 to 0.062)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">.004</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">.02</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table-wrap-foot>
+                  <fn id="zoi190228t1n1">
+                    <label>
+                      <sup>a</sup>
+                    </label>
+                    <p><italic>P</italic> values were adjusted for multiple hypothesis testing using the Benjamini-Hochberg correction.</p>
+                  </fn>
+                </table-wrap-foot>
+              </table-wrap>
+              <fig id="zoi190228f3" fig-type="figure" orientation="portrait" position="float">
+                <label>Figure 3. </label>
+                <caption>
+                  <title>Change in Individual Clinicians' Performance Metric</title>
+                  <p>Horizontal lines depict the change in performance metric for each clinician with and without model augmentation. The orange dot represents performance without model, and the blue dot represents performance with model augmentation.</p>
+                </caption>
+                <graphic xlink:href="jamanetwopen-2-e195600-g003"/>
+              </fig>
+              <p>The mean diagnosis time per examination without augmentation microaveraged across clinicians was 57.04 seconds (95% CI, 54.58-59.50 seconds). The times for individual clinicians are detailed in eTable 3 in the <xref ref-type="supplementary-material" rid="note-ZOI190228-1-s">Supplement</xref>, and individual time changes are shown in eFigure 2 in the <xref ref-type="supplementary-material" rid="note-ZOI190228-1-s">Supplement</xref>. With augmentation, there was no statistically significant decrease in mean diagnosis time (5.71 seconds; 95% CI, −7.22 to 18.63 seconds; adjusted <italic>P</italic> = .19). The model took a mean of 7.58 seconds (95% CI, 6.92-8.25 seconds) to process an examination and output its segmentation map.</p>
+              <p>Confusion matrices, which are tables reporting true- and false-positive results and true- and false-negative results of each clinician with and without model augmentation, are shown in eTable 4 in the <xref ref-type="supplementary-material" rid="note-ZOI190228-1-s">Supplement</xref>.</p>
+              <p>There was a statistically significant increase of 0.060 (adjusted <italic>P</italic> = .05) in the interrater agreement among the clinicians, with an exact Fleiss κ of 0.799 without augmentation and 0.859 with augmentation. For the board-certified radiologists, there was an increase of 0.063 in their interrater agreement, with an exact Fleiss κ of 0.783 without augmentation and 0.847 with augmentation.</p>
+            </sec>
+            <sec id="H1-4-ZOI190228">
+              <title>Discussion</title>
+              <p>In this study, the ability of a deep learning model to augment clinician performance in detecting cerebral aneurysms using CTA was investigated with a crossover study design. With model augmentation, clinicians’ sensitivity, accuracy, and interrater agreement significantly increased. There was no statistical change in specificity and time to diagnosis.</p>
+              <p>Given the potential catastrophic outcome of a missed aneurysm at risk of rupture, an automated detection tool that reliably detects and enhances clinicians’ performance is highly desirable. Aneurysm rupture is fatal in 40% of patients and leads to irreversible neurological disability in two-thirds of those who survive; therefore, an accurate and timely detection is of paramount importance. In addition to significantly improving accuracy across clinicians while interpreting CTA examinations, an automated aneurysm detection tool, such as the one presented in this study, could also be used to prioritize workflow so that those examinations more likely to be positive could receive timely expert review, potentially leading to a shorter time to treatment and more favorable outcomes.</p>
+              <p>The significant variability among clinicians in the diagnosis of aneurysms has been well documented and is typically attributed to lack of experience or subspecialty neuroradiology training, complex neurovascular anatomy, or the labor-intensive nature of identifying aneurysms. Studies have shown that interrater agreement of CTA-based aneurysm detection is highly variable, with interrater reliability metrics ranging from 0.37 to 0.85,<sup><xref rid="zoi190228r6" ref-type="bibr">6</xref>,<xref rid="zoi190228r7" ref-type="bibr">7</xref>,<xref rid="zoi190228r26" ref-type="bibr">26</xref>,<xref rid="zoi190228r27" ref-type="bibr">27</xref>,<xref rid="zoi190228r28" ref-type="bibr">28</xref></sup> and performance levels that vary depending on aneurysm size and individual radiologist experience.<sup><xref rid="zoi190228r4" ref-type="bibr">4</xref>,<xref rid="zoi190228r6" ref-type="bibr">6</xref></sup> In addition to significantly increasing sensitivity and accuracy, augmenting clinicians with the model also significantly improved interrater reliability from 0.799 to 0.859. This implies that augmenting clinicians with varying levels of experience and specialties with models could lead to more accurate and more consistent radiological interpretations.</p>
+              <p>Currently, tools to improve clinician aneurysm detection on CTA include bone subtraction,<sup><xref rid="zoi190228r29" ref-type="bibr">29</xref></sup> as well as 3-D rendering of intracranial vasculature,<sup><xref rid="zoi190228r30" ref-type="bibr">30</xref>,<xref rid="zoi190228r31" ref-type="bibr">31</xref>,<xref rid="zoi190228r32" ref-type="bibr">32</xref></sup> which rely on application of contrast threshold settings to better delineate cerebral vasculature and create a 3-D–rendered reconstruction to assist aneurysm detection. However, using these tools is labor- and time-intensive for clinicians; in some institutions, this process is outsourced to a 3-D lab at additional costs. The tool developed in this study, integrated directly in a standard DICOM viewer, produces a segmentation map on a new examination in only a few seconds. If integrated into the standard workflow, this diagnostic tool could substantially decrease both cost and time to diagnosis, potentially leading to more efficient treatment and more favorable patient outcomes.</p>
+              <p>Deep learning has recently shown success in various clinical image-based recognition tasks. In particular, studies have shown strong performance of 2-D CNNs in detecting intracranial hemorrhage and other acute brain findings, such as mass effect or skull fractures, on CT head examinations.<sup><xref rid="zoi190228r33" ref-type="bibr">33</xref>,<xref rid="zoi190228r34" ref-type="bibr">34</xref>,<xref rid="zoi190228r35" ref-type="bibr">35</xref>,<xref rid="zoi190228r36" ref-type="bibr">36</xref></sup> Recently, one study<sup><xref rid="zoi190228r10" ref-type="bibr">10</xref></sup> examined the potential role for deep learning in magnetic resonance angiogram–based detection of cerebral aneurysms, and another study<sup><xref rid="zoi190228r37" ref-type="bibr">37</xref></sup> showed that providing deep learning model predictions to clinicians when interpreting knee magnetic resonance studies increased specificity in detecting anterior cruciate ligament tears. To our knowledge, prior to this study, deep learning had not been applied to CTA, which is the first-line imaging modality for detecting cerebral aneurysms. Our results demonstrate that deep learning segmentation models may produce dependable and interpretable predictions that augment clinicians and improve their diagnostic performance. The model implemented and tested in this study significantly increased sensitivity, accuracy, and interrater reliability of clinicians with varied experience and specialties in detecting cerebral aneurysms using CTA.</p>
+              <sec id="H2-7-ZOI190228">
+                <title>Limitations</title>
+                <p>This study has limitations. First, because the study focused only on nonruptured aneurysms, model performance on aneurysm detection after aneurysm rupture, lesion recurrence after coil or surgical clipping, or aneurysms associated with arteriovenous malformations has not been investigated. Second, since examinations containing surgical hardware or devices were excluded, model performance in their presence is unknown. In a clinical environment, CTA is typically used to evaluate for many types of vascular diseases, not just for aneurysm detection. Therefore, the high prevalence of aneurysm in the test set and the clinician’s binary task could have introduced bias in interpretation. Also, this study was performed on data from a single tertiary care academic institution and may not reflect performance when applied to data from other institutions with different scanners and imaging protocols, such as different slice thicknesses.</p>
+              </sec>
+            </sec>
+            <sec id="H1-5-ZOI190228">
+              <title>Conclusions</title>
+              <p>A deep learning model was developed to automatically detect clinically significant intracranial aneurysms on CTA. We found that the augmentation significantly improved clinicians’ sensitivity, accuracy, and interrater reliability. Future work should investigate the performance of this model prospectively and in application of data from other institutions and hospitals.</p>
+            </sec>
+          </body>
+          <back>
+            <ref-list id="REF-ZOI190228">
+              <title>References</title>
+              <ref id="zoi190228r1">
+                <label>1</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Jaja</surname><given-names>BN</given-names></name>, <name name-style="western"><surname>Cusimano</surname><given-names>MD</given-names></name>, <name name-style="western"><surname>Etminan</surname><given-names>N</given-names></name>, <etal/></person-group><article-title>Clinical prediction models for aneurysmal subarachnoid hemorrhage: a systematic review</article-title>. <source>Neurocrit Care</source>. <year>2013</year>;<volume>18</volume>(<issue>1</issue>):-. doi:<pub-id pub-id-type="doi">10.1007/s12028-012-9792-z</pub-id><?supplied-pmid 23138544?><pub-id pub-id-type="pmid">23138544</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190228r2">
+                <label>2</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Turan</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Heider</surname><given-names>RA</given-names></name>, <name name-style="western"><surname>Roy</surname><given-names>AK</given-names></name>, <etal/></person-group><article-title>Current perspectives in imaging modalities for the assessment of unruptured intracranial aneurysms: a comparative analysis and review</article-title>. <source>World Neurosurg</source>. <year>2018</year>;<volume>113</volume>:<fpage>280</fpage>-<lpage>292</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.wneu.2018.01.054</pub-id><?supplied-pmid 29360591?><pub-id pub-id-type="pmid">29360591</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190228r3">
+                <label>3</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Yoon</surname><given-names>NK</given-names></name>, <name name-style="western"><surname>McNally</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Taussky</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Park</surname><given-names>MS</given-names></name></person-group><article-title>Imaging of cerebral aneurysms: a clinical perspective</article-title>. <source>Neurovasc Imaging</source>. <year>2016</year>;<volume>2</volume>(<issue>1</issue>):<fpage>6</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s40809-016-0016-3</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190228r4">
+                <label>4</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Jayaraman</surname><given-names>MV</given-names></name>, <name name-style="western"><surname>Mayo-Smith</surname><given-names>WW</given-names></name>, <name name-style="western"><surname>Tung</surname><given-names>GA</given-names></name>, <etal/></person-group><article-title>Detection of intracranial aneurysms: multi-detector row CT angiography compared with DSA</article-title>. <source>Radiology</source>. <year>2004</year>;<volume>230</volume>(<issue>2</issue>):<fpage>510</fpage>-<lpage>518</lpage>. doi:<pub-id pub-id-type="doi">10.1148/radiol.2302021465</pub-id><?supplied-pmid 14699177?><pub-id pub-id-type="pmid">14699177</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190228r5">
+                <label>5</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Bharatha</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Yeung</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Durant</surname><given-names>D</given-names></name>, <etal/></person-group><article-title>Comparison of computed tomography angiography with digital subtraction angiography in the assessment of clipped intracranial aneurysms</article-title>. <source>J Comput Assist Tomogr</source>. <year>2010</year>;<volume>34</volume>(<issue>3</issue>):<fpage>440</fpage>-<lpage>445</lpage>. doi:<pub-id pub-id-type="doi">10.1097/RCT.0b013e3181d27393</pub-id><?supplied-pmid 20498551?><pub-id pub-id-type="pmid">20498551</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190228r6">
+                <label>6</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Lubicz</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Levivier</surname><given-names>M</given-names></name>, <name name-style="western"><surname>François</surname><given-names>O</given-names></name>, <etal/></person-group><article-title>Sixty-four-row multisection CT angiography for detection and evaluation of ruptured intracranial aneurysms: interobserver and intertechnique reproducibility</article-title>. <source>AJNR Am J Neuroradiol</source>. <year>2007</year>;<volume>28</volume>(<issue>10</issue>):<fpage>1949</fpage>-<lpage>1955</lpage>. doi:<pub-id pub-id-type="doi">10.3174/ajnr.A0699</pub-id><?supplied-pmid 17898200?><pub-id pub-id-type="pmid">17898200</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190228r7">
+                <label>7</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>White</surname><given-names>PM</given-names></name>, <name name-style="western"><surname>Teasdale</surname><given-names>EM</given-names></name>, <name name-style="western"><surname>Wardlaw</surname><given-names>JM</given-names></name>, <name name-style="western"><surname>Easton</surname><given-names>V</given-names></name></person-group><article-title>Intracranial aneurysms: CT angiography and MR angiography for detection prospective blinded comparison in a large patient cohort</article-title>. <source>Radiology</source>. <year>2001</year>;<volume>219</volume>(<issue>3</issue>):<fpage>739</fpage>-<lpage>749</lpage>. doi:<pub-id pub-id-type="doi">10.1148/radiology.219.3.r01ma16739</pub-id><?supplied-pmid 11376263?><pub-id pub-id-type="pmid">11376263</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190228r8">
+                <label>8</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Suzuki</surname><given-names>K</given-names></name></person-group><article-title>Overview of deep learning in medical imaging</article-title>. <source>Radiol Phys Technol</source>. <year>2017</year>;<volume>10</volume>(<issue>3</issue>):<fpage>257</fpage>-<lpage>273</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s12194-017-0406-5</pub-id><?supplied-pmid 28689314?><pub-id pub-id-type="pmid">28689314</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190228r9">
+                <label>9</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Rajpurkar</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Irvin</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Ball</surname><given-names>RL</given-names></name>, <etal/></person-group><article-title>Deep learning for chest radiograph diagnosis: a retrospective comparison of the CheXNeXt algorithm to practicing radiologists</article-title>. <source>PLoS Med</source>. <year>2018</year>;<volume>15</volume>(<issue>11</issue>):<fpage>e1002686</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pmed.1002686</pub-id><?supplied-pmid 30457988?><pub-id pub-id-type="pmid">30457988</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190228r10">
+                <label>10</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Bien</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Rajpurkar</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Ball</surname><given-names>RL</given-names></name>, <etal/></person-group><article-title>Deep-learning-assisted diagnosis for knee magnetic resonance imaging: development and retrospective validation of MRNet</article-title>. <source>PLoS Med</source>. <year>2018</year>;<volume>15</volume>(<issue>11</issue>):<fpage>e1002699</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pmed.1002699</pub-id><?supplied-pmid 30481176?><pub-id pub-id-type="pmid">30481176</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190228r11">
+                <label>11</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Morita</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Kirino</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Hashi</surname><given-names>K</given-names></name>, <etal/>; <collab>UCAS Japan Investigators</collab></person-group><article-title>The natural course of unruptured cerebral aneurysms in a Japanese cohort</article-title>. <source>N Engl J Med</source>. <year>2012</year>;<volume>366</volume>(<issue>26</issue>):<fpage>2474</fpage>-<lpage>2482</lpage>. doi:<pub-id pub-id-type="doi">10.1056/NEJMoa1113260</pub-id><?supplied-pmid 22738097?><pub-id pub-id-type="pmid">22738097</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190228r12">
+                <label>12</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Yushkevich</surname><given-names>PA</given-names></name>, <name name-style="western"><surname>Piven</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Hazlett</surname><given-names>HC</given-names></name>, <etal/></person-group><article-title>User-guided 3D active contour segmentation of anatomical structures: significantly improved efficiency and reliability</article-title>. <source>Neuroimage</source>. <year>2006</year>;<volume>31</volume>(<issue>3</issue>):<fpage>1116</fpage>-<lpage>1128</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuroimage.2006.01.015</pub-id><?supplied-pmid 16545965?><pub-id pub-id-type="pmid">16545965</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190228r13">
+                <label>13</label>
+                <mixed-citation publication-type="confproc"><person-group><name name-style="western"><surname>He</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Zhang</surname><given-names>X</given-names></name>, <name name-style="western"><surname>Ren</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Sun</surname><given-names>J</given-names></name></person-group> Deep residual learning for image recognition. Paper presented at: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition; June 27, <year>2016</year>; Las Vegas, NV.</mixed-citation>
+              </ref>
+              <ref id="zoi190228r14">
+                <label>14</label>
+                <mixed-citation publication-type="confproc"><person-group><name name-style="western"><surname>Xie</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Girshick</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Dollár</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Tu</surname><given-names>Z</given-names></name>, <name name-style="western"><surname>He</surname><given-names>K</given-names></name></person-group> Aggregated residual transformations for deep neural networks. Paper presented at: 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR); July 25, 2017; Honolulu, HI.</mixed-citation>
+              </ref>
+              <ref id="zoi190228r15">
+                <label>15</label>
+                <mixed-citation publication-type="web"><person-group><name name-style="western"><surname>Hu</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Shen</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Sun</surname><given-names>G</given-names></name></person-group> Squeeze-and-excitation networks. Paper presented at: 2018 IEEE Conference on Computer Vision and Pattern Recognition (CVPR); June 21, 2018; Salt Lake City, Utah.</mixed-citation>
+              </ref>
+              <ref id="zoi190228r16">
+                <label>16</label>
+                <mixed-citation publication-type="confproc"><person-group><name name-style="western"><surname>Ronneberger</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Fischer</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Brox</surname><given-names>T</given-names></name></person-group> U-net: Convolutional networks for biomedical image segmentation. <italic>International Conference on Medical Image Computing and Computer-Assisted Intervention</italic> Basel, Switzerland: Springer International; <year>2015</year>:234–241.</mixed-citation>
+              </ref>
+              <ref id="zoi190228r17">
+                <label>17</label>
+                <mixed-citation publication-type="confproc"><person-group><name name-style="western"><surname>Carreira</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Zisserman</surname><given-names>A</given-names></name></person-group> Quo vadis, action recognition? a new model and the kinetics dataset. Paper presented at: <year>2017</year> IEEE Conference on Computer Vision and Pattern Recognition (CVPR); July 25, 2017; Honolulu, HI.</mixed-citation>
+              </ref>
+              <ref id="zoi190228r18">
+                <label>18</label>
+                <mixed-citation publication-type="web"><person-group><name name-style="western"><surname>Chen</surname><given-names>L-C</given-names></name>, <name name-style="western"><surname>Papandreou</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Schroff</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Adam</surname><given-names>H</given-names></name></person-group> Rethinking atrous convolution for semantic image segmentation. <ext-link ext-link-type="uri" xlink:href="https://arxiv.org/abs/1706.05587">https://arxiv.org/abs/1706.05587</ext-link>. Published June 17, <year>2017</year>. Accessed May 7, 2019.</mixed-citation>
+              </ref>
+              <ref id="zoi190228r19">
+                <label>19</label>
+                <mixed-citation publication-type="confproc"><person-group><name name-style="western"><surname>Milletari</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Navab</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Ahmadi</surname><given-names>S-A</given-names></name></person-group> V-net: Fully convolutional neural networks for volumetric medical image segmentation. Paper presented at: 2016 IEEE Fourth International Conference on 3D Vision (3DV); October 26-28, 2016; Stanford, CA.</mixed-citation>
+              </ref>
+              <ref id="zoi190228r20">
+                <label>20</label>
+                <mixed-citation publication-type="web"><person-group><name name-style="western"><surname>Loshchilov</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Hutter</surname><given-names>F</given-names></name></person-group> Sgdr: Stochastic gradient descent with warm restarts. Paper presented at: 2017 Fifth International Conference on Learning Representations; April 24-26, 2017; Toulon, France.</mixed-citation>
+              </ref>
+              <ref id="zoi190228r21">
+                <label>21</label>
+                <mixed-citation publication-type="confproc"><person-group><name name-style="western"><surname>Huang</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Sun</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Liu</surname><given-names>Z</given-names></name>, <name name-style="western"><surname>Sedra</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Weinberger</surname><given-names>KQ</given-names></name></person-group> Deep networks with stochastic depth. <italic>European Conference on Computer Vision</italic> Basel, Switzerland: Springer International; <year>2016</year>:646–661.</mixed-citation>
+              </ref>
+              <ref id="zoi190228r22">
+                <label>22</label>
+                <mixed-citation publication-type="web">Horos. <ext-link ext-link-type="uri" xlink:href="https://horosproject.org">https://horosproject.org</ext-link>. Accessed May 1, 2019.</mixed-citation>
+              </ref>
+              <ref id="zoi190228r23">
+                <label>23</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Wilson</surname><given-names>EB</given-names></name></person-group><article-title>Probable inference, the law of succession, and statistical inference</article-title>. <source>J Am Stat Assoc</source>. <year>1927</year>;<volume>22</volume>(<issue>158</issue>):<fpage>209</fpage>-<lpage>212</lpage>. doi:<pub-id pub-id-type="doi">10.1080/01621459.1927.10502953</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190228r24">
+                <label>24</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Fleiss</surname><given-names>JL</given-names></name>, <name name-style="western"><surname>Cohen</surname><given-names>J</given-names></name></person-group><article-title>The equivalence of weighted kappa and the intraclass correlation coefficient as measures of reliability</article-title>. <source>Educ Psychol Meas</source>. <year>1973</year>;<volume>33</volume>(<issue>3</issue>):<fpage>613</fpage>-<lpage>619</lpage>. doi:<pub-id pub-id-type="doi">10.1177/001316447303300309</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190228r25">
+                <label>25</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Benjamini</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Hochberg</surname><given-names>Y</given-names></name></person-group><article-title>Controlling the false discovery rate: a practical and powerful approach to multiple testing</article-title>. <source>J R Stat Soc Series B Stat Methodol</source>. <year>1995</year>;<volume>57</volume>(<issue>1</issue>):<fpage>289</fpage>-<lpage>300</lpage>.</mixed-citation>
+              </ref>
+              <ref id="zoi190228r26">
+                <label>26</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Maldaner</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Stienen</surname><given-names>MN</given-names></name>, <name name-style="western"><surname>Bijlenga</surname><given-names>P</given-names></name>, <etal/></person-group><article-title>Interrater agreement in the radiologic characterization of ruptured intracranial aneurysms based on computed tomography angiography</article-title>. <source>World Neurosurg</source>. <year>2017</year>;<volume>103</volume>:<fpage>876</fpage>-<lpage>882.e1</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.wneu.2017.04.131</pub-id><?supplied-pmid 28461281?><pub-id pub-id-type="pmid">28461281</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190228r27">
+                <label>27</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Wang</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Gao</surname><given-names>X</given-names></name>, <name name-style="western"><surname>Lu</surname><given-names>A</given-names></name>, <etal/></person-group><article-title>Residual aneurysm after metal coils treatment detected by spectral CT</article-title>. <source>Quant Imaging Med Surg</source>. <year>2012</year>;<volume>2</volume>(<issue>2</issue>):<fpage>137</fpage>-<lpage>138</lpage>.<?supplied-pmid 23256074?><pub-id pub-id-type="pmid">23256074</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190228r28">
+                <label>28</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Yoon</surname><given-names>YW</given-names></name>, <name name-style="western"><surname>Park</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Lee</surname><given-names>SH</given-names></name>, <etal/></person-group><article-title>Post-traumatic myocardial infarction complicated with left ventricular aneurysm and pericardial effusion</article-title>. <source>J Trauma</source>. <year>2007</year>;<volume>63</volume>(<issue>3</issue>):<fpage>E73</fpage>-<lpage>E75</lpage>. doi:<pub-id pub-id-type="doi">10.1097/01.ta.0000246896.89156.70</pub-id><?supplied-pmid 18073589?><pub-id pub-id-type="pmid">18073589</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190228r29">
+                <label>29</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Tomandl</surname><given-names>BF</given-names></name>, <name name-style="western"><surname>Hammen</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Klotz</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Ditt</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Stemper</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Lell</surname><given-names>M</given-names></name></person-group><article-title>Bone-subtraction CT angiography for the evaluation of intracranial aneurysms</article-title>. <source>AJNR Am J Neuroradiol</source>. <year>2006</year>;<volume>27</volume>(<issue>1</issue>):<fpage>55</fpage>-<lpage>59</lpage>.<?supplied-pmid 16418356?><pub-id pub-id-type="pmid">16418356</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190228r30">
+                <label>30</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Shi</surname><given-names>W-Y</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>Y-D</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>M-H</given-names></name>, <etal/></person-group><article-title>3D rotational angiography with volume rendering: the utility in the detection of intracranial aneurysms</article-title>. <source>Neurol India</source>. <year>2010</year>;<volume>58</volume>(<issue>6</issue>):<fpage>908</fpage>-<lpage>913</lpage>. doi:<pub-id pub-id-type="doi">10.4103/0028-3886.73743</pub-id><?supplied-pmid 21150058?><pub-id pub-id-type="pmid">21150058</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190228r31">
+                <label>31</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Lin</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Ho</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Gross</surname><given-names>BA</given-names></name>, <etal/></person-group><article-title>Differences in simple morphological variables in ruptured and unruptured middle cerebral artery aneurysms</article-title>. <source>J Neurosurg</source>. <year>2012</year>;<volume>117</volume>(<issue>5</issue>):<fpage>913</fpage>-<lpage>919</lpage>. doi:<pub-id pub-id-type="doi">10.3171/2012.7.JNS111766</pub-id><?supplied-pmid 22957531?><pub-id pub-id-type="pmid">22957531</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190228r32">
+                <label>32</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Villablanca</surname><given-names>JP</given-names></name>, <name name-style="western"><surname>Jahan</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Hooshi</surname><given-names>P</given-names></name>, <etal/></person-group><article-title>Detection and characterization of very small cerebral aneurysms by using 2D and 3D helical CT angiography</article-title>. <source>AJNR Am J Neuroradiol</source>. <year>2002</year>;<volume>23</volume>(<issue>7</issue>):<fpage>1187</fpage>-<lpage>1198</lpage>.<?supplied-pmid 12169479?><pub-id pub-id-type="pmid">12169479</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190228r33">
+                <label>33</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Chang</surname><given-names>PD</given-names></name>, <name name-style="western"><surname>Kuoy</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Grinband</surname><given-names>J</given-names></name>, <etal/></person-group><article-title>Hybrid 3D/2D convolutional neural network for hemorrhage evaluation on head CT</article-title>. <source>AJNR Am J Neuroradiol</source>. <year>2018</year>;<volume>39</volume>(<issue>9</issue>):<fpage>1609</fpage>-<lpage>1616</lpage>. doi:<pub-id pub-id-type="doi">10.3174/ajnr.A5742</pub-id><?supplied-pmid 30049723?><pub-id pub-id-type="pmid">30049723</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190228r34">
+                <label>34</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Chilamkurthy</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Ghosh</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Tanamala</surname><given-names>S</given-names></name>, <etal/></person-group><article-title>Deep learning algorithms for detection of critical findings in head CT scans: a retrospective study</article-title>. <source>Lancet</source>. <year>2018</year>;<volume>392</volume>(<issue>10162</issue>):<fpage>2388</fpage>-<lpage>2396</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S0140-6736(18)31645-3</pub-id><?supplied-pmid 30318264?><pub-id pub-id-type="pmid">30318264</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190228r35">
+                <label>35</label>
+                <mixed-citation publication-type="confproc"><person-group><name name-style="western"><surname>Jnawali</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Arbabshirani</surname><given-names>MR</given-names></name>, <name name-style="western"><surname>Rao</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Patel</surname><given-names>AA</given-names></name></person-group> Deep 3D convolution neural network for CT brain hemorrhage classification. Paper presented at: Medical Imaging 2018: Computer-Aided Diagnosis. February 27, <year>2018</year>; Houston, TX. doi:<pub-id pub-id-type="doi">10.1117/12.2293725</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190228r36">
+                <label>36</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Titano</surname><given-names>JJ</given-names></name>, <name name-style="western"><surname>Badgeley</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Schefflein</surname><given-names>J</given-names></name>, <etal/></person-group><article-title>Automated deep-neural-network surveillance of cranial images for acute neurologic events</article-title>. <source>Nat Med</source>. <year>2018</year>;<volume>24</volume>(<issue>9</issue>):<fpage>1337</fpage>-<lpage>1341</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41591-018-0147-y</pub-id><?supplied-pmid 30104767?><pub-id pub-id-type="pmid">30104767</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190228r37">
+                <label>37</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Ueda</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Yamamoto</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Nishimori</surname><given-names>M</given-names></name>, <etal/></person-group><article-title>Deep learning for MR angiography: automated detection of cerebral aneurysms</article-title>. <source>Radiology</source>. <year>2019</year>;<volume>290</volume>(<issue>1</issue>):<fpage>187</fpage>-<lpage>194</lpage>.<?supplied-pmid 30351253?><pub-id pub-id-type="pmid">30351253</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+            <notes notes-type="supplementary-material" id="note-ZOI190228-1">
+              <supplementary-material content-type="local-data" id="note-ZOI190228-1-s">
+                <label>Supplement.</label>
+                <caption>
+                  <p><bold>eFigure 1.</bold> Diagram of Model Architecture</p>
+                  <p><bold>eFigure 2.</bold> Individual Changes in Time Spent per Case</p>
+                  <p><bold>eTable 1.</bold> Comparison of Individual Unaugmented and Augmented Clinicians in Aneurysm Detection on the Test Set</p>
+                  <p><bold>eTable 2.</bold> Mean Increase in Board-Certified Radiologists’ Metrics as a Group</p>
+                  <p><bold>eTable 3.</bold> Comparison of Individual Unaugmented and Augmented Clinicians in Time Spent on Aneurysm Detection on the Test Set</p>
+                  <p><bold>eTable 4.</bold> Comparison of Confusion Matrices of Individual Unaugmented and Augmented Clinicians on Aneurysm Detection on the Test Set</p>
+                </caption>
+                <media xlink:href="jamanetwopen-2-e195600-s001.pdf">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </notes>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

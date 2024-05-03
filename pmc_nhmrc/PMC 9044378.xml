@@ -1,0 +1,2037 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T09:08:02Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:9044378" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:9044378</identifier>
+        <datestamp>2022-04-27</datestamp>
+        <setSpec>trials</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article" dtd-version="1.3">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Trials</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Trials</journal-id>
+              <journal-title-group>
+                <journal-title>Trials</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1745-6215</issn>
+              <publisher>
+                <publisher-name>BioMed Central</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC9044378</article-id>
+              <article-id pub-id-type="pmcid">PMC9044378</article-id>
+              <article-id pub-id-type="pmc-uid">9044378</article-id>
+              <article-id pub-id-type="pmid">35477480</article-id>
+              <article-id pub-id-type="publisher-id">6167</article-id>
+              <article-id pub-id-type="doi">10.1186/s13063-022-06167-2</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Study Protocol</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Controlled evaLuation of Angiotensin Receptor Blockers for COVID-19 respIraTorY disease (CLARITY): statistical analysis plan for a randomised controlled Bayesian adaptive sample size trial</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>McGree</surname>
+                    <given-names>J. M.</given-names>
+                  </name>
+                  <address>
+                    <email>james.mcgree@qut.edu.au</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Hockham</surname>
+                    <given-names>C.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kotwal</surname>
+                    <given-names>S.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4128-1796</contrib-id>
+                  <name>
+                    <surname>Wilcox</surname>
+                    <given-names>A.</given-names>
+                  </name>
+                  <address>
+                    <email>arlen.wilcox@sydney.edu.au</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Bassi</surname>
+                    <given-names>A.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Pollock</surname>
+                    <given-names>C.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff7">7</xref>
+                  <xref ref-type="aff" rid="Aff8">8</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Burrell</surname>
+                    <given-names>L. M.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff9">9</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Snelling</surname>
+                    <given-names>T.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff10">10</xref>
+                  <xref ref-type="aff" rid="Aff11">11</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Jha</surname>
+                    <given-names>V.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Jardine</surname>
+                    <given-names>M.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                  <xref ref-type="aff" rid="Aff12">12</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Jones</surname>
+                    <given-names>M.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff10">10</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <collab>for the CLARITY Trial Steering Committee</collab>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.1024.7</institution-id><institution-id institution-id-type="ISNI">0000000089150953</institution-id><institution>School of Mathematical Sciences, Queensland University of Technology, </institution></institution-wrap>Brisbane, Australia </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.415508.d</institution-id><institution-id institution-id-type="ISNI">0000 0001 1964 6010</institution-id><institution>The George Institute for Global Health, University of New South Wales, </institution></institution-wrap>Sydney, Australia </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.7445.2</institution-id><institution-id institution-id-type="ISNI">0000 0001 2113 8111</institution-id><institution>The George Institute for Global Health, Imperial College London, </institution></institution-wrap>London, UK </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.415193.b</institution-id><institution>Prince of Wales Hospital, </institution></institution-wrap>Sydney, Australia </aff>
+                <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.1013.3</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 834X</institution-id><institution>NHMRC Clinical Trials Centre, The University of Sydney, </institution></institution-wrap>Sydney, Australia </aff>
+                <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="GRID">grid.464831.c</institution-id><institution-id institution-id-type="ISNI">0000 0004 8496 8261</institution-id><institution>The George Institute for Global Health, </institution></institution-wrap>New Delhi, India </aff>
+                <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="GRID">grid.412703.3</institution-id><institution-id institution-id-type="ISNI">0000 0004 0587 9093</institution-id><institution>Royal North Shore Hospital, </institution></institution-wrap>Sydney, Australia </aff>
+                <aff id="Aff8"><label>8</label><institution-wrap><institution-id institution-id-type="GRID">grid.1013.3</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 834X</institution-id><institution>Kolling Institute of Medical Research, The University of Sydney, </institution></institution-wrap>Sydney, Australia </aff>
+                <aff id="Aff9"><label>9</label><institution-wrap><institution-id institution-id-type="GRID">grid.1008.9</institution-id><institution-id institution-id-type="ISNI">0000 0001 2179 088X</institution-id><institution>Department of Medicine, </institution><institution>The University of Melbourne, Austin Health, </institution></institution-wrap>Heidelberg, Victoria Australia </aff>
+                <aff id="Aff10"><label>10</label><institution-wrap><institution-id institution-id-type="GRID">grid.1013.3</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 834X</institution-id><institution>Sydney School of Public Health, The University of Sydney, </institution></institution-wrap>Sydney, Australia </aff>
+                <aff id="Aff11"><label>11</label><institution-wrap><institution-id institution-id-type="GRID">grid.430417.5</institution-id><institution-id institution-id-type="ISNI">0000 0004 0640 6474</institution-id><institution>The Sydney Children’s Hospitals Network, </institution></institution-wrap>Westmead, Australia </aff>
+                <aff id="Aff12"><label>12</label><institution-wrap><institution-id institution-id-type="GRID">grid.414685.a</institution-id><institution-id institution-id-type="ISNI">0000 0004 0392 3935</institution-id><institution>Concord Repatriation General Hospital, </institution></institution-wrap>Sydney, Australia </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>27</day>
+                <month>4</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>27</day>
+                <month>4</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2022</year>
+              </pub-date>
+              <volume>23</volume>
+              <elocation-id>361</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>19</day>
+                  <month>10</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>10</day>
+                  <month>3</month>
+                  <year>2022</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2022</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>. The Creative Commons Public Domain Dedication waiver (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link>) applies to the data made available in this article, unless otherwise stated in a credit line to the data.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par1">The CLARITY trial (Controlled evaLuation of Angiotensin Receptor Blockers for COVID-19 respIraTorY disease) is a two-arm, multi-centre, randomised controlled trial being run in India and Australia that investigates the effectiveness of angiotensin receptor blockers in addition to standard care compared to placebo (in Indian sites) with standard care in reducing the duration and severity of lung failure in patients with COVID-19. The trial was designed as a Bayesian adaptive sample size trial with regular planned analyses where pre-specified decision rules will be assessed to determine whether the trial should be stopped due to sufficient evidence of treatment effectiveness or futility. Here, we describe the statistical analysis plan for the trial and define the pre-specified decision rules, including those that could lead to the trial being halted. The primary outcome is clinical status on a 7-point ordinal scale adapted from the WHO Clinical Progression scale assessed at day 14. The primary analysis will follow the intention-to-treat principle. A Bayesian adaptive trial design was selected because there is considerable uncertainty about the extent of potential benefit of this treatment.</p>
+                <p>
+                  <bold>Trial registration</bold>
+                </p>
+                <p id="Par2">ClinicalTrials.gov <ext-link ext-link-type="uri" xlink:href="https://clinicaltrials.gov/ct2/show/NCT04394117">NCT04394117</ext-link>. Registered on 19 May 2020Clinical Trial Registry of India CTRI/2020/07/026831</p>
+                <p>
+                  <bold>Version and revisions</bold>
+                </p>
+                <p id="Par3">Version 1.0. No revisions.</p>
+              </abstract>
+              <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>Adaptive sample size</kwd>
+                <kwd>Angiotensin receptor blockers</kwd>
+                <kwd>Bayesian design</kwd>
+                <kwd>Clinical trial</kwd>
+                <kwd>Coronavirus</kwd>
+                <kwd>Protocol</kwd>
+                <kwd>Statistical analysis plan</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100000925</institution-id>
+                      <institution>National Health and Medical Research Council</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>APP2002277</award-id>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2022</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1" sec-type="introduction">
+              <title>Introduction</title>
+              <p>The virus responsible for COVID-19, SARS-CoV-2, binds to angiotensin-converting enzyme 2 (ACE2) [<xref ref-type="bibr" rid="CR1">1</xref>, <xref ref-type="bibr" rid="CR2">2</xref>]. ACE2 is a key regulator of the renin-angiotensin system (RAS), responsible for degrading angiotensin II and thus preventing the downstream effects of the angiotensin II type 1 receptor (AT1R). Binding of SARS-CoV-2 to ACE2 may result in the downregulation of the host receptor, causing the RAS to shift towards a pro-inflammatory, pro-fibrotic state [<xref ref-type="bibr" rid="CR3">3</xref>, <xref ref-type="bibr" rid="CR4">4</xref>]. AT1R has been shown to facilitate ACE2 receptor-mediated endocytosis in the non-COVID-19 setting [<xref ref-type="bibr" rid="CR5">5</xref>] and so may also play a more direct role in COVID-19 pathophysiology. Angiotensin receptor blockers (ARBs) are widely available medications originally developed as blood pressure-lowering agents that reduce the risk of cardiac events and the progression of kidney disease. By inhibiting the binding of angiotensin II to AT1R, it is hypothesised that ARBs may reduce the inflammatory effects of SARS-CoV-2 infection, thereby reducing the risk of severe COVID-19. ARBs have been in clinical use for over 30 years and are extensively used in the treatment of chronic conditions involving a dysregulated RAS, so could provide a safe and readily available adjunct to current treatments of COVID-19. Furthermore, ARBs are known to protect against lung injury in animal studies, including injury from viruses like the SARS-CoV-1 virus [<xref ref-type="bibr" rid="CR6">6</xref>]. Whether similar protection is observed in humans is unknown.</p>
+              <p>The CLARITY trial is a two-arm, multi-centre, comparative effectiveness phase III randomised controlled Bayesian adaptive trial, conducted in India and Australia. It is designed to evaluate whether ARBs reduce the severity of COVID-19 among high-risk patients. The investigational arm of the study is ARB delivered with standard of care. In India, the control arm is placebo plus standard care and participants are blinded. In Australia, the control arm is standard care and neither participants nor clinicians are blinded.</p>
+              <p>At the time of writing, participants are being recruited at clinical sites in India and Australia and the first planned analysis is imminent. In both countries, participants are recruited from sites providing inpatient care. In addition, in Australia, participants are recruited from sites that are managing community-based patients in monitored settings.</p>
+              <p>The trial design addresses the safety and feasibility challenges of running a clinical trial during a pandemic. To address a priori uncertainty about the extent of potential benefit, an adaptive sample size design has been selected that allows the trial to continue until pre-specified levels of evidence of effectiveness or futility are met. The approach reduces the risk of an indeterminate outcome and ensures the trial does not continue recruiting participants beyond the point where conclusive evidence of benefit is found. This means that results can be expeditiously reported and adopted into clinical practice. Such an approach is particularly appealing during a pandemic. In light of the well-established profile of ARBs, infection control risks and the potential demands on health services, the burden on clinical staff is reduced through a number of measures including the collection of data largely limited to information contained in the health record. Trial-specific in-person encounters are also avoided and phone consent employed to reduce opportunities for infection transmission.</p>
+              <p>The CLARITY trial statistical analysis plan (SAP) was developed following the Guidelines for the Content of Statistical Analysis Plans in Clinical Trials [<xref ref-type="bibr" rid="CR7">7</xref>] and includes pre-specified decision rules for continuing or stopping the trial based on effectiveness or futility. None of the authors has been unblinded nor observed any data other than aggregated baseline characteristics. The final study report will follow the Consolidated Standards of Reporting Trials guidelines for reporting on randomised controlled adaptive trials [<xref ref-type="bibr" rid="CR8">8</xref>–<xref ref-type="bibr" rid="CR10">10</xref>]. The study protocol has been accepted for publication [<xref ref-type="bibr" rid="CR11">11</xref>].</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Study design</title>
+              <sec id="Sec3">
+                <title>Overview</title>
+                <p>CLARITY is a two-arm Bayesian adaptive randomised controlled trial with the sole adaptation relating to sample size. Frequent planned analyses will be performed to evaluate whether a treatment benefit exists up to a maximum sample size of 2200. Pre-specified decision rules are defined that allow the trial to be stopped at planned analyses if there is sufficient evidence of treatment effectiveness or futility.</p>
+                <p>The pre-defined decision rules for early stopping are: 
+<list list-type="order"><list-item><p>Stop for effectiveness — if the predictive probability of trial success at the current sample size exceeds a threshold of 0.95</p></list-item><list-item><p>Stop for futility — if the predictive probability of trial success at the maximum sample size is below a threshold of 0.02</p></list-item></list></p>
+                <p>The first planned analysis will be triggered 14 days after enrollment of the 700th trial participant and conducted as close to that as is practical given logistical constraints. If neither the effectiveness nor futility decision rule requirements are met, successive planned analyses will be conducted 14 days after every additional 300 participants are enrolled. However, if a trial decision rule is met and the decision subsequently recommended by the Data Safety Monitoring Board (DSMB), then all enrolled participants will be followed up to 28 days after enrollment and the final analyses will be undertaken and reported on primary and secondary outcomes.</p>
+              </sec>
+              <sec id="Sec4">
+                <title>Intervention</title>
+                <p>In India, the ARB used is telmisartan and is supplied as 40mg tablets. In Australia, supply chain interruptions prevented the sourcing of placebo for these hygroscopic medications at the commencement of the trial. The trial was therefore commenced open-label in Australia, with the intention of sourcing placebo as the trial progressed, an intention which was subsequently abandoned with the abatement of cases in Australia and subsequent low recruitment rates. Trial principal investigators in Australia are permitted to select an ARB from the local hospital formulary.</p>
+                <p>The ARB or placebo is taken according to the treating clinician prescription for 28 days. Guidance is provided on the initial dose, dose titration, and associated monitoring. Final decisions on ARB dosing and management are determined by treating clinicians in line with their familiarity with these medications. Participants are followed daily between day 0 and day 28, and at day 90, primarily through information recorded in the medical record supplemented by phone calls.</p>
+                <p>Standard care is at the discretion of the treating team, who are encouraged to manage participants according to local best practice throughout the course of the study. Agents used for treatment of COVID-19 are determined by local practice and will be recorded.</p>
+              </sec>
+              <sec id="Sec5">
+                <title>Randomisation</title>
+                <p>Participants are randomised (1:1) to the investigational arm (ARB plus standard care) or control. As already noted, in India, the control arm is placebo plus standard care, and, in Australia, the control arm is standard care. Participants are randomised within 10 days after a confirmed SARS-CoV-2 diagnosis. The randomisation procedure uses permuted blocks with sizes of 4 and 6 (with equal probability). This was generated in SAS for the whole trial by Dr Qiang Li, a senior biostatistician at The George Institute for Global Health. The randomisation was stratified by country, and in Australia by hospital and community-based settings. The randomisation list and seed are held in a Redcap database and on restricted access folders that are only accessible by Qiang Li and unblinded database administrators.</p>
+              </sec>
+              <sec id="Sec6">
+                <title>Trial population</title>
+                <p>A flow diagram of the trial and participant progression is presented in Fig. <xref rid="Fig1" ref-type="fig">1</xref>. Participants enrolled in the trial are those aged ≥18 years with a recent diagnosis of SARS-CoV-2 infection (&lt;10 days prior to randomisation). Additional eligibility criteria identify participants who are at high risk of severe disease, including requirement for hospital admission due to COVID-19 or, for those who are managed in the community and have at least one of the following risk factors: aged ≥60 years, body mass index ≥30kg/m<sup>2</sup>, diagnosis of diabetes (HbA1c ≥7% and/or use of glucose-lowering medication), history of cardiovascular disease <sup>∗</sup>, history of chronic respiratory disease <sup>∗</sup> or current treatment with immunosuppressive therapy (<sup>∗</sup>as defined by the treating clinician). Additional inclusion and exclusion criteria are defined in the trial protocol [<xref ref-type="bibr" rid="CR11">11</xref>].
+<fig id="Fig1"><label>Fig. 1</label><caption><p>Trial overview and participant schedule [<xref ref-type="bibr" rid="CR11">11</xref>]</p></caption><graphic xlink:href="13063_2022_6167_Fig1_HTML" id="MO1"/></fig></p>
+                <p>The number of participants who are screened and randomised (% of screened), who complete 28 days of the trial (% of randomised) and who complete follow-up (% of 28 days completed) will be reported. The number of participants who meet the eligibility criteria but are not enrolled and the reasons for non-enrollment will be reported, where available. For missing data, it will be reported if no data have been collected from a participant for &gt;7 consecutive days between day 0 and day 28, the number of withdrawals (% of randomised) and those lost to follow-up (% of randomised).</p>
+              </sec>
+              <sec id="Sec7">
+                <title>Primary analysis population</title>
+                <p>The primary analysis population will include all participants who were randomised and have passed the primary outcome of 14 days after randomisation with their primary outcome status either known or known to be missing. This analysis set will follow the intention-to-treat principle in that all randomised participants will be included and analysed according to the treatment to which they were initially allocated, irrespective of any deviations from this or any other protocol deviations. This analysis population will inform the primary estimand. Any missing data for the primary outcome will be reported. The occurrence of missingness will also be explored to identify any potential patterns. In the decision procedures, missing values will be handled via Bayesian imputation [<xref ref-type="bibr" rid="CR12">12</xref>, <xref ref-type="bibr" rid="CR13">13</xref>].</p>
+              </sec>
+              <sec id="Sec8">
+                <title>Primary, secondary and exploratory outcomes</title>
+                <p>The primary outcome for this trial is a 7-point ordinal scale of clinical health status (formed by adapting the WHO Clinical Progression score [<xref ref-type="bibr" rid="CR14">14</xref>]) assessed on day 14. Each level in the scale is scored as shown in Table <xref rid="Tab1" ref-type="table">1</xref>.
+<table-wrap id="Tab1"><label>Table 1</label><caption><p>Seven-point ordinal scale of clinical health status [<xref ref-type="bibr" rid="CR14">14</xref>]</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Score</th><th align="left">Status</th><th align="left">% day 14</th><th align="left">% day 28</th></tr></thead><tbody><tr><td align="left">1</td><td align="left">Not hospitalised, no limitations on activities</td><td align="left">0</td><td align="left">2.3</td></tr><tr><td align="left">2</td><td align="left">Not hospitalised, some limitation on activities</td><td align="left">31</td><td align="left">78</td></tr><tr><td align="left">3</td><td align="left">Hospitalised, not requiring supplemental oxygen</td><td align="left">34</td><td align="left">1.1</td></tr><tr><td align="left">4</td><td align="left">Hospitalised, requiring supplemental oxygen</td><td align="left">15.5</td><td align="left">2.8</td></tr><tr><td align="left">5</td><td align="left">Hospitalised, requiring non-invasive mechanical ventilation or high flow nasal cannula therapy</td><td align="left">4.8</td><td align="left">1.6</td></tr><tr><td align="left">6</td><td align="left">Hospitalised, requiring invasive mechanical ventilation ± additional organ support</td><td align="left">4.0</td><td align="left">1.6</td></tr><tr><td align="left">7</td><td align="left">Death</td><td align="left">10.7</td><td align="left">12.6</td></tr></tbody></table></table-wrap></p>
+                <p>Table <xref rid="Tab1" ref-type="table">1</xref> also shows the percentage of participants expected to be in each state at days 14 and 28 under standard care (empirical estimate, based on a small convenience sample of accessible study results available at the time of writing). The secondary and exploratory outcomes are listed in Table <xref rid="Tab2" ref-type="table">2</xref>.
+<table-wrap id="Tab2"><label>Table 2</label><caption><p>Secondary and exploratory outcomes for the CLARITY trial. <sup>∗</sup>AKI is defined as any documentation of the following: increase in serum creatinine by ≥0.3 mg/dl (≥26.5 <italic>μ</italic>mol/l) within 48 h; increase in serum creatinine to ≥1.5 times baseline, which is known or presumed to have occurred within the prior 7 days; or urine volume &lt;0.5 ml/kg/h for 6 h [<xref ref-type="bibr" rid="CR35">35</xref>]</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Outcome</th><th align="left">Additional information</th></tr></thead><tbody><tr><td align="left" colspan="2">Secondary</td></tr><tr><td align="left">7-point ordinal scale score</td><td align="justify">As at day 28</td></tr><tr><td align="left">All cause mortality</td><td align="justify">As at day 28</td></tr><tr><td align="left"/><td align="justify">As at day 90</td></tr><tr><td align="left">Admission to ICU</td><td align="justify">Time to admission between day 0 and 28</td></tr><tr><td align="left"/><td align="justify">Time to admission between day 0 and 90</td></tr><tr><td align="left"/><td align="justify">Number of ICU-free days between day 0 and 90</td></tr><tr><td align="left">Respiratory failure</td><td align="justify">Time to non-invasive or invasive mechanical ventilation between day 0 and 28</td></tr><tr><td align="left"/><td align="justify">Number of ventilator-free days between day 0 and 28</td></tr><tr><td align="left">Kidney failure</td><td align="justify">Time to requirement for dialysis between day 0 and 28</td></tr><tr><td align="left"/><td align="justify">Number of dialysis-free days between day 0 and 28</td></tr><tr><td align="left">Hospitalisation (length of stay)</td><td align="justify">Number of hospitalisation days between day 0 and 28</td></tr><tr><td align="left"/><td align="justify">Number of hospitalisation days between day 0 and 90</td></tr><tr><td align="left">Acute Kidney Injury (AKI) <sup>∗</sup></td><td align="justify">Time to AKI between day 0 and 28</td></tr><tr><td align="left">Hypotension requiring vasopressors</td><td align="justify">Time to hypotension requiring vasopressors between day 0 and 28</td></tr><tr><td align="left" colspan="2">Exploratory</td></tr><tr><td align="left">Hyperkalemia</td><td align="justify">Time to hyperkalemia between day 0 and 28 (any episode of serum potassium &gt;6.0mmol/L)</td></tr><tr><td align="left">Oxygen requirement</td><td align="justify">Oxygen support-free days between day 0 and 28</td></tr></tbody></table></table-wrap></p>
+                <p>ARBs have been extensively researched and used widely in standard practice for around 30 years, forming a significantly robust safety profile. The trial endpoints capture the commonly known safety events associated with ARBs. No additional safety reporting of adverse events or serious adverse events is required given the well-understood safety profile of these agents.</p>
+              </sec>
+              <sec id="Sec9">
+                <title>Data management</title>
+                <p>The Data Management Plan for CLARITY has been developed according to the standard operating procedures of the NHMRC Clinical Trials Centre at the University of Sydney, and the Trial Master File is held centrally by the Clinical Trials Centre. All such documentation are currently not publicly available.</p>
+              </sec>
+            </sec>
+            <sec id="Sec10">
+              <title>Statistical analysis framework</title>
+              <p>All outcomes will be analysed within a Bayesian framework based on joint posterior distributions. Sampling from the posterior distribution will use Markov chain Monte Carlo (MCMC) methods [<xref ref-type="bibr" rid="CR15">15</xref>–<xref ref-type="bibr" rid="CR17">17</xref>], and where necessary, model choice will be determined via an appropriate information criterion [<xref ref-type="bibr" rid="CR18">18</xref>]. Convergence of MCMC chains will be assessed via trace plots and the Gelman-Rubin diagnostic [<xref ref-type="bibr" rid="CR19">19</xref>], and goodness-of-fit will be assessed via posterior predictive checks. All computation will be performed within the R-package which will interface with STAN [<xref ref-type="bibr" rid="CR20">20</xref>] or equivalent should the need arise.</p>
+              <p>Across all analyses, weakly informative prior information calibrated by prior predictive checks will be used such that trial conclusions will be predominately data-driven. For all parameters of interest, posterior means will be reported along with 95% credible intervals and the posterior probability that the parameter is greater or less than 0.</p>
+              <sec id="Sec11">
+                <title>Descriptive summaries</title>
+                <sec id="Sec12">
+                  <title>Baseline characteristics</title>
+                  <p>Baseline characteristics will be summarised for each treatment arm and overall. Discrete variables will be summarised by frequencies and percentages. Percentages will be calculated according to the number of participants for whom data are available. Where values are missing, the denominator (which will be less than the number of participants assigned to the treatment group under consideration) will be stated. Continuous variables will be summarised by use of standard measures of central tendency and dispersion using mean and standard deviation and/or median and first and third quartiles. Free text entries for fields collecting both categorical and free text information (e.g. ethnicity) will be assessed and assigned to a category if appropriate. No testing will be performed for differences in baseline characteristics between treatment arms as per CONSORT principles.</p>
+                  <p>Table <xref rid="Tab3" ref-type="table">3</xref> shows the baseline characteristics that will be summarised.
+<table-wrap id="Tab3"><label>Table 3</label><caption><p>Baseline characteristics</p></caption><table frame="hsides" rules="groups"><tbody><tr><td align="left" colspan="2">Demographics</td></tr><tr><td align="left"/><td align="left">Sex</td></tr><tr><td align="left"/><td align="left">Age</td></tr><tr><td align="left"/><td align="left">Ethnicity</td></tr><tr><td align="left" colspan="2">Medical history</td></tr><tr><td align="left">COVID-19 history and management</td><td align="left">Intended for hospital or for community management</td></tr><tr><td align="left">Co-morbidities</td><td align="left">Chronic kidney disease</td></tr><tr><td align="left"/><td align="left">Hypertension</td></tr><tr><td align="left"/><td align="left">Diabetes</td></tr><tr><td align="left"/><td align="left">Cardiovascular disease (including heart failure, ischemic heart disease, acute myocardial infarction, congenital heart disease, stroke, peripheral vascular disease)</td></tr><tr><td align="left"/><td align="left">Cancer in last 5 years (not including basal cell carcinoma and squamous cell carcinoma)</td></tr><tr><td align="left"/><td align="left">Chronic respiratory illness</td></tr><tr><td align="left"/><td align="left">Severe liver disease (Child-Pugh-Turcotte score 10–15 or biliary obstruction)</td></tr><tr><td align="left"/><td align="left">Other relevant medical conditions</td></tr><tr><td align="left"/><td align="left">Pregnancy status (pregnant or breastfeeding)</td></tr><tr><td align="left">Medications</td><td align="left">Renin-angiotensin-aldosterone system (RAAS) inhibitor (including ACEi, ARB, aldosterone antagonist, angiotensin receptor-neprilysin inhibitor, Aliskiren)</td></tr><tr><td align="left"/><td align="left">Non-RAAS inhibitor blood pressure (BP)-lowering agent</td></tr><tr><td align="left"/><td align="left">Glucose-lowering medication</td></tr><tr><td align="left"/><td align="left">Steroids</td></tr><tr><td align="left"/><td align="left">Steroid inhalers/nasal spray</td></tr><tr><td align="left"/><td align="left">COVID-19-specific therapies</td></tr><tr><td align="left"/><td align="left">Other immunosuppressants</td></tr><tr><td align="left"/><td align="left">Other inhalers</td></tr><tr><td align="left"/><td align="left">Vasopressor</td></tr><tr><td align="left"/><td align="left">Proton-pump inhibitor (e.g. omeprazole, esomeprazole, pantoprazole)</td></tr><tr><td align="left"/><td align="left">Aspirin</td></tr><tr><td align="left"/><td align="left">Lipid-lowering agent (e.g. statins, fibrates)</td></tr><tr><td align="left"/><td align="left">Antimicrobials</td></tr><tr><td align="left"/><td align="left">Other</td></tr><tr><td align="left">Smoking status</td><td align="left">Current, previous, non-smoker</td></tr><tr><td align="left" colspan="2">Physical examination</td></tr><tr><td align="left"/><td align="left">Blood pressure (mmHg)</td></tr><tr><td align="left"/><td align="left">Height (cm)</td></tr><tr><td align="left"/><td align="left">Weight (kg)</td></tr><tr><td align="left"/><td align="left">Body mass index (kg/m<sup>2</sup>)</td></tr><tr><td align="left" colspan="2">Laboratory measures</td></tr><tr><td align="left"/><td align="left">Serum creatinine (mg/dL)</td></tr><tr><td align="left"/><td align="left">Estimated glomerular filtration rate (mL/min/1.73 m<sup>2</sup>)</td></tr><tr><td align="left"/><td align="left">White cell count (x 10<sup>9</sup>/L)</td></tr><tr><td align="left"/><td align="left">Neutrophils and lymphocytes (x 10<sup>9</sup>/L)</td></tr><tr><td align="left"/><td align="left">D-Dimer (mg/L FEU or mg/L DDU)</td></tr><tr><td align="left"/><td align="left">C-reactive protein (mg/L or nmol/L)</td></tr><tr><td align="left"/><td align="left">Creatine kinase (U/L)</td></tr></tbody></table></table-wrap></p>
+                </sec>
+                <sec id="Sec13">
+                  <title>Delivered treatment</title>
+                  <p>Medication adherence will be reported by each treatment arm as adherence days (median, first and third quartiles, minimum and maximum), number of days of follow-up (median) and percentage of days medication was administered (mean ± SD) for those who complete follow-up and those who do not. We will also report the mean average dose of treatment for participants randomised to ARB plus standard care, the use of other COVID-19 directed care, other hypertensives and use of oxygen.</p>
+                </sec>
+              </sec>
+              <sec id="Sec14">
+                <title>Analysis of primary outcome</title>
+                <p>The primary outcome for this trial is a 7-point ordinal scale of clinical outcomes (Table <xref rid="Tab1" ref-type="table">1</xref>), assessed on day 14 and will be modelled using proportional odds cumulative logistic regression [<xref ref-type="bibr" rid="CR21">21</xref>]. Under such a proportional odds model, the treatment effect (along with the parameters associated with other variables) is common among the response categories.</p>
+                <p>The model is specified as follows. Let <italic>Y</italic><sub><italic>i</italic></sub>∈{1,…,<italic>K</italic>} denote a random variable for the outcome for the <italic>i</italic>th participant where the ordering is natural and <italic>K</italic>=7. A proportional odds model can be constructed based on the categorisation of a latent continuous variable <italic>Y</italic><sup>∗</sup>. Ordered cut-points <inline-formula id="IEq1"><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$c\in \mathbb {R}^{K-1}$\end{document}</tex-math><mml:math id="M2"><mml:mi>c</mml:mi><mml:mo>∈</mml:mo><mml:msup><mml:mrow><mml:mi>ℝ</mml:mi></mml:mrow><mml:mrow><mml:mi>K</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:math><inline-graphic xlink:href="13063_2022_6167_Article_IEq1.gif"/></alternatives></inline-formula> are defined such that <italic>c</italic><sub><italic>k</italic></sub>&lt;<italic>c</italic><sub><italic>k</italic>+1</sub> for <italic>k</italic>∈{1,…,<italic>K</italic>−2} then for <italic>k</italic>∈{1,…,<italic>K</italic>}: 
+<disp-formula id="Equa"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$\begin{aligned} \pi_{ik} &amp;= P(Y_{i} = k | \eta_{i}, c)\\ &amp;= \left\{ \begin{array}{ll} 1-\text{logit}^{-1}(\eta_{i}-c_{1}) &amp; \text{if }k=1 \\ \text{logit}^{-1}(\eta_{i}-c_{k-1}) - \text{logit}^{-1}(\eta_{i}-c_{k}) &amp; \text{if }1&lt; k&lt;K \\ \text{logit}^{-1}(\eta_{i}-c_{K-1}) &amp; \text{if }k=K \end{array}, \right. \end{aligned} $$ \end{document}</tex-math><mml:math id="M4"><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:msub><mml:mrow><mml:mi>π</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">ik</mml:mtext></mml:mrow></mml:msub></mml:mtd><mml:mtd><mml:mo>=</mml:mo><mml:mi>P</mml:mi><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>Y</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>k</mml:mi><mml:mo>|</mml:mo><mml:msub><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mi>c</mml:mi><mml:mo>)</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mo>=</mml:mo><mml:mfenced open="{"><mml:mrow><mml:mtable class="array" columnalign="left"><mml:mtr><mml:mtd><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:msup><mml:mrow><mml:mtext>logit</mml:mtext></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>)</mml:mo></mml:mtd><mml:mtd><mml:mtext>if</mml:mtext><mml:mi>k</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msup><mml:mrow><mml:mtext>logit</mml:mtext></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>)</mml:mo><mml:mo>−</mml:mo><mml:msup><mml:mrow><mml:mtext>logit</mml:mtext></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mo>)</mml:mo></mml:mtd><mml:mtd><mml:mtext>if</mml:mtext><mml:mn>1</mml:mn><mml:mo>&lt;</mml:mo><mml:mi>k</mml:mi><mml:mo>&lt;</mml:mo><mml:mi>K</mml:mi></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msup><mml:mrow><mml:mtext>logit</mml:mtext></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mi>K</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>)</mml:mo></mml:mtd><mml:mtd><mml:mtext>if</mml:mtext><mml:mi>k</mml:mi><mml:mo>=</mml:mo><mml:mi>K</mml:mi></mml:mtd></mml:mtr></mml:mtable><mml:mo>,</mml:mo></mml:mrow></mml:mfenced></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="13063_2022_6167_Article_Equa.gif" position="anchor"/></alternatives></disp-formula> where <italic>Y</italic><sub><italic>i</italic></sub>∼<italic>M</italic><italic>N</italic>(<italic>n</italic>=1,(<italic>π</italic><sub><italic>i</italic>1</sub>,…,<italic>π</italic><sub><italic>i</italic>7</sub>)) and ‘<italic>MN</italic>’ denotes the multinomial distribution. The linear predictor <inline-formula id="IEq2"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\eta _{i} = \beta x_{i} + \sum _{p=1}^{P} w^{\mathsf {T}}_{ip} \gamma _{p}$\end{document}</tex-math><mml:math id="M6"><mml:msub><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>β</mml:mi><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:munderover><mml:mrow><mml:mo>∑</mml:mo></mml:mrow><mml:mrow><mml:mi>p</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>P</mml:mi></mml:mrow></mml:munderover><mml:msubsup><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">ip</mml:mtext></mml:mrow><mml:mrow><mml:mi mathvariant="sans-serif">T</mml:mi></mml:mrow></mml:msubsup><mml:msub><mml:mrow><mml:mi>γ</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="13063_2022_6167_Article_IEq2.gif"/></alternatives></inline-formula> comprises a parameter <italic>β</italic> that charaterises the treatment effect, with <italic>x</italic><sub><italic>i</italic></sub>=1 for the ARB treatment group membership and <italic>x</italic><sub><italic>i</italic></sub>=0 otherwise and a vector of parameters <italic>γ</italic> for modelling variation in the response associated with baseline variables defined in <inline-formula id="IEq3"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$w^{\mathsf {T}}_{i}$\end{document}</tex-math><mml:math id="M8"><mml:msubsup><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="sans-serif">T</mml:mi></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="13063_2022_6167_Article_IEq3.gif"/></alternatives></inline-formula>. Note that this implementation will be such that exp(<italic>β</italic>)&lt;1 results in a reduction in the probability of death.</p>
+                <p>The model is parameterised with the cuts <italic>c</italic><sub><italic>k</italic></sub> derived from a simplex with a Dirichlet prior where all concentration parameters are set to 1. All fixed effect terms will use weakly informative normal priors centred on zero with a standard deviation of <italic>σ</italic><sub><italic>β</italic></sub>=10. If issues with convergence or sampling arise, variations to these priors are permissible at the discretion of the analyst; however, all model variations and their justification will be reported to the DSMB and will be disclosed in all internal and external publications.</p>
+                <p>The motivation to adjust the model for baseline covariates stems from the understanding that mortality rates associated with COVID-19 infection vary by age, sex, ethnicity and the presence of some co-morbid diseases [<xref ref-type="bibr" rid="CR22">22</xref>–<xref ref-type="bibr" rid="CR24">24</xref>]. Specifically, the case mortality rate is estimated as being very low (0.06% or less) in age groups under 50, 0.5% in 50–59 year olds, 2.9% in 60–69 year olds before steeply rising to 40% in those aged 90 and over [<xref ref-type="bibr" rid="CR22">22</xref>]. Additionally, disease severity appears to be worse in males, in those with pre-existing co-morbidities, such as hypertension, diabetes, heart failure, chronic kidney disease, and chronic respiratory illness [<xref ref-type="bibr" rid="CR23">23</xref>], and in the presence of obesity [<xref ref-type="bibr" rid="CR24">24</xref>].</p>
+                <p>Since age, sex, co-morbid disease and oxygen requirement are the most supported, baseline values for these variables will be included in the linear predictor as fixed effects with levels as summarised in Table <xref rid="Tab4" ref-type="table">4</xref>. Incorporating these terms in the model allows us to account for potential baseline imbalance, obtain a stratified estimate of the response and can increase power. All decisions arising from successive planned analyses will be based on the adjusted model; however, both unadjusted and adjusted results will be reported.
+<table-wrap id="Tab4"><label>Table 4</label><caption><p>Prognostic baseline characteristics/pre-specified subgroups for analyses of the primary, secondary and exploratory outcomes</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Variable</th><th align="left">Definition</th></tr></thead><tbody><tr><td align="left">Age</td><td align="justify">&lt;60 years, 60 years and older. It is required at least one-third of the study population is in each category. If that condition is not met, the categories will be revised to &lt;50 years and 50 years and older.</td></tr><tr><td align="left">Sex</td><td align="justify">Female or other, male</td></tr><tr><td align="left">Co-morbid disease</td><td align="justify">No co-morbid disease</td></tr><tr><td align="left"/><td align="justify">Presence of any of diabetes (HbA1c ≥7% and/or the consumption of glucose-lowering medication), history of cardiovascular disease, history of chronic respiratory illness, current treatment with immunosuppression or BMI ≥30kg/m<sup>2</sup> at baseline, compared with none of these factors.</td></tr><tr><td align="left"/><td align="justify">Hypertension</td></tr><tr><td align="left">Oxygen requirement</td><td align="justify">Modified WHO score of 3 or less at randomisation</td></tr><tr><td align="left"/><td align="justify">Modified WHO score of 4, 5 or 6 at randomisation</td></tr></tbody></table></table-wrap></p>
+                <sec id="Sec15">
+                  <title>Sensitivity to assumptions</title>
+                  <p>Sensitivity analyses for the primary outcome will be undertaken to determine how the results of the analysis may change depending upon particular modelling assumptions. For this trial, this will include: 
+<list list-type="bullet"><list-item><p>Choice of priors where, instead of a Dirichlet prior, an ordered Normal prior will be placed on the cuts <italic>c</italic><sub><italic>k</italic></sub>. This Normal distribution will have a mean of 0 and standard deviation of 4. Results from fitting an analogous frequentist model will also be reported.</p></list-item><list-item><p>Relaxing the proportional odds assumption</p></list-item></list></p>
+                  <p>Additionally, a subset of data will be modelled constrained to participants who were randomised to receive either an ARB or a placebo (i.e. those participants randomised in India). Technically, this is a subgroup analysis, but is included here because the results from this subset of the data represent an important consideration for interpreting the results for the primary outcome.</p>
+                  <p>Weakly informative priors have been pragmatically chosen to regularise estimates and minimise problems with posterior sampling. The sensitivity analysis will evaluate the impact of uninformative, skeptical and enthusiastic priors [<xref ref-type="bibr" rid="CR25">25</xref>], keeping in mind the comments of [<xref ref-type="bibr" rid="CR26">26</xref>] on the influence of the likelihood on interpreting the contribution of the prior.</p>
+                  <p>Relaxing the proportional odds assumption accommodates category-specific effects. For example, an intervention could be potentially useful for healthier participants, but harmful to participants that are already very sick. The cumulative ordinal model is not well suited for this purpose (category-specific effects in this model can lead to negative probabilities of having some scores), so an alternative modelling strategy is required. One approach is to collapse the response into several binary comparisons, fit separate logistic regression models (response scores 1 versus 2–7, 1–2 versus 3–7 etc.) and qualitatively compare the odds ratios obtained from these models to the more parsimonious proportional odds model. However, this becomes unwieldy for a large number of response categories. Therefore, the sensitivity analysis will be undertaken using an adjacent category model with category-specific effects to gain insight into heterogeneity in the treatment effect, see Chapter 4 of [<xref ref-type="bibr" rid="CR27">27</xref>] for further details. Metrics for relative goodness-of-fit will be obtained via leave-one-out cross-validation.</p>
+                  <p>The category-specific effects model will only be evaluated at the final analysis, but the potential for violations in the proportional odds assumption will be monitored heuristically at each planned analysis.</p>
+                </sec>
+              </sec>
+              <sec id="Sec16">
+                <title>Analysis of secondary and exploratory outcomes</title>
+                <p>The analysis of all secondary and exploratory outcomes detailed in Table <xref rid="Tab2" ref-type="table">2</xref> will be model-based within a Bayesian inference framework. An outline of the modelling approach for each of the different data types is given below. Unless directed by the DSMB, the analysis of all secondary and exploratory outcomes will only be conducted as part of the final analysis. The priors on all regression parameters will be weakly informative (e.g. Normal with mean 0 and standard deviation 10). The only exception to this will be in the case of the binary endpoint where a Uniform prior on the probability support for the inverse logit of the intercept will be used.</p>
+                <sec id="Sec17">
+                  <title>Binary outcome</title>
+                  <p>The following outcome is represented as a binary random variable and will be summarised by number of and proportion of outcomes within each category. The relative odds of the outcome will be modelled by treatment assignment using standard logistic regression. 
+<list list-type="bullet"><list-item><p>(All-cause) mortality at day 28 (participants discharged prior to day 28 will be considered alive unless noted otherwise)</p></list-item></list></p>
+                  <p>For logistic regression, the parameter associated with the treatment term in the model reflects the change in the log-odds of the event relative to the log-odds of the event in the reference group holding all other terms constant.</p>
+                </sec>
+                <sec id="Sec18">
+                  <title>Ordinal outcomes</title>
+                  <p>The following outcomes can be represented as ordinal scales. Each will be summarised by the proportion in each category and modelled using the same approach described for the primary outcome. Specifically, the relative odds of the outcome will be modelled by treatment assignment using proportional odds logistic regression. 
+<list list-type="bullet"><list-item><p>Seven-point ordinal scale score at day 28 (primary is at day 14)</p></list-item><list-item><p>Number of ventilator-free days between day 0 and 28</p></list-item><list-item><p>Number of oxygen support-free days between day 0 and 28</p></list-item><list-item><p>Number of dialysis-free days between day 0 and 28</p></list-item><list-item><p>Number of ICU-free days between day 0 and 90</p></list-item></list></p>
+                  <p>For the latter four outcomes, the occurrence of death will be coded such that it is the worst possible outcome, with the remaining possible outcomes being coded via the natural ordering. In cases where some categories only have a few observations, then categories may be aggregated to improve model stability.</p>
+                  <p>The interpretation of the parameter associated with treatment term in the proportional odds cumulative ordinal model is very similar to that of a logistic regression. For the ordinal model, one can conceptualise the event as successive splits of the scores demarcating success. So, for example, one might consider realising 1 or more ventilator-free days (VFDs) versus 0 or worse. Equivalently, one can consider realising 2 or more VFDs versus 1 or worse and so on. The parameter estimate associated with treatment simply characterises the change in the log-odds of the event (as defined above) on ARB relative to the log-odds of the event on placebo, holding all other terms constant. The proportional odds assumption holds that the transitions between each of the splits are equally impacted by the treatment, i.e. there are no category-specific effects.</p>
+                </sec>
+                <sec id="Sec19">
+                  <title>Time-to-event outcomes</title>
+                  <p>The following outcomes are considered in terms of the time until the occurrence of an event, all of which occur in the presence of a competing risk. For example, time to admission to ICU is blocked should the patient die prior to being admitted to ICU. The goal is to characterise the rate or intensity of events by treatment assignment. 
+<list list-type="bullet"><list-item><p>Time to discharge alive from hospital between day 0 and 28</p></list-item><list-item><p>Time to discharge alive from hospital between day 0 and 90</p></list-item><list-item><p>Time to admission to ICU between day 0 and 28</p></list-item><list-item><p>Time to admission to ICU between day 0 and 90</p></list-item><list-item><p>Time to non-invasive or invasive mechanical ventilation between day 0 and 28</p></list-item><list-item><p>Time to requirement for dialysis between day 0 and 28</p></list-item><list-item><p>Time to AKI between day 0 and 28</p></list-item><list-item><p>Time to hypotension requiring vasopressors between day 0 and 28</p></list-item><list-item><p>Time to hyperkalemia between day 0 to 28</p></list-item></list></p>
+                  <p>With the exception of time to discharge (where time to discharge is the event of interest), each of these events exists in the presence of the competing risk of death and/or discharge. Standard approaches for evaluating competing risk include models that focus on the cause-specific hazard and/or the subdistributional hazard [<xref ref-type="bibr" rid="CR28">28</xref>, <xref ref-type="bibr" rid="CR29">29</xref>]. The former is preferred where interest is in the rate of occurrence rather than the risk and is generally recommended for evaluating direct causal effects. Therefore, we will adopt a piecewise exponential model for the cause-specific hazards (reporting results from all event types). The linear predictor will be of a similar form as described in the “<xref rid="Sec14" ref-type="sec">Analysis of primary outcome</xref>” section; the exponential of which will estimate the multiplicative shift away from the baseline marginal hazard function.</p>
+                  <p>The cause-specific hazard is the instantaneous rate of failure from a specific cause given that no failure from any cause has happened. Interpretation of the parameter estimate associated with treatment effect will be in terms of the effect on the cause-specific hazard of the event under consideration. Finally, in a competing risk setting, the cumulative incidence function (a generalisation of one minus the survival to the competing risk setting) cannot be estimated naively using one minus the Kaplan-Meier estimator. Therefore, any visualisation of the survival and cumulative incidence will account for this.</p>
+                </sec>
+              </sec>
+              <sec id="Sec20">
+                <title>Subgroup analyses</title>
+                <p>Rather than split the data into strata and proceed with independent analyses, subgroup analyses will be undertaken by extending the linear predictor in the specified models to account for treatment by group interactions. The pre-specified subgroups include age, sex, co-morbid disease and oxygen requirement at baseline as detailed earlier in Table <xref rid="Tab4" ref-type="table">4</xref>.</p>
+                <p>Shrinkage through prior specification will be used as a method for mitigating issues associated with multiplicity. Additionally, only first-order interactions will be considered, which implicitly assumes all higher order interactions are set to zero. Specifically, for the subgroup treatment effects, a revised linear predictor will be introduced from the earlier specification in the “<xref rid="Sec8" ref-type="sec">Primary, secondary and exploratory outcomes</xref>” section: 
+<disp-formula id="Equb"><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $${}\begin{aligned} \eta_{i} &amp;= \beta x_{i} + \sum_{p=1}^{P} w^{\mathsf{T}}_{ip} \gamma_{p} + \delta_{1,\mathsf{sex}[i]} x_{i} + \delta_{2,\mathsf{age}[i]} x_{i} + \delta_{3,\mathsf{cmb}[i]} x_{i}\\ &amp;\quad+ \delta_{4,\mathsf{O2}[i]} x_{i} \end{aligned} $$ \end{document}</tex-math><mml:math id="M10"><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:msub><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mtd><mml:mtd><mml:mo>=</mml:mo><mml:mi>β</mml:mi><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:munderover accent="false" accentunder="false"><mml:mrow><mml:mo mathsize="big">∑</mml:mo></mml:mrow><mml:mrow><mml:mi>p</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>P</mml:mi></mml:mrow></mml:munderover><mml:msubsup><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">ip</mml:mtext></mml:mrow><mml:mrow><mml:mi mathvariant="sans-serif">T</mml:mi></mml:mrow></mml:msubsup><mml:msub><mml:mrow><mml:mi>γ</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>δ</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi mathvariant="sans-serif">sex</mml:mi><mml:mo>[</mml:mo><mml:mi>i</mml:mi><mml:mo>]</mml:mo></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>δ</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mi mathvariant="sans-serif">age</mml:mi><mml:mo>[</mml:mo><mml:mi>i</mml:mi><mml:mo>]</mml:mo></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>δ</mml:mi></mml:mrow><mml:mrow><mml:mn>3</mml:mn><mml:mo>,</mml:mo><mml:mi mathvariant="sans-serif">cmb</mml:mi><mml:mo>[</mml:mo><mml:mi>i</mml:mi><mml:mo>]</mml:mo></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mspace width="1em"/><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>δ</mml:mi></mml:mrow><mml:mrow><mml:mn>4</mml:mn><mml:mo>,</mml:mo><mml:mi mathvariant="sans-serif">O</mml:mi><mml:mn>2</mml:mn><mml:mo>[</mml:mo><mml:mi>i</mml:mi><mml:mo>]</mml:mo></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="13063_2022_6167_Article_Equb.gif" position="anchor"/></alternatives></disp-formula> where each <italic>δ</italic><sub><italic>g</italic></sub> parameter corresponds to a vector of parameters associated with each subgroup of interest with <italic>δ</italic><sub><italic>g</italic></sub>∼<italic>Normal</italic>(0,<italic>σ</italic><sub><italic>δ</italic></sub>) and <italic>σ</italic><sub><italic>δ</italic></sub>∼<italic>Exponential</italic>(1) such that the interaction terms are estimated under the assumption of a common variance [<xref ref-type="bibr" rid="CR30">30</xref>]. The abbreviations “cmb” and “O2” correspond to “comorbidity” and “oxygen requirement”, respectively. Unfortunately, little information about the heterogeneity in treatment effects was available to inform the choice of prior for <italic>σ</italic><sub><italic>δ</italic></sub>. Hence, this prior was selected on the basis that it should impose some level shrinkage for moderately variable treatment effects.</p>
+                <p>From the above model, each covariate can be considered separately and standardised treatment effects obtained in each subgroup as weighted averages. For example, to obtain a standardised treatment effect for males, compute 
+<disp-formula id="Equc"><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $${}\begin{aligned} \beta_{\mathsf{M}} &amp;= \beta + \delta_{1,\mathsf{sex[M]}} + \nu_{\mathsf{age}=1} \times \delta_{2,\mathsf{age}[1]} + \nu_{\mathsf{age}=2} \times \delta_{2,\mathsf{age}[2]} \\ &amp; \quad+ \nu_{\mathsf{cmb}=1} \times \delta_{3,\mathsf{cmb}[1]} + \nu_{\mathsf{cmb}=2} \times \delta_{3,\mathsf{cmb}[2]} + \nu_{\mathsf{cmb}=3} \\ &amp;\quad \times \delta_{3,\mathsf{cmb}[3]}+ \nu_{\mathsf{O2}=1} \times \delta_{3,\mathsf{O2}[1]} + \nu_{\mathsf{O2}=2} \times \delta_{3,\mathsf{O2}[2]} \end{aligned} $$ \end{document}</tex-math><mml:math id="M12"><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="sans-serif">M</mml:mi></mml:mrow></mml:msub></mml:mtd><mml:mtd><mml:mo>=</mml:mo><mml:mi>β</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>δ</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi mathvariant="sans-serif">sex</mml:mi><mml:mo>[</mml:mo><mml:mi>M</mml:mi><mml:mo>]</mml:mo></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>ν</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">age</mml:mtext><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>×</mml:mo><mml:msub><mml:mrow><mml:mi>δ</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mi mathvariant="sans-serif">age</mml:mi><mml:mo>[</mml:mo><mml:mn>1</mml:mn><mml:mo>]</mml:mo></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>ν</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="sans-serif">age</mml:mi><mml:mo>=</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>×</mml:mo><mml:msub><mml:mrow><mml:mi>δ</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mi mathvariant="sans-serif">age</mml:mi><mml:mo>[</mml:mo><mml:mn>2</mml:mn><mml:mo>]</mml:mo></mml:mrow></mml:msub></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mspace width="1em"/><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>ν</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="sans-serif">cmb</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>×</mml:mo><mml:msub><mml:mrow><mml:mi>δ</mml:mi></mml:mrow><mml:mrow><mml:mn>3</mml:mn><mml:mo>,</mml:mo><mml:mi mathvariant="sans-serif">cmb</mml:mi><mml:mo>[</mml:mo><mml:mn>1</mml:mn><mml:mo>]</mml:mo></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>ν</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="sans-serif">cmb</mml:mi><mml:mo>=</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>×</mml:mo><mml:msub><mml:mrow><mml:mi>δ</mml:mi></mml:mrow><mml:mrow><mml:mn>3</mml:mn><mml:mo>,</mml:mo><mml:mi mathvariant="sans-serif">cmb</mml:mi><mml:mo>[</mml:mo><mml:mn>2</mml:mn><mml:mo>]</mml:mo></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>ν</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="sans-serif">cmb</mml:mi><mml:mo>=</mml:mo><mml:mn>3</mml:mn></mml:mrow></mml:msub></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mspace width="1em"/><mml:mo>×</mml:mo><mml:msub><mml:mrow><mml:mi>δ</mml:mi></mml:mrow><mml:mrow><mml:mn>3</mml:mn><mml:mo>,</mml:mo><mml:mi mathvariant="sans-serif">cmb</mml:mi><mml:mo>[</mml:mo><mml:mn>3</mml:mn><mml:mo>]</mml:mo></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>ν</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="sans-serif">O</mml:mi><mml:mn>2</mml:mn><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>×</mml:mo><mml:msub><mml:mrow><mml:mi>δ</mml:mi></mml:mrow><mml:mrow><mml:mn>3</mml:mn><mml:mo>,</mml:mo><mml:mi mathvariant="sans-serif">O</mml:mi><mml:mn>2</mml:mn><mml:mo>[</mml:mo><mml:mn>1</mml:mn><mml:mo>]</mml:mo></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>ν</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="sans-serif">O</mml:mi><mml:mn>2</mml:mn><mml:mo>=</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>×</mml:mo><mml:msub><mml:mrow><mml:mi>δ</mml:mi></mml:mrow><mml:mrow><mml:mn>3</mml:mn><mml:mo>,</mml:mo><mml:mi mathvariant="sans-serif">O</mml:mi><mml:mn>2</mml:mn><mml:mo>[</mml:mo><mml:mn>2</mml:mn><mml:mo>]</mml:mo></mml:mrow></mml:msub></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="13063_2022_6167_Article_Equc.gif" position="anchor"/></alternatives></disp-formula> where <italic>β</italic><sub>M</sub> denotes the log odds-ratio for the treatment effect in males, <italic>ν</italic><sub><italic>age</italic>=1</sub> denotes the observed relative frequency of males in the first age category, <italic>ν</italic><sub><italic>age</italic>=2</sub> denotes the observed relative frequency of males in the second age category and the other <italic>ν</italic> weights are defined similarly.</p>
+              </sec>
+              <sec id="Sec21">
+                <title>Missing data</title>
+                <p>Among other possibilities, missing data are to be anticipated due to loss to follow-up and competing priorities on institutional resources to complete follow-up.</p>
+                <p>Under the missing completely at random (MCAR) and missing at random (MAR) assumptions, there will be loss of precision due to the missingness, but there is no bias in the parameter estimates when appropriate statistical methods are used. However, under missing not at random (MNAR), the probability of missingness depends on the (unobserved) missing values. When missingness is due to MNAR, there is both a loss in precision and bias, and therefore sensitivity analyses are required. MAR is commonly assumed, although MNAR is arguably more applicable for most settings. In the CLARITY trial, there is potential for MNAR because differential loss to follow-up could be observed across treatment groups; however, this is believed to be unlikely.</p>
+                <p>Patterns of missingness for the outcome and covariates will be reported by time and group. When applicable, missing outcome data will be imputed using the standard posterior predictive approaches within Bayesian inference [<xref ref-type="bibr" rid="CR12">12</xref>]. The posterior distribution for imputation will be based on the analysis of all available data. Missing covariate information may also be imputed, and this will be based on, where possible, other available data (e.g. missing region or site).</p>
+                <p>If concerns arise regarding missingness (or a sensitivity analysis is requested by the DSMB), then single value imputation may be used implementing a best-worst-case and worst-best-case sensitivity analyses to evaluate the potential range of impact of missing values.</p>
+              </sec>
+              <sec id="Sec22">
+                <title>Exploratory analyses</title>
+                <p>
+                  <bold>Temporal treatment effect heterogeneity</bold>
+                </p>
+                <p>As there is potential for changes in standard of care and variation in the circulating virus strains, we will explore temporal heterogeneity in the treatment effect for the primary outcome. To do so, indicator variables will be created that categorise trial epochs. These indicator variables will then be included (as described in the “<xref rid="Sec14" ref-type="sec">Analysis of primary outcome</xref>” section) as main effects and as terms that interact with treatment. Choice of the time step will be pragmatically selected based on obtaining reasonably sized groups for the purposes of estimation.</p>
+                <p>
+                  <bold>Disease progression modelling</bold>
+                </p>
+                <p>Given the potential for participants to manifest complex disease progression, state-space modelling will be undertaken to characterise transition probabilities and sojourn times.</p>
+              </sec>
+              <sec id="Sec23">
+                <title>Planned analyses</title>
+                <p>The first planned analysis will be conducted as soon as practicable after the 700th enrolled participant has been followed for 14 days. This was decided by exploring the sampling distribution of the treatment effect parameter for a variety of different scenarios (“<xref rid="Sec27" ref-type="sec">Specification of tuning parameters for decision rules</xref>” section) including different odds ratios, and a desire to have a relatively stable estimate, see Fig. <xref rid="Fig2" ref-type="fig">2</xref>. From the results, the first planned analysis at 14 days after 700 participants were enrolled was a reasonable compromise. After this, the planned analyses will occur 14 days after every 300 additional participants have been enrolled. The decision also considers practical constraints such as needing enough time to complete the analyses and having these reviewed by the DSMB before the next planned analyses.
+<fig id="Fig2"><label>Fig. 2</label><caption><p>Distribution of the posterior mean of <italic>β</italic> based on 1000 simulated data sets for a given number of enrolments and odds ratios of <bold>a</bold> 1.00, <bold>b</bold> 0.95, <bold>c</bold> 0.87 and <bold>d</bold> 0.80</p></caption><graphic xlink:href="13063_2022_6167_Fig2_HTML" id="MO2"/></fig></p>
+                <p>The planned analyses will model the primary outcome (“<xref rid="Sec14" ref-type="sec">Analysis of primary outcome</xref>” section) for which both the unadjusted (i.e. model only includes treatment status) and adjusted posterior treatment effects will be reported to the DSMB. Decision rules will be evaluated based on the results from the adjusted primary analysis.</p>
+                <p>Subgroup analyses (“<xref rid="Sec20" ref-type="sec">Subgroup analyses</xref>” section) will only be undertaken at the final analysis as these are essentially exploratory in nature and need to be interpreted with great care.</p>
+                <p>Based on the results from the primary analysis, supplemented by external knowledge, recommendations will be made to the Trial Steering Committee by the DSMB to either halt or continue recruiting into the trial.</p>
+              </sec>
+              <sec id="Sec24">
+                <title>Decision rules</title>
+                <p>Pre-specified decision rules will be evaluated at each planned analysis, and the trial can be stopped based on the results of these analyses. This implies that the trial sample size is a random variable with an upper bound of 2200, dictated by the available resources. For this trial, two decision rules were adopted. These were to assess treatment effectiveness and to determine if it is futile to continue the trial. Both of these decision rules are based on the primary outcome as described in the “<xref rid="Sec14" ref-type="sec">Analysis of primary outcome</xref>” section accounting for differences between treatment arms and baseline characteristics only. In the following section, each decision rule is defined, including the methods by which each will be evaluated.</p>
+                <sec id="Sec25">
+                  <title>Effectiveness</title>
+                  <p>At each planned analysis, the predictive probability of treatment arm effectiveness compared to placebo or standard care alone (Australia only has standard care) will be assessed. To do so, one may consider that there are two types of participants in the interim data: (1) participants who have been enrolled and had their day 14 outcome ascertained and (2) participants who have been enrolled but have not yet had their day 14 outcome ascertained. The expectation of the probability that the posterior probability <italic>β</italic>&lt;0 is greater than the pre-specified level of evidence (<italic>Δ</italic>=0.975) will be evaluated, which is nominally consistent with a standard one-sided frequentist type-I error of 0.025. The expectation is taken over the data from participants who have been enrolled but have not responded and is assessed against a decision threshold, <italic>δ</italic><sub><italic>e</italic></sub> set at 0.95. Specifically, the expectation is defined: 
+<disp-formula id="Equd"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$\begin{aligned} &amp;E[\mathcal{I}(P(\beta &lt; 0 | y,Z,x,w) &gt; \Delta)]\\ &amp;\quad= \sum_{z\in\mathcal{Z}} \mathcal{I}(P(\beta &lt; 0 | y,z,x,w)&gt; \Delta)p(z|y,x,w), \end{aligned} $$ \end{document}</tex-math><mml:math id="M14"><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mi>E</mml:mi><mml:mo>[</mml:mo><mml:mi mathvariant="script">I</mml:mi><mml:mo>(</mml:mo><mml:mi>P</mml:mi><mml:mo>(</mml:mo><mml:mi>β</mml:mi><mml:mo>&lt;</mml:mo><mml:mn>0</mml:mn><mml:mo>|</mml:mo><mml:mi>y</mml:mi><mml:mo>,</mml:mo><mml:mi>Z</mml:mi><mml:mo>,</mml:mo><mml:mi>x</mml:mi><mml:mo>,</mml:mo><mml:mi>w</mml:mi><mml:mo>)</mml:mo><mml:mo>&gt;</mml:mo><mml:mi>Δ</mml:mi><mml:mo>)</mml:mo><mml:mo>]</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mspace width="1em"/><mml:mo>=</mml:mo><mml:munder><mml:mrow><mml:mo mathsize="big">∑</mml:mo></mml:mrow><mml:mrow><mml:mi>z</mml:mi><mml:mo>∈</mml:mo><mml:mi mathvariant="script">Z</mml:mi></mml:mrow></mml:munder><mml:mi mathvariant="script">I</mml:mi><mml:mo>(</mml:mo><mml:mi>P</mml:mi><mml:mo>(</mml:mo><mml:mi>β</mml:mi><mml:mo>&lt;</mml:mo><mml:mn>0</mml:mn><mml:mo>|</mml:mo><mml:mi>y</mml:mi><mml:mo>,</mml:mo><mml:mi>z</mml:mi><mml:mo>,</mml:mo><mml:mi>x</mml:mi><mml:mo>,</mml:mo><mml:mi>w</mml:mi><mml:mo>)</mml:mo><mml:mo>&gt;</mml:mo><mml:mi>Δ</mml:mi><mml:mo>)</mml:mo><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi>z</mml:mi><mml:mo>|</mml:mo><mml:mi>y</mml:mi><mml:mo>,</mml:mo><mml:mi>x</mml:mi><mml:mo>,</mml:mo><mml:mi>w</mml:mi><mml:mo>)</mml:mo><mml:mo>,</mml:mo></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="13063_2022_6167_Article_Equd.gif" position="anchor"/></alternatives></disp-formula> where <inline-formula id="IEq4"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\mathcal {I}()$\end{document}</tex-math><mml:math id="M16"><mml:mi mathvariant="script">I</mml:mi><mml:mo>(</mml:mo><mml:mo>)</mml:mo></mml:math><inline-graphic xlink:href="13063_2022_6167_Article_IEq4.gif"/></alternatives></inline-formula> is an indicator function which equals one if the event is true and zero otherwise, <italic>y</italic> denotes data on the primary outcome for the participants who have been enrolled and had their day 14 outcome ascertained, <italic>x</italic> and <italic>w</italic> denote treatment allocations and baseline characteristics (respectively) for all participants enrolled, and <inline-formula id="IEq5"><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$Z\in \mathcal {Z}$\end{document}</tex-math><mml:math id="M18"><mml:mi>Z</mml:mi><mml:mo>∈</mml:mo><mml:mi mathvariant="script">Z</mml:mi></mml:math><inline-graphic xlink:href="13063_2022_6167_Article_IEq5.gif"/></alternatives></inline-formula> is the random variable associated with <italic>z</italic> which denotes supposed future data for the participants who have been enrolled but not yet had their day 14 outcome ascertained.</p>
+                  <p>Evaluating the above expectation is unwieldy, so simulation will be used to form an estimate. The approach for this is outlined in Algorithm 1 where the data <italic>y</italic>, the treatment allocations <italic>x</italic>, baseline characteristics <italic>w</italic> and the prior on the parameters <italic>p</italic>(<italic>β</italic>,<italic>c</italic>) are initialised. For large <italic>B</italic>, a sample from the posterior distribution of the parameters is obtained based on data from participants who have been enrolled and have had their day 14 outcome ascertained. For those participants who have not yet had their day 14 outcome ascertained, their treatment allocation and baseline characteristics are known but their outcome is not, so their outcome is simulated (line 4). This forms a (partly simulated) data set for all participants enrolled in the trial from which a posterior distribution can be found.</p>
+                  <p>
+                    <graphic position="anchor" xlink:href="13063_2022_6167_Figa_HTML" id="MO7"/>
+                  </p>
+                  <p>To sample from this posterior distribution, MCMC could be used. However, given this step needs to be performed a large number of times (within a single simulation of a trial and across different trial settings), using MCMC here becomes computationally infeasible. Accordingly, a fast approach to form an approximation of the posterior distribution is needed. Consequently, the Laplace approximation [<xref ref-type="bibr" rid="CR31">31</xref>] will be adopted, as has been used previously for a similar purpose [<xref ref-type="bibr" rid="CR32">32</xref>, <xref ref-type="bibr" rid="CR33">33</xref>]. Based on this posterior, an indicator function is evaluated to determine whether treatment effectiveness would be concluded at the pre-specified level of evidence (<italic>Δ</italic>=0.975), if the outcomes from all enrolled participants were ascertained (line 6).</p>
+                  <p>After repeating this procedure a large number of times, the probability the trial is expected to be successful is approximated (line 8). If this is larger than a nominal value of <italic>δ</italic><sub><italic>e</italic></sub>=0.95, then the trial will stop for expected treatment effectiveness.</p>
+                </sec>
+                <sec id="Sec26">
+                  <title>Futility</title>
+                  <p>The purpose of the futility decision rule is to determine whether it would be futile to continue the trial based on the apparent likelihood of concluding effectiveness. To evaluate this, we consider the probability of concluding treatment effectiveness if the trial were to continue until the maximum sample size of <italic>N</italic>=2200. At each planned analysis, there will be three types of participants: (1) participants who have been enrolled and had their day 14 outcome ascertained; (2) participants who have been enrolled but have not had their day 14 outcome ascertained; and (3) participants who have not yet enrolled and therefore could not have had their day 14 outcome ascertained.</p>
+                  <p>As in the effectiveness decision rule, there will be uncertainty about the responses for a number of participants. Given this, we consider the expectation of an indicator of success over the distribution of these unknowns. Specifically, the expectation is defined: 
+<disp-formula id="Eque"><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $${}\begin{aligned} &amp;E[\mathcal{I}(P(\beta &lt; 0 | y,Z,x,V,w,U) &gt; \Delta)]\\ &amp;\quad= \sum_{v\in\mathcal{V}} \sum_{u\in\mathcal{U}}\sum_{z\in\mathcal{Z}} \mathcal{I}(P(\beta&lt;0|y,z,x,v,w,u) &gt; \Delta)\\ &amp;\quad\quad p(z|y,x,v,w,u)p(u)p(v), \end{aligned} $$ \end{document}</tex-math><mml:math id="M20"><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mi>E</mml:mi><mml:mo>[</mml:mo><mml:mi mathvariant="script">I</mml:mi><mml:mo>(</mml:mo><mml:mi>P</mml:mi><mml:mo>(</mml:mo><mml:mi>β</mml:mi><mml:mo>&lt;</mml:mo><mml:mn>0</mml:mn><mml:mo>|</mml:mo><mml:mi>y</mml:mi><mml:mo>,</mml:mo><mml:mi>Z</mml:mi><mml:mo>,</mml:mo><mml:mi>x</mml:mi><mml:mo>,</mml:mo><mml:mi>V</mml:mi><mml:mo>,</mml:mo><mml:mi>w</mml:mi><mml:mo>,</mml:mo><mml:mi>U</mml:mi><mml:mo>)</mml:mo><mml:mo>&gt;</mml:mo><mml:mi>Δ</mml:mi><mml:mo>)</mml:mo><mml:mo>]</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mspace width="1em"/><mml:mo>=</mml:mo><mml:munder><mml:mrow><mml:mo mathsize="big">∑</mml:mo></mml:mrow><mml:mrow><mml:mi>v</mml:mi><mml:mo>∈</mml:mo><mml:mi mathvariant="script">V</mml:mi></mml:mrow></mml:munder><mml:munder><mml:mrow><mml:mo mathsize="big">∑</mml:mo></mml:mrow><mml:mrow><mml:mi>u</mml:mi><mml:mo>∈</mml:mo><mml:mi mathvariant="script">U</mml:mi></mml:mrow></mml:munder><mml:munder><mml:mrow><mml:mo mathsize="big">∑</mml:mo></mml:mrow><mml:mrow><mml:mi>z</mml:mi><mml:mo>∈</mml:mo><mml:mi mathvariant="script">Z</mml:mi></mml:mrow></mml:munder><mml:mi mathvariant="script">I</mml:mi><mml:mo>(</mml:mo><mml:mi>P</mml:mi><mml:mo>(</mml:mo><mml:mi>β</mml:mi><mml:mo>&lt;</mml:mo><mml:mn>0</mml:mn><mml:mo>|</mml:mo><mml:mi>y</mml:mi><mml:mo>,</mml:mo><mml:mi>z</mml:mi><mml:mo>,</mml:mo><mml:mi>x</mml:mi><mml:mo>,</mml:mo><mml:mi>v</mml:mi><mml:mo>,</mml:mo><mml:mi>w</mml:mi><mml:mo>,</mml:mo><mml:mi>u</mml:mi><mml:mo>)</mml:mo><mml:mo>&gt;</mml:mo><mml:mi>Δ</mml:mi><mml:mo>)</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mspace width="1em"/><mml:mspace width="1em"/><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi>z</mml:mi><mml:mo>|</mml:mo><mml:mi>y</mml:mi><mml:mo>,</mml:mo><mml:mi>x</mml:mi><mml:mo>,</mml:mo><mml:mi>v</mml:mi><mml:mo>,</mml:mo><mml:mi>w</mml:mi><mml:mo>,</mml:mo><mml:mi>u</mml:mi><mml:mo>)</mml:mo><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi>u</mml:mi><mml:mo>)</mml:mo><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi>v</mml:mi><mml:mo>)</mml:mo><mml:mo>,</mml:mo></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="13063_2022_6167_Article_Eque.gif" position="anchor"/></alternatives></disp-formula> where <italic>V</italic>, <italic>U</italic> and <italic>Z</italic> are the random variables associated with <italic>v</italic> which denotes supposed future treatment allocations, <italic>u</italic> which denotes future baseline characteristics of participants and <italic>z</italic> which denotes supposed future outcome data, respectively. The distribution of <italic>V</italic> denoted as <italic>p</italic>(<italic>v</italic>) will be based on the 1:1 randomisation and the distribution of <italic>U</italic> denoted as <italic>p</italic>(<italic>u</italic>) will be estimated non-parameterically via re-sampling <italic>w</italic> (independently and with replacement).</p>
+                  <p>
+                    <graphic position="anchor" xlink:href="13063_2022_6167_Figb_HTML" id="MO9"/>
+                  </p>
+                  <p>Simulation is again used to form an estimate, and the approach for this is outlined in Algorithm 2 where <italic>y</italic>, <italic>x</italic>, <italic>w</italic> and <italic>p</italic>(<italic>β</italic>,<italic>c</italic>) are initialised. For large <italic>B</italic>, a sample from the posterior distribution for the parameters based on data from participants who have responded is drawn (line 4). The remaining trial data is then simulated (line 5). For this, some treatment allocations and baseline characteristics are known and some are not. For those that are not known, these are simulated from <italic>p</italic>(<italic>v</italic>) and <italic>p</italic>(<italic>u</italic>) as noted above. Data for the remainder of the trial (up to the maximum sample size of <italic>N</italic>=2200) are then simulated (again in line 5) and a sample from the posterior distribution of the parameters based on this partly simulated data set is then obtained (line 6). Based on this posterior, an indicator function is evaluated to determine whether treatment effectiveness would be concluded at the pre-specified level of evidence (<italic>Δ</italic>=0.975), if the outcomes from all enrolled participants were ascertained (line 7).</p>
+                  <p>After repeating this procedure a large number of times, the probability the trial will conclude that the intervention is effective is approximated (line 9). If this is less than a pre-specified value <italic>δ</italic><sub><italic>f</italic></sub>=0.02 (suggesting that concluding treatment effectiveness after <italic>N</italic> enrolments is very unlikely), then it will be concluded that it is futile to continue with the trial.</p>
+                </sec>
+              </sec>
+            </sec>
+            <sec id="Sec27">
+              <title>Specification of tuning parameters for decision rules</title>
+              <p>The specification of the two decision rules adopted in this trial requires pre-specifying the values of <italic>Δ</italic>,<italic>δ</italic><sub><italic>e</italic></sub> and <italic>δ</italic><sub><italic>f</italic></sub>. To do so, the statistical power and type-I error of the trial were explored through simulation, aiming to find appropriate values for these parameters. To run such a simulation study, a number of assumptions needed to be made. For the simulations for this trial, the following was assumed: 
+<list list-type="bullet"><list-item><p>The data observed in the trial will follow a proportional odds logistic regression model where any average difference in outcomes can only be explained by differences in their assigned treatments</p></list-item><list-item><p>The data observed from each participant in the trial will be independent. That is, each participant yields a single observation from the 7-point ordinal scale, and these are independent between participants</p></list-item><list-item><p>Five values for the treatment effect were explored. These relate to odds ratio values (i.e. exp(<italic>β</italic>)) of 1.0, 0.95, 0.87, 0.8 and 0.67</p></list-item><list-item><p>Accrual rate of participants into the trial will be either 120, 100 or 80 per month. That is, three potential scenarios which can be defined as “best”, “expected” and “worst” (respectively) from the trial perspective</p></list-item><list-item><p>The probability of observing each category of the 7-point ordinal scale for a participant within the placebo plus standard care group is as shown in Table <xref rid="Tab5" ref-type="table">5</xref>. Here, three potential scenarios (“best”, “expected” and “worst” from the patient perspective) have been defined
+<table-wrap id="Tab5"><label>Table 5</label><caption><p>Expected distribution (as percentages) of 7-point ordinal scale at day 14 for placebo/standard of care group where “best”, “expected” and “worst” case is from the patient’s perspective</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Categories</th><th align="left">Best</th><th align="left">Expected</th><th align="left">Worst</th></tr></thead><tbody><tr><td align="left">Not hospitalised, no limitations on activities</td><td align="left">16.0</td><td align="left">0.1</td><td align="left">0.1</td></tr><tr><td align="left">Not hospitalised, some limitation on activities</td><td align="left">28.6</td><td align="left">31.0</td><td align="left">19.4</td></tr><tr><td align="left">Hospitalised, not requiring supplemental oxygen</td><td align="left">32.0</td><td align="left">34.0</td><td align="left">30.0</td></tr><tr><td align="left">Hospitalised, requiring supplemental oxygen</td><td align="left">13.0</td><td align="left">15.5</td><td align="left">20.0</td></tr><tr><td align="left">Hospitalised, requiring non-invasive mechanical ventilation or high flow nasal cannula therapy</td><td align="left">2.4</td><td align="left">4.7</td><td align="left">7.0</td></tr><tr><td align="left">Hospitalised, requiring invasive mechanical ventilation ± additional organ support</td><td align="left">2.0</td><td align="left">4.0</td><td align="left">5.5</td></tr><tr><td align="left">Death</td><td align="left">6.0</td><td align="left">10.7</td><td align="left">18.0</td></tr></tbody></table></table-wrap></p></list-item><list-item><p>Planned analyses will not start until 14 days after 700 participants have enrolled into the trial. After this, planned analyses will occur 14 days after an additional 300 participants have been enrolled in the study</p></list-item></list></p>
+              <p>Based on these assumptions, 500 trials were simulated for every combination of different scenarios as outlined above. That is, trials were simulated with five different odds ratios, three different accrual rates and three different expected outcomes in the control group. This means for each odds ratio there are nine different scenarios, and it is of interest to determine the chance of stopping due to declaring effectiveness or futility across these settings, and also how variable trial outcomes are across these different scenarios. To evaluate expected effectiveness and futility, data were simulated 500 times (i.e. <italic>B</italic>=500 in Algorithms 1 and 2).</p>
+              <p>After extensive exploration, it was determined that <italic>Δ</italic>=0.975,<italic>δ</italic><sub><italic>e</italic></sub>=0.95 and <italic>δ</italic><sub><italic>f</italic></sub>=0.02 yielded acceptable results across a variety of scenarios. Figure <xref rid="Fig3" ref-type="fig">3</xref> provides a summary where (a) shows the probability of concluding treatment success at the end of the trial, (b) shows the probability of stopping the trial early due to futility, and (c) shows the average sample size where this average is taken across all 500 trials regardless of whether it was stopped early or no conclusion was drawn.
+<fig id="Fig3"><label>Fig. 3</label><caption><p>Estimated probability of the trial stopping for <bold>a</bold> effectiveness, <bold>b</bold> futility and <bold>c</bold> average sample sizes based on a variety of different assumptions about the odds ratio, recruitment rate and data that will be observed</p></caption><graphic xlink:href="13063_2022_6167_Fig3_HTML" id="MO3"/></fig></p>
+              <p>We note that for each odds ratio, there are nine scenarios, so each plot actually shows nine points for a given odds ratio. Some of these points are difficult to see because there is very little variability in outcomes across the nine scenarios. This is reassuring as it means the outcomes of the proposed design appear robust to foreseen variations in accrual rate and expected outcomes within the control group. As would be expected, there is substantial variability between different assumed odds ratios. In particular, when the assumed odds ratio is 0.8 and below, the power of the trial to determine that the intervention is effective remains above 80%. When the assumed odds ratio is 0.87, the power reduces to around 60%, and there is very little power when the assumed odds ratio is 0.95. When there is no benefit on treatment, the type-I error remains around 5%.</p>
+              <p>The average sample size shows that the maximum average is less than 1650 and this occurred when the assumed odds ratio was 0.87. This decreases as the assumed odds ratio decreases because the effectiveness decision rule is, on average, met earlier. As the assumed odds ratio increases, the average sample size also decreases because the futility rule is stopping those simulations early. Given the uncertainty of the clinical importance of a benefit associated with an odds ratio of 0.95, this appears reasonable. For comparison, the required sample size was also computed for a variety of odds ratios and levels of statistical power based on a standard randomised controlled trial where there are two treatment arms and the outcome is ordinal. For this, the analytic solution for sample size as given by [<xref ref-type="bibr" rid="CR34">34</xref>] was used. These results are shown in Table <xref rid="Tab6" ref-type="table">6</xref>, demonstrating that larger sample sizes are needed to achieve equivalent statistical power to the adaptive trial. For example, to achieve a power of 60% for an odds ratio of 0.87, 2391 participants need to be enrolled. This is compared to an average of 1650 in a trial with an adaptive sample size. This highlights one of the potential benefits of adopting an adaptive sample size approach.
+<table-wrap id="Tab6"><label>Table 6</label><caption><p>Required sample size for a standard, two-arm, randomised controlled trial for different odds ratios and levels of statistical power</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"/><th align="left" colspan="9">Odds ratio</th></tr></thead><tbody><tr><td align="left"/><td align="left"/><td align="left">0.95</td><td align="left">0.91</td><td align="left">0.87</td><td align="left">0.83</td><td align="left">0.8</td><td align="left">0.77</td><td align="left">0.74</td><td align="left">0.71</td></tr><tr><td align="left">Power</td><td align="left">0.50</td><td align="left">14732</td><td align="left">3861</td><td align="left">1796</td><td align="left">1055</td><td align="left">705</td><td align="left">510</td><td align="left">390</td><td align="left">310</td></tr><tr><td align="left"/><td align="left">0.55</td><td align="left">17069</td><td align="left">4473</td><td align="left">2081</td><td align="left">1223</td><td align="left">817</td><td align="left">591</td><td align="left">452</td><td align="left">359</td></tr><tr><td align="left"/><td align="left">0.60</td><td align="left">19620</td><td align="left">5142</td><td align="left">2391</td><td align="left">1406</td><td align="left">938</td><td align="left">679</td><td align="left">519</td><td align="left">413</td></tr><tr><td align="left"/><td align="left">0.65</td><td align="left">22443</td><td align="left">5882</td><td align="left">2736</td><td align="left">1608</td><td align="left">1073</td><td align="left">777</td><td align="left">594</td><td align="left">472</td></tr><tr><td align="left"/><td align="left">0.70</td><td align="left">25623</td><td align="left">6715</td><td align="left">3123</td><td align="left">1835</td><td align="left">1225</td><td align="left">887</td><td align="left">678</td><td align="left">539</td></tr><tr><td align="left"/><td align="left">0.75</td><td align="left">29292</td><td align="left">7676</td><td align="left">3570</td><td align="left">2098</td><td align="left">1401</td><td align="left">1013</td><td align="left">775</td><td align="left">616</td></tr><tr><td align="left"/><td align="left">0.80</td><td align="left">33665</td><td align="left">8822</td><td align="left">4103</td><td align="left">2411</td><td align="left">1610</td><td align="left">1165</td><td align="left">890</td><td align="left">708</td></tr><tr><td align="left"/><td align="left">0.85</td><td align="left">39147</td><td align="left">10259</td><td align="left">4771</td><td align="left">2804</td><td align="left">1872</td><td align="left">1354</td><td align="left">1035</td><td align="left">824</td></tr><tr><td align="left"/><td align="left">0.90</td><td align="left">46631</td><td align="left">12220</td><td align="left">5683</td><td align="left">3340</td><td align="left">2230</td><td align="left">1613</td><td align="left">1233</td><td align="left">981</td></tr></tbody></table></table-wrap></p>
+              <p>Overall, the rules and design of this trial appear to achieve reasonable operating characteristics for moderate to large odds ratios across a variety of scenarios that might be observed. It should be noted that a variety of additional scenarios were also considered in terms of different values for <italic>δ</italic><sub><italic>e</italic></sub> and <italic>δ</italic><sub><italic>f</italic></sub>. Across all of these scenarios, the values proposed here appear to yield more desirable operating characteristics, given the trial settings and the assumptions made. In addition, alternative primary outcomes such as the 7-point ordinal scale ascertained on day 28, a binary outcome being some combination of the 7-point ordinal scale ascertained on day 14 and day 28, and time-to-ventilation/death were also explored to determine whether a reduced sample size could be considered for this trial. However, no significant improvement in efficiency was observed. Details of this for the time-to-event outcome are given in the Appendix.</p>
+            </sec>
+            <sec id="Sec28" sec-type="discussion">
+              <title>Discussion</title>
+              <p>The CLARITY trial investigates the effectiveness of ARBs with standard care compared to placebo (if provided) with standard care to reduce the duration and severity of COVID-19 in severe participants.</p>
+              <p>The first patient was enrolled on 18 August 2020. At the time of writing, there are 14 and 7 active sites in India and Australia, respectively. Recruitment has been predominately from India reflecting the relative caseload during the period the trial has been active. Due to uncertainty about the effectiveness of ARBs for COVID-19 and the urgent need to find effective treatments for COVID-19 patients, the trial was designed with an adaptive sample size. The decision rules were constructed to maintain desirable levels of statistical power and type-I error properties, while maintaining a relatively small average sample size, particularly when compared to a traditional randomised controlled trial. Other primary outcomes were explored (including a binary and a time-to-event outcome); however, negligible gain in efficiency was observed.</p>
+              <p>In terms of the decision rules, the trial can be stopped due to sufficient evidence of effectiveness or futility. It is worth noting that an additional decision rule related to harm was also explored. That is, a rule that would stop the trial if there was sufficient evidence that the treatment plus standard care arm was performing worse than the placebo plus standard care arm (or less than a minimum important clinical difference). However, little to no benefit in terms of the trial operating characteristics was observed when this decision rule was included. This appeared to be because whenever this rule was triggered, the futility rule was also being triggered. Thus, it was concluded that this additional decision rule was not required.</p>
+              <p>In designing this adaptive trial, we have considered the primary outcome and assumed it will be analysed within a Bayesian inference framework. This was motivated by such a framework offering a number of advantages when compared to frequentist alternatives. These include being able to effectively update an analysis with accumulating data (i.e. at each planned analysis), being able to rigorously handle and incorporate uncertainty due to, for example, missing data, more flexibility in the available modelling approaches, not needing to adjust for multiple testing and interpretability of evidence in the case of “null” results. Thus, we would advocate considering such a framework in future adaptive trials and hope that this paper provides an accessible instruction on applying such methods to encourage further use.</p>
+              <fig id="Fig4">
+                <label>Fig. 4</label>
+                <caption>
+                  <p>Empirical hazard function for patients with COVID-19 based on data from the Recovery trial (ClinicalTrials.gov, NCT04381936)</p>
+                </caption>
+                <graphic xlink:href="13063_2022_6167_Fig4_HTML" id="MO4"/>
+              </fig>
+              <fig id="Fig5">
+                <label>Fig. 5</label>
+                <caption>
+                  <p>Proposed hazard functions for simulation study</p>
+                </caption>
+                <graphic xlink:href="13063_2022_6167_Fig5_HTML" id="MO5"/>
+              </fig>
+            </sec>
+            <sec id="Sec29">
+              <title>Appendix: Time-to-event outcome</title>
+              <p>To explore whether an alternative outcome might yield a reduced sample size, a simulation study was conducted for the primary outcome of time-to-ventilation/death. Prior information on this outcome was sourced from the Recovery trial (ClinicalTrials.gov, NCT04381936) which yielded an empirical hazard function as shown in Fig. 4. As can be seen, there is essentially a fairly constant decline over a 28-day period. However, there are some deviations from this trend. For example, there is a second “hump” in week 2 possibly associated with cytokine storm in a subset of patients (may be 30% of those hospitalised). This might explain this small hump; however, it may also be artefactual. In addition, in regard to the first “hump”, mechanistically, it is plausible that in order to be enrolled in the trial there could be a small “healthy volunteer” type selection bias whereby anyone whose death is imminent is not randomised (hence the slight increase in hazard over the first few days). Overall, it was thought that these deviations were not large enough to materially affect the simulations when compared to a monotonically declining hazard, so this is what was considered in the simulation study.</p>
+              <p>The empirical hazard function derived based on the results shown in Fig. 4 is shown in Fig. 5a. For comparison, a hazard function under the exponential distribution (i.e. constant hazard) and a Weibull distribution (i.e. monotonically decreasing) were also considered. These are shown in Fig. 5b and c. If proportional hazards are assumed (between the placebo plus standard care and treatment plus standard care groups), then the hazard for the invention group can be defined via a proportionality parameter (<italic>ψ</italic>). This proportionality parameter reflects the treatment effect, i.e. log<italic>ψ</italic>=<italic>β</italic>. All three hazard functions for treatment plus standard care group are also shown in Fig. 5 with <italic>ψ</italic>=0.87.</p>
+              <p>Once the hazard function is defined, then all functions needed to simulate time-to-event data (e.g. cumulative hazard, Survivor function, etc.) can be derived. The approach for estimating power given a particular sample size is outlined in Algorithm 3 and is a standard simulation estimation approach. As can be seen, the hazard function (which may involve additional parameters <italic>ϕ</italic>), <italic>ψ</italic> and the sample size <italic>N</italic> are initially defined. Then, for a large number of iterations, treatment allocations are simulated and data are then simulated based on a probability density function and these allocations (line 3). A survival model is then refit to the data (line 4). Here, two types of survival models are fitted: a semi-parametric version where the baseline hazard is left undefined, and a Weibull proportional hazards model. The appeal of the semi-parametric model is that the baseline hazard is quite flexible, and should be able to capture the empirically defined hazard. The appeal of the Weibull model is that assuming a parametric hazard should yield gains in power; however, the hazard may not be flexible enough to capture the assumed form of the empirical hazard. Both models were fit using maximum likelihood techniques. Based on the fitted model, a 95% confidence interval for log<italic>ψ</italic> was found, and an indicator for whether this interval includes 0 was evaluated. Once this process was repeated a large number of times, the power was approximated by evaluating the proportion of times the 95% confidence interval for log<italic>ψ</italic> did not include 0.</p>
+              <p>
+                <graphic position="anchor" xlink:href="13063_2022_6167_Figc_HTML" id="MO8"/>
+              </p>
+              <fig id="Fig6">
+                <label>Fig. 6</label>
+                <caption>
+                  <p>Approximate power for given sample sizes for <italic>ψ</italic>=0.87 and the <bold>a</bold> empirical hazard function, <bold>b</bold> exponential hazard function <italic>λ</italic>=1/26 and <bold>c</bold> Weibull hazard function <italic>γ</italic>=0.8,<italic>λ</italic>=1/26 when the semi-parametric (−) and Weibull (− −) regression models were refit to the simulated data</p>
+                </caption>
+                <graphic xlink:href="13063_2022_6167_Fig6_HTML" id="MO6"/>
+              </fig>
+              <p>Approximate power for given sample sizes are shown in Fig. 6 for the three hazard functions, <italic>ψ</italic>=0.87 and where the simulated data were refit under the semi-parametric and Weibull regression models. As can be seen, there is little difference in power estimates between the semiparametric and Weibull models. However, when data were generated based on the empirical hazard, the maximum likelihood estimates for the Weibull regression model often failed to converge. Accordingly, only results for the semi-parametric model are shown for this case. Across all cases, it can be seen that a large number of participants need to be enrolled to achieve at least 60% or 80% power (particularly in the empirical and Weibull hazard function case). Given this, it was concluded that it was not worth pursuing a full Bayesian adaptive sample size implementation to explore required sample sizes across a variety of different settings.</p>
+              <sec id="Sec30">
+                <title>Trial status</title>
+                <p>The trial commenced recruitment on 18 August 2020 and the first planned analysis is now imminent.</p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term>ARBs</term>
+                  <def>
+                    <p>Angiotensin receptor blockers</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>AT1R</term>
+                  <def>
+                    <p>Angiotensin II type 1 receptor</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>BERN</term>
+                  <def>
+                    <p>Bernoulli</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>CONSORT</term>
+                  <def>
+                    <p>Consolidated Standards of Reporting Trials</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>CLARITY</term>
+                  <def>
+                    <p>Controlled evaLuation of Angiotensin Receptor Blockers for COVID-19 respIraTorY disease</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>COVID-19</term>
+                  <def>
+                    <p>Coronavirus disease 2019</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>DSMB</term>
+                  <def>
+                    <p>Data Safety Monitoring Board</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>ICU</term>
+                  <def>
+                    <p>Intensive care unit</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>MAR</term>
+                  <def>
+                    <p>Missing at random</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>MCAR</term>
+                  <def>
+                    <p>Missing completely at random</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>MCMC</term>
+                  <def>
+                    <p>Markov chain Monte Carlo</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>MNAR</term>
+                  <def>
+                    <p>Missing not at random</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>RAAS</term>
+                  <def>
+                    <p>Renin-angiotensin-aldosterone system</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>RAS</term>
+                  <def>
+                    <p>Renin-angiotensin system</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>SAP</term>
+                  <def>
+                    <p>Statistical analysis plan</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>SARS-CoV-2</term>
+                  <def>
+                    <p>Severe acute respiratory syndrome coronavirus 2</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>SD</term>
+                  <def>
+                    <p>Standard deviation</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>VFDs</term>
+                  <def>
+                    <p>Ventilator-free days</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <fn-group>
+              <fn>
+                <p>See related article: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s13063-021-05521-0">https://doi.org/10.1186/s13063-021-05521-0</ext-link></p>
+              </fn>
+              <fn>
+                <p>
+                  <bold>Publisher’s Note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>We thank all the participants in the CLARITY trial and the doctors, nurses, pharmacists and research staff at participating sites who ensure the successful implementation of the trial. We thank the CLARITY Consumer Engagement Committee for their helpful input into trial design and participant-facing materials. MJa is supported by a Medical Research Future Fund Next Generation Clinical Researchers Program Career Development Fellowship. TS is supported by a NHMRC Early Leadership Award (MRFF119513). MJon is supported by a grant from Snow Medical Foundation.</p>
+              <p>We would like to acknowledge the following CLARITY team members;</p>
+              <p><bold>Steering Committee Executive:</bold> Meg Jardine (Chair), Vivekanand Jha (Co-Chair), Abhinav Bassi, Louise Burrell, Carinna Hockham, Christine Jenkins, Sradha Kotwal, Carol Pollock, Angus Ritchie, Arlen Wilcox</p>
+              <p><bold>Steering Committee Members:</bold> Ashfak Bangi, Ashish Bhalla, Jenny Heng-Chen Chen, Sanjay D’Cruz, Michael Dymock, Simon Finfer, Greg Fox, Mayur Garg, Harry Gibbs, Lalit Gupta, Santosh Kumar Nag, Mark Jones, Benjamin Kwan, Angela Makris, George Mangos, Jennifer Martin, James McGree, Andrew McLachlan, Matthew O’Sullivan, Eugenia Pedagogos, Jeffrey Post, Vinay Rathore, Thomas Snelling, Louisa Sukkar, Richard Sullivan, Gian Luca Di Tanna, Jason Trubiano, Sophia Zoungas</p>
+              <p><bold>Study Clinician:</bold> Sradha Kotwal</p>
+              <p><bold>Scientific Leads:</bold> Abhinav Bassi, Carinna Hockham, Sradha Kotwal</p>
+              <p><bold>Project Manager:</bold> Arlen Wilcox</p>
+              <p><bold>Central Management Team:</bold> Grace Balicki, Kirston Barton, Nikita Bathla, Alison Coenen, Michelle Cummins, Sedricx Fontanilla, Enmoore Lin, Martyn Ralph, Nuria Zamora</p>
+              <p><bold>Statistical Team:</bold> James McGree, Mark Jones, Tom Snelling</p>
+              <p><bold>Data Safety Monitoring Board:</bold> Katherine Tuttle (Chair), Jonathan Craig, Stephane Heritier, Allison Lambert</p>
+              <p><bold>Consumer and Community Engagement Committee:</bold> David Morgan and others</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Authors’ contributions</title>
+              <p>MJa made substantial contributions to the conception and design of the CLARITY study. JM and MJon made substantial contributions to the formulation of the trial stopping rules and trial analyses. CH, SK, AW, AB, CP, LB, NB, TS, VJ and MJa drafted the protocol. All authors read, edited and approved the final manuscript for submission.</p>
+            </notes>
+            <notes notes-type="funding-information">
+              <title>Funding</title>
+              <p>CLARITY is supported by the Australian Government’s Medical Research Future Fund Respiratory Medicine Clinical Trials Research on COVID-19 2020 grant scheme (ref. no. APP2002277).</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Availability of data and materials</title>
+              <p>The data that support the findings of this study are available on request from author MJar. The data are not publicly available due to them containing information that could compromise research participant privacy/consent.</p>
+            </notes>
+            <notes>
+              <title>Declarations</title>
+              <notes id="FPar1">
+                <title>Ethics approval and consent to participate</title>
+                <p>The CLARITY trial is approved by the Sydney Local Health District Ethics Review Committee (Royal Prince Alfred Hospital Zone; Code: EC0113) in Australia (X20-0118 &amp; 2020/ETH00742) and The George Institute for Global Health Ethics Committee in India (14/2020). Patients who meet the eligibility criteria will be approached to obtain informed consent for enrollment.</p>
+              </notes>
+              <notes id="FPar2">
+                <title>Consent for publication</title>
+                <p>Not applicable.</p>
+              </notes>
+              <notes id="FPar3" notes-type="COI-statement">
+                <title>Competing interests</title>
+                <p>JM, CH, SK, AW, AB, LB, NB, MK, VR, MJoh, EL, AR, AM, TS and MJon have no conflicts of interest to disclose.</p>
+                <p>CP serves on advisory boards for AstraZeneca, Boehringer Ingelheim, Merck Sharp and Dohme and Novartis.</p>
+                <p>CJ serves on advisory boards for AstraZeneca, Boehringer Ingelheim, Chiesi, GlaxoSmithKline, Novartis and Sanofi-Genzyme.</p>
+                <p>VJ has received grants from Baxter Healthcare, Biocon and GlaxoSmithKline, and speaker fees/advisory board from AstraZeneca, Baxter Healthcare, NephroPlus, Sanofi — all outside the submitted work. All fees paid to the organisation.</p>
+                <p>MJar is responsible for research projects that have received unrestricted funding from Amgen, Baxter, Bayer, CSL Behring, Eli Lilly, Gambro, and Merck Sharp and Dohme; has served on advisory boards sponsored by Akebia, AstraZeneca, Baxter, Bayer, Boehringer Ingelheim, Merck Sharp and Dohme and Vifor; serves on the Steering Committee for trials sponsored by Chinook, CSL Behring and Janssen; serves on a Steering Committee for an investigator initiated trial in COVID-19 disease with funding support from Dimerix; spoken at scientific meetings sponsored by Amgen, Janssen, Roche and Vifor; with any consultancy, honoraria or travel support paid to the institution.</p>
+              </notes>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hoffmann</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Kleine-Weber</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Schroeder</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Kruger</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Herrler</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Erichsen</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Schiergens</surname>
+                      <given-names>TS</given-names>
+                    </name>
+                    <name>
+                      <surname>Herrler</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>NH</given-names>
+                    </name>
+                    <name>
+                      <surname>Nitsche</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Muller</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Drosten</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Pohlmann</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>SARS-CoV-2 cell entry depends on ACE2 and TMPRSS2 and is blocked by a clinically proven protease inhibitor</article-title>
+                  <source>Cell</source>
+                  <year>2020</year>
+                  <volume>181</volume>
+                  <fpage>271</fpage>
+                  <lpage>80</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.cell.2020.02.052</pub-id>
+                  <pub-id pub-id-type="pmid">32142651</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lan</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Ge</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>SS</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>SF</given-names>
+                    </name>
+                    <name>
+                      <surname>Shi</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>X</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Structure of the SARS-CoV-2 spike receptor-binding domain bound to the ACE2 receptor</article-title>
+                  <source>Nature</source>
+                  <year>2020</year>
+                  <volume>581</volume>
+                  <fpage>215</fpage>
+                  <lpage>20</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41586-020-2180-5</pub-id>
+                  <pub-id pub-id-type="pmid">32225176</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ramchand</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Burrell</surname>
+                      <given-names>LM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Circulating ACE2: a novel biomarker of cardiovascular risk</article-title>
+                  <source>Lancet</source>
+                  <year>2020</year>
+                  <volume>396</volume>
+                  <fpage>937</fpage>
+                  <lpage>9</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0140-6736(20)32011-0</pub-id>
+                  <pub-id pub-id-type="pmid">33010824</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Patel</surname>
+                      <given-names>SK</given-names>
+                    </name>
+                    <name>
+                      <surname>Juno</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>WS</given-names>
+                    </name>
+                    <name>
+                      <surname>Wragg</surname>
+                      <given-names>KM</given-names>
+                    </name>
+                    <name>
+                      <surname>Hogarth</surname>
+                      <given-names>PM</given-names>
+                    </name>
+                    <name>
+                      <surname>Kent</surname>
+                      <given-names>SJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Burrell</surname>
+                      <given-names>LM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Plasma ACE2 activity is persistently elevated following SARS-CoV-2 infection: implications for COVID-19 pathogenesis and consequences</article-title>
+                  <source>Eur Respir J</source>
+                  <year>2021</year>
+                  <volume>57</volume>
+                  <fpage>2003730</fpage>
+                  <pub-id pub-id-type="doi">10.1183/13993003.03730-2020</pub-id>
+                  <pub-id pub-id-type="pmid">33479113</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Deshotels</surname>
+                      <given-names>MR</given-names>
+                    </name>
+                    <name>
+                      <surname>Xia</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Sriramula</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Lazartigues</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Filipeanu</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Angiotensin II mediates angiotensin converting enzyme type 2 internalization and degradation through an angiotensin II type I receptor-dependent mechanism</article-title>
+                  <source>Hypertension</source>
+                  <year>2014</year>
+                  <volume>64</volume>
+                  <fpage>1368</fpage>
+                  <lpage>75</lpage>
+                  <pub-id pub-id-type="doi">10.1161/HYPERTENSIONAHA.114.03743</pub-id>
+                  <pub-id pub-id-type="pmid">25225202</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kuba</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Imai</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Rao</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Gao</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Guo</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Guan</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Huan</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Deng</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Bao</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Chappell</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Zheng</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Leibbrandt</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Wada</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Slutsky</surname>
+                      <given-names>AS</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Qin</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Jiang</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Penninger</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A crucial role of angiotensin converting enzyme 2 (ACE2) in SARS coronavirus–induced lung injury</article-title>
+                  <source>Nat Med</source>
+                  <year>2005</year>
+                  <volume>11</volume>
+                  <fpage>875</fpage>
+                  <lpage>9</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nm1267</pub-id>
+                  <pub-id pub-id-type="pmid">16007097</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gamble</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Krishan</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Stocken</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Lewis</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Juszczak</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Doré</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Williamson</surname>
+                      <given-names>PR</given-names>
+                    </name>
+                    <name>
+                      <surname>Altman</surname>
+                      <given-names>DG</given-names>
+                    </name>
+                    <name>
+                      <surname>Montgomery</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Lim</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Berlin</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Senn</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Day</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Barbachano</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Loder</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Guidelines for the content of statistical analysis plans in clinical trials</article-title>
+                  <source>J Am Med Assoc</source>
+                  <year>2017</year>
+                  <volume>318</volume>
+                  <fpage>2337</fpage>
+                  <lpage>43</lpage>
+                  <pub-id pub-id-type="doi">10.1001/jama.2017.18556</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dimairo</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Coates</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Pallmann</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Todd</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Julious</surname>
+                      <given-names>SA</given-names>
+                    </name>
+                    <name>
+                      <surname>Jaki</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Wason</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Mander</surname>
+                      <given-names>AP</given-names>
+                    </name>
+                    <name>
+                      <surname>Weir</surname>
+                      <given-names>CJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Koenig</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Walton</surname>
+                      <given-names>MK</given-names>
+                    </name>
+                    <name>
+                      <surname>Biggs</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Nicholl</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Hamasaki</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Proschan</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Scott</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Ando</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Hind</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Altman</surname>
+                      <given-names>DG</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Development process of a consensus-driven CONSORT extension for randomised trials using an adaptive design</article-title>
+                  <source>BMC Med</source>
+                  <year>2018</year>
+                  <volume>16</volume>
+                  <fpage>210</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s12916-018-1196-2</pub-id>
+                  <pub-id pub-id-type="pmid">30442137</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Moher</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Hopewell</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Schulz</surname>
+                      <given-names>KF</given-names>
+                    </name>
+                    <name>
+                      <surname>Montori</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Gotzsche</surname>
+                      <given-names>PC</given-names>
+                    </name>
+                    <name>
+                      <surname>Devereaux</surname>
+                      <given-names>PJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Elbourne</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Egger</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Altman</surname>
+                      <given-names>DG</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>CONSORT 2010 explanation and elaboration: updated guidelines for reporting parallel group randomised trials</article-title>
+                  <source>BMJ</source>
+                  <year>2010</year>
+                  <volume>340</volume>
+                  <fpage>869</fpage>
+                  <pub-id pub-id-type="doi">10.1136/bmj.c869</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schulz</surname>
+                      <given-names>KF</given-names>
+                    </name>
+                    <name>
+                      <surname>Altman</surname>
+                      <given-names>DG</given-names>
+                    </name>
+                    <name>
+                      <surname>Moher</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <collab>the CONSORT Group</collab>
+                  </person-group>
+                  <article-title>CONSORT 2010 statement: updated guidelines for reporting parallel group randomised trials</article-title>
+                  <source>BMC Med</source>
+                  <year>2010</year>
+                  <volume>8</volume>
+                  <fpage>18</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1741-7015-8-18</pub-id>
+                  <pub-id pub-id-type="pmid">20334633</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hockham</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Kotwal</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Wilcox</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Bassi</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>McGree</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Pollock</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Burrell</surname>
+                      <given-names>LM</given-names>
+                    </name>
+                    <name>
+                      <surname>Bathla</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Kunigari</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Rathore</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>John</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Lin</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Jenkins</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Ritchie</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>McLachlan</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Snelling</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Jones</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Jha</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Jardine</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Protocol for the Controlled evaLuation of Angiotensin Receptor Blockers for COVID-19 respIraTorY disease (CLARITY): a randomised controlled trial</article-title>
+                  <source>Trials</source>
+                  <year>2021</year>
+                  <volume>22</volume>
+                  <fpage>573</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s13063-021-05521-0</pub-id>
+                  <pub-id pub-id-type="pmid">34454580</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12</label>
+                <mixed-citation publication-type="other">Rubin DB. Multiple imputation for nonresponse in surveys: John Wiley &amp; Sons, Inc., Hoboken, New Jersey; 2004.</mixed-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ma</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Bayesian methods for dealing with missing data problems</article-title>
+                  <source>J Korean Stat Soc</source>
+                  <year>2018</year>
+                  <volume>47</volume>
+                  <fpage>297</fpage>
+                  <lpage>313</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jkss.2018.03.002</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <collab>WHO Working Group on the Clinical Characterisation and Management of COVID-19 infection</collab>
+                  </person-group>
+                  <article-title>A minimal common outcome measure set for COVID-19 clinical research</article-title>
+                  <source>Lancet Infect Dis</source>
+                  <year>2020</year>
+                  <volume>20</volume>
+                  <fpage>192</fpage>
+                  <lpage>7</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S1473-3099(20)30483-7</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Metropolis</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Rosenbluth</surname>
+                      <given-names>AW</given-names>
+                    </name>
+                    <name>
+                      <surname>Rosenbluth</surname>
+                      <given-names>MN</given-names>
+                    </name>
+                    <name>
+                      <surname>Teller</surname>
+                      <given-names>AH</given-names>
+                    </name>
+                    <name>
+                      <surname>Teller</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Equation of state calculations by fast computing machines</article-title>
+                  <source>J Chem Phys</source>
+                  <year>1953</year>
+                  <volume>21</volume>
+                  <fpage>1087</fpage>
+                  <lpage>92</lpage>
+                  <pub-id pub-id-type="doi">10.1063/1.1699114</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hastings</surname>
+                      <given-names>WK</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Monte Carlo sampling methods using Markov chains and their applications</article-title>
+                  <source>Biometrika</source>
+                  <year>1970</year>
+                  <volume>57</volume>
+                  <fpage>97</fpage>
+                  <lpage>109</lpage>
+                  <pub-id pub-id-type="doi">10.1093/biomet/57.1.97</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Girolami</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Calderhead</surname>
+                      <given-names>B</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Riemann manifold Langevin and Hamiltonian Monte Carlo methods</article-title>
+                  <source>J R Stat Soc Ser B</source>
+                  <year>2011</year>
+                  <volume>73</volume>
+                  <fpage>123</fpage>
+                  <lpage>214</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1467-9868.2010.00765.x</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vehtari</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Gelman</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Gabry</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Practical Bayesian model evaluation using leave-one-out cross-validation and WAIC</article-title>
+                  <source>Stat Comput</source>
+                  <year>2017</year>
+                  <volume>27</volume>
+                  <fpage>1413</fpage>
+                  <lpage>32</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s11222-016-9696-4</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gelman</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Rubin</surname>
+                      <given-names>DB</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Inference from iterative simulation using multiple sequences</article-title>
+                  <source>Stat Sci</source>
+                  <year>1992</year>
+                  <volume>7</volume>
+                  <fpage>457</fpage>
+                  <lpage>72</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Carpenter</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Gelman</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Hoffman</surname>
+                      <given-names>MD</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Goodrich</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Betancourt</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Brubaker</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Guo</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Riddell</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Stan: a probabilistic programming language</article-title>
+                  <source>J Stat Softw</source>
+                  <year>2017</year>
+                  <volume>76</volume>
+                  <fpage>10</fpage>
+                  <lpage>1863707601</lpage>
+                  <pub-id pub-id-type="doi">10.18637/jss.v076.i01</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McCullagh</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Regression Models for Ordinal Data</article-title>
+                  <source>J R Stat Soc Ser B</source>
+                  <year>1980</year>
+                  <volume>42</volume>
+                  <fpage>109</fpage>
+                  <lpage>42</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Marschner</surname>
+                      <given-names>IC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Estimating age-specific COVID-19 fatality risk and time to death by comparing population diagnosis and death patterns: Australian data</article-title>
+                  <source>BMC Med Res Methodol</source>
+                  <year>2021</year>
+                  <volume>21</volume>
+                  <fpage>126</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s12874-021-01314-w</pub-id>
+                  <pub-id pub-id-type="pmid">34154563</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Williamson</surname>
+                      <given-names>EJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Walker</surname>
+                      <given-names>AJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Bhaskaran</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Bacon</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Bates</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Morton</surname>
+                      <given-names>CE</given-names>
+                    </name>
+                    <name>
+                      <surname>Curtis</surname>
+                      <given-names>HJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Mehrkar</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Evans</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Inglesby</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Cockburn</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>McDonald</surname>
+                      <given-names>HI</given-names>
+                    </name>
+                    <name>
+                      <surname>MacKenna</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Tomlinson</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Douglas</surname>
+                      <given-names>IJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Rentsch</surname>
+                      <given-names>CT</given-names>
+                    </name>
+                    <name>
+                      <surname>Mathur</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Wong</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Grieve</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Harrison</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Forbes</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Schultze</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Croker</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Parry</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Hester</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Harper</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Perera</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Evans</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Smeeth</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Goldacre</surname>
+                      <given-names>B</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Factors associated with COVID-19-related death using OpenSAFELY</article-title>
+                  <source>Nature</source>
+                  <year>2020</year>
+                  <volume>584</volume>
+                  <fpage>430</fpage>
+                  <lpage>6</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41586-020-2521-4</pub-id>
+                  <pub-id pub-id-type="pmid">32640463</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Peters</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>MacMahon</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Woodward</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Obesity as a risk factor for COVID-19 mortality in women and men in the UK biobank: comparisons with influenza/pneumonia and coronary heart disease</article-title>
+                  <source>Diabetes Obes Metab</source>
+                  <year>2021</year>
+                  <volume>23</volume>
+                  <fpage>258</fpage>
+                  <lpage>62</lpage>
+                  <pub-id pub-id-type="doi">10.1111/dom.14199</pub-id>
+                  <pub-id pub-id-type="pmid">32969132</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25</label>
+                <mixed-citation publication-type="other">Berry SM, Carlin BP, Lee JJ, Muller P. Bayesian adaptive methods for clinical trials, 2nd ed: Chapman &amp; Hall/CRC Biostatistics Series; 2010.</mixed-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gelman</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Simpson</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Betancourt</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The prior can often only be understood in the context of the likelihood</article-title>
+                  <source>Entropy</source>
+                  <year>2017</year>
+                  <volume>19</volume>
+                  <issue>10</issue>
+                  <fpage>555</fpage>
+                  <pub-id pub-id-type="doi">10.3390/e19100555</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Agesti</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <source>Analysis of ordinal categorical data, 2nd ed</source>
+                  <year>2010</year>
+                  <publisher-loc>Hoboken</publisher-loc>
+                  <publisher-name>Wiley</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Prentice</surname>
+                      <given-names>RL</given-names>
+                    </name>
+                    <name>
+                      <surname>Kalbfeisch</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                    <name>
+                      <surname>Peterson Jr.</surname>
+                      <given-names>AV</given-names>
+                    </name>
+                    <name>
+                      <surname>Flournoy</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Farewell</surname>
+                      <given-names>VT</given-names>
+                    </name>
+                    <name>
+                      <surname>Breslow</surname>
+                      <given-names>NE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The analysis of failure times in the presence of competing risks</article-title>
+                  <source>Biometrics</source>
+                  <year>1978</year>
+                  <volume>34</volume>
+                  <fpage>541</fpage>
+                  <lpage>54</lpage>
+                  <pub-id pub-id-type="doi">10.2307/2530374</pub-id>
+                  <pub-id pub-id-type="pmid">373811</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fine</surname>
+                      <given-names>JP</given-names>
+                    </name>
+                    <name>
+                      <surname>Gray</surname>
+                      <given-names>RJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A proportional hazards model for the subdistribution of a competing risk</article-title>
+                  <source>J Am Stat Assoc</source>
+                  <year>1999</year>
+                  <volume>94</volume>
+                  <fpage>496</fpage>
+                  <lpage>509</lpage>
+                  <pub-id pub-id-type="doi">10.1080/01621459.1999.10474144</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dixon</surname>
+                      <given-names>DO</given-names>
+                    </name>
+                    <name>
+                      <surname>Simon</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Bayesian subset analysis</article-title>
+                  <source>Biometrics</source>
+                  <year>1991</year>
+                  <volume>47</volume>
+                  <fpage>871</fpage>
+                  <lpage>81</lpage>
+                  <pub-id pub-id-type="doi">10.2307/2532645</pub-id>
+                  <pub-id pub-id-type="pmid">1742443</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lindley</surname>
+                      <given-names>DV</given-names>
+                    </name>
+                  </person-group>
+                  <person-group person-group-type="editor">
+                    <name>
+                      <surname>Bernardo</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>DeGroot</surname>
+                      <given-names>MH</given-names>
+                    </name>
+                    <name>
+                      <surname>Lindley</surname>
+                      <given-names>DV</given-names>
+                    </name>
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>AFM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Approximate Bayesian methods</article-title>
+                  <source>Bayesian Statistics: Proceedings of the First International Meeting held in Valencia (Spain), May 28 to June 2, 1979</source>
+                  <year>1980</year>
+                  <publisher-loc>Valencia</publisher-loc>
+                  <publisher-name>Valencia University Press</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Overstall</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                    <name>
+                      <surname>McGree</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Drovandi</surname>
+                      <given-names>CC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An approach for finding fully Bayesian optimal designs using normal-based approximations to loss functions</article-title>
+                  <source>Stat Comput</source>
+                  <year>2018</year>
+                  <volume>28</volume>
+                  <issue>2</issue>
+                  <fpage>343</fpage>
+                  <lpage>58</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s11222-017-9734-x</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Senarathne</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Overstall</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                    <name>
+                      <surname>McGree</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Bayesian adaptive n-of-1 trials for estimating population and individual treatment effects</article-title>
+                  <source>Stat Med</source>
+                  <year>2020</year>
+                  <volume>39</volume>
+                  <fpage>4499</fpage>
+                  <lpage>518</lpage>
+                  <pub-id pub-id-type="doi">10.1002/sim.8737</pub-id>
+                  <pub-id pub-id-type="pmid">32969513</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Whitehead</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Sample size calculation for ordered categorical data</article-title>
+                  <source>Stat Med</source>
+                  <year>1993</year>
+                  <volume>12</volume>
+                  <fpage>2257</fpage>
+                  <lpage>71</lpage>
+                  <pub-id pub-id-type="doi">10.1002/sim.4780122404</pub-id>
+                  <pub-id pub-id-type="pmid">8134732</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35</label>
+                <mixed-citation publication-type="other">Summary of recommendation statements. Kidney international supplements. 2012; 2(1):8–12. 10.1038/kisup.2012.7.</mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

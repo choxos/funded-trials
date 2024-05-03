@@ -1,0 +1,1713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T03:39:44Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:6738119" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:6738119</identifier>
+        <datestamp>2020-08-09</datestamp>
+        <setSpec>brjcancer</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article" dtd-version="1.3">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Br J Cancer</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Br J Cancer</journal-id>
+              <journal-title-group>
+                <journal-title>British Journal of Cancer</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">0007-0920</issn>
+              <issn pub-type="epub">1532-1827</issn>
+              <publisher>
+                <publisher-name>Nature Publishing Group UK</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC6738119</article-id>
+              <article-id pub-id-type="pmcid">PMC6738119</article-id>
+              <article-id pub-id-type="pmc-uid">6738119</article-id>
+              <article-id pub-id-type="pmid">31395950</article-id>
+              <article-id pub-id-type="pmid">31395950</article-id>
+              <article-id pub-id-type="publisher-id">539</article-id>
+              <article-id pub-id-type="doi">10.1038/s41416-019-0539-x</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Machine learning-based prediction of breast cancer growth rate in vivo</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" equal-contrib="yes">
+                  <name>
+                    <surname>Bhattarai</surname>
+                    <given-names>Shristi</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author" equal-contrib="yes">
+                  <name>
+                    <surname>Klimov</surname>
+                    <given-names>Sergey</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Aleskandarany</surname>
+                    <given-names>Mohammed A.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Burrell</surname>
+                    <given-names>Helen</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Wormall</surname>
+                    <given-names>Anthony</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-0488-5913</contrib-id>
+                  <name>
+                    <surname>Green</surname>
+                    <given-names>Andrew R.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rida</surname>
+                    <given-names>Padmashree</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ellis</surname>
+                    <given-names>Ian O.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Osan</surname>
+                    <given-names>Remus M.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Rakha</surname>
+                    <given-names>Emad A.</given-names>
+                  </name>
+                  <address>
+                    <phone>+01159691169</phone>
+                    <email>emad.rakha@nottingham.ac.uk</email>
+                    <email>emad.rakha@nuh.nhs.uk</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Aneja</surname>
+                    <given-names>Ritu</given-names>
+                  </name>
+                  <address>
+                    <email>raneja@gsu.edu</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 1936 7400</institution-id><institution-id institution-id-type="GRID">grid.256304.6</institution-id><institution>Department of Biology, </institution><institution>Georgia State University, </institution></institution-wrap>Atlanta, GA 30303 USA </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0000 9962 2336</institution-id><institution-id institution-id-type="GRID">grid.412920.c</institution-id><institution>Nottingham Breast Cancer Research Centre, Division of Cancer and Stem Cells, School of Medicine, </institution><institution>University of Nottingham and Nottingham University Hospitals NHS Trust, City Hospital Campus, </institution></institution-wrap>Nottingham, NG5 1PB UK </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0000 9962 2336</institution-id><institution-id institution-id-type="GRID">grid.412920.c</institution-id><institution>Nottingham Breast Institute, </institution><institution>Nottingham University Hospitals NHS Trust, Nottingham City hospital, </institution></institution-wrap>Nottingham, NG5 1PB UK </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 1936 7400</institution-id><institution-id institution-id-type="GRID">grid.256304.6</institution-id><institution>Mathematics and Statistics, </institution><institution>Georgia State University, </institution></institution-wrap>Atlanta, GA 30303 USA </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>9</day>
+                <month>8</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="ppub">
+                <day>10</day>
+                <month>9</month>
+                <year>2019</year>
+              </pub-date>
+              <volume>121</volume>
+              <issue>6</issue>
+              <fpage>497</fpage>
+              <lpage>504</lpage>
+              <history>
+                <date date-type="received">
+                  <day>13</day>
+                  <month>2</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>7</day>
+                  <month>7</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="accepted">
+                  <day>11</day>
+                  <month>7</month>
+                  <year>2019</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s), under exclusive licence to Cancer Research UK 2019</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>This work is published under the standard license to publish agreement. After 12 months the work will become freely available and the license terms will switch to a Creative Commons Attribution 4.0 International (CC BY 4.0).</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <sec>
+                  <title>Background</title>
+                  <p id="Par1">Determining the rate of breast cancer (BC) growth in vivo, which can predict prognosis, has remained elusive despite its relevance for treatment, screening recommendations and medicolegal practice. We developed a model that predicts the rate of in vivo tumour growth using a unique study cohort of BC patients who had two serial mammograms wherein the tumour, visible in the diagnostic mammogram, was missed in the first screen.</p>
+                </sec>
+                <sec>
+                  <title>Methods</title>
+                  <p id="Par2">A serial mammography-derived in vivo growth rate (<italic>SM-INVIGOR</italic>) index was developed using tumour volumes from two serial mammograms and time interval between measurements. We then developed a machine learning-based surrogate model called <italic>Surr-INVIGOR</italic> using routinely assessed biomarkers to predict in vivo rate of tumour growth and extend the utility of this approach to a larger patient population. <italic>Surr-INVIGOR</italic> was validated using an independent cohort.</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p id="Par3"><italic>SM-INVIGOR</italic> stratified discovery cohort patients into fast-growing versus slow-growing tumour subgroups, wherein patients with fast-growing tumours experienced poorer BC-specific survival. Our clinically relevant <italic>Surr</italic>-INVIGOR stratified tumours in the discovery cohort and was concordant with <italic>SM-INVIGOR</italic>. In the validation cohort, <italic>Surr-INVIGOR</italic> uncovered significant survival differences between patients with fast-growing and slow-growing tumours.</p>
+                </sec>
+                <sec>
+                  <title>Conclusion</title>
+                  <p id="Par4">Our <italic>Surr-INVIGOR</italic> model predicts in vivo BC growth rate during the pre-diagnostic stage and offers several useful applications.</p>
+                </sec>
+              </abstract>
+              <kwd-group kwd-group-type="npg-subject">
+                <title>Subject terms</title>
+                <kwd>Breast cancer</kwd>
+                <kwd>Cancer models</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>National Cancer Institute at the National Institute of Health (U01 CA179671 and R01 CA169127)</institution>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© Cancer Research UK 2019</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Background</title>
+              <p id="Par5">Breast cancer (BC) is a heterogeneous disease with tumours exhibiting variable morphology, molecular profiles, behaviour and response to therapy. Mounting evidence demonstrates that BC shows variable rates of growth, which has important clinical and medicolegal implications.<sup><xref ref-type="bibr" rid="CR1">1</xref>–<xref ref-type="bibr" rid="CR4">4</xref></sup> In vivo growth rate is not only a quantifiable trait of the tumour but can also serve as a tool to plan and evaluate screening programmes, clinical trials or epidemiologic studies. In addition, BC growth rate evaluated using tumour size from mammograms may predict tumour response to chemotherapy, and may help in determining the likely time of tumour initiation and previous tumour size in medicolegal cases.<sup><xref ref-type="bibr" rid="CR5">5</xref>–<xref ref-type="bibr" rid="CR7">7</xref></sup> BC growth rate is also associated with prognostic variables, such as lymph node status, stage and vascular invasion;<sup><xref ref-type="bibr" rid="CR3">3</xref>,<xref ref-type="bibr" rid="CR4">4</xref>,<xref ref-type="bibr" rid="CR8">8</xref></sup> however, the prognostic and predictive value of BC growth rate has not been harnessed in routine practice due to the inherent difficulty in its assessment in the short intervals between diagnosis and treatment.</p>
+              <p id="Par6">Although the growth rate of BC in vivo is strictly regulated, it appears to be dependent on the balance between several variables including growth fraction (the tumour cells that are proliferating and leading directly to the addition of new tumour cells), the rate of tumour cell loss by apoptosis and/or necrosis, tumour cells’ doubling-time/kinetics, and the surrounding microenvironment including angiogenesis, blood supply and host immune response to the proliferating tumour cells.<sup><xref ref-type="bibr" rid="CR9">9</xref>–<xref ref-type="bibr" rid="CR12">12</xref></sup> The complexity of the processes controlling BC growth and the interaction with the tumour microenvironment make assessment and prediction of BC growth rate a challenging task. Therefore, serial imaging of BC at different time points is considered as the best model available for assessing the in vivo growth rate and for determining associations between potential intrinsic growth rate determinants and BC behaviour, including response to therapy.</p>
+              <p id="Par7">This study utilises a discovery cohort comprising clinically and molecularly well-characterised data from BC patients who underwent serial mammography. It is a unique and rare cohort because the second mammogram illuminated that the tumour was indeed “missed” during the first mammogram. We find that this one-of-a-kind cohort can be interrogated to (a) identify predictors of BC in vivo growth rate, (b) evaluate the impact of BC growth rate on disease outcome and (c) develop a surrogate model that robustly predicts pre-diagnosis in vivo growth rate for patients who would normally not have tumour volume data from two serial mammograms. In contrast to a matched first-presentation-only BC patients’ cohort, BC growth rate in this study is determined by the changes in tumour volume between sequential mammograms, wherein the first mammogram “mistakenly” reported the case as normal/benign, and the cancer was identified in the screening mammogram on a retrospective review subsequent to the second (diagnostic) mammogram (Fig. <xref rid="Fig1" ref-type="fig">1</xref>).<fig id="Fig1"><label>Fig. 1</label><caption><p>Schematic depicting sequences of steps in our study leading to the calculation of <italic>SM-INVIGOR</italic> and the development of <italic>Surr-INVIGOR</italic> that predicts in vivo tumour growth rate in BC. Briefly, tumour volumes from two serial mammograms and the time interval between measurements in a unique data set of 92 patients (<bold>a</bold>) were used to develop a growth rate index <italic>SM-INVIGOR</italic> (<bold>b</bold>). The growth index significantly predicts BCSS and classifies tumours as slow growing or fast growing (<bold>c</bold>). When the tumours were resected after final diagnosis (<bold>d</bold>), tumour sections were immunohistochemically stained for a panel of BC biomarkers (<bold>e</bold>). A machine-learning algorithm was used to develop a surrogate model (termed <italic>Surr-INVIGOR</italic>) for <italic>SM-INVIGOR</italic> that uses routinely assessed BC clinical biomarkers like Ki67, mitotic index and histological size. The multivariable model non-linearly combines multiple clinicopathological variables and immunohistochemical biomarkers to predict the tumour’s in vivo growth rate prior to diagnosis (<bold>f</bold>, <bold>g</bold>). Using the same growth rate threshold as <italic>SM-INVIGOR</italic>, the <italic>Surr-INVIGOR</italic> model was able to prognostically stratify patients in study cohort (<bold>h</bold>). Finally, <italic>Surr-INVIGOR</italic> was validated using an independent BC validation cohort of 1241 patients and was found to be strongly prognostic in the validation cohort (<bold>i</bold>, <bold>j</bold>)</p></caption><graphic xlink:href="41416_2019_539_Fig1_HTML" id="d32e491"/></fig></p>
+            </sec>
+            <sec id="Sec2">
+              <title>Methods</title>
+              <sec id="Sec3">
+                <title>Study cohort</title>
+                <p id="Par8">The study cohort comprises 114 BC patients aged between 50 and 70 years who were presented at the Nottingham City Hospital from 1988 to 2008 with BC, and for whom review of the previous screening mammogram showed a previously undetected tumour at the same affected site. This may have been due to either a false-negative screening outcome or due to minimal visible signs of malignancy on the previous mammogram. Mammographic abnormalities included measurable soft tissue abnormality (mass, distortion or asymmetry) on screening and diagnostic films. On retrospective review of the previous mammogram after the disease diagnosis, two radiologists (blinded to each other’s observations) confirmed the “missed” cancer. We selected patients in whom a soft tissue abnormality was detected (upon retrospective review of prior screening mammograms) at the site of the subsequent cancer. Due to a misdiagnosed mammogram, this cohort uniquely comes with an earlier screening measurement with a visible tumour. Clinicopathological data including age, histological tumour type, primary tumour size, lymph node status, histological grade, Nottingham Prognostic Index (NPI), vascular invasion and patients’ outcome data were obtained. BC-specific survival (BCSS) was defined as the time interval (in months) between the primary surgeries and death from BC. The mean survival time of this cohort of patients was 120 months. Clinicopathological variables were available for 92 cases, and the BCSS was available in 90 cases; thus, we restricted our study to these cases (Fig. <xref rid="Fig1" ref-type="fig">1a</xref>).</p>
+              </sec>
+              <sec id="Sec4">
+                <title>Calculating tumour volumes and growth rates</title>
+                <p id="Par9">The two measurements in the screening and diagnostic mammograms were assumed as tumour diameter and tumour height, which were then used to calculate tumour volumes at the time of screening and diagnosis. The greater mammogram dimension was assumed as height corresponding to the diameter of the semi-major axis, and the other dimension was regarded as diameter of the semi-minor axis. For tumour volume calculation, we considered the aforementioned dimensions as volume inputs for a cylinder, sphere and an oblate spheroid.<sup><xref ref-type="bibr" rid="CR13">13</xref></sup> For tumour growth rates, we tested exponential growth,<sup><xref ref-type="bibr" rid="CR14">14</xref>,<xref ref-type="bibr" rid="CR15">15</xref></sup> the Gompertz model,<sup><xref ref-type="bibr" rid="CR16">16</xref></sup> and power law growth with the exponent set to both the classic value of 2/3<sup><xref ref-type="bibr" rid="CR17">17</xref>,<xref ref-type="bibr" rid="CR18">18</xref></sup> and 1/2<sup><xref ref-type="bibr" rid="CR19">19</xref></sup> as shown in Table <xref rid="MOESM1" ref-type="media">S1</xref>. For all models, the initial volume for the growth rate was determined using the screening mammogram, and the final volume was determined from the diagnostic mammogram, with the time variable denoted by the days between the two mammograms.</p>
+              </sec>
+              <sec id="Sec5">
+                <title>Selecting optimal tumour volume, growth rate combination and development of SM-INVIGOR</title>
+                <p id="Par10">Multiple tumour volume/three-dimensional shape assumptions and growth rate functions used in previous studies<sup><xref ref-type="bibr" rid="CR19">19</xref></sup> were tested to find the optimal combination that was prognostic. Growth rate indices that combined tumour volume (calculated assuming the tumour to be a sphere, cylinder or spheroid) and individual growth functions (calculated assuming exponential growth, two sets of the Power Law function (α = 1/2 or 2/3) or Gompertz growth) were compared on the basis of their prognostic ability. Growth rates were used either as a continuous variable or through a fast/slow growth cut-off determined through optimising the log-rank statistic.<sup><xref ref-type="bibr" rid="CR20">20</xref>,<xref ref-type="bibr" rid="CR21">21</xref></sup> Both forms of all growth rates were analysed univariately in a Cox proportional hazard regression model using 10-year breast cancer-specific survival (BCSS), and corresponding model fits were ranked with the Akaike Information Criterion (AIC).<sup><xref ref-type="bibr" rid="CR22">22</xref></sup> The best-fitting growth rate index was chosen via the lowest relative AIC and was used in subsequent analyses. The data related to changes in volume of the lesion between the time of screening and at diagnosis, as well as the time between screening and diagnosis, were used to estimate the <bold><underline>S</underline></bold>erial <bold><underline>M</underline></bold>ammography-derived <bold><italic><underline>In</underline></italic></bold><italic><underline>-</underline></italic><bold><italic><underline>vi</underline></italic></bold><italic>vo</italic>
+<bold><underline>G</underline></bold>r<bold><underline>o</underline></bold>wth <bold><underline>R</underline></bold>ate (<italic>SM-INVIGOR</italic>) (Fig. <xref rid="Fig1" ref-type="fig">1b</xref>). To control for common clinicopathological confounders, the growth rate model was also analysed with multivariate Cox regression alongside grade, age and oestrogen receptor (ER) status. In addition, the tumour volumes at the screening and diagnostic time points were tested prognostically to evaluate the prognostic significance of the change in tumour volume versus that of the screen- or diagnostic mammogram-calculated volume individually (Fig. <xref rid="Fig1" ref-type="fig">1c</xref>).</p>
+              </sec>
+              <sec id="Sec6">
+                <title>Assessing and scoring immunohistochemical staining</title>
+                <p id="Par11">For each patient, a representative formalin-fixed paraffin wax-embedded (FFPE) tumour block of the resected tumour was obtained from the Nottingham breast tumour bank (Fig. <xref rid="Fig1" ref-type="fig">1d</xref>). Full-face sections 4-μm thick from the representative FFPE tumour blocks were prepared onto Xtra® Surgipath glass slides, and were used for immunohistochemical (IHC) assessment of the following markers: ER, progesterone receptor (PR), human epidermal growth factor receptor 2 (HER2), the proliferation markers Ki67 and MCM2 (minichromosome maintenance 2), the basal markers CK5/6 (cytokeratin 5/6) and epidermal growth factor receptor (EGFR), the apoptosis markers BCL2 and cleaved caspase-3. IHC was performed on tissue sections using the Novolink™ Max Polymer Detection System (Leica, Newcastle, UK). Briefly, heat-assisted retrieval of antigen epitopes was performed in citrate buffer (pH 6) using a microwave for 20 min, followed by immediate cooling. The slides were rinsed with Tris-buffered saline (TBS, pH 7.6). The primary antibodies as summarised in Table <xref rid="MOESM1" ref-type="media">S2</xref> were applied for 30 min at room temperature, except for cleaved caspase-3 staining. For cleaved caspase-3, a pre-fabricated detection kit (<italic>SignalStain</italic><italic>®</italic>
+<italic>Cleaved Caspase-3 (Asp175) IHC Detection Kit #8120, Cell Signaling Technology)</italic> was used following the manufacturer’s instructions. Other markers were stained using our protocols as previously published.<sup><xref ref-type="bibr" rid="CR23">23</xref>,<xref ref-type="bibr" rid="CR24">24</xref></sup></p>
+                <p id="Par12">Appropriate positive and negative controls were used for each marker and included in each staining run. Only the invasive tumour cells were scored independently by two observers (SB and MA) blinded to each other’s scores and clinicopathological data. Cases with discordant results were further reviewed by both observers to achieve scoring consensus. For each marker, the percent and intensity of staining were assessed, and H-scores were generated. For ER, PR and HER2, cut-offs according to published guidelines were used.<sup><xref ref-type="bibr" rid="CR25">25</xref>,<xref ref-type="bibr" rid="CR26">26</xref></sup> Ki67 and cleaved caspase-3 were assessed and scored as previously described.<sup><xref ref-type="bibr" rid="CR23">23</xref>,<xref ref-type="bibr" rid="CR24">24</xref></sup> BC molecular subtypes were defined based on their IHC expression profile into (a) luminal (ER + and/or PR + /HER2-), (b) HER2 + (HER2-positive), (c) triple-negative (TN; ER-, PR-, HER2-) and (d) basal-like breast cancer (BLBC: TN + CK5/6 + ).<sup><xref ref-type="bibr" rid="CR24">24</xref></sup> A total of 92 cases were informative for IHC biomarkers, and these comprised the study cohort in the subsequent analyses including molecular markers (Fig. <xref rid="Fig1" ref-type="fig">1e</xref>).</p>
+              </sec>
+              <sec id="Sec7">
+                <title>Development of the machine learning-based surrogate model (Surr-INVIGOR)</title>
+                <p id="Par13">The above-mentioned clinical and molecular variables and immunohistochemical biomarkers (Table <xref rid="MOESM1" ref-type="media">S3</xref>) were evaluated using machine-learning algorithms to identify an optimal feature set that could serve as a surrogate model for <italic>SM-INVIGOR</italic> to predict fast or slow in vivo growth rate for cases where only a single (diagnostic) mammogram is available (Fig. <xref rid="Fig1" ref-type="fig">1f–h</xref>). The significance of mean differences for all potential surrogate variables, between fast-growing and slow-growing tumours, was first calculated using a two-tailed <italic>t</italic> test; this was followed by a ranking of the variables based upon their discriminating capacity. Multiple classification algorithms (support vector machines, naive Bayes, decision trees, discriminant analysis and ensemble) with optimised hyperparameters<sup><xref ref-type="bibr" rid="CR27">27</xref>,<xref ref-type="bibr" rid="CR28">28</xref></sup> were then tested. The machine-learning algorithm and feature set that resulted in the maximum fivefold cross-validated accuracy (mean of 100 iterations) were chosen. For each trained machine-learning model (combination of biomarkers), hyperparameters were fit through Bayesian optimisation<sup><xref ref-type="bibr" rid="CR27">27</xref>,<xref ref-type="bibr" rid="CR28">28</xref></sup> over 180 iterations (Table <xref rid="MOESM1" ref-type="media">S4</xref>). Furthermore, a combination of variables was used, in an optimised regression model, to identify if the continuous growth rate value for each patient could be determined. Finally, the outputs from the machine learning-based approach were compared with the regression-based models, which did not yield good R<sup>2</sup> values owing to small sample size.</p>
+              </sec>
+              <sec id="Sec8">
+                <title>Validation of Surr-INVIGOR</title>
+                <p id="Par14">The prognostic performance of this surrogate model (<italic>Surr-INVIGOR</italic>) was tested in an independent, well-characterised large validation cohort of 1241 BC patients using Kaplan–Meier survival analysis (Fig. <xref rid="Fig1" ref-type="fig">1i, j</xref>). Multivariate Cox regression was used to control for confounding effects of common clinicopathological variables.</p>
+              </sec>
+              <sec id="Sec9">
+                <title>Statistical analysis</title>
+                <p id="Par15">All statistical analyses were carried out with SAS 9.4® software and MATLAB version 9.2. Clinicopathological proportion differences between growth groups were determined using the χ<sup>2</sup> test. Continuous clinicopathological variable differences were evaluated via a two-tailed <italic>t</italic> test. Prognostic time to event analysis was performed using Kaplan–Meier and Cox proportional hazard regression, wherein a death due to BC was considered as an event and every other outcome was censored. For all analyses, <italic>p</italic> &lt; 0.05 was considered significant.</p>
+              </sec>
+            </sec>
+            <sec id="Sec10" sec-type="results">
+              <title>Results</title>
+              <sec id="Sec11">
+                <title>Clinicopathological and molecular features of cases in the study cohort</title>
+                <p id="Par16">Most patients in the study cohort showed features associated with good prognosis, including lower grade and negative (65%) or early positive (pN1; 26%) lymph nodes. Age at the time of diagnosis ranged from 50 to 73 years (mean = 60.3 years, median = 61.0 years). There was a predominance of the luminal A subtype with 85% positive for ER, while HER2 overexpression was identified in only 6% of the patients. Ki67 staining ranged from 0 to 96%, with a mean expression of 19% (Table <xref rid="Tab1" ref-type="table">1</xref>). Moreover, there was a significant correlation between the histological tumour size and the mammogram tumour size at time of diagnosis (Pearson’s correlation = 0.58870; <italic>p</italic> &lt; 0.0001).<table-wrap id="Tab1"><label>Table 1</label><caption><p>Clinicopathological characteristics of cases in the study cohort and validation cohort</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Parameters</th><th>Study cohort</th><th>Validation cohort</th></tr><tr><th/><th>Number of cases (<italic>N</italic>; %)</th><th>Number of cases (<italic>N</italic>; %)</th></tr></thead><tbody><tr><td colspan="3">Age</td></tr><tr><td> ≤65</td><td>75 (81.5)</td><td>1057 (85.2)</td></tr><tr><td> &gt;65</td><td>17 (18.5)</td><td>184 (14.8)</td></tr><tr><td colspan="3">Tumour grade</td></tr><tr><td> 1</td><td>16 (17.4)</td><td>325 (26.2)</td></tr><tr><td> 2</td><td>42 (45.7)</td><td>501 (40.4)</td></tr><tr><td> 3</td><td>34 (36.9)</td><td>415 (33.4)</td></tr><tr><td colspan="3">Tumour size</td></tr><tr><td> ≤15</td><td>32 (35.0)</td><td>969 (72.31)</td></tr><tr><td> &gt;15</td><td>60 (65.0)</td><td>371 (27.69)</td></tr><tr><td colspan="3">Lymph node</td></tr><tr><td> 1</td><td>60 (65.2)</td><td>763 (61.5)</td></tr><tr><td> 2</td><td>24 (26.1)</td><td>382 (30.8)</td></tr><tr><td> 3</td><td>8 (8.7)</td><td>96 (7.7)</td></tr><tr><td colspan="3">Hormone receptor status</td></tr><tr><td> ER positive</td><td>78 (84.8)</td><td>915 (73.7)</td></tr><tr><td> ER negative</td><td>14 (15.2)</td><td>326 (26.3)</td></tr><tr><td> PR positive </td><td>59 (64.1)</td><td>675 (54.4)</td></tr><tr><td> PR negative</td><td>33 (35.9)</td><td>566 (45.6)</td></tr><tr><td colspan="3">HER2 expression</td></tr><tr><td> Positive</td><td>5 (5.4)</td><td>151 (12.2)</td></tr><tr><td> Negative</td><td>81 (88.0)</td><td>1058 (85.3)</td></tr><tr><td> Missing</td><td>6 (6.5)</td><td>32 (2.6)</td></tr><tr><td colspan="3">Intrinsic molecular subtypes</td></tr><tr><td> Luminal A</td><td>38 (41.3)</td><td>408 (32.9)</td></tr><tr><td> Luminal B</td><td>28 (30.4)</td><td>429 (34.6)</td></tr><tr><td> HER2</td><td>5 (5.4)</td><td>151 (12.2)</td></tr><tr><td> BLBC</td><td>4 (4.3)</td><td>138 (11.1)</td></tr><tr><td> Triple negative</td><td>11 (12.0)</td><td>68 (5.5)</td></tr><tr><td> Missing</td><td>6 (6.5)</td><td>47 (3.8)</td></tr><tr><td colspan="3">Ki67</td></tr><tr><td> High</td><td>44 (47.8)</td><td>667 (53.7)</td></tr><tr><td> Low</td><td>48 (52.2)</td><td>574 (46.3)</td></tr><tr><td colspan="3">Tumour type</td></tr><tr><td> Invasive no special type</td><td>50 (54.3)</td><td>761 (61.3)</td></tr><tr><td> Invasive lobular</td><td>17 (18.5)</td><td>93 (7.5)</td></tr><tr><td> Tubular</td><td>11 (12.0)</td><td>299 (24.1)</td></tr><tr><td> Mucinous</td><td>2 (2.2)</td><td>11 (0.8)</td></tr><tr><td> Mixed type</td><td>12 (13.0)</td><td>77 (6.2)</td></tr><tr><td colspan="3">Coexisting DCIS</td></tr><tr><td> None</td><td>21 (23.0)</td><td>NA</td></tr><tr><td> Low grade</td><td>20 (22.0)</td><td>NA</td></tr><tr><td> Intermediate grade</td><td>22 (24.0)</td><td>NA</td></tr><tr><td> High grade</td><td>29 (31.0)</td><td>NA</td></tr><tr><td colspan="3">Lymphovascular invasion</td></tr><tr><td> Negative</td><td>60 (66.2)</td><td>686 (55.3)</td></tr><tr><td> Definite</td><td>21 (22.8)</td><td>397 (32.0)</td></tr><tr><td> Probable</td><td>11 (11)</td><td>158 (12.7)</td></tr><tr><td colspan="3">Outcome status</td></tr><tr><td> Alive</td><td>62 (67.4)</td><td>650 (52.3)</td></tr><tr><td> Dead</td><td>30 (32.6)</td><td>591 (47.6)</td></tr></tbody></table></table-wrap></p>
+              </sec>
+              <sec id="Sec12">
+                <title>Development of SM-INVIGOR, a significant predictor of BCSS</title>
+                <p id="Par17">Since fast in vivo growth prior to diagnosis is a sign of aggressive disease and could lead to poor outcomes, we reasoned that the growth rate model of choice would be the one that is most prognostic. Thus, we evaluated various combinations of growth rate functions and assumptions regarding the tumour’s three-dimensional shape. The best-fitting model of tumour volume and growth rate was obtained using the assumption that the study cohort comprises spherical tumours growing at a power law (α = 0.5) rate; this growth rate function (<italic>SM-INVIGOR)</italic> stratified the tumours into slow-growing and fast-growing subgroups and produced a minimum cross-validated AIC of 152.621 (Table <xref rid="MOESM1" ref-type="media">S5</xref>). Using these assumptions, tumour volumes at the time of screening ranged from 53 to 56,115 mm<sup>3</sup> (mean of 2742 ± 7619 mm<sup>3</sup>). This contrasted with tumour volumes at diagnosis, which ranged from 61 to 61,562 mm<sup>3</sup> (mean = 5573 ± 8768 mm<sup>3</sup>). The mean time difference between date of first screening and that of second diagnostic screening was 18 months (range 4–37 months, median = 17.5 months). Tumour growth rate differed considerably from patient to patient, ranging from 0 to 0.53 mm<sup>3</sup>/day (mean = 0.08 ± 0.13 mm<sup>3</sup>).</p>
+                <p id="Par18"><italic>SM-INVIGOR</italic> used a cut-off of 0.045 mm<sup>3</sup>/day to stratify tumours into slow-growing (<italic>n</italic> = 53) and fast-growing (<italic>n</italic> = 37) subgroups. Faster <italic>SM-INVIGOR</italic> significantly associated with clinicopathological factors normally associated with poorer prognoses, such as larger histological tumour size (<italic>p</italic> = 0.0023), high grade (Grade 3) (<italic>p</italic> = 0.0186), more mitotic divisions (<italic>p</italic> = 0.0134), apparent vascular invasion (<italic>p</italic> = 0.0139) and a poor NPI (<italic>p</italic> = 0.011) (Fig. <xref rid="Fig2" ref-type="fig">2a</xref>). <italic>SM-INVIGOR</italic> varied significantly between BC molecular subtypes with the highest rate observed in triple-negative BC (TNBC) compared with other subtypes (<italic>p</italic> &lt; 0.05). Among the proliferation/apoptosis-related biomarkers that were immunohistochemically assessed (Table <xref rid="MOESM1" ref-type="media">S3</xref>), only Ki67 showed a significant mean difference (<italic>p</italic> = 0.0003) between the fast-growing (24%) versus slow-growing (11%) tumour subgroups. Furthermore, patients with higher tumour growth rate showed significantly poorer survival (BCSS = 71.7%) relative to the slow-growing tumours (BCSS = 91.9%) as shown in Kaplan–Meier’s survival graph (Fig. <xref rid="Fig2" ref-type="fig">2b</xref>). <italic>SM-INVIGOR</italic> retained prognostic significance (<italic>p</italic> = 0.0299, high growth rate HR = 4.605) upon controlling for common clinicopathological variables, including grade, age and ER status. In fact, <italic>SM-INVIGOR</italic> was the only variable significantly associated with BCSS in our multivariable analysis (Fig. <xref rid="Fig2" ref-type="fig">2c</xref>).<fig id="Fig2"><label>Fig. 2</label><caption><p>Prognostic significance of <italic>SM-INVIGOR</italic>. <bold>a</bold> Univariate associations between clinicopathological parameters and <italic>SM-INVIGOR</italic>. <bold>b</bold> Kaplan–Meier survival curve for study cohort patients stratified into high and low growth rate groups by SM-INVIGOR. <bold>c</bold> Multivariable analysis of the association between clinicopathological variables and outcome [breast cancer-specific survival (BCCS)] in study cohort. <bold>d</bold> Univariate association between clinicopathological parameters and <italic>Surr-INVIGOR</italic> in validation cohort. <bold>e</bold> Kaplan–Meier survival curve for patients stratified into high and low growth rate subgroups by <italic>Surr-INVIGOR</italic> in validation cohort. <bold>f</bold> Multivariable analysis of the association between clinicopathological variables and BCSS in validation cohort</p></caption><graphic xlink:href="41416_2019_539_Fig2_HTML" id="d32e1330"/></fig></p>
+              </sec>
+              <sec id="Sec13">
+                <title>Development of a clinically relevant surrogate model (Surr-INVIGOR) for in vivo growth rate prediction</title>
+                <p id="Par19">Unlike the patients in our unique discovery cohort, most begin therapy at an initial cancer diagnosis, and are therefore unlikely to have two serial mammograms with two tumour volume measurements. Because of this difference, <italic>SM-INVIGOR</italic> is limited in its utility to derive in vivo tumour growth rate for most BC patients in routine clinical practice. Therefore, to extend the benefits of having growth rate data (or estimates) to a much larger group of patients lacking a second mammogram, we developed a machine learning-based surrogate growth rate model for <italic>SM-INVIGOR</italic> and called it <italic>Surr-INVIGOR</italic> (described in Supplementary Data). <italic>Surr-INVIGOR</italic> non-linearly combines multiple clinicopathological variables and immunohistochemical biomarkers to predict in vivo growth rate. First, we evaluated the ability of individual clinicopathological variables to serve as potential surrogate features and discriminate between the fast-growing and slow-growing tumour subgroups of our study cohort (<italic>p</italic>-values for mean difference between the subgroups is shown in Table <xref rid="MOESM1" ref-type="media">S4</xref>). Ki67 (<italic>p</italic> = 0.000265), mitotic score (MI; <italic>p</italic> = 0.002479), tumour size (<italic>p</italic> = 0.003619), NPI (<italic>p</italic> = 0.004163) and grade (<italic>p</italic> = 0.021128) differed significantly between the fast-growing and slow-growing tumours. The seven variables (Ki67, mitotic score, tumour size, NPI, grade, stage and tumour size) with <italic>p-</italic>value &lt; 0.2 were then tested in multiple machine learning-based classification algorithms via sequential selection (Fig. <xref rid="MOESM1" ref-type="media">S1</xref>). The maximised cross-validated accuracy, which indicates the optimal <italic>Surr-INVIGOR</italic> model, was obtained when three features (Ki67, MI and histological tumour size) were used in a K-nearest neighbour algorithm or KNN (accuracy or concordance with the classification yielded by <italic>SM-INVIGOR</italic> = 0.706). The ensemble also yielded a 70% accurate classifier, but required four additional features; the more parsimonious KNN was thus selected for use in <italic>Surr-INVIGOR</italic>. Fitting an optimal regression model to predict the growth rate continuously resulted in a poor R<sup>2</sup>, peaking at 0.22, as shown in Fig. <xref rid="MOESM1" ref-type="media">S2</xref>, perhaps owing to the small sample size. Thus, our machine learning-based <italic>Surr-INVIGOR</italic> model was a clinically relevant, superior choice compared with regression-based models.</p>
+              </sec>
+              <sec id="Sec14">
+                <title>Validation of <italic>Surr-INVIGOR</italic> in an independent BC case series demonstrates its robust prognostic value</title>
+                <p id="Par20">We then evaluated the prognostic ability of <italic>Surr-INVIGOR</italic> in an independent BC case series (<italic>n</italic> = 1241) from Nottingham University Hospital, UK. Patient age at the time of diagnosis ranged from 21–71 years (mean = 53.6 years, median = 54 years). Most patients showed features associated with good prognosis, including negative lymphovascular invasion (55.3%), and negative (61%) or showed 1–3 positive (30%) lymph nodes. Patient follow-up time ranged from 1 to 120 months (mean = 100.237, median = 120). The clinicopathological features of patients are summarised in Table <xref rid="Tab1" ref-type="table">1</xref>.</p>
+                <p id="Par21">The clinicopathological variables that discriminated between slow-growing and fast-growing tumours are depicted in Fig. <xref rid="Fig2" ref-type="fig">2d</xref>. Applying the previously trained <italic>Surr-INVIGOR</italic> model, using the same input parameters on this naive validation cohort resulted in significant BCSS stratification. Patients in the fast growth rate group (<italic>n</italic> = 922, BCSS = 72.9%) had a significantly lower survival than patients in the slow growth rate group (<italic>n</italic> = 269, BCSS = 92.3%; Fig. <xref rid="Fig2" ref-type="fig">2e)</xref>. After accounting for potential clinicopathological cofounders, <italic>Surr-INVIGOR</italic> retained prognostic significance (HR = 1.758, <italic>p</italic> = 0.0361) alongside grade as shown in Fig. <xref rid="Fig2" ref-type="fig">2f</xref>.</p>
+              </sec>
+              <sec id="Sec15">
+                <title><italic>Surr-INVIGOR</italic> can be used to determine tumour age at diagnosis in a subset of breast tumours</title>
+                <p id="Par22">Using the different growth rate groups, we can estimate tumour age and the time of inception of a subset of tumours. Assuming the highest (bounded) power law (α = 0.5) growth rate (0.04593 mm<sup>3</sup>/day) for the slow-growing subgroup, we can estimate the date after which the tumour was definitely present within the patients in the slow-growing tumour subgroup. Using these assumptions, we determined that the average tumour age at diagnosis of slow-growing tumours was 4.7 years (Fig. <xref rid="MOESM1" ref-type="media">S3</xref>). Using this methodology, it may be possible to determine whether a patient possessing a slow-growing tumour undetected at earlier screenings had received a true-negative or false-negative (i.e., tumour was missed) screening result.</p>
+              </sec>
+            </sec>
+            <sec id="Sec16" sec-type="discussion">
+              <title>Discussion</title>
+              <p id="Par23">Although several studies have investigated variables associated with pre-diagnosis in vivo BC growth rate, only clinicopathological variables and a few molecular biomarkers have been studied in this context, and the available tumour dimensions were limited due to the measurement of the tumour’s long-axis only.<sup><xref ref-type="bibr" rid="CR2">2</xref>,<xref ref-type="bibr" rid="CR5">5</xref>,<xref ref-type="bibr" rid="CR29">29</xref>,<xref ref-type="bibr" rid="CR30">30</xref></sup> This study utilised a unique cohort of cases with tumour volume measurements (derived using tumour diameter and height data) available from a pair of serial mammograms to derive their in vivo growth rates (<italic>SM-INVIGOR</italic>). We explored the potential association of a larger number of molecular biomarkers with their in vivo BC growth rate, reaffirmed that fast tumour growth rate has a profound impact on prognosis, developed and validated a surrogate model (<italic>Surr-INVIGOR</italic>) that can predict a gross scale (fast versus slow) in vivo growth rate accurately in routine practice, and its medicolegal consequences.</p>
+              <p id="Par24">The success of breast screening lies in the timely detection of cancer on mammography. False-negative mammography is among the principal reasons for delayed diagnosis of BC.<sup><xref ref-type="bibr" rid="CR31">31</xref>–<xref ref-type="bibr" rid="CR34">34</xref></sup> Even though some authors quote high sensitivity (&gt;90%) for diagnostic mammography, such results are not universal.<sup><xref ref-type="bibr" rid="CR35">35</xref></sup> Among many factors, age appears to be one of the important factors underlying false-negative reporting, because the high-radiographic density of breast in young women makes detection difficult.<sup><xref ref-type="bibr" rid="CR6">6</xref></sup> Mammograms are generally capable of detecting tumours as small as 2 mm in diameter, which equates to a tumour of ~10<sup>7</sup> cells and about 23 tumour doublings.<sup><xref ref-type="bibr" rid="CR36">36</xref></sup> In our study cohort, however, patients with tumours ranging from 4 to 55 mm received false-negative diagnoses in their screening mammograms showing the imperfection associated with this technology and inherent human limitations associated with reading radiology films. Whether the spread of a tumour is due to delays in diagnosis and initiation of treatment, or due to the inherently more aggressive nature of the tumour cells themselves (i.e., higher in vivo tumour growth rate) is another highly controversial matter. Natural fears that the delay in diagnosis has reduced their chances of survival or of avoiding the life-sapping effects of chemotherapy, or the feeling that cosmetic outcomes which would have been better had the tumour been detected earlier, are frequent causes of patients seeking legal redress. The importance of breast imaging in BC diagnosis and the use of mammography in screening has thus pushed breast radiologists into the frontline for medicolegal actions.<sup><xref ref-type="bibr" rid="CR37">37</xref></sup> Cancers missed at screening but followed by a positive diagnostic mammogram are not common, yet false-negative mammography is amongst the principal reasons for delayed diagnosis of BC.<sup><xref ref-type="bibr" rid="CR31">31</xref>–<xref ref-type="bibr" rid="CR34">34</xref></sup> Only few population-screening programmes have reported the data on this group of cancers, which makes our study cohort uniquely valuable. This cohort allowed us to develop a model to predict pre-diagnostic in vivo tumour growth rate, and provide insights into the potential prognostic consequences of delays in BC diagnosis.</p>
+              <p id="Par25">Our study has yielded several key insights into features and the prognostic significance of the rate of tumour growth in its early stages. In our study, we found that <italic>SM-INVIGOR</italic> varies considerably, and is consistent with findings by Weedon-Fekjaer et al.<sup><xref ref-type="bibr" rid="CR5">5</xref></sup> who reported that the time BC takes to grow from 10 mm to 20 mm in diameter varied from less than 1.2 months to more than 6.3 years. Our current study also reinforced previous findings that higher grade and larger tumours with high proliferative activity are likely to have faster <italic>SM-INVIGOR</italic>, and that faster pre-diagnosis growth rate predicted shorter survival.<sup><xref ref-type="bibr" rid="CR2">2</xref>,<xref ref-type="bibr" rid="CR5">5</xref>,<xref ref-type="bibr" rid="CR29">29</xref>,<xref ref-type="bibr" rid="CR30">30</xref>,<xref ref-type="bibr" rid="CR38">38</xref>,<xref ref-type="bibr" rid="CR39">39</xref></sup> We also found that the status of lymphovascular invasion (LVI) correlated with growth rate; with highly proliferative and fast-growing tumours more likely to develop when there is increased provision of nutrients to the tumour cells from the leaky invaded blood vessels. Our results indicated that increasing <italic>SM-INVIGOR</italic> increases the risk of mortality of the disease. However, <italic>SM-INVIGOR</italic> cannot be included as a prognostic variable in routine clinical practice because of difficulty in evaluating it in the short interval between diagnosis and treatment.</p>
+              <p id="Par26">Therefore, we developed <italic>Surr-INVIGOR</italic> to predict the pre-diagnosis in vivo BC growth rate after testing multiple clinicopathological and molecular variables (individually and in combination) using diverse machine-learning algorithms. The optimal algorithm, a KNN which used Ki67, MI and size, stratified both the study and validation cohorts into two subgroups with very distinct outcomes. <italic>Surr-INVIGOR</italic> further allowed routine clinical parameters to be used in patients with slow-growing tumours to determine tumour size at various time points before the diagnosis of the tumour. For fast-growing tumours, immediate surgery is often recommended, as delays may result in upgrading of clinical T stage. <italic>Surr-INVIGOR</italic> may thus have a potential use in medicolegal cases, and may be used to guide screening and perhaps even follow-up intervals in selected groups of BC patients.</p>
+              <p id="Par27">Consistent with previous studies,<sup><xref ref-type="bibr" rid="CR40">40</xref>,<xref ref-type="bibr" rid="CR41">41</xref></sup> the results from our validation cohort showed a significant correlation between BC molecular subtypes and pre-diagnosis tumour growth rate, wherein a higher growth rate was observed in triple-negative/basal-like BC patients. Previous studies have indicated that faster-growing tumours lead to poorer survival.<sup><xref ref-type="bibr" rid="CR42">42</xref>–<xref ref-type="bibr" rid="CR45">45</xref></sup> Our results compellingly demonstrated that high pre-diagnosis in vivo BC growth rate increases the risk of mortality from the disease regardless of potential clinicopathological cofounders. Some previous studies did not find such statistically significant associations,<sup><xref ref-type="bibr" rid="CR3">3</xref>,<xref ref-type="bibr" rid="CR4">4</xref></sup> which might be because in those studies, the tumour volume was calculated using only one dimension—a method that can introduce considerable inaccuracy into growth rate calculations. In this study, we utilised a combination of power law growth rate and spherical volume, both of which were significant in a previous study using two-dimensional breast mammogram data,<sup><xref ref-type="bibr" rid="CR19">19</xref></sup> and showed the most significant prognostic relevance in our data.</p>
+              <p id="Par28">Review of previous mammography is carried out as a routine practice at Nottingham Hospital, and cases that show an abnormality at the same site as the diagnosed tumours are considered as cancers potentially missed in the prior screening. Some of these tumours are only detectable in retrospect with knowledge of the diagnostic mammograms, and if all such subtle areas were recalled for further assessment, this would likely increase the false-positive rate beyond what is regarded as acceptable in the NHS breast screening programme. The impact of such delay in the diagnosis on the presentation and outcome of these tumours compared with matched population of women who presented for the first time as symptomatic or with screen-detected BC remains to be defined. Most tumours included in our study (similar to other studies looking at screen-detected tumours) by their very nature, were small, slow-growing luminal tumours and infrequently expressed basal markers or HER2 with similar nodal status.<sup><xref ref-type="bibr" rid="CR30">30</xref></sup> This can be explained by the unique nature of these slow-growing early-stage tumours in this study. By contrast, aggressive tumours are likely to present without prior mammographic abnormality.<sup><xref ref-type="bibr" rid="CR46">46</xref></sup> In line with these results, Kalager et al.<sup><xref ref-type="bibr" rid="CR47">47</xref></sup> have reported that BCs presenting as interval cancers were slightly larger than symptomatic BC, but there was no difference between the two groups regarding lymph node status or patient outcome. Moreover, our results indicated that the impact of <italic>SM-INVIGOR</italic> on disease stage and development of LVI is limited. However, this study holds a few limitations: due to the unique nature of the study cohort and the lack of similar missed cancer cohorts, the <italic>SM-INVIGOR</italic> growth index could not be readily validated. In addition, this is a retrospective, single centre study and adjuvant treatment regimens were not factored in our analyses. Validation of the model in diverse cohorts is necessary before it can be applied for the prediction of in vivo growth rate and determination of the likely tumour initiation date and previous tumour size in clinico-legal cases. If validated in further studies, the model developed herein could potentially guide treatment selection, as it prognostically distinguishes fast-growing tumours from slow-growing ones. For example, for fast-growing tumours, immediate treatment in the form of primary systemic therapy (rather than surgery) may be required. Moreover, HER2 is known to be related to rapid growth of tumours, and might be a good marker to add to the <italic>Surr-INVIGOR</italic>; however, our study cohort was overwhelmingly HER2 negative and thus its impact within a prognostic model could not be properly measured. Further analysis may be required in a diverse cohort.</p>
+              <p id="Par29">In conclusion, this study has demonstrated that multiple factors control BC growth; when considered together Ki67, mitotic index and tumour size produce a robust prediction model of pre-diagnostic growth rate and can be used to classify BCs as slow growing or fast growing. The impact of missing subtle cancers in screening mammography seems to depend on whether the tumour was slow growing or fast growing prior to diagnosis, as fast-growing tumours were associated with poorer outcomes and perhaps reflected more aggressive tumour biology. Independent validation of these findings in multiple and more diverse cohorts is warranted.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary information</title>
+              <sec id="Sec17">
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM1">
+                    <media xlink:href="41416_2019_539_MOESM1_ESM.pdf">
+                      <caption>
+                        <p>Supplementary files</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p><bold>Publisher’s note:</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+              <fn>
+                <p>These authors contributed equally: Shristi Bhattarai, Sergey Klimov</p>
+              </fn>
+            </fn-group>
+            <sec>
+              <title>Supplementary information</title>
+              <p><bold>Supplementary information</bold> is available for this paper at 10.1038/s41416-019-0539-x.</p>
+            </sec>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>We would like to sincerely thank Dr. Emiel A.M. Janssen for discussions and help with editing of the paper. We also thank the Nottingham Health Science Biobank for providing tissue samples.</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Author contributions</title>
+              <p>S.B.: study design, experiments, analysis and writing the paper. S.K.: statistical analysis, machine-learning model and writing the paper. M.A.: identifying cases, experiments and editing the paper. H.B.: identifying cases. A.W.: identifying cases and study design. A.G.: identifying cases and study design. P.R.: discussion and editing the paper. I.E.: study support. R.O.: help with data analysis. E.R.: study design, paper editing, financial support and overall study supervision. R.A.: study design, paper editing, financial support and overall study supervision.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Data availability</title>
+              <p>All the data and results generated during the study can be provided upon journal request.</p>
+            </notes>
+            <notes id="FPar4" notes-type="COI-statement">
+              <title>Competing interests</title>
+              <p id="Par32">The authors declare no competing interests.</p>
+            </notes>
+            <notes id="FPar2">
+              <title>Ethics approval and consent to participate</title>
+              <p id="Par31">This study was approved by the Nottingham Research Ethics Committee 2 under the title “Development of a molecular genetic classification of breast cancer”. All samples from Nottingham used in this study were pseudoanonymised and collected prior to 2006 and therefore under the Human Tissue Act (UK, 2006), informed patient consent was not needed. Release of data was also pseudoanonymised as per Human Tissue Act regulations. We can declare that this study is complying with Helsinki declaration.</p>
+            </notes>
+            <notes id="FPar1" notes-type="funding">
+              <title>Funding</title>
+              <p id="Par30">The study was supported by grants to R.A. from the National Cancer Institute at the National Institute of Health (U01 CA179671 and R01 CA169127).</p>
+            </notes>
+            <notes id="FPar030">
+              <title>Consent to publish</title>
+              <p id="Par056">Not applicable</p>
+            </notes>
+            <notes id="FPar1111">
+              <title>Data availability</title>
+              <p id="Par00030">All the data and results generated during the study can be provided upon journal request.</p>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Brekelmans</surname>
+                      <given-names>CT</given-names>
+                    </name>
+                    <name>
+                      <surname>van Gorp</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Peeters</surname>
+                      <given-names>PH</given-names>
+                    </name>
+                    <name>
+                      <surname>Collette</surname>
+                      <given-names>HJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Histopathology and growth rate of interval breast carcinoma</article-title>
+                  <source>Charact. Differ. Subgr. Cancer</source>
+                  <year>1996</year>
+                  <volume>78</volume>
+                  <fpage>1220</fpage>
+                  <lpage>1228</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hart</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Shochat</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Agur</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The growth law of primary breast cancer as inferred from mammography screening trials data</article-title>
+                  <source>Br. J. Cancer</source>
+                  <year>1998</year>
+                  <volume>78</volume>
+                  <fpage>382</fpage>
+                  <lpage>387</lpage>
+                  <pub-id pub-id-type="doi">10.1038/bjc.1998.503</pub-id>
+                  <pub-id pub-id-type="pmid">9703287</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tubiana</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Pejovic</surname>
+                      <given-names>MH</given-names>
+                    </name>
+                    <name>
+                      <surname>Koscielny</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Chavaudra</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Malaise</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Growth rate, kinetics of tumor cell proliferation and long-term outcome in human breast cancer</article-title>
+                  <source>Int. J. Cancer</source>
+                  <year>1989</year>
+                  <volume>44</volume>
+                  <fpage>17</fpage>
+                  <lpage>22</lpage>
+                  <pub-id pub-id-type="doi">10.1002/ijc.2910440104</pub-id>
+                  <pub-id pub-id-type="pmid">2744888</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yoo</surname>
+                      <given-names>TK</given-names>
+                    </name>
+                    <name>
+                      <surname>Min</surname>
+                      <given-names>JW</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>MK</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>HB</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>In vivo tumor growth rate measured by US in Preoperative period and long term disease outcome in breast cancer patients</article-title>
+                  <source>PloS ONE</source>
+                  <year>2015</year>
+                  <volume>10</volume>
+                  <fpage>e0144144</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0144144</pub-id>
+                  <pub-id pub-id-type="pmid">26657267</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Weedon-Fekjaer</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Lindqvist</surname>
+                      <given-names>BH</given-names>
+                    </name>
+                    <name>
+                      <surname>Vatten</surname>
+                      <given-names>LJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Aalen</surname>
+                      <given-names>OO</given-names>
+                    </name>
+                    <name>
+                      <surname>Tretli</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Breast cancer tumor growth estimated through mammography screening data</article-title>
+                  <source>Breast Cancer Res.</source>
+                  <year>2008</year>
+                  <volume>10</volume>
+                  <fpage>R41</fpage>
+                  <pub-id pub-id-type="doi">10.1186/bcr2092</pub-id>
+                  <pub-id pub-id-type="pmid">18466608</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Andrews</surname>
+                      <given-names>BT</given-names>
+                    </name>
+                    <name>
+                      <surname>Bates</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Delay in the diagnosis of breast cancer: medico-legal implications</article-title>
+                  <source>Breast</source>
+                  <year>2000</year>
+                  <volume>9</volume>
+                  <fpage>223</fpage>
+                  <lpage>237</lpage>
+                  <pub-id pub-id-type="doi">10.1054/brst.1999.0121</pub-id>
+                  <pub-id pub-id-type="pmid">14731999</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Berry</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                    <name>
+                      <surname>Cronin</surname>
+                      <given-names>KA</given-names>
+                    </name>
+                    <name>
+                      <surname>Plevritis</surname>
+                      <given-names>SK</given-names>
+                    </name>
+                    <name>
+                      <surname>Fryback</surname>
+                      <given-names>DG</given-names>
+                    </name>
+                    <name>
+                      <surname>Clarke</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Zelen</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Effect of screening and adjuvant therapy on mortality from breast cancer</article-title>
+                  <source>New Engl. J. Med.</source>
+                  <year>2005</year>
+                  <volume>353</volume>
+                  <fpage>1784</fpage>
+                  <lpage>1792</lpage>
+                  <pub-id pub-id-type="doi">10.1056/NEJMoa050518</pub-id>
+                  <pub-id pub-id-type="pmid">16251534</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Galante</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Gallus</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Guzzon</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Bono</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Bandieramonte</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Di Pietro</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Growth rate of primary breast cancer and prognosis: observations on a 3- to 7-year follow-up in 180 breast cancers</article-title>
+                  <source>Br. J. Cancer</source>
+                  <year>1986</year>
+                  <volume>54</volume>
+                  <fpage>833</fpage>
+                  <lpage>836</lpage>
+                  <pub-id pub-id-type="doi">10.1038/bjc.1986.247</pub-id>
+                  <pub-id pub-id-type="pmid">3801276</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Arnerlov</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Emdin</surname>
+                      <given-names>SO</given-names>
+                    </name>
+                    <name>
+                      <surname>Lundgren</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Roos</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Soderstrom</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Bjersing</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Breast carcinoma growth rate described by mammographic doubling time and S-phase fraction. Correlations to clinical and histopathologic factors in a screened population</article-title>
+                  <source>Cancer</source>
+                  <year>1992</year>
+                  <volume>70</volume>
+                  <fpage>1928</fpage>
+                  <lpage>1934</lpage>
+                  <pub-id pub-id-type="doi">10.1002/1097-0142(19921001)70:7&lt;1928::AID-CNCR2820700720&gt;3.0.CO;2-R</pub-id>
+                  <pub-id pub-id-type="pmid">1525768</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Boyd</surname>
+                      <given-names>NF</given-names>
+                    </name>
+                    <name>
+                      <surname>Meakin</surname>
+                      <given-names>JW</given-names>
+                    </name>
+                    <name>
+                      <surname>Hayward</surname>
+                      <given-names>JL</given-names>
+                    </name>
+                    <name>
+                      <surname>Brown</surname>
+                      <given-names>TC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Clinical estimation of the growth rate of breast cancer</article-title>
+                  <source>Cancer</source>
+                  <year>1981</year>
+                  <volume>48</volume>
+                  <fpage>1037</fpage>
+                  <lpage>1042</lpage>
+                  <pub-id pub-id-type="doi">10.1002/1097-0142(19810815)48:4&lt;1037::AID-CNCR2820480431&gt;3.0.CO;2-C</pub-id>
+                  <pub-id pub-id-type="pmid">7023648</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Locopo</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Fanelli</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Gasparini</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Clinical significance of angiogenic factors in breast cancer</article-title>
+                  <source>Breast Cancer Res. Treat.</source>
+                  <year>1998</year>
+                  <volume>52</volume>
+                  <fpage>159</fpage>
+                  <lpage>173</lpage>
+                  <pub-id pub-id-type="doi">10.1023/A:1006175504673</pub-id>
+                  <pub-id pub-id-type="pmid">10066080</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Casey</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Bond</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Tighe</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Hunter</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Lintault</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Patel</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Molecular signatures suggest a major role for stromal cells in development of invasive breast cancer</article-title>
+                  <source>Breast Cancer Res. Treat.</source>
+                  <year>2009</year>
+                  <volume>114</volume>
+                  <fpage>47</fpage>
+                  <lpage>62</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s10549-008-9982-8</pub-id>
+                  <pub-id pub-id-type="pmid">18373191</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Heuser</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Spratt</surname>
+                      <given-names>JS</given-names>
+                    </name>
+                    <name>
+                      <surname>Polk</surname>
+                      <given-names>HC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Growth rates of primary breast cancers</article-title>
+                  <source>Cancer</source>
+                  <year>1979</year>
+                  <volume>43</volume>
+                  <fpage>1888</fpage>
+                  <lpage>1894</lpage>
+                  <pub-id pub-id-type="doi">10.1002/1097-0142(197905)43:5&lt;1888::AID-CNCR2820430545&gt;3.0.CO;2-M</pub-id>
+                  <pub-id pub-id-type="pmid">445375</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Collins</surname>
+                      <given-names>VP</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Observation on growth rates of human tumors</article-title>
+                  <source>Am. J. Roentgenol.</source>
+                  <year>1956</year>
+                  <volume>76</volume>
+                  <fpage>988</fpage>
+                  <lpage>1000</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shackney</surname>
+                      <given-names>SE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A computer model for tumor growth and chemotherapy, and its application to L1210 leukemia treated with cytosine arabinoside (NSC-63878)</article-title>
+                  <source>Cancer Chemother. Rep. Part 1</source>
+                  <year>1970</year>
+                  <volume>54</volume>
+                  <fpage>399</fpage>
+                  <lpage>429</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gompertz</surname>
+                      <given-names>B</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>On the nature of the function expressive of the law of human mortality, and on a new mode of determining the value of life contingencies</article-title>
+                  <source>Philos. Trans. R. Soc. Lond.</source>
+                  <year>1825</year>
+                  <volume>115</volume>
+                  <fpage>513</fpage>
+                  <lpage>583</lpage>
+                  <pub-id pub-id-type="doi">10.1098/rstl.1825.0026</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mandonnet</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Delattre</surname>
+                      <given-names>JY</given-names>
+                    </name>
+                    <name>
+                      <surname>Tanguy</surname>
+                      <given-names>ML</given-names>
+                    </name>
+                    <name>
+                      <surname>Swanson</surname>
+                      <given-names>KR</given-names>
+                    </name>
+                    <name>
+                      <surname>Carpentier</surname>
+                      <given-names>AF</given-names>
+                    </name>
+                    <name>
+                      <surname>Duffau</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Continuous growth of mean tumor diameter in a subset of grade II gliomas</article-title>
+                  <source>Ann. Neurol.</source>
+                  <year>2003</year>
+                  <volume>53</volume>
+                  <fpage>524</fpage>
+                  <lpage>528</lpage>
+                  <pub-id pub-id-type="doi">10.1002/ana.10528</pub-id>
+                  <pub-id pub-id-type="pmid">12666121</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mayneord</surname>
+                      <given-names>WV</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>On a law of growth of Jensen's rat sarcoma</article-title>
+                  <source>Am. J. Cancer</source>
+                  <year>1932</year>
+                  <volume>16</volume>
+                  <fpage>841</fpage>
+                  <lpage>846</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Talkington</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Durrett</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Estimating tumor growth rates in vivo</article-title>
+                  <source>Bull. Math. Biol.</source>
+                  <year>2015</year>
+                  <volume>77</volume>
+                  <fpage>1934</fpage>
+                  <lpage>1954</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s11538-015-0110-8</pub-id>
+                  <pub-id pub-id-type="pmid">26481497</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Contal</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>O'Quigley</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An application of changepoint methods in studying the effect of age on survival in breast cancer</article-title>
+                  <source>Comput. Stat. Data Anal.</source>
+                  <year>1999</year>
+                  <volume>30</volume>
+                  <fpage>253</fpage>
+                  <lpage>270</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0167-9473(98)00096-6</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <mixed-citation publication-type="other">Meyers JP, Mandrekar JN. Cutpoint Determination Methods in Survival Analysis using SAS®: Updated% FINDCUT macro. <italic>In Proc SAS Glob Forum</italic><bold>3249</bold>, (2015).</mixed-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Akaike</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A new look at the statistical model identification</article-title>
+                  <source>IEEE Trans. Autom. Control</source>
+                  <year>1974</year>
+                  <volume>19</volume>
+                  <fpage>716</fpage>
+                  <lpage>723</lpage>
+                  <pub-id pub-id-type="doi">10.1109/TAC.1974.1100705</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Aleskandarany</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Green</surname>
+                      <given-names>AR</given-names>
+                    </name>
+                    <name>
+                      <surname>Benhasouna</surname>
+                      <given-names>AA</given-names>
+                    </name>
+                    <name>
+                      <surname>Barros</surname>
+                      <given-names>FF</given-names>
+                    </name>
+                    <name>
+                      <surname>Neal</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Reis-Filho</surname>
+                      <given-names>JS</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Prognostic value of proliferation assay in the luminal, HER2-positive, and triple-negative biologic classes of breast cancer</article-title>
+                  <source>Breast Cancer Res.</source>
+                  <year>2012</year>
+                  <volume>14</volume>
+                  <fpage>R3</fpage>
+                  <pub-id pub-id-type="doi">10.1186/bcr3084</pub-id>
+                  <pub-id pub-id-type="pmid">22225836</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rakha</surname>
+                      <given-names>EA</given-names>
+                    </name>
+                    <name>
+                      <surname>Elsheikh</surname>
+                      <given-names>SE</given-names>
+                    </name>
+                    <name>
+                      <surname>Aleskandarany</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Habashi</surname>
+                      <given-names>HO</given-names>
+                    </name>
+                    <name>
+                      <surname>Green</surname>
+                      <given-names>AR</given-names>
+                    </name>
+                    <name>
+                      <surname>Powe</surname>
+                      <given-names>DG</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Triple-negative breast cancer: distinguishing between basal and nonbasal subtypes</article-title>
+                  <source>Cancer Res.</source>
+                  <year>2009</year>
+                  <volume>15</volume>
+                  <fpage>2302</fpage>
+                  <lpage>2310</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wolff</surname>
+                      <given-names>AC</given-names>
+                    </name>
+                    <name>
+                      <surname>Hammond</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Hicks</surname>
+                      <given-names>DG</given-names>
+                    </name>
+                    <name>
+                      <surname>Dowsett</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>McShane</surname>
+                      <given-names>LM</given-names>
+                    </name>
+                    <name>
+                      <surname>Allison</surname>
+                      <given-names>KH</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Recommendations for human epidermal growth factor receptor 2 testing in breast cancer: American Society of Clinical Oncology/College of American Pathologists clinical practice guideline update</article-title>
+                  <source>J. Clin. Oncol.</source>
+                  <year>2013</year>
+                  <volume>31</volume>
+                  <fpage>3997</fpage>
+                  <lpage>4013</lpage>
+                  <pub-id pub-id-type="doi">10.1200/JCO.2013.50.9984</pub-id>
+                  <pub-id pub-id-type="pmid">24101045</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hammond</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Hayes</surname>
+                      <given-names>DF</given-names>
+                    </name>
+                    <name>
+                      <surname>Wolff</surname>
+                      <given-names>AC</given-names>
+                    </name>
+                    <name>
+                      <surname>Mangu</surname>
+                      <given-names>PB</given-names>
+                    </name>
+                    <name>
+                      <surname>Temin</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>American society of clinical oncology/college of american pathologists guideline recommendations for immunohistochemical testing of estrogen and progesterone receptors in breast cancer</article-title>
+                  <source>J. Oncol. Pract./Am. Soc. Clin. Oncol.</source>
+                  <year>2010</year>
+                  <volume>6</volume>
+                  <fpage>195</fpage>
+                  <lpage>197</lpage>
+                  <pub-id pub-id-type="doi">10.1200/JOP.777003</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bull</surname>
+                      <given-names>AD</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Convergence rates of efficient global optimization algorithms</article-title>
+                  <source>J. Mach. Learn. Res.</source>
+                  <year>2011</year>
+                  <volume>12</volume>
+                  <fpage>2879</fpage>
+                  <lpage>2904</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <mixed-citation publication-type="other">Gelbart, M. A., Snoek, J., and Adams, R. P. Bayesian Optimization with Unknown Constraints. <italic>In Proceedings of the 30th Conference on Uncertainty in Artificial Intelligence, UAI</italic> (2014).</mixed-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Peer</surname>
+                      <given-names>PG</given-names>
+                    </name>
+                    <name>
+                      <surname>van Dijck</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Hendriks</surname>
+                      <given-names>JH</given-names>
+                    </name>
+                    <name>
+                      <surname>Holland</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Verbeek</surname>
+                      <given-names>AL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Age-dependent growth rate of primary breast cancer</article-title>
+                  <source>Cancer</source>
+                  <year>1993</year>
+                  <volume>71</volume>
+                  <fpage>3547</fpage>
+                  <lpage>3551</lpage>
+                  <pub-id pub-id-type="doi">10.1002/1097-0142(19930601)71:11&lt;3547::AID-CNCR2820711114&gt;3.0.CO;2-C</pub-id>
+                  <pub-id pub-id-type="pmid">8490903</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>von Fournier</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Weber</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Hoeffken</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Bauer</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Kubli</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Barth</surname>
+                      <given-names>V</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Growth rate of 147 mammary carcinomas</article-title>
+                  <source>Cancer</source>
+                  <year>1980</year>
+                  <volume>45</volume>
+                  <fpage>2198</fpage>
+                  <lpage>2207</lpage>
+                  <pub-id pub-id-type="doi">10.1002/1097-0142(19800415)45:8&lt;2198::AID-CNCR2820450832&gt;3.0.CO;2-7</pub-id>
+                  <pub-id pub-id-type="pmid">7370960</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kern</surname>
+                      <given-names>KA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Causes of breast cancer malpractice litigation. A 20-year civil court review</article-title>
+                  <source>Arch. Surg.</source>
+                  <year>1992</year>
+                  <volume>127</volume>
+                  <fpage>542</fpage>
+                  <lpage>546</lpage>
+                  <pub-id pub-id-type="doi">10.1001/archsurg.1992.01420050062008</pub-id>
+                  <pub-id pub-id-type="pmid">1575624</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lannin</surname>
+                      <given-names>DR</given-names>
+                    </name>
+                    <name>
+                      <surname>Harris</surname>
+                      <given-names>RP</given-names>
+                    </name>
+                    <name>
+                      <surname>Swanson</surname>
+                      <given-names>FH</given-names>
+                    </name>
+                    <name>
+                      <surname>Edwards</surname>
+                      <given-names>MS</given-names>
+                    </name>
+                    <name>
+                      <surname>Swanson</surname>
+                      <given-names>MS</given-names>
+                    </name>
+                    <name>
+                      <surname>Pories</surname>
+                      <given-names>WJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Difficulties in diagnosis of carcinoma of the breast in patients less than fifty years of age</article-title>
+                  <source>Surg., Gynecol. Obstet.</source>
+                  <year>1993</year>
+                  <volume>177</volume>
+                  <fpage>457</fpage>
+                  <lpage>462</lpage>
+                  <pub-id pub-id-type="pmid">8211596</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mann</surname>
+                      <given-names>BD</given-names>
+                    </name>
+                    <name>
+                      <surname>Giuliano</surname>
+                      <given-names>AE</given-names>
+                    </name>
+                    <name>
+                      <surname>Bassett</surname>
+                      <given-names>LW</given-names>
+                    </name>
+                    <name>
+                      <surname>Barber</surname>
+                      <given-names>MS</given-names>
+                    </name>
+                    <name>
+                      <surname>Hallauer</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Morton</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Delayed diagnosis of breast cancer as a result of normal mammograms</article-title>
+                  <source>Arch. Surg.</source>
+                  <year>1983</year>
+                  <volume>118</volume>
+                  <fpage>23</fpage>
+                  <lpage>24</lpage>
+                  <pub-id pub-id-type="doi">10.1001/archsurg.1983.01390010013003</pub-id>
+                  <pub-id pub-id-type="pmid">6848070</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mitnick</surname>
+                      <given-names>JS</given-names>
+                    </name>
+                    <name>
+                      <surname>Vazquez</surname>
+                      <given-names>MF</given-names>
+                    </name>
+                    <name>
+                      <surname>Plesser</surname>
+                      <given-names>KP</given-names>
+                    </name>
+                    <name>
+                      <surname>Roses</surname>
+                      <given-names>DF</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Breast cancer malpractice litigation in New York State</article-title>
+                  <source>Radiology</source>
+                  <year>1993</year>
+                  <volume>189</volume>
+                  <fpage>673</fpage>
+                  <lpage>676</lpage>
+                  <pub-id pub-id-type="doi">10.1148/radiology.189.3.8234689</pub-id>
+                  <pub-id pub-id-type="pmid">8234689</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Walker</surname>
+                      <given-names>QJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Langlands</surname>
+                      <given-names>AO</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The misuse of mammography in the management of breast cancer</article-title>
+                  <source>Med. J. Aust.</source>
+                  <year>1986</year>
+                  <volume>145</volume>
+                  <fpage>185</fpage>
+                  <lpage>187</lpage>
+                  <?supplied-pmid 3747891?>
+                  <pub-id pub-id-type="pmid">3747891</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Plotkin</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Blankenberg</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Breast cancer-biology and malpractice</article-title>
+                  <source>Am. J. Clin. Oncol.</source>
+                  <year>1991</year>
+                  <volume>14</volume>
+                  <fpage>254</fpage>
+                  <lpage>266</lpage>
+                  <pub-id pub-id-type="doi">10.1097/00000421-199106000-00014</pub-id>
+                  <pub-id pub-id-type="pmid">2031514</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bishop</surname>
+                      <given-names>HM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Medico-legal aspects of delay in breast cancer diagnosis: the surgeon's perspective</article-title>
+                  <source>Breast Cancer Res.</source>
+                  <year>2006</year>
+                  <volume>8</volume>
+                  <fpage>P23</fpage>
+                  <pub-id pub-id-type="doi">10.1186/bcr1438</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pinder</surname>
+                      <given-names>SE</given-names>
+                    </name>
+                    <name>
+                      <surname>Wencyk</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Sibbering</surname>
+                      <given-names>DM</given-names>
+                    </name>
+                    <name>
+                      <surname>Bell</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Elston</surname>
+                      <given-names>CW</given-names>
+                    </name>
+                    <name>
+                      <surname>Nicholson</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Assessment of the new proliferation marker MIB1 in breast carcinoma using image analysis: associations with other prognostic factors and survival</article-title>
+                  <source>Br. J. Cancer</source>
+                  <year>1995</year>
+                  <volume>71</volume>
+                  <fpage>146</fpage>
+                  <lpage>149</lpage>
+                  <pub-id pub-id-type="doi">10.1038/bjc.1995.30</pub-id>
+                  <pub-id pub-id-type="pmid">7819031</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Urruticoechea</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>IE</given-names>
+                    </name>
+                    <name>
+                      <surname>Dowsett</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Proliferation marker Ki-67 in early breast cancer</article-title>
+                  <source>J. Clin. Oncol.</source>
+                  <year>2005</year>
+                  <volume>23</volume>
+                  <fpage>7212</fpage>
+                  <lpage>7220</lpage>
+                  <pub-id pub-id-type="doi">10.1200/JCO.2005.07.501</pub-id>
+                  <pub-id pub-id-type="pmid">16192605</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Seewaldt</surname>
+                      <given-names>VL</given-names>
+                    </name>
+                    <name>
+                      <surname>Scott</surname>
+                      <given-names>V</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Images in clinical medicine. Rapid progression of basal-type breast cancer</article-title>
+                  <source>New Engl. J. Med.</source>
+                  <year>2007</year>
+                  <volume>356</volume>
+                  <fpage>e12</fpage>
+                  <pub-id pub-id-type="doi">10.1056/NEJMicm063760</pub-id>
+                  <pub-id pub-id-type="pmid">17392297</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ryu</surname>
+                      <given-names>EB</given-names>
+                    </name>
+                    <name>
+                      <surname>Chang</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Seo</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>SA</given-names>
+                    </name>
+                    <name>
+                      <surname>Lim</surname>
+                      <given-names>JH</given-names>
+                    </name>
+                    <name>
+                      <surname>Moon</surname>
+                      <given-names>WK</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Tumour volume doubling time of molecular breast cancer subtypes assessed by serial breast ultrasound</article-title>
+                  <source>Eur. Radiol.</source>
+                  <year>2014</year>
+                  <volume>24</volume>
+                  <fpage>2227</fpage>
+                  <lpage>2235</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00330-014-3256-0</pub-id>
+                  <pub-id pub-id-type="pmid">24895040</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR42">
+                <label>42.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Freimanis</surname>
+                      <given-names>RI</given-names>
+                    </name>
+                    <name>
+                      <surname>Yacobozzi</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Breast cancer screening</article-title>
+                  <source>North Carol. Med. J.</source>
+                  <year>2014</year>
+                  <volume>75</volume>
+                  <fpage>117</fpage>
+                  <lpage>120</lpage>
+                  <pub-id pub-id-type="doi">10.18043/ncm.75.2.117</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR43">
+                <label>43.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Heuser</surname>
+                      <given-names>LS</given-names>
+                    </name>
+                    <name>
+                      <surname>Spratt</surname>
+                      <given-names>JS</given-names>
+                    </name>
+                    <name>
+                      <surname>Kuhns</surname>
+                      <given-names>JG</given-names>
+                    </name>
+                    <name>
+                      <surname>Chang</surname>
+                      <given-names>AF</given-names>
+                    </name>
+                    <name>
+                      <surname>Polk</surname>
+                      <given-names>HC</given-names>
+                      <suffix>Jr.</suffix>
+                    </name>
+                    <name>
+                      <surname>Buchanan</surname>
+                      <given-names>JB</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The association of pathologic and mammographic characteristics of primary human breast cancers with "slow" and "fast" growth rates and with axillary lymph node metastases</article-title>
+                  <source>Cancer</source>
+                  <year>1984</year>
+                  <volume>53</volume>
+                  <fpage>96</fpage>
+                  <lpage>98</lpage>
+                  <pub-id pub-id-type="doi">10.1002/1097-0142(19840101)53:1&lt;96::AID-CNCR2820530117&gt;3.0.CO;2-A</pub-id>
+                  <pub-id pub-id-type="pmid">6690006</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR44">
+                <label>44.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Olsson</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Borgquist</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Butt</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Zackrisson</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Landberg</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Manjer</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Tumour-related factors and prognosis in breast cancer detected by screening</article-title>
+                  <source>Br. J. Surg.</source>
+                  <year>2012</year>
+                  <volume>99</volume>
+                  <fpage>78</fpage>
+                  <lpage>87</lpage>
+                  <pub-id pub-id-type="doi">10.1002/bjs.7757</pub-id>
+                  <pub-id pub-id-type="pmid">22068957</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR45">
+                <label>45.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Spratt</surname>
+                      <given-names>JS</given-names>
+                    </name>
+                    <name>
+                      <surname>Spratt</surname>
+                      <given-names>SW</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Medical and legal implications of screening and follow-up procedures for breast cancer</article-title>
+                  <source>Cancer</source>
+                  <year>1990</year>
+                  <volume>66</volume>
+                  <issue>6 Suppl</issue>
+                  <fpage>1351</fpage>
+                  <lpage>1362</lpage>
+                  <pub-id pub-id-type="doi">10.1002/1097-0142(19900915)66:14+&lt;1351::AID-CNCR2820661410&gt;3.0.CO;2-E</pub-id>
+                  <pub-id pub-id-type="pmid">2205365</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR46">
+                <label>46.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Raja</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Hubbard</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Salman</surname>
+                      <given-names>AR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Interval breast cancer: is it a different type of breast cancer?</article-title>
+                  <source>Breast</source>
+                  <year>2001</year>
+                  <volume>10</volume>
+                  <fpage>100</fpage>
+                  <lpage>108</lpage>
+                  <pub-id pub-id-type="doi">10.1054/brst.2000.0217</pub-id>
+                  <pub-id pub-id-type="pmid">14965568</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR47">
+                <label>47.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kalager</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Tamimi</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                    <name>
+                      <surname>Bretthauer</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Adami</surname>
+                      <given-names>HO</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Prognosis in women with interval breast cancer: population based observational cohort study</article-title>
+                  <source>BMJ</source>
+                  <year>2012</year>
+                  <volume>345</volume>
+                  <fpage>e7536</fpage>
+                  <pub-id pub-id-type="doi">10.1136/bmj.e7536</pub-id>
+                  <pub-id pub-id-type="pmid">23160783</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

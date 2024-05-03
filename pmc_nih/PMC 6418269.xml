@@ -1,0 +1,1279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T04:07:37Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:6418269" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:6418269</identifier>
+        <datestamp>2019-03-18</datestamp>
+        <setSpec>scirep</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Sci Rep</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Sci Rep</journal-id>
+              <journal-title-group>
+                <journal-title>Scientific Reports</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2045-2322</issn>
+              <publisher>
+                <publisher-name>Nature Publishing Group UK</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC6418269</article-id>
+              <article-id pub-id-type="pmcid">PMC6418269</article-id>
+              <article-id pub-id-type="pmc-uid">6418269</article-id>
+              <article-id pub-id-type="pmid">30872600</article-id>
+              <article-id pub-id-type="publisher-id">38831</article-id>
+              <article-id pub-id-type="doi">10.1038/s41598-019-38831-0</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Revealing Tumor Habitats from Texture Heterogeneity Analysis for Classification of Lung Cancer Malignancy and Aggressiveness</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Cherezov</surname>
+                    <given-names>Dmitry</given-names>
+                  </name>
+                  <address>
+                    <email>cherezov@mail.usf.edu</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5461-863X</contrib-id>
+                  <name>
+                    <surname>Goldgof</surname>
+                    <given-names>Dmitry</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-7898-8456</contrib-id>
+                  <name>
+                    <surname>Hall</surname>
+                    <given-names>Lawrence</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-8888-7747</contrib-id>
+                  <name>
+                    <surname>Gillies</surname>
+                    <given-names>Robert</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-3241-3216</contrib-id>
+                  <name>
+                    <surname>Schabath</surname>
+                    <given-names>Matthew</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6800-9878</contrib-id>
+                  <name>
+                    <surname>Müller</surname>
+                    <given-names>Henning</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Depeursinge</surname>
+                    <given-names>Adrien</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2353 285X</institution-id><institution-id institution-id-type="GRID">grid.170693.a</institution-id><institution>Department of Computer Sciences and Engineering, </institution><institution>University of South Florida, </institution></institution-wrap>Tampa, Florida USA </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0000 9891 5233</institution-id><institution-id institution-id-type="GRID">grid.468198.a</institution-id><institution>Department of Cancer Physiology, </institution><institution>H. Lee Moffitt Cancer Center and Research Institute, </institution></institution-wrap>Tampa, Florida USA </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0000 9891 5233</institution-id><institution-id institution-id-type="GRID">grid.468198.a</institution-id><institution>Department of Cancer Epidemiology, </institution><institution>H. Lee Moffitt Cancer Center and Research Institute, </institution></institution-wrap>Tampa, Florida USA </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 0453 2100</institution-id><institution-id institution-id-type="GRID">grid.483301.d</institution-id><institution>Institute of Information Systems, </institution><institution>University of Applied Sciences Western Switzerland (HES-SO), </institution></institution-wrap>Sierre, Switzerland </aff>
+                <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2322 4988</institution-id><institution-id institution-id-type="GRID">grid.8591.5</institution-id><institution>University of Geneva, </institution></institution-wrap>Geneva, Switzerland </aff>
+                <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="ISNI">0000000121839049</institution-id><institution-id institution-id-type="GRID">grid.5333.6</institution-id><institution>Biomedical Imaging Group, </institution><institution>École polytechnique fédérale de Lausanne (EPFL), </institution></institution-wrap>Lausanne, Switzerland </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>14</day>
+                <month>3</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>14</day>
+                <month>3</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2019</year>
+              </pub-date>
+              <volume>9</volume>
+              <elocation-id>4500</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>17</day>
+                  <month>5</month>
+                  <year>2018</year>
+                </date>
+                <date date-type="accepted">
+                  <day>8</day>
+                  <month>1</month>
+                  <year>2019</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2019</copyright-statement>
+                <license license-type="OpenAccess">
+                  <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par1">We propose an approach for characterizing structural heterogeneity of lung cancer nodules using Computed Tomography Texture Analysis (CTTA). Measures of heterogeneity were used to test the hypothesis that heterogeneity can be used as predictor of nodule malignancy and patient survival. To do this, we use the National Lung Screening Trial (NLST) dataset to determine if heterogeneity can represent differences between nodules in lung cancer and nodules in non-lung cancer patients. 253 participants are in the training set and 207 participants in the test set. To discriminate cancerous from non-cancerous nodules at the time of diagnosis, a combination of heterogeneity and radiomic features were evaluated to produce the best area under receiver operating characteristic curve (AUROC) of 0.85 and accuracy 81.64%. Second, we tested the hypothesis that heterogeneity can predict patient survival. We analyzed 40 patients diagnosed with lung adenocarcinoma (20 short-term and 20 long-term survival patients) using a leave-one-out cross validation approach for performance evaluation. A combination of heterogeneity features and radiomic features produce an AUROC of 0.9 and an accuracy of 85% to discriminate long- and short-term survivors.</p>
+              </abstract>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">https://doi.org/10.13039/100006827</institution-id>
+                      <institution>Florida Department of Health</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>U24 CA180927</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Cherezov</surname>
+                      <given-names>Dmitry</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2019</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1" sec-type="introduction">
+              <title>Introduction</title>
+              <p id="Par2">Computed Tomography (CT) is widely used in early detection, diagnosis and treatment planning of lung cancer<sup><xref ref-type="bibr" rid="CR1">1</xref>,<xref ref-type="bibr" rid="CR2">2</xref></sup>. Using standard-of-care CT images, quantitative image features such as location, spiculation, size, calcification, density (intensity), necrosis and texture of a nodule can be extracted. Radiomics is the conversion of images to structured data and the resulting quantitative features can be used in mathematical models, often learned, for finding a dependence or inter-relationships between features and a medical question such as nodule malignancy, tumor aggressiveness and prediction of treatment response<sup><xref ref-type="bibr" rid="CR3">3</xref>–<xref ref-type="bibr" rid="CR5">5</xref></sup>. The second role of radiomics is the extraction of features that represent information that is not typically found from CT images by the human eye alone<sup><xref ref-type="bibr" rid="CR6">6</xref>–<xref ref-type="bibr" rid="CR9">9</xref></sup> or that cannot easily be quantified.</p>
+              <p id="Par3">One of the well-known characteristics of cancer is tumor heterogeneity. Hence, small biopsy specimens may not be representative of a whole tumor. Moreover, tumor histology often changes over time. This makes habitat detection a subtle process. Up-to-date habitat detection using radiomic methods can be divided into two categories.</p>
+              <p id="Par4">Multi-parametric or multi-modality methods such as T<sub>1</sub>, T<sub>2</sub>, Flair MRI imaging<sup><xref ref-type="bibr" rid="CR10">10</xref>–<xref ref-type="bibr" rid="CR13">13</xref></sup> or PET/CT imaging<sup><xref ref-type="bibr" rid="CR14">14</xref>–<xref ref-type="bibr" rid="CR17">17</xref></sup> provide enough data for the detection of physiologically similar sub-regions (“habitats”) within a nodule or a tumor. Single-modality imaging provides less information. In this case radiomic texture features associated with heterogeneity of a nodule are used<sup><xref ref-type="bibr" rid="CR18">18</xref>–<xref ref-type="bibr" rid="CR25">25</xref></sup>.</p>
+              <p id="Par5">Features associated with heterogeneity of a nodule have one common characteristic: they compute texture signatures across the entire nodule (see Fig. <xref rid="Fig1" ref-type="fig">1</xref>). Knowing that cancer is heterogeneous and assuming that CT texture represents tissue types with different histology subtypes, we can conclude that computation of texture signatures in this case is averaging texture features of nodule regions with possibly different histology. As a result, the averaged texture features may not represent any individual habitat within a nodule correctly. In this case, the texture of each nodule is considered as a unique pattern, which makes the classification process more complicated<sup><xref ref-type="bibr" rid="CR26">26</xref></sup>. For example, consider four habitats that have unique texture signatures: A, B, C and D. Each nodule contains two habitats: AA, AB, AC, etc. If we compute the texture signature of an AB nodule, the result will be different from the individual A and B habitat texture signatures. This difference is the result of averaging texture signatures. Thus, each unique combination of habitats in our case has a unique texture signature.<fig id="Fig1"><label>Figure 1</label><caption><p>Schematic representation of a feature computation result in a workflow where a nodule is considered as a homogeneous object (on the left) and a feature computation result when heterogeneity is used for division of a nodule into habitats (on the right).</p></caption><graphic xlink:href="41598_2019_38831_Fig1_HTML" id="d29e392"/></fig></p>
+              <p id="Par6">In this work, we present an approach where we compute circular harmonic wavelets for small patches within a nodule, cluster patches in order to define sub-regions of a nodule with similar patterns (habitats) and use information about the clusters and their texture signatures to describe a nodule (Fig. <xref rid="Fig1" ref-type="fig">1</xref>). This approach was used to classify nodules into benign and malignant. In addition, we used a dataset with 40 patients diagnosed with adenocarcinoma to evaluate how effective the approach is for classification of tumor aggressiveness.</p>
+            </sec>
+            <sec id="Sec2" sec-type="materials|methods">
+              <title>Materials and Methods</title>
+              <sec id="Sec3">
+                <title>Datasets</title>
+                <p id="Par7">In this paper, we experimented with two datasets. First, we used the National Lung Screening Trial (NLST) dataset to evaluate how heterogeneity differentiates nodules from lung cancer patients from nodules among non-lung cancer patients. Second, we used patients from the H. Lee Moffitt Cancer Center &amp; Research Institute diagnosed with lung adenocarcinoma for training and testing to predict patient survival time. These two datasets were chosen to allow comparisons with earlier work<sup><xref ref-type="bibr" rid="CR3">3</xref>,<xref ref-type="bibr" rid="CR25">25</xref></sup> and to show that the approaches generalize to different datasets. There are labels available for the nodules and tumor images used in the study, but the pixel level ground truth is not available.</p>
+                <sec id="Sec4">
+                  <title>National Lung Screening Trial</title>
+                  <p id="Par8">NLST was a randomized trial of 53,439 patients that compared LDCT (Low Dose CT) vs. standard chest x-rays. After an initial screening (T0), follow-up screenings (T1 and/or T2) were conducted in intervals of approximately one-year. If at T1 a patient was diagnosed with cancer, he/she started treatment and did not have a follow-up screening. According to the screening protocol, a screen was considered positive if a non-calcified nodule (NCN) had the longest diameter (LD) larger than 4 mm. For positive screenings, radiologists provided a clinical description such as location, margin etc.</p>
+                  <p id="Par9">We extracted two cohorts from NLST<sup><xref ref-type="bibr" rid="CR27">27</xref></sup>. Cancer patients in the training cohort had a positive (non-cancer) screening at time 0 and were diagnosed with cancer on the first follow-up (N = 104). Cancer patients in the test cohort had a positive, so non-cancer screening at time 0 and time 1. They were diagnosed with cancer at time 2. For each cancer patient, two non-cancer subjects were selected by demographic criteria: the same age, sex, and other available criteria. Finally, we excluded cases with technical problems or other challenges that prevented analysis of nodules. When removing a cancer patient from the dataset the corresponding non-cancer patients remained. There are 253 patients in the training cohort (83 cancer and 170 non-cancer patients) and 207 patients in the test cohort (73 cancer and 135 non-cancer patients).</p>
+                  <p id="Par10">Labels for the dataset represent patient diagnosis during the trial.</p>
+                </sec>
+                <sec id="Sec5">
+                  <title>Lung Adenocarcinoma Dataset</title>
+                  <p id="Par11">At the H. Lee Moffitt Cancer Center &amp; Research Institute, 276 patients with Non-Small Lung Cancer were selected. Inclusion/exclusion criteria were: (1) Diagnosed with Lung cancer; (2) Pre-surgery contrast-enhanced CT imaging performed at the H. Lee Moffitt Cancer Center &amp; Research Institute; (3) At least 2 years of follow-up information is known; (4) Patients with all TNM stages accepted; (5) No mix of cancer types for a patient.</p>
+                  <p id="Par12">Out of 276 patient 86 were diagnosed with Adenocarcinoma. From the Adenocarcinoma subset, two quartiles were selected to represent distinct phenotypes: aggressive phenotype associated with short term survival patients and a non-aggressive phenotype associated with long term survival patients. It was recognized that without a time gap around the class cutoff, it was likely that significant confusion would occur near any cutoff. For short term survival group selection criteria was survival time less than 500 days. For the long term survival group selection criteria was survival time greater than 1000 days. Survival time was computed as the difference between the day of pre-surgery imaging and the last day of contact or the day of patient’s death.</p>
+                  <p id="Par13">Among 86 patients with adenocarcinoma 20 patients survived from 103 to 498 days. Mean survival time was 288 days. These patients were labeled short-term survivors. 20 patients survived from 1351 to 2163 days with the mean survival time of 1569 days. These patients were labeled long-term survivors.</p>
+                  <p id="Par14">Overall, 40 patients were used for classification of long term survivors and short term survivors. Demographic information for the patients is shown in Table <xref rid="Tab1" ref-type="table">1</xref>.<table-wrap id="Tab1"><label>Table 1</label><caption><p>Demographic Summary of Patients in the Adenocarcinoma Data Set.</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Characteristics</th><th>Short Survival Class</th><th>Long survival class</th><th>P Value</th></tr></thead><tbody><tr><td>Age, mean (SD)</td><td>69 (8.07)</td><td>64.45 (9.75)</td><td>0.1161 (Unpaired student t-test)</td></tr><tr><td>Sex, N (%)</td><td/><td/><td>0.2049 (Fisher exact test)</td></tr><tr><td>   Male</td><td>12 (60%)</td><td>7 (35%)</td><td/></tr><tr><td>   Female</td><td>8 (40%)</td><td>13 (64%)</td><td/></tr><tr><td>Race</td><td/><td/><td>1 (Fisher exact test)</td></tr><tr><td>   White</td><td>20 (100%)</td><td>20 (100%)</td><td/></tr><tr><td>   Black, Asian, and Others</td><td>0 (0%)</td><td>0 (0%)</td><td/></tr><tr><td>Ethnicity, N (%)</td><td/><td/><td>1 (Fisher exact test)</td></tr><tr><td>   Hispanic or Latino</td><td>1 (5%)</td><td>0 (%)</td><td/></tr><tr><td>   Neither Hispanic/Latino and unknown</td><td>19 (95%)</td><td>20 (100%)</td><td/></tr><tr><td colspan="4">Histology, N (%)</td></tr><tr><td>   Adenocarcinoma</td><td>20 (100%)</td><td>20 (100%)</td><td/></tr><tr><td>   Squamous cell carcinoma</td><td>0 (100%)</td><td>0 (100%)</td><td/></tr><tr><td>   Other, NOS, unknown</td><td>0 (100%)</td><td>0 (100%)</td><td/></tr><tr><td>Stage, N (%)</td><td/><td/><td>0.07346 (Mann-Whitney U test)</td></tr><tr><td>   I</td><td>4 (20%)</td><td>10 (50%)</td><td/></tr><tr><td>   II</td><td>5 (25%)</td><td>5 (25%)</td><td/></tr><tr><td>   III</td><td>10 (50%)</td><td>3 (15%)</td><td/></tr><tr><td>   IV</td><td>1 (5%)</td><td>2 (10%)</td><td/></tr><tr><td>   Carcinoid, unkown</td><td>0 (0%)</td><td>0 (0%)</td><td/></tr><tr><td colspan="4">Tobacco Use, N (%)</td></tr><tr><td>   Moderate (1–2 PPD)</td><td>4 (20%)</td><td>4 (20%)</td><td/></tr><tr><td>   Light (&lt;1PPD)</td><td>0 (0%)</td><td>1 (5%)</td><td/></tr><tr><td>   HIST</td><td>12 (60%)</td><td>12 (60%)</td><td/></tr><tr><td>   None</td><td>0 (0%)</td><td>3 (15%)</td><td/></tr><tr><td>   Cigarettes Nos</td><td>4 (20%)</td><td>0 (0%)</td><td/></tr></tbody></table></table-wrap></p>
+                </sec>
+                <sec id="Sec6">
+                  <title>Pre-processing</title>
+                  <p id="Par15">For both datasets, segmentations of tumors were obtained at the H. Lee Moffitt Cancer Center where a qualified radiologist applied a semi-automated 3D segmentation algorithm<sup><xref ref-type="bibr" rid="CR28">28</xref></sup>.</p>
+                  <p id="Par16">2D wavelet features were used in the work of this paper. Thus, for each primary nodule from both datasets, we extracted one slice where the segmentation area was the largest. We re-sampled each selected slice such that the XY spacing became equal to 0.5 mm. In the case that, a nodule segmentation area is less than a single patch area, the original slice segmentation was used as a patch and we considered that a nodule had only one habitat. For re-sampling, we used the bicubic interpolation algorithm implemented in Matlab R2016b<sup><xref ref-type="bibr" rid="CR29">29</xref></sup>.</p>
+                </sec>
+              </sec>
+            </sec>
+            <sec id="Sec7">
+              <title>Methods</title>
+              <p id="Par17">In this section, we describe the proposed workflow with dedicated subsections for each step. Figure <xref rid="Fig2" ref-type="fig">2</xref> shows the workflow as a diagram. First, we describe texture feature computation, patch extraction within a nodule and computation of the convolution response for a patch. Second, we explain how we defined the number of habitats for each nodule, the habitats of multiple patches and the habitat texture response. We assume that malignancy of habitats within a nodule can vary. Finally, we explain how we used texture responses of habitats to evaluate their malignancy for training and test cohorts in detail.<fig id="Fig2"><label>Figure 2</label><caption><p>Suggested workflow for heterogeneity estimation.</p></caption><graphic xlink:href="41598_2019_38831_Fig2_HTML" id="d29e779"/></fig></p>
+              <p id="Par18">In order to classify patients, we extracted quantitative features that described the heterogeneity of a nodule. These features were used in the patient classification experiments. Performance of the features is shown in the Results section.</p>
+              <sec id="Sec8">
+                <title>Circular Harmonic Wavelet Features</title>
+                <p id="Par19">We chose to use Circular Harmonic Wavelets (CHW) to characterize local texture properties of a tumor image <italic>f</italic>(<italic>x</italic>, <italic>y</italic>)<sup><xref ref-type="bibr" rid="CR30">30</xref></sup>. CHWs quantify the amount of local circular frequencies, similar to local binary patterns (LBP)<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>. An interesting property of CHWs is their ability to characterize image directions in a rotation-invariant fashion at a very low computational price<sup><xref ref-type="bibr" rid="CR32">32</xref></sup>. This allows quantification of benign or malignant tissue structures independently of their local orientations. CHWs of order <italic>n</italic> are constructed in the Fourier domain as<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\hat{\varphi }}^{(n,s)}(\rho ,\,\theta )=\hat{h}{\mathrm{(2}}^{s}\rho ){{\rm{e}}}^{{\rm{j}}n\theta },$$\end{document}</tex-math><mml:math id="M2" display="block"><mml:msup><mml:mrow><mml:mover accent="true"><mml:mi>φ</mml:mi><mml:mo>ˆ</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>n</mml:mi><mml:mo>,</mml:mo><mml:mi>s</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:msup><mml:mo stretchy="false">(</mml:mo><mml:mi>ρ</mml:mi><mml:mo>,</mml:mo><mml:mspace width=".25em"/><mml:mi>θ</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mover accent="true"><mml:mi>h</mml:mi><mml:mo>ˆ</mml:mo></mml:mover><mml:msup><mml:mrow><mml:mn>(2</mml:mn></mml:mrow><mml:mi>s</mml:mi></mml:msup><mml:mi>ρ</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="normal">e</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">j</mml:mi><mml:mi>n</mml:mi><mml:mi>θ</mml:mi></mml:mrow></mml:msup><mml:mo>,</mml:mo></mml:math><graphic xlink:href="41598_2019_38831_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula>where (<italic>ρ</italic>, <italic>θ</italic>) denotes the polar coordinates in the Fourier domain and <inline-formula id="IEq1"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{h}(\rho )$$\end{document}</tex-math><mml:math id="M4"><mml:mover accent="true"><mml:mi>h</mml:mi><mml:mo>ˆ</mml:mo></mml:mover><mml:mo stretchy="false">(</mml:mo><mml:mi>ρ</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:math><inline-graphic xlink:href="41598_2019_38831_Article_IEq1.gif"/></alternatives></inline-formula> is a purely radial bandpass function controlling the wavelet analysis at scale <italic>s</italic>. Simoncelli’s isotropic collection of wavelets was used for <inline-formula id="IEq2"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{h}(\rho )$$\end{document}</tex-math><mml:math id="M6"><mml:mover accent="true"><mml:mi>h</mml:mi><mml:mo>ˆ</mml:mo></mml:mover><mml:mo stretchy="false">(</mml:mo><mml:mi>ρ</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:math><inline-graphic xlink:href="41598_2019_38831_Article_IEq2.gif"/></alternatives></inline-formula> <sup><xref ref-type="bibr" rid="CR33">33</xref></sup>, which proved to work well for analyzing lung tissue in CT<sup><xref ref-type="bibr" rid="CR34">34</xref></sup>. At a given position (<italic>x</italic><sub>0</sub>, <italic>y</italic><sub>0</sub>), the representation obtained from the collection of the complex magnitudes of the scalar products <inline-formula id="IEq3"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$|\langle f,{\varphi }^{(n,i)}\rangle |$$\end{document}</tex-math><mml:math id="M8"><mml:mo stretchy="false">|</mml:mo><mml:mo stretchy="false">〈</mml:mo><mml:mi>f</mml:mi><mml:mo>,</mml:mo><mml:msup><mml:mrow><mml:mi>φ</mml:mi></mml:mrow><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>n</mml:mi><mml:mo>,</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:msup><mml:mo stretchy="false">〉</mml:mo><mml:mo stretchy="false">|</mml:mo></mml:math><inline-graphic xlink:href="41598_2019_38831_Article_IEq3.gif"/></alternatives></inline-formula> characterizes the local circular frequencies in <italic>f</italic> of order <italic>n</italic> = −<italic>N</italic>:<italic>N</italic> at a scale <italic>s</italic> = 1:<italic>S</italic> and is locally rotation invariant<sup><xref ref-type="bibr" rid="CR35">35</xref></sup>. This yields a collection of positive response maps having the same dimension as the domain of <italic>f</italic>. Features are obtained by averaging each response map over patches.</p>
+                <p id="Par20">We consider five collections of circular harmonics. Figure <xref rid="Fig3" ref-type="fig">3</xref> shows their impulse responses. For each frequency, in a collection, we consider three scales (<italic>S</italic> = 3).<fig id="Fig3"><label>Figure 3</label><caption><p>Set of Circular Harmonics filters used for texture signature computation (hV–Harmonic Vectors).</p></caption><graphic xlink:href="41598_2019_38831_Fig3_HTML" id="d29e1030"/></fig></p>
+                <p id="Par21">For each pixel within the segmentation we get a convolution response. In order to detect texture patterns, we divide nodules into circular patches with a radius of 3 mm (6 pixels), a shift of 1.5 mm (3 pixels) and we average the absolute values of the wavelet responses within a patch. The choice of the radius of 3 mm was based on Lung-RADS (Reporting and Data System) categories. The procedure was repeated for each set of harmonic vectors (hV) individually and as a result, we obtained five sets of patches for each nodule where each patch has a different number of texture features. The number of texture features extracted from each collection shown in Fig. <xref rid="Fig3" ref-type="fig">3</xref> is equal to 3, 9, 15, 21 and 27 respectively.</p>
+              </sec>
+              <sec id="Sec9">
+                <title>Habitat Detection</title>
+                <p id="Par22">After computing a set of wavelet features (for each set of harmonic vectors) within each patch the k-means++ algorithm<sup><xref ref-type="bibr" rid="CR36">36</xref>,<xref ref-type="bibr" rid="CR37">37</xref></sup> was applied to identify regions with a similar texture. The number of texture features for each set is provided above. The number of clusters was estimated with the gap criterion clustering evaluation method<sup><xref ref-type="bibr" rid="CR38">38</xref></sup>. The maximum number of possible clusters is limited to 15. As a result of the habitat detection step, we obtained five sets of habitats for each nodule with respect to five sets of harmonic vectors.</p>
+              </sec>
+              <sec id="Sec10">
+                <title>Habitat Malignancy Estimation</title>
+                <p id="Par23">After habitat detection, each nodule is represented as a set of texture signatures for habitats (Fig. <xref rid="Fig1" ref-type="fig">1</xref>). In this work we assume that a difference in habitat histology can be described with texture patterns. To estimate the probability that a particular habitat belongs to a given class, we applied a leave-one-out cross-validation (LOOCV) on the training cohort.</p>
+                <p id="Par24">We excluded from the training cohort one patient. Texture signatures from all the other patients with the corresponding labels were used for training. After training, the excluded patient’s texture signatures were used for testing. The classifier produced a pseudo-probability for each signature (Fig. <xref rid="Fig4" ref-type="fig">4</xref>). The procedure was repeated for each patient in the training cohort. We collected these pseudo probabilities to describe a nodule and see if this information can be used for the computation of quantitative features and a nodule level classification task.<fig id="Fig4"><label>Figure 4</label><caption><p>Example of the malignancy/aggressiveness probability assignment for habitats in a nodule.</p></caption><graphic xlink:href="41598_2019_38831_Fig4_HTML" id="d29e1078"/></fig></p>
+                <p id="Par25">Several studies showed that Random Forests outperform other classifiers in Radiomics experiments<sup><xref ref-type="bibr" rid="CR3">3</xref>,<xref ref-type="bibr" rid="CR39">39</xref>,<xref ref-type="bibr" rid="CR40">40</xref></sup>. Thus we chose random forests for classification, where the fraction of decision trees that voted that a habitat is malignant/aggressive to the total number of decision trees is recorded. This fraction is considered as a pseudo-probability of malignancy/aggressiveness.</p>
+                <p id="Par26">To evaluate malignancy/aggressiveness of habitats in the test cohorts we used all signatures from the training cohort for training with the assigned labels of the corresponding patient. After this step, for each habitat in the training and the test cohorts, we estimate the probability of it being malignant or aggressive. Habitat malignancy/aggressiveness estimation for the training and test cohorts are repeated for each set of habitats.</p>
+              </sec>
+              <sec id="Sec11">
+                <title>Nodule Heterogeneity Feature Extraction</title>
+                <p id="Par27">The detection of habitats within a nodule provides much information about its heterogeneity. Nevertheless, it makes it impossible to compare the texture of each nodule directly because the number of habitats differs and because we do not know the relationship between the habitat area, the level of malignancy/aggressiveness of a habitat and the malignancy of the nodule itself.</p>
+                <p id="Par28">We produced 15 quantitative radiomics features. These features are statistical information of habitat area, habitat pseudo probability of malignancy/aggressiveness and variety in habitat texture signatures of the nodule. Table <xref rid="Tab2" ref-type="table">2</xref> shows the names of the features and the corresponding description. Heterogeneity features were extracted from all patients and were used for nodule classification.<table-wrap id="Tab2"><label>Table 2</label><caption><p>Heterogeneity features description.</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Feature name</th><th>Feature description</th></tr></thead><tbody><tr><td>min P</td><td>Minimum value of the malignancy pseudo probability of a habitat in a nodule.</td></tr><tr><td>max P</td><td>Maximum value of the malignancy pseudo probability of a habitat in a nodule.</td></tr><tr><td>mean P</td><td>Mean value of the malignancy pseudo probability of a habitat in a nodule.</td></tr><tr><td>median P</td><td>Median value of the malignancy pseudo probability of a habitat in a nodule.</td></tr><tr><td>min A ratio</td><td>Minimum value of a habitat area in a nodule.</td></tr><tr><td>max A ratio</td><td>Maximum value of a habitat area in a nodule.</td></tr><tr><td>mean A ratio</td><td>Mean value of a habitat area in a nodule.</td></tr><tr><td>median A ratio</td><td>Median value of a habitat area in a nodule.</td></tr><tr><td>min disjoint A ratio</td><td>Minimum value of a habitat area in a nodule in the case of disjoint parts of a habitats being considered as different habitats.</td></tr><tr><td>max disjoint A ratio</td><td>Maximum value of a habitat area in a nodule in the case of disjoint parts of a habitats being considered as different habitats.</td></tr><tr><td>mean disjoint A ratio</td><td>Mean value of a habitat area in a nodule in the case of disjoint parts of a habitats being considered as different habitats.</td></tr><tr><td>median disjoint A ratio</td><td>Median value of a habitat area in a nodule in the case of disjoint parts of a habitats being considered as different habitats.</td></tr><tr><td>number of clusters</td><td>Total number of habitats in a nodule.</td></tr><tr><td>mean centroids dist</td><td>Computing mean value of habitat texture signatures for a nodule–nodule texture signature. The result is mean Euclidean distance from the nodule texture signature to its habitats texture signatures.</td></tr><tr><td>dist std centroids</td><td>Standard deviation of habitat texture signatures.</td></tr></tbody></table></table-wrap></p>
+              </sec>
+            </sec>
+            <sec id="Sec12" sec-type="results">
+              <title>Results</title>
+              <p id="Par29">As a baseline for all experiments we use the results of the classification with 3D radiomics features extracted using the Definiens application and consisting of size, location, intensity and texture features (219 features) computed on the entire 3D ROI<sup><xref ref-type="bibr" rid="CR41">41</xref></sup>. Balagurunathan <italic>et al</italic>. described all categories and features in detail in their work<sup><xref ref-type="bibr" rid="CR42">42</xref></sup>. During feature computation, CTs were not resampled to have uniform spacing.</p>
+              <p id="Par30">Heterogeneity features are 2D features and only texture information was used to define them. We combined 2D heterogeneity features and 3D radiomics features to test if such a fusion improves classification performance on the NLST dataset.</p>
+              <p id="Par31">For experiments with only the heterogeneity features or their combination with 3D Definiens features, we tested heterogeneity features computed by each frequency collection individually (Fig. <xref rid="Fig3" ref-type="fig">3</xref>).</p>
+              <p id="Par32">To reduce the number of features we applied the ReliefF feature selector<sup><xref ref-type="bibr" rid="CR43">43</xref>–<xref ref-type="bibr" rid="CR45">45</xref></sup> to select the best 5, 10 features and the minimum redundancy maximum relevance feature selector<sup><xref ref-type="bibr" rid="CR46">46</xref></sup>. Experiments with no feature selection were used as a baseline. With the exception of Naive Bayes, all classifiers used do implicit feature selection. Reducing the number of features with a feature selector resulted in better performance. As a subset of the Definiens features we consider features that were shown to be stable on the RIDER dataset and separately features stable on the training cohort<sup><xref ref-type="bibr" rid="CR41">41</xref></sup>. As the set of classifiers, we selected Naïve Bayes<sup><xref ref-type="bibr" rid="CR47">47</xref></sup>, J48<sup><xref ref-type="bibr" rid="CR48">48</xref></sup>, JRIP<sup><xref ref-type="bibr" rid="CR49">49</xref></sup>, Random Forests<sup><xref ref-type="bibr" rid="CR50">50</xref></sup> and SVMs with a linear and a radial basis function kernel<sup><xref ref-type="bibr" rid="CR51">51</xref></sup>. All the experiments were executed in Weka, version 3.8.1.</p>
+              <sec id="Sec13">
+                <title>Lung Cancer vs. Non-Lung Cancer in NLST</title>
+                <p id="Par33">Three experiments were based on the NLST dataset. First, we used patient screening results at the time of diagnosis: the training cohort at time 1 vs. test cohort at time 2. Second, we used patient CT screening one year ahead of diagnosis to evaluate the heterogeneity of malignant nodules before they were marked as cancer: the training cohort at time 0 vs. test cohort at time 1. Finally, we used the training cohort at time 0 vs. test cohort at time 0, which means that for training we used CT screenings of nodules a year ahead of diagnosis and for testing we use CT screenings of nodules two years ahead of diagnosis. The AUROC of classifiers was considered as the primary performance measure. Heterogeneity helped when combined with 3-D features in all cases except predicting two years in advance. Table <xref rid="Tab3" ref-type="table">3</xref> shows feature sets, feature selectors and classifiers producing the best AUROCs. The NLST combined model AUROC was compared to the Definiens model performance in R by using the pROC library<sup><xref ref-type="bibr" rid="CR52">52</xref></sup> and the comparison algorithm of DeLong <italic>et al</italic>.<sup><xref ref-type="bibr" rid="CR53">53</xref></sup>. The P-value of AUROC differences is 0.2215.<table-wrap id="Tab3"><label>Table 3</label><caption><p>Overview of classification models that produce the best AUROC.</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Screening time</th><th>Feature type</th><th>Feature set</th><th>Feature Selector</th><th>Classifier</th><th>AUROC</th><th>Accuracy (%)</th></tr></thead><tbody><tr><td rowspan="3">Training Set<break/>Diagnosis<break/>Test Set<break/>Diagnosis</td><td>Heterogeneity</td><td><italic>hV</italic><sub>4</sub></td><td>RfF 10</td><td>RFs</td><td>0.77</td><td>72.95</td></tr><tr><td>Definiens</td><td>All 219 features</td><td>mRMR 17*</td><td>RFs</td><td>0.83</td><td>78.77</td></tr><tr><td>Combined</td><td>Training st. +<italic>hV</italic><sub>4</sub></td><td>none</td><td>RFs</td><td>0.85</td><td>81.64</td></tr><tr><td rowspan="3">Training set<break/>Diagnosis - 1 year<break/>Training set<break/>Diagnosis - 1 year</td><td>Heterogeneity</td><td><italic>hV</italic><sub>3</sub></td><td>none</td><td><italic>SVM</italic><sub><italic>lin</italic></sub></td><td>0.69</td><td>74.88</td></tr><tr><td>Definiens</td><td>RIDER st.</td><td>RfF 10</td><td>RFs</td><td>0.79</td><td>75</td></tr><tr><td>Combined</td><td>All 219 +<italic>hV</italic><sub>2</sub></td><td>mRMR 25*</td><td>RFs</td><td>0.79</td><td>74.4</td></tr><tr><td rowspan="3">Training set<break/>Diagnosis - 1 year<break/>Training set<break/>Diagnosis - 2 years</td><td>Heterogeneity</td><td><italic>h</italic><sub><italic>V</italic>1</sub></td><td>RfF 10</td><td>RFs</td><td>0.67</td><td>65.7</td></tr><tr><td>Definiens</td><td>RIDER st.</td><td>RfF 5</td><td>RFs</td><td>0.78</td><td>74.06</td></tr><tr><td>Combined</td><td>RIDER st. +<italic>h</italic><sub><italic>V</italic>0</sub></td><td>RfF 10</td><td>RFs</td><td>0.78</td><td>70.53</td></tr></tbody></table><table-wrap-foot><p>The first column defines the time point of the CT screening that was used in the training and test cohorts. The second column defines which feature set was extracted for a given CT screening. Heterogeneity refers to only 15 texture heterogeneity features, Definiens refers to 219 features extracted in Definiens. Combined refers to the fusion of Definiens and heterogeneity features. The feature subset column defines the order of the Circular Harmonic vectors that were used to extract texture features or a subset of the Definiens features claimed to be stable on the RIDER or training datasets. The feature selector column defines one of the feature selectors that produces the best performance. There can be no feature selector, ReliefF (RfF) with top 10 or 5 ranked features or the minimum redundancy maximum relevance (mRMR) feature selector. The classifier column defines, which of the tested classifiers performed the best. From the table we can see that most of the time random forests (RFs) outperformed other classifiers. Finally, the last two columns refer to AUROC and accuracy of the corresponding model. <sup>*</sup>Weka v.3.8.1 provides mRMR algorithm whose implementation defines the optimal number of features for a particular dataset in terms of redundancy and relevance. As a result, the selected number of features varies.</p></table-wrap-foot></table-wrap></p>
+              </sec>
+              <sec id="Sec14">
+                <title>Survival time prediction in the Adenocarcinoma dataset</title>
+                <p id="Par34">Patient stage information from Table <xref rid="Tab1" ref-type="table">1</xref> was used to evaluate baseline performance using clinical data due to the significant difference in patient survival time. If a patient stage is used as a quantitative feature to differentiate long/short term survival the AUROC is equal to 0.67 (Supplementary Fig. <xref rid="MOESM1" ref-type="media">S1</xref>). If stages I/II are considered as early stages and stages III/IV are considered as late stages, then the split produces a confusion matrix which leads to an accuracy of 65% (Supplementary Table <xref rid="MOESM1" ref-type="media">S1</xref>).</p>
+                <p id="Par35">Due to the small number of patients in the adenocarcinoma dataset, we applied cross-validation for the performance evaluation. Because habitat aggressiveness estimation was performed with leave-one-patient-out, the same concept was applied when testing nodules.</p>
+                <p id="Par36">Cross-validation for this dataset with the Definiens features showed an AUROC = 0.71 and an accuracy = 77.5%<sup><xref ref-type="bibr" rid="CR25">25</xref></sup>. Using heterogeneity features alone provides the best AUROC of 0.80 with the corresponding accuracy of 85%. The enhanced contrast likely enabled better habitat definition. Again, the combination of features provided the best results.</p>
+                <p id="Par37">The combined model with the best performance from the Lung Adenocarcinoma Dataset is based on a subset of Definiens features that are shown to be stable and reproducible by test-retest analysis on the RIDER dataset<sup><xref ref-type="bibr" rid="CR41">41</xref></sup>. There are 23 features in the RIDER subset of features. In addition to the 23 RIDER features, there are 15 heterogeneity features. Out of 38 total features, the ReliefF algorithm selected the top 5 predictive features. Random Forests for a classification task with N features used the square root of N features for building a decision tree. This means that a random set of sqrt(N) features are chosen with the best of them selected for the test at an internal node. This is an implicit form of feature selection.</p>
+                <p id="Par38">Table <xref rid="Tab4" ref-type="table">4</xref> shows the classification models that perform best for particular feature sets with the corresponding AUROC and accuracy. The Adenocarcinoma Combined model AUROC is compared to Definiens model performance in R by using the pROC library<sup><xref ref-type="bibr" rid="CR52">52</xref></sup> and the DeLong <italic>et al</italic>.<sup><xref ref-type="bibr" rid="CR53">53</xref></sup> comparison algorithm. The P-value of AUROC differences was 0.04924.<table-wrap id="Tab4"><label>Table 4</label><caption><p>Comparison of Adenocarcinoma aggressiveness estimation results using the heterogeneity and Definiens features.</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Feature type</th><th>Feature set</th><th>Feature selector</th><th>Classifier</th><th>AUROC</th><th>Acc. (%)</th></tr></thead><tbody><tr><td>Staging</td><td>NA</td><td>NA</td><td>NA</td><td>0.67</td><td>65</td></tr><tr><td>Heterogeneity</td><td><italic>hV</italic><sub>3</sub></td><td>mRMR 1*</td><td>J48</td><td>0.80</td><td>85</td></tr><tr><td>Definiens</td><td>all 219 features</td><td>RfF 5</td><td>J48</td><td>0.71</td><td>77.5</td></tr><tr><td>Combined</td><td>RIDER +<italic>hV</italic><sub>3</sub></td><td>RfF 5</td><td>RFs</td><td>0.90</td><td>85</td></tr></tbody></table><table-wrap-foot><p><sup>*</sup>Weka v.3.8.1 provides the mRMR algorithm, which defines the optimal number of features for a particular dataset in terms of redundancy and relevance. As a result, the selected number of features varies.</p></table-wrap-foot></table-wrap></p>
+              </sec>
+            </sec>
+            <sec id="Sec15" sec-type="discussion">
+              <title>Discussion</title>
+              <p id="Par39">The hypothesis of this work was that CT screening data can be used not only for the description of a nodule but it is a source of information to define habitats within nodules and that the level of heterogeneity is able to help identify malignancy and aggressiveness of tumors.</p>
+              <p id="Par40">As can be seen from Table <xref rid="Tab3" ref-type="table">3</xref>, the results of the three experiments performed on NLST for all features highlight that the highest performance was achieved when using images at the time of diagnosis (training set at T1 vs. test set at T2). The next best performance was reached where both cohorts used data one year ahead of diagnosis (training set at T0 vs. test set at T1). Finally, the worst result was obtained when we used as for training the CT screenings of nodules one year ahead of diagnosis and for testing the CT screenings of nodules that were taken two years ahead of diagnosis. Clinically, the complexity of these questions is on the same order, so from the simplest to the most complicated.</p>
+              <p id="Par41">Heterogeneity helps performance most at the time of diagnosis. In addition, technically, it is hard to evaluate heterogeneity of small nodules due to the limited spatial resolution of CT volumes. Most of the nodules at the time of the initial CT screening have a longest diameter of less than 15 mm. In this work, we used patches with a radius of 6 mm. Thus, with very few patches we cover entire nodules and thus we may miss all the information about local habitats. At the time of diagnosis, nodules have grown and thus the performance of habitat detection increases.</p>
+              <p id="Par42">In this regard, the Adenocarcinoma dataset is a better choice, as the nodules are larger and contrast is stronger. Thus, the proposed method can better leverage habitat heterogeneity information. Longest diameter mean and standard deviation values for the NLST dataset were 11.06 mm and 7.62 mm respectively. For Adenocarcinoma these parameters were 34.09 mm and 17.4 mm respectively. In addition, CT imaging of Adenocarcinoma dataset patients was performed with use of a contrast agent, which highlights CT texture inside a tumor.</p>
+              <p id="Par43">As we can see from Table <xref rid="Tab4" ref-type="table">4</xref>, in the experiment where we used only heterogeneity features the mRMR feature selector selected only one feature. The feature name is “Min P” which is explained in Table <xref rid="Tab2" ref-type="table">2</xref>. After splitting nodules into habitats and computing pseudo-probability of aggressiveness for habitats with Random Forests we selected the minimum value. Just by using this value for nodule aggressiveness classification we got an AUROC of 0.8 and an Accuracy of 85%. This may be the result of the fact that we computed texture signatures for habitats individually.</p>
+            </sec>
+            <sec id="Sec16" sec-type="conclusion">
+              <title>Conclusions</title>
+              <p id="Par44">In this paper, we propose a method for revealing tumor habitats from texture heterogeneity. We use this heterogeneity to classify lung cancer malignancy and aggressiveness. We analyze classification abilities of heterogeneity on two datasets and compared it with 3D features from Definiens based on the entire tumor volume (i.e., not considering tumor habitats). First, we applied heterogeneity for classifying cancer and non-cancer patients in the NLST screening dataset. The best results were obtained when using CT images at the time of diagnosis. When using Definiens features only (219 features), the best AUROC is 0.83. When using the proposed 15 2D heterogeneity features, the best AUROC is 0.79. Combining the two sets of features achieved the top AUROC of 0.85. This small gain suggests that NLST nodules are relatively small to fully benefit from the proposed heterogeneity analysis but it does add important information. To this end, we evaluated heterogeneity in adenocarcinoma patient survival time prediction, where nodules are much larger. In this dataset, the best AUROC was obtained when the model was based on the heterogeneity features (AUROC = 0.8), whereas the global Definiens features were mixing distinct habitats and only achieved the highest AUROC of 0.71. Combining heterogeneity features and the Rider subset of features resulted in a statistically significant improved AUROC of 0.9.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary information</title>
+              <sec id="Sec17">
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM1">
+                    <media xlink:href="41598_2019_38831_MOESM1_ESM.docx">
+                      <caption>
+                        <p>Revealing Tumor Habitats from Texture Heterogeneity Analysis for Classification of Lung Cancer Malignancy and Aggressiveness Supplementary info</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p><bold>Publisher’s note:</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <sec>
+              <title>Electronic supplementary material</title>
+              <p><bold>Supplementary information</bold> accompanies this paper at 10.1038/s41598-019-38831-0.</p>
+            </sec>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>This work was partly supported by the Swiss National Science Foundation with grant agreements PZ00P2_154891 and 205320_179069. This research was partially supported by the National Institutes of Health under grants 4KB17. This research was partially supported by the Florida Department of Health under grant (U01 CA143062) and (U24 CA180927). The authors thank the National Cancer Institute for access to NCI’s data collected by the National Lung Screening Trial. The statements contained herein are solely those of the authors and do not represent or imply concurrence or endorsement by NCI.</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Author Contributions</title>
+              <p>D.C., H.M. and A.D. conceived the presented idea. A.D. developed the theory. D.C. performed the computations. H.M., A.D, D.G. and L.H. verified the analytical methods from a machine learning perspective. R.G. and M.S. verified the analytical methods from a clinical prospective. All authors discussed the results and contributed to the final manuscript.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Data Availability</title>
+              <p>National Lung Screening Trial dataset<sup><xref ref-type="bibr" rid="CR54">54</xref></sup> and Adenocarcinoma dataset<sup><xref ref-type="bibr" rid="CR55">55</xref>,<xref ref-type="bibr" rid="CR56">56</xref></sup> are available at The Cancer Imaging Archive<sup><xref ref-type="bibr" rid="CR57">57</xref></sup>. The Matlab code for heterogeneity detection described in the section on Circular Harmonic Wavelet Features and the section on Habitat Detection is available on the GitHub server<sup><xref ref-type="bibr" rid="CR58">58</xref></sup>.</p>
+            </notes>
+            <notes notes-type="COI-statement">
+              <sec id="FPar1">
+                <title>Competing Interests</title>
+                <p>The authors declare no competing interests.</p>
+              </sec>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bach</surname>
+                      <given-names>PB</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Benefits and harms of CT screening for lung cancer: a systematic review</article-title>
+                  <source>JAMA: J. Am. Med. Assoc.</source>
+                  <year>2012</year>
+                  <volume>307</volume>
+                  <fpage>2418</fpage>
+                  <lpage>2429</lpage>
+                  <pub-id pub-id-type="doi">10.1001/jama.2012.5521</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <collab>NLSTRT</collab>
+                  </person-group>
+                  <article-title>Reduced lung-cancer mortality with low-dose computed tomographic screening. The New Engl</article-title>
+                  <source>J. Medicine</source>
+                  <year>2011</year>
+                  <volume>2011</volume>
+                  <fpage>395</fpage>
+                  <lpage>409</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hawkins</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Predicting malignant nodules from screening ct scans</article-title>
+                  <source>J. Thorac. Oncol.</source>
+                  <year>2016</year>
+                  <volume>11</volume>
+                  <fpage>2120</fpage>
+                  <lpage>2128</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jtho.2016.07.002</pub-id>
+                  <pub-id pub-id-type="pmid">27422797</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Harrell</surname>
+                      <given-names>FE</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>KL</given-names>
+                    </name>
+                    <name>
+                      <surname>Mark</surname>
+                      <given-names>DB</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Multivariable prognostic models: issues in developing models, evaluating assumptions and adequacy, and measuring and reducing errors</article-title>
+                  <source>Stat. Medicine</source>
+                  <year>1996</year>
+                  <volume>15</volume>
+                  <fpage>361</fpage>
+                  <lpage>387</lpage>
+                  <pub-id pub-id-type="doi">10.1002/(SICI)1097-0258(19960229)15:4&lt;361::AID-SIM168&gt;3.0.CO;2-4</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Coroller</surname>
+                      <given-names>TP</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>CT-based radiomic signature predicts distant metastasis in lung adenocarcinoma</article-title>
+                  <source>Radiother. Oncol.</source>
+                  <year>2015</year>
+                  <volume>114</volume>
+                  <fpage>345</fpage>
+                  <lpage>350</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.radonc.2015.02.015</pub-id>
+                  <pub-id pub-id-type="pmid">25746350</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lambin</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Radiomics: extracting more information from medical images using advanced feature analysis</article-title>
+                  <source>Eur. J. Cancer</source>
+                  <year>2012</year>
+                  <volume>48</volume>
+                  <fpage>441</fpage>
+                  <lpage>446</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ejca.2011.11.036</pub-id>
+                  <pub-id pub-id-type="pmid">22257792</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <mixed-citation publication-type="other">Parmar, C., Grossmann, P., Bussink, J., Lambin, P. &amp; Aerts, H. J.W. L. Machine learning methods for quantitative radiomic biomarkers. <italic>Sci. Reports</italic><bold>5</bold> (2015).</mixed-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <mixed-citation publication-type="other">Aerts, H. J. W. L. <italic>et al</italic>. Decoding tumour phenotype by noninvasive imaging using a quantitative radiomics approach. <italic>Nat. Commun</italic>. <bold>5</bold> (2014).</mixed-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Parmar</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Robust radiomics feature quantification using semiautomatic volumetric segmentation</article-title>
+                  <source>PloS One</source>
+                  <year>2014</year>
+                  <volume>9</volume>
+                  <fpage>e102107</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0102107</pub-id>
+                  <pub-id pub-id-type="pmid">25025374</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kermode</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Heterogeneity of blood-brain barrier changes in multiple sclerosis an mri study with gadolinium-dtpa enhancement</article-title>
+                  <source>Neurol.</source>
+                  <year>1990</year>
+                  <volume>40</volume>
+                  <fpage>229</fpage>
+                  <lpage>229</lpage>
+                  <pub-id pub-id-type="doi">10.1212/WNL.40.2.229</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chaudhury</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Heterogeneity in intratumoral regions with rapid gadolinium washout correlates with estrogen receptor status and nodal metastasis</article-title>
+                  <source>J. Magn. Reson. Imaging</source>
+                  <year>2015</year>
+                  <volume>42</volume>
+                  <fpage>1421</fpage>
+                  <lpage>1430</lpage>
+                  <pub-id pub-id-type="doi">10.1002/jmri.24921</pub-id>
+                  <pub-id pub-id-type="pmid">25884277</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sugahara</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Usefulness of diffusion-weighted mri with echo-planar technique in the evaluation of cellularity in gliomas</article-title>
+                  <source>J. Magn. Reson. Imaging</source>
+                  <year>1999</year>
+                  <volume>9</volume>
+                  <fpage>53</fpage>
+                  <lpage>60</lpage>
+                  <pub-id pub-id-type="doi">10.1002/(SICI)1522-2586(199901)9:1&lt;53::AID-JMRI7&gt;3.0.CO;2-2</pub-id>
+                  <pub-id pub-id-type="pmid">10030650</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McVeigh</surname>
+                      <given-names>PZ</given-names>
+                    </name>
+                    <name>
+                      <surname>Syed</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                    <name>
+                      <surname>Milosevic</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Fyles</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Haider</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Diffusion-weighted mri in cervical cancer</article-title>
+                  <source>Eur. radiology</source>
+                  <year>2008</year>
+                  <volume>18</volume>
+                  <fpage>1058</fpage>
+                  <lpage>1064</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00330-007-0843-3</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chicklore</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Quantifying tumour heterogeneity in 18 f-fdg pet/ct imaging by texture analysis</article-title>
+                  <source>Eur. journal nuclear medicine molecular imaging</source>
+                  <year>2013</year>
+                  <volume>40</volume>
+                  <fpage>133</fpage>
+                  <lpage>140</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00259-012-2247-0</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Win</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Tumor heterogeneity and permeability as measured on the ct component of pet/ct predict survival in patients with non–small cell lung cancer</article-title>
+                  <source>Clin. Cancer Res.</source>
+                  <year>2013</year>
+                  <volume>19</volume>
+                  <fpage>3591</fpage>
+                  <lpage>3599</lpage>
+                  <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-12-1307</pub-id>
+                  <pub-id pub-id-type="pmid">23659970</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Niekel</surname>
+                      <given-names>MC</given-names>
+                    </name>
+                    <name>
+                      <surname>Bipat</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Stoker</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Diagnostic imaging of colorectal liver metastases with ct, mr imaging, fdg pet, and/or fdg pet/ct: a meta-analysis of prospective studies including patients who have not previously undergone treatment</article-title>
+                  <source>Radiol.</source>
+                  <year>2010</year>
+                  <volume>257</volume>
+                  <fpage>674</fpage>
+                  <lpage>684</lpage>
+                  <pub-id pub-id-type="doi">10.1148/radiol.10100729</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kwee</surname>
+                      <given-names>TC</given-names>
+                    </name>
+                    <name>
+                      <surname>Kwee</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Combined fdg-pet/ct for the detection of unknown primary tumors: systematic review and meta-analysis</article-title>
+                  <source>Eur. radiology</source>
+                  <year>2009</year>
+                  <volume>19</volume>
+                  <fpage>731</fpage>
+                  <lpage>744</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00330-008-1194-4</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <mixed-citation publication-type="other">Song, J., Dong, D., Huang, Y., Liu, Z. &amp; Tian, J. Association between tumor heterogeneity and overall survival in patients with non-small cell lung cancer. In 2016 <italic>IEEE 13th International Symposium on Biomedical Imaging (ISBI)</italic>, 1249–1252 (IEEE, 2016).</mixed-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McNitt-Gray</surname>
+                      <given-names>MF</given-names>
+                    </name>
+                    <name>
+                      <surname>Wyckoff</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Sayre</surname>
+                      <given-names>JW</given-names>
+                    </name>
+                    <name>
+                      <surname>Goldin</surname>
+                      <given-names>JG</given-names>
+                    </name>
+                    <name>
+                      <surname>Aberle</surname>
+                      <given-names>DR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The effects of co-occurrence matrix based texture parameters on the classification of solitary pulmonary nodules imaged on computed tomography</article-title>
+                  <source>Comput. Med. Imaging Graph.</source>
+                  <year>1999</year>
+                  <volume>23</volume>
+                  <fpage>339</fpage>
+                  <lpage>348</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0895-6111(99)00033-6</pub-id>
+                  <pub-id pub-id-type="pmid">10634146</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bayanati</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Quantitative ct texture and shape analysis: Can it differentiate benign and malignant mediastinal lymph nodes in patients with primary lung cancer? Eur</article-title>
+                  <source>radiology</source>
+                  <year>2015</year>
+                  <volume>25</volume>
+                  <fpage>480</fpage>
+                  <lpage>487</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ganeshan</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Panayiotou</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Burnand</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Dizdarevic</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Miles</surname>
+                      <given-names>K</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Tumour heterogeneity in non-small cell lung carcinoma assessed by ct texture analysis: a potential marker of survival</article-title>
+                  <source>Eur. Radiol.</source>
+                  <year>2012</year>
+                  <volume>22</volume>
+                  <fpage>796</fpage>
+                  <lpage>802</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00330-011-2319-8</pub-id>
+                  <pub-id pub-id-type="pmid">22086561</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Higashi</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>FDG PET in the evaluation of the aggressiveness of pulmonary adenocarcinoma: correlation with histopathological features</article-title>
+                  <source>Nucl. Medicine Commun.</source>
+                  <year>2000</year>
+                  <volume>21</volume>
+                  <fpage>707</fpage>
+                  <lpage>714</lpage>
+                  <pub-id pub-id-type="doi">10.1097/00006231-200008000-00002</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Depeursinge</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Yanagawa</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Leung</surname>
+                      <given-names>AN</given-names>
+                    </name>
+                    <name>
+                      <surname>Rubin</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Predicting adenocarcinoma recurrence using computational texture models of nodule components in lung CT</article-title>
+                  <source>Med. physics</source>
+                  <year>2015</year>
+                  <volume>42</volume>
+                  <fpage>2054</fpage>
+                  <lpage>2063</lpage>
+                  <pub-id pub-id-type="doi">10.1118/1.4916088</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <mixed-citation publication-type="other">Pires, A. <italic>et al</italic>. Clustering of lung adenocarcinomas classes using automated texture analysis on CT images. In <italic>Medical Imaging: Image Processing</italic>, 866925 (2013).</mixed-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hawkins</surname>
+                      <given-names>SH</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Predicting outcomes of non-small cell lung cancer using CT image features</article-title>
+                  <source>IEEE Access</source>
+                  <year>2014</year>
+                  <volume>2</volume>
+                  <fpage>1418</fpage>
+                  <lpage>1426</lpage>
+                  <pub-id pub-id-type="doi">10.1109/ACCESS.2014.2373335</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <mixed-citation publication-type="other">Depeursinge, A. Multi-Scale and Multi-Directional Biomedical Texture Analysis: Finding the Needle in the Haystack. In <italic>Biomedical Texture Analysis: Fundamentals, Applications and Tools, Elsevier-MICCAI Society Book series</italic>, 29–53 (Elsevier, 2017).</mixed-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schabath</surname>
+                      <given-names>MB</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Differences in Patient Outcomes of Prevalence, Interval, and Screen-Detected Lung Cancers in the CT Arm of the National Lung Screening Trial</article-title>
+                  <source>PloS One</source>
+                  <year>2016</year>
+                  <volume>11</volume>
+                  <fpage>e0159880</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0159880</pub-id>
+                  <pub-id pub-id-type="pmid">27509046</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gu</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Automated delineation of lung tumors from CT images using a single click ensemble segmentation approach</article-title>
+                  <source>Pattern Recognit.</source>
+                  <year>2013</year>
+                  <volume>46</volume>
+                  <fpage>692</fpage>
+                  <lpage>702</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.patcog.2012.10.005</pub-id>
+                  <pub-id pub-id-type="pmid">23459617</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Keys</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cubic convolution interpolation for digital image processing</article-title>
+                  <source>IEEE transactions on acoustics, speech, signal processing</source>
+                  <year>1981</year>
+                  <volume>29</volume>
+                  <fpage>1153</fpage>
+                  <lpage>1160</lpage>
+                  <pub-id pub-id-type="doi">10.1109/TASSP.1981.1163711</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Unser</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Chenouard</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A Unifying Parametric Framework for 2D Steerable Wavelet Transforms</article-title>
+                  <source>SIAM J. on Imaging Sci.</source>
+                  <year>2013</year>
+                  <volume>6</volume>
+                  <fpage>102</fpage>
+                  <lpage>135</lpage>
+                  <pub-id pub-id-type="doi">10.1137/120866014</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ojala</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Pietikäinen</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Mäenpää</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Multiresolution gray–scale and rotation invariant texture classification with local binary patterns</article-title>
+                  <source>IEEE Transactions on Pattern Analysis Mach. Intell.</source>
+                  <year>2002</year>
+                  <volume>24</volume>
+                  <fpage>971</fpage>
+                  <lpage>987</lpage>
+                  <pub-id pub-id-type="doi">10.1109/TPAMI.2002.1017623</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <mixed-citation publication-type="other">Depeursinge, A. &amp; Fageot, J. Biomedical texture operators and aggregation functions: A methodological review and user’s guide. In <italic>Biomedical Texture Analysis: Fundamentals, Applications and Tools</italic>, Elsevier-MICCAI Society Book series, 55–94 (Elsevier, 2017).</mixed-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Portilla</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Simoncelli</surname>
+                      <given-names>EP</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A Parametric Texture Model Based on Joint Statistics of Complex Wavelet Coefficients</article-title>
+                  <source>Int. J. Comput. Vis.</source>
+                  <year>2000</year>
+                  <volume>40</volume>
+                  <fpage>49</fpage>
+                  <lpage>70</lpage>
+                  <pub-id pub-id-type="doi">10.1023/A:1026553619983</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <mixed-citation publication-type="other">Depeursinge, A. <italic>et al</italic>. Optimized steerable wavelets for texture analysis of lung tissue in 3-D CT: classification of usual interstitial pneumonia. In <italic>IEEE 12th International Symposium on Biomedical Imaging</italic>, ISBI 2015, 403–406 (IEEE, 2015).</mixed-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Depeursinge</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Püspöki</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Ward</surname>
+                      <given-names>J-P</given-names>
+                    </name>
+                    <name>
+                      <surname>Unser</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Steerable Wavelet Machines (SWM): Learning Moving Frames for Texture Classification</article-title>
+                  <source>IEEE Transactions on Image Process.</source>
+                  <year>2017</year>
+                  <volume>26</volume>
+                  <fpage>1626</fpage>
+                  <lpage>1636</lpage>
+                  <pub-id pub-id-type="doi">10.1109/TIP.2017.2655438</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lloyd</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Least squares quantization in PCM</article-title>
+                  <source>IEEE Transactions on Inf. Theory</source>
+                  <year>1982</year>
+                  <volume>28</volume>
+                  <fpage>129</fpage>
+                  <lpage>137</lpage>
+                  <pub-id pub-id-type="doi">10.1109/TIT.1982.1056489</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <mixed-citation publication-type="other">Vassilvitskii, S. k-means++: The advantages of careful seeding. In <italic>Proceedings of the eighteenth annual ACM-SIAM symposium on Discrete algorithms</italic>, 1027–1035 (Society for Industrial and Applied Mathematics, 2007).</mixed-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tibshirani</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Walther</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Hastie</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Estimating the number of clusters in a data set via the gap statistic</article-title>
+                  <source>J. Royal Stat. Soc. Ser. B (Statistical Methodol.</source>
+                  <year>2001</year>
+                  <volume>63</volume>
+                  <fpage>411</fpage>
+                  <lpage>423</lpage>
+                  <pub-id pub-id-type="doi">10.1111/1467-9868.00293</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <mixed-citation publication-type="other">Cherezov, D. <italic>et al</italic>. Improving malignancy prediction through feature selection informed by nodule size ranges in nlst. In <italic>Systems, Man, and Cybernetics (SMC), 2016 IEEE International Conference on</italic>, 001939–001944 (IEEE, 2016).</mixed-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yan</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Xiong</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Zheng</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Identification of candidate colon cancer biomarkers by applying a random forest approach on microarray data</article-title>
+                  <source>Oncol. reports</source>
+                  <year>2012</year>
+                  <volume>28</volume>
+                  <fpage>1036</fpage>
+                  <lpage>1042</lpage>
+                  <pub-id pub-id-type="doi">10.3892/or.2012.1891</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Balagurunathan</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Reproducibility and prognosis of quantitative features extracted from CT images</article-title>
+                  <source>Transl. Oncol.</source>
+                  <year>2014</year>
+                  <volume>7</volume>
+                  <fpage>72</fpage>
+                  <lpage>87</lpage>
+                  <pub-id pub-id-type="doi">10.1593/tlo.13844</pub-id>
+                  <pub-id pub-id-type="pmid">24772210</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR42">
+                <label>42.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Balagurunathan</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Test–retest reproducibility analysis of lung ct image features</article-title>
+                  <source>J. digital imaging</source>
+                  <year>2014</year>
+                  <volume>27</volume>
+                  <fpage>805</fpage>
+                  <lpage>823</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s10278-014-9716-x</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR43">
+                <label>43.</label>
+                <mixed-citation publication-type="other">Kira, K. &amp; Rendell, L. A. A practical approach to feature selection. In <italic>Proceedings of the ninth international workshop on Machine learning</italic>, 249–256 (1992).</mixed-citation>
+              </ref>
+              <ref id="CR44">
+                <label>44.</label>
+                <mixed-citation publication-type="other">Kononenko, I. Estimating attributes: analysis and extensions of RELIEF. In <italic>European conference on machine learning</italic>, 171–182 (Springer, 1994).</mixed-citation>
+              </ref>
+              <ref id="CR45">
+                <label>45.</label>
+                <mixed-citation publication-type="other">Robnik-ˇ Sikonja, M. &amp; Kononenko, I. An adaptation of Relief for attribute estimation in regression. In <italic>Machine Learning: Proceedings of the Fourteenth International Conference (ICML’97)</italic>, 296–304 (1997).</mixed-citation>
+              </ref>
+              <ref id="CR46">
+                <label>46.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Peng</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Long</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Ding</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Feature selection based on mutual information criteria of max-dependency, max-relevance, and min-redundancy</article-title>
+                  <source>IEEE Transactions on Pattern Analysis Mach. Intell.</source>
+                  <year>2005</year>
+                  <volume>27</volume>
+                  <fpage>1226</fpage>
+                  <lpage>1238</lpage>
+                  <pub-id pub-id-type="doi">10.1109/TPAMI.2005.159</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR47">
+                <label>47.</label>
+                <mixed-citation publication-type="other">John, G. H. &amp; Langley, P. Estimating continuous distributions in Bayesian classifiers. In <italic>Proceedings of the Eleventh conference on Uncertainty in artificial intelligence</italic>, 338–345 (Morgan Kaufmann Publishers Inc., 1995).</mixed-citation>
+              </ref>
+              <ref id="CR48">
+                <label>48.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Quinlan</surname>
+                      <given-names>JR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Decision trees and decision-making. IEEE Transactions on Syst</article-title>
+                  <source>Man, Cybern.</source>
+                  <year>1990</year>
+                  <volume>20</volume>
+                  <fpage>339</fpage>
+                  <lpage>346</lpage>
+                  <pub-id pub-id-type="doi">10.1109/21.52545</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR49">
+                <label>49.</label>
+                <mixed-citation publication-type="other">Cohen, W. W. Fast effective rule induction. In <italic>Proceedings of the twelfth international conference on machine learning</italic>, 115–123 (1995).</mixed-citation>
+              </ref>
+              <ref id="CR50">
+                <label>50.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Breiman</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Random forests</article-title>
+                  <source>Mach. learning</source>
+                  <year>2001</year>
+                  <volume>45</volume>
+                  <fpage>5</fpage>
+                  <lpage>32</lpage>
+                  <pub-id pub-id-type="doi">10.1023/A:1010933404324</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR51">
+                <label>51.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chang</surname>
+                      <given-names>C-C</given-names>
+                    </name>
+                    <name>
+                      <surname>Lin</surname>
+                      <given-names>C-J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>LIBSVM: a library for support vector machines</article-title>
+                  <source>ACM transactions on intelligent systems technology (TIST)</source>
+                  <year>2011</year>
+                  <volume>2</volume>
+                  <fpage>27</fpage>
+                </element-citation>
+              </ref>
+              <ref id="CR52">
+                <label>52.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Robin</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>proc: an open-source package for r and s+ to analyze and compare roc curves</article-title>
+                  <source>BMC bioinformatics</source>
+                  <year>2011</year>
+                  <volume>12</volume>
+                  <fpage>77</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1471-2105-12-77</pub-id>
+                  <pub-id pub-id-type="pmid">21414208</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR53">
+                <label>53.</label>
+                <mixed-citation publication-type="other">DeLong, E. R., DeLong, D. M. &amp; Clarke-Pearson, D. L. Comparing the areas under two or more correlated receiver operating characteristic curves: a nonparametric approach. <italic>Biom</italic>. 837–845 (1988).</mixed-citation>
+              </ref>
+              <ref id="CR54">
+                <label>54.</label>
+                <mixed-citation publication-type="other">National Lung Screening Trial, <ext-link ext-link-type="uri" xlink:href="https://wiki.cancerimagingarchive.net/display/NLST/National+Lung+Screening+Trial">https://wiki.cancerimagingarchive.net/display/NLST/National+Lung+Screening+Trial</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR55">
+                <label>55.</label>
+                <mixed-citation publication-type="other">Long and Short Survival in Adenocarcinoma Lung CTs, <ext-link ext-link-type="uri" xlink:href="https://wiki.cancerimagingarchive.net/display/DOI/Long+and+Short+Survival+in+Adenocarcinoma+Lung+CTs">https://wiki.cancerimagingarchive.net/display/DOI/Long+and+Short+Survival+in+Adenocarcinoma+Lung+CTs</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR56">
+                <label>56.</label>
+                <mixed-citation publication-type="other">LungCT-Diagnosis, <ext-link ext-link-type="uri" xlink:href="https://wiki.cancerimagingarchive.net/display/Public/LungCT-Diagnosis">https://wiki.cancerimagingarchive.net/display/Public/LungCT-Diagnosis</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR57">
+                <label>57.</label>
+                <mixed-citation publication-type="other">The Cancer Imaging Archive, <ext-link ext-link-type="uri" xlink:href="http://www.cancerimagingarchive.net/">http://www.cancerimagingarchive.net/</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR58">
+                <label>58.</label>
+                <mixed-citation publication-type="other">Heterogeneity detection Matlab source code, <ext-link ext-link-type="uri" xlink:href="https://github.com/VisionAI-USF/TextureHeterogeneityDetection">https://github.com/VisionAI-USF/TextureHeterogeneityDetection</ext-link>.</mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

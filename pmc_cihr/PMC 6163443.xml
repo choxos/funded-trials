@@ -1,0 +1,1866 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T08:40:07Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:6163443" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:6163443</identifier>
+        <datestamp>2018-10-10</datestamp>
+        <setSpec>sensors</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Sensors (Basel)</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Sensors (Basel)</journal-id>
+              <journal-id journal-id-type="publisher-id">sensors</journal-id>
+              <journal-title-group>
+                <journal-title>Sensors (Basel, Switzerland)</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1424-8220</issn>
+              <publisher>
+                <publisher-name>MDPI</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC6163443</article-id>
+              <article-id pub-id-type="pmcid">PMC6163443</article-id>
+              <article-id pub-id-type="pmc-uid">6163443</article-id>
+              <article-id pub-id-type="pmid">30150560</article-id>
+              <article-id pub-id-type="doi">10.3390/s18092828</article-id>
+              <article-id pub-id-type="publisher-id">sensors-18-02828</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Wearable Sensor Data to Track Subject-Specific Movement Patterns Related to Clinical Outcomes Using a Machine Learning Approach</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-4268-3618</contrib-id>
+                  <name>
+                    <surname>Kobsar</surname>
+                    <given-names>Dylan</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-sensors-18-02828">1</xref>
+                  <xref rid="c1-sensors-18-02828" ref-type="corresp">*</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ferber</surname>
+                    <given-names>Reed</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-sensors-18-02828">1</xref>
+                  <xref ref-type="aff" rid="af2-sensors-18-02828">2</xref>
+                  <xref ref-type="aff" rid="af3-sensors-18-02828">3</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="af1-sensors-18-02828"><label>1</label>Faculty of Kinesiology, University of Calgary, 2500 University Dr NW, Calgary, AB T2N 1N4, Canada; <email>rferber@ucalgary.ca</email></aff>
+              <aff id="af2-sensors-18-02828"><label>2</label>Running Injury Clinic, Calgary, AB T2N 1N4, Canada</aff>
+              <aff id="af3-sensors-18-02828"><label>3</label>Faculty of Nursing, University of Calgary, Calgary, AB T2N 1N4, Canada</aff>
+              <author-notes>
+                <corresp id="c1-sensors-18-02828"><label>*</label>Correspondence: <email>dylan.kobsar@ucalgary.ca</email></corresp>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>27</day>
+                <month>8</month>
+                <year>2018</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <month>9</month>
+                <year>2018</year>
+              </pub-date>
+              <volume>18</volume>
+              <issue>9</issue>
+              <elocation-id>2828</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>27</day>
+                  <month>6</month>
+                  <year>2018</year>
+                </date>
+                <date date-type="accepted">
+                  <day>23</day>
+                  <month>8</month>
+                  <year>2018</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2018 by the authors.</copyright-statement>
+                <copyright-year>2018</copyright-year>
+                <license license-type="open-access">
+                  <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>Wearable sensors can provide detailed information on human movement but the clinical impact of this information remains limited. We propose a machine learning approach, using wearable sensor data, to identify subject-specific changes in gait patterns related to improvements in clinical outcomes. Eight patients with knee osteoarthritis (OA) completed two gait trials before and one following an exercise intervention. Wearable sensor data (e.g., 3-dimensional (3D) linear accelerations) were collected from a sensor located near the lower back, lateral thigh and lateral shank during level treadmill walking at a preferred speed. Wearable sensor data from the 2 pre-intervention gait trials were used to define each individual’s typical movement pattern using a one-class support vector machine (OCSVM). The percentage of strides defined as outliers, based on the pre-intervention gait data and the OCSVM, were used to define the overall change in an individual’s movement pattern. The correlation between the change in movement patterns following the intervention (i.e., percentage of outliers) and improvement in self-reported clinical outcomes (e.g., pain and function) was assessed using a Spearman rank correlation. The number of outliers observed post-intervention exhibited a large association (ρ = 0.78) with improvements in self-reported clinical outcomes. These findings demonstrate a proof-of-concept and a novel methodological approach for integrating machine learning and wearable sensor data. This approach provides an objective and evidence-informed way to understand clinically important changes in human movement patterns in response to exercise therapy.</p>
+              </abstract>
+              <kwd-group>
+                <kwd>accelerometer</kwd>
+                <kwd>machine learning</kwd>
+                <kwd>pattern recognition</kwd>
+                <kwd>sensors</kwd>
+                <kwd>gait</kwd>
+                <kwd>clinical</kwd>
+                <kwd>knee</kwd>
+                <kwd>osteoarthritis</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="sec1-sensors-18-02828">
+              <title>1. Introduction</title>
+              <p>As wearable sensors become more and more ubiquitous in today’s world, so does their use in human movement analysis. Given their size, affordability and ease of use, wearable inertial sensors can provide a clinically accessible alternative to more expensive conventional three-dimensional (3D) motion capture systems [<xref rid="B1-sensors-18-02828" ref-type="bibr">1</xref>]. A further advantage of these devices is that they can be placed at variety of body locations (e.g., wrist, torso, lower limbs, etc.) and collect data continuously over many strides both in and outside of a laboratory or clinical setting [<xref rid="B2-sensors-18-02828" ref-type="bibr">2</xref>]. However, a fundamental problem in collecting data from multiple sensors over long periods of time is that datasets quickly become exceedingly large, complex, and, most importantly, clinically uninterpretable. To counter this problem, many clinical investigations have examined simple wearable sensor outputs such as gait speed, step times and other discrete variables [<xref rid="B3-sensors-18-02828" ref-type="bibr">3</xref>,<xref rid="B4-sensors-18-02828" ref-type="bibr">4</xref>,<xref rid="B5-sensors-18-02828" ref-type="bibr">5</xref>]. Nevertheless, there remains a vast amount of data being created by today’s wearable sensors that goes unanalyzed and may itself hold the key to answering important clinical questions [<xref rid="B6-sensors-18-02828" ref-type="bibr">6</xref>]. Therefore, there is a need to develop more sophisticated and complex methods to extract, process and present this data in clinically meaningful ways [<xref rid="B6-sensors-18-02828" ref-type="bibr">6</xref>,<xref rid="B7-sensors-18-02828" ref-type="bibr">7</xref>,<xref rid="B8-sensors-18-02828" ref-type="bibr">8</xref>,<xref rid="B9-sensors-18-02828" ref-type="bibr">9</xref>].</p>
+              <p>Perhaps the most promising way to utilize the vast amounts of data generated by modern wearable sensors is the field of machine learning [<xref rid="B6-sensors-18-02828" ref-type="bibr">6</xref>]. Machine learning involves the integration of statistics and computer science to identify patterns in large datasets [<xref rid="B10-sensors-18-02828" ref-type="bibr">10</xref>]. These pattern recognition tools provide the opportunity to quickly process and compare large wearable sensor datasets between or within different clinical populations or subgroups [<xref rid="B11-sensors-18-02828" ref-type="bibr">11</xref>,<xref rid="B12-sensors-18-02828" ref-type="bibr">12</xref>,<xref rid="B13-sensors-18-02828" ref-type="bibr">13</xref>,<xref rid="B14-sensors-18-02828" ref-type="bibr">14</xref>,<xref rid="B15-sensors-18-02828" ref-type="bibr">15</xref>]. While group-based models can be effective in identifying clinically relevant differences in gait between individuals, there remain a number of important limitations. Most notably, group-based models require the curation of datasets that contain a large number of subjects to externally validate a model [<xref rid="B16-sensors-18-02828" ref-type="bibr">16</xref>]. In the world of clinical gait biomechanics, even with the support of wearable sensors, recruiting and testing large numbers of patients can be difficult or impractical. Moreover, with the large amount of heterogeneity in some clinical populations (e.g., osteoarthritis; OA [<xref rid="B17-sensors-18-02828" ref-type="bibr">17</xref>]), this becomes even more difficult.</p>
+              <p>Alternatively, subject-specific models can be used to identify gait patterns and track changes within a single patient. Used in conjunction with wearable sensors collecting data over hundreds or thousands of individual gait cycles, these subject-specific models have demonstrated the ability to outperform group-based models in identifying clinically relevant changes in gait [<xref rid="B18-sensors-18-02828" ref-type="bibr">18</xref>,<xref rid="B19-sensors-18-02828" ref-type="bibr">19</xref>]. A unique approach to this model is the application of a one-class classification algorithm, wherein the machine learning algorithm attempts to define the multivariate properties or boundaries for a typical observation in the dataset [<xref rid="B20-sensors-18-02828" ref-type="bibr">20</xref>]. When applied to a gait pattern, this approach can define the current state of a subject’s gait pattern and, in turn, identify changes or outliers from the original pattern. Moreover, this method can do this without the need for additional training data from conditions that may be currently unknown or yet to exist (e.g., individual data on future injury states or rehabilitation outcomes). Research has examined the ability of similar, subject-specific one-class models to identify typical gait patterns in cattle [<xref rid="B21-sensors-18-02828" ref-type="bibr">21</xref>] and, more notably, deviations from baseline human gait patterns when perturbed by a knee brace [<xref rid="B22-sensors-18-02828" ref-type="bibr">22</xref>]. However, to our knowledge no research has examined the opposite proposition of identifying potentially advantageous deviations from a baseline gait pattern over the course of an intervention in a clinical population.</p>
+              <p>Therefore, the objective of this research was to establish a proof-of-concept of a subject-specific one-class model’s ability to identify clinically relevant changes in gait patterns over the course of rehabilitation. Specifically, our research question was: are changes in gait patterns correlated with clinical improvements following a 6-week exercise intervention in knee OA patients? It was hypothesized that patients who benefited most from the exercise intervention (i.e., improvements in self-reported pain, function, etc.) would also demonstrate the greatest changes in their gait patterns (i.e., increased percentage of outlier gait cycles) following the intervention, as assessed by a Spearman’s rank correlation (α &lt; 0.05).</p>
+            </sec>
+            <sec id="sec2-sensors-18-02828">
+              <title>2. Methods</title>
+              <sec id="sec2dot1-sensors-18-02828">
+                <title>2.1. Subjects</title>
+                <p>A subset of 8 knee OA patients (Sex: 4F/4M, Age: 58 (5) years, Body Mass Index: 25.3 (4.8) kg/m<sup>2</sup>, walking speed: 1.1 (0.15) m/s) were analyzed from a larger exercise intervention [<xref rid="B11-sensors-18-02828" ref-type="bibr">11</xref>]. These patients were selected for the current analysis as they completed two baseline gait trials before the intervention, as well as one gait trial post-intervention. All participants were required to be radiographically diagnosed with knee OA and able to walk without assistive devices. For additional inclusion and exclusion criteria see Kobsar et al., 2017 [<xref rid="B11-sensors-18-02828" ref-type="bibr">11</xref>]. This study was approved by the Conjoint Health Research Ethics Board at the University of Calgary (E-22417: Approved 14 June 2014) and all participants provided written, informed consent prior to participating.</p>
+              </sec>
+              <sec id="sec2dot2-sensors-18-02828">
+                <title>2.2. Protocol</title>
+                <p>Participants completed two baseline gait trials on different days, within one week of beginning the exercise intervention. In each session, participants wore four wearable inertial sensors (iNEMO inertial module, STmicroelectronics, Geneva, Switzerland) securely fastened to their lower back (approximately the L3 vertebrae), lateral thigh, lateral shank and dorsum of the foot on the most affected leg. See <xref ref-type="fig" rid="sensors-18-02828-f001">Figure 1</xref>. In order to safeguard against potentially high impact accelerations at the foot, the highest accelerometer and gyroscope range setting (acceleration range ±16 g, gyroscope range ±2000°/s, sampling rate 100 Hz) was used for the foot sensor. Further, the same range settings were selected across all remaining sensors to maintain data consistency. While all four sensors collected both linear acceleration and angular velocity data, only linear acceleration data from the three most proximal sensors (i.e., lower back, thigh and shank) were used for modeling the subject-specific gait patterns. The fourth sensor on the dorsum of the foot was used solely for gait event detection, to be discussed in the following section. </p>
+                <p>All participants walked on a level treadmill (Bertec, Columbus, OH, USA) for a short acclimatization period at a self-selected pace, before 2.5 min of data were collected. A trial length of 2.5 min was used to obtain a minimum of 100 gait cycles per session, as this has been a recommended for similar machine learning analyses [<xref rid="B23-sensors-18-02828" ref-type="bibr">23</xref>]. The same protocol and self-selected pace were used during the post-intervention gait trial. Participants also completed a Knee injury and Osteoarthritis Outcome Score (KOOS) before and after the intervention to assess changes, if any, in self-reported pain, symptoms, function in daily living and knee related quality of life following the intervention [<xref rid="B24-sensors-18-02828" ref-type="bibr">24</xref>]. The exercise intervention itself was a 6-week therapist-directed, hip-focused muscle strengthening intervention detailed in Kobsar et al., 2017 [<xref rid="B11-sensors-18-02828" ref-type="bibr">11</xref>]. </p>
+              </sec>
+              <sec id="sec2dot3-sensors-18-02828">
+                <title>2.3. Data Analysis</title>
+                <sec id="sec2dot3dot1-sensors-18-02828">
+                  <title>2.3.1. Pre-Processing</title>
+                  <p>Linear acceleration data underwent a static attitude correction to align each sensor with the global vertical and horizontal planes [<xref rid="B25-sensors-18-02828" ref-type="bibr">25</xref>,<xref rid="B26-sensors-18-02828" ref-type="bibr">26</xref>]. Following this correction, all 3D linear acceleration and angular velocity data were filtered with a 10 Hz low-pass 4th order recursive Butterworth filter. The angular velocity data of the foot sensor was used to determine gait events (e.g., initial contact and toe-off) in a manner previously validated [<xref rid="B26-sensors-18-02828" ref-type="bibr">26</xref>,<xref rid="B27-sensors-18-02828" ref-type="bibr">27</xref>,<xref rid="B28-sensors-18-02828" ref-type="bibr">28</xref>]. Specifically, initial contact and toe-off events were determined as the zero-crossing preceding stance and the negative peak following stance in the angular velocity signals about mediolateral axis, respectively. These gait events allowed for gait cycle segmentation and time-normalization of all sensor data (e.g., 60 points for stance; 40 points for swing). Three-dimensional linear accelerations were concatenated within each sensor (i.e., 3 axes × 100 data points combined to a 1 × 300 vector) and across all 3 sensors (i.e., 1 × 300 vectors from back, thigh and shank sensors combined) to form a 1 × 900 vector which defined the overall movement pattern for each individual gait cycle. Finally, the linear acceleration data from each gait trial were stored in an m × 900 matrix, where “m” equals the number of gait cycles recorded during the 2.5 min of data collection. The average number of gait cycles per session was 135 (10). </p>
+                </sec>
+                <sec id="sec2dot3dot2-sensors-18-02828">
+                  <title>2.3.2. Data Reduction and Feature Selection</title>
+                  <p>Prior to computing the boundaries of the subject-specific one-class model, the 900 point vectors defining each gait cycle were reduced to a set of principal components (PCs). To do so, data from both baseline gait trials were combined, resulting in an average of 270 gait cycles collected over 5 min of walking data. These data were then standardized to a mean of 0 and a standard deviation of 1, before being transformed into linearly uncorrelated PCs using a principal component analysis [<xref rid="B11-sensors-18-02828" ref-type="bibr">11</xref>,<xref rid="B29-sensors-18-02828" ref-type="bibr">29</xref>]. The PCs that explained at least 95% of the total variance in the original data were selected as features for the algorithm [<xref rid="B30-sensors-18-02828" ref-type="bibr">30</xref>]. Therefore, the scores on these PCs across all baseline gait cycles were used as the features to define the overall gait pattern of a subject. Given that this was a subject-specific model, a total of 8 principal component analyses were conducted on baseline data (i.e., one for each subject). Therefore, each patient had their own unique set of gait features to be used in modeling their gait pattern. Post-intervention data were reduced and features (i.e., PC scores) were computed in the same manner as the baseline. This procedure involved utilizing the data reduction outputs generated from the baseline data (i.e., mean, standard deviation and PC loading coefficients) to ensure the post-intervention PC scores were appropriately aligned with their corresponding baseline data.</p>
+                </sec>
+                <sec id="sec2dot3dot3-sensors-18-02828">
+                  <title>2.3.3. Defining Subject-Specific One-Class Models</title>
+                  <p>Subject-specific, one-class models were defined using baseline gait features (i.e., reduced PC scores) in conjunction with a one-class support vector machine (OCSVM). The OCSVM requires only one example, or class of data (i.e., positive cases), which are used to maximize the space between these data and the origin in high-dimensional feature space [<xref rid="B31-sensors-18-02828" ref-type="bibr">31</xref>,<xref rid="B32-sensors-18-02828" ref-type="bibr">32</xref>]. In essence, this approach attempts to define and minimize a hypersphere wherein most of the data are found and thereby define a “typical” observation or gait cycle data set. This decision boundary can then be used as a classifier to determine if new data fits within this hypersphere (i.e., positive case or “typical” gait cycle) or outside of this hypersphere (i.e., negative case, “atypical,” or outlier gait cycle) [<xref rid="B33-sensors-18-02828" ref-type="bibr">33</xref>]. This method has been shown to be successful in detecting outlier cases across a number of different machine learning applications [<xref rid="B20-sensors-18-02828" ref-type="bibr">20</xref>,<xref rid="B33-sensors-18-02828" ref-type="bibr">33</xref>,<xref rid="B34-sensors-18-02828" ref-type="bibr">34</xref>,<xref rid="B35-sensors-18-02828" ref-type="bibr">35</xref>]. In the current investigation, we used “fitcsvm,” available from Matlab (The MathWorks Inc., Natick, MA, USA), which utilizes the algorithm defined by Schölkopf et al. [<xref rid="B31-sensors-18-02828" ref-type="bibr">31</xref>,<xref rid="B32-sensors-18-02828" ref-type="bibr">32</xref>]. The boundary definition for this classifier was trained using the baseline features retained following the above-mentioned data reduction technique (i.e., PC scores depicting 95% of total variance). The training of this boundary was done using a Gaussian kernel function, in combination with a “ν” parameter for regularization. This parameter was chosen based on the value that achieved less than 1% outliers in a randomly selected 20% cross-validation set from baseline data. In other words, the OCSVM decision boundary was set wide enough to include 99% of the baseline gait cycles and thereby define a “typical” gait cycle data set. It should also be noted that to ensure the method was entirely subject-specific, this regularization parameter definition was conducted separately within each individual. Finally, post-intervention data were tested to determine the percentage of gait cycles that were defined as outliers given the baseline-derived multivariate boundary threshold. </p>
+                  <p>Two simplified visualizations of this boundary definition, using only 2 PCs, are shown in <xref ref-type="fig" rid="sensors-18-02828-f002">Figure 2</xref>. <xref ref-type="fig" rid="sensors-18-02828-f002">Figure 2</xref>A shows an example where no post-intervention gait cycles fell outside the baseline-defined OCSVM boundary (i.e., 0% outliers), suggesting no change in gait patterns following the intervention. Alternatively, in <xref ref-type="fig" rid="sensors-18-02828-f002">Figure 2</xref>B, a large number of post-intervention gait cycles fell outside the baseline-defined OCSVM boundary (i.e., approximately 30% outliers), suggesting the patient’s gait pattern has changed in response to the intervention. However, it should again be noted that the OCSVM boundary and subsequent results were based on a high-dimensional PC space for each subject. Alternatively, these examples in <xref ref-type="fig" rid="sensors-18-02828-f002">Figure 2</xref> represent only a 2-dimensional sub-space for ease of visualization and understanding.</p>
+                </sec>
+                <sec id="sec2dot3dot4-sensors-18-02828">
+                  <title>2.3.4. Statistical Analysis</title>
+                  <p>The primary variables of interest were: (i) percentage of gait cycles defined as outliers in the post-intervention gait trial; and (ii) average improvement in self-reported subscales of pain, symptoms, function in daily living and knee related quality of life (i.e., post-intervention scores—baseline scores). A non-parametric correlation, Spearman’s rank correlation (ρ), was used to assess the association between these two variables. A correlation of 0.10–0.29, 0.30–0.49 and 0.5+ were interpreted as small, medium and large, respectively [<xref rid="B36-sensors-18-02828" ref-type="bibr">36</xref>]. Any subjects that reported no change or negative change were assessed as a zero-net change, based on the purpose of identifying the relationship of gait pattern deviation to clinical improvements. </p>
+                </sec>
+              </sec>
+            </sec>
+            <sec id="sec3-sensors-18-02828">
+              <title>3. Results</title>
+              <p>The average number of PCs retained to describe 95% of the total variance in each subject was 84 (5). The average percentage of gait cycles defined as outliers in the 20% cross-validated baseline data and post-intervention gait trial data were 0.5 (0.4)% and 17.7 (17.1)%, respectively. The best regularization parameters (ν) selected for the single-subject boundary thresholds were found to range between 0.1–0.8, with an average value of 0.4 (0.3). The percentage of outlier gait cycles in the post-intervention gait session achieved a large association (ρ = 0.78; <italic>p</italic> = 0.02) with the improvement in self-reported clinical outcomes following the intervention. This association, with non-parametric (Spearman rank correlation; ρ) and parametric coefficients (Pearson’s correlation; r), is visualized using a scatter plot in <xref ref-type="fig" rid="sensors-18-02828-f003">Figure 3</xref>.</p>
+            </sec>
+            <sec id="sec4-sensors-18-02828">
+              <title>4. Discussion</title>
+              <p>The purpose of this study was to establish a proof-of-concept for the use of a machine learning approach for assessing patient-specific changes in gait following an exercise therapy intervention. In support of our hypothesis, patients who benefited most from the exercise intervention also demonstrated the greatest overall change in gait patterns, as defined by the single-subject OCSVM models. This finding was demonstrated by the significant association (ρ = 0.78; <italic>p</italic> = 0.02) between the percentage of outlier gait cycles observed in post-intervention gait and clinical outcome improvement. In the context of previous univariate models examining the association of changes in muscle strength (r<sup>2</sup> = 0.28–0.31; [<xref rid="B37-sensors-18-02828" ref-type="bibr">37</xref>]) or pain sensitization (ρ = 0.28–0.35; [<xref rid="B38-sensors-18-02828" ref-type="bibr">38</xref>]) to changes in self-reported outcomes in knee OA patients following exercise, the current association is comparatively large. To our knowledge, this is the first study to integrate pattern recognition algorithms with wearable technology to define objective, subject-specific biomechanical outcomes related to clinical improvements. Moreover, the current findings support the recent recommendation of utilizing subject-specific models in wearable sensor research [<xref rid="B19-sensors-18-02828" ref-type="bibr">19</xref>].</p>
+              <p>In general, these findings are in accordance with a similar subject-specific one-class model approach used by Cola et al. [<xref rid="B22-sensors-18-02828" ref-type="bibr">22</xref>], however there are a number of important distinctions. First, Cola et al. [<xref rid="B22-sensors-18-02828" ref-type="bibr">22</xref>] examined artificially prescribed gait perturbations in healthy subjects to identify negative deviations from their “typical” gait patterns. In contrast, the current study introduced a 6-week exercise intervention to identify presumably positive deviations from a knee OA patient’s “typical” pattern. In addition to the contrasting clinical application, there remain a number of differences in the method itself, such as; (i) the number of sensors used (3 vs. 1), (ii) the number of days used to train baseline patterns (2 vs. 1) and (iii) the algorithm to define typical patterns (SVM vs. k-means). However, perhaps the most important distinction between the current study and that of Cola et al. [<xref rid="B22-sensors-18-02828" ref-type="bibr">22</xref>] is the manner in which the features and threshold parameters were selected. Specifically, the work by Cole et al. [<xref rid="B22-sensors-18-02828" ref-type="bibr">22</xref>] introduced gait perturbations in a controlled and standardized manner, which afforded the authors the ability to deliberately select the best features (i.e., 11 gait variables out of 43 total) and threshold parameters for identifying these perturbations in future gait data collections. While this a priori knowledge of the gait perturbations may be appropriate for identifying a known or consistent gait perturbation, it is not possible in clinical practice where the potential change is unknown. Alternatively, the current study uses a completely unsupervised approach, with no a priori feature selection or information of how a patient’s gait may or may not change. In doing so, we were able to define a holistic and objective measure of subject-specific changes in gait mechanics following an exercise intervention, something rarely seen in previous OA research.</p>
+              <p>While exercise interventions have consistently demonstrated improvements in the pain and function of knee OA patients, identifying concomitant changes in gait patterns has been rarely reported using conventional group-based methods [<xref rid="B39-sensors-18-02828" ref-type="bibr">39</xref>,<xref rid="B40-sensors-18-02828" ref-type="bibr">40</xref>,<xref rid="B41-sensors-18-02828" ref-type="bibr">41</xref>,<xref rid="B42-sensors-18-02828" ref-type="bibr">42</xref>]. Given that much of this research has examined single, discrete variables (e.g., knee adduction moment), the sensitivity of this type of univariate statistical approaches is questionable [<xref rid="B17-sensors-18-02828" ref-type="bibr">17</xref>]. In contrast, the current study supports previous research suggesting examining multivariate and/or multi-segment changes may better quantify the overall biomechanical changes that occur after an exercise intervention [<xref rid="B43-sensors-18-02828" ref-type="bibr">43</xref>,<xref rid="B44-sensors-18-02828" ref-type="bibr">44</xref>]. Nevertheless, these multivariate changes often remain limited when assessed in conventional group-based analyses [<xref rid="B44-sensors-18-02828" ref-type="bibr">44</xref>]. This further suggests that exercise interventions may not elicit any consistent change in gait patterns, univariate or multivariate, across heterogeneous diseases such as knee OA [<xref rid="B39-sensors-18-02828" ref-type="bibr">39</xref>,<xref rid="B40-sensors-18-02828" ref-type="bibr">40</xref>,<xref rid="B41-sensors-18-02828" ref-type="bibr">41</xref>,<xref rid="B42-sensors-18-02828" ref-type="bibr">42</xref>]. Therefore, a significant strength of the current study is the introduction of an alternative, single-subject model to track multivariate, multi-segment changes in gait biomechanics. Further, this approach is directly aligned with the ongoing shift towards precision medicine and personalized treatment approaches [<xref rid="B45-sensors-18-02828" ref-type="bibr">45</xref>,<xref rid="B46-sensors-18-02828" ref-type="bibr">46</xref>].</p>
+              <p>Given the complex nature of the proposed analysis, it becomes increasingly important to concentrate on ways to translate this information to the clinician and patient in a relevant and meaningful manner. The first and most simplistic way to translate this information is in the form of a percentage score from 0% to 100%, with 0% being no change in gait pattern and 100% being a complete change in overall gait pattern. In this instance, the output becomes easily interpretable but a somewhat black box assessment of the overall change. Alternatively, these holistic changes in gait patterns could be further stratified into sensors/segments and planes of movement to identify which sensors and axes were most important in driving the overall change, similar to Phinyomark et al. [<xref rid="B47-sensors-18-02828" ref-type="bibr">47</xref>]. Finally, a more conventional waveform analysis could be used to examine the specific changes that may have occurred in relation to the baseline boundary. A brief representative example of this analysis is presented in <xref ref-type="fig" rid="sensors-18-02828-f004">Figure 4</xref>. In this example, while the thigh sensor appears to contain the most important changes for this individual, it is evident that there are a number of multi-segment changes occurring as well. Although many of these changes appear subtle, it remains unclear whether such changes accumulating over thousands of gait cycles per day may relate to a clinically important change in the mechanical loading of the knee joint. Therefore, the current study remains a proof-of-concept approach assessing this novel evidence-informed approach. Further work is required to develop highly specific and clinically relevant data visualizations and outcomes, as well as relating these biomechanical outcomes to long-term disease progression.</p>
+              <sec>
+                <title>Limitations and Future Directions</title>
+                <p>As is with any proof-of-concept study, there are a number of important limitations that must be discussed and addressed in future research. First, the sample size for this study was relatively small. Nevertheless, given the subject-specific model utilized the analysis, the limited sample size would only have affected strength of the relationship between gait cycle outliers and clinical improvements across the patients. However, it would not influence the fit of any individual models themselves and thus there is no increased risk of overfitting related to the sample size. To this point, additional subjects would be beneficial in filling out the space in <xref ref-type="fig" rid="sensors-18-02828-f003">Figure 3</xref> but would not change the current position of any data points in the space. Second, two baseline trials, amassing a total of 5 min of walking data with an average of 270 gait cycles, were used to train each subject’s typical pattern. Given the highly controlled data collection environment, gait cycles collected over two separate days were thought to be sufficient in order to account for any potential between-day errors or variability. Nevertheless, future research should examine the impact of including more than 2 days of gait data as this will likely become more important in less controlled gait assessment protocols. Another potential limitation is the amount of data collected and utilized for the analysis (i.e., continuous waveform data from three sensors). While on-board preprocessing would likely provide the most efficient management of data, based on our previous research the limiting factor in this may be the event detection itself [<xref rid="B48-sensors-18-02828" ref-type="bibr">48</xref>]. Nevertheless, this topic remains outside the scope of the current proof-of-concept study and future work may look to examine the most efficient ways preprocess and package the data for analysis. Lastly, our data was filtered with a 10 Hz low-pass filter as we were primarily interested in the overall pattern of gait, rather than high frequency impact accelerations or vibrations. Future research may look to include additional frequency-based parameters in their analysis to further define potential changes in gait.</p>
+              </sec>
+            </sec>
+            <sec id="sec5-sensors-18-02828">
+              <title>5. Conclusions</title>
+              <p>The current study demonstrates a successful proof-of-concept for the use of a subject-specific one-class model for identifying individualized changes in gait patterns in response to an exercise intervention. The changes in gait patterns observed with this method were found to be associated with improvements in self-reported clinical measures, following the 6-week rehabilitation protocol. Therefore, this novel method effectively integrates machine learning and wearable technology to provide an objective and evidence-informed way to understand clinically important changes in human movement patterns.</p>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <title>Acknowledgments</title>
+              <p>The authors would like to thank our research coordinators Karen Pulsifer and Jill Baxter, as well as all participants who so generously gave their time to be involved in this study.</p>
+            </ack>
+            <notes>
+              <title>Author Contributions</title>
+              <p>Conceptualization, D.K. and R.F.; Data curation, D.K.; Formal analysis, D.K.; Methodology, D.K.; Supervision, R.F.; Writing-original draft, D.K.; Writing-review &amp; editing, D.K. and R.F.</p>
+            </notes>
+            <notes>
+              <title>Funding</title>
+              <p>We would like to thank Alberta Innovates—Health Solutions (20140433) and the Canadian Institutes of Health Research (GSD-128743) for their funding support.</p>
+            </notes>
+            <notes notes-type="COI-statement">
+              <title>Conflicts of Interest</title>
+              <p>The authors declare no conflict of interest. The funding sponsors had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript and in the decision to publish the results.</p>
+            </notes>
+            <ref-list>
+              <title>References</title>
+              <ref id="B1-sensors-18-02828">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tao</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zheng</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Feng</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Gait analysis using wearable sensors</article-title>
+                  <source>Sensors</source>
+                  <year>2012</year>
+                  <volume>12</volume>
+                  <fpage>2255</fpage>
+                  <lpage>2283</lpage>
+                  <pub-id pub-id-type="doi">10.3390/s120202255</pub-id>
+                  <?supplied-pmid 22438763?>
+                  <pub-id pub-id-type="pmid">22438763</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B2-sensors-18-02828">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shull</surname>
+                      <given-names>P.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jirattigalachote</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hunt</surname>
+                      <given-names>M.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cutkosky</surname>
+                      <given-names>M.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Delp</surname>
+                      <given-names>S.L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Quantified self and human movement: A review on the clinical impact of wearable sensing and feedback for gait analysis and intervention</article-title>
+                  <source>Gait Posture</source>
+                  <year>2014</year>
+                  <volume>40</volume>
+                  <fpage>11</fpage>
+                  <lpage>19</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.gaitpost.2014.03.189</pub-id>
+                  <?supplied-pmid 24768525?>
+                  <pub-id pub-id-type="pmid">24768525</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B3-sensors-18-02828">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yan</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fang</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Guo</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Clinical evaluation and gait characteristics before and after yotal knee arthroplasty based on a portable gait analyzer</article-title>
+                  <source>Orthop. Surg.</source>
+                  <year>2016</year>
+                  <volume>8</volume>
+                  <fpage>360</fpage>
+                  <lpage>366</lpage>
+                  <pub-id pub-id-type="doi">10.1111/os.12270</pub-id>
+                  <?supplied-pmid 27627720?>
+                  <pub-id pub-id-type="pmid">27627720</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B4-sensors-18-02828">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Barrois</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gregory</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Oudre</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Moreau</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Truong</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pulini</surname>
+                      <given-names>A.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vienne</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Labourdette</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vayatis</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Buffat</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>An automated recording method in clinical consultation to rate the limp in lower limb osteoarthritis</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2016</year>
+                  <volume>11</volume>
+                  <elocation-id>e0164975</elocation-id>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0164975</pub-id>
+                  <?supplied-pmid 27776168?>
+                  <pub-id pub-id-type="pmid">27776168</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B5-sensors-18-02828">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pau</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Caggiari</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mura</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Corona</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Leban</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Coghe</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lorefice</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Marrosu</surname>
+                      <given-names>M.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cocco</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Clinical assessment of gait in individuals with multiple sclerosis using wearable inertial sensors: Comparison with patient-based measure</article-title>
+                  <source>Mult. Scler. Relat. Disord.</source>
+                  <year>2016</year>
+                  <volume>10</volume>
+                  <fpage>187</fpage>
+                  <lpage>191</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.msard.2016.10.007</pub-id>
+                  <?supplied-pmid 27919488?>
+                  <pub-id pub-id-type="pmid">27919488</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B6-sensors-18-02828">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ferber</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Osis</surname>
+                      <given-names>S.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hicks</surname>
+                      <given-names>J.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Delp</surname>
+                      <given-names>S.L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Gait biomechanics in the era of data science</article-title>
+                  <source>J. Biomech.</source>
+                  <year>2016</year>
+                  <volume>49</volume>
+                  <fpage>3759</fpage>
+                  <lpage>3761</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jbiomech.2016.10.033</pub-id>
+                  <?supplied-pmid 27814971?>
+                  <pub-id pub-id-type="pmid">27814971</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B7-sensors-18-02828">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gregory</surname>
+                      <given-names>C.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Embry</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Perry</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bowden</surname>
+                      <given-names>M.G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Quantifying human movement across the continuum of care: From lab to clinic to community</article-title>
+                  <source>J. Neurosci. Methods</source>
+                  <year>2014</year>
+                  <volume>231</volume>
+                  <fpage>18</fpage>
+                  <lpage>21</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jneumeth.2014.04.029</pub-id>
+                  <?supplied-pmid 24797226?>
+                  <pub-id pub-id-type="pmid">24797226</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B8-sensors-18-02828">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cohen</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bataille</surname>
+                      <given-names>L.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Martig</surname>
+                      <given-names>A.K.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Enabling breakthroughs in Parkinson’s disease with wearable technologies and big data analytics</article-title>
+                  <source>Mhealth</source>
+                  <year>2016</year>
+                  <volume>2</volume>
+                  <fpage>20</fpage>
+                  <pub-id pub-id-type="doi">10.21037/mhealth.2016.04.02</pub-id>
+                  <?supplied-pmid 28293596?>
+                  <pub-id pub-id-type="pmid">28293596</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B9-sensors-18-02828">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lach</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lo</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>G.Z.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Toward pervasive gait analysis with wearable sensors: A systematic review</article-title>
+                  <source>IEEE J. Biomed. Health Inform.</source>
+                  <year>2016</year>
+                  <volume>20</volume>
+                  <fpage>1521</fpage>
+                  <lpage>1537</lpage>
+                  <pub-id pub-id-type="doi">10.1109/JBHI.2016.2608720</pub-id>
+                  <?supplied-pmid 28113185?>
+                  <pub-id pub-id-type="pmid">28113185</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B10-sensors-18-02828">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Deo</surname>
+                      <given-names>R.C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Machine learning in medicine</article-title>
+                  <source>Circulation</source>
+                  <year>2015</year>
+                  <volume>132</volume>
+                  <fpage>1920</fpage>
+                  <lpage>1930</lpage>
+                  <pub-id pub-id-type="doi">10.1161/CIRCULATIONAHA.115.001593</pub-id>
+                  <?supplied-pmid 26572668?>
+                  <pub-id pub-id-type="pmid">26572668</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B11-sensors-18-02828">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kobsar</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Osis</surname>
+                      <given-names>S.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Boyd</surname>
+                      <given-names>J.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hettinga</surname>
+                      <given-names>B.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ferber</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Wearable sensors to predict improvement following an exercise intervention in patients with knee osteoarthritis</article-title>
+                  <source>J. Neuroeng. Rehabil.</source>
+                  <year>2017</year>
+                  <volume>14</volume>
+                  <fpage>94</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s12984-017-0309-z</pub-id>
+                  <?supplied-pmid 28899433?>
+                  <pub-id pub-id-type="pmid">28899433</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B12-sensors-18-02828">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mannini</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Trojaniello</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cereatti</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sabatini</surname>
+                      <given-names>A.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A machine learning framework for gait classification using inertial sensors: Application to elderly, post-stroke and huntington’s disease patients</article-title>
+                  <source>Sensors</source>
+                  <year>2016</year>
+                  <volume>16</volume>
+                  <elocation-id>134</elocation-id>
+                  <pub-id pub-id-type="doi">10.3390/s16010134</pub-id>
+                  <?supplied-pmid 26805847?>
+                  <pub-id pub-id-type="pmid">26805847</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B13-sensors-18-02828">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Palmerini</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rocchi</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mazilu</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gazit</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hausdorff</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chiari</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Identification of characteristic motor patterns preceding freezing of gait in Parkinson’s disease using wearable sensors</article-title>
+                  <source>Front. Neurol.</source>
+                  <year>2017</year>
+                  <volume>8</volume>
+                  <fpage>1</fpage>
+                  <lpage>12</lpage>
+                  <pub-id pub-id-type="doi">10.3389/fneur.2017.00394</pub-id>
+                  <?supplied-pmid 28855887?>
+                  <pub-id pub-id-type="pmid">28138322</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B14-sensors-18-02828">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Drover</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Howcroft</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kofman</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lemaire</surname>
+                      <given-names>E.D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Faller classification in older adults using wearable sensors based on turn and straight-walking accelerometer-based features</article-title>
+                  <source>Sensors</source>
+                  <year>2017</year>
+                  <volume>17</volume>
+                  <elocation-id>321</elocation-id>
+                  <pub-id pub-id-type="doi">10.3390/s17061321</pub-id>
+                  <?supplied-pmid 28590432?>
+                  <pub-id pub-id-type="pmid">28590432</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B15-sensors-18-02828">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Riaz</surname>
+                      <given-names>Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vögele</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Krüger</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Weber</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>One small step for a man: Estimation of gender, age and height from recordings of one step by a single inertial sensor</article-title>
+                  <source>Sensors</source>
+                  <year>2015</year>
+                  <volume>15</volume>
+                  <fpage>31999</fpage>
+                  <lpage>32019</lpage>
+                  <pub-id pub-id-type="doi">10.3390/s151229907</pub-id>
+                  <?supplied-pmid 26703601?>
+                  <pub-id pub-id-type="pmid">26703601</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B16-sensors-18-02828">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lubetzky-Vilnai</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ciol</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>McCoy</surname>
+                      <given-names>S.W.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Statistical analysis of clinical prediction rules for rehabilitation interventions: Current state of the literature</article-title>
+                  <source>Arch. Phys. Med. Rehabil.</source>
+                  <year>2014</year>
+                  <volume>95</volume>
+                  <fpage>188</fpage>
+                  <lpage>196</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.apmr.2013.08.242</pub-id>
+                  <?supplied-pmid 24036159?>
+                  <pub-id pub-id-type="pmid">24036159</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B17-sensors-18-02828">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mills</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hunt</surname>
+                      <given-names>M.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ferber</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Biomechanical deviations during level walking associated with knee osteoarthritis: A systematic review and meta-analysis</article-title>
+                  <source>Arthritis Care Res. (Hoboken)</source>
+                  <year>2013</year>
+                  <volume>65</volume>
+                  <fpage>1643</fpage>
+                  <lpage>1665</lpage>
+                  <pub-id pub-id-type="doi">10.1002/acr.22015</pub-id>
+                  <?supplied-pmid 23554153?>
+                  <pub-id pub-id-type="pmid">23554153</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B18-sensors-18-02828">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rodríguez-Martín</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Samà</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pérez-López</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Català</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Arostegui</surname>
+                      <given-names>J.M.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cabestany</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bayés</surname>
+                      <given-names>À.</given-names>
+                    </name>
+                    <name>
+                      <surname>Alcaine</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mestre</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Prats</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Home detection of freezing of gait using Support Vector Machines through a single waist-worn triaxial accelerometer</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2017</year>
+                  <volume>12</volume>
+                  <elocation-id>e0171764</elocation-id>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0171764</pub-id>
+                  <?supplied-pmid 28199357?>
+                  <pub-id pub-id-type="pmid">28199357</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B19-sensors-18-02828">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Benson</surname>
+                      <given-names>L.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Clermont</surname>
+                      <given-names>C.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bošnjak</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ferber</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The use of wearable devices for walking and running gait analysis outside of the lab: A systematic review</article-title>
+                  <source>Gait Posture</source>
+                  <year>2018</year>
+                  <volume>63</volume>
+                  <fpage>124</fpage>
+                  <lpage>138</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.gaitpost.2018.04.047</pub-id>
+                  <?supplied-pmid 29730488?>
+                  <pub-id pub-id-type="pmid">29730488</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B20-sensors-18-02828">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mourão-Miranda</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hardoon</surname>
+                      <given-names>D.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hahn</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Marquand</surname>
+                      <given-names>A.F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Williams</surname>
+                      <given-names>S.C.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shawe-Taylor</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Brammer</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Patient classification as an outlier detection problem: An application of the One-Class Support Vector Machine</article-title>
+                  <source>Neuroimage</source>
+                  <year>2011</year>
+                  <volume>58</volume>
+                  <fpage>793</fpage>
+                  <lpage>804</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2011.06.042</pub-id>
+                  <?supplied-pmid 21723950?>
+                  <pub-id pub-id-type="pmid">21723950</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B21-sensors-18-02828">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Haladjian</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Haug</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nüske</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bruegge</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A wearable sensor system for lameness detection in dairy cattle</article-title>
+                  <source>Multimodal Technol. Interact.</source>
+                  <year>2018</year>
+                  <volume>2</volume>
+                  <elocation-id>27</elocation-id>
+                  <pub-id pub-id-type="doi">10.3390/mti2020027</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B22-sensors-18-02828">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cola</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Avvenuti</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vecchio</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>G.Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lo</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An on-node processing approach for anomaly detection in gait</article-title>
+                  <source>IEEE Sens. J.</source>
+                  <year>2015</year>
+                  <volume>15</volume>
+                  <fpage>6640</fpage>
+                  <lpage>6649</lpage>
+                  <pub-id pub-id-type="doi">10.1109/JSEN.2015.2464774</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B23-sensors-18-02828">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mundfrom</surname>
+                      <given-names>D.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shaw</surname>
+                      <given-names>D.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ke</surname>
+                      <given-names>T.L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Minimum Sample Size Recommendations for Conducting Factor Analyses</article-title>
+                  <source>Int. J. Test.</source>
+                  <year>2005</year>
+                  <volume>5</volume>
+                  <fpage>159</fpage>
+                  <lpage>168</lpage>
+                  <pub-id pub-id-type="doi">10.1207/s15327574ijt0502_4</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B24-sensors-18-02828">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Roos</surname>
+                      <given-names>E.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Roos</surname>
+                      <given-names>H.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lohmander</surname>
+                      <given-names>L.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ekdahl</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Beynnon</surname>
+                      <given-names>B.D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Knee Injury and Osteoarthritis Outcome Score (KOOS)—Development of a self-administered outcome measure</article-title>
+                  <source>J. Orthop. Sports Phys. Ther.</source>
+                  <year>1998</year>
+                  <volume>28</volume>
+                  <fpage>88</fpage>
+                  <lpage>96</lpage>
+                  <pub-id pub-id-type="doi">10.2519/jospt.1998.28.2.88</pub-id>
+                  <?supplied-pmid 9699158?>
+                  <pub-id pub-id-type="pmid">9699158</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B25-sensors-18-02828">
+                <label>25.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tundo</surname>
+                      <given-names>M.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lemaire</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Baddour</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Correcting Smartphone orientation for accelerometer-based analysis</article-title>
+                  <source>Proceedings of the 2013 IEEE International Symposium on Medical Measurements and Applications (MeMeA)</source>
+                  <conf-loc>Gatineau, QC, Canada</conf-loc>
+                  <conf-date>4–5 May 2013</conf-date>
+                  <fpage>58</fpage>
+                  <lpage>62</lpage>
+                  <pub-id pub-id-type="doi">10.1109/MeMeA.2013.6549706</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B26-sensors-18-02828">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kobsar</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Osis</surname>
+                      <given-names>S.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Phinyomark</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Boyd</surname>
+                      <given-names>J.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ferber</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Reliability of gait analysis using wearable sensors in patients with knee osteoarthritis</article-title>
+                  <source>J. Biomech.</source>
+                  <year>2016</year>
+                  <volume>49</volume>
+                  <fpage>3977</fpage>
+                  <lpage>3982</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jbiomech.2016.11.047</pub-id>
+                  <?supplied-pmid 27889189?>
+                  <pub-id pub-id-type="pmid">27889189</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B27-sensors-18-02828">
+                <label>27.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fraccaro</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Walsh</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Doyle</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>O’Sullivan</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Real-world gyroscope-based gait event detection and gait feature extraction</article-title>
+                  <source>Proceedings of the eTELEMED—The Sixth International Conference on eHealth, Telemedicine, and Social Medicine</source>
+                  <conf-loc>Barcelona, Spain</conf-loc>
+                  <conf-date>24–27 March 2014</conf-date>
+                </element-citation>
+              </ref>
+              <ref id="B28-sensors-18-02828">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rampp</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Barth</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schuelein</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gassmann</surname>
+                      <given-names>K.-G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Klucken</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Eskofier</surname>
+                      <given-names>B.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Inertial Sensor-Based Stride Parameter Calculation From Gait Sequences in Geriatric Patients</article-title>
+                  <source>IEEE Trans. Biomed. Eng.</source>
+                  <year>2015</year>
+                  <volume>62</volume>
+                  <fpage>1089</fpage>
+                  <lpage>1097</lpage>
+                  <pub-id pub-id-type="doi">10.1109/TBME.2014.2368211</pub-id>
+                  <?supplied-pmid 25389237?>
+                  <pub-id pub-id-type="pmid">25389237</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B29-sensors-18-02828">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Deluzio</surname>
+                      <given-names>K.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Astephen</surname>
+                      <given-names>J.L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Biomechanical features of gait waveform data associated with knee osteoarthritis: An application of principal component analysis</article-title>
+                  <source>Gait Posture</source>
+                  <year>2007</year>
+                  <volume>25</volume>
+                  <fpage>86</fpage>
+                  <lpage>93</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.gaitpost.2006.01.007</pub-id>
+                  <?supplied-pmid 16567093?>
+                  <pub-id pub-id-type="pmid">16567093</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B30-sensors-18-02828">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nigg</surname>
+                      <given-names>B.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Baltich</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Maurer</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Federolf</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Shoe midsole hardness, sex and age effects on lower extremity kinematics during running</article-title>
+                  <source>J. Biomech.</source>
+                  <year>2012</year>
+                  <volume>45</volume>
+                  <fpage>1692</fpage>
+                  <lpage>1697</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jbiomech.2012.03.027</pub-id>
+                  <?supplied-pmid 22507350?>
+                  <pub-id pub-id-type="pmid">22507350</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B31-sensors-18-02828">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schölkopf</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Platt</surname>
+                      <given-names>J.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shawe-Taylor</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Smola</surname>
+                      <given-names>A.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Williamson</surname>
+                      <given-names>R.C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Estimating the Support of a High-Dimensional Distribution</article-title>
+                  <source>Neural Comput.</source>
+                  <year>2001</year>
+                  <volume>13</volume>
+                  <fpage>1443</fpage>
+                  <lpage>1471</lpage>
+                  <pub-id pub-id-type="doi">10.1162/089976601750264965</pub-id>
+                  <?supplied-pmid 11440593?>
+                  <pub-id pub-id-type="pmid">11440593</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B32-sensors-18-02828">
+                <label>32.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schölkopf</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Williamson</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Smola</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shawe-Taylor</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Platt</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Support vector method for novelty detection</article-title>
+                  <source>Proceedings of the 12th International Conference on Neural Information Processing Systems (NIPS’99)</source>
+                  <conf-loc>Cambridge, MA, USA</conf-loc>
+                  <conf-date>29 November–4 December 1999</conf-date>
+                </element-citation>
+              </ref>
+              <ref id="B33-sensors-18-02828">
+                <label>33.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gu</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lin</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Support vector machines for anomaly detection</article-title>
+                  <source>Proceedings of the 2006 6th World Congress on Intelligent Control and Automation</source>
+                  <conf-loc>Dalian, China</conf-loc>
+                  <conf-date>21–23 June 2006</conf-date>
+                </element-citation>
+              </ref>
+              <ref id="B34-sensors-18-02828">
+                <label>34.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lukashevich</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nowak</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dunker</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Using one-class SVM outliers detection for verification of collaboratively tagged image training sets</article-title>
+                  <source>Proceedings of the 2009 IEEE International Conference on Multimedia and Expo</source>
+                  <conf-loc>New York, NY, USA</conf-loc>
+                  <conf-date>28 June–3 July 2009</conf-date>
+                </element-citation>
+              </ref>
+              <ref id="B35-sensors-18-02828">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Guerbai</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chibani</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hadjadji</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The effective use of the one-class SVM classifier for handwritten signature verification based on writer-independent parameters</article-title>
+                  <source>Pattern Recognit.</source>
+                  <year>2015</year>
+                  <volume>48</volume>
+                  <fpage>103</fpage>
+                  <lpage>113</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.patcog.2014.07.016</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B36-sensors-18-02828">
+                <label>36.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cohen</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <source>Statistical Power Analysis for the Behavioral Sciences</source>
+                  <publisher-name>Lawrence Erlbaum</publisher-name>
+                  <publisher-loc>New Jersey, NJ, USA</publisher-loc>
+                  <year>1988</year>
+                  <isbn>978-0-12-179060-8</isbn>
+                </element-citation>
+              </ref>
+              <ref id="B37-sensors-18-02828">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bokaeian</surname>
+                      <given-names>H.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bakhtiary</surname>
+                      <given-names>A.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mirmohammadkhani</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Moghimi</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Quadriceps strengthening exercises may not change pain and function in knee osteoarthritis</article-title>
+                  <source>J. Bodyw. Mov. Ther.</source>
+                  <year>2018</year>
+                  <volume>22</volume>
+                  <fpage>528</fpage>
+                  <lpage>533</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jbmt.2017.06.013</pub-id>
+                  <?supplied-pmid 29861261?>
+                  <pub-id pub-id-type="pmid">29861261</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B38-sensors-18-02828">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Henriksen</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Klokker</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Graven-Nielsen</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bartholdy</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schjødt Jørgensen</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bandak</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Danneskiold-Samsøe</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Christensen</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bliddal</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Association of exercise therapy and reduction of pain sensitivity in patients with knee osteoarthritis: A randomized controlled trial</article-title>
+                  <source>Arthritis Care Res. (Hoboken)</source>
+                  <year>2014</year>
+                  <volume>66</volume>
+                  <fpage>1836</fpage>
+                  <lpage>1843</lpage>
+                  <pub-id pub-id-type="doi">10.1002/acr.22375</pub-id>
+                  <?supplied-pmid 24905427?>
+                  <pub-id pub-id-type="pmid">24905427</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B39-sensors-18-02828">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Henriksen</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Klokker</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bartholdy</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schjoedt-Jorgensen</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bandak</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bliddal</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>No effects of functional exercise therapy on walking biomechanics in patients with knee osteoarthritis: Exploratory outcome analyses from a randomised trial</article-title>
+                  <source>BMJ Open Sport Exerc. Med.</source>
+                  <year>2017</year>
+                  <volume>2</volume>
+                  <pub-id pub-id-type="doi">10.1136/bmjsem-2017-000230</pub-id>
+                  <?supplied-pmid 28879038?>
+                  <pub-id pub-id-type="pmid">28879038</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B40-sensors-18-02828">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bennell</surname>
+                      <given-names>K.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kyriakides</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Metcalf</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Egerton</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wrigley</surname>
+                      <given-names>T.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hodges</surname>
+                      <given-names>P.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hunt</surname>
+                      <given-names>M.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Roos</surname>
+                      <given-names>E.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Forbes</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ageberg</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Neuromuscular versus quadriceps strengthening exercise in patients with medial knee osteoarthritis and varus malalignment: A randomized controlled trial</article-title>
+                  <source>Arthritis Rheumatol.</source>
+                  <year>2014</year>
+                  <volume>66</volume>
+                  <fpage>950</fpage>
+                  <lpage>959</lpage>
+                  <pub-id pub-id-type="doi">10.1002/art.38317</pub-id>
+                  <?supplied-pmid 24757146?>
+                  <pub-id pub-id-type="pmid">24757146</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B41-sensors-18-02828">
+                <label>41.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bennell</surname>
+                      <given-names>K.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hunt</surname>
+                      <given-names>M.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wrigley</surname>
+                      <given-names>T.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hunter</surname>
+                      <given-names>D.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>McManus</surname>
+                      <given-names>F.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hodges</surname>
+                      <given-names>P.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hinman</surname>
+                      <given-names>R.S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Hip strengthening reduces symptoms but not knee load in people with medial knee osteoarthritis and varus malalignment: A randomised controlled trial</article-title>
+                  <source>Osteoarthr. Cartil.</source>
+                  <year>2010</year>
+                  <volume>18</volume>
+                  <fpage>621</fpage>
+                  <lpage>628</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.joca.2010.01.010</pub-id>
+                  <?supplied-pmid 20175973?>
+                  <pub-id pub-id-type="pmid">20175973</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B42-sensors-18-02828">
+                <label>42.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sled</surname>
+                      <given-names>E.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Khoja</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Deluzio</surname>
+                      <given-names>K.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Olney</surname>
+                      <given-names>S.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Culham</surname>
+                      <given-names>E.G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effect of a home program of hip abductor exercises on knee joint loading, strength, function, and pain in people with knee osteoarthritis: A clinical trial</article-title>
+                  <source>Phys. Ther.</source>
+                  <year>2010</year>
+                  <volume>90</volume>
+                  <fpage>895</fpage>
+                  <lpage>904</lpage>
+                  <pub-id pub-id-type="doi">10.2522/ptj.20090294</pub-id>
+                  <?supplied-pmid 20378679?>
+                  <pub-id pub-id-type="pmid">20378679</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B43-sensors-18-02828">
+                <label>43.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gaudreault</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mezghani</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Turcot</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hagemeister</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Boivin</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>De Guise</surname>
+                      <given-names>J.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effects of physiotherapy treatment on knee osteoarthritis gait data using principal component analysis</article-title>
+                  <source>Clin. Biomech.</source>
+                  <year>2011</year>
+                  <volume>26</volume>
+                  <fpage>284</fpage>
+                  <lpage>291</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.clinbiomech.2010.10.004</pub-id>
+                  <?supplied-pmid 21071119?>
+                  <pub-id pub-id-type="pmid">21071119</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B44-sensors-18-02828">
+                <label>44.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Brenneman</surname>
+                      <given-names>E.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Maly</surname>
+                      <given-names>M.R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Identifying changes in gait waveforms following a strengthening intervention for women with knee osteoarthritis using principal components analysis</article-title>
+                  <source>Gait Posture</source>
+                  <year>2018</year>
+                  <volume>59</volume>
+                  <fpage>286</fpage>
+                  <lpage>291</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.gaitpost.2017.07.006</pub-id>
+                  <?supplied-pmid 28754420?>
+                  <pub-id pub-id-type="pmid">28754420</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B45-sensors-18-02828">
+                <label>45.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Buford</surname>
+                      <given-names>T.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pahor</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Making preventive medicine more personalized: Implications for exercise-related research</article-title>
+                  <source>Prev. Med.</source>
+                  <year>2012</year>
+                  <volume>55</volume>
+                  <fpage>34</fpage>
+                  <lpage>36</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ypmed.2012.05.001</pub-id>
+                  <?supplied-pmid 22588227?>
+                  <pub-id pub-id-type="pmid">22588227</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B46-sensors-18-02828">
+                <label>46.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Karsdal</surname>
+                      <given-names>M.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Christiansen</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ladel</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Henriksen</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kraus</surname>
+                      <given-names>V.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bay-Jensen</surname>
+                      <given-names>A.C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Osteoarthritis—A case for personalized health care?</article-title>
+                  <source>Osteoarthr. Cartil.</source>
+                  <year>2014</year>
+                  <volume>22</volume>
+                  <fpage>7</fpage>
+                  <lpage>16</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.joca.2013.10.018</pub-id>
+                  <?supplied-pmid 24216058?>
+                  <pub-id pub-id-type="pmid">24216058</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B47-sensors-18-02828">
+                <label>47.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Phinyomark</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hettinga</surname>
+                      <given-names>B.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Osis</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ferber</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Do intermediate- and higher-order principal components contain useful information to detect subtle changes in lower extremity biomechanics during running?</article-title>
+                  <source>Hum. Mov. Sci.</source>
+                  <year>2015</year>
+                  <volume>44</volume>
+                  <fpage>91</fpage>
+                  <lpage>101</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.humov.2015.08.018</pub-id>
+                  <?supplied-pmid 26340274?>
+                  <pub-id pub-id-type="pmid">26340274</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B48-sensors-18-02828">
+                <label>48.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Benson</surname>
+                      <given-names>L.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Clermont</surname>
+                      <given-names>C.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Osis</surname>
+                      <given-names>S.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kobsar</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ferber</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Classifying running speed conditions using a single wearable sensor: Optimal segmentation and feature extraction methods</article-title>
+                  <source>J. Biomech.</source>
+                  <year>2018</year>
+                  <volume>71</volume>
+                  <fpage>94</fpage>
+                  <lpage>99</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jbiomech.2018.01.034</pub-id>
+                  <?supplied-pmid 29454542?>
+                  <pub-id pub-id-type="pmid">29454542</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+          <floats-group>
+            <fig id="sensors-18-02828-f001" orientation="portrait" position="float">
+              <label>Figure 1</label>
+              <caption>
+                <p>Placement of inertial sensors on the most affected side of knee osteoarthritis patients. * Sensor on the dorsum of the foot was only used for event detection and gait cycle segmentation.</p>
+              </caption>
+              <graphic xlink:href="sensors-18-02828-g001"/>
+            </fig>
+            <fig id="sensors-18-02828-f002" orientation="portrait" position="float">
+              <label>Figure 2</label>
+              <caption>
+                <p>Simplified visualizations of boundary definitions (blue line) defined by baseline data (dark blue and light blue circles) and tested on post-intervention data (red circles). In example (<bold>A</bold>), no post-intervention gait cycles are defined as outliers, while in example (<bold>B</bold>) approximately 30% are viewed as outliers.</p>
+              </caption>
+              <graphic xlink:href="sensors-18-02828-g002"/>
+            </fig>
+            <fig id="sensors-18-02828-f003" orientation="portrait" position="float">
+              <label>Figure 3</label>
+              <caption>
+                <p>The percentage of outlier in post-intervention data displayed a large association with the self-reported improvement in post-intervention (i.e., change in Knee Injury Osteoarthritis Outcome Scores subscales): Spearman rank correlation (ρ) = 0.78 and Pearson correlation coefficient (r) = 0.95.</p>
+              </caption>
+              <graphic xlink:href="sensors-18-02828-g003"/>
+            </fig>
+            <fig id="sensors-18-02828-f004" orientation="portrait" position="float">
+              <label>Figure 4</label>
+              <caption>
+                <p>Example of waveform analysis of three-dimensional linear accelerations from the back (<bold>top</bold>), thigh (<bold>middle</bold>) and shank (<bold>bottom</bold>) visualizing changes in post-intervention data (red line) compared to baseline data (blue line). Data is presented from the patient who demonstrated the greatest number of gait cycle outliers post-intervention. White circles represent areas of the waveform where differences between baseline and post-intervention data are statistically significant (Holm-Bonferroni corrected <italic>p</italic>-value of less than 0.05) and have a large effect size (Cohen’s d &gt; 0.8).</p>
+              </caption>
+              <graphic xlink:href="sensors-18-02828-g004"/>
+            </fig>
+          </floats-group>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

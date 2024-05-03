@@ -1,0 +1,2777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T09:04:17Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:11018654" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:11018654</identifier>
+        <datestamp>2024-04-17</datestamp>
+        <setSpec>springeropen</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article" dtd-version="1.3">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Intensive Care Med</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Intensive Care Med</journal-id>
+              <journal-title-group>
+                <journal-title>Intensive Care Medicine</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">0342-4642</issn>
+              <issn pub-type="epub">1432-1238</issn>
+              <publisher>
+                <publisher-name>Springer Berlin Heidelberg</publisher-name>
+                <publisher-loc>Berlin/Heidelberg</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC11018654</article-id>
+              <article-id pub-id-type="pmcid">PMC11018654</article-id>
+              <article-id pub-id-type="pmc-uid">11018654</article-id>
+              <article-id pub-id-type="pmid">38478027</article-id>
+              <article-id pub-id-type="pmid">38478027</article-id>
+              <article-id pub-id-type="publisher-id">7353</article-id>
+              <article-id pub-id-type="doi">10.1007/s00134-024-07353-3</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Original</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Achievement of therapeutic antibiotic exposures using Bayesian dosing software in critically unwell children and adults with sepsis</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Chai</surname>
+                    <given-names>Ming G.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Tu</surname>
+                    <given-names>Quyen</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Cotta</surname>
+                    <given-names>Menino O.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Bauer</surname>
+                    <given-names>Michelle J.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Balch</surname>
+                    <given-names>Ross</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Okafor</surname>
+                    <given-names>Charles</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Comans</surname>
+                    <given-names>Tracy</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kruger</surname>
+                    <given-names>Peter</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Meyer</surname>
+                    <given-names>Jason</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Shekar</surname>
+                    <given-names>Kiran</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Brady</surname>
+                    <given-names>Kara</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Fourie</surname>
+                    <given-names>Cheryl</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff7">7</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Sharp</surname>
+                    <given-names>Natalie</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Vlad</surname>
+                    <given-names>Luminita</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Whiley</surname>
+                    <given-names>David</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ungerer</surname>
+                    <given-names>Jacobus P. J.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff8">8</xref>
+                  <xref ref-type="aff" rid="Aff9">9</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Mcwhinney</surname>
+                    <given-names>Brett C.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff8">8</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Farkas</surname>
+                    <given-names>Andras</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff10">10</xref>
+                  <xref ref-type="aff" rid="Aff11">11</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Paterson</surname>
+                    <given-names>David L.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff12">12</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Clark</surname>
+                    <given-names>Julia E.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff13">13</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Hajkowicz</surname>
+                    <given-names>Krispin</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff7">7</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Raman</surname>
+                    <given-names>Sainath</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                  <xref ref-type="aff" rid="Aff14">14</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Bialasiewicz</surname>
+                    <given-names>Seweryn</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff15">15</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lipman</surname>
+                    <given-names>Jeffrey</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff16">16</xref>
+                  <xref ref-type="aff" rid="Aff17">17</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Forde</surname>
+                    <given-names>Brian M.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Harris</surname>
+                    <given-names>Patrick N. A.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                  <xref ref-type="aff" rid="Aff18">18</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Schlapbach</surname>
+                    <given-names>Luregn J.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                  <xref ref-type="aff" rid="Aff19">19</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Coin</surname>
+                    <given-names>Lachlan</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff20">20</xref>
+                  <xref ref-type="aff" rid="Aff21">21</xref>
+                </contrib>
+                <contrib contrib-type="author" equal-contrib="yes">
+                  <name>
+                    <surname>Roberts</surname>
+                    <given-names>Jason A.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes" equal-contrib="yes">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8974-6789</contrib-id>
+                  <name>
+                    <surname>Irwin</surname>
+                    <given-names>Adam D.</given-names>
+                  </name>
+                  <address>
+                    <email>a.irwin@uq.edu.au</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff13">13</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="ROR">https://ror.org/00rqy9422</institution-id><institution-id institution-id-type="GRID">grid.1003.2</institution-id><institution-id institution-id-type="ISNI">0000 0000 9320 7537</institution-id><institution>UQ Centre for Clinical Research, The University of Queensland, </institution></institution-wrap>Brisbane, QLD Australia </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="ROR">https://ror.org/02t3p7e85</institution-id><institution-id institution-id-type="GRID">grid.240562.7</institution-id><institution>Paediatric Intensive Care Unit, </institution><institution>Queensland Children’s Hospital, </institution></institution-wrap>South Brisbane, QLD Australia </aff>
+                <aff id="Aff3"><label>3</label>Herston Infectious Disease Institute, Metro North, QLD Health, Herston, QLD Australia </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="ROR">https://ror.org/00rqy9422</institution-id><institution-id institution-id-type="GRID">grid.1003.2</institution-id><institution-id institution-id-type="ISNI">0000 0000 9320 7537</institution-id><institution>Centre for Health Services Research, The University of Queensland, </institution></institution-wrap>Brisbane, Australia </aff>
+                <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="ROR">https://ror.org/04mqb0968</institution-id><institution-id institution-id-type="GRID">grid.412744.0</institution-id><institution-id institution-id-type="ISNI">0000 0004 0380 2017</institution-id><institution>Intensive Care Unit, </institution><institution>Princess Alexandra Hospital, </institution></institution-wrap>Brisbane, QLD Australia </aff>
+                <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="ROR">https://ror.org/02cetwy62</institution-id><institution-id institution-id-type="GRID">grid.415184.d</institution-id><institution-id institution-id-type="ISNI">0000 0004 0614 0266</institution-id><institution>Adult Intensive Care Services and Critical Care Research Group, </institution><institution>The Prince Charles Hospital, </institution></institution-wrap>Brisbane, QLD Australia </aff>
+                <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="ROR">https://ror.org/05p52kj31</institution-id><institution-id institution-id-type="GRID">grid.416100.2</institution-id><institution-id institution-id-type="ISNI">0000 0001 0688 4634</institution-id><institution>Department of Infectious Diseases, </institution><institution>Royal Brisbane and Women’s Hospital, </institution></institution-wrap>Brisbane, QLD Australia </aff>
+                <aff id="Aff8"><label>8</label>Department of Chemical Pathology, Pathology Queensland, Brisbane, QLD Australia </aff>
+                <aff id="Aff9"><label>9</label><institution-wrap><institution-id institution-id-type="ROR">https://ror.org/00rqy9422</institution-id><institution-id institution-id-type="GRID">grid.1003.2</institution-id><institution-id institution-id-type="ISNI">0000 0000 9320 7537</institution-id><institution>Faculty of Biomedical Science, </institution><institution>University of Queensland, </institution></institution-wrap>Brisbane, QLD Australia </aff>
+                <aff id="Aff10"><label>10</label>Optimum Dosing Strategies, Bloomingdale, NJ 07403 USA </aff>
+                <aff id="Aff11"><label>11</label>Department of Pharmacy, Saint Clare’s Health, Denville, NJ 07834 USA </aff>
+                <aff id="Aff12"><label>12</label><institution-wrap><institution-id institution-id-type="ROR">https://ror.org/01tgyzw49</institution-id><institution-id institution-id-type="GRID">grid.4280.e</institution-id><institution-id institution-id-type="ISNI">0000 0001 2180 6431</institution-id><institution>ADVANCE-ID, Saw Swee Hock School of Public Health, </institution><institution>National University of Singapore, </institution></institution-wrap>Singapore, Singapore </aff>
+                <aff id="Aff13"><label>13</label><institution-wrap><institution-id institution-id-type="ROR">https://ror.org/02t3p7e85</institution-id><institution-id institution-id-type="GRID">grid.240562.7</institution-id><institution>Infection Management and Prevention Service, </institution><institution>Queensland Children’s Hospital, </institution></institution-wrap>Brisbane, Australia </aff>
+                <aff id="Aff14"><label>14</label><institution-wrap><institution-id institution-id-type="ROR">https://ror.org/00rqy9422</institution-id><institution-id institution-id-type="GRID">grid.1003.2</institution-id><institution-id institution-id-type="ISNI">0000 0000 9320 7537</institution-id><institution>Child Health Research Centre, The University of Queensland, </institution></institution-wrap>Brisbane, QLD Australia </aff>
+                <aff id="Aff15"><label>15</label><institution-wrap><institution-id institution-id-type="ROR">https://ror.org/00rqy9422</institution-id><institution-id institution-id-type="GRID">grid.1003.2</institution-id><institution-id institution-id-type="ISNI">0000 0000 9320 7537</institution-id><institution>School of Chemistry and Molecular Biosciences, </institution><institution>The University of Queensland, </institution></institution-wrap>Brisbane, QLD Australia </aff>
+                <aff id="Aff16"><label>16</label><institution-wrap><institution-id institution-id-type="ROR">https://ror.org/05p52kj31</institution-id><institution-id institution-id-type="GRID">grid.416100.2</institution-id><institution-id institution-id-type="ISNI">0000 0001 0688 4634</institution-id><institution>ICU and Jameson Trauma Institute, Royal Brisbane and Women’s Hospital, </institution></institution-wrap>Herston, QLD Australia </aff>
+                <aff id="Aff17"><label>17</label><institution-wrap><institution-id institution-id-type="GRID">grid.411165.6</institution-id><institution-id institution-id-type="ISNI">0000 0004 0593 8241</institution-id><institution>Nimes University Hospital, University of Montpellier, </institution></institution-wrap>Nimes, France </aff>
+                <aff id="Aff18"><label>18</label><institution-wrap><institution-id institution-id-type="ROR">https://ror.org/05p52kj31</institution-id><institution-id institution-id-type="GRID">grid.416100.2</institution-id><institution-id institution-id-type="ISNI">0000 0001 0688 4634</institution-id><institution>Central Microbiology, Pathology Queensland, </institution><institution>Royal Brisbane and Women’s Hospital, </institution></institution-wrap>Herston, QLD Australia </aff>
+                <aff id="Aff19"><label>19</label><institution-wrap><institution-id institution-id-type="ROR">https://ror.org/035vb3h42</institution-id><institution-id institution-id-type="GRID">grid.412341.1</institution-id><institution-id institution-id-type="ISNI">0000 0001 0726 4330</institution-id><institution>Department of Pediatric and Neonatal Intensive Care, </institution><institution>University Children’s Hospital Zurich, </institution></institution-wrap>Zurich, Switzerland </aff>
+                <aff id="Aff20"><label>20</label><institution-wrap><institution-id institution-id-type="GRID">grid.1008.9</institution-id><institution-id institution-id-type="ISNI">0000 0001 2179 088X</institution-id><institution>Department of Microbiology and Immunology, </institution><institution>University of Melbourne at The Peter Doherty Institute for Infection and Immunity, </institution></institution-wrap>Melbourne, VIC Australia </aff>
+                <aff id="Aff21"><label>21</label><institution-wrap><institution-id institution-id-type="ROR">https://ror.org/00rqy9422</institution-id><institution-id institution-id-type="GRID">grid.1003.2</institution-id><institution-id institution-id-type="ISNI">0000 0000 9320 7537</institution-id><institution>Institute for Molecular Bioscience, The University of Queensland, </institution></institution-wrap>Brisbane, QLD Australia </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>13</day>
+                <month>3</month>
+                <year>2024</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>13</day>
+                <month>3</month>
+                <year>2024</year>
+              </pub-date>
+              <pub-date pub-type="ppub">
+                <year>2024</year>
+              </pub-date>
+              <volume>50</volume>
+              <issue>4</issue>
+              <fpage>539</fpage>
+              <lpage>547</lpage>
+              <history>
+                <date date-type="received">
+                  <day>29</day>
+                  <month>10</month>
+                  <year>2023</year>
+                </date>
+                <date date-type="accepted">
+                  <day>11</day>
+                  <month>2</month>
+                  <year>2024</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2024</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/4.0/</ali:license_ref>
+                  <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License, which permits any non-commercial use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <sec>
+                  <title>Purpose</title>
+                  <p id="Par1">Early recognition and effective treatment of sepsis improves outcomes in critically ill patients. However, antibiotic exposures are frequently suboptimal in the intensive care unit (ICU) setting. We describe the feasibility of the Bayesian dosing software Individually Designed Optimum Dosing Strategies (ID-ODS™), to reduce time to effective antibiotic exposure in children and adults with sepsis in ICU.</p>
+                </sec>
+                <sec>
+                  <title>Methods</title>
+                  <p id="Par2">A multi-centre prospective, non-randomised interventional trial in three adult ICUs and one paediatric ICU. In a pre-intervention Phase 1, we measured the time to target antibiotic exposure in participants. In Phase 2, antibiotic dosing recommendations were made using ID-ODS™, and time to target antibiotic concentrations were compared to patients in Phase 1 (a pre–post-design).</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p id="Par3">175 antibiotic courses (Phase 1 = 123, Phase 2 = 52) were analysed from 156 participants. Across all patients, there was no difference in the time to achieve target exposures (8.7 h vs 14.3 h in Phase 1 and Phase 2, respectively, <italic>p</italic> = 0.45). Sixty-one courses in 54 participants failed to achieve target exposures within 24 h of antibiotic commencement (<italic>n</italic> = 36 in Phase 1, n = 18 in Phase 2). In these participants, ID-ODS™ was associated with a reduction in time to target antibiotic exposure (96 vs 36.4 h in Phase 1 and Phase 2, respectively, <italic>p</italic> &lt; 0.01). These patients were less likely to exhibit subtherapeutic antibiotic exposures at 96 h (hazard ratio (HR) 0.02, 95% confidence interval (CI) 0.01–0.05, <italic>p</italic> &lt; 0.01). There was no difference observed in in-hospital mortality.</p>
+                </sec>
+                <sec>
+                  <title>Conclusions</title>
+                  <p id="Par4">Dosing software may reduce the time to achieve target antibiotic exposures. It should be evaluated further in trials to establish its impact on clinical outcomes.</p>
+                </sec>
+                <sec>
+                  <title>Supplementary Information</title>
+                  <p>The online version contains supplementary material available at 10.1007/s00134-024-07353-3.</p>
+                </sec>
+              </abstract>
+              <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>Dosing software</kwd>
+                <kwd>Antibiotics</kwd>
+                <kwd>Sepsis</kwd>
+                <kwd>Pharmacokinetic–pharmacodynamic</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100000925</institution-id>
+                      <institution>National Health and Medical Research Council</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>APP2002981</award-id>
+                  <award-id>APP1161657</award-id>
+                  <award-id>APP2007007</award-id>
+                  <award-id>APP1197743</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Chai</surname>
+                      <given-names>Ming G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schlapbach</surname>
+                      <given-names>Luregn J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Roberts</surname>
+                      <given-names>Jason A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Irwin</surname>
+                      <given-names>Adam D.</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>The University of Queensland</institution>
+                  </funding-source>
+                </award-group>
+                <open-access>
+                  <p> Open Access funding enabled and organized by CAUL and its Member Institutions</p>
+                </open-access>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© Springer-Verlag GmbH Germany, part of Springer Nature and European Society of Intensive Care Medicine 2024</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="FPar6">
+              <title>Take-home message:</title>
+              <p id="Par2220000">
+                <table-wrap id="Taba">
+                  <table frame="hsides" rules="groups">
+                    <tbody>
+                      <tr>
+                        <td align="left" colspan="2">This multi-centre study evaluated the feasibility of Bayesian dosing software to improve antibiotic exposures in children and adults with sepsis in intensive care unit. Dosing software reduced the time to achieve effective antibiotic concentrations and may improve clinical outcomes in critically ill patients with sepsis.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+              </p>
+            </sec>
+            <sec id="Sec1">
+              <title>Introduction</title>
+              <p id="Par5">Sepsis is a significant contributor to mortality in critically ill children and adults [<xref ref-type="bibr" rid="CR1">1</xref>, <xref ref-type="bibr" rid="CR2">2</xref>]. Prompt recognition and treatment, including the administration of effective antibiotics, improves outcomes and reduces mortality [<xref ref-type="bibr" rid="CR3">3</xref>, <xref ref-type="bibr" rid="CR4">4</xref>]. There are several barriers to the early recognition and treatment of sepsis. Its clinical presentation is often non-specific, while the processes of pathogen identification and susceptibility testing using conventional culture-based methods are time-consuming [<xref ref-type="bibr" rid="CR5">5</xref>]. Even when pathogen and susceptibility are known, patients in the intensive care unit (ICU) are exposed to subtherapeutic antibiotic exposures as a consequence of the pathophysiological changes that occur in critical illness, and the interventions they require [<xref ref-type="bibr" rid="CR6">6</xref>, <xref ref-type="bibr" rid="CR7">7</xref>]. Overcoming these barriers and reducing the time to therapeutic antibiotic exposures is intended to lead to reductions in mortality and length of stay.</p>
+              <p id="Par6">Consensus guidelines for the management of sepsis and septic shock in critically ill adults recommend strategies to optimise antibiotic dosing [<xref ref-type="bibr" rid="CR8">8</xref>]. These include the use of therapeutic drug monitoring and dosing software to personalise dosing and increase the probability of achieving therapeutic drug exposures, while minimising toxicity [<xref ref-type="bibr" rid="CR9">9</xref>]. Therapeutic drug monitoring (TDM) improves the probability of target attainment of beta lactam antibiotics [<xref ref-type="bibr" rid="CR10">10</xref>]. Dosing software may complement TDM by assisting clinicians to identify a dosing strategy most likely to achieve target exposures. The place of TDM was articulated in a recent Position paper endorsed by specialist international societies which recommended it as standard of care for most antimicrobials in ICU [<xref ref-type="bibr" rid="CR11">11</xref>], and was recommended for consideration in the 2021 Surviving Sepsis Campaign guidelines [<xref ref-type="bibr" rid="CR8">8</xref>]. Software using Bayesian statistics has embedded pharmacokinetic (PK) models that use patient and TDM data to estimate the drug’s PK in that patient and, therefore, develop a dosing regimen that is optimal for the individual patient at that point in time [<xref ref-type="bibr" rid="CR12">12</xref>, <xref ref-type="bibr" rid="CR13">13</xref>]. A small number of studies have demonstrated improved clinical response, reduced antibiotic associated adverse reactions, and decreased length of hospital stay and treatment costs using dosing software for aminoglycosides and vancomycin [<xref ref-type="bibr" rid="CR14">14</xref>–<xref ref-type="bibr" rid="CR18">18</xref>].</p>
+              <p id="Par7">We set out to determine the feasibility and clinical impact of a personalised approach to antibiotic dosing using the Bayesian dosing software Individually Designed Optimum Dosing Strategies (ID-ODS™), in critically ill children and adults with sepsis in the ICU.</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Methods</title>
+              <sec id="Sec3">
+                <title>Study design</title>
+                <p id="Par8">The DIRECT (Optimising Treatment Outcomes for Children and Adults Through Rapid Genome Sequencing of Sepsis Pathogens) study was a prospective, non-randomised multicentre interventional trial combining rapid pathogen sequencing with dosing software to optimise antibiotic exposures in children and adults with sepsis in ICU [<xref ref-type="bibr" rid="CR19">19</xref>]. We have separately reported the results of direct metagenomic sequencing from blood culture broth which indicate its feasibility and potential to reduce time to antibiotic susceptibility prediction [<xref ref-type="bibr" rid="CR20">20</xref>].</p>
+                <p id="Par9">The study was conducted at the following ICUs in Brisbane, Australia: Royal Brisbane and Women’s Hospital, The Prince Charles Hospital, Princess Alexandra Hospital and Queensland Children’s Hospital. The study protocol was approved by the Children’s Health Queensland Human Research Ethics Committee (HREC/19/CHQ/55177) and local governance approval was obtained from participating sites. The study protocol was prospectively registered with the Australian New Zealand Clinical Trials Registry (ACTRN12620001122943) and is reported in line with the CONSORT extension to pilot and feasibility trials [<xref ref-type="bibr" rid="CR21">21</xref>] with the recommended adaptions [<xref ref-type="bibr" rid="CR22">22</xref>].</p>
+              </sec>
+              <sec id="Sec4">
+                <title>Participants</title>
+                <p id="Par10">Inpatients in participating ICUs were considered eligible for inclusion if they developed sepsis or septic shock within 24 h of screening and were receiving antibiotic treatment with one of the following antibiotics: cefotaxime, ceftazidime, flucloxacillin, meropenem, piperacillin–tazobactam or vancomycin. The full inclusion and exclusion criteria are documented in supplementary Table 1.</p>
+              </sec>
+              <sec id="Sec5">
+                <title>Procedures</title>
+                <p id="Par11">The methods for pathogen identification and antimicrobial susceptibility were those validated for clinical use at Pathology Queensland. Blood cultures were performed using the BACT/Alert Virtuo System. Species identification was performed using matrix-assisted laser desorption/ionization time-of-flight (MALDI-TOF, Vitek MS, bioMérieux) on pure cultured isolates, with antimicrobial susceptibility testing (AST) performed by Vitek 2 automated broth microdilution (N-246 AST cards; bioMérieux), using EUCAST clinical breakpoints applicable at the time [<xref ref-type="bibr" rid="CR23">23</xref>]. For certain species (e.g., <italic>Streptococcus pyogenes</italic>), AST was undertaken using disk diffusion according to EUCAST methods [<xref ref-type="bibr" rid="CR24">24</xref>], or by Etest (bioMérieux) where appropriate (e.g., penicillin for <italic>Streptococcus pneumoniae</italic>).</p>
+                <p id="Par12">In Phase 1, antibiotic dosing was solely determined by the treating team. In Phase 2, participants who failed to achieve target antibiotic exposures within the first 24 h of therapy underwent dose optimisation by clinicians trained to use the Bayesian dosing software ID-ODS™. ID-ODS™ incorporates both paediatric and adult PK antibiotic models developed in critically ill patients, and appropriate models were used in each patient group. Treating clinicians applied software-guided dosing recommendations at their discretion. Target exposures for the beta-lactam antibiotics were unbound concentrations exceeding the minimum inhibitory concentration (MIC) of the pathogen (in blood culture-confirmed sepsis). These were either trough concentrations for beta-lactams administered as an intermittent infusion or steady-state concentrations for beta-lactams administered as a continuous infusion. In the setting of culture-negative sepsis and accounting for the most common local pathogens, the following EUCAST clinical breakpoint MICs were used (<ext-link ext-link-type="uri" xlink:href="http://www.eucast.org/clinical_breakpoints/">www.eucast.org/clinical_breakpoints/</ext-link>):</p>
+                <p id="Par13">• cefotaxime—2 mg/L</p>
+                <p id="Par14">• ceftazidime—8 mg/L</p>
+                <p id="Par15">• flucloxacillin—2 mg/L</p>
+                <p id="Par16">• piperacillin/Tazobactam—16 mg/L</p>
+                <p id="Par17">• meropenem—2 mg/L</p>
+                <p id="Par18">For vancomycin, target exposures were defined as either trough concentrations between 15 mg/L and 20 mg/L for intermittent infusions, or steady-state concentrations between 20 mg/L and 25 mg/L for continuous infusions. ID-ODS™ allows a target range to be inputted and selects the lowest dosing option needed to achieve a trough concentration between the range. These target exposures were selected based on a recently published position paper describing target exposures for various antimicrobials in critically ill patients [<xref ref-type="bibr" rid="CR11">11</xref>]. All antibiotic concentrations were collected every 24 h after antibiotic commencement for up to 96 h.</p>
+                <p id="Par19">In both phases of the study, the time that target exposures were achieved was identified through a posteriori ID-ODS™ antibiotic exposure simulations as has previously been described [<xref ref-type="bibr" rid="CR25">25</xref>]. Patients who did not achieve target concentrations by the end of their study enrolment were assigned a time to target of 96 h for data analysis purposes.</p>
+              </sec>
+              <sec id="Sec6">
+                <title>Outcomes</title>
+                <p id="Par20">We compared study outcomes in participants before (Phase 1) and after (Phase 2) the study intervention. The primary outcome was time to target antibiotic exposures.</p>
+              </sec>
+              <sec id="Sec7">
+                <title>Economic evaluation of the intervention</title>
+                <p id="Par21">A cost–benefit approach was undertaken. The cost of the intervention was estimated using a combination of bottom-up and top-down costing. The cost components of the intervention include: the cost of antibiotic assay of patient blood samples (therapeutic drug monitoring), the clinician (pharmacist) cost of service based on simulation runs, obtained from Queensland Health wage rates for health practitioners (HP5, Level 1 <ext-link ext-link-type="uri" xlink:href="https://www.health.qld.gov.au/hrpolicies/wage-rates/health-practitioners">https://www.health.qld.gov.au/hrpolicies/wage-rates/health-practitioners</ext-link>), the cost of dosing simulation with ID-ODS™, and the cost of the server line [A. Farkas, personal communication, February 6, 2023]. The cost of dosing simulation and server line were adjusted to 2022 AU$ following the guidelines of the Campbell and Cochrane Economics Methods Group (CCEGM) and the Evidence for Policy and Practice Information and Co-ordinating Centre (EPPI-Centre) <ext-link ext-link-type="uri" xlink:href="https://eppi.ioe.ac.uk/costconversion/default.aspx">https://eppi.ioe.ac.uk/costconversion/default.aspx</ext-link>. The benefit of the intervention was measured as the cost savings resulting from reduced length of ICU stay due to ID-ODS™ for patients in Phase 2. The cost of ICU stay per day was estimated from the Australian ICU registry report [<xref ref-type="bibr" rid="CR26">26</xref>], and adjusted to 2022 value using 2022/2014 Health Price Index of Australia <ext-link ext-link-type="uri" xlink:href="https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release">https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release</ext-link>. Where the benefit–cost ratio (BCR) is &gt; 1, it indicates that the benefits of the intervention outweigh the costs and vice versa.</p>
+              </sec>
+              <sec id="Sec8">
+                <title>Statistics</title>
+                <p id="Par22">Characteristics of study participants and time to target antibiotic exposures are presented as medians with interquartile ranges (IQR). Time taken to target antibiotic exposure was compared between patients in Phase 1 and 2 using a Mann–Whitney <italic>U</italic> test. Kaplan–Meier plots were used to assess the likelihood of achieving target exposures at 96 h. A two-sided <italic>p</italic> value &lt; 0.05 was considered statistically significant. Statistical analyses were performed using GraphPadPrism version 9.</p>
+              </sec>
+            </sec>
+            <sec id="Sec9">
+              <title>Results</title>
+              <p id="Par23">Screening and enrolment occurred from March 2020 to Feb 2021 for Phase 1 and March 2021 to December 2021 for Phase 2. A total of 201 patients were recruited into the trial. 156 patients were included in the analysis (108 patients with 123 antibiotic courses in Phase 1 and 48 patients with 52 antibiotic courses in Phase 2, see Fig. <xref rid="Fig1" ref-type="fig">1</xref>). A total of 321 antibiotic concentrations were collected in Phase 1 and 154 in Phase 2. The baseline characteristics of participants in each phase are reported in Table <xref rid="Tab1" ref-type="table">1</xref>. Trough concentrations could not be accurately simulated in 6 patients (five in Phase 1 and one in Phase 2) as their antibiotic measurements were too far removed from the accepted range of possible concentrations set by ID-ODS™ based on the underlying PK model and patient covariate data. A bacterial pathogen was isolated from blood cultures of 48 patients (36/108 in Phase 1 and 12/48 in Phase 2).<fig id="Fig1"><label>Fig. 1</label><caption><p>CONSORT diagram of trial profile</p></caption><graphic xlink:href="134_2024_7353_Fig1_HTML" id="MO1"/></fig><table-wrap id="Tab1"><label>Table 1</label><caption><p>Baseline characteristics of recruited patients</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Characteristics</th><th align="left">Phase 1 (<italic>n</italic> = 108)</th><th align="left">Phase 2 (<italic>n</italic> = 48)</th></tr></thead><tbody><tr><td align="left">Adult/Paediatric</td><td align="left">69/39 (63.9/36.1)</td><td align="left">25/23 (52.1/47.9)</td></tr><tr><td align="left">Male sex</td><td align="left">70 (64.8)</td><td align="left">36 (75)</td></tr><tr><td align="left">APACHE III (adults)</td><td align="left">65 (50–77)</td><td align="left">65 (51.5–76.3)</td></tr><tr><td align="left">PELOD 2 (children)</td><td align="left">4 (2–9)</td><td align="left">7 (4–10)</td></tr><tr><td align="left">pSOFA (children)</td><td align="left">6 (4–9)</td><td align="left">8 (5–10)</td></tr><tr><td align="left">Number receiving vasoactive medications</td><td align="left">47 (43.5)</td><td align="left">28 (58.3)</td></tr><tr><td align="left">Vasoactive Inotropic score</td><td align="left">12 (8–18)</td><td align="left">8 (12–24)</td></tr><tr><td align="left"><bold>Site of Infection</bold></td><td align="left"/><td align="left"/></tr><tr><td align="left">Lung</td><td align="left">38 (35.2)</td><td align="left">15 (31.3)</td></tr><tr><td align="left">CNS</td><td align="left">4 (3.7)</td><td align="left">2 (4.2)</td></tr><tr><td align="left">Intra-abdominal</td><td align="left">3 (2.8)</td><td align="left">0 (0)</td></tr><tr><td align="left">Primary bloodstream</td><td align="left">5 (4.6)</td><td align="left">2 (4.2)</td></tr><tr><td align="left">Skin and soft tissue</td><td align="left">10 (9.3)</td><td align="left">5 (10.4)</td></tr><tr><td align="left">Urinary tract</td><td align="left">7 (6.5)</td><td align="left">2 (4.2)</td></tr><tr><td align="left">Other</td><td align="left">15 (13.9)</td><td align="left">3 (6.3)</td></tr><tr><td align="left">Source not apparent</td><td align="left">26 (24.1)</td><td align="left">19 (39.6)</td></tr><tr><td align="left"><bold>Organisms in positive bacterial blood cultures</bold></td><td align="left">36 (33.3)</td><td align="left">12 (25)</td></tr><tr><td align="left"><italic>Escherichia coli</italic></td><td align="left">7</td><td align="left">2</td></tr><tr><td align="left">Enterobacter species</td><td align="left">6</td><td align="left">0</td></tr><tr><td align="left"><italic>Staphylococcus aureus (Methicillin sensitive)</italic></td><td align="left">5</td><td align="left">1</td></tr><tr><td align="left"><italic>Staphylococcus aureus (Methicillin resistant)</italic></td><td align="left">1</td><td align="left">1</td></tr><tr><td align="left">Other Staphylococcus species</td><td align="left">2</td><td align="left">0</td></tr><tr><td align="left">Streptococcus species</td><td align="left">5</td><td align="left">3</td></tr><tr><td align="left"><italic>Klebsiella pneumoniae</italic></td><td align="left">3</td><td align="left">0</td></tr><tr><td align="left"><italic>Pseudomonas aeruginosa</italic></td><td align="left">3</td><td align="left">1</td></tr><tr><td align="left">Other</td><td align="left">4<sup>b</sup></td><td align="left">4<sup>c</sup></td></tr></tbody></table><table frame="hsides" rules="groups"><thead><tr><th align="left">Study Drug<sup>a</sup></th><th align="left">Total = 123</th><th align="left">Total = 52</th></tr></thead><tbody><tr><td align="left">Piperacillin–Tazobactam</td><td align="left">59 (48)</td><td align="left">22 (42.3)</td></tr><tr><td align="left">Meropenem</td><td align="left">26 (21.1)</td><td align="left">6 (11.5)</td></tr><tr><td align="left">Cefotaxime</td><td align="left">15 (12.2)</td><td align="left">14 (26.9)</td></tr><tr><td align="left">Vancomycin</td><td align="left">18 (14.6)</td><td align="left">9 (17.3)</td></tr><tr><td align="left">Flucloxacillin</td><td align="left">5 (4)</td><td align="left">1 (1.9)</td></tr><tr><td align="left">Ceftazidime</td><td align="left">0 (0)</td><td align="left">0 (0)</td></tr></tbody></table><table-wrap-foot><p><italic>APACHE </italic> Acute Physiology and Chronic Health Evaluation (adults only), <italic>CNS</italic>   central nervous system, <italic>MRSA</italic> methicillin resistant <italic>Staphylococcus aureus</italic>, <italic>PELOD</italic>   Paediatric Logistic Organ Dysfunction (children only),<italic> pSOFA</italic> pediatric Sequential Organ Failure Assessment. Results are presented as median (interquartile range) or number (percentage). <sup>a</sup>Some patients were prescribed 2 study antibiotics on enrolment. <sup>b</sup><italic>Aeromonas hydrophilia, Bacillus cereus, Prevotella spp., Proteus mirabilis</italic>
+<sup>c</sup><italic>Haemophilus influenzae, Candida albicans, Proteus mirabilis, Enterococcus faecalis</italic></p></table-wrap-foot></table-wrap></p>
+              <p id="Par24">No statistically significant difference in the primary outcome of median time taken to achieve target exposures was observed (8.7 h [interquartile range (IQR) 5.9–96] vs 14.3 h [IQR 7.3–32.0] in Phase 1 and Phase 2, respectively, <italic>p</italic> = 0.45, see Fig. <xref rid="Fig2" ref-type="fig">2</xref>A). However, in participants who did not achieve target exposures within the first 24 h of antibiotic therapy (<italic>n</italic> = 36 patients with 41 antibiotic courses in Phase 1, and <italic>n</italic> = 18 patients with 20 antibiotic courses in Phase 2), the use of ID-ODS™ was associated with a reduction in median time to target antibiotic exposure (96 h [IQR 96–96] vs 36.4 h [IQR 29.8–42.6] in Phase 1 and Phase 2, respectively, <italic>p</italic> &lt; 0.01, see Fig. <xref rid="Fig2" ref-type="fig">2</xref>B). These findings were consistent in children and adults separately. A breakdown of adult and paediatric data is provided in the supplement.<fig id="Fig2"><label>Fig. 2</label><caption><p>Time taken to achieve target antibiotic exposures for all patients (<bold>A</bold>) and for patients who failed to achieve target concentrations within 24 h of antibiotic commencement (<bold>B</bold>). Results are depicted using median values with interquartile ranges</p></caption><graphic xlink:href="134_2024_7353_Fig2_HTML" id="MO2"/></fig></p>
+              <p id="Par25">Participants in Phase 2 who failed to achieve target antibiotic exposures within the first 24 h were much less likely to exhibit subtherapeutic antibiotic exposures at 96 h following the dosing intervention (hazard ratio (HR) 0.02, 95% confidence interval (CI) 0.01–0.05, see Fig. <xref rid="Fig3" ref-type="fig">3</xref>A). Again, this finding was consistent in both adults and children (HR in adults 0.08, 95% CI 0.01–0.55). The breakdown of adult and paediatric data is provided in supplementary Fig. 3B, C. There was no difference observed in in-hospital mortality (assessed up to 60 days) following the introduction of ID-ODS™ (11/108 vs 5/48 in Phase 1 and Phase 2, respectively; see supplementary Fig. 4 and supplementary Table 2).<fig id="Fig3"><label>Fig. 3</label><caption><p>Kaplan–Meier plot for estimates of subtherapeutic concentrations in patients who do not achieve target concentrations within 24 h</p></caption><graphic xlink:href="134_2024_7353_Fig3_HTML" id="MO3"/></fig></p>
+              <sec id="Sec10">
+                <title>Dosing Software recommendations</title>
+                <p id="Par26">ID-ODS™ was used to generate dosing recommendations for 20 antibiotic courses (in 18 participants). All suggestions were accepted by the treating teams. Seventeen patients achieved target exposures after one dose change (85%), with one requiring two dose changes. Two patients did not achieve target antibiotic exposures after one dose change but were discharged from the ICU before a second recommendation could be made. The most common software recommendation was to extend the infusion time (8/20) (keeping the total daily antibiotic dose the same), or to convert from an intermittent infusion to a continuous infusion (4/20). A total daily dose increase was recommended in the remaining 8 patients. There were no adverse events associated with the dosing software recommendations.</p>
+              </sec>
+              <sec id="Sec11">
+                <title>Cost and benefit of the intervention</title>
+                <p id="Par27">The cost of the intervention per patient was estimated to be $71.13. The intervention was associated with a reduction in the length of ICU stay by 2.13 days, which translates to a potential benefit of $12,324.28 (95% CI $9,520.93–$15,127.62) from averted ICU stay (supplementary Table 3).</p>
+              </sec>
+            </sec>
+            <sec id="Sec12">
+              <title>Discussion</title>
+              <p id="Par28">In this prospective, multi-centre trial of critically ill children and adults with sepsis, we demonstrated that it is feasible to employ Bayesian dosing software (ID-ODS™) in the ICU. Use of dosing software in patients who did not achieve target antibiotic exposures within 24 h of commencing antibiotics was associated with a reduction in the time taken to achieve target exposures. This finding was consistent in both children and adults separately.</p>
+              <p id="Par29">Emerging evidence supports the potential for TDM in combination with dosing software to attain target antibiotic exposures and improve clinical outcomes. In the TARGET clinical trial, the use of TDM-guided antibiotic therapy increased the proportion of patients that exceeded the minimum target exposure from 65% to 77%, though the trial failed to confirm any improved clinical outcomes. The study was limited by a marginal increase in minimum target exposure attainment which may have been amenable to improvement through the addition of dosing software [<xref ref-type="bibr" rid="CR27">27</xref>]. The recently published DOLPHIN trial is the first multicentre randomised controlled trial (RCT) to measure the impact of dosing software on clinical outcomes. Use of the model informed precision dosing (MIPD) software, InsightRX™, in combination with TDM failed to reduce ICU length of stay. There are several things to consider when interpreting the results of this important trial. Firstly, the use of MIPD software was delayed by up to 36 h. A conservative dosing strategy was used, limiting dose changes proposed by the MIPD software and restricting the maximum daily dose allowed (for example, a maximum cumulative dose of 16 g–2 g of piperacillin–tazobactam within a 24-h period). Participants were included in the analysis even if the infectious pathogen was not susceptible to the study drug. Finally, some of the models used in the MIPD software may have been unable to accurately predict target exposures as the models used total antibiotic concentrations while the investigators used unbound concentrations for TDM measurements [<xref ref-type="bibr" rid="CR28">28</xref>]. Commentators have highlighted the absence of external validation of some of the models used by the software [<xref ref-type="bibr" rid="CR29">29</xref>], while a recent multicentre evaluation of 24 popPK piperacillin models illustrated substantial inter-model variability leading to highly variable predictive performance [<xref ref-type="bibr" rid="CR30">30</xref>]. However, meta-analyses of individualised antimicrobial dose optimisation confirm the achievement of higher rates of target exposures and have suggested reductions in treatment failure and adverse outcomes, such as nephrotoxicity [<xref ref-type="bibr" rid="CR31">31</xref>, <xref ref-type="bibr" rid="CR32">32</xref>]. Practical barriers to dose optimisation include the time required to measure and report antibiotic concentrations in the laboratory. Innovative approaches such as wearable biosensors that provide rapid quantification of antibiotic concentrations, could reduce these delays and facilitate earlier TDM and dose optimisation [<xref ref-type="bibr" rid="CR33">33</xref>]. More work is undoubtedly necessary to assess the benefit of the approach [<xref ref-type="bibr" rid="CR34">34</xref>], and it is hoped that findings from our study provide further impetus to examine this important research question in the context of a suitably powered randomised clinical trial.</p>
+              <p id="Par30">We observed a reduction in costs associated with the dosing software intervention, attributable to a reduction in LOS in patients in Phase 2. For every $1 spent to optimise treatment outcomes with the intervention, this translated into a potential cost saving of $173.27 (95% CI $133.86–$212.69). Our cost analysis assumed the cost of ICU each day was the same by applying the average cost of ICU per day from the Australia ICU registry data, whereas the actual cost per day may vary [<xref ref-type="bibr" rid="CR35">35</xref>]. Our inability to collect patient-level cost data during the study led to the use of an average national estimate to value the cost of ICU stay in this study. The estimated cost saving is indicative only and will vary from country to country depending on patient case-mix and local healthcare costs. There was unmeasured variation between the two phases of the study which we did not adjust for (including factors unrelated to infection), and so our economic evaluation should be interpreted with caution.</p>
+              <sec id="Sec13">
+                <title>Strengths</title>
+                <p id="Par31">Our study presents a real-world evaluation of Bayesian dosing software to optimise antibiotic exposures in four ICUs, including a children’s ICU. We prospectively recruited more than 200 critically ill patients with sepsis. The dosing software intervention was successfully implemented by clinical pharmacists trained in its use, and dosing decisions made at the discretion of the treating clinical team. All dosing recommendations were accepted by the treating clinicians, and while this may reflect the expertise in the present academic ICU setting, our multi-centre design provides assurance that the use of dosing software can be feasibly applied in a range of ICU settings.</p>
+                <p id="Par32">We elected to include both children and adults in our trial for several reasons. Children are often excluded from clinical trials, including antimicrobial clinical trials, resulting in persisting knowledge gaps [<xref ref-type="bibr" rid="CR36">36</xref>]. The study investigators share considerable clinical and research expertise in paediatric and adult critical care, infectious diseases, and antimicrobial optimisation, and considered that as the trial was designed to test feasibility and measure endpoints that were suitable for both adults and children, there was a valuable opportunity to explore the feasibility of the intervention in the children’s ICU. The inclusion of clinical endpoints such as mortality or length of hospital stay would have made this more challenging [<xref ref-type="bibr" rid="CR37">37</xref>]. The software-guided dosing recommendations for children were all derived from paediatric pharmacokinetic models and the successful adoption of the dosing software, including the demonstration of its impact in children, are valuable learnings. Our results were consistent across the adult and paediatric cohorts, and we believe our findings are broadly applicable to both adults and children critically unwell with sepsis.</p>
+              </sec>
+              <sec id="Sec14">
+                <title>Limitations</title>
+                <p id="Par33">The limitations of our pre–post-quasi-experimental design are acknowledged. In addition, although dosing software was associated with a significant reduction in time to target exposures, we acknowledge the small number of participants who did not achieve target concentrations and accept there is residual uncertainty over the finding. The largely effective nature of empiric dosing in this study may contribute to the similar clinical outcomes observed, noting that the study was not powered to assess these. Our findings suggest, however, that dosing software (in this case ID-ODS™) is a suitable dosing intervention that can achieve high rates of target attainment and should be evaluated in trials for its impact on clinical outcomes. Approximately 30% of participants had culture-confirmed sepsis, which is slightly lower than other ICU sepsis studies [<xref ref-type="bibr" rid="CR2">2</xref>]. Though this is broadly representative of sepsis in high-income ICUs, the inclusion of patients with non-bacterial sepsis may reduce the impact of the intervention. Advanced infection diagnostics, particularly the clinical application of pathogen metagenomics [<xref ref-type="bibr" rid="CR20">20</xref>, <xref ref-type="bibr" rid="CR38">38</xref>] could improve the selection of patients and better target antibiotic therapy, thereby enhancing the impact of TDM and dosing interventions.</p>
+                <p id="Par34">As our study performed convenience sampling for TDM within each 24-h interval, we had to perform a posteriori pharmacokinetic modelling using ID-ODS™ to estimate the time target exposures were achieved. This method has previously demonstrated low bias at predicting actual antibiotic exposures [<xref ref-type="bibr" rid="CR39">39</xref>, <xref ref-type="bibr" rid="CR40">40</xref>]. Finally, we were unable to include data from 6 patients as their clinical characteristics were too far removed from the underlying PK model in ID-ODS™.</p>
+              </sec>
+            </sec>
+            <sec id="Sec15">
+              <title>Conclusion</title>
+              <p id="Par35">In a multi-centre study of critically ill children and adults with sepsis, the introduction of Bayesian dosing software (ID-ODS™) reduced time to target antibiotic exposures in those who failed to achieve target exposure in the first 24 h. The impact of this observation on clinical outcomes in sepsis should be evaluated further in the context of a randomised clinical trial. Work to improve the speed of pathogen identification that can be rapidly linked to dose optimisation remains a priority.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <sec id="Sec16">
+                <title>Supplementary Information</title>
+                <p>Below is the link to the electronic supplementary material.<supplementary-material content-type="local-data" id="MOESM1"><media xlink:href="134_2024_7353_MOESM1_ESM.docx"><caption><p>Supplementary file1 (DOCX 395 KB)</p></caption></media></supplementary-material></p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Publisher's Note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+              <fn>
+                <p>Adam D. Irwin and Jason A. Roberts contributed equally to this manuscript.</p>
+              </fn>
+              <fn>
+                <p>
+                  <bold>Change history</bold>
+                </p>
+                <p>4/2/2024</p>
+                <p>A Correction to this paper has been published: 10.1007/s00134-024-07393-9</p>
+              </fn>
+            </fn-group>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>The authors would like to thank the patients and families for consenting to participate in this study. In addition, we would like to acknowledge the support provided by the intensive care clinical pharmacy team at the Royal Brisbane and Women’s Hospital, The Princess Alexandra Hospital, The Prince Charles Hospital and Queensland Children’s Hospital. The authors would like to acknowledge Scott Beatson for his valuable contribution to the original design of the study.</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Author contributions</title>
+              <p>ADI, JAR, LJS, LC, PNAH and DLP conceived the study. LJS and JAR secured funding. ADI, JAR, LJS, LC, PNAH, DLP, SB, JL, SR, KS, PK, LV were members of the steering committee. KB, CF, NS, JM led study recruitment in each participating ICU. MOC, MGC, QT, KB led the dosing software implementation. RB, SB, LC developed the methods for and performed metagenomic sequencing. JU, BM, MJB, DW oversaw laboratory analysis. AF designed the dosing software. CO and TC carried out the health economic evaluation. MGC, MOC, JAR, LC, RB, SB, PNAH, BNF analysed laboratory data. MGC, MOC, ADI and JAR drafted the manuscript. All authors contributed to the review and editing of the manuscript.</p>
+            </notes>
+            <notes notes-type="funding-information">
+              <title>Funding</title>
+              <p>Open Access funding enabled and organized by CAUL and its Member Institutions. This work was supported by the Queensland Genomics Health Alliance (QGHA) Round 2 (now Queensland Genomics) clinical implementation, innovation and incubation program and by a Brisbane Diamantina Health Partners Health System Improvement Ideas Grant (MRFF Rapid Applied Research Translation Program). MGC is supported by a NHMRC Postgraduate scholarship (APP2002981). ADI is supported by a NHMRC Emerging Leadership Investigator Award (APP1197743). LJS is supported by a NHMRC practitioner Fellowship (APP1161657) and by Children’s Hospital Foundation, Brisbane, Australia. PNAH is supported by a NHMRC Early Career Fellowship (APP1157530). JAR is supported by a NHMRC Centre for Research Excellence Award (APP2007007) and an Investigator Award (APP2009736). None of the funding bodies had any involvement of the design, undertaking or interpretation of the study.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Data availability</title>
+              <p>De-identified clinical data are stored in the UQ Research Data Management system and are not publically available. They may be made available upon request to the corresponding authors.</p>
+            </notes>
+            <notes>
+              <title>Declarations</title>
+              <notes id="FPar1" notes-type="COI-statement">
+                <title>Conflicts of interest</title>
+                <p id="Par36">AF is the developer of ID-ODS™.</p>
+              </notes>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fleischmann-Struzek</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Mellhammar</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Rose</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Cassini</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Rudd</surname>
+                      <given-names>KE</given-names>
+                    </name>
+                    <name>
+                      <surname>Schlattmann</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Allegranzi</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Reinhart</surname>
+                      <given-names>K</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Incidence and mortality of hospital- and ICU-treated sepsis: results from an updated and expanded systematic review and meta-analysis</article-title>
+                  <source>Intens Care Med</source>
+                  <year>2020</year>
+                  <volume>46</volume>
+                  <fpage>1552</fpage>
+                  <lpage>1562</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00134-020-06151-x</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schlapbach</surname>
+                      <given-names>LJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Straney</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Alexander</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>MacLaren</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Festa</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Schibler</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Slater</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <collab>Group APS</collab>
+                  </person-group>
+                  <article-title>Mortality related to invasive infections, sepsis, and septic shock in critically ill children in Australia and New Zealand, 2002–13: a multicentre retrospective cohort study</article-title>
+                  <source>Lancet Infect Dis</source>
+                  <year>2015</year>
+                  <volume>15</volume>
+                  <fpage>46</fpage>
+                  <lpage>54</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S1473-3099(14)71003-5</pub-id>
+                  <?supplied-pmid 25471555?>
+                  <pub-id pub-id-type="pmid">25471555</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kumar</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Haery</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Paladugu</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Kumar</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Symeoneides</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Taiberg</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Osman</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Trenholme</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Opal</surname>
+                      <given-names>SM</given-names>
+                    </name>
+                    <name>
+                      <surname>Goldfarb</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Parrillo</surname>
+                      <given-names>JE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The duration of hypotension before the initiation of antibiotic treatment is a critical determinant of survival in a murine model of Escherichia coli septic shock: association with serum lactate and inflammatory cytokine levels</article-title>
+                  <source>J Infect Dis</source>
+                  <year>2006</year>
+                  <volume>193</volume>
+                  <fpage>251</fpage>
+                  <lpage>258</lpage>
+                  <pub-id pub-id-type="doi">10.1086/498909</pub-id>
+                  <?supplied-pmid 16362889?>
+                  <pub-id pub-id-type="pmid">16362889</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Evans</surname>
+                      <given-names>IVR</given-names>
+                    </name>
+                    <name>
+                      <surname>Phillips</surname>
+                      <given-names>GS</given-names>
+                    </name>
+                    <name>
+                      <surname>Alpern</surname>
+                      <given-names>ER</given-names>
+                    </name>
+                    <name>
+                      <surname>Angus</surname>
+                      <given-names>DC</given-names>
+                    </name>
+                    <name>
+                      <surname>Friedrich</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Kissoon</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Lemeshow</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Levy</surname>
+                      <given-names>MM</given-names>
+                    </name>
+                    <name>
+                      <surname>Parker</surname>
+                      <given-names>MM</given-names>
+                    </name>
+                    <name>
+                      <surname>Terry</surname>
+                      <given-names>KM</given-names>
+                    </name>
+                    <name>
+                      <surname>Watson</surname>
+                      <given-names>RS</given-names>
+                    </name>
+                    <name>
+                      <surname>Weiss</surname>
+                      <given-names>SL</given-names>
+                    </name>
+                    <name>
+                      <surname>Zimmerman</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Seymour</surname>
+                      <given-names>CW</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Association between the New York sepsis care mandate and in-hospital mortality for pediatric sepsis</article-title>
+                  <source>JAMA</source>
+                  <year>2018</year>
+                  <volume>320</volume>
+                  <fpage>358</fpage>
+                  <lpage>367</lpage>
+                  <pub-id pub-id-type="doi">10.1001/jama.2018.9071</pub-id>
+                  <?supplied-pmid 30043064?>
+                  <pub-id pub-id-type="pmid">30043064</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tabak</surname>
+                      <given-names>YP</given-names>
+                    </name>
+                    <name>
+                      <surname>Vankeepuram</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Ye</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Jeffers</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Gupta</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Murray</surname>
+                      <given-names>PR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Blood culture turnaround time in U.S. acute care hospitals and implications for laboratory process optimization</article-title>
+                  <source>J Clin Microbiol</source>
+                  <year>2018</year>
+                  <pub-id pub-id-type="doi">10.1128/jcm.00500-18</pub-id>
+                  <?supplied-pmid 30135230?>
+                  <pub-id pub-id-type="pmid">30135230</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Roberts</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Paul</surname>
+                      <given-names>SK</given-names>
+                    </name>
+                    <name>
+                      <surname>Akova</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Bassetti</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>De Waele</surname>
+                      <given-names>JJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Dimopoulos</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Kaukonen</surname>
+                      <given-names>KM</given-names>
+                    </name>
+                    <name>
+                      <surname>Koulenti</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Martin</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Montravers</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Rello</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Rhodes</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Starr</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Wallis</surname>
+                      <given-names>SC</given-names>
+                    </name>
+                    <name>
+                      <surname>Lipman</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>DALI: defining antibiotic levels in intensive care unit patients: are current β-lactam antibiotic doses sufficient for critically ill patients?</article-title>
+                  <source>Clin Infect Dis</source>
+                  <year>2014</year>
+                  <volume>58</volume>
+                  <fpage>1072</fpage>
+                  <lpage>1083</lpage>
+                  <pub-id pub-id-type="doi">10.1093/cid/ciu027</pub-id>
+                  <?supplied-pmid 24429437?>
+                  <pub-id pub-id-type="pmid">24429437</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Roberts</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Abdul-Aziz</surname>
+                      <given-names>MH</given-names>
+                    </name>
+                    <name>
+                      <surname>Lipman</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Mouton</surname>
+                      <given-names>JW</given-names>
+                    </name>
+                    <name>
+                      <surname>Vinks</surname>
+                      <given-names>AA</given-names>
+                    </name>
+                    <name>
+                      <surname>Felton</surname>
+                      <given-names>TW</given-names>
+                    </name>
+                    <name>
+                      <surname>Hope</surname>
+                      <given-names>WW</given-names>
+                    </name>
+                    <name>
+                      <surname>Farkas</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Neely</surname>
+                      <given-names>MN</given-names>
+                    </name>
+                    <name>
+                      <surname>Schentag</surname>
+                      <given-names>JJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Drusano</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Frey</surname>
+                      <given-names>OR</given-names>
+                    </name>
+                    <name>
+                      <surname>Theuretzbacher</surname>
+                      <given-names>U</given-names>
+                    </name>
+                    <name>
+                      <surname>Kuti</surname>
+                      <given-names>JL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Individualised antibiotic dosing for patients who are critically ill: challenges and potential solutions</article-title>
+                  <source>Lancet Infect Dis</source>
+                  <year>2014</year>
+                  <volume>14</volume>
+                  <fpage>498</fpage>
+                  <lpage>509</lpage>
+                  <pub-id pub-id-type="doi">10.1016/s1473-3099(14)70036-2</pub-id>
+                  <?supplied-pmid 24768475?>
+                  <pub-id pub-id-type="pmid">24768475</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Evans</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Rhodes</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Alhazzani</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Antonelli</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Coopersmith</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                    <name>
+                      <surname>French</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Machado</surname>
+                      <given-names>FR</given-names>
+                    </name>
+                    <name>
+                      <surname>McIntyre</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Ostermann</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Prescott</surname>
+                      <given-names>HC</given-names>
+                    </name>
+                    <name>
+                      <surname>Schorr</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Simpson</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Wiersinga</surname>
+                      <given-names>WJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Alshamsi</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Angus</surname>
+                      <given-names>DC</given-names>
+                    </name>
+                    <name>
+                      <surname>Arabi</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Azevedo</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Beale</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Beilman</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Belley-Cote</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Burry</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Cecconi</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Centofanti</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Coz Yataco</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>De Waele</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Dellinger</surname>
+                      <given-names>RP</given-names>
+                    </name>
+                    <name>
+                      <surname>Doi</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Du</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Estenssoro</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Ferrer</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Gomersall</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Hodgson</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Moller</surname>
+                      <given-names>MH</given-names>
+                    </name>
+                    <name>
+                      <surname>Iwashyna</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Jacob</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Kleinpell</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Klompas</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Koh</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Kumar</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Kwizera</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Lobo</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Masur</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>McGloughlin</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Mehta</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Mehta</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Mer</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Nunnally</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Oczkowski</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Osborn</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Papathanassoglou</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Perner</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Puskarich</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Roberts</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Schweickert</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Seckel</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Sevransky</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Sprung</surname>
+                      <given-names>CL</given-names>
+                    </name>
+                    <name>
+                      <surname>Welte</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Zimmerman</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Levy</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Surviving sepsis campaign: international guidelines for management of sepsis and septic shock 2021</article-title>
+                  <source>Intensive Care Med</source>
+                  <year>2021</year>
+                  <volume>47</volume>
+                  <fpage>1181</fpage>
+                  <lpage>1247</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00134-021-06506-y</pub-id>
+                  <?supplied-pmid 34599691?>
+                  <pub-id pub-id-type="pmid">34599691</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tangden</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Ramos Martin</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Felton</surname>
+                      <given-names>TW</given-names>
+                    </name>
+                    <name>
+                      <surname>Nielsen</surname>
+                      <given-names>EI</given-names>
+                    </name>
+                    <name>
+                      <surname>Marchand</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Bruggemann</surname>
+                      <given-names>RJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Bulitta</surname>
+                      <given-names>JB</given-names>
+                    </name>
+                    <name>
+                      <surname>Bassetti</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Theuretzbacher</surname>
+                      <given-names>U</given-names>
+                    </name>
+                    <name>
+                      <surname>Tsuji</surname>
+                      <given-names>BT</given-names>
+                    </name>
+                    <name>
+                      <surname>Wareham</surname>
+                      <given-names>DW</given-names>
+                    </name>
+                    <name>
+                      <surname>Friberg</surname>
+                      <given-names>LE</given-names>
+                    </name>
+                    <name>
+                      <surname>De Waele</surname>
+                      <given-names>JJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Tam</surname>
+                      <given-names>VH</given-names>
+                    </name>
+                    <name>
+                      <surname>Roberts</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <collab>Infection Section for the European Society of Intensive Care Medicine tP, Pharmacodynamics Study Group of the European Society of Clinical M, Infectious Diseases tISoA-IP, the Critically Ill Patients Study Group of European Society of Clinical M, Infectious D</collab>
+                  </person-group>
+                  <article-title>The role of infection models and PK/PD modelling for optimising care of critically ill patients with severe infections</article-title>
+                  <source>Intensive Care Med</source>
+                  <year>2017</year>
+                  <volume>43</volume>
+                  <fpage>1021</fpage>
+                  <lpage>1032</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00134-017-4780-6</pub-id>
+                  <?supplied-pmid 28409203?>
+                  <pub-id pub-id-type="pmid">28409203</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>De Waele</surname>
+                      <given-names>JJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Carrette</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Carlier</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Stove</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Boelens</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Claeys</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Leroux-Roels</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Hoste</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Depuydt</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Decruyenaere</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Verstraete</surname>
+                      <given-names>AG</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Therapeutic drug monitoring-based dose optimisation of piperacillin and meropenem: a randomised controlled trial</article-title>
+                  <source>Intensive Care Med</source>
+                  <year>2014</year>
+                  <volume>40</volume>
+                  <fpage>380</fpage>
+                  <lpage>387</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00134-013-3187-2</pub-id>
+                  <?supplied-pmid 24356862?>
+                  <pub-id pub-id-type="pmid">24356862</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Abdul-Aziz</surname>
+                      <given-names>MH</given-names>
+                    </name>
+                    <name>
+                      <surname>Alffenaar</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                    <name>
+                      <surname>Bassetti</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Bracht</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Dimopoulos</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Marriott</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Neely</surname>
+                      <given-names>MN</given-names>
+                    </name>
+                    <name>
+                      <surname>Paiva</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Pea</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Sjovall</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Timsit</surname>
+                      <given-names>JF</given-names>
+                    </name>
+                    <name>
+                      <surname>Udy</surname>
+                      <given-names>AA</given-names>
+                    </name>
+                    <name>
+                      <surname>Wicha</surname>
+                      <given-names>SG</given-names>
+                    </name>
+                    <name>
+                      <surname>Zeitlinger</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>De Waele</surname>
+                      <given-names>JJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Roberts</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <collab>Infection Section of European Society of Intensive Care M, Pharmacokinetic/pharmacodynamic, Critically Ill Patient Study Groups of European Society of Clinical M, Infectious D, Infectious Diseases Group of International Association of Therapeutic Drug M, Clinical T, Infections in the ICU, Sepsis Working Group of International Society of Antimicrobial C</collab>
+                  </person-group>
+                  <article-title>Antimicrobial therapeutic drug monitoring in critically ill adult patients: a Position Paper</article-title>
+                  <source>Intensive Care Med</source>
+                  <year>2020</year>
+                  <volume>46</volume>
+                  <fpage>1127</fpage>
+                  <lpage>1153</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00134-020-06050-1</pub-id>
+                  <?supplied-pmid 32383061?>
+                  <pub-id pub-id-type="pmid">32383061</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chai</surname>
+                      <given-names>MG</given-names>
+                    </name>
+                    <name>
+                      <surname>Cotta</surname>
+                      <given-names>MO</given-names>
+                    </name>
+                    <name>
+                      <surname>Abdul-Aziz</surname>
+                      <given-names>MH</given-names>
+                    </name>
+                    <name>
+                      <surname>Roberts</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>What are the current approaches to optimising antimicrobial dosing in the intensive care unit?</article-title>
+                  <source>Pharmaceutics</source>
+                  <year>2020</year>
+                  <volume>12</volume>
+                  <fpage>638</fpage>
+                  <pub-id pub-id-type="doi">10.3390/pharmaceutics12070638</pub-id>
+                  <?supplied-pmid 32645953?>
+                  <pub-id pub-id-type="pmid">32645953</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jager</surname>
+                      <given-names>NGL</given-names>
+                    </name>
+                    <name>
+                      <surname>Chai</surname>
+                      <given-names>MG</given-names>
+                    </name>
+                    <name>
+                      <surname>van Hest</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                    <name>
+                      <surname>Lipman</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Roberts</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Cotta</surname>
+                      <given-names>MO</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Precision dosing software to optimise antimicrobial dosing: a systematic search and follow-up survey of available programs</article-title>
+                  <source>Clin Microbiol Infect</source>
+                  <year>2022</year>
+                  <pub-id pub-id-type="doi">10.1016/j.cmi.2022.03.041</pub-id>
+                  <?supplied-pmid 35429656?>
+                  <pub-id pub-id-type="pmid">35429656</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Burton</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Ash</surname>
+                      <given-names>CL</given-names>
+                    </name>
+                    <name>
+                      <surname>Hill</surname>
+                      <given-names>DP</given-names>
+                      <suffix>Jr</suffix>
+                    </name>
+                    <name>
+                      <surname>Handy</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Shepherd</surname>
+                      <given-names>MD</given-names>
+                    </name>
+                    <name>
+                      <surname>Vasko</surname>
+                      <given-names>MR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A controlled trial of the cost benefit of computerized bayesian aminoglycoside administration</article-title>
+                  <source>Clin Pharmacol Ther</source>
+                  <year>1991</year>
+                  <volume>49</volume>
+                  <fpage>685</fpage>
+                  <lpage>694</lpage>
+                  <pub-id pub-id-type="doi">10.1038/clpt.1991.86</pub-id>
+                  <?supplied-pmid 1905602?>
+                  <pub-id pub-id-type="pmid">1905602</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Neely</surname>
+                      <given-names>MN</given-names>
+                    </name>
+                    <name>
+                      <surname>Kato</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Youn</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Kraler</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Bayard</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>van Guilder</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Schumitzky</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Yamada</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Jones</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Minejima</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Prospective trial on the use of trough concentration versus area under the curve to determine therapeutic vancomycin dosing</article-title>
+                  <source>Antimicrob Agents Chemother</source>
+                  <year>2018</year>
+                  <volume>62</volume>
+                  <fpage>e02042</fpage>
+                  <lpage>e2017</lpage>
+                  <pub-id pub-id-type="doi">10.1128/AAC.02042-17</pub-id>
+                  <?supplied-pmid 29203493?>
+                  <pub-id pub-id-type="pmid">29203493</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>TT</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>You</surname>
+                      <given-names>HS</given-names>
+                    </name>
+                    <name>
+                      <surname>Dong</surname>
+                      <given-names>YZ</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Du</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Sun</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Dong</surname>
+                      <given-names>YL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Therapeutic drug monitoring coupled with bayesian forecasting could prevent vancomycin-associated nephrotoxicity in renal insufficiency patients: a prospective study and pharmacoeconomic analysis</article-title>
+                  <source>Therapeutic Drug Monitor</source>
+                  <year>2020</year>
+                  <volume>42</volume>
+                  <fpage>600</fpage>
+                  <lpage>609</lpage>
+                  <pub-id pub-id-type="doi">10.1097/Ftd.0000000000000750</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sabourenkov</surname>
+                      <given-names>PE</given-names>
+                    </name>
+                    <name>
+                      <surname>McLeay</surname>
+                      <given-names>RC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>1599. AUC24 vancomycin bayesian-based dosing: increasing therapeutic target attainment with decreased TDM cost</article-title>
+                  <source>Open Forum Infect Dis</source>
+                  <year>2019</year>
+                  <volume>6</volume>
+                  <fpage>S583</fpage>
+                  <lpage>S583</lpage>
+                  <pub-id pub-id-type="doi">10.1093/ofid/ofz360.1463</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>van Lent-Evers</surname>
+                      <given-names>NA</given-names>
+                    </name>
+                    <name>
+                      <surname>Mathot</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                    <name>
+                      <surname>Geus</surname>
+                      <given-names>WP</given-names>
+                    </name>
+                    <name>
+                      <surname>van Hout</surname>
+                      <given-names>BA</given-names>
+                    </name>
+                    <name>
+                      <surname>Vinks</surname>
+                      <given-names>AA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Impact of goal-oriented and model-based clinical pharmacokinetic dosing of aminoglycosides on clinical outcome: a cost-effectiveness analysis</article-title>
+                  <source>Ther Drug Monit</source>
+                  <year>1999</year>
+                  <volume>21</volume>
+                  <fpage>63</fpage>
+                  <lpage>73</lpage>
+                  <pub-id pub-id-type="doi">10.1097/00007691-199902000-00010</pub-id>
+                  <?supplied-pmid 10051056?>
+                  <pub-id pub-id-type="pmid">10051056</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Irwin</surname>
+                      <given-names>AD</given-names>
+                    </name>
+                    <name>
+                      <surname>Coin</surname>
+                      <given-names>LJM</given-names>
+                    </name>
+                    <name>
+                      <surname>Harris</surname>
+                      <given-names>PNA</given-names>
+                    </name>
+                    <name>
+                      <surname>Cotta</surname>
+                      <given-names>MO</given-names>
+                    </name>
+                    <name>
+                      <surname>Bauer</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Buckley</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Balch</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Kruger</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Meyer</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Shekar</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Brady</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Fourie</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Sharp</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Vlad</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Whiley</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Beatson</surname>
+                      <given-names>SA</given-names>
+                    </name>
+                    <name>
+                      <surname>Forde</surname>
+                      <given-names>BM</given-names>
+                    </name>
+                    <name>
+                      <surname>Paterson</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Clark</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Hajkowicz</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Raman</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Bialasiewicz</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Lipman</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Schlapbach</surname>
+                      <given-names>LJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Roberts</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Optimising treatment outcomes for children and adults through rapid genome sequencing of sepsis pathogens. A study protocol for a prospective, multi-centre trial (DIRECT)</article-title>
+                  <source>Front Cell Infect Microbiol</source>
+                  <year>2021</year>
+                  <volume>11</volume>
+                  <fpage>667680</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fcimb.2021.667680</pub-id>
+                  <?supplied-pmid 34249774?>
+                  <pub-id pub-id-type="pmid">34249774</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Harris</surname>
+                      <given-names>PNA</given-names>
+                    </name>
+                    <name>
+                      <surname>Bauer</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Luftinger</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Beisken</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Forde</surname>
+                      <given-names>BM</given-names>
+                    </name>
+                    <name>
+                      <surname>Balch</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Cotta</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Schlapbach</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Raman</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Shekar</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Kruger</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Lipman</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Bialasiewicz</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Coin</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Roberts</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Paterson</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                    <name>
+                      <surname>Irwin</surname>
+                      <given-names>AD</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Rapid nanopore sequencing and predictive susceptibility testing of positive blood cultures from intensive care patients with sepsis</article-title>
+                  <source>Microbiol Spectr</source>
+                  <year>2024</year>
+                  <pub-id pub-id-type="doi">10.1128/spectrum.03065-23</pub-id>
+                  <?supplied-pmid 38193658?>
+                  <pub-id pub-id-type="pmid">38193658</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Eldridge</surname>
+                      <given-names>SM</given-names>
+                    </name>
+                    <name>
+                      <surname>Chan</surname>
+                      <given-names>CL</given-names>
+                    </name>
+                    <name>
+                      <surname>Campbell</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Bond</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                    <name>
+                      <surname>Hopewell</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Thabane</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Lancaster</surname>
+                      <given-names>GA</given-names>
+                    </name>
+                    <collab>Group PC</collab>
+                  </person-group>
+                  <article-title>CONSORT 2010 statement: extension to randomised pilot and feasibility trials</article-title>
+                  <source>BMJ</source>
+                  <year>2016</year>
+                  <volume>355</volume>
+                  <fpage>i5239</fpage>
+                  <pub-id pub-id-type="doi">10.1136/bmj.i5239</pub-id>
+                  <?supplied-pmid 27777223?>
+                  <pub-id pub-id-type="pmid">27777223</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lancaster</surname>
+                      <given-names>GA</given-names>
+                    </name>
+                    <name>
+                      <surname>Thabane</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Guidelines for reporting non-randomised pilot and feasibility studies</article-title>
+                  <source>Pilot Feasibil Stud</source>
+                  <year>2019</year>
+                  <volume>5</volume>
+                  <fpage>114</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s40814-019-0499-1</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <mixed-citation publication-type="other">European Committee on Antimicrobial Susceptibility Testing (2019) Breakpoint tables for interpretation of MICs and zone diameters version 9. In: Editor (ed)^(eds) Book Breakpoint tables for interpretation of MICs and zone diameters version 9. EUCAST, City, pp</mixed-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Matuschek</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Brown</surname>
+                      <given-names>DF</given-names>
+                    </name>
+                    <name>
+                      <surname>Kahlmeter</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Development of the EUCAST disk diffusion antimicrobial susceptibility testing method and its implementation in routine microbiology laboratories</article-title>
+                  <source>Clin Microbiol Infect</source>
+                  <year>2014</year>
+                  <volume>20</volume>
+                  <fpage>O255</fpage>
+                  <lpage>O266</lpage>
+                  <pub-id pub-id-type="doi">10.1111/1469-0691.12373</pub-id>
+                  <?supplied-pmid 24131428?>
+                  <pub-id pub-id-type="pmid">24131428</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chai</surname>
+                      <given-names>MG</given-names>
+                    </name>
+                    <name>
+                      <surname>Roberts</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Farkas</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Cotta</surname>
+                      <given-names>MO</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Accuracy of a precision dosing software program for predicting antibiotic concentrations in critically ill patients</article-title>
+                  <source>J Antimicrob Chemother</source>
+                  <year>2022</year>
+                  <volume>78</volume>
+                  <fpage>354</fpage>
+                  <lpage>358</lpage>
+                  <pub-id pub-id-type="doi">10.1093/jac/dkac392</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hicks</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Huckson</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Fenney</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Leggett</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Pilcher</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Litton</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The financial cost of intensive care in Australia: a multicentre registry study</article-title>
+                  <source>Med J Aust</source>
+                  <year>2019</year>
+                  <volume>211</volume>
+                  <fpage>324</fpage>
+                  <lpage>325</lpage>
+                  <pub-id pub-id-type="doi">10.5694/mja2.50309</pub-id>
+                  <?supplied-pmid 31420872?>
+                  <pub-id pub-id-type="pmid">31420872</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hagel</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Bach</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Brenner</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Bracht</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Brinkmann</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Annecke</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Hohn</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Weigand</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Michels</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Kluge</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Nierhaus</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Jarczak</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>König</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Weismann</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Frey</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <name>
+                      <surname>Witzke</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Müller</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Bauer</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Kiehntopf</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Neugebauer</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Lehmann</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Roberts</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Pletz</surname>
+                      <given-names>MW</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effect of therapeutic drug monitoring-based dose optimization of piperacillin/tazobactam on sepsis-related organ dysfunction in patients with sepsis: a randomized controlled trial</article-title>
+                  <source>Intensive Care Med</source>
+                  <year>2022</year>
+                  <volume>48</volume>
+                  <fpage>311</fpage>
+                  <lpage>321</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00134-021-06609-6</pub-id>
+                  <?supplied-pmid 35106617?>
+                  <pub-id pub-id-type="pmid">35106617</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ewoldt</surname>
+                      <given-names>TMJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Abdulla</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Rietdijk</surname>
+                      <given-names>WJR</given-names>
+                    </name>
+                    <name>
+                      <surname>Muller</surname>
+                      <given-names>AE</given-names>
+                    </name>
+                    <name>
+                      <surname>de Winter</surname>
+                      <given-names>BCM</given-names>
+                    </name>
+                    <name>
+                      <surname>Hunfeld</surname>
+                      <given-names>NGM</given-names>
+                    </name>
+                    <name>
+                      <surname>Purmer</surname>
+                      <given-names>IM</given-names>
+                    </name>
+                    <name>
+                      <surname>van Vliet</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Wils</surname>
+                      <given-names>EJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Haringman</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Draisma</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Rijpstra</surname>
+                      <given-names>TA</given-names>
+                    </name>
+                    <name>
+                      <surname>Karakus</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Gommers</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Endeman</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Koch</surname>
+                      <given-names>BCP</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Model-informed precision dosing of beta-lactam antibiotics and ciprofloxacin in critically ill patients: a multicentre randomised clinical trial</article-title>
+                  <source>Intensive Care Med</source>
+                  <year>2022</year>
+                  <pub-id pub-id-type="doi">10.1007/s00134-022-06921-9</pub-id>
+                  <?supplied-pmid 36350354?>
+                  <pub-id pub-id-type="pmid">36350354</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Liebchen</surname>
+                      <given-names>U</given-names>
+                    </name>
+                    <name>
+                      <surname>Briegel</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Brinkmann</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Frey</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <name>
+                      <surname>Wicha</surname>
+                      <given-names>SG</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Individualised dosing of antibiotics in ICU patients: timing, target and model selection matter</article-title>
+                  <source>Intensive Care Med</source>
+                  <year>2023</year>
+                  <volume>49</volume>
+                  <fpage>475</fpage>
+                  <lpage>476</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00134-023-06990-4</pub-id>
+                  <?supplied-pmid 36719458?>
+                  <pub-id pub-id-type="pmid">36719458</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Greppmair</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Brinkmann</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Roehr</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Frey</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <name>
+                      <surname>Hagel</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Dorn</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Marsot</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>El-Haffaf</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Zoller</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Saller</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Zander</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Schatz</surname>
+                      <given-names>LM</given-names>
+                    </name>
+                    <name>
+                      <surname>Scharf</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Briegel</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Minichmayr</surname>
+                      <given-names>IK</given-names>
+                    </name>
+                    <name>
+                      <surname>Wicha</surname>
+                      <given-names>SG</given-names>
+                    </name>
+                    <name>
+                      <surname>Liebchen</surname>
+                      <given-names>U</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Towards model-informed precision dosing of piperacillin: multicenter systematic external evaluation of pharmacokinetic models in critically ill adults with a focus on Bayesian forecasting</article-title>
+                  <source>Intensive Care Med</source>
+                  <year>2023</year>
+                  <volume>49</volume>
+                  <fpage>966</fpage>
+                  <lpage>976</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00134-023-07154-0</pub-id>
+                  <?supplied-pmid 37439872?>
+                  <pub-id pub-id-type="pmid">37439872</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Codina</surname>
+                      <given-names>MS</given-names>
+                    </name>
+                    <name>
+                      <surname>Bozkir</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Jorda</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Zeitlinger</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Individualised antimicrobial dose optimisation: a systematic review and meta-analysis of randomised controlled trials</article-title>
+                  <source>Clin Microbiol Infect</source>
+                  <year>2023</year>
+                  <pub-id pub-id-type="doi">10.1016/j.cmi.2023.03.018</pub-id>
+                  <?supplied-pmid 36067943?>
+                  <pub-id pub-id-type="pmid">36067943</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pai Mangalore</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Ashok</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>SJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Romero</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Peel</surname>
+                      <given-names>TN</given-names>
+                    </name>
+                    <name>
+                      <surname>Udy</surname>
+                      <given-names>AA</given-names>
+                    </name>
+                    <name>
+                      <surname>Peleg</surname>
+                      <given-names>AY</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Beta-lactam antibiotic therapeutic drug monitoring in critically ill patients: a systematic review and meta-analysis</article-title>
+                  <source>Clin Infect Dis</source>
+                  <year>2022</year>
+                  <volume>75</volume>
+                  <fpage>1848</fpage>
+                  <lpage>1860</lpage>
+                  <pub-id pub-id-type="doi">10.1093/cid/ciac506</pub-id>
+                  <?supplied-pmid 35731853?>
+                  <pub-id pub-id-type="pmid">35731853</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Brasier</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Ates</surname>
+                      <given-names>HC</given-names>
+                    </name>
+                    <name>
+                      <surname>Sempionatto</surname>
+                      <given-names>JR</given-names>
+                    </name>
+                    <name>
+                      <surname>Cotta</surname>
+                      <given-names>MO</given-names>
+                    </name>
+                    <name>
+                      <surname>Widmer</surname>
+                      <given-names>AF</given-names>
+                    </name>
+                    <name>
+                      <surname>Eckstein</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Goldhahn</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Roberts</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Gao</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Dincer</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A three-level model for therapeutic drug monitoring of antimicrobials at the site of infection</article-title>
+                  <source>Lancet Infect Dis</source>
+                  <year>2023</year>
+                  <volume>23</volume>
+                  <fpage>e445</fpage>
+                  <lpage>e453</lpage>
+                  <pub-id pub-id-type="doi">10.1016/s1473-3099(23)00215-3</pub-id>
+                  <?supplied-pmid 37348517?>
+                  <pub-id pub-id-type="pmid">37348517</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cotta</surname>
+                      <given-names>MO</given-names>
+                    </name>
+                    <name>
+                      <surname>Lipman</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>De Waele</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Advancing precision-based antimicrobial dosing in critically ill patients</article-title>
+                  <source>Intensive Care Med</source>
+                  <year>2023</year>
+                  <pub-id pub-id-type="doi">10.1007/s00134-022-06969-7</pub-id>
+                  <?supplied-pmid 36695835?>
+                  <pub-id pub-id-type="pmid">36695835</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gershengorn</surname>
+                      <given-names>HB</given-names>
+                    </name>
+                    <name>
+                      <surname>Garland</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Gong</surname>
+                      <given-names>MN</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Patterns of daily costs differ for medical and surgical intensive care unit patients</article-title>
+                  <source>Annals Am Thor Soc</source>
+                  <year>2015</year>
+                  <volume>12</volume>
+                  <fpage>1831</fpage>
+                  <lpage>1836</lpage>
+                  <pub-id pub-id-type="doi">10.1513/AnnalsATS.201506-366BC</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Thompson</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Barker</surname>
+                      <given-names>CI</given-names>
+                    </name>
+                    <name>
+                      <surname>Folgori</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Bielicki</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Bradley</surname>
+                      <given-names>JS</given-names>
+                    </name>
+                    <name>
+                      <surname>Lutsar</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Sharland</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Global shortage of neonatal and paediatric antibiotic trials: rapid review</article-title>
+                  <source>BMJ Open</source>
+                  <year>2017</year>
+                  <volume>7</volume>
+                  <fpage>e016293</fpage>
+                  <pub-id pub-id-type="doi">10.1136/bmjopen-2017-016293</pub-id>
+                  <?supplied-pmid 29030411?>
+                  <pub-id pub-id-type="pmid">29030411</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tanaudommongkon</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>John Miyagi</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Green</surname>
+                      <given-names>DJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Burnham</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>van den Anker</surname>
+                      <given-names>JN</given-names>
+                    </name>
+                    <name>
+                      <surname>Park</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>McCune</surname>
+                      <given-names>SK</given-names>
+                    </name>
+                    <name>
+                      <surname>Yao</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Burckart</surname>
+                      <given-names>GJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Combined pediatric and adult trials submitted to the US food and drug administration 2012–2018</article-title>
+                  <source>Clin Pharmacol Ther</source>
+                  <year>2020</year>
+                  <volume>108</volume>
+                  <fpage>1018</fpage>
+                  <lpage>1025</lpage>
+                  <pub-id pub-id-type="doi">10.1002/cpt.1886</pub-id>
+                  <?supplied-pmid 32394430?>
+                  <pub-id pub-id-type="pmid">32394430</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Edgeworth</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Respiratory metagenomics: route to routine service</article-title>
+                  <source>Curr Opin Infect Dis</source>
+                  <year>2023</year>
+                  <volume>36</volume>
+                  <fpage>115</fpage>
+                  <lpage>123</lpage>
+                  <pub-id pub-id-type="doi">10.1097/QCO.0000000000000909</pub-id>
+                  <?supplied-pmid 36853748?>
+                  <pub-id pub-id-type="pmid">36853748</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Felton</surname>
+                      <given-names>TW</given-names>
+                    </name>
+                    <name>
+                      <surname>Roberts</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Lodise</surname>
+                      <given-names>TP</given-names>
+                    </name>
+                    <name>
+                      <surname>Van Guilder</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Boselli</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Neely</surname>
+                      <given-names>MN</given-names>
+                    </name>
+                    <name>
+                      <surname>Hope</surname>
+                      <given-names>WW</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Individualization of piperacillin dosing for critically ill patients: dosing software to optimize antimicrobial therapy</article-title>
+                  <source>Antimicrob Agents Chemother</source>
+                  <year>2014</year>
+                  <volume>58</volume>
+                  <fpage>4094</fpage>
+                  <lpage>4102</lpage>
+                  <pub-id pub-id-type="doi">10.1128/AAC.02664-14</pub-id>
+                  <?supplied-pmid 24798288?>
+                  <pub-id pub-id-type="pmid">24798288</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wong</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Farkas</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Sussman</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Daroczi</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Hope</surname>
+                      <given-names>WW</given-names>
+                    </name>
+                    <name>
+                      <surname>Lipman</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Roberts</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Comparison of the accuracy and precision of pharmacokinetic equations to predict free meropenem concentrations in critically ill patients</article-title>
+                  <source>Antimicrob Agents Chemother</source>
+                  <year>2015</year>
+                  <volume>59</volume>
+                  <fpage>1411</fpage>
+                  <lpage>1417</lpage>
+                  <pub-id pub-id-type="doi">10.1128/AAC.04001-14</pub-id>
+                  <?supplied-pmid 25512414?>
+                  <pub-id pub-id-type="pmid">25512414</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

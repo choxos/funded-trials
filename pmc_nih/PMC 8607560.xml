@@ -1,0 +1,1491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T01:38:22Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8607560" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8607560</identifier>
+        <datestamp>2021-11-22</datestamp>
+        <setSpec>bmcmidm</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article" dtd-version="1.3">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">BMC Med Inform Decis Mak</journal-id>
+              <journal-id journal-id-type="iso-abbrev">BMC Med Inform Decis Mak</journal-id>
+              <journal-title-group>
+                <journal-title>BMC Medical Informatics and Decision Making</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1472-6947</issn>
+              <publisher>
+                <publisher-name>BioMed Central</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8607560</article-id>
+              <article-id pub-id-type="pmcid">PMC8607560</article-id>
+              <article-id pub-id-type="pmc-uid">8607560</article-id>
+              <article-id pub-id-type="pmid">34809631</article-id>
+              <article-id pub-id-type="publisher-id">1688</article-id>
+              <article-id pub-id-type="doi">10.1186/s12911-021-01688-3</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Improving random forest predictions in small datasets from two-phase sampling designs</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Han</surname>
+                    <given-names>Sunwoo</given-names>
+                  </name>
+                  <address>
+                    <email>shan@fredhutch.org</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Williamson</surname>
+                    <given-names>Brian D.</given-names>
+                  </name>
+                  <address>
+                    <email>bwillia2@fredhutch.org</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1"/>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4230-6863</contrib-id>
+                  <name>
+                    <surname>Fong</surname>
+                    <given-names>Youyi</given-names>
+                  </name>
+                  <address>
+                    <email>youyifong@gmail.com</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1"/>
+                </contrib>
+                <aff id="Aff1"><institution-wrap><institution-id institution-id-type="GRID">grid.270240.3</institution-id><institution-id institution-id-type="ISNI">0000 0001 2180 1622</institution-id><institution>Vaccine and Infectious Disease Division, </institution><institution>Fred Hutchinson Cancer Research Center, </institution></institution-wrap>Seattle, USA </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>22</day>
+                <month>11</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>22</day>
+                <month>11</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2021</year>
+              </pub-date>
+              <volume>21</volume>
+              <elocation-id>322</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>14</day>
+                  <month>1</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>10</day>
+                  <month>11</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2021</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p><bold>Open Access</bold>This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>. The Creative Commons Public Domain Dedication waiver (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link>) applies to the data made available in this article, unless otherwise stated in a credit line to the data.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <sec>
+                  <title>Background</title>
+                  <p id="Par1">While random forests are one of the most successful machine learning methods, it is necessary to optimize their performance for use with datasets resulting from a two-phase sampling design with a small number of cases—a common situation in biomedical studies, which often have rare outcomes and covariates whose measurement is resource-intensive.</p>
+                </sec>
+                <sec>
+                  <title>Methods</title>
+                  <p id="Par2">Using an immunologic marker dataset from a phase III HIV vaccine efficacy trial, we seek to optimize random forest prediction performance using combinations of variable screening, class balancing, weighting, and hyperparameter tuning.</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p id="Par3">Our experiments show that while class balancing helps improve random forest prediction performance when variable screening is not applied, class balancing has a negative impact on performance in the presence of variable screening. The impact of the weighting similarly depends on whether variable screening is applied. Hyperparameter tuning is ineffective in situations with small sample sizes. We further show that random forests under-perform generalized linear models for some subsets of markers, and prediction performance on this dataset can be improved by stacking random forests and generalized linear models trained on different subsets of predictors, and that the extent of improvement depends critically on the dissimilarities between candidate learner predictions.</p>
+                </sec>
+                <sec>
+                  <title>Conclusion</title>
+                  <p id="Par4">In small datasets from two-phase sampling design, variable screening and inverse sampling probability weighting are important for achieving good prediction performance of random forests. In addition, stacking random forests and simple linear models can offer improvements over random forests.</p>
+                </sec>
+                <sec>
+                  <title>Supplementary Information</title>
+                  <p>The online version contains supplementary material available at 10.1186/s12911-021-01688-3.</p>
+                </sec>
+              </abstract>
+              <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>Case–control design</kwd>
+                <kwd>Variable screening</kwd>
+                <kwd>Class imbalance</kwd>
+                <kwd>HIV vaccine</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100000060</institution-id>
+                      <institution>National Institute of Allergy and Infectious Diseases</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>R01-AI122991</award-id>
+                  <award-id>UM1-AI068635</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Fong</surname>
+                      <given-names>Youyi</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100000002</institution-id>
+                      <institution>National Institutes of Health</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>S10OD028685</award-id>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2021</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Background</title>
+              <p id="Par12">Prediction of a binary disease outcome from a collection of clinical covariates and biomarker measurements is a common task in biomedical studies. Many machine learning methods have been used with great success in solving problems as diverse as early prognosis and diagnosis of a cancer type [<xref ref-type="bibr" rid="CR1">1</xref>], identifying rare disease [<xref ref-type="bibr" rid="CR2">2</xref>], and prediction of infectious disease risk [<xref ref-type="bibr" rid="CR3">3</xref>]. However, machine learning methods have not been widely adopted in the context of prevention clinical trials using two-phase sampling designs. Two-phase sampling [<xref ref-type="bibr" rid="CR4">4</xref>] is a method to design substudies on selected subjects from a cohort to avoid measuring expensive covariates for every participant in the cohort. Typically, subjects in the cohort are classified into several strata based on the cohort information, and then a subset of subjects is randomly sampled without replacement from each stratum (see Additional file <xref rid="MOESM1" ref-type="media">1</xref>: Section D for a more detailed explanation.) Studies using the two-phase sampling designs often have a small number of disease endpoints and a high cost associated with measuring biomarkers such that only a small representative subset of controls have biomarker measurements. Most conventional machine learning methods tend to be unsuccessful in situations with small sample sizes because the methods require a substantial amount of training data.</p>
+              <p id="Par13">Random forests [RF; <xref ref-type="bibr" rid="CR5">5</xref>] are a popular machine learning method that have been increasingly used in biomedical applications. For example, RF have been used to recognize cancer-associated biomarkers from clinical trial data [<xref ref-type="bibr" rid="CR6">6</xref>], to predict protein-protein interactions [<xref ref-type="bibr" rid="CR7">7</xref>, <xref ref-type="bibr" rid="CR8">8</xref>], and to identify informative genes for a disease from microarray gene expression data [<xref ref-type="bibr" rid="CR9">9</xref>, <xref ref-type="bibr" rid="CR10">10</xref>]. RF has many advantages: it is fast in both model training and evaluation, is robust to outliers, can capture complex nonlinear associations, cope with class imbalance data, and produces competitive performance for high dimensional data [<xref ref-type="bibr" rid="CR11">11</xref>, <xref ref-type="bibr" rid="CR12">12</xref>]. It has also been shown to handle challenges arising from small sample sizes [<xref ref-type="bibr" rid="CR13">13</xref>]. In this manuscript, we seek to optimize random forest prediction performance using combinations of variable screening, class balancing, weighting, and hyperparameter tuning.</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Methods</title>
+              <p id="Par14">We conduct our experiments on RF using an immunologic marker dataset from the HIV Vaccine Trials Network (HVTN) 505 trial, a phase III HIV preventative vaccine efficacy trial [<xref ref-type="bibr" rid="CR14">14</xref>]. The trial contained a nested biomarker study to examine immunologic correlates of risk of infection using a two-phase sampling design, in which the vaccine recipients were stratified by body mass index (BMI) and race/ethnicity, five controls were randomly sampled from a stratum for each case therein, and an array of HIV-1-specific vaccine-induced T cell and antibody biomarkers were measured in 25 cases and in 125 controls [<xref ref-type="bibr" rid="CR15">15</xref>–<xref ref-type="bibr" rid="CR17">17</xref>].</p>
+              <p id="Par15">It is of great interest to build a model that best predicts HIV infection risk from the set of immune response biomarkers and clinical covariates measured in the HVTN 505 trial. However, two potential challenges related to the small sample size can result in poor prediction performance. The first is that the immunologic marker dataset from the HVTN 505 study, which we will refer to as the HVTN 505 dataset, is high-dimensional: the total number of the biomarkers is 420, compared to the 150 observations. The second challenge is class imbalance, since the ratio of cases to controls is 1:5. In general, when the number of input variables is larger than the number of observations and the class distribution is skewed, the prediction performance of machine learning methods can deteriorate [<xref ref-type="bibr" rid="CR11">11</xref>, <xref ref-type="bibr" rid="CR18">18</xref>].</p>
+              <p id="Par16">We first give a brief introduction to RF, and then, we study variable screening, class balancing, and inverse sampling probability weighting. We also investigate the impact of hyperparameter tuning on the performance of RF. Furthermore, we compare the prediction performance of RF to that of generalized linear models (GLM) and propose several stacking models that combine the predictions of RF and GLM.</p>
+            </sec>
+            <sec id="Sec3">
+              <title>Results</title>
+              <sec id="Sec4">
+                <title>Random forest optimization</title>
+                <sec id="Sec5">
+                  <title>Random forests</title>
+                  <p id="Par17">Random forests [RF; <xref ref-type="bibr" rid="CR5">5</xref>] are a popular classification and regression ensemble method. The algorithm works by building multiple individual classifiers (or regression functions) and then aggregating them to make a final prediction. The most widely used implementations of RF are tree-based ensembles consisting of classification and regression trees [CART; <xref ref-type="bibr" rid="CR19">19</xref>]; however, other methods can be applied as well. Random forests are trained by generating bootstrapped datasets from an initial training dataset; next, trees are fitted on the bootstrapped datasets to maximal depth without pruning [<xref ref-type="bibr" rid="CR5">5</xref>, <xref ref-type="bibr" rid="CR20">20</xref>]. To construct each individual tree, the algorithm searches for the best split criterion on a random subset of the variables instead of all variables at each node. This randomness causes trees to be more diverse; as a result, aggregating multiple uncorrelated trees significantly reduces the variance of the estimator and improves overall performance. For prediction on a given test observation, the class predicted by each individual tree is aggregated to make a final prediction using a simple majority vote in classification problems. We present a flow diagram of the algorithm in the context of classification in Fig. <xref rid="Fig1" ref-type="fig">1</xref>.<fig id="Fig1"><label>Fig. 1</label><caption><p>A flow diagram for the random forest algorithm in the context of classification</p></caption><graphic xlink:href="12911_2021_1688_Fig1_HTML" id="MO1"/></fig></p>
+                </sec>
+                <sec id="Sec6">
+                  <title>Variable screening, class balancing, and inverse sampling probability weighting</title>
+                  <p id="Par18">Following a slightly simplified version of the analysis plan of [<xref ref-type="bibr" rid="CR17">17</xref>], we consider the task of predicting HIV infection using four different sets of immunologic markers: (1) all measured markers, (2) T cell markers, (3) antibody markers, and (4) no markers. In all analyses we also include the clinical covariates age, BMI, and behavior risk score unless otherwise specified. Set (2) includes T cell markers from [<xref ref-type="bibr" rid="CR15">15</xref>]. Set (3) includes IgG, IgA, and IgG3 binding antibody markers, along with antibody Fc effector function markers [<xref ref-type="bibr" rid="CR16">16</xref>, <xref ref-type="bibr" rid="CR17">17</xref>]. Set (1) is equal to the union of sets (2) and (3).</p>
+                  <p id="Par19">To evaluate prediction performance, we calculate the five-fold cross-validated area under the receiver operating characteristic curve (CV-AUC). As is common in many biomedical datasets with variables requiring resource-intensive laboratory measurement, the HVTN 505 immunologic marker dataset does not contain biomarker data for every participant from the full cohort. Instead, data are available from a subset of participants from a two-phase stratified sampling plan [<xref ref-type="bibr" rid="CR4">4</xref>]. To account for this sampling design, the CV-AUC is computed using inverse sampling probability weighting (IPW), which are the inverse of the sampling probabilities determined by the two-phase sampling plan. Typically, all the cases are sampled because they are rare, thus their weights are 1. Only a small subset of controls is randomly sampled due to the abundance of controls, thus their weights are greater than 1. The weights for the HVTN 505 immunologic markers dataset are listed in Additional file <xref rid="MOESM1" ref-type="media">1</xref>: Table A.1. By incorporating the IPW in the CV-AUC calculation, prediction performance of a model based on two-phase samples can be generalized to the full cohort, and the formula [<xref ref-type="bibr" rid="CR21">21</xref>] is defined as<disp-formula id="Equ1"><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} \sum _{i \in D^{1}} \sum _{j \in D^{0}} w_i w_j I(P_i &gt; P_j) / \sum _{i \in D^{1}} \sum _{j \in D^{0}} w_i w_j, \end{aligned}$$\end{document}</tex-math><mml:math id="M2" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:munder><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>∈</mml:mo><mml:msup><mml:mi>D</mml:mi><mml:mn>1</mml:mn></mml:msup></mml:mrow></mml:munder><mml:munder><mml:mo>∑</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>∈</mml:mo><mml:msup><mml:mi>D</mml:mi><mml:mn>0</mml:mn></mml:msup></mml:mrow></mml:munder><mml:msub><mml:mi>w</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:msub><mml:mi>w</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mi>I</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>P</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&gt;</mml:mo><mml:msub><mml:mi>P</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo stretchy="false">/</mml:mo><mml:munder><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>∈</mml:mo><mml:msup><mml:mi>D</mml:mi><mml:mn>1</mml:mn></mml:msup></mml:mrow></mml:munder><mml:munder><mml:mo>∑</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>∈</mml:mo><mml:msup><mml:mi>D</mml:mi><mml:mn>0</mml:mn></mml:msup></mml:mrow></mml:munder><mml:msub><mml:mi>w</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:msub><mml:mi>w</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>,</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="12911_2021_1688_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula>where <italic>i</italic> and <italic>j</italic> are the case and control indexes, respectively; <inline-formula id="IEq1"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$D^1$$\end{document}</tex-math><mml:math id="M4"><mml:msup><mml:mi>D</mml:mi><mml:mn>1</mml:mn></mml:msup></mml:math><inline-graphic xlink:href="12911_2021_1688_Article_IEq1.gif"/></alternatives></inline-formula> and <inline-formula id="IEq2"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$D^0$$\end{document}</tex-math><mml:math id="M6"><mml:msup><mml:mi>D</mml:mi><mml:mn>0</mml:mn></mml:msup></mml:math><inline-graphic xlink:href="12911_2021_1688_Article_IEq2.gif"/></alternatives></inline-formula> are the case and control groups; <italic>w</italic> is the vector of IPW weights; and <italic>P</italic> is a prediction score, for RF models, it is the fraction of trees predicting cases. To obtain more stable CV-AUC estimates, we calculate the five-fold CV-AUC one-hundred times by using different random seeds to split the data and report the average CV-AUC over the one-hundred replications.</p>
+                  <p id="Par20">The performance of RF can suffer when there are too many input variables and when the numbers of cases and controls are imbalanced [<xref ref-type="bibr" rid="CR18">18</xref>, <xref ref-type="bibr" rid="CR22">22</xref>]. Hence, in this section we consider the use of variable screening and class balancing to improve performance. Variable screening is a dimension-reduction technique often used in high-dimensional settings, and works by removing irrelevant variables and selecting informative variables. Screening algorithms can generally be classified into two categories: supervised and unsupervised screening [<xref ref-type="bibr" rid="CR23">23</xref>]. The former screens variables based on the associations between input variables and an outcome; a representative example is penalized least squares or penalized likelihood. The latter considers only the input variables; well-known methods include clustering-based screening [<xref ref-type="bibr" rid="CR24">24</xref>] and correlation-based screening [<xref ref-type="bibr" rid="CR25">25</xref>]. In this paper, we employ lasso screening (a supervised method) that eliminates variables with zero coefficients estimated from lasso logistic regression models [<xref ref-type="bibr" rid="CR26">26</xref>], which include the immunologic markers and the clinical covariates and employs five-fold cross-validation to select the lasso penalty.</p>
+                  <p id="Par21">Class imbalance occurs when one class has a much smaller number of observations than the other classes. In situations with class imbalance, most machine learning methods are biased toward the majority class (in the HVTN 505 example, the controls), and ignore the minority class; as a result, the performance of these methods can be unsatisfactory [<xref ref-type="bibr" rid="CR18">18</xref>, <xref ref-type="bibr" rid="CR22">22</xref>]. Class balancing is a potential solution, wherein the class distribution is artificially rebalanced by randomly under-sampling the majority class or over-sampling the minority class. Many machine learning methods require the data to be pre-processed if class balancing is used; in contrast, RF can naturally incorporate class balancing since it can fit trees on class-balanced bootstrapped datasets that are obtained by modifying the sampling scheme when the ensemble is initialized. We study both under- and over-sampling separately to determine which results in the most improved performance in our setting.</p>
+                  <p id="Par22">To study the effects of variable screening, class balancing, and inverse sampling probability weighting on the performance of RF, we compare four RF models, each with and without variable screening (Table <xref rid="Tab1" ref-type="table">1</xref>). The first is standard RF without class balancing or weighting, implemented using the <italic>ranger</italic> R package [<xref ref-type="bibr" rid="CR27">27</xref>] with default settings. More detailed information on the default settings can be found in the Additional file <xref rid="MOESM1" ref-type="media">1</xref>: Section B. The second is RF with under-sampling, while the third is RF with over-sampling. In the five-fold cross-validation scheme, each training dataset has 20 cases and 100 controls. Thus, RF with under-sampling fits trees on bootstrap datasets with 20 cases and 20 controls, and RF with over-sampling fits trees on bootstrap datasets with 100 cases and 100 controls. These two methods are implemented using the <italic>case.weights</italic> and <italic>sample.fraction</italic> arguments in the <italic>ranger</italic> package. The former controls weights for bootstrap sampling, where observations with larger weights are more frequently represented in the bootstrap datasets, and the latter controls the fraction of observations to be sampled in the bootstrap datasets. Specifically, under-sampling is achieved by setting the argument <italic>case.weights</italic> equal to 5 for the cases and 1 for the controls, and setting the argument <italic>sample.fraction</italic> equal to 40/120. Some pre-processing is necessary for over-sampling, because the <italic>ranger</italic> package does not allow <italic>sample.fraction</italic> to be greater than 1. Here, we first create a training dataset that has 100 cases and 100 controls by randomly over-sampling the cases, and then fit a RF model on the modified training dataset by setting <italic>case.weights</italic> equal to 1 for all observations and <italic>sample.fraction</italic> equal to 200/200. The final model we consider is RF with IPW. This is implemented by setting <italic>case.weights</italic> equal to the IPW weights.</p>
+                  <p id="Par23">The results of this experiment are presented in Table <xref rid="Tab1" ref-type="table">1</xref>. All RF models with screening outperform their counterparts without screening. This is most likely due to excessive overfitting when variable screening is not applied. The RF algorithm constructs individual trees with maximal depth without pruning [<xref ref-type="bibr" rid="CR5">5</xref>]. Without screening, the RF algorithm will by chance use many noisy predictors in the tree construction and the resulting model will fail to generalize well. We examine this in more detail in Additional file <xref rid="MOESM1" ref-type="media">1</xref>: Section C.</p>
+                  <p id="Par24">The effects of under- and over-sampling depend on whether variable screening is applied. Without screening, class balancing methods confer substantial improvement over the standard RF. This is a well-known phenomenon [<xref ref-type="bibr" rid="CR28">28</xref>] and can be attributed to the fact that RF models construct trees to minimize Gini impurity, which, unlike AUC, is sensitive to class prevalence [<xref ref-type="bibr" rid="CR19">19</xref>, <xref ref-type="bibr" rid="CR29">29</xref>]. With screening, using class balancing methods leads to a slight decrease in performance in some sets of markers. That variable screening can counter class imbalance has been observed before [<xref ref-type="bibr" rid="CR30">30</xref>, <xref ref-type="bibr" rid="CR31">31</xref>], though the reasons for this are not well understood. The decrease in prediction performance may be because under-sampling and over-sampling lead to degradation in data quality by throwing away data in the majority class and introducing duplicate data in the minority class, respectively.</p>
+                  <p id="Par25">The effects of using IPW also depend on variable screening. This is because on the one hand, using IPW makes the criterion function in the training step align more closely with the prediction performance metric; on the other hand, IPW may exacerbate the class imbalance problem in RF training. The results show that when variable screening is not applied, the RF with IPW performs worse than the standard RF in almost all sets of markers. This result makes sense because IPW gives more weights to the controls, which make the bootstrapped datasets even more imbalanced. When variable screening is applied, the overall impact of using IPW is reversed. With and without using IPW performs similarly for all markers and no markers; using IPW weighting performs slightly better for T cell markers and antibody markers.<table-wrap id="Tab1"><label>Table 1</label><caption><p>Comparison of CV-AUCs obtained by standard random forest (RF), random forest with under-sampling (RF_under), random forest with over-sampling (RF_over), and random forest with inverse sampling probability weights (RF_ipw), including results obtained without variable screening and results obtained with variable screening</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="2"/><th align="left" colspan="4">No screening</th><th align="left" colspan="4">Screening</th></tr><tr><th align="left">RF</th><th align="left">RF_under</th><th align="left">RF_over</th><th align="left">RF_ipw</th><th align="left">RF</th><th align="left">RF_under</th><th align="left">RF_over</th><th align="left">RF_ipw</th></tr></thead><tbody><tr><td align="left">All markers</td><td char="." align="char">0.679</td><td char="." align="char">0.732</td><td char="." align="char">0.711</td><td char="." align="char">0.657</td><td char="." align="char">0.824</td><td char="." align="char">0.806</td><td char="." align="char">0.806</td><td char="." align="char">0.824</td></tr><tr><td align="left">T cell markers</td><td char="." align="char">0.718</td><td char="." align="char">0.714</td><td char="." align="char">0.715</td><td char="." align="char">0.708</td><td char="." align="char">0.812</td><td char="." align="char">0.780</td><td char="." align="char">0.799</td><td char="." align="char">0.819</td></tr><tr><td align="left">Antibody markers</td><td char="." align="char">0.605</td><td char="." align="char">0.656</td><td char="." align="char">0.628</td><td char="." align="char">0.579</td><td char="." align="char">0.708</td><td char="." align="char">0.722</td><td char="." align="char">0.696</td><td char="." align="char">0.711</td></tr><tr><td align="left">No markers</td><td char="." align="char">0.442</td><td char="." align="char">0.452</td><td char="." align="char">0.448</td><td char="." align="char">0.443</td><td char="." align="char">0.442</td><td char="." align="char">0.452</td><td char="." align="char">0.448</td><td char="." align="char">0.443</td></tr></tbody></table><table-wrap-foot><p>Clinical covariates (age, BMI, and a risk behavior score) are always included</p></table-wrap-foot></table-wrap></p>
+                </sec>
+                <sec id="Sec7">
+                  <title>Hyperparameter tuning</title>
+                  <p id="Par26">The performance of RF may be further improved by tuning its hyperparameters. Although there are many hyperparameters in the RF algorithm, we explore three that have been shown to have the most impact on prediction performance [<xref ref-type="bibr" rid="CR32">32</xref>]. These are (1) the number of variables randomly sampled as candidates at each split, (2) the minimum size of terminal nodes, and (3) the number of observations that are drawn for each tree. Note that tuning the size of terminal nodes is equivalent to tuning the depth of trees. We use the <italic>tuneRanger</italic> R package [<xref ref-type="bibr" rid="CR33">33</xref>] to search over a grid of these hyperparameters for an optimal set of the hyperparameters based on out-of-bag AUC, which is AUC calculated on out-of-bag data that are not selected into the bootstrapped data in the initial stage of the RF algorithm (Fig. <xref rid="Fig1" ref-type="fig">1</xref>), through sequential model-based optimization. The optimal set is a set of hyperparameters that achieves the highest out-of-bag AUC among 50 to 100 sets of hyperparameters. More detailed information for the <italic>tuneRanger</italic> R package can be found in the Additional file <xref rid="MOESM1" ref-type="media">1</xref>: Section B.</p>
+                  <p id="Par27">To explore the effect of hyperparameter tuning, we compare the performance of standard RF and tuned RF. The standard RF is fit using the default hyperparameter values specified in the <italic>ranger</italic> R package, while the tuned RF is fit using the <italic>tuneRanger</italic> R package. For both methods, we use variable screening, but not class balancing or inverse sampling probability weighting. The design of the experiment is the same as before. Table <xref rid="Tab2" ref-type="table">2</xref> shows that tuning does not have a clear-cut effect on performance. When antibody markers alone or no markers are used, tuning increases performance; but when either all markers or T cell markers alone are used, tuning decreases performance. This is likely due to overfitting to the out-of-bag samples under small sample sizes, a phenomenon that has been observed in the econometrics literature [e.g. <xref ref-type="bibr" rid="CR34">34</xref>]. A similar phenomenon has also been observed in Kaggle competitions, where there are two testing datasets, a public leaderboard dataset and a larger private leaderboard dataset, and overfitting to the public testing dataset can decrease performance on the private testing dataset [<xref ref-type="bibr" rid="CR35">35</xref>]. Another potential reason for explaining the observation may be that out-of-bag AUC, an optimization criterion in the tuning algorithm, does not consider IPW and would not align with the prediction performance metric CV-AUC, which incorporates IPW. It might select a sub-optimal set of hyperparameters, and tuning was not always successful. In Table <xref rid="Tab2" ref-type="table">2</xref> the CV-AUCs for both standard and tuned RF are below 0.5 when no markers are used. This is still true if we evaluate CV-AUC without using weights. One explanation for these results is overfitting to the training subset. For simplicity, suppose there is a single clinical covariate, and it shows no association with the outcome in a dataset. When the dataset is split into a training subset and a validation subset, by chance there may arise some association in the training subset. And because there is no overall association in the full dataset, there will also be association in the opposite direction in the validation subset, which will lead to CV-AUC less than 0.5.<table-wrap id="Tab2"><label>Table 2</label><caption><p>Comparison of CV-AUC of standard random forest (RF) and tuned random forest (tRF). Screening is applied to both methods, but not class balancing or inverse sampling probability weighting</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"/><th align="left">RF</th><th align="left">tRF</th></tr></thead><tbody><tr><td align="left">All markers</td><td char="." align="char">0.824</td><td char="." align="char">0.807</td></tr><tr><td align="left">T cell markers</td><td char="." align="char">0.812</td><td char="." align="char">0.802</td></tr><tr><td align="left">Antibody markers</td><td char="." align="char">0.708</td><td char="." align="char">0.721</td></tr><tr><td align="left">No markers</td><td char="." align="char">0.442</td><td char="." align="char">0.455</td></tr></tbody></table><table-wrap-foot><p>Clinical covariates (age, BMI, and a risk behavior score) are always included</p></table-wrap-foot></table-wrap></p>
+                </sec>
+                <sec id="Sec8">
+                  <title>Summary of approaches</title>
+                  <p id="Par28">Based on the results in Tables <xref rid="Tab1" ref-type="table">1</xref> and <xref rid="Tab2" ref-type="table">2</xref> , for the remainder of our analyses we will perform random forest model training with variable screening, without class balancing and without hyperparameter tuning. The choice of using IPW is more nuanced. Since using IPW leads to some improvement when variable screening is applied, we will use IPW in RF training.</p>
+                </sec>
+              </sec>
+              <sec id="Sec9">
+                <title>Stacking random forest and generalized linear models</title>
+                <p id="Par29">When the outcome and the input variables have a simple linear relationship, it is possible that RF based on nonlinear modeling may be overly complex and ineffective. We see this in the case of clinical covariates only, where the CV-AUC of RF is 0.443; in contrast, a generalized linear model (GLM) has a CV-AUC of 0.624, where we use a logistic regression model as GLM. It suggests that the bias-variance trade-off associated with using RF may not always work in its favor in small-sample settings. To further examine this issue, we compare the performance of RF and GLM on each of the four sets of markers defined before, with and without the clinical covariates. Variable screening and inverse sampling probability weighting are applied for both methods, and we implement GLM using the <italic>glm</italic> R function with the <italic>weights</italic> argument for the weighting, which controls prior weights for subjects. The results, given in Table <xref rid="Tab3" ref-type="table">3</xref>, show that the performance of GLM improves when the clinical covariates are added to each of the four sets of markers. The impact of adding clinical covariates on the performance of RF depends on the set of markers to be analyzed. For all markers and T cell markers, adding the clinical covariates results in improved performance; for antibody markers and no markers, adding the clinical covariates decreases performance. Furthermore, RF outperforms GLM for all markers and T cell markers when the clinical covariates are included, and GLM outperforms RF for antibody markers and no markers whether or not the clinical covariates are included. These results motivated us to consider an approach that incorporates different models and marker sets to improve prediction performance.<table-wrap id="Tab3"><label>Table 3</label><caption><p>Comparison of CV-AUCs of generalized linear models (GLM) and random forest (RF), with and without clinical covariates</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="2"/><th align="left" colspan="2">GLM</th><th align="left" colspan="2">RF</th></tr><tr><th align="left">No covariates</th><th align="left">Covariates</th><th align="left">No covariates</th><th align="left">Covariates</th></tr></thead><tbody><tr><td align="left">All markers</td><td char="." align="char">0.810</td><td char="." align="char">0.813</td><td char="." align="char">0.808</td><td char="." align="char">0.824</td></tr><tr><td align="left">T cell markers</td><td char="." align="char">0.781</td><td char="." align="char">0.793</td><td char="." align="char">0.806</td><td char="." align="char">0.819</td></tr><tr><td align="left">Antibody markers</td><td char="." align="char">0.759</td><td char="." align="char">0.768</td><td char="." align="char">0.729</td><td char="." align="char">0.711</td></tr><tr><td align="left">No markers</td><td char="." align="char">0.500<sup>a</sup></td><td char="." align="char">0.624</td><td char="." align="char">0.500*</td><td char="." align="char">0.443</td></tr></tbody></table><table-wrap-foot><p>Screening is applied for both GLM and RF, but class balancing is not done for RF. Inverse sampling probability weights are used in both GLM and RF training</p><p><sup>a</sup>Denotes theoretical values</p></table-wrap-foot></table-wrap></p>
+                <p id="Par30">Stacking [<xref ref-type="bibr" rid="CR36">36</xref>] is an ensemble machine learning method that combines several different candidate learners into one meta-learner to improve prediction performance. The algorithm is composed of two steps: first, it trains several candidate learners and generates out-of-sample prediction scores, which are the estimated probabilities of being a case, by splitting the training data into a subset for fitting and a subset for making prediction scores; second, a meta-learner aggregates the out-of-sample prediction scores into a single prediction. Breiman [<xref ref-type="bibr" rid="CR37">37</xref>] further developed the method by restricting to nonnegative weights when combining candidate learner prediction scores.</p>
+                <p id="Par31">We propose using stacking to combine GLM learners and RF learners to further improve prediction performance. Based on the results in Table <xref rid="Tab3" ref-type="table">3</xref>, we consider stacking GLM trained on antibody markers and clinical covariates and RF trained on T cell markers and clinical covariates. For comparison, we also examine three related stacking models by replacing antibody markers and/or T cell markers with all markers.</p>
+                <p id="Par32">We implement stacking using the <italic>caretEnsemble</italic> R package [<xref ref-type="bibr" rid="CR38">38</xref>], with ten-fold cross-validation [recommended by <xref ref-type="bibr" rid="CR37">37</xref>] for fitting candidate learners and obtaining out-of-sample prediction scores. To combine prediction scores from the different learners, we use logistic regression models with nonnegative coefficients. Finally, we use an outer loop of five-fold cross-validation to evaluate the performance of stacking and repeat the entire process one-hundred times as described before.</p>
+                <p id="Par33">Table <xref rid="Tab4" ref-type="table">4</xref> shows the average CV-AUC of the four stacking models, along with the CV-AUCs of two RF models to facilitate comparison. The impact of stacking on the performance appears to depend on which candidate learners are used. In the top three rows, where the two stacking methods are based on RF trained on T cell markers and clinical covariates, the two stacking models show a relatively large improvement over RF, and the Pearson correlation coefficients between out-of-sample prediction scores from the RF model and those from the two GLM models are 0.26 and 0.65 (average over 100 replicates), respectively. In the bottom three rows, where the two stacking methods are based on the RF trained on all markers and clinical covariates, the performance of the two stacking models is rather close to the RF, and the Pearson correlation coefficients between out-of-sample prediction scores from the RF model and those from the two GLM models are 0.49 and 0.80 (average over 100 replicates), respectively. These observations are consistent with the well-known fact that stacking tends to be ineffective when the candidate learner prediction scores are similar to each other and the most effective stacking is achieved by combining dissimilar prediction scores [<xref ref-type="bibr" rid="CR37">37</xref>].</p>
+                <p id="Par34">For the best stacking model (RF: T cell markers + GLM: Antibody markers), the logistic regression model meta-learner combines the prediction scores from RF and GLM with coefficients 0.686 and 0.314 (average over 100 replicates), respectively. This suggests that there is more information in the T cell markers than in the antibody markers. The reason we stack together RF trained on the T cell markers and GLM trained on the antibody markers and not the other way around is because Table <xref rid="Tab3" ref-type="table">3</xref> suggests that RF works better than GLM on the T cell markers and GLM works better than RF on the antibody markers. Indeed, the stacking model RF: Antibody markers + GLM: T cell markers has an estimated CV-AUC of 0.797.</p>
+                <p id="Par35">To help elucidate how stacking helps improve prediction performance, we examine the prediction scores from RF, GLM, and the stacking model for one 5-fold cross-validation replicate. The top row of Fig. <xref rid="Fig2" ref-type="fig">2</xref> shows three boxplots of prediction scores by cases and controls. We focus on two cases (study volunteers 180 and 183) that are plotted with triangle plotting symbols. Neither RF nor GLM prediction scores set them apart from all the controls, but their stacking prediction scores are higher than all the controls. The bottom-left panel of Fig. <xref rid="Fig2" ref-type="fig">2</xref> shows a scatterplot of the RF and GLM prediction scores. There are six samples between the two vertical dashed lines, including three cases and three controls. All six samples have high RF prediction scores, but only study volunteers 180 and 183 have high GLM prediction scores. The bottom-right panel of Fig. <xref rid="Fig2" ref-type="fig">2</xref> shows a scatterplot of the RF and stacking prediction scores. The stacking prediction scores of study volunteers 180 and 183 are higher than all the controls. Since subjects with high RF prediction scores have low levels of T cell markers and subjects with high GLM prediction scores have low levels of antibody markers, these results suggest that if a subject has both low levels of T cell markers and low levels of antibody markers, they are more likely to be infected with HIV.<table-wrap id="Tab4"><label>Table 4</label><caption><p>Comparison of CV-AUCs of four stacking models and two random forest models</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"/><th align="left">CV-AUC</th></tr></thead><tbody><tr><td align="left">RF: T cell markers + GLM: antibody markers</td><td char="." align="char">0.838</td></tr><tr><td align="left">RF: T cell markers + GLM:       All markers</td><td char="." align="char">0.831</td></tr><tr><td align="left">RF: T cell markers</td><td char="." align="char">0.819</td></tr><tr><td align="left">RF:    All markers + GLM: ntibody markers</td><td char="." align="char">0.821</td></tr><tr><td align="left">RF:    All markers + GLM:       All markers</td><td char="." align="char">0.821</td></tr><tr><td align="left">RF:    All markers</td><td char="." align="char">0.824</td></tr></tbody></table><table-wrap-foot><p>Screening is applied for both GLM and RF, but class balancing is not done for RF. Inverse sampling probability weights are used in both GLM and RF training. Clinical covariates are included in the predictors of all RF and GLM models</p></table-wrap-foot></table-wrap></p>
+                <p id="Par36">
+                  <fig id="Fig2">
+                    <label>Fig. 2</label>
+                    <caption>
+                      <p>Top: boxplots of three prediction scores by cases and controls from one 5-fold cross validation. Bottom: scatterplots of these prediction scores. Cases are shown in red, and controls are shown in black. Study volunteers 180 and 183 are plotted as triangles</p>
+                    </caption>
+                    <graphic xlink:href="12911_2021_1688_Fig2_HTML" id="MO3"/>
+                  </fig>
+                </p>
+              </sec>
+            </sec>
+            <sec id="Sec10">
+              <title>Conclusion</title>
+              <p id="Par37">In this paper we studied the optimal use of random forest (RF) for classification on a dataset from a two-phase sampling design, a common situation in prevention studies of public health importance, which often have a small number of disease endpoints. We considered the HVTN 505 phase III HIV vaccine efficacy trial dataset, which contains 25 cases and hundreds of immunologic markers.</p>
+              <p id="Par38">First, we found that variable screening before applying RF substantially improves RF prediction performance, as measured by weighted CV-AUC. This improvement is likely a result of avoiding overfitting. Second, while class balancing improves RF prediction when variable screening is not applied, it has a negative impact on performance when variable screening is applied. Third, the impact of inverse sampling probability weighting (IPW) similarly depends on whether variable screening is applied. Without variable screening, IPW led to poorer performance due to the class imbalance problem in the RF training step. Relatively more weighting to the majority class causes bootstrapped samples to be even more imbalanced, resulting in trees with poor prediction performance for the minority class. However, with variable screening, IPW actually improved performance for almost all subsets of markers. Inverse sampling probability weighting almost always leads to better results for GLM, regardless of whether variable screening is applied (Additional file <xref rid="MOESM1" ref-type="media">1</xref>: Table A.2). Fourth, we investigated the impact of hyperparameter tuning on the performance of RF. Tuning was not always successful, possibly due to overfitting to the out-of-bag data under small sample sizes. Lastly, we found that RF under-performed simple linear methods such as GLM for some marker sets, and the use of stacking to combine RF and GLM models achieved improved prediction performance. The performances of the stacking models were tied to the similarities between candidate learner prediction scores. The best performance came from stacking a random forest model trained on the T cell markers and the clinical covariates and a GLM trained on the antibody markers and the clinical covariates, and their Pearson correlation coefficient was 0.26, the lowest among the four stacking models we tried.</p>
+              <p id="Par39">The differences in CV-AUC between the best stacking model and the other models in Table <xref rid="Tab4" ref-type="table">4</xref> range between 0.007 and 0.019. Differences of this magnitude can be clinically meaningful [e.g. <xref ref-type="bibr" rid="CR39">39</xref>, <xref ref-type="bibr" rid="CR40">40</xref>]. One way to assess the variability of these differences is to examine their distributions across the 100 replicates of 5-fold cross validation and perform Wilcoxon signed rank tests. All the p-values from the tests are highly significant at <inline-formula id="IEq3"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$&lt;0.001$$\end{document}</tex-math><mml:math id="M8"><mml:mrow><mml:mo>&lt;</mml:mo><mml:mn>0.001</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="12911_2021_1688_Article_IEq3.gif"/></alternatives></inline-formula>, suggesting that the performance of the best stacking model does not depend on a specific random split of the data. Evaluating the variability of the CV-AUC on the population level is a more challenging problem, e.g., there is no known theoretical results that ensure the success of the Efron bootstrap [<xref ref-type="bibr" rid="CR41">41</xref>] procedure for CV-AUC, and will be an interesting future research direction.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Information</title>
+              <sec id="Sec11">
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM1">
+                    <media xlink:href="12911_2021_1688_MOESM1_ESM.pdf">
+                      <caption>
+                        <p><bold>Additional file 1</bold>: supplement.pdf contains additional study results regarding hyperparameters tuning, variable screening, and two-phase studies.</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term>HVTN</term>
+                  <def>
+                    <p id="Par5">HIV vaccine trials network</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>RF</term>
+                  <def>
+                    <p id="Par6">Random forests</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>BMI</term>
+                  <def>
+                    <p id="Par7">Body Mass Index</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>GLM</term>
+                  <def>
+                    <p id="Par8">Generalized linear models</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>CART</term>
+                  <def>
+                    <p id="Par9">Classification and regression trees</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>CV-AUC</term>
+                  <def>
+                    <p id="Par10">Cross-validated area under the receiver operating characteristic curve</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>IPW</term>
+                  <def>
+                    <p id="Par11">Inverse sampling probability weights</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Publisher's Note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>The authors are indebted to the investigators of the HVTN 505 immune correlates study, in particular Julie McElrath and Georgia Tomaras, for providing the biomarker data for the examples. The authors thank Lindsay N. Carpp for help with editing. Part of this work has been presented at the Western North American Region of the International Biometric Society Annual Meeting 2021.</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Authors' contributions</title>
+              <p>SH and YF designed the study and analyzed the data. BDW designed the initial study and prepared the initial data. All authors wrote and edited initial drafts and reviewed the final draft. All authors read and approved the final manuscript.</p>
+            </notes>
+            <notes notes-type="funding-information">
+              <title>Funding</title>
+              <p>This work was supported by the National Institutes of Health grants R01-AI122991, UM1-AI068635, and S10OD028685. The funding agencies played no roles in the design of the study and collection, analysis, and interpretation of data and in writing the manuscript.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Availability of data and materials</title>
+              <p>All the source data and code are available at <ext-link ext-link-type="uri" xlink:href="https://atlas.scharp.org/cpas/project/HVTN%20Public%20Data/HVTN%20505/begin.view">https://atlas.scharp.org/cpas/project/HVTN%20Public%20Data/HVTN%20505/begin.view</ext-link> and <ext-link ext-link-type="uri" xlink:href="https://github.com/shan-stat/rf_hvtn505">https://github.com/shan-stat/rf_hvtn505</ext-link></p>
+            </notes>
+            <notes>
+              <title>Declarations</title>
+              <notes id="FPar2">
+                <title>Ethics approval and consent to participate</title>
+                <p id="Par40">Not applicable.</p>
+              </notes>
+              <notes id="FPar3">
+                <title>Consent for publication</title>
+                <p id="Par41">Not applicable.</p>
+              </notes>
+              <notes id="FPar4" notes-type="COI-statement">
+                <title>Competing interests</title>
+                <p id="Par42">The authors declare that they have no competing interests.</p>
+              </notes>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kourou</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Exarchos</surname>
+                      <given-names>TP</given-names>
+                    </name>
+                    <name>
+                      <surname>Exarchos</surname>
+                      <given-names>KP</given-names>
+                    </name>
+                    <name>
+                      <surname>Karamouzis</surname>
+                      <given-names>MV</given-names>
+                    </name>
+                    <name>
+                      <surname>Fotiadis</surname>
+                      <given-names>DI</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Machine learning applications in cancer prognosis and prediction</article-title>
+                  <source>Comput Struct Biotechnol J</source>
+                  <year>2015</year>
+                  <volume>13</volume>
+                  <fpage>8</fpage>
+                  <lpage>17</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.csbj.2014.11.005</pub-id>
+                  <pub-id pub-id-type="pmid">25750696</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <mixed-citation publication-type="other">MacLeod H, Yang S, Oakes K, Connelly K, Natarajan S. Identifying rare diseases from behavioural data: a machine learning approach. In: 2016 IEEE first international conference on connected health: applications, systems and engineering technologies (CHASE), IEEE; 2016. p. 130–139.</mixed-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wiens</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Shenoy</surname>
+                      <given-names>ES</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Machine learning for healthcare: on the verge of a major shift in healthcare epidemiology</article-title>
+                  <source>Clin Infect Dis</source>
+                  <year>2018</year>
+                  <volume>66</volume>
+                  <issue>1</issue>
+                  <fpage>149</fpage>
+                  <lpage>153</lpage>
+                  <pub-id pub-id-type="doi">10.1093/cid/cix731</pub-id>
+                  <pub-id pub-id-type="pmid">29020316</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Breslow</surname>
+                      <given-names>NE</given-names>
+                    </name>
+                    <name>
+                      <surname>Lumley</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Ballantyne</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                    <name>
+                      <surname>Chambless</surname>
+                      <given-names>LE</given-names>
+                    </name>
+                    <name>
+                      <surname>Kulich</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Using the whole cohort in the analysis of case-cohort data</article-title>
+                  <source>Am J Epidemiol</source>
+                  <year>2009</year>
+                  <volume>169</volume>
+                  <issue>11</issue>
+                  <fpage>1398</fpage>
+                  <lpage>1405</lpage>
+                  <pub-id pub-id-type="doi">10.1093/aje/kwp055</pub-id>
+                  <pub-id pub-id-type="pmid">19357328</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Breiman</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Random forests</article-title>
+                  <source>Mach Learn</source>
+                  <year>2001</year>
+                  <volume>45</volume>
+                  <issue>1</issue>
+                  <fpage>5</fpage>
+                  <lpage>32</lpage>
+                  <pub-id pub-id-type="doi">10.1023/A:1010933404324</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tseng</surname>
+                      <given-names>Y-J</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>C-E</given-names>
+                    </name>
+                    <name>
+                      <surname>Wen</surname>
+                      <given-names>C-N</given-names>
+                    </name>
+                    <name>
+                      <surname>Lai</surname>
+                      <given-names>P-Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>M-H</given-names>
+                    </name>
+                    <name>
+                      <surname>Sun</surname>
+                      <given-names>Y-C</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>H-Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Lu</surname>
+                      <given-names>J-J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Predicting breast cancer metastasis by using serum biomarkers and clinicopathological data with machine learning technologies</article-title>
+                  <source>Int J Med Inform</source>
+                  <year>2019</year>
+                  <volume>128</volume>
+                  <fpage>79</fpage>
+                  <lpage>86</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ijmedinf.2019.05.003</pub-id>
+                  <pub-id pub-id-type="pmid">31103449</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>B-Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Feng</surname>
+                      <given-names>K-Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Cai</surname>
+                      <given-names>Y-D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Prediction of protein–protein interaction sites by random forest algorithm with MRMR and IFS</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2012</year>
+                  <volume>7</volume>
+                  <issue>8</issue>
+                  <fpage>43927</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0043927</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>You</surname>
+                      <given-names>Z-H</given-names>
+                    </name>
+                    <name>
+                      <surname>Chan</surname>
+                      <given-names>KC</given-names>
+                    </name>
+                    <name>
+                      <surname>Hu</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Predicting protein–protein interactions from primary protein sequences using a novel multi-scale local feature representation scheme and the random forest</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2015</year>
+                  <volume>10</volume>
+                  <issue>5</issue>
+                  <fpage>0125811</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0125811</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <mixed-citation publication-type="other">Moorthy K, Mohamad MS. Random forest for gene selection and microarray data classification. In: Knowledge technology week. Springer; 2011. p. 174–183.</mixed-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Anaissi</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Kennedy</surname>
+                      <given-names>PJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Goyal</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Catchpoole</surname>
+                      <given-names>DR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A balanced iterative random forest for gene selection from microarray data</article-title>
+                  <source>BMC Bioinform</source>
+                  <year>2013</year>
+                  <volume>14</volume>
+                  <issue>1</issue>
+                  <fpage>1</fpage>
+                  <lpage>10</lpage>
+                  <pub-id pub-id-type="doi">10.1186/1471-2105-14-261</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <mixed-citation publication-type="other">Hastie T, Tibshirani R, Friedman J. The elements of statistical learning: data mining, inference, and prediction, Springer series in statistics. 2nd ed. Springer: Berlin; 2009.</mixed-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Han</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>Y-S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Double random forest</article-title>
+                  <source>Mach Learn</source>
+                  <year>2020</year>
+                  <volume>109</volume>
+                  <fpage>1569</fpage>
+                  <lpage>1586</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s10994-020-05889-1</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <mixed-citation publication-type="other">Qi Y. Random forest for bioinformatics. In: Ensemble machine learning. Berlin: Springer; 2012. p. 307–23.</mixed-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hammer</surname>
+                      <given-names>SM</given-names>
+                    </name>
+                    <name>
+                      <surname>Sobieszczyk</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Janes</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Karuna</surname>
+                      <given-names>ST</given-names>
+                    </name>
+                    <name>
+                      <surname>Mulligan</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Grove</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Koblin</surname>
+                      <given-names>BA</given-names>
+                    </name>
+                    <name>
+                      <surname>Buchbinder</surname>
+                      <given-names>SP</given-names>
+                    </name>
+                    <name>
+                      <surname>Keefer</surname>
+                      <given-names>MC</given-names>
+                    </name>
+                    <name>
+                      <surname>Tomaras</surname>
+                      <given-names>GD</given-names>
+                    </name>
+                    <name>
+                      <surname>Frahm</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Hural</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Anude</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Graham</surname>
+                      <given-names>BS</given-names>
+                    </name>
+                    <name>
+                      <surname>Enama</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Adams</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>DeJesus</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Novak</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                    <name>
+                      <surname>Frank</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Bentley</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Ramirez</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Fu</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Koup</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                    <name>
+                      <surname>Mascola</surname>
+                      <given-names>JR</given-names>
+                    </name>
+                    <name>
+                      <surname>Nabel</surname>
+                      <given-names>GJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Montefiori</surname>
+                      <given-names>DC</given-names>
+                    </name>
+                    <name>
+                      <surname>Kublin</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>McElrath</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Corey</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Gilbert</surname>
+                      <given-names>PB</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Efficacy trial of a DNA/RAD5 HIV-1 preventive vaccine</article-title>
+                  <source>N Engl J Med</source>
+                  <year>2013</year>
+                  <volume>369</volume>
+                  <issue>22</issue>
+                  <fpage>2083</fpage>
+                  <lpage>2092</lpage>
+                  <pub-id pub-id-type="doi">10.1056/NEJMoa1310566</pub-id>
+                  <pub-id pub-id-type="pmid">24099601</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Janes</surname>
+                      <given-names>HE</given-names>
+                    </name>
+                    <name>
+                      <surname>Cohen</surname>
+                      <given-names>KW</given-names>
+                    </name>
+                    <name>
+                      <surname>Frahm</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>De Rosa</surname>
+                      <given-names>SC</given-names>
+                    </name>
+                    <name>
+                      <surname>Sanchez</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Hural</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Magaret</surname>
+                      <given-names>CA</given-names>
+                    </name>
+                    <name>
+                      <surname>Karuna</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Bentley</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Gottardo</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Higher t-cell responses induced by DNA/RAD5 HIV-1 preventive vaccine are associated with lower HIV-1 infection risk in an efficacy trial</article-title>
+                  <source>J Infect Dis</source>
+                  <year>2017</year>
+                  <volume>215</volume>
+                  <issue>9</issue>
+                  <fpage>1376</fpage>
+                  <lpage>1385</lpage>
+                  <pub-id pub-id-type="doi">10.1093/infdis/jix086</pub-id>
+                  <pub-id pub-id-type="pmid">28199679</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fong</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Shen</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Ashley</surname>
+                      <given-names>VC</given-names>
+                    </name>
+                    <name>
+                      <surname>Deal</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Seaton</surname>
+                      <given-names>KE</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Grant</surname>
+                      <given-names>SP</given-names>
+                    </name>
+                    <name>
+                      <surname>Ferrari</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>deCamp</surname>
+                      <given-names>AC</given-names>
+                    </name>
+                    <name>
+                      <surname>Bailer</surname>
+                      <given-names>RT</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Vaccine-induced antibody responses modify the association between t-cell immune responses and HIV-1 infection risk in HVTN 505</article-title>
+                  <source>J Infect Dis</source>
+                  <year>2018</year>
+                  <volume>217</volume>
+                  <issue>8</issue>
+                  <fpage>1280</fpage>
+                  <lpage>1288</lpage>
+                  <pub-id pub-id-type="doi">10.1093/infdis/jiy008</pub-id>
+                  <pub-id pub-id-type="pmid">29325070</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Neidich</surname>
+                      <given-names>SD</given-names>
+                    </name>
+                    <name>
+                      <surname>Fong</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>SS</given-names>
+                    </name>
+                    <name>
+                      <surname>Geraghty</surname>
+                      <given-names>DE</given-names>
+                    </name>
+                    <name>
+                      <surname>Williamson</surname>
+                      <given-names>BD</given-names>
+                    </name>
+                    <name>
+                      <surname>Young</surname>
+                      <given-names>WC</given-names>
+                    </name>
+                    <name>
+                      <surname>Goodman</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Seaton</surname>
+                      <given-names>KE</given-names>
+                    </name>
+                    <name>
+                      <surname>Shen</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Sawant</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Antibody FC effector functions and IGG3 associate with decreased HIV-1 risk</article-title>
+                  <source>J Clin Investig</source>
+                  <year>2019</year>
+                  <volume>129</volume>
+                  <issue>11</issue>
+                  <fpage>4838</fpage>
+                  <lpage>4849</lpage>
+                  <pub-id pub-id-type="doi">10.1172/JCI126391</pub-id>
+                  <pub-id pub-id-type="pmid">31589165</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Galar</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Fernandez</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Barrenechea</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Bustince</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Herrera</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A review on ensembles for the class imbalance problem: bagging-, boosting-, and hybrid-based approaches</article-title>
+                  <source>IEEE Trans Syst Man Cybern Part C (Appl Rev)</source>
+                  <year>2011</year>
+                  <volume>42</volume>
+                  <issue>4</issue>
+                  <fpage>463</fpage>
+                  <lpage>484</lpage>
+                  <pub-id pub-id-type="doi">10.1109/TSMCC.2011.2161285</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Breiman</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Friedman</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Stone</surname>
+                      <given-names>CJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Olshen</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                  </person-group>
+                  <source>Classification and regression trees</source>
+                  <year>1984</year>
+                  <publisher-loc>Boca Raton</publisher-loc>
+                  <publisher-name>CRC Press</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Díaz-Uriarte</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>De Andres</surname>
+                      <given-names>SA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Gene selection and classification of microarray data using random forest</article-title>
+                  <source>BMC Bioinform</source>
+                  <year>2006</year>
+                  <volume>7</volume>
+                  <issue>1</issue>
+                  <fpage>3</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1471-2105-7-3</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Evaluating and comparing biomarkers with respect to the area under the receiver operating characteristics curve in two-phase case-control studies</article-title>
+                  <source>Biostatistics</source>
+                  <year>2016</year>
+                  <volume>17</volume>
+                  <issue>3</issue>
+                  <fpage>499</fpage>
+                  <lpage>522</lpage>
+                  <pub-id pub-id-type="doi">10.1093/biostatistics/kxw003</pub-id>
+                  <pub-id pub-id-type="pmid">26883772</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <mixed-citation publication-type="other">Provost F. Machine learning from imbalanced data sets 101. In: Proceedings of the AAAI’2000 workshop on imbalanced data sets, AAAI Press;2000. p. 1–3.</mixed-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Guyon</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Elisseeff</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An introduction to variable and feature selection</article-title>
+                  <source>J Mach Learn Res</source>
+                  <year>2003</year>
+                  <volume>3</volume>
+                  <issue>Mar</issue>
+                  <fpage>1157</fpage>
+                  <lpage>1182</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dhillon</surname>
+                      <given-names>IS</given-names>
+                    </name>
+                    <name>
+                      <surname>Mallela</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Kumar</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A divisive information-theoretic feature clustering algorithm for text classification</article-title>
+                  <source>J Mach Learn Res</source>
+                  <year>2003</year>
+                  <volume>3</volume>
+                  <issue>Mar</issue>
+                  <fpage>1265</fpage>
+                  <lpage>1287</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <mixed-citation publication-type="other">Hall MA. Correlation-based feature selection for machine learning. PhD thesis, University of Waikato, Department of Computer Science; 1999.</mixed-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tibshirani</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Regression shrinkage and selection via the lasso: a retrospective</article-title>
+                  <source>J R Stat Soc Ser B (Stat Methodol)</source>
+                  <year>2011</year>
+                  <volume>73</volume>
+                  <issue>3</issue>
+                  <fpage>273</fpage>
+                  <lpage>282</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1467-9868.2011.00771.x</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wright</surname>
+                      <given-names>MN</given-names>
+                    </name>
+                    <name>
+                      <surname>Ziegler</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Ranger: a fast implementation of random forests for high dimensional data in C++ and R</article-title>
+                  <source>J Stat Softw</source>
+                  <year>2017</year>
+                  <volume>77</volume>
+                  <issue>1</issue>
+                  <fpage>1</fpage>
+                  <lpage>17</lpage>
+                  <pub-id pub-id-type="doi">10.18637/jss.v077.i01</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chawla</surname>
+                      <given-names>NV</given-names>
+                    </name>
+                    <name>
+                      <surname>Japkowicz</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Kotcz</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Special issue on learning from imbalanced data sets</article-title>
+                  <source>ACM SIGKDD Explor Newsl</source>
+                  <year>2004</year>
+                  <volume>6</volume>
+                  <issue>1</issue>
+                  <fpage>1</fpage>
+                  <lpage>6</lpage>
+                  <pub-id pub-id-type="doi">10.1145/1007730.1007733</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <mixed-citation publication-type="other">Chen C, Liaw A, Breiman L, et al. Using random forest to learn imbalanced data, vol. 110, no. 1–12. Berkeley: University of California; 2004. p. 24.</mixed-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zheng</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Srihari</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Feature selection for text categorization on imbalanced data</article-title>
+                  <source>ACM SIGKDD Explor Newsl</source>
+                  <year>2004</year>
+                  <volume>6</volume>
+                  <issue>1</issue>
+                  <fpage>80</fpage>
+                  <lpage>89</lpage>
+                  <pub-id pub-id-type="doi">10.1145/1007730.1007741</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wasikowski</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>X</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Combating the small sample class imbalance problem using feature selection</article-title>
+                  <source>IEEE Trans Knowl Data Eng</source>
+                  <year>2009</year>
+                  <volume>22</volume>
+                  <issue>10</issue>
+                  <fpage>1388</fpage>
+                  <lpage>1400</lpage>
+                  <pub-id pub-id-type="doi">10.1109/TKDE.2009.187</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Probst</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Boulesteix</surname>
+                      <given-names>A-L</given-names>
+                    </name>
+                    <name>
+                      <surname>Bischl</surname>
+                      <given-names>B</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Tunability: importance of hyperparameters of machine learning algorithms</article-title>
+                  <source>J Mach Learn Res</source>
+                  <year>2019</year>
+                  <volume>20</volume>
+                  <issue>53</issue>
+                  <fpage>1</fpage>
+                  <lpage>32</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Probst</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Wright</surname>
+                      <given-names>MN</given-names>
+                    </name>
+                    <name>
+                      <surname>Boulesteix</surname>
+                      <given-names>A-L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Hyperparameters and tuning strategies for random forest</article-title>
+                  <source>Wiley Interdiscip Rev Data Min Knowl Discov</source>
+                  <year>2019</year>
+                  <volume>9</volume>
+                  <issue>3</issue>
+                  <fpage>1301</fpage>
+                  <pub-id pub-id-type="doi">10.1002/widm.1301</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bailey</surname>
+                      <given-names>DH</given-names>
+                    </name>
+                    <name>
+                      <surname>Borwein</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Lopez de Prado</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhu</surname>
+                      <given-names>QJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Pseudo-mathematics and financial charlatanism: The effects of backtest overfitting on out-of-sample performance</article-title>
+                  <source>N Am Math Soc</source>
+                  <year>2014</year>
+                  <volume>61</volume>
+                  <issue>5</issue>
+                  <fpage>458</fpage>
+                  <lpage>471</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <mixed-citation publication-type="other">Yang X, Zeng Z, Teo SG, Wang L, Chandrasekhar V, Hoi S. Deep learning for practical image recognition: case study on Kaggle competitions. In: Proceedings of the 24th ACM SIGKDD international conference on knowledge discovery and data mining; 2018. p. 923–931.</mixed-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wolpert</surname>
+                      <given-names>DH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Stacked generalization</article-title>
+                  <source>Neural Netw</source>
+                  <year>1992</year>
+                  <volume>5</volume>
+                  <issue>2</issue>
+                  <fpage>241</fpage>
+                  <lpage>259</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0893-6080(05)80023-1</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Breiman</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Stacked regressions</article-title>
+                  <source>Mach Learn</source>
+                  <year>1996</year>
+                  <volume>24</volume>
+                  <issue>1</issue>
+                  <fpage>49</fpage>
+                  <lpage>64</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <mixed-citation publication-type="other">Deane-Mayer ZA, Knowles J. Caretensemble: ensembles of caret models. R package version, vol. 2. 2016.</mixed-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cook</surname>
+                      <given-names>NR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Use and misuse of the receiver operating characteristic curve in risk prediction</article-title>
+                  <source>Circulation</source>
+                  <year>2007</year>
+                  <volume>115</volume>
+                  <issue>7</issue>
+                  <fpage>928</fpage>
+                  <lpage>935</lpage>
+                  <pub-id pub-id-type="doi">10.1161/CIRCULATIONAHA.106.672402</pub-id>
+                  <pub-id pub-id-type="pmid">17309939</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Baker</surname>
+                      <given-names>SG</given-names>
+                    </name>
+                    <name>
+                      <surname>Schuit</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Steyerberg</surname>
+                      <given-names>EW</given-names>
+                    </name>
+                    <name>
+                      <surname>Pencina</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Vickers</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Moons</surname>
+                      <given-names>KG</given-names>
+                    </name>
+                    <name>
+                      <surname>Mol</surname>
+                      <given-names>BW</given-names>
+                    </name>
+                    <name>
+                      <surname>Lindeman</surname>
+                      <given-names>KS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>How to interpret a small increase in AUC with an additional risk prediction marker: decision analysis comes through</article-title>
+                  <source>Stat Med</source>
+                  <year>2014</year>
+                  <volume>33</volume>
+                  <issue>22</issue>
+                  <fpage>3946</fpage>
+                  <lpage>3959</lpage>
+                  <pub-id pub-id-type="doi">10.1002/sim.6195</pub-id>
+                  <pub-id pub-id-type="pmid">24825728</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Efron</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Tibshirani</surname>
+                      <given-names>RJ</given-names>
+                    </name>
+                  </person-group>
+                  <source>An introduction to the bootstrap</source>
+                  <year>1993</year>
+                  <publisher-loc>New York</publisher-loc>
+                  <publisher-name>Chapman and Hall</publisher-name>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

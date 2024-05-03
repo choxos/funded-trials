@@ -1,0 +1,1282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T08:28:17Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:9512913" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:9512913</identifier>
+        <datestamp>2022-09-28</datestamp>
+        <setSpec>ncomms</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article" dtd-version="1.3">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Nat Commun</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Nat Commun</journal-id>
+              <journal-title-group>
+                <journal-title>Nature Communications</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2041-1723</issn>
+              <publisher>
+                <publisher-name>Nature Publishing Group UK</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC9512913</article-id>
+              <article-id pub-id-type="pmcid">PMC9512913</article-id>
+              <article-id pub-id-type="pmc-uid">9512913</article-id>
+              <article-id pub-id-type="pmid">36163349</article-id>
+              <article-id pub-id-type="publisher-id">33269</article-id>
+              <article-id pub-id-type="doi">10.1038/s41467-022-33269-x</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Estimating individual treatment effect on disability progression in multiple sclerosis using deep learning</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-7576-2347</contrib-id>
+                  <name>
+                    <surname>Falet</surname>
+                    <given-names>Jean-Pierre R.</given-names>
+                  </name>
+                  <address>
+                    <email>jean-pierre.falet@mail.mcgill.ca</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Durso-Finley</surname>
+                    <given-names>Joshua</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Nichyporuk</surname>
+                    <given-names>Brennan</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Schroeter</surname>
+                    <given-names>Julien</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Bovis</surname>
+                    <given-names>Francesca</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6892-104X</contrib-id>
+                  <name>
+                    <surname>Sormani</surname>
+                    <given-names>Maria-Pia</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Precup</surname>
+                    <given-names>Doina</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Arbel</surname>
+                    <given-names>Tal</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4266-0106</contrib-id>
+                  <name>
+                    <surname>Arnold</surname>
+                    <given-names>Douglas Lorne</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff7">7</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.14709.3b</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 8649</institution-id><institution>Montreal Neurological Institute, Department of Neurology and Neurosurgery, </institution><institution>McGill University, </institution></institution-wrap>Montreal, QC Canada </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.14709.3b</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 8649</institution-id><institution>Centre for Intelligent Machines, Department of Electrical and Computer Engineering, </institution><institution>McGill University, </institution></institution-wrap>Montreal, QC Canada </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.510486.e</institution-id><institution>Mila-Quebec AI Institute, </institution></institution-wrap>Montreal, QC Canada </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.5606.5</institution-id><institution-id institution-id-type="ISNI">0000 0001 2151 3065</institution-id><institution>Department of Health Sciences (DISSAL), </institution><institution>University of Genoa, </institution></institution-wrap>Genoa, Italy </aff>
+                <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.410345.7</institution-id><institution-id institution-id-type="ISNI">0000 0004 1756 7871</institution-id><institution>IRCCS Ospedale Policlinico San Martino, </institution></institution-wrap>Genoa, Italy </aff>
+                <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="GRID">grid.14709.3b</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 8649</institution-id><institution>School of Computer Science, </institution><institution>McGill University, </institution></institution-wrap>Montreal, QC Canada </aff>
+                <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="GRID">grid.451108.9</institution-id><institution>NeuroRx Research, </institution></institution-wrap>Montreal, QC Canada </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>26</day>
+                <month>9</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>26</day>
+                <month>9</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2022</year>
+              </pub-date>
+              <volume>13</volume>
+              <elocation-id>5645</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>19</day>
+                  <month>5</month>
+                  <year>2022</year>
+                </date>
+                <date date-type="accepted">
+                  <day>9</day>
+                  <month>9</month>
+                  <year>2022</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2022</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par1">Disability progression in multiple sclerosis remains resistant to treatment. The absence of a suitable biomarker to allow for phase 2 clinical trials presents a high barrier for drug development. We propose to enable short proof-of-concept trials by increasing statistical power using a deep-learning predictive enrichment strategy. Specifically, a multi-headed multilayer perceptron is used to estimate the conditional average treatment effect (CATE) using baseline clinical and imaging features, and patients predicted to be most responsive are preferentially randomized into a trial. Leveraging data from six randomized clinical trials (<italic>n</italic> = 3,830), we first pre-trained the model on the subset of relapsing-remitting MS patients (<italic>n</italic> = 2,520), then fine-tuned it on a subset of primary progressive MS (PPMS) patients (<italic>n</italic> = 695). In a separate held-out test set of PPMS patients randomized to anti-CD20 antibodies or placebo (<italic>n</italic> = 297), the average treatment effect was larger for the 50% (HR, 0.492; 95% CI, 0.266-0.912; <italic>p</italic> = 0.0218) and 30% (HR, 0.361; 95% CI, 0.165-0.79; <italic>p</italic> = 0.008) predicted to be most responsive, compared to 0.743 (95% CI, 0.482-1.15; <italic>p</italic> = 0.179) for the entire group. The same model could also identify responders to laquinimod in another held-out test set of PPMS patients (<italic>n</italic> = 318). Finally, we show that using this model for predictive enrichment results in important increases in power.</p>
+              </abstract>
+              <abstract id="Abs2" abstract-type="web-summary">
+                <p id="Par2">There are limited predictive biomarkers for drug treatment responses in individuals with multiple sclerosis. Here using existing clinical trials data, the authors propose a deep-learning predictive enrichment strategy to identify which participants are most likely to respond to a treatment.</p>
+              </abstract>
+              <kwd-group kwd-group-type="npg-subject">
+                <title>Subject terms</title>
+                <kwd>Multiple sclerosis</kwd>
+                <kwd>Clinical trial design</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">https://doi.org/10.13039/501100000038</institution-id>
+                      <institution>Gouvernement du Canada | Natural Sciences and Engineering Research Council of Canada (Conseil de Recherches en Sciences Naturelles et en Génie du Canada)</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>RGPIN-2015-05471</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Falet</surname>
+                      <given-names>Jean-Pierre R.</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>International Progressive Multiple Sclerosis Alliance (PA-1412-02420)</institution>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2022</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1" sec-type="introduction">
+              <title>Introduction</title>
+              <p id="Par3">Several disease-modifying therapies have been developed for the treatment of the focal inflammatory manifestations of relapsing-remitting multiple sclerosis (RRMS) (clinical relapses and lesion activity) using the strategy of performing relatively short and small phase 2 trials with a magnetic resonance imaging (MRI) endpoint. These were meant to establish proof-of-concept and find the optimal dose, before proceeding to longer, more expensive phase 3 trials. In contrast to focal inflammatory manifestations, the absence of analogous MRI endpoints for disability progression independent of relapses has hampered progress in developing drugs for this aspect of the disease. Progressive biology predominates in progressive forms of multiple sclerosis, but is increasingly appreciated to be important in RRMS<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>. Although brain atrophy has been used as a biomarker of progression in phase 2 trials of progressive disease, its ability to predict the effect on disability progression in subsequent phase 3 clinical trials remains uncertain. As proceeding directly to large, phase 3 trials is expensive and risky, most programs that followed this path have failed to adequately demonstrate efficacy.</p>
+              <p id="Par4">It is often the case that medications are more effective in some patients than others. Selecting such a subgroup for inclusion in a clinical trial in order to increase its power is a technique called <italic>predictive enrichment</italic><sup><xref ref-type="bibr" rid="CR2">2</xref></sup>. A drug proven to be efficacious in a trial enriched with predicted responders can later be tested more confidently in a population predicted to be less responsive. This sequence prevents efficacious medications from having their effect diluted in early clinical trials due to the inclusion of a population that is too heterogeneous, while still allowing for broadening of indication criteria. It also improves the balance of risks and benefits for participants, since those who are unlikely to benefit from a drug would not be exposed to it and therefore would not experience potential adverse effects. A relevant application of predictive enrichment was described by Bovis et al.<sup><xref ref-type="bibr" rid="CR3">3</xref></sup>, who used Cox Proportional Hazard s (CPH) models to successfully predict a more responsive subgroup of RRMS patients to laquinimod, a medication whose average treatment effect in the original phase 3 studies was insufficient for drug approval.</p>
+              <p id="Par5">Deep learning is a highly expressive and flexible type of machine learning that can potentially uncover complex, non-linear relationships between baseline patient characteristics and their responsiveness to treatment. However, contrary to traditional machine learning problems where a mapping between features and targets is learned from a sample of observations, the target in a treatment response (or treatment effect) task is not directly observable. Adaptations to machine learning frameworks must therefore be made in order to frame the problem through the lens of causal inference (reviewed in detail in the survey on uplift modeling by Gutierrez et al.<sup><xref ref-type="bibr" rid="CR4">4</xref></sup>). Arguably some of the most popular methods have been tree-based approaches<sup><xref ref-type="bibr" rid="CR5">5</xref></sup> which model treatment effect directly, and meta-learning approaches<sup><xref ref-type="bibr" rid="CR6">6</xref></sup> which decompose the treatment effect estimation problem into simpler problems that can be tackled using traditional machine learning models. In a recent paper, Durso-Finley et al. used a meta-learning approach for the estimation of treatment effect (as measured by suppression of new/enlarging T2 lesions) in RRMS using baseline brain MRI and clinical variables<sup><xref ref-type="bibr" rid="CR7">7</xref></sup>.</p>
+              <p id="Par6">In this work, we present a new deep learning framework to estimate an individual’s treatment effect on disability progression using readily available clinical information (demographic characteristics and clinical disability scores) and scalar MRI metrics (lesional and volumetric) obtained at the screening visit of a clinical trial. This approach, based on an ensemble of multi-headed multilayer perceptrons (MLPs), can identify more responsive individuals to both anti-CD20 monoclonal antibodies (anti-CD20-Abs) and laquinimod better than alternative strategies. We demonstrate how using this model for predictive enrichment could greatly improve the feasibility of short proof-of-concept trials studying the effect of novel treatments for progression, thus accelerating therapeutic advances.</p>
+            </sec>
+            <sec id="Sec2" sec-type="results">
+              <title>Results</title>
+              <sec id="Sec3">
+                <title>Datasets</title>
+                <p id="Par7">Data were pooled from six randomized clinical trials (<italic>n</italic> = 3830): OPERA I<sup><xref ref-type="bibr" rid="CR8">8</xref></sup>, OPERA II<sup><xref ref-type="bibr" rid="CR8">8</xref></sup>, BRAVO<sup><xref ref-type="bibr" rid="CR9">9</xref></sup>, ORATORIO<sup><xref ref-type="bibr" rid="CR10">10</xref></sup>, OLYMPUS<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>, and ARPEGGIO<sup><xref ref-type="bibr" rid="CR12">12</xref></sup> (ClinicalTrials.gov numbers, NCT01247324, NCT01412333, NCT00605215, NCT01194570, NCT00087529, NCT02284568, respectively). OPERA I/II, and BRAVO were RRMS trials which compared ocrelizumab with subcutaneous interferon beta-1a (IFNb-1a), and laquinimod with both intramuscular IFNb-1a and placebo, respectively. ORATORIO, OLYMPUS, and ARPEGGIO were placebo-controlled primary progressive multiple sclerosis (PPMS) trials which studied ocrelizumab, rituximab, and laquinimod, respectively.</p>
+                <p id="Par8">The dataset is divided into three subsets for different phases of training and evaluation. The first subset (<italic>n</italic> = 2520) contains data from the three RRMS trials, and is used for pre-training the MLP to learn predictors of treatment effect under the RRMS condition (for details, see the section “Methods”). This pre-training phase falls under the umbrella of transfer learning, a deep learning strategy that is used to transfer knowledge acquired from a related task to a task with fewer samples in order to improve learning on the latter<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>. Importantly, the RRMS dataset is only used for pre-training and does not take part in the final model evaluation, since this study is focused on the challenge of improving the efficiency of clinical trials for progressive MS. The second subset consists of two PPMS trials (<italic>n</italic> = 992): OLYMPUS and ORATORIO. This subset is divided into a 70% training set (<italic>n</italic> = 695) which is used to fine-tune the pre-trained MLP to estimate treatment effect on anti-CD20-Abs, and the remaining 30% (<italic>n</italic> = 297) is held out as a test set to estimate the generalization error of the fully trained model. The third subset contains PPMS data from the trial ARPEGGIO (<italic>n</italic> = 318), which is also held out as a second test set.</p>
+                <p id="Par9">Mean and standard deviation for the baseline features and the outcome metrics in the PPMS subset are shown in Table <xref rid="Tab1" ref-type="table">1</xref>, separated by treatment arm (the same statistics for the RRMS subset are shown in Supplementary Table <xref rid="MOESM1" ref-type="media">1</xref>). The groups are comparable for all features except for disease duration which is shorter in ORATORIO, and Gad count and T2 lesion volume, which are greater in ORATORIO. This may be due to ORATORIO’s inclusion criteria, which had a maximum time from symptom onset, and to inter-trial differences in automatic lesion segmentation, which are accounting for using a scaling procedure explained in the section “Data”. Some heterogeneity exists between the outcomes of each trial when looking at the placebo arms, which on average have a smaller restricted mean survival time (RMST) at 2 years in ARPEGGIO and OLYMPUS compared to ORATORIO, indicating more rapid disability progression on the Expanded Disability Status Scale (EDSS).<table-wrap id="Tab1"><label>Table 1</label><caption><p>Baseline features and outcomes per treatment arm</p></caption><table frame="hsides" rules="groups"><thead><tr><th/><th>Ocrelizumab</th><th>Rituximab</th><th>Laquinimod</th><th colspan="3">Placebo</th></tr><tr><th/><th>ORATORIO</th><th>OLYMPUS</th><th>ARPEGGIO</th><th>ORATORIO</th><th>OLYMPUS</th><th>ARPEGGIO</th></tr><tr><th/><th><italic>n</italic> = 436</th><th><italic>n</italic> = 212</th><th><italic>n</italic> = 186</th><th><italic>n</italic> = 225</th><th><italic>n</italic> = 119</th><th><italic>n</italic> = 13<italic>2</italic></th></tr></thead><tbody><tr><td><italic>Demographics</italic></td><td/><td/><td/><td/><td/><td/></tr><tr><td>Age (years)</td><td>44.50 (7.90)</td><td>49.54 (9.01)</td><td>46.35 (6.62)</td><td>44.41 (8.40)</td><td>49.89 (8.68)</td><td>46.70 (7.16)</td></tr><tr><td>Sex (% male)</td><td>51.61</td><td>48.11</td><td>56.45</td><td>47.56</td><td>43.70</td><td>50.76</td></tr><tr><td>Height (cm)</td><td>170.20 (9.61)</td><td>170.77 (9.30)</td><td>172.11 (9.41)</td><td>170.20 (9.57)</td><td>169.87 (8.90)</td><td>171.23 (9.73)</td></tr><tr><td>Weight (kg)</td><td>72.35 (17.26)</td><td>78.13 (16.37)</td><td>75.25 (15.40)</td><td>72.51 (15.24)</td><td>77.60 (17.13)</td><td>73.20 (16.21)</td></tr><tr><td>Disease duration (years)</td><td>6.56 (3.77)</td><td>9.03 (6.25)</td><td>8.12 (6.07)</td><td>6.01 (3.38)</td><td>8.59 (6.81)</td><td>7.41 (5.23)</td></tr><tr><td><italic>Disability scores</italic></td><td/><td/><td/><td/><td/><td/></tr><tr><td>EDSS</td><td>4.69 (1.18)</td><td>4.79 (1.36)</td><td>4.49 (0.98)</td><td>4.65 (1.16)</td><td>4.58 (1.41)</td><td>4.46 (0.91)</td></tr><tr><td>FSS-Bowel and Bladder</td><td>1.14 (0.85)</td><td>1.42 (0.95)</td><td>1.27 (0.95)</td><td>1.14 (0.91)</td><td>1.21 (0.94)</td><td>1.16 (0.88)</td></tr><tr><td>FSS-Brainstem</td><td>0.88 (0.91)</td><td>0.75 (0.90)</td><td>1.01 (0.92)</td><td>0.89 (0.93)</td><td>0.61 (0.81)</td><td>0.98 (0.95)</td></tr><tr><td>FSS-Cerebellar</td><td>2.11 (0.98)</td><td>2.03 (1.12)</td><td>2.11 (0.83)</td><td>2.14 (0.89)</td><td>1.99 (1.10)</td><td>2.10 (0.89)</td></tr><tr><td>FSS-Cerebral</td><td>0.91 (0.88)</td><td>1.30 (0.84)</td><td>0.93 (0.91)</td><td>0.91 (0.82)</td><td>1.24 (0.89)</td><td>0.86 (0.88)</td></tr><tr><td>FSS-Pyramidal</td><td>2.87 (0.62)</td><td>2.69 (0.82)</td><td>2.92 (0.55)</td><td>2.83 (0.65)</td><td>2.82 (0.78)</td><td>2.85 (0.66)</td></tr><tr><td>FSS-Sensory</td><td>1.58 (1.04)</td><td>1.48 (0.99)</td><td>1.73 (1.04)</td><td>1.53 (1.07)</td><td>1.52 (1.11)</td><td>1.74 (1.01)</td></tr><tr><td>FSS-Visual</td><td>0.79 (0.87)</td><td>0.86 (1.04)</td><td>0.92 (1.30)</td><td>0.71 (0.82)</td><td>0.91 (1.05)</td><td>0.79 (1.10)</td></tr><tr><td>Mean T25FW (s)</td><td>13.93 (18.44)</td><td>11.74 (14.56)</td><td>9.61 (8.85)</td><td>11.71 (12.35)</td><td>11.01 (13.65)</td><td>9.68 (7.54)</td></tr><tr><td>Mean 9HPT dominant (s)</td><td>34.09 (33.99)</td><td>28.80 (17.60)</td><td>28.57 (12.37)</td><td>31.67 (21.50)</td><td>27.22 (10.22)</td><td>28.22 (12.15)</td></tr><tr><td>Mean 9HPT non-dominant (s)</td><td>36.05 (38.50)</td><td>31.88 (24.99)</td><td>31.44 (18.04)</td><td>37.51 (40.29)</td><td>30.95 (17.50)</td><td>29.04 (12.16)</td></tr><tr><td>MRI metrics</td><td/><td/><td/><td/><td/><td/></tr><tr><td>Gad count</td><td>1.23 (5.36)</td><td>0.63 (2.47)</td><td>0.27 (0.81)</td><td>0.56 (1.47)</td><td>0.47 (1.14)</td><td>0.45 (1.84)</td></tr><tr><td>T2 lesion volume (mL)</td><td>12.45 (14.92)</td><td>8.44 (10.50)</td><td>5.86 (9.11)</td><td>11.33 (13.27)</td><td>8.57 (11.66)</td><td>5.96 (8.65)</td></tr><tr><td>Normalized brain volume (L)</td><td>1.46 (0.08)</td><td>1.20 (0.12)</td><td>1.46 (0.10)</td><td>1.47 (0.09)</td><td>1.21 (0.12)</td><td>1.46 (0.11)</td></tr><tr><td><italic>Outcome</italic></td><td/><td/><td/><td/><td/><td/></tr><tr><td>Slope (EDSS change/yr)<sup>a</sup></td><td>0.22 (0.53)</td><td>0.27 (0.65)</td><td>0.32 (0.77)</td><td>0.27 (0.71)</td><td>0.39 (0.63)</td><td>0.28 (0.64)</td></tr><tr><td>RMST (at 2 years)<sup>b</sup></td><td>1.92</td><td>1.89</td><td>1.69</td><td>1.91</td><td>1.87</td><td>1.72</td></tr></tbody></table><table-wrap-foot><p>Values in brackets are standard deviations, unless otherwise specified.</p><p><sup>a</sup> Slope is based on the coefficient of regression from a linear regression model that is fit on an individual’s EDSS values over time, as described in the section “Outcome definition”.</p><p><sup>b</sup> RMST calculated at 2 years using time to 24-week confirmed disability progression on the EDSS.</p><p><italic>RMST</italic> restricted mean survival time, <italic>EDSS</italic> Expanded Disability Status Scale, <italic>FSS</italic> Functional Systems Score, <italic>T25FW</italic> timed 25-foot walk, <italic>9HPT</italic> 9-hole peg test, <italic>Gad</italic> gadolinium-enhancing lesion.</p></table-wrap-foot></table-wrap></p>
+              </sec>
+              <sec id="Sec4">
+                <title>Predicting response to anti-CD20 monoclonal antibodies</title>
+                <p id="Par10">As described in the section “Methods”, we train an ensemble of multi-headed MLPs to predict the change in EDSS over time (obtained by fitting a linear regression model to an individual’s EDSS values recorded over time and taking the slope of the regression to be the prediction target) on both anti-CD20-Abs and placebo. These two predictions are then subtracted to obtain an estimate of the conditional average treatment effect (CATE) for each individual, given their baseline features. The CATE estimate is used to infer an individual’s treatment effect, as explained in the section “Treatment effect modeling”.</p>
+                <p id="Par11">The fully trained model is then evaluated on the held-out anti-CD20-Abs test set (30% of the dataset; <italic>n</italic> = 297). A histogram of predictions on this test set is shown in Supplementary Fig. <xref rid="MOESM1" ref-type="media">1</xref>. The model’s ability to rank response is assessed using an average difference curve, AD(<italic>c</italic>), which is described by Zhao et al.<sup><xref ref-type="bibr" rid="CR14">14</xref></sup> and is well suited for measuring performance in predictive enrichment. Our implementation measures the ground-truth average difference in RMST (calculated at 2 years from time to 24-week confirmed disability progression (CDP24)) between anti-CD20-Abs and placebo for individuals predicted to respond more than a certain threshold, as a function of this threshold. The AD(<italic>c</italic>) curve for our model, shown in Fig. <xref rid="Fig1" ref-type="fig">1</xref>, appropriately increases as a subgroup that is predicted to be more and more responsive is selected. The AD<sub>wabc</sub>, a metric derived from the area under the AD(<italic>c</italic>) curve in Supplementary Methods <xref rid="MOESM1" ref-type="media">3</xref>, provides a measure of how well the model can rank individuals on the basis of their responsiveness to treatment. Larger positive AD<sub>wabc</sub> values indicate better performance. The AD<sub>wabc</sub> in this case is positive, relatively large (0.0565), and nearly monotonic (Spearman r correlation coefficient 0.943), demonstrating the ability for the model to rank response to anti-CD20-Abs.<fig id="Fig1"><label>Fig. 1</label><caption><title>Average treatment difference curve for the anti-CD20-Abs held-out test set.</title><p>Represents the difference in the ground-truth restricted mean survival time (RMST), calculated at 2 years using time-to-CDP24, between anti-CD20-Abs and placebo, among predicted responders defined using various thresholds. The conditional average treatment effect (CATE) percentile threshold is the minimum CATE (expressed as a percentile among all CATE estimates in the test set) that is used to define an individual as a responder (i.e. a threshold of 0.7 means the 30% predicted to be most responsive are considered responders).</p></caption><graphic xlink:href="41467_2022_33269_Fig1_HTML" id="d32e1142"/></fig></p>
+                <p id="Par12">Kaplan-Meyer curves of the ground-truth time-to-CDP24 for predicted responders in the test set are shown in Fig. <xref rid="Fig2" ref-type="fig">2</xref> for two predictive enrichment thresholds (selecting the 50% or the 30% that are predicted to be most responsive). The Kaplan–Meyer curves for corresponding non-responder groups (the 50% and 70% predicted to be least responsive) are also shown. Compared to the entire test set, whose HR is 0.743 (95% CI, 0.482–1.15; <italic>p</italic> = 0.179), predictive enrichment leads to a HR of 0.492 (95% CI, 0.266–0.912; <italic>p</italic> = 0.0218) and 0.361 (95% CI, 0.165–0.79; <italic>p</italic> = 0.008) when selecting the 50% and 30% most responsive, respectively. The corresponding non-responder groups have a HR of 1.11 (95% CI, 0.599–2.05; <italic>p</italic> = 0.744) and 0.976 (95% CI, 0.578–1.65; <italic>p</italic> = 0.925) when selecting the 50% and 70% least responsive, respectively. This heterogeneity suggests that a significant part of the trend for effect at the whole-group level may be explained by a small proportion of more responsive patients.<fig id="Fig2"><label>Fig. 2</label><caption><title>Kaplan–Meyer curves ±95% confidence intervals (CI) for predicted responders and non-responders to anti-CD20-Abs in the held-out test set, defined at two thresholds of predicted effect size.</title><p>These are compared to the whole group (top). The placebo group is displayed in blue, and the treatment (anti-CD20-Abs) group is displayed in orange. Survival probability is measured in terms of time-to-CDP24 using the EDSS. <italic>p</italic> values are calculated using log-rank tests. 95% CIs are estimated using Greenwood's Exponential formula.</p></caption><graphic xlink:href="41467_2022_33269_Fig2_HTML" id="d32e1177"/></fig></p>
+                <p id="Par13">Of ocrelizumab and rituximab, only the former had a significant effect in a phase 3 trial (ORATORIO), and it is the only drug approved in PPMS. We therefore verified whether the model’s enrichment capabilities are maintained within the ORATORIO subgroup (<italic>n</italic> = 188) of the test set, which has HR of 0.661 (95% CI 0.383–1.14, <italic>p</italic> = 0.135). If selecting the 50% (<italic>n</italic> = 96) and 30% (<italic>n</italic> = 57) predicted to be most responsive, the HR reduces to 0.516 (95% CI, 0.241–1.1; <italic>p</italic> = 0.084) and 0.282 (95% CI, 0.105–0.762; <italic>p</italic> = 0.0082), respectively. The corresponding 50% and 70% predicted to be least responsive have a HR of 0.849 (95% CI, 0.385–1.87; <italic>p</italic> = 0.685) and 0.915 (95% CI, 0.471–1.78; <italic>p</italic> = 0.791), respectively.</p>
+                <p id="Par14">We then considered specific demographic subgroups to understand their effect on model performance. For men, the model achieved a AD<sub>wabc</sub> of 0.0405, while for women the model performs better (AD<sub>wabc</sub> = 0.0844). For those with an age &lt;51, the AD<sub>wabc</sub> of 0.0353 is lower than for those with an age ≥51 (AD<sub>wabc</sub> = 0.0661). For those with a disease duration &lt; 5, the model performs less well than on those with a disease duration ≥5 (AD<sub>wabc</sub> = 0.0385 compared to 0.0117). Finally, the model performs better for those with an EDSS &lt;4.5 (AD<sub>wabc</sub> = 0.069) than for those with an EDSS of ≥4.5 (AD<sub>wabc</sub> = 0.0451).</p>
+                <p id="Par15">Group characteristics for the predicted responders and non-responders, defined at the 50th and 70th percentile thresholds, are shown in Table <xref rid="Tab2" ref-type="table">2</xref>. We observe enrichment across a broad range of input features in the responder subgroups: younger age, shorter disease duration, higher disability scores, and more lesional activity (particularly T2 lesion volume). The largest effect on the Functional Systems Scores (FSS) was seen in Cerebellar and Visual sub-scores, while FSS-Bowel and Bladder, Brainstem, Cerebral, Pyramidal, and Sensory did not reach statistical significance (<italic>p</italic> &lt; 0.05). Timed 25-foot walk (T25FW) was significantly different only for the 70th percentile threshold. Normalized brain volume was the only baseline MRI feature which did not differ significantly between the two groups at either threshold.<table-wrap id="Tab2"><label>Table 2</label><caption><p>Group statistics for predicted responders and non-responders to anti-CD20-Abs at the 50th and 70th percentile thresholds, in the held-out test set</p></caption><table frame="hsides" rules="groups"><thead><tr><th/><th colspan="4">50th percentile threshold<sup>a</sup></th><th colspan="4">70th percentile threshold<sup>a</sup></th></tr><tr><th/><th>Responders</th><th>Non-responders</th><th>Effect size (95% CI)<sup>b</sup></th><th><italic>p</italic> value<sup>c</sup></th><th>Responders</th><th>Non-responders</th><th>Effect size (95% CI)<sup>b</sup></th><th><italic>p</italic> <italic>v</italic><italic>a</italic><italic>l</italic><italic>u</italic><italic>e</italic><sup>c</sup></th></tr></thead><tbody><tr><td><italic>Trial contribution</italic></td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>OLYMPUS</td><td>55</td><td>54</td><td/><td/><td>35</td><td>74</td><td/><td/></tr><tr><td>ORATORIO</td><td>96</td><td>92</td><td/><td/><td>57</td><td>131</td><td/><td/></tr><tr><td><italic>Demographics</italic></td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Age (years)</td><td>45.20 (8.58)</td><td>47.84 (7.89)</td><td>−2.64 (-4.53, −0.76)</td><td>0.006</td><td>44.59 (9.05)</td><td>47.36 (7.87)</td><td>−2.77 (−4.93, −0.61)</td><td>0.013</td></tr><tr><td>Sex (% male)</td><td>47.02</td><td>50.68</td><td>0.86 (0.53, 1.40)</td><td>0.562</td><td>45.65</td><td>50.24</td><td>0.83 (0.49, 1.40)</td><td>0.530</td></tr><tr><td>Height (cm)</td><td>170.05 (10.56)</td><td>170.55 (8.80)</td><td>−0.50 (−2.72, 1.71)</td><td>0.657</td><td>169.78 (10.29)</td><td>170.52 (9.47)</td><td>−0.74 (−3.23, 1.75)</td><td>0.560</td></tr><tr><td>Weight (kg)</td><td>76.17 (18.93)</td><td>72.96 (13.77)</td><td>3.21 (−0.56, 6.98)</td><td>0.096</td><td>75.68 (20.07)</td><td>74.10 (14.87)</td><td>1.58 (−3.04, 6.20)</td><td>0.502</td></tr><tr><td>Disease duration (years)</td><td>6.07 (4.14)</td><td>8.72 (5.45)</td><td>−2.65 (−3.76, −1.54)</td><td>&lt;0.001</td><td>5.79 (4.15)</td><td>8.09 (5.19)</td><td>−2.30 (−3.41, −1.19)</td><td>&lt;0.001</td></tr><tr><td><italic>Disability scores</italic></td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>EDSS</td><td>4.87 (1.18)</td><td>4.52 (1.23)</td><td>0.34 (0.07, 0.62)</td><td>0.015</td><td>5.07 (1.14)</td><td>4.53 (1.21)</td><td>0.54 (0.25, 0.83)</td><td>&lt;0.001</td></tr><tr><td>FSS-Bowel and Bladder</td><td>1.25 (0.93)</td><td>1.11 (0.80)</td><td>0.14 (−0.05, 0.34)</td><td>0.157</td><td>1.27 (0.98)</td><td>1.15 (0.82)</td><td>0.12 (−0.11, 0.35)</td><td>0.315</td></tr><tr><td>FSS-Brainstem</td><td>0.82 (0.93)</td><td>0.79 (0.87)</td><td>0.04 (−0.17, 0.24)</td><td>0.726</td><td>0.90 (0.95)</td><td>0.77 (0.88)</td><td>0.13 (−0.10, 0.36)</td><td>0.265</td></tr><tr><td>FSS-Cerebellar</td><td>2.38 (0.97)</td><td>1.78 (1.05)</td><td>0.60 (0.37, 0.83)</td><td>&lt;0.001</td><td>2.57 (0.81)</td><td>1.86 (1.08)</td><td>0.71 (0.48, 0.93)</td><td>&lt;0.001</td></tr><tr><td>FSS-Cerebral</td><td>1.07 (0.83)</td><td>1.05 (0.89)</td><td>0.02 (−0.18, 0.22)</td><td>0.848</td><td>1.13 (0.84)</td><td>1.04 (0.87)</td><td>0.09 (−0.12, 0.30)</td><td>0.404</td></tr><tr><td>FSS-Pyramidal</td><td>2.75 (0.69)</td><td>2.90 (0.58)</td><td>−0.14 (−0.29, 0.00)</td><td>0.052</td><td>2.77 (0.76)</td><td>2.85 (0.58)</td><td>−0.08 (−0.26, 0.10)</td><td>0.382</td></tr><tr><td>FSS-Sensory</td><td>1.55 (1.06)</td><td>1.64 (1.02)</td><td>−0.08 (−0.32, 0.15)</td><td>0.488</td><td>1.56 (1.00)</td><td>1.61 (1.06)</td><td>−0.05 (−0.30, 0.20)</td><td>0.703</td></tr><tr><td>FSS-Visual</td><td>1.04 (1.04)</td><td>0.43 (0.62)</td><td>0.62 (0.42, 0.81)</td><td>&lt;0.001</td><td>1.28 (1.07)</td><td>0.50 (0.71)</td><td>0.78 (0.54, 1.02)</td><td>&lt;0.001</td></tr><tr><td>Mean T25FW (s)</td><td>13.55 (17.61)</td><td>10.75 (11.08)</td><td>2.80 (−0.55, 6.15)</td><td>0.103</td><td>15.95 (21.79)</td><td>10.48 (9.82)</td><td>5.47 (0.77, 10.17)</td><td>0.024</td></tr><tr><td>Mean 9HPT dominant (s)</td><td>32.62 (26.89)</td><td>26.70 (10.24)</td><td>5.92 (1.29, 10.55)</td><td>0.013</td><td>36.01 (33.25)</td><td>26.88 (9.89)</td><td>9.13 (2.12, 16.15)</td><td>0.012</td></tr><tr><td>Mean 9HPT non-dominant (s)</td><td>37.33 (31.11)</td><td>26.97 (9.32)</td><td>10.36 (5.14, 15.58)</td><td>&lt;0.001</td><td>42.39 (38.33)</td><td>27.68 (9.33)</td><td>14.71 (6.68, 22.75)</td><td>&lt;0.001</td></tr><tr><td><italic>MRI metrics</italic></td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Gad count</td><td>1.62 (3.14)</td><td>0.16 (0.48)</td><td>1.46 (0.95, 1.97)</td><td>&lt;0.001</td><td>1.90 (3.64)</td><td>0.46 (1.27)</td><td>1.44 (0.67, 2.22)</td><td>&lt;0.001</td></tr><tr><td>T2 lesion volume (mL)</td><td>13.09 (12.85)</td><td>7.72 (10.17)</td><td>5.37 (2.73, 8.01)</td><td>&lt;0.001</td><td>14.31 (14.22)</td><td>8.72 (10.27)</td><td>5.59 (2.33, 8.85)</td><td>&lt;0.001</td></tr><tr><td>Normalized brain volume (L)</td><td>1.37 (0.16)</td><td>1.38 (0.16)</td><td>−0.02 (−0.05, 0.02)</td><td>0.367</td><td>1.35 (0.16)</td><td>1.38 (0.16)</td><td>−0.03 (−0.07, 0.01)</td><td>0.107</td></tr></tbody></table><table-wrap-foot><p>Values in brackets are standard deviations, unless otherwise specified.</p><p><italic>EDSS</italic> Expanded Disability Status Scale, <italic>FSS</italic> Functional Systems Score, <italic>T25FW</italic> timed 25-foot walk, <italic>9HPT</italic> 9-hole peg test, <italic>Gad</italic> Gadolinium-enhancing lesion.</p><p><sup>a</sup> Percentile threshold for defining responders. The 50th percentile defines responders as the top 50% who are predicted to be most responsive, while the 70th percentile defines them as the top 30%. The non-responders are those who fall below the percentile threshold.</p><p><sup>b</sup> Effect size is the average difference between responders and non-responders for all covariates except for "sex” which is an odd’s ratio (OR).</p><p><sup>c</sup> <italic>p</italic> values for continuous and ordinal variables are calculated using a two-sided Welch’s <italic>t</italic> test due to unequal variances/sample sizes. <italic>p</italic> value for the categorical variable "sex” is calculated using a two-sided Fisher’s exact test due to unequal and relatively small sample sizes. Exact <italic>p</italic>-values for the 50th percentile threshold: disease duration, <italic>p</italic> = 4.39 × 10<sup>−6</sup>; FSS-Cerebellar, <italic>p</italic> = 6.42 × 10<sup>−7</sup>; FSS-Visual, <italic>p</italic> = 2.18 × 10<sup>−9</sup>; Mean 9HPT non-dominant, <italic>p</italic> = 1.36 × 10<sup>−4</sup>; Gad count, <italic>p</italic> = 8.72 × 10<sup>−8</sup>; T2 lesion volume, <italic>p</italic> = 8.57 × 10<sup>−5</sup>. Exact <italic>p</italic>-values for the 70th percentile threshold: disease duration, <italic>p</italic> = 7.04 × 10<sup>−5</sup>; EDSS, <italic>p</italic> = 3.03 × 10<sup>−4</sup>; FSS-Cerebellar, <italic>p</italic> = 2.61 × 10<sup>−9</sup>; FSS-Visual, <italic>p</italic> = 3.38 × 10<sup>−9</sup>; Mean 9HPT non-dominant, <italic>p</italic> = 4.82 × 10<sup>−4</sup>; Gad count, <italic>p</italic> = 3.69 × 10<sup>−4</sup>; T2 lesion volume, <italic>p</italic> = 9.59 × 10<sup>−4</sup>.</p></table-wrap-foot></table-wrap></p>
+              </sec>
+              <sec id="Sec5">
+                <title>Predicting response to laquinimod</title>
+                <p id="Par16">To determine whether the same model trained on the anti-CD20-Abs dataset could be predictive of treatment response to a medication with a different mechanism of action, and to provide a second validation for the model trained on the single 70% training set in the first anti-CD20-Abs experiment, we tested it on data from ARPEGGIO (<italic>n</italic> = 318). The model trained on the anti-CD20-Abs training dataset also generalized to this second test set, as shown by a positive AD<sub>wabc</sub> = 0.0211. From the whole-group HR of 0.667 (95% CI: 0.369-1.2; <italic>p</italic> = 0.933), selecting the 50% and the 30% predicted to be most responsive yields a HR of 0.492 (95% CI 0.219–1.11; <italic>p</italic> = 0.0803) and 0.338 (95% CI, 0.131–0.872; <italic>p</italic> = 0.0186), respectively. The corresponding 50% and 70% predicted to be least responsive have a HR of 0.945 (95% CI, 0.392–2.28; <italic>p</italic> = 0.901) and 0.967 (95%CI, 0.447–2.09; <italic>p</italic> = 0.933), respectively. The Kaplan–Meyer curves for these predicted subgroups are shown in Supplementary Fig. <xref rid="MOESM1" ref-type="media">2</xref>.</p>
+                <p id="Par17">Group characteristics for predicted responders are shown in Supplementary Table <xref rid="MOESM1" ref-type="media">2</xref>. Groupwise differences are largely similar to those obtained on the anti-CD20-Abs dataset, with a few exceptions. In the laquinimod dataset, a significantly greater FSS-Bowel and Bladder and smaller normalized brain volume (NBV) are observed (whereas these did not reach the same level of significance in the anti-CD20-Abs test set), and the difference in T25FW is not statistically significant (<italic>p</italic> &lt; 0.05). A smaller NBV was found in the responder group, but this only reached significance at the 50th percentile threshold. Nonetheless, the direction of the effect for these differences is concordant between the two test sets.</p>
+              </sec>
+              <sec id="Sec6">
+                <title>Comparison to baseline models</title>
+                <p id="Par18">The performance of the non-linear model described in this paper is compared to numerous other baseline models in Table <xref rid="Tab3" ref-type="table">3</xref>, as measured by the AD<sub>wabc</sub> on the anti-CD20-Abs test set and on the laquinimod dataset. Scatter plots of the metrics obtained on both test sets are also provided in Supplementary Fig. <xref rid="MOESM1" ref-type="media">3</xref>, <xref rid="MOESM1" ref-type="media">4</xref>. All models were trained using the same procedure, on the same dataset, and with the same regression target. The MLP outperforms all other baselines on this metric, but some models (such as a linear regression model with L2 regularization (ridge regression) and a CPH model) compare favorably on one of the two datasets. Without pre-training on the RRMS dataset, the performance of the MLP is still strong but inferior to the fine-tuned model. All single feature models are inferior to the MLP and CPH models except for the T2 lesion volume/disease duration model which falls between these two models in terms of performance on the anti-CD20-Abs test set. We also tested a prognostic MLP which is only trained to predict progression on placebo, and which uses this prediction in place of the CATE estimate (assumes that more rapid progression leads to greater potential for treatment effect). This model’s performance on the anti-CD20-Abs test set falls between that of the CPH model and the T2 lesion volume/disease duration model.<table-wrap id="Tab3"><label>Table 3</label><caption><p>Comparison of model performance (measured by AD<sub>wabc</sub>) on the held-out test set of patients from ORATORIO and OLYMPUS (anti-CD20-Abs), and on the held-out dataset from ARPEGGIO (laquinimod)</p></caption><table frame="hsides" rules="groups"><thead><tr><th/><th>Anti-CD20-Abs</th><th>Laquinimod</th></tr></thead><tbody><tr><td><italic>Single feature</italic><sup>a</sup></td><td/><td/></tr><tr><td>Negative disease duration</td><td>0.0225</td><td>0.0114</td></tr><tr><td>Negative age</td><td>0.0067</td><td>−0.0287</td></tr><tr><td>Negative EDSS</td><td>0.0264</td><td>0.0074</td></tr><tr><td>Negative 9HPT dominant hand</td><td>−0.0109</td><td>0.0023</td></tr><tr><td>Negative 9HPT non-dominant hand</td><td>−0.0012</td><td>−0.0006</td></tr><tr><td>Negative T25FW</td><td>0.0033</td><td>0.0020</td></tr><tr><td>T2 lesion volume</td><td>0.0167</td><td>−0.0051</td></tr><tr><td>Gad count</td><td>0.0021</td><td>NaN<sup>c</sup></td></tr><tr><td><italic>Feature/disease duration ratio</italic><sup>b</sup></td><td/><td/></tr><tr><td>Age/disease duration</td><td>0.0268</td><td>0.0138</td></tr><tr><td>EDSS/disease duration</td><td>0.0021</td><td>0.0020</td></tr><tr><td>9HPT dominant hand/disease duration</td><td>0.0238</td><td>0.0146</td></tr><tr><td>9HPT non-dominant hand/disease duration</td><td>0.0179</td><td>0.0098</td></tr><tr><td>T25FW/disease duration</td><td>0.0257</td><td>0.0049</td></tr><tr><td>T2 lesion volume/disease duration</td><td>0.0432</td><td>0.0164</td></tr><tr><td>Gad count/disease duration</td><td>0.0030</td><td>NaN<sup>c</sup></td></tr><tr><td><italic>Regression model using all features</italic></td><td/><td/></tr><tr><td>MLP (our model)</td><td>0.0565</td><td>0.0211</td></tr><tr><td>MLP (no pre-training<sup>d</sup>)</td><td>0.0486</td><td>0.019</td></tr><tr><td>MLP (prognostic model<sup>e</sup>)</td><td>0.0408</td><td>0.0170</td></tr><tr><td>Ridge Regression</td><td>0.0227</td><td>0.0194</td></tr><tr><td><italic>Survival model using all features</italic></td><td/><td/></tr><tr><td>CPH</td><td>0.0305</td><td>0.0031</td></tr></tbody></table><table-wrap-foot><p><italic>EDSS</italic> Expanded Disability Status Scale, <italic>FSS</italic> Functional Systems Score, <italic>T25FW</italic> timed 25-foot walk, <italic>9HPT</italic> 9-hole peg test, <italic>Gad</italic> Gadolinium-enhancing lesion, <italic>MLP</italic> Multi-layer perceptron.</p><p><sup>a</sup> The value of the feature is taken to be the CATE estimate for an individual. For example, the "T2 lesion volume” model uses the value of an individual’s T2 lesion volume as the CATE estimate for that individual, such that a larger baseline volume predicts a larger treatment effect. A "negative” feature implies that the CATE estimate is the negative of the value of the feature. For example, the "negative disease duration” model predicts a larger treatment effect with shorter disease duration.</p><p><sup>b</sup> The value of the feature divided by the disease duration is taken to be the CATE estimate for an individual. For example, the "EDSS/disease duration” model predicts a larger treatment effect with a more rapid historical rate of change in the EDSS over time.</p><p><sup>c</sup> Value for AD<sub>wabc</sub> could not be computed due to low variance in values for Gad lesions in the laquinimod dataset.</p><p><sup>d</sup> This MLP was trained without pre-training on the RRMS dataset.</p><p><sup>e</sup> The value of the predicted slope of disability progression on the placebo arm is used as the CATE estimate. In other words, a patient predicted to progress more rapidly on placebo (worse prognosis) predicts a larger treatment effect.</p></table-wrap-foot></table-wrap></p>
+                <p id="Par19">In OLYMPUS, Hawker et al.<sup><xref ref-type="bibr" rid="CR11">11</xref></sup> identify a cutoff of age &lt;51 years and gadoliniumenhancing (Gad) lesion count &gt;0 at baseline as predictive of treatment effect. Using their definition, 21.9% and 11.3% of the patients in the anti-CD20-Abs and laquinimod datasets, respectively, would be classified as responders. This is more restrictive than our most restrictive threshold which selects the 30% predicted to be most responsive. The HR for these predicted responders is 0.91 (95% CI, 0.392–2.11; <italic>p</italic> = 0.831) and 0.305 (95% CI, 0.0558–1.67; <italic>p</italic> = 0.147) for the anti-CD20-Abs and the ARPEGGIO patients, respectively. For both datasets, these effect size estimates do not reach statistical significance (<italic>p</italic> &lt; 0.05). The effect size estimate for the anti-CD20-Abs dataset is also smaller compared to that obtained with our predictive enrichment method when selecting the 30% most responsive individuals. This binary cutoff is therefore generally inferior to our approach.</p>
+                <p id="Par20">Finally, we compared our approach to the traditional phase 2 approach which typically uses an MRI-based surrogate outcome (brain atrophy being the most common) which is thought to be correlated with the clinical outcome of interest but that is more sensitive to the underlying biological processes or that has a lower variance, in order to increase a study’s statistical power. For example, suppose our anti-CD20-Abs test set (<italic>n</italic> = 297) was a small phase 2 trial testing anti-CD20-Abs with brain atrophy as the primary outcome. Measuring brain atrophy at the 48-week MRI for the anti-CD20-Abs, the mean difference between the treatment arms is 0.066 (95% CI, −0.397 to 0.529; <italic>p</italic> = 0.7786). Looking at ORATORIO patents separately, since ORATORIO was the only positive trial in the anti-CD20-Abs dataset, the mean difference is 0.110 (95% CI, −0.352 to 0.572; <italic>p</italic> = 0.6379). Brain atrophy would therefore not have been able to detect a significant effect for ocrelizumab or for anti-CD20-Abs.</p>
+              </sec>
+              <sec id="Sec7">
+                <title>Simulating a phase 2 clinical trial enriched with predicted responders</title>
+                <p id="Par21">To understand the effect of enriching a future clinical trial studying novel B-cell depleting agents, we simulated both a one and a two-year randomized clinical trial using populations enriched with predicted responders and estimated the sample size that would be needed to detect a significant effect under these conditions. To do so, we first used our model to predict responders to anti-CD20-Abs, defined using a range of thresholds (from including all individuals to including only the top 30% who are predicted to be most responsive). We then fit a CPH model to the ground-truth time-to-CDP24 for the responder group obtained at each threshold in order to estimate their corresponding HR. We then used the observed one-year and two-year CDP24 event rates in each responder group to calculate the sample size needed to detect a significant effect during a one-year or a two-year trial, respectively. This analysis is shown in Table <xref rid="Tab4" ref-type="table">4</xref>.<table-wrap id="Tab4"><label>Table 4</label><caption><p>Estimated sample size for a one or two-year placebo-controlled randomized clinical trial of anti-CD20-Abs, using different degrees of predictive enrichment</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Percentile threshold<sup>a</sup></th><th>CDP control<sup>b</sup></th><th>CDP treatment<sup>b</sup></th><th>HR (95% CI)<sup>c</sup></th><th>Sample size estimate<sup>d</sup></th><th>Number screened<sup>e</sup></th></tr></thead><tbody><tr><td><italic>Two-year trial</italic></td><td/><td/><td/><td/><td/></tr><tr><td>0</td><td>0.30</td><td>0.24</td><td>0.74 (0.48–1.15)</td><td>1374</td><td>1374</td></tr><tr><td>10</td><td>0.31</td><td>0.24</td><td>0.72 (0.46–1.13)</td><td>1133</td><td>1259</td></tr><tr><td>20</td><td>0.30</td><td>0.22</td><td>0.70 (0.43–1.13)</td><td>1019</td><td>1274</td></tr><tr><td>30</td><td>0.29</td><td>0.22</td><td>0.67 (0.40–1.12)</td><td>812</td><td>1160</td></tr><tr><td>40</td><td>0.30</td><td>0.21</td><td>0.59 (0.33–1.03)</td><td>464</td><td>773</td></tr><tr><td>50</td><td>0.33</td><td>0.20</td><td>0.49 (0.27–0.91)</td><td>245</td><td>490</td></tr><tr><td>60</td><td>0.36</td><td>0.22</td><td>0.51 (0.26–0.98)</td><td>251</td><td>628</td></tr><tr><td>70</td><td>0.39</td><td>0.19</td><td>0.36 (0.17–0.79)</td><td>111</td><td>370</td></tr><tr><td><italic>One-year trial</italic></td><td/><td/><td/><td/><td/></tr><tr><td>0</td><td>0.20</td><td>0.12</td><td>0.74 (0.48–1.15)</td><td>2435</td><td>2435</td></tr><tr><td>10</td><td>0.21</td><td>0.12</td><td>0.72 (0.46–1.13)</td><td>1988</td><td>2209</td></tr><tr><td>20</td><td>0.20</td><td>0.11</td><td>0.70 (0.43–1.13)</td><td>1796</td><td>2245</td></tr><tr><td>30</td><td>0.22</td><td>0.11</td><td>0.67 (0.40–1.12)</td><td>1346</td><td>1923</td></tr><tr><td>40</td><td>0.25</td><td>0.11</td><td>0.59 (0.33–1.03)</td><td>710</td><td>1183</td></tr><tr><td>50</td><td>0.26</td><td>0.11</td><td>0.49 (0.27–0.91)</td><td>371</td><td>742</td></tr><tr><td>60</td><td>0.31</td><td>0.12</td><td>0.51 (0.26–0.98)</td><td>365</td><td>913</td></tr><tr><td>70</td><td>0.30</td><td>0.10</td><td>0.36 (0.17–0.79)</td><td>171</td><td>570</td></tr></tbody></table><table-wrap-foot><p><sup>a</sup> Percentile threshold for randomization. The 0th percentile represents an unenriched population, while the 70th percentile leads to inclusion of only the top 30% who are predicted to be most responsive.</p><p><sup>b</sup> Proportion of CDP24 events for the responder groups corresponding to each percentile threshold.</p><p><sup>c</sup> HR for time-to-CDP24 for the responder groups corresponding to each percentile threshold.</p><p><sup>d</sup> Sample size estimates are calculated using a desired power of 80% and <italic>α</italic> = 0.05, assuming a 2:1 treatment to control randomization ratio. Calculations are based on the one or two-year CDP24 rate and one or two-year HR of responder groups in the anti-CD20-Abs dataset.</p><p><sup>e</sup> Number of participants that need to be screened to reach the corresponding sample size estimate for randomization. This is dictated by the amount of predictive enrichment applied at randomization (see Percentile column).</p></table-wrap-foot></table-wrap></p>
+                <p id="Par22">Using the 50th percentile as a threshold for randomization in a two-year long trial as an example, a total of 490 individuals would be screened and the top 50% who are predicted to be most responsive would be randomized (<italic>n</italic> = 245). This leads to a six-fold reduction in the number of patients that need to be randomized while screening almost three times less patients compared to the scenario where all participants are randomized into a two-year study (<italic>n</italic> = 1374).</p>
+              </sec>
+            </sec>
+            <sec id="Sec8" sec-type="discussion">
+              <title>Discussion</title>
+              <p id="Par23">This work addresses the lack of a sufficiently predictive biomarker of treatment response for progression in multiple sclerosis, which has hampered progress by preventing efficient phase 2 clinical trials. We describe a deep learning solution to increasing the efficiency of early proof-of-concept clinical trials based on a multi-headed MLP architecture designed for CATE estimation. This approach can consistently identify and rank treatment effect among patients exposed to anti-CD20-Abs, and could reduce by several fold the sample size required to detect an effect in a short one or two-year long trial. We validate our model using a dataset composed of patients exposed to anti-CD20-Abs, and a second dataset of patients exposed to laquinimod. We demonstrate that a model trained to predict response to anti-CD20-Abs can also generalize to laquinimod, a medication with a very different mechanism of action, suggesting that there exists disease-agnostic predictors of response.</p>
+              <p id="Par24">The model’s predicted responders were enriched in numerous baseline features, including a younger age, shorter time from symptom onset, higher disability scores, and more lesion activity. Similarly, in subgroup analyses from OLYMPUS, an age less than 51 years and the presence of Gad lesions at baseline was also found to be associated with increased response<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>. Signori et al.<sup><xref ref-type="bibr" rid="CR15">15</xref></sup> also found that younger age and the presence of Gad were associated with greater treatment effect in RRMS. In a study by Bovis et al.<sup><xref ref-type="bibr" rid="CR3">3</xref></sup>, a response scoring function obtained via CPH models in RRMS also identified Gad lesions and a higher normalized brain volume as predictive of treatment effect, although older age was found to be more predictive in the combination they studied.</p>
+              <p id="Par25">In our experiments, a non-linear model (MLP) outperformed other linear (and log-linear) baselines, suggesting that complex relationships exist between the baseline features and treatment effect. Nonetheless, a prognostic model (that predicts response to a medication solely based on the prediction of progression on placebo) also performed well, suggesting that poor prognosis is also predictive of treatment effect. A prognostic model could therefore be helpful in cases where drugs with very different mechanisms of action (e.g., targetting remyelination, or neurodegeneration) are being tested, in which case a model trained to predict treatment effect on an anti-inflammatory drug might perform less well than a prognostic model.</p>
+              <p id="Par26">Interestingly, despite a balanced dataset with respect to gender, our model was better at identifying responders in women compared to men. We also noted that the model performed better in individuals ≥51, disease duration &lt;5 years, and/or an EDSS &lt;4.5. These findings suggest further studies are needed to determine whether and why predictors of response might differ depending on the stage of disease and sex.</p>
+              <p id="Par27">Predictive enrichment is not the only approach to increase the efficiency of clinical trials in PPMS. However, the traditional approach of using a potential surrogate marker (in this case brain atrophy) as part of a phase 2 study did not succeed in identifying a significant effect in our experiments, and may therefore limit early identification of effective therapies. Although brain atrophy has been used in phase 2 trials as a primary outcome, several studies on PPMS<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>, RRMS<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>, and secondary progressive multiple sclerosis (SPMS)<sup><xref ref-type="bibr" rid="CR18">18</xref></sup> suggest no to modest correlation with clinical disability progression based on EDSS even after four to eight years of follow-up.</p>
+              <p id="Par28">Another strategy could have been to infer from an RRMS trial that a drug might be effective for treating disability progression in a progressive multiple sclerosis (PMS) trial. For example, ocrelizumab and siponimod were first found to be efficacious in the RRMS population in OPERA I/II<sup><xref ref-type="bibr" rid="CR8">8</xref></sup> and BOLD<sup><xref ref-type="bibr" rid="CR19">19</xref></sup>, respectively, before being tested in the PPMS trial ORATORIO<sup><xref ref-type="bibr" rid="CR10">10</xref></sup> and the SPMS trial EXPAND<sup><xref ref-type="bibr" rid="CR20">20</xref></sup>, respectively. In these cases, there were other reasons to believe that the drugs might be effective for treating progressive biology, but the predictive value of finding an initial effect on inflammatory biology remains of interest. From a predictive enrichment standpoint, baseline T2 lesion burden has been found to correlate with future disability and disability progression, at least modestly<sup><xref ref-type="bibr" rid="CR21">21</xref>–<xref ref-type="bibr" rid="CR24">24</xref></sup>. Evidence is less robust for Gad lesions, since some authors<sup><xref ref-type="bibr" rid="CR25">25</xref></sup> have demonstrated modest correlations with future disability at least 2 years from baseline, while others<sup><xref ref-type="bibr" rid="CR23">23</xref></sup> have not. In our experiments, a treatment effect estimation model based on either Gad count or T2 lesion volume alone performed poorly. Only the rate of accumulation of T2 lesions over time (measured from the time of symptom onset) was predictive. Even if the inflammatory hypothesis was correct, a predictive enrichment strategy would be more efficient than awaiting the results of a RRMS study testing the same drug, particularly given that the power of a follow-up PMS study is likely to be insufficient. This is supported by the small proportion of responders to anti-CD20-Abs in our experiments, the dramatic difference in effect size between the inflammatory and progression-related outcomes, and the numerous examples of effective drugs for RRMS that had no identifiable effect on slowing disability progression in PMS<sup><xref ref-type="bibr" rid="CR11">11</xref>, <xref ref-type="bibr" rid="CR12">12</xref>, <xref ref-type="bibr" rid="CR26">26</xref>–<xref ref-type="bibr" rid="CR30">30</xref></sup>.</p>
+              <p id="Par29">Finally, the Food and Drug Administration has published a guidance document with suggestions regarding the design of predictively enriched studies<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>. One approach might be to first conduct a small trial of a short duration as a proof of concept in patients predicted to be highly responsive. If a significant effect is detected, a larger/longer follow-up study with a more inclusive (less enriched) population can be attempted with more confidence. It is also possible that, on the basis of a strong effect in the enriched responder group, the proof of concept would be sufficient for drug approval to be granted for the unenriched population, given the significant unmet need and irreversible consequences of disability progression. To limit the risk that the predictive model is found to be inaccurate on the study population, stratified randomization can be used by having two parallel groups: the primary group (which would be adequately powered to detect an effect) would be an enriched responder group, while the secondary group would randomize predicted non-responders. Although the non-responder group would not be powered to detect an effect, it would provide a rough estimate of the effectiveness of the drug in this group and help guide design decisions for follow-up trials. The two groups could also be merged in a pre-planned analysis, to provide an estimate of the effect in the combined population.</p>
+              <p id="Par30">Limitations of this work include the choice of model. Interpretability of black-box algorithms such as neural networks (reviewed elsewhere<sup><xref ref-type="bibr" rid="CR32">32</xref></sup>) remains an area of active research. Although our MLP outperformed linear baselines, MLPs are more difficult to train and at higher risk of overfitting. Moreover, we made heavy use of several regularization schemes to prevent this. Our hyperparameter tuning procedure is also one of many that can be designed. Next, we used MRI-derived lesion and volumetric measures computed during the individual clinical trials, which could potentially ignore more subtle predictive features found within the MRI voxel-level data. Learning these features in a data-driven fashion through convolutional neural networks is the subject of ongoing work, but this can easily be appended to our MLP architecture. Regarding generalization to novel drug targets, more data is needed from drugs with diverse mechanisms of action to fully grasp the extent to which predictors of anti-inflammatory drugs are applicable to other drug classes, including neurodegenerative targets. Finally, it remains unknown if patients for whom our model predicted minimal effect over two to four years could benefit after longer periods of administration. Answering this question would require longer-term observational data.</p>
+            </sec>
+            <sec id="Sec9">
+              <title>Methods</title>
+              <p id="Par31">The study protocol was originally approved by the McGill University Health Center’s Research Ethics Board - Neurosciences-Psychiatry (IRB00010120) and then transferred and approved by the McGill University Faculty of Medicine and Health Sciences Institutional Review Board (A03-M14-22A).</p>
+              <sec id="Sec10">
+                <title>Data</title>
+                <p id="Par32">Data is taken from six different randomized clinical trials (<italic>n</italic> = 3830): OPERA I<sup><xref ref-type="bibr" rid="CR8">8</xref></sup>, OPERA II<sup><xref ref-type="bibr" rid="CR8">8</xref></sup>, BRAVO<sup><xref ref-type="bibr" rid="CR9">9</xref></sup>, ORATORIO<sup><xref ref-type="bibr" rid="CR10">10</xref></sup>, OLYMPUS<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>, and ARPEGGIO<sup><xref ref-type="bibr" rid="CR12">12</xref></sup> (ClinicalTrials.gov numbers, NCT01247324, NCT01412333, NCT00605215, NCT01194570, NCT00087529, NCT02284568, respectively). Informed consent and participant compensation (if any) were handled by the individual clinical trials. We excluded participants who spent less than 24 weeks in the trial, who had less than two clinical visits, or who were missing one or more input features at the baseline visit. Therefore, it is important to appreciate that the data included in our work are not an exact reproduction of those used in the clinical trials.</p>
+                <p id="Par33">All clinical/demographic and MRI features that were consistently recorded as part of all 6 clinical trials (a total of 19 features) were used to train our model. Values were recorded at the baseline visit (immediately before randomized treatment allocation), and are a combination of binary (sex), ordinal (EDSS, FSS), discrete (Gad count), and continuous variables (age, height, weight, disease duration, T25FW, 9-hole peg test (9HPT), T2 lesion volume, Gad count, and NBV). Disease duration was estimated from the time of symptom onset.</p>
+                <p id="Par34">Lesion segmentation and volumetric measurements are derived from ground-truth lesion masks, which were generated independently (by an image analysis center outside of this study) during the course of each clinical trial. A fully manual or a semi-automatic segmentation strategy was used during clinical trial analysis for each trial. This analysis began with automated segmentation and was followed by manual correction by experts. The resulting segmentation masks are the best available approximation to ground truth, but would not be expected to be identical between each expert and reading center in part due to differences in the approach to lesion segmentation between reading centers (school effects). To account for any difference between the trial sites’ segmentation pipelines and improve model optimization dynamics<sup><xref ref-type="bibr" rid="CR33">33</xref></sup>, we scaled the segmentation-based metrics into a common reference range. To do so, we first isolated the subset of samples that fulfilled the intersection of inclusion criteria for all trials. Then, we scaled all MRI metrics such that their range from −3 SD to +3 SD matches that of a reference trial (in the same interval of ±3 SD) obtained from the training set. The reference trials were selected on the basis of sample size (ORATORIO for the PPMS trials, and OPERA I/II for the RRMS trials). The range was clamped at ±3 SD for the scaling to be robust to extreme outliers.</p>
+                <p id="Par35">The following right-skewed distributions were log-transformed: NBV, T2 lesion volume, T25FW, and 9HPT. Gad counts were binned into bins of 0, 1, 2, 3, 4, 5-6, 7-9, 10-14, 15-19 and 20+ lesions. Finally, to improve convergence during gradient descent, all non-binary features were standardized by subtracting the mean and dividing by the standard deviation, both calculated from the training dataset<sup><xref ref-type="bibr" rid="CR33">33</xref></sup>.</p>
+              </sec>
+              <sec id="Sec11">
+                <title>Outcome definition</title>
+                <p id="Par36">The primary outcome used in clinical trials assessing the efficacy of therapeutic agents on disease progression is the time to confirmed disability progression (CDP) at 12 or 24 weeks. We use CDP24 because it is a more robust indication that disability accrual will be maintained after 5 years<sup><xref ref-type="bibr" rid="CR34">34</xref></sup>. CDP24 is most commonly based on the EDSS, a scale going from 0 (no disability) to 10 (death), in discrete 0.5 increments (except for a 1.0 increment between 0.0 and 1.0). A CDP24 event is defined as a 24-week sustained increase in the EDSS of 0.5 for baseline EDSS values &gt; 5.5, of 1.5 for a baseline EDSS of 0, and of 1.0 for EDSS values in between. This difference in the increment required to confirm disability progression is commonly adopted in clinical trials, and partially accounts for the finding that patients transition through the EDSS scores at different rates<sup><xref ref-type="bibr" rid="CR35">35</xref></sup>.</p>
+                <p id="Par37">While it is possible to predict time-to-event using traditional machine learning methods if workarounds are used to address right-censored data or using machine learning frameworks specifically developed to model survival data (reviewed elsewhere<sup><xref ref-type="bibr" rid="CR36">36</xref></sup>), we chose not to model time-to-CDP24 because of limitations inherent in this metric. As outlined by Healy et al.<sup><xref ref-type="bibr" rid="CR37">37</xref></sup>, CDP reflects not only the rate of progression but also the baseline stage of the disease, which is problematic because the stage is represented by a discretized EDSS at a single baseline visit. This results in a noisy outcome label which could make it harder for a model to learn a representation that relates to the progressive biology which we are trying to model.</p>
+                <p id="Par38">We therefore model the rate of progression directly by fitting a linear regression model onto the EDSS values of each individual participant over multiple visits (see Supplementary Methods <xref rid="MOESM1" ref-type="media">2</xref> for details) and take its slope to be the outcome label that our MLP uses for training. One advantage of the slope outcome over time-to-CDP24 is that it can be modeled using any type of regression model. We revert to using time-to-CDP24 for model evaluation to facilitate comparison with treatment effect survival metrics reported in the original clinical trial publications.</p>
+              </sec>
+              <sec id="Sec12">
+                <title>Treatment effect modeling</title>
+                <p id="Par39">To enrich clinical trials with individuals predicted to have an increased response to treatment, it is helpful to begin with the definition of individual treatment effect (ITE) according to the Neyman/Rubin Potential Outcome Framework<sup><xref ref-type="bibr" rid="CR38">38</xref></sup>. Let the ITE for individual <italic>i</italic> be <italic>τ</italic><sub><italic>i</italic></sub>, then<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\tau }_{i} {:}={Y}_{i}(1)-{Y}_{i}(0),$$\end{document}</tex-math><mml:math id="M2"><mml:msub><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>:</mml:mo><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>Y</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>−</mml:mo><mml:msub><mml:mrow><mml:mi>Y</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>,</mml:mo></mml:math><graphic xlink:href="41467_2022_33269_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula>where <italic>Y</italic><sub><italic>i</italic></sub>(1) and <italic>Y</italic><sub><italic>i</italic></sub>(0) represent the outcome of individual <italic>i</italic> when given treatment and control medications, respectively. The Fundamental Problem of Causal Inference<sup><xref ref-type="bibr" rid="CR39">39</xref></sup> states that the ITE is unobservable because only one of the two outcomes is realized in any given patient, dictated by their treatment allocation. <italic>Y</italic><sub><italic>i</italic></sub>(1) and <italic>Y</italic><sub><italic>i</italic></sub>(0) are therefore termed potential outcomes or, alternatively, factual (observed) and counterfactual (not observed) outcomes.</p>
+                <p id="Par40">Ground-truth can nevertheless be observed at the group level in specific situations, such as randomized control trials, because treatment allocation is independent of the outcome. We provide a detailed discussion of two important estimands, the average treatment effect (ATE) and the CATE in Supplementary Methods <xref rid="MOESM1" ref-type="media">1</xref>. Briefly, ATE represents the average effect when considering the entire population, while CATE considers a sub-population characterized by certain characteristics (e.g., 40-year-old women with 2 Gad lesions at baseline). We use CATE estimation to frame the problem of predicting treatment response for individuals.</p>
+                <p id="Par41">The best estimator for CATE is conveniently also the best estimator for the ITE in terms of mean squared error (MSE)<sup><xref ref-type="bibr" rid="CR6">6</xref></sup>. Several frameworks have been developed to model CATE, but a simple meta-learning approach which decomposes the estimation into sub-tasks that can be solved using any supervised machine learning model provides a flexible starting point<sup><xref ref-type="bibr" rid="CR6">6</xref></sup>. For a broader survey of methods, see the survey on uplift modeling by Gutierrez et al.<sup><xref ref-type="bibr" rid="CR4">4</xref></sup> (the uplift literature has contributed extensively to the field of causal inference, particularly when dealing with randomized experiments from an econometrics perspective).</p>
+                <p id="Par42">In this work, an MLP was selected as the base model due to its high expressive power and flexibility to be integrated into larger end-to-end-trainable neural networks consisting of different modules (such as convolutional neural networks). We used a multi-headed architecture, with a common trunk and two output heads: one for modeling the potential outcome on treatment, <inline-formula id="IEq1"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\hat{\mu }}_{1}(x)$$\end{document}</tex-math><mml:math id="M4"><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mo>^</mml:mo></mml:mrow></mml:mover></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41467_2022_33269_Article_IEq1.gif"/></alternatives></inline-formula>, and the other to model the potential outcome on placebo, <inline-formula id="IEq2"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\hat{\mu }}_{0}(x)$$\end{document}</tex-math><mml:math id="M6"><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mo>^</mml:mo></mml:mrow></mml:mover></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41467_2022_33269_Article_IEq2.gif"/></alternatives></inline-formula>. For inference, the CATE estimate <inline-formula id="IEq3"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\tau }(x)$$\end{document}</tex-math><mml:math id="M8"><mml:mover accent="true"><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mo>^</mml:mo></mml:mrow></mml:mover><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41467_2022_33269_Article_IEq3.gif"/></alternatives></inline-formula> given a feature vector <italic>x</italic> can be computed as:<disp-formula id="Equ2"><label>2</label><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\tau }(x)={\hat{\mu }}_{1}(x)-{\hat{\mu }}_{0}(x).$$\end{document}</tex-math><mml:math id="M10"><mml:mover accent="true"><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mo>^</mml:mo></mml:mrow></mml:mover><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mo>^</mml:mo></mml:mrow></mml:mover></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>−</mml:mo><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mo>^</mml:mo></mml:mrow></mml:mover></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:math><graphic xlink:href="41467_2022_33269_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par43">We use <inline-formula id="IEq4"><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\tau }(x)$$\end{document}</tex-math><mml:math id="M12"><mml:mover accent="true"><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mo>^</mml:mo></mml:mrow></mml:mover><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41467_2022_33269_Article_IEq4.gif"/></alternatives></inline-formula> as the predicted treatment effect for an individual with characteristics <italic>x</italic>. Note that we multiplied all <inline-formula id="IEq5"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\tau }(x)$$\end{document}</tex-math><mml:math id="M14"><mml:mover accent="true"><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mo>^</mml:mo></mml:mrow></mml:mover><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41467_2022_33269_Article_IEq5.gif"/></alternatives></inline-formula> values by −1 in this paper to simplify interpretation in the section “Results”, such that a positive effect indicates improvement, while a negative effect indicates worsening on treatment.</p>
+                <p id="Par44">This multi-headed approach can be seen as a variant of the T-Learner described for example by Kunzel et al.<sup><xref ref-type="bibr" rid="CR6">6</xref></sup>, except that the two base models in our case share weights in the common trunk. Our network is similar to that conceptualized by Alaa et al.<sup><xref ref-type="bibr" rid="CR40">40</xref></sup>, but without the propensity network used to correct for any conditional dependence between the treatment allocation and the outcome given the input features, since our dataset comes from randomized data.</p>
+                <p id="Par45">To decrease the size of the hyperparameter search space, we fixed the number of layers and only tuned the layer width. We used one common hidden layer and one treatment-specific hidden layer. Additional common or treatment-specific layers could be used if necessary, but given the low dimensionality of our feature space and the relatively small sample size, the network’s depth was kept small to avoid overfitting. The inductive bias behind our choice of using a multi-headed architecture is that disability progression can have both disease-specific and treatment-specific predictors of disability progression, which can be encoded into the common and treatment-specific hidden layer representations, respectively. Consequently, the common hidden layers can learn from all the available data, irrespective of treatment allocation. Rectified linear unit (ReLU) activation functions were used at hidden layers for non-linearity.</p>
+              </sec>
+              <sec id="Sec13">
+                <title>Training</title>
+                <p id="Par46">The model was trained in two phases, depicted in Fig. <xref rid="Fig3" ref-type="fig">3</xref>. In the first phase, a 5-headed MLP was pre-trained on an RRMS dataset to predict the slope outcome on each treatment arm. In the second phase, the parameters of the common layers were frozen, and the output heads were replaced with two new randomly initialized output heads for fine-tuning on the PPMS dataset to predict the same outcome.<fig id="Fig3"><label>Fig. 3</label><caption><title>Multi-headed multilayer perceptron (MLP) architecture for CATE estimation.</title><p>The MLP was first pre-trained on a relapsing-remitting multiple sclerosis dataset (top), followed by fine tuning on a primary progressive multiple sclerosis dataset (bottom). Subtraction symbols indicate which treatment and control are being subtracted for the CATE estimate. Gray-colored layers indicate the common layers that are transferred from the pre-trained MLP to the fine-tuning MLP, at which point their parameters are frozen and only the parameters of the blue-colored layers are updated. The orange-colored layers are discarded after the pre-training step. <italic>x</italic>: Feature vector. <inline-formula id="IEq6"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\hat{\tau }}_{t}(x)$$\end{document}</tex-math><mml:math id="M16"><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mo>^</mml:mo></mml:mrow></mml:mover></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41467_2022_33269_Article_IEq6.gif"/></alternatives></inline-formula>: CATE estimate for treatment <italic>t</italic> given feature vector <italic>x</italic>. <inline-formula id="IEq7"><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\hat{\mu }}_{t}(x)$$\end{document}</tex-math><mml:math id="M18"><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mo>^</mml:mo></mml:mrow></mml:mover></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41467_2022_33269_Article_IEq7.gif"/></alternatives></inline-formula>: predicted potential outcome on treatment <italic>t</italic>. IFNb-1a = Interferon beta-1a.</p></caption><graphic xlink:href="41467_2022_33269_Fig3_HTML" id="d32e3480"/></fig></p>
+                <p id="Par47">Optimization was done using mini-batch gradient descent with momentum. To prevent overfitting, the validation loss was monitored during 4-fold cross-validation (CV) to early stop model training at the epoch with the lowest MSE, up to a maximum of 100 epochs. Dropout and L2 regularization were used, along with a max-norm constraint on the weights<sup><xref ref-type="bibr" rid="CR41">41</xref></sup>, to further prevent overfitting.</p>
+                <p id="Par48">Mini-batches were sampled in a stratified fashion to preserve the proportions of participants receiving active treatment and placebo. Backpropagation was done using the MSE calculated at the output head that corresponds to the treatment that the patient was allocated to, <italic>t</italic><sub><italic>i</italic></sub> (the output head with available ground-truth). The squared errors from each output head were then weighted by <italic>n</italic><sub><italic>s</italic></sub>/(<italic>m</italic><italic>n</italic><sub><italic>t</italic></sub>), where <italic>n</italic><sub><italic>s</italic></sub> represents the total number of participants in the training split, <italic>n</italic><sub><italic>t</italic></sub> represents the number of participants in the treatment arm corresponding to the output head of interest, and <italic>m</italic> represents the total number of treatment arms. This compensates for the treatment allocation imbalance in the dataset.</p>
+                <p id="Par49">We aimed to reduce variance by using the early stopped models obtained from each CV fold as members of an ensemble. This ensemble’s prediction is the mean of its members’ predictions, and is used for inference on the unseen test set.</p>
+                <p id="Par50">A random search was used to identify the hyperparameters with the best validation performance (learning rate, momentum, L2 regularization coefficient, hidden layer width, max norm, dropout probability). We used CV aggregation, or crogging<sup><xref ref-type="bibr" rid="CR42">42</xref></sup>, to improve the generalization error estimate using our validation metrics. Crogging involves aggregating all validation set predictions (rather than the validation metrics) and computing one validation metric for the entire CV procedure. The best model during hyperparameter tuning was selected during CV on the basis of two validation metrics: the MSE of the factual predictions, and the AD<sub>wabc</sub> (described in detail in Supplementary Methods <xref rid="MOESM1" ref-type="media">3</xref>). We combine both validation metrics during hyperparameter tuning by choosing the model with the highest AD<sub>wabc</sub> among all models that fall within 1 SD of the best performing model based on the MSE loss. The SD of the best performing model’s MSE is calculated from the loss values obtained in the individual CV folds.</p>
+              </sec>
+              <sec id="Sec14">
+                <title>Baseline models</title>
+                <p id="Par51">The performance of the multi-headed MLP was compared to ridge regression and CPH models. Both models were used as part of a T-learner configuration (as defined by Kunzel et al.<sup><xref ref-type="bibr" rid="CR6">6</xref></sup>). Hyperparameter tuning was done on the same folds and with the same metrics as for the MLP.</p>
+              </sec>
+              <sec id="Sec15">
+                <title>Statistical analysis</title>
+                <p id="Par52">Hazard ratios were calculated using CPH models and associated p-values from log-rank tests. Sample size estimation for CPH assumes a two-sided test and was based on Rosner<sup><xref ref-type="bibr" rid="CR43">43</xref></sup>, as implemented by the Lifelines library (version 0.27.0)<sup><xref ref-type="bibr" rid="CR44">44</xref></sup>.</p>
+              </sec>
+              <sec id="Sec16">
+                <title>Software</title>
+                <p id="Par53">All experiments were implemented in Python 3.8<sup><xref ref-type="bibr" rid="CR45">45</xref></sup>. MLPs were implemented using the Pytorch library (version 1.7.1)<sup><xref ref-type="bibr" rid="CR46">46</xref></sup>. Scikit-Learn (version 0.24.2)<sup><xref ref-type="bibr" rid="CR47">47</xref></sup> was used for the implementation of ridge regression, while Lifelines (version 0.27.0)<sup><xref ref-type="bibr" rid="CR44">44</xref></sup> was used for CPH. For reproducibility, the same random seed was used for data splitting and model initialization across all experiments.</p>
+              </sec>
+              <sec id="Sec17">
+                <title>Reporting summary</title>
+                <p id="Par54">Further information on research design is available in the <xref rid="MOESM3" ref-type="media">Nature Research Reporting Summary</xref> linked to this article.</p>
+              </sec>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary information</title>
+              <sec id="Sec18">
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM1">
+                    <media xlink:href="41467_2022_33269_MOESM1_ESM.pdf">
+                      <caption>
+                        <p>Supplementary Information</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                  <supplementary-material content-type="local-data" id="MOESM2">
+                    <media xlink:href="41467_2022_33269_MOESM2_ESM.pdf">
+                      <caption>
+                        <p>Peer Review File</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                  <supplementary-material content-type="local-data" id="MOESM3">
+                    <media xlink:href="41467_2022_33269_MOESM3_ESM.pdf">
+                      <caption>
+                        <p>Reporting Summary</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p><bold>Publisher’s note</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <sec>
+              <title>Supplementary information</title>
+              <p>The online version contains supplementary material available at 10.1038/s41467-022-33269-x.</p>
+            </sec>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>The authors are grateful to the companies who generously provided the clinical trial data that made this work possible: Biogen, BioMS, MedDay, Novartis, Roche / Genentech, and Teva.</p>
+              <p>This investigation was supported by an award from the International Progressive Multiple Sclerosis Alliance (award reference number PA-1412-02420), the Natural Sciences and Engineering Research Council of Canada (RGPIN-2015-05471, T.A.), the Canada Institute for Advanced Research (CIFAR) Artificial Intelligence Chairs program (T.A.), a technology maturation grant from Mila—Quebec AI Institute (T.A.), an endMS Personnel Award from the Multiple Sclerosis Society of Canada (J.-P.R.F.), a Canada Graduate Scholarship-Masters Award from the Canadian Institutes of Health Research (J.-P.R.F.), and the Fonds de recherche du Québec—Santé/Ministère de la Santé et des Services sociaux training program for specialty medicine residents with an interest in pursuing a research career, Phase 1 (J.-P.R.F.).</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Author contributions</title>
+              <p>J.-P.R.F., T.A., and D.L.A. designed the study. J.-P.R.F., J.D.-F., B.N., J.S., F.B., M.-P.S., D.P., T.A., and D.L.A. contributed to the methods, analysis, and writing the manuscript. J.-P.R.F. wrote the code for all experiments. T.A. and D.L.A. jointly supervised this work. D.L.A. oversaw data collection.</p>
+            </notes>
+            <notes notes-type="peer-review">
+              <title>Peer review</title>
+              <sec id="FPar1">
+                <title>Peer review information</title>
+                <p id="Par55"><italic>Nature Communications</italic> thanks the anonymous reviewer(s) for their contribution to the peer review of this work. <xref rid="MOESM2" ref-type="media">Peer reviewer reports</xref> are available.</p>
+              </sec>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Data availability</title>
+              <p>Data used in this work was obtained from the following clinical trials (OPERA I<sup><xref ref-type="bibr" rid="CR8">8</xref></sup>, OPERA II<sup><xref ref-type="bibr" rid="CR8">8</xref></sup>, BRAVO<sup><xref ref-type="bibr" rid="CR9">9</xref></sup>, ORATORIO<sup><xref ref-type="bibr" rid="CR10">10</xref></sup>, OLYMPUS<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>, and ARPEGGIO<sup><xref ref-type="bibr" rid="CR12">12</xref></sup> with ClinicalTrials.gov numbers NCT01247324, NCT01412333, NCT00605215, NCT01194570, NCT00087529, NCT02284568, respectively), and are not publicly available. Access requests should be forwarded to the relevant data controllers.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Code availability</title>
+              <p>Code necessary to reproduce the proposed methodological framework can be accessed publicly on the following GitHub repository: <ext-link ext-link-type="uri" xlink:href="https://github.com/jpfalet/ms-predictive-enrichment">https://github.com/jpfalet/ms-predictive-enrichment</ext-link>. This repository does not contain dataset-specific code, since the data we used is not publicly available.</p>
+            </notes>
+            <notes id="FPar2" notes-type="COI-statement">
+              <title>Competing interests</title>
+              <p id="Par56">F.B. has received teaching honoraria from Novartis and has received personal compensation for consulting services from Biogen, Eisai and Chiesi. M.-P.S., has received personal compensation for consulting services and for speaking activities from Merck, Teva, Novartis, Roche, Sanofi Genzyme, Medday, GeNeuro, and Biogen. D.P. works part-time for DeepMind. D.L.A. reports consulting fees from Biogen, Celgene, Frequency Therapeutics, Genentech, Merck, Novartis, Race to Erase MS, Roche, and Sanofi-Aventis, Shionogi, Xfacto Communications, grants from Immunotec and Novartis, and an equity interest in NeuroRx. The remaining authors report no competing interests.</p>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kappos</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Contribution of relapse-independent progression vs relapse-associated worsening to overall confirmed disability accumulation in typical relapsing multiple sclerosis in a pooled analysis of 2 randomized clinical trials</article-title>
+                  <source>JAMA Neurol.</source>
+                  <year>2020</year>
+                  <volume>77</volume>
+                  <fpage>1132</fpage>
+                  <lpage>1140</lpage>
+                  <pub-id pub-id-type="doi">10.1001/jamaneurol.2020.1568</pub-id>
+                  <pub-id pub-id-type="pmid">32511687</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Temple</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Enrichment of clinical study populations</article-title>
+                  <source>Clin. Pharmacol. therapeutics</source>
+                  <year>2010</year>
+                  <volume>88</volume>
+                  <fpage>774</fpage>
+                  <lpage>778</lpage>
+                  <pub-id pub-id-type="doi">10.1038/clpt.2010.233</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bovis</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Defining responders to therapies by a statistical modeling approach applied to randomized clinical trial data</article-title>
+                  <source>BMC Med.</source>
+                  <year>2019</year>
+                  <volume>17</volume>
+                  <fpage>1</fpage>
+                  <lpage>10</lpage>
+                  <pub-id pub-id-type="doi">10.1186/s12916-019-1345-2</pub-id>
+                  <pub-id pub-id-type="pmid">30651111</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <mixed-citation publication-type="other">Gutierrez, P. &amp; Gérardy, J.-Y. Causal inference and uplift modelling: a review of the literature. In Hardgrove, C., Dorard, L., Thompson, K. &amp; Douetteau, F. (ed.) <italic>Proc. 3rd Int. Conf. Predictive Applications and APIs, PMLR</italic> Vol 67, 1–13 (PMLR, 2017).</mixed-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Athey</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Imbens</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Recursive partitioning for heterogeneous causal effects</article-title>
+                  <source>Proc. Natl Acad. Sci.</source>
+                  <year>2016</year>
+                  <volume>113</volume>
+                  <fpage>7353</fpage>
+                  <lpage>7360</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.1510489113</pub-id>
+                  <pub-id pub-id-type="pmid">27382149</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Künzel</surname>
+                      <given-names>SR</given-names>
+                    </name>
+                    <name>
+                      <surname>Sekhon</surname>
+                      <given-names>JS</given-names>
+                    </name>
+                    <name>
+                      <surname>Bickel</surname>
+                      <given-names>PJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>B</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Metalearners for estimating heterogeneous treatment effects using machine learning</article-title>
+                  <source>Proc. Natl Acad. Sci. USA</source>
+                  <year>2019</year>
+                  <volume>116</volume>
+                  <fpage>4156</fpage>
+                  <lpage>4165</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.1804597116</pub-id>
+                  <pub-id pub-id-type="pmid">30770453</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <mixed-citation publication-type="other">Durso-Finley, J., Falet, J.-P. R., Nichyporuk, B., Arnold, D. L. &amp; Arbel, T. Personalized prediction of future lesion activity and treatment effect in multiple sclerosis from baseline MRI. <italic>Medical Imaging with Deep Learning 2022, PMLR</italic> Vol. 172 (2022)</mixed-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hauser</surname>
+                      <given-names>SL</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Ocrelizumab versus interferon beta-1a in relapsing multiple sclerosis</article-title>
+                  <source>N. Engl. J. Med.</source>
+                  <year>2017</year>
+                  <volume>376</volume>
+                  <fpage>221</fpage>
+                  <lpage>234</lpage>
+                  <pub-id pub-id-type="doi">10.1056/NEJMoa1601277</pub-id>
+                  <pub-id pub-id-type="pmid">28002679</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vollmer</surname>
+                      <given-names>TL</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A randomized placebo-controlled phase III trial of oral laquinimod for multiple sclerosis</article-title>
+                  <source>J. Neurol.</source>
+                  <year>2014</year>
+                  <volume>261</volume>
+                  <fpage>773</fpage>
+                  <lpage>783</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00415-014-7264-4</pub-id>
+                  <pub-id pub-id-type="pmid">24535134</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Montalban</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Ocrelizumab versus placebo in primary progressive multiple sclerosis</article-title>
+                  <source>N. Engl. J. Med.</source>
+                  <year>2017</year>
+                  <volume>376</volume>
+                  <fpage>209</fpage>
+                  <lpage>220</lpage>
+                  <pub-id pub-id-type="doi">10.1056/NEJMoa1606468</pub-id>
+                  <pub-id pub-id-type="pmid">28002688</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hawker</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Rituximab in patients with primary progressive multiple sclerosis: results of a randomized double-blind placebo-controlled multicenter trial</article-title>
+                  <source>Ann. Neurol.</source>
+                  <year>2009</year>
+                  <volume>66</volume>
+                  <fpage>460</fpage>
+                  <lpage>471</lpage>
+                  <pub-id pub-id-type="doi">10.1002/ana.21867</pub-id>
+                  <pub-id pub-id-type="pmid">19847908</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Giovannoni</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A randomized, placebo-controlled, phase 2 trial of laquinimod in primary progressive multiple sclerosis</article-title>
+                  <source>Neurology</source>
+                  <year>2020</year>
+                  <volume>95</volume>
+                  <fpage>e1027</fpage>
+                  <lpage>e1040</lpage>
+                  <pub-id pub-id-type="doi">10.1212/WNL.0000000000010284</pub-id>
+                  <pub-id pub-id-type="pmid">32651286</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Weiss</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Khoshgoftaar</surname>
+                      <given-names>TM</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>DD</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A survey of transfer learning</article-title>
+                  <source>J. Big Data</source>
+                  <year>2016</year>
+                  <volume>3</volume>
+                  <fpage>1</fpage>
+                  <lpage>40</lpage>
+                  <pub-id pub-id-type="doi">10.1186/s40537-016-0043-6</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Tian</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Cai</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Claggett</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Wei</surname>
+                      <given-names>LJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effectively selecting a target population for a future comparative study</article-title>
+                  <source>J. Am. Stat. Assoc.</source>
+                  <year>2013</year>
+                  <volume>108</volume>
+                  <fpage>527</fpage>
+                  <lpage>539</lpage>
+                  <pub-id pub-id-type="doi">10.1080/01621459.2013.770705</pub-id>
+                  <pub-id pub-id-type="pmid">24058223</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Signori</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Schiavetti</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Gallo</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Sormani</surname>
+                      <given-names>MP</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Subgroups of multiple sclerosis patients with larger treatment benefits: a meta-analysis of randomized trials</article-title>
+                  <source>Eur. J. Neurol.</source>
+                  <year>2015</year>
+                  <volume>22</volume>
+                  <fpage>960</fpage>
+                  <lpage>966</lpage>
+                  <pub-id pub-id-type="doi">10.1111/ene.12690</pub-id>
+                  <pub-id pub-id-type="pmid">25786797</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ingle</surname>
+                      <given-names>GT</given-names>
+                    </name>
+                    <name>
+                      <surname>Stevenson</surname>
+                      <given-names>VL</given-names>
+                    </name>
+                    <name>
+                      <surname>Miller</surname>
+                      <given-names>DH</given-names>
+                    </name>
+                    <name>
+                      <surname>Thompson</surname>
+                      <given-names>AJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Primary progressive multiple sclerosis: a 5-year clinical and MR study</article-title>
+                  <source>Brain</source>
+                  <year>2003</year>
+                  <volume>126</volume>
+                  <fpage>2528</fpage>
+                  <lpage>2536</lpage>
+                  <pub-id pub-id-type="doi">10.1093/brain/awg261</pub-id>
+                  <pub-id pub-id-type="pmid">12902314</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fisher</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Eight-year follow-up study of brain atrophy in patients with MS</article-title>
+                  <source>Neurology</source>
+                  <year>2002</year>
+                  <volume>59</volume>
+                  <fpage>1412</fpage>
+                  <lpage>1420</lpage>
+                  <pub-id pub-id-type="doi">10.1212/01.WNL.0000036271.49066.06</pub-id>
+                  <pub-id pub-id-type="pmid">12427893</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Turner</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Lin</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Calmon</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Roberts</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Blumhardt</surname>
+                      <given-names>LD</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cerebral atrophy and disability in relapsing-remitting and secondary progressive multiple sclerosis over four years</article-title>
+                  <source>Mult. Scler.</source>
+                  <year>2003</year>
+                  <volume>9</volume>
+                  <fpage>21</fpage>
+                  <lpage>27</lpage>
+                  <pub-id pub-id-type="doi">10.1191/1352458503ms868oa</pub-id>
+                  <pub-id pub-id-type="pmid">12617263</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Selmaj</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Siponimod for patients with relapsing-remitting multiple sclerosis (BOLD): an adaptive, dose-ranging, randomised, phase 2 study</article-title>
+                  <source>Lancet Neurol.</source>
+                  <year>2013</year>
+                  <volume>12</volume>
+                  <fpage>756</fpage>
+                  <lpage>767</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S1474-4422(13)70102-9</pub-id>
+                  <pub-id pub-id-type="pmid">23764350</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kappos</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Siponimod versus placebo in secondary progressive multiple sclerosis (EXPAND): a double-blind, randomised, phase 3 study</article-title>
+                  <source>Lancet</source>
+                  <year>2018</year>
+                  <volume>391</volume>
+                  <fpage>1263</fpage>
+                  <lpage>1273</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0140-6736(18)30475-6</pub-id>
+                  <pub-id pub-id-type="pmid">29576505</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fisniku</surname>
+                      <given-names>LK</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Disability and T2 MRI lesions: a 20-year follow-up of patients with relapse onset of multiple sclerosis</article-title>
+                  <source>Brain</source>
+                  <year>2008</year>
+                  <volume>131</volume>
+                  <fpage>808</fpage>
+                  <lpage>817</lpage>
+                  <pub-id pub-id-type="doi">10.1093/brain/awm329</pub-id>
+                  <pub-id pub-id-type="pmid">18234696</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tintoré</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Baseline MRI predicts future attacks and disability in clinically isolated syndromes</article-title>
+                  <source>Neurology</source>
+                  <year>2006</year>
+                  <volume>67</volume>
+                  <fpage>968</fpage>
+                  <lpage>972</lpage>
+                  <pub-id pub-id-type="doi">10.1212/01.wnl.0000237354.10144.ec</pub-id>
+                  <pub-id pub-id-type="pmid">17000962</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Minneboo</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Infratentorial lesions predict long-term disability in patients with initial findings suggestive of multiple sclerosis</article-title>
+                  <source>Arch. Neurol.</source>
+                  <year>2004</year>
+                  <volume>61</volume>
+                  <fpage>217</fpage>
+                  <lpage>221</lpage>
+                  <pub-id pub-id-type="doi">10.1001/archneur.61.2.217</pub-id>
+                  <pub-id pub-id-type="pmid">14967769</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rudick</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                    <name>
+                      <surname>Simon</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Fisher</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Significance of T2 lesions in multiple sclerosis: a 13-year longitudinal study</article-title>
+                  <source>Ann. Neurol.</source>
+                  <year>2006</year>
+                  <volume>60</volume>
+                  <fpage>236</fpage>
+                  <lpage>242</lpage>
+                  <pub-id pub-id-type="doi">10.1002/ana.20883</pub-id>
+                  <pub-id pub-id-type="pmid">16786526</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kappos</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Predictive value of gadolinium-enhanced magnetic resonance imaging for relapse rate and changes in disability or impairment in multiple sclerosis: a meta-analysis</article-title>
+                  <source>Lancet</source>
+                  <year>1999</year>
+                  <volume>353</volume>
+                  <fpage>964</fpage>
+                  <lpage>969</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0140-6736(98)03053-0</pub-id>
+                  <pub-id pub-id-type="pmid">10459905</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lublin</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Oral fingolimod in primary progressive multiple sclerosis (INFORMS): a phase 3, randomised, double-blind, placebo-controlled trial</article-title>
+                  <source>Lancet</source>
+                  <year>2016</year>
+                  <volume>387</volume>
+                  <fpage>1075</fpage>
+                  <lpage>1084</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0140-6736(15)01314-8</pub-id>
+                  <pub-id pub-id-type="pmid">26827074</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <mixed-citation publication-type="other">Mantia, L. L. et al. Interferon beta for secondary progressive multiple sclerosis. <italic>Cochrane Database Syst. Rev.</italic><bold>1</bold>, CD005181 (2012).</mixed-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kapoor</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Effect of natalizumab on disease progression in secondary progressive multiple sclerosis (ASCEND): a phase 3, randomised, double-blind, placebo-controlled trial with an open-label extension</article-title>
+                  <source>Lancet Neurol.</source>
+                  <year>2018</year>
+                  <volume>17</volume>
+                  <fpage>405</fpage>
+                  <lpage>415</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S1474-4422(18)30069-3</pub-id>
+                  <pub-id pub-id-type="pmid">29545067</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <mixed-citation publication-type="other">Rojas, J. I., Romano, M., Ciapponi, A., Patrucco, L. &amp; Cristiano, E. Interferon beta for primary progressive multiple sclerosis. <italic>Cochrane Database Syst. Rev.</italic><bold>17</bold>, CD006643 (2009).</mixed-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wolinsky</surname>
+                      <given-names>JS</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Glatiramer acetate in primary progressive multiple sclerosis: results of a multinational, multicenter, double-blind, placebo-controlled trial</article-title>
+                  <source>Ann. Neurol.</source>
+                  <year>2007</year>
+                  <volume>61</volume>
+                  <fpage>14</fpage>
+                  <lpage>24</lpage>
+                  <pub-id pub-id-type="doi">10.1002/ana.21079</pub-id>
+                  <pub-id pub-id-type="pmid">17262850</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <mixed-citation publication-type="other">Enrichment Strategies for Clinical Trials to Support Determination of Effectiveness of Human Drugs and Biological Products Guidance for Industry. <italic>US. Department of Health and Human Services, Food and Drug Administration, Center for Drug Evaluation and Research (CDER), Center for Biologics Evaluation and Research (CBER)</italic>. <ext-link ext-link-type="uri" xlink:href="https://www.fda.gov/Drugs/GuidanceComplianceRegulatoryInformation/Guidances/default.htmand/">https://www.fda.gov/Drugs/GuidanceComplianceRegulatoryInformation/Guidances/default.htmand/</ext-link> or <ext-link ext-link-type="uri" xlink:href="https://www.fda.gov/BiologicsBloodVaccines/GuidanceComplianceRegulatoryInformation/Guidances/default.htm">https://www.fda.gov/BiologicsBloodVaccines/GuidanceComplianceRegulatoryInformation/Guidances/default.htm</ext-link> (2019).</mixed-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Tino</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Leonardis</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Tang</surname>
+                      <given-names>K</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A Survey on Neural Network Interpretability</article-title>
+                  <source>IEEE Trans. Emerg. Top. Comput. Intell.</source>
+                  <year>2021</year>
+                  <volume>5</volume>
+                  <fpage>726</fpage>
+                  <lpage>742</lpage>
+                  <pub-id pub-id-type="doi">10.1109/TETCI.2021.3100641</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <mixed-citation publication-type="other">LeCun, Y., Bottou, L., Orr, G. B. &amp; Muller, K. R. in <italic>Neural Networks: Tricks of the Trade</italic> (eds. Montavon, G. et al.) 9–48 (Springer, 2012).</mixed-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kalincik</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Defining reliable disability outcomes in multiple sclerosis</article-title>
+                  <source>Brain</source>
+                  <year>2015</year>
+                  <volume>138</volume>
+                  <fpage>3287</fpage>
+                  <lpage>3298</lpage>
+                  <pub-id pub-id-type="doi">10.1093/brain/awv258</pub-id>
+                  <pub-id pub-id-type="pmid">26359291</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zurawski</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Time between expanded disability status scale (EDSS) scores</article-title>
+                  <source>Mult. Scler. Relat. Disord.</source>
+                  <year>2019</year>
+                  <volume>30</volume>
+                  <fpage>98</fpage>
+                  <lpage>103</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.msard.2019.02.007</pub-id>
+                  <pub-id pub-id-type="pmid">30763908</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <mixed-citation publication-type="other">Wang, P., Li, Y. &amp; Reddy, C. K. Machine learning for survival analysis: a survey. <italic>ACM Comput. Surv</italic>. <bold>51</bold>, 6 (2019).</mixed-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <mixed-citation publication-type="other">Healy, B. C. et al. Confirmed disability progression provides limited predictive information regarding future disease progression in multiple sclerosis. <italic>Mult. Scler. J. Exp. Transl. Clin.</italic><bold>7</bold>, 2055217321999070 (2021).</mixed-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <mixed-citation publication-type="other">Imbens, G. W. &amp; Rubin, D. B. <italic>Causal Inference for Statistics, Social, and Biomedical Sciences</italic> (Cambridge University Press, 2015).</mixed-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Holland</surname>
+                      <given-names>PW</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Statistics and Causal Inference</article-title>
+                  <source>J. Am. Stat. Assoc.</source>
+                  <year>1986</year>
+                  <volume>81</volume>
+                  <fpage>945</fpage>
+                  <pub-id pub-id-type="doi">10.1080/01621459.1986.10478354</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <mixed-citation publication-type="other">Alaa, A. M., Weisz, M. &amp; van der Schaar, M. Deep counterfactual networks with propensity-dropout. In Precup, D. &amp; Teh, Y. W. (ed.) <italic>Proc. 34th Int. Conf. on Machine Learning, PMLR</italic> Vol. 70 (PMLR, 2017).</mixed-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Srivastava</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Hinton</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Krizhevsky</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Sutskever</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Salakhutdinov</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Dropout: a simple way to prevent neural networks from overfitting</article-title>
+                  <source>J. Mach. Learn. Res.</source>
+                  <year>2014</year>
+                  <volume>15</volume>
+                  <fpage>1929</fpage>
+                  <lpage>1958</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR42">
+                <label>42.</label>
+                <mixed-citation publication-type="other">Barrow, D. K. &amp; Crone, S. F. Crogging (cross-validation aggregation) for forecasting—a novel algorithm of neural network ensembles on time series subsamples. In Angelov, P., Levine, D. &amp; Apolloni, B. (ed.) <italic>Proc. International Joint Conference on Neural Networks</italic> (IEEE, 2013).</mixed-citation>
+              </ref>
+              <ref id="CR43">
+                <label>43.</label>
+                <mixed-citation publication-type="other">Rosner, B. <italic>Fundamentals of Biostatistics</italic> 6th edn. 807 (Brooks Cole, 2006).</mixed-citation>
+              </ref>
+              <ref id="CR44">
+                <label>44.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Davidson-Pilon</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Lifelines: survival analysis in Python</article-title>
+                  <source>J. Open Source Softw.</source>
+                  <year>2019</year>
+                  <volume>4</volume>
+                  <fpage>1317</fpage>
+                  <pub-id pub-id-type="doi">10.21105/joss.01317</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR45">
+                <label>45.</label>
+                <mixed-citation publication-type="other">Rossum, G. V. &amp; Drake, F. L. Python 3 Reference Manual. <italic>CreateSpace</italic> (2009).</mixed-citation>
+              </ref>
+              <ref id="CR46">
+                <label>46.</label>
+                <mixed-citation publication-type="other">Paszke, A. et al. PyTorch: an imperative style, high-performance deep learning library. In: Wallach, H. et al. (ed.) <italic>Advances in Neural Information Processing Systems 32: Annual Conference on Neural Information Processing Systems 2019, NeurIPS 2019</italic> (Curran Associates, Inc., 2019)</mixed-citation>
+              </ref>
+              <ref id="CR47">
+                <label>47.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pedregosa</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Scikit-learn: machine learning in Python</article-title>
+                  <source>J. Mach. Learn. Res.</source>
+                  <year>2011</year>
+                  <volume>12</volume>
+                  <fpage>2825</fpage>
+                  <lpage>2830</lpage>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

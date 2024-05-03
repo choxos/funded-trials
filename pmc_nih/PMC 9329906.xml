@@ -1,0 +1,1836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T02:26:24Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:9329906" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:9329906</identifier>
+        <datestamp>2022-07-29</datestamp>
+        <setSpec>ijerph</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Int J Environ Res Public Health</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Int J Environ Res Public Health</journal-id>
+              <journal-id journal-id-type="publisher-id">ijerph</journal-id>
+              <journal-title-group>
+                <journal-title>International Journal of Environmental Research and Public Health</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">1661-7827</issn>
+              <issn pub-type="epub">1660-4601</issn>
+              <publisher>
+                <publisher-name>MDPI</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC9329906</article-id>
+              <article-id pub-id-type="pmcid">PMC9329906</article-id>
+              <article-id pub-id-type="pmc-uid">9329906</article-id>
+              <article-id pub-id-type="pmid">35897500</article-id>
+              <article-id pub-id-type="doi">10.3390/ijerph19159138</article-id>
+              <article-id pub-id-type="publisher-id">ijerph-19-09138</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Protocol</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>The Baltimore Urban Food Distribution (BUD) App: Study Protocol to Assess the Feasibility of a Food Systems Intervention</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-2761-3280</contrib-id>
+                  <name>
+                    <surname>Gittelsohn</surname>
+                    <given-names>Joel</given-names>
+                  </name>
+                  <xref rid="af1-ijerph-19-09138" ref-type="aff">1</xref>
+                  <xref rid="c1-ijerph-19-09138" ref-type="corresp">*</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-7360-396X</contrib-id>
+                  <name>
+                    <surname>Lewis</surname>
+                    <given-names>Emma C.</given-names>
+                  </name>
+                  <xref rid="af1-ijerph-19-09138" ref-type="aff">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-3361-7037</contrib-id>
+                  <name>
+                    <surname>Martin</surname>
+                    <given-names>Nina M.</given-names>
+                  </name>
+                  <xref rid="af1-ijerph-19-09138" ref-type="aff">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-7365-4959</contrib-id>
+                  <name>
+                    <surname>Zhu</surname>
+                    <given-names>Siyao</given-names>
+                  </name>
+                  <xref rid="af2-ijerph-19-09138" ref-type="aff">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Poirier</surname>
+                    <given-names>Lisa</given-names>
+                  </name>
+                  <xref rid="af1-ijerph-19-09138" ref-type="aff">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Van Dongen</surname>
+                    <given-names>Ellen J. I.</given-names>
+                  </name>
+                  <xref rid="af3-ijerph-19-09138" ref-type="aff">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ross</surname>
+                    <given-names>Alexandra</given-names>
+                  </name>
+                  <xref rid="af4-ijerph-19-09138" ref-type="aff">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-4471-0621</contrib-id>
+                  <name>
+                    <surname>Sundermeir</surname>
+                    <given-names>Samantha M.</given-names>
+                  </name>
+                  <xref rid="af1-ijerph-19-09138" ref-type="aff">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Labrique</surname>
+                    <given-names>Alain B.</given-names>
+                  </name>
+                  <xref rid="af5-ijerph-19-09138" ref-type="aff">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-6304-3943</contrib-id>
+                  <name>
+                    <surname>Reznar</surname>
+                    <given-names>Melissa M.</given-names>
+                  </name>
+                  <xref rid="af6-ijerph-19-09138" ref-type="aff">6</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Igusa</surname>
+                    <given-names>Takeru</given-names>
+                  </name>
+                  <xref rid="af2-ijerph-19-09138" ref-type="aff">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Trujillo</surname>
+                    <given-names>Antonio J.</given-names>
+                  </name>
+                  <xref rid="af7-ijerph-19-09138" ref-type="aff">7</xref>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Ritchie</surname>
+                    <given-names>Lorrene D.</given-names>
+                  </name>
+                  <role>Academic Editor</role>
+                </contrib>
+              </contrib-group>
+              <aff id="af1-ijerph-19-09138"><label>1</label>Human Nutrition, Department of International Health, Johns Hopkins Bloomberg School of Public Health, Baltimore, MD 21205, USA; <email>elewis40@jhu.edu</email> (E.C.L.); <email>nmarti38@jhu.edu</email> (N.M.M.); <email>lpoirie4@jhmi.edu</email> (L.P.); <email>srex2@jhmi.edu</email> (S.M.S.)</aff>
+              <aff id="af2-ijerph-19-09138"><label>2</label>Department of Civil and Systems Engineering, Johns Hopkins Whiting School of Engineering, Baltimore, MD 21205, USA; <email>szhu34@jhu.edu</email> (S.Z.); <email>tigusa1@jhu.edu</email> (T.I.)</aff>
+              <aff id="af3-ijerph-19-09138"><label>3</label>GGD Noord-en Oost-Gelderland, 7231 AC Warnsveld, The Netherlands; <email>ellen.vdongen@gmail.com</email></aff>
+              <aff id="af4-ijerph-19-09138"><label>4</label>Nutrition Epidemiology, School of Global Public Health, University of North Carolina Gillings, Chapel Hill, NC 27599, USA; <email>alexandraa.ross@outlook.com</email></aff>
+              <aff id="af5-ijerph-19-09138"><label>5</label>Global Disease Epidemiology and Control, Department of International Health, Johns Hopkins Bloomberg School of Public Health, Baltimore, MD 21205, USA; <email>alabriq1@jhu.edu</email></aff>
+              <aff id="af6-ijerph-19-09138"><label>6</label>Interdisciplinary Health Sciences, Oakland University School of Health Sciences, Detroit, MI 48309, USA; <email>reznar@oakland.edu</email></aff>
+              <aff id="af7-ijerph-19-09138"><label>7</label>Health Systems, Department of International Health, Johns Hopkins Bloomberg School of Public Health, Baltimore, MD 21205, USA; <email>atrujil1@jhu.edu</email></aff>
+              <author-notes>
+                <corresp id="c1-ijerph-19-09138"><label>*</label>Correspondence: <email>jgittel1@jhu.edu</email></corresp>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>26</day>
+                <month>7</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <month>8</month>
+                <year>2022</year>
+              </pub-date>
+              <volume>19</volume>
+              <issue>15</issue>
+              <elocation-id>9138</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>13</day>
+                  <month>6</month>
+                  <year>2022</year>
+                </date>
+                <date date-type="accepted">
+                  <day>22</day>
+                  <month>7</month>
+                  <year>2022</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2022 by the authors.</copyright-statement>
+                <copyright-year>2022</copyright-year>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>Low-income urban communities in the United States commonly lack ready access to healthy foods. This is due in part to a food distribution system that favors the provision of high-fat, high-sugar, high-sodium processed foods to small retail food stores, and impedes their healthier alternatives, such as fresh produce. The Baltimore Urban food Distribution (BUD) study is a multilevel, multicomponent systems intervention that aims to improve healthy food access in low-income neighborhoods of Baltimore, Maryland. The primary intervention is the BUD application (app), which uses the power of collective purchasing and delivery to affordably move foods from local producers and wholesalers to the city’s many corner stores. We will implement the BUD app in a sample of 38 corner stores, randomized to intervention and comparison. Extensive evaluation will be conducted at each level of the intervention to assess overall feasibility and effectiveness via mixed methods, including app usage data, and process and impact measures on suppliers, corner stores, and consumers. BUD represents one of the first attempts to implement an intervention that engages multiple levels of a local food system. We anticipate that the app will provide a financially viable alternative for Baltimore corner stores to increase their stocking and sales of healthier foods, subsequently increasing healthy food access and improving diet-related health outcomes for under-resourced consumers. The design of the intervention and the evaluation plan of the BUD project are documented here, including future steps for scale-up. Trial registration #: NCT05010018.</p>
+              </abstract>
+              <kwd-group>
+                <kwd>food access</kwd>
+                <kwd>retailers</kwd>
+                <kwd>obesity</kwd>
+                <kwd>urban</kwd>
+                <kwd>multilevel interventions</kwd>
+                <kwd>policy</kwd>
+                <kwd>study design</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>National Heart, Lung, and Blood Institute of the National Institutes of Health</funding-source>
+                  <award-id>R34HL145368</award-id>
+                </award-group>
+                <funding-statement>Research reported in this manuscript was supported by National Heart, Lung, and Blood Institute of the National Institutes of Health under award number R34HL145368.</funding-statement>
+              </funding-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="intro" id="sec1-ijerph-19-09138">
+              <title>1. Introduction</title>
+              <p>Low-income communities in the United States are characterized by low access to healthier food and consequent food insecurity and diet-related chronic disease [<xref rid="B1-ijerph-19-09138" ref-type="bibr">1</xref>]. Patterns of food access are related to food source types present, including low access to supermarkets and grocery stores, and high access to small convenience/corner stores, fast food, and carryout restaurants [<xref rid="B2-ijerph-19-09138" ref-type="bibr">2</xref>]. Food access has been defined in terms of availability, cost, quality, and location [<xref rid="B3-ijerph-19-09138" ref-type="bibr">3</xref>]. Low-income communities tend to be weak in all of these dimensions, including having low availability of healthier foods, high prices, low quality, and poor location (e.g., within store, not well displayed). Over the years, evidence has accumulated that the type of nearby food sources is related to consumers’ diet and their health, with access to nearby supermarkets and grocery stores reducing risk for diet-related chronic disease, and small convenience stores being associated with poor diet and negative health outcomes [<xref rid="B4-ijerph-19-09138" ref-type="bibr">4</xref>]. Baltimore, Maryland is an example of this challenge, with numerous reports documenting low healthy food access [<xref rid="B5-ijerph-19-09138" ref-type="bibr">5</xref>], high food insecurity [<xref rid="B6-ijerph-19-09138" ref-type="bibr">6</xref>], and high rates of diet-related chronic disease [<xref rid="B7-ijerph-19-09138" ref-type="bibr">7</xref>].</p>
+              <p>Most previous works on food access have looked at these dimensions from the perspective of community members (consumers) [<xref rid="B8-ijerph-19-09138" ref-type="bibr">8</xref>,<xref rid="B9-ijerph-19-09138" ref-type="bibr">9</xref>,<xref rid="B10-ijerph-19-09138" ref-type="bibr">10</xref>,<xref rid="B11-ijerph-19-09138" ref-type="bibr">11</xref>,<xref rid="B12-ijerph-19-09138" ref-type="bibr">12</xref>,<xref rid="B13-ijerph-19-09138" ref-type="bibr">13</xref>,<xref rid="B14-ijerph-19-09138" ref-type="bibr">14</xref>]. The composition of the local retail food environment plays an important role in shaping community food acquisition patterns and food security. To this end, many community-based interventions seeking to improve food access have largely targeted community members by working in food sources to increase access at local food sources, including work in small food stores [<xref rid="B15-ijerph-19-09138" ref-type="bibr">15</xref>] and prepared-food sources [<xref rid="B16-ijerph-19-09138" ref-type="bibr">16</xref>]. Despite these substantial efforts, limited work has been conducted to improve access to healthier foods for the food sources themselves.</p>
+              <p>Why is food sourcing for food stores themselves a concern? Low access to healthy food in Baltimore and similar urban food systems is largely due to a distribution gap between small independent food sources and larger wholesalers/distributers. Among small urban corner stores, unhealthy foods and beverages are much more accessible to these stores due to incentive programs, convenient and often free delivery services, and other formal and informal incentives provided by suppliers [<xref rid="B17-ijerph-19-09138" ref-type="bibr">17</xref>]. On the other hand, these same small urban retailers have limited access to healthier foods due to the lack of such programs offered by fresh food suppliers [<xref rid="B12-ijerph-19-09138" ref-type="bibr">12</xref>].</p>
+              <p>The intervention described in this paper is a true food systems intervention. Food systems are complex networks of relationships between different types of actors, including producers, manufacturers, suppliers/distributors, retailers, and consumers [<xref rid="B18-ijerph-19-09138" ref-type="bibr">18</xref>]. In our view, a food systems intervention would target multiple levels of actors within a food system (e.g., producers, distributors, retailers, consumers) simultaneously, and focus on improving the interactions between these levels. Therefore, one approach to addressing the problem of healthy food sourcing/distribution is to implement multilevel food system interventions that can sustainably improve healthy food access for small food retailers—especially in low resource settings.</p>
+              <p>Digital applications have been used previously to modify food access [<xref rid="B19-ijerph-19-09138" ref-type="bibr">19</xref>]. During the coronavirus (COVID-19) pandemic, use of online shopping services doubled [<xref rid="B20-ijerph-19-09138" ref-type="bibr">20</xref>]. However, the benefits of these services have not been equally distributed. For example, during the pandemic, online shopping services were not available for WIC participants, and only available in some stores for SNAP recipients. It is crucial to improve access to healthier foods among our most vulnerable populations. Digital interventions have the potential to greatly improve the reach of food access interventions, while keeping down costs.</p>
+              <p>The overall goal of the Baltimore Urban food Distribution (BUD) trial is to develop a digital application (app) to improve access to healthier foods and beverages in small corner stores in low-income urban settings and to generate preliminary findings in support of a full-scale clinical trial. The BUD app will improve access to healthier foods by linking local suppliers (producers, wholesalers) with small store owners, and provide cost-effective options to order and deliver healthier foods. These options will include collective purchasing and shared delivery options, which will reduce costs and enhance sustainability.</p>
+              <p>The BUD trial has two primary aims:<list list-type="simple"><list-item><label>1.</label><p>To conduct formative research and engage key stakeholders to develop a user-friendly BUD app;</p></list-item><list-item><label>2.</label><p>To implement a randomized controlled trial pilot study of the BUD app and assess its feasibility;</p></list-item></list></p>
+              <p>Then there is one secondary aim:<list list-type="simple"><list-item><label>3.</label><p>To demonstrate the impact of BUD in terms of small urban food store stocking and sales of healthier foods.</p></list-item></list></p>
+            </sec>
+            <sec sec-type="methods" id="sec2-ijerph-19-09138">
+              <title>2. Methods/Design</title>
+              <sec id="sec2dot1-ijerph-19-09138">
+                <title>2.1. BUD Trial Study Design Overview</title>
+                <p>The BUD study is divided into three main phases. First, we are conducting formative research in Baltimore City to inform the design of a user-friendly interface and experience for corner store owners and their suppliers (local producers, wholesalers), as well as develop a stable version of the app. Second, we are employing a randomized controlled trial study design over 8 months to pilot-test the app, introducing different features in stages to identify and resolve challenges, and assessing feasibility and preliminary efficacy in terms of change at the store level. Finally, we will show the final app to key stakeholders (corner store owners, suppliers) in other cities to assess transferability and potential for dissemination.</p>
+              </sec>
+              <sec id="sec2dot2-ijerph-19-09138">
+                <title>2.2. Setting</title>
+                <p>The BUD study takes place in East Baltimore, composed of predominantly African American communities, which represents about one-third of the city’s area. A high proportion of the households in East Baltimore are low income. Baltimore City as a whole has 633 corner stores, 185 convenience stores, 47 supermarkets, 18 farmers markets, 24 urban farm sites, and 6 public markets [<xref rid="B21-ijerph-19-09138" ref-type="bibr">21</xref>]. In East Baltimore, there are 12 supermarkets, approximately 168 corner stores, 88 convenience stores, 2 farmers markets, 9 urban farms, and 1 public market. Of the corner stores, about two-thirds are owned and operated by Korean Americans, roughly 15% are operated by Chinese Americans, 5% by Hispanic Americans, with smaller fractions owned by persons of different sociocultural backgrounds.</p>
+                <p>Most corner store owners locate their stores in areas not being served by supermarkets. Baltimore corner stores typically stock few affordable healthy foods and beverages, instead stocking higher-priced nutrient-poor foods and beverages. Corner stores have significantly lower healthy food availability index (HFAI) scores than those located in predominantly middle- to high-income areas [<xref rid="B5-ijerph-19-09138" ref-type="bibr">5</xref>,<xref rid="B21-ijerph-19-09138" ref-type="bibr">21</xref>,<xref rid="B22-ijerph-19-09138" ref-type="bibr">22</xref>]. In fact, in 2018, a sample of 525 Baltimore corner stores scored an average HFAI score of 9.1 out of 28.5, which is considered to be low (the average supermarket HFAI score in this setting was 27.7) [<xref rid="B5-ijerph-19-09138" ref-type="bibr">5</xref>].</p>
+              </sec>
+              <sec id="sec2dot3-ijerph-19-09138">
+                <title>2.3. Inclusion and Exclusion Criteria</title>
+                <p>The trial includes 38 small corner stores located in East Baltimore randomized into treatment (<italic toggle="yes">n</italic> = 19) or comparison (<italic toggle="yes">n</italic> = 19) groups. Eligible corner stores are located in areas identified as a Healthy Food Priority Area [<xref rid="B5-ijerph-19-09138" ref-type="bibr">5</xref>], are located &gt;0.25 miles from a supermarket, and are classified as a small store (≤ four aisles, ≤ two cash registers). In addition, the store owner/manager should be English, Korean, Spanish, or Mandarin speaking as a first language, willing and able to order food through a smartphone or internet-enabled device, and willing to attend in-store trainings on the use of the BUD app.</p>
+                <p>Wholesalers and producers are eligible to participate who currently serve Baltimore City (e.g., have wholesale locations and/or attend farmers markets in the Baltimore area) and are willing to use the BUD app.</p>
+                <p>Consumers will be identified by the store owners as a regular customer of the store (i.e., purchase food items at least once a week in the store) and will be 21–75 years old, live/work within a 0.5-mile radius from one of the participating corner stores, and live in a household of at least two persons. Consumers will be excluded from participation when they anticipate moving out of Baltimore City in the next 12 months or when they are pregnant, as we are assessing change in weight as a secondary outcome.</p>
+              </sec>
+              <sec id="sec2dot4-ijerph-19-09138">
+                <title>2.4. Randomization of Corner Stores to Treatment</title>
+                <p>Corner stores will be randomized into intervention (receiving the BUD app) or comparison (not receiving the BUD app) groups, following completion of the baseline assessments. The names of each of the 38 corner stores will be written on a separate piece of paper, mixed up, chosen out of a bowl by community members, and alternately assigned to intervention or comparison status. Randomization will be performed publicly and documented via photo and posted on team social media sites. We found that public randomization conducted this way serves to reduce community concerns with bias in the selection process. Participating stores and interventionists will not be blind to the intervention status due to the nature of the intervention design.</p>
+              </sec>
+              <sec id="sec2dot5-ijerph-19-09138">
+                <title>2.5. Formative Research</title>
+                <p>Extensive multistage formative research has and will be conducted to aid in intervention planning and app development.</p>
+                <p>Completed formative research: Prior to receiving funding, we conducted initial formative research on improving food access for corner stores and the acceptability of an app to support this goal [<xref rid="B23-ijerph-19-09138" ref-type="bibr">23</xref>]. Interviews with corner store owners, wholesalers, and food environment experts were conducted to understand the context of food distribution and supply in the city and to identify features that would make the BUD app acceptable, operable, useful, and user-friendly. A visual mockup, or wireframe, of the BUD app was developed and presented to store owners to stimulate additional feedback. Some of the key findings were: (1) the BUD app needs to provide more than just fresh produce to be considered useful by small store owners, and (2) delivery will be challenging and will require multiple options.</p>
+                <p>Additional formative research: As part of the formative phase of the current study, we are conducting additional formative research to aid in app design. This includes: (1) conducting case studies of 10 different corner stores and carefully examining their stocking, ordering, and pricing decision making/strategies, methods of payment, and so on; (2) interviewing 20 community members to assess their priorities for food stocking in local small stores; and (3) developing a prototype of the BUD app that mimics the process of using a completed app—intended to stimulate further discussion of strengths and challenges. Some of the key questions we are trying to answer include: (1) how best to frame the BUD app in a way that encourages cooperation and use of a collective purchasing feature, (2) what payment options are most acceptable, (3) what delivery options will be most acceptable and affordable, (4) what additional features are necessary and/or desirable (e.g., some way to assess and report on consumer demand for specific products), and (5) how we design a user-friendly interface and experience for corner store owners.</p>
+              </sec>
+              <sec id="sec2dot6-ijerph-19-09138">
+                <title>2.6. App Development Process</title>
+                <p>The development of a user-friendly and functional web-based smartphone app depends on the thoughtful design and development of both the “front-end” and “back-end” elements of the app. The front-end includes the user interface or the screens where the user interacts with the software. The back end consists of the server that provides data on request, the app that channels it, and the database that organizes the information. There are three types of users for the BUD app, which are suppliers, retailers, and administrators. Administrators will be study team members and have the ability to monitor the usage of the app and award BUDCredit, among other functions. Two versions of the BUD app will be designed: the first will be for suppliers and retailers to use on mobile devices, and the second will be a desktop/laptop-aimed admin page designed for administrators to review analytic results and monitor the BUD app data. The research study team will have access to the BUD app usage data through the admin page. They can check for any communication issues and get feedback on app problems. Additionally, the team can monitor prices and check overall analytics results through the admin page.</p>
+                <sec id="sec2dot6dot1-ijerph-19-09138">
+                  <title>2.6.1. User Interface and Experience Design Process</title>
+                  <p>To ensure high usability of the BUD app, this interface will be designed and tested through formative research in partnership with target users, as elucidated in the following steps. First, we will design the flow of information and map out the intended experiences we would like users to have while navigating the BUD app. Based on the formative research and user personas, we will design the preliminary structure of how information, content, and features are organized and arranged within the app. We will visualize this organization via a sitemap, a hierarchical diagram showing the structure of content and intended experiences within a website or app. Next, via three qualitative research methods (tree testing, card sorting, and in-depth interviews), we will assess the logic of the sitemap and the findability of content within the hierarchy of the tool.</p>
+                  <p>Once the map has been tested and revised, we will then generate initial mockups, called low-fidelity wireframes, of the user interface. These show the first sketches of how the interface will be designed. Using these low-fidelity wireframes, we will repeat the tree testing (a method to measure the findability of content and tools) with potential users. Once we are confident that the design is passing these initial user performance tests, we will then generate and test high-fidelity wireframes (mockups that include all design elements and branding) with target users. The sitemap, branding, and low- and high-fidelity mockups are designed via Adobe Photoshop, Illustrator, and XD. Subsequently, these high-fidelity wireframes will be programmed into an app prototype via Adobe XD. A prototype is a clickable visualization of the BUD app that permits likeability, findability, and usability testing with target users. Tests will include running two to three use cases with potential users where participants are given a typical task to complete using the app. The time to complete a task and slow points are documented. Finally, we will convert the user interface from the graphic design of the prototype into an open-access package of code (HTML, CSS, and JavaScript) and content that will be uploaded to an open-access code repository and shared with the back-end developer team.</p>
+                </sec>
+                <sec id="sec2dot6dot2-ijerph-19-09138">
+                  <title>2.6.2. Development of Back-End Elements</title>
+                  <p>The back end of the BUD app will need to be able to communicate with users in real time and store, update, and track both purchases and deals made through the app. Additionally, it will need to securely collect and store private, sometimes sensitive, data, such as in-app usage statistics (e.g., number of deals, purchases, chats, delivery methods, payment methods). We will also use the BUD app to collect information on the app’s usability and likeability, frequency of deals and purchases, and user satisfaction. Finally, we will need to be able to make iterative updates to the app, as user feedback is collected.</p>
+                  <p>To address these needs, we will host the BUD app on Google Firebase. Firebase is an online platform or tool that streamlines the BUD app development process and provides centralized access to, for example, analytics, authentication, databases, configuration, file storage, and push messaging. Another strength of Firebase is that all services are hosted in the cloud, making collaboration and communication across the team easier. A specific URL for the BUD app will be purchased, and users will be able to access the BUD app through the link.</p>
+                </sec>
+              </sec>
+              <sec id="sec2dot7-ijerph-19-09138">
+                <title>2.7. Usability Testing and Prepilot</title>
+                <p>Once we have a functioning app, we will ensure user-friendliness and functionality through a series of usability tests, culminating in a community “prepilot”. Initial usability tests will involve providing the BUD app to 8–10 target users (local producers, wholesalers, corner store owners) and asking them to complete certain tasks (e.g., set up a collective purchasing deal, order a food, etc.). Subsequently, one small urban producer and two to three small corner stores located in East Baltimore will participate in a prepilot usability test of BUD prior to full-scale implementation of the pilot trial. The research team will elicit user feedback on acceptability, operability, and perceived sustainability from both the producer and store owner perspectives.</p>
+              </sec>
+              <sec sec-type="subjects" id="sec2dot8-ijerph-19-09138">
+                <title>2.8. Participants and Evaluation Sample Recruitment</title>
+                <p>Informed consent will be obtained for the evaluation sample by Collaborative Institutional Training Initiative-trained and certified data collectors. Description of information collected is provided in the Evaluation Measures section.</p>
+                <p>Recruitment of suppliers (producers, wholesalers, and so on): To facilitate recruitment of food suppliers, including, but not limited to, local farmers, wholesalers, and other produce distributors, we will have staff speak with eligible owners and managers asking them to participate in the intervention. The team will create information sheets regarding expectations for participation, such as use of the BUD app, information on delivery methods, and the amount of product required to be uploaded for sale. Recruitment will take place at local farmers markets, urban farms, and other community settings, and via word of mouth.</p>
+                <p>Recruitment of corner stores: Thirty-eight corner stores located in East Baltimore will be recruited. To facilitate recruitment, we will have bilingual project staff approach eligible store owners. We will distribute flyers with answers to frequently asked questions (FAQ) about the trial written in English, Korean, Spanish, and Mandarin (the most common languages spoken by corner store owners in Baltimore City). Consent forms will be prepared in the four languages, and will clearly explain the benefits and potential risks of participating in the trial, including detailed description of the BUD app, promotional materials, and small initial subsidy (BUDCredit), which will cover some of the purchasing/delivery costs for using the BUD app. We will document reasons for participation and refusal to participate in the study.</p>
+                <p>Recruitment of consumers: Our sample of consumers will allow us to describe regular customers of participating corners stores and to assess preliminary efficacy of the BUD app at the consumer level. Five consumers will be recruited at each participating study store (<italic toggle="yes">n</italic> = 190) and will be referred by the store owner or staff as a “usual” shopper (i.e., purchases food items from the store at least once a week). This will also improve the likelihood of retention in the study. Furthermore, one of the eligibility criteria of the consumer sample is to not anticipate moving out of Baltimore City for one year. We will conduct interviews at the nearby Johns Hopkins Bloomberg School of Public Health or in other community locations (e.g., recreation centers), following recruitment. A gift card for participation will also facilitate recruitment. We will document all refusals, including the reason for refusal.</p>
+              </sec>
+              <sec id="sec2dot9-ijerph-19-09138">
+                <title>2.9. Intervention Description</title>
+                <p>The BUD food systems intervention is depicted in <xref rid="ijerph-19-09138-f001" ref-type="fig">Figure 1</xref>. The BUD intervention includes three primary components: (1) the BUD app itself, (2) training of store owners and suppliers in the use of the app, and (3) the provision of promotional materials for use at the point of purchase. <italic toggle="yes">BUD App</italic>: The BUD app will have three main modules: supplier, retailer, and administrator. The key features of the supplier module include registration, entering products onto the BUD app for sale, setting BuddyUp deals, providing delivery options and costs, and tracking and filling orders (<xref rid="ijerph-19-09138-f002" ref-type="fig">Figure 2</xref>). BuddyUp deals use the power of collective purchasing; suppliers can offer a reduced price for selected products that are purchased in bulk by multiple small store owners. The key features of the retailer (corner store) module include registration, identification of products for purchase, review of available BuddyUp deals, a multilanguage chat feature that allows store owners to coordinate group purchases, delivery option selection (including BuddyLift), and options for payment and tracking (<xref rid="ijerph-19-09138-f003" ref-type="fig">Figure 3</xref>). BuddyLift is a delivery option that permits one member of a BuddyUp deal to pick up and deliver the foods to the other members, in exchange for a reduced price. The administrator module is a portal for tracking app usage statistics and for generating and analyzing user satisfaction data.</p>
+                <p>Training and Stages of Implementation: The BUD pilot will be implemented in four 2-month stages, characterized by the gradual introduction of app features, the incremental introduction of food products, the presence of an initial subsidy to overcome resistance among store owners in phases 1 and 2 only, and the promotion of targeted foods and beverages within corner stores (<xref rid="ijerph-19-09138-t001" ref-type="table">Table 1</xref>). In the first 2 weeks of each stage of implementation of the pilot, in-person training in the use of the new features will be provided to the intervention stores. The first phase of the pilot will involve the introduction of the BUD app’s general features and focus on the use of the app to order and receive beverages. The second pilot phase will introduce the BuddyUp feature and introduce fresh produce. The third phase will introduce the BuddyLift delivery feature and incorporate whole grain products. The final phase will center on enhancing the use of all features of the BUD app.</p>
+                <p>Promotion of Healthy Foods: While the BUD app will support the provision of all foods and beverages to corner stores, special emphasis will be provided on healthier products. We will reach out to local producers of fruits and vegetables and especially encourage their participation. An incentive system for purchasing healthy foods will be offered to participating corner stores, leading to additional deals, reducing the costs. Initial subsidies for BuddyUp deals will only be offered for healthier products. Point-of-purchase in-store promotional materials (shelf talkers, posters) will be provided to stores to build awareness and generate interest in newly stocked healthier products.</p>
+              </sec>
+              <sec id="sec2dot10-ijerph-19-09138">
+                <title>2.10. Comparison Group</title>
+                <p>The 19 comparison stores will be introduced to the BUD app following completion of postintervention data collection.</p>
+              </sec>
+              <sec id="sec2dot11-ijerph-19-09138">
+                <title>2.11. Evaluation Measures</title>
+                <p>The BUD pilot trial will be evaluated pre- and postintervention at the supplier (producer, wholesaler), retailer (corner store), and consumer levels (<xref rid="ijerph-19-09138-t002" ref-type="table">Table 2</xref>). Differences in changes between the intervention and comparison samples will allow us to determine the impact of the intervention. Process evaluation measures will assess the reach, dose delivered, and fidelity of intervention implementation according to set standards. Participant retention and follow-up will be promoted by regular communication with producers, wholesalers, and stores. This will be in the form of in-person visits to stores, communication via the app/telephone calls, and trying to resolve any issues that have led to a need or indication to drop out of the study. All measures will be performed in intervention and comparison store and consumer samples, with the exception of process measures, which will be completed in the intervention stores only.</p>
+                <p>Supplier measures: Participating producers and wholesalers will be assessed pre-, post-, and during implementation of the pilot. Impacts will examine indicators, such as number of (1) orders from corner stores received using the app, (2) BuddyUp deals initiated, and (3) units of promoted foods and beverages sold to/delivered to corner stores. Process measures will include any use of the BUD app (reach), frequency and duration of use (dose), number of orders fulfilled, and number of BuddyUp deals offered (fidelity).</p>
+                <p>Retailer measures: Impact data for corner stores will be collected using a modified version of our Store Impact Questionnaire (SIQ) to assess store characteristics, self-reported BUD app usage, corner store owner psychosocial characteristics (self-efficacy, intentions, expectations), sales (last 7 days), and prices of promoted foods and beverages. In addition, we will introduce a point-of-sale (POS) tablet with software to record on-the-go unit sales of targeted foods and beverages [<xref rid="B24-ijerph-19-09138" ref-type="bibr">24</xref>]. Retailer process measures will center on the number of stores using the BUD app (reach), which features are used (dose) and how often the BUD app is used, as well as what types of functions they use in the app (i.e., BuddyLift or chat feature) (feasibility) and number of orders placed.</p>
+                <p>Consumer measures: We will assess consumer outcomes using a modified version of our Adult Impact Questionnaire (AIQ) that we used in previous studies in Baltimore [<xref rid="B25-ijerph-19-09138" ref-type="bibr">25</xref>]. This instrument will collect sociodemographic information (age, sex, education level, income, etc.) and food purchasing behavior, such as how many times a product was bought and from which type of store (i.e., corner store, grocery store, urban farm, etc.). In particular, we will assess the frequency of purchasing of promoted products from participating corner stores. The AIQ also requires data collectors to measure the height, weight, and body fat percentage of consumer participants. The Adult Block Food Frequency Questionnaire (FFQ) will estimate adult consumer food intake and nutrient consumption (e.g., total energy intake, total fat, added sugar, sugar-sweetened beverage, and fruit and vegetable intake) [<xref rid="B26-ijerph-19-09138" ref-type="bibr">26</xref>].</p>
+                <p>Process evaluation measures: We will record the delivery of the intervention by study team members during the intervention phase. Reach measures include the number of visits or consultations with retailers or suppliers per week. Dose standards are based on the amount of time spent interacting with retailers and suppliers, and fidelity standards capture the opinions on BUD from retailers and suppliers. Team process evaluation measures will be recorded using a process evaluation data form created via REDCap and collected on a tablet during a site visit [<xref rid="B27-ijerph-19-09138" ref-type="bibr">27</xref>,<xref rid="B28-ijerph-19-09138" ref-type="bibr">28</xref>].</p>
+                <p>Recruitment and retention: We will assess the recruitment and retention of suppliers, retailers, and consumers in the study using recruitment sheets used by trained interview staff during the recruitment phase of activities, as well as tracking sheets to capture the retention of participants during the implementation of the intervention.</p>
+              </sec>
+              <sec id="sec2dot12-ijerph-19-09138">
+                <title>2.12. Data Management</title>
+                <p>All collected data will be reviewed by two different trained research assistants for completeness. For data collected via paper forms, research assistants will de-identify and enter data into password-protected Microsoft Access databases.</p>
+              </sec>
+              <sec id="sec2dot13-ijerph-19-09138">
+                <title>2.13. Sample Size and Power</title>
+                <p>For the primary aims of this feasibility study, our study sample is based on the entire group of corner stores and suppliers who meet the inclusion criteria and agree to participate in the trial. A sample size calculation was conducted to assess the impact on our secondary aim: the impact on corner stores. The calculation was based on the analysis of a simple difference in change in mean HFAI scores. We used the reported mean change in HFAI in control and intervention corner stores from the previous B’more Healthy Communities for Kids trial [<xref rid="B29-ijerph-19-09138" ref-type="bibr">29</xref>], positing that the subsidy and price incentives combined with the introduction of the BUD app would create a greater change in HFAI than in the BHCK trial. Ultimately, calculations for a two-sample comparison of means assuming a difference in HFAI of 6 points, variance of 24, intraclass correlation of 0.0001, type I error of 5%, and power level set at 80% led to a total sample size of 34 stores with 17 per arm. Two stores were added to each arm of the study to account for possible attrition, leading to the final sample size of 38 stores.</p>
+                <p>This trial is not powered to show impact at the consumer level, but is designed to provide adequate precision of estimates to power a future clinical trial at the consumer level. By examining correlations of outcomes within stores over time, between participants (customers) within stores, and within participants over time, these data will allow us to assess clustering, permitting us to estimate the intraclass correlation coefficient (ICC) and precision around it. The consumer sample size is intended to obtain an estimate of effect size and the variance in food consumption, purchasing, and body mass index in order to plan a larger clinical trial.</p>
+              </sec>
+              <sec id="sec2dot14-ijerph-19-09138">
+                <title>2.14. Data Analysis and Statistical Analysis</title>
+                <p>Feasibility Analyses (Primary Outcomes): Feasibility analyses will focus on assessing economic and cultural acceptability, operability, and perceived/planned sustained use of the BUD app, including barriers and enhancing factors. From the corner store owner, wholesaler, and producer perspectives, acceptability will be assessed according to whether the new products are perceived to be in demand, profitable, and easy to obtain and store. Operability will be assessed primarily in terms of the BUD app, such as whether store owners indicate (and demonstrate) that they can and do continue to use the different features of the app. Perceived sustainability will be assessed in terms of whether store owners (and other users, such as wholesalers and producers) indicate that they plan to continue to use the BUD app, how much, and for what purposes. Textual data will be coded by trained staff using a codebook that emphasizes these feasibility constructs. Qualitative analysis will center on providing contextually rich descriptions of each aspect of feasibility and describing some of the key sources of variation (e.g., by store size, owner ethnicity, etc.). Analysis of the qualitative consumer interviews will focus on identifying those healthier products that would be most acceptable to them in terms of demand, cost, taste, and other similar characteristics. This analysis will also identify best in-store strategies to promote healthy foods to consumers.</p>
+                <p>Process Evaluation Analyses: We will conduct a detailed quantitative process evaluation (in terms of reach, dose delivered, and fidelity), and results will serve as additional measures of feasibility, particularly in terms of establishing operability and potential sustainability. Three primary process dimensions will be assessed: reach, dose delivered, and fidelity—each will likely have multiple measures—and standards will be set for each measure to monitor the quality of intervention implementation. We will set standards to monitor the quality of intervention implementation for the reach, dose, and fidelity measures, and revise these standards based on the experience of this pilot trial for the planned future full-scale trial.</p>
+                <p>Feasibility will also be assessed via analysis of user satisfaction responses collected during operation of the BUD app, as well as in terms of responses to the open-ended questions that will be part of the process evaluation measures.</p>
+                <p>Pilot Trial Store Impact Data Analyses (Secondary Outcomes): Using direct observation-based stocking data, an HFAI score will be calculated, and we will initially examine the difference from pre- to postintervention comparing intervention and control stores. We will also look at change in availability and sales of specific promoted product categories from pre- to postintervention at each specific phase of intervention. Mixed-effect models, treating the stores as a random effect, will be used to evaluate the effect of the intervention on the availability and sales of healthful food and beverage scores comparing corner store intervention and comparison groups and adjusting for covariates, such as store size and food stocking at baseline. We hypothesize that the prices of some promoted foods and beverages will decrease given that promoted foods/beverages will be subsidized during the first two phases of the intervention, as compared with baseline (if stocked at baseline). Furthermore, we will conduct additional tests to see whether a pass-through price effect (i.e., when the reduced costs to the retailer provided by a subsidy lead to a reduced price to the consumer) occurred related to the initial subsidy. Since the subsidy is short term (just phases 1 and 2 of the intervention), relatively small, and intended to generate initial usage of the app, we do not anticipate a significant price effect.</p>
+                <p>Pilot Trial Adult Consumer Impact Data Analyses: From the AIQ on the purchasing frequency of promoted foods and beverages (i.e., fruit and vegetables, low-fat snacks, low-sugar beverages, whole grain foods) and using the Block FFQ data on the intake of the same products, we will compare the change in purchasing and consumption among consumers of intervention stores with the comparison store consumers. These analyses will be adjusted for potential confounders, such as age, sex, income, participation in food assistance programs, and other household covariates, when appropriate. We will use linear mixed-effect models with individual and store random effects to identify potential predictors of participation. We hypothesize that there will be a trend toward increased purchasing and consumption of healthy promoted foods and beverages among intervention consumers compared with consumers that are sampled from comparison stores.</p>
+                <p>Economic Analyses: We will conduct economic analyses from three perspectives. First, we will study the economic impact of adding BUD from the store’s owner perspective. In this approach, we will use a marginal analysis approach where we will evaluate the sequential benefits of progressively adding the BUD app to cover a larger proportion of transactions versus the marginal costs of an incremental adoption. We will also look at the adoption from a one-time decision analysis where we will compare the total stream of benefits with the total costs of developing and adopting BUD. We will pay particular attention to fluctuations in profits and cost efficiency gains in terms of reduction in costs of repeated transactions and other potential operational gains. Second, we will consider an analysis at the community member level, where we will examine the benefits and costs to the consumers of introducing the app. In this case, we will consider reduction in prices, availability of healthy items, and if possible, changes in the quality of products. Finally, we plan to study how psychological constraints may influence the individual judgment of adopting the technology (framing of the photos of the food, simplicity of use, size of the consequences of errors, social norms, fear to change previous practices, etc.). This broader approach to studying the economic implications of adopting the technology is important for understanding its potential sustained use.</p>
+                <p>Upon completion of data collection, entry, and cleaning, the data analysis team will meet to discuss missingness and build an appropriate model for imputation, including identification of variables for imputation (i.e., missing data that fit the assumptions of missing at random (MAR)) and auxiliary variables that should be included in the imputation model. We will use a method known as fully conditional specification (FCS), also referred to as multiple imputation by chained equations (MICE), which allows for imputation on a variable-by-variable basis, cycling iteratively through univariate models for each variable conditioned on all other variables in the model.</p>
+                <p>Criteria for Success: We have established criteria for success of this feasibility trial, which will support applying for an NIH R01m, which will be a full-scale implementation of the BUD app in multiple cities, and which will be powered to show impact at the consumer level. These criteria include: evidence of high acceptability of the app as reported by small store owners and their suppliers, strong operability as provided by usage data, and high satisfaction with the app. In addition, the criteria for success will include significant increases in the stocking and sales of promoted foods in corner stores. We will also examine changes in consumer diet and hope to show preliminary efficacy. Finally, we will assess the recruitment and retention of suppliers, retailers, and consumers in order support a planned full-scale trial.</p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="sec3-ijerph-19-09138">
+              <title>3. Discussion</title>
+              <p>We describe the development and piloting plan for assessing the feasibility of the Baltimore Urban food Distribution (BUD) app, a novel food systems intervention to improve the distribution of food to small urban corner stores from local producers and wholesalers. There are other interventions aimed at improving the food system (sugar-sweetened beverage (SSB) taxes, Baltimore Healthy Stores), but almost all of these focus on just one level of the food system (e.g., policy, food stores) and employ a single strategy (e.g., raising the prices of SSB) [<xref rid="B30-ijerph-19-09138" ref-type="bibr">30</xref>,<xref rid="B31-ijerph-19-09138" ref-type="bibr">31</xref>]. Shape Up Somerville and B’More Healthy Communities for Kids are two previously implemented interventions that sought to impact multiple levels of the food system simultaneously, but did not focus heavily on influencing the interaction between levels [<xref rid="B32-ijerph-19-09138" ref-type="bibr">32</xref>,<xref rid="B33-ijerph-19-09138" ref-type="bibr">33</xref>]. BUD directly impacts multiple levels simultaneously (retailers, suppliers, and consumers), and does so by building networks between retailers, linking them to suppliers, integrating different types of suppliers, and employing multiple supportive strategies (collective purchasing, shared delivery). The app is expected to stimulate collaboration between small store owners and lead to enhanced communications between store owners and their suppliers.</p>
+              <p>The BUD intervention is designed to target the specific food access needs and constraints of low-income urban communities. It is based on our nearly 20 years of experience working with local retailers to improve the Baltimore food system [<xref rid="B29-ijerph-19-09138" ref-type="bibr">29</xref>,<xref rid="B34-ijerph-19-09138" ref-type="bibr">34</xref>,<xref rid="B35-ijerph-19-09138" ref-type="bibr">35</xref>,<xref rid="B36-ijerph-19-09138" ref-type="bibr">36</xref>,<xref rid="B37-ijerph-19-09138" ref-type="bibr">37</xref>,<xref rid="B38-ijerph-19-09138" ref-type="bibr">38</xref>,<xref rid="B39-ijerph-19-09138" ref-type="bibr">39</xref>]. Many challenges exist that we hope to address in this pilot trial. The first is one of acceptability. Will small store owners use the app, and what features will encourage their use? Store owners’ gains for adopting the BUD app must be greater than costs, and these net benefits must be recurrent for individuals to adopt the new technology over a sustained period. Personalized training in the use of the BUD app may be helpful, but will be difficult to sustain if the use of the BUD app expands. We will get an early idea of sustainability during phases 3 and 4 of implementing the app, when no subsidy is provided. The BUD app uses two features to reduce costs: collective purchasing and shared delivery. However, the degree to which store owners will use these features is uncertain. A related consideration is financial sustainability and expansion. BUD could potentially become self-supporting. We anticipate that after the initial subsidy is completed, some stores will see the benefit of the app in terms of convenience and costs and will begin to use the app on their own.</p>
+              <p>Another challenge will be how to make the BUD app responsive to public health priorities and to focus on supplying mainly healthier foods—we do not want BUD to become another way to get chips and candy into urban corner stores. This is a real concern. In our early formative work [<xref rid="B23-ijerph-19-09138" ref-type="bibr">23</xref>], corner store owners were clear that they would prefer that the app allowed them to access a wide variety of products and not just a limited number of healthier products. Following this pilot, we plan to test versions of the app that promote healthier items, through, for example, app-subsidized pricing and/or nudging strategies. Other plans include designing and developing a consumer-engaged module of the BUD app, called “BUDConnect”, which will support communications between small store owners and the consumers they serve.</p>
+              <p>In regard to data analysis, there is a potential for cohort effects to bias our findings, although we do not feel that this limitation will significantly impact our study given its longitudinal design due to the fact we have comparison groups at the store and consumer levels.</p>
+              <p>Our other future plans, if this pilot meets our criteria for success, include a full-scale implementation in multiple cities (i.e., Philadelphia, Washington DC, Detroit, etc.) where there are noted gaps in food distribution with no digital multilevel interventions in place. There are multiple challenges in “scaling up”, including the need to develop similar relationships in new places, evaluating assets and needs in new settings, making adaptations, and identifying resources. However, it is highly likely that some interventions, including the current one, may be adaptable to a variety of different urban areas, particularly those urban areas that share several similar assets and challenges. Adapting a food system intervention to other urban food environments could save time and resources.</p>
+              <p>A decentralized approach to scale up the BUD app could also be pursued, in which local public health researchers, working with software development teams, can develop local versions of the BUD app, tailored according to the needs of their communities. To facilitate this scale-up, we will complement our dissemination of the BUD project protocols and findings with the publication of the actual software components that drive the BUD app. As noted earlier, this can be performed through the widely used GitHub software repository along with online tutorials that will provide software development teams with the technical details, including step-by-step implementation procedures, that are needed to make BUD operational. We will also highlight the BUD back-end and front-end components that can be modified to suit the needs and requirements of local users.</p>
+            </sec>
+            <sec sec-type="conclusions" id="sec4-ijerph-19-09138">
+              <title>4. Conclusions</title>
+              <p>In summary, the BUD app is a food-system-changing intervention that is in development and will be piloted in 2022–2023. We anticipate that the app will provide a financially viable alternative for small food stores in Baltimore to increase their stocking and sales of healthier foods, subsequently increasing healthy food access and potentially improving diet-related health outcomes for frequent customers of these stores who are otherwise under-resourced. After the pilot is completed, we will seek funding to refine and scale up the app to urban and rural settings across the United States and beyond.</p>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <title>Acknowledgments</title>
+              <p>The authors would like to acknowledge the funders, the collaborators, and the community for supporting this work.</p>
+            </ack>
+            <fn-group>
+              <fn>
+                <p><bold>Publisher’s Note:</bold> MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <notes>
+              <title>Author Contributions</title>
+              <p>J.G. designed the study, developed the protocol, and drafted the manuscript. E.C.L. helped draft the manuscript and provided the final review. N.M.M. developed the wireframe images and drafted the sections on app development. S.Z. and T.I. helped draft the sections on app development. L.P., E.J.I.V.D., A.R., S.M.S., A.B.L., M.M.R. and A.J.T. helped revise and edit the manuscript. All authors have read and agreed to the published version of the manuscript.</p>
+            </notes>
+            <notes>
+              <title>Institutional Review Board Statement</title>
+              <p>The study was conducted in accordance with the Declaration of Helsinki, and approved by the Institutional Review Board of Johns Hopkins Bloomberg School of Public Health (protocol code 00017307, approved on 27 October 2021).</p>
+            </notes>
+            <notes>
+              <title>Informed Consent Statement</title>
+              <p>Informed consent was obtained from all subjects involved in the study.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Data Availability Statement</title>
+              <p>De-identified study data will be made available following completion of the trial in consultation with the study PI.</p>
+            </notes>
+            <notes notes-type="COI-statement">
+              <title>Conflicts of Interest</title>
+              <p>The authors declare that they have no competing interest.</p>
+            </notes>
+            <glossary>
+              <title>Abbreviations</title>
+              <p>BUD = Baltimore Urban food Distribution app; WIC = Supplemental Nutrition Program for Women, Infants, and Children; SNAP = Supplemental Nutrition Assistance Program.</p>
+            </glossary>
+            <ref-list>
+              <title>References</title>
+              <ref id="B1-ijerph-19-09138">
+                <label>1.</label>
+                <element-citation publication-type="gov">
+                  <person-group person-group-type="author">
+                    <collab>Office of Disease Prevention and Health Promotion</collab>
+                  </person-group>
+                  <article-title>Access to Foods That Support Healthy Eating Habits [Internet]</article-title>
+                  <comment>Available online: <ext-link xlink:href="https://www.healthypeople.gov/2020/topics-objectives/topic/social-determinants-health/interventions-resources/access-to-foods-that-support-healthy-eating-patterns#:~:text=Research%20shows%20that%20low%E2%80%93income,are%20low%20in%20nutrient%20density.&amp;text=Fresh%20fruits%20and%20vegetablev%20and,chain%20supermarkets%20and%20grocery%20stores" ext-link-type="uri">https://www.healthypeople.gov/2020/topics-objectives/topic/social-determinants-health/interventions-resources/access-to-foods-that-support-healthy-eating-patterns#:~:text=Research%20shows%20that%20low%E2%80%93income,are%20low%20in%20nutrient%20density.&amp;text=Fresh%20fruits%20and%20vegetablev%20and,chain%20supermarkets%20and%20grocery%20stores</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2021-02-22">(accessed on 22 February 2021)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B2-ijerph-19-09138">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hilmers</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hilmers</surname>
+                      <given-names>D.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dave</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Neighborhood disparities in access to healthy foods and their effects on environmental justice</article-title>
+                  <source>Am. J. Public Health</source>
+                  <year>2012</year>
+                  <volume>102</volume>
+                  <fpage>1644</fpage>
+                  <lpage>1654</lpage>
+                  <pub-id pub-id-type="doi">10.2105/AJPH.2012.300865</pub-id>
+                  <?supplied-pmid 22813465?>
+                  <pub-id pub-id-type="pmid">22813465</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B3-ijerph-19-09138">
+                <label>3.</label>
+                <element-citation publication-type="gov">
+                  <person-group person-group-type="author">
+                    <collab>United States Department of Agriculture</collab>
+                  </person-group>
+                  <article-title>Food Access [Internet]</article-title>
+                  <comment>Available online: <ext-link xlink:href="https://www.ers.usda.gov/topics/food-choices-health/food-access/" ext-link-type="uri">https://www.ers.usda.gov/topics/food-choices-health/food-access/</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2021-02-22">(accessed on 22 February 2021)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B4-ijerph-19-09138">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ohri-Vachaspati</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Acciai</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lloyd</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tulloch</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>DeWeese</surname>
+                      <given-names>R.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>DeLia</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Todd</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yedidia</surname>
+                      <given-names>M.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Evidence that changes in community food environments lead to changes in children’s weight: Results from a longitudinal prospective cohort study</article-title>
+                  <source>J. Acad. Nutr. Diet.</source>
+                  <year>2020</year>
+                  <volume>121</volume>
+                  <fpage>419</fpage>
+                  <lpage>434.e9</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jand.2020.10.016</pub-id>
+                  <?supplied-pmid 33309589?>
+                  <pub-id pub-id-type="pmid">33309589</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B5-ijerph-19-09138">
+                <label>5.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Misiaszek</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Buzogany</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Freishtat</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                  </person-group>
+                  <source>Baltimore City’s Food Environment Report: 2018 Report</source>
+                  <publisher-name>Johns Hopkins Center for a Livable Future</publisher-name>
+                  <publisher-loc>Baltimore, MD, USA</publisher-loc>
+                  <year>2018</year>
+                </element-citation>
+              </ref>
+              <ref id="B6-ijerph-19-09138">
+                <label>6.</label>
+                <element-citation publication-type="webpage">
+                  <person-group person-group-type="author">
+                    <collab>Feeding America</collab>
+                  </person-group>
+                  <article-title>Map the Meal Gap: Food Insecurity in Baltimore City County before COVID-19</article-title>
+                  <comment>Available online: <ext-link xlink:href="https://map.feedingamerica.org/county/2017/overall/maryland/county/baltimore-city" ext-link-type="uri">https://map.feedingamerica.org/county/2017/overall/maryland/county/baltimore-city</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2021-02-22">(accessed on 22 February 2021)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B7-ijerph-19-09138">
+                <label>7.</label>
+                <element-citation publication-type="gov">
+                  <person-group person-group-type="author">
+                    <collab>Baltimore City Health Department</collab>
+                  </person-group>
+                  <article-title>State of Health in Baltimore: White Paper 2017</article-title>
+                  <comment>Available online: <ext-link xlink:href="https://health.baltimorecity.gov/state-health-baltimore-winter-2016/state-health-baltimore-white-paper-2017" ext-link-type="uri">https://health.baltimorecity.gov/state-health-baltimore-winter-2016/state-health-baltimore-white-paper-2017</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2021-02-22">(accessed on 22 February 2021)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B8-ijerph-19-09138">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bonanno</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Food insecurity and food access in US metropolitan areas</article-title>
+                  <source>Appl. Econ. Perspect. Policy</source>
+                  <year>2015</year>
+                  <volume>37</volume>
+                  <fpage>177</fpage>
+                  <lpage>204</lpage>
+                  <pub-id pub-id-type="doi">10.1093/aepp/ppu032</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B9-ijerph-19-09138">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kolak</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bradley</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Block</surname>
+                      <given-names>D.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pool</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Garg</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Toman</surname>
+                      <given-names>C.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Boatright</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lipiszko</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Koschinsky</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kershaw</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Urban foodscape trends: Disparities in healthy food access in Chicago, 2007–2014</article-title>
+                  <source>Health Place</source>
+                  <year>2018</year>
+                  <volume>52</volume>
+                  <fpage>231</fpage>
+                  <lpage>239</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.healthplace.2018.06.003</pub-id>
+                  <?supplied-pmid 30015180?>
+                  <pub-id pub-id-type="pmid">30015180</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B10-ijerph-19-09138">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bower</surname>
+                      <given-names>K.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Thorpe</surname>
+                      <given-names>R.J.</given-names>
+                      <suffix>Jr.</suffix>
+                    </name>
+                    <name>
+                      <surname>Rohde</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gaskin</surname>
+                      <given-names>D.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The intersection of neighborhood racial segregation, poverty, and urbanicity and its impact on food store availability in the United States</article-title>
+                  <source>Prev. Med.</source>
+                  <year>2014</year>
+                  <volume>58</volume>
+                  <fpage>33</fpage>
+                  <lpage>39</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ypmed.2013.10.010</pub-id>
+                  <?supplied-pmid 24161713?>
+                  <pub-id pub-id-type="pmid">24161713</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B11-ijerph-19-09138">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gittelsohn</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sharma</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Physical, consumer, and social aspects of measuring the food environment among diverse low-income populations</article-title>
+                  <source>Am. J. Prev. Med.</source>
+                  <year>2009</year>
+                  <volume>36</volume>
+                  <issue>(Suppl. S1)</issue>
+                  <fpage>S161</fpage>
+                  <lpage>S165</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.amepre.2009.01.007</pub-id>
+                  <?supplied-pmid 19285208?>
+                  <pub-id pub-id-type="pmid">19285208</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B12-ijerph-19-09138">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gittelsohn</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Franceschini</surname>
+                      <given-names>M.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rasooly</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ries</surname>
+                      <given-names>A.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ho</surname>
+                      <given-names>L.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pavlovich</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Santos</surname>
+                      <given-names>V.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jennings</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Frick</surname>
+                      <given-names>K.D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Understanding the food environment in a low income urban setting: Implications for food store interventions</article-title>
+                  <source>J. Hunger. Environ. Nutr.</source>
+                  <year>2007</year>
+                  <volume>2</volume>
+                  <fpage>33</fpage>
+                  <lpage>50</lpage>
+                  <pub-id pub-id-type="doi">10.1080/19320240801891438</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B13-ijerph-19-09138">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Caspi</surname>
+                      <given-names>C.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sorensen</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Subramanian</surname>
+                      <given-names>S.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kawachi</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The local food environment and diet: A systematic review</article-title>
+                  <source>Health Place</source>
+                  <year>2012</year>
+                  <volume>18</volume>
+                  <fpage>1172</fpage>
+                  <lpage>1187</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.healthplace.2012.05.006</pub-id>
+                  <pub-id pub-id-type="pmid">22717379</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B14-ijerph-19-09138">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lytle</surname>
+                      <given-names>L.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sokol</surname>
+                      <given-names>R.L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Measures of the food environment: A systematic review of the field, 2007–2015</article-title>
+                  <source>Health Place</source>
+                  <year>2017</year>
+                  <volume>44</volume>
+                  <fpage>18</fpage>
+                  <lpage>34</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.healthplace.2016.12.007</pub-id>
+                  <pub-id pub-id-type="pmid">28135633</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B15-ijerph-19-09138">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gittelsohn</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rowan</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gadhoke</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Interventions in small food stores to change the food environment, improve diet, and reduce risk of chronic disease</article-title>
+                  <source>Prev. Chronic Dis.</source>
+                  <year>2012</year>
+                  <volume>9</volume>
+                  <fpage>E59</fpage>
+                  <pub-id pub-id-type="doi">10.5888/pcd9.110015</pub-id>
+                  <pub-id pub-id-type="pmid">22338599</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B16-ijerph-19-09138">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gittelsohn</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee-Kwan</surname>
+                      <given-names>S.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Batorsky</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Community-based interventions in prepared-food sources: A systematic review</article-title>
+                  <source>Prev. Chronic Dis.</source>
+                  <year>2013</year>
+                  <volume>10</volume>
+                  <fpage>E180</fpage>
+                  <pub-id pub-id-type="doi">10.5888/pcd10.130073</pub-id>
+                  <?supplied-pmid 24176084?>
+                  <pub-id pub-id-type="pmid">24176084</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B17-ijerph-19-09138">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Laska</surname>
+                      <given-names>M.N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sindberg</surname>
+                      <given-names>L.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ayala</surname>
+                      <given-names>G.X.</given-names>
+                    </name>
+                    <name>
+                      <surname>D’Angelo</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Horton</surname>
+                      <given-names>L.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ribisl</surname>
+                      <given-names>K.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kharmats</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Olson</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gittelsohn</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Agreements between small food store retailers and their suppliers: Incentivizing unhealthy foods and beverages in four urban settings</article-title>
+                  <source>Food Policy</source>
+                  <year>2018</year>
+                  <volume>79</volume>
+                  <fpage>324</fpage>
+                  <lpage>330</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.foodpol.2018.03.001</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B18-ijerph-19-09138">
+                <label>18.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nesheim</surname>
+                      <given-names>M.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Oria</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yih</surname>
+                      <given-names>P.T.</given-names>
+                    </name>
+                  </person-group>
+                  <source>Committee on a Framework for Assessing the Health, Environmental, and Social Effects of the Food System</source>
+                  <publisher-name>National Academies Press</publisher-name>
+                  <publisher-loc>Washington, DC, USA</publisher-loc>
+                  <year>2015</year>
+                </element-citation>
+              </ref>
+              <ref id="B19-ijerph-19-09138">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Goffe</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Uwamahoro</surname>
+                      <given-names>N.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dixon</surname>
+                      <given-names>C.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Blain</surname>
+                      <given-names>A.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Danielsen</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kirk</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Adamson</surname>
+                      <given-names>A.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Supporting a healthier takeaway meal choice: Creating a universal health rating for online takeaway fast-food outlets</article-title>
+                  <source>Int. J. Environ. Res. Public Health</source>
+                  <year>2020</year>
+                  <volume>17</volume>
+                  <elocation-id>9260</elocation-id>
+                  <pub-id pub-id-type="doi">10.3390/ijerph17249260</pub-id>
+                  <?supplied-pmid 33322286?>
+                  <pub-id pub-id-type="pmid">33322286</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B20-ijerph-19-09138">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Eriksson</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stenius</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Changing behavioral patterns in grocery shopping in the initial phase of the COVID-19 crisis—A qualitative study of news articles</article-title>
+                  <source>Open J. Bus. Manag.</source>
+                  <year>2020</year>
+                  <volume>8</volume>
+                  <fpage>1946</fpage>
+                  <lpage>1961</lpage>
+                  <pub-id pub-id-type="doi">10.4236/ojbm.2020.85119</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B21-ijerph-19-09138">
+                <label>21.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Buczynski</surname>
+                      <given-names>A.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Freishtat</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Buzogany</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <source>Mapping Baltimore City’s Food Environment: 2015 Report</source>
+                  <publisher-name>Johns Hopkins Center for a Livable Future</publisher-name>
+                  <publisher-loc>Baltimore, MD, USA</publisher-loc>
+                  <year>2015</year>
+                </element-citation>
+              </ref>
+              <ref id="B22-ijerph-19-09138">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Franco</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Diez Roux</surname>
+                      <given-names>A.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Glass</surname>
+                      <given-names>T.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Caballero</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Brancati</surname>
+                      <given-names>F.L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Neighborhood characteristics and availability of healthy foods in Baltimore</article-title>
+                  <source>Am. J. Prev. Med.</source>
+                  <year>2008</year>
+                  <volume>35</volume>
+                  <fpage>561</fpage>
+                  <lpage>567</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.amepre.2008.07.003</pub-id>
+                  <pub-id pub-id-type="pmid">18842389</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B23-ijerph-19-09138">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ross</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Krishnan</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Panchal</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Brooks</surname>
+                      <given-names>J.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lloyd</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gittelsohn</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Formative research for an innovative smartphone application to improve distribution of healthy foods to corner stores in Baltimore City</article-title>
+                  <source>J. Nutr. Ecol. Food Res.</source>
+                  <year>2019</year>
+                  <volume>58</volume>
+                  <fpage>3</fpage>
+                  <lpage>22</lpage>
+                  <pub-id pub-id-type="doi">10.1080/03670244.2018.1553778</pub-id>
+                  <?supplied-pmid 30522356?>
+                  <pub-id pub-id-type="pmid">30522356</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B24-ijerph-19-09138">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lewis</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Harper</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gittelsohn</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Feasibility of introducing mobile point-of-sale technology into urban corner stores for evaluation of sales</article-title>
+                  <source>Curr. Dev. Nutr.</source>
+                  <year>2020</year>
+                  <volume>4</volume>
+                  <issue>(Suppl. S2)</issue>
+                  <fpage>716</fpage>
+                  <pub-id pub-id-type="doi">10.1093/cdn/nzaa051_013</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B25-ijerph-19-09138">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vedovato</surname>
+                      <given-names>G.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Surkan</surname>
+                      <given-names>P.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jones-Smith</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Steeves</surname>
+                      <given-names>E.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Han</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Trude</surname>
+                      <given-names>A.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kharmats</surname>
+                      <given-names>A.Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gittelsohn</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Food insecurity, overweight and obesity among low-income African-American families in Baltimore city: Associations with food-related perceptions</article-title>
+                  <source>Public Health Nutr.</source>
+                  <year>2015</year>
+                  <volume>19</volume>
+                  <fpage>1405</fpage>
+                  <lpage>1416</lpage>
+                  <pub-id pub-id-type="doi">10.1017/S1368980015002888</pub-id>
+                  <pub-id pub-id-type="pmid">26441159</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B26-ijerph-19-09138">
+                <label>26.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bickel</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nord</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Price</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hamilton</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cook</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <source>Measuring Food Security in the United States: Guide to Measuring Household Food Security</source>
+                  <publisher-name>Department of Agriculture, Food and Nutrition Service</publisher-name>
+                  <publisher-loc>Alexandria, VA, USA</publisher-loc>
+                  <year>2000</year>
+                </element-citation>
+              </ref>
+              <ref id="B27-ijerph-19-09138">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Harris</surname>
+                      <given-names>P.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Taylor</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Thielke</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Payne</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gonzalez</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Conde</surname>
+                      <given-names>J.G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Research electronic data capture (REDCap)—A metadata-driven methodology and workflow process for providing translational research informatics support</article-title>
+                  <source>J. Biomed. Inform.</source>
+                  <year>2009</year>
+                  <volume>42</volume>
+                  <fpage>377</fpage>
+                  <lpage>381</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jbi.2008.08.010</pub-id>
+                  <pub-id pub-id-type="pmid">18929686</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B28-ijerph-19-09138">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Harris</surname>
+                      <given-names>P.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Taylor</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Minor</surname>
+                      <given-names>B.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Elliott</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fernandez</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>O’Neal</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>McLeod</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Delacqua</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Delacqua</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kirby</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>REDCap Consortium, The REDCap consortium: Building an international community of software partners</article-title>
+                  <source>J. Biomed. Inform.</source>
+                  <year>2019</year>
+                  <volume>95</volume>
+                  <fpage>103208</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jbi.2019.103208</pub-id>
+                  <pub-id pub-id-type="pmid">31078660</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B29-ijerph-19-09138">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gittelsohn</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Trude</surname>
+                      <given-names>A.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Poirier</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ross</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ruggiero</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schwendler</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Steeves</surname>
+                      <given-names>E.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The impact of a multi-level multi-component childhood obesity prevention intervention on healthy food availability, sales, and purchasing in a low-income urban area</article-title>
+                  <source>Int. J. Environ. Res. Public Health</source>
+                  <year>2017</year>
+                  <volume>14</volume>
+                  <elocation-id>1371</elocation-id>
+                  <pub-id pub-id-type="doi">10.3390/ijerph14111371</pub-id>
+                  <?supplied-pmid 29125558?>
+                  <pub-id pub-id-type="pmid">29125558</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B30-ijerph-19-09138">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Roberto</surname>
+                      <given-names>C.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lawman</surname>
+                      <given-names>H.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>LeVasseur</surname>
+                      <given-names>M.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mitra</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Peterhans</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Herring</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bleich</surname>
+                      <given-names>S.N.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Association of a beverage tax on sugar-sweetened and artificially sweetened beverages with changes in beverage prices and sales at chain retailers in a large urban setting</article-title>
+                  <source>JAMA</source>
+                  <year>2019</year>
+                  <volume>321</volume>
+                  <fpage>1799</fpage>
+                  <lpage>1810</lpage>
+                  <pub-id pub-id-type="doi">10.1001/jama.2019.4249</pub-id>
+                  <?supplied-pmid 31087022?>
+                  <pub-id pub-id-type="pmid">31087022</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B31-ijerph-19-09138">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gittelsohn</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Suratkar</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Song</surname>
+                      <given-names>H.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sacher</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rajan</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rasooly</surname>
+                      <given-names>I.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bednarek</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sharma</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Anliker</surname>
+                      <given-names>J.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Process evaluation of Baltimore Healthy Stores: A pilot health intervention program with supermarkets and corner stores in Baltimore City</article-title>
+                  <source>Health Promot. Pract.</source>
+                  <year>2010</year>
+                  <volume>11</volume>
+                  <fpage>723</fpage>
+                  <lpage>732</lpage>
+                  <pub-id pub-id-type="doi">10.1177/1524839908329118</pub-id>
+                  <?supplied-pmid 19144859?>
+                  <pub-id pub-id-type="pmid">19144859</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B32-ijerph-19-09138">
+                <label>32.</label>
+                <element-citation publication-type="gov">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chomitz</surname>
+                      <given-names>V.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Garnett</surname>
+                      <given-names>B.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Arsenault</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hudson</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Shape Up Somerville: Building and Sustaining a Healthy Community: Reflections over 15 Years (1998–2013)</article-title>
+                  <comment>Available online: <ext-link xlink:href="https://www.somervillema.gov/sites/default/files/shape-up-somerville-story.pdf" ext-link-type="uri">https://www.somervillema.gov/sites/default/files/shape-up-somerville-story.pdf</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2021-02-22">(accessed on 22 February 2021)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B33-ijerph-19-09138">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gittelsohn</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Anderson Steeves</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mui</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kharmats</surname>
+                      <given-names>A.Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hopkins</surname>
+                      <given-names>L.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dennis</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>B’more healthy communities for kids: Design of a multi-level intervention for obesity prevention for low-income African American children</article-title>
+                  <source>BMC Public Health</source>
+                  <year>2014</year>
+                  <volume>14</volume>
+                  <elocation-id>942</elocation-id>
+                  <pub-id pub-id-type="doi">10.1186/1471-2458-14-942</pub-id>
+                  <pub-id pub-id-type="pmid">25209072</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B34-ijerph-19-09138">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Franceschini</surname>
+                      <given-names>M.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gittelsohn</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vastine</surname>
+                      <given-names>A.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ho</surname>
+                      <given-names>L.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jennings</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nielsen</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pavlovich</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rah</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Frick</surname>
+                      <given-names>K.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Thompson</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Results of Formative Research for a Food Store-Based Intervention in Baltimore City, Maryland</article-title>
+                  <source>FASEB J.</source>
+                  <year>2003</year>
+                  <volume>17</volume>
+                  <fpage>A708</fpage>
+                </element-citation>
+              </ref>
+              <ref id="B35-ijerph-19-09138">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gunen</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Poirier</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hinman</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Daniel</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pruden</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Weiss</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Katragadda</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gittelsohn</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Impact of fresh shelves, healthy pantries: A feasibility trial using policy, educational and environmental strategies in Baltimore City food pantries</article-title>
+                  <source>Curr. Dev. Nutr.</source>
+                  <year>2020</year>
+                  <volume>4</volume>
+                  <issue>(Suppl. S2)</issue>
+                  <fpage>197</fpage>
+                  <pub-id pub-id-type="doi">10.1093/cdn/nzaa043_048</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B36-ijerph-19-09138">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Trude</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Surkan</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Anderson Steeves</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pollack Porter</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gittelsohn</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The impact of a multilevel childhood obesity prevention intervention on healthful food acquisition, preparation, and fruit and vegetable consumption on African-American adult caregivers</article-title>
+                  <source>Public Health Nutr.</source>
+                  <year>2019</year>
+                  <volume>22</volume>
+                  <fpage>1300</fpage>
+                  <lpage>1315</lpage>
+                  <pub-id pub-id-type="doi">10.1017/S1368980018003038</pub-id>
+                  <pub-id pub-id-type="pmid">30463637</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B37-ijerph-19-09138">
+                <label>37.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gittelsohn</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mui</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Oke</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Steeves</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Igusa</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Simulated impact of a staple foods policy on childhood obesity in a low income urban environment</article-title>
+                  <source>Proceedings of the International Congress on Obesity</source>
+                  <conf-loc>Kuala Lumpur, Malaysia</conf-loc>
+                  <conf-date>17–20 March 2014</conf-date>
+                </element-citation>
+              </ref>
+              <ref id="B38-ijerph-19-09138">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Budd</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jeffries</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jones-Smith</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kharmats</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>McDermott</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gittelsohn</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Store-directed price promotions and communications strategies improve healthier food supply and demand: Impact results from a randomized controlled, Baltimore City store-intervention trial</article-title>
+                  <source>Public Health Nutr.</source>
+                  <year>2017</year>
+                  <volume>20</volume>
+                  <fpage>3349</fpage>
+                  <lpage>3359</lpage>
+                  <pub-id pub-id-type="doi">10.1017/S1368980017000064</pub-id>
+                  <pub-id pub-id-type="pmid">28222818</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B39-ijerph-19-09138">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shin</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Surkan</surname>
+                      <given-names>P.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Coutinho</surname>
+                      <given-names>A.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sureatkar</surname>
+                      <given-names>S.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Campbell</surname>
+                      <given-names>R.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rowan</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sharma</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dennisuk</surname>
+                      <given-names>L.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Karlsen</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gass</surname>
+                      <given-names>a.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Impact of Baltimore healthy eating zones: An environmental intervention to improve diet among African American youth</article-title>
+                  <source>Health Educ. Behav.</source>
+                  <year>2015</year>
+                  <volume>42</volume>
+                  <issue>(Suppl. S1)</issue>
+                  <fpage>97S</fpage>
+                  <lpage>105S</lpage>
+                  <pub-id pub-id-type="doi">10.1177/1090198115571362</pub-id>
+                  <pub-id pub-id-type="pmid">25829124</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+          <floats-group>
+            <fig position="float" id="ijerph-19-09138-f001">
+              <label>Figure 1</label>
+              <caption>
+                <p>Baltimore Urban food Distribution (BUD) app conceptual framework.</p>
+              </caption>
+              <graphic xlink:href="ijerph-19-09138-g001" position="float"/>
+            </fig>
+            <fig position="float" id="ijerph-19-09138-f002">
+              <label>Figure 2</label>
+              <caption>
+                <p>BUD producer and wholesaler screen mockups.</p>
+              </caption>
+              <graphic xlink:href="ijerph-19-09138-g002" position="float"/>
+            </fig>
+            <fig position="float" id="ijerph-19-09138-f003">
+              <label>Figure 3</label>
+              <caption>
+                <p>BUD corner store owner screen mockups.</p>
+              </caption>
+              <graphic xlink:href="ijerph-19-09138-g003" position="float"/>
+            </fig>
+            <table-wrap position="float" id="ijerph-19-09138-t001">
+              <object-id pub-id-type="pii">ijerph-19-09138-t001_Table 1</object-id>
+              <label>Table 1</label>
+              <caption>
+                <p>Stages of implementation of the BUD app during the pilot.</p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <thead>
+                  <tr>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">BUD Strategies</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Stage 1</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Stage 2</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Stage 3</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Stage 4</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">App Features</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">BUD App</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">BUD App + BuddyUp!</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">BUD App + BuddyUp! + BuddyLift!</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">BUD App + BuddyUp! + BuddyLift!</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Promoted Foods</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Low-Sugar Beverages</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Fresh Fruits and Vegetables</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Low-Fat Whole Grains, Snacks</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Low-Sugar Beverages + FV + Whole Grains, Snacks</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">BUDCredit (for corner stores)</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">$100</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">$100</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">$0</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">$0</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+            <table-wrap position="float" id="ijerph-19-09138-t002">
+              <object-id pub-id-type="pii">ijerph-19-09138-t002_Table 2</object-id>
+              <label>Table 2</label>
+              <caption>
+                <p>Summary of impact and process measures by level of data collection.</p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <thead>
+                  <tr>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin;background:#D0CECE" rowspan="1" colspan="1">Type of Data Collection</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin;background:#D0CECE" rowspan="1" colspan="1">Time of Data Collection</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin;background:#D0CECE" rowspan="1" colspan="1">Level of Data Collection</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Feasibility metrics: acceptability, operability, perceived sustainability and user satisfaction with the BUD app</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">During intervention (multiple measures), Post-intervention</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Producer, Wholesaler, Retailer</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Stocking of healthy and unhealthy foods</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Baseline, During intervention, Post-intervention</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Retailer</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Process metrics: reach, dose delivered, fidelity</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">During intervention (multiple measures)</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Study Team</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Sales of healthy and unhealthy foods</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Baseline, During intervention, Post-intervention</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Retailer</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Purchasing of healthy foods</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Baseline, Post-intervention</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Consumer</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Consumption of healthy foods</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Baseline, Post-intervention</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Consumer</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Financial costs and benefits from perspective of suppliers</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Post-intervention</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Producer, Wholesaler, Supplier</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Prices of healthy foods</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Baseline, During intervention, Post-intervention</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Retailer</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+          </floats-group>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

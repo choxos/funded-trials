@@ -1,0 +1,1036 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T01:40:07Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:9869963" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:9869963</identifier>
+        <datestamp>2023-02-06</datestamp>
+        <setSpec>jciinsight</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">JCI Insight</journal-id>
+              <journal-id journal-id-type="iso-abbrev">JCI Insight</journal-id>
+              <journal-id journal-id-type="publisher-id">JCI Insight</journal-id>
+              <journal-title-group>
+                <journal-title>JCI Insight</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2379-3708</issn>
+              <publisher>
+                <publisher-name>American Society for Clinical Investigation</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC9869963</article-id>
+              <article-id pub-id-type="pmcid">PMC9869963</article-id>
+              <article-id pub-id-type="pmc-uid">9869963</article-id>
+              <article-id pub-id-type="pmid">36355434</article-id>
+              <article-id pub-id-type="pmid">36355434</article-id>
+              <article-id pub-id-type="publisher-id">155282</article-id>
+              <article-id pub-id-type="doi">10.1172/jci.insight.155282</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Machine-learning classification identifies patients with early systemic sclerosis as abatacept responders via CD28 pathway modulation</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Mehta</surname>
+                    <given-names>Bhaven K.</given-names>
+                  </name>
+                  <email>bhav.mehta0927@gmail.com</email>
+                  <xref rid="A1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Espinoza</surname>
+                    <given-names>Monica E.</given-names>
+                  </name>
+                  <email>Monica.E.Espinoza.GR@dartmouth.edu</email>
+                  <xref rid="A1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0003-2400-5431</contrib-id>
+                  <name>
+                    <surname>Franks</surname>
+                    <given-names>Jennifer M.</given-names>
+                  </name>
+                  <email>Jennifer.m.franks.gr@dartmouth.edu</email>
+                  <xref rid="A1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Yuan</surname>
+                    <given-names>Yiwei</given-names>
+                  </name>
+                  <email>Yiwei.Yuan.GR@dartmouth.edu</email>
+                  <xref rid="A1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Wang</surname>
+                    <given-names>Yue</given-names>
+                  </name>
+                  <email>yue.wang@dartmouth.edu</email>
+                  <xref rid="A1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0002-4370-1398</contrib-id>
+                  <name>
+                    <surname>Wood</surname>
+                    <given-names>Tammara</given-names>
+                  </name>
+                  <email>tammara.a.wood@dartmouth.edu</email>
+                  <xref rid="A1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Gudjonsson</surname>
+                    <given-names>Johann E.</given-names>
+                  </name>
+                  <xref rid="A2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0002-6157-6738</contrib-id>
+                  <name>
+                    <surname>Spino</surname>
+                    <given-names>Cathie</given-names>
+                  </name>
+                  <email>spino@med.umich.edu</email>
+                  <xref rid="A3" ref-type="aff">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0002-0230-6607</contrib-id>
+                  <name>
+                    <surname>Fox</surname>
+                    <given-names>David A.</given-names>
+                  </name>
+                  <email>dfox@umich.edu</email>
+                  <xref rid="A4" ref-type="aff">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0003-1412-4453</contrib-id>
+                  <name>
+                    <surname>Khanna</surname>
+                    <given-names>Dinesh</given-names>
+                  </name>
+                  <email>khannad@med.umich.edu</email>
+                  <xref rid="A3" ref-type="aff">3</xref>
+                  <xref rid="A4" ref-type="aff">4</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0002-0862-6003</contrib-id>
+                  <name>
+                    <surname>Whitfield</surname>
+                    <given-names>Michael L.</given-names>
+                  </name>
+                  <email>mwhit@Dartmouth.EDU</email>
+                  <xref rid="A1" ref-type="aff">1</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="A1"><label>1</label>Department of Biomedical Data Science, Department of Molecular &amp; Systems Biology, Geisel School of Medicine at Dartmouth, Lebanon, New Hampshire, USA.</aff>
+              <aff id="A2"><label>2</label>Department of Dermatology, Department of Medicine, Clinical Autoimmunity Center of Excellence and University of Michigan Scleroderma Program, University of Michigan, Ann Arbor, Michigan, USA.</aff>
+              <aff id="A3"><label>3</label>Department of Biostatistics, University of Michigan, Ann Arbor, Michigan, USA.</aff>
+              <aff id="A4"><label>4</label>Division of Rheumatology, Department of Medicine, Clinical Autoimmunity Center of Excellence and University of Michigan Scleroderma Program, University of Michigan, Ann Arbor, Michigan, USA.</aff>
+              <author-notes>
+                <corresp>Address correspondence to: Michael L. Whitfield, Department of Biomedical Data Science, Geisel School of Medicine at Dartmouth, HB 7261 WTRB 330, Lebanon, New Hampshire 03756, USA. Phone: 603.646.5711; Email: <email>Michael.L.Whitfield@dartmouth.edu</email>. Or to: Dinesh Khanna, Division of Rheumatology, Department of Internal Medicine, University of Michigan, Ann Arbor, Michigan 48103, USA. Phone: 734.764.7606; Email: <email>khannad@med.umich.edu</email>.</corresp>
+                <fn>
+                  <p><bold>Authorship note:</bold> BKM and MEE contributed equally to this work and are co–first authors.</p>
+                </fn>
+              </author-notes>
+              <pub-date date-type="pub" publication-format="electronic" iso-8601-date="2022-12-22T12:00:00-0500">
+                <day>22</day>
+                <month>12</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date date-type="collection" publication-format="electronic" iso-8601-date="2022-12-22T12:00:00-0500">
+                <day>22</day>
+                <month>12</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>22</day>
+                <month>12</month>
+                <year>2022</year>
+              </pub-date>
+              <!--PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="epub"/>.-->
+              <volume>7</volume>
+              <issue>24</issue>
+              <elocation-id>e155282</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>27</day>
+                  <month>10</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>4</day>
+                  <month>11</month>
+                  <year>2022</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2022 Mehta et al.</copyright-statement>
+                <copyright-year>2022</copyright-year>
+                <copyright-holder>Mehta et al.</copyright-holder>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit <ext-link xlink:href="https://creativecommons.org/licenses/by/4.0/" ext-link-type="uri">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:href="https://insight.jci.org/articles/view/155282">This article is available online at https://insight.jci.org/articles/view/155282</self-uri>
+              <abstract>
+                <p>Here, the efficacy of abatacept in patients with early diffuse systemic sclerosis (dcSSc) was analyzed to test the hypothesis that patients in the inflammatory intrinsic subset would show the most significant clinical improvement. Eighty-four participants with dcSSc were randomized to receive abatacept or placebo for 12 months. RNA-Seq was performed on 233 skin paired biopsies at baseline and at 3 and 6 months. Improvement was defined as a 5-point or more than 20% change in modified Rodnan skin score (mRSS) between baseline and 12 months. Samples were assigned to intrinsic gene expression subsets (inflammatory, fibroproliferative, or normal-like subsets). In the abatacept arm, change in mRSS was most pronounced for the inflammatory and normal-like subsets relative to the placebo subset. Gene expression for participants on placebo remained in the original molecular subset, whereas inflammatory participants treated with abatacept had gene expression that moved toward the normal-like subset. The Costimulation of the CD28 Family Reactome Pathway decreased in patients who improved on abatacept and was specific to the inflammatory subset. Patients in the inflammatory subset had elevation of the Costimulation of the CD28 Family pathway at baseline relative to that of participants in the fibroproliferative and normal-like subsets. There was a correlation between improved <italic toggle="yes">Δ</italic>mRSS and baseline expression of the Costimulation of the CD28 Family pathway. This study provides an example of precision medicine in systemic sclerosis clinical trials.</p>
+              </abstract>
+              <kwd-group kwd-group-type="specialties">
+                <kwd>Autoimmunity</kwd>
+                <kwd>Clinical Trials</kwd>
+              </kwd-group>
+              <kwd-group kwd-group-type="keywords">
+                <kwd>Expression profiling</kwd>
+                <kwd>Fibrosis</kwd>
+                <kwd>Skin</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>NIH/NIAMS</funding-source>
+                  <award-id>K24-AR-063120</award-id>
+                </award-group>
+                <award-group>
+                  <funding-source>NIH/NIAMS</funding-source>
+                  <award-id>R01-AR-07047</award-id>
+                </award-group>
+                <award-group>
+                  <funding-source>NIH</funding-source>
+                  <award-id>5T32LM012204</award-id>
+                </award-group>
+                <award-group>
+                  <funding-source>NIH</funding-source>
+                  <award-id>5T32AI007363</award-id>
+                </award-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>Scleroderma Research Foundation</institution>
+                      <institution-id>https://doi.org/10.13039/100001845</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>na</award-id>
+                </award-group>
+                <award-group>
+                  <funding-source>Burroughs-Wellcome PUP Big Data in the Life Sciences Training Program</funding-source>
+                  <award-id>na</award-id>
+                </award-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>Dr. Ralph and Marian Falk Medical Research Trust</institution>
+                      <institution-id>https://doi.org/10.13039/100008590</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>na</award-id>
+                </award-group>
+                <award-group>
+                  <funding-source>Bristol-Myer Squibb</funding-source>
+                  <award-id>na</award-id>
+                </award-group>
+              </funding-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="intro">
+              <title>Introduction</title>
+              <p>Systemic sclerosis (SSc) is a rare, progressive autoimmune disease of unknown etiology; it is characterized by extracellular matrix deposition as well as vascular and immunologic abnormalities (<xref rid="B1" ref-type="bibr">1</xref>, <xref rid="B2" ref-type="bibr">2</xref>). Patient heterogeneity is an inherent feature of SSc, as manifested by variable skin fibrosis, autoantibodies, organ involvement, and progression. There are two reported clinical subtypes defined by the extent of skin involvement: diffuse cutaneous SSc (dcSSc) and limited cutaneous SSc. This study is focused on patients with dcSSc.</p>
+              <p>Four intrinsic molecular subsets that break down this heterogeneity have been identified across multiple cohorts and organ systems using whole-genome expression profiling (<xref rid="B3" ref-type="bibr">3</xref>–<xref rid="B6" ref-type="bibr">6</xref>). These include the inflammatory subset, which is characterized by increased immune and fibrotic processes; the fibroproliferative subset, with increased fibrotic, immune, and cell-cycle-related processes; the normal-like subset, with gene expression patterns that more closely resemble those of healthy controls; and finally, the limited subset, which primarily comprised patients with limited cutaneous SSc. Gene expression differences observed between patients may lead to the differential response to therapies. When results from clinical trials are analyzed in aggregate without considering molecular subsets, the differing responses may lead to a report of overall therapy failure; however, retrospective data analyses identified that some molecular SSc subsets respond better to particular drugs (<xref rid="B7" ref-type="bibr">7</xref>). These data suggest that molecular intrinsic subsets should be taken into consideration prior to clinical trials. This marks an important step toward precision medicine in SSc.</p>
+              <p>Here, we report a detailed analysis of gene expression data from skin biopsies from patients treated with abatacept, which is a fusion protein that comprises the extracellular domain of CTLA-4 and the Fc region of IgG1. Abatacept binds to CD80/86 and outcompetes CD28 binding, thus preventing T cell activation (<xref rid="B8" ref-type="bibr">8</xref>). A pilot study of 8 participants with SSc in a 24-week, placebo-controlled trial identified key changes in patients who improved on abatacept, in comparison with those who did not (<xref rid="B9" ref-type="bibr">9</xref>). The study demonstrated a reduction in the inflammatory signature and CD28-dependent signaling, suggesting that abatacept may be more beneficial to patients with SSc who are in the inflammatory molecular subset.</p>
+              <p>A subsequent randomized, double-blind, placebo-control, phase II trial of 88 participants, the Abatacept in Systemic SclErosis Trial (ASSET), showed that while abatacept was well tolerated, the change in modified Rodnan skin score (mRSS) in the abatacept group was greater but not statistically significant compared with that in the placebo group (<xref rid="B10" ref-type="bibr">10</xref>). The data from this study showed that patients from the abatacept treatment group who were classified into the inflammatory intrinsic subset at baseline showed the largest and a statistically significant decrease in mRSS in comparison with that of patients in the placebo treatment group.</p>
+              <p>Here, we identified gene expression changes in skin occurring in the abatacept phase II clinical trial that related to the clinical improvement in patients exhibiting an elevated inflammatory molecular signature at baseline. We found that patients in the inflammatory intrinsic gene expression subset had higher expression of the Costimulation of the CD28 Family Reactome Pathway, a signature related to abatacept’s mechanism of action, when compared with that of patients in the fibroproliferative or normal-like subsets. Furthermore, though the expression of this pathway decreased in all patients on abatacept, the inflammatory patient subset was the only population that demonstrated a statistically significant decrease in response to abatacept treatment. We also found that the baseline expression of Costimulation of the CD28 Family pathway was significantly correlated to changes in mRSS in patients in the inflammatory subset. Gene expression in the skin of individuals in the inflammatory and fibroproliferative subsets moved toward the normal-like subset, whereas gene expression in the skin of individuals in the placebo arm largely remained in the molecular subtype they were in at baseline. We therefore conclude that inflammatory patients have elevated expression of pathways targeted by abatacept, which decreases upon treatment, and these patients are thus most likely to clinically respond to this therapy.</p>
+            </sec>
+            <sec sec-type="results">
+              <title>Results</title>
+              <sec>
+                <title>Clinical and demographic characteristics of participants.</title>
+                <p>Eligible participants with early dcSSc (≤3 years from onset of first non–Raynaud’s sign or symptom) were randomized in a 1:1 ratio to either abatacept (125 mg subcutaneous) or matching placebo, stratified by duration of dcSSc. The coprimary endpoints were change in mRSS and safety over 12 months. Escape therapy with immunomodulatory agents was permitted as an add-on therapy to study medications taken due to worsening of dcSSc starting at month 6 (<xref rid="B10" ref-type="bibr">10</xref>). The decision to initiate escape therapy was based on investigator discretion. No biologic agents were allowed as escape therapy.</p>
+                <p>Abatacept was well tolerated. Among the 88 participants (44 in each treatment group), the adjusted mean change in mRSS at 12 months was –6.24 in the abatacept group and –4.49 in the placebo group, with a least-squares mean treatment difference of –1.75 (95% CI, –4.93, 1.43; <italic toggle="yes">P</italic> = 0.28) and marked individual variability (<xref rid="B10" ref-type="bibr">10</xref>). Secondary efficacy outcome measures were statistically significant, favoring abatacept.</p>
+                <p>Skin biopsies were collected from 84 of the 88 patients enrolled in the ASSET clinical trial at baseline and at 3 and 6 months. The RNA was prepared and sequenced by Illumina RNA-Seq. Sample reads were parsed for quality, repeats, and missing information, resulting in 140 biospecimens that were used in the initial analysis (<xref rid="sd" ref-type="sec">Supplemental Figure 3</xref>; supplemental material available online with this article; <ext-link xlink:href="https://doi.org/10.1172/jci.insight.155282DS1" ext-link-type="uri">https://doi.org/10.1172/jci.insight.155282DS1</ext-link>). Data cleaning was done stepwise. First, duplicate patient samples, those with low-quality sequence reads, and those missing either their baseline or 6-month biopsies were removed (level 1, representing 36 skin biopsies from 20 participants). In order to allow clinical improvement to be determined accurately, patients who escaped prior to 12 months or had missing mRSS data at 12 months were also removed (level 2 filtering, representing 57 skin biopsies from 21 participants). The remaining 140 skin biopsies from 47 patients were analyzed (<xref rid="sd" ref-type="sec">Supplemental Figure 3</xref>). Improvement was classified by patients who had a reduction in their baseline mRSS by 20% or 5 points. There were no significant differences between the abatacept and placebo arms after biospecimen curation with regards to clinical characteristics, including sex, age, and race (<xref rid="T1" ref-type="table">Table 1</xref>). Key analyses were subsequently repeated on the larger set of 197 biospecimens from 68 patients who passed level 1 filtering.</p>
+              </sec>
+              <sec>
+                <title>Gene expression in baseline skin biopsies is associated with molecular subsets.</title>
+                <p>Analyses of baseline skin biopsies recapitulated the previously defined molecular subsets (<xref rid="F1" ref-type="fig">Figure 1A</xref>). Assessment of batch effect was performed on raw counts of RNA-Seq transcripts with the gPCA package in R, which revealed no detectable differences due to batch (<xref rid="sd" ref-type="sec">Supplemental Figure 4</xref>; <italic toggle="yes">P</italic> = 0.612). Similar analyses for batch effect were performed after reads per kb of transcript per million mapped reads (RPKM) normalization, which similarly revealed no significant variation explained by batch (<xref rid="sd" ref-type="sec">Supplemental Figure 5</xref>; <italic toggle="yes">P</italic> = 0.594). Genes and pathways associated with molecular subset calls assigned using the previously trained support vector machine (SVM) classifier (<xref rid="B11" ref-type="bibr">11</xref>) are show in <xref rid="F1" ref-type="fig">Figure 1B</xref> (<xref rid="B10" ref-type="bibr">10</xref>). We found that the patients assigned to the inflammatory subset had an enrichment in pathways consistent with an active immune response, patients assigned to the fibroproliferative subset had active pathways related to cell differentiation and keratinization, and patients assigned to the normal-like subset had increased expression of pathways for lipid-associated processes. Of note, the hierarchical clustering of baseline samples did not show patterns in clustering based on treatment arm (abatacept or placebo) or improvement status (<xref rid="F1" ref-type="fig">Figure 1C</xref>). The main driver of the clustering of baseline samples is intrinsic molecular subtype.</p>
+                <p>The genes and pathways with increased expression in the inflammatory molecular subset (<xref rid="F1" ref-type="fig">Figure 1B</xref>) showed enrichment in key immune-related genes that are implicated in abatacept’s mechanism of action (e.g., CD80). These data are consistent with those of the pilot study, which suggested that the inflammatory subset might be most responsive to treatment, encouraging further analysis (<xref rid="B9" ref-type="bibr">9</xref>).</p>
+              </sec>
+              <sec>
+                <title>Change in subtype over time between treatment arms.</title>
+                <p>In order to understand if patients in the inflammatory or fibroproliferative subsets become more normal like over time, we analyzed the SVM subtype classifications at baseline and at 3 months and 6 months after treatment (<xref rid="F1" ref-type="fig">Figure 1D</xref>). We observed that the molecular subsets to which the samples were assigned were largely stable over time when considering biopsies from the same patient, with 30 of 47 (63%) participant molecular subsets remaining unchanged (<xref rid="F1" ref-type="fig">Figure 1D</xref>). Participants in the abatacept arm that were in the inflammatory subset demonstrated a shift toward a more normal-like signature, with 5 of 9 (56%) participants shifting from inflammatory to normal-like and 3 of 9 (33%) remaining in the inflammatory subset. In contrast, 6 of 7 (86%) participants who were inflammatory at baseline in the placebo arm were also inflammatory at their 6-month time point (<xref rid="F1" ref-type="fig">Figure 1D</xref>; inflammatory, Fisher’s exact test, <italic toggle="yes">P</italic> = 0.09). Of the 6 participants classified as fibroproliferative in abatacept arm, 4 of 6 (67%) were normal like at 6 months, while 1 remained fibroproliferative and 1 was classified as inflammatory. In contrast, of the 3 participants classified as fibroproliferative at baseline in the placebo arm, all remained in that subset at 3 and 6 months (<xref rid="F1" ref-type="fig">Figure 1D</xref>). Although there was an increase in the number of patients in the fibroproliferative subset that changed to the normal-like subset on abatacept treatment relative to placebo treatment, these differences did not reach statistical significance (<xref rid="F1" ref-type="fig">Figure 1D</xref>; fibroproliferative, Fisher’s exact test, <italic toggle="yes">P</italic> = 0.214). Participants that were normal-like at baseline did not show a significant change in subtype, regardless of treatment (<xref rid="F1" ref-type="fig">Figure 1D</xref> and <xref rid="sd" ref-type="sec">Supplemental Table 5</xref>; normal like, Fisher’s exact test; <italic toggle="yes">P</italic> = 0.385). Interestingly, a small subset of patients in the normal-like subset became inflammatory (3 participants) or fibroproliferative (3 participants) at 6 months. Therefore, this suggests that some number of patients may move from the normal-like subset back to a more pathogenic gene expression signature.</p>
+              </sec>
+              <sec>
+                <title>GSEA reveals therapeutic modulation of pathways consistent with abatacept treatment.</title>
+                <p>Gene set enrichment analysis (GSEA) was performed to interrogate and compare enriched pathways across baseline and 6-month biopsies in response to treatment. We performed GSEA on all participant biopsy gene expression profiles and parsed by treatment and improvement status to identify potential associations between therapy-mediated improvement and molecular signatures. As a result, there were 64 pathways enriched in baseline biopsies and 2 pathways enriched in 6-month time point biospecimens. We found that immune-related pathways are enriched in the baseline biopsies of participants who improved (improvers) on abatacept but not in 6-month samples, suggesting that these pathways have decreased in the 6-month biopsies (<xref rid="sd" ref-type="sec">Supplemental Table 1</xref>). As in the pilot investigation (<xref rid="B9" ref-type="bibr">9</xref>), we identified the Costimulation of the CD28 Family pathway as one of the top pathways enriched in baseline biopsies (0.006% FDR) and subsequently modulated by abatacept in improvers, as demonstrated by the directionality of regulation (<xref rid="T2" ref-type="table">Table 2</xref>). The FDR acts as a contextualizing statistic, reporting the chances of false discovery (which we prefer to be low) of the genes enriched in this pathway. We did not find this pathway enriched at baseline in abatacept-treated participants who did not improve (nonimprovers) (<xref rid="sd" ref-type="sec">Supplemental Table 1C</xref>), placebo-treated improvers (<xref rid="sd" ref-type="sec">Supplemental Table 1B</xref>), or placebo-treated nonimprovers (<xref rid="sd" ref-type="sec">Supplemental Table 1D</xref>). These data suggest that only in improvers on abatacept do we see molecular modulation of pathways directly linked to abatacept’s mechanism of action.</p>
+                <p>Analysis of ASSET clinical outcomes showed that the inflammatory subset of patients showed the largest clinical improvement, as determined by a decrease in mRSS (<xref rid="B10" ref-type="bibr">10</xref>). Accordingly, we divided our data set by intrinsic subset to identify molecular pathways specific to the subsets in the GSEA analysis. The top 10 pathways for inflammatory, fibroproliferative, and normal-like subsets can be found in <xref rid="sd" ref-type="sec">Supplemental Table 2</xref>, <xref rid="sd" ref-type="sec">Supplemental Table 3</xref>, and <xref rid="sd" ref-type="sec">Supplemental Table 4</xref>, respectively. Importantly, we found that, in patients in the inflammatory subset that improved on abatacept, there was an enrichment of the Costimulation of the CD28 Family pathway in the pretreatment biopsies (<xref rid="T2" ref-type="table">Table 2</xref>). This pathway was not significantly changed in patients on placebo or patients in the fibroproliferative subset treated with abatacept (<xref rid="T2" ref-type="table">Table 2</xref>). Interestingly, we saw that nonimproving patients in the inflammatory subset on abatacept still showed modulation of the Costimulation of the CD28 Family pathway, albeit at the lower pathway rank (<xref rid="T2" ref-type="table">Table 2</xref>). This suggests that while these patients might not be clinically improving, we still observed effective targeting of the pathway at the molecular level. Taken together, these data demonstrate a measurable decrease in pathways related to abatacept treatment that was specific to patients in the inflammatory subset. The change in pathway expression occurred regardless of clinical improvement, as shown through the enrichment of therapy-relevant pathways in baseline samples from a specific molecular subset of patients. It also reinforced the application of precision medicine to identify patients who could potentially benefit the most from a specific therapy.</p>
+              </sec>
+              <sec>
+                <title>Costimulation of the CD28 Family pathway is elevated in patients in the inflammatory subset and decreases when patients are treated with abatacept.</title>
+                <p>With Costimulation of the CD28 Family being implicated in the pilot study (<xref rid="B9" ref-type="bibr">9</xref>) and in this work, we sought to take a more granular look and investigate the expression trends of the genes driving the enrichment of this pathway. We found that the core enrichment genes (<italic toggle="yes">n</italic> = 23) showed a decreasing trend between baseline and 6-month time points in improvers treated with abatacept (<xref rid="F2" ref-type="fig">Figure 2A</xref>, <italic toggle="yes">P</italic> = 0.064), with no significant changes in abatacept-treated nonimprovers (<xref rid="F2" ref-type="fig">Figure 2B</xref>), placebo-treated improvers (<xref rid="F2" ref-type="fig">Figure 2C</xref>), or placebo-treated nonimprovers (<xref rid="F2" ref-type="fig">Figure 2D</xref>).</p>
+                <p>This trend was further clarified when the baseline biopsies were stratified by intrinsic subset. While 8 of 9 patients in the inflammatory subset on abatacept showed a decrease in the expression of the core enrichment genes between baseline and 6-month time points (<xref rid="F3" ref-type="fig">Figure 3, A and B</xref>), only the improvers showed a significant decrease (<xref rid="F3" ref-type="fig">Figure 3A</xref>, <italic toggle="yes">P</italic> = 0.047). Patients in the inflammatory subset on placebo did not show significant changes in the core enrichment genes from Costimulation of the CD28 Family (<xref rid="F3" ref-type="fig">Figure 3, C and D</xref>). Of note, this pathway did not show any significant change in patients in the fibroproliferative (<xref rid="sd" ref-type="sec">Supplemental Figure 1</xref>) or normal-like subsets (<xref rid="sd" ref-type="sec">Supplemental Figure 2</xref>).</p>
+                <p>Unsurprisingly, at baseline, the inflammatory subset of patients had significantly higher expression of genes that are enriched in response to CD28 costimulation, compared with the baseline expression of this pathway in patients who were in the fibroproliferative (<italic toggle="yes">P</italic> = 0.0026) or normal-like subsets (<xref rid="F4" ref-type="fig">Figure 4</xref>, <italic toggle="yes">P</italic> &lt; 0.0001). We repeated this analysis, adding back the patients removed by level 2 filtering and found that this difference remained when the set of 197 skin biopsies (68 patients) was analyzed (<xref rid="sd" ref-type="sec">Supplemental Figure 7</xref>). Thus, we postulate that patients in the inflammatory subset are more likely to improve on abatacept, because genes and pathways relevant to its mechanism of action have increased expression at baseline, and, thus, patients in the inflammatory subset are more responsive to therapeutic modulation by abatacept.</p>
+              </sec>
+              <sec>
+                <title>Expression of Costimulation of the CD28 Family at baseline in patients in the inflammatory subset is significantly related to change in skin thickness score at 12 months.</title>
+                <p>To determine whether the Costimulation of the CD28 Family signature was associated with clinical improvement on abatacept, we calculated change in mRSS correlations between baseline and 12 months and the original baseline expression. When considering the 47 patients who passed filtering, there were no significant correlations in the abatacept (<xref rid="F5" ref-type="fig">Figure 5A</xref>) or placebo (<xref rid="F5" ref-type="fig">Figure 5B</xref>) arms between baseline mRSS and total change across time points. In conducting this analysis parsed by molecular subtype, we observed significant correlation between baseline expression of core enrichment genes of the Costimulation of the CD28 Family pathway and decrease in mRSS for patients in the inflammatory subset on abatacept (<xref rid="F5" ref-type="fig">Figure 5A</xref>, Pearson’s, <italic toggle="yes">r</italic> = –0.76, <italic toggle="yes">P</italic> = 0.018). This correlation was not significant for patients in the inflammatory subset on placebo (<xref rid="F5" ref-type="fig">Figure 5B</xref>), patients in the fibroproliferative subset on abatacept (<xref rid="F5" ref-type="fig">Figure 5A</xref>) or placebo (<xref rid="F5" ref-type="fig">Figure 5B</xref>), or patients in the normal-like subset on abatacept (<xref rid="F5" ref-type="fig">Figure 5A</xref>). Conversely, we observed the opposite association between change in mRSS and patients in the normal-like subset on placebo (<xref rid="F5" ref-type="fig">Figure 5B</xref>, Pearson’s, <italic toggle="yes">r</italic> = 0.67, <italic toggle="yes">P</italic> = 0.016). We repeated this analysis in the 68 patients obtained when only level 1 filtering was applied and confirmed the result in the larger cohort (<xref rid="sd" ref-type="sec">Supplemental Figure 8</xref>).</p>
+              </sec>
+              <sec>
+                <title>Inclusion of all patients in the inflammatory subset at baseline is significantly related to the expression of the Costimulation of the CD28 Family.</title>
+                <p>To identify pathways modulated between baseline and after treatment time points, prior analyses required removal of samples that were missing RNA-Seq measurements or clinical data at the time point after treatment (level 1 and 2 filtering, <xref rid="sd" ref-type="sec">Supplemental Figure 3</xref>). However, using only baseline gene expression for subsequent analyses means that patients for whom RNA-Seq data were missing can now be added to analyses and in addition, linear-mixed models can be used to estimate mRSS in time points after treatment for patients who escaped therapy (<xref rid="B10" ref-type="bibr">10</xref>). We found that our results remained true when all patients in the inflammatory subset on abatacept (regardless of filtering) in the trial were considered (<xref rid="F6" ref-type="fig">Figure 6</xref>, Pearson’s, <italic toggle="yes">r</italic> = –0.62, <italic toggle="yes">P</italic> = 0.02) relative to change in MRSS from baseline to 12 months. We also analyzed the correlation between average expression centroid of the core enrichment genes from the Costimulation of the CD28 Family pathway in the 6-month biopsy and the change in mRSS from baseline to 6 months. We found that the overall relationship holds at the 6-month time point, although the slope of the line decreased, likely reflecting the treatment-associated decrease in the pathway expression (<xref rid="sd" ref-type="sec">Supplemental Figure 6</xref>, A and B).</p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion">
+              <title>Discussion</title>
+              <p>The rarity of and heterogeneity in SSc often lead to statistically underpowered clinical trials that result in outcomes that are difficult to interpret. Retrospective analyses of clinical trials have previously suggested that assessing patient heterogeneity can help identify patients who are most likely to benefit from specific therapies. Gene expression analyses of a pilot study of abatacept suggested that inflammatory pathways were highly expressed in patients who improved and that the expression of these pathways decreased with improvement (<xref rid="B9" ref-type="bibr">9</xref>). A meta-analysis of clinical trials in SSc came to a similar conclusion using data from 5 clinical studies, including mycophenolate mofetil, rituximab, abatacept, nilotinib, and fresolimumab. This study showed that abrogation of inflammatory pathways, regardless of treatment, was most significantly associated with clinical improvement (<xref rid="B7" ref-type="bibr">7</xref>). This meta-analysis also showed that patients with a high TGF-β signature at baseline were most likely to benefit in a trial of fresolimumab, which targets TGF-β1 (<xref rid="B7" ref-type="bibr">7</xref>).</p>
+              <p>In this work, we analyzed the gene expression at baseline of patients in the abatacept clinical trial and its changes with clinical improvement across molecular subtypes in the context of therapy. Consistent with results of previous work (<xref rid="B9" ref-type="bibr">9</xref>), we found that patients with SSc in the inflammatory subset had an increased expression of pathways targeted by abatacept at baseline and were the most likely group to benefit from treatment. We found that the Costimulation of the CD28 Family pathway, which is directly related to mechanism of action of abatacept, was elevated in patients in the inflammatory subset at baseline and that the decrease in expression of this pathway correlated with clinical improvement and resolution of skin fibrosis, as represented by a decrease in skin severity score. Interestingly, in the placebo arm, patients in the normal-like subset seemed to worsen if they had high expression of CD28 family genes at baseline. While these data may be explained by a select few samples, we note that patients in the normal-like subset who improved on abatacept showed modulation of Costimulation of the CD28 Family and that the expression of these genes seemed to decrease in most patients in the normal-like subset treated with the drug. As with the clinical study (<xref rid="B10" ref-type="bibr">10</xref>), we see no clear effect on the fibroproliferative subset of patients on abatacept, except for a nonstatistically significant increase in the number of patients in the fibroproliferative subset who move to the normal-like subset.</p>
+              <p>These data suggest that intrinsic subsets may provide a powerful platform to stratify the patient population with SSc prior to assessing the clinical efficacy of a therapeutic agent. In participants treated with abatacept who showed clinical improvement, we observed a consistent and statistically significant shift from the inflammatory to the normal-like subset by month 6. Interestingly, a similar shift was observed for a subset of fibroproliferative participants, but the change did not reach statistical significance. Participants in the placebo arm of the study were more likely to maintain a stable subset assignment from baseline to 6 months, although we note several exceptions in the inflammatory subset that include 1 biopsy classified as fibroproliferative at the 3-month time point and 1 as normal like at the 3-month time point, both of which were bounded by inflammatory subset assignments at baseline and 6 months. One patient was observed to shift from inflammatory to fibroproliferative at 6 months. These changes represent 3 biopsies of 21 (14%) for the patients in the inflammatory subset in the placebo arm, which is within the 15% classification error rate (<xref rid="B11" ref-type="bibr">11</xref>). Individuals in the placebo arm predominantly remained in their baseline molecular subtype, largely unchanged, reproducing prior observations (<xref rid="B4" ref-type="bibr">4</xref>), suggesting that the subtypes are stable through 6 months in the absence of disease-modifying treatment. These data provide an approach by which we can use precision medicine in SSc to identify those patients most likely improve on therapy, determine target engagement, and track an individuals’ molecular changes in disease state over time. This and our previously published analyses (<xref rid="B3" ref-type="bibr">3</xref>–<xref rid="B5" ref-type="bibr">5</xref>, <xref rid="B7" ref-type="bibr">7</xref>, <xref rid="B11" ref-type="bibr">11</xref>) suggest that clinical trialists should acknowledge molecular heterogeneity in early SSc and should enrich for pharmacologic target–specific subset (such as inflammatory intrinsic subset for abatacept, mycophenolate mofetil, etc.) or stratify randomization based on these subsets. In addition, our recently published meta-analysis highlights the role of scleroderma autoantibodies as an enrichment criterion and the overlap with the intrinsic gene expression sets (<xref rid="B12" ref-type="bibr">12</xref>, <xref rid="B13" ref-type="bibr">13</xref>).</p>
+              <p>This study has a number of limitations. RNA-Seq of skin biopsies from participants followed by subset classification using our machine-learning algorithm confirmed the a priori hypothesis that the inflammatory subset would improve. Although this is very promising, this result needs to be confirmed in a prospective phase III clinical trial. The study population remains relatively small, and these results need to be confirmed in a larger cohort of patients. Some individuals escaped therapy due to clinically worsening disease during the trial, including mRSS increase, pulmonary hypertension, or renal crisis, which could potentially introduce biases into our analyses. Those that escaped therapy included 10 individuals in the inflammatory subset, which could reduce the generalizability of our findings.</p>
+              <p>While the use of RNA-Seq to further investigate the tissue biology of these individuals brought many benefits, the filtering for data quality and escape events resulted in a reduction in samples analyzed here. We addressed this by adding back samples that were removed in level 2 filtering and repeating key analyses. We found that the exclusions increased the signal-to-noise ratio but did not change the main findings of the analysis, as similar trends in Costimulation of the CD28 Family pathway expression among molecular subtypes were still observed (<xref rid="sd" ref-type="sec">Supplemental Figure 7</xref>), with the highest expression difference noted among participants in the inflammatory subset (<italic toggle="yes">P</italic> &lt; 0.05). Correlations between the Costimulation of the CD28 Family pathway and mRSS demonstrated the same trends when all biopsies were added back in from those individuals who were removed in level 2 filtering (<xref rid="sd" ref-type="sec">Supplemental Figure 8</xref>).</p>
+              <p>In summary, we demonstrated that measuring molecular heterogeneity in patients with SSc can assist in the interpretation of clinical trial results and may be valuable tool that can be used in future studies to identify the patients most likely to improve on a given therapy.</p>
+            </sec>
+            <sec sec-type="methods">
+              <title>Methods</title>
+              <sec>
+                <title>Participants in the ASSET clinical trial.</title>
+                <p>Participants in this study were from a phase II, investigator-initiated, randomized, double-blind, placebo-controlled trial of abatacept in patients with early-stage dcSSc, defined as disease duration of less than 36 months at enrollment (Clinicaltrials.gov NCT02161406). dcSSc was defined as skin thickening, proximal as well as distal, to the elbows or knees with or without involvement of the face and neck. Study participants were treated for 12 months on double-blind study medication and were offered an additional 6 months of open-label s.c. abatacept therapy as previously described (<xref rid="B14" ref-type="bibr">14</xref>). Key inclusion criteria and have been described in the clinical study (<xref rid="B10" ref-type="bibr">10</xref>). Oral corticosteroids (≤10 mg/d prednisone or equivalent) and NSAIDs were permitted if the patient was on a stable dose regimen for equal to or more than 2 weeks prior to and including the baseline visit, but no background immunomodulatory therapies were allowed. Improvement was defined as a 5 point or greater than 20% change in mRSS between baseline and 12 months, as used in the primary ASSET clinical trial analyses (<xref rid="B10" ref-type="bibr">10</xref>, <xref rid="B15" ref-type="bibr">15</xref>).</p>
+              </sec>
+              <sec>
+                <title>Collection and RNA-Seq.</title>
+                <p>Skin biopsies were collected (3 mm) from the forearm of participants enrolled in the trial. Biopsies were collected at baseline, 3 months, and 6 months. Samples were stored in RNA<italic toggle="yes">later</italic> (Thermo Fisher Scientific) and subsequently homogenized using a Qiagen Tissuelyser II. RNA was purified using Qiagen’s RNeasy Fibrous Tissue minikit. Quality and concentration of RNA were assessed on a TapeStation 4400 (Agilent). 100 ng total RNA was used for library preparation using the TruSeq Stranded Total RNA Library Prep Kit (Illumina). Libraries were prepared manually or were automated on an epMotion 5075t (Eppendorf). Libraries were assessed for size and concentration using the TapeStation 4400. Sequencing libraries were quantified on a Qubit fluorometer 3.0 (Thermo Fisher Scientific) prior to normalization for equimolar pooling. Single-index paired-end sequencing was performed on Illumina’s NextSeq 500 to achieve more than 40 million reads per sample. Sequencing runs for samples were included in or excluded from analyses according to experimental and patient-specific factors outlined in <xref rid="sd" ref-type="sec">Supplemental Figure 3</xref> (i.e., level 1 and level 2 filtering as outlined).</p>
+              </sec>
+              <sec>
+                <title>Subset classification.</title>
+                <p>RNA-Seq data were first normalized using feature-specific quantile normalization (<xref rid="B16" ref-type="bibr">16</xref>), which allowed subset classification. Molecular subset classifications assigned in the ASSET phase II clinical trial paper were used for these analyses (<xref rid="B10" ref-type="bibr">10</xref>). The SVM classifier used to assign SSc intrinsic molecular subsets was previously developed and its construction (including cross-validation of training and test sets), internal, and external validation in independent data sets is described in Franks et al. (<xref rid="B11" ref-type="bibr">11</xref>).</p>
+              </sec>
+              <sec>
+                <title>Data processing and visualization.</title>
+                <p>233 biospecimens were prepared and sequenced. A custom RNA-Seq pipeline was applied to align the paired-end sequencing data. First, we applied the cutadapt (ref. <xref rid="B17" ref-type="bibr">17</xref>; <ext-link xlink:href="https://cutadapt.readthedocs.io/en/stable/" ext-link-type="uri">https://cutadapt.readthedocs.io/en/stable/</ext-link>) (version 1.15) to remove the adapter sequence (in our case it was “AGATCGGAAGAGC”) for the FASTQ files. Then, STAR (version 2.5.3a) was applied to align the reads to the hg19 human genome (<xref rid="B18" ref-type="bibr">18</xref>). Next, gene abundance was quantified using RSEM (version 3.3.9) (<xref rid="B19" ref-type="bibr">19</xref>). Finally, normalized RPKM was calculated using the TMM function (edgeR package) (<xref rid="B20" ref-type="bibr">20</xref>). The complete data set is available on NCBI’s Gene Expression Omnibus (GEO) under accession GSE217067.</p>
+                <p>RPKM data were log<sub>2</sub> and median centered in R prior to data being visualized via Cluster 3.0 (ref. <xref rid="B21" ref-type="bibr">21</xref>; <ext-link xlink:href="http://bonsai.hgc.jp/~mdehoon/software/cluster/software.htm" ext-link-type="uri">http://bonsai.hgc.jp/~mdehoon/software/cluster/software.htm</ext-link>) and Java Treeview (ref. <xref rid="B22" ref-type="bibr">22</xref>; <ext-link xlink:href="https://jtreeview.sourceforge.net/" ext-link-type="uri">https://jtreeview.sourceforge.net/</ext-link>). Pathway enrichment in gene lists was determined using g:Profiler. Data visualization for subtype progression between baseline through month 6 was assessed for statistical significance by Fisher’s exact test for each molecular subtype.</p>
+              </sec>
+              <sec>
+                <title>GSEA.</title>
+                <p>To identify differentially enriched molecular pathways, GSEA was run as a Gene Pattern module (<ext-link xlink:href="https://www.genepattern.org/#gsc.tab=0" ext-link-type="uri">https://www.genepattern.org/#gsc.tab=0</ext-link>) using the gene set permutation option (<xref rid="B23" ref-type="bibr">23</xref>). The C2:Reactome gene set database from Molecular Signatures Database was used (v6.1 MSigDB) (<xref rid="B24" ref-type="bibr">24</xref>, <xref rid="B25" ref-type="bibr">25</xref>). GSEA was performed on various comparisons and only results with a FDR of less than 10% were reported. The GSEA.html output files defined core enrichment.</p>
+              </sec>
+              <sec>
+                <title>Statistics.</title>
+                <p>Comparison of the gene expression of the Costimulation of the CD28 Family pathway in all trial participants and the inflammatory subset–only trial participants at baseline versus month 6 was assessed using 2-tailed paired <italic toggle="yes">t</italic> test, with significance set at <italic toggle="yes">P</italic> &lt; 0.05. Baseline gene expression of the Costimulation of the CD28 Family pathway among molecular subsets was compared using a 1-way ANOVA plus Tukey’s test for multiple comparisons, with significance set at <italic toggle="yes">P</italic> &lt; 0.05. Association of the Costimulation of the CD28 Family pathway at baseline with change in mRSS (between baseline and 12 months) was conducted using Pearson’s correlation, with <italic toggle="yes">P</italic> &lt; 0.05. All statistical tests were performed using R v3.4.3 using the “stats” package in baseR.</p>
+              </sec>
+              <sec>
+                <title>Study approval.</title>
+                <p>Written informed consent was obtained from each participant. Each participating site’s institutional review board or ethics committee approved the study protocol for the clinical trial before the research commenced (<xref rid="B10" ref-type="bibr">10</xref>). The participating sites included Arthritis Associates of Southern California, Los Angeles, California, USA; UCLA, Los Angeles, California, USA; Stanford University, Redwood City, California, USA; Georgetown University, Washington, DC, USA; Northwestern University, Chicago, Illinois, USA; Harvard Mass General, Boston, Massachusetts, USA; Boston University, Boston, Massachusetts, USA; University of Michigan, Ann Arbor, Michigan, USA; University of Minnesota, Minneapolis, Minnesota, USA; Mayo Clinic, Rochester, Minnesota, USA; Rutgers University Clinical Research Center, New Brunswick, New Jersey, USA; Steffens Scleroderma Center, Albany, New York, USA; NorthWell Health, Great Neck, New York, USA; Hospital for Special Surgery, New York, New York, USA; Columbia University, New York, New York, USA; Cleveland Clinic, Cleveland, Ohio, USA;Ohio State University Medical Center, Columbus, Ohio, USA; University of Pennsylvania, Philadelphia, Pennsylvania, USA; University of Pittsburgh, Pittsburgh, Pennsylvania, USA; Medical University of South Carolina, Charleston, South Carolina, USA; University of Texas Health Center at Houston, Houston, Texas, USA; University of Utah, Salt Lake City, Utah, USA; Swedish Health Services, Seattle, Washington, USA; St. Joseph Health Care London, London, Ontario, Canada; Mount Sinai Hospital, Toronto, Ontario, Canada; Jewish General Hospital, Montreal, Quebec, Canada; and Royal Free Hospital, London, United Kingdom (ClinicalTrials.gov NCT02161406). The Dartmouth College Committee for the Protection of Human Subjects (Hanover, New Hampshire) reviewed and approved all protocols related to the gene expression analyses.</p>
+              </sec>
+            </sec>
+            <sec>
+              <title>Author contributions</title>
+              <p>MLW, DK, DAF, and CS designed the research study. BKM, JMF, YY, YW, and TW conducted experiments. BKM, TW, DK, and MLW acquired data. BKM, MEE, JMF, YY, YW, TW, JEG, CS, DAF, DK, and MLW analyzed data. BKM, MEE, DK, and MLW wrote the manuscript. All authors approved the manuscript. BKM and MEE are co–first authors. BKM is listed first because BKM performed all initial RNA-Seq of samples and bioinformatic analyses and drafted the manuscript. MEE completed the bioinformatic analyses and the manuscript.</p>
+            </sec>
+            <sec sec-type="supplementary-material" id="sd">
+              <title>Supplementary Material</title>
+              <supplementary-material id="SD1" position="float" content-type="local-data">
+                <caption>
+                  <title>Supplemental data</title>
+                </caption>
+                <media xlink:href="jciinsight-7-155282-s151.pdf" id="d64e719" position="anchor"/>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>This work was supported by the NIH/National Institute of Allergy and Infectious Diseases Clinical Autoimmunity Center of Excellence, NIH/National Institute of Arthritis and Musculoskeletal and Skin Diseases (K24 AR063120, to DK), NIH/National Institute of Arthritis and Musculoskeletal and Skin Diseases (R01 AR-07047, to DK) to the University of Michigan, and by the Scleroderma Research Foundation (to MLW), Burroughs-Wellcome PUP Big Data in the Life Sciences Training Program (to MLW, JMF, YW, and MEE), NIH (BD2K T32 5T32LM012204, to JMF), NIH (T32 AI007363, to BKM and MEE), and the Dr. Ralph and Marian Falk Medical Research Trust (to MLW) to Dartmouth College. The clinical trial was funded by Bristol-Myer Squibb. This was an investigator-initiated trial designed by the sponsor (the study was sponsored by Bristol-Myers Squibb, and the sponsor on record for the FDA was DK) and the steering committee. The industry funder, Bristol-Myer Squibb, had no role in collecting, analyzing, and interpreting the data. Mechanistic studies, including analysis of gene expression in skin biopsies, was funded by the NIH/National Institute of Allergy and Infectious Diseases through the University of Michigan Clinical Autoimmunity Center of Excellence. The clinical data were stored at the University of Michigan Data Coordinating Center. Gene expression data were generated, stored, and analyzed at Dartmouth College.</p>
+            </ack>
+            <fn-group>
+              <fn>
+                <p><bold>Conflict of interest:</bold> MLW has received research support and consulting fees from Bristol-Myers Squibb and Celdara Medical and has served on advisory boards for Acceleron and Boehringer Ingelheim. MLW is a scientific founder of Celdara Medical. DK has received consulting fees from AstraZeneca, Boehringer Ingelheim, CSL Behring, and Genentech/Roche as well as research support on behalf of the University of Michigan from Bayer, Bristol-Myers Squibb, and Pfizer. DK owns stock options in Eicos Sciences Inc. JEG has received research grants from AbbVie, AnaptysBio, Janssen, Pfizer, Novartis, Celgene/Bristol-Myers Squibb, and Eli Lilly and has served on advisory boards for Novartis, AbbVie, Eli Lilly, miRagen, and Almirall. CS is a statistical consultant for Fifth Eye Inc. She is a member of a data monitoring committee for studies that pay an honorarium for Astellas Pharma and Endo Pharmaceuticals.</p>
+              </fn>
+              <fn>
+                <p><bold>Copyright:</bold> © 2022, Mehta et al. This is an open access article published under the terms of the Creative Commons Attribution 4.0 International License.</p>
+              </fn>
+              <fn>
+                <p><bold>Reference information:</bold><italic toggle="yes"> JCI Insight</italic>. 2022;7(24):e155282.https://doi.org/10.1172/jci.insight.155282.</p>
+              </fn>
+            </fn-group>
+            <ref-list>
+              <ref id="B1">
+                <label>1</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Denton</surname>
+                      <given-names>CP</given-names>
+                    </name>
+                    <name>
+                      <surname>Khanna</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Systemic sclerosis</article-title>
+                  <source>Lancet</source>
+                  <year>2017</year>
+                  <volume>390</volume>
+                  <issue>10103</issue>
+                  <fpage>1685</fpage>
+                  <lpage>1699</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0140-6736(17)30933-9</pub-id>
+                  <?supplied-pmid 28413064?>
+                  <pub-id pub-id-type="pmid">28413064</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B2">
+                <label>2</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nagaraja</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Current and future outlook on disease modification and defining low disease activity in systemic sclerosis</article-title>
+                  <source>Arthritis Rheumatol</source>
+                  <year>2020</year>
+                  <volume>72</volume>
+                  <issue>7</issue>
+                  <fpage>1049</fpage>
+                  <lpage>1058</lpage>
+                  <pub-id pub-id-type="doi">10.1002/art.41246</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">7329619</pub-id>-->
+                  <?supplied-pmid 32134199?>
+                  <pub-id pub-id-type="pmid">32134199</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B3">
+                <label>3</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Milano</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Molecular subsets in the gene expression signatures of scleroderma skin</article-title>
+                  <source>PLoS One</source>
+                  <year>2008</year>
+                  <volume>3</volume>
+                  <issue>7</issue>
+                  <elocation-id>e2696</elocation-id>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0002696</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">2481301</pub-id>-->
+                  <?supplied-pmid 18648520?>
+                  <pub-id pub-id-type="pmid">18648520</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B4">
+                <label>4</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pendergrass</surname>
+                      <given-names>SA</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Intrinsic gene expression subsets of diffuse cutaneous systemic sclerosis are stable in serial skin biopsies</article-title>
+                  <source>J Invest Dermatol</source>
+                  <year>2012</year>
+                  <volume>132</volume>
+                  <issue>5</issue>
+                  <fpage>1363</fpage>
+                  <lpage>1373</lpage>
+                  <pub-id pub-id-type="doi">10.1038/jid.2011.472</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">3326181</pub-id>-->
+                  <?supplied-pmid 22318389?>
+                  <pub-id pub-id-type="pmid">22318389</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B5">
+                <label>5</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hinchcliff</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Molecular signatures in skin associated with clinical improvement during mycophenolate treatment in systemic sclerosis</article-title>
+                  <source>J Invest Dermatol</source>
+                  <year>2013</year>
+                  <volume>133</volume>
+                  <issue>8</issue>
+                  <fpage>1979</fpage>
+                  <lpage>1989</lpage>
+                  <pub-id pub-id-type="doi">10.1038/jid.2013.130</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">3714324</pub-id>-->
+                  <?supplied-pmid 23677167?>
+                  <pub-id pub-id-type="pmid">23677167</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B6">
+                <label>6</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Johnson</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Experimentally-derived fibroblast gene signatures identify molecular pathways associated with distinct subsets of systemic sclerosis patients in three independent cohorts</article-title>
+                  <source>PLoS One</source>
+                  <year>2015</year>
+                  <volume>10</volume>
+                  <issue>1</issue>
+                  <elocation-id>e0114017</elocation-id>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0114017</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">4301872</pub-id>-->
+                  <?supplied-pmid 25607805?>
+                  <pub-id pub-id-type="pmid">25607805</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B7">
+                <label>7</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Taroni</surname>
+                      <given-names>JN</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>A functional genomic meta-analysis of clinical trials in systemic sclerosis: toward precision medicine and combination therapy</article-title>
+                  <source>J Invest Dermatol</source>
+                  <year>2017</year>
+                  <volume>137</volume>
+                  <issue>5</issue>
+                  <fpage>1033</fpage>
+                  <lpage>1041</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jid.2016.12.007</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">8190797</pub-id>-->
+                  <?supplied-pmid 28011145?>
+                  <pub-id pub-id-type="pmid">28011145</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B8">
+                <label>8</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ruderman</surname>
+                      <given-names>EM</given-names>
+                    </name>
+                    <name>
+                      <surname>Pope</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Drug insight: abatacept for the treatment of rheumatoid arthritis</article-title>
+                  <source>Nat Clin Pract Rheumatol</source>
+                  <year>2006</year>
+                  <volume>2</volume>
+                  <issue>12</issue>
+                  <fpage>654</fpage>
+                  <lpage>660</lpage>
+                  <pub-id pub-id-type="doi">10.1038/ncprheum0345</pub-id>
+                  <?supplied-pmid 17133250?>
+                  <pub-id pub-id-type="pmid">17133250</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B9">
+                <label>9</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chakravarty</surname>
+                      <given-names>EF</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Gene expression changes reflect clinical response in a placebo-controlled randomized trial of abatacept in patients with diffuse cutaneous systemic sclerosis</article-title>
+                  <source>Arthritis Res Ther</source>
+                  <year>2015</year>
+                  <volume>17</volume>
+                  <elocation-id>159</elocation-id>
+                  <pub-id pub-id-type="doi">10.1186/s13075-015-0669-3</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">4487200</pub-id>-->
+                  <?supplied-pmid 26071192?>
+                  <pub-id pub-id-type="pmid">26071192</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B10">
+                <label>10</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Khanna</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Abatacept in early diffuse cutaneous systemic sclerosis: results of a phase II investigator-initiated, multicenter, double-blind, randomized, placebo-controlled trial</article-title>
+                  <source>Arthritis Rheumatol</source>
+                  <year>2020</year>
+                  <volume>72</volume>
+                  <issue>1</issue>
+                  <fpage>125</fpage>
+                  <lpage>136</lpage>
+                  <pub-id pub-id-type="doi">10.1002/art.41055</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">6935399</pub-id>-->
+                  <?supplied-pmid 31342624?>
+                  <pub-id pub-id-type="pmid">31342624</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B11">
+                <label>11</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Franks</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>A machine learning classifier for assigning individual patients with systemic sclerosis to intrinsic molecular subsets</article-title>
+                  <source>Arthritis Rheumatol</source>
+                  <year>2019</year>
+                  <volume>71</volume>
+                  <issue>10</issue>
+                  <fpage>1701</fpage>
+                  <lpage>1710</lpage>
+                  <pub-id pub-id-type="doi">10.1002/art.40898</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">6764877</pub-id>-->
+                  <?supplied-pmid 30920766?>
+                  <pub-id pub-id-type="pmid">30920766</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B12">
+                <label>12</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Franks</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>A genomic meta-analysis of clinical variables and their association with intrinsic molecular subsets in systemic sclerosis</article-title>
+                  <comment>[published online June 25, 2022].</comment>
+                  <source>Rheumatology (oxford)</source>
+                  <pub-id pub-id-type="doi">10.1093/rheumatology/keac344</pub-id>
+                  <?supplied-pmid 35751592?>
+                  <pub-id pub-id-type="pmid">35751592</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B13">
+                <label>13</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Clinical phenotypes of patients with systemic sclerosis with distinct molecular signatures in skin</article-title>
+                  <comment>[published online August 23, 2022].</comment>
+                  <source>Arthritis Care Res (hoboken)</source>
+                  <pub-id pub-id-type="doi">10.1002/acr.24998</pub-id>
+                  <?supplied-pmid 35997480?>
+                  <pub-id pub-id-type="pmid">35997480</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B14">
+                <label>14</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chung</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Safety and efficacy of abatacept in early diffuse cutaneous systemic sclerosis (ASSET): open-label extension of a phase 2, double-blind randomised trial</article-title>
+                  <source>Lancet Rheumatol</source>
+                  <year>2020</year>
+                  <volume>2</volume>
+                  <issue>12</issue>
+                  <fpage>e743</fpage>
+                  <lpage>e753</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S2665-9913(20)30237-X</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">8713509</pub-id>-->
+                  <?supplied-pmid 34966900?>
+                  <pub-id pub-id-type="pmid">34966900</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B15">
+                <label>15</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Khanna</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Minimal clinically important differences for the modified rodnan skin score: results from the scleroderma lung studies (SLS-I and SLS-II)</article-title>
+                  <source>Arthritis Res Ther</source>
+                  <year>2019</year>
+                  <volume>21</volume>
+                  <issue>1</issue>
+                  <elocation-id>23</elocation-id>
+                  <pub-id pub-id-type="doi">10.1186/s13075-019-1809-y</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">6335851</pub-id>-->
+                  <?supplied-pmid 30651141?>
+                  <pub-id pub-id-type="pmid">30651141</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B16">
+                <label>16</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Franks</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Feature specific quantile normalization enables cross-platform classification of molecular subtypes using gene expression data</article-title>
+                  <source>Bioinformatics</source>
+                  <year>2018</year>
+                  <volume>34</volume>
+                  <issue>11</issue>
+                  <fpage>1868</fpage>
+                  <lpage>1874</lpage>
+                  <pub-id pub-id-type="doi">10.1093/bioinformatics/bty026</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">5972664</pub-id>-->
+                  <?supplied-pmid 29360996?>
+                  <pub-id pub-id-type="pmid">29360996</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B17">
+                <label>17</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Martin</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cutadapt removes adapter sequences from high-throughput sequencing reads</article-title>
+                  <source>EMBnet. journal</source>
+                  <year>2011</year>
+                  <volume>17</volume>
+                  <issue>1</issue>
+                  <fpage>10</fpage>
+                  <lpage>12</lpage>
+                </element-citation>
+              </ref>
+              <ref id="B18">
+                <label>18</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dobin</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>STAR: ultrafast universal RNA-seq aligner</article-title>
+                  <source>Bioinformatics</source>
+                  <year>2013</year>
+                  <volume>29</volume>
+                  <issue>1</issue>
+                  <fpage>15</fpage>
+                  <lpage>21</lpage>
+                  <pub-id pub-id-type="doi">10.1093/bioinformatics/bts635</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">3530905</pub-id>-->
+                  <?supplied-pmid 23104886?>
+                  <pub-id pub-id-type="pmid">23104886</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B19">
+                <label>19</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Dewey</surname>
+                      <given-names>CN</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome</article-title>
+                  <source>BMC Bioinformatics</source>
+                  <year>2011</year>
+                  <volume>12</volume>
+                  <elocation-id>323</elocation-id>
+                  <pub-id pub-id-type="doi">10.1186/1471-2105-12-323</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">3163565</pub-id>-->
+                  <?supplied-pmid 21816040?>
+                  <pub-id pub-id-type="pmid">21816040</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B20">
+                <label>20</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Robinson</surname>
+                      <given-names>MD</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>edgeR: a Bioconductor package for differential expression analysis of digital gene expression data</article-title>
+                  <source>Bioinformatics</source>
+                  <year>2010</year>
+                  <volume>26</volume>
+                  <issue>1</issue>
+                  <fpage>139</fpage>
+                  <lpage>140</lpage>
+                  <pub-id pub-id-type="doi">10.1093/bioinformatics/btp616</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">2796818</pub-id>-->
+                  <?supplied-pmid 19910308?>
+                  <pub-id pub-id-type="pmid">19910308</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B21">
+                <label>21</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Eisen</surname>
+                      <given-names>MB</given-names>
+                    </name>
+                    <name>
+                      <surname>Spellman</surname>
+                      <given-names>PT</given-names>
+                    </name>
+                    <name>
+                      <surname>Brown</surname>
+                      <given-names>PO</given-names>
+                    </name>
+                    <name>
+                      <surname>Botstein</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cluster analysis and display of genome-wide expression patterns</article-title>
+                  <source>Proc Natl Acad Sci U S A</source>
+                  <year>1998</year>
+                  <volume>95</volume>
+                  <issue>25</issue>
+                  <fpage>14863</fpage>
+                  <lpage>14868</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.95.25.14863</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">24541</pub-id>-->
+                  <?supplied-pmid 9843981?>
+                  <pub-id pub-id-type="pmid">9843981</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B22">
+                <label>22</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Saldanha</surname>
+                      <given-names>AJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Java Treeview—extensible visualization of microarray data</article-title>
+                  <source>Bioinformatics</source>
+                  <year>2004</year>
+                  <volume>20</volume>
+                  <issue>17</issue>
+                  <fpage>3246</fpage>
+                  <lpage>3248</lpage>
+                  <pub-id pub-id-type="doi">10.1093/bioinformatics/bth349</pub-id>
+                  <?supplied-pmid 15180930?>
+                  <pub-id pub-id-type="pmid">15180930</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B23">
+                <label>23</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Reich</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Liefeld</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Gould</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Lerner</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Tamayo</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Mesirov</surname>
+                      <given-names>JP</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>GenePattern 2.0</article-title>
+                  <source>Nat Genet</source>
+                  <year>2006</year>
+                  <volume>38</volume>
+                  <issue>5</issue>
+                  <fpage>500</fpage>
+                  <lpage>501</lpage>
+                  <pub-id pub-id-type="doi">10.1038/ng0506-500</pub-id>
+                  <?supplied-pmid 16642009?>
+                  <pub-id pub-id-type="pmid">16642009</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B24">
+                <label>24</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Subramanian</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles</article-title>
+                  <source>Proc Natl Acad Sci U S A</source>
+                  <year>2005</year>
+                  <volume>102</volume>
+                  <issue>43</issue>
+                  <fpage>15545</fpage>
+                  <lpage>15550</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.0506580102</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">1239896</pub-id>-->
+                  <?supplied-pmid 16199517?>
+                  <pub-id pub-id-type="pmid">16199517</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B25">
+                <label>25</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Liberzon</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Molecular signatures database (MSigDB) 3.0</article-title>
+                  <source>Bioinformatics</source>
+                  <year>2011</year>
+                  <volume>27</volume>
+                  <issue>12</issue>
+                  <fpage>1739</fpage>
+                  <lpage>1740</lpage>
+                  <pub-id pub-id-type="doi">10.1093/bioinformatics/btr260</pub-id>
+                  <pub-id pub-id-type="pmid">21546393</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+            <notes notes-type="version-changes">
+              <sec sec-type="version-changes">
+                <label>Version 1</label>
+                <title>11/10/2022</title>
+                <p>In-Press Preview</p>
+              </sec>
+              <sec sec-type="version-changes">
+                <label>Version 2</label>
+                <title>12/22/2022</title>
+                <p>Electronic publication</p>
+              </sec>
+            </notes>
+          </back>
+          <floats-group>
+            <fig position="float" id="F1">
+              <label>Figure 1</label>
+              <caption>
+                <title>Baseline skin biopsies recapitulate intrinsic subset biology.</title>
+                <p>(<bold>A</bold>) Hierarchical clustering of log<sub>2</sub> median-centered data, with the most variable genes (2,179 genes) from a 2-fold, 2-array heatmap using Cluster 3.0. Color bars represent intrinsic subset by SVM classifier and treatment-improvement status. (<bold>B</bold>) Expansion of gene clusters from <bold>A</bold> that correlate with intrinsic subset SVM call. Selected genes are shown. The top 10 most significant pathways (FDR &lt; 5%) from g:Profiler are shown. (<bold>C</bold>) Dendrogram with color bars for SVM calls at baseline and in 3- and 6-month skin biopsies. Abatacept and placebo treatment is shown on the far right, color-coded by improver and nonimprover status. (<bold>D</bold>) Progression of subtypes from baseline to month 6. Numbers of individuals with each progression are shown to the right.</p>
+              </caption>
+              <graphic xlink:href="jciinsight-7-155282-g143" position="float"/>
+            </fig>
+            <fig position="float" id="F2">
+              <label>Figure 2</label>
+              <caption>
+                <title>Comparison of the Costimulation of the CD28 Family average expression for patients at baseline and 6-month time points.</title>
+                <p>(<bold>A</bold>) Average gene expression for core enrichment genes in the Costimulation of the CD28 Family pathway in patients on abatacept who improved. Data are log<sub>2</sub> and median centered. (<bold>B</bold>) Average gene expression for core enrichment genes in the Costimulation of the CD28 Family pathway in patients on abatacept who did not improve. Data are log<sub>2</sub> and median centered. (<bold>C</bold>) Average gene expression for core enrichment genes in the Costimulation of the CD28 Family pathway in patients on placebo who improved. Data are log<sub>2</sub> and median centered. (<bold>D</bold>) Average gene expression for core enrichment genes in the Costimulation of the CD28 Family pathway in patients on placebo who did not improve. Data are log<sub>2</sub> and median centered. Paired <italic toggle="yes">t</italic> test <italic toggle="yes">P</italic> values are shown.</p>
+              </caption>
+              <graphic xlink:href="jciinsight-7-155282-g144" position="float"/>
+            </fig>
+            <fig position="float" id="F3">
+              <label>Figure 3</label>
+              <caption>
+                <title>Comparison of the average expression of the Costimulation of the CD28 Family pathway in the inflammatory subset at baseline and 6-month time points.</title>
+                <p>(<bold>A</bold>) Average gene expression for core enrichment genes in the Costimulation of the CD28 Family pathway in patients in the inflammatory subset on abatacept who improved. Data are log<sub>2</sub> and median centered. (<bold>B</bold>) Average expression for core enrichment genes of the CD28 pathway in patients in the inflammatory subset on abatacept who did not improve. Data are log<sub>2</sub> and median centered. (<bold>C</bold>) Average gene expression for core enrichment genes in the Costimulation of the CD28 Family pathway in patients in the inflammatory subset on placebo who improved. Data are log<sub>2</sub> and median centered. (<bold>D</bold>) Average gene expression for core enrichment genes in the Costimulation of the CD28 Family pathway in patients in the inflammatory subset on placebo who did not improve. Data are log<sub>2</sub> and median centered. Paired <italic toggle="yes">t</italic> test <italic toggle="yes">P</italic> values are shown.</p>
+              </caption>
+              <graphic xlink:href="jciinsight-7-155282-g145" position="float"/>
+            </fig>
+            <fig position="float" id="F4">
+              <label>Figure 4</label>
+              <caption>
+                <title>Baseline skin biopsies classified as the inflammatory intrinsic subset have elevated expression of genes that are enriched in response to CD28 costimulation.</title>
+                <p>(<bold>A</bold>) Baseline skin biopsies (<italic toggle="yes">n</italic> = 47) were log<sub>2</sub> and median centered. Means were found to be significantly different (<italic toggle="yes">P</italic> &lt; 0.001, ANOVA). Tukey’s test for multiple comparisons <italic toggle="yes">P</italic> values are shown. (<bold>B</bold>) Hierarchical clustering of core enrichment genes from the Costimulation of the CD28 Family and baseline biospecimens<bold>.</bold></p>
+              </caption>
+              <graphic xlink:href="jciinsight-7-155282-g146" position="float"/>
+            </fig>
+            <fig position="float" id="F5">
+              <label>Figure 5</label>
+              <caption>
+                <title>Baseline expression of genes that are enriched in response to CD28 costimulation is associated with patient improvement on abatacept and on placebo therapy in the inflammatory subset.</title>
+                <p>(<bold>A</bold>) All patients on abatacept (<italic toggle="yes">n</italic> = 25) divided by intrinsic subset: inflammatory, fibroproliferative, and normal like. (<bold>B</bold>) All patients on placebo (<italic toggle="yes">n</italic> = 22) divided by intrinsic subset: inflammatory, fibroproliferative, and normal like.</p>
+              </caption>
+              <graphic xlink:href="jciinsight-7-155282-g147" position="float"/>
+            </fig>
+            <fig position="float" id="F6">
+              <label>Figure 6</label>
+              <caption>
+                <title>Baseline expression of genes that are enriched in response to CD28 costimulation is associated with estimated change in skin severity on abatacept in the inflammatory subset.</title>
+                <p>A Pearson’s correlation <italic toggle="yes">P</italic> value is shown (<italic toggle="yes">n</italic> = 18).</p>
+              </caption>
+              <graphic xlink:href="jciinsight-7-155282-g148" position="float"/>
+            </fig>
+            <table-wrap position="float" id="T1">
+              <label>Table 1</label>
+              <caption>
+                <title>Demographic and baseline characteristics of individuals studied reported by treatment arm</title>
+              </caption>
+              <graphic xlink:href="jciinsight-7-155282-g149" position="float"/>
+            </table-wrap>
+            <table-wrap position="float" id="T2">
+              <label>Table 2</label>
+              <caption>
+                <title>FDRs of CD28 and resulting global directionality of expression in abatacept and placebo treatment arm participants</title>
+              </caption>
+              <graphic xlink:href="jciinsight-7-155282-g150" position="float"/>
+            </table-wrap>
+          </floats-group>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

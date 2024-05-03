@@ -1,0 +1,1410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T01:48:30Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:10034574" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:10034574</identifier>
+        <datestamp>2023-03-24</datestamp>
+        <setSpec>jamasd</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">JAMA Netw Open</journal-id>
+              <journal-id journal-id-type="iso-abbrev">JAMA Netw Open</journal-id>
+              <journal-title-group>
+                <journal-title>JAMA Network Open</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2574-3805</issn>
+              <publisher>
+                <publisher-name>American Medical Association</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC10034574</article-id>
+              <article-id pub-id-type="pmcid">PMC10034574</article-id>
+              <article-id pub-id-type="pmc-uid">10034574</article-id>
+              <article-id pub-id-type="pmid">36947036</article-id>
+              <article-id pub-id-type="pmid">36947036</article-id>
+              <article-id pub-id-type="doi">10.1001/jamanetworkopen.2023.4198</article-id>
+              <article-id pub-id-type="publisher-id">zoi230161</article-id>
+              <article-categories>
+                <subj-group subj-group-type="category" specific-use="electronic">
+                  <subject>Research</subject>
+                </subj-group>
+                <subj-group subj-group-type="heading">
+                  <subject>Original Investigation</subject>
+                </subj-group>
+                <subj-group subj-group-type="online-only">
+                  <subject>Online Only</subject>
+                </subj-group>
+                <subj-group subj-group-type="subject-area">
+                  <subject>Oncology</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>An Unsupervised Machine Learning Approach to Evaluating the Association of Symptom Clusters With Adverse Outcomes Among Older Adults With Advanced Cancer</article-title>
+                <subtitle>A Secondary Analysis of a Randomized Clinical Trial</subtitle>
+                <alt-title alt-title-type="headline">Symptom Clusters and Adverse Outcomes Among Older Adults With Advanced Cancer</alt-title>
+                <alt-title alt-title-type="running-head">Symptom Clusters and Adverse Outcomes Among Older Adults With Advanced Cancer</alt-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Xu</surname>
+                    <given-names>Huiwen</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <degrees>MHA</degrees>
+                  <xref rid="zoi230161aff1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                  <xref rid="zoi230161aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Mohamed</surname>
+                    <given-names>Mostafa</given-names>
+                  </name>
+                  <degrees>MBBCh</degrees>
+                  <xref rid="zoi230161aff3" ref-type="aff">
+                    <sup>3</sup>
+                  </xref>
+                  <xref rid="zoi230161aff4" ref-type="aff">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Flannery</surname>
+                    <given-names>Marie</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <degrees>RN</degrees>
+                  <xref rid="zoi230161aff5" ref-type="aff">
+                    <sup>5</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Peppone</surname>
+                    <given-names>Luke</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref rid="zoi230161aff6" ref-type="aff">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ramsdale</surname>
+                    <given-names>Erika</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <degrees>MS</degrees>
+                  <xref rid="zoi230161aff4" ref-type="aff">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Loh</surname>
+                    <given-names>Kah Poh</given-names>
+                  </name>
+                  <degrees>MBBCh</degrees>
+                  <degrees>BAO</degrees>
+                  <degrees>MS</degrees>
+                  <xref rid="zoi230161aff4" ref-type="aff">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Wells</surname>
+                    <given-names>Megan</given-names>
+                  </name>
+                  <degrees>MPH</degrees>
+                  <xref rid="zoi230161aff4" ref-type="aff">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Jamieson</surname>
+                    <given-names>Leah</given-names>
+                  </name>
+                  <degrees>RN</degrees>
+                  <xref rid="zoi230161aff7" ref-type="aff">
+                    <sup>7</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Vogel</surname>
+                    <given-names>Victor G.</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <xref rid="zoi230161aff8" ref-type="aff">
+                    <sup>8</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Hall</surname>
+                    <given-names>Bianca Alexandra</given-names>
+                  </name>
+                  <degrees>BA</degrees>
+                  <xref rid="zoi230161aff4" ref-type="aff">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Mustian</surname>
+                    <given-names>Karen</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <degrees>MPH</degrees>
+                  <xref rid="zoi230161aff6" ref-type="aff">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Mohile</surname>
+                    <given-names>Supriya</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <degrees>MS</degrees>
+                  <xref rid="zoi230161aff4" ref-type="aff">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Culakova</surname>
+                    <given-names>Eva</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <degrees>MS</degrees>
+                  <xref rid="zoi230161aff6" ref-type="aff">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+              </contrib-group>
+              <aff id="zoi230161aff1"><label>1</label>School of Public and Population Health, University of Texas Medical Branch, Galveston</aff>
+              <aff id="zoi230161aff2"><label>2</label>Sealy Center on Aging, University of Texas Medical Branch, Galveston</aff>
+              <aff id="zoi230161aff3"><label>3</label>Department of Public Health Sciences, University of Rochester Medical Center, Rochester, New York</aff>
+              <aff id="zoi230161aff4"><label>4</label>James P. Wilmot Cancer Institute, Division of Hematology/Oncology, Department of Medicine, University of Rochester Medical Center, Rochester, New York</aff>
+              <aff id="zoi230161aff5"><label>5</label>School of Nursing, University of Rochester Medical Center, Rochester, New York</aff>
+              <aff id="zoi230161aff6"><label>6</label>Department of Surgery, Supportive Care in Cancer, University of Rochester Medical Center, Rochester, New York</aff>
+              <aff id="zoi230161aff7"><label>7</label>Metro Minnesota Community Oncology Research Program, St Louis Park, Minnesota</aff>
+              <aff id="zoi230161aff8"><label>8</label>Geisinger Cancer Institute National Cancer Institute Community Oncology Research Program, Danville, Pennsylvania</aff>
+              <author-notes>
+                <title>Article Information</title>
+                <p><bold>Accepted for Publication:</bold> December 20, 2022.</p>
+                <p content-type="published-online"><bold>Published:</bold> March 22, 2023. <?xpp bx;1?>doi:<uri content-type="doi">10.1001/jamanetworkopen.2023.4198</uri></p>
+                <p content-type="open-access-note"><bold>Open Access:</bold> This is an open access article distributed under the terms of the <ext-link xlink:href="https://jamanetwork.com/pages/cc-by-license-permissions" ext-link-type="uri">CC-BY License</ext-link>. © 2023 Xu H et al. <italic>JAMA Network Open</italic>.</p>
+                <corresp id="zoi230161cor1"><bold>Corresponding Author:</bold> Huiwen Xu, PhD, MHA, School of Public and Population Health and Sealy Center on Aging, University of Texas Medical Branch, 301 University Blvd, Galveston, TX 77555 (<email xlink:href="huxu@utmb.edu">huxu@utmb.edu</email>).</corresp>
+                <p content-type="author-contributions"><bold>Author Contributions:</bold> Drs Mohile and Xu had full access to all of the data in the study and take responsibility for the integrity of the data and the accuracy of the data analysis. Drs Xu and Mohamed contributed equally.</p>
+                <p><italic>Concept and design:</italic> Xu, Mohamed, Flannery, Peppone, Mustian, Mohile, Culakova.</p>
+                <p><italic>Acquisition, analysis, or interpretation of data:</italic> Xu, Mohamed, Flannery, Ramsdale, Loh, Wells, Jamieson, Vogel, Hall, Mustian, Mohile.</p>
+                <p><italic>Drafting of the manuscript:</italic> Xu, Mohamed, Flannery, Mustian, Mohile, Culakova.</p>
+                <p><italic>Critical revision of the manuscript for important intellectual content: </italic>Xu, Mohamed, Flannery, Peppone, Ramsdale, Loh, Wells, Jamieson, Vogel, Hall, Mustian, Mohile.</p>
+                <p><italic>Statistical analysis:</italic> Xu, Mohamed, Ramsdale, Mustian, Mohile, Culakova.</p>
+                <p><italic>Obtained funding:</italic> Mustian, Mohile.</p>
+                <p><italic>Administrative, technical, or material support:</italic> Flannery, Wells, Vogel, Hall, Mustian, Mohile.</p>
+                <p><italic>Supervision:</italic> Ramsdale, Mustian, Mohile.</p>
+                <p content-type="COI-statement"><bold>Conflict of Interest Disclosures:</bold> None reported.</p>
+                <p content-type="funding-statement"><bold>Funding/Support:</bold> This study received funding from the National Cancer Institute (grants R01CA177592, U01CA233167, UG1CA189961, and R00CA237744) and the National Institute on Aging (grants K24AG056589 and P30-AG024832).</p>
+                <p><bold>Role of the Funder/Sponsor:</bold> The funders had no role in the design and conduct of the study; collection, management, analysis, and interpretation of the data; preparation, review, or approval of the manuscript; and decision to submit the manuscript for publication.</p>
+                <p content-type="data-sharing-statement"><bold>Data Sharing Statement:</bold> See <xref rid="note-ZOI230161-1-s" ref-type="supplementary-material">Supplement 3</xref>.</p>
+                <p><bold>Additional Contributions:</bold> We would like to thank the geriatric oncology research staff and University of Rochester National Cancer Institute Community Oncology Research Base staff. We would also like to thank the patients, community oncologists, and staff who participated in the study.</p>
+              </author-notes>
+              <pub-date pub-type="epub" iso-8601-date="2023-03-22T10:00">
+                <day>22</day>
+                <month>3</month>
+                <year>2023</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <month>3</month>
+                <year>2023</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>22</day>
+                <month>3</month>
+                <year>2023</year>
+              </pub-date>
+              <!--PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="epub"/>.-->
+              <volume>6</volume>
+              <issue>3</issue>
+              <elocation-id>e234198</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>18</day>
+                  <month>6</month>
+                  <year>2022</year>
+                </date>
+                <date date-type="accepted">
+                  <day>20</day>
+                  <month>12</month>
+                  <year>2022</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>Copyright 2023 Xu H et al. <italic>JAMA Network Open</italic>.</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>This is an open access article distributed under the terms of the CC-BY License.</license-p>
+                </license>
+              </permissions>
+              <self-uri content-type="pdf-version" xlink:href="jamanetwopen-e234198.pdf">jamanetwopen-e234198.pdf</self-uri>
+              <self-uri content-type="silverchair" xlink:href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/10.1001/jamanetworkopen.2023.4198"/>
+              <related-article related-article-type="commentary" ext-link-type="doi" id="ZIC230016" xlink:href="10.1001/jamanetworkopen.2023.4208"/>
+              <abstract abstract-type="key-points">
+                <title>Key Points</title>
+                <sec id="ab-zoi230161-1">
+                  <title>Question</title>
+                  <p>Can unsupervised machine learning identify older adults with advanced cancer who are at high risk of adverse outcomes based on patient-reported symptoms prior to cancer treatments?</p>
+                </sec>
+                <sec id="ab-zoi230161-2">
+                  <title>Findings</title>
+                  <p>In this secondary analysis of a randomized clinical trial with 706 older adults with advanced cancer, a k-means algorithm identified 3 patient clusters characterized by symptom severity (low, moderate, and high) that were associated with increased risk of unplanned hospitalization and death.</p>
+                </sec>
+                <sec id="ab-zoi230161-3">
+                  <title>Meaning</title>
+                  <p>These findings suggest that machine learning may be used to guide the development of risk stratification tools with the potential to assist clinicians in identifying older adults with high risk of hospitalization and death.</p>
+                </sec>
+              </abstract>
+              <abstract abstract-type="teaser" specific-use="electronic">
+                <p>This secondary analysis of a randomized clinical trial uses unsupervised machine learning to evaluate the association between symptom severity clusters among older patients with advanced cancer and adverse outcomes.</p>
+              </abstract>
+              <abstract>
+                <sec id="ab-zoi230161-4">
+                  <title>Importance</title>
+                  <p>Older adults with advanced cancer who have high pretreatment symptom severity often experience adverse events during cancer treatments. Unsupervised machine learning may help stratify patients into different risk groups.</p>
+                </sec>
+                <sec id="ab-zoi230161-5">
+                  <title>Objective</title>
+                  <p>To evaluate whether clusters identified from baseline patient-reported symptom severity were associated with adverse outcomes.</p>
+                </sec>
+                <sec id="ab-zoi230161-6">
+                  <title>Design, Setting, and Participants</title>
+                  <p>This secondary analysis of the Geriatric Assessment Intervention for Reducing Toxicity in Older Patients With Advanced Cancer (GAP70+) Trial (2014-2019) included patients who completed the National Cancer Institute Patient-Reported Outcomes version of the Common Terminology Criteria for Adverse Events (PRO-CTCAE) before starting a new cancer treatment regimen and received care at community oncology sites across the United States. An unsupervised machine learning algorithm (k-means with Euclidean distance) clustered patients based on similarities of baseline symptom severities. Clustering variables included severity items of 24 PRO-CTCAE symptoms (range, 0-4; corresponding to none, mild, moderate, severe, and very severe). Total severity score was calculated as the sum of 24 items (range, 0-96). Whether the clusters were associated with unplanned hospitalization, death, and toxic effects was then examined. Analyses were conducted in January and February 2022.</p>
+                </sec>
+                <sec id="ab-zoi230161-7">
+                  <title>Exposures</title>
+                  <p>Symptom severity.</p>
+                </sec>
+                <sec id="ab-zoi230161-8">
+                  <title>Main Outcomes and Measures</title>
+                  <p>Unplanned hospitalization over 3 months (primary), all-cause mortality over 1 year, and any clinician-rated grade 3 to 5 toxic effect over 3 months.</p>
+                </sec>
+                <sec id="ab-zoi230161-9">
+                  <title>Results</title>
+                  <p>Of 718 enrolled patients, 706 completed baseline PRO-CTCAE and were included (mean [SD] age, 77.2 [5.5] years, 401 [56.8%] male patients; 51 [7.2%] Black and 619 [87.8%] non-Hispanic White patients; 245 [34.7%] with gastrointestinal cancer; 175 [24.8%] with lung cancer; mean [SD] impaired Geriatric Assessment domains, 4.5 [1.6]). The algorithm classified 310 (43.9%), 295 (41.8%), and 101 (14.3%) into low-, medium-, and high-severity clusters (within-cluster mean [SD] severity scores: low, 6.3 [3.4]; moderate, 16.6 [4.3]; high, 29.8 [7.8]; <italic>P</italic> &lt; .001). Controlling for sociodemographic variables, clinical factors, study group, and practice site, compared with patients in the low-severity cluster, those in the moderate-severity cluster were more likely to experience hospitalization (risk ratio, 1.36; 95% CI, 1.01-1.84; <italic>P</italic> = .046). Moderate- and high-severity clusters were associated with a higher risk of death (moderate: hazard ratio, 1.31; 95% CI, 1.01-1.69; <italic>P</italic> = .04; high: hazard ratio, 2.00; 95% CI, 1.43-2.78; <italic>P</italic> &lt; .001), but not toxic effects.</p>
+                </sec>
+                <sec id="ab-zoi230161-10">
+                  <title>Conclusions and Relevance</title>
+                  <p>In this study, unsupervised machine learning partitioned patients into distinct symptom severity clusters; patients with higher pretreatment severity were more likely to experience hospitalization and death.</p>
+                </sec>
+                <sec id="ab-zoi230161-11">
+                  <title>Trial Registration</title>
+                  <p>ClinicalTrials.gov Identifier: <ext-link xlink:href="https://clinicaltrials.gov/ct2/show/NCT02054741" ext-link-type="uri">NCT02054741</ext-link></p>
+                </sec>
+              </abstract>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="H1-1-ZOI230161">
+              <title>Introduction</title>
+              <p>Older adults with advanced cancer usually present with a wide range of physical and psychological symptoms, such as insomnia, fatigue, and pain, prior to cancer treatments.<sup><xref rid="zoi230161r1" ref-type="bibr">1</xref>,<xref rid="zoi230161r2" ref-type="bibr">2</xref>,<xref rid="zoi230161r3" ref-type="bibr">3</xref>,<xref rid="zoi230161r4" ref-type="bibr">4</xref>,<xref rid="zoi230161r5" ref-type="bibr">5</xref></sup> Those patients are more vulnerable to developing symptoms compared with younger adults because of aging-related conditions (eg, disability and/or preexisting comorbidities), frailty, and lower physiological reserve with organ function.<sup><xref rid="zoi230161r2" ref-type="bibr">2</xref>,<xref rid="zoi230161r6" ref-type="bibr">6</xref>,<xref rid="zoi230161r7" ref-type="bibr">7</xref>,<xref rid="zoi230161r8" ref-type="bibr">8</xref></sup> Preexisting symptoms have been found to be associated with adverse outcomes during and after active treatments, including poor treatment tolerability (ie, defined as the degree to which overt adverse effects can be tolerated by the patient<sup><xref rid="zoi230161r2" ref-type="bibr">2</xref></sup>), functional deterioration, and worse quality of life.<sup><xref rid="zoi230161r9" ref-type="bibr">9</xref>,<xref rid="zoi230161r10" ref-type="bibr">10</xref></sup> On the other hand, some robust older adults may be undertreated due to potential bias toward age among clinicians. The American Society of Clinical Oncology recommends using the geriatric assessment (GA) to assess vulnerabilities in older adults undergoing chemotherapy.<sup><xref rid="zoi230161r11" ref-type="bibr">11</xref></sup></p>
+              <p>In recent years, patient-reported outcomes (PROs) have been increasingly used as a measure to capture symptom burden in patients with cancer.<sup><xref rid="zoi230161r12" ref-type="bibr">12</xref>,<xref rid="zoi230161r13" ref-type="bibr">13</xref>,<xref rid="zoi230161r14" ref-type="bibr">14</xref></sup> Symptom monitoring and management using PROs have been shown to improve quality of life, reduce emergency department visits, and maintain cancer treatments.<sup><xref rid="zoi230161r2" ref-type="bibr">2</xref>,<xref rid="zoi230161r13" ref-type="bibr">13</xref>,<xref rid="zoi230161r15" ref-type="bibr">15</xref></sup> Hence, the Food and Drug Administration and Friends of Cancer Research have identified PROs as a key end point related to tolerability assessment for clinical trials.<sup><xref rid="zoi230161r16" ref-type="bibr">16</xref></sup> As a complement to the clinician-rated Common Terminology Criteria for Adverse Events (CTCAE), the National Cancer Institute (NCI) developed the PRO version of the CTCAE (PRO-CTCAE) to seek information from patients.<sup><xref rid="zoi230161r14" ref-type="bibr">14</xref></sup> The NCI PRO-CTCAE item library includes 78 symptom terms assessing up to 4 attributes: presence or absence, frequency, severity, and interference with daily activities.<sup><xref rid="zoi230161r17" ref-type="bibr">17</xref></sup></p>
+              <p>To standardize the analysis of PRO-CTCAE data, the NCI formed a Cancer Treatment Tolerability Consortium with 4 research teams in 2018, as part of the Cancer Moonshot initiative.<sup><xref rid="zoi230161r2" ref-type="bibr">2</xref>,<xref rid="zoi230161r18" ref-type="bibr">18</xref></sup> PRO-CTCAE items were developed to be analyzed and reported individually<sup><xref rid="zoi230161r19" ref-type="bibr">19</xref></sup>; however, one methodologic initiative is examining a summative score that would capture overall symptom burden at baseline or cumulative symptomatic toxic effects during treatment. One potential approach is to use machine learning algorithms<sup><xref rid="zoi230161r20" ref-type="bibr">20</xref></sup> in addition to traditional methods, such as total score (eg, the scoring of MD Anderson Symptom Inventory).<sup><xref rid="zoi230161r21" ref-type="bibr">21</xref>,<xref rid="zoi230161r22" ref-type="bibr">22</xref></sup> Specifically, unsupervised machine learning, a data mining method that aims to detect unknown patterns in data without the need for prior human knowledge and intervention,<sup><xref rid="zoi230161r20" ref-type="bibr">20</xref>,<xref rid="zoi230161r23" ref-type="bibr">23</xref>,<xref rid="zoi230161r24" ref-type="bibr">24</xref></sup> may achieve this purpose. Researchers have become increasingly interested in applying unsupervised machine learning to identify cancer symptom subgroups.<sup><xref rid="zoi230161r25" ref-type="bibr">25</xref>,<xref rid="zoi230161r26" ref-type="bibr">26</xref>,<xref rid="zoi230161r27" ref-type="bibr">27</xref></sup> To our knowledge, no study has applied those algorithms to PRO-CTCAE data among older adults with advanced cancer.</p>
+              <p>To mitigate knowledge gaps, this study aimed to (1) identify patient clusters based on pretreatment PRO-CTCAE severity items using an unsupervised machine learning approach; (2) examine differences in patient characteristics and individual and total symptom severity by clusters; and (3) evaluate the longitudinal associations of patient clusters with unplanned hospitalization, overall mortality, and clinician-rated toxic effects. We hypothesized that the patterns of unplanned hospitalizations, mortality, and toxic effects will differ by symptom clusters.</p>
+            </sec>
+            <sec id="H1-2-ZOI230161">
+              <title>Methods</title>
+              <sec id="H2-1-ZOI230161">
+                <title>Data Source</title>
+                <p>This secondary analysis used data from a nationwide, multicenter, cluster-randomized study that found that providing GA information to community oncologists reduced clinician-rated grade 3 to 5 toxic effects in older adults with advanced cancer starting a new cancer treatment regimen (GAP70+ study).<sup><xref rid="zoi230161r8" ref-type="bibr">8</xref></sup> The trial protocol appears in <xref rid="note-ZOI230161-1-s" ref-type="supplementary-material">Supplement 1</xref>. Patients were recruited through the University of Rochester National Cancer Institute Community Oncology Research Program (URCC NCORP) Research Base. In total, the trial enrolled 718 patients between July 2014 and March 2019. All patients provided written informed consent. Our analysis included 706 participants who completed the PRO-CTCAE at baseline. Patients from both the intervention and control groups were included in the analysis.<sup><xref rid="zoi230161r8" ref-type="bibr">8</xref></sup> The University of Rochester and all participating practices obtained approval from their institutional review boards.<sup><xref rid="zoi230161r8" ref-type="bibr">8</xref></sup> This study followed the Consolidated Standards of Reporting Trials (<ext-link xlink:href="http://www.equator-network.org/reporting-guidelines/consort/" ext-link-type="uri">CONSORT</ext-link>) reporting guideline for cluster trials.<sup><xref rid="zoi230161r28" ref-type="bibr">28</xref></sup></p>
+              </sec>
+              <sec id="H2-2-ZOI230161">
+                <title>Study Measures</title>
+                <p>The GAP70+ trial collected 27 PRO-CTCAE symptom items with multiple attributes.<sup><xref rid="zoi230161r2" ref-type="bibr">2</xref>,<xref rid="zoi230161r8" ref-type="bibr">8</xref>,<xref rid="zoi230161r18" ref-type="bibr">18</xref></sup> The investigators selected those items based on their relevance to older adults when designing the trial in 2013.<sup><xref rid="zoi230161r18" ref-type="bibr">18</xref></sup> For this analysis, we included 24 PRO-CTCAE items with severity attributes collected before treatment. Severity responses for each item range from 0 to 4, corresponding to none, mild, moderate, severe, and very severe.<sup><xref rid="zoi230161r14" ref-type="bibr">14</xref></sup> A total severity score was calculated as the sum of 24 items (range, 0-96).</p>
+                <p>The primary outcome of this study was whether a participant experienced unplanned hospitalization(s) within 3 months of starting a new treatment regimen. Any planned or scheduled admissions were excluded from the analysis. The secondary outcomes included all-cause mortality over 1 year of study enrollment and any grade 3 to 5 toxic effects within 3 months. Data on hospitalization and date of death were captured by practice staff. All clinician-reported grade 3 to 5 toxic effects were prospectively collected and reviewed using the NCI CTCAE version 4.<sup><xref rid="zoi230161r8" ref-type="bibr">8</xref></sup> Clinic notes and discharge summaries were reviewed by blinded clinicians at the URCC NCORP Research Base, and the treating physician was queried if there was any discrepancy. Detailed sociodemographic information, cancer diagnosis and stage, cancer treatments, Karnofsky performance status (KPS), and 8 GA domains (eg, polypharmacy, functional status, comorbidity) were collected as described previously.<sup><xref rid="zoi230161r8" ref-type="bibr">8</xref>,<xref rid="zoi230161r18" ref-type="bibr">18</xref></sup> Race (American Indian or Alaskan Native, Asian, Black or African American, Native Hawaiian or other Pacific Islander, and White) and ethnicity (Hispanic or Latino, non-Hispanic, and unknown) was self-reported by patients. Race and ethnicity information was collected in the original trial to capture the diversity of trial enrollees. We collapsed racial and ethnic groups into non-Hispanic Black, non-Hispanic White, and other due to small sample sizes.</p>
+              </sec>
+              <sec id="H2-3-ZOI230161">
+                <title>Statistical Analysis</title>
+                <p>Our first step grouped patients into clusters with similar mixes of symptom severity using an unsupervised machine learning algorithm (k-means with Euclidean distance). We selected k-means because of its computational efficiency and intuitive visualization of the data points related to their respective clusters.<sup><xref rid="zoi230161r23" ref-type="bibr">23</xref></sup> The k-means algorithm clustered severity attributes of 24 PRO-CTCAE items that patients provided at regimen initiation; k-means is a centroid-based clustering algorithm that performs this grouping by partitioning a data set into <italic>k</italic> clusters by minimizing the sum of squared distance in each cluster.<sup><xref rid="zoi230161r23" ref-type="bibr">23</xref>,<xref rid="zoi230161r29" ref-type="bibr">29</xref>,<xref rid="zoi230161r30" ref-type="bibr">30</xref></sup> At each step, there are 3 main steps in the process. First, a number of clusters (<italic>k</italic>) was specified, and then the k-means algorithm randomly selected k patients as the initial cluster centers.<sup><xref rid="zoi230161r29" ref-type="bibr">29</xref>,<xref rid="zoi230161r30" ref-type="bibr">30</xref></sup> Second, the algorithm assigned each patient to the closest centroid, and the cluster centroid was updated sequentially. Finally, this process was repeated until the total within the sum of square was minimized and each patient was assigned to 1 cluster based on the distance to the centers, measured by the Euclidean distance.<sup><xref rid="zoi230161r23" ref-type="bibr">23</xref>,<xref rid="zoi230161r30" ref-type="bibr">30</xref></sup> The number of clusters was determined by the visual examination of the reduction in the sum of squared distances by the changes in clusters. A visual presentation of the clustering was presented. During the entire clustering process, the algorithm was blinded to outcome variables.</p>
+                <p>After establishing symptom severity clusters, we compared sociodemographic and clinical variables as well as outcome measures by cluster. To examine the validity of the clustering, we compared the severity attributes of individual items and total severity score by cluster. Differences across clusters were tested using analysis of variance for continuous variables and χ<sup>2</sup> tests for binary variables. To determine whether symptom clusters were associated with adverse outcomes (hospitalization, mortality, and toxic effects), we conducted both unadjusted and adjusted analyses. First, for each outcome, we built a model with the outcome as the dependent variable, symptom clusters as the fixed effect, and practice sites as random effects (unadjusted analysis). In the second step, we further controlled for study group and additional predetermined sociodemographic and clinical factors that might be associated with outcomes.<sup><xref rid="zoi230161r2" ref-type="bibr">2</xref>,<xref rid="zoi230161r8" ref-type="bibr">8</xref></sup> These factors included age, sex, cancer type, cancer treatment, number of GA domain impairments, and KPS.<sup><xref rid="zoi230161r2" ref-type="bibr">2</xref></sup> For hospitalization, we performed generalized linear mixed models (GLMM) with binary distribution and log link and reported risk ratios and adjusted risk ratios as measures of the association of symptom clusters with the outcomes. We examined the association of symptom clusters with 1-year all-cause mortality using the Cox shared frailty model, adjusting for practice sites as random effects<sup><xref rid="zoi230161r8" ref-type="bibr">8</xref>,<xref rid="zoi230161r31" ref-type="bibr">31</xref></sup> and reported hazard ratios and adjusted hazards ratios. A Kaplan-Meier plot was created to contrast the 1-year survival by cluster. We conducted multivariable logistic regression on toxic effects because the adjusted GLMM model with practice sites did not converge.</p>
+                <p>Clustering was implemented using the Cluster package in R version 4.0 (R Project for Statistical Computing). The remaining statistical analyses were performed in SAS version 9.4 (SAS Institute) and Stata version 16.0 (StataCorp), with 2-tailed <italic>P</italic> &lt; .05 to establish the statistical significance.</p>
+              </sec>
+            </sec>
+            <sec id="H1-3-ZOI230161">
+              <title>Results</title>
+              <p>Of the 706 older adults included in the analysis (eFigure in <xref rid="note-ZOI230161-1-s" ref-type="supplementary-material">Supplement 2</xref>), the mean (SD) age was 77.2 (5.5) years, and most patients were non-Hispanic white (619 [87.8%]; 51 [7.2%] Black patients), received at least a high school education (597 [84.6%]), and were married or in a domestic partnership (443 [62.7%]) (<xref rid="zoi230161t1" ref-type="table">Table 1</xref>). Our sample included 401 male patients (56.8%) and 305 female patients (43.2%). Gastrointestinal, lung, and genitourinary cancers accounted for 34.7% (245 patients), 24.8% (175 patients), and 15.4% (109 patients) of the sample; most patients were diagnosed as stage IV (617 [87.4%]). Most patients (621 [88.0%]) planned to receive chemotherapy, while the remaining patients were on targeted therapy or hormonal therapy. The mean (SD) number of impaired GA domains was 4.5 (1.6), with the top 3 impaired domains being physical performance (657 [93.1%]), polypharmacy (572 [81.0%]), and comorbidity (475 [67.3%]). Over 3 months after baseline, 178 patients (25.2%) experienced unplanned hospitalization. More than 40% of the patients died within 1 year of enrollment (337 [47.7%]) and more than half reported any toxic effect in 3 months (436 [61.8%]). <xref rid="zoi230161t2" ref-type="table">Table 2</xref> describes the symptom burden among the patients enrolled. The mean (SD) total severity score was 13.97 (9.27).</p>
+              <table-wrap position="float" id="zoi230161t1">
+                <?xpp 2col?>
+                <label>Table 1. </label>
+                <caption>
+                  <title>Patient Characteristics by Symptom Severity Clusters</title>
+                </caption>
+                <table frame="hsides" rules="groups">
+                  <col width="20.84%" span="1"/>
+                  <col width="18.06%" span="1"/>
+                  <col width="18.06%" span="1"/>
+                  <col width="18.64%" span="1"/>
+                  <col width="18.36%" span="1"/>
+                  <col width="6.04%" span="1"/>
+                  <thead>
+                    <tr>
+                      <th rowspan="3" valign="top" align="left" scope="col" colspan="1">Factors</th>
+                      <th colspan="4" valign="top" align="left" scope="colgroup" rowspan="1">Patients, No. (%)</th>
+                      <th rowspan="3" valign="top" align="left" scope="col" colspan="1"><italic>P</italic> value<xref rid="zoi230161t1n1" ref-type="table-fn"><sup>a</sup></xref></th>
+                    </tr>
+                    <tr>
+                      <th rowspan="2" valign="top" colspan="1" align="left" scope="colgroup">All (N = 706)</th>
+                      <th colspan="3" valign="top" align="left" scope="colgroup" rowspan="1">Severity cluster</th>
+                    </tr>
+                    <tr>
+                      <th valign="top" colspan="1" align="left" scope="colgroup" rowspan="1">Low (n = 310)</th>
+                      <th valign="top" align="left" scope="col" rowspan="1" colspan="1">Moderate (n = 295)</th>
+                      <th valign="top" align="left" scope="col" rowspan="1" colspan="1">High (n = 101)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Age, mean (SD), y</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">77.20 (5.45)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">77.68 (5.42)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">76.91 (5.39)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">76.56 (5.63)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">.01</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="col" rowspan="1" colspan="1">Sex</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Male</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">401 (56.8)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">190 (61.3)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">159 (53.9)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">52 (51.5)</td>
+                      <td rowspan="2" valign="middle" align="left" colspan="1">.09</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Female</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">305 (43.2)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">120 (38.7)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">136 (46.1)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">49 (48.5)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="col" rowspan="1" colspan="1">Race and ethnicity<xref rid="zoi230161t1n2" ref-type="table-fn"><sup>b</sup></xref></td>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> African American or Black</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">51 (7.2)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">18 (5.8)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">21 (7.1)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">12 (11.9)</td>
+                      <td rowspan="3" valign="middle" align="left" colspan="1">.25</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Non-Hispanic White</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">619 (87.8)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">277 (89.6)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">260 (88.1)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">82 (81.2)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Other<xref rid="zoi230161t1n3" ref-type="table-fn"><sup>c</sup></xref></td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">35 (5.0)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">14 (4.5)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">14 (4.7)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">7 (6.9)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="col" rowspan="1" colspan="1">Education</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> &lt;High school</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">109 (15.4)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">40 (12.9)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">46 (15.6)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">23 (22.8)</td>
+                      <td rowspan="3" valign="middle" align="left" colspan="1">.12</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> High school graduate</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">239 (33.9)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">101 (32.6)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">107 (36.3)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">31 (30.7)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> ≥Some college</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">358 (50.7)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">169 (54.5)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">142 (48.1)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">47 (46.5)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="col" rowspan="1" colspan="1">Marital status</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Single, never married</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">16 (2.3)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">8 (2.6)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">7 (2.4)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1 (1.0)</td>
+                      <td rowspan="3" valign="middle" align="left" colspan="1">.13</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Married or domestic partnership</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">443 (62.7)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">200 (64.5)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">171 (58.0)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">72 (71.3)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Separated, widowed, or divorced</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">247 (35.0)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">102 (32.9)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">117 (39.7)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">28 (27.7)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="col" rowspan="1" colspan="1">Cancer type</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Breast</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">55 (7.8)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">25 (8.1)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">23 (7.8)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">7 (6.9)</td>
+                      <td rowspan="7" valign="middle" align="left" colspan="1">.05</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Gastrointestinal</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">245 (34.7)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">99 (31.9)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">102 (34.6)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">44 (43.6)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Genitourinary</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">109 (15.4)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">60 (19.4)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">38 (12.9)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">11 (10.9)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Gynecological</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">41 (5.8)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">15 (4.8)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">21 (7.1)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">5 (5.0)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Lung</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">175 (24.8)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">68 (21.9)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">81 (27.5)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">26 (25.7)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Lymphoma</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">46 (6.5)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">29 (9.4)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">12 (4.1)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">5 (5.0)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Others</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">35 (5.0)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">14 (4.5)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">18 (6.1)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">3 (3.0)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="col" rowspan="1" colspan="1">Cancer stage</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Stage III (palliative intent)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">76 (10.8)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">33 (10.6)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">33 (11.2)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">10 (9.9)</td>
+                      <td rowspan="3" valign="middle" align="left" colspan="1">.14</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Stage IV</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">617 (87.4)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">274 (88.4)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">257 (87.1)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">86 (85.1)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Other</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">13 (1.8)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">3 (1.0)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">5 (1.7)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">5 (5.0)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="col" rowspan="1" colspan="1">Cancer treatment</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Single chemotherapy agent</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">145 (20.5)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">68 (21.9)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">64 (21.7)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">13 (12.9)</td>
+                      <td rowspan="4" valign="middle" align="left" colspan="1">.045</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Multiple chemotherapy agents</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">327 (46.3)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">126 (40.6)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">141 (47.8)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">60 (59.4)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Chemotherapy and other agents</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">149 (21.1)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">72 (23.2)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">59 (20.0)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">18 (17.8)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Other treatment (hormonal, and targeted)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">85 (12.0)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">44 (14.2)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">31 (10.5)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">10 (9.9)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="col" rowspan="1" colspan="1">Karnofsky performance status<xref rid="zoi230161t1n2" ref-type="table-fn"><sup>b</sup></xref></td>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> 20-60</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">89 (12.6)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">21 (6.8)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">46 (15.6)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">22 (21.8)</td>
+                      <td rowspan="3" valign="middle" align="left" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> 70-80</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">373 (52.9)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">144 (46.5)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">168 (57.1)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">61 (60.4)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> 90-100</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">243 (34.5)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">145 (46.8)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">80 (27.2)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">18 (17.8)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="col" rowspan="1" colspan="1">Geriatric Assessment domains</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Impaired domains, mean (SD), No.</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">4.50 (1.57)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">3.80 (1.40)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">4.89 (1.46)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">5.49 (1.44)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Polypharmacy</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">572 (81.0)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">240 (77.4)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">246 (83.4)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">86 (85.1)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">.09</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Functional status</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">404 (57.2)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">137 (44.2)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">193 (65.4)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">74 (73.3)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Physical performance</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">657 (93.1)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">280 (90.3)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">279 (94.6)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">98 (97.0)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">.03</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Comorbidity</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">475 (67.3)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">180 (58.1)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">209 (70.8)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">86 (85.1)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Nutrition</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">427 (60.5)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">139 (44.8)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">207 (70.2)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">81 (80.2)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Medical social support</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">190 (26.9)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">67 (21.6)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">94 (31.9)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">29 (28.7)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">.02</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Psychological status</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">196 (27.8)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">38 (12.3)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">101 (34.2)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">57 (56.4)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Cognition</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">254 (36.0)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">98 (31.6)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">113 (38.3)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">43 (42.6)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">.08</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="col" rowspan="1" colspan="1">Outcomes</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Unplanned hospitalization in 3 mo</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">178 (25.2)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">56 (18.1)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">87 (29.5)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">35 (34.7)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Deceased in 1 y</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">337 (47.7)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">117 (37.7)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">153 (51.9)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">67 (66.3)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Any grade 3-5 toxic effect</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">436 (61.8)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">185 (59.7)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">184 (62.4)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">67 (66.3)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">.47</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table-wrap-foot>
+                  <fn id="zoi230161t1n1">
+                    <label>
+                      <sup>a</sup>
+                    </label>
+                    <p><italic>P</italic> values measure whether patient characteristics differed by severity clusters, using analysis of variance for continuous variables and χ<sup>2</sup> tests for binary variables.</p>
+                  </fn>
+                  <fn id="zoi230161t1n2">
+                    <label>
+                      <sup>b</sup>
+                    </label>
+                    <p>Missing data were only found for race and ethnicity (1 participant) and Karnofsky performance status (1 participant).</p>
+                  </fn>
+                  <fn id="zoi230161t1n3">
+                    <label>
+                      <sup>c</sup>
+                    </label>
+                    <p>Other included Asian, American Indian or Alaskan Native, Native Hawaiian or other Pacific Islander, and Hispanic.</p>
+                  </fn>
+                </table-wrap-foot>
+              </table-wrap>
+              <table-wrap position="float" id="zoi230161t2">
+                <label>Table 2. </label>
+                <caption>
+                  <title>PRO-CTCAE Items by Symptom Severity Clusters</title>
+                </caption>
+                <table frame="hsides" rules="groups">
+                  <col width="27.84%" span="1"/>
+                  <col width="19.3%" span="1"/>
+                  <col width="13.2%" span="1"/>
+                  <col width="17.55%" span="1"/>
+                  <col width="13.63%" span="1"/>
+                  <col width="8.48%" span="1"/>
+                  <thead>
+                    <tr>
+                      <th rowspan="3" valign="top" align="left" scope="col" colspan="1">Pro-CTCAE items</th>
+                      <th colspan="4" valign="top" align="left" scope="colgroup" rowspan="1">Mean (SD)</th>
+                      <th rowspan="3" valign="top" align="left" scope="col" colspan="1"><italic>P</italic> value<xref rid="zoi230161t2n1" ref-type="table-fn"><sup>a</sup></xref></th>
+                    </tr>
+                    <tr>
+                      <th rowspan="2" valign="top" colspan="1" align="left" scope="colgroup">All patients (N = 706)</th>
+                      <th colspan="3" valign="top" align="left" scope="colgroup" rowspan="1">Severity cluster</th>
+                    </tr>
+                    <tr>
+                      <th valign="top" colspan="1" align="left" scope="colgroup" rowspan="1">Low (n = 310)</th>
+                      <th valign="top" align="left" scope="col" rowspan="1" colspan="1">Moderate (n = 295)</th>
+                      <th valign="top" align="left" scope="col" rowspan="1" colspan="1">High (n = 101)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Total severity score</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">13.97 (9.27)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">6.33 (3.44)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">16.57 (4.32)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">29.80 (7.80)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Fatigue</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1.60 (1.07)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.79 (0.75)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">2.03 (0.73)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">2.82 (0.79)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Pain</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1.18 (1.10)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.61 (0.82)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1.49 (1.03)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">2.05 (1.14)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Decreased appetite</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1.16 (1.19)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.37 (0.66)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1.48 (1.03)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">2.68 (1.01)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Insomnia</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.97 (1.07)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.45 (0.68)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1.17 (1.03)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">2.01 (1.20)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Shortness of breath</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.95 (1.09)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.51 (0.74)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1.21 (1.14)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1.52 (1.31)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Constipation</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.81 (1.09)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.40 (0.76)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.87 (1.00)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1.91 (1.36)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Dry mouth</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.74 (0.97)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.32 (0.62)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.78 (0.85)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1.90 (1.17)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Diarrhea</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.71 (0.92)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.39 (0.62)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.89 (0.99)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1.15 (1.12)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Problems with memory</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.63 (0.81)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.33 (0.55)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.78 (0.81)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1.14 (1.05)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Numbness or tingling</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.58 (0.92)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.35 (0.72)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.68 (0.94)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.94 (1.19)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Problem tasting</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.55 (0.99)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.07 (0.28)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.57 (0.92)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1.94 (1.25)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Nausea</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.48 (0.79)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.14 (0.41)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.56 (0.74)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1.33 (1.06)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Arm or leg swelling</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.47 (0.86)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.23 (0.59)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.61 (0.94)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.83 (1.07)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Headaches</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.46 (0.73)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.24 (0.55)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.58 (0.78)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.75 (0.90)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Problems with concentration</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.45 (0.76)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.16 (0.44)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.49 (0.70)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1.24 (1.05)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Dizziness</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.42 (0.74)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.15 (0.43)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.52 (0.78)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.98 (0.97)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Blurry vision</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.36 (0.74)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.18 (0.53)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.38 (0.76)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.84 (1.01)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Ringing in ears</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.35 (0.73)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.28 (0.65)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.34 (0.69)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.59 (0.99)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Difficulty swallowing</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.25 (0.65)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.06 (0.35)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.23 (0.59)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.89 (1.05)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Hair loss</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.23 (0.68)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.12 (0.43)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.27 (0.76)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.45 (0.92)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Vomiting</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.20 (0.55)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.04 (0.22)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.21 (0.50)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.72 (0.94)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Mouth and throat sores</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.16 (0.54)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.05 (0.30)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.16 (0.46)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.53 (0.98)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Hand foot syndrome</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.14 (0.48)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.06 (0.28)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.16 (0.51)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.38 (0.75)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Skin cracking at corners of mouth</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.12 (0.45)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.03 (0.16)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.13 (0.41)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.40 (0.85)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table-wrap-foot>
+                  <p>Abbreviation: PRO-CTCAE, Patient-Reported Outcomes version of the Common Terminology Criteria for Adverse Events.</p>
+                  <fn id="zoi230161t2n1">
+                    <label>
+                      <sup>a</sup>
+                    </label>
+                    <p><italic>P</italic> values measure whether PRO-CTCAE severity items differed by severity clusters using analysis of variance.</p>
+                  </fn>
+                </table-wrap-foot>
+              </table-wrap>
+              <p><xref rid="zoi230161f1" ref-type="fig">Figure 1</xref> visualizes the symptom severity clusters identified by the k-means algorithm. The algorithm classified 310 patients (43.9%; dark blue green dots), 295 (41.8%; orange dots), and 101 (14.3%; light blue dots) into low-, medium-, and high-severity clusters (within-cluster mean [SD] severity score: low-severity, 6.33 [3.44]; moderate-severity 16.57 [4.32]; high-severity, 29.80 [7.80]; <italic>P</italic> &lt; .001) (<xref rid="zoi230161t2" ref-type="table">Table 2</xref>). Compared with patients in the low-severity cluster, patients in the moderate- and high-severity clusters also reported higher severity for all individual symptom items. No major difference in sociodemographic factors or cancer diagnosis was found among clusters. Patients in the low-severity cluster were slightly older than those in the moderate and high clusters (mean [SD] age: low, 77.7 [5.4] years; moderate, 76.9 [5.4] years; high, 76.6 [5.6] years). Patients in the high-severity cluster were more likely to receive multiple chemotherapy agents and have poorer KPS scores and more GA impairments (<xref rid="zoi230161t1" ref-type="table">Table 1</xref>). The percentage of patients who were hospitalized was 18.1% (59 patients), 29.5% (87 patients), and 34.7% (35 patients) in the low-, moderate-, and high-severity clusters (<italic>P</italic> &lt; .001). Similarly, patients in the moderate- and high-severity clusters were at a higher risk of death and toxic effects. <xref rid="zoi230161f2" ref-type="fig">Figure 2</xref> shows that patients in the moderate- and high-severity clusters had an elevated risk of death from the beginning of follow-up time.</p>
+              <fig position="float" id="zoi230161f1" fig-type="figure">
+                <label>Figure 1. </label>
+                <caption>
+                  <title>Clustering of Patient-Reported Outcome Version of the Common Terminology Criteria for Adverse Events Severity Items</title>
+                  <p>Three clusters were found using the k-means method with Euclidean distance. For the purpose of data visualization, the x- and y-axes are principal components of the 24 PRO-CTCAE severity items.</p>
+                </caption>
+                <graphic xlink:href="jamanetwopen-e234198-g001" position="float"/>
+              </fig>
+              <fig position="float" id="zoi230161f2" fig-type="figure">
+                <label>Figure 2. </label>
+                <caption>
+                  <title>One-Year Overall Survival by Symptom Severity Cluster</title>
+                  <p>Three severity clusters were identified from the 24 severity items in the Patient-Reported Outcomes version of the Common Terminology Criteria for Adverse Events, using k-means method with Euclidean distance.</p>
+                </caption>
+                <graphic xlink:href="jamanetwopen-e234198-g002" position="float"/>
+              </fig>
+              <p><xref rid="zoi230161t3" ref-type="table">Table 3</xref> presents both unadjusted and adjusted regression results for outcome measures. In the unadjusted model, compared with patients in the low-severity cluster, those in the moderate– and high–symptom severity clusters were significantly more likely to experience hospitalization (moderate: risk ratio, 1.61 [95% CI, 1.20-2.17]; <italic>P</italic> = .02; high: risk ratio, 1.88 [95% CI, 1.32-2.69]; <italic>P</italic> &lt; .001) and at a higher risk of death (moderate: hazard ratio, 1.59 [95% CI, 1.23-22.03]; <italic>P</italic> &lt; .001; high: hazard ratio, 2.62 [95% CI, 1.93-.3.53]; <italic>P</italic> &lt; .001). Patients in the moderate– and high–symptom severity clusters were not significantly associated with a high risk of toxic effects. After controlling for predetermined covariates, the association of symptom clusters and outcome measures became weaker but remained significant for hospitalization and death. Specifically, compared with patients in the low-severity cluster, patients in the moderate-severity cluster were more likely to experience hospitalization (adjusted risk ratio, 1.36 [95% CI, 1.01-1.84]; <italic>P</italic> = .046) but not patients in the high-severity cluster (adjusted risk ratio, 1.44 [95% CI, 0.99-2.10]; <italic>P</italic> = .05). Similarly, compared with the low-severity cluster, the moderate- and high-severity clusters were associated with a higher risk of death (moderate: adjusted hazard ratio, 1.31 [95% CI, 1.01-1.69]; <italic>P</italic> = .04; high: adjusted hazard ratio, 2.00 [95% CI, 1.43-2.78]; <italic>P</italic> &lt; .001). The association of moderate- and high-severity clusters with toxic effects was not statistically significant (moderate: adjusted hazard ratio, 1.04 [95% CI, 0.92-1.18]; <italic>P</italic> = .49; high: adjusted hazard ratio, 1.17 [95% CI, 0.97-1.39]; <italic>P</italic> = .10).</p>
+              <table-wrap position="float" id="zoi230161t3">
+                <label>Table 3. </label>
+                <caption>
+                  <title>Associations of Symptom Severity Clusters With Longitudinal Adverse Outcomes</title>
+                </caption>
+                <table frame="hsides" rules="groups">
+                  <col width="16.56%" span="1"/>
+                  <col width="14.39%" span="1"/>
+                  <col width="13.59%" span="1"/>
+                  <col width="14.16%" span="1"/>
+                  <col width="13.36%" span="1"/>
+                  <col width="14.39%" span="1"/>
+                  <col width="13.55%" span="1"/>
+                  <thead>
+                    <tr>
+                      <th rowspan="2" valign="top" align="left" scope="col" colspan="1">Variable</th>
+                      <th colspan="2" valign="top" align="left" scope="colgroup" rowspan="1">Hospitalization over 3 mo, RR (95% CI)</th>
+                      <th colspan="2" valign="top" align="left" scope="colgroup" rowspan="1">Overall survival over 1 y, HR (95% CI)</th>
+                      <th colspan="2" valign="top" align="left" scope="colgroup" rowspan="1">Any grade 3-5 toxic effect, RR (95% CI)</th>
+                    </tr>
+                    <tr>
+                      <th valign="top" colspan="1" align="left" scope="colgroup" rowspan="1">Unadjusted model<xref rid="zoi230161t3n1" ref-type="table-fn"><sup>a</sup></xref></th>
+                      <th valign="top" align="left" scope="col" rowspan="1" colspan="1">Adjusted model<xref rid="zoi230161t3n1" ref-type="table-fn"><sup>a</sup></xref><sup>,b</sup></th>
+                      <th valign="top" align="left" scope="col" rowspan="1" colspan="1">Unadjusted model<xref rid="zoi230161t3n1" ref-type="table-fn"><sup>a</sup></xref></th>
+                      <th valign="top" align="left" scope="col" rowspan="1" colspan="1">Adjusted model<xref rid="zoi230161t3n1" ref-type="table-fn"><sup>a</sup></xref><sup>,</sup><xref rid="zoi230161t3n2" ref-type="table-fn"><sup>b</sup></xref></th>
+                      <th valign="top" align="left" scope="col" rowspan="1" colspan="1">Unadjusted model<xref rid="zoi230161t3n1" ref-type="table-fn"><sup>a</sup></xref></th>
+                      <th valign="top" align="left" scope="col" rowspan="1" colspan="1">Adjusted model<xref rid="zoi230161t3n2" ref-type="table-fn"><sup>b</sup></xref><sup>,</sup><xref rid="zoi230161t3n3" ref-type="table-fn"><sup>c</sup></xref></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td valign="top" align="left" scope="col" rowspan="1" colspan="1">Symptom cluster, severity</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Low</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1 [Reference]</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1 [Reference]</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1 [Reference]</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1 [Reference]</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1 [Reference]</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1 [Reference]</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Moderate</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1.61 (1.20-2.17)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1.36 (1.01-1.84)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1.59 (1.25-22.03)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1.31 (1.01-1.69)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1.05 (0.92-1.19)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1.04 (0.92-1.18)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"><italic>P</italic> value</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">.02</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">.046</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">.04</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">.50</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">.49</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> High</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1.88 (1.32-2.69)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1.44 (0.99-2.10)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">2.62 (1.93-3.53)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">2.00 (1.43-2.78)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1.11 (0.94-1.31)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1.17 (0.97-1.39)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"><italic>P</italic> value</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">.05</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;.001</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">.21</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">.10</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Patients, No.</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">706</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">706</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">706</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">706</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">706</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">706</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Sites, No.</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">39</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">39</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">39</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">39</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">39</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">NA</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table-wrap-foot>
+                  <p>Abbreviations: HR, hazard ratio; NA, not applicable; RR, risk ratio.</p>
+                  <fn id="zoi230161t3n1">
+                    <label>
+                      <sup>a</sup>
+                    </label>
+                    <p>Models included practice site as random effect.</p>
+                  </fn>
+                  <fn id="zoi230161t3n2">
+                    <label>
+                      <sup>b</sup>
+                    </label>
+                    <p>Multivariable models adjusted for age, sex, cancer type, cancer treatment, number of Geriatric Assessment domain impairments, study group, Karnofsky performance status.</p>
+                  </fn>
+                  <fn id="zoi230161t3n3">
+                    <label>
+                      <sup>c</sup>
+                    </label>
+                    <p>Practice site random effect was excluded because the model did not converge.</p>
+                  </fn>
+                </table-wrap-foot>
+              </table-wrap>
+            </sec>
+            <sec id="H1-4-ZOI230161">
+              <title>Discussion</title>
+              <p>In this secondary analysis of a large national randomized trial of more than 700 older adults with advanced cancer receiving active treatment, we identified 3 main symptom clusters (low, moderate, and high severity) using a clustering algorithm. The symptom severity score of patients in each cluster differed. Patients in moderate- and high-severity clusters at baseline were more likely to experience unplanned hospitalization and have worse overall survival but had similar risks of toxic effects. Our results demonstrate that unsupervised machine learning methods can be used to identify patients who are at higher risk for adverse outcomes based on their baseline patient-reported symptoms.</p>
+              <p>Unsupervised machine learning proves to be an effective bottom-up method of stratifying patients into distinct symptom severity clusters. Both the total severity score and all individual items were higher in the moderate- and high-severity clusters compared with those in the low-severity cluster, confirming the validity of the k-means algorithm. Compared with traditional methods of determining patient subgroups, k-means is more flexible and does not need human input (eg, determining the cutoff values). Another strength of the unsupervised algorithm is that no outcome measure is needed to identify the clusters.</p>
+              <p>A simple algorithm that does not require large computational resources, k-means has promising potential in clinical research and practice.<sup><xref rid="zoi230161r20" ref-type="bibr">20</xref></sup> Researchers can use k-means as a dimension reduction tool in research, in which the symptom clusters identified can be used as factors in traditional regression methods. Health systems can build k-means algorithm into existing electronic health record systems for clinical decision aid.<sup><xref rid="zoi230161r32" ref-type="bibr">32</xref></sup> When properly implemented and validated, clinicians can effectively identify symptom patterns for older adults before their cancer treatments. This summarized information can be used with GA to assess the vulnerability of older adults.<sup><xref rid="zoi230161r2" ref-type="bibr">2</xref></sup> For patients in the high-severity cluster, clinicians may consider modifying treatment options and monitor adverse events during and after treatments.<sup><xref rid="zoi230161r20" ref-type="bibr">20</xref></sup> Clinical studies are warranted to examine whether clinicians use the clustering information to inform treatment decisions and improve patient outcomes, similar to recent GA trials.<sup><xref rid="zoi230161r8" ref-type="bibr">8</xref>,<xref rid="zoi230161r33" ref-type="bibr">33</xref></sup></p>
+              <p>A major finding of this study is that older adults with advanced cancer in the moderate- and high-severity clusters were more likely to experience unplanned hospitalization. This finding is consistent with prior literature that observed an association between higher baseline symptom burden and adverse outcomes in patients with cancer.<sup><xref rid="zoi230161r34" ref-type="bibr">34</xref>,<xref rid="zoi230161r35" ref-type="bibr">35</xref></sup> A population-based study of patients with head and neck cancer found an association between patient-reported symptom burden and subsequent emergency department use and unplanned hospitalization.<sup><xref rid="zoi230161r35" ref-type="bibr">35</xref></sup> Another recent study demonstrated an association between symptom burden and impairment in physical function among older adults with cancer.<sup><xref rid="zoi230161r36" ref-type="bibr">36</xref></sup> In contrast to our study, neither study conducted a cluster analysis assessing the association between symptom burden and hospitalization. Studies using clustering methods often have not focused on older adults or examined longitudinal outcomes.<sup><xref rid="zoi230161r37" ref-type="bibr">37</xref>,<xref rid="zoi230161r38" ref-type="bibr">38</xref></sup></p>
+              <p>Our results also suggest that moderate to severe baseline symptom severity are independently associated with all-cause mortality in older adults with advanced cancer receiving palliative systematic treatment. This suggests that assessment of symptom burden prior to treatment initiation contributes clinically useful prognostic information for treatment decision-making among older adults. Because of the expected limited survival in this population, baseline symptom burden could be more clinically meaningful for estimating outcomes than the response to treatment, the traditional oncology clinical trial end point.<sup><xref rid="zoi230161r39" ref-type="bibr">39</xref></sup></p>
+              <p>We hypothesize 3 possible mechanisms to explain the higher risks of hospitalization and death among patients in the moderate- and high-severity clusters. First, patients in the moderate- and high-severity clusters had more symptomatic burden that was not fully captured by GA and KPS, contributing to their vulnerabilities. These patients could potentially benefit from palliative care during their cancer treatments to reduce their symptom burden and improve their quality of life.<sup><xref rid="zoi230161r11" ref-type="bibr">11</xref>,<xref rid="zoi230161r40" ref-type="bibr">40</xref></sup> Second, higher baseline symptoms were associated with more aggressive cancers (eg, pancreatic cancer) and the receipt of multiple chemotherapy regimens, which may reflect the fact that patients with severe symptoms had more aggressive disease progression and therefore needed multiple agents. The third possible mechanism is the elevated risk of toxic effects from the cancer treatment. Patients in the moderate- and high-severity clusters had slightly higher risk ratios for the probability of clinician-rated grade 3 to 5 toxic effects than those in the low-severity cluster, but the associations were not statistically significant. Those findings suggest treatment-related toxic effects are a potential but weak pathway toward hospitalization and death.</p>
+              <p>Our study has clinical and public health implications. First, unsupervised machine learning may offer an option to obtain summary information from PRO-CATE, for which no total score was available. Second, the association between symptom severity at the initiation of a new palliative regimen and adverse outcomes among older adults with advanced cancer suggests that PRO-CTCAEs can provide information in addition to GA and KPS. The inclusion of patient-centered assessment tools, such as PRO-CTCAEs, in clinical practice can assist clinicians in treatment decision-making and supportive care recommendations.<sup><xref rid="zoi230161r2" ref-type="bibr">2</xref></sup> Moreover, machine learning algorithms could identify patients with advanced cancer who are at a higher risk of poor treatment tolerability and short-term mortality.</p>
+              <sec id="H2-4-ZOI230161">
+                <title>Limitations</title>
+                <p>Our study has limitations. Patients included were mostly non-Hispanic White with high levels of education; they do not represent the entire US population. The k-means algorithm is sensitive to outliers in the clustering variables, although all clustering variables ranged from 0 to 4. Euclidean distances might be distorted by the potential collinearity among the clustering variables. We only included PRO-CTCAE severity attributes; future analyses should expand to other attributes. Additionally, our k-means algorithm needs external validation.</p>
+              </sec>
+            </sec>
+            <sec id="H1-5-ZOI230161">
+              <title>Conclusions</title>
+              <p>In this secondary analysis of a cluster trial of more than 700 older adults, unsupervised machine learning effectively identified patients with similar characteristics and stratified patients into clusters based on symptom severity. Our findings reinforce the importance of routine symptom assessment prior to treatment initiation as a best practice standard. PRO-CTCAEs assessed at treatment initiation can add information to the GA and performance status on patient vulnerability and inform potential treatment tolerability. Machine learning may be used to guide the development of risk stratification tools with the potential to assist clinicians in identifying older adults with a high risk of adverse outcomes.</p>
+            </sec>
+          </body>
+          <back>
+            <ref-list id="REF-ZOI230161">
+              <title>References</title>
+              <ref id="zoi230161r1">
+                <label>1</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Gilbertson-White</surname><given-names>S</given-names></string-name>, <string-name><surname>Perkhounkova</surname><given-names>Y</given-names></string-name>, <string-name><surname>Saeidzadeh</surname><given-names>S</given-names></string-name>, <string-name><surname>Hein</surname><given-names>M</given-names></string-name>, <string-name><surname>Dahl</surname><given-names>R</given-names></string-name>, <string-name><surname>Simons-Burnett</surname><given-names>A</given-names></string-name></person-group>. <article-title>Understanding symptom burden in patients with advanced cancer living in rural areas</article-title>. <source>Oncol Nurs Forum</source>. <year>2019</year>;<volume>46</volume>(<issue>4</issue>):<fpage>428</fpage>-<lpage>441</lpage>. doi:<pub-id pub-id-type="doi">10.1188/19.ONF.428-441</pub-id><?supplied-pmid 31225835?><pub-id pub-id-type="pmid">31225835</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r2">
+                <label>2</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Flannery</surname><given-names>MA</given-names></string-name>, <string-name><surname>Culakova</surname><given-names>E</given-names></string-name>, <string-name><surname>Canin</surname><given-names>BE</given-names></string-name>, <string-name><surname>Peppone</surname><given-names>L</given-names></string-name>, <string-name><surname>Ramsdale</surname><given-names>E</given-names></string-name>, <string-name><surname>Mohile</surname><given-names>SG</given-names></string-name></person-group>. <article-title>Understanding treatment tolerability in older adults with cancer</article-title>. <source>J Clin Oncol</source>. <year>2021</year>;<volume>39</volume>(<issue>19</issue>):<fpage>2150</fpage>-<lpage>2163</lpage>. doi:<pub-id pub-id-type="doi">10.1200/JCO.21.00195</pub-id><?supplied-pmid 34043433?><pub-id pub-id-type="pmid">34043433</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r3">
+                <label>3</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Deshields</surname><given-names>TL</given-names></string-name>, <string-name><surname>Potter</surname><given-names>P</given-names></string-name>, <string-name><surname>Olsen</surname><given-names>S</given-names></string-name>, <string-name><surname>Liu</surname><given-names>J</given-names></string-name></person-group>. <article-title>The persistence of symptom burden: symptom experience and quality of life of cancer patients across one year</article-title>. <source>Support Care Cancer</source>. <year>2014</year>;<volume>22</volume>(<issue>4</issue>):<fpage>1089</fpage>-<lpage>1096</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s00520-013-2049-3</pub-id><?supplied-pmid 24292095?><pub-id pub-id-type="pmid">24292095</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r4">
+                <label>4</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Drageset</surname><given-names>J</given-names></string-name>, <string-name><surname>Corbett</surname><given-names>A</given-names></string-name>, <string-name><surname>Selbaek</surname><given-names>G</given-names></string-name>, <string-name><surname>Husebo</surname><given-names>BS</given-names></string-name></person-group>. <article-title>Cancer-related pain and symptoms among nursing home residents: a systematic review</article-title>. <source>J Pain Symptom Manage</source>. <year>2014</year>;<volume>48</volume>(<issue>4</issue>):<fpage>699</fpage>-<lpage>710.e1</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jpainsymman.2013.12.238</pub-id><?supplied-pmid 24703946?><pub-id pub-id-type="pmid">24703946</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r5">
+                <label>5</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Cleeland</surname><given-names>CS</given-names></string-name>, <string-name><surname>Zhao</surname><given-names>F</given-names></string-name>, <string-name><surname>Chang</surname><given-names>VT</given-names></string-name>, <etal/></person-group>. <article-title>The symptom burden of cancer: evidence for a core set of cancer-related and treatment-related symptoms from the Eastern Cooperative Oncology Group Symptom Outcomes and Practice Patterns study</article-title>. <source>Cancer</source>. <year>2013</year>;<volume>119</volume>(<issue>24</issue>):<fpage>4333</fpage>-<lpage>4340</lpage>. doi:<pub-id pub-id-type="doi">10.1002/cncr.28376</pub-id><?supplied-pmid 24114037?><pub-id pub-id-type="pmid">24114037</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r6">
+                <label>6</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Hurria</surname><given-names>A</given-names></string-name>, <string-name><surname>Togawa</surname><given-names>K</given-names></string-name>, <string-name><surname>Mohile</surname><given-names>SG</given-names></string-name>, <etal/></person-group>. <article-title>Predicting chemotherapy toxicity in older adults with cancer: a prospective multicenter study</article-title>. <source>J Clin Oncol</source>. <year>2011</year>;<volume>29</volume>(<issue>25</issue>):<fpage>3457</fpage>-<lpage>3465</lpage>. doi:<pub-id pub-id-type="doi">10.1200/JCO.2011.34.7625</pub-id><?supplied-pmid 21810685?><pub-id pub-id-type="pmid">21810685</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r7">
+                <label>7</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Mohile</surname><given-names>SG</given-names></string-name>, <string-name><surname>Heckler</surname><given-names>C</given-names></string-name>, <string-name><surname>Fan</surname><given-names>L</given-names></string-name>, <etal/></person-group>. <article-title>Age-related differences in symptoms and their interference with quality of life in 903 cancer patients undergoing radiation therapy</article-title>. <source>J Geriatr Oncol</source>. <year>2011</year>;<volume>2</volume>(<issue>4</issue>):<fpage>225</fpage>-<lpage>232</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jgo.2011.08.002</pub-id><?supplied-pmid 22888384?><pub-id pub-id-type="pmid">22888384</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r8">
+                <label>8</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Mohile</surname><given-names>SG</given-names></string-name>, <string-name><surname>Mohamed</surname><given-names>MR</given-names></string-name>, <string-name><surname>Xu</surname><given-names>H</given-names></string-name>, <etal/></person-group>. <article-title>Evaluation of geriatric assessment and management on the toxic effects of cancer treatment (GAP70+): a cluster-randomised study</article-title>. <source>Lancet</source>. <year>2021</year>;<volume>398</volume>(<issue>10314</issue>):<fpage>1894</fpage>-<lpage>1904</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S0140-6736(21)01789-X</pub-id><?supplied-pmid 34741815?><pub-id pub-id-type="pmid">34741815</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r9">
+                <label>9</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Omran</surname><given-names>S</given-names></string-name>, <string-name><surname>Mcmillan</surname><given-names>S</given-names></string-name></person-group>. <article-title>Symptom severity, anxiety, depression, self-efficacy and quality of life in patients with cancer</article-title>. <source>Asian Pac J Cancer Prev</source>. <year>2018</year>;<volume>19</volume>(<issue>2</issue>):<fpage>365</fpage>-<lpage>374</lpage>. doi:<pub-id pub-id-type="doi">10.22034/APJCP.2018.19.2.365</pub-id><?supplied-pmid 29479979?><pub-id pub-id-type="pmid">29479979</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r10">
+                <label>10</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Lage</surname><given-names>DE</given-names></string-name>, <string-name><surname>El-Jawahri</surname><given-names>A</given-names></string-name>, <string-name><surname>Fuh</surname><given-names>CX</given-names></string-name>, <etal/></person-group>. <article-title>Functional impairment, symptom burden, and clinical outcomes among hospitalized patients with advanced cancer</article-title>. <source>J Natl Compr Canc Netw</source>. <year>2020</year>;<volume>18</volume>(<issue>6</issue>):<fpage>747</fpage>-<lpage>754</lpage>. doi:<pub-id pub-id-type="doi">10.6004/jnccn.2019.7385</pub-id><?supplied-pmid 32502982?><pub-id pub-id-type="pmid">32502982</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r11">
+                <label>11</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Mohile</surname><given-names>SG</given-names></string-name>, <string-name><surname>Dale</surname><given-names>W</given-names></string-name>, <string-name><surname>Somerfield</surname><given-names>MR</given-names></string-name>, <etal/></person-group>. <article-title>Practical assessment and management of vulnerabilities in older patients receiving chemotherapy: ASCO guideline for geriatric oncology</article-title>. <source>J Clin Oncol</source>. <year>2018</year>;<volume>36</volume>(<issue>22</issue>):<fpage>2326</fpage>-<lpage>2347</lpage>. doi:<pub-id pub-id-type="doi">10.1200/JCO.2018.78.8687</pub-id><?supplied-pmid 29782209?><pub-id pub-id-type="pmid">29782209</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r12">
+                <label>12</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Whisenant</surname><given-names>MS</given-names></string-name>, <string-name><surname>Bamidele</surname><given-names>O</given-names></string-name>, <string-name><surname>Cleeland</surname><given-names>C</given-names></string-name>, <string-name><surname>Williams</surname><given-names>LA</given-names></string-name></person-group>. <article-title>Preferences of individuals with cancer for patient-reported outcome measures</article-title>. <source>Oncol Nurs Forum</source>. <year>2021</year>;<volume>48</volume>(<issue>2</issue>):<fpage>173</fpage>-<lpage>183</lpage>. doi:<pub-id pub-id-type="doi">10.1188/21.ONF.173-183</pub-id><?supplied-pmid 33600396?><pub-id pub-id-type="pmid">33600396</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r13">
+                <label>13</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Basch</surname><given-names>E</given-names></string-name>, <string-name><surname>Deal</surname><given-names>AM</given-names></string-name>, <string-name><surname>Kris</surname><given-names>MG</given-names></string-name>, <etal/></person-group>. <article-title>Symptom monitoring with patient-reported outcomes during routine cancer treatment: a randomized controlled trial</article-title>. <source>J Clin Oncol</source>. <year>2016</year>;<volume>34</volume>(<issue>6</issue>):<fpage>557</fpage>-<lpage>565</lpage>. doi:<pub-id pub-id-type="doi">10.1200/JCO.2015.63.0830</pub-id><?supplied-pmid 26644527?><pub-id pub-id-type="pmid">26644527</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r14">
+                <label>14</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Basch</surname><given-names>E</given-names></string-name>, <string-name><surname>Reeve</surname><given-names>BB</given-names></string-name>, <string-name><surname>Mitchell</surname><given-names>SA</given-names></string-name>, <etal/></person-group>. <article-title>Development of the National Cancer Institute’s patient-reported outcomes version of the Common Terminology Criteria for Adverse Events (PRO-CTCAE)</article-title>. <source>J Natl Cancer Inst</source>. <year>2014</year>;<volume>106</volume>(<issue>9</issue>):<elocation-id>dju244</elocation-id>. doi:<pub-id pub-id-type="doi">10.1093/jnci/dju244</pub-id><?supplied-pmid 25265940?><pub-id pub-id-type="pmid">25265940</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r15">
+                <label>15</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>LeBlanc</surname><given-names>TW</given-names></string-name>, <string-name><surname>Abernethy</surname><given-names>AP</given-names></string-name></person-group>. <article-title>Patient-reported outcomes in cancer care: hearing the patient voice at greater volume</article-title>. <source>Nat Rev Clin Oncol</source>. <year>2017</year>;<volume>14</volume>(<issue>12</issue>):<fpage>763</fpage>-<lpage>772</lpage>. doi:<pub-id pub-id-type="doi">10.1038/nrclinonc.2017.153</pub-id><?supplied-pmid 28975931?><pub-id pub-id-type="pmid">28975931</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r16">
+                <label>16</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Kim</surname><given-names>J</given-names></string-name>, <string-name><surname>Singh</surname><given-names>H</given-names></string-name>, <string-name><surname>Ayalew</surname><given-names>K</given-names></string-name>, <etal/></person-group>. <article-title>Use of PRO measures to inform tolerability in oncology trials: implications for clinical review, IND safety reporting, and clinical site inspections</article-title>. <source>Clin Cancer Res</source>. <year>2018</year>;<volume>24</volume>(<issue>8</issue>):<fpage>1780</fpage>-<lpage>1784</lpage>. doi:<pub-id pub-id-type="doi">10.1158/1078-0432.CCR-17-2555</pub-id><?supplied-pmid 29237718?><pub-id pub-id-type="pmid">29237718</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r17">
+                <label>17</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Dueck</surname><given-names>AC</given-names></string-name>, <string-name><surname>Mendoza</surname><given-names>TR</given-names></string-name>, <string-name><surname>Mitchell</surname><given-names>SA</given-names></string-name>, <etal/>; <collab>National Cancer Institute PRO-CTCAE Study Group</collab></person-group>. <article-title>Validity and reliability of the US National Cancer Institute’s Patient-Reported Outcomes version of the Common Terminology Criteria for Adverse Events (PRO-CTCAE)</article-title>. <source>JAMA Oncol</source>. <year>2015</year>;<volume>1</volume>(<issue>8</issue>):<fpage>1051</fpage>-<lpage>1059</lpage>. doi:<pub-id pub-id-type="doi">10.1001/jamaoncol.2015.2639</pub-id><?supplied-pmid 26270597?><pub-id pub-id-type="pmid">26270597</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r18">
+                <label>18</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Culakova</surname><given-names>E</given-names></string-name>, <string-name><surname>Mohile</surname><given-names>SG</given-names></string-name>, <string-name><surname>Peppone</surname><given-names>L</given-names></string-name>, <etal/></person-group>. <article-title>Effects of a geriatric assessment intervention on patient-reported symptomatic toxicity in older adults with advanced cancer</article-title>. <source>J Clin Oncol</source>. <year>2023</year>;<volume>41</volume>(<issue>4</issue>):<fpage>835</fpage>-<lpage>846</lpage>. doi:<pub-id pub-id-type="doi">10.1200/JCO.22.00738</pub-id><?supplied-pmid 36356279?><pub-id pub-id-type="pmid">36356279</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r19">
+                <label>19</label>
+                <mixed-citation publication-type="webpage"><person-group><collab>National Cancer Institute</collab></person-group>. What is the PRO-CTCAE measurement system? Accessed June 12, 2022. <ext-link xlink:href="https://healthcaredelivery.cancer.gov/pro-ctcae/overview.html" ext-link-type="uri">https://healthcaredelivery.cancer.gov/pro-ctcae/overview.html</ext-link></mixed-citation>
+              </ref>
+              <ref id="zoi230161r20">
+                <label>20</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Ramsdale</surname><given-names>E</given-names></string-name>, <string-name><surname>Snyder</surname><given-names>E</given-names></string-name>, <string-name><surname>Culakova</surname><given-names>E</given-names></string-name>, <etal/></person-group>. <article-title>An introduction to machine learning for clinicians: how can machine learning augment knowledge in geriatric oncology?</article-title><source>J Geriatr Oncol</source>. <year>2021</year>;<volume>12</volume>(<issue>8</issue>):<fpage>1159</fpage>-<lpage>1163</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jgo.2021.03.012</pub-id><?supplied-pmid 33795205?><pub-id pub-id-type="pmid">33795205</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r21">
+                <label>21</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Basch</surname><given-names>E</given-names></string-name>, <string-name><surname>Becker</surname><given-names>C</given-names></string-name>, <string-name><surname>Rogak</surname><given-names>LJ</given-names></string-name>, <etal/></person-group>. <article-title>Composite grading algorithm for the National Cancer Institute’s Patient-Reported Outcomes version of the Common Terminology Criteria for Adverse Events (PRO-CTCAE)</article-title>. <source>Clin Trials</source>. <year>2021</year>;<volume>18</volume>(<issue>1</issue>):<fpage>104</fpage>-<lpage>114</lpage>. doi:<pub-id pub-id-type="doi">10.1177/1740774520975120</pub-id><?supplied-pmid 33258687?><pub-id pub-id-type="pmid">33258687</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r22">
+                <label>22</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Cleeland</surname><given-names>CS</given-names></string-name>, <string-name><surname>Mendoza</surname><given-names>TR</given-names></string-name>, <string-name><surname>Wang</surname><given-names>XS</given-names></string-name>, <etal/></person-group>. <article-title>Assessing symptom distress in cancer patients: the M.D. Anderson Symptom Inventory</article-title>. <source>Cancer</source>. <year>2000</year>;<volume>89</volume>(<issue>7</issue>):<fpage>1634</fpage>-<lpage>1646</lpage>. doi:<pub-id pub-id-type="doi">10.1002/1097-0142(20001001)89:7&lt;1634::AID-CNCR29&gt;3.0.CO;2-V</pub-id><?supplied-pmid 11013380?><pub-id pub-id-type="pmid">11013380</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r23">
+                <label>23</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Singh</surname><given-names>A</given-names></string-name>, <string-name><surname>Yadav</surname><given-names>A</given-names></string-name>, <string-name><surname>Rana</surname><given-names>A</given-names></string-name></person-group>. <article-title>K-means with three different distance metrics</article-title>. <source>Int J Comput Appl</source>. <year>2013</year>;<volume>67</volume>(<issue>10</issue>).</mixed-citation>
+              </ref>
+              <ref id="zoi230161r24">
+                <label>24</label>
+                <mixed-citation publication-type="book"><person-group><string-name><surname>Shailaja</surname><given-names>K</given-names></string-name>, <string-name><surname>Seetharamulu</surname><given-names>B</given-names></string-name>, <string-name><surname>Jabbar</surname><given-names>M</given-names></string-name></person-group>. Machine learning in healthcare: a review. In: <italic>2018 Second International Conference on Electronics, Communication and Aerospace Technology (ICECA)</italic>. <publisher-name>IEEE</publisher-name>; <year>2018</year>:<fpage>910</fpage>-<lpage>914</lpage>. doi:<pub-id pub-id-type="doi">10.1109/ICECA.2018.8474918</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r25">
+                <label>25</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Jhamb</surname><given-names>M</given-names></string-name>, <string-name><surname>Abdel-Kader</surname><given-names>K</given-names></string-name>, <string-name><surname>Yabes</surname><given-names>J</given-names></string-name>, <etal/></person-group>. <article-title>Comparison of fatigue, pain, and depression in patients with advanced kidney disease and cancer: symptom burden and clusters</article-title>. <source>J Pain Symptom Manage</source>. <year>2019</year>;<volume>57</volume>(<issue>3</issue>):<fpage>566</fpage>-<lpage>575.e3</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jpainsymman.2018.12.006</pub-id><?supplied-pmid 30552961?><pub-id pub-id-type="pmid">30552961</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r26">
+                <label>26</label>
+                <mixed-citation publication-type="book"><person-group><string-name><surname>Papachristou</surname><given-names>N</given-names></string-name>, <string-name><surname>Miaskowski</surname><given-names>C</given-names></string-name>, <string-name><surname>Barnaghi</surname><given-names>P</given-names></string-name>, <etal/></person-group> Comparing machine learning clustering with latent class analysis on cancer symptoms' data. In: <italic>2016 IEEE Healthcare Innovation Point-Of-Care Technologies Conference (HI-POCT)</italic>. IEEE; <year>2016</year>:162-166. doi:<pub-id pub-id-type="doi">10.1109/HIC.2016.7797722</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r27">
+                <label>27</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Trask</surname><given-names>PC</given-names></string-name>, <string-name><surname>Griffith</surname><given-names>KA</given-names></string-name></person-group>. <article-title>The identification of empirically derived cancer patient subgroups using psychosocial variables</article-title>. <source>J Psychosom Res</source>. <year>2004</year>;<volume>57</volume>(<issue>3</issue>):<fpage>287</fpage>-<lpage>295</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jpsychores.2004.01.005</pub-id><?supplied-pmid 15507256?><pub-id pub-id-type="pmid">15507256</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r28">
+                <label>28</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Bennett</surname><given-names>JA</given-names></string-name></person-group>. <article-title>The Consolidated Standards of Reporting Trials (CONSORT): guidelines for reporting randomized trials</article-title>. <source>Nurs Res</source>. <year>2005</year>;<volume>54</volume>(<issue>2</issue>):<fpage>128</fpage>-<lpage>132</lpage>. doi:<pub-id pub-id-type="doi">10.1097/00006199-200503000-00007</pub-id><?supplied-pmid 15778654?><pub-id pub-id-type="pmid">15778654</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r29">
+                <label>29</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Hartigan</surname><given-names>JA</given-names></string-name>, <string-name><surname>Wong</surname><given-names>MA</given-names></string-name></person-group>. <article-title>A K-means clustering algorithm</article-title>. <source>J R Stat Ser C Appl Stat</source>. <year>1979</year>;<volume>28</volume>(<issue>1</issue>):<fpage>100</fpage>-<lpage>108</lpage>. doi:<pub-id pub-id-type="doi">10.2307/2346830</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r30">
+                <label>30</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Xu</surname><given-names>H</given-names></string-name>, <string-name><surname>Intrator</surname><given-names>O</given-names></string-name>, <string-name><surname>Culakova</surname><given-names>E</given-names></string-name>, <string-name><surname>Bowblis</surname><given-names>JR</given-names></string-name></person-group>. <article-title>Changing landscape of nursing homes serving residents with dementia and mental illnesses</article-title>. <source>Health Serv Res</source>. <year>2022</year>;<volume>57</volume>(<issue>3</issue>):<fpage>505</fpage>-<lpage>514</lpage>. doi:<pub-id pub-id-type="doi">10.1111/1475-6773.13908</pub-id><?supplied-pmid 34747498?><pub-id pub-id-type="pmid">34747498</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r31">
+                <label>31</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Callegaro</surname><given-names>A</given-names></string-name>, <string-name><surname>Iacobelli</surname><given-names>S</given-names></string-name></person-group>. The Cox shared frailty model with log-skew-normal frailties. <italic>Stat Model</italic>. <year>2012</year>;12(5):399-418. doi:<pub-id pub-id-type="doi">10.1177/1471082X12460146</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r32">
+                <label>32</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Hofer</surname><given-names>IS</given-names></string-name>, <string-name><surname>Burns</surname><given-names>M</given-names></string-name>, <string-name><surname>Kendale</surname><given-names>S</given-names></string-name>, <string-name><surname>Wanderer</surname><given-names>JP</given-names></string-name></person-group>. <article-title>Realistically integrating machine learning into clinical practice: a road map of opportunities, challenges, and a potential future</article-title>. <source>Anesth Analg</source>. <year>2020</year>;<volume>130</volume>(<issue>5</issue>):<fpage>1115</fpage>-<lpage>1118</lpage>. doi:<pub-id pub-id-type="doi">10.1213/ANE.0000000000004575</pub-id><?supplied-pmid 32287118?><pub-id pub-id-type="pmid">32287118</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r33">
+                <label>33</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Li</surname><given-names>D</given-names></string-name>, <string-name><surname>Sun</surname><given-names>CL</given-names></string-name>, <string-name><surname>Kim</surname><given-names>H</given-names></string-name>, <etal/></person-group>. <article-title>Geriatric Assessment-Driven Intervention (GAIN) on chemotherapy-related toxic effects in older adults with cancer: a randomized clinical trial</article-title>. <source>JAMA Oncol</source>. <year>2021</year>;<volume>7</volume>(<issue>11</issue>):<elocation-id>e214158</elocation-id>. doi:<pub-id pub-id-type="doi">10.1001/jamaoncol.2021.4158</pub-id><?supplied-pmid 34591080?><pub-id pub-id-type="pmid">34591080</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r34">
+                <label>34</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Dodd</surname><given-names>MJ</given-names></string-name>, <string-name><surname>Cho</surname><given-names>MH</given-names></string-name>, <string-name><surname>Cooper</surname><given-names>BA</given-names></string-name>, <string-name><surname>Miaskowski</surname><given-names>C</given-names></string-name></person-group>. <article-title>The effect of symptom clusters on functional status and quality of life in women with breast cancer</article-title>. <source>Eur J Oncol Nurs</source>. <year>2010</year>;<volume>14</volume>(<issue>2</issue>):<fpage>101</fpage>-<lpage>110</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.ejon.2009.09.005</pub-id><?supplied-pmid 19897417?><pub-id pub-id-type="pmid">19897417</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r35">
+                <label>35</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Noel</surname><given-names>CW</given-names></string-name>, <string-name><surname>Sutradhar</surname><given-names>R</given-names></string-name>, <string-name><surname>Zhao</surname><given-names>H</given-names></string-name>, <etal/></person-group>. <article-title>Patient-reported symptom burden as a predictor of emergency department use and unplanned hospitalization in head and neck cancer: a longitudinal population-based study</article-title>. <source>J Clin Oncol</source>. <year>2021</year>;<volume>39</volume>(<issue>6</issue>):<fpage>675</fpage>-<lpage>684</lpage>. doi:<pub-id pub-id-type="doi">10.1200/JCO.20.01845</pub-id><?supplied-pmid 33405964?><pub-id pub-id-type="pmid">33405964</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r36">
+                <label>36</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Pandya</surname><given-names>C</given-names></string-name>, <string-name><surname>Magnuson</surname><given-names>A</given-names></string-name>, <string-name><surname>Flannery</surname><given-names>M</given-names></string-name>, <etal/></person-group>. <article-title>Association between symptom burden and physical function in older patients with cancer</article-title>. <source>J Am Geriatr Soc</source>. <year>2019</year>;<volume>67</volume>(<issue>5</issue>):<fpage>998</fpage>-<lpage>1004</lpage>. doi:<pub-id pub-id-type="doi">10.1111/jgs.15864</pub-id><?supplied-pmid 30848838?><pub-id pub-id-type="pmid">30848838</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r37">
+                <label>37</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Fodeh</surname><given-names>SJ</given-names></string-name>, <string-name><surname>Lazenby</surname><given-names>M</given-names></string-name>, <string-name><surname>Bai</surname><given-names>M</given-names></string-name>, <string-name><surname>Ercolano</surname><given-names>E</given-names></string-name>, <string-name><surname>Murphy</surname><given-names>T</given-names></string-name>, <string-name><surname>McCorkle</surname><given-names>R</given-names></string-name></person-group>. <article-title>Functional impairments as symptoms in the symptom cluster analysis of patients newly diagnosed with advanced cancer</article-title>. <source>J Pain Symptom Manage</source>. <year>2013</year>;<volume>46</volume>(<issue>4</issue>):<fpage>500</fpage>-<lpage>510</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jpainsymman.2012.09.011</pub-id><?supplied-pmid 23380336?><pub-id pub-id-type="pmid">23380336</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r38">
+                <label>38</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Dubey</surname><given-names>AK</given-names></string-name>, <string-name><surname>Gupta</surname><given-names>U</given-names></string-name>, <string-name><surname>Jain</surname><given-names>S</given-names></string-name></person-group>. <article-title>Analysis of K-means clustering approach on the breast cancer Wisconsin dataset</article-title>. <source>Int J Comput Assist Radiol Surg</source>. <year>2016</year>;<volume>11</volume>(<issue>11</issue>):<fpage>2033</fpage>-<lpage>2047</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11548-016-1437-9</pub-id><?supplied-pmid 27311823?><pub-id pub-id-type="pmid">27311823</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r39">
+                <label>39</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Bouchard</surname><given-names>LC</given-names></string-name>, <string-name><surname>Aaronson</surname><given-names>N</given-names></string-name>, <string-name><surname>Gondek</surname><given-names>K</given-names></string-name>, <string-name><surname>Cella</surname><given-names>D</given-names></string-name></person-group>. <article-title>Cancer symptom response as an oncology clinical trial end point</article-title>. <source>Expert Rev Qual Life Cancer Care</source>. <year>2018</year>;<volume>3</volume>(<issue>2-3</issue>):<fpage>35</fpage>-<lpage>46</lpage>. doi:<pub-id pub-id-type="doi">10.1080/23809000.2018.1483193</pub-id><?supplied-pmid 31020045?><pub-id pub-id-type="pmid">31020045</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230161r40">
+                <label>40</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Ferrell</surname><given-names>BR</given-names></string-name>, <string-name><surname>Temel</surname><given-names>JS</given-names></string-name>, <string-name><surname>Temin</surname><given-names>S</given-names></string-name>, <etal/></person-group>. <article-title>Integration of palliative care into standard oncology care: American Society of Clinical Oncology clinical practice guideline update</article-title>. <source>J Clin Oncol</source>. <year>2017</year>;<volume>35</volume>(<issue>1</issue>):<fpage>96</fpage>-<lpage>112</lpage>. doi:<pub-id pub-id-type="doi">10.1200/JCO.2016.70.1474</pub-id><?supplied-pmid 28034065?><pub-id pub-id-type="pmid">28034065</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+            <notes notes-type="supplementary-material" id="note-ZOI230161-1">
+              <supplementary-material id="note-ZOI230161-1-s" position="float" content-type="local-data">
+                <label>Supplement 1.</label>
+                <caption>
+                  <p>
+Trial Protocol
+</p>
+                </caption>
+                <media xlink:href="jamanetwopen-e234198-s001.pdf">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material position="float" content-type="local-data">
+                <label>Supplement 2.</label>
+                <caption>
+                  <p><bold>eFigure.</bold> Study Flow Diagram</p>
+                </caption>
+                <media xlink:href="jamanetwopen-e234198-s002.pdf">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material position="float" content-type="local-data">
+                <label>Supplement 3.</label>
+                <caption>
+                  <p>
+Data Sharing Statement
+</p>
+                </caption>
+                <media xlink:href="jamanetwopen-e234198-s003.pdf">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </notes>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,1131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T07:21:16Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3974861" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:3974861</identifier>
+        <datestamp>2014-04-08</datestamp>
+        <setSpec>plospath</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">PLoS Pathog</journal-id>
+              <journal-id journal-id-type="iso-abbrev">PLoS Pathog</journal-id>
+              <journal-id journal-id-type="publisher-id">plos</journal-id>
+              <journal-id journal-id-type="pmc">plospath</journal-id>
+              <journal-title-group>
+                <journal-title>PLoS Pathogens</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">1553-7366</issn>
+              <issn pub-type="epub">1553-7374</issn>
+              <publisher>
+                <publisher-name>Public Library of Science</publisher-name>
+                <publisher-loc>San Francisco, USA</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC3974861</article-id>
+              <article-id pub-id-type="pmcid">PMC3974861</article-id>
+              <article-id pub-id-type="pmc-uid">3974861</article-id>
+              <article-id pub-id-type="pmid">24699693</article-id>
+              <article-id pub-id-type="pmid">24699693</article-id>
+              <article-id pub-id-type="publisher-id">PPATHOGENS-D-13-02623</article-id>
+              <article-id pub-id-type="doi">10.1371/journal.ppat.1004054</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research Article</subject>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v2">
+                  <subject>Biology and Life Sciences</subject>
+                  <subj-group>
+                    <subject>Computational Biology</subject>
+                    <subj-group>
+                      <subject>Population Modeling</subject>
+                      <subj-group>
+                        <subject>Infectious Disease Modeling</subject>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                  <subj-group>
+                    <subject>Immunology</subject>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v2">
+                  <subject>Medicine and Health Sciences</subject>
+                  <subj-group>
+                    <subject>Infectious Diseases</subject>
+                    <subj-group>
+                      <subject>Viral Diseases</subject>
+                      <subj-group>
+                        <subject>Influenza</subject>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                  <subj-group>
+                    <subject>Public and Occupational Health</subject>
+                  </subj-group>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Inferring Influenza Infection Attack Rate from Seroprevalence Data</article-title>
+                <alt-title alt-title-type="running-head">Inferring Influenza Attack Rate</alt-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Wu</surname>
+                    <given-names>Joseph T.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="corresp" rid="cor1">
+                    <sup>*</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Leung</surname>
+                    <given-names>Kathy</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Perera</surname>
+                    <given-names>Ranawaka A. P. M.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Chu</surname>
+                    <given-names>Daniel K. W.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lee</surname>
+                    <given-names>Cheuk Kwong</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff3">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Hung</surname>
+                    <given-names>Ivan F. N.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff4">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lin</surname>
+                    <given-names>Che Kit</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff3">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lo</surname>
+                    <given-names>Su-Vui</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff5">
+                    <sup>5</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lau</surname>
+                    <given-names>Yu-Lung</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff7">
+                    <sup>7</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Leung</surname>
+                    <given-names>Gabriel M.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Cowling</surname>
+                    <given-names>Benjamin J.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Peiris</surname>
+                    <given-names>J. S. Malik</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff8">
+                    <sup>8</sup>
+                  </xref>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1">
+                <label>1</label>
+                <addr-line>Department of Community Medicine and School of Public Health, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong Special Administrative Region, People's Republic of China</addr-line>
+              </aff>
+              <aff id="aff2">
+                <label>2</label>
+                <addr-line>Centre of Influenza Research and School of Public Health, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong Special Administrative Region, People's Republic of China</addr-line>
+              </aff>
+              <aff id="aff3">
+                <label>3</label>
+                <addr-line>Hong Kong Red Cross Blood Transfusion Service, Hospital Authority, Hong Kong Special Administrative Region, People's Republic of China</addr-line>
+              </aff>
+              <aff id="aff4">
+                <label>4</label>
+                <addr-line>Department of Medicine, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong Special Administrative Region, People's Republic of China</addr-line>
+              </aff>
+              <aff id="aff5">
+                <label>5</label>
+                <addr-line>Hospital Authority, Hong Kong Special Administrative Region, People's Republic of China</addr-line>
+              </aff>
+              <aff id="aff6">
+                <label>6</label>
+                <addr-line>Food and Health Bureau, Government of the Hong Kong Special Administrative Region, Hong Kong Special Administrative Region, People's Republic of China</addr-line>
+              </aff>
+              <aff id="aff7">
+                <label>7</label>
+                <addr-line>Department of Paediatrics and Adolescent Medicine, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong Special Administrative Region, People's Republic of China</addr-line>
+              </aff>
+              <aff id="aff8">
+                <label>8</label>
+                <addr-line>HKU-Pasteur Research Pole, Centre of Influenza Research and School of Public Health, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong Special Administrative Region, People's Republic of China</addr-line>
+              </aff>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Ferguson</surname>
+                    <given-names>Neil M.</given-names>
+                  </name>
+                  <role>Editor</role>
+                  <xref ref-type="aff" rid="edit1"/>
+                </contrib>
+              </contrib-group>
+              <aff id="edit1">
+                <addr-line>Imperial College London, United Kingdom</addr-line>
+              </aff>
+              <author-notes>
+                <corresp id="cor1">* E-mail: <email>joewu@hku.hk</email></corresp>
+                <fn fn-type="COI-statement">
+                  <p>I have read the journal's policy and have the following conflicts: BJC has received research funding from MedImmune Inc., and BJC and JSMP consults for Crucell NV. GML has received speaker honoraria from HSBC and CLSA. The authors report no other potential conflicts of interest. This does not alter our adherence to all PLOS policies on sharing data and materials.</p>
+                </fn>
+                <fn fn-type="con">
+                  <p>Conceived and designed the experiments: JTW BJC GML JSMP. Analyzed the data: JTW KL. Wrote the paper: JTW. Collected data: JTW KL RAPMP DKWC CKLee IFNH CKLin SVL YLL GML BJC JSMP. Laboratory testing: RAPMP DKWC. Interpreted results: JTW KL BJC GML JSMP.</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <month>4</month>
+                <year>2014</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>3</day>
+                <month>4</month>
+                <year>2014</year>
+              </pub-date>
+              <volume>10</volume>
+              <issue>4</issue>
+              <elocation-id>e1004054</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>26</day>
+                  <month>9</month>
+                  <year>2013</year>
+                </date>
+                <date date-type="accepted">
+                  <day>24</day>
+                  <month>2</month>
+                  <year>2014</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2014 Wu et al</copyright-statement>
+                <copyright-year>2014</copyright-year>
+                <copyright-holder>Wu et al</copyright-holder>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                  <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>Seroprevalence survey is the most practical method for accurately estimating infection attack rate (IAR) in an epidemic such as influenza. These studies typically entail selecting an arbitrary titer threshold for seropositivity (e.g. microneutralization [MN] 1∶40) and assuming the probability of seropositivity given infection (infection-seropositivity probability, ISP) is 100% or similar to that among clinical cases. We hypothesize that such conventions are not necessarily robust because different thresholds may result in different IAR estimates and serologic responses of clinical cases may not be representative. To illustrate our hypothesis, we used an age-structured transmission model to fully characterize the transmission dynamics and seroprevalence rises of 2009 influenza pandemic A/H1N1 (pdmH1N1) during its first wave in Hong Kong. We estimated that while 99% of pdmH1N1 infections became MN<sub>1∶20</sub> seropositive, only 72%, 62%, 58% and 34% of infections among age 3–12, 13–19, 20–29, 30–59 became MN<sub>1∶40</sub> seropositive, which was much lower than the 90%–100% observed among clinical cases. The fitted model was consistent with prevailing consensus on pdmH1N1 transmission characteristics (e.g. initial reproductive number of 1.28 and mean generation time of 2.4 days which were within the consensus range), hence our ISP estimates were consistent with the transmission dynamics and temporal buildup of population-level immunity. IAR estimates in influenza seroprevalence studies are sensitive to seropositivity thresholds and ISP adjustments which in current practice are mostly chosen based on conventions instead of systematic criteria. Our results thus highlighted the need for reexamining conventional practice to develop standards for analyzing influenza serologic data (e.g. real-time assessment of bias in ISP adjustments by evaluating the consistency of IAR across multiple thresholds and with mixture models), especially in the context of pandemics when robustness and comparability of IAR estimates are most needed for informing situational awareness and risk assessment. The same principles are broadly applicable for seroprevalence studies of other infectious disease outbreaks.</p>
+              </abstract>
+              <abstract abstract-type="summary">
+                <title>Author Summary</title>
+                <p>Seroprevalence studies have been regarded as the most practical method for accurately estimating the number of infections in influenza epidemics and pandemics. However, methods for inferring the number of infections from seroprevalence data in previous studies have mostly been based on conventional practice instead of standardized criteria. Specifically, there are no systematic criteria on how to select the seropositivity threshold and adjust for the proportion of infections that become seropositive. Here, we showed that under the conventional criteria, the number of 2009 pandemic influenza A/H1N1 infections had been substantially underestimated in Hong Kong as well as other countries, mostly due to overestimation of the proportion of infections that became seropositive. Our results highlighted the need to reexamine the widely accepted practice in interpreting seroprevalence data, especially in the context of pandemics when little is known but robust and comparable estimates of the number of infections and severity are most needed for informing situational awareness and guiding control policies.</p>
+              </abstract>
+              <funding-group>
+                <funding-statement>This research was supported by the Research Grants Council General Research Fund (HKU 782710M), Harvard Center for Communicable Disease Dynamics from the National Institute of General Medical Sciences (grant no. U54 GM088558), the Research Fund for the Control of Infectious Disease, Food and Health Bureau, Government of the Hong Kong Special Administrative Region, and the Area of Excellence Scheme of the Hong Kong University Grants Committee (grant no. AoE/M-12/06), EMPERIE (EU FP7 grant 223498), and the National Institute of Allergy and Infectious Diseases, NIH (contract HHSN266200700005C; ADB No. N01-AI-70005). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+              </funding-group>
+              <counts>
+                <page-count count="9"/>
+              </counts>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="s1">
+              <title>Introduction</title>
+              <p>Severity of influenza infection is defined as the probability of severe complications (e.g. hospitalization or death) if infected <xref rid="ppat.1004054-VanKerkhove1" ref-type="bibr">[1]</xref>. Timely and accurate estimates of severity are extremely valuable for informing decisions about the scale and targeting of response to an emerging pandemic <xref rid="ppat.1004054-Lipsitch1" ref-type="bibr">[2]</xref>. In 2011, the International Health Regulations Review Committee highlighted the lack of “a consistent, measurable and understandable depiction of severity” as a major shortcoming of global response to the 2009 influenza pandemic <xref rid="ppat.1004054-Fineberg1" ref-type="bibr">[3]</xref>. Real-time serial cross-sectional or longitudinal seroprevalence studies can address this shortcoming in future pandemics by providing direct estimates of infection attack rate (IAR) as the denominator for severity <xref rid="ppat.1004054-Broberg1" ref-type="bibr">[4]</xref>.</p>
+              <p>In serial cross-sectional seroprevalence studies, with the absence of vaccination, IARs are estimated from seroprevalence rise (Δ<italic>S</italic>). These studies typically entail selecting an arbitrary titer threshold for seropositivity. Although many influenza seroprevalence studies have been conducted, there is no consensus on how to select seropositivity thresholds and adjust for the proportion of infections that became seropositive (infection-seropositivity probability, ISP). Haemagglutinin-inhibition (HI) titer 1∶40 and microneutralization (MN) titer 1∶40 have been commonly used as seropositivity thresholds <xref rid="ppat.1004054-VanKerkhove2" ref-type="bibr">[5]</xref>; ISP has either been ignored (IAR≈Δ<italic>S</italic>, e.g. <xref rid="ppat.1004054-Bandaranayake1" ref-type="bibr">[6]</xref>–<xref rid="ppat.1004054-Wu1" ref-type="bibr">[11]</xref>) or assumed to be similar to the proportion of clinical cases that became seropositive during convalescence (IAR≈Δ<italic>S</italic>/(proportion of clinical cases seropositive), e.g. <xref rid="ppat.1004054-Baguelin1" ref-type="bibr">[12]</xref>–<xref rid="ppat.1004054-Reed1" ref-type="bibr">[15]</xref>). Historically, seropositivity thresholds were often chosen by conventions instead of systematic evaluation and ISP was rarely included or discussed <xref rid="ppat.1004054-Broberg1" ref-type="bibr">[4]</xref>. Previous studies have noted the arbitrariness associated with predefined seropositivity thresholds and proposed to circumvent such arbitrariness by fitting the cross-sectional titer distribution to a mixture of probability distributions for estimating IAR <xref rid="ppat.1004054-Hens1" ref-type="bibr">[16]</xref>. A simple example of these so-called mixture models is the superposition of two lognormal distributions which correspond to the titer distributions of the uninfected and infected populations <xref rid="ppat.1004054-Steens1" ref-type="bibr">[17]</xref>. In this study, we incorporated such mixture model structure into a transmission model to show that conventional seropositivity thresholds and ISP adjustments had probably led to underestimation of IARs in many seroprevalence studies of 2009 pandemic influenza A/H1N1 (pdmH1N1). Our results thus resonate with these earlier studies regarding the lack of robustness in conventional practice for inferring IAR from seroprevalence data, not only for influenza but also other infectious diseases <xref rid="ppat.1004054-Hardelid1" ref-type="bibr">[18]</xref>, <xref rid="ppat.1004054-Vyse1" ref-type="bibr">[19]</xref>. Our results highlighted the need to reexamine the widely accepted practice in interpreting seroprevalence data, especially in the context of pandemics when little is known but robust and comparable estimates of the number of infections and severity are most needed for informing situational awareness and guiding control policies.</p>
+            </sec>
+            <sec id="s2">
+              <title>Results</title>
+              <sec id="s2a">
+                <title>Seroprevalence data</title>
+                <p>During the 2009 influenza pandemic in Hong Kong, we conducted a large serial cross-sectional seroprevalence study with ∼14,800 serum samples from individuals aged 3–59 years, the details of which have been previously documented <xref rid="ppat.1004054-Wu1" ref-type="bibr">[11]</xref>, <xref rid="ppat.1004054-Wu2" ref-type="bibr">[13]</xref>. Briefly, for samples collected before or in July 2009, we tested whether they were seropositive with respect to MN titer 1∶10, 1∶20, 1∶40, 1∶80, 1∶160, 1∶320, 1∶640, 1∶1280, and 1∶2560 (<xref ref-type="fig" rid="ppat-1004054-g001">Figure 1A</xref>). Due to logistical constraints, for samples collected after July 2009, we only tested whether they were MN<sub>1∶20</sub> and MN<sub>1∶40</sub> seropositive, e.g. if a sample was MN<sub>1∶80</sub> seropositive, we would only know that it was MN<sub>1∶20</sub> and MN<sub>1∶40</sub> seropositive. We denoted the seroprevalence, seroprevalence rise and infection-seropositivity probability for MN<sub>1:<italic>X</italic></sub> by <italic>S<sub>X</sub></italic>, Δ<italic>S<sub>X</sub></italic> and <italic>ISP<sub>X</sub></italic>, respectively.</p>
+                <fig id="ppat-1004054-g001" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.ppat.1004054.g001</object-id>
+                  <label>Figure 1</label>
+                  <caption>
+                    <title>Prepandemic seroprevalence and the epidemic curve of pdmH1N1 in Hong Kong.</title>
+                    <p><bold>A</bold> Age-stratified pre-pandemic MN titer distributions which were estimated from serum samples collected in June and early-July 2009. For samples collected after July 2009, we only tested whether they were MN<sub>1∶20</sub> and MN<sub>1:40</sub> seropositive because of logistical constraints. <bold>B</bold> Epidemic curves of pdmH1N1 in Hong Kong and Shenzhen. Estimated weekly numbers of lab-confirmed cases in Shenzhen were extracted from <xref rid="ppat.1004054-Xie1" ref-type="bibr">[38]</xref>.</p>
+                  </caption>
+                  <graphic xlink:href="ppat.1004054.g001"/>
+                </fig>
+              </sec>
+              <sec id="s2b">
+                <title>Hospitalization data</title>
+                <p>The bulk of the first wave of pdmH1N1 in Hong Kong occurred between 1 June and 30 November 2009 (<xref ref-type="fig" rid="ppat-1004054-g001">Figure 1B</xref>). Age-stratified daily number of pdmH1N1 hospitalizations during this period was provided by the Hong Kong Hospital Authority <xref rid="ppat.1004054-Cowling1" ref-type="bibr">[20]</xref>, <xref rid="ppat.1004054-Wu3" ref-type="bibr">[21]</xref>. Since May 2009, patients admitted with acute respiratory illnesses routinely underwent laboratory testing for pdmH1N1 <xref rid="ppat.1004054-Wu4" ref-type="bibr">[22]</xref>. Due to containment efforts enforced until June 29, all lab-confirmed pdmH1N1 cases before that date were hospitalized for isolation regardless of their clinical conditions. Therefore, our analysis only used hospitalization data from June 30 onwards during which only those required hospital care were admitted.</p>
+              </sec>
+              <sec id="s2c">
+                <title>Preliminary analysis</title>
+                <p>In our previous IAR estimates, we (i) adopted the conventional MN<sub>1∶40</sub> seropositivity threshold because the proportion of pdmH1N1 clinical cases who became MN<sub>1∶20</sub> and MN<sub>1∶40</sub> seropositive during convalescence were ∼100% and 90%, respectively <xref rid="ppat.1004054-Hung1" ref-type="bibr">[23]</xref>, <xref rid="ppat.1004054-Veguilla1" ref-type="bibr">[24]</xref>; and (ii) assumed that ISP of all pdmH1N1 cases (i.e. including mild and asymptomatic infections) were similar to the proportion of clinical cases that became seropositive, i.e., <italic>ISP</italic>
+<sub>20</sub>≈1 and <italic>ISP</italic>
+<sub>40</sub>≈0.9–1. Because <italic>IAR</italic>≈Δ<italic>S</italic>
+<sub>X</sub>/<italic>ISP</italic>
+<sub>X</sub>, it follows that Δ<italic>S</italic>
+<sub>40</sub>/Δ<italic>S</italic>
+<sub>20</sub>≈<italic>ISP</italic>
+<sub>40</sub>/<italic>ISP</italic>
+<sub>20</sub>. The assumption <italic>ISP</italic>
+<sub>20</sub>≈1 and <italic>ISP</italic>
+<sub>40</sub>≈0.9–1 thus implied Δ<italic>S</italic>
+<sub>40</sub>/Δ<italic>S</italic>
+<sub>20</sub>&gt;0.9. However, this contradicted our serial cross-sectional seroprevalence data which suggested that Δ<italic>S</italic>
+<sub>40</sub>/Δ<italic>S</italic>
+<sub>20</sub> was consistently much smaller than 0.9 in all cross-sections throughout the first wave for all age groups, especially among older adults (<xref ref-type="fig" rid="ppat-1004054-g002">Figure 2</xref>). The contribution of seasonal influenza to Δ<italic>S</italic>
+<sub>20</sub> was small because (i) &lt;34% of influenza A isolates during the first wave were seasonal influenza (<ext-link ext-link-type="uri" xlink:href="http://www.chp.gov.hk/en/epidemiology/304/518/519.html">http://www.chp.gov.hk/en/epidemiology/304/518/519.html</ext-link>); and (ii) in a Hong Kong study of within-household influenza transmission <xref rid="ppat.1004054-Cowling2" ref-type="bibr">[25]</xref>, only a small percentage of subjects infected with seasonal influenza became MN<sub>1∶20</sub> seropositive against pdmH1N1 (unpublished data, BJ Cowling). Thus, given that pdmH1N1 vaccination was absent during the study period, Δ<italic>S</italic>
+<sub>20</sub> could only be attributed to pdmH1N1 infections. This preliminary analysis strongly suggested that a substantial proportion of pdmH1N1 infections (e.g. mild and asymptomatic infections) did not become MN<sub>1∶40</sub> seropositive. To substantiate this hypothesis, we developed a mathematical model to fully characterize the transmission dynamics and seroprevalence rises of pdmH1N1 during its first wave in Hong Kong.</p>
+                <fig id="ppat-1004054-g002" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.ppat.1004054.g002</object-id>
+                  <label>Figure 2</label>
+                  <caption>
+                    <title>Age-specific Δ<italic>S</italic>
+<sub>40</sub>/Δ<italic>S</italic>
+<sub>20</sub> during the first wave of pdmH1N1 in Hong Kong.</title>
+                    <p>Δ<italic>S</italic>
+<sub>40</sub> and Δ<italic>S</italic>
+<sub>20</sub> at each cross-section were estimated using the method described in our previous work <xref rid="ppat.1004054-Wu1" ref-type="bibr">[11]</xref>. If ISP<sub>20</sub> and ISP<sub>40</sub> (among all pdmH1N1 infections) were the same as the proportions of clinical cases that became MN<sub>1:20</sub> and MN<sub>1∶40</sub> seropositive (i.e. around 100% and 90%, respectively <xref rid="ppat.1004054-Hung1" ref-type="bibr">[23]</xref>, <xref rid="ppat.1004054-Veguilla1" ref-type="bibr">[24]</xref>), Δ<italic>S</italic>
+<sub>40</sub>/Δ<italic>S</italic>
+<sub>20</sub> should have remained close to 0.9–1 (the horizontal dashed line) throughout the first wave, which was not the case in reality as shown here.</p>
+                  </caption>
+                  <graphic xlink:href="ppat.1004054.g002"/>
+                </fig>
+              </sec>
+              <sec id="s2d">
+                <title>Transmission dynamics and ISP estimates</title>
+                <p>We used an age-structured Susceptible-Exposed-Infected-Recovered (SEIR) model with 4 age groups (age 3–12 y, 13–19 y, 20–29 y and 30–59 y) to simulate pdmH1N1 transmission between 1 June and 30 November 2009. The 0–2 and ≥60 age groups were omitted because (i) reliable serologic data from them were not available and (ii) they only represented 2% of all lab-confirmed pdmH1N1 cases and 5% of all pdmH1N1 hospitalizations and thus likely to have small contribution in pdmH1N1 transmission. In our sensitivity analysis, we showed that our results remained almost unchanged if we included these age groups in disease transmission. We used the POLYMOD matrices constructed for European countries (8 matrices and their average <bold>P<sub>AVG</sub></bold>) as the contact matrix <bold>C</bold> because analogous data was unavailable from Hong Kong <xref rid="ppat.1004054-Mossong1" ref-type="bibr">[26]</xref> and most of our results were insensitive to the choice of contact matrix. We included the effect of infection importations from Shenzhen, a large city adjacent to Hong Kong with a population of 13 million (<xref ref-type="fig" rid="ppat-1004054-g001">Figure 1B</xref>).</p>
+                <p>We fitted the transmission model to the seroprevalence and hospitalization data by estimating the parameters listed in <xref ref-type="table" rid="ppat-1004054-t001">Table 1</xref>. All parameters were identifiable (<xref ref-type="fig" rid="ppat-1004054-g003">Figure 3</xref> and <xref ref-type="table" rid="ppat-1004054-t001">Table 1</xref>) and the fitted model was congruent with the data (<xref ref-type="fig" rid="ppat-1004054-g004">Figure 4</xref>). Parameter estimates were very similar across all nine contact matrices except for age-specific susceptibility (see below for details). Partial rank correlation coefficient (PRCC) analysis did not indicate any unexpected confounding effects (see <xref ref-type="supplementary-material" rid="ppat.1004054.s019">Text S1</xref>).</p>
+                <fig id="ppat-1004054-g003" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.ppat.1004054.g003</object-id>
+                  <label>Figure 3</label>
+                  <caption>
+                    <title>Posterior distributions of parameter estimates.</title>
+                    <p>Different colors correspond to different POLYMOD contact matrices. <bold>A</bold> Age-dependent parameters including IARs (first column), <italic>ISP</italic>
+<sub>40</sub> (second), and age-specific susceptibility (third). <bold>B</bold> Other parameters including <italic>R</italic>(0), <italic>T<sub>g</sub></italic>, <italic>ISP</italic>
+<sub>20</sub>, reduction in within-age-group mixing due to school closure (<italic>π</italic>
+<sub>0</sub>, <italic>π</italic>
+<sub>1</sub>, <italic>π</italic>
+<sub>2</sub>), seed size, and scaling factor for FOI from Shenzhen (<italic>ε<sub>SZ</sub></italic>).</p>
+                  </caption>
+                  <graphic xlink:href="ppat.1004054.g003"/>
+                </fig>
+                <fig id="ppat-1004054-g004" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.ppat.1004054.g004</object-id>
+                  <label>Figure 4</label>
+                  <caption>
+                    <title>Comparison of the data and the fitted model.</title>
+                    <p>The hospitalization and serial cross-sectional seroprevalence data are shown in blue (vertical bars indicate 95% confidence intervals). Posterior intervals of hospitalizations and seroprevalence in the fitted model are shown as heat shades in which darker colors represent higher probability densities (i.e. highest density in red and zero density in white).</p>
+                  </caption>
+                  <graphic xlink:href="ppat.1004054.g004"/>
+                </fig>
+                <table-wrap id="ppat-1004054-t001" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.ppat.1004054.t001</object-id>
+                  <label>Table 1</label>
+                  <caption>
+                    <title>Model parameters and their posterior statistics.</title>
+                  </caption>
+                  <alternatives>
+                    <graphic id="ppat-1004054-t001-1" xlink:href="ppat.1004054.t001"/>
+                    <table frame="hsides" rules="groups">
+                      <colgroup span="1">
+                        <col align="left" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Parameter</td>
+                          <td align="left" rowspan="1" colspan="1">Description</td>
+                          <td align="left" rowspan="1" colspan="1">Posterior median (95% credible interval)</td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1"><italic>R</italic>(0)</td>
+                          <td align="left" rowspan="1" colspan="1">Initial reproductive number</td>
+                          <td align="left" rowspan="1" colspan="1">1.28 (1.23–1.34)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>T<sub>g</sub></italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">Mean generation time (days)</td>
+                          <td align="left" rowspan="1" colspan="1">2.4 (2.1–2.8)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>π</italic>
+                            <sub>0</sub>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">Reduction in within-group transmission for the 3–12 age group during proactive school closure</td>
+                          <td align="left" rowspan="1" colspan="1">86% (44%–99%)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1"><italic>π</italic><sub>1</sub>, <italic>π</italic><sub>2</sub></td>
+                          <td align="left" rowspan="1" colspan="1">Reduction in within-group transmission during summer holidays</td>
+                          <td align="left" rowspan="1" colspan="1">Age 3–12: 59% (46%–73%)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1">Age 13–19: 23% (15%–30%)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1"><italic>x<sub>a,i</sub></italic>(0)</td>
+                          <td align="left" rowspan="1" colspan="1">Proportion of age group <italic>a</italic> with the <italic>i</italic>th pre-pandemic titer level</td>
+                          <td align="left" rowspan="1" colspan="1">Very similar to the distributions in <xref ref-type="fig" rid="ppat-1004054-g001">Figure 1A</xref>
+</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>h</italic>
+                            <sub>a</sub>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">Age-specific susceptibility of age group <italic>a</italic> compared to the 20–29 age group</td>
+                          <td align="left" rowspan="1" colspan="1">Age 3–12: 2.3 (2–2.6)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1">Age 13–19: 1.3 (1.1–1.5)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1">Age 30–59: 0.6 (0.5–0.7)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>ISP</italic>
+                            <sub>20</sub>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">MN<sub>1∶20</sub> infection-seropositivity probability</td>
+                          <td align="left" rowspan="1" colspan="1">0.99 (0.93–1)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>ISP</italic>
+                            <sub>40,<italic>a</italic></sub>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">Age-specific MN<sub>1∶40</sub> infection-seropositivity probability</td>
+                          <td align="left" rowspan="1" colspan="1">Age 3–12: 0.72 (0.63–0.82)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1">Age 13–19: 0.65 (0.56–0.75)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1">Age 20–29: 0.58 (0.49–0.68)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1">Age 30–59: 0.34 (0.24–0.44)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>μ<sub>Seropos, X</sub></italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">Mean delay (days) from onset to MN<sub>1:<italic>X</italic></sub> seropositivity for those infections who became MN<sub>1:<italic>X</italic></sub> seropositive during convalescence</td>
+                          <td align="left" rowspan="1" colspan="1">MN<sub>1∶20</sub>: 7.3 (6.1–8.6)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1">MN<sub>1∶40</sub>: 9.7 (7.9–11.3)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>M</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">Seed size</td>
+                          <td align="left" rowspan="1" colspan="1">246 (132–420)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>ε<sub>SZ</sub></italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">Scaling factor for exogenous FOI from Shenzhen</td>
+                          <td align="left" rowspan="1" colspan="1">15 (9–23)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>IHP<sub>a</sub></italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">Age-specific infection-hospitalization probability</td>
+                          <td align="left" rowspan="1" colspan="1">Age 3–12: 0.89% (0.8%–1%)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1">Age 13–19: 0.29% (0.26%–0.34%)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1">Age 20–29: 0.22% (0.18%–0.26%)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1">Age 30–59: 0.23% (0.19%–0.29%)</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </alternatives>
+                </table-wrap>
+                <p>We estimated that the initial reproductive number <italic>R</italic>(0) was 1.28 (95% credible interval, 1.23–1.34) and mean generation time <italic>T<sub>g</sub></italic> was 2.4 (2.1–2.8) days, i.e. consistent with estimates of pdmH1N1 transmission parameters in other studies <xref rid="ppat.1004054-Bolle1" ref-type="bibr">[27]</xref>. The scaling factor for the force of infection (FOI) from Shenzhen was <italic>ε<sub>SZ</sub></italic> = 15 (9–23), which conformed with the intuition that<disp-formula id="ppat.1004054.e001"><graphic xlink:href="ppat.1004054.e001.jpg" position="anchor" orientation="portrait"/></disp-formula>(see <xref ref-type="supplementary-material" rid="ppat.1004054.s019">Text S1</xref>).</p>
+                <p>Among infected individuals who were MN<sub>1∶20</sub> seronegative before infection, 99% (93%–100%) became MN<sub>1∶20</sub> seropositive with a mean delay of 7.3 (6.1–8.6) days after onset. Among infected individuals who were MN<sub>1∶40</sub> seronegative before infection, 72% (63%–82%), 65% (56%–75%), 58% (49%–68%) and 34% (24%–44%) among the 3–12, 13–19, 20–29 and 30–59 age group became MN<sub>1∶40</sub> seropositive with a mean delay of 9.5 (7.9–11.3) days after onset. Hence, <italic>ISP</italic>
+<sub>40</sub> decreased with age and was much lower compared to the 90–100% of clinical cases that became MN<sub>1∶40</sub> seropositive <xref rid="ppat.1004054-Hung1" ref-type="bibr">[23]</xref>, <xref rid="ppat.1004054-Veguilla1" ref-type="bibr">[24]</xref>. Consequently, IAR estimates here were significantly higher than our previous estimates, especially for the 30–59 age group <xref rid="ppat.1004054-Wu2" ref-type="bibr">[13]</xref>: 52% (46%–58%), 49% (43%–55%), 25% (21%–29%) and 13% (10%–16%) for age 3–12, 13–19, 20–29 and 30–59.</p>
+                <p>Proactive closure of kindergartens and primary schools reduced mixing among children aged 3–12 by 86% (44%–99%). Summer holidays reduced within-age-group mixing by 59% (46%–73%) and 23% (15%–30%) for age 3–12 and 13–19. A weaker effect of school closing for age 13–19 was plausible because older teenagers were more likely to actively mix with their peers in non-school settings while schools were closed.</p>
+                <p>Age-specific susceptibilities <italic>h<sub>a</sub></italic>'s were sensitive to the choice of contact matrix <bold>C</bold> because disease transmission was essentially driven by the matrix {<italic>W<sub>ab</sub></italic> = <italic>h<sub>a</sub>C<sub>ab</sub></italic>}. For all POLYMOD matrices, adults aged 30–59 were 0.4–0.7 times as susceptible as those aged 20–29. Children aged 3–12 were ∼2–3 times as susceptible as those aged 20–29 except for the Netherlands matrix which gave an estimate of 1.3 (1.1–1.4). Children aged 13–19 were 1.1–1.6 times more susceptible than adults aged 20–29 except for the Italy matrix which gave an estimate of 0.9 (0.8–1). In summary, these age-specific susceptibility estimates were consistent with analogous estimates from studies which showed that susceptibility decreased with age after adjusting for preexisting antibody titers and close contacts <xref rid="ppat.1004054-Cauchemez1" ref-type="bibr">[28]</xref>, <xref rid="ppat.1004054-Cauchemez2" ref-type="bibr">[29]</xref>.</p>
+              </sec>
+            </sec>
+            <sec id="s3">
+              <title>Discussion</title>
+              <p>We hypothesized that influenza seroprevalence studies might substantially underestimate IARs if ISP is ignored or based on data from patients presenting to healthcare providers with clinically overt disease. We substantiated this hypothesis with pdmH1N1 seroprevalence data from Hong Kong. To further examine the validity of this conjecture, we performed crude analyses of published pdmH1N1 seroprevalence data from other countries to examine the robustness of their IAR estimates across different seropositivity thresholds and ISP adjustments (see <xref ref-type="supplementary-material" rid="ppat.1004054.s019">Text S1</xref>). In a study in Germany with HI<sub>1∶40</sub> threshold and no ISP adjustments, Δ<italic>S</italic>
+<sub>HI 1∶40</sub>/Δ<italic>S</italic>
+<sub> HI 1∶20</sub> was around 0.9, 0.7, and 0.4 among unvaccinated individuals of age 18–32, 33–52 and &gt;52 <xref rid="ppat.1004054-Dudareva1" ref-type="bibr">[8]</xref>. Similarly, in a study in New Zealand with HI<sub>1∶40</sub> threshold and no ISP adjustments, Δ<italic>S</italic>
+<sub>HI 1∶40</sub>/Δ<italic>S</italic>
+<sub> HI 1∶20</sub> was around 0.7, 0.9, and 0.6 among individuals of age 1–4, 5–19 and 20–59 <xref rid="ppat.1004054-Bandaranayake1" ref-type="bibr">[6]</xref>. Therefore, IAR have probably been underestimated in these studies, especially among older adults.</p>
+              <p>To our knowledge, only four pdmH1N1 studies had adjusted for ISP: one from the UK with HI<sub>1∶32</sub> threshold <xref rid="ppat.1004054-Baguelin1" ref-type="bibr">[12]</xref>, two from the US with HI<sub>1∶40</sub> threshold <xref rid="ppat.1004054-Cox1" ref-type="bibr">[14]</xref>, <xref rid="ppat.1004054-Reed1" ref-type="bibr">[15]</xref>, and the remaining one by ourselves previously with MN<sub>1∶40</sub> threshold <xref rid="ppat.1004054-Wu2" ref-type="bibr">[13]</xref>. All four assumed that ISP was similar to the proportion of patients with clinical disease presenting to healthcare providers who became seropositive. We have already shown that this assumption was inconsistent with population-level seroprevalence rises in Hong Kong where only 60%–70% and 34% of pdmH1N1 infections among age 3–29 and 30–59 became MN<sub>1∶40</sub> seropositive (<xref ref-type="table" rid="ppat-1004054-t001">Table 1</xref>). In the UK study <xref rid="ppat.1004054-Baguelin1" ref-type="bibr">[12]</xref>, <xref rid="ppat.1004054-Hardelid2" ref-type="bibr">[30]</xref>, the HI<sub>1∶8</sub> IAR estimate was 1.2–1.4 times the HI<sub>1∶32</sub> estimate for those aged 25–44. Similarly, in the study in Florida <xref rid="ppat.1004054-Cox1" ref-type="bibr">[14]</xref>, the HI<sub>1∶20</sub> IAR estimate was around 1.5–1.7 and 1.9–2.1 times the HI<sub>1∶40</sub> estimate for those aged 25–49 and 50–64. In the US multi-state study <xref rid="ppat.1004054-Reed1" ref-type="bibr">[15]</xref>, the HI<sub>1∶20</sub> IAR estimate was 1.2–1.3 times the HI<sub>1∶40</sub> estimate for those aged 25–64. These results support our conjecture that serologic responses of clinical cases are not necessarily representative.</p>
+              <p>The most plausible and straightforward explanation was that mild and asymptomatic cases were less likely to become seropositive compared to clinical cases. Testing this hypothesis would require studying serologic responses of infected cases with different severity which would be feasible only with a large prospective cohort study with intensive monitoring to identify mild and asymptomatic cases. Nonetheless, some data from independent studies support this hypothesis. Hung et al reported that among 881 lab-confirmed pdmH1N1 symptomatic patients in Hong Kong, convalescent MN titer correlated well with initial viral load and was independently associated with severity <xref rid="ppat.1004054-Hung1" ref-type="bibr">[23]</xref>. Specifically, being afrebile on presentation was associated with poorer MN convalescent response. Among 44 RT-PCR confirmed cases (22 cohort subjects with mild symptoms and 22 hospital patients) in Singapore, 89% and 57% became MN<sub>1∶20</sub> and MN<sub>1∶40</sub> seropositive <xref rid="ppat.1004054-Chen1" ref-type="bibr">[7]</xref>. However, there are also published data which contradict the hypothesis. In a study of 24 patients and their 34 household infectees (all RT-PCR confirmed) in Canada, the MN<sub>1∶20</sub> and MN<sub>1∶40</sub> seropositivity rates were both 83% <xref rid="ppat.1004054-Papenburg1" ref-type="bibr">[31]</xref>. Nonetheless, we caution that titer measurements from different studies might not be directly comparable because serologic titer from different laboratories might vary due to differences in serologic assay protocols and endpoint analysis methods <xref rid="ppat.1004054-Wood1" ref-type="bibr">[32]</xref>. In particular, serologic follow-ups of clinical cases and seroprevalence studies are often conducted by separate groups with different laboratories, thus adding uncertainty to the consistency between ISP adjustments and seroprevalence data. Our serologic methods were the same as that in the serologic follow-up studies in Hung et al and Mak et al <xref rid="ppat.1004054-Hung1" ref-type="bibr">[23]</xref>, <xref rid="ppat.1004054-Mak1" ref-type="bibr">[33]</xref>, so the results therein should be readily comparable with ours. The Consortium for the Standardization of Influenza Seroepidemiology (CONSISE) is a recent global initiative aiming to standardize both laboratory and field investigation protocols for influenza seroepidemiology (<ext-link ext-link-type="uri" xlink:href="http://consise.tghn.org">http://consise.tghn.org</ext-link>). Our study suggested that collective interpretation of seroprevalence data and convalescent serologic data should also be an essential part of this standardization effort (e.g. real-time assessment of bias in ISP adjustments by evaluating the consistency of IAR across multiple thresholds and with mixture models; see below for more detailed discussions). Robust sero-surveillance requires an integrated understanding and standardization of the field, laboratory and analytical components of seroepidemiology.</p>
+              <p>Our results indicated that preexisting MN titers and age group mixing alone could not explain the age distribution of infections. The age-specific susceptibility estimates (<xref ref-type="table" rid="ppat-1004054-t001">Table 1</xref>) suggested that older individuals were protected from pdmH1N1 infections by some forms of immunity not reflected by pre-existing MN titers (e.g. cell-mediated immunity). Cytotoxic T cells established by prior seasonal influenza infections were demonstrated to cross react with pdmH1N1 viruses and it is conceivable that such cross-reactive T cell immunity increases with age <xref rid="ppat.1004054-Tu1" ref-type="bibr">[34]</xref>. Furthermore, the substantial proportion of infections that remained MN<sub>1∶40</sub> seronegative might have relatively weak and short-lived immunity against pdmH1N1. Waning of such immunity might have subsequently replenished the pool of susceptibles and permitted a second epidemic of pdmH1N1 to occur in Hong Kong in 2011.</p>
+              <p>Our study has several limitations. First, we assumed that MN titer rises were entirely attributable to pdmH1N1 infection with immunity (lasting until at least 30 November 2009). In theory, it might be possible that individuals could be exposed to pdmH1N1, became MN<sub>1∶20</sub> seropositive but MN<sub>1∶40</sub> seronegative, and remained susceptible and noninfectious (i.e. weak serologic response without infection and immunity). This could be an alternative explanation for the discrepancy between Δ<italic>S</italic>
+<sub>40</sub>/Δ<italic>S</italic>
+<sub>20</sub> in seroprevalence data and the ratio of clinical cases that became MN<sub>1∶40</sub> and MN<sub>1∶20</sub> seropositive in Hong Kong (<xref ref-type="fig" rid="ppat-1004054-g002">Figure 2</xref>). In this case, ISP<sub>20</sub> and ISP<sub>40</sub> could remain at 1 and 0.9 (as observed among clinical cases) for all infections and the gap between Δ<italic>S</italic>
+<sub>40</sub>/ISP<sub>40</sub> and Δ<italic>S</italic>
+<sub>20</sub>/ISP<sub>20</sub> would comprise these exposed but uninfected individuals who became MN<sub>1∶20</sub> seropositive but MN<sub>1∶40</sub> seronegative. Second, our serologic data were collected via convenience sampling of blood donors, hospital outpatients and participants in community-based studies and hence did not necessarily provide a representative description of pdmH1N1 seroprevalence in the general population. Third, we did not account for any seasonal effects of influenza transmission. The bulk of pdmH1N1 first wave transmission in Hong Kong occurred between 1 September and 30 November 2009, a period during which circulation of seasonal influenza is typically low <xref rid="ppat.1004054-Tang1" ref-type="bibr">[35]</xref>. As such, the effect of school closure might be stronger than estimated here if seasonality had substantially reduced the transmissibility of pdmH1N1 during September-November 2009. Fourth, we did not consider the potential effect of oseltamivir use on serologic responses. Although oseltamivir use might attenuate serologic response of pdmH1N1 cases <xref rid="ppat.1004054-Cowling2" ref-type="bibr">[25]</xref>, treatment coverage was unlikely to be high enough to have a substantial impact on Δ<italic>S</italic>
+<sub>40</sub>/Δ<italic>S</italic>
+<sub>20</sub>. Finally, we did not have local social contact data to parameterize our transmission model and had to resort to uncertainty analysis using the POLYMOD matrices. However, this does not imply that we expect the contact pattern in Hong Kong to be similar to that in the European countries. Instead, we showed that our results were robust against the choice of contact matrix because given any contact matrix, the age-specific susceptibility was adjusted by the Bayesian inference algorithm accordingly to result in similar transmission dynamics and hence goodness-of-fit (<xref ref-type="supplementary-material" rid="ppat.1004054.s004">Figure S4</xref>, <xref ref-type="supplementary-material" rid="ppat.1004054.s005">S5</xref>, <xref ref-type="supplementary-material" rid="ppat.1004054.s006">S6</xref>, <xref ref-type="supplementary-material" rid="ppat.1004054.s007">S7</xref>, <xref ref-type="supplementary-material" rid="ppat.1004054.s008">S8</xref>, <xref ref-type="supplementary-material" rid="ppat.1004054.s009">S9</xref>, <xref ref-type="supplementary-material" rid="ppat.1004054.s010">S10</xref>, <xref ref-type="supplementary-material" rid="ppat.1004054.s011">S11</xref>, <xref ref-type="supplementary-material" rid="ppat.1004054.s012">Figure S12</xref>).</p>
+              <p>Sero-epidemiologic study is the most practical method for accurately estimating influenza IAR, disease severity and population-level immunity which in turn are used to inform vaccination policies and decisions <xref rid="ppat.1004054-VanKerkhove2" ref-type="bibr">[5]</xref>. Our study emphasizes that IAR estimates in seroprevalence studies are sensitive to not only seropositivity thresholds but also ISP adjustments. Steens et al has made a similar observation when they compared pdmH1N1 IAR estimates obtained from conventional thresholds with that from mixture model <xref rid="ppat.1004054-Steens1" ref-type="bibr">[17]</xref>. Seropositivity thresholds have been typically chosen based on conventions instead of systematic criteria <xref rid="ppat.1004054-Broberg1" ref-type="bibr">[4]</xref>. ISP adjustments have either been ignored or based on clinical patients whose antibody kinetics might not be representative for all infections in the community. Although we have shown that conventional seropositivity thresholds and ISP adjustments have probably led to underestimation of the incidence of pdmH1N1, such bias associated with conventional practice is not specific to pdmH1N1 or the serial cross-sectional design of sero-epidemiology. The longitudinal (cohort) design relies on the definition of seroconversion and infection-seroconversion probability. A recent study by Cauchemez et al reported that under the conventional criterion of seroconversion, namely 4-fold rise or more in antibody titers, influenza IARs were substantially underestimated when there were a significant proportion of subjects with 2-fold rises not explainable by measurement errors alone <xref rid="ppat.1004054-Cauchemez3" ref-type="bibr">[36]</xref>.</p>
+              <p>These studies and ours thus indicated the need for reevaluating current methods for analyzing influenza serologic data. For example, our group and Baguelin et al previously considered a method for generating real-time estimates of IAR and disease severity for pandemic influenza from serial cross-sectional seroprevalence and clinical surveillance data <xref rid="ppat.1004054-Baguelin1" ref-type="bibr">[12]</xref>, <xref rid="ppat.1004054-Wu2" ref-type="bibr">[13]</xref>. This method requires a priori specifying the seropositivity threshold and ISP. Although basing ISP on antibody kinetics of clinical cases is likely to be the best a priori option in the real-time pandemic setting, the associated bias can and should be assessed by evaluating the consistency of IAR and severity estimates across multiple thresholds and with mixture models. A natural extension of the method is to analyze seroprevalence data at multiple thresholds under a Bayesian framework using ISPs among clinical cases as priors (possibly with the extension of integrating transmission dynamics as done here and in Birrel et al <xref rid="ppat.1004054-Birrell1" ref-type="bibr">[37]</xref>). Within this framework, ISP can be continuously updated by the posteriors to reconcile discrepancies between seroprevalence data and ISP priors (e.g. <xref ref-type="fig" rid="ppat-1004054-g002">Figure 2</xref>). Although the potential bias in ISP priors may not be completely eliminated in real-time, the resulting IAR and severity estimates will likely remain sufficiently precise for informing situational awareness and pandemic responses. In conclusion, our results indicated the need for reexamining conventional practice in influenza sero-epidemiology to develop standards for analyzing influenza serologic data, especially in the context of pandemics when robustness and comparability of IAR estimates are most needed for informing situational awareness and risk assessment. While these studies were conducted within the context of influenza, these methodological approaches are broadly applicable to other infectious disease outbreaks.</p>
+            </sec>
+            <sec sec-type="materials|methods" id="s4">
+              <title>Materials and Methods</title>
+              <sec id="s4a">
+                <title>Ethics statement</title>
+                <p>All study protocols were approved by the Institutional Review Board of The University of Hong Kong/Hospital Authority Hong Kong West Cluster. All adult subjects provided written informed consent, and a parent or guardian of any child participant provided written consent on their behalf.</p>
+              </sec>
+              <sec id="s4b">
+                <title>Transmission modeling</title>
+                <p>Major modeling assumptions are summarized below (see <xref ref-type="supplementary-material" rid="ppat.1004054.s019">Text S1</xref> for further technical details):</p>
+                <list list-type="order">
+                  <list-item>
+                    <p><bold>Antibody kinetics and testing.</bold> Each infection in age group <italic>a</italic> became MN<sub>1:<italic>X</italic></sub> seropositive with probability <italic>ISP<sub>X</sub></italic>
+<sub>,<italic>a</italic></sub> if they were MN<sub>1:<italic>X</italic></sub> seronegative before infection. Because <italic>ISP</italic>
+<sub>20,<italic>a</italic></sub> and <italic>ISP</italic>
+<sub>40,<italic>a</italic></sub> were not simultaneously identifiable from our data, we assumed that <italic>ISP</italic>
+<sub>20,<italic>a</italic></sub> was independent of age. We assumed four pre-pandemic MN titer levels (&lt;1∶10, 1∶10, 1∶20, and ≥1∶40; <xref ref-type="fig" rid="ppat-1004054-g001">Figure 1A</xref>) and that the <italic>i</italic>th pre-pandemic titer level reduced susceptibility by 1−<italic>g<sub>i</sub></italic> compared to the lowest level (i.e. <italic>g</italic>
+<sub>1</sub> = 1). The onset-to-seropositivity duration was estimated using antibody kinetics data from clinical cases in Hong Kong <xref rid="ppat.1004054-Mak1" ref-type="bibr">[33]</xref>. Sensitivity (specificity) of serologic testing, defined as the probability that the serologic result was positive (negative) if the specimen was truly seropositive (seronegative), was assumed to be 100%. Imperfect sensitivity and specificity had little impact on our conclusions (see <xref ref-type="supplementary-material" rid="ppat.1004054.s019">Text S1</xref>).</p>
+                  </list-item>
+                  <list-item>
+                    <p><bold>Age-specific susceptibility.</bold> Age group <italic>a</italic> was <italic>h<sub>a</sub></italic> times as susceptible compared to the 20–29 age group, i.e. <italic>h</italic>
+<sub>3</sub> = 1. These age-specific susceptibility parameters modeled differential susceptibility not explainable by the contact matrix and pre-pandemic MN titers.</p>
+                  </list-item>
+                  <list-item>
+                    <p><bold>School closure.</bold> As a proactive mitigation measure, the Hong Kong government closed all kindergartens and primary schools on 11 June 2009 until summer holidays. We assumed that summer holidays and fall semester started on 10 July and 1 September, respectively. Within-age-group mixing was reduced by <italic>π</italic>
+<sub>0</sub> for age 3–12 during proactive school closure, and by <italic>π</italic>
+<sub>1</sub> and <italic>π</italic>
+<sub>2</sub> for age 3–12 and 13–19 during summer holidays.</p>
+                  </list-item>
+                  <list-item>
+                    <p><bold>Importation of infections.</bold> We seeded the pandemic on 1 June 2009 with <italic>M</italic> infectious cases. In addition, we assumed that Hong Kong was subject to an exogenous force of infection that was <italic>ε</italic>
+<sub>SZ</sub> times the estimated daily number of lab-confirmed cases in Shenzhen <xref rid="ppat.1004054-Xie1" ref-type="bibr">[38]</xref> because (i) an average of ∼350,000 people crossed the border on a daily basis; and (ii) sustained low levels of transmission in Hong Kong during November 2009 was likely fueled by the Shenzhen epidemic which peaked in that month <xref rid="ppat.1004054-Xie1" ref-type="bibr">[38]</xref> (<xref ref-type="fig" rid="ppat-1004054-g001">Figure 1B</xref>).</p>
+                  </list-item>
+                  <list-item>
+                    <p><bold>Hospitalization.</bold> We assumed that each infection in age group <italic>a</italic> required hospitalization with probability <italic>IHP<sub>a</sub></italic> (infection-hospitalization probability).</p>
+                  </list-item>
+                  <list-item>
+                    <p><bold>Infectiousness and antibody response.</bold> We assumed that all infected individuals were equally infectious regardless of their antibody response. In the <xref ref-type="supplementary-material" rid="ppat.1004054.s019">Text S1</xref>, we showed that our results were robust against potential association between infectiousness and antibody response.</p>
+                  </list-item>
+                </list>
+              </sec>
+              <sec id="s4c">
+                <title>Statistical analysis</title>
+                <p>We fitted the transmission model to the seroprevalence and hospitalization data by estimating the parameters listed in <xref ref-type="table" rid="ppat-1004054-t001">Table 1</xref> using Markov Chain Monte Carlo methods with non-informative flat priors. Because around 85% and 10% of each age group had pre-pandemic MN titer &lt;1∶10 and 1∶10 (<xref ref-type="fig" rid="ppat-1004054-g001">Figure 1A</xref>), the <italic>g<sub>i</sub></italic>'s were not identifiable. As such, we assumed <italic>g<sub>i</sub></italic> = <italic>g<sup>i</sup></italic> which had negligible effect because the small proportion of individuals who had pre-pandemic titer &gt;1∶10 had little impact on transmission dynamics. Partial rank correlation coefficients (PRCC) among estimated parameters were calculated to identify any strong (defined here as |PRCC|&gt;0.5) but unexpected confounding effects.</p>
+                <p>For uncertainty analysis, we performed statistical inference for <italic>g</italic> = 0, 0.5 and 1 and each of the nine POLYMOD matrices, i.e. a total of 27 scenarios. Higher <italic>g</italic> (i.e. preexisting MN titer conferred weaker protection) resulted in slightly higher IARs and lower <italic>R</italic>(0) and <italic>T<sub>g</sub></italic> (<xref ref-type="supplementary-material" rid="ppat.1004054.s004">Figure S4</xref>, <xref ref-type="supplementary-material" rid="ppat.1004054.s005">S5</xref>, <xref ref-type="supplementary-material" rid="ppat.1004054.s006">S6</xref>, <xref ref-type="supplementary-material" rid="ppat.1004054.s007">S7</xref>, <xref ref-type="supplementary-material" rid="ppat.1004054.s008">S8</xref>, <xref ref-type="supplementary-material" rid="ppat.1004054.s009">S9</xref>, <xref ref-type="supplementary-material" rid="ppat.1004054.s010">S10</xref>, <xref ref-type="supplementary-material" rid="ppat.1004054.s011">S11</xref>, <xref ref-type="supplementary-material" rid="ppat.1004054.s012">Figure S12</xref>). Otherwise, all combinations of <italic>g</italic> and <bold>C</bold> resulted in similar goodness-of-fit and parameter estimates except for age-specific susceptibilities. As such, we describe in the main text the inference results (posterior medians and 95% credible intervals) for <italic>g</italic> = 0.5 and <bold>C</bold> = <bold>P<sub>AVG</sub></bold> unless parameter estimates were sensitive to <italic>g</italic> and <bold>C</bold> (i.e for age-specific susceptibilities).</p>
+              </sec>
+            </sec>
+            <sec sec-type="supplementary-material" id="s5">
+              <title>Supporting Information</title>
+              <supplementary-material content-type="local-data" id="ppat.1004054.s001">
+                <label>Figure S1</label>
+                <caption>
+                  <p>
+                    <bold>Probability density function of </bold>
+                    <inline-formula>
+                      <inline-graphic xlink:href="ppat.1004054.e002.jpg"/>
+                    </inline-formula>
+                    <bold> assuming that </bold>
+                    <bold>
+                      <italic>sens</italic>
+                    </bold>
+                    <bold><sub>20</sub>∼U(0.9,1), </bold>
+                    <bold>
+                      <italic>spec</italic>
+                    </bold>
+                    <bold><sub>40</sub>∼U(0.9,1), </bold>
+                    <bold>
+                      <italic>sens</italic>
+                    </bold>
+                    <bold><sub>40</sub>∼U(0.9, </bold>
+                    <bold>
+                      <italic>sens</italic>
+                    </bold>
+                    <bold><sub>20</sub>), </bold>
+                    <bold>
+                      <italic>spec</italic>
+                    </bold>
+                    <bold><sub>20</sub>∼U(0.9, </bold>
+                    <bold>
+                      <italic>spec</italic>
+                    </bold>
+                    <bold><sub>40</sub>).</bold>
+                  </p>
+                  <p>(TIF)</p>
+                </caption>
+                <media xlink:href="ppat.1004054.s001.tif">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="ppat.1004054.s002">
+                <label>Figure S2</label>
+                <caption>
+                  <p>
+                    <bold>Estimating the ratio of IAR estimates at higher and lower titers in Baguelin et al.</bold>
+                  </p>
+                  <p>(TIF)</p>
+                </caption>
+                <media xlink:href="ppat.1004054.s002.tif">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="ppat.1004054.s003">
+                <label>Figure S3</label>
+                <caption>
+                  <p>
+                    <bold>Estimating the ratio of IAR estimates at higher and lower titers in Cox et al and Reed et al. Red, green and blue correspond to assuming the overlap between proportion infected and vaccination coverage was minimal, random and maximal, respectively.</bold>
+                  </p>
+                  <p>(TIF)</p>
+                </caption>
+                <media xlink:href="ppat.1004054.s003.tif">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="ppat.1004054.s004">
+                <label>Figure S4</label>
+                <caption>
+                  <p><bold>Posterior distributions of parameters for different values of g with the average POLYMOD contact matrix.</bold><bold>A</bold>. Age-dependent parameters including IARs (first column), <italic>ISP</italic><sub>40</sub> (second), and age-specific susceptibility (third). <bold>B</bold>. Other parameters including <italic>R</italic>(0), <italic>T<sub>g</sub></italic>, <italic>ISP</italic>
+<sub>20</sub>, reduction in within-age-group mixing due to school closure (<italic>π</italic>
+<sub>0</sub>, <italic>π</italic>
+<sub>1</sub>, <italic>π</italic>
+<sub>2</sub>), seed size, and scaling factor for FOI from Shenzhen (<italic>ε<sub>SZ</sub></italic>). Higher g (i.e. preexisting MN titer conferred weaker protection) resulted in slightly higher IARs and lower <italic>R</italic>(0) and <italic>T<sub>g</sub></italic>.</p>
+                  <p>(EPS)</p>
+                </caption>
+                <media xlink:href="ppat.1004054.s004.eps">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="ppat.1004054.s005">
+                <label>Figure S5</label>
+                <caption>
+                  <p><bold>Posterior distributions of parameters for different values of </bold><bold><italic>g</italic></bold><bold> with the Belgium POLYMOD contact matrix.</bold><bold>A</bold>. Age-dependent parameters including IARs (first column), <italic>ISP</italic><sub>40</sub> (second), and age-specific susceptibility (third). <bold>B</bold>. Other parameters including <italic>R</italic>(0), <italic>T<sub>g</sub></italic>, <italic>ISP</italic>
+<sub>20</sub>, reduction in within-age-group mixing due to school closure (<italic>π</italic>
+<sub>0</sub>, <italic>π</italic>
+<sub>1</sub>, <italic>π</italic>
+<sub>2</sub>), seed size, and scaling factor for FOI from Shenzhen (<italic>ε<sub>SZ</sub></italic>). Higher g (i.e. preexisting MN titer conferred weaker protection) resulted in slightly higher IARs and lower <italic>R</italic>(0) and <italic>T<sub>g</sub></italic>.</p>
+                  <p>(EPS)</p>
+                </caption>
+                <media xlink:href="ppat.1004054.s005.eps">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="ppat.1004054.s006">
+                <label>Figure S6</label>
+                <caption>
+                  <p><bold>Posterior distributions of parameters for different values of </bold><bold><italic>g</italic></bold><bold> with the Finland POLYMOD contact matrix.</bold><bold>A</bold>. Age-dependent parameters including IARs (first column), <italic>ISP</italic><sub>40</sub> (second), and age-specific susceptibility (third). <bold>B</bold>. Other parameters including <italic>R</italic>(0), <italic>T<sub>g</sub></italic>, <italic>ISP</italic>
+<sub>20</sub>, reduction in within-age-group mixing due to school closure (<italic>π</italic>
+<sub>0</sub>, <italic>π</italic>
+<sub>1</sub>, <italic>π</italic>
+<sub>2</sub>), seed size, and scaling factor for FOI from Shenzhen (<italic>ε<sub>SZ</sub></italic>). Higher g (i.e. preexisting MN titer conferred weaker protection) resulted in slightly higher IARs and lower <italic>R</italic>(0) and <italic>T<sub>g</sub></italic>.</p>
+                  <p>(EPS)</p>
+                </caption>
+                <media xlink:href="ppat.1004054.s006.eps">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="ppat.1004054.s007">
+                <label>Figure S7</label>
+                <caption>
+                  <p><bold>Posterior distributions of parameters for different values of </bold><bold><italic>g</italic></bold><bold> with the Germany POLYMOD contact matrix.</bold><bold>A</bold>. Age-dependent parameters including IARs (first column), <italic>ISP</italic><sub>40</sub> (second), and age-specific susceptibility (third). <bold>B</bold>. Other parameters including <italic>R</italic>(0), <italic>T<sub>g</sub></italic>, <italic>ISP</italic>
+<sub>20</sub>, reduction in within-age-group mixing due to school closure (<italic>π</italic>
+<sub>0</sub>, <italic>π</italic>
+<sub>1</sub>, <italic>π</italic>
+<sub>2</sub>), seed size, and scaling factor for FOI from Shenzhen (<italic>ε<sub>SZ</sub></italic>). Higher g (i.e. preexisting MN titer conferred weaker protection) resulted in slightly higher IARs and lower <italic>R</italic>(0) and <italic>T<sub>g</sub></italic>.</p>
+                  <p>(EPS)</p>
+                </caption>
+                <media xlink:href="ppat.1004054.s007.eps">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="ppat.1004054.s008">
+                <label>Figure S8</label>
+                <caption>
+                  <p><bold>Posterior distributions of parameters for different values of </bold><bold><italic>g</italic></bold><bold> with the Italy POLYMOD contact matrix.</bold><bold>A</bold>. Age-dependent parameters including IARs (first column), <italic>ISP</italic><sub>40</sub> (second), and age-specific susceptibility (third). <bold>B</bold>. Other parameters including <italic>R</italic>(0), <italic>T<sub>g</sub></italic>, <italic>ISP</italic>
+<sub>20</sub>, reduction in within-age-group mixing due to school closure (<italic>π</italic>
+<sub>0</sub>, <italic>π</italic>
+<sub>1</sub>, <italic>π</italic>
+<sub>2</sub>), seed size, and scaling factor for FOI from Shenzhen (<italic>ε<sub>SZ</sub></italic>). Higher g (i.e. preexisting MN titer conferred weaker protection) resulted in slightly higher IARs and lower <italic>R</italic>(0) and <italic>T<sub>g</sub></italic>.</p>
+                  <p>(EPS)</p>
+                </caption>
+                <media xlink:href="ppat.1004054.s008.eps">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="ppat.1004054.s009">
+                <label>Figure S9</label>
+                <caption>
+                  <p><bold>Posterior distributions of parameters for different values of </bold><bold><italic>g</italic></bold><bold> with the Luxembourg POLYMOD contact matrix.</bold><bold>A</bold>. Age-dependent parameters including IARs (first column), <italic>ISP</italic><sub>40</sub> (second), and age-specific susceptibility (third). <bold>B</bold>. Other parameters including <italic>R</italic>(0), <italic>T<sub>g</sub></italic>, <italic>ISP</italic>
+<sub>20</sub>, reduction in within-age-group mixing due to school closure (<italic>π</italic>
+<sub>0</sub>, <italic>π</italic>
+<sub>1</sub>, <italic>π</italic>
+<sub>2</sub>), seed size, and scaling factor for FOI from Shenzhen (<italic>ε<sub>SZ</sub></italic>). Higher g (i.e. preexisting MN titer conferred weaker protection) resulted in slightly higher IARs and lower <italic>R</italic>(0) and <italic>T<sub>g</sub></italic>.</p>
+                  <p>(EPS)</p>
+                </caption>
+                <media xlink:href="ppat.1004054.s009.eps">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="ppat.1004054.s010">
+                <label>Figure S10</label>
+                <caption>
+                  <p><bold>Posterior distributions of parameters for different values of </bold><bold><italic>g</italic></bold><bold> with the Netherland POLYMOD contact matrix.</bold><bold>A</bold>. Age-dependent parameters including IARs (first column), <italic>ISP</italic><sub>40</sub> (second), and age-specific susceptibility (third). <bold>B</bold>. Other parameters including <italic>R</italic>(0), <italic>T<sub>g</sub></italic>, <italic>ISP</italic>
+<sub>20</sub>, reduction in within-age-group mixing due to school closure (<italic>π</italic>
+<sub>0</sub>, <italic>π</italic>
+<sub>1</sub>, <italic>π</italic>
+<sub>2</sub>), seed size, and scaling factor for FOI from Shenzhen (<italic>ε<sub>SZ</sub></italic>). Higher g (i.e. preexisting MN titer conferred weaker protection) resulted in slightly higher IARs and lower <italic>R</italic>(0) and <italic>T<sub>g</sub></italic>.</p>
+                  <p>(EPS)</p>
+                </caption>
+                <media xlink:href="ppat.1004054.s010.eps">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="ppat.1004054.s011">
+                <label>Figure S11</label>
+                <caption>
+                  <p><bold>Posterior distributions of parameters for different values of </bold><bold><italic>g</italic></bold><bold> with the Poland POLYMOD contact matrix.</bold><bold>A</bold>. Age-dependent parameters including IARs (first column), <italic>ISP</italic><sub>40</sub> (second), and age-specific susceptibility (third). <bold>B</bold>. Other parameters including <italic>R</italic>(0), <italic>T<sub>g</sub></italic>, <italic>ISP</italic>
+<sub>20</sub>, reduction in within-age-group mixing due to school closure (<italic>π</italic>
+<sub>0</sub>, <italic>π</italic>
+<sub>1</sub>, <italic>π</italic>
+<sub>2</sub>), seed size, and scaling factor for FOI from Shenzhen (<italic>ε<sub>SZ</sub></italic>). Higher g (i.e. preexisting MN titer conferred weaker protection) resulted in slightly higher IARs and lower <italic>R</italic>(0) and <italic>T<sub>g</sub></italic>.</p>
+                  <p>(EPS)</p>
+                </caption>
+                <media xlink:href="ppat.1004054.s011.eps">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="ppat.1004054.s012">
+                <label>Figure S12</label>
+                <caption>
+                  <p><bold>Posterior distributions of parameters for different values of </bold><bold><italic>g</italic></bold><bold> with the United Kingdom POLYMOD contact matrix.</bold><bold>A</bold>. Age-dependent parameters including IARs (first column), <italic>ISP</italic><sub>40</sub> (second), and age-specific susceptibility (third). <bold>B</bold>. Other parameters including <italic>R</italic>(0), <italic>T<sub>g</sub></italic>, <italic>ISP</italic>
+<sub>20</sub>, reduction in within-age-group mixing due to school closure (<italic>π</italic>
+<sub>0</sub>, <italic>π</italic>
+<sub>1</sub>, <italic>π</italic>
+<sub>2</sub>), seed size, and scaling factor for FOI from Shenzhen (<italic>ε<sub>SZ</sub></italic>). Higher g (i.e. preexisting MN titer conferred weaker protection) resulted in slightly higher IARs and lower <italic>R</italic>(0) and <italic>T<sub>g</sub></italic>.</p>
+                  <p>(EPS)</p>
+                </caption>
+                <media xlink:href="ppat.1004054.s012.eps">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="ppat.1004054.s013">
+                <label>Table S1</label>
+                <caption>
+                  <p>
+                    <bold>Model parameters and their posterior statistics comparing base case model and model including the 0–2 and ≥60 age groups.</bold>
+                  </p>
+                  <p>(DOCX)</p>
+                </caption>
+                <media xlink:href="ppat.1004054.s013.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="ppat.1004054.s014">
+                <label>Table S2</label>
+                <caption>
+                  <p>
+                    <bold>The proportion of infections that were lab-confirmed and hospitalized during the first wave of pdmH1N1 in Hong Kong.</bold>
+                  </p>
+                  <p>(DOCX)</p>
+                </caption>
+                <media xlink:href="ppat.1004054.s014.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="ppat.1004054.s015">
+                <label>Table S3</label>
+                <caption>
+                  <p>
+                    <bold>Estimating IAR in Baguelin et al using HI 1∶8, 1∶16 and 1∶32 as the seropositivity threshold.</bold>
+                  </p>
+                  <p>(DOCX)</p>
+                </caption>
+                <media xlink:href="ppat.1004054.s015.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="ppat.1004054.s016">
+                <label>Table S4</label>
+                <caption>
+                  <p>
+                    <bold>Estimating IAR in Cox et al and Reed et al using HI 1∶20 and 1∶40 as the seropositivity threshold.</bold>
+                  </p>
+                  <p>(DOCX)</p>
+                </caption>
+                <media xlink:href="ppat.1004054.s016.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="ppat.1004054.s017">
+                <label>Table S5</label>
+                <caption>
+                  <p>
+                    <bold>Estimating IAR in Dudareva et al using HI 1∶10, 1∶20 and 1∶40 as the seropositivity threshold.</bold>
+                  </p>
+                  <p>(DOCX)</p>
+                </caption>
+                <media xlink:href="ppat.1004054.s017.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="ppat.1004054.s018">
+                <label>Table S6</label>
+                <caption>
+                  <p>
+                    <bold>Estimating IAR in Bandaranayake et al using HI 1∶20 and 1∶40 as the seropositivity threshold.</bold>
+                  </p>
+                  <p>(DOCX)</p>
+                </caption>
+                <media xlink:href="ppat.1004054.s018.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="ppat.1004054.s019">
+                <label>Text S1</label>
+                <caption>
+                  <p>
+                    <bold>Details on the transmission model, statisitcal inference, sensitivity analyses and analysis of consistency of IAR estimates in other seroprevalence studies.</bold>
+                  </p>
+                  <p>(DOCX)</p>
+                </caption>
+                <media xlink:href="ppat.1004054.s019.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ref-list>
+              <title>References</title>
+              <ref id="ppat.1004054-VanKerkhove1">
+                <label>1</label>
+                <mixed-citation publication-type="journal"><name><surname>Van Kerkhove</surname><given-names>MD</given-names></name>, <name><surname>Asikainen</surname><given-names>T</given-names></name>, <name><surname>Becker</surname><given-names>NG</given-names></name>, <name><surname>Bjorge</surname><given-names>S</given-names></name>, <name><surname>Desenclos</surname><given-names>J-C</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Studies Needed to Address Public Health Challenges of the 2009 H1N1 Influenza Pandemic: Insights from Modeling</article-title>. <source>PLoS Med</source>
+<volume>7</volume>: <fpage>e1000275</fpage>.<pub-id pub-id-type="pmid">20532237</pub-id></mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Lipsitch1">
+                <label>2</label>
+                <mixed-citation publication-type="journal"><name><surname>Lipsitch</surname><given-names>M</given-names></name>, <name><surname>Finelli</surname><given-names>L</given-names></name>, <name><surname>Heffernan</surname><given-names>RT</given-names></name>, <name><surname>Leung</surname><given-names>GM</given-names></name>, <name><surname>Redd</surname><given-names>SC</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Improving the evidence base for decision making during a pandemic: the example of 2009 influenza A/H1N1</article-title>. <source>Biosecurity and bioterrorism : biodefense strategy, practice, and science</source>
+<volume>9</volume>: <fpage>89</fpage>–<lpage>115</lpage>.</mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Fineberg1">
+                <label>3</label>
+                <mixed-citation publication-type="book">Fineberg HV, Aavitsland P, Aditama T, Bino S, Carmo EH, <etal>et al</etal>.. (2011) Implementation of the international health regulations (2005): report of the Review Committee on the Functioning of the International Health Regulations (2005) and on Pandemic Influenza A(H1N1) 2009. Geneva: World Health Organization.</mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Broberg1">
+                <label>4</label>
+                <mixed-citation publication-type="journal"><name><surname>Broberg</surname><given-names>E</given-names></name>, <name><surname>Nicoll</surname><given-names>A</given-names></name>, <name><surname>Amato-Gauci</surname><given-names>A</given-names></name> (<year>2011</year>) <article-title>Seroprevalence to influenza A(H1N1) 2009 virus–where are we?</article-title>
+<source>Clin Vaccine Immunol</source>
+<volume>18</volume>: <fpage>1205</fpage>–<lpage>1212</lpage>.<pub-id pub-id-type="pmid">21653743</pub-id></mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-VanKerkhove2">
+                <label>5</label>
+                <mixed-citation publication-type="journal"><name><surname>Van Kerkhove</surname><given-names>MD</given-names></name>, <name><surname>Hirve</surname><given-names>S</given-names></name>, <name><surname>Koukounari</surname><given-names>A</given-names></name>, <name><surname>Mounts</surname><given-names>AW</given-names></name> (<year>2013</year>) <article-title>Estimating age-specific cumulative incidence for the 2009 influenza pandemic: a meta-analysis of A(H1N1)pdm09 serological studies from 19 countries</article-title>. <source>Influenza and Other Respiratory Viruses</source>
+<volume>7</volume>: <fpage>872</fpage>–<lpage>886</lpage>.<pub-id pub-id-type="pmid">23331969</pub-id></mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Bandaranayake1">
+                <label>6</label>
+                <mixed-citation publication-type="journal"><name><surname>Bandaranayake</surname><given-names>D</given-names></name>, <name><surname>Huang</surname><given-names>QS</given-names></name>, <name><surname>Bissielo</surname><given-names>A</given-names></name>, <name><surname>Wood</surname><given-names>T</given-names></name>, <name><surname>Mackereth</surname><given-names>G</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Risk Factors and Immunity in a Nationally Representative Population following the 2009 Influenza A(H1N1) Pandemic</article-title>. <source>PLoS ONE</source>
+<volume>5</volume>: <fpage>e13211</fpage>.<pub-id pub-id-type="pmid">20976224</pub-id></mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Chen1">
+                <label>7</label>
+                <mixed-citation publication-type="journal"><name><surname>Chen</surname><given-names>MI</given-names></name>, <name><surname>Barr</surname><given-names>IG</given-names></name>, <name><surname>Koh</surname><given-names>GCH</given-names></name>, <name><surname>Lee</surname><given-names>VJ</given-names></name>, <name><surname>Lee</surname><given-names>CPS</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Serological Response in RT-PCR Confirmed H1N1-2009 Influenza A by Hemagglutination Inhibition and Virus Neutralization Assays: An Observational Study</article-title>. <source>PLoS ONE</source>
+<volume>5</volume>: <fpage>e12474</fpage>.<pub-id pub-id-type="pmid">20814575</pub-id></mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Dudareva1">
+                <label>8</label>
+                <mixed-citation publication-type="journal"><name><surname>Dudareva</surname><given-names>S</given-names></name>, <name><surname>Schweiger</surname><given-names>B</given-names></name>, <name><surname>Thamm</surname><given-names>M</given-names></name>, <name><surname>Höhle</surname><given-names>M</given-names></name>, <name><surname>Stark</surname><given-names>K</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Prevalence of Antibodies to 2009 Pandemic Influenza A (H1N1) Virus in German Adult Population in Pre- and Post-Pandemic Period</article-title>. <source>PLoS ONE</source>
+<volume>6</volume>: <fpage>e21340</fpage>.<pub-id pub-id-type="pmid">21701598</pub-id></mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-McVernonJ1">
+                <label>9</label>
+                <mixed-citation publication-type="journal"><name><surname>McVernon J</surname><given-names>LK</given-names></name>, <name><surname>Nolan</surname><given-names>T</given-names></name>, <name><surname>Owen</surname><given-names>R</given-names></name>, <name><surname>Irving</surname><given-names>D</given-names></name>, <name><surname>Capper</surname><given-names>H</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Seroprevalence of 2009 pandemic influenza A(H1N1) virus in Australian blood donors, October - December, 2009</article-title>. <source>Eurosurveillance</source>
+<volume>15</volume>: <fpage>pii = 19678</fpage>.</mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Miller1">
+                <label>10</label>
+                <mixed-citation publication-type="journal"><name><surname>Miller</surname><given-names>E</given-names></name>, <name><surname>Hoschler</surname><given-names>K</given-names></name>, <name><surname>Hardelid</surname><given-names>P</given-names></name>, <name><surname>Stanford</surname><given-names>E</given-names></name>, <name><surname>Andrews</surname><given-names>N</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Incidence of 2009 pandemic influenza A H1N1 infection in England: a cross-sectional serological study</article-title>. <source>The Lancet</source>
+<volume>375</volume>: <fpage>1100</fpage>–<lpage>1108</lpage>.</mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Wu1">
+                <label>11</label>
+                <mixed-citation publication-type="journal"><name><surname>Wu</surname><given-names>JT</given-names></name>, <name><surname>Ma</surname><given-names>ESK</given-names></name>, <name><surname>Lee</surname><given-names>CK</given-names></name>, <name><surname>Chu</surname><given-names>DKW</given-names></name>, <name><surname>Ho</surname><given-names>P-L</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>The Infection Attack Rate and Severity of 2009 Pandemic H1N1 Influenza in Hong Kong</article-title>. <source>Clinical Infectious Diseases</source>
+<volume>51</volume>: <fpage>1184</fpage>–<lpage>1191</lpage>.<pub-id pub-id-type="pmid">20964521</pub-id></mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Baguelin1">
+                <label>12</label>
+                <mixed-citation publication-type="journal"><name><surname>Baguelin</surname><given-names>M</given-names></name>, <name><surname>Hoschler</surname><given-names>K</given-names></name>, <name><surname>Stanford</surname><given-names>E</given-names></name>, <name><surname>Waight</surname><given-names>P</given-names></name>, <name><surname>Hardelid</surname><given-names>P</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Age-Specific Incidence of A/H1N1 2009 Influenza Infection in England from Sequential Antibody Prevalence Data Using Likelihood-Based Estimation</article-title>. <source>PLoS ONE</source>
+<volume>6</volume>: <fpage>e17074</fpage>.<pub-id pub-id-type="pmid">21373639</pub-id></mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Wu2">
+                <label>13</label>
+                <mixed-citation publication-type="journal"><name><surname>Wu</surname><given-names>JT</given-names></name>, <name><surname>Ho</surname><given-names>A</given-names></name>, <name><surname>Ma</surname><given-names>ESK</given-names></name>, <name><surname>Lee</surname><given-names>CK</given-names></name>, <name><surname>Chu</surname><given-names>DKW</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Estimating Infection Attack Rates and Severity in Real Time during an Influenza Pandemic: Analysis of Serial Cross-Sectional Serologic Surveillance Data</article-title>. <source>PLoS Med</source>
+<volume>8</volume>: <fpage>e1001103</fpage>.<pub-id pub-id-type="pmid">21990967</pub-id></mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Cox1">
+                <label>14</label>
+                <mixed-citation publication-type="journal"><name><surname>Cox</surname><given-names>CM</given-names></name>, <name><surname>Goodin</surname><given-names>K</given-names></name>, <name><surname>Fisher</surname><given-names>E</given-names></name>, <name><surname>Dawood</surname><given-names>FS</given-names></name>, <name><surname>Hamilton</surname><given-names>JJ</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Prevalence of 2009 pandemic influenza A (H1N1) virus antibodies, Tampa Bay Florida–November-December, 2009</article-title>. <source>PLoS ONE</source>
+<volume>6</volume>: <fpage>e29301</fpage>.<pub-id pub-id-type="pmid">22206008</pub-id></mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Reed1">
+                <label>15</label>
+                <mixed-citation publication-type="journal"><name><surname>Reed</surname><given-names>C</given-names></name>, <name><surname>Katz</surname><given-names>JM</given-names></name>, <name><surname>Hancock</surname><given-names>K</given-names></name>, <name><surname>Balish</surname><given-names>A</given-names></name>, <name><surname>Fry</surname><given-names>AM</given-names></name>, <etal>et al</etal> (<year>2012</year>) <article-title>Prevalence of Seropositivity to Pandemic Influenza A/H1N1 Virus in the United States following the 2009 Pandemic</article-title>. <source>PLoS ONE</source>
+<volume>7</volume>: <fpage>e48187</fpage>.<pub-id pub-id-type="pmid">23118949</pub-id></mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Hens1">
+                <label>16</label>
+                <mixed-citation publication-type="other">Hens N, Shkedy Z, Aerts M, Faes C, Van Damme P, <etal>et al</etal>.. (2012) Modeling Infectious Disease Parameters Based on Serological and Social Contact Data: Springer. 298 p.</mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Steens1">
+                <label>17</label>
+                <mixed-citation publication-type="journal"><name><surname>Steens</surname><given-names>A</given-names></name>, <name><surname>Waaijenborg</surname><given-names>S</given-names></name>, <name><surname>Teunis</surname><given-names>PFM</given-names></name>, <name><surname>Reimerink</surname><given-names>JHJ</given-names></name>, <name><surname>Meijer</surname><given-names>A</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Age-Dependent Patterns of Infection and Severity Explaining the Low Impact of 2009 Influenza A (H1N1): Evidence From Serial Serologic Surveys in the Netherlands</article-title>. <source>American Journal of Epidemiology</source>
+<volume>174</volume>: <fpage>1307</fpage>–<lpage>1315</lpage>.<pub-id pub-id-type="pmid">22025354</pub-id></mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Hardelid1">
+                <label>18</label>
+                <mixed-citation publication-type="journal"><name><surname>Hardelid</surname><given-names>P</given-names></name>, <name><surname>Williams</surname><given-names>D</given-names></name>, <name><surname>Dezadeux</surname><given-names>C</given-names></name>, <name><surname>Tookey</surname><given-names>PA</given-names></name>, <name><surname>Peckham</surname><given-names>CS</given-names></name>, <etal>et al</etal> (<year>2008</year>) <article-title>Analysis of rubella antibody distribution from newborn dried blood spots using finite mixture models</article-title>. <source>Epidemiology &amp; Infection</source>
+<volume>136</volume>: <fpage>1698</fpage>–<lpage>1706</lpage>.<pub-id pub-id-type="pmid">18294427</pub-id></mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Vyse1">
+                <label>19</label>
+                <mixed-citation publication-type="journal"><name><surname>Vyse</surname><given-names>AJ</given-names></name>, <name><surname>Andrews</surname><given-names>NJ</given-names></name>, <name><surname>Hesketh</surname><given-names>LM</given-names></name>, <name><surname>Pebody</surname><given-names>R</given-names></name> (<year>2007</year>) <article-title>The burden of parvovirus B19 infection in women of childbearing age in England and Wales</article-title>. <source>Epidemiology &amp; Infection</source>
+<volume>135</volume>: <fpage>1354</fpage>–<lpage>1362</lpage>.<pub-id pub-id-type="pmid">17291377</pub-id></mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Cowling1">
+                <label>20</label>
+                <mixed-citation publication-type="journal"><name><surname>Cowling</surname><given-names>BJ</given-names></name>, <name><surname>Lau</surname><given-names>MSY</given-names></name>, <name><surname>Ho</surname><given-names>L-M</given-names></name>, <name><surname>Chuang</surname><given-names>S-K</given-names></name>, <name><surname>Tsang</surname><given-names>T</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>The Effective Reproduction Number of Pandemic Influenza: Prospective Estimation</article-title>. <source>Epidemiology</source>
+<volume>21</volume>: <fpage>842</fpage>–<lpage>846 810.1097/EDE.1090b1013e3181f20977</lpage>.<pub-id pub-id-type="pmid">20805752</pub-id></mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Wu3">
+                <label>21</label>
+                <mixed-citation publication-type="journal"><name><surname>Wu</surname><given-names>JT</given-names></name>, <name><surname>Cowling</surname><given-names>BJ</given-names></name>, <name><surname>Lau</surname><given-names>EHY</given-names></name>, <name><surname>Ip</surname><given-names>DKM</given-names></name>, <name><surname>Ho</surname><given-names>L-M</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>School Closure and Mitigation of Pandemic (H1N1) 2009, Hong Kong</article-title>. <source>Emerging Infectious Diseases</source>
+<volume>16</volume>: <fpage>538</fpage>–<lpage>541</lpage>.<pub-id pub-id-type="pmid">20202441</pub-id></mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Wu4">
+                <label>22</label>
+                <mixed-citation publication-type="journal"><name><surname>Wu</surname><given-names>JT</given-names></name>, <name><surname>Ma</surname><given-names>ESK</given-names></name>, <name><surname>Lee</surname><given-names>CK</given-names></name>, <name><surname>Chu</surname><given-names>DKW</given-names></name>, <name><surname>Ho</surname><given-names>PL</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>The infection attack rate and severity of 2009 pandemic influenza (H1N1) in Hong Kong</article-title>. <source>Clinical Infectious Diseases</source>
+<volume>51</volume>: <fpage>1184</fpage>–<lpage>1191</lpage>.<pub-id pub-id-type="pmid">20964521</pub-id></mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Hung1">
+                <label>23</label>
+                <mixed-citation publication-type="journal"><name><surname>Hung</surname><given-names>IFN</given-names></name>, <name><surname>To</surname><given-names>KKW</given-names></name>, <name><surname>Lee</surname><given-names>C-K</given-names></name>, <name><surname>Lin</surname><given-names>C-K</given-names></name>, <name><surname>Chan</surname><given-names>JFW</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Effect of Clinical and Virological Parameters on the Level of Neutralizing Antibody against Pandemic Influenza A Virus H1N1 2009</article-title>. <source>Clinical Infectious Diseases</source>
+<volume>51</volume>: <fpage>274</fpage>–<lpage>279</lpage>.<pub-id pub-id-type="pmid">20575664</pub-id></mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Veguilla1">
+                <label>24</label>
+                <mixed-citation publication-type="journal"><name><surname>Veguilla</surname><given-names>V</given-names></name>, <name><surname>Hancock</surname><given-names>K</given-names></name>, <name><surname>Schiffer</surname><given-names>J</given-names></name>, <name><surname>Gargiullo</surname><given-names>P</given-names></name>, <name><surname>Lu</surname><given-names>X</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Sensitivity and Specificity of Serologic Assays for Detection of Human Infection with 2009 Pandemic H1N1 Virus in U.S. Populations</article-title>. <source>Journal of Clinical Microbiology</source>
+<volume>49</volume>: <fpage>2210</fpage>–<lpage>2215</lpage>.<pub-id pub-id-type="pmid">21471339</pub-id></mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Cowling2">
+                <label>25</label>
+                <mixed-citation publication-type="journal"><name><surname>Cowling</surname><given-names>BJ</given-names></name>, <name><surname>Chan</surname><given-names>KH</given-names></name>, <name><surname>Fang</surname><given-names>VJ</given-names></name>, <name><surname>Lau</surname><given-names>LLH</given-names></name>, <name><surname>So</surname><given-names>HC</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Comparative Epidemiology of Pandemic and Seasonal Influenza A in Households</article-title>. <source>New England Journal of Medicine</source>
+<volume>362</volume>: <fpage>2175</fpage>–<lpage>2184</lpage>.<pub-id pub-id-type="pmid">20558368</pub-id></mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Mossong1">
+                <label>26</label>
+                <mixed-citation publication-type="journal"><name><surname>Mossong</surname><given-names>J</given-names></name>, <name><surname>Hens</surname><given-names>N</given-names></name>, <name><surname>Jit</surname><given-names>M</given-names></name>, <name><surname>Beutels</surname><given-names>P</given-names></name>, <name><surname>Auranen</surname><given-names>K</given-names></name>, <etal>et al</etal> (<year>2008</year>) <article-title>Social Contacts and Mixing Patterns Relevant to the Spread of Infectious Diseases</article-title>. <source>PLoS Med</source>
+<volume>5</volume>: <fpage>e74</fpage>.<pub-id pub-id-type="pmid">18366252</pub-id></mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Bolle1">
+                <label>27</label>
+                <mixed-citation publication-type="journal"><name><surname>Boëlle</surname><given-names>P-Y</given-names></name>, <name><surname>Ansart</surname><given-names>S</given-names></name>, <name><surname>Cori</surname><given-names>A</given-names></name>, <name><surname>Valleron</surname><given-names>A-J</given-names></name> (<year>2011</year>) <article-title>Transmission parameters of the A/H1N1 (2009) influenza virus pandemic: a review</article-title>. <source>Influenza and Other Respiratory Viruses</source>
+<volume>5</volume>: <fpage>306</fpage>–<lpage>316</lpage>.<pub-id pub-id-type="pmid">21668690</pub-id></mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Cauchemez1">
+                <label>28</label>
+                <mixed-citation publication-type="journal"><name><surname>Cauchemez</surname><given-names>S</given-names></name>, <name><surname>Donnelly</surname><given-names>CA</given-names></name>, <name><surname>Reed</surname><given-names>C</given-names></name>, <name><surname>Ghani</surname><given-names>AC</given-names></name>, <name><surname>Fraser</surname><given-names>C</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>Household Transmission of 2009 Pandemic Influenza A (H1N1) Virus in the United States</article-title>. <source>New England Journal of Medicine</source>
+<volume>361</volume>: <fpage>2619</fpage>–<lpage>2627</lpage>.<pub-id pub-id-type="pmid">20042753</pub-id></mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Cauchemez2">
+                <label>29</label>
+                <mixed-citation publication-type="journal"><name><surname>Cauchemez</surname><given-names>S</given-names></name>, <name><surname>Bhattarai</surname><given-names>A</given-names></name>, <name><surname>Marchbanks</surname><given-names>TL</given-names></name>, <name><surname>Fagan</surname><given-names>RP</given-names></name>, <name><surname>Ostroff</surname><given-names>S</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Role of social networks in shaping disease transmission during a community outbreak of 2009 H1N1 pandemic influenza</article-title>. <source>Proceedings of the National Academy of Sciences</source>
+<volume>108</volume>: <fpage>2825</fpage>–<lpage>2830</lpage>.</mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Hardelid2">
+                <label>30</label>
+                <mixed-citation publication-type="journal"><name><surname>Hardelid</surname><given-names>P</given-names></name>, <name><surname>Andrews</surname><given-names>N</given-names></name>, <name><surname>Hoschler</surname><given-names>K</given-names></name>, <name><surname>Stanford</surname><given-names>E</given-names></name>, <name><surname>Baguelin</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Assessment of baseline age-specific antibody prevalence and incidence of infection to novel influenza A/H1N1</article-title>. <source>Health Technology Assessment</source>
+<volume>14</volume>: <fpage>115</fpage>–<lpage>192</lpage>.<pub-id pub-id-type="pmid">21208549</pub-id></mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Papenburg1">
+                <label>31</label>
+                <mixed-citation publication-type="journal"><name><surname>Papenburg</surname><given-names>J</given-names></name>, <name><surname>Baz</surname><given-names>M</given-names></name>, <name><surname>Hamelin</surname><given-names>M-È</given-names></name>, <name><surname>Rhéaume</surname><given-names>C</given-names></name>, <name><surname>Carbonneau</surname><given-names>J</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Evaluation of Serological Diagnostic Methods for the 2009 Pandemic Influenza A (H1N1) Virus</article-title>. <source>Clinical and Vaccine Immunology</source>
+<volume>18</volume>: <fpage>520</fpage>–<lpage>522</lpage>.<pub-id pub-id-type="pmid">21228145</pub-id></mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Wood1">
+                <label>32</label>
+                <mixed-citation publication-type="journal"><name><surname>Wood</surname><given-names>JM</given-names></name>, <name><surname>Gaines-Das</surname><given-names>RE</given-names></name>, <name><surname>Taylor</surname><given-names>J</given-names></name>, <name><surname>Chakraverty</surname><given-names>P</given-names></name> (<year>1994</year>) <article-title>Comparison of influenza serological techniques by international collaborative study</article-title>. <source>Vaccine</source>
+<volume>12</volume>: <fpage>167</fpage>–<lpage>174</lpage>.<pub-id pub-id-type="pmid">8147099</pub-id></mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Mak1">
+                <label>33</label>
+                <mixed-citation publication-type="journal"><name><surname>Mak</surname><given-names>GC</given-names></name>, <name><surname>Choy</surname><given-names>PWW</given-names></name>, <name><surname>Lee</surname><given-names>WY</given-names></name>, <name><surname>Wong</surname><given-names>AH</given-names></name>, <name><surname>Ng</surname><given-names>KC</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Sero-immunity and serologic response to pandemic influenza A (H1N1) 2009 virus in Hong Kong</article-title>. <source>Journal of Medical Virology</source>
+<volume>82</volume>: <fpage>1809</fpage>–<lpage>1815</lpage>.<pub-id pub-id-type="pmid">20872705</pub-id></mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Tu1">
+                <label>34</label>
+                <mixed-citation publication-type="journal"><name><surname>Tu</surname><given-names>W</given-names></name>, <name><surname>Mao</surname><given-names>H</given-names></name>, <name><surname>Zheng</surname><given-names>J</given-names></name>, <name><surname>Liu</surname><given-names>Y</given-names></name>, <name><surname>Chiu</surname><given-names>SS</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Cytotoxic T lymphocytes established by seasonal human influenza cross-react against 2009 pandemic H1N1 influenza virus</article-title>. <source>Journal of virology</source>
+<volume>84</volume>: <fpage>6527</fpage>–<lpage>6535</lpage>.<pub-id pub-id-type="pmid">20410263</pub-id></mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Tang1">
+                <label>35</label>
+                <mixed-citation publication-type="journal"><name><surname>Tang</surname><given-names>JW</given-names></name>, <name><surname>Ngai</surname><given-names>KL</given-names></name>, <name><surname>Lam</surname><given-names>WY</given-names></name>, <name><surname>Chan</surname><given-names>PK</given-names></name> (<year>2008</year>) <article-title>Seasonality of influenza A(H3N2) virus: a Hong Kong perspective (1997–2006)</article-title>. <source>PLoS ONE</source>
+<volume>3</volume>: <fpage>e2768</fpage>.<pub-id pub-id-type="pmid">18648550</pub-id></mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Cauchemez3">
+                <label>36</label>
+                <mixed-citation publication-type="journal"><name><surname>Cauchemez</surname><given-names>S</given-names></name>, <name><surname>Horby</surname><given-names>P</given-names></name>, <name><surname>Fox</surname><given-names>A</given-names></name>, <name><surname>Mai le</surname><given-names>Q</given-names></name>, <name><surname>Thanh le</surname><given-names>T</given-names></name>, <etal>et al</etal> (<year>2012</year>) <article-title>Influenza infection rates, measurement errors and the interpretation of paired serology</article-title>. <source>PLoS Pathog</source>
+<volume>8</volume>: <fpage>e1003061</fpage>.<pub-id pub-id-type="pmid">23271967</pub-id></mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Birrell1">
+                <label>37</label>
+                <mixed-citation publication-type="journal"><name><surname>Birrell</surname><given-names>PJ</given-names></name>, <name><surname>Ketsetzis</surname><given-names>G</given-names></name>, <name><surname>Gay</surname><given-names>NJ</given-names></name>, <name><surname>Cooper</surname><given-names>BS</given-names></name>, <name><surname>Presanis</surname><given-names>AM</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Bayesian modeling to unmask and predict influenza A/H1N1pdm dynamics in London</article-title>. <source>Proceedings of the National Academy of Sciences</source>
+<volume>108</volume>: <fpage>18238</fpage>–<lpage>18243</lpage>.</mixed-citation>
+              </ref>
+              <ref id="ppat.1004054-Xie1">
+                <label>38</label>
+                <mixed-citation publication-type="journal"><name><surname>Xie</surname><given-names>X</given-names></name>, <name><surname>Lu</surname><given-names>SQ</given-names></name>, <name><surname>Cheng</surname><given-names>JQ</given-names></name>, <name><surname>Cheng</surname><given-names>XW</given-names></name>, <name><surname>Xu</surname><given-names>ZH</given-names></name>, <etal>et al</etal> (<year>2012</year>) <article-title>Estimate of 2009 H1N1 influenza cases in Shenzhen–the biggest migratory city in China</article-title>. <source>Epidemiol Infect</source>
+<volume>140</volume>: <fpage>788</fpage>–<lpage>797</lpage>.<pub-id pub-id-type="pmid">21745428</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

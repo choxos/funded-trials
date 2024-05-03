@@ -1,0 +1,2192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T03:12:08Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7792313" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7792313</identifier>
+        <datestamp>2021-01-11</datestamp>
+        <setSpec>implemsci</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Implement Sci</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Implement Sci</journal-id>
+              <journal-title-group>
+                <journal-title>Implementation Science : IS</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1748-5908</issn>
+              <publisher>
+                <publisher-name>BioMed Central</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7792313</article-id>
+              <article-id pub-id-type="pmcid">PMC7792313</article-id>
+              <article-id pub-id-type="pmc-uid">7792313</article-id>
+              <article-id pub-id-type="pmid">33413494</article-id>
+              <article-id pub-id-type="publisher-id">1078</article-id>
+              <article-id pub-id-type="doi">10.1186/s13012-020-01078-9</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Study Protocol</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Rationale and design of the Novel Uses of adaptive Designs to Guide provider Engagement in Electronic Health Records (NUDGE-EHR) pragmatic adaptive randomized trial: a trial protocol</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4940-4140</contrib-id>
+                  <name>
+                    <surname>Lauffenburger</surname>
+                    <given-names>Julie C.</given-names>
+                  </name>
+                  <address>
+                    <email>jlauffenburger@bwh.harvard.edu</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Isaac</surname>
+                    <given-names>Thomas</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Trippa</surname>
+                    <given-names>Lorenzo</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Keller</surname>
+                    <given-names>Punam</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Robertson</surname>
+                    <given-names>Ted</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Glynn</surname>
+                    <given-names>Robert J.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Sequist</surname>
+                    <given-names>Thomas D.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff7">7</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kim</surname>
+                    <given-names>Dae H.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff8">8</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Fontanet</surname>
+                    <given-names>Constance P.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Castonguay</surname>
+                    <given-names>Edward W. B.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Haff</surname>
+                    <given-names>Nancy</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Barlev</surname>
+                    <given-names>Renee A.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Mahesri</surname>
+                    <given-names>Mufaddal</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Gopalakrishnan</surname>
+                    <given-names>Chandrashekar</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Choudhry</surname>
+                    <given-names>Niteesh K.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.62560.37</institution-id><institution-id institution-id-type="ISNI">0000 0004 0378 8294</institution-id><institution>Division of Pharmacoepidemiology and Pharmacoeconomics, Department of Medicine, </institution><institution>Brigham and Women’s Hospital and Harvard Medical School, </institution></institution-wrap>1620 Tremont Street, Suite 3030, Boston, MA 02120 USA </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.62560.37</institution-id><institution-id institution-id-type="ISNI">0000 0004 0378 8294</institution-id><institution>Center for Healthcare Delivery Sciences (C4HDS), Department of Medicine, </institution><institution>Brigham and Women’s Hospital and Harvard Medical School, </institution></institution-wrap>1620 Tremont Street, Suite 3030, Boston, MA 02120 USA </aff>
+                <aff id="Aff3"><label>3</label>Atrius Health, Newton, MA USA </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.38142.3c</institution-id><institution-id institution-id-type="ISNI">000000041936754X</institution-id><institution>Dana-Farber Cancer Institute, Department of Biostatistics and Computational Biology, </institution><institution>Harvard T.H. Chan School of Public Health, </institution></institution-wrap>Boston, MA USA </aff>
+                <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.254880.3</institution-id><institution-id institution-id-type="ISNI">0000 0001 2179 2404</institution-id><institution>Tuck School of Business, </institution><institution>Dartmouth College, </institution></institution-wrap>Hanover, NH USA </aff>
+                <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="GRID">grid.479148.7</institution-id><institution>Ideas42, </institution></institution-wrap>New York, NY USA </aff>
+                <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="GRID">grid.62560.37</institution-id><institution-id institution-id-type="ISNI">0000 0004 0378 8294</institution-id><institution>Division of General Internal Medicine and Department of Health Care Policy, </institution><institution>Brigham and Women’s Hospital and Harvard Medical School, </institution></institution-wrap>Boston, MA USA </aff>
+                <aff id="Aff8"><label>8</label><institution-wrap><institution-id institution-id-type="GRID">grid.38142.3c</institution-id><institution-id institution-id-type="ISNI">000000041936754X</institution-id><institution>Marcus Institute for Aging Research, </institution><institution>Hebrew SeniorLife, </institution></institution-wrap>Boston, MA USA </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>7</day>
+                <month>1</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>7</day>
+                <month>1</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2021</year>
+              </pub-date>
+              <volume>16</volume>
+              <elocation-id>9</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>25</day>
+                  <month>11</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="accepted">
+                  <day>22</day>
+                  <month>12</month>
+                  <year>2020</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2021</copyright-statement>
+                <license license-type="OpenAccess">
+                  <license-p><bold>Open Access</bold>This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>. The Creative Commons Public Domain Dedication waiver (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link>) applies to the data made available in this article, unless otherwise stated in a credit line to the data.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <sec>
+                  <title>Background</title>
+                  <p id="Par1">The prescribing of high-risk medications to older adults remains extremely common and results in potentially avoidable health consequences. Efforts to reduce prescribing have had limited success, in part because they have been sub-optimally timed, poorly designed, or not provided actionable information. Electronic health record (EHR)-based tools are commonly used but have had limited application in facilitating deprescribing in older adults. The objective is to determine whether designing EHR tools using behavioral science principles reduces inappropriate prescribing and clinical outcomes in older adults.</p>
+                </sec>
+                <sec>
+                  <title>Methods</title>
+                  <p id="Par2">The Novel Uses of Designs to Guide provider Engagement in Electronic Health Records (NUDGE-EHR) project uses a two-stage, 16-arm adaptive randomized pragmatic trial with a “pick-the-winner” design to identify the most effective of many potential EHR tools among primary care providers and their patients ≥ 65 years chronically using benzodiazepines, sedative hypnotic (“Z-drugs”), or anticholinergics in a large integrated delivery system. In stage 1, we randomized providers and their patients to usual care (<italic>n</italic> = 81 providers) or one of 15 EHR tools (<italic>n</italic> = 8 providers per arm) designed using behavioral principles including salience, choice architecture, or defaulting. After 6 months of follow-up, we will rank order the arms based upon their impact on the trial’s primary outcome (for both stages): reduction in inappropriate prescribing (via discontinuation or tapering). In stage 2, we will randomize (a) stage 1 usual care providers in a 1:1 ratio to one of the up to 5 most promising stage 1 interventions or continue usual care and (b) stage 1 providers in the unselected arms in a 1:1 ratio to one of the 5 most promising interventions or usual care. Secondary and tertiary outcomes include quantities of medication prescribed and utilized and clinically significant adverse outcomes.</p>
+                </sec>
+                <sec>
+                  <title>Discussion</title>
+                  <p id="Par3">Stage 1 launched in October 2020. We plan to complete stage 2 follow-up in December 2021. These results will advance understanding about how behavioral science can optimize EHR decision support to improve prescribing and health outcomes. Adaptive trials have rarely been used in implementation science, so these findings also provide insight into how trials in this field could be more efficiently conducted.</p>
+                </sec>
+                <sec>
+                  <title>Trial registration</title>
+                  <p id="Par4"><ext-link ext-link-type="uri" xlink:href="http://clinicaltrials.gov">Clinicaltrials.gov</ext-link> (<ext-link ext-link-type="uri" xlink:href="https://clinicaltrials.gov/ct2/show/NCT04284553">NCT04284553</ext-link>, registered: February 26, 2020)</p>
+                </sec>
+                <sec>
+                  <title>Supplementary Information</title>
+                  <p>The online version contains supplementary material available at 10.1186/s13012-020-01078-9.</p>
+                </sec>
+              </abstract>
+              <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>Deprescribing</kwd>
+                <kwd>Older adults</kwd>
+                <kwd>Decision support</kwd>
+                <kwd>Pragmatic trial</kwd>
+                <kwd>Prescribing</kwd>
+                <kwd>Adaptive trial</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100000049</institution-id>
+                      <institution>National Institute on Aging</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>R33AG057388</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Lauffenburger</surname>
+                      <given-names>Julie C.</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2021</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <boxed-text>
+                <label>Contributions to the literature</label>
+                <p id="Par11">
+                  <list list-type="bullet">
+                    <list-item>
+                      <p id="Par12">Novel Uses of adaptive Designs to Guide provider Engagement in Electronic Health Records (NUDGE-EHR) is a 16-arm adaptive randomized pragmatic trial to identify the most effective of numerous electronic health record tools for prescribing.</p>
+                    </list-item>
+                    <list-item>
+                      <p id="Par13">Adaptive randomized trials, like the NUDGE-EHR trial, have rarely been used in implementation science, largely due to a limited understanding of practicalities conducting these trials.</p>
+                    </list-item>
+                    <list-item>
+                      <p id="Par14">Regardless of the outcomes of NUDGE-EHR itself, our approach offers important lessons for the conduct of trials in implementation science, especially because methods to identify how to best deliver evidence-based interventions and more efficiently generate evidence are central to implementation science.</p>
+                    </list-item>
+                  </list>
+                </p>
+              </boxed-text>
+            </sec>
+            <sec id="Sec2">
+              <title>Background</title>
+              <p id="Par15">Prescribing of potentially unsafe medications for older adults remains extremely common [<xref ref-type="bibr" rid="CR1">1</xref>–<xref ref-type="bibr" rid="CR3">3</xref>]. More than 20% of older adults are chronically using at least one of these medications [<xref ref-type="bibr" rid="CR3">3</xref>–<xref ref-type="bibr" rid="CR5">5</xref>]. Chronic use can result in adverse health consequences such as an increased risk of hospitalizations, falls, and fractures [<xref ref-type="bibr" rid="CR3">3</xref>, <xref ref-type="bibr" rid="CR6">6</xref>]. For instance, benzodiazepines and sedative hypnotics are thought to increase the 1-year risk of falling by 30% in older adults, even among patients who have been using them [<xref ref-type="bibr" rid="CR7">7</xref>, <xref ref-type="bibr" rid="CR8">8</xref>]. Despite strong clinical guidelines recommending reductions in their use, a gap persists in how to achieve deprescribing of high-risk medications in clinical practice.</p>
+              <p id="Par16">Several prior studies have evaluated strategies to de-implement the prescribing of high-risk medications to older adults [<xref ref-type="bibr" rid="CR4">4</xref>, <xref ref-type="bibr" rid="CR9">9</xref>–<xref ref-type="bibr" rid="CR11">11</xref>]. Specific approaches have included in-person patient education, pharmacist medication or drug utilization reviews, clinician-facing education, or referral to specialist care [<xref ref-type="bibr" rid="CR11">11</xref>–<xref ref-type="bibr" rid="CR13">13</xref>]. The vast majority of these have been complex and multi-faceted, and the timing of intervention provision has also varied; some were delivered at specific points in care which may be too late, such as hospital or nursing home admission [<xref ref-type="bibr" rid="CR14">14</xref>]. Collectively, these interventions have been only modestly effective, perhaps in part due to issues of design or implementation, and substantial resources would be required to sustain their use.</p>
+              <p id="Par17">Computerized clinical decision support tools in electronic health record (EHR) systems are a widely scalable strategy to influence physician behavior and have demonstrated effectiveness in implementation science interventions to increase the uptake of preventive health screenings, test ordering, and prescribing guideline-indicated medications [<xref ref-type="bibr" rid="CR9">9</xref>, <xref ref-type="bibr" rid="CR15">15</xref>, <xref ref-type="bibr" rid="CR16">16</xref>]. Several prior studies have evaluated the use of decision support to facilitate the deprescribing of high-risk medications to older adults and have found inconsistent results [<xref ref-type="bibr" rid="CR17">17</xref>–<xref ref-type="bibr" rid="CR21">21</xref>]. The lack of effectiveness of these EHR interventions may have resulted from aspects of their designs, such as their not presenting clinically actionable information to overcome true barriers to de-prescribing like clinical inertia, patient pressure, or limited access to alternative treatments, or the decision support being insufficiently focused on workflow and cognitive heuristics, such as providing large blocks of text to communicate risks [<xref ref-type="bibr" rid="CR22">22</xref>–<xref ref-type="bibr" rid="CR24">24</xref>]. Their usability and likelihood of producing success moving forward could also be hampered further by barriers recognized by implementation frameworks, like the representativeness of participating providers and the timing and cost of the interventions [<xref ref-type="bibr" rid="CR25">25</xref>, <xref ref-type="bibr" rid="CR26">26</xref>].</p>
+              <p id="Par18">Accordingly, the effectiveness of EHR decision support tools for reducing the prescribing of high-risk medications may be improved by incorporating design principles of behavioral sciences, such as framing, pre-commitment/consistency, or boostering, which have demonstrated impact on individual behavior in other contexts [<xref ref-type="bibr" rid="CR21">21</xref>, <xref ref-type="bibr" rid="CR27">27</xref>–<xref ref-type="bibr" rid="CR33">33</xref>]. For example, providing information in terms of risks rather than benefits can make patients more willing to fill a prescribed medication [<xref ref-type="bibr" rid="CR27">27</xref>, <xref ref-type="bibr" rid="CR34">34</xref>]. Similarly, using “defaults” within EHRs can increase generic medication prescribing and ordering of recommended laboratory tests [<xref ref-type="bibr" rid="CR32">32</xref>].</p>
+              <p id="Par19">To fill this knowledge gap, we initiated Novel Uses of adaptive Designs to Guide provider Engagement in Electronic Health Records (NUDGE-EHR) trial. Because there are numerous ways in which EHR tools that incorporate behavioral science principles could be designed and because a direct comparison of approaches is typically difficult to accomplish with parallel-group trials [<xref ref-type="bibr" rid="CR35">35</xref>, <xref ref-type="bibr" rid="CR36">36</xref>], thus, NUDGE-EHR uses an adaptive design, a methodology that has rarely been used in implementation research [<xref ref-type="bibr" rid="CR36">36</xref>]. Using this design will help identify the best way to deliver deprescribing tools within an EHR and will provide guidance on which specific components of these tools are most effective at changing prescribing, which will inform implementation in other settings. Regardless of study findings, NUDGE-EHR could be used as a blueprint about how to consider and overcome the practicalities of conducting adaptive trials in implementation science.</p>
+            </sec>
+            <sec id="Sec3">
+              <title>Methods/design</title>
+              <sec id="Sec4">
+                <title>Overall study design</title>
+                <p id="Par20">NUDGE-EHR is a two-stage adaptive randomized pragmatic trial with a “pick the winner” design that seeks to identify the optimal EHR tool for reducing the use of benzodiazepines, sedative hypnotics (“Z-drugs”), and anticholinergics among older adults (Fig. <xref rid="Fig1" ref-type="fig">1</xref>). In stage 1, primary care providers (PCPs) at a large integrated delivery network have been randomized to one of 15 active intervention arms or usual care. For stage 2, we will randomize (a) stage 1 usual care providers to one of up to the top 5 promising stage 1 treatment arms or to continue usual care and (b) stage 1 providers in the unselected arms (e.g., ranked lower than 5) will be randomly assigned to one of up to the top 5 promising arms or usual care.
+<fig id="Fig1"><label>Fig. 1</label><caption><p>Overview of the adaptive trial stages</p></caption><graphic xlink:href="13012_2020_1078_Fig1_HTML" id="MO1"/></fig></p>
+                <p id="Par21">The study is funded by the NIH National Institute on Aging. The trial was approved by the Mass General Brigham institutional review board who waived informed consent for all subjects. The study is registered with <ext-link ext-link-type="uri" xlink:href="http://clinicaltrials.gov">clinicaltrials.gov</ext-link> (NCT04284553, first registered February 26, 2020) and overseen by a Data and Safety Monitoring Board. The authors are solely responsible for the design and conduct of this study and drafting and editing of the paper and its final contents.</p>
+                <p id="Par22">The trial was designed using Pragmatic Explanatory Continuum Indicator Summary (PRECIS-2) trial guidance and reported using SPIRIT reporting guidelines (full protocol in Supplement <xref rid="MOESM1" ref-type="media">1</xref>).</p>
+              </sec>
+              <sec id="Sec5">
+                <title>Study setting and subjects</title>
+                <p id="Par23">NUDGE-EHR is being conducted at Atrius Health, a delivery network in Massachusetts that uses the Epic® EHR system, the platform used by &gt; 35% of US ambulatory practices and 60% of large hospitals [<xref ref-type="bibr" rid="CR37">37</xref>]. Atrius employs approximately 220 PCPs at 31 practices who care for approximately 745,000 patients. Eligible study participants include these PCPs (including physicians and PCP-designated nurse practitioners and physician assistants) and their patients.</p>
+                <p id="Par24">Providers are eligible if they prescribed a high-risk medication to ≥ 1 older adult in the 180 days before stage 1 assignment. Eligible high-risk medications include benzodiazepines, Z-drugs (e.g., zolpidem), and anticholinergics and were chosen based on clinical guidelines like Choosing Wisely and Beers Criteria that recommend reductions in use and they continue to be over-prescribed [<xref ref-type="bibr" rid="CR38">38</xref>–<xref ref-type="bibr" rid="CR40">40</xref>]. For stage 1, eligible patients of these providers are those aged ≥ 65 years and who have been prescribed ≥ 90 pills of benzodiazepine or Z-drug in the last 180 days, which most guidelines consider “chronic” use [<xref ref-type="bibr" rid="CR40">40</xref>]. For stage 2, eligibility will be identical to stage 1 except that patients (and their providers) will also be included in secondary analyses if they had been prescribed ≥ 90 pills of eligible anticholinergics in the last 180 days. We chose to include just benzodiazepines and Z-drugs in stage 1 as these medications have similar prescribing patterns and likely have less variation with improved statistical power. For stage 2, we also included anticholinergics to ensure generalizability to other classes.</p>
+              </sec>
+              <sec id="Sec6">
+                <title>Interventions</title>
+                <p id="Par25">Our intervention design was based upon a thorough review of peer-reviewed literature and two focus groups with PCPs intended to understand barriers to and facilitators of appropriate prescribing. Based on their effectiveness in other settings, applicability to older adults, and ability to be adapted to EHRs [<xref ref-type="bibr" rid="CR30">30</xref>, <xref ref-type="bibr" rid="CR41">41</xref>–<xref ref-type="bibr" rid="CR43">43</xref>], we selected nine behavioral principles for testing: salience, default bias, social accountability, timing of tools (e.g., an aspect of choice architecture), boostering, “cold-state” priming, simplification, pre-commitment/consistency, and framing (Table <xref rid="Tab1" ref-type="table">1</xref>) [<xref ref-type="bibr" rid="CR28">28</xref>, <xref ref-type="bibr" rid="CR33">33</xref>, <xref ref-type="bibr" rid="CR42">42</xref>, <xref ref-type="bibr" rid="CR44">44</xref>, <xref ref-type="bibr" rid="CR45">45</xref>]. Using these principles, we co-designed and iteratively tested the EHR tools with our multidisciplinary team in the healthcare system.
+<table-wrap id="Tab1"><label>Table 1</label><caption><p>Behavioral principles tested in the electronic health record tools across study arms</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Behavioral principle</th><th>Definition in context of medication prescribing</th><th>Modification made to electronic health record tool to incorporate the principle</th><th>Trial arm(s) with this modification</th></tr></thead><tbody><tr><td>Salience</td><td>Noticeability or prominence of drug risk information</td><td>Presenting information about drug risks in ways that makes the information as impactful as possible</td><td>1–14</td></tr><tr><td>Default bias</td><td>Pre-set course of action that leverages providers’ tendency to do status quo</td><td>Defaulting the options to (1) discontinuing the medication and (2) opening an order set that contains dose tapers, alternatives, and customized patient instructions</td><td>1–14</td></tr><tr><td>Social accountability</td><td>Willingness to accept responsibility for prescribing action</td><td>Requiring providers to select “I accept the drug’s risks” or write a free-text response if they decide not to discontinue the medication or order a taper or alternative</td><td>1–14</td></tr><tr><td>Timing of information (an aspect of choice architecture)</td><td>Organization of the context and timing in which providers make choices to influence decision-making</td><td>Modifying the timing of the tool to occur at different times in provider workflow (i.e., when ordering a medication, opening an encounter record, or approving a medication refilled by clinical staff)</td><td><p><italic>-At ordering:</italic> 1, 3, 5, 7, 9, 11, 13, 15</p><p><italic>-At encounter opening</italic>: 2, 4, 6, 8, 10, 12, 14</p><p><italic>-At refill approval:</italic> 9, 10</p></td></tr><tr><td>Boostering</td><td>Renewal of the effect of a prior intervention</td><td>Providing an option for reminder message 4 weeks after a patient visit</td><td>3, 4</td></tr><tr><td>“Cold-state” priming</td><td>Pre-exposure to information affects subsequent prescribing</td><td>Triggering an informational message 2 days before a scheduled visit with an eligible patient</td><td>5, 6</td></tr><tr><td>Simplification</td><td>Simplification of risk information may make it more understandable</td><td>Simplifying the medication risks and recommended action language in the tool</td><td>7, 8</td></tr><tr><td>Pre-commitment/consistency</td><td>Support of future decision to deprescribe by first asking providers to commit to an easier action</td><td>Prompting providers to discuss medication risks on their first visit (using a patient hand-out in the EHR) before prompting providers to stop medication or order a dose taper when the patients return for follow-up</td><td>11, 12</td></tr><tr><td>Framing</td><td>Framing of risks in terms of clinical guidelines</td><td>Framing of risks in terms of clinical guidelines and published evidence</td><td>13, 14</td></tr></tbody></table><table-wrap-foot><p>Abbreviation: <italic>EHR</italic> Electronic health record</p></table-wrap-foot></table-wrap></p>
+                <p id="Par26">Arms 1 through 14 of stage 1 involve EHR tools that incorporate the selected behavioral science principles (Fig. <xref rid="Fig2" ref-type="fig">2</xref>). The central component of each intervention is an enhanced EHR alert (Best Practice Advisory [BPA] in Epic®). This alert provides information about risks of continued medication use and contains an embedded hyperlink to tips to help providers discuss medication discontinuation with their patients (Supplement 2, eFigure <xref rid="MOESM2" ref-type="media">1</xref>). When the alert triggers, it defaults to an order set (a SmartSet in Epic®) that provides alternative treatments, templated patient instructions, and relevant referrals, such as to behavioral health. For the benzodiazepines and Z-drug alerts, the order set also includes tapering algorithms to limit risks of withdrawal symptoms. These algorithms are customized to the specific drug, dose, and frequency that the patient is taking along with pre-filled directions to pharmacies dispensing the taper (Supplement 2, eFigure <xref rid="MOESM2" ref-type="media">2</xref>) and customizable and printable instructions for patients about how to gradually taper off these drugs (Fig. <xref rid="Fig3" ref-type="fig">3</xref>). The order set also allows providers to order alternative medications, refer patients to a behavioral health specialist, and share instructions with patients about how to make lifestyle modifications to improve symptoms.
+<fig id="Fig2"><label>Fig. 2</label><caption><p>Enhanced electronic health record tool modified with behavioral principles that triggers when ordering one of the high-risk medications. <bold>a</bold> Salience: Presenting information about risks impactfully. <bold>b</bold> Defaults: Defaulting options to (1) discontinuing the order and (2) opening an order set containing dose tapers, alternatives, and patient instructions. <bold>c</bold> Social accountability: Requiring providers to select either “I accept the drug’s risks” or write a free-test response if they do not discontinue the medication or order a taper. <bold>d</bold> Choice architecture: Modifying timing of the tool to occur at different times in provider workflow</p></caption><graphic xlink:href="13012_2020_1078_Fig2_HTML" id="MO2"/></fig><fig id="Fig3"><label>Fig. 3</label><caption><p>Customized patient instructions for medication tapering algorithms. The instructions for the first prescription for a dose reduction of a once-daily benzodiazepine medication is shown</p></caption><graphic xlink:href="13012_2020_1078_Fig3_HTML" id="MO3"/></fig></p>
+                <p id="Par27">Arms 1 and 2 are “base” interventions in which the alert either fires when the provider orders a medication (arm 1) or opens an encounter (arm 2) for eligible patients during in-person or telehealth visits, which require addressing before completing the intended action (Supplement 2, eFigure <xref rid="MOESM2" ref-type="media">3</xref>). Additional principles are incorporated in arms 3–14. In arms 3 and 4, providers have the option of receiving a follow-up “booster” message (Supplement 2, eFigure <xref rid="MOESM2" ref-type="media">4</xref>). Arms 5 and 6 incorporate “cold state” priming, where providers receive a message in the EHR inbox 2 days before a scheduled visit with an eligible patient. Arms 7 and 8 involve simplified language (Supplement 2, eFigure <xref rid="MOESM2" ref-type="media">5</xref>), whereas arms 9 and 10 test an additional alert that occurs at the time of approving a medication when it is reordered or refilled by support staff such as a medical assistant (Supplement 2, eFigure <xref rid="MOESM2" ref-type="media">6</xref>). Arms 11 and 12 incorporate pre-commitment, in which providers are prompted to first have a discussion with their patient about medication risks and then, at a subsequent visit, are prompted to actively deprescribe the relevant medication (Supplement 2, eFigure <xref rid="MOESM2" ref-type="media">7</xref>). Arms 13 and 14 test framing risks based on guidelines and evidence instead of just presenting the risks quantitatively (Supplement 2, eFigure <xref rid="MOESM2" ref-type="media">8</xref>).</p>
+                <p id="Par28">Conversely, arm 15 is a basic EHR alert meant to mimic clinical decision support that is currently most commonly given to providers, i.e., without behavioral science (Supplement 2, eFigure <xref rid="MOESM2" ref-type="media">9</xref>). Physicians randomized to usual care (arm 16) receive no new EHR alert. Presently, a system-generated informational alert fires for all providers upon ordering a benzodiazepine; this will fire across all arms non-differentially.</p>
+                <p id="Par29">If patients are eligible for multiple classes of interest (e.g., benzodiazepines and Z-drugs), the EHR tools will appear simultaneously. To supplement the two focus groups, we also incorporated feedback from the Internal Medicine Design team and clinical pharmacists at Atrius. Finally, to fully ensure user-centered design, we conducted pilot testing with several providers not in the trial to assess usability, feasibility, and appropriate firing of the tools following Agency for Healthcare Research and Quality principles [<xref ref-type="bibr" rid="CR46">46</xref>].</p>
+              </sec>
+              <sec id="Sec7">
+                <title>Stage 1</title>
+                <sec id="Sec8">
+                  <title>Randomization</title>
+                  <p id="Par30">In stage 1, we stratified the 201 eligible PCPs into 4 blocks (with 50 PCPs in 3 of the blocks and 51 PCPs in the fourth) based on clinical practice size (i.e., number of providers) and baseline rates of high-risk prescribing (i.e., number of eligible patients). Within these blocks, 30 PCPs were randomly allocated using a random number generator to one of 15 active arms, and 20 PCPs were allocated to usual care (in the 4th block, the extra PCP was assigned to usual care). In this way, 120 PCPs were assigned to an active intervention (<italic>n</italic> = 8 per intervention), and 81 PCPs were assigned to usual care. Providers were randomized using data from March 1 to August 31, 2020, and randomization was performed in September 2020; stage 1 began in October 2020.</p>
+                </sec>
+                <sec id="Sec9">
+                  <title>Outcomes</title>
+                  <p id="Par31">The trial outcomes are shown in Table <xref rid="Tab2" ref-type="table">2</xref> and will be assessed using routinely collected structured EHR data and/or administrative claims data on the patient level. The primary outcome is a “reduction” in inappropriate prescribing defined as either discontinuation of one of the medication classes of interest or ordering of a medication taper. If either action is taken by the provider for a specific patient in the 6-month follow-up, we will classify the patient as having had a reduction in inappropriate prescribing, even if there is an unexpected later escalation. If a patient is eligible for &gt; 1 therapeutic class (e.g., a benzodiazepine and a Z-drug), we will consider a patient as having met the primary outcome if there was a reduction in any of their eligible medications. This primary outcome was chosen because it can be rapidly measured to facilitate the adaptive trial. In secondary analyses, we will analyze outcomes stratified by the patient’s number of eligible therapeutic classes (i.e., one, two, or three).
+<table-wrap id="Tab2"><label>Table 2</label><caption><p>Trial outcomes</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Type</th><th>Outcome</th><th>Data source</th><th>Definition</th><th>When outcome is analyzed</th></tr></thead><tbody><tr><td><italic>Primary</italic></td><td>Reduction in inappropriate prescribing</td><td>EHR</td><td>Composite of (1) discontinuation of high-risk medications or (2) ordering a gradual dose taper</td><td>End of stages 1 and 2</td></tr><tr><td><italic>Secondary</italic></td><td>Quantity of prescribing</td><td>EHR</td><td>Number of milligram equivalents of high-risk medications prescribed to patients</td><td>End of stage 2</td></tr><tr><td rowspan="2"><italic>Tertiary</italic></td><td>Quantity of medication dispensed</td><td>Administrative claims</td><td>Number of milligram equivalents of high-risk medications filled by patients</td><td>End of stage 2</td></tr><tr><td>Adverse events</td><td>Administrative claims</td><td>Occurrence of clinically significant adverse drug events, such as all-cause hospitalizations, falls, and fractures</td><td>End of stage 2</td></tr></tbody></table></table-wrap></p>
+                </sec>
+                <sec id="Sec10">
+                  <title>Analysis plan</title>
+                  <p id="Par32">Six months after stage 1 launch, we will use multivariable regression to determine which of the behavioral components in the EHR tools (e.g., boostering effects) is associated with a reduction in inappropriate prescribing (primary outcome) among eligible patients who presented to care. The behavioral components are shown as factors for the models in Supplement 2, eTable <xref rid="MOESM2" ref-type="media">1</xref>. In specific, we will adjust for physician-level clustering and multiple patient observations per physician using a generalized linear mixed model for binary outcomes. Based upon this analysis, the 15 active arms will be ranked based on their observed effect estimates compared with usual care. Sample size estimates are described in stage 2. We will only present the study results at the end of stage 2.</p>
+                </sec>
+              </sec>
+              <sec id="Sec11">
+                <title>Stage 2</title>
+                <sec id="Sec12">
+                  <title>Randomization</title>
+                  <p id="Par33">After the stage 1 analysis, we will randomize the 201 stage 1 providers as follows: (a) stage 1 usual care providers will be randomized to one of up to the top 5 most promising treatment arms or to continue to receive usual care (1:1:1:1:1:1) (Fig. <xref rid="Fig1" ref-type="fig">1</xref>), (b) stage 1 providers who were previously in unselected treatment arms (e.g., ranked lower than 5) will be randomized to one of up to the top 5 most promising arms or to usual care (1:1:1:1:1:1), and (c) stage 1 providers who were previously in the most promising arms will be randomly assigned to continue to receive their original treatment assignments or to usual care to test holdover/persistency effects (1:1). If only 1 to 5 arms are ranked, we will choose those for testing in stage 2 and randomize PCPs in equal proportions. If none of the arms are promising versus usual care, we will combine intervention components within the arms to enhance effectiveness.</p>
+                  <p id="Par34">In stage 2, as secondary analyses, we will also include and randomize any additional providers who prescribed ≥ 1 eligible anticholinergic of ≥ 90 days to an older adult in the prior 180 days and include these in the analysis. Based on preliminary data, we expect an additional 10–15 providers. We will also stratify based on clinic size and baseline rates of prescribing in stage 2. Follow-up will last approximately 8 months but will be based on the average number of observations.</p>
+                </sec>
+                <sec id="Sec13">
+                  <title>Outcomes</title>
+                  <p id="Par35">As in stage 1, the primary outcome will be a reduction in inappropriate prescribing defined by discontinuation of high-risk medications or ordering a gradual dose taper. The measurement approach will be the same as for stage 1. In secondary analyses, we will include anticholinergics; the primary outcome for this definition will be a reduction in inappropriate prescribing defined by discontinuation of high-risk medications (benzodiazepines, Z-drugs, or anticholinergics) or ordering a gradual dose taper (benzodiazepines or Z-drugs).</p>
+                  <p id="Par36">At the end of stage 2, we will also measure other prescribing and clinical outcomes from the EHR including the cumulative number of milligram equivalents of high-risk medications prescribed to patients (secondary outcome). Because claims data are available for a subset of patients whose insurance is in risk-bearing contracts with Atrius, we will also measure tertiary outcomes including the quantity of high-risk medications dispensed in follow-up, measured in pharmacy claims, and the occurrence of clinically significant adverse drug events, specifically diagnoses of sedation, cognitive impairment, and falls or fractures, and all-cause hospitalizations, measured in medical claims data.</p>
+                  <p id="Par37">We will also measure implementation outcomes informed by the RE-AIM and CFIR implementation frameworks to provide insight into its implementation and scalability to other healthcare settings [<xref ref-type="bibr" rid="CR25">25</xref>, <xref ref-type="bibr" rid="CR47">47</xref>]. These outcomes will include characteristics of providers evaluated in the trial compared with other Atrius providers, percentage and frequency of decision support firing as intended, frequency of using the SmartSet order set, and feedback from clinics and providers about the intervention about acceptability and sustainability after completion of the trial.</p>
+                </sec>
+                <sec id="Sec14">
+                  <title>Analytic plan</title>
+                  <p id="Par38">We will conduct analyses of the primary outcome using generalized linear mixed model for binary outcomes to determine whether any of the intervention arms are more effective versus usual care. For secondary and tertiary outcomes, we will also use generalized linear mixed models. Primary analyses will be unadjusted; however, if there are strong patient-level predictors not balanced by stratified randomization, we will adjust for these. We will not include multiplicity adjustments in our statistical plan.</p>
+                </sec>
+                <sec id="Sec15">
+                  <title>Sample size</title>
+                  <p id="Par39">Our null hypothesis is that rates of provider prescribing (defined as a reduction in prescribing of high-risk medication) in any of the active intervention arms will be no different than usual care. We determined our sample size to have 80% power assuming that the baseline rate of the composite outcome among usual care physicians is 5% (i.e., that 5% of patients would have a medication discontinued or a taper ordered in follow-up independent of the intervention) and that the effective interventions will increase the relative rate of deprescribing for patients by 10% (i.e., an odds ratio of 1.10) with type I error = 0.05 and correlation = 0.3 [<xref ref-type="bibr" rid="CR11">11</xref>, <xref ref-type="bibr" rid="CR18">18</xref>, <xref ref-type="bibr" rid="CR48">48</xref>]. We assumed an average cluster size of 20 patients per provider based on baseline data.</p>
+                </sec>
+              </sec>
+              <sec id="Sec16">
+                <title>Limitations</title>
+                <p id="Par40">There are several potential limitations. These trials are being conducted in one health system. The results may also not be applicable to initial prescribing of these medications or deprescribing of other high-risk medications. Patients with generalized anxiety or panic disorder or followed by specialists may also be included, but this would be non-differential. In addition, many of the tools are alert-based; while we hypothesize that incorporating behavioral science principles will reduce their likelihood of being ignored by providers, it is possible that the tools could increase alert fatigue [<xref ref-type="bibr" rid="CR49">49</xref>]. However, the design will more explicitly identify tools that may unnecessarily increase alert fatigue and whether certain nudges work for certain types of providers.</p>
+              </sec>
+            </sec>
+            <sec id="Sec17">
+              <title>Discussion</title>
+              <p id="Par41">Decision support in EHRs have shown promise in reducing high-risk prescribing for older adults, yet have not quite met that potential. While EHR strategies are widely used to support informational needs of providers, these tools have demonstrated only modest effectiveness at improving prescribing [<xref ref-type="bibr" rid="CR49">49</xref>–<xref ref-type="bibr" rid="CR53">53</xref>]. In a recent systematic review, 57% of studies found that decision support influenced provider behavior, yet effect sizes were small (i.e., mean change of &lt; 5%), and many studies had a high-risk of bias [<xref ref-type="bibr" rid="CR54">54</xref>]. EHR tools may currently be ineffective in part due to insufficient focus on factors behind clinical inertia, prescribing behavior, or workflow. To our knowledge, only three trials have specifically studied decision support for inappropriate prescribing in ambulatory older adults, which found modest effectiveness [<xref ref-type="bibr" rid="CR20">20</xref>, <xref ref-type="bibr" rid="CR21">21</xref>, <xref ref-type="bibr" rid="CR52">52</xref>, <xref ref-type="bibr" rid="CR55">55</xref>]. Other decision supports, such as prescribing defaults, have not to our knowledge been applied to inappropriate prescribing in older adults [<xref ref-type="bibr" rid="CR32">32</xref>, <xref ref-type="bibr" rid="CR56">56</xref>]. Discontinuing a medication may also prevent additional behavioral challenges, such as loss-aversion and endowment, compared with adding medication.</p>
+              <p id="Par42">Once the trial is completed, these results will also need to be considered in relation to other efforts to reduce inappropriate prescribing in older adults. Limited prior evidence suggests that providing information alone via decision support at the time of a patient encounter could be insufficient at reducing prescribing on its own [<xref ref-type="bibr" rid="CR20">20</xref>, <xref ref-type="bibr" rid="CR21">21</xref>, <xref ref-type="bibr" rid="CR55">55</xref>]. Other interventions that are not exclusively provider-facing, such as pharmacist interventions, including medication reviews, and in-person patient education, have also demonstrated some success in reducing inappropriate prescribing, yet these can be more resource intensive and may require actions outside of typical clinical workflow [<xref ref-type="bibr" rid="CR11">11</xref>, <xref ref-type="bibr" rid="CR21">21</xref>, <xref ref-type="bibr" rid="CR57">57</xref>]. As the capabilities of EHRs increase, there still exists much opportunity to improve deprescribing efforts aimed at providers directly, including leveraging different time points in workflow and presenting different types of tools to facilitate deprescribing [<xref ref-type="bibr" rid="CR58">58</xref>, <xref ref-type="bibr" rid="CR59">59</xref>].</p>
+              <p id="Par43">Over the past decades, behavioral sciences have provided great insight into how to change behaviors by better understanding individuals’ underlying motivations, how they mentally “account” for various options, and processes necessary for sustained changed [<xref ref-type="bibr" rid="CR44">44</xref>, <xref ref-type="bibr" rid="CR45">45</xref>]. These observations and application of their principles has effectively changed behavior in other settings and are likely applicable to EHR systems to improve the uptake of evidence-based care, such as improving prescribing in older adults [<xref ref-type="bibr" rid="CR60">60</xref>]. The effectiveness of tools could be enhanced by leveraging principles of behavioral economics and related sciences, but they have had very limited application in EHRs and, more specifically, for prescribing in older adults.</p>
+              <p id="Par44">Because there are numerous ways these tools could be designed and delivered using behavioral science, we are using an adaptive trial. Adaptive trials are increasingly emerging as options for increasing the efficiency and scale of interventions tested in clinical medicine than traditional parallel groups allow [<xref ref-type="bibr" rid="CR61">61</xref>]. Accordingly, applying adaptive trials to delivering other healthcare interventions, such as in implementation research, would allow the possibility of testing faster and with more efficiency [<xref ref-type="bibr" rid="CR36">36</xref>]. Because implementation research seeks to test how to promote uptake of evidence-based interventions and abandon strategies that are harmful, methods to generate evidence faster are central to the field. In specific, NUDGE-EHR will determine the components of EHR tools that are most impactful at changing provider behavior, which is fundamentally an implementation question. By using a study design that allows for the testing of different EHR implementation strategies, we will provide generalizable evidence both to healthcare practices about specific strategies that should be used in EHRs as well as to implementation researchers about the practicalities of how to test different delivery strategies simultaneously [<xref ref-type="bibr" rid="CR62">62</xref>, <xref ref-type="bibr" rid="CR63">63</xref>].</p>
+              <p id="Par45">Therefore, this overall approach, regardless of ultimate outcomes of the study itself, could be replicated by others to enhance the conduct and evaluation of pragmatic trials in implementation science. NUDGE-EHR will advance our understanding about how behavioral science can optimize clinical decision support to reduce inappropriate prescribing and improve patient health outcomes as well as how to use adaptive trial designs in healthcare delivery and implementation science.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Information</title>
+              <sec id="Sec18">
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM1">
+                    <media xlink:href="13012_2020_1078_MOESM1_ESM.pdf">
+                      <caption>
+                        <p><bold>Additional file 1: Supplement 1</bold> Clinical trial protocol</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                  <supplementary-material content-type="local-data" id="MOESM2">
+                    <media xlink:href="13012_2020_1078_MOESM2_ESM.pdf">
+                      <caption>
+                        <p><bold>Additional file 2: Supplement 2, eFigure 1</bold> Provider tapering information and talking points embedded in enhanced alerts. <bold>Supplement 2, eFigure 2</bold> SmartSet order set embedded within enhanced alerts. <bold>Supplement 2, eFigure 3</bold> Enhanced encounter opening alert used in Arms 2, 6, and 10. <bold>Supplement 2, eFigure 4</bold> Arm 3: Enhanced order entry alert + follow-up message. <bold>Supplement 2, eFigure 5</bold> Arm 7: Simplified enhanced order entry alert. <bold>Supplement 2, eFigure 6</bold> Arms 9 and 10: Sign-off approval alert that triggers to providers when electronically signing off on refill medications ordered by support staff. <bold>Supplement 2, eFigure 7</bold> Arm 11: Pre-commitment/consistency alert + enhanced order entry alert. <bold>Supplement 2, eFigure 8</bold> Arm 13: Enhanced order entry alert with different risk framing. <bold>Supplement 2, eFigure 9</bold> Arm 15: Non-enhanced order entry alert. <bold>Supplement 2, eTable 1</bold> Behavioral principles in electronic health record tools tested in regression model.</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term>BPA</term>
+                  <def>
+                    <p id="Par5">Best practice advisory</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>EHR</term>
+                  <def>
+                    <p id="Par6">Electronic health record</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>NUDGE-EHR</term>
+                  <def>
+                    <p id="Par7">Novel uses of designs to guide provider engagement in electronic health records</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>PCP</term>
+                  <def>
+                    <p id="Par8">Primary care provider</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>PRECIS-2</term>
+                  <def>
+                    <p id="Par9">Pragmatic explanatory continuum indicator summary</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>Z-drug</term>
+                  <def>
+                    <p id="Par10">Sedative hypnotic Z-drug</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Publisher’s Note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>Research reported in this publication was supported by the NIH. The content is solely the responsibility of the authors and does not necessarily represent the official views of the NIH.</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Authors’ contributions</title>
+              <p>JCL and NKC drafted the manuscript. TI, LT, PK, TR, RJG, TDS, DHK, CPF, EWBC, NH, RAB, MM, and CG drafted and substantially revised it. All authors reviewed the paper and approved the final submitted version.</p>
+            </notes>
+            <notes notes-type="funding-information">
+              <title>Funding</title>
+              <p>This research was supported by a grant from the National Institute on Aging (NIA) of the National Institutes of Health (NIH) to Brigham and Women’s Hospital (R33AG057388). The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Availability of data and materials</title>
+              <p>Data sharing is not applicable to this article as no datasets were generated or analyzed during the current study.</p>
+            </notes>
+            <notes id="FPar1">
+              <title>Ethics approval and consent to participate</title>
+              <p id="Par46">The trial was approved by the Mass General Brigham institutional review board (IRB) who served as the IRB of record for this research and the single IRB for the trial. The protocol was reviewed and approved. The IRB waived informed consent for all subjects (2019P002167). The study is registered with <ext-link ext-link-type="uri" xlink:href="http://clinicaltrials.gov">clinicaltrials.gov</ext-link> (NCT04284553) and overseen by a Data and Safety Monitoring Board.</p>
+            </notes>
+            <notes id="FPar2">
+              <title>Consent for publication</title>
+              <p id="Par47">Not applicable</p>
+            </notes>
+            <notes id="FPar3" notes-type="COI-statement">
+              <title>Competing interests</title>
+              <p id="Par48">The investigators report no competing interests.</p>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhan</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Sangl</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Bierman</surname>
+                      <given-names>AS</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Potentially inappropriate medication use in the community-dwelling elderly: findings from the 1996 Medical Expenditure Panel Survey</article-title>
+                  <source>Jama</source>
+                  <year>2001</year>
+                  <volume>286</volume>
+                  <issue>22</issue>
+                  <fpage>2823</fpage>
+                  <lpage>2829</lpage>
+                  <pub-id pub-id-type="doi">10.1001/jama.286.22.2823</pub-id>
+                  <?supplied-pmid 11735757?>
+                  <pub-id pub-id-type="pmid">11735757</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>YJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>WW</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>JB</given-names>
+                    </name>
+                    <name>
+                      <surname>Guo</surname>
+                      <given-names>JJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Potentially inappropriate medication use among older adults in the USA in 2007</article-title>
+                  <source>Age Ageing</source>
+                  <year>2011</year>
+                  <volume>40</volume>
+                  <issue>3</issue>
+                  <fpage>398</fpage>
+                  <lpage>401</lpage>
+                  <pub-id pub-id-type="doi">10.1093/ageing/afr012</pub-id>
+                  <?supplied-pmid 21385784?>
+                  <pub-id pub-id-type="pmid">21385784</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Guaraldo</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Cano</surname>
+                      <given-names>FG</given-names>
+                    </name>
+                    <name>
+                      <surname>Damasceno</surname>
+                      <given-names>GS</given-names>
+                    </name>
+                    <name>
+                      <surname>Rozenfeld</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Inappropriate medication use among the elderly: a systematic review of administrative databases</article-title>
+                  <source>BMC Geriatr</source>
+                  <year>2011</year>
+                  <volume>11</volume>
+                  <fpage>79</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1471-2318-11-79</pub-id>
+                  <?supplied-pmid 22129458?>
+                  <pub-id pub-id-type="pmid">22129458</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cooper</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Cadogan</surname>
+                      <given-names>CA</given-names>
+                    </name>
+                    <name>
+                      <surname>Patterson</surname>
+                      <given-names>SM</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Interventions to improve the appropriate use of polypharmacy in older people: a Cochrane systematic review</article-title>
+                  <source>BMJ Open</source>
+                  <year>2015</year>
+                  <volume>5</volume>
+                  <issue>12</issue>
+                  <fpage>e009235</fpage>
+                  <pub-id pub-id-type="doi">10.1136/bmjopen-2015-009235</pub-id>
+                  <?supplied-pmid 26656020?>
+                  <pub-id pub-id-type="pmid">26656020</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rhee</surname>
+                      <given-names>TG</given-names>
+                    </name>
+                    <name>
+                      <surname>Choi</surname>
+                      <given-names>YC</given-names>
+                    </name>
+                    <name>
+                      <surname>Ouellet</surname>
+                      <given-names>GM</given-names>
+                    </name>
+                    <name>
+                      <surname>Ross</surname>
+                      <given-names>JS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>National prescribing trends for high-risk anticholinergic medications in older adults</article-title>
+                  <source>J Am Geriatr Soc</source>
+                  <year>2018</year>
+                  <volume>66</volume>
+                  <issue>7</issue>
+                  <fpage>1382</fpage>
+                  <lpage>1387</lpage>
+                  <pub-id pub-id-type="doi">10.1111/jgs.15357</pub-id>
+                  <?supplied-pmid 29582410?>
+                  <pub-id pub-id-type="pmid">29582410</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <collab>By the American Geriatrics Society Beers Criteria Update Expert P</collab>
+                  </person-group>
+                  <article-title>American Geriatrics Society 2015 updated Beers Criteria for potentially inappropriate medication use in older adults</article-title>
+                  <source>J Am Geriatr Soc</source>
+                  <year>2015</year>
+                  <volume>63</volume>
+                  <issue>11</issue>
+                  <fpage>2227</fpage>
+                  <lpage>2246</lpage>
+                  <pub-id pub-id-type="doi">10.1111/jgs.13702</pub-id>
+                  <pub-id pub-id-type="pmid">26446832</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Woolcott</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                    <name>
+                      <surname>Richardson</surname>
+                      <given-names>KJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Wiens</surname>
+                      <given-names>MO</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Meta-analysis of the impact of 9 medication classes on falls in elderly persons</article-title>
+                  <source>Arch Intern Med</source>
+                  <year>2009</year>
+                  <volume>169</volume>
+                  <issue>21</issue>
+                  <fpage>1952</fpage>
+                  <lpage>1960</lpage>
+                  <pub-id pub-id-type="doi">10.1001/archinternmed.2009.357</pub-id>
+                  <?supplied-pmid 19933955?>
+                  <pub-id pub-id-type="pmid">19933955</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ham</surname>
+                      <given-names>AC</given-names>
+                    </name>
+                    <name>
+                      <surname>Swart</surname>
+                      <given-names>KM</given-names>
+                    </name>
+                    <name>
+                      <surname>Enneman</surname>
+                      <given-names>AW</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Medication-related fall incidents in an older, ambulant population: the B-PROOF study</article-title>
+                  <source>Drugs Aging</source>
+                  <year>2014</year>
+                  <volume>31</volume>
+                  <issue>12</issue>
+                  <fpage>917</fpage>
+                  <lpage>927</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s40266-014-0225-x</pub-id>
+                  <?supplied-pmid 25398701?>
+                  <pub-id pub-id-type="pmid">25398701</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Alldred</surname>
+                      <given-names>DP</given-names>
+                    </name>
+                    <name>
+                      <surname>Kennedy</surname>
+                      <given-names>MC</given-names>
+                    </name>
+                    <name>
+                      <surname>Hughes</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>TF</given-names>
+                    </name>
+                    <name>
+                      <surname>Miller</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Interventions to optimise prescribing for older people in care homes</article-title>
+                  <source>Cochrane Database Syst Rev</source>
+                  <year>2016</year>
+                  <volume>2</volume>
+                  <fpage>CD009095</fpage>
+                  <?supplied-pmid 26866421?>
+                  <pub-id pub-id-type="pmid">26866421</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Spinewine</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Schmader</surname>
+                      <given-names>KE</given-names>
+                    </name>
+                    <name>
+                      <surname>Barber</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Appropriate prescribing in elderly people: how well can it be measured and optimised?</article-title>
+                  <source>Lancet</source>
+                  <year>2007</year>
+                  <volume>370</volume>
+                  <issue>9582</issue>
+                  <fpage>173</fpage>
+                  <lpage>184</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0140-6736(07)61091-5</pub-id>
+                  <?supplied-pmid 17630041?>
+                  <pub-id pub-id-type="pmid">17630041</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Martin</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Tamblyn</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Benedetti</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Ahmed</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Tannenbaum</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effect of a pharmacist-led educational intervention on inappropriate medication prescriptions in older adults: the D-PRESCRIBE randomized clinical trial</article-title>
+                  <source>Jama</source>
+                  <year>2018</year>
+                  <volume>320</volume>
+                  <issue>18</issue>
+                  <fpage>1889</fpage>
+                  <lpage>1898</lpage>
+                  <pub-id pub-id-type="doi">10.1001/jama.2018.16131</pub-id>
+                  <?supplied-pmid 30422193?>
+                  <pub-id pub-id-type="pmid">30422193</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hanlon</surname>
+                      <given-names>JT</given-names>
+                    </name>
+                    <name>
+                      <surname>Weinberger</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Samsa</surname>
+                      <given-names>GP</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A randomized, controlled trial of a clinical pharmacist intervention to improve inappropriate prescribing in elderly outpatients with polypharmacy</article-title>
+                  <source>Am J Med</source>
+                  <year>1996</year>
+                  <volume>100</volume>
+                  <issue>4</issue>
+                  <fpage>428</fpage>
+                  <lpage>437</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0002-9343(97)89519-8</pub-id>
+                  <?supplied-pmid 8610730?>
+                  <pub-id pub-id-type="pmid">8610730</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tannenbaum</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Martin</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Tamblyn</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Benedetti</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Ahmed</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Reduction of inappropriate benzodiazepine prescriptions among older adults through direct patient education: the EMPOWER cluster randomized trial</article-title>
+                  <source>JAMA Intern Med</source>
+                  <year>2014</year>
+                  <volume>174</volume>
+                  <issue>6</issue>
+                  <fpage>890</fpage>
+                  <lpage>898</lpage>
+                  <pub-id pub-id-type="doi">10.1001/jamainternmed.2014.949</pub-id>
+                  <?supplied-pmid 24733354?>
+                  <pub-id pub-id-type="pmid">24733354</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <mixed-citation publication-type="other">Kua CH, Yeo CYY, Char CWT, et al. Nursing home team-care deprescribing study: a stepped-wedge randomised controlled trial protocol. BMJ Open. 2017;7:e015293.</mixed-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wolfstadt</surname>
+                      <given-names>JI</given-names>
+                    </name>
+                    <name>
+                      <surname>Gurwitz</surname>
+                      <given-names>JH</given-names>
+                    </name>
+                    <name>
+                      <surname>Field</surname>
+                      <given-names>TS</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The effect of computerized physician order entry with clinical decision support on the rates of adverse drug events: a systematic review</article-title>
+                  <source>J Gen Intern Med</source>
+                  <year>2008</year>
+                  <volume>23</volume>
+                  <issue>4</issue>
+                  <fpage>451</fpage>
+                  <lpage>458</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s11606-008-0504-5</pub-id>
+                  <?supplied-pmid 18373144?>
+                  <pub-id pub-id-type="pmid">18373144</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mostofian</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Ruban</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Simunovic</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Bhandari</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Changing physician behavior: what works?</article-title>
+                  <source>Am J Manag Care</source>
+                  <year>2015</year>
+                  <volume>21</volume>
+                  <issue>1</issue>
+                  <fpage>75</fpage>
+                  <lpage>84</lpage>
+                  <?supplied-pmid 25880152?>
+                  <pub-id pub-id-type="pmid">25880152</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Page</surname>
+                      <given-names>AT</given-names>
+                    </name>
+                    <name>
+                      <surname>Clifford</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                    <name>
+                      <surname>Potter</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Schwartz</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Etherton-Beer</surname>
+                      <given-names>CD</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The feasibility and effect of deprescribing in older adults on mortality and health: a systematic review and meta-analysis</article-title>
+                  <source>Br J Clin Pharmacol</source>
+                  <year>2016</year>
+                  <volume>82</volume>
+                  <issue>3</issue>
+                  <fpage>583</fpage>
+                  <lpage>623</lpage>
+                  <pub-id pub-id-type="doi">10.1111/bcp.12975</pub-id>
+                  <?supplied-pmid 27077231?>
+                  <pub-id pub-id-type="pmid">27077231</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ng</surname>
+                      <given-names>BJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Le Couteur</surname>
+                      <given-names>DG</given-names>
+                    </name>
+                    <name>
+                      <surname>Hilmer</surname>
+                      <given-names>SN</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Deprescribing benzodiazepines in older patients: impact of interventions targeting physicians, pharmacists, and patients</article-title>
+                  <source>Drugs Aging</source>
+                  <year>2018</year>
+                  <volume>35</volume>
+                  <issue>6</issue>
+                  <fpage>493</fpage>
+                  <lpage>521</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s40266-018-0544-4</pub-id>
+                  <?supplied-pmid 29705831?>
+                  <pub-id pub-id-type="pmid">29705831</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Thillainadesan</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Gnjidic</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Green</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Hilmer</surname>
+                      <given-names>SN</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Impact of deprescribing interventions in older hospitalised patients on prescribing and clinical outcomes: a systematic review of randomised trials</article-title>
+                  <source>Drugs Aging</source>
+                  <year>2018</year>
+                  <volume>35</volume>
+                  <issue>4</issue>
+                  <fpage>303</fpage>
+                  <lpage>319</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s40266-018-0536-4</pub-id>
+                  <?supplied-pmid 29541966?>
+                  <pub-id pub-id-type="pmid">29541966</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rieckert</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Reeves</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Altiner</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Use of an electronic decision support tool to reduce polypharmacy in elderly people with chronic diseases: cluster randomised controlled trial</article-title>
+                  <source>BMJ</source>
+                  <year>2020</year>
+                  <volume>369</volume>
+                  <fpage>m1822</fpage>
+                  <pub-id pub-id-type="doi">10.1136/bmj.m1822</pub-id>
+                  <?supplied-pmid 32554566?>
+                  <pub-id pub-id-type="pmid">32554566</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Clyne</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Fitzgerald</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Quinlan</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Interventions to address potentially inappropriate prescribing in community-dwelling older adults: a systematic review of randomized controlled trials</article-title>
+                  <source>J Am Geriatr Soc</source>
+                  <year>2016</year>
+                  <volume>64</volume>
+                  <issue>6</issue>
+                  <fpage>1210</fpage>
+                  <lpage>1222</lpage>
+                  <pub-id pub-id-type="doi">10.1111/jgs.14133</pub-id>
+                  <?supplied-pmid 27321600?>
+                  <pub-id pub-id-type="pmid">27321600</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Liao</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Emanuel</surname>
+                      <given-names>EJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Navathe</surname>
+                      <given-names>AS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Six health care trends that will reshape the patient-provider dynamic</article-title>
+                  <source>Healthcare</source>
+                  <year>2016</year>
+                  <volume>4</volume>
+                  <issue>3</issue>
+                  <fpage>148</fpage>
+                  <lpage>150</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.hjdsi.2016.06.006</pub-id>
+                  <?supplied-pmid 27396533?>
+                  <pub-id pub-id-type="pmid">27396533</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sequist</surname>
+                      <given-names>TD</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Clinical documentation to improve patient care</article-title>
+                  <source>Ann Intern Med</source>
+                  <year>2015</year>
+                  <volume>162</volume>
+                  <issue>4</issue>
+                  <fpage>315</fpage>
+                  <lpage>316</lpage>
+                  <pub-id pub-id-type="doi">10.7326/M14-2913</pub-id>
+                  <?supplied-pmid 25581123?>
+                  <pub-id pub-id-type="pmid">25581123</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <mixed-citation publication-type="other">Maddox TM. Clinical decision support in statin prescription-what we can learn from a negative outcome. JAMA Cardiol. 2020.</mixed-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gaglio</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Shoup</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Glasgow</surname>
+                      <given-names>RE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The RE-AIM framework: a systematic review of use over time</article-title>
+                  <source>Am J Public Health</source>
+                  <year>2013</year>
+                  <volume>103</volume>
+                  <issue>6</issue>
+                  <fpage>e38</fpage>
+                  <lpage>e46</lpage>
+                  <pub-id pub-id-type="doi">10.2105/AJPH.2013.301299</pub-id>
+                  <?supplied-pmid 23597377?>
+                  <pub-id pub-id-type="pmid">23597377</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Keith</surname>
+                      <given-names>RE</given-names>
+                    </name>
+                    <name>
+                      <surname>Crosson</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                    <name>
+                      <surname>O’Malley</surname>
+                      <given-names>AS</given-names>
+                    </name>
+                    <name>
+                      <surname>Cromp</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Taylor</surname>
+                      <given-names>EF</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Using the Consolidated Framework for Implementation Research (CFIR) to produce actionable findings: a rapid-cycle evaluation approach to improving implementation</article-title>
+                  <source>Implement Sci</source>
+                  <year>2017</year>
+                  <volume>12</volume>
+                  <issue>1</issue>
+                  <fpage>15</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s13012-017-0550-7</pub-id>
+                  <?supplied-pmid 28187747?>
+                  <pub-id pub-id-type="pmid">28187747</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gong</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Feng</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>W</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The framing effect in medical decision-making: a review of the literature</article-title>
+                  <source>Psychol Health Med</source>
+                  <year>2013</year>
+                  <volume>18</volume>
+                  <issue>6</issue>
+                  <fpage>645</fpage>
+                  <lpage>653</lpage>
+                  <pub-id pub-id-type="doi">10.1080/13548506.2013.766352</pub-id>
+                  <?supplied-pmid 23387993?>
+                  <pub-id pub-id-type="pmid">23387993</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sunstein</surname>
+                      <given-names>CR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Nudging: a very short guide</article-title>
+                  <source>J Consum Policy</source>
+                  <year>2014</year>
+                  <volume>37</volume>
+                  <issue>4</issue>
+                  <fpage>583</fpage>
+                  <lpage>588</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s10603-014-9273-1</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Thaler</surname>
+                      <given-names>RH</given-names>
+                    </name>
+                    <name>
+                      <surname>Benartzi</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Save more tomorrow: using behavioral economics to increase employee saving</article-title>
+                  <source>J Polit Econ</source>
+                  <year>2004</year>
+                  <volume>112</volume>
+                  <fpage>S164</fpage>
+                  <lpage>S187</lpage>
+                  <pub-id pub-id-type="doi">10.1086/380085</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Keller</surname>
+                      <given-names>PA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Affect, framing, and persuasion</article-title>
+                  <source>J Mark Res</source>
+                  <year>2003</year>
+                  <volume>40</volume>
+                  <issue>1</issue>
+                  <fpage>54</fpage>
+                  <lpage>64</lpage>
+                  <pub-id pub-id-type="doi">10.1509/jmkr.40.1.54.19133</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Keller</surname>
+                      <given-names>PA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Enhanced active choice: a new method to motivated behavior change</article-title>
+                  <source>J Consum Psychol</source>
+                  <year>2011</year>
+                  <volume>21</volume>
+                  <issue>4</issue>
+                  <fpage>376</fpage>
+                  <lpage>383</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jcps.2011.06.003</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Patel</surname>
+                      <given-names>MS</given-names>
+                    </name>
+                    <name>
+                      <surname>Day</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Small</surname>
+                      <given-names>DS</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Using default options within the electronic health record to increase the prescribing of generic-equivalent medications: a quasi-experimental study</article-title>
+                  <source>Ann Intern Med</source>
+                  <year>2014</year>
+                  <volume>161</volume>
+                  <issue>10 Suppl</issue>
+                  <fpage>S44</fpage>
+                  <lpage>S52</lpage>
+                  <pub-id pub-id-type="doi">10.7326/M13-3001</pub-id>
+                  <?supplied-pmid 25402402?>
+                  <pub-id pub-id-type="pmid">25402402</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Meeker</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Linder</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Fox</surname>
+                      <given-names>CR</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Effect of behavioral interventions on inappropriate antibiotic prescribing among primary care practices: a randomized clinical trial</article-title>
+                  <source>Jama</source>
+                  <year>2016</year>
+                  <volume>315</volume>
+                  <issue>6</issue>
+                  <fpage>562</fpage>
+                  <lpage>570</lpage>
+                  <pub-id pub-id-type="doi">10.1001/jama.2016.0275</pub-id>
+                  <?supplied-pmid 26864410?>
+                  <pub-id pub-id-type="pmid">26864410</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Levin</surname>
+                      <given-names>IP</given-names>
+                    </name>
+                    <name>
+                      <surname>Schneider</surname>
+                      <given-names>SL</given-names>
+                    </name>
+                    <name>
+                      <surname>Gaeth</surname>
+                      <given-names>GJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>All frames are not created equal: a typology and critical analysis of framing effects</article-title>
+                  <source>Organ Behav Hum Dec Process</source>
+                  <year>1998</year>
+                  <volume>76</volume>
+                  <issue>2</issue>
+                  <fpage>149</fpage>
+                  <lpage>188</lpage>
+                  <pub-id pub-id-type="doi">10.1006/obhd.1998.2804</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bhatt</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                    <name>
+                      <surname>Mehta</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Adaptive designs for clinical trials</article-title>
+                  <source>N Engl J Med</source>
+                  <year>2016</year>
+                  <volume>375</volume>
+                  <issue>1</issue>
+                  <fpage>65</fpage>
+                  <lpage>74</lpage>
+                  <pub-id pub-id-type="doi">10.1056/NEJMra1510061</pub-id>
+                  <?supplied-pmid 27406349?>
+                  <pub-id pub-id-type="pmid">27406349</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hatfield</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Allison</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Flight</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Julious</surname>
+                      <given-names>SA</given-names>
+                    </name>
+                    <name>
+                      <surname>Dimairo</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Adaptive designs undertaken in clinical research: a review of registered clinical trials</article-title>
+                  <source>Trials</source>
+                  <year>2016</year>
+                  <volume>17</volume>
+                  <issue>1</issue>
+                  <fpage>150</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s13063-016-1273-9</pub-id>
+                  <?supplied-pmid 26993469?>
+                  <pub-id pub-id-type="pmid">26993469</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <mixed-citation publication-type="other">Health Care Professional Health IT Developers [press release]. 2017. <ext-link ext-link-type="uri" xlink:href="https://dashboard.healthit.gov/quickstats/pages/FIG-Vendors-of-EHRs-to-Participating-Professionals.php">https://dashboard.healthit.gov/quickstats/pages/FIG-Vendors-of-EHRs-to-Participating-Professionals.php</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>O’Mahony</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>O’Sullivan</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Byrne</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>O’Connor</surname>
+                      <given-names>MN</given-names>
+                    </name>
+                    <name>
+                      <surname>Ryan</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Gallagher</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>STOPP/START criteria for potentially inappropriate prescribing in older people: version 2</article-title>
+                  <source>Age Ageing</source>
+                  <year>2015</year>
+                  <volume>44</volume>
+                  <issue>2</issue>
+                  <fpage>213</fpage>
+                  <lpage>218</lpage>
+                  <pub-id pub-id-type="doi">10.1093/ageing/afu145</pub-id>
+                  <?supplied-pmid 25324330?>
+                  <pub-id pub-id-type="pmid">25324330</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kuhn-Thiel</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                    <name>
+                      <surname>Weiss</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Wehling</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>members Faep. Consensus validation of the FORTA (Fit fOR The Aged) List: a clinical tool for increasing the appropriateness of pharmacotherapy in the elderly</article-title>
+                  <source>Drugs Aging</source>
+                  <year>2014</year>
+                  <volume>31</volume>
+                  <issue>2</issue>
+                  <fpage>131</fpage>
+                  <lpage>140</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s40266-013-0146-0</pub-id>
+                  <?supplied-pmid 24353033?>
+                  <pub-id pub-id-type="pmid">24353033</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <collab>By the American Geriatrics Society Beers Criteria Update Expert P</collab>
+                  </person-group>
+                  <article-title>American Geriatrics Society 2019 updated AGS Beers Criteria(R) for potentially inappropriate medication use in older adults</article-title>
+                  <source>J Am Geriatr Soc</source>
+                  <year>2019</year>
+                  <volume>67</volume>
+                  <issue>4</issue>
+                  <fpage>674</fpage>
+                  <lpage>694</lpage>
+                  <pub-id pub-id-type="doi">10.1111/jgs.15767</pub-id>
+                  <pub-id pub-id-type="pmid">30693946</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yokum</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Lauffenburger</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                    <name>
+                      <surname>Ghazinouri</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Choudhry</surname>
+                      <given-names>NK</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Letters designed with behavioural science increase influenza vaccination in Medicare beneficiaries</article-title>
+                  <source>Nat Hum Behav</source>
+                  <year>2018</year>
+                  <volume>2</volume>
+                  <issue>10</issue>
+                  <fpage>743</fpage>
+                  <lpage>749</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41562-018-0432-2</pub-id>
+                  <?supplied-pmid 31406294?>
+                  <pub-id pub-id-type="pmid">31406294</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR42">
+                <label>42.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Emanuel</surname>
+                      <given-names>EJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Ubel</surname>
+                      <given-names>PA</given-names>
+                    </name>
+                    <name>
+                      <surname>Kessler</surname>
+                      <given-names>JB</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Using behavioral economics to design physician incentives that deliver high-value care</article-title>
+                  <source>Ann Intern Med</source>
+                  <year>2016</year>
+                  <volume>164</volume>
+                  <issue>2</issue>
+                  <fpage>114</fpage>
+                  <lpage>119</lpage>
+                  <pub-id pub-id-type="doi">10.7326/M15-1330</pub-id>
+                  <?supplied-pmid 26595370?>
+                  <pub-id pub-id-type="pmid">26595370</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR43">
+                <label>43.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Purnell</surname>
+                      <given-names>JQ</given-names>
+                    </name>
+                    <name>
+                      <surname>Thompson</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Kreuter</surname>
+                      <given-names>MW</given-names>
+                    </name>
+                    <name>
+                      <surname>McBride</surname>
+                      <given-names>TD</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Behavioral economics: “nudging” underserved populations to be screened for cancer</article-title>
+                  <source>Prev Chronic Dis</source>
+                  <year>2015</year>
+                  <volume>12</volume>
+                  <fpage>E06</fpage>
+                  <?supplied-pmid 25590600?>
+                  <pub-id pub-id-type="pmid">25590600</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR44">
+                <label>44.</label>
+                <mixed-citation publication-type="other">Angner ELG. Behavioral economics. Handb Philos Sci Philos Econ. 2007;13:641–90. <ext-link ext-link-type="uri" xlink:href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=957148">https://papers.ssrn.com/sol3/papers.cfm?abstract_id=957148</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR45">
+                <label>45.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rice</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The behavioral economics of health and health care</article-title>
+                  <source>Annual review of public health.</source>
+                  <year>2013</year>
+                  <volume>34</volume>
+                  <fpage>431</fpage>
+                  <lpage>447</lpage>
+                  <pub-id pub-id-type="doi">10.1146/annurev-publhealth-031912-114353</pub-id>
+                  <?supplied-pmid 23297657?>
+                  <pub-id pub-id-type="pmid">23297657</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR46">
+                <label>46.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Trinidad</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Mikesell</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Aakhus</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Improving prognosis communication for patients facing complex medical treatment: a user-centered design approach</article-title>
+                  <source>Int J Med Inform</source>
+                  <year>2020</year>
+                  <volume>141</volume>
+                  <fpage>104147</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ijmedinf.2020.104147</pub-id>
+                  <?supplied-pmid 32544822?>
+                  <pub-id pub-id-type="pmid">32544822</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR47">
+                <label>47.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kirk</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Kelley</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Yankey</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Birken</surname>
+                      <given-names>SA</given-names>
+                    </name>
+                    <name>
+                      <surname>Abadie</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Damschroder</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A systematic review of the use of the Consolidated Framework for Implementation Research</article-title>
+                  <source>Implement Sci</source>
+                  <year>2016</year>
+                  <volume>11</volume>
+                  <fpage>72</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s13012-016-0437-z</pub-id>
+                  <?supplied-pmid 27189233?>
+                  <pub-id pub-id-type="pmid">27189233</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR48">
+                <label>48.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Glynn</surname>
+                      <given-names>RJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Brookhart</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Stedman</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Avorn</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Solomon</surname>
+                      <given-names>DH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Design of cluster-randomized trials of quality improvement interventions aimed at medical care providers</article-title>
+                  <source>Med Care</source>
+                  <year>2007</year>
+                  <volume>45</volume>
+                  <issue>10 Supl 2</issue>
+                  <fpage>S38</fpage>
+                  <lpage>S43</lpage>
+                  <pub-id pub-id-type="doi">10.1097/MLR.0b013e318070c0a0</pub-id>
+                  <?supplied-pmid 17909381?>
+                  <pub-id pub-id-type="pmid">17909381</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR49">
+                <label>49.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Embi</surname>
+                      <given-names>PJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Leonard</surname>
+                      <given-names>AC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Evaluating alert fatigue over time to EHR-based clinical trial alerts: findings from a randomized controlled study</article-title>
+                  <source>J Am Med Inform Assoc</source>
+                  <year>2012</year>
+                  <volume>19</volume>
+                  <issue>e1</issue>
+                  <fpage>e145</fpage>
+                  <lpage>e148</lpage>
+                  <pub-id pub-id-type="doi">10.1136/amiajnl-2011-000743</pub-id>
+                  <?supplied-pmid 22534081?>
+                  <pub-id pub-id-type="pmid">22534081</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR50">
+                <label>50.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sequist</surname>
+                      <given-names>TD</given-names>
+                    </name>
+                    <name>
+                      <surname>Morong</surname>
+                      <given-names>SM</given-names>
+                    </name>
+                    <name>
+                      <surname>Marston</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Electronic risk alerts to improve primary care management of chest pain: a randomized, controlled trial</article-title>
+                  <source>J Gen Intern Med</source>
+                  <year>2012</year>
+                  <volume>27</volume>
+                  <issue>4</issue>
+                  <fpage>438</fpage>
+                  <lpage>444</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s11606-011-1911-6</pub-id>
+                  <?supplied-pmid 21993999?>
+                  <pub-id pub-id-type="pmid">21993999</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR51">
+                <label>51.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Field</surname>
+                      <given-names>TS</given-names>
+                    </name>
+                    <name>
+                      <surname>Rochon</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Gavendo</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Baril</surname>
+                      <given-names>JL</given-names>
+                    </name>
+                    <name>
+                      <surname>Gurwitz</surname>
+                      <given-names>JH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Computerized clinical decision support during medication ordering for long-term care residents with renal insufficiency</article-title>
+                  <source>J Am Med Inform Assoc</source>
+                  <year>2009</year>
+                  <volume>16</volume>
+                  <issue>4</issue>
+                  <fpage>480</fpage>
+                  <lpage>485</lpage>
+                  <pub-id pub-id-type="doi">10.1197/jamia.M2981</pub-id>
+                  <?supplied-pmid 19390107?>
+                  <pub-id pub-id-type="pmid">19390107</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR52">
+                <label>52.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tamblyn</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Perreault</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The medical office of the 21st century (MOXXI): effectiveness of computerized decision-making support in reducing inappropriate prescribing in primary care</article-title>
+                  <source>CMAJ</source>
+                  <year>2003</year>
+                  <volume>169</volume>
+                  <issue>6</issue>
+                  <fpage>549</fpage>
+                  <lpage>556</lpage>
+                  <?supplied-pmid 12975221?>
+                  <pub-id pub-id-type="pmid">12975221</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR53">
+                <label>53.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pell</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Cheung</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Jones</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Cumbler</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Don’t fuel the fire: decreasing intravenous haloperidol use in high risk patients via a customized electronic alert</article-title>
+                  <source>J Gen Intern Med</source>
+                  <year>2014</year>
+                  <volume>21</volume>
+                  <issue>6</issue>
+                  <fpage>1109</fpage>
+                  <lpage>1112</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR54">
+                <label>54.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jaspers</surname>
+                      <given-names>MW</given-names>
+                    </name>
+                    <name>
+                      <surname>Smeulers</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Vermeulen</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Peute</surname>
+                      <given-names>LW</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effects of clinical decision-support systems on practitioner performance and patient outcomes: a synthesis of high-quality systematic review findings</article-title>
+                  <source>J Am Med Inform Assoc</source>
+                  <year>2011</year>
+                  <volume>18</volume>
+                  <issue>3</issue>
+                  <fpage>327</fpage>
+                  <lpage>334</lpage>
+                  <pub-id pub-id-type="doi">10.1136/amiajnl-2011-000094</pub-id>
+                  <?supplied-pmid 21422100?>
+                  <pub-id pub-id-type="pmid">21422100</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR55">
+                <label>55.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tamblyn</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Eguale</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Buckeridge</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The effectiveness of a new generation of computerized drug alerts in reducing the risk of injury from drug side effects: a cluster randomized trial</article-title>
+                  <source>J Gen Intern Med</source>
+                  <year>2012</year>
+                  <volume>19</volume>
+                  <issue>4</issue>
+                  <fpage>635</fpage>
+                  <lpage>643</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR56">
+                <label>56.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Malhotra</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Cheriff</surname>
+                      <given-names>AD</given-names>
+                    </name>
+                    <name>
+                      <surname>Gossey</surname>
+                      <given-names>JT</given-names>
+                    </name>
+                    <name>
+                      <surname>Cole</surname>
+                      <given-names>CL</given-names>
+                    </name>
+                    <name>
+                      <surname>Kaushal</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Ancker</surname>
+                      <given-names>JS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effects of an e-Prescribing interface redesign on rates of generic drug prescribing: exploiting default options</article-title>
+                  <source>J Am Med Inform Assoc</source>
+                  <year>2016</year>
+                  <volume>23</volume>
+                  <issue>5</issue>
+                  <fpage>891</fpage>
+                  <lpage>898</lpage>
+                  <pub-id pub-id-type="doi">10.1093/jamia/ocv192</pub-id>
+                  <?supplied-pmid 26911828?>
+                  <pub-id pub-id-type="pmid">26911828</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR57">
+                <label>57.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hanlon</surname>
+                      <given-names>JT</given-names>
+                    </name>
+                    <name>
+                      <surname>Schmader</surname>
+                      <given-names>KE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The medication appropriateness index at 20: where it started, where it has been, and where it may be going</article-title>
+                  <source>Drugs Aging</source>
+                  <year>2013</year>
+                  <volume>30</volume>
+                  <issue>11</issue>
+                  <fpage>893</fpage>
+                  <lpage>900</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s40266-013-0118-4</pub-id>
+                  <?supplied-pmid 24062215?>
+                  <pub-id pub-id-type="pmid">24062215</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR58">
+                <label>58.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Barker</surname>
+                      <given-names>PW</given-names>
+                    </name>
+                    <name>
+                      <surname>Heisey-Grove</surname>
+                      <given-names>DM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>EHR adoption among ambulatory care teams</article-title>
+                  <source>Am J Manag Care</source>
+                  <year>2015</year>
+                  <volume>21</volume>
+                  <issue>12</issue>
+                  <fpage>894</fpage>
+                  <lpage>899</lpage>
+                  <?supplied-pmid 26671701?>
+                  <pub-id pub-id-type="pmid">26671701</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR59">
+                <label>59.</label>
+                <mixed-citation publication-type="other">Johnson CM, Johnston D, Crowley PK, et al. EHR usability toolkit: a background report on usability and electronic health records. 2011.</mixed-citation>
+              </ref>
+              <ref id="CR60">
+                <label>60.</label>
+                <mixed-citation publication-type="other">Lessons for health care from behavioral economics. National Bureau of Economic Research bulletin on aging and health. 2008(4):1–2. <ext-link ext-link-type="uri" xlink:href="https://www.nber.org/bah/2008no4/lessons-health-care-behavioral-economics"> https://www.nber.org/bah/2008no4/lessons-health-care-behavioral-economics</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR61">
+                <label>61.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Spieth</surname>
+                      <given-names>PM</given-names>
+                    </name>
+                    <name>
+                      <surname>Kubasch</surname>
+                      <given-names>AS</given-names>
+                    </name>
+                    <name>
+                      <surname>Penzlin</surname>
+                      <given-names>AI</given-names>
+                    </name>
+                    <name>
+                      <surname>Illigens</surname>
+                      <given-names>BM</given-names>
+                    </name>
+                    <name>
+                      <surname>Barlinn</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Siepmann</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Randomized controlled trials - a matter of design</article-title>
+                  <source>Neuropsychiatr Dis Treat</source>
+                  <year>2016</year>
+                  <volume>12</volume>
+                  <fpage>1341</fpage>
+                  <lpage>1349</lpage>
+                  <?supplied-pmid 27354804?>
+                  <pub-id pub-id-type="pmid">27354804</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR62">
+                <label>62.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Brown</surname>
+                      <given-names>CH</given-names>
+                    </name>
+                    <name>
+                      <surname>Curran</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Palinkas</surname>
+                      <given-names>LA</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>An overview of research and evaluation designs for dissemination and implementation</article-title>
+                  <source>Ann Rev Public Health</source>
+                  <year>2017</year>
+                  <volume>38</volume>
+                  <fpage>1</fpage>
+                  <lpage>22</lpage>
+                  <pub-id pub-id-type="doi">10.1146/annurev-publhealth-031816-044215</pub-id>
+                  <pub-id pub-id-type="pmid">28384085</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR63">
+                <label>63.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nilsen</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Making sense of implementation theories, models and frameworks</article-title>
+                  <source>Implement Sci</source>
+                  <year>2015</year>
+                  <volume>10</volume>
+                  <fpage>53</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s13012-015-0242-0</pub-id>
+                  <?supplied-pmid 4406164?>
+                  <pub-id pub-id-type="pmid">25895742</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

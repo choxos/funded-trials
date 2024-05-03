@@ -1,0 +1,2291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T04:11:52Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7492237" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7492237</identifier>
+        <datestamp>2020-09-16</datestamp>
+        <setSpec>scirep</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Sci Rep</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Sci Rep</journal-id>
+              <journal-title-group>
+                <journal-title>Scientific Reports</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2045-2322</issn>
+              <publisher>
+                <publisher-name>Nature Publishing Group UK</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7492237</article-id>
+              <article-id pub-id-type="pmcid">PMC7492237</article-id>
+              <article-id pub-id-type="pmc-uid">7492237</article-id>
+              <article-id pub-id-type="pmid">32934282</article-id>
+              <article-id pub-id-type="publisher-id">71914</article-id>
+              <article-id pub-id-type="doi">10.1038/s41598-020-71914-x</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>A multi-task, multi-stage deep transfer learning model for early prediction of neurodevelopment in very preterm infants</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>He</surname>
+                    <given-names>Lili</given-names>
+                  </name>
+                  <address>
+                    <email>lili.he@cchmc.org</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Li</surname>
+                    <given-names>Hailong</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Wang</surname>
+                    <given-names>Jinghua</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Chen</surname>
+                    <given-names>Ming</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Gozdas</surname>
+                    <given-names>Elveda</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Dillman</surname>
+                    <given-names>Jonathan R.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Parikh</surname>
+                    <given-names>Nehal A.</given-names>
+                  </name>
+                  <address>
+                    <email>nehal.parikh@cchmc.org</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.239573.9</institution-id><institution-id institution-id-type="ISNI">0000 0000 9025 8099</institution-id><institution>The Perinatal Institute and Section of Neonatology, Perinatal and Pulmonary Biology, </institution><institution>Cincinnati Children’s Hospital Medical Center, </institution></institution-wrap>3333 Burnet Avenue, MLC 7009, Cincinnati, OH 45229 USA </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.24827.3b</institution-id><institution-id institution-id-type="ISNI">0000 0001 2179 9593</institution-id><institution>Department of Pediatrics, </institution><institution>University of Cincinnati College of Medicine, </institution></institution-wrap>Cincinnati, OH USA </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.24827.3b</institution-id><institution-id institution-id-type="ISNI">0000 0001 2179 9593</institution-id><institution>Department of Radiology, </institution><institution>University of Cincinnati College of Medicine, </institution></institution-wrap>Cincinnati, OH USA </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.24827.3b</institution-id><institution-id institution-id-type="ISNI">0000 0001 2179 9593</institution-id><institution>Department of Electronic Engineering and Computing Systems, </institution><institution>University of Cincinnati, </institution></institution-wrap>Cincinnati, OH USA </aff>
+                <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.239573.9</institution-id><institution-id institution-id-type="ISNI">0000 0000 9025 8099</institution-id><institution>Imaging Research Center, </institution><institution>Cincinnati Children’s Hospital Medical Center, </institution></institution-wrap>3333 Burnet Avenue, MLC 7009, Cincinnati, OH 45229 USA </aff>
+                <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="GRID">grid.239573.9</institution-id><institution-id institution-id-type="ISNI">0000 0000 9025 8099</institution-id><institution>Department of Radiology, </institution><institution>Cincinnati Children’s Hospital Medical Center, </institution></institution-wrap>3333 Burnet Avenue, MLC 7009, Cincinnati, OH 45229 USA </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>15</day>
+                <month>9</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>15</day>
+                <month>9</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2020</year>
+              </pub-date>
+              <volume>10</volume>
+              <elocation-id>15072</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>12</day>
+                  <month>3</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="accepted">
+                  <day>21</day>
+                  <month>8</month>
+                  <year>2020</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2020</copyright-statement>
+                <license license-type="OpenAccess">
+                  <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par1">Survivors following very premature birth (i.e., ≤ 32 weeks gestational age) remain at high risk for neurodevelopmental impairments. Recent advances in deep learning techniques have made it possible to aid the early diagnosis and prognosis of neurodevelopmental deficits. Deep learning models typically require training on large datasets, and unfortunately, large neuroimaging datasets with clinical outcome annotations are typically limited, especially in neonates. Transfer learning represents an important step to solve the fundamental problem of insufficient training data in deep learning. In this work, we developed a multi-task, multi-stage deep transfer learning framework using the fusion of brain connectome and clinical data for early joint prediction of multiple abnormal neurodevelopmental (cognitive, language and motor) outcomes at 2 years corrected age in very preterm infants. The proposed framework maximizes the value of both available annotated and non-annotated data in model training by performing both supervised and unsupervised learning. We first pre-trained a deep neural network prototype in a supervised fashion using 884 older children and adult subjects, and then re-trained this prototype using 291 neonatal subjects without supervision. Finally, we fine-tuned and validated the pre-trained model using 33 preterm infants. Our proposed model identified very preterm infants at high-risk for cognitive, language, and motor deficits at 2 years corrected age with an area under the receiver operating characteristic curve of 0.86, 0.66 and 0.84, respectively. Employing such a deep learning model, once externally validated, may facilitate risk stratification at term-equivalent age for early identification of long-term neurodevelopmental deficits and targeted early interventions to improve clinical outcomes in very preterm infants.</p>
+              </abstract>
+              <kwd-group kwd-group-type="npg-subject">
+                <title>Subject terms</title>
+                <kwd>Brain imaging</kwd>
+                <kwd>Magnetic resonance imaging</kwd>
+                <kwd>Machine learning</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>National Institutes of Health</institution>
+                  </funding-source>
+                  <award-id>R21-HD094085</award-id>
+                  <award-id>R01-NS094200</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>He</surname>
+                      <given-names>Lili</given-names>
+                    </name>
+                    <name>
+                      <surname>Parikh</surname>
+                      <given-names>Nehal A.</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>Cincinnati Children's Hospital Medical Center</institution>
+                  </funding-source>
+                  <award-id>Trustee grant</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>He</surname>
+                      <given-names>Lili</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2020</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Introduction</title>
+              <p id="Par2">Survivors following very premature birth (i.e., ≤ 32 weeks gestational age)<sup><xref ref-type="bibr" rid="CR1">1</xref>,<xref ref-type="bibr" rid="CR2">2</xref></sup> remain at high risk for neurodevelopmental impairments, thereby increasing their risk for poor educational, health, and social outcomes<sup><xref ref-type="bibr" rid="CR3">3</xref>,<xref ref-type="bibr" rid="CR4">4</xref></sup>. Unfortunately, it may take 2–5 years from birth to identify such high-risk infants. Early, accurate identification, soon after birth, could pave the way for domain-specific, intensive early neuroprotective therapies during a critical window for optimal neuroplasticity. In addition to a variety of clinical prognostic factors, atypical brain connectome has been reported in children who develop adverse neurodevelopmental outcomes, suggesting that brain connectome aberrations could serve as a promising prognostic biomarker<sup><xref ref-type="bibr" rid="CR5">5</xref>–<xref ref-type="bibr" rid="CR7">7</xref></sup>.</p>
+              <p id="Par3">The brain connectome is a comprehensive description of the brain’s structural and functional connections in terms of brain networks<sup><xref ref-type="bibr" rid="CR8">8</xref>,<xref ref-type="bibr" rid="CR9">9</xref></sup>. Brain connectome patterns are formed during brain maturation and reshaped in cases of prematurity or perinatal brain injury<sup><xref ref-type="bibr" rid="CR10">10</xref></sup>. Recent advances in deep learning techniques have made it possible to extract physiologically meaningful features and reveal new discriminative information from high dimensional connectome data<sup><xref ref-type="bibr" rid="CR11">11</xref>,<xref ref-type="bibr" rid="CR12">12</xref></sup>. There is a growing interest in developing artificial intelligence neural network approaches to predict neurological deficits using connectome data<sup><xref ref-type="bibr" rid="CR13">13</xref>,<xref ref-type="bibr" rid="CR14">14</xref></sup>, but their use in preterm populations has been very limited<sup><xref ref-type="bibr" rid="CR15">15</xref>,<xref ref-type="bibr" rid="CR16">16</xref></sup>. Such models typically require training on large datasets<sup><xref ref-type="bibr" rid="CR17">17</xref>,<xref ref-type="bibr" rid="CR18">18</xref></sup>, and unfortunately, large neuroimaging datasets are either unavailable or expensive to obtain. Kawahara et al. implemented a data augmentation technique to generate synthetic data in their application of a convolutional neural network framework to predict cognitive and motor outcomes from diffusion tensor imaging derived brain structural connectome<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>.</p>
+              <p id="Par4">Much of human learning involves only a few new examples superimposed on extensive prior knowledge<sup><xref ref-type="bibr" rid="CR19">19</xref></sup>. Motivated by how human learn new knowledge, transfer learning<sup><xref ref-type="bibr" rid="CR20">20</xref>,<xref ref-type="bibr" rid="CR21">21</xref></sup> focuses on storing knowledge gained from solving problems in one <italic>data-rich</italic> domain and applying it to a <italic>new</italic> problem in another data-scarce domain. Transfer learning represents an important key to solve the fundamental problem of insufficient training data in deep learning<sup><xref ref-type="bibr" rid="CR22">22</xref>–<xref ref-type="bibr" rid="CR27">27</xref></sup>. We developed a deep transfer learning (DTL) neural network framework for enhancing the classification of whole brain functional connectome in small datasets and demonstrated its utility for detection of autism spectrum disorder (ASD)<sup><xref ref-type="bibr" rid="CR28">28</xref></sup>. More recently, we applied this DTL neural network model for early prediction of cognitive deficits at 2 years corrected age in very preterm infants<sup><xref ref-type="bibr" rid="CR29">29</xref></sup>. We pre-trained the model using 884 subjects from the Autism Brain Imaging Data Exchange-I (ABIDE-I) database<sup><xref ref-type="bibr" rid="CR30">30</xref></sup> in an unsupervised fashion. Unlike our previous work, in this study, we hypothesize that the knowledge gained from classifying ASD patients versus typically developing controls in children and adults can be transferred to predict neurodevelopmental deficits in infants. To test the hypothesis, we propose a multi-stage DTL strategy by taking advantages of both supervised and unsupervised learning techniques. Briefly, we first pre-train a DNN prototype in a supervised fashion using 884 subjects with annotated labels from ABIDE-I database, then re-train this prototype without supervision using 291 neonatal subjects, and finally fine-tune and evaluate the DNN using 33 very preterm infants who have undergone their neurodevelopment assessments at 2 years corrected age. We then hypothesize that multi-stage DTL will outperform the single-stage DTL for the abnormal neurodevelopmental outcome prediction in very preterm infants.</p>
+              <p id="Par5">In addition, instead of only cognitive deficit (single-task), we propose to jointly predict multiple neurodevelopmental deficits (multi-task) in very preterm infants, including cognitive, language, and motor skills at 2 years of age. Rather than training each prediction model independently for a single outcome, we train a joint model that is able to encode the shared representations of brain networks related to different outcomes. We further hypothesize that simultaneous prediction of multiple outcomes (i.e., learning related tasks jointly) can improve the performance compared with the prediction of single outcome independently (i.e., learning each task individually). Moreover, besides brain connectome data, this newly proposed model can also incorporate clinical data that have been previously demonstrated to be prognostic biomarkers for neurodevelopmental outcomes<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>. We finally hypothesize that fusing brain connectome and clinical data will improve prediction performance over using either clinical data only or brain connectome data only. In summary, we propose a multi-task, multi-stage DTL framework using the fusion of brain connectome and clinical data for early joint prediction of abnormal neurodevelopmental (cognitive, language and motor) outcomes at two years corrected age in very preterm infants.</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Methods</title>
+              <sec id="Sec3">
+                <title>Subjects</title>
+                <p id="Par6">This study contains three subject cohorts: a source cohort, an intermediate cohort, and a target cohort. Subjects in the source cohort were from the ABIDE-I repository<sup><xref ref-type="bibr" rid="CR30">30</xref></sup>, which has openly shared processed neuroimaging data from 1,112 subjects, including 539 ASD patients and 573 typically developing controls (age range = 7–64 years, median age = 14.7 years) across 17 independent data sites (https://fcon_1000.projects.nitrc.org/indi/abide/). All ABIDE-I subjects were diagnosed using Autism Diagnostic standardized instruments based on clinical judgment, and/or Autism Diagnostic Observation Schedule, and/or Autism Diagnostic Interview—Revised. Based on the autism severity scores, categorical labels (i.e., ASD and typically developing controls) were applied<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>. The intermediate cohort included 67 prospectively enrolled healthy full-term neonates born between 38 and 42 weeks gestational age (born at Ohio State University Medical Center, Riverside Hospital, or Mount Carmel St. Ann’s Hospital in Columbus, Ohio from September 2014 to August 2015) and 246 prospectively enrolled very preterm infants born at 32 weeks gestational age or younger from five Greater Cincinnati region hospitals including, Cincinnati Children’s Hospital (CCHMC), University of Cincinnati Medical Center, Good Samaritan Hospital, St. Elizabeth’s Healthcare, and Kettering Memorial Hospital from November 2016 to October 2018. The target cohort included prospectively enrolled 58 very preterm infants born at 32 weeks gestational age or younger from Nationwide Children’s Hospital (NCH), Ohio State University Medical Center, Riverside Hospital, and Mount Carmel St. Ann’s Hospital in Columbus, Ohio from December 2014 to April 2016. We excluded infants with confounding medical conditions that are known to be associated with poor outcomes, including any congenital or chromosomal anomalies that affected the central nervous system and infants with cyanotic congenital heart disease. For the healthy term controls, we also excluded infants with significant maternal conditions (e.g., insulin-dependent diabetes or severe preeclampsia), intrauterine drug or alcohol exposure, and history of perinatal distress or other birth-related complications. The Institutional Review Boards of NCH and CCHMC approved the study. Approval at the other hospitals was obtained through research reciprocity agreements that were in place with NCH and CCHMC. We obtained written informed consent from a parent/guardian of every enrolled infant from the intermediate and target cohorts. The study methods were carried out in accordance with the relevant guidelines and regulations.</p>
+                <p id="Par7">All very preterm infants in the target cohort received standardized Bayley Scales of Infant and Toddler Development III test in the NCH High-Risk Follow-up Clinic at 2 years corrected age. The standardized Bayley scores used in this study were all corrected by the participants’ age at the assessment. The Bayley-III cognitive, language, and motor scores are on a scale of 40 to 160, with a mean of 100 and standard deviation (SD) of 15. We grouped very preterm infants in the target cohort using a cutoff of 85 into those at high versus low risk for moderate/severe neurodevelopmental deficits<sup><xref ref-type="bibr" rid="CR32">32</xref></sup>. More specifically, a child with a cognitive score of ≤ 85 was considered to have high risk of developing severe/moderate cognitive deficits; similarly a child with a language score of ≤ 85 was considered to have high risk of developing severe/moderate language deficits; and a child with a motor score of ≤ 85 was considered to have high risk of developing severe/moderate motor deficits. Therefore, each child will have three outcome labels according to his/her Bayley-III cognitive, language, and motor scores.</p>
+                <p id="Par8">For each very preterm infant in the target cohort, 84 clinical features were retrieved from our electronic medical record system (Epic Systems Corporation; Verona, WI). Clinical features related to six overarching domains, including: (1) maternal demographics (e.g., mothers age, gravida, parity, mother’s highest educational level, etc.); (2) pregnancy complications (e.g., multiple births, diabetes, hypertension, hypothyroidism, etc.); (3) labor and delivery (e.g., rupture of membrane, antenatal steroids, magnesium, etc.); (4) neonatal information at birth (e.g., sex, gestational age, birth weight, etc.); (5) medical history (e.g., oxygen or positive pressure support, surfactant administration, pneumothorax, sepsis, bronchopulmonary dysplasia, etc.); and (6) neonatal information at follow-up (e.g., status of infant, weight, length, etc.). The full list of 84 clinical features is elaborated in Supplemental Table <xref rid="MOESM1" ref-type="media">1</xref>.</p>
+              </sec>
+              <sec id="Sec4">
+                <title>MRI acquisition</title>
+                <p id="Par9">Full term infants in the intermediate cohort and very preterm infants in the target cohort were scanned on a 3 T MRI scanner (Skyra; Siemens Healthcare) at NCH using a 32-channel phased array head coil. All imaging was performed during natural sleep and without sedation after being fed and swaddled. MRI noise was minimized using Insta-Puffy Silicone Earplugs (E.A.R. Inc., Boulder, CO) and Natus Mini Muffs (Natus Medical Inc., San Carlos, CA). Resting-state functional images were collected using a single-shot echo planar image sequence sensitized to T2* weighted blood oxygenation level dependent (BOLD) signal changes. Acquisition parameters were as follows: repetition time (TR) = 3,000 ms, echo time (TE) = 35 ms, flip angle (FA) = 90°, resolution 2.8 × 2.8 × 3.0 mm<sup>3</sup>. A total of 300 frames were collected in 8:00 min. Anatomical scans were conducted with a 2D T2-weighted fast spin-echo sequence: TR = 9,500 ms, TE = 147 ms, FA = 150°, voxel dimensions 0.93 × 0.93 × 1.0 mm<sup>3</sup>; time 4:09 min.</p>
+                <p id="Par10">Very preterm infants in the intermediate cohort were scanned on a 3 T MRI scanner (Ingenia, Philips Healthcare, Best, Netherlands) at CCHMC using a 32-channel head coil. Acquisition parameters were as follows for resting state functional MRI: TR = 1,195 ms, TE = 45 ms, flip angle FA = 55°, resolution 2.5 × 2.5 × 2.5 mm<sup>3</sup>. A total of 400 frames were collected in 8:12 min. Anatomical scans were conducted with a 2D T2-weighted fast spin-echo sequence: TR = 8,300 ms, TE = 166 ms, FA = 90°, voxel dimensions 1.0 × 1.0 × 1.0 mm<sup>3</sup>; time 3:53 min.</p>
+                <p id="Par11">ABIDE-I subjects in source cohort were scanned at 17 different data sites. The details of the scanning information to the original project site are readily accessible here: https://fcon_1000.projects.nitrc.org/indi/abide/.</p>
+              </sec>
+              <sec id="Sec5">
+                <title>Resting state fMRI data preprocessing</title>
+                <p id="Par12">We employed our neonatal-optimized pipeline<sup><xref ref-type="bibr" rid="CR7">7</xref></sup> for neonatal resting state fMRI preprocessing using FMRIB Software Library (FSL, Oxford University, UK), Statistical Parametric Mapping software (SPM, University College London, UK) and Artifact Detection Tools (ART, MIT, Cambridge, US). The preprocessing pipeline included operations of anterior commissure—posterior commissure reorientation skull stripping; normalization; spatial smoothing (Gaussian filter with 6 mm kernel); band-pass filtering (0.008 &lt; f &lt; 0.09 Hz); and motion artifact reduction. To mitigate the influence of motion and thus disentangle motion effects from functional connectivity effects, we characterized and modeled noise sources related to motion by nuisance regressors, including (1) motion scrubbing<sup><xref ref-type="bibr" rid="CR33">33</xref></sup>; (2) six rigid body realignment parameters (frame-to-frame estimates of the rotation and translation of the head about three cardinal axes); (3) expansion of other nuisance time series obtained by shifting the originals forward or backward in time, by computing their temporal derivatives; and (4) a set of orthogonal time series computed via principle component analysis over white matter and cerebrospinal fluid<sup><xref ref-type="bibr" rid="CR34">34</xref></sup>.</p>
+                <p id="Par13">The resting state functional MRI data from ABIDE-I study were already preprocessed with multiple different pipelines and available from the Preprocessed Connectome Project (<ext-link ext-link-type="uri" xlink:href="https://preprocessed-connectomes-project.org/abide/">https://preprocessed-connectomes-project.org/abide/</ext-link>)<sup><xref ref-type="bibr" rid="CR35">35</xref></sup>. In this study, we only included data that were processed with the Configurable Pipeline for the Analysis of Connectomes (C-PAC)<sup><xref ref-type="bibr" rid="CR36">36</xref></sup>.</p>
+              </sec>
+              <sec id="Sec6">
+                <title>Whole-brain functional connectome construction</title>
+                <p id="Par14">A brain connectome is a comprehensive map of neural connections in the brain. Mathematically, a connectome is a graph, representing the brain connectivity (described as a set of edges) between pairs of brain regions of interest (ROI) (described as a set of nodes). The connectome can also be encoded as an adjacency matrix, in which each entry represents the brain connectivity between each pair of ROIs. Ninety ROIs were defined based on an adult and a neonatal automated anatomical labeling atlas<sup><xref ref-type="bibr" rid="CR37">37</xref>,<xref ref-type="bibr" rid="CR38">38</xref></sup> for ABIDE-I and our neonatal subjects, respectively. This resulted in a 90 × 90 adjacency matrix symmetric about the diagonal, in which each entry represents the brain functional connectivity between each pair of ROIs. The functional connectivity was defined as the temporal correlation of BOLD signals between spatially apart ROIs<sup><xref ref-type="bibr" rid="CR39">39</xref>,<xref ref-type="bibr" rid="CR40">40</xref></sup>. This was calculated using functional connectivity toolbox (CONN)<sup><xref ref-type="bibr" rid="CR41">41</xref></sup>. The brain functional connectome of 884 subjects from 17 ABIDE-I data sites were normalized to mitigate site bias using the established method in a prior study<sup><xref ref-type="bibr" rid="CR42">42</xref></sup>.</p>
+              </sec>
+              <sec id="Sec7">
+                <title>Multi-task multi-stage deep transfer learning model</title>
+                <sec id="Sec8">
+                  <title>Overview</title>
+                  <p id="Par15">An overview of the proposed multi-task, multi-stage DTL model is shown in Fig. <xref rid="Fig1" ref-type="fig">1</xref>. Our learning task is to predict multiple neurodevelopmental (cognitive, language and motor) deficits based on very preterm infants brain connectome data in target domain <inline-formula id="IEq1"><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${D}_{t}$$\end{document}</tex-math><mml:math id="M2"><mml:msub><mml:mi>D</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq1.gif"/></alternatives></inline-formula>. Instead of direct transfer the knowledge of brain connectome patterns learned from source domain <inline-formula id="IEq2"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${D}_{s1}$$\end{document}</tex-math><mml:math id="M4"><mml:msub><mml:mi>D</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq2.gif"/></alternatives></inline-formula> (referred to as single-stage DTL), our proposed multi-stage DTL approach aims to benefit from learning brain connectome patterns in both source domain <inline-formula id="IEq3"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${D}_{s1}$$\end{document}</tex-math><mml:math id="M6"><mml:msub><mml:mi>D</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq3.gif"/></alternatives></inline-formula> and intermediate domain <inline-formula id="IEq4"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${D}_{s2}$$\end{document}</tex-math><mml:math id="M8"><mml:msub><mml:mi>D</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq4.gif"/></alternatives></inline-formula>, respectively, by reusing neural network weights <inline-formula id="IEq5"><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${W}_{s1}$$\end{document}</tex-math><mml:math id="M10"><mml:msub><mml:mi>W</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq5.gif"/></alternatives></inline-formula> and <inline-formula id="IEq6"><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${W}_{s2}$$\end{document}</tex-math><mml:math id="M12"><mml:msub><mml:mi>W</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq6.gif"/></alternatives></inline-formula>. The detailed model designs in source, intermediate, and target domains are shown in Fig. <xref rid="Fig2" ref-type="fig">2</xref>, respectively.<fig id="Fig1"><label>Figure 1</label><caption><p>An overview of proposed multi-task, multi-stage deep transfer learning framework for early joint prediction of neurodevelopmental outcomes at 2-years corrected age in very preterm infants.</p></caption><graphic xlink:href="41598_2020_71914_Fig1_HTML" id="MO1"/></fig><fig id="Fig2"><label>Figure 2</label><caption><p>Detailed model architectures in source domain (<bold>A</bold>), intermediate domain (<bold>B</bold>), and target domain (<bold>C</bold>). Layer types are color-coded. Purple: input layer; green: fully connected layer; orange: batch normalization layer; yellow: output layer. The number of nodes in each layer are listed below individual layers. Red color dotted boxes highlight the transferred/reused neural network layers between consecutive domains.</p></caption><graphic xlink:href="41598_2020_71914_Fig2_HTML" id="MO2"/></fig></p>
+                  <p id="Par16">More specifically, the proposed model includes four modules: (1) supervised pre-training in source domain <inline-formula id="IEq7"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${D}_{s1}$$\end{document}</tex-math><mml:math id="M14"><mml:msub><mml:mi>D</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq7.gif"/></alternatives></inline-formula> using ABIDE-I subjects with annotated labels (Fig. <xref rid="Fig1" ref-type="fig">1</xref>, top blue panel). We first pre-train a deep neural network (DNN) prototype (Fig. <xref rid="Fig2" ref-type="fig">2</xref>A) to learn the representation of brain networks from a group of autism and control subjects. The architecture of this prototype was optimized to achieve the state-of-the-art performance<sup><xref ref-type="bibr" rid="CR42">42</xref></sup>; (2) unsupervised pre-training in intermediate domain using neonatal subjects without annotated labels (Fig. <xref rid="Fig1" ref-type="fig">1</xref>, green panel). We adapt the pre-learned brain connectome from module 1 by reusing the neural network weights. To better represent neonatal brain connectome, we re-train the pre-weighted DNN prototype (Fig. <xref rid="Fig2" ref-type="fig">2</xref>B) using a group of neonatal (term and preterm) subjects; (3) model fine-tuning in target domain using 33 very preterm infants with annotated labels (Fig. <xref rid="Fig1" ref-type="fig">1</xref>, red panel). After the first two modules, prior knowledge about neonatal brain connectome patterns is now encoded in the second-stage DNN prototype from module 2 and ready to be further customized using our target population (i.e., very preterm infants). After the fine-tuning, we will have an optimized model (Fig. <xref rid="Fig2" ref-type="fig">2</xref>C) for the (4) joint neurodevelopmental outcome prediction (Fig. <xref rid="Fig1" ref-type="fig">1</xref>, bottom gray panel).</p>
+                </sec>
+                <sec id="Sec9">
+                  <title>Stage 1: supervised training in source domain</title>
+                  <p id="Par17">Given <italic>m</italic> training samples in ABIDE-I dataset from source cohort, {(<inline-formula id="IEq8"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\varvec{x}}^{1} ,y^{1}$$\end{document}</tex-math><mml:math id="M16"><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow></mml:mrow><mml:mn>1</mml:mn></mml:msup><mml:mo>,</mml:mo><mml:msup><mml:mi>y</mml:mi><mml:mn>1</mml:mn></mml:msup></mml:mrow></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq8.gif"/></alternatives></inline-formula>), …<inline-formula id="IEq9"><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\left( {{\varvec{x}}^{i} ,y^{i} } \right)$$\end{document}</tex-math><mml:math id="M18"><mml:mfenced close=")" open="("><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow></mml:mrow><mml:mi>i</mml:mi></mml:msup><mml:mo>,</mml:mo><mml:msup><mml:mi>y</mml:mi><mml:mi>i</mml:mi></mml:msup></mml:mrow></mml:mfenced></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq9.gif"/></alternatives></inline-formula>, ….,<inline-formula id="IEq10"><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$({\varvec{x}}^{m} ,y^{m}$$\end{document}</tex-math><mml:math id="M20"><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow></mml:mrow><mml:mi>m</mml:mi></mml:msup><mml:mo>,</mml:mo><mml:msup><mml:mi>y</mml:mi><mml:mi>m</mml:mi></mml:msup></mml:mrow></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq10.gif"/></alternatives></inline-formula>)}, where <inline-formula id="IEq11"><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\varvec{x}}^{i}$$\end{document}</tex-math><mml:math id="M22"><mml:msup><mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow></mml:mrow><mml:mi>i</mml:mi></mml:msup></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq11.gif"/></alternatives></inline-formula> is the <italic>i-th</italic> input and <inline-formula id="IEq12"><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$y^{i}$$\end{document}</tex-math><mml:math id="M24"><mml:msup><mml:mi>y</mml:mi><mml:mi>i</mml:mi></mml:msup></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq12.gif"/></alternatives></inline-formula> is its corresponding label. We constructed a 5-layer DNN (Fig. <xref rid="Fig2" ref-type="fig">2</xref>A), which takes randomly initialized <inline-formula id="IEq13"><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbf{W}}_{0}$$\end{document}</tex-math><mml:math id="M26"><mml:msub><mml:mi mathvariant="bold">W</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq13.gif"/></alternatives></inline-formula>. A rectified linear unit activation function was used in hidden nodes, and a softmax unit was utilized in the output layer and minimizes the following cross-entropy objective function to obtain pre-trained network weights <inline-formula id="IEq14"><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbf{W}}_{s1}$$\end{document}</tex-math><mml:math id="M28"><mml:msub><mml:mi mathvariant="bold">W</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq14.gif"/></alternatives></inline-formula><disp-formula id="Equa"><alternatives><tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$J\left( {{\mathbf{W}}_{s1} ,{\varvec{b}}{|}{\mathbf{W}}_{0} } \right) = - \frac{1}{m}\mathop \sum \limits_{i = 1}^{m} y^{i} \log \left( {p\left( { y^{i} {|}{\varvec{x}}^{i} , {\mathbf{W}}_{0} ;{\mathbf{W}}_{s1} ,{\varvec{b}}} \right)} \right) + \left( {1 - y^{i} } \right)\log \left( {1 - p\left( {y^{i} {|}{\varvec{x}}^{i} , {\mathbf{W}}_{0} ;{\mathbf{W}}_{s1} ,{\varvec{b}}} \right)} \right)$$\end{document}</tex-math><mml:math id="M30" display="block"><mml:mrow><mml:mi>J</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi mathvariant="bold">W</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mrow><mml:mi mathvariant="bold-italic">b</mml:mi></mml:mrow><mml:mo stretchy="false">|</mml:mo><mml:msub><mml:mi mathvariant="bold">W</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:mo>-</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mi>m</mml:mi></mml:mfrac><mml:munderover><mml:mo movablelimits="false">∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>m</mml:mi></mml:munderover><mml:msup><mml:mi>y</mml:mi><mml:mi>i</mml:mi></mml:msup><mml:mo>log</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:mi>p</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:msup><mml:mi>y</mml:mi><mml:mi>i</mml:mi></mml:msup><mml:mo stretchy="false">|</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow></mml:mrow><mml:mi>i</mml:mi></mml:msup><mml:mo>,</mml:mo><mml:msub><mml:mi mathvariant="bold">W</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>;</mml:mo><mml:msub><mml:mi mathvariant="bold">W</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mrow><mml:mi mathvariant="bold-italic">b</mml:mi></mml:mrow></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced><mml:mo>+</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msup><mml:mi>y</mml:mi><mml:mi>i</mml:mi></mml:msup></mml:mrow></mml:mfenced><mml:mo>log</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mi>p</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:msup><mml:mi>y</mml:mi><mml:mi>i</mml:mi></mml:msup><mml:mo stretchy="false">|</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow></mml:mrow><mml:mi>i</mml:mi></mml:msup><mml:mo>,</mml:mo><mml:msub><mml:mi mathvariant="bold">W</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>;</mml:mo><mml:msub><mml:mi mathvariant="bold">W</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mrow><mml:mi mathvariant="bold-italic">b</mml:mi></mml:mrow></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="41598_2020_71914_Article_Equa.gif" position="anchor"/></alternatives></disp-formula>where <inline-formula id="IEq15"><alternatives><tex-math id="M31">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$p\left( {y^{i} {|}{\varvec{x}}^{i} , {\mathbf{W}}_{0} ;{\mathbf{W}}_{s1} ,{\varvec{b}}} \right)$$\end{document}</tex-math><mml:math id="M32"><mml:mrow><mml:mi>p</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:msup><mml:mi>y</mml:mi><mml:mi>i</mml:mi></mml:msup><mml:mo stretchy="false">|</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow></mml:mrow><mml:mi>i</mml:mi></mml:msup><mml:mo>,</mml:mo><mml:msub><mml:mi mathvariant="bold">W</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>;</mml:mo><mml:msub><mml:mi mathvariant="bold">W</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mrow><mml:mi mathvariant="bold-italic">b</mml:mi></mml:mrow></mml:mrow></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq15.gif"/></alternatives></inline-formula> is the output probability of softmax unit in the 5-layer DNN, given input data <inline-formula id="IEq16"><alternatives><tex-math id="M33">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\varvec{x}}^{i}$$\end{document}</tex-math><mml:math id="M34"><mml:msup><mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow></mml:mrow><mml:mi>i</mml:mi></mml:msup></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq16.gif"/></alternatives></inline-formula> of subject <inline-formula id="IEq17"><alternatives><tex-math id="M35">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$i$$\end{document}</tex-math><mml:math id="M36"><mml:mi>i</mml:mi></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq17.gif"/></alternatives></inline-formula> and initial weights <inline-formula id="IEq18"><alternatives><tex-math id="M37">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbf{W}}_{0}$$\end{document}</tex-math><mml:math id="M38"><mml:msub><mml:mi mathvariant="bold">W</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq18.gif"/></alternatives></inline-formula>. <inline-formula id="IEq19"><alternatives><tex-math id="M39">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\varvec{b}}$$\end{document}</tex-math><mml:math id="M40"><mml:mrow><mml:mi mathvariant="bold-italic">b</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq19.gif"/></alternatives></inline-formula> represents the bias. A mini-batch stochastic gradient descent algorithm<sup><xref ref-type="bibr" rid="CR43">43</xref></sup> was used to optimize the objective function. Hyper-parameters were selected based on the successful convergence of the objective function. The learning rate was set as 0.01. We applied an early stop mechanism, which would cease the optimization process if 3 consecutive epochs return the same validation loss errors.</p>
+                </sec>
+                <sec id="Sec10">
+                  <title>Stage 2: unsupervised training in intermediate domain</title>
+                  <p id="Par18">Given <italic>m</italic> training samples in neonatal dataset from our intermediate cohort, {<inline-formula id="IEq20"><alternatives><tex-math id="M41">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\varvec{x}}^{1}$$\end{document}</tex-math><mml:math id="M42"><mml:msup><mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow></mml:mrow><mml:mn>1</mml:mn></mml:msup></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq20.gif"/></alternatives></inline-formula>, …, <inline-formula id="IEq21"><alternatives><tex-math id="M43">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\varvec{x}}^{i}$$\end{document}</tex-math><mml:math id="M44"><mml:msup><mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow></mml:mrow><mml:mi>i</mml:mi></mml:msup></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq21.gif"/></alternatives></inline-formula>, …,<inline-formula id="IEq22"><alternatives><tex-math id="M45">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\varvec{x}}^{m}$$\end{document}</tex-math><mml:math id="M46"><mml:msup><mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow></mml:mrow><mml:mi>m</mml:mi></mml:msup></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq22.gif"/></alternatives></inline-formula>}, where <inline-formula id="IEq23"><alternatives><tex-math id="M47">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\varvec{x}}^{i} = \left[ {x_{1}^{i} , \ldots ,x_{n}^{i} } \right]$$\end{document}</tex-math><mml:math id="M48"><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow></mml:mrow><mml:mi>i</mml:mi></mml:msup><mml:mo>=</mml:mo><mml:mfenced close="]" open="["><mml:mrow><mml:msubsup><mml:mi>x</mml:mi><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mi>i</mml:mi></mml:msubsup><mml:mo>,</mml:mo><mml:mo>…</mml:mo><mml:mo>,</mml:mo><mml:msubsup><mml:mi>x</mml:mi><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mi>i</mml:mi></mml:msubsup></mml:mrow></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq23.gif"/></alternatives></inline-formula> is the <inline-formula id="IEq24"><alternatives><tex-math id="M49">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n$$\end{document}</tex-math><mml:math id="M50"><mml:mi>n</mml:mi></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq24.gif"/></alternatives></inline-formula>-dimensional input without label of <italic>i-th</italic> sample. We constructed a 9-layer stacked sparse autoencoder (SSAE) (Fig. <xref rid="Fig2" ref-type="fig">2</xref>B), which takes <inline-formula id="IEq25"><alternatives><tex-math id="M51">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbf{W}}_{s1}$$\end{document}</tex-math><mml:math id="M52"><mml:msub><mml:mi mathvariant="bold">W</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq25.gif"/></alternatives></inline-formula> as initial network weights. A rectified linear unit activation function was used in hidden nodes, and a sigmoid unit was chosen in the output layer. We minimized the following cross-entropy objective function to obtain <inline-formula id="IEq26"><alternatives><tex-math id="M53">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbf{W}}_{s2}$$\end{document}</tex-math><mml:math id="M54"><mml:msub><mml:mi mathvariant="bold">W</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq26.gif"/></alternatives></inline-formula>,<disp-formula id="Equb"><alternatives><tex-math id="M55">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$J\left( {{\mathbf{W}}_{s2} ,{\varvec{b}}{|}{\mathbf{W}}_{s1} } \right) = - \frac{1}{mn}\mathop \sum \limits_{i = 1}^{m} \mathop \sum \limits_{j = 1}^{n} {\varvec{x}}_{j}^{i} \log \left( {\hat{\user2{x}}_{j}^{i} \left( {{\mathbf{W}}_{s1} ;{\mathbf{W}}_{s2} ,{\varvec{b}}} \right)} \right) + \left( {1 - {\varvec{x}}_{j}^{i} } \right)\log \left( {1 - \hat{\user2{x}}_{j}^{i} \left( {{\mathbf{W}}_{s1} ;{\mathbf{W}}_{s2} ,{\varvec{b}}} \right)} \right)$$\end{document}</tex-math><mml:math id="M56" display="block"><mml:mrow><mml:mi>J</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi mathvariant="bold">W</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mrow><mml:mi mathvariant="bold-italic">b</mml:mi></mml:mrow><mml:mo stretchy="false">|</mml:mo><mml:msub><mml:mi mathvariant="bold">W</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:mo>-</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:mi mathvariant="italic">mn</mml:mi></mml:mrow></mml:mfrac><mml:munderover><mml:mo movablelimits="false">∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>m</mml:mi></mml:munderover><mml:munderover><mml:mo movablelimits="false">∑</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>n</mml:mi></mml:munderover><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow><mml:mi>i</mml:mi></mml:msubsup><mml:mo>log</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:msubsup><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mrow><mml:mi>j</mml:mi></mml:mrow><mml:mi>i</mml:mi></mml:msubsup><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi mathvariant="bold">W</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>;</mml:mo><mml:msub><mml:mi mathvariant="bold">W</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mrow><mml:mi mathvariant="bold-italic">b</mml:mi></mml:mrow></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced><mml:mo>+</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow><mml:mi>i</mml:mi></mml:msubsup></mml:mrow></mml:mfenced><mml:mo>log</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msubsup><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mrow><mml:mi>j</mml:mi></mml:mrow><mml:mi>i</mml:mi></mml:msubsup><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi mathvariant="bold">W</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>;</mml:mo><mml:msub><mml:mi mathvariant="bold">W</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mrow><mml:mi mathvariant="bold-italic">b</mml:mi></mml:mrow></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="41598_2020_71914_Article_Equb.gif" position="anchor"/></alternatives></disp-formula>where <inline-formula id="IEq27"><alternatives><tex-math id="M57">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\user2{x}}_{j}^{i} \left( {{\mathbf{W}}_{s1} ;{\mathbf{W}}_{s2} ,{\varvec{b}}} \right)$$\end{document}</tex-math><mml:math id="M58"><mml:mrow><mml:msubsup><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mrow><mml:mi>j</mml:mi></mml:mrow><mml:mi>i</mml:mi></mml:msubsup><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi mathvariant="bold">W</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>;</mml:mo><mml:msub><mml:mi mathvariant="bold">W</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mrow><mml:mi mathvariant="bold-italic">b</mml:mi></mml:mrow></mml:mrow></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq27.gif"/></alternatives></inline-formula> is the reconstructed input <inline-formula id="IEq28"><alternatives><tex-math id="M59">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\varvec{x}}_{j}^{i}$$\end{document}</tex-math><mml:math id="M60"><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow><mml:mi>i</mml:mi></mml:msubsup></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq28.gif"/></alternatives></inline-formula> from <italic>j-th</italic> neuron of the SSAE; <inline-formula id="IEq29"><alternatives><tex-math id="M61">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\varvec{b}}$$\end{document}</tex-math><mml:math id="M62"><mml:mrow><mml:mi mathvariant="bold-italic">b</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq29.gif"/></alternatives></inline-formula> represents the bias. A mini-batch stochastic gradient descent algorithm<sup><xref ref-type="bibr" rid="CR43">43</xref></sup> was used to optimize the objective function and an early stop mechanism was applied. Hyper-parameters were selected based on the successful convergence of objective function. We set a batch size of 16 and a total epoch of 50. The learning rate was set as 0.01.</p>
+                </sec>
+                <sec id="Sec11">
+                  <title>Stage 3: fine-tuning and joint outcome prediction in target domain</title>
+                  <p id="Par19">Using <italic>m</italic> training sample in preterm dataset from our target cohort, {(<inline-formula id="IEq30"><alternatives><tex-math id="M63">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\varvec{x}}^{1} ,\left[ {y_{c}^{1} } \right]_{c = 1}^{C}$$\end{document}</tex-math><mml:math id="M64"><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow></mml:mrow><mml:mn>1</mml:mn></mml:msup><mml:mo>,</mml:mo><mml:msubsup><mml:mfenced close="]" open="["><mml:msubsup><mml:mi>y</mml:mi><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mn>1</mml:mn></mml:msubsup></mml:mfenced><mml:mrow><mml:mi>c</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>C</mml:mi></mml:msubsup></mml:mrow></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq30.gif"/></alternatives></inline-formula>), …, (<inline-formula id="IEq31"><alternatives><tex-math id="M65">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\varvec{x}}^{i} ,\left[ {y_{c}^{i} } \right]_{c = 1}^{C}$$\end{document}</tex-math><mml:math id="M66"><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow></mml:mrow><mml:mi>i</mml:mi></mml:msup><mml:mo>,</mml:mo><mml:msubsup><mml:mfenced close="]" open="["><mml:msubsup><mml:mi>y</mml:mi><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mi>i</mml:mi></mml:msubsup></mml:mfenced><mml:mrow><mml:mi>c</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>C</mml:mi></mml:msubsup></mml:mrow></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq31.gif"/></alternatives></inline-formula>),… ,<inline-formula id="IEq32"><alternatives><tex-math id="M67">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$({\varvec{x}}^{m} ,[y_{c}^{m} ]_{c = 1}^{C}$$\end{document}</tex-math><mml:math id="M68"><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow></mml:mrow><mml:mi>m</mml:mi></mml:msup><mml:mo>,</mml:mo><mml:msubsup><mml:mrow><mml:mo stretchy="false">[</mml:mo><mml:msubsup><mml:mi>y</mml:mi><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mi>m</mml:mi></mml:msubsup><mml:mo stretchy="false">]</mml:mo></mml:mrow><mml:mrow><mml:mi>c</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>C</mml:mi></mml:msubsup></mml:mrow></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq32.gif"/></alternatives></inline-formula>)} where <inline-formula id="IEq33"><alternatives><tex-math id="M69">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\varvec{x}}^{i}$$\end{document}</tex-math><mml:math id="M70"><mml:msup><mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow></mml:mrow><mml:mi>i</mml:mi></mml:msup></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq33.gif"/></alternatives></inline-formula> is the <italic>i-th</italic> input of the samples and <inline-formula id="IEq34"><alternatives><tex-math id="M71">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$y^{i}$$\end{document}</tex-math><mml:math id="M72"><mml:msup><mml:mi>y</mml:mi><mml:mi>i</mml:mi></mml:msup></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq34.gif"/></alternatives></inline-formula> is its corresponding labels of C tasks (i.e., a binary numbers indicating high risk versus low risk of developing neurodevelopmental deficits), we constructed a multi-task DNN (Fig. <xref rid="Fig2" ref-type="fig">2</xref>C), which takes <inline-formula id="IEq35"><alternatives><tex-math id="M73">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbf{W}}_{s2}$$\end{document}</tex-math><mml:math id="M74"><mml:msub><mml:mi mathvariant="bold">W</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq35.gif"/></alternatives></inline-formula> as initial network weights and minimized the weighted cross-entropy objective function as follows:<disp-formula id="Equc"><alternatives><tex-math id="M75">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$J\left( {{\mathbf{W}}_{t} ,{\varvec{b}}{|}{\mathbf{W}}_{s2} } \right) = - \frac{{\alpha^{c} }}{mC}\mathop \sum \limits_{c = 1}^{C} \mathop \sum \limits_{i = 1}^{m} \beta^{i} y_{c}^{i} \log \left( {p\left( { y_{c}^{i} {|}{\varvec{x}}^{i} , {\mathbf{W}}_{s2} ;{\mathbf{W}}_{t} ,{\varvec{b}}} \right)} \right) + \beta^{i} \left( {1 - y_{c}^{i} } \right)\log \left( {1 - p\left( {y_{c}^{i} {|}{\varvec{x}}^{i} , {\mathbf{W}}_{s2} ;{\mathbf{W}}_{t} ,{\varvec{b}}} \right)} \right)$$\end{document}</tex-math><mml:math id="M76" display="block"><mml:mrow><mml:mi>J</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi mathvariant="bold">W</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mrow><mml:mi mathvariant="bold-italic">b</mml:mi></mml:mrow><mml:mo stretchy="false">|</mml:mo><mml:msub><mml:mi mathvariant="bold">W</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:mo>-</mml:mo><mml:mfrac><mml:msup><mml:mi>α</mml:mi><mml:mi>c</mml:mi></mml:msup><mml:mrow><mml:mi mathvariant="italic">mC</mml:mi></mml:mrow></mml:mfrac><mml:munderover><mml:mo movablelimits="false">∑</mml:mo><mml:mrow><mml:mi>c</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>C</mml:mi></mml:munderover><mml:munderover><mml:mo movablelimits="false">∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>m</mml:mi></mml:munderover><mml:msup><mml:mi>β</mml:mi><mml:mi>i</mml:mi></mml:msup><mml:msubsup><mml:mi>y</mml:mi><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mi>i</mml:mi></mml:msubsup><mml:mo>log</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:mi>p</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:msubsup><mml:mi>y</mml:mi><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mi>i</mml:mi></mml:msubsup><mml:mo stretchy="false">|</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow></mml:mrow><mml:mi>i</mml:mi></mml:msup><mml:mo>,</mml:mo><mml:msub><mml:mi mathvariant="bold">W</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>;</mml:mo><mml:msub><mml:mi mathvariant="bold">W</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mrow><mml:mi mathvariant="bold-italic">b</mml:mi></mml:mrow></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced><mml:mo>+</mml:mo><mml:msup><mml:mi>β</mml:mi><mml:mi>i</mml:mi></mml:msup><mml:mfenced close=")" open="("><mml:mrow><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msubsup><mml:mi>y</mml:mi><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mi>i</mml:mi></mml:msubsup></mml:mrow></mml:mfenced><mml:mo>log</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mi>p</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:msubsup><mml:mi>y</mml:mi><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mi>i</mml:mi></mml:msubsup><mml:mo stretchy="false">|</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow></mml:mrow><mml:mi>i</mml:mi></mml:msup><mml:mo>,</mml:mo><mml:msub><mml:mi mathvariant="bold">W</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>;</mml:mo><mml:msub><mml:mi mathvariant="bold">W</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mrow><mml:mi mathvariant="bold-italic">b</mml:mi></mml:mrow></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="41598_2020_71914_Article_Equc.gif" position="anchor"/></alternatives></disp-formula>where <inline-formula id="IEq36"><alternatives><tex-math id="M77">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$p\left( { y_{c}^{i} {|}{\varvec{x}}^{i} , {\mathbf{W}}_{s2} ;{\mathbf{W}}_{t} ,{\varvec{b}}} \right)$$\end{document}</tex-math><mml:math id="M78"><mml:mrow><mml:mi>p</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:msubsup><mml:mi>y</mml:mi><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mi>i</mml:mi></mml:msubsup><mml:mo stretchy="false">|</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow></mml:mrow><mml:mi>i</mml:mi></mml:msup><mml:mo>,</mml:mo><mml:msub><mml:mi mathvariant="bold">W</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>;</mml:mo><mml:msub><mml:mi mathvariant="bold">W</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mrow><mml:mi mathvariant="bold-italic">b</mml:mi></mml:mrow></mml:mrow></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq36.gif"/></alternatives></inline-formula> is the task c output of the softmax unit of 7-layer DNN, i.e., the probability of sample <inline-formula id="IEq37"><alternatives><tex-math id="M79">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\varvec{x}}^{i}$$\end{document}</tex-math><mml:math id="M80"><mml:msup><mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow></mml:mrow><mml:mi>i</mml:mi></mml:msup></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq37.gif"/></alternatives></inline-formula> being classified as the class <inline-formula id="IEq38"><alternatives><tex-math id="M81">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$y_{i}^{c}$$\end{document}</tex-math><mml:math id="M82"><mml:msubsup><mml:mi>y</mml:mi><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mi>c</mml:mi></mml:msubsup></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq38.gif"/></alternatives></inline-formula> label of <italic>c</italic> class. <inline-formula id="IEq39"><alternatives><tex-math id="M83">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\varvec{b}}$$\end{document}</tex-math><mml:math id="M84"><mml:mrow><mml:mi mathvariant="bold-italic">b</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq39.gif"/></alternatives></inline-formula> represents the bias. <inline-formula id="IEq40"><alternatives><tex-math id="M85">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\alpha^{c}$$\end{document}</tex-math><mml:math id="M86"><mml:msup><mml:mi>α</mml:mi><mml:mi>c</mml:mi></mml:msup></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq40.gif"/></alternatives></inline-formula> is the weight of task c. To mitigate the impact of unbalanced dataset, <inline-formula id="IEq41"><alternatives><tex-math id="M87">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\beta^{i}$$\end{document}</tex-math><mml:math id="M88"><mml:msup><mml:mi>β</mml:mi><mml:mi>i</mml:mi></mml:msup></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq41.gif"/></alternatives></inline-formula> is a weight assigned to <inline-formula id="IEq42"><alternatives><tex-math id="M89">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$i^{th}$$\end{document}</tex-math><mml:math id="M90"><mml:msup><mml:mi>i</mml:mi><mml:mrow><mml:mi mathvariant="italic">th</mml:mi></mml:mrow></mml:msup></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq42.gif"/></alternatives></inline-formula> sample, calculated by the ratio of majority and minority class. A mini-batch stochastic gradient descent algorithm<sup><xref ref-type="bibr" rid="CR43">43</xref></sup> was used to optimize the objective function. Hyper-parameters were selected based on the successful convergence of objective function. The batch size was set as 4 and the number of epochs was set as 10 and an early stop mechanism was applied. The learning rate was set as 0.01.</p>
+                </sec>
+                <sec id="Sec12">
+                  <title>Model validation and assessment</title>
+                  <p id="Par20">We evaluated the prediction performance of our proposed model through fivefold cross-validation with the metrics of balanced accuracy, sensitivity, specificity, positive likelihood ratio (LR +), false positive rate (FPR), and area under the receiver operating characteristic curve (AUC). We randomly divided the dataset into fivefolds of approximately equal size. We kept the first fold for testing and the model is trained on the remaining fourfolds. The process was repeated 5 times and each time a different fold of the data was used for validation. We computed the average performance across all 5 times. To evaluate performance variability, 50 iterations of fivefold cross-validation were performed. The mean and SD of validation results were calculated over the 50 iterations. The two-sided Student’s t-test was used to assess performance differences between models. A p-value &lt; 0.05 was considered statistically significant. We conducted the validation experiments using Python 3.6, Keras (version: 2.2.4) with Tensorflow (version: 1.10) backend on a computer workstation (256 GB RAM, 2 × Nvidia GTX1080 Ti).</p>
+                </sec>
+                <sec id="Sec13">
+                  <title>Most discriminative functional connections and clinical features</title>
+                  <p id="Par21">By implementing a feature ranking approach designed for deep learning algorithms, we are able to explore which functional connections the proposed multi-task, multi-stage DTL model learned to be most discriminative of each of the three neurodevelopmental outcomes. More specifically, given <italic>n</italic> ROIs and each model output <inline-formula id="IEq43"><alternatives><tex-math id="M91">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$y^{c}$$\end{document}</tex-math><mml:math id="M92"><mml:msup><mml:mi>y</mml:mi><mml:mi>c</mml:mi></mml:msup></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq43.gif"/></alternatives></inline-formula> of task c, we calculate the partial derivative <inline-formula id="IEq44"><alternatives><tex-math id="M93">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{{\partial y^{c} }}{{\partial a_{i,j} }}$$\end{document}</tex-math><mml:math id="M94"><mml:mfrac><mml:mrow><mml:mi>∂</mml:mi><mml:msup><mml:mi>y</mml:mi><mml:mi>c</mml:mi></mml:msup></mml:mrow><mml:mrow><mml:mi>∂</mml:mi><mml:msub><mml:mi>a</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq44.gif"/></alternatives></inline-formula> , where <inline-formula id="IEq45"><alternatives><tex-math id="M95">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$a_{i,j}$$\end{document}</tex-math><mml:math id="M96"><mml:msub><mml:mi>a</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq45.gif"/></alternatives></inline-formula><italic>i</italic> ≠ <italic>j</italic>, <inline-formula id="IEq46"><alternatives><tex-math id="M97">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\in \left[ {1,2, \ldots ,n} \right], j \in \left[ {1,2, \ldots ,n} \right]$$\end{document}</tex-math><mml:math id="M98"><mml:mrow><mml:mo>∈</mml:mo><mml:mfenced close="]" open="["><mml:mrow><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mo>…</mml:mo><mml:mo>,</mml:mo><mml:mi>n</mml:mi></mml:mrow></mml:mfenced><mml:mo>,</mml:mo><mml:mi>j</mml:mi><mml:mo>∈</mml:mo><mml:mfenced close="]" open="["><mml:mrow><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mo>…</mml:mo><mml:mo>,</mml:mo><mml:mi>n</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq46.gif"/></alternatives></inline-formula>, is connectivity between ROIs <italic>i</italic> and <italic>j</italic>. A higher absolute value of the partial derivative indicates a higher level of the importance for that specific outcome <inline-formula id="IEq47"><alternatives><tex-math id="M99">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$y^{c}$$\end{document}</tex-math><mml:math id="M100"><mml:msup><mml:mi>y</mml:mi><mml:mi>c</mml:mi></mml:msup></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq47.gif"/></alternatives></inline-formula> (i.e., cognitive or language or motor skill) prediction. Similarly, given <italic>m</italic> clinical features, we calculate the partial derivative <inline-formula id="IEq48"><alternatives><tex-math id="M101">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{{\partial y^{c} }}{{\partial e_{i} }}$$\end{document}</tex-math><mml:math id="M102"><mml:mfrac><mml:mrow><mml:mi>∂</mml:mi><mml:msup><mml:mi>y</mml:mi><mml:mi>c</mml:mi></mml:msup></mml:mrow><mml:mrow><mml:mi>∂</mml:mi><mml:msub><mml:mi>e</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mfrac></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq48.gif"/></alternatives></inline-formula> , where <inline-formula id="IEq49"><alternatives><tex-math id="M103">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$e_{i}$$\end{document}</tex-math><mml:math id="M104"><mml:msub><mml:mi>e</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq49.gif"/></alternatives></inline-formula><inline-formula id="IEq50"><alternatives><tex-math id="M105">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\in \left[ {1,2, \ldots ,m} \right]$$\end{document}</tex-math><mml:math id="M106"><mml:mrow><mml:mo>∈</mml:mo><mml:mfenced close="]" open="["><mml:mrow><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mo>…</mml:mo><mml:mo>,</mml:mo><mml:mi>m</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="41598_2020_71914_Article_IEq50.gif"/></alternatives></inline-formula>. We visualized the functional connection by using BrainNet Viewer<sup><xref ref-type="bibr" rid="CR44">44</xref></sup> and circularGraph<sup><xref ref-type="bibr" rid="CR45">45</xref></sup>.</p>
+                </sec>
+              </sec>
+            </sec>
+            <sec id="Sec14">
+              <title>Results</title>
+              <sec id="Sec15">
+                <title>Subjects</title>
+                <p id="Par22">In the source cohort, we included 884 (79.5%) of 1,112 subjects from the ABIDE-I database (ages range: 6.5–64 years, median 14.8 years), whose resting-state functional images were processed and functional connectivity maps (e.g., seed-based correlation analyses) were calculated using C-PAC pipeline<sup><xref ref-type="bibr" rid="CR36">36</xref></sup>. After MRI data quality control, excluding the data with largely incomplete brain coverage, high movement peaks, ghosting, and other scanner artifacts, we included 291 (93%) of 313 enrolled neonatal subjects (mean (SD) gestational age at birth 31.2(4.6) weeks; postmenstrual age (PMA) at scan 42.2 (1.3) weeks) in the intermediate cohort; and we included 51 (87.9%) of 58 enrolled very preterm infants in the target cohort. Among these 51 subjects, 33 who have undergone neurodevelopmental assessments at 2 years corrected were included in the target cohort—5 (15%) subjects have high risk of developing severe/moderate cognitive deficits; 7 (21%) subjects have high risk of developing severe/moderate language deficits; and 5 (15%) subjects have high risk of developing severe/moderate motor deficits.</p>
+              </sec>
+              <sec id="Sec16">
+                <title>Multi-stage versus single-stage DTL</title>
+                <p id="Par23">In the multi-task joint prediction of cognition, language, and motor deficits, as compared with the optimized single-stage DTL model<sup><xref ref-type="bibr" rid="CR29">29</xref></sup>, our multi-stage DTL model improved balanced accuracy by 7.3% (p &lt; 0.001), 10.9% (p &lt; 0.001), and 7.5% (p &lt; 0.001) and improved the AUC by 0.09 (p &lt; 0.001), 0.03 (p = 0.031) and 0.10 (p &lt; 0.001), respectively, as shown in Table <xref rid="Tab1" ref-type="table">1</xref>. The single-stage models + LRs ranged from 1.4 to 3.5, while the multi-stage models + LRs were higher, ranging from 2.6 to 6.6. The multi-stage model achieved significantly lower FPR than single-stage model on the prediction of abnormal cognitive (p &lt; 0.001) and language (p &lt; 0.001) functions, while a comparable FPR on the prediction of abnormal motor functions (p = 0.394).<table-wrap id="Tab1"><label>Table 1</label><caption><p>Performance comparison of our proposed multi-task, multi-stage deep transfer learning (DTL) versus multi-task, single-stage DTL models for the joint prediction of abnormal cognitive, language, and motor outcomes at 2 years corrected age in very preterm infants.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="2">Model</th><th align="left" colspan="6">Cognition</th></tr><tr><th align="left">BA (%)</th><th align="left">Sen (%)</th><th align="left">Spe (%)</th><th align="left">LR + </th><th align="left">FPR (%)</th><th align="left">AUC</th></tr></thead><tbody><tr><td align="left">Single-stage</td><td char="±" align="char">74.2 ± 6.1</td><td char="±" align="char">68.0 ± 6.0</td><td char="±" align="char">80.3 ± 6.6</td><td char="±" align="char">3.5 ± 1.6</td><td char="±" align="char">19.7 ± 6.6</td><td char="±" align="char">0.77 ± 0.05</td></tr><tr><td align="left">Multi-stage</td><td char="±" align="char">81.5 ± 3.2</td><td char="±" align="char">74.0 ± 4.9</td><td char="±" align="char">88.9 ± 3.1</td><td char="±" align="char">6.6 ± 1.9</td><td char="±" align="char">11.1 ± 3.1</td><td char="±" align="char">0.86 ± 0.05</td></tr></tbody></table><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="2">Model</th><th align="left" colspan="6">Language</th></tr><tr><th align="left">BA (%)</th><th align="left">Sen (%)</th><th align="left">Spe (%)</th><th align="left">LR + </th><th align="left">FPR (%)</th><th align="left">AUC</th></tr></thead><tbody><tr><td align="left">Single-stage</td><td char="±" align="char">58.0 ± 4.6</td><td char="±" align="char">56.0 ± 6.0</td><td char="±" align="char">60.0 ± 5.6</td><td char="±" align="char">1.4 ± 0.2</td><td char="±" align="char">40.0 ± 5.6</td><td char="±" align="char">0.63 ± 0.05</td></tr><tr><td align="left">Multi-stage</td><td char="±" align="char">68.9 ± 2.3</td><td char="±" align="char">60.0 ± 4.0</td><td char="±" align="char">77.8 ± 3.2</td><td char="±" align="char">2.6 ± 0.3</td><td char="±" align="char">22.2 ± 3.2</td><td char="±" align="char">0.66 ± 0.03</td></tr></tbody></table><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="2">Model</th><th align="left" colspan="6">Motor</th></tr><tr><th align="left">BA (%)</th><th align="left">Sen (%)</th><th align="left">Spe (%)</th><th align="left">LR + </th><th align="left">FPR (%)</th><th align="left">AUC</th></tr></thead><tbody><tr><td align="left">Single-stage</td><td char="±" align="char">66.4 ± 4.7</td><td char="±" align="char">62.0 ± 4.2</td><td char="±" align="char">70.7 ± 6.6</td><td char="±" align="char">2.0 ± 0.4</td><td char="±" align="char">29.3 ± 6.6</td><td char="±" align="char">0.74 ± 0.04</td></tr><tr><td align="left">Multi-stage</td><td char="±" align="char">73.9 ± 2.4</td><td char="±" align="char">76.0 ± 4.9</td><td char="±" align="char">71.7 ± 3.4</td><td char="±" align="char">2.6 ± 0.2</td><td char="±" align="char">28.3 ± 3.4</td><td char="±" align="char">0.84 ± 0.02</td></tr></tbody></table><table-wrap-foot><p>BA, balanced accuracy; Sen, sensitivity; Spe, specificity; LR+, likelihood ratio positive; FPR, false positive rate; AUC, area under the receiver operating characteristic curve.</p></table-wrap-foot></table-wrap></p>
+              </sec>
+              <sec id="Sec17">
+                <title>Multi-task versus single-task prediction</title>
+                <p id="Par24">As compared with prediction of each individual outcome separately, our multi-task joint prediction model increased prediction balanced accuracy by 17.3% (p &lt; 0.001), 9.3% (p &lt; 0.001) and 10.2% (p &lt; 0.001) and increased the AUC by 0.11 (p &lt; 0.001), 0.06 (p = 0.002), and 0.12 (p &lt; 0.001) in predicting cognition, language, and motor deficits, respectively (Table <xref rid="Tab2" ref-type="table">2</xref>). The + LRs of single-task models ranged from 1.5 to 2.0, lower than the ones of multi-task models. The multi-task model achieved significantly lower FPR than single-task model in predicting cognitive (p &lt; 0.001) and language (p &lt; 0.001) deficits, while a comparable FPR in predicting motor deficits (p = 0.194).<table-wrap id="Tab2"><label>Table 2</label><caption><p>Performance comparison of our proposed multi-task, multi-stage deep transfer learning (DTL) versus single-task, multiple-stage DTL models. Multi-task model simultaneously predicts three abnormal neurodevelopmental (cognitive, language and motor) outcomes, while single-task model predicts each individual outcome independently, at 2 years corrected age in very preterm infants. Both models were trained using the proposed multi-stage DTL strategy.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="2">Model</th><th align="left" colspan="6">Cognition</th></tr><tr><th align="left">BA (%)</th><th align="left">Sen (%)</th><th align="left">Spe (%)</th><th align="left">LR + </th><th align="left">FPR (%)</th><th align="left">AUC</th></tr></thead><tbody><tr><td align="left">Single-task</td><td char="±" align="char">64.2 ± 4.3</td><td char="±" align="char">54.0 ± 6.7</td><td char="±" align="char">74.4 ± 4.2</td><td char="±" align="char">2.0 ± 0.3</td><td char="±" align="char">25.6 ± 4.2</td><td char="±" align="char">0.75 ± 0.04</td></tr><tr><td align="left">Multi-task</td><td char="±" align="char">81.5 ± 3.2</td><td char="±" align="char">74.0 ± 4.9</td><td char="±" align="char">88.9 ± 3.1</td><td char="±" align="char">6.6 ± 1.9</td><td char="±" align="char">11.1 ± 3.1</td><td char="±" align="char">0.86 ± 0.05</td></tr></tbody></table><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="2">Model</th><th align="left" colspan="6">Language</th></tr><tr><th align="left">BA (%)</th><th align="left">Sen (%)</th><th align="left">Spe (%)</th><th align="left">LR + </th><th align="left">FPR (%)</th><th align="left">AUC</th></tr></thead><tbody><tr><td align="left">Single-task</td><td char="±" align="char">59.6 ± 3.5</td><td char="±" align="char">51.0 ± 8.0</td><td char="±" align="char">68.2 ± 5.2</td><td char="±" align="char">1.5 ± 0.2</td><td char="±" align="char">31.8 ± 5.2</td><td char="±" align="char">0.60 ± 0.05</td></tr><tr><td align="left">Multi-task</td><td char="±" align="char">68.9 ± 2.3</td><td char="±" align="char">60.0 ± 4.0</td><td char="±" align="char">77.8 ± 3.2</td><td char="±" align="char">2.6 ± 0.3</td><td char="±" align="char">22.2 ± 3.2</td><td char="±" align="char">0.66 ± 0.03</td></tr></tbody></table><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="2">Model</th><th align="left" colspan="6">Motor</th></tr><tr><th align="left">BA (%)</th><th align="left">Sen (%)</th><th align="left">Spe (%)</th><th align="left">LR + </th><th align="left">FPR (%)</th><th align="left">AUC</th></tr></thead><tbody><tr><td align="left">Single-task</td><td char="±" align="char">63.7 ± 3.7</td><td char="±" align="char">54.0 ± 6.3</td><td char="±" align="char">73.3 ± 4.6</td><td char="±" align="char">1.9 ± 0.3</td><td char="±" align="char">26.7 ± 4.6</td><td char="±" align="char">0.72 ± 0.03</td></tr><tr><td align="left">Multi-task</td><td char="±" align="char">73.9 ± 2.4</td><td char="±" align="char">76.0 ± 4.9</td><td char="±" align="char">71.7 ± 3.4</td><td char="±" align="char">2.6 ± 0.2</td><td char="±" align="char">28.3 ± 3.4</td><td char="±" align="char">0.84 ± 0.02</td></tr></tbody></table><table-wrap-foot><p>BA, balanced accuracy; Sen, sensitivity; Spe, specificity; LR+, likelihood ratio positive; FPR, false positive rate; AUC, area under the receiver operating characteristic curve.</p></table-wrap-foot></table-wrap></p>
+              </sec>
+              <sec id="Sec18">
+                <title>Fusion of brain connectome and clinical data versus only clinical data or only brain connectome data</title>
+                <p id="Par25">Lastly, we showed in Table <xref rid="Tab3" ref-type="table">3</xref>, that using the fusion of clinical and brain connectome features, our model improved balanced accuracy by 12.4% (p &lt; 0.001), 21.6% (p &lt; 0.001) and 2.2% (p = 0.037), and AUC by 0.07 (p = 0.003), 0.15 (p &lt; 0.001) and 0.12 (p &lt; 0.001) compared with using only clinical features in predicting cognitive, language, and motor deficits, respectively; as well improved the balanced accuracy by 10.6% (P &lt; 0.001), 6.1% (p &lt; 0.001) and 3.8% (p = 0.021) and improved AUC by 0.08 (p = 0.002), 0.06 (p = 0.003) and 0.18 (p &lt; 0.001) compared with using only brain connectome features in predicting cognitive, language, and motor deficits, respectively. On the prediction of motor deficits, no significant FPR differences were observed between the model using combined data and the model using either clinical (p = 0.075) or connectome data (p = 0.056) alone.<table-wrap id="Tab3"><label>Table 3</label><caption><p>Performance comparison of our proposed multi-task, multi-stage deep transfer learning model using only connectome data versus only clinical data versus combined brain connectome and clinical data, for the joint prediction of abnormal cognitive, language, and motor outcomes at 2 years corrected age in very preterm infants.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="2">Model</th><th align="left" colspan="6">Cognition</th></tr><tr><th align="left">BA (%)</th><th align="left">Sen (%)</th><th align="left">Spe (%)</th><th align="left">LR + </th><th align="left">FPR (%)</th><th align="left">AUC</th></tr></thead><tbody><tr><td align="left">Connectome data</td><td char="±" align="char">70.9 ± 4.5</td><td char="±" align="char">70.0 ± 6.9</td><td char="±" align="char">71.7 ± 5.5</td><td char="±" align="char">2.4 ± 0.4</td><td char="±" align="char">28.3 ± 5.5</td><td char="±" align="char">0.78 ± 0.06</td></tr><tr><td align="left">Clinical data</td><td char="±" align="char">69.1 ± 4.3</td><td char="±" align="char">76.0 ± 4.6</td><td char="±" align="char">62.1 ± 3.7</td><td char="±" align="char">2.0 ± 0.2</td><td char="±" align="char">37.9 ± 3.7</td><td char="±" align="char">0.79 ± 0.04</td></tr><tr><td align="left">Combined data</td><td char="±" align="char">81.5 ± 3.2</td><td char="±" align="char">74.0 ± 4.9</td><td char="±" align="char">88.9 ± 3.1</td><td char="±" align="char">6.6 ± 1.9</td><td char="±" align="char">11.1 ± 3.1</td><td char="±" align="char">0.86 ± 0.05</td></tr></tbody></table><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="2">Model</th><th align="left" colspan="6">Language</th></tr><tr><th align="left">BA (%)</th><th align="left">Sen (%)</th><th align="left">Spe (%)</th><th align="left">LR + </th><th align="left">FPR (%)</th><th align="left">AUC</th></tr></thead><tbody><tr><td align="left">Connectome data</td><td char="±" align="char">62.8 ± 3.7</td><td char="±" align="char">63.2 ± 6.8</td><td char="±" align="char">62.4 ± 5.7</td><td char="±" align="char">1.6 ± 0.2</td><td char="±" align="char">37.6 ± 5.7</td><td char="±" align="char">0.60 ± 0.05</td></tr><tr><td align="left">Clinical data</td><td char="±" align="char">47.3 ± 3.2</td><td char="±" align="char">41.0 ± 3.5</td><td char="±" align="char">53.6 ± 4.1</td><td char="±" align="char">0.9 ± 0.1</td><td char="±" align="char">46.4 ± 4.1</td><td char="±" align="char">0.51 ± 0.03</td></tr><tr><td align="left">Combined data</td><td char="±" align="char">68.9 ± 2.3</td><td char="±" align="char">60.0 ± 4.0</td><td char="±" align="char">77.8 ± 3.2</td><td char="±" align="char">2.6 ± 0.3</td><td char="±" align="char">22.2 ± 3.2</td><td char="±" align="char">0.66 ± 0.03</td></tr></tbody></table><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="2">Model</th><th align="left" colspan="6">Motor</th></tr><tr><th align="left">BA (%)</th><th align="left">Sen (%)</th><th align="left">Spe (%)</th><th align="left">LR + </th><th align="left">FPR (%)</th><th align="left">AUC</th></tr></thead><tbody><tr><td align="left">Connectome data</td><td char="±" align="char">70.1 ± 4.2</td><td char="±" align="char">72.0 ± 7.3</td><td char="±" align="char">68.1 ± 5.3</td><td char="±" align="char">2.2 ± 0.3</td><td char="±" align="char">31.9 ± 5.3</td><td char="±" align="char">0.66 ± 0.06</td></tr><tr><td align="left">Clinical data</td><td char="±" align="char">71.7 ± 3.3</td><td char="±" align="char">74.0 ± 3.6</td><td char="±" align="char">69.3 ± 3.6</td><td char="±" align="char">2.4 ± 0.3</td><td char="±" align="char">30.7 ± 3.6</td><td char="±" align="char">0.72 ± 0.02</td></tr><tr><td align="left">Combined data</td><td char="±" align="char">73.9 ± 2.4</td><td char="±" align="char">76.0 ± 4.9</td><td char="±" align="char">71.7 ± 3.4</td><td char="±" align="char">2.6 ± 0.2</td><td char="±" align="char">28.3 ± 3.4</td><td char="±" align="char">0.84 ± 0.02</td></tr></tbody></table><table-wrap-foot><p>BA, balanced accuracy; Sen, sensitivity; Spe, specificity; LR+, likelihood ratio positive; FPR, false positive rate; AUC, area under the receiver operating characteristic curve.</p></table-wrap-foot></table-wrap></p>
+              </sec>
+              <sec id="Sec19">
+                <title>Most discriminative functional connections and clinical features</title>
+                <p id="Par26">For each prediction task, we identified top 20 most predictive connections. We found 9 common connections predictive to all three neurodevelopmental outcomes (Fig. <xref rid="Fig3" ref-type="fig">3</xref>). These regions, including the thalamus, middle temporal gyrus, inferior frontal gyrus, fusiform gyrus, and paracentral gyrus, among others, serve important functions for language, sensory, motor, object vision, and cognitive function. Even a region such as the thalamus, which has been traditionally linked with sensorimotor and language function, was recently identified as important in decision-making and cognitive control<sup><xref ref-type="bibr" rid="CR46">46</xref></sup>. Our findings highlight some of the key functional brain regions that are involved in cognitive, language, and motor development in very preterm infants and further suggests that our proposed model's process of functional connectivity selection for prediction is grounded in well-established brain structure–function relationships. Top discriminative functional connectomes for three neurodevelopmental outcomes are elaborated in Supplemental Table <xref rid="MOESM1" ref-type="media">2</xref>.<fig id="Fig3"><label>Figure 3</label><caption><p>Top discriminative functional connectomes explored by our multi-task, multi-stage deep transfer learning model for each of the three neurodevelopmental outcomes. (<bold>A</bold>) The top 20 functional connections were displayed in the circos plot. (<bold>B</bold>) Overlapped connections were listed. We found 9 common connections predictive to all three outcomes (red), 12 common connections predictive to both language and motor outcomes (green, red); 14 common connections predictive to both cognitive and language outcomes (blue, red); and 9 common connections predictive to both cognitive and motor outcomes (covered by red).</p></caption><graphic xlink:href="41598_2020_71914_Fig3_HTML" id="MO3"/></fig></p>
+                <p id="Par27">Our proposed model also selected several known clinical features, including birth weight, gestational age, bronchopulmonary dysplasia, retinopathy of prematurity, maternal socioeconomic status, and maternal magnesium therapy, as important predictors of cognitive, language, and motor deficits at 2 years corrected age. Top discriminative clinical features for three neurodevelopmental outcomes are elaborated in Supplemental Table <xref rid="MOESM1" ref-type="media">3</xref>.</p>
+              </sec>
+            </sec>
+            <sec id="Sec20">
+              <title>Discussion</title>
+              <p id="Par28">In this study, we jointly predicted abnormal neurodevelopmental outcomes at 2 years of age in very preterm infants using neuroimaging and clinical data collected at term-equivalent age. While some studies have shown that neurocognitive development do not stabilize until adolescence, more recent studies have shown that general cognition in extremely preterm infants remains stable from 2 years of age until adolescence<sup><xref ref-type="bibr" rid="CR47">47</xref>–<xref ref-type="bibr" rid="CR49">49</xref></sup>, and valuable information can still be obtained through standardized cognitive testing at age 24 months corrected age. For example, a cohort study of extremely preterm infants showed that standardized cognitive scores at 24 months corrected age explained 38% of the variance in IQ scores at age 8–9 in extremely preterm infants<sup><xref ref-type="bibr" rid="CR50">50</xref></sup>. This was higher than the variance explained by scores at 18 months corrected age.</p>
+              <p id="Par29">Current tools to predict neurodevelopmental outcomes of very preterm infants are limited<sup><xref ref-type="bibr" rid="CR51">51</xref>–<xref ref-type="bibr" rid="CR53">53</xref></sup>. Studies from the National Institute of Child Health and Human Development (NICHD) Neonatal Research Network have attempted to develop models based on five risk factors including gestational age, sex, birth weight, antenatal steroids, and plurality<sup><xref ref-type="bibr" rid="CR54">54</xref>–<xref ref-type="bibr" rid="CR56">56</xref></sup>. However, clinical data to predict neurodevelopmental outcomes have only achieved modest prediction accuracy with an area under the curve (AUC) of 0.68<sup><xref ref-type="bibr" rid="CR56">56</xref></sup>. Therefore, there is a need to examine the incremental value of brain MRI biomarkers over clinical factors<sup><xref ref-type="bibr" rid="CR57">57</xref>–<xref ref-type="bibr" rid="CR61">61</xref></sup>.</p>
+              <p id="Par30">Some recent studies have investigated the prediction power of connectome features derived from diffusion tensor images (DTI). For example, Kawahara et al.<sup><xref ref-type="bibr" rid="CR62">62</xref></sup>, developed a convolutional neural network for brain network (BrainNetCNN) using DTI-derived structural brain connectome of preterm infants to predict Bayley-III cognitive and motor scores, assessed at 18 months of age. The Pearson’s correlation coefficients between the actual cognitive and motor scores, and the ones predicted by BrainNetCNN are 0.188 and 0.310, respectively. Additionally, Girault et al.<sup><xref ref-type="bibr" rid="CR63">63</xref></sup>, proposed a DNN model using structural brain connectome of neonates at term-equivalent age to predict Early Learning Composite (ELC) standardized score at 2 years of age. Predicted ELC scores by the DNN model were significantly correlated with actual ELC scores with a Pearson’s correlation coefficient of 0.98 for full-term infants, and 0.96 for preterm infants. Other studies have found that DTI-based features, such as fractional anisotropy (FA) are correlated with neurodevelopmental outcomes of preterm infants<sup><xref ref-type="bibr" rid="CR64">64</xref>,<xref ref-type="bibr" rid="CR65">65</xref></sup>. Most recently, Saha et al.<sup><xref ref-type="bibr" rid="CR66">66</xref></sup>, proposed a deep CNN model using FA data to identify infants with abnormal motor outcome (measured by Neuro-Sensory Motor Developmental Assessment) at 2 years and achieved an AUC of 0.72 (SD 0.14) and an accuracy of 73% (SD 19%).</p>
+              <p id="Par31">In addition, brain functional connectome studies in adults and older children have shown that abnormal network properties may be useful as discriminative features for early diagnosis in a variety of neurological conditions, such as attention deficit hyperactivity disorder<sup><xref ref-type="bibr" rid="CR67">67</xref></sup>, and autism spectrum disorder<sup><xref ref-type="bibr" rid="CR28">28</xref></sup>. We previously demonstrated that an artificial neural network model applied to functional connectome data can identify very preterm infants at high-risk for cognitive deficits at 2 years of corrected age with an accuracy of 70.6% (SD 4.9%) and an AUC of 0.76 (SD 0.03)<sup><xref ref-type="bibr" rid="CR29">29</xref></sup>, which is significantly lower than the performance of our current presented deep transfer learning model with an accuracy of 81.5% (SD 3.2%) and an AUC of 0.86 (SD 0.05). Although the final + LRs achieved for the language and motor models are not of clinical use, inspiringly, for prediction of cognitive deficits, our multi-task, multi-stage model did show a promising LR + of 6.7. Nevertheless, a larger study is important to validate our approach to further assess its clinical utility.</p>
+              <p id="Par32">To mitigate concerns regarding insufficient data for training a deep learning model, we employed transfer learning technique. Unlike previous work, instead of directly transferring the knowledge of brain connectome patterns learned from ABIDE-I, we here introduced an intermediate domain (i.e., neonatal brain connectome) to bridge the distribution gap between brain connectome of older children and adults and very preterm infants. We proposed to learn brain connectome patterns from very preterm infants with the aid of first learning from older children and adults and then customizing this prior-knowledge via learning from neonatal infants. We also improved on our previous work by incorporating clinical data and by simultaneously predicting multiple relevant neurodevelopmental (cognitive, language and motor) outcomes rather than only one.</p>
+              <p id="Par33">Our study has limitations. First, our current brain functional connectome analysis was based on an anatomical/structural atlas rather than a functional brain parcellated atlas<sup><xref ref-type="bibr" rid="CR68">68</xref></sup>, therefore our functional connectivity estimation could be affected by within-ROI signal heterogeneity. Second, neurodevelopmental outcomes for those 291 neonatal subjects are not currently available. We expect better performance if we could include annotated neonatal data for supervised training. Third, although 884 subjects and 291 neonatal subjects that we used for pre-training are considered large numbers in this field of clinical research, larger datasets are preferred to validate the concept of multi-stage DTL. Finally, besides the brain functional connectome we used, neurodevelopmental outcome prediction may be further improved by also incorporating the brain structural connectome, derived from diffusion MRI, as we are currently undertaking.</p>
+              <p id="Par34">In summary, we presented a multi-task, multi-stage DTL using the fusion of brain connectome and clinical data for early joint prediction of abnormal neurodevelopmental outcomes at 2 years of age in very preterm infants. We first supervisedly pre-trained a DNN prototype using 884 ASD patients and control subjects (with annotated labels), and then re-trained this DNN prototype using 291 neonatal subjects (without neurodevelopmental assessments; i.e. without annotated labels). Finally, we fine-tuned and validated the DNN model using 33 very preterm infants (with neurodevelopmental assessments). We demonstrated that the knowledge gained from classifying ASD patients versus typically developing controls in children and adults can be transferred to predict neurodevelopmental deficits in infants. The model performance was evaluated by comparing with (1) single-stage DTL model; (2) signal-task model; and (3) using clinical or brain connectome data only. The key findings of this study can be summarized as: (1) multi-stage DTL strategy maximizes the value of both annotated and non-annotated data in model training by performing both supervised and unsupervised learning. It outperforms single-stage DTL model; (2) simultaneous prediction of multiple outcomes (i.e., learning related tasks jointly) improves performance as compared with prediction of single outcome independently (i.e., learning each task individually); and (3) using the fusion of brain connectome and clinical data markedly improves prediction performance over using either clinical data only or brain connectome data only. Employing such a deep learning model, once externally validated, may facilitate risk stratification at term-equivalent age for early identification of long-term neurodevelopmental deficits and facilitate targeted early interventions to improve clinical outcomes in very preterm infants.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary information</title>
+              <sec id="Sec21">
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM1">
+                    <media xlink:href="41598_2020_71914_MOESM1_ESM.docx">
+                      <caption>
+                        <p>Supplementary information.</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Publisher's note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <sec>
+              <title>Supplementary information</title>
+              <p>is available for this paper at 10.1038/s41598-020-71914-x.</p>
+            </sec>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>This study was supported by the National Institutes of Health Grants R21-HD094085, R01-NS094200 and R01-NS096037 and a Trustee grant from Cincinnati Children’s Hospital Medical Center. The funders played no role in the design, analysis, or presentation of the findings. We sincerely thank our collaborators from the Cincinnati Infant Neurodevelopment Early Prediction Study (CINEPS) Investigators: Principal Investigator: Nehal A. Parikh, DO, MS. Collaborators (in alphabetical order): Mekibib Altaye, PhD, Anita Arnsperger, RRT, Traci Beiersdorfer, RN BSN, Kaley Bridgewater, RT(MR) CNMT, Tanya Cahill, MD, Kim Cecil, PhD, Kent Dietrich, RT, Christen Distler, BSN RNC-NIC, Juanita Dudley, RN BSN, Brianne Georg, BS, Cathy Grisby, RN BSN CCRC, Lacey Haas, RT(MR) CNMT, Karen Harpster, PhD, OT/RL, Lili He, PhD, Scott K. Holland, PhD, V.S. Priyanka Illapani, MS, Kristin Kirker, CRC, Julia E. Kline, PhD, Beth M. Kline-Fath, MD, Hailong Li, PhD, Matt Lanier, RT(MR) RT(R), Stephanie L. Merhar, MD MS, Greg Muthig, BS, Brenda B. Poindexter, MD MS, David Russell, JD, Kari Tepe, BSN RNC-NIC, Leanne Tamm, PhD, Julia Thompson, RN BSN, Jean A. Tkach, PhD, Jinghua Wang, PhD, Brynne Williams, RT(MR) CNMT, Kelsey Wineland, RT(MR) CNMT, Sandra Wuertz, RN BSN CCRP, Donna Wuest, AS, Weihong Yuan, PhD. We sincerely thank Jennifer Notestine, RN and Valerie Marburger, NNP for serving as our Nationwide Children’s study coordinators and Mark Smith, MS, for serving as the study MR technologist. We are most grateful to the families that made this study possible.</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Author contributions</title>
+              <p>L.H. and N.A.P. designed the study; L.H. and H.L. designed the algorithm; L.H., H.L., and J.W. conducted experiments and data analysis, prepared Figs. <xref rid="Fig1" ref-type="fig">1</xref>–<xref rid="Fig2" ref-type="fig">2</xref>, Table <xref rid="Tab1" ref-type="table">1</xref>–<xref rid="Tab3" ref-type="table">3</xref>, and supplemental Table <xref rid="Tab1" ref-type="table">1</xref>–<xref rid="Tab3" ref-type="table">3</xref>; H.L. and M.C. prepared part of data and prepared Fig. <xref rid="Fig3" ref-type="fig">3</xref>. E.G. prepared part of MRI data. L.H., H.L., J.W., J.R.D. and N.A.P. wrote the main manuscript text.</p>
+            </notes>
+            <notes id="FPar1" notes-type="COI-statement">
+              <title>Competing interests</title>
+              <p id="Par35">The authors declare no competing interests.</p>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <mixed-citation publication-type="other">Hamilton, B. E., Martin, J. A. &amp; Osterman, M. J. Births: Preliminary Data for 2015. <italic>National vital statistics reports : from the Centers for Disease Control and Prevention, National Center for Health Statistics, National Vital Statistics System</italic><bold>65</bold>, 1–15 (2016).</mixed-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Blencowe</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>National, regional, and worldwide estimates of preterm birth rates in the year 2010 with time trends since 1990 for selected countries: a systematic analysis and implications</article-title>
+                  <source>Lancet</source>
+                  <year>2012</year>
+                  <volume>379</volume>
+                  <fpage>2162</fpage>
+                  <lpage>2172</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0140-6736(12)60820-4</pub-id>
+                  <?supplied-pmid 22682464?>
+                  <pub-id pub-id-type="pmid">22682464</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rogers</surname>
+                      <given-names>EE</given-names>
+                    </name>
+                    <name>
+                      <surname>Hintz</surname>
+                      <given-names>SR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Early neurodevelopmental outcomes of extremely preterm infants</article-title>
+                  <source>Semin. Perinatol.</source>
+                  <year>2016</year>
+                  <volume>40</volume>
+                  <fpage>497</fpage>
+                  <lpage>509</lpage>
+                  <pub-id pub-id-type="doi">10.1053/j.semperi.2016.09.002</pub-id>
+                  <?supplied-pmid 27865437?>
+                  <pub-id pub-id-type="pmid">27865437</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jarjour</surname>
+                      <given-names>IT</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Neurodevelopmental outcome after extreme prematurity: a review of the literature</article-title>
+                  <source>Pediatr. Neurol.</source>
+                  <year>2015</year>
+                  <volume>52</volume>
+                  <fpage>143</fpage>
+                  <lpage>152</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.pediatrneurol.2014.10.027</pub-id>
+                  <?supplied-pmid 25497122?>
+                  <pub-id pub-id-type="pmid">25497122</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>He</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Parikh</surname>
+                      <given-names>NA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Brain functional network connectivity development in very preterm infants: the first six months</article-title>
+                  <source>Early Human Dev.</source>
+                  <year>2016</year>
+                  <volume>98</volume>
+                  <fpage>29</fpage>
+                  <lpage>35</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.earlhumdev.2016.06.002</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <mixed-citation publication-type="other">Parikh, N. A. In <italic>Seminars in Perinatology,</italic> 530–541 (Elsevier).</mixed-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>He</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Parikh</surname>
+                      <given-names>NA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Aberrant executive and frontoparietal functional connectivity in very preterm infants with diffuse white matter abnormalities</article-title>
+                  <source>Pediatr. Neurol.</source>
+                  <year>2015</year>
+                  <volume>53</volume>
+                  <fpage>330</fpage>
+                  <lpage>337</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.pediatrneurol.2015.05.001</pub-id>
+                  <?supplied-pmid 26216502?>
+                  <pub-id pub-id-type="pmid">26216502</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sporns</surname>
+                      <given-names>O</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The human connectome: origins and challenges</article-title>
+                  <source>Neuroimage</source>
+                  <year>2013</year>
+                  <volume>80</volume>
+                  <fpage>53</fpage>
+                  <lpage>61</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2013.03.023</pub-id>
+                  <?supplied-pmid 23528922?>
+                  <pub-id pub-id-type="pmid">23528922</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Glasser</surname>
+                      <given-names>MF</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The human connectome project's neuroimaging approach</article-title>
+                  <source>Nat. Neurosci.</source>
+                  <year>2016</year>
+                  <volume>19</volume>
+                  <fpage>1175</fpage>
+                  <lpage>1187</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nn.4361</pub-id>
+                  <?supplied-pmid 27571196?>
+                  <pub-id pub-id-type="pmid">27571196</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cao</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>He</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Developmental connectomics from infancy through early childhood</article-title>
+                  <source>Trends Neurosci.</source>
+                  <year>2017</year>
+                  <volume>40</volume>
+                  <fpage>494</fpage>
+                  <lpage>506</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.tins.2017.06.003</pub-id>
+                  <?supplied-pmid 28684174?>
+                  <pub-id pub-id-type="pmid">28684174</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Plis</surname>
+                      <given-names>SM</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Deep learning for neuroimaging: a validation study</article-title>
+                  <source>Front. Neurosci.</source>
+                  <year>2014</year>
+                  <volume>8</volume>
+                  <fpage>229</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fnins.2014.00229</pub-id>
+                  <?supplied-pmid 25191215?>
+                  <pub-id pub-id-type="pmid">25191215</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hjelm</surname>
+                      <given-names>RD</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Restricted Boltzmann machines for neuroimaging: an application in identifying intrinsic networks</article-title>
+                  <source>Neuroimage</source>
+                  <year>2014</year>
+                  <volume>96</volume>
+                  <fpage>245</fpage>
+                  <lpage>260</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2014.03.048</pub-id>
+                  <?supplied-pmid 24680869?>
+                  <pub-id pub-id-type="pmid">24680869</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Barkhof</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Haller</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Rombouts</surname>
+                      <given-names>SA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Resting-state functional MR imaging: a new window to the brain</article-title>
+                  <source>Radiology</source>
+                  <year>2014</year>
+                  <volume>272</volume>
+                  <fpage>29</fpage>
+                  <lpage>49</lpage>
+                  <pub-id pub-id-type="doi">10.1148/radiol.14132388</pub-id>
+                  <?supplied-pmid 24956047?>
+                  <pub-id pub-id-type="pmid">24956047</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wee</surname>
+                      <given-names>CY</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Identification of MCI individuals using structural and functional connectivity networks</article-title>
+                  <source>Neuroimage</source>
+                  <year>2012</year>
+                  <volume>59</volume>
+                  <fpage>2045</fpage>
+                  <lpage>2056</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2011.10.015</pub-id>
+                  <?supplied-pmid 22019883?>
+                  <pub-id pub-id-type="pmid">22019883</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ziv</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A machine learning approach to automated structural network analysis: application to neonatal encephalopathy</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2013</year>
+                  <volume>8</volume>
+                  <fpage>e78824</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0078824</pub-id>
+                  <?supplied-pmid 24282501?>
+                  <pub-id pub-id-type="pmid">24282501</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kawahara</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>BrainNetCNN: convolutional neural networks for brain networks; towards predicting neurodevelopment</article-title>
+                  <source>Neuroimage</source>
+                  <year>2016</year>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2016.09.046</pub-id>
+                  <?supplied-pmid 27693612?>
+                  <pub-id pub-id-type="pmid">27693612</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dreiseitl</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Ohno-Machado</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Logistic regression and artificial neural network classification models: a methodology review</article-title>
+                  <source>J. Biomed. Inform.</source>
+                  <year>2002</year>
+                  <volume>35</volume>
+                  <fpage>352</fpage>
+                  <lpage>359</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S1532-0464(03)00034-0</pub-id>
+                  <?supplied-pmid 12968784?>
+                  <pub-id pub-id-type="pmid">12968784</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>LeCun</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Bengio</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Hinton</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Deep learning</article-title>
+                  <source>Nature</source>
+                  <year>2015</year>
+                  <volume>521</volume>
+                  <fpage>436</fpage>
+                  <lpage>444</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nature14539</pub-id>
+                  <?supplied-pmid 26017442?>
+                  <pub-id pub-id-type="pmid">26017442</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fei-Fei</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Fergus</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Perona</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>One-shot learning of object categories</article-title>
+                  <source>IEEE Trans. Pattern Anal. Mach. Intell.</source>
+                  <year>2006</year>
+                  <volume>28</volume>
+                  <fpage>594</fpage>
+                  <lpage>611</lpage>
+                  <pub-id pub-id-type="doi">10.1109/TPAMI.2006.79</pub-id>
+                  <?supplied-pmid 16566508?>
+                  <pub-id pub-id-type="pmid">16566508</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pan</surname>
+                      <given-names>SJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A survey on transfer learning</article-title>
+                  <source>IEEE Trans. Knowl. Data Eng.</source>
+                  <year>2010</year>
+                  <volume>22</volume>
+                  <fpage>1345</fpage>
+                  <lpage>1359</lpage>
+                  <pub-id pub-id-type="doi">10.1109/TKDE.2009.191</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rosenstein</surname>
+                      <given-names>MT</given-names>
+                    </name>
+                    <name>
+                      <surname>Marx</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Kaelbling</surname>
+                      <given-names>LP</given-names>
+                    </name>
+                    <name>
+                      <surname>Dietterich</surname>
+                      <given-names>TG</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>To transfer or not to transfer</article-title>
+                  <source>Neural Inf. Process. Syst. Transf. Learn. Workshop</source>
+                  <year>2005</year>
+                  <volume>898</volume>
+                  <fpage>1</fpage>
+                  <lpage>4</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shin</surname>
+                      <given-names>HC</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Deep convolutional neural networks for computer-aided detection: CNN architectures, dataset characteristics and transfer learning</article-title>
+                  <source>IEEE Trans. Med. Imaging</source>
+                  <year>2016</year>
+                  <volume>35</volume>
+                  <fpage>1285</fpage>
+                  <lpage>1298</lpage>
+                  <pub-id pub-id-type="doi">10.1109/TMI.2016.2528162</pub-id>
+                  <?supplied-pmid 26886976?>
+                  <pub-id pub-id-type="pmid">26886976</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kooi</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>van Ginneken</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Karssemeijer</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>den Heeten</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Discriminating solitary cysts from soft tissue lesions in mammography using a pretrained deep convolutional neural network</article-title>
+                  <source>Med. Phys.</source>
+                  <year>2017</year>
+                  <volume>44</volume>
+                  <fpage>1017</fpage>
+                  <lpage>1027</lpage>
+                  <pub-id pub-id-type="doi">10.1002/mp.12110</pub-id>
+                  <?supplied-pmid 28094850?>
+                  <pub-id pub-id-type="pmid">28094850</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Samala</surname>
+                      <given-names>RK</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Evolutionary pruning of transfer learned deep convolutional neural network for breast cancer diagnosis in digital breast tomosynthesis</article-title>
+                  <source>Phys. Med. Biol.</source>
+                  <year>2018</year>
+                  <volume>63</volume>
+                  <fpage>095005</fpage>
+                  <pub-id pub-id-type="doi">10.1088/1361-6560/aabb5b</pub-id>
+                  <?supplied-pmid 29616660?>
+                  <pub-id pub-id-type="pmid">29616660</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Samala</surname>
+                      <given-names>RK</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Mass detection in digital breast tomosynthesis: deep convolutional neural network with transfer learning from mammography</article-title>
+                  <source>Med. Phys.</source>
+                  <year>2016</year>
+                  <volume>43</volume>
+                  <fpage>6654</fpage>
+                  <pub-id pub-id-type="doi">10.1118/1.4967345</pub-id>
+                  <?supplied-pmid 27908154?>
+                  <pub-id pub-id-type="pmid">27908154</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Azizi</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Transfer learning from RF to B-mode temporal enhanced ultrasound features for prostate cancer detection</article-title>
+                  <source>Int. J. Comput. Assist. Radiol. Surg.</source>
+                  <year>2017</year>
+                  <volume>12</volume>
+                  <fpage>1111</fpage>
+                  <lpage>1121</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s11548-017-1573-x</pub-id>
+                  <?supplied-pmid 28349507?>
+                  <pub-id pub-id-type="pmid">28349507</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zheng</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Miao</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Jane Wang</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Liao</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Pairwise domain adaptation module for CNN-based 2-D/3-D registration</article-title>
+                  <source>J. Med. Imaging (Bellingham)</source>
+                  <year>2018</year>
+                  <volume>5</volume>
+                  <fpage>021204</fpage>
+                  <pub-id pub-id-type="doi">10.1117/1.JMI.5.2.021204</pub-id>
+                  <pub-id pub-id-type="pmid">29376104</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Parikh</surname>
+                      <given-names>NA</given-names>
+                    </name>
+                    <name>
+                      <surname>He</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A novel transfer learning approach to enhance deep neural network classification of brain functional connectomes</article-title>
+                  <source>Front. Neurosci.</source>
+                  <year>2018</year>
+                  <volume>12</volume>
+                  <fpage>491</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fnins.2018.00491</pub-id>
+                  <?supplied-pmid 30087587?>
+                  <pub-id pub-id-type="pmid">30087587</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>He</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Early prediction of cognitive deficits in very preterm infants using functional connectome data in an artificial neural network framework</article-title>
+                  <source>NeuroImage Clin.</source>
+                  <year>2018</year>
+                  <volume>18</volume>
+                  <fpage>290</fpage>
+                  <lpage>297</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.nicl.2018.01.032</pub-id>
+                  <?supplied-pmid 29876249?>
+                  <pub-id pub-id-type="pmid">29876249</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Di Martino</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The autism brain imaging data exchange: towards a large-scale evaluation of the intrinsic brain architecture in autism</article-title>
+                  <source>Mol. Psychiatry</source>
+                  <year>2014</year>
+                  <volume>19</volume>
+                  <fpage>659</fpage>
+                  <pub-id pub-id-type="doi">10.1038/mp.2013.78</pub-id>
+                  <?supplied-pmid 23774715?>
+                  <pub-id pub-id-type="pmid">23774715</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Abraham</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Deriving reproducible biomarkers from multi-site resting-state data: an Autism-based example</article-title>
+                  <source>NeuroImage</source>
+                  <year>2017</year>
+                  <volume>147</volume>
+                  <fpage>736</fpage>
+                  <lpage>745</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2016.10.045</pub-id>
+                  <?supplied-pmid 27865923?>
+                  <pub-id pub-id-type="pmid">27865923</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Spencer-Smith</surname>
+                      <given-names>MM</given-names>
+                    </name>
+                    <name>
+                      <surname>Spittle</surname>
+                      <given-names>AJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>KJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Doyle</surname>
+                      <given-names>LW</given-names>
+                    </name>
+                    <name>
+                      <surname>Anderson</surname>
+                      <given-names>PJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Bayley-III cognitive and language scales in preterm children</article-title>
+                  <source>Pediatrics</source>
+                  <year>2015</year>
+                  <volume>135</volume>
+                  <fpage>e1258</fpage>
+                  <lpage>e1265</lpage>
+                  <pub-id pub-id-type="doi">10.1542/peds.2014-3039</pub-id>
+                  <?supplied-pmid 25896835?>
+                  <pub-id pub-id-type="pmid">25896835</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Power</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                    <name>
+                      <surname>Barnes</surname>
+                      <given-names>KA</given-names>
+                    </name>
+                    <name>
+                      <surname>Snyder</surname>
+                      <given-names>AZ</given-names>
+                    </name>
+                    <name>
+                      <surname>Schlaggar</surname>
+                      <given-names>BL</given-names>
+                    </name>
+                    <name>
+                      <surname>Petersen</surname>
+                      <given-names>SE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Spurious but systematic correlations in functional connectivity MRI networks arise from subject motion</article-title>
+                  <source>Neuroimage</source>
+                  <year>2012</year>
+                  <volume>59</volume>
+                  <fpage>2142</fpage>
+                  <lpage>2154</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2011.10.018</pub-id>
+                  <pub-id pub-id-type="pmid">22019881</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Behzadi</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Restom</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Liau</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>TT</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A component based noise correction method (CompCor) for BOLD and perfusion based fMRI</article-title>
+                  <source>Neuroimage</source>
+                  <year>2007</year>
+                  <volume>37</volume>
+                  <fpage>90</fpage>
+                  <lpage>101</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2007.04.042</pub-id>
+                  <?supplied-pmid 17560126?>
+                  <pub-id pub-id-type="pmid">17560126</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <mixed-citation publication-type="other">Craddock, R. <italic>et al.</italic> The Neuro Bureau Preprocessing Initiative: open sharing of preprocessed neuroimaging data and derivatives. <italic>Front. Neuroinf. (Neuroinform. 2013)</italic> (2013).</mixed-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <mixed-citation publication-type="other">Craddock, C. <italic>et al.</italic> Towards automated analysis of connectomes: The configurable pipeline for the analysis of connectomes (c-pac). <bold>42</bold> (2013).</mixed-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tzourio-Mazoyer</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Automated anatomical labeling of activations in SPM using a macroscopic anatomical parcellation of the MNI MRI single-subject brain</article-title>
+                  <source>Neuroimage</source>
+                  <year>2002</year>
+                  <volume>15</volume>
+                  <fpage>273</fpage>
+                  <lpage>289</lpage>
+                  <pub-id pub-id-type="doi">10.1006/nimg.2001.0978</pub-id>
+                  <?supplied-pmid 11771995?>
+                  <pub-id pub-id-type="pmid">11771995</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shi</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Infant brain atlases from neonates to 1- and 2-year-olds</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2011</year>
+                  <volume>6</volume>
+                  <fpage>e18746</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0018746</pub-id>
+                  <?supplied-pmid 21533194?>
+                  <pub-id pub-id-type="pmid">21533194</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>dos Santos Siqueira</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Biazoli Junior</surname>
+                      <given-names>CE</given-names>
+                    </name>
+                    <name>
+                      <surname>Comfort</surname>
+                      <given-names>WE</given-names>
+                    </name>
+                    <name>
+                      <surname>Rohde</surname>
+                      <given-names>LA</given-names>
+                    </name>
+                    <name>
+                      <surname>Sato</surname>
+                      <given-names>JR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Abnormal functional resting-state networks in ADHD: graph theory and pattern recognition analysis of fMRI data</article-title>
+                  <source>Biomed. Res. Int.</source>
+                  <year>2014</year>
+                  <volume>2014</volume>
+                  <fpage>380531</fpage>
+                  <pub-id pub-id-type="doi">10.1155/2014/380531</pub-id>
+                  <?supplied-pmid 25309910?>
+                  <pub-id pub-id-type="pmid">25309910</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Betzel</surname>
+                      <given-names>RF</given-names>
+                    </name>
+                    <name>
+                      <surname>Bassett</surname>
+                      <given-names>DS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Multi-scale brain networks</article-title>
+                  <source>Neuroimage</source>
+                  <year>2017</year>
+                  <volume>160</volume>
+                  <fpage>73</fpage>
+                  <lpage>83</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2016.11.006</pub-id>
+                  <?supplied-pmid 27845257?>
+                  <pub-id pub-id-type="pmid">27845257</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Whitfield-Gabrieli</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Nieto-Castanon</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Conn: a functional connectivity toolbox for correlated and anticorrelated brain networks</article-title>
+                  <source>Brain Connect.</source>
+                  <year>2012</year>
+                  <volume>2</volume>
+                  <fpage>125</fpage>
+                  <lpage>141</lpage>
+                  <pub-id pub-id-type="doi">10.1089/brain.2012.0073</pub-id>
+                  <?supplied-pmid 22642651?>
+                  <pub-id pub-id-type="pmid">22642651</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR42">
+                <label>42.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Heinsfeld</surname>
+                      <given-names>AS</given-names>
+                    </name>
+                    <name>
+                      <surname>Franco</surname>
+                      <given-names>AR</given-names>
+                    </name>
+                    <name>
+                      <surname>Craddock</surname>
+                      <given-names>RC</given-names>
+                    </name>
+                    <name>
+                      <surname>Buchweitz</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Meneguzzi</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Identification of autism spectrum disorder using deep learning and the ABIDE dataset</article-title>
+                  <source>NeuroImage Clin.</source>
+                  <year>2018</year>
+                  <volume>17</volume>
+                  <fpage>16</fpage>
+                  <lpage>23</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.nicl.2017.08.017</pub-id>
+                  <?supplied-pmid 29034163?>
+                  <pub-id pub-id-type="pmid">29034163</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR43">
+                <label>43.</label>
+                <mixed-citation publication-type="other">Johnson, R. &amp; Zhang, T. In <italic>Advances in Neural Information Processing Systems</italic>, 315–323.</mixed-citation>
+              </ref>
+              <ref id="CR44">
+                <label>44.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Xia</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>He</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>BrainNet Viewer: a network visualization tool for human brain connectomics</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2013</year>
+                  <volume>8</volume>
+                  <fpage>e68910</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0068910</pub-id>
+                  <?supplied-pmid 23861951?>
+                  <pub-id pub-id-type="pmid">23861951</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR45">
+                <label>45.</label>
+                <mixed-citation publication-type="other">Kassebaum, P. circularGraph (<ext-link ext-link-type="uri" xlink:href="https://github.com/paul-kassebaum-mathworks/circularGraph">https://github.com/paul-kassebaum-mathworks/circularGraph</ext-link>). <italic>GitHub</italic> (2020).</mixed-citation>
+              </ref>
+              <ref id="CR46">
+                <label>46.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schmitt</surname>
+                      <given-names>LI</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Thalamic amplification of cortical connectivity sustains attentional control</article-title>
+                  <source>Nature</source>
+                  <year>2017</year>
+                  <volume>545</volume>
+                  <fpage>219</fpage>
+                  <lpage>223</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nature22073</pub-id>
+                  <?supplied-pmid 28467827?>
+                  <pub-id pub-id-type="pmid">28467827</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR47">
+                <label>47.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Linsell</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Cognitive trajectories from infancy to early adulthood following birth before 26 weeks of gestation: a prospective, population-based cohort study</article-title>
+                  <source>Arch. Dis. Child</source>
+                  <year>2018</year>
+                  <volume>103</volume>
+                  <fpage>363</fpage>
+                  <lpage>370</lpage>
+                  <pub-id pub-id-type="doi">10.1136/archdischild-2017-313414</pub-id>
+                  <?supplied-pmid 29146572?>
+                  <pub-id pub-id-type="pmid">29146572</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR48">
+                <label>48.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Doyle</surname>
+                      <given-names>LW</given-names>
+                    </name>
+                    <name>
+                      <surname>Anderson</surname>
+                      <given-names>PJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Stability of general cognition in children born extremely preterm as they grow older: good or bad news?</article-title>
+                  <source>Arch. Dis. Child Fetal. Neonatal. Ed.</source>
+                  <year>2018</year>
+                  <volume>103</volume>
+                  <fpage>F299</fpage>
+                  <lpage>f300</lpage>
+                  <pub-id pub-id-type="doi">10.1136/archdischild-2017-313987</pub-id>
+                  <?supplied-pmid 29127154?>
+                  <pub-id pub-id-type="pmid">29127154</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR49">
+                <label>49.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Costa</surname>
+                      <given-names>DS</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Executive function and academic outcomes in children who were extremely preterm</article-title>
+                  <source>Pediatrics</source>
+                  <year>2017</year>
+                  <pub-id pub-id-type="doi">10.1542/peds.2017-0257</pub-id>
+                  <?supplied-pmid 28853418?>
+                  <pub-id pub-id-type="pmid">28853418</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR50">
+                <label>50.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Doyle</surname>
+                      <given-names>LW</given-names>
+                    </name>
+                    <name>
+                      <surname>Davis</surname>
+                      <given-names>PG</given-names>
+                    </name>
+                    <name>
+                      <surname>Schmidt</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Anderson</surname>
+                      <given-names>PJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cognitive outcome at 24 months is more predictive than at 18 months for IQ at 8–9 years in extremely low birth weight children</article-title>
+                  <source>Early Human Dev.</source>
+                  <year>2012</year>
+                  <volume>88</volume>
+                  <fpage>95</fpage>
+                  <lpage>98</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.earlhumdev.2011.07.013</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR51">
+                <label>51.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bolisetty</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Preterm outcome table (POT): a simple tool to aid counselling parents of very preterm infants</article-title>
+                  <source>Aust. NZ J. Obstet. Gynaecol.</source>
+                  <year>2006</year>
+                  <volume>46</volume>
+                  <fpage>189</fpage>
+                  <lpage>192</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1479-828X.2006.00564.x</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR52">
+                <label>52.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dobbing</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Sands</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Quantitative growth and development of human brain</article-title>
+                  <source>Arch. Dis. Child.</source>
+                  <year>1973</year>
+                  <volume>48</volume>
+                  <fpage>757</fpage>
+                  <lpage>767</lpage>
+                  <pub-id pub-id-type="doi">10.1136/adc.48.10.757</pub-id>
+                  <?supplied-pmid 4796010?>
+                  <pub-id pub-id-type="pmid">4796010</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR53">
+                <label>53.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Johnston</surname>
+                      <given-names>MV</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Plasticity in the developing brain: implications for rehabilitation</article-title>
+                  <source>Dev. Disabil. Res. Rev.</source>
+                  <year>2009</year>
+                  <volume>15</volume>
+                  <fpage>94</fpage>
+                  <lpage>101</lpage>
+                  <pub-id pub-id-type="doi">10.1002/ddrr.64</pub-id>
+                  <?supplied-pmid 19489084?>
+                  <pub-id pub-id-type="pmid">19489084</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR54">
+                <label>54.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tyson</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>National Institute of Child Health and Human Development Neonatal Research Network. Intensive care for extreme prematurity-moving beyond gestational age</article-title>
+                  <source>N. Engl. J. Med.</source>
+                  <year>2008</year>
+                  <volume>358</volume>
+                  <fpage>1672</fpage>
+                  <lpage>1681</lpage>
+                  <pub-id pub-id-type="doi">10.1056/NEJMoa073059</pub-id>
+                  <?supplied-pmid 18420500?>
+                  <pub-id pub-id-type="pmid">18420500</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR55">
+                <label>55.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ambalavanan</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Outcome trajectories in extremely preterm infants</article-title>
+                  <source>Pediatrics</source>
+                  <year>2012</year>
+                  <volume>130</volume>
+                  <fpage>e115</fpage>
+                  <lpage>e125</lpage>
+                  <pub-id pub-id-type="doi">10.1542/peds.2011-3693</pub-id>
+                  <?supplied-pmid 22689874?>
+                  <pub-id pub-id-type="pmid">22689874</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR56">
+                <label>56.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Broitman</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Clinical data predict neurodevelopmental outcome better than head ultrasound in extremely low birth weight infants</article-title>
+                  <source>J. Pediatrics</source>
+                  <year>2007</year>
+                  <volume>151</volume>
+                  <fpage>500</fpage>
+                  <lpage>505.e502</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jpeds.2007.04.013</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR57">
+                <label>57.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Parikh</surname>
+                      <given-names>NA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Advanced neuroimaging and its role in predicting neurodevelopmental outcomes in very preterm infants</article-title>
+                  <source>Semin. Perinatol.</source>
+                  <year>2016</year>
+                  <volume>40</volume>
+                  <fpage>530</fpage>
+                  <lpage>541</lpage>
+                  <pub-id pub-id-type="doi">10.1053/j.semperi.2016.09.005</pub-id>
+                  <?supplied-pmid 27863706?>
+                  <pub-id pub-id-type="pmid">27863706</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR58">
+                <label>58.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>George</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Diagnostic accuracy of early magnetic resonance imaging to determine motor outcomes in infants born preterm: a systematic review and meta-analysis</article-title>
+                  <source>Dev. Med. Child Neurol.</source>
+                  <year>2018</year>
+                  <volume>60</volume>
+                  <fpage>134</fpage>
+                  <lpage>146</lpage>
+                  <pub-id pub-id-type="doi">10.1111/dmcn.13611</pub-id>
+                  <?supplied-pmid 29193032?>
+                  <pub-id pub-id-type="pmid">29193032</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR59">
+                <label>59.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Huppi</surname>
+                      <given-names>PS</given-names>
+                    </name>
+                    <name>
+                      <surname>He</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Lerch</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Imaging baby brain development</article-title>
+                  <source>NeuroImage</source>
+                  <year>2019</year>
+                  <volume>203</volume>
+                  <fpage>116142</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2019.116142</pub-id>
+                  <?supplied-pmid 31473353?>
+                  <pub-id pub-id-type="pmid">31473353</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR60">
+                <label>60.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Volpe</surname>
+                      <given-names>JJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Dysmaturation of premature brain: importance, cellular mechanisms, and potential interventions</article-title>
+                  <source>Pediatr. Neurol.</source>
+                  <year>2019</year>
+                  <volume>95</volume>
+                  <fpage>42</fpage>
+                  <lpage>66</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.pediatrneurol.2019.02.016</pub-id>
+                  <?supplied-pmid 30975474?>
+                  <pub-id pub-id-type="pmid">30975474</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR61">
+                <label>61.</label>
+                <mixed-citation publication-type="other">Gano, D., Cowan, F. M. &amp; de Vries, L. S. Cerebral palsy after very preterm birth—an imaging perspective. In <italic>Seminars in Fetal and Neonatal Medicine</italic>, 101106, 10.1016/j.siny.2020.101106 (2020).</mixed-citation>
+              </ref>
+              <ref id="CR62">
+                <label>62.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kawahara</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>BrainNetCNN: convolutional neural networks for brain networks; towards predicting neurodevelopment</article-title>
+                  <source>Neuroimage</source>
+                  <year>2017</year>
+                  <volume>146</volume>
+                  <fpage>1038</fpage>
+                  <lpage>1049</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2016.09.046</pub-id>
+                  <?supplied-pmid 27693612?>
+                  <pub-id pub-id-type="pmid">27693612</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR63">
+                <label>63.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Girault</surname>
+                      <given-names>JB</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>White matter connectomes at birth accurately predict cognitive abilities at age 2</article-title>
+                  <source>NeuroImage</source>
+                  <year>2019</year>
+                  <volume>192</volume>
+                  <fpage>145</fpage>
+                  <lpage>155</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2019.02.060</pub-id>
+                  <?supplied-pmid 30825656?>
+                  <pub-id pub-id-type="pmid">30825656</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR64">
+                <label>64.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ball</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Thalamocortical connectivity predicts cognition in children born preterm</article-title>
+                  <source>Cerebral Cortex (New York NY 1991)</source>
+                  <year>2015</year>
+                  <volume>25</volume>
+                  <fpage>4310</fpage>
+                  <lpage>4318</lpage>
+                  <pub-id pub-id-type="doi">10.1093/cercor/bhu331</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR65">
+                <label>65.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chau</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Abnormal brain maturation in preterm neonates associated with adverse developmental outcomes</article-title>
+                  <source>Neurology</source>
+                  <year>2013</year>
+                  <volume>81</volume>
+                  <fpage>2082</fpage>
+                  <lpage>2089</lpage>
+                  <pub-id pub-id-type="doi">10.1212/01.wnl.0000437298.43688.b9</pub-id>
+                  <?supplied-pmid 24212394?>
+                  <pub-id pub-id-type="pmid">24212394</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR66">
+                <label>66.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Saha</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Predicting motor outcome in preterm infants from very early brain diffusion MRI using a deep learning convolutional neural network (CNN) model</article-title>
+                  <source>Neuroimage</source>
+                  <year>2020</year>
+                  <volume>215</volume>
+                  <fpage>116807</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2020.116807</pub-id>
+                  <?supplied-pmid 32278897?>
+                  <pub-id pub-id-type="pmid">32278897</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR67">
+                <label>67.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A multichannel deep neural network model analyzing multiscale functional brain connectome data for attention deficit hyperactivity disorder detection</article-title>
+                  <source>Radiol. Artif. Intell.</source>
+                  <year>2019</year>
+                  <volume>2</volume>
+                  <fpage>e190012</fpage>
+                  <pub-id pub-id-type="doi">10.1148/ryai.2019190012</pub-id>
+                  <?supplied-pmid 32076663?>
+                  <pub-id pub-id-type="pmid">32076663</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR68">
+                <label>68.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shi</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Salzwedel</surname>
+                      <given-names>AP</given-names>
+                    </name>
+                    <name>
+                      <surname>Lin</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Gilmore</surname>
+                      <given-names>JH</given-names>
+                    </name>
+                    <name>
+                      <surname>Gao</surname>
+                      <given-names>W</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Functional brain parcellations of the infant brain and the associated developmental trends</article-title>
+                  <source>Cereb. Cortex</source>
+                  <year>2017</year>
+                  <volume>28</volume>
+                  <fpage>1358</fpage>
+                  <lpage>1368</lpage>
+                  <pub-id pub-id-type="doi">10.1093/cercor/bhx062</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T01:59:56Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:9982698" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:9982698</identifier>
+        <datestamp>2023-03-04</datestamp>
+        <setSpec>jamasd</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">JAMA Netw Open</journal-id>
+              <journal-id journal-id-type="iso-abbrev">JAMA Netw Open</journal-id>
+              <journal-title-group>
+                <journal-title>JAMA Network Open</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2574-3805</issn>
+              <publisher>
+                <publisher-name>American Medical Association</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC9982698</article-id>
+              <article-id pub-id-type="pmcid">PMC9982698</article-id>
+              <article-id pub-id-type="pmc-uid">9982698</article-id>
+              <article-id pub-id-type="pmid">36862411</article-id>
+              <article-id pub-id-type="pmid">36862411</article-id>
+              <article-id pub-id-type="doi">10.1001/jamanetworkopen.2023.1204</article-id>
+              <article-id pub-id-type="publisher-id">zoi230070</article-id>
+              <article-categories>
+                <subj-group subj-group-type="category" specific-use="electronic">
+                  <subject>Research</subject>
+                </subj-group>
+                <subj-group subj-group-type="heading">
+                  <subject>Original Investigation</subject>
+                </subj-group>
+                <subj-group subj-group-type="online-only">
+                  <subject>Online Only</subject>
+                </subj-group>
+                <subj-group subj-group-type="subject-area">
+                  <subject>Health Informatics</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Assessment of Natural Language Processing of Electronic Health Records to Measure Goals-of-Care Discussions as a Clinical Trial Outcome</article-title>
+                <alt-title alt-title-type="headline">Natural Language Processing of Electronic Health Records to Measure Goals-of-Care Discussions</alt-title>
+                <alt-title alt-title-type="running-head">Natural Language Processing of Electronic Health Records to Measure Goals-of-Care Discussions</alt-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Lee</surname>
+                    <given-names>Robert Y.</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <degrees>MS</degrees>
+                  <xref rid="zoi230070aff1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                  <xref rid="zoi230070aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kross</surname>
+                    <given-names>Erin K.</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <xref rid="zoi230070aff1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                  <xref rid="zoi230070aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Torrence</surname>
+                    <given-names>Janaki</given-names>
+                  </name>
+                  <degrees>MS</degrees>
+                  <xref rid="zoi230070aff1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                  <xref rid="zoi230070aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Li</surname>
+                    <given-names>Kevin S.</given-names>
+                  </name>
+                  <degrees>MS</degrees>
+                  <xref rid="zoi230070aff3" ref-type="aff">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Sibley</surname>
+                    <given-names>James</given-names>
+                  </name>
+                  <degrees>BS</degrees>
+                  <xref rid="zoi230070aff1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                  <xref rid="zoi230070aff4" ref-type="aff">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Cohen</surname>
+                    <given-names>Trevor</given-names>
+                  </name>
+                  <degrees>MBChB</degrees>
+                  <degrees>PhD</degrees>
+                  <xref rid="zoi230070aff1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                  <xref rid="zoi230070aff3" ref-type="aff">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lober</surname>
+                    <given-names>William B.</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <degrees>MS</degrees>
+                  <xref rid="zoi230070aff1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                  <xref rid="zoi230070aff3" ref-type="aff">
+                    <sup>3</sup>
+                  </xref>
+                  <xref rid="zoi230070aff4" ref-type="aff">
+                    <sup>4</sup>
+                  </xref>
+                  <xref rid="zoi230070aff5" ref-type="aff">
+                    <sup>5</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Engelberg</surname>
+                    <given-names>Ruth A.</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref rid="zoi230070aff1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                  <xref rid="zoi230070aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Curtis</surname>
+                    <given-names>J. Randall</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <degrees>MPH</degrees>
+                  <xref rid="zoi230070aff1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                  <xref rid="zoi230070aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                  <xref rid="zoi230070aff4" ref-type="aff">
+                    <sup>4</sup>
+                  </xref>
+                  <xref rid="zoi230070aff6" ref-type="aff">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+              </contrib-group>
+              <aff id="zoi230070aff1"><label>1</label>Cambia Palliative Care Center of Excellence at UW Medicine, University of Washington, Seattle</aff>
+              <aff id="zoi230070aff2"><label>2</label>Division of Pulmonary, Critical Care, and Sleep Medicine, Department of Medicine, University of Washington, Seattle</aff>
+              <aff id="zoi230070aff3"><label>3</label>Division of Biomedical and Health Informatics, Department of Biomedical Informatics and Medical Education, University of Washington, Seattle</aff>
+              <aff id="zoi230070aff4"><label>4</label>Department of Biobehavioral Nursing and Health Informatics, University of Washington, Seattle</aff>
+              <aff id="zoi230070aff5"><label>5</label>Department of Global Health, University of Washington, Seattle</aff>
+              <aff id="zoi230070aff6"><label>6</label>Department of Health Systems and Population Health, University of Washington, Seattle</aff>
+              <author-notes>
+                <title>Article Information</title>
+                <p><bold>Accepted for Publication:</bold> January 15, 2023.</p>
+                <p content-type="published-online"><bold>Published:</bold> March 2, 2023. <?xpp bx;1?>doi:<uri content-type="doi">10.1001/jamanetworkopen.2023.1204</uri></p>
+                <p content-type="correction-note"><bold>Correction: </bold>This article was corrected on April 5, 2023, to fix typos in the abstract.</p>
+                <p content-type="open-access-note"><bold>Open Access:</bold> This is an open access article distributed under the terms of the <ext-link xlink:href="https://jamanetwork.com/pages/cc-by-license-permissions" ext-link-type="uri">CC-BY License</ext-link>. © 2023 Lee RY et al. <italic>JAMA Network Open</italic>.</p>
+                <corresp id="zoi230070cor1"><bold>Corresponding Author:</bold> Robert Y. Lee, MD, MS, Division of Pulmonary, Critical Care, and Sleep Medicine, Department of Medicine, University of Washington, Seattle, Harborview Medical Center, 325 Ninth Ave, Box 359762, Seattle, WA 98104 (<email xlink:href="rlee06@uw.edu">rlee06@uw.edu</email>).</corresp>
+                <p content-type="author-contributions"><bold>Author Contributions:</bold> Dr. Lee had full access to all of the data in the study and takes responsibility for the integrity of the data and the accuracy of the data analysis.</p>
+                <p><italic>Concept and design:</italic> Lee, Engelberg, Curtis.</p>
+                <p><italic>Acquisition, analysis, or interpretation of data:</italic> All authors.</p>
+                <p><italic>Drafting of the manuscript:</italic> Lee, Lober.</p>
+                <p><italic>Critical revision of the manuscript for important intellectual content:</italic> All authors.</p>
+                <p><italic>Statistical analysis:</italic> Lee, Li.</p>
+                <p><italic>Obtained funding:</italic> Engelberg, Curtis.</p>
+                <p><italic>Administrative, technical, or material support:</italic> Lee, Torrence, Li, Sibley, Cohen, Lober, Curtis.</p>
+                <p><italic>Supervision:</italic> Kross, Cohen, Engelberg, Curtis.</p>
+                <p content-type="COI-statement"><bold>Conflict of Interest Disclosures:</bold> Dr Lee reported receiving grants from the National Heart, Lung, and Blood Institute (NHLBI), National Institutes of Health (NIH) during the conduct of the study. Dr Kross reported receiving grants from the NIH outside the submitted work. Mr Li reported receiving grants from Cambia Health Foundation during the conduct of the study. Mr Sibley reported receiving grants from Cambia Health Foundation during the conduct of the study. Dr Cohen reported receiving grants from the NIH and Cambia Health Foundation during the conduct of the study. Dr Lober reported receiving grants from the NIH during the conduct of the study. Dr Engelberg reported receiving grants from the NIH, National Palliative Care Research Center (NPCRC), and Cambia Health Foundation during the conduct of the study. Dr Curtis reported receiving grants from the NIH, NPCRC, and Cambia Health Foundation during the conduct of the study. No other disclosures were reported.</p>
+                <p content-type="funding-statement"><bold>Funding/Support:</bold> This work was supported by grant R01AG062441 from the National Institute on Aging, NIH (Drs Engelberg and Curtis); by the NPCRC (Dr Curtis); by the Cambia Health Foundation (Dr Curtis); and by grants K12HL137940 and K23HL161503 from the NHLBI, NIH (Dr Lee). Infrastructure support was provided by grant UL1TR002319 from the National Center for Advancing Translational Sciences, NIH to the Institute of Translational Health Sciences at the University of Washington.</p>
+                <p><bold>Role of the Funder/Sponsor:</bold> The funders had no role in the design and conduct of the study; collection, management, analysis, and interpretation of the data; preparation, review, or approval of the manuscript; and decision to submit the manuscript for publication.</p>
+                <p content-type="data-sharing-statement"><bold>Data Sharing Statement:</bold> See <xref rid="note-ZOI230070-1-s" ref-type="supplementary-material">Supplement 2</xref>.</p>
+              </author-notes>
+              <pub-date pub-type="epub" iso-8601-date="2023-03-02T10:00">
+                <day>2</day>
+                <month>3</month>
+                <year>2023</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <month>3</month>
+                <year>2023</year>
+              </pub-date>
+              <pub-date pub-type="ecorrected">
+                <day>5</day>
+                <month>4</month>
+                <year>2023</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>2</day>
+                <month>3</month>
+                <year>2023</year>
+              </pub-date>
+              <!--PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="epub"/>.-->
+              <volume>6</volume>
+              <issue>3</issue>
+              <elocation-id>e231204</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>29</day>
+                  <month>9</month>
+                  <year>2022</year>
+                </date>
+                <date date-type="accepted">
+                  <day>15</day>
+                  <month>1</month>
+                  <year>2023</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>Copyright 2023 Lee RY et al. <italic>JAMA Network Open</italic>.</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>This is an open access article distributed under the terms of the CC-BY License.</license-p>
+                </license>
+              </permissions>
+              <self-uri content-type="pdf-version" xlink:href="jamanetwopen-e231204.pdf">jamanetwopen-e231204.pdf</self-uri>
+              <self-uri content-type="silverchair" xlink:href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/10.1001/jamanetworkopen.2023.1204"/>
+              <abstract abstract-type="teaser" specific-use="electronic">
+                <p>This diagnostic study evaluates the performance, feasibility, and power implications of using natural language processing to measure outcomes in a randomized clinical trial of a communication intervention among adults with serious illness.</p>
+              </abstract>
+              <abstract abstract-type="key-points">
+                <title>Key Points</title>
+                <sec id="ab-zoi230070-1">
+                  <title>Question</title>
+                  <p>Can natural language processing (NLP) be used to measure clinical trial outcomes?</p>
+                </sec>
+                <sec id="ab-zoi230070-2">
+                  <title>Findings</title>
+                  <p>In this diagnostic study evaluating the performance, feasibility, and power implications of using deep-learning NLP to measure the outcome of documented goals-of-care discussions in a 2512-patient pragmatic trial, NLP-screened human abstraction measured the outcome with 92.6% sensitivity, substantial savings in abstractor-hours, and minimal loss of power, compared with manual abstraction.</p>
+                </sec>
+                <sec id="ab-zoi230070-3">
+                  <title>Meaning</title>
+                  <p>The findings suggest that NLP may facilitate measurement of previously inaccessible outcomes in clinical trials and that incorporation of misclassification-adjusted power calculations into the design of studies using NLP may be beneficial.</p>
+                </sec>
+              </abstract>
+              <abstract>
+                <sec id="ab-zoi230070-4">
+                  <title>Importance</title>
+                  <p>Many clinical trial outcomes are documented in free-text electronic health records (EHRs), making manual data collection costly and infeasible at scale. Natural language processing (NLP) is a promising approach for measuring such outcomes efficiently, but ignoring NLP-related misclassification may lead to underpowered studies.</p>
+                </sec>
+                <sec id="ab-zoi230070-5">
+                  <title>Objective</title>
+                  <p>To evaluate the performance, feasibility, and power implications of using NLP to measure the primary outcome of EHR-documented goals-of-care discussions in a pragmatic randomized clinical trial of a communication intervention.</p>
+                </sec>
+                <sec id="ab-zoi230070-6">
+                  <title>Design, Setting, and Participants</title>
+                  <p>This diagnostic study compared the performance, feasibility, and power implications of measuring EHR-documented goals-of-care discussions using 3 approaches: (1) deep-learning NLP, (2) NLP-screened human abstraction (manual verification of NLP-positive records), and (3) conventional manual abstraction. The study included hospitalized patients aged 55 years or older with serious illness enrolled between April 23, 2020, and March 26, 2021, in a pragmatic randomized clinical trial of a communication intervention in a multihospital US academic health system.</p>
+                </sec>
+                <sec id="ab-zoi230070-7">
+                  <title>Main Outcomes and Measures</title>
+                  <p>Main outcomes were natural language processing performance characteristics, human abstractor-hours, and misclassification-adjusted statistical power of methods of measuring clinician-documented goals-of-care discussions. Performance of NLP was evaluated with receiver operating characteristic (ROC) curves and precision-recall (PR) analyses and examined the effects of misclassification on power using mathematical substitution and Monte Carlo simulation.</p>
+                </sec>
+                <sec id="ab-zoi230070-8">
+                  <title>Results</title>
+                  <p>A total of 2512 trial participants (mean [SD] age, 71.7 [10.8] years; 1456 [58%] female) amassed 44 324 clinical notes during 30-day follow-up. In a validation sample of 159 participants, deep-learning NLP trained on a separate training data set identified patients with documented goals-of-care discussions with moderate accuracy (maximal F<sub>1</sub> score, 0.82; area under the ROC curve, 0.924; area under the PR curve, 0.879). Manual abstraction of the outcome from the trial data set would require an estimated 2000 abstractor-hours and would power the trial to detect a risk difference of 5.4% (assuming 33.5% control-arm prevalence, 80% power, and 2-sided α = .05). Measuring the outcome by NLP alone would power the trial to detect a risk difference of 7.6%. Measuring the outcome by NLP-screened human abstraction would require 34.3 abstractor-hours to achieve estimated sensitivity of 92.6% and would power the trial to detect a risk difference of 5.7%. Monte Carlo simulations corroborated misclassification-adjusted power calculations.</p>
+                </sec>
+                <sec id="ab-zoi230070-9">
+                  <title>Conclusions and Relevance</title>
+                  <p>In this diagnostic study, deep-learning NLP and NLP-screened human abstraction had favorable characteristics for measuring an EHR outcome at scale. Adjusted power calculations accurately quantified power loss from NLP-related misclassification, suggesting that incorporation of this approach into the design of studies using NLP would be beneficial.</p>
+                </sec>
+              </abstract>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="H1-1-ZOI230070">
+              <title>Introduction</title>
+              <p>Natural language processing (NLP) of free-text electronic health records (EHRs) presents rich opportunities for measuring outcomes that would otherwise require costly, laborious medical record abstraction.<sup><xref rid="zoi230070r1" ref-type="bibr">1</xref>,<xref rid="zoi230070r2" ref-type="bibr">2</xref>,<xref rid="zoi230070r3" ref-type="bibr">3</xref></sup> However, NLP can introduce inaccuracies and misclassify outcomes, particularly when measuring complex constructs.<sup><xref rid="zoi230070r4" ref-type="bibr">4</xref>,<xref rid="zoi230070r5" ref-type="bibr">5</xref>,<xref rid="zoi230070r6" ref-type="bibr">6</xref>,<xref rid="zoi230070r7" ref-type="bibr">7</xref></sup> Many statistical procedures common in clinical research ignore misclassification, and applying these procedures to imperfectly measured outcomes can lead to underpowered studies and improper estimates.<sup><xref rid="zoi230070r8" ref-type="bibr">8</xref>,<xref rid="zoi230070r9" ref-type="bibr">9</xref>,<xref rid="zoi230070r10" ref-type="bibr">10</xref></sup> In using NLP for clinical research, it is important to implement robust approaches to address NLP-related misclassification in study design and analysis.<sup><xref rid="zoi230070r9" ref-type="bibr">9</xref>,<xref rid="zoi230070r10" ref-type="bibr">10</xref></sup></p>
+              <p>Researchers in the fields of palliative care and serious illness communication have shown interest in using NLP<sup><xref rid="zoi230070r7" ref-type="bibr">7</xref>,<xref rid="zoi230070r11" ref-type="bibr">11</xref>,<xref rid="zoi230070r12" ref-type="bibr">12</xref>,<xref rid="zoi230070r13" ref-type="bibr">13</xref>,<xref rid="zoi230070r14" ref-type="bibr">14</xref></sup> to measure the occurrence and timing of EHR-documented goals-of-care discussions, an outcome that reflects clinicians’ assessment and documentation of patients’ values, goals, and treatment preferences.<sup><xref rid="zoi230070r15" ref-type="bibr">15</xref>,<xref rid="zoi230070r16" ref-type="bibr">16</xref></sup> This outcome represents a guideline-recommended best practice,<sup><xref rid="zoi230070r16" ref-type="bibr">16</xref>,<xref rid="zoi230070r17" ref-type="bibr">17</xref>,<xref rid="zoi230070r18" ref-type="bibr">18</xref>,<xref rid="zoi230070r19" ref-type="bibr">19</xref>,<xref rid="zoi230070r20" ref-type="bibr">20</xref></sup> an area of ongoing deficiencies,<sup><xref rid="zoi230070r21" ref-type="bibr">21</xref>,<xref rid="zoi230070r22" ref-type="bibr">22</xref>,<xref rid="zoi230070r23" ref-type="bibr">23</xref></sup> and a mediator of delivery of patient-centered care.<sup><xref rid="zoi230070r16" ref-type="bibr">16</xref>,<xref rid="zoi230070r24" ref-type="bibr">24</xref>,<xref rid="zoi230070r25" ref-type="bibr">25</xref>,<xref rid="zoi230070r26" ref-type="bibr">26</xref></sup> However, goals-of-care discussions are difficult to measure from structured EHR data or claims data, and their rarity within free-text records makes them costly to manually abstract at scale.<sup><xref rid="zoi230070r13" ref-type="bibr">13</xref>,<xref rid="zoi230070r27" ref-type="bibr">27</xref>,<xref rid="zoi230070r28" ref-type="bibr">28</xref>,<xref rid="zoi230070r29" ref-type="bibr">29</xref>,<xref rid="zoi230070r30" ref-type="bibr">30</xref></sup> Although NLP models have been developed to measure this and related constructs,<sup><xref rid="zoi230070r6" ref-type="bibr">6</xref>,<xref rid="zoi230070r7" ref-type="bibr">7</xref>,<xref rid="zoi230070r12" ref-type="bibr">12</xref>,<xref rid="zoi230070r13" ref-type="bibr">13</xref>,<xref rid="zoi230070r14" ref-type="bibr">14</xref>,<xref rid="zoi230070r31" ref-type="bibr">31</xref></sup> the linguistic complexity encountered in documented goals-of-care discussions continues to challenge NLP, and there is ongoing interest in refining NLP approaches to improve performance.<sup><xref rid="zoi230070r7" ref-type="bibr">7</xref>,<xref rid="zoi230070r14" ref-type="bibr">14</xref></sup></p>
+              <p>In this study, we used deep-learning NLP to measure the primary outcome of EHR-documented goals-of-care discussions in a large pragmatic trial of a communication-priming intervention for hospitalized patients.<sup><xref rid="zoi230070r32" ref-type="bibr">32</xref>,<xref rid="zoi230070r33" ref-type="bibr">33</xref></sup> We evaluated the sensitivity, specificity, and predictive values of our deep-learning NLP model through receiver operating characteristic (ROC) curves and precision-recall analyses and examined the effect of NLP-related misclassification on study power. We concluded by examining the performance, feasibility, and power implications of an NLP-screened human abstraction<sup><xref rid="zoi230070r34" ref-type="bibr">34</xref></sup> approach to measuring the primary outcome of the parent trial.</p>
+            </sec>
+            <sec id="H1-2-ZOI230070">
+              <title>Methods</title>
+              <p>This diagnostic study was conducted to inform selection of an outcome measurement strategy for a pragmatic randomized clinical trial of a communication-priming intervention for hospitalized patients (Project to Improve Communication About Serious Illness—Hospital Study: Pragmatic Trial 1 [PICSI-H Trial 1]).<sup><xref rid="zoi230070r32" ref-type="bibr">32</xref>,<xref rid="zoi230070r33" ref-type="bibr">33</xref></sup> All procedures for this study and the parent clinical trial were approved by the University of Washington institutional review board. Patients were enrolled under an institutional review board–approved waiver of informed consent and Health Insurance Portability and Accountability Act authorization due to minimal risk of the intervention, which was designed to promote best practices. Findings of the current study are reported in accordance with the Transparent Reporting of a Multivariable Prediction Model for Individual Prognosis or Diagnosis (<ext-link xlink:href="https://www.equator-network.org/reporting-guidelines/tripod-statement/" ext-link-type="uri">TRIPOD</ext-link>) reporting guideline.<sup><xref rid="zoi230070r35" ref-type="bibr">35</xref></sup></p>
+              <p>The trial enrolled patients hospitalized at any of 3 study hospitals who either had advanced age (≥80 years) or were aged 55 years or older and had a chronic life-limiting illness as defined by diagnosis codes used by the Dartmouth Atlas Project to study end-of-life care (eTable 1 in <xref rid="note-ZOI230070-1-s" ref-type="supplementary-material">Supplement 1</xref>).<sup><xref rid="zoi230070r36" ref-type="bibr">36</xref>,<xref rid="zoi230070r37" ref-type="bibr">37</xref>,<xref rid="zoi230070r38" ref-type="bibr">38</xref></sup> Eligible patients were enrolled under a waiver of informed consent and randomized in a 1:1 ratio to usual care or a clinician-facing prompting intervention designed to promote goals-of-care discussions. Clinicians caring for patients in the intervention arm received an e-mailed patient-specific document (“Jumpstart Guide”; eAppendix 1 in <xref rid="note-ZOI230070-1-s" ref-type="supplementary-material">Supplement 1</xref>) that suggested possible appropriateness of a goals-of-care discussion and provided communication prompts adapted from the VitalTalk communication training model.<sup><xref rid="zoi230070r39" ref-type="bibr">39</xref>,<xref rid="zoi230070r40" ref-type="bibr">40</xref></sup> The primary outcome was EHR documentation of a goals-of-care discussion within 30 days of randomization. Goals-of-care discussions were defined as discussion of the overarching aims of medical care for a patient<sup><xref rid="zoi230070r15" ref-type="bibr">15</xref></sup> and operationalized using a medical record abstraction manual (eAppendix 2 in <xref rid="note-ZOI230070-1-s" ref-type="supplementary-material">Supplement 1</xref>) adapted from a previous pilot trial.<sup><xref rid="zoi230070r14" ref-type="bibr">14</xref>,<xref rid="zoi230070r41" ref-type="bibr">41</xref></sup> We did not consider stand-alone code status discussions or citations of past advance care planning documents to be goals-of-care discussions. The outcome was measured in all notes written by inpatient and outpatient clinicians (physicians, residents, fellows, subinterns, nurse practitioners, and physician assistants) from the date of randomization to 30 days thereafter.</p>
+              <p>During planning, the trial was specified to use NLP to measure its primary outcome, with human abstraction as a backup strategy. However, because NLP approaches were developed concurrently with enrollment, the expected degree of NLP-related misclassification was not known at the time the trial began. The trial was initially specified to target a sample size of 2000 participants, which would result in 80% power to detect a difference in proportions of at least 6.2% (assuming a control arm proportion of 0.54 and 2-sided α of 0.05). However, this sample size determination did not consider the potential effect of NLP-related misclassification. Development, training, and testing of NLP models continued throughout enrollment, using data sources gathered from outside the trial.</p>
+              <p>Between April 23, 2020, and March 26, 2021, the trial enrolled 2512 patients. The prespecified enrollment target of 2000 was exceeded to increase the number of participants with Alzheimer disease and related dementias (ADRD), a prespecified subgroup. Following conclusion of enrollment and prior to unblinding and primary analyses, we froze our NLP program, evaluated NLP performance within a validation sample collected from the trial, and reevaluated the statistical power, human abstraction burden, and pragmatic implications of 3 strategies for measuring the primary outcome: (1) conventional manual abstraction, (2) NLP alone, and (3) NLP-screened human abstraction, in which only EHR passages scored by NLP above a predefined threshold would be reviewed by human abstractors for documented goals-of-care discussions.<sup><xref rid="zoi230070r34" ref-type="bibr">34</xref></sup></p>
+              <sec id="H2-1-ZOI230070">
+                <title>NLP Development and Model Training</title>
+                <p>We collected a training data set of 4642 EHR notes from 150 participants in a previous pilot trial of a similar patient- and clinician-facing communication-priming intervention at the same study hospitals (Project to Improve Communication About Serious Illness—Pilot Study [PICSI-P]) (eTable 1 in <xref rid="note-ZOI230070-1-s" ref-type="supplementary-material">Supplement 1</xref>).<sup><xref rid="zoi230070r41" ref-type="bibr">41</xref></sup> Using a codebook adapted from that used to measure the PICSI-P trial outcome (eAppendix 2 in <xref rid="note-ZOI230070-1-s" ref-type="supplementary-material">Supplement 1</xref>), 5 abstractors (including R.Y.L., J.T.) manually reviewed and coded these 4642 notes for documented goals-of-care discussions using the interface of a qualitative data analysis platform (Dedoose).<sup><xref rid="zoi230070r42" ref-type="bibr">42</xref></sup> Randomization was concealed from abstractors, and instances of disagreement were resolved by consensus.</p>
+                <p>We used the training data set to train Bio+ClinicalBERT, a publicly available and freely distributed deep-learning NLP model, to predict the presence of documented goals-of-care discussions in EHR text (eMethods in <xref rid="note-ZOI230070-1-s" ref-type="supplementary-material">Supplement 1</xref>).<sup><xref rid="zoi230070r43" ref-type="bibr">43</xref>,<xref rid="zoi230070r44" ref-type="bibr">44</xref></sup> BERT is a deep-learning NLP model developed by Google Research that is pretrained on large quantities of unlabeled text to build a foundation of linguistic information, including how words influence one another’s meaning in context, that can then be applied to a variety of NLP tasks.<sup><xref rid="zoi230070r45" ref-type="bibr">45</xref>,<xref rid="zoi230070r46" ref-type="bibr">46</xref>,<xref rid="zoi230070r47" ref-type="bibr">47</xref></sup> BERT contains a total of 110 million parameters for which values are fitted during pretraining.<sup><xref rid="zoi230070r45" ref-type="bibr">45</xref></sup> Bio+ClinicalBERT is an instance of BERT that was further pretrained on unlabeled biomedical literature and deidentified medical records from the MIMIC III (Medical Information Mart for Intensive Care) database.<sup><xref rid="zoi230070r43" ref-type="bibr">43</xref>,<xref rid="zoi230070r44" ref-type="bibr">44</xref>,<xref rid="zoi230070r48" ref-type="bibr">48</xref>,<xref rid="zoi230070r49" ref-type="bibr">49</xref></sup> To identify documented goals-of-care discussions, we used publicly available software interfaces<sup><xref rid="zoi230070r50" ref-type="bibr">50</xref></sup> to add a classification layer to Bio+ClinicalBERT and trained (“fine-tuned” in BERT parlance) the parameters of the composite model to the training data and its manually abstracted labels for goals-of-care content (<xref rid="zoi230070f1" ref-type="fig">Figure 1</xref>). As BERT models can only analyze text sequences of limited length (≤512 words or subwords), we used automated algorithms to split each note into component passages compatible with BERT (eMethods in <xref rid="note-ZOI230070-1-s" ref-type="supplementary-material">Supplement 1</xref>). The resulting fine-tuned model predicts the likelihood of goals-of-care content within any string of candidate text.</p>
+                <fig position="float" id="zoi230070f1" fig-type="figure">
+                  <label>Figure 1. </label>
+                  <caption>
+                    <title>Training, Prediction, and Validation of the Natural Language Processing (NLP) Model</title>
+                    <p>EHR indicates electronic health record; GOC, goals of care; PICSI-H Trial 1, Project to Improve Communication About Serious Illness—Hospital Study: Pragmatic Trial (Trial 1)<sup><xref rid="zoi230070r32" ref-type="bibr">32</xref>,<xref rid="zoi230070r33" ref-type="bibr">33</xref></sup>; and PICSI-P, Project to Improve Communication About Serious Illness—Pilot Study.<sup><xref rid="zoi230070r41" ref-type="bibr">41</xref></sup></p>
+                  </caption>
+                  <graphic xlink:href="jamanetwopen-e231204-g001" position="float"/>
+                </fig>
+              </sec>
+              <sec id="H2-2-ZOI230070">
+                <title>Trial Data Set and Validation Sample</title>
+                <p>Following conclusion of the PICSI-H Trial 1 outcome assessment period, we used automated database queries to collect all EHR notes authored by attending and trainee physicians, subintern medical students, nurse practitioners, and physician assistants between the date of randomization and 30 days thereafter. This yielded a PICSI-H Trial 1 data set of 44 324 notes from 2512 patients (<xref rid="zoi230070f1" ref-type="fig">Figure 1</xref> and eTable 2 in <xref rid="note-ZOI230070-1-s" ref-type="supplementary-material">Supplement 1</xref>). We randomly selected 159 of these trial participants (eTable 1 in <xref rid="note-ZOI230070-1-s" ref-type="supplementary-material">Supplement 1</xref>) for manual whole medical record abstraction, oversampling for patients with ADRD (80 of 159 [50%]), yielding a validation sample of 2480 notes (<xref rid="zoi230070f1" ref-type="fig">Figure 1</xref> and eTable 2 in <xref rid="note-ZOI230070-1-s" ref-type="supplementary-material">Supplement 1</xref>). A team of 4 abstractors (including J.T.) manually reviewed and coded all records in this validation sample using the same methods used to label the training data set. Randomization was concealed from abstractors, and instances of disagreement were resolved by consensus.</p>
+              </sec>
+              <sec id="H2-3-ZOI230070">
+                <title>Statistical Analysis</title>
+                <sec id="H3-1-ZOI230070">
+                  <title>Evaluating NLP Performance</title>
+                  <p>Following model training and manual abstraction of the validation sample, we used the trained BERT NLP model to predict the probability of documented goals-of-care discussions in all 2.64 million EHR passages (44 324 notes) of the PICSI-H Trial 1 data set. To characterize the expected performance of BERT NLP in the trial data set, we resampled the validation sample to reflect the prevalence of enrolled patients with ADRD (11%) and compared NLP-predicted probabilities for each note and patient against manual abstraction using ROC curves and precision-recall analyses. For all analyses, we report note- and patient-level performance, defining note- and patient-level probability as the maximum predicted probability for all constituent passages and defining the gold-standard label for each note and patient as the union of labels for all constituent passages. Statistical analyses were conducted using Stata/MP, version 17.0 (StataCorp LLC)<sup><xref rid="zoi230070r51" ref-type="bibr">51</xref></sup> with the roctab and prcurve packages.<sup><xref rid="zoi230070r52" ref-type="bibr">52</xref></sup></p>
+                </sec>
+                <sec id="H3-2-ZOI230070">
+                  <title>Misclassification-Adjusted Power Calculations</title>
+                  <p>To estimate the detectable risk difference in proportions of patients with documented goals-of-care discussions at a given power in the absence of misclassification, we assumed a control arm prevalence (<italic>p</italic><sub>1</sub>) of 33.5% based on preliminary data<sup><xref rid="zoi230070r21" ref-type="bibr">21</xref>,<xref rid="zoi230070r53" ref-type="bibr">53</xref></sup> and 2512 patients with 1:1 allocation and calculated the intervention arm proportion (<italic>p</italic><sub>2</sub>) that would maintain 80% power using a Pearson χ<sup>2</sup> test with 2-sided α of 0.05.<sup><xref rid="zoi230070r54" ref-type="bibr">54</xref>,<xref rid="zoi230070r55" ref-type="bibr">55</xref>,<xref rid="zoi230070r56" ref-type="bibr">56</xref></sup> To estimate detectable risk difference in the presence of nondifferential misclassification, we substituted sensitivity (<italic>se</italic>)– and specificity (<italic>sp</italic>)–corrected terms representing the observed proportions (<italic>p̂</italic><sub>1</sub>, <italic>p̂</italic><sub>2</sub>) into the same power calculation,<sup><xref rid="zoi230070r10" ref-type="bibr">10</xref>,<xref rid="zoi230070r57" ref-type="bibr">57</xref></sup> iterating across values of the true intervention arm proportion (<italic>p</italic><sub>2</sub>) to identify the value of actual risk difference (<italic>p</italic><sub>1 </sub>–<sub> </sub><italic>p</italic><sub>2</sub>) at which power to detect a difference between <italic>p̂</italic><sub>1</sub> and <italic>p̂</italic><sub>2</sub> equaled 80%. The terms for the observed proportions are defined by the following formulae presented by Devine<sup><xref rid="zoi230070r10" ref-type="bibr">10</xref></sup>:</p>
+                  <p><italic>p̂</italic><sub>1</sub> = <italic>se</italic> <italic>p̂</italic><sub>1</sub> + (1<sub> </sub>−<sub> </sub><italic>sp</italic>)(1<sub> </sub>−<sub> </sub><italic>p̂</italic><sub>1</sub>)</p>
+                  <p><italic>p̂</italic><sub>2</sub> = <italic>se</italic> <italic>p̂</italic><sub>2</sub> + (1 − <italic>sp</italic>)(1 − <italic>p̂</italic><sub>2</sub>)</p>
+                  <p>To empirically estimate statistical power in the presence of nondifferential misclassification, we performed Monte Carlo simulations constrained to the same sample sizes and control arm prevalence (<italic>p</italic><sub>1</sub>) over a range of risk differences (<italic>p<sub>2</sub></italic> – <italic>p<sub>1</sub></italic>) and values for patient-level sensitivity and specificity. For each of 10 000 replications, we generated true outcomes as binomial variates conditioned on the given values of <italic>n<sub>1</sub></italic>, <italic>n<sub>2</sub></italic>, <italic>p<sub>1</sub></italic>, and <italic>p<sub>2</sub></italic> and observed outcomes as binomial variates conditioned on the true outcome, sensitivity, and specificity. We then tested for an association between the observed outcome and treatment arm using a χ<sup>2</sup> test with 2-sided α of 0.05 and reported the proportion of replications that rejected the null hypothesis <italic>(H<sub>0</sub>:</italic> <italic>p̂<sub>1</sub></italic> <italic>=</italic> <italic>p̂<sub>2</sub></italic>) as the observed power. We used Bland-Altman analysis to compare observed power in simulations against misclassification-adjusted calculated power.<sup><xref rid="zoi230070r58" ref-type="bibr">58</xref></sup></p>
+                  <p>Power calculations and Monte Carlo simulations were performed using Stata/MP, version 17.0, and further parallelized for performance using the parallel Stata module, version 1.20.0.<sup><xref rid="zoi230070r59" ref-type="bibr">59</xref>,<xref rid="zoi230070r60" ref-type="bibr">60</xref></sup> The source code for misclassification-adjusted power calculations and simulation procedures is provided in eAppendix 3 in <xref rid="note-ZOI230070-1-s" ref-type="supplementary-material">Supplement 1</xref>. Data were visualized and analyzed using Stata/MP, the blandaltman Stata module,<sup><xref rid="zoi230070r61" ref-type="bibr">61</xref></sup> and Plotly Chart Studio (Plotly). Two-sided <italic>P</italic> &lt; .05 was considered significant.</p>
+                </sec>
+              </sec>
+            </sec>
+            <sec id="H1-3-ZOI230070">
+              <title>Results</title>
+              <p>Between April 23, 2020, and March 26, 2021, PICSI-H Trial 1 enrolled 2512 patients, whose baseline characteristics are presented in eTable 1 in <xref rid="note-ZOI230070-1-s" ref-type="supplementary-material">Supplement 1</xref>. The mean (SD) age was 71.7 (10.8) years; 1456 (58%) were female, 1056 (42%) were male, and most had 2 or more chronic life-limiting illness diagnoses (1281 [51%]).</p>
+              <sec id="H2-4-ZOI230070">
+                <title>Abstraction and Composition of Training and Validation Data Sets</title>
+                <p>In manual abstraction of 4642 EHR notes in the training data set, 340 notes (7%; belonging to 34 of 150 patients [23%]) contained documented goals-of-care discussions (eTable 2 in <xref rid="note-ZOI230070-1-s" ref-type="supplementary-material">Supplement 1</xref>). The training data set was abstracted using 287 abstractor-hours over a 4-month period.</p>
+                <p>In manual abstraction of 2840 EHR notes in the validation sample, 268 notes (9%; belonging to 54 of 159 patients [34%]) contained documented goals-of-care discussions (eTable 2 in <xref rid="note-ZOI230070-1-s" ref-type="supplementary-material">Supplement 1</xref>). Note- and patient-level prevalence of EHR-documented goals-of-care discussions were similar in patients with and without ADRD (note level: 113 of 1248 with ADRD [9%] vs 155 of 1232 without ADRD [13%]; χ<sup>2</sup>
+<italic>P</italic> = .81; patient level: 25 of 80 with ADRD [31%] vs 29 of 79 without ADRD [37%]; χ<sup>2</sup>
+<italic>P</italic> = .47). Adjusted for ADRD, 12.2% of notes and 36.1% of patients in the validation sample had an EHR-documented goals-of-care discussion. The validation sample was abstracted using 204 abstractor-hours over a 6-month period.</p>
+              </sec>
+              <sec id="H2-5-ZOI230070">
+                <title>BERT NLP Performance in the Validation Sample</title>
+                <p>In comparing BERT NLP predictions with manual abstraction in the validation sample, BERT NLP demonstrated note- and patient-level areas under the ROC curve of 0.962 and 0.924, respectively (<xref rid="zoi230070f2" ref-type="fig">Figure 2</xref>). The note- and patient-level areas under the precision-recall curve were 0.824 and 0.879, respectively, and the maximal observed note- and patient-level F<sub>1</sub> scores were 0.77 and 0.82, respectively. We also report the observed note- and patient-level sensitivity, specificity, positive and negative predictive values, and F<sub>1</sub> scores at select predefined thresholds (<xref rid="zoi230070t1" ref-type="table">Table</xref>).</p>
+                <fig position="float" id="zoi230070f2" fig-type="figure">
+                  <label>Figure 2. </label>
+                  <caption>
+                    <title>Performance of BERT Natural Language Processing in Classifying 30-Day Documented Goals-of-Care Discussions at Note and Patient Levels in a 159-Patient, 2480-Note Internal Validation Sample</title>
+                    <p>Representative values of sensitivity, specificity, positive and negative predictive values, and F1 scores from these curves are presented in the Table. B, Dotted lines indicate nondiscriminating classifiers. AUC indicates area under the receiver operating characteristic curve; AUPRC, area under the precision-recall curve; and PPV, positive predictive value.</p>
+                  </caption>
+                  <graphic xlink:href="jamanetwopen-e231204-g002" position="float"/>
+                </fig>
+                <table-wrap position="float" id="zoi230070t1">
+                  <label>Table. </label>
+                  <caption>
+                    <title>Performance Metrics for BERT NLP in Classifying 30-Day Documented Goals-of-Care Discussions at Note and Patient Levels in a 159-Patient, 2480-Note Internal Validation Sample<xref rid="zoi230070t1n1" ref-type="table-fn"><sup>a</sup></xref></title>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <col width="25.42%" span="1"/>
+                    <col width="10.82%" span="1"/>
+                    <col width="10.82%" span="1"/>
+                    <col width="10.82%" span="1"/>
+                    <col width="10.83%" span="1"/>
+                    <col width="9.47%" span="1"/>
+                    <col width="10.91%" span="1"/>
+                    <col width="10.91%" span="1"/>
+                    <thead>
+                      <tr>
+                        <th rowspan="2" valign="top" align="left" scope="col" colspan="1">Unit of classification</th>
+                        <th colspan="4" valign="top" align="left" scope="colgroup" rowspan="1">Metric, %</th>
+                        <th rowspan="2" valign="top" align="left" scope="col" colspan="1">F<sub>1</sub> score</th>
+                        <th rowspan="2" valign="top" align="left" scope="col" colspan="1">AUC</th>
+                        <th rowspan="2" valign="top" align="left" scope="col" colspan="1">AUPRC</th>
+                      </tr>
+                      <tr>
+                        <th valign="top" colspan="1" align="left" scope="colgroup" rowspan="1">Sensitivity</th>
+                        <th valign="top" align="left" scope="col" rowspan="1" colspan="1">Specificity</th>
+                        <th valign="top" align="left" scope="col" rowspan="1" colspan="1">PPV</th>
+                        <th valign="top" align="left" scope="col" rowspan="1" colspan="1">NPV</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td rowspan="3" valign="top" align="left" scope="row" colspan="1">Note level (n = 2480)</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">70.1</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">98.1</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">83.6</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">95.9</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.76</td>
+                        <td rowspan="3" valign="middle" align="left" colspan="1">0.962</td>
+                        <td rowspan="3" valign="middle" align="left" colspan="1">0.824</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" colspan="1" align="left" scope="row" rowspan="1">79.9</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">94.5</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">66.9</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">97.1</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.73</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" colspan="1" align="left" scope="row" rowspan="1">89.7</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">88.1</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">51.0</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">98.4</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.65</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="3" valign="top" align="left" scope="row" colspan="1">Patient level (n = 159)</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">70.0</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">92.8</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">84.5</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">84.6</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.77</td>
+                        <td rowspan="3" valign="middle" align="left" colspan="1">0.924</td>
+                        <td rowspan="3" valign="middle" align="left" colspan="1">0.879</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" colspan="1" align="left" scope="row" rowspan="1">79.4</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">91.0</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">83.3</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">88.6</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.81</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" colspan="1" align="left" scope="row" rowspan="1">89.5</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">69.5</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">62.3</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">92.1</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.73</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <p>Abbreviations: AUC, area under the receiver operating characteristic curve; AUPRC, area under the precision-recall curve; NLP, natural language processing; NPV, negative predictive value; PPV, positive predictive value.</p>
+                    <fn id="zoi230070t1n1">
+                      <label>
+                        <sup>a</sup>
+                      </label>
+                      <p>Performance metrics are shown at observed discrimination thresholds with sensitivities closest to prespecified values of 70%, 80%, and 90%.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+              <sec id="H2-6-ZOI230070">
+                <title>Power Estimates With and Without Misclassification</title>
+                <p>In conventional power analysis (which assumes no misclassification), we calculated that the trial (N = 2512; 1:1 allocation; assumed <italic>p<sub>1</sub></italic> of 33.5%) would have 80% power to detect a risk difference of 5.4% with 2-sided α of 0.05. Misclassification-adjusted calculations of detectable risk difference at 80% power across ranges of outcome sensitivity and specificity demonstrated a superlinear increase in detectable risk difference (ie, loss of power) with decreasing sensitivity or specificity (<xref rid="zoi230070f3" ref-type="fig">Figure 3</xref>). Notably, at this sample size, the detectable risk difference remained under 10% even with substantial misclassification (eg, sensitivity 80%, specificity 80%). Monte Carlo simulations across ranges of sensitivity, specificity, and risk difference demonstrated excellent agreement between calculated and observed (simulated) power in Bland-Altman analysis (eFigure 1 in <xref rid="note-ZOI230070-1-s" ref-type="supplementary-material">Supplement 1</xref>).</p>
+                <fig position="float" id="zoi230070f3" fig-type="figure">
+                  <label>Figure 3. </label>
+                  <caption>
+                    <title>Detectable Risk Difference Over Classifier Performance</title>
+                    <p>Assumptions: n1 = 1256; n2 = 1256; p1 = 0.335; power = 0.8; and 2-sided α = .05. An interactive 3-D plot is available at <ext-link xlink:href="https://chart-studio.plotly.com/~rlee06uw/14/" ext-link-type="uri">https://chart-studio.plotly.com/~rlee06uw/14/#/</ext-link>.</p>
+                  </caption>
+                  <graphic xlink:href="jamanetwopen-e231204-g003" position="float"/>
+                </fig>
+              </sec>
+              <sec id="H2-7-ZOI230070">
+                <title>Comparison of Outcome Measurement Strategies</title>
+                <p>We evaluated 3 strategies for measuring the primary outcome: manual human abstraction, BERT NLP alone, and BERT NLP–screened human abstraction. The first approach, manual human abstraction, is the de facto gold standard and would power the study to detect a risk difference of 5.4%. Our experience suggested that individual abstractors could perform this abstraction task for up to 3 hours per day before experiencing excessive fatigue. To estimate the number of hours required for complete manual abstraction of the trial data set, we scaled the known abstractor-hours required to collect data for the validation sample to the entire trial data set, yielding an estimate of approximately 3000 abstractor-hours (ie, 67 work weeks for a team of 3 abstractors devoting 3 hours per day to this task; costing $195 000 at a rate of $65 per hour). Based on estimates from the validation sample, constraining abstractors to records from randomization to the first EHR-documented goals-of-care discussion (or 30 days if none was present) would reduce this estimate to approximately 2000 abstractor-hours (ie, 45 work weeks for a team of 3 abstractors, or $130 000 at a rate of $65 per hour).</p>
+                <p>In the second approach, BERT NLP alone, the primary outcome could be measured with any combination of sensitivity and specificity represented on the ROC curve in <xref rid="zoi230070f2" ref-type="fig">Figure 2</xref>. Based on the calculated detectable risk differences shown in <xref rid="zoi230070f3" ref-type="fig">Figure 3</xref>, a BERT NLP model implemented with a discrimination threshold corresponding to a maximal patient-level F<sub>1</sub> (82.5% sensitivity, 89.2% specificity) would power the study to detect a risk difference of 7.6% compared with 5.4% without misclassification.</p>
+                <p>In the third approach, BERT NLP–screened human abstraction, only EHR passages that were scored by NLP above a predefined threshold would be reviewed by human abstractors for documented goals-of-care discussions.<sup><xref rid="zoi230070r34" ref-type="bibr">34</xref></sup> We used the results shown in <xref rid="zoi230070f3" ref-type="fig">Figure 3</xref> to determine the detectable risk difference at 80% power across a range of sensitivities and 100% specificity (<xref rid="zoi230070f4" ref-type="fig">Figure 4</xref> and eFigure 2 in <xref rid="note-ZOI230070-1-s" ref-type="supplementary-material">Supplement 1</xref>) and to estimate patient-level sensitivity and number of EHR passages requiring human verification to achieve complete outcome data from randomization to the first human-confirmed documented goals-of-care discussion (or 30 days if none was present) across a representative range of screening thresholds (<xref rid="zoi230070f4" ref-type="fig">Figure 4</xref>). All misclassification-adjusted power calculations under these constraints were again consistent with Monte Carlo simulations (eFigure 2 in <xref rid="note-ZOI230070-1-s" ref-type="supplementary-material">Supplement 1</xref>). Based on these data and the time and resources available, we elected to measure the primary outcome using NLP-screened human abstraction at a screening threshold corresponding to 92.6% estimated patient-level sensitivity. At this threshold, there were 22 187 EHR passages (0.8% of all 2.64 million passages) from 11 287 notes and 1957 patients that screened positive by NLP. Assuming 33.5% control-arm prevalence, abstraction of all NLP-positive passages from randomization to the first human-confirmed documented goals-of-care discussion (or 30 days if none was present) would power the trial to detect a risk difference of 5.7% at 80% power with 2-sided α of 0.05 and was estimated to require manual abstraction of approximately 8500 NLP-screened EHR passages containing a median of 52 words each (IQR, 25-101 words) (<xref rid="zoi230070f4" ref-type="fig">Figure 4</xref>). Following this decision, 3 research coordinators (including J.T.) adjudicated 7494 EHR passages using 34.3 abstractor-hours over a 3-week period to complete primary outcome measurements for all trial participants from randomization to the first goals-of-care discussion (or 30 days if none was present) at the given screening threshold. The NLP-screened passages were adjudicated by abstractors in a random order, and abstractors were blinded to patient randomization.</p>
+                <fig position="float" id="zoi230070f4" fig-type="figure">
+                  <label>Figure 4. </label>
+                  <caption>
+                    <title>Detectable Risk Difference vs Sensitivity of Natural Language Processing (NLP)–Screened Human Abstraction</title>
+                    <p>In considering the use of NLP-screened human abstraction to measure the trial outcome, we evaluated the added utility of human verification of NLP-positive passages compared with NLP alone. Measuring the outcome using NLP alone (square) would have powered the trial to detect a risk difference (RD) of 7.6%. Measuring the outcome using NLP-screened human abstraction would improve power (ie, decrease detectable risk difference) at the cost of the number of passages requiring human verification; this cost increases in a superlinear manner as the screening threshold moves toward higher sensitivity. We ultimately chose to measure the outcome using NLP-screened human abstraction at a sensitivity of 92.6% (circles), which powered the trial to detect a risk difference of 5.7% at the predicted cost of human verification of 8500 NLP-screened electronic health record (EHR) passages. Assumptions: n1 = 1256; n2 = 1256; p1 = 0.335; 2-sided α = .05; power = 0.8. The relationship between power, sensitivity, and detectable risk difference is shown in eFigure 2 in <xref rid="note-ZOI230070-1-s" ref-type="supplementary-material">Supplement 1</xref>.</p>
+                    <p><sup>a</sup>Sensitivity and detectable risk difference of BERT NLP alone at the discrimination threshold corresponding to maximal patient-level F<sub>1</sub> score (82.5% sensitivity, 89.2% specificity).</p>
+                    <p><sup>b</sup>Sensitivity of NLP-screened human abstraction at the screening threshold selected for the clinical trial.</p>
+                    <p><sup>c</sup>At 100% sensitivity (perfect classifier; diamonds), the estimated number of NLP-positive EHR passages requiring human abstraction for complete outcomes from date of randomization to first goals-of-care discussion was approximately 1.2 million. Passages contained a median of 52 words each (IQR, 25-101 words).</p>
+                  </caption>
+                  <graphic xlink:href="jamanetwopen-e231204-g004" position="float"/>
+                </fig>
+              </sec>
+            </sec>
+            <sec id="H1-4-ZOI230070">
+              <title>Discussion</title>
+              <p>In this diagnostic study, we examined the novel use of deep-learning–based NLP to measure a complex outcome from unstructured EHR text in a large pragmatic clinical trial. We also demonstrated and validated the use of statistical methods to quantitatively assess the effects of NLP-related misclassification on study power at a given sample size.</p>
+              <p>Natural language processing–screened human abstraction represents an efficient and useful approach for measuring EHR outcomes in large pragmatic studies and is increasingly used to measure palliative care outcomes similar to the one we examined.<sup><xref rid="zoi230070r34" ref-type="bibr">34</xref>,<xref rid="zoi230070r62" ref-type="bibr">62</xref>,<xref rid="zoi230070r63" ref-type="bibr">63</xref>,<xref rid="zoi230070r64" ref-type="bibr">64</xref>,<xref rid="zoi230070r65" ref-type="bibr">65</xref></sup> In the 2512-patient PICSI-H Trial 1, measuring the primary outcome using conventional manual abstraction would have required thousands of abstractor-hours, which is both costly and time consuming. In contrast, NLP-screened human abstraction allowed investigators to make up-front investments in developing NLP and collecting training and validation data and then measure the primary outcome during a smaller number of abstractor-hours with acceptable losses in sensitivity and power. Misclassification-adjusted interim power analyses allowed investigators to select a strategy for measuring the primary outcome that best balanced statistical power with abstractor time and resources.</p>
+              <p>Researchers considering NLP or NLP-aided approaches to measuring outcomes should consider the effects of the outcome measurement strategy on the statistical power, costs, and validity of the trial. In this study, we demonstrated 2 simple methods for researchers to perform misclassification-adjusted power calculations, and we encourage the uptake of this approach in the design of future trials.<sup><xref rid="zoi230070r9" ref-type="bibr">9</xref>,<xref rid="zoi230070r10" ref-type="bibr">10</xref></sup> We also demonstrated the utility of NLP-screened human abstraction<sup><xref rid="zoi230070r34" ref-type="bibr">34</xref></sup> to measure trial outcomes from the EHR. It should be noted that in implementing NLP-screened human abstraction of EHR passages, both the expected sensitivity and the number of EHR passages that require human verification are functions of the selected NLP screening threshold in a given data set; an analysis such as that shown in <xref rid="zoi230070f4" ref-type="fig">Figure 4</xref> may help investigators select the most appropriate screening threshold for their study. Notably, at a given threshold score, the patient-level sensitivity of NLP-screened human abstraction can be lower than that of NLP alone due to the potential presence of documented goals-of-care discussions scoring beneath the screening threshold in patients for whom all NLP-positive passages are false-positive. Because of this, studies that use NLP-screened human abstraction of EHR passages must estimate patient-level sensitivity at a given screening threshold in the sample population either by statistical methods or by testing within validation data sampled at the patient level.</p>
+              <p>Perhaps the most conspicuous limitation of using NLP to measure clinical research outcomes is the investment required to implement NLP. Although this investment may be minimal for outcomes that are easily detected using rule-based NLP, identifying more complex constructs such as the one investigated here may require substantial software development and acquisition of training and validation data. Our research group has spent more than 500 developer-hours implementing this NLP model, in addition to 491 abstractor-hours spent collecting training and validation data. We anticipate that the cost of implementing high-performing pretrained NLP models will decrease as the field matures. Additionally, many NLP development costs are fixed with respect to the number of study participants, and many aspects of NLP development are transferrable to other studies and research questions. Although our BERT NLP model is not yet portable due to the privacy risks associated with training on identifiable protected health information,<sup><xref rid="zoi230070r66" ref-type="bibr">66</xref></sup> we believe it represents a first step toward the development of a publicly available, validated, and generalizable BERT NLP model for identifying EHR-documented goals-of-care discussions.</p>
+              <sec id="H2-8-ZOI230070">
+                <title>Limitations</title>
+                <p>Our study has several important limitations. First, our model was trained and validated on data from a single health system, and its performance may not generalize to other systems. Future external validation and efforts to improve explainability of deep learning models<sup><xref rid="zoi230070r67" ref-type="bibr">67</xref>,<xref rid="zoi230070r68" ref-type="bibr">68</xref></sup> will be important to developing models that generalize across health systems. Second, our model was validated within a relatively small sample of 159 patients, which limits our assessment of generalizability outside the validation sample. Although the performance observed in the validation sample was comparable with that observed in within-training-set leave-one-group-out cross-validation procedures, these estimates have the same limitation of small sample size. Given the high cost of abstracting this outcome per patient hospitalization, future validation of NLP models measuring this outcome should consider alternative sampling strategies or statistical methods that account for incomplete reference data.<sup><xref rid="zoi230070r69" ref-type="bibr">69</xref>,<xref rid="zoi230070r70" ref-type="bibr">70</xref></sup> Third, the limited diversity of the validation sample limited our ability to examine potential patient-level biases in the resulting model.<sup><xref rid="zoi230070r71" ref-type="bibr">71</xref></sup> It is possible that our model performs differently across variables such as race, ethnicity, gender, or other clinical and socioecological patient characteristics. While such differential performance is less likely to bias the findings of a randomized clinical trial (in which predictors are randomly distributed between groups), observational studies of NLP-measured outcomes must consider differential misclassification over exposures as a potential source of bias. This issue is particularly salient for palliative care researchers due to the known role of race, ethnicity, and racism in palliative care disparities.<sup><xref rid="zoi230070r53" ref-type="bibr">53</xref>,<xref rid="zoi230070r72" ref-type="bibr">72</xref></sup> As clinical NLP matures toward developing clinical predictive models, it will be imperative to thoroughly validate model performance and generalizability over diverse socioecological groups to avoid perpetuating health disparities. Fourth, although NLP-screened human abstraction may facilitate larger sample sizes than manual data collection, the scalability of this approach is inherently limited by variable costs of human abstraction that increase with sample size. Fifth, our conclusions for researchers are not applicable to all clinical outcomes. Although the outcome we examined is linguistically complex, other outcomes of interest may be even more difficult to classify using EHR text, and the potential of NLP to screen for or measure such outcomes may be limited. Sixth, we did not examine the effects of NLP-related outcome misclassification on estimates of exposure-outcome associations. Recent advances in statistical methods that account for outcome misclassification have shown promise for enhancing the validity of such estimates,<sup><xref rid="zoi230070r8" ref-type="bibr">8</xref>,<xref rid="zoi230070r9" ref-type="bibr">9</xref>,<xref rid="zoi230070r73" ref-type="bibr">73</xref>,<xref rid="zoi230070r74" ref-type="bibr">74</xref></sup> and we believe clinical researchers who use NLP to measure outcomes should consider adopting such methods in their analyses.</p>
+              </sec>
+            </sec>
+            <sec id="H1-5-ZOI230070">
+              <title>Conclusions</title>
+              <p>In this diagnostic study evaluating the use of deep-learning NLP to measure EHR-documented goals-of-care discussions, we measured the primary outcome of a large pragmatic clinical trial using NLP-screened human abstraction with acceptable sensitivity and substantial savings in abstractor-hours. Our experience demonstrated that NLP may facilitate clinical research studies that would otherwise be infeasible due to the costs of manual medical record abstraction. Misclassification-adjusted power calculations quantified power loss from NLP-related misclassification, suggesting that incorporation of this approach into the design of future studies that use NLP to measure outcomes would be beneficial.</p>
+            </sec>
+          </body>
+          <back>
+            <ref-list id="REF-ZOI230070">
+              <title>References</title>
+              <ref id="zoi230070r1">
+                <label>1</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Yim</surname><given-names>WW</given-names></string-name>, <string-name><surname>Yetisgen</surname><given-names>M</given-names></string-name>, <string-name><surname>Harris</surname><given-names>WP</given-names></string-name>, <string-name><surname>Kwan</surname><given-names>SW</given-names></string-name></person-group>. <article-title>Natural language processing in oncology: a review</article-title>. <source>JAMA Oncol</source>. <year>2016</year>;<volume>2</volume>(<issue>6</issue>):<fpage>797</fpage>-<lpage>804</lpage>. doi:<pub-id pub-id-type="doi">10.1001/jamaoncol.2016.0213</pub-id><?supplied-pmid 27124593?><pub-id pub-id-type="pmid">27124593</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r2">
+                <label>2</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Wu</surname><given-names>S</given-names></string-name>, <string-name><surname>Roberts</surname><given-names>K</given-names></string-name>, <string-name><surname>Datta</surname><given-names>S</given-names></string-name>, <etal/></person-group>. <article-title>Deep learning in clinical natural language processing: a methodical review</article-title>. <source>J Am Med Inform Assoc</source>. <year>2020</year>;<volume>27</volume>(<issue>3</issue>):<fpage>457</fpage>-<lpage>470</lpage>. doi:<pub-id pub-id-type="doi">10.1093/jamia/ocz200</pub-id><?supplied-pmid 31794016?><pub-id pub-id-type="pmid">31794016</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r3">
+                <label>3</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Curtis</surname><given-names>JR</given-names></string-name>, <string-name><surname>Sathitratanacheewin</surname><given-names>S</given-names></string-name>, <string-name><surname>Starks</surname><given-names>H</given-names></string-name>, <etal/></person-group>. <article-title>Using electronic health records for quality measurement and accountability in care of the seriously ill: opportunities and challenges</article-title>. <source>J Palliat Med</source>. <year>2018</year>;<volume>21</volume>(<issue>S2</issue>):<fpage>S52</fpage>-<lpage>S60</lpage>. doi:<pub-id pub-id-type="doi">10.1089/jpm.2017.0542</pub-id><?supplied-pmid 29182487?><pub-id pub-id-type="pmid">29182487</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r4">
+                <label>4</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Luo</surname><given-names>Y</given-names></string-name>, <string-name><surname>Thompson</surname><given-names>WK</given-names></string-name>, <string-name><surname>Herr</surname><given-names>TM</given-names></string-name>, <etal/></person-group>. <article-title>Natural language processing for EHR-based pharmacovigilance: a structured review</article-title>. <source>Drug Saf</source>. <year>2017</year>;<volume>40</volume>(<issue>11</issue>):<fpage>1075</fpage>-<lpage>1089</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s40264-017-0558-6</pub-id><?supplied-pmid 28643174?><pub-id pub-id-type="pmid">28643174</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r5">
+                <label>5</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Bejan</surname><given-names>CA</given-names></string-name>, <string-name><surname>Angiolillo</surname><given-names>J</given-names></string-name>, <string-name><surname>Conway</surname><given-names>D</given-names></string-name>, <etal/></person-group>. <article-title>Mining 100 million notes to find homelessness and adverse childhood experiences: 2 case studies of rare and severe social determinants of health in electronic health records</article-title>. <source>J Am Med Inform Assoc</source>. <year>2018</year>;<volume>25</volume>(<issue>1</issue>):<fpage>61</fpage>-<lpage>71</lpage>. doi:<pub-id pub-id-type="doi">10.1093/jamia/ocx059</pub-id><?supplied-pmid 29016793?><pub-id pub-id-type="pmid">29016793</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r6">
+                <label>6</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Lindvall</surname><given-names>C</given-names></string-name>, <string-name><surname>Lilley</surname><given-names>EJ</given-names></string-name>, <string-name><surname>Zupanc</surname><given-names>SN</given-names></string-name>, <etal/></person-group>. <article-title>Natural language processing to assess end-of-life quality indicators in cancer patients receiving palliative surgery</article-title>. <source>J Palliat Med</source>. <year>2019</year>;<volume>22</volume>(<issue>2</issue>):<fpage>183</fpage>-<lpage>187</lpage>. doi:<pub-id pub-id-type="doi">10.1089/jpm.2018.0326</pub-id><?supplied-pmid 30328764?><pub-id pub-id-type="pmid">30328764</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r7">
+                <label>7</label>
+                <mixed-citation publication-type="confproc">Chien I, Shi A, Chan A, Lindvall C. Identification of serious illness conversations in unstructured clinical notes using deep neural networks. In: Koch F, Koster A, Bichindaritz I, et al, eds. <italic>Artificial Intelligence in Health: First International Workshop, AIH 2018, Stockholm, Sweden, July 13-14, 2018, Revised Selected Papers</italic>. Springer Nature Switzerland; 2019:199-212. </mixed-citation>
+              </ref>
+              <ref id="zoi230070r8">
+                <label>8</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Brakenhoff</surname><given-names>TB</given-names></string-name>, <string-name><surname>Mitroiu</surname><given-names>M</given-names></string-name>, <string-name><surname>Keogh</surname><given-names>RH</given-names></string-name>, <string-name><surname>Moons</surname><given-names>KGM</given-names></string-name>, <string-name><surname>Groenwold</surname><given-names>RHH</given-names></string-name>, <string-name><surname>van Smeden</surname><given-names>M</given-names></string-name></person-group>. <article-title>Measurement error is often neglected in medical literature: a systematic review</article-title>. <source>J Clin Epidemiol</source>. <year>2018</year>;<volume>98</volume>:<fpage>89</fpage>-<lpage>97</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jclinepi.2018.02.023</pub-id><?supplied-pmid 29522827?><pub-id pub-id-type="pmid">29522827</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r9">
+                <label>9</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Keogh</surname><given-names>RH</given-names></string-name>, <string-name><surname>Shaw</surname><given-names>PA</given-names></string-name>, <string-name><surname>Gustafson</surname><given-names>P</given-names></string-name>, <etal/></person-group>. <article-title>STRATOS guidance document on measurement error and misclassification of variables in observational epidemiology: part 1—basic theory and simple methods of adjustment</article-title>. <source>Stat Med</source>. <year>2020</year>;<volume>39</volume>(<issue>16</issue>):<fpage>2197</fpage>-<lpage>2231</lpage>. doi:<pub-id pub-id-type="doi">10.1002/sim.8532</pub-id><?supplied-pmid 32246539?><pub-id pub-id-type="pmid">32246539</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r10">
+                <label>10</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Devine</surname><given-names>O</given-names></string-name></person-group>. <article-title>The impact of ignoring measurement error when estimating sample size for epidemiologic studies</article-title>. <source>Eval Health Prof</source>. <year>2003</year>;<volume>26</volume>(<issue>3</issue>):<fpage>315</fpage>-<lpage>339</lpage>. doi:<pub-id pub-id-type="doi">10.1177/0163278703255232</pub-id><?supplied-pmid 12971202?><pub-id pub-id-type="pmid">12971202</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r11">
+                <label>11</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Udelsman</surname><given-names>BV</given-names></string-name>, <string-name><surname>Moseley</surname><given-names>ET</given-names></string-name>, <string-name><surname>Sudore</surname><given-names>RL</given-names></string-name>, <string-name><surname>Keating</surname><given-names>NL</given-names></string-name>, <string-name><surname>Lindvall</surname><given-names>C</given-names></string-name></person-group>. <article-title>Deep natural language processing identifies variation in care preference documentation</article-title>. <source>J Pain Symptom Manage</source>. <year>2020</year>;<volume>59</volume>(<issue>6</issue>):<fpage>1186</fpage>-<lpage>1194.e3</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jpainsymman.2019.12.374</pub-id><?supplied-pmid 31926970?><pub-id pub-id-type="pmid">31926970</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r12">
+                <label>12</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Chan</surname><given-names>A</given-names></string-name>, <string-name><surname>Chien</surname><given-names>I</given-names></string-name>, <string-name><surname>Moseley</surname><given-names>E</given-names></string-name>, <etal/></person-group>. <article-title>Deep learning algorithms to identify documentation of serious illness conversations during intensive care unit admissions</article-title>. <source>Palliat Med</source>. <year>2019</year>;<volume>33</volume>(<issue>2</issue>):<fpage>187</fpage>-<lpage>196</lpage>. doi:<pub-id pub-id-type="doi">10.1177/0269216318810421</pub-id><?supplied-pmid 30427267?><pub-id pub-id-type="pmid">30427267</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r13">
+                <label>13</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Lee</surname><given-names>RY</given-names></string-name>, <string-name><surname>Brumback</surname><given-names>LC</given-names></string-name>, <string-name><surname>Lober</surname><given-names>WB</given-names></string-name>, <etal/></person-group>. <article-title>Identifying goals of care conversations in the electronic health record using natural language processing and machine learning</article-title>. <source>J Pain Symptom Manage</source>. <year>2021</year>;<volume>61</volume>(<issue>1</issue>):<fpage>136</fpage>-<lpage>142.e2</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jpainsymman.2020.08.024</pub-id><?supplied-pmid 32858164?><pub-id pub-id-type="pmid">32858164</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r14">
+                <label>14</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Uyeda</surname><given-names>AM</given-names></string-name>, <string-name><surname>Curtis</surname><given-names>JR</given-names></string-name>, <string-name><surname>Engelberg</surname><given-names>RA</given-names></string-name>, <etal/></person-group>. <article-title>Mixed-methods evaluation of three natural language processing modeling approaches for measuring documented goals-of-care discussions in the electronic health record</article-title>. <source>J Pain Symptom Manage</source>. <year>2022</year>;<volume>63</volume>(<issue>6</issue>):<fpage>e713</fpage>-<lpage>e723</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jpainsymman.2022.02.006</pub-id><?supplied-pmid 35182715?><pub-id pub-id-type="pmid">35182715</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r15">
+                <label>15</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Secunda</surname><given-names>K</given-names></string-name>, <string-name><surname>Wirpsa</surname><given-names>MJ</given-names></string-name>, <string-name><surname>Neely</surname><given-names>KJ</given-names></string-name>, <etal/></person-group>. <article-title>Use and meaning of “goals of care” in the healthcare literature: a systematic review and qualitative discourse analysis</article-title>. <source>J Gen Intern Med</source>. <year>2020</year>;<volume>35</volume>(<issue>5</issue>):<fpage>1559</fpage>-<lpage>1566</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11606-019-05446-0</pub-id><?supplied-pmid 31637653?><pub-id pub-id-type="pmid">31637653</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r16">
+                <label>16</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Bernacki</surname><given-names>RE</given-names></string-name>, <string-name><surname>Block</surname><given-names>SD</given-names></string-name>; <collab>American College of Physicians High Value Care Task Force</collab></person-group>. <article-title>Communication about serious illness care goals: a review and synthesis of best practices</article-title>. <source>JAMA Intern Med</source>. <year>2014</year>;<volume>174</volume>(<issue>12</issue>):<fpage>1994</fpage>-<lpage>2003</lpage>. doi:<pub-id pub-id-type="doi">10.1001/jamainternmed.2014.5271</pub-id><?supplied-pmid 25330167?><pub-id pub-id-type="pmid">25330167</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r17">
+                <label>17</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Davidson</surname><given-names>JE</given-names></string-name>, <string-name><surname>Powers</surname><given-names>K</given-names></string-name>, <string-name><surname>Hedayat</surname><given-names>KM</given-names></string-name>, <etal/>; <collab>American College of Critical Care Medicine Task Force 2004-2005, Society of Critical Care Medicine</collab></person-group>. <article-title>Clinical practice guidelines for support of the family in the patient-centered intensive care unit: American College of Critical Care Medicine Task Force 2004-2005</article-title>. <source>Crit Care Med</source>. <year>2007</year>;<volume>35</volume>(<issue>2</issue>):<fpage>605</fpage>-<lpage>622</lpage>. doi:<pub-id pub-id-type="doi">10.1097/01.CCM.0000254067.14607.EB</pub-id><?supplied-pmid 17205007?><pub-id pub-id-type="pmid">17205007</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r18">
+                <label>18</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Halpern</surname><given-names>SD</given-names></string-name>, <string-name><surname>Becker</surname><given-names>D</given-names></string-name>, <string-name><surname>Curtis</surname><given-names>JR</given-names></string-name>, <etal/>; <collab>Choosing Wisely Taskforce</collab>; <collab>American Thoracic Society</collab>; <collab>American Association of Critical-Care Nurses</collab>; <collab>Society of Critical Care Medicine</collab></person-group>. <article-title>An official American Thoracic Society/American Association of Critical-Care Nurses/American College of Chest Physicians/Society of Critical Care Medicine policy statement: the Choosing Wisely Top 5 list in Critical Care Medicine</article-title>. <source>Am J Respir Crit Care Med</source>. <year>2014</year>;<volume>190</volume>(<issue>7</issue>):<fpage>818</fpage>-<lpage>826</lpage>. doi:<pub-id pub-id-type="doi">10.1164/rccm.201407-1317ST</pub-id><?supplied-pmid 25271745?><pub-id pub-id-type="pmid">25271745</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r19">
+                <label>19</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Kon</surname><given-names>AA</given-names></string-name>, <string-name><surname>Davidson</surname><given-names>JE</given-names></string-name>, <string-name><surname>Morrison</surname><given-names>W</given-names></string-name>, <string-name><surname>Danis</surname><given-names>M</given-names></string-name>, <string-name><surname>White</surname><given-names>DB</given-names></string-name></person-group>. <article-title>Shared decision-making in intensive care units: executive summary of the American College of Critical Care Medicine and American Thoracic Society policy statement</article-title>. <source>Am J Respir Crit Care Med</source>. <year>2016</year>;<volume>193</volume>(<issue>12</issue>):<fpage>1334</fpage>-<lpage>1336</lpage>. doi:<pub-id pub-id-type="doi">10.1164/rccm.201602-0269ED</pub-id><?supplied-pmid 27097019?><pub-id pub-id-type="pmid">27097019</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r20">
+                <label>20</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Davidson</surname><given-names>JE</given-names></string-name>, <string-name><surname>Aslakson</surname><given-names>RA</given-names></string-name>, <string-name><surname>Long</surname><given-names>AC</given-names></string-name>, <etal/></person-group>. <article-title>Guidelines for family-centered care in the neonatal, pediatric, and adult ICU</article-title>. <source>Crit Care Med</source>. <year>2017</year>;<volume>45</volume>(<issue>1</issue>):<fpage>103</fpage>-<lpage>128</lpage>. doi:<pub-id pub-id-type="doi">10.1097/CCM.0000000000002169</pub-id><?supplied-pmid 27984278?><pub-id pub-id-type="pmid">27984278</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r21">
+                <label>21</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Heyland</surname><given-names>DK</given-names></string-name>, <string-name><surname>Barwich</surname><given-names>D</given-names></string-name>, <string-name><surname>Pichora</surname><given-names>D</given-names></string-name>, <etal/>; <collab>ACCEPT (Advance Care Planning Evaluation in Elderly Patients) Study Team</collab>; <collab>Canadian Researchers at the End of Life Network (CARENET)</collab></person-group>. <article-title>Failure to engage hospitalized elderly patients and their families in advance care planning</article-title>. <source>JAMA Intern Med</source>. <year>2013</year>;<volume>173</volume>(<issue>9</issue>):<fpage>778</fpage>-<lpage>787</lpage>. doi:<pub-id pub-id-type="doi">10.1001/jamainternmed.2013.180</pub-id><?supplied-pmid 23545563?><pub-id pub-id-type="pmid">23545563</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r22">
+                <label>22</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Shah</surname><given-names>K</given-names></string-name>, <string-name><surname>Swinton</surname><given-names>M</given-names></string-name>, <string-name><surname>You</surname><given-names>JJ</given-names></string-name></person-group>. <article-title>Barriers and facilitators for goals of care discussions between residents and hospitalised patients</article-title>. <source>Postgrad Med J</source>. <year>2017</year>;<volume>93</volume>(<issue>1097</issue>):<fpage>127</fpage>-<lpage>132</lpage>. doi:<pub-id pub-id-type="doi">10.1136/postgradmedj-2016-133951</pub-id><?supplied-pmid 27450314?><pub-id pub-id-type="pmid">27450314</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r23">
+                <label>23</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Kruser</surname><given-names>JM</given-names></string-name>, <string-name><surname>Benjamin</surname><given-names>BT</given-names></string-name>, <string-name><surname>Gordon</surname><given-names>EJ</given-names></string-name>, <etal/></person-group>. <article-title>Patient and family engagement during treatment decisions in an ICU: a discourse analysis of the electronic health record</article-title>. <source>Crit Care Med</source>. <year>2019</year>;<volume>47</volume>(<issue>6</issue>):<fpage>784</fpage>-<lpage>791</lpage>. doi:<pub-id pub-id-type="doi">10.1097/CCM.0000000000003711</pub-id><?supplied-pmid 30896465?><pub-id pub-id-type="pmid">30896465</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r24">
+                <label>24</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Curtis</surname><given-names>JR</given-names></string-name>, <string-name><surname>Patrick</surname><given-names>DL</given-names></string-name>, <string-name><surname>Shannon</surname><given-names>SE</given-names></string-name>, <string-name><surname>Treece</surname><given-names>PD</given-names></string-name>, <string-name><surname>Engelberg</surname><given-names>RA</given-names></string-name>, <string-name><surname>Rubenfeld</surname><given-names>GD</given-names></string-name></person-group>. <article-title>The family conference as a focus to improve communication about end-of-life care in the intensive care unit: opportunities for improvement</article-title>. <source>Crit Care Med</source>. <year>2001</year>;<volume>29</volume>(<issue>2</issue>)(<supplement>suppl</supplement>):<fpage>N26</fpage>-<lpage>N33</lpage>. doi:<pub-id pub-id-type="doi">10.1097/00003246-200102001-00006</pub-id><?supplied-pmid 11228570?><pub-id pub-id-type="pmid">11228570</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r25">
+                <label>25</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Seaman</surname><given-names>JB</given-names></string-name>, <string-name><surname>Arnold</surname><given-names>RM</given-names></string-name>, <string-name><surname>Scheunemann</surname><given-names>LP</given-names></string-name>, <string-name><surname>White</surname><given-names>DB</given-names></string-name></person-group>. <article-title>An integrated framework for effective and efficient communication with families in the adult intensive care unit</article-title>. <source>Ann Am Thorac Soc</source>. <year>2017</year>;<volume>14</volume>(<issue>6</issue>):<fpage>1015</fpage>-<lpage>1020</lpage>. doi:<pub-id pub-id-type="doi">10.1513/AnnalsATS.201612-965OI</pub-id><?supplied-pmid 28282227?><pub-id pub-id-type="pmid">28282227</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r26">
+                <label>26</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Comer</surname><given-names>AR</given-names></string-name>, <string-name><surname>Hickman</surname><given-names>SE</given-names></string-name>, <string-name><surname>Slaven</surname><given-names>JE</given-names></string-name>, <etal/></person-group>. <article-title>Assessment of discordance between surrogate care goals and medical treatment provided to older adults with serious illness</article-title>. <source>JAMA Netw Open</source>. <year>2020</year>;<volume>3</volume>(<issue>5</issue>):<elocation-id>e205179</elocation-id>. doi:<pub-id pub-id-type="doi">10.1001/jamanetworkopen.2020.5179</pub-id><?supplied-pmid 32427322?><pub-id pub-id-type="pmid">32427322</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r27">
+                <label>27</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Wilson</surname><given-names>CJ</given-names></string-name>, <string-name><surname>Newman</surname><given-names>J</given-names></string-name>, <string-name><surname>Tapper</surname><given-names>S</given-names></string-name>, <etal/></person-group>. <article-title>Multiple locations of advance care planning documentation in an electronic health record: are they easy to find?</article-title><source>J Palliat Med</source>. <year>2013</year>;<volume>16</volume>(<issue>9</issue>):<fpage>1089</fpage>-<lpage>1094</lpage>. doi:<pub-id pub-id-type="doi">10.1089/jpm.2012.0472</pub-id><?supplied-pmid 23742686?><pub-id pub-id-type="pmid">23742686</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r28">
+                <label>28</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Sinuff</surname><given-names>T</given-names></string-name>, <string-name><surname>Dodek</surname><given-names>P</given-names></string-name>, <string-name><surname>You</surname><given-names>JJ</given-names></string-name>, <etal/></person-group>. <article-title>Improving end-of-life communication and decision making: the development of a conceptual framework and quality indicators</article-title>. <source>J Pain Symptom Manage</source>. <year>2015</year>;<volume>49</volume>(<issue>6</issue>):<fpage>1070</fpage>-<lpage>1080</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jpainsymman.2014.12.007</pub-id><?supplied-pmid 25623923?><pub-id pub-id-type="pmid">25623923</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r29">
+                <label>29</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Tulsky</surname><given-names>JA</given-names></string-name>, <string-name><surname>Beach</surname><given-names>MC</given-names></string-name>, <string-name><surname>Butow</surname><given-names>PN</given-names></string-name>, <etal/></person-group>. <article-title>A research agenda for communication between health care professionals and patients living with serious illness</article-title>. <source>JAMA Intern Med</source>. <year>2017</year>;<volume>177</volume>(<issue>9</issue>):<fpage>1361</fpage>-<lpage>1366</lpage>. doi:<pub-id pub-id-type="doi">10.1001/jamainternmed.2017.2005</pub-id><?supplied-pmid 28672373?><pub-id pub-id-type="pmid">28672373</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r30">
+                <label>30</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Turnbull</surname><given-names>AE</given-names></string-name>, <string-name><surname>Bosslet</surname><given-names>GT</given-names></string-name>, <string-name><surname>Kross</surname><given-names>EK</given-names></string-name></person-group>. <article-title>Aligning use of intensive care with patient values in the USA: past, present, and future</article-title>. <source>Lancet Respir Med</source>. <year>2019</year>;<volume>7</volume>(<issue>7</issue>):<fpage>626</fpage>-<lpage>638</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S2213-2600(19)30087-6</pub-id><?supplied-pmid 31122892?><pub-id pub-id-type="pmid">31122892</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r31">
+                <label>31</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Lilley</surname><given-names>EJ</given-names></string-name>, <string-name><surname>Lindvall</surname><given-names>C</given-names></string-name>, <string-name><surname>Lillemoe</surname><given-names>KD</given-names></string-name>, <string-name><surname>Tulsky</surname><given-names>JA</given-names></string-name>, <string-name><surname>Wiener</surname><given-names>DC</given-names></string-name>, <string-name><surname>Cooper</surname><given-names>Z</given-names></string-name></person-group>. <article-title>Measuring processes of care in palliative surgery: a novel approach using natural language processing</article-title>. <source>Ann Surg</source>. <year>2018</year>;<volume>267</volume>(<issue>5</issue>):<fpage>823</fpage>-<lpage>825</lpage>. doi:<pub-id pub-id-type="doi">10.1097/SLA.0000000000002579</pub-id><?supplied-pmid 29112003?><pub-id pub-id-type="pmid">29112003</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r32">
+                <label>32</label>
+                <mixed-citation publication-type="webpage">Project to Improve Communication About Serious Illness—Hospital Study: Pragmatic Trial (Trial 1) (PICSI-H). ClinicalTrials.gov identifier: <ext-link xlink:href="https://clinicaltrials.gov/ct2/show/NCT04281784" ext-link-type="uri">NCT04281784</ext-link>. Accessed November 3, 2020. <ext-link xlink:href="https://clinicaltrials.gov/ct2/show/NCT04281784" ext-link-type="uri">https://clinicaltrials.gov/ct2/show/NCT04281784</ext-link></mixed-citation>
+              </ref>
+              <ref id="zoi230070r33">
+                <label>33</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Curtis</surname><given-names>JR</given-names></string-name>, <string-name><surname>Lee</surname><given-names>RY</given-names></string-name>, <string-name><surname>Brumback</surname><given-names>LC</given-names></string-name>, <etal/></person-group>. <article-title>Improving communication about goals of care for hospitalized patients with serious illness: study protocol for two complementary randomized trials</article-title>. <source>Contemp Clin Trials</source>. <year>2022</year>;<volume>120</volume>:<elocation-id>106879</elocation-id>. doi:<pub-id pub-id-type="doi">10.1016/j.cct.2022.106879</pub-id><?supplied-pmid 35963531?><pub-id pub-id-type="pmid">35963531</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r34">
+                <label>34</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Lindvall</surname><given-names>C</given-names></string-name>, <string-name><surname>Deng</surname><given-names>CY</given-names></string-name>, <string-name><surname>Moseley</surname><given-names>E</given-names></string-name>, <etal/></person-group>. <article-title>Natural language processing to identify advance care planning documentation in a multisite pragmatic clinical trial</article-title>. <source>J Pain Symptom Manage</source>. <year>2022</year>;<volume>63</volume>(<issue>1</issue>):<fpage>e29</fpage>-<lpage>e36</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jpainsymman.2021.06.025</pub-id><?supplied-pmid 34271146?><pub-id pub-id-type="pmid">34271146</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r35">
+                <label>35</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Collins</surname><given-names>GS</given-names></string-name>, <string-name><surname>Reitsma</surname><given-names>JB</given-names></string-name>, <string-name><surname>Altman</surname><given-names>DG</given-names></string-name>, <string-name><surname>Moons</surname><given-names>KG</given-names></string-name></person-group>. <article-title>Transparent Reporting of a Multivariable Prediction Model for Individual Prognosis or Diagnosis (TRIPOD): the TRIPOD statement</article-title>. <source>J Clin Epidemiol</source>. <year>2015</year>;<volume>68</volume>(<issue>2</issue>):<fpage>134</fpage>-<lpage>143</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jclinepi.2014.11.010</pub-id><?supplied-pmid 25579640?><pub-id pub-id-type="pmid">25579640</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r36">
+                <label>36</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Iezzoni</surname><given-names>LI</given-names></string-name>, <string-name><surname>Heeren</surname><given-names>T</given-names></string-name>, <string-name><surname>Foley</surname><given-names>SM</given-names></string-name>, <string-name><surname>Daley</surname><given-names>J</given-names></string-name>, <string-name><surname>Hughes</surname><given-names>J</given-names></string-name>, <string-name><surname>Coffman</surname><given-names>GA</given-names></string-name></person-group>. <article-title>Chronic conditions and risk of in-hospital death</article-title>. <source>Health Serv Res</source>. <year>1994</year>;<volume>29</volume>(<issue>4</issue>):<fpage>435</fpage>-<lpage>460</lpage>.<?supplied-pmid 7928371?><pub-id pub-id-type="pmid">7928371</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r37">
+                <label>37</label>
+                <mixed-citation publication-type="data"><person-group><string-name><surname>Wennberg</surname><given-names>JE</given-names></string-name>, <string-name><surname>Fisher</surname><given-names>ES</given-names></string-name>, <string-name><surname>Goodman</surname><given-names>DC</given-names></string-name></person-group>, Skinner JS. <italic>Tracking the Care of Patients With Severe Chronic Illness: The Dartmouth Atlas of Health Care 2008</italic>. The Dartmouth Institute for Health Policy and Clinical Practice; <year>2008</year>.</mixed-citation>
+              </ref>
+              <ref id="zoi230070r38">
+                <label>38</label>
+                <mixed-citation publication-type="data"><person-group><string-name><surname>Goodman</surname><given-names>DC</given-names></string-name>, <string-name><surname>Esty</surname><given-names>AR</given-names></string-name>, <string-name><surname>Fisher</surname><given-names>ES</given-names></string-name></person-group>, Chang CH. <italic>Trends and Variation in End-of-life Care for Medicare Beneficiaries With Severe Chronic Illness: A Report of the Dartmouth Atlas Project</italic>. The Dartmouth Institute for Health Policy and Clinical Practice; April 12, <year>2011</year>.</mixed-citation>
+              </ref>
+              <ref id="zoi230070r39">
+                <label>39</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Back</surname><given-names>AL</given-names></string-name>, <string-name><surname>Arnold</surname><given-names>RM</given-names></string-name>, <string-name><surname>Tulsky</surname><given-names>JA</given-names></string-name>, <string-name><surname>Baile</surname><given-names>WF</given-names></string-name>, <string-name><surname>Fryer-Edwards</surname><given-names>KA</given-names></string-name></person-group>. <article-title>Teaching communication skills to medical oncology fellows</article-title>. <source>J Clin Oncol</source>. <year>2003</year>;<volume>21</volume>(<issue>12</issue>):<fpage>2433</fpage>-<lpage>2436</lpage>. doi:<pub-id pub-id-type="doi">10.1200/JCO.2003.09.073</pub-id><?supplied-pmid 12805343?><pub-id pub-id-type="pmid">12805343</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r40">
+                <label>40</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Abedini</surname><given-names>NC</given-names></string-name>, <string-name><surname>Merel</surname><given-names>SE</given-names></string-name>, <string-name><surname>Hicks</surname><given-names>KG</given-names></string-name>, <etal/></person-group>. <article-title>Applying human-centered design to refinement of the Jumpstart Guide, a clinician- and patient-facing goals-of-care discussion priming tool</article-title>. <source>J Pain Symptom Manage</source>. <year>2021</year>;<volume>62</volume>(<issue>6</issue>):<fpage>1283</fpage>-<lpage>1288</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jpainsymman.2021.06.012</pub-id><?supplied-pmid 34147577?><pub-id pub-id-type="pmid">34147577</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r41">
+                <label>41</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Lee</surname><given-names>RY</given-names></string-name>, <string-name><surname>Kross</surname><given-names>EK</given-names></string-name>, <string-name><surname>Downey</surname><given-names>L</given-names></string-name>, <etal/></person-group>. <article-title>Efficacy of a communication-priming intervention on documented goals-of-care discussions in hospitalized patients with serious illness: a randomized clinical trial</article-title>. <source>JAMA Netw Open</source>. <year>2022</year>;<volume>5</volume>(<issue>4</issue>):<elocation-id>e225088</elocation-id>. doi:<pub-id pub-id-type="doi">10.1001/jamanetworkopen.2022.5088</pub-id><?supplied-pmid 35363271?><pub-id pub-id-type="pmid">35363271</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r42">
+                <label>42</label>
+                <mixed-citation publication-type="webpage"><italic>Dedoose</italic>. SocioCultural Research Consultants, LLC. Accessed January 26, 2023. <ext-link xlink:href="https://www.dedoose.com/" ext-link-type="uri">https://www.dedoose.com/</ext-link></mixed-citation>
+              </ref>
+              <ref id="zoi230070r43">
+                <label>43</label>
+                <mixed-citation publication-type="preprint"><person-group><string-name><surname>Alsentzer</surname><given-names>E</given-names></string-name>, <string-name><surname>Murphy</surname><given-names>JR</given-names></string-name>, <string-name><surname>Boag</surname><given-names>W</given-names></string-name>, <etal/></person-group>. <article-title>Publicly available clinical BERT embeddings.</article-title><source>arXiv</source>. Preprint posted online April 6, 2019. doi:<pub-id pub-id-type="doi">10.48550/arXiv.1904.03323</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r44">
+                <label>44</label>
+                <mixed-citation publication-type="webpage"><person-group><string-name><surname>Alsentzer</surname><given-names>E</given-names></string-name></person-group>. <italic>Bio_ClinicalBERT</italic>. <year>2019</year>. Accessed Mar 15, 2022. <ext-link xlink:href="https://huggingface.co/emilyalsentzer/Bio_ClinicalBERT" ext-link-type="uri">https://huggingface.co/emilyalsentzer/Bio_ClinicalBERT</ext-link></mixed-citation>
+              </ref>
+              <ref id="zoi230070r45">
+                <label>45</label>
+                <mixed-citation publication-type="preprint"><person-group><string-name><surname>Devlin</surname><given-names>J</given-names></string-name>, <string-name><surname>Chang</surname><given-names>MW</given-names></string-name>, <string-name><surname>Lee</surname><given-names>K</given-names></string-name></person-group>, Toutanova K. <article-title>BERT: pre-training of deep bidirectional transformers for language understanding.</article-title><source>arXiv</source>. Preprint posted online October 11, <year>2018</year>. doi:<pub-id pub-id-type="doi">10.48550/arXiv.1810.04805</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r46">
+                <label>46</label>
+                <mixed-citation publication-type="webpage"><person-group><collab>Google Research</collab></person-group>. <italic>BERT: TensorFlow code and pre-trained models for BERT</italic>. <year>2018</year>. Accessed March 15, 2022. <ext-link xlink:href="https://github.com/google-research/bert" ext-link-type="uri">https://github.com/google-research/bert</ext-link></mixed-citation>
+              </ref>
+              <ref id="zoi230070r47">
+                <label>47</label>
+                <mixed-citation publication-type="webpage"><person-group><string-name><surname>Khalid</surname><given-names>S</given-names></string-name></person-group>. BERT explained: a complete guide with theory and tutorial. November 2, <year>2019</year>. Accessed December 20, 2022. <ext-link xlink:href="https://medium.com/@samia.khalid/bert-explained-a-complete-guide-with-theory-and-tutorial-3ac9ebc8fa7c" ext-link-type="uri">https://medium.com/@samia.khalid/bert-explained-a-complete-guide-with-theory-and-tutorial-3ac9ebc8fa7c</ext-link></mixed-citation>
+              </ref>
+              <ref id="zoi230070r48">
+                <label>48</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Lee</surname><given-names>J</given-names></string-name>, <string-name><surname>Yoon</surname><given-names>W</given-names></string-name>, <string-name><surname>Kim</surname><given-names>S</given-names></string-name>, <etal/></person-group>. <article-title>BioBERT: a pre-trained biomedical language representation model for biomedical text mining</article-title>. <source>Bioinformatics</source>. <year>2020</year>;<volume>36</volume>(<issue>4</issue>):<fpage>1234</fpage>-<lpage>1240</lpage>.<?supplied-pmid 31501885?><pub-id pub-id-type="pmid">31501885</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r49">
+                <label>49</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Johnson</surname><given-names>AE</given-names></string-name>, <string-name><surname>Pollard</surname><given-names>TJ</given-names></string-name>, <string-name><surname>Shen</surname><given-names>L</given-names></string-name>, <etal/></person-group>. <article-title>MIMIC-III, a freely accessible critical care database</article-title>. <source>Sci Data</source>. <year>2016</year>;<volume>3</volume>:<elocation-id>160035</elocation-id>. doi:<pub-id pub-id-type="doi">10.1038/sdata.2016.35</pub-id><?supplied-pmid 27219127?><pub-id pub-id-type="pmid">27219127</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r50">
+                <label>50</label>
+                <mixed-citation publication-type="webpage"><person-group><collab>Hugging Face</collab></person-group>. Transformers. <year>2022</year>. Accessed March 15, 2022. <ext-link xlink:href="https://huggingface.co/docs/transformers/index" ext-link-type="uri">https://huggingface.co/docs/transformers/index</ext-link></mixed-citation>
+              </ref>
+              <ref id="zoi230070r51">
+                <label>51</label>
+                <mixed-citation publication-type="book">roctab—nonparametric ROC analysis. <italic>Stata</italic>. Version 17. <publisher-name>StataCorp LLC</publisher-name>; <year>2021</year>.</mixed-citation>
+              </ref>
+              <ref id="zoi230070r52">
+                <label>52</label>
+                <mixed-citation publication-type="other"><person-group><string-name><surname>Cook</surname><given-names>J</given-names></string-name>, <string-name><surname>Ramadas</surname><given-names>V</given-names></string-name></person-group>. When to consult precision-recall curves. <italic>Stata J</italic>. <year>2020</year>;20(1):131-148. doi:<pub-id pub-id-type="doi">10.1177/1536867X20909693</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r53">
+                <label>53</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Uyeda</surname><given-names>AM</given-names></string-name>, <string-name><surname>Lee</surname><given-names>RY</given-names></string-name>, <string-name><surname>Pollack</surname><given-names>LR</given-names></string-name>, <etal/></person-group>. <article-title>Predictors of documented goals-of-care discussion for hospitalized patients with chronic illness</article-title>. <source>J Pain Symptom Manage</source>. <year>2022</year>;<elocation-id>S0885-3924(22)00973-3</elocation-id>. doi:<pub-id pub-id-type="doi">10.1016/j.jpainsymman.2022.11.012</pub-id><?supplied-pmid 36423800?><pub-id pub-id-type="pmid">36423800</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r54">
+                <label>54</label>
+                <mixed-citation publication-type="data"><person-group><string-name><surname>Fleiss</surname><given-names>JL</given-names></string-name>, <string-name><surname>Levin</surname><given-names>B</given-names></string-name>, <string-name><surname>Paik</surname><given-names>MC</given-names></string-name></person-group>. <italic>Statistical Methods for Rates and Proportions</italic>. 3rd ed. John Wiley &amp; Sons; <year>2003</year>.</mixed-citation>
+              </ref>
+              <ref id="zoi230070r55">
+                <label>55</label>
+                <mixed-citation publication-type="book"><person-group><string-name><surname>Agresti</surname><given-names>A</given-names></string-name></person-group>. <source>Categorical Data Analysis</source>. <edition>3rd ed</edition>. <publisher-name>John Wiley &amp; Sons</publisher-name>; <year>2013</year>.</mixed-citation>
+              </ref>
+              <ref id="zoi230070r56">
+                <label>56</label>
+                <mixed-citation publication-type="data">power twoproportions—power analysis for a two-sample proportions test. <italic>Stata</italic>. Version 17. StataCorp LLC; <year>2021</year>.</mixed-citation>
+              </ref>
+              <ref id="zoi230070r57">
+                <label>57</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Rahme</surname><given-names>E</given-names></string-name>, <string-name><surname>Joseph</surname><given-names>L</given-names></string-name></person-group>. <article-title>Estimating the prevalence of a rare disease: adjusted maximum likelihood</article-title>. <source>Statistician</source>. <year>1998</year>;<volume>47</volume>(1):<fpage>149</fpage>-<lpage>158</lpage>. doi:<pub-id pub-id-type="doi">10.1111/1467-9884.00120</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r58">
+                <label>58</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Bland</surname><given-names>JM</given-names></string-name>, <string-name><surname>Altman</surname><given-names>DG</given-names></string-name></person-group>. <article-title>Statistical methods for assessing agreement between two methods of clinical measurement</article-title>. <source>Lancet</source>. <year>1986</year>;<volume>1</volume>(<issue>8476</issue>):<fpage>307</fpage>-<lpage>310</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S0140-6736(86)90837-8</pub-id><?supplied-pmid 2868172?><pub-id pub-id-type="pmid">2868172</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r59">
+                <label>59</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Vega Yon</surname><given-names>GG</given-names></string-name>, <string-name><surname>Quistorff</surname><given-names>B</given-names></string-name></person-group>. <article-title>parallel: a command for parallel computing</article-title>. <source>Stata J</source>. <year>2019</year>;<volume>19</volume>(<issue>3</issue>):<fpage>667</fpage>-<lpage>684</lpage>. doi:<pub-id pub-id-type="doi">10.1177/1536867X19874242</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r60">
+                <label>60</label>
+                <mixed-citation publication-type="webpage"><person-group><string-name><surname>Vega Yon</surname><given-names>G</given-names></string-name>, <string-name><surname>Quistorff</surname><given-names>B</given-names></string-name></person-group>. <italic>PARALLEL: Stata module for parallel computing</italic>. Version 1.20.0. <year>2018</year>. Accessed January 12, 2022. <ext-link xlink:href="https://github.com/gvegayon/parallel" ext-link-type="uri">https://github.com/gvegayon/parallel</ext-link></mixed-citation>
+              </ref>
+              <ref id="zoi230070r61">
+                <label>61</label>
+                <mixed-citation publication-type="webpage"><person-group><string-name><surname>Chatfield</surname><given-names>M</given-names></string-name></person-group>. BLANDALTMAN: Stata module to create Bland-Altman plots. <year>2022</year>. Accessed June 2, 2022. <ext-link xlink:href="https://ideas.repec.org/c/boc/bocode/s459040.html" ext-link-type="uri">https://ideas.repec.org/c/boc/bocode/s459040.html</ext-link></mixed-citation>
+              </ref>
+              <ref id="zoi230070r62">
+                <label>62</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Greer</surname><given-names>JA</given-names></string-name>, <string-name><surname>Moy</surname><given-names>B</given-names></string-name>, <string-name><surname>El-Jawahri</surname><given-names>A</given-names></string-name>, <etal/></person-group>. <article-title>Randomized trial of a palliative care intervention to improve end-of-life care discussions in patients with metastatic breast cancer</article-title>. <source>J Natl Compr Canc Netw</source>. <year>2022</year>;<volume>20</volume>(<issue>2</issue>):<fpage>136</fpage>-<lpage>143</lpage>. doi:<pub-id pub-id-type="doi">10.6004/jnccn.2021.7040</pub-id><?supplied-pmid 35130492?><pub-id pub-id-type="pmid">35130492</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r63">
+                <label>63</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Volandes</surname><given-names>AE</given-names></string-name>, <string-name><surname>Zupanc</surname><given-names>SN</given-names></string-name>, <string-name><surname>Paasche-Orlow</surname><given-names>MK</given-names></string-name>, <etal/></person-group>. <article-title>Association of an advance care planning video and communication intervention with documentation of advance care planning among older adults: a nonrandomized controlled trial</article-title>. <source>JAMA Netw Open</source>. <year>2022</year>;<volume>5</volume>(<issue>2</issue>):<elocation-id>e220354</elocation-id>. doi:<pub-id pub-id-type="doi">10.1001/jamanetworkopen.2022.0354</pub-id><?supplied-pmid 35201306?><pub-id pub-id-type="pmid">35201306</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r64">
+                <label>64</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Lakin</surname><given-names>JR</given-names></string-name>, <string-name><surname>Brannen</surname><given-names>EN</given-names></string-name>, <string-name><surname>Tulsky</surname><given-names>JA</given-names></string-name>, <etal/>; <collab>ACP-PEACE Investigators</collab></person-group>. <article-title>Advance Care Planning: Promoting Effective and Aligned Communication in the Elderly (ACP-PEACE): the study protocol for a pragmatic stepped-wedge trial of older patients with cancer</article-title>. <source>BMJ Open</source>. <year>2020</year>;<volume>10</volume>(<issue>7</issue>):<elocation-id>e040999</elocation-id>. doi:<pub-id pub-id-type="doi">10.1136/bmjopen-2020-040999</pub-id><?supplied-pmid 32665394?><pub-id pub-id-type="pmid">32665394</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r65">
+                <label>65</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Eneanya</surname><given-names>ND</given-names></string-name>, <string-name><surname>Lakin</surname><given-names>JR</given-names></string-name>, <string-name><surname>Paasche-Orlow</surname><given-names>MK</given-names></string-name>, <etal/></person-group>. <article-title>Video Images about Decisions for Ethical Outcomes in Kidney Disease (VIDEO-KD): the study protocol for a multi-centre randomised controlled trial</article-title>. <source>BMJ Open</source>. <year>2022</year>;<volume>12</volume>(<issue>4</issue>):<elocation-id>e059313</elocation-id>. doi:<pub-id pub-id-type="doi">10.1136/bmjopen-2021-059313</pub-id><?supplied-pmid 35396311?><pub-id pub-id-type="pmid">35396311</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r66">
+                <label>66</label>
+                <mixed-citation publication-type="preprint"><person-group><string-name><surname>Lehman</surname><given-names>E</given-names></string-name>, <string-name><surname>Jain</surname><given-names>S</given-names></string-name>, <string-name><surname>Pichotta</surname><given-names>K</given-names></string-name></person-group>, Goldberg Y, Wallace BC. <article-title>Does BERT pretrained on clinical notes reveal sensitive data?</article-title><source>arXiv</source>. Preprint posted online April 15, <year>2021</year>. doi:<pub-id pub-id-type="doi">10.18653/v1/2021.naacl-main.73</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r67">
+                <label>67</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Castelvecchi</surname><given-names>D</given-names></string-name></person-group>. <article-title>Can we open the black box of AI?</article-title><source>Nature</source>. <year>2016</year>;<volume>538</volume>(<issue>7623</issue>):<fpage>20</fpage>-<lpage>23</lpage>. doi:<pub-id pub-id-type="doi">10.1038/538020a</pub-id><?supplied-pmid 27708329?><pub-id pub-id-type="pmid">27708329</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r68">
+                <label>68</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Ras</surname><given-names>G</given-names></string-name>, <string-name><surname>Xie</surname><given-names>N</given-names></string-name>, <string-name><surname>van Gerven</surname><given-names>M</given-names></string-name></person-group>, Doran D. <article-title>Explainable deep learning: a field guide for the uninitiated</article-title>. <source>J Artif Intell Res</source>. <year>2022</year>;<volume>73</volume>:<fpage>329</fpage>-<lpage>397</lpage>. doi:<pub-id pub-id-type="doi">10.1613/jair.1.13200</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r69">
+                <label>69</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Tan</surname><given-names>WK</given-names></string-name>, <string-name><surname>Heagerty</surname><given-names>PJ</given-names></string-name></person-group>. <article-title>Surrogate-guided sampling designs for classification of rare outcomes from electronic medical records data</article-title>. <italic>Biostatistics</italic>. 2022;23(2):345-361. doi:<pub-id pub-id-type="doi">10.1093/biostatistics/kxaa028</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r70">
+                <label>70</label>
+                <mixed-citation publication-type="book"><person-group><string-name><surname>Pepe</surname><given-names>MS</given-names></string-name></person-group>. <part-title>Incomplete data and imperfect reference tests</part-title>. In: <source>The Statistical Evaluation of Medical Tests for Classification and Prediction</source>. <publisher-name>Oxford University Press</publisher-name>; <year>2003</year>:<fpage>168</fpage>-<lpage>213</lpage>.</mixed-citation>
+              </ref>
+              <ref id="zoi230070r71">
+                <label>71</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Gianfrancesco</surname><given-names>MA</given-names></string-name>, <string-name><surname>Tamang</surname><given-names>S</given-names></string-name>, <string-name><surname>Yazdany</surname><given-names>J</given-names></string-name>, <string-name><surname>Schmajuk</surname><given-names>G</given-names></string-name></person-group>. <article-title>Potential biases in machine learning algorithms using electronic health record data</article-title>. <source>JAMA Intern Med</source>. <year>2018</year>;<volume>178</volume>(<issue>11</issue>):<fpage>1544</fpage>-<lpage>1547</lpage>. doi:<pub-id pub-id-type="doi">10.1001/jamainternmed.2018.3763</pub-id><?supplied-pmid 30128552?><pub-id pub-id-type="pmid">30128552</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r72">
+                <label>72</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Brown</surname><given-names>CE</given-names></string-name>, <string-name><surname>Curtis</surname><given-names>JR</given-names></string-name>, <string-name><surname>Doll</surname><given-names>KM</given-names></string-name></person-group>. <article-title>A race-conscious approach toward research on racial inequities in palliative care</article-title>. <source>J Pain Symptom Manage</source>. <year>2022</year>;<volume>63</volume>(<issue>5</issue>):<fpage>e465</fpage>-<lpage>e471</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jpainsymman.2021.11.012</pub-id><?supplied-pmid 34856335?><pub-id pub-id-type="pmid">34856335</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r73">
+                <label>73</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Edwards</surname><given-names>JK</given-names></string-name>, <string-name><surname>Cole</surname><given-names>SR</given-names></string-name>, <string-name><surname>Troester</surname><given-names>MA</given-names></string-name>, <string-name><surname>Richardson</surname><given-names>DB</given-names></string-name></person-group>. <article-title>Accounting for misclassified outcomes in binary regression models using multiple imputation with internal validation data</article-title>. <source>Am J Epidemiol</source>. <year>2013</year>;<volume>177</volume>(<issue>9</issue>):<fpage>904</fpage>-<lpage>912</lpage>. doi:<pub-id pub-id-type="doi">10.1093/aje/kws340</pub-id><?supplied-pmid 24627573?><pub-id pub-id-type="pmid">24627573</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi230070r74">
+                <label>74</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Shaw</surname><given-names>PA</given-names></string-name>, <string-name><surname>Gustafson</surname><given-names>P</given-names></string-name>, <string-name><surname>Carroll</surname><given-names>RJ</given-names></string-name>, <etal/></person-group>. <article-title>STRATOS guidance document on measurement error and misclassification of variables in observational epidemiology: part 2—more complex methods of adjustment and advanced topics</article-title>. <source>Stat Med</source>. <year>2020</year>;<volume>39</volume>(<issue>16</issue>):<fpage>2232</fpage>-<lpage>2263</lpage>. doi:<pub-id pub-id-type="doi">10.1002/sim.8531</pub-id><?supplied-pmid 32246531?><pub-id pub-id-type="pmid">32246531</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+            <notes notes-type="supplementary-material" id="note-ZOI230070-1">
+              <supplementary-material id="note-ZOI230070-1-s" position="float" content-type="local-data">
+                <label>Supplement 1.</label>
+                <caption>
+                  <p><bold>eTable 1.</bold> Patient Characteristics by Note Corpus</p>
+                  <p><bold>eTable 2.</bold> Characteristics of Electronic Health Record Note Corpora</p>
+                  <p><bold>eFigure 1.</bold> Comparison of Calculated vs Observed (Simulated) Power Over Ranges of Sensitivity, Specificity, and Risk Difference</p>
+                  <p><bold>eFigure 2.</bold> Power vs Detectable Risk Difference vs Sensitivity of NLP-screened Human Abstraction</p>
+                  <p>
+eMethods.
+</p>
+                  <p><bold>eAppendix 1.</bold> Examples of Clinician-facing Communication-priming Intervention Forms (Jumpstart Guide) From Clinical Trial</p>
+                  <p><bold>eAppendix 2.</bold> Chart Abstractor Codebook for the Project to Improve Communication in Serious Illness (PICSI) Trial Series</p>
+                  <p><bold>eAppendix 3.</bold> Stata Source Code for Study Power Calculation and Simulation Procedures</p>
+                  <p>
+eReferences
+</p>
+                </caption>
+                <media xlink:href="jamanetwopen-e231204-s001.pdf">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material position="float" content-type="local-data">
+                <label>Supplement 2.</label>
+                <caption>
+                  <p>
+Data Sharing Statement
+</p>
+                </caption>
+                <media xlink:href="jamanetwopen-e231204-s002.pdf">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </notes>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

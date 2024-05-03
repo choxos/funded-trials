@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T05:04:07Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3909337" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:3909337</identifier>
+        <datestamp>2014-02-04</datestamp>
+        <setSpec>plosone</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+              <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+              <journal-id journal-id-type="publisher-id">plos</journal-id>
+              <journal-id journal-id-type="pmc">plosone</journal-id>
+              <journal-title-group>
+                <journal-title>PLoS ONE</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1932-6203</issn>
+              <publisher>
+                <publisher-name>Public Library of Science</publisher-name>
+                <publisher-loc>San Francisco, USA</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC3909337</article-id>
+              <article-id pub-id-type="pmcid">PMC3909337</article-id>
+              <article-id pub-id-type="pmc-uid">3909337</article-id>
+              <article-id pub-id-type="pmid">24498252</article-id>
+              <article-id pub-id-type="pmid">24498252</article-id>
+              <article-id pub-id-type="publisher-id">PONE-D-13-49902</article-id>
+              <article-id pub-id-type="doi">10.1371/journal.pone.0088132</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research Article</subject>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v2">
+                  <subject>Biology</subject>
+                  <subj-group>
+                    <subject>Biophysics</subject>
+                    <subj-group>
+                      <subject>Biomechanics</subject>
+                    </subj-group>
+                  </subj-group>
+                  <subj-group>
+                    <subject>Neuroscience</subject>
+                    <subj-group>
+                      <subject>Cognitive Neuroscience</subject>
+                      <subj-group>
+                        <subject>Positioning Reactions</subject>
+                      </subj-group>
+                    </subj-group>
+                    <subj-group>
+                      <subject>Sensory Systems</subject>
+                      <subj-group>
+                        <subject>Visual System</subject>
+                      </subj-group>
+                    </subj-group>
+                    <subj-group>
+                      <subject>Behavioral Neuroscience</subject>
+                      <subject>Sensory Perception</subject>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v2">
+                  <subject>Medicine</subject>
+                  <subj-group>
+                    <subject>Anatomy and Physiology</subject>
+                    <subj-group>
+                      <subject>Musculoskeletal System</subject>
+                      <subj-group>
+                        <subject>Biomechanics</subject>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v2">
+                  <subject>Physics</subject>
+                  <subj-group>
+                    <subject>Biophysics</subject>
+                    <subj-group>
+                      <subject>Biomechanics</subject>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Dynamic Reweighting of Three Modalities for Sensor Fusion</article-title>
+                <alt-title alt-title-type="running-head">Three Modality Sensor Fusion</alt-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Hwang</surname>
+                    <given-names>Sungjae</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="corresp" rid="cor1">
+                    <sup>*</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Agada</surname>
+                    <given-names>Peter</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff3">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kiemel</surname>
+                    <given-names>Tim</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff3">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Jeka</surname>
+                    <given-names>John J.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1">
+                <label>1</label>
+                <addr-line>Department of Kinesiology, Temple University, Philadelphia, Pennsylvania, United States of America</addr-line>
+              </aff>
+              <aff id="aff2">
+                <label>2</label>
+                <addr-line>Bioengineering, Temple University, Philadelphia, Pennsylvania, United States of America</addr-line>
+              </aff>
+              <aff id="aff3">
+                <label>3</label>
+                <addr-line>Department of Kinesiology, University of Maryland, College Park, Maryland, United States of America</addr-line>
+              </aff>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Chacron</surname>
+                    <given-names>Maurice J.</given-names>
+                  </name>
+                  <role>Editor</role>
+                  <xref ref-type="aff" rid="edit1"/>
+                </contrib>
+              </contrib-group>
+              <aff id="edit1">
+                <addr-line>McGill University, Canada</addr-line>
+              </aff>
+              <author-notes>
+                <corresp id="cor1">* E-mail: <email>sungjae.hwang@temple.edu</email></corresp>
+                <fn fn-type="COI-statement">
+                  <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+                </fn>
+                <fn fn-type="con">
+                  <p>Conceived and designed the experiments: SH TK JJJ. Performed the experiments: SH PA. Analyzed the data: SH PA TK. Contributed reagents/materials/analysis tools: SH TK JJJ. Wrote the paper: SH TK JJJ.</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <year>2014</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>31</day>
+                <month>1</month>
+                <year>2014</year>
+              </pub-date>
+              <volume>9</volume>
+              <issue>1</issue>
+              <elocation-id>e88132</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>26</day>
+                  <month>11</month>
+                  <year>2013</year>
+                </date>
+                <date date-type="accepted">
+                  <day>7</day>
+                  <month>1</month>
+                  <year>2014</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2014 Hwang et al</copyright-statement>
+                <copyright-year>2014</copyright-year>
+                <copyright-holder>Hwang et al</copyright-holder>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                  <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>We simultaneously perturbed visual, vestibular and proprioceptive modalities to understand how sensory feedback is re-weighted so that overall feedback remains suited to stabilizing upright stance. Ten healthy young subjects received an 80 Hz vibratory stimulus to their bilateral Achilles tendons (stimulus turns on-off at 0.28 Hz), a ±1 mA binaural monopolar galvanic vestibular stimulus at 0.36 Hz, and a visual stimulus at 0.2 Hz during standing. The visual stimulus was presented at different amplitudes (0.2, 0.8 deg rotation about ankle axis) to measure: the change in gain (weighting) to vision, an intramodal effect; and a change in gain to vibration and galvanic vestibular stimulation, both intermodal effects. The results showed a clear intramodal visual effect, indicating a de-emphasis on vision when the amplitude of visual stimulus increased. At the same time, an intermodal visual-proprioceptive reweighting effect was observed with the addition of vibration, which is thought to change proprioceptive inputs at the ankles, forcing the nervous system to rely more on vision and vestibular modalities. Similar intermodal effects for visual-vestibular reweighting were observed, suggesting that vestibular information is not a “fixed” reference, but is dynamically adjusted in the sensor fusion process. This is the first time, to our knowledge, that the interplay between the three primary modalities for postural control has been clearly delineated, illustrating a central process that fuses these modalities for accurate estimates of self-motion.</p>
+              </abstract>
+              <funding-group>
+                <funding-statement>This study was supported by NIH Grant R01 NS35070 (John J. Jeka, principal investigator). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+              </funding-group>
+              <counts>
+                <page-count count="8"/>
+              </counts>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="s1">
+              <title>Introduction</title>
+              <p>Control of human upright stance during standing requires sensory input from multiple sources to detect center of gravity of gravity excursions and to generate appropriate muscle responses for upright stance control. Without appropriate knowledge of self-orientation, equilibrium control is severely compromised <xref rid="pone.0088132-Horak1" ref-type="bibr">[1]</xref>. Estimation of body position/velocity (i.e., self-motion) is heavily dependent upon the integration of information from multiple sensory modalities including visual, vestibular and somatosensory (touch, pressure, proprioception); as evidenced by numerous studies that have shown that the stimulation of visual <xref rid="pone.0088132-Berthoz1" ref-type="bibr">[2]</xref>–<xref rid="pone.0088132-vanAsten1" ref-type="bibr">[7]</xref>, proprioceptive <xref rid="pone.0088132-Allum1" ref-type="bibr">[8]</xref>–<xref rid="pone.0088132-Kavounoudias1" ref-type="bibr">[11]</xref>, or vestibular systems <xref rid="pone.0088132-Day1" ref-type="bibr">[12]</xref>–<xref rid="pone.0088132-Nashner1" ref-type="bibr">[15]</xref> evoke body sway.</p>
+              <p>Numerous studies have demonstrated that the integration of sensory information (i.e., sensor fusion) appears to be dynamically regulated to adapt to changing environmental conditions and the available sensory information, a process referred to as “sensory reweighting” <xref rid="pone.0088132-Horak1" ref-type="bibr">[1]</xref>, <xref rid="pone.0088132-Peterka1" ref-type="bibr">[16]</xref>–<xref rid="pone.0088132-Mahboobin3" ref-type="bibr">[23]</xref>. Sensory reweighting is the process through which the nervous system changes the “emphasis” of a particular sensory input due to neurological injury or when environmental conditions change. For example, during eyes-closed stance on a fixed, level surface, the primary sensory source for information about body orientation in space is proprioceptive, but under conditions where the platform moves, the primary source of sensory information shifts from proprioceptive to vestibular <xref rid="pone.0088132-Peterka1" ref-type="bibr">[16]</xref>, <xref rid="pone.0088132-Mahboobin3" ref-type="bibr">[23]</xref>. Most of these previous studies stimulated an individual sensory system or the combined influence of two sensory systems. Here we investigate the combined influence of all three sensory systems for the control of human upright posture. This is the first time, to our knowledge, that the interplay between the three primary modalities for postural control has been clearly delineated, illustrating a central process that fuses these modalities for accurate estimates of self-motion.</p>
+            </sec>
+            <sec sec-type="materials|methods" id="s2">
+              <title>Materials and Methods</title>
+              <sec id="s2a">
+                <title>Experimental Methods</title>
+                <sec id="s2a1">
+                  <title>Subjects</title>
+                  <p>Ten healthy young subjects (6 males, 4 females; weight 73±14 kg and height 174.2±7.0 cm), aged 21–35 yr, were participated in the study. They all reported no musculoskeletal injuries or neurological disorders that might affect their ability to maintain balance. The procedures used in the experiment were approved by the Institutional Review Board at the University of Maryland and all the subjects gave written informed consent to participate as approved by the committee.</p>
+                </sec>
+                <sec id="s2a2">
+                  <title>Experiment setup</title>
+                  <p>Subjects stood in the middle of the visual cave and faced the front wall, as shown in <xref ref-type="fig" rid="pone-0088132-g001">Figure 1</xref>. Subjects assumed a foot position with heels at a distance of ∼11% of their heights and an angle of 14° between each foot and the midline <xref rid="pone.0088132-McIlroy1" ref-type="bibr">[24]</xref>. The instruction to the subjects was to look straight ahead at the front screen and stand upright comfortably. Foot position was marked in order to be consistent throughout the experiment. Subjects were tested in four conditions; standing with low amplitude visual scene movement - vibration - GVS (L-V-G); standing with low amplitude visual scene movement - GVS – no vibration (L-G); standing with high amplitude visual scene movement - vibration - GVS (H-V-G); standing with high amplitude visual scene movement - GVS - no vibration (H-G). Four trials from each condition were run in randomized order, repeated seven times for a total of twenty eight trials. The length of each trial was 125 seconds with 5 seconds added at the beginning and end of each trial (total 135 seconds) to allow the visual and vestibular sensory perturbations to ramp up and ramp down. The ramping was not applied to the vibration signal because of the electronic functional limitation of the vibrator to turn on and off quickly to approximate a square-wave periodic stimulus.</p>
+                  <fig id="pone-0088132-g001" orientation="portrait" position="float">
+                    <object-id pub-id-type="doi">10.1371/journal.pone.0088132.g001</object-id>
+                    <label>Figure 1</label>
+                    <caption>
+                      <title>Experimental setup showing standing subject with simultaneous visual, vibration and galvanic vestibular perturbations.</title>
+                      <p>The visual stimulus at different amplitudes (0.2, 0.8 deg rotation about ankle axis) at 0.2 Hz, the 80 Hz vibratory stimulus to subject's bilateral Achilles tendons (stimulus turns on-off at 0.28 Hz) and a ±1 mA bilateral monopolar galvanic vestibular stimulus at 0.36 Hz were simultaneously applied.</p>
+                    </caption>
+                    <graphic xlink:href="pone.0088132.g001"/>
+                  </fig>
+                </sec>
+                <sec id="s2a3">
+                  <title>Visual, proprioceptive and vestibular sensory perturbations</title>
+                  <p>For the visual sensory perturbation, we used the visual display (called as visual cave) which was projected by JVC projectors (Model: DLA-M15U, Victor Company, Japan) to three mirrors, which reflected and rear-projected onto a visual cave consisting of three 2.67×3.33 m screens (Fakespace, Inc, Marshalltown, Iowa, USA). The visual display consisted of 500 randomly distributed white triangles (3.4×3.4×3 cm) on a black background. To reduce aliasing effects in the foveal region, no triangles were displayed within a horizontal band of ±5 degree at eye height. The frame rate of the visual display was 60 Hz. A visual signal was displayed as a visual rotation around ankle joint in anterior-posterior direction (i.e., sagittal plane). The visual stimulus was presented at different amplitudes (0.2 deg and 0.8 deg rotation about ankle axis) at 0.2 Hz to measure: the change in gain (weighting) to vision, an intramodal effect; and a change in gain to vibration and galvanic stimulation, both intermodal effects. For the proprioceptive sensory perturbation, bilateral vibration of Achilles tendons was applied through two 20 mm vibrator motors, driven at 80 Hz and 1 mm amplitude displacement. While vibration is a common technique, it is typically used in an always-on or always-off manner (e.g., Capicikova et al, 2006) <xref rid="pone.0088132-Capicikova1" ref-type="bibr">[25]</xref>. For this study, we designed the vibrator to turn on and off quickly to approximate a square-wave periodic stimulus of a specified frequency with equal on and off time durations. The vibrators are enclosed in a hollow rectangular PVC container (3.5×3.8×3.5 cm) with a flexible recessed surface mounted on the contact face for comfortable fitting around the Achilles tendon. The enclosure was held in place by an elastic strap. The proprioceptive sensory perturbation was applied to different conditions (standing with vibration or standing without vibration) at 0.28 Hz. For the vestibular sensory perturbation, two linear isolated stimulators (Biopac Systems, Inc., Goleta, California, USA) were used as a binaural-monopolar galvanic vestibular stimulation (GVS). Independent stimuli were delivered to each side via a pair of circular electrodes secured over the mastoid process with an elastic headband and 2 cm ipsilateral to the T2 spinous process <xref rid="pone.0088132-Day2" ref-type="bibr">[26]</xref>. The electrodes were secured using adhesive tape and conductive electrode gel was applied at the electrode–skin interface to improve conductance. GVS consisted of a ±1 mA sinusoidal galvanic stimulus at 0.36 Hz and the polarity of stimulation was always the same for the two sides (binaural-monopolar GVS) to perturb subjects in the sagittal plane. GVS was applied to subjects in every trial of all conditions. Different frequencies for each stimulus were chosen so that we could measure a response to each modality independently and so that they did not share common low-order harmonics. <xref ref-type="fig" rid="pone-0088132-g002">Figure 2</xref> shows an example of a trial showing the stimulus signals and segments angles used for signal processing.</p>
+                  <fig id="pone-0088132-g002" orientation="portrait" position="float">
+                    <object-id pub-id-type="doi">10.1371/journal.pone.0088132.g002</object-id>
+                    <label>Figure 2</label>
+                    <caption>
+                      <title>An example of a trial showing the stimulus signals and segments angles used for signal processing.</title>
+                    </caption>
+                    <graphic xlink:href="pone.0088132.g002"/>
+                  </fig>
+                </sec>
+                <sec id="s2a4">
+                  <title>Kinematics</title>
+                  <p>Kinematics were captured by Vicon MX digital optical motion capture system with six infrared cameras (Vicon, UK). The head (the temple), shoulder (the scapula), hip (the greater trochanter), knee (the lateral femoral condyle), ankle (the lateral malleolus) and foot (the first metatarsal head) were measured by attaching twelve reflective markers on both sides of the subject to measure subject's anterior-posterior movement in the sagittal plane. The leg segment angle <italic>θ<sub>1</sub></italic>(<italic>t</italic>) and trunk segment angle <italic>θ<sub>2</sub></italic>(<italic>t</italic>) with respect to vertical were determined by the anterior-posterior (AP) and vertical displacement of the shoulder, hip and ankle markers, as shown in <xref ref-type="fig" rid="pone-0088132-g003">Figure 3</xref>. Kinematics were sampled at 120 Hz.</p>
+                  <fig id="pone-0088132-g003" orientation="portrait" position="float">
+                    <object-id pub-id-type="doi">10.1371/journal.pone.0088132.g003</object-id>
+                    <label>Figure 3</label>
+                    <caption>
+                      <title>Schematic diagram of the body showing the leg segment angle <italic>θ<sub>1</sub></italic> and trunk segment angle <italic>θ<sub>2</sub></italic>.</title>
+                    </caption>
+                    <graphic xlink:href="pone.0088132.g003"/>
+                  </fig>
+                </sec>
+              </sec>
+              <sec id="s2b">
+                <title>Analysis</title>
+                <sec id="s2b1">
+                  <title>Spectral analysis</title>
+                  <p>For any two signals <italic>x</italic>(<italic>t</italic>) and <italic>y</italic>(<italic>t</italic>), the power spectral densities (PSDs) <italic>p<sub>xx</sub></italic>(<italic>f</italic>) and <italic>p<sub>yy</sub></italic>(<italic>f</italic>) and cross spectral density(CSD) <italic>p<sub>xy</sub></italic>(<italic>f</italic>), where <italic>f</italic> is frequency, were computed using Welch's method <xref rid="pone.0088132-Bendat1" ref-type="bibr">[27]</xref> with 50-s Hanning windows and 50% overlap and then averaged across trials. Note that 25 s is an integer multiple of the periods of all three perturbation signals, so the 50-s window contains an integer number of cycles of each perturbation signal. The frequency response function (FRF) is the CSD divided by the PSD of the input. Gain, the absolute value of the FRF, is the amplitude of the output divided by the amplitude of the input at each driving frequency. For example, if the amplitudes of a segment angle response and the visual perturbation at the driving frequency are the same, the unitless gain (deg/deg) will equal one. Phase of the FRF is a measure of the temporal relationship between the input and output; the output may lead the input (positive values) or lag behind it (negative values). Bootstrap standard errors were also computed for gains and phases using 1000 bootstrap resamples <xref rid="pone.0088132-Zoubir1" ref-type="bibr">[28]</xref>.</p>
+                </sec>
+                <sec id="s2b2">
+                  <title>Statistical analysis</title>
+                  <p>In order to determine effects due to a change in visual amplitude and effect due to vibration on/off, values for gain and phase of leg angle θ<sub>1</sub>(t) and trunk angle θ<sub>2</sub>(t) relative to visual stimulus signal and GVS were respectively assessed using visual amplitude effect (low vs high amplitude visual scene movement)×vibration effect (vibration or no vibration) two way repeated-measures ANOVA. For the vibration perturbation, the cluster of FRF values for different subjects surrounded the origin in the complex plane. Therefore, to test gain and phase we analyzed the FRF values using the maximum-likelihood method of Jeka et al. (2008) <xref rid="pone.0088132-Jeka2" ref-type="bibr">[29]</xref>, which is designed for this case. For the visual and GVS perturbations, FRF values were clustered away from the origin, so we used the simpler method of computing gain and phase for each subject and then analyzing gain and phase separately using ANOVAs. Therefore, the maximum-likelihood method was applied to determine differences of gain and phase of leg and trunk angle relative to vibration between L-V-G and H-V-G. A gain/phase response can be measured only with vibration turned on (L-V-G and H-V-G) because it cannot be measured with vibration turned off (L-G and H-G). Differences were accepted to be significant at p&lt;0.05.</p>
+                </sec>
+              </sec>
+            </sec>
+            <sec id="s3">
+              <title>Results</title>
+              <p>Leg and trunk gain and phase responses are shown on separate plots relative to each sensory perturbation in <xref ref-type="fig" rid="pone-0088132-g004">Figures 4</xref>–<xref ref-type="fig" rid="pone-0088132-g006">6</xref>. Small white square represents standing with low amplitude visual scene movement – vibration – GVS (L-V-G), small black square represents standing with low amplitude visual scene movement - GVS – no vibration (L-G), large white square represents standing with high amplitude visual scene movement - vibration - GVS (H-V-G) and large black square represents standing with high amplitude visual scene movement - GVS - no vibration (H-G). It is most informative to digest how each sensory modality reacts to the same condition by comparing gains and phases across <xref ref-type="fig" rid="pone-0088132-g004">Figures 4</xref>–<xref ref-type="fig" rid="pone-0088132-g006">6</xref>.</p>
+              <fig id="pone-0088132-g004" orientation="portrait" position="float">
+                <object-id pub-id-type="doi">10.1371/journal.pone.0088132.g004</object-id>
+                <label>Figure 4</label>
+                <caption>
+                  <title>Gain and phase of segment angles relative to vision, showing intramodal visual reweighting (blue solid line) and intermodal visual-proprioceptive reweighting (red dashed line).</title>
+                  <p>Blue color indicates gain responses about changing of visual amplitude and red color indicates gain responses about vibration. Solid line indicates intramodal reweighting and dashed line indicates intermodal reweighting. The asterisk indicates significant reweighting effects (** for p&lt;.01 and * for p&lt;.05). <bold>A,</bold> gain of the leg segment angle relative to vision. <bold>B,</bold> gain of the trunk segment angle relative to vision. <bold>C,</bold> phase of the leg segment angle relative to vision. <bold>D,</bold> phase of the trunk segment angle relative to vision. Error bars denote bootstrap standard errors.</p>
+                </caption>
+                <graphic xlink:href="pone.0088132.g004"/>
+              </fig>
+              <fig id="pone-0088132-g005" orientation="portrait" position="float">
+                <object-id pub-id-type="doi">10.1371/journal.pone.0088132.g005</object-id>
+                <label>Figure 5</label>
+                <caption>
+                  <title>Gain and phase of segment angles relative to galvanic vestibular stimulation (GVS), showing intermodal reweighting.</title>
+                  <p>Blue color indicates gain responses about changing of visual amplitude and red color indicates gain responses about vibration. Dashed line indicates intermodal reweighting. The asterisk indicates significant reweighting effects (* for p&lt;.05). <bold>A,</bold> gain of the leg segment angle relative to GVS. <bold>B,</bold> gain of the trunk segment angle relative to GVS. <bold>C,</bold> phase of the leg segment angle relative to GVS. <bold>D,</bold> phase of the trunk segment angle relative to GVS. Error bars denote bootstrap standard errors.</p>
+                </caption>
+                <graphic xlink:href="pone.0088132.g005"/>
+              </fig>
+              <fig id="pone-0088132-g006" orientation="portrait" position="float">
+                <object-id pub-id-type="doi">10.1371/journal.pone.0088132.g006</object-id>
+                <label>Figure 6</label>
+                <caption>
+                  <title>Gain and phase of segment angles relative to vibration.</title>
+                  <p><bold>A,</bold> gain of the leg segment angle relative to vibration. <bold>B,</bold> gain of the trunk segment angle relative to vibration. <bold>C,</bold> phase of the leg segment angle relative to vibration. <bold>D,</bold> phase of the trunk segment angle relative to vibration. Error bars denote bootstrap standard errors.</p>
+                </caption>
+                <graphic xlink:href="pone.0088132.g006"/>
+              </fig>
+              <sec id="s3a">
+                <title>Gain responses to visual amplitude change</title>
+                <p>In <xref ref-type="fig" rid="pone-0088132-g004">Figure 4A</xref>, leg and trunk gain relative to vision decreases from the L-V-G condition to the H-V-G condition and from the L-G condition to the H-G condition (F<sub>(1,9)</sub> = 106.0, p&lt;.001), reflecting a clear <italic>intramodal</italic> downweighting of vision as visual scene amplitude increased, consistent with previous studies <xref rid="pone.0088132-Peterka1" ref-type="bibr">[16]</xref>, <xref rid="pone.0088132-Kiemel2" ref-type="bibr">[30]</xref>, <xref rid="pone.0088132-Oie2" ref-type="bibr">[31]</xref>. This effect was observed for trunk gain relative to vision as well (F<sub>(1,9)</sub> = 91.4, p&lt;.001), as shown in <xref ref-type="fig" rid="pone-0088132-g004">Figure 4B</xref>. We also observed <italic>intermodal</italic> effects due to a change in visual amplitude. For example, <xref ref-type="fig" rid="pone-0088132-g005">Figure 5A</xref> illustrates a significant increase in leg gain relative to the GVS stimulus (F<sub>(1,9)</sub> = 5.9, p&lt;.04) when visual amplitude increases (L-V-G to H-V-G, L-G to H-G), reflecting an intermodal vestibular upweighting to compensate for visual downweighting. These effects were not observed for trunk gain relative to the GVS stimulus. There were also not any significant intermodal effects of visual amplitude change on leg/trunk gain relative to vibration (<xref ref-type="fig" rid="pone-0088132-g006">Figure 6</xref>).</p>
+              </sec>
+              <sec id="s3b">
+                <title>Gain responses to vibration on/off</title>
+                <p>Intramodal effects were not observable with vibration because a gain response cannot be measured with vibration turned off. However, the effect of turning vibration on/off was clearly observed through intermodal effects on visual and GVS stimulation. When vibration is turned off in the L-G and H-G conditions, leg gain relative to visual (<xref ref-type="fig" rid="pone-0088132-g004">Figure 4A</xref>) and GVS (<xref ref-type="fig" rid="pone-0088132-g005">Figure 5A</xref>) stimuli decrease from the L-V-G and H-V-G conditions, respectively (F<sub>(1,9)</sub> = 5.7, p&lt;.05; F<sub>(1,9)</sub> = 5.4, p&lt;.05). These intermodal effects suggest that vibration changes processing of proprioceptive information at the foot/ankle, forcing the nervous system to compensate by upweighting vision and vestibular information in the L-V-G and H-V-G conditions. Similar effects were observed for trunk gain for the visual stimulus in <xref ref-type="fig" rid="pone-0088132-g004">Figure 4B</xref> (F<sub>(1,9)</sub> = 5.1, p&lt;.05), but no significant effects were observed for trunk gain relative to the GVS stimulus in <xref ref-type="fig" rid="pone-0088132-g005">Figure 5B</xref>.</p>
+              </sec>
+              <sec id="s3c">
+                <title>Phase</title>
+                <p>Phase of the leg/trunk segments relative to each of the sensory stimuli shown in <xref ref-type="fig" rid="pone-0088132-g004">Figures 4</xref>–<xref ref-type="fig" rid="pone-0088132-g006">6 C–D</xref> indicated no differences across conditions. However, absolute differences in phase were observed relative to the mode of sensory stimulation. Leg/trunk segment angles displayed similar phase lags of 25 deg∼30 deg relative to vision and phase advances of 50 deg and 25 deg, respectively, relative to vibration. Relative to the GVS stimulus, leg phase was zero and trunk phase was advanced by ∼25 deg.</p>
+              </sec>
+            </sec>
+            <sec id="s4">
+              <title>Discussion</title>
+              <p>In this study, we investigated how the primary trio of modalities (visual, vestibular and proprioceptive system) that are crucial for flexible postural control are processed in order to provide estimates of self-motion that are optimal to stabilize upright stance. Theoretically, one can decompose sensory feedback into individual feedback components from each sensory modality. However, these modalities are not processed independently; when sensory conditions change an adaptive process known as sensory re-weighting changes the relative importance of each modality in a coordinated fashion. For the first time, we experimentally elucidate the sensor fusion process for all three modalities simultaneously during standing to understand how the nervous system adjusts the emphasis on each modality under different combinations of static and dynamic sensory input.</p>
+              <p>In order to achieve these results, we used vibration in a novel way to induce and measure the effects of sensory re-weighting. Vibration is a common technique to perturb proprioceptive input; it can either be applied in a sustained manner <xref rid="pone.0088132-Capicikova1" ref-type="bibr">[25]</xref>, <xref rid="pone.0088132-Lackner1" ref-type="bibr">[32]</xref> or turned on and off stochastically <xref rid="pone.0088132-Johansson3" ref-type="bibr">[33]</xref>, <xref rid="pone.0088132-Fransson1" ref-type="bibr">[34]</xref>. The second approach allows one to measure responses across a range of frequencies. Here we turned vibration on and off periodically to focus on a single stimulus frequency, allowing us to detect the effects of sensory re-weighting more precisely at this frequency. We designed the vibrator to turn on and off quickly to approximate a square-wave periodic stimulus at the specified frequency, allowing calculation of gain/phase of trunk and leg segments relative to the vibration stimulus. This was critical in allowing us to compare changes in gain/phase between each modality and allow interpretation of how each was reweighted as visual amplitude was manipulated.</p>
+              <sec id="s4a">
+                <title>Gain</title>
+                <p>The results illustrate both intramodal and intermodal reweighting of trunk/leg segment responses relative to the three sensory perturbations. When visual amplitude was increased from the L-V-G to the H-V-G condition, leg/trunk segment gain relative to vision decreases, suggesting downweighting of vision, consistent with previous studies <xref rid="pone.0088132-Peterka1" ref-type="bibr">[16]</xref>, <xref rid="pone.0088132-Kiemel2" ref-type="bibr">[30]</xref>, <xref rid="pone.0088132-Oie2" ref-type="bibr">[31]</xref>. With the increase in visual amplitude, we also observed an increase in vestibular gain relative to the galvanic stimulus, suggesting an intermodal upweighting of the vestibular information to compensate for visual downweighting. Intermodal upweighting of the proprioceptive channel was not observed. This may be due to the “local” nature of the vibratory stimulus. While the visual and vestibular modalities are anatomically organized so that a stimulus can bias the entire peripheral organ, muscle spindles are distributed throughout the musculature. A vibration localized to the Achilles tendon biases the sensory signals from an important muscle group related to posture, but there are many other muscles that play an active role in maintaining upright stance. Thus, intermodal effects of visual change on proprioception may be difficult to achieve because the bias is distributed across many proprioceptive sensors and in different body segments.</p>
+                <p>Interestingly, intermodal effects of vibration on visual and vestibular gain were observed. The increase in trunk/leg gain relative to the visual and GVS stimuli from the L-G and H-G conditions to the L-V-G and H-V-G conditions, respectively, shows how the visual and vestibular modalities are upweighted when vibration is turned on. These intermodal effects are observed because vibration changes proprioceptive inputs at the ankles thereby making these inputs a less reliable indicator of self-motion. Disruption of proprioception, even locally at the ankles, seems to affect visual and vestibular processing much more than a change in the visual stimulus affects proprioception. This intermodal asymmetry emphasizes the delicate interplay between the modalities. This interplay of intramodal (vision) and intermodal (proprioceptive and vestibular) effects reflect a central “sensor fusion” process that continuously incorporates sensory input to generate the most reliable estimates of self-motion for the maintenance of upright equilibrium.</p>
+                <p>We also observed effects based upon body segment, as the trunk and leg segments did not respond equivalently to different types of stimuli. The contrast between segment effects based upon visual and vestibular gain are particularly striking. Intramodal and intermodal effects on visual gain were almost equivalent across the leg and trunk segments. This is consistent with the view that although the nervous system interprets visual information in the context of multi-segment dynamics, responses to visual information involves a single control signal that determines the activation of all muscles <xref rid="pone.0088132-Kiemel3" ref-type="bibr">[35]</xref>, <xref rid="pone.0088132-Kiemel4" ref-type="bibr">[36]</xref>. In contrast, intermodal effects of vision or vibration on vestibular gain were observed for the leg segment, with no significant effect on the trunk segment. This suggests that vestibular information not only provides information about intersegmental control, but that vestibular information is also used to differentially activate different muscles, consistent with previous work <xref rid="pone.0088132-Creath1" ref-type="bibr">[37]</xref>. Clearly each modality is playing a specific role in controlling the multi-segment body.</p>
+              </sec>
+              <sec id="s4b">
+                <title>Phase</title>
+                <p>We did not observe differences in trunk/leg phase relative to each stimulus as a function of condition. However, phase differences across modality were observed, which may be due either to the processing properties of the modality or the different frequencies at which each was presented. Our technique to investigate “sensor fusion”stems from linear systems theory. Subjects are typically “driven” by an oscillating pattern of sensory information. The resulting postural responses of the body are measured to determine system properties <xref rid="pone.0088132-Jeka3" ref-type="bibr">[38]</xref>. For example, the sinusoidal vertical axis rotation (SVAR) technique rotates seated subjects at a range of frequencies to measure the gain and phase of eye movements in the dark as a measure of vestibular function <xref rid="pone.0088132-Krebs1" ref-type="bibr">[39]</xref>, <xref rid="pone.0088132-Howard1" ref-type="bibr">[40]</xref>. Likewise, an oscillating visual “moving room” has been used to demonstrate the coupling of visual information with whole-body posture <xref rid="pone.0088132-Berthoz1" ref-type="bibr">[2]</xref>, <xref rid="pone.0088132-Dijkstra2" ref-type="bibr">[41]</xref>–<xref rid="pone.0088132-Soechting1" ref-type="bibr">[43]</xref>. Such methods have consistently found that as the frequency of stimulation increases, the phase of the response decreases, due to factors such as time delays and the low-pass filtering properties of musculotendon and body dynamics. Note that our results are inconsistent with these factors being equivalent for all modalities, as the modality presented at the lowest frequency (vision at 0.2 Hz) had the largest phase lag (≈−30 deg) while modalities presented at higher frequencies (vibration at 0.28 Hz, GVS at 0.36 Hz) displayed either zero phase lag or a phase lead, respectively. This is consistent with known differences among time delays for different modalities. Proprioceptive information has the shortest time delays, with monosynaptic pathways that can process information as quickly as 40–50 ms <xref rid="pone.0088132-Campbell1" ref-type="bibr">[44]</xref>. Vision, at the opposite extreme, is relatively slow, with time delays as long as 150–200 ms <xref rid="pone.0088132-Gabor1" ref-type="bibr">[45]</xref>, <xref rid="pone.0088132-Nijhawan1" ref-type="bibr">[46]</xref>. Vestibular processing delays are thought to be somewhere between these extremes <xref rid="pone.0088132-Fitzpatrick1" ref-type="bibr">[47]</xref>.</p>
+              </sec>
+              <sec id="s4c">
+                <title>Vestibular input – sensor fusion</title>
+                <p>Vestibular inputs provide absolute information about the body's orientation, whereas visual and proprioceptive inputs provide relative information (relative to visual scene and relative to the support surface) about the body's orientation. Since in everyday life the visual scene and/or support surface can move, this means that visual and proprioceptive inputs do not necessarily provide veridical information about the body's orientation. Therefore, vestibular input has been considered to provide the sole source of veridical information about self-motion, serving as a reference against which other sensory inputs are evaluated when conflicts among inputs from multiple senses occur. For example, DeAngelis and Angelaki (2012) suggest that vestibular signals could be of specific importance in dealing with object motion because the vestibular modality provides an independent source of information about head movements that may help to identify optic flow that is inconsistent with self-motion induced by moving objects <xref rid="pone.0088132-DeAngelis1" ref-type="bibr">[48]</xref>. Similarly, Mahboobin et al. (2009) model sensory reweighting of graviceptive/vestibular and proprioceptive inputs for the control of upright stance under the assumption that graviceptive inputs provide veridical but noisy orientation information <xref rid="pone.0088132-Mahboobin4" ref-type="bibr">[49]</xref>. When a large conflict occurs between the graviceptive and proprioceptive inputs, the graviceptive input is “trusted” and its weight is increased while the proprioceptive weight is decreased.</p>
+                <p>Our observed changes in gain to the GVS perturbation were consistent with the Mahboobin et al. model, assuming that the model is extended to include a visual input that, like the proprioceptive input, is non-veridical. Vibration of the Achilles tendon increased the GVS gain, consistent with an up-weighting of vestibular information due to a conflict between vestibular and proprioceptive inputs. Similarly, GVS gain increased with increasing amplitude of visual-scene motion. However, these intermodal effects are also consistent the model of Carver et al. (2005; 2006) <xref rid="pone.0088132-Carver1" ref-type="bibr">[50]</xref>, <xref rid="pone.0088132-Carver2" ref-type="bibr">[51]</xref>, which reweights two sensory inputs without assuming that either one is veridical. Instead, it changes sensory weights in whichever direction improves postural control performance, as measured by mean-squared specified ankle torque. As an avenue for future research, we can distinguish between these two models by changing the GVS amplitude. With increasing GVS amplitude, the Mahboobin et al. model would increase the GVS gain, since the model would falsely attribute the increased sensory conflicts to increased errors in non-vestibular sensory modalities. In contrast, the Carver et al. model would decrease the GVS gain, since doing so would increase postural control performance.</p>
+              </sec>
+            </sec>
+            <sec id="s5">
+              <title>Conclusions</title>
+              <p>Simultaneous manipulation of the three sensory modalities that are critical for upright stance control demonstrate their interplay for stable and flexible control of upright stance. This is the first time, to our knowledge, that the interplay between the three primary modalities for postural control has been clearly delineated, illustrating a central process that fuses these modalities for accurate estimates of self-motion.</p>
+            </sec>
+          </body>
+          <back>
+            <ref-list>
+              <title>References</title>
+              <ref id="pone.0088132-Horak1">
+                <label>1</label>
+                <mixed-citation publication-type="journal"><name><surname>Horak</surname><given-names>FB</given-names></name>, <name><surname>Macpherson</surname><given-names>JM</given-names></name> (<year>1996</year>) <article-title>Postural orientation and equilibrium</article-title>. <source>Handbook of Physiology, Exercise: Regulation and Integration of Multiple Systems. New York: Oxford, sect</source>
+<volume>12</volume>: <fpage>255</fpage>–<lpage>292</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Berthoz1">
+                <label>2</label>
+                <mixed-citation publication-type="journal"><name><surname>Berthoz</surname><given-names>A</given-names></name>, <name><surname>Lacour</surname><given-names>M</given-names></name>, <name><surname>Soechting</surname><given-names>JF</given-names></name>, <name><surname>Vidal</surname><given-names>PP</given-names></name> (<year>1979</year>) <article-title>The role of vision in the control of posture during linear motion</article-title>. <source>Progress in Brain Research</source>
+<volume>50</volume>: <fpage>197</fpage>–<lpage>209</lpage>.<pub-id pub-id-type="pmid">551426</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Bronstein1">
+                <label>3</label>
+                <mixed-citation publication-type="journal"><name><surname>Bronstein</surname><given-names>AM</given-names></name> (<year>1986</year>) <article-title>Suppression of visually evoked postural responses</article-title>. <source>Experimental Brain Research</source>
+<volume>63</volume>: <fpage>655</fpage>–<lpage>658</lpage>.<pub-id pub-id-type="pmid">3489640</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Dijkstra1">
+                <label>4</label>
+                <mixed-citation publication-type="journal"><name><surname>Dijkstra</surname><given-names>TM</given-names></name>, <name><surname>Schöner</surname><given-names>G</given-names></name>, <name><surname>Gielen</surname><given-names>CC</given-names></name> (<year>1994</year>) <article-title>Temporal stability of the action-perception cycle for postural control in a moving visual environment</article-title>. <source>Experimental Brain Research</source>
+<volume>97</volume>: <fpage>477</fpage>–<lpage>486</lpage>.<pub-id pub-id-type="pmid">8187859</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Lee1">
+                <label>5</label>
+                <mixed-citation publication-type="journal"><name><surname>Lee</surname><given-names>DN</given-names></name>, <name><surname>Lishman</surname><given-names>JR</given-names></name> (<year>1975</year>) <article-title>Visual proprioceptive control of stance</article-title>. <source>Journal of Human Movement Studies</source>
+<volume>1</volume>: <fpage>87</fpage>–<lpage>95</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Lestienne1">
+                <label>6</label>
+                <mixed-citation publication-type="journal"><name><surname>Lestienne</surname><given-names>F</given-names></name>, <name><surname>Schoechting</surname><given-names>JF</given-names></name>, <name><surname>Berthoz</surname><given-names>A</given-names></name> (<year>1977</year>) <article-title>Postural readjustment induced by linear motion of visual scenes</article-title>. <source>Experimental Brain Research</source>
+<volume>28</volume>: <fpage>363</fpage>–<lpage>384</lpage>.<pub-id pub-id-type="pmid">885185</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-vanAsten1">
+                <label>7</label>
+                <mixed-citation publication-type="journal"><name><surname>van Asten</surname><given-names>WN</given-names></name>, <name><surname>Gielen</surname><given-names>CC</given-names></name>, <name><surname>Diener van der Gon</surname><given-names>JJ</given-names></name> (<year>1988</year>) <article-title>Postural adjustments induced by simulated motion of differently structured environments</article-title>. <source>Experimental Brain Research</source>
+<volume>73</volume>: <fpage>371</fpage>–<lpage>383</lpage>.<pub-id pub-id-type="pmid">3215313</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Allum1">
+                <label>8</label>
+                <mixed-citation publication-type="journal"><name><surname>Allum</surname><given-names>JH</given-names></name> (<year>1983</year>) <article-title>Organization of stabilizing reflex responses in tibialis anterior muscles following ankle flexion perturbations of standing man</article-title>. <source>Brain Res</source>
+<volume>264</volume>: <fpage>297</fpage>–<lpage>301</lpage>.<pub-id pub-id-type="pmid">6850299</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Jeka1">
+                <label>9</label>
+                <mixed-citation publication-type="journal"><name><surname>Jeka</surname><given-names>JJ</given-names></name>, <name><surname>Schöner</surname><given-names>G</given-names></name>, <name><surname>Dijkstra</surname><given-names>T</given-names></name>, <name><surname>Ribeiro</surname><given-names>P</given-names></name>, <name><surname>Lackner</surname><given-names>JR</given-names></name> (<year>1997</year>) <article-title>Coupling of fingertip somatosensory information to head and body sway</article-title>. <source>Experimental Brain Research</source>
+<volume>113</volume>: <fpage>475</fpage>–<lpage>483</lpage>.<pub-id pub-id-type="pmid">9108214</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Johansson1">
+                <label>10</label>
+                <mixed-citation publication-type="journal"><name><surname>Johansson</surname><given-names>R</given-names></name>, <name><surname>Magnusson</surname><given-names>M</given-names></name>, <name><surname>Akesson</surname><given-names>M</given-names></name> (<year>1988</year>) <article-title>Identification of Human Postural Dynamics</article-title>. <source>IEEE Trans Biomed Eng</source>
+<volume>35</volume>: <fpage>858</fpage>–<lpage>869</lpage>.<pub-id pub-id-type="pmid">3192235</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Kavounoudias1">
+                <label>11</label>
+                <mixed-citation publication-type="journal"><name><surname>Kavounoudias</surname><given-names>A</given-names></name>, <name><surname>Gilhodes</surname><given-names>JC</given-names></name>, <name><surname>Roll</surname><given-names>R</given-names></name>, <name><surname>Roll</surname><given-names>JP</given-names></name> (<year>1999</year>) <article-title>From balance regulation to body orientation: two goals for muscle proprioceptive information processing, xperimental</article-title>. <source>Brain Research</source>
+<volume>124</volume>: <fpage>80</fpage>–<lpage>88</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Day1">
+                <label>12</label>
+                <mixed-citation publication-type="journal"><name><surname>Day</surname><given-names>BL</given-names></name>, <name><surname>Severac Cauquil</surname><given-names>A</given-names></name>, <name><surname>Bartolomei</surname><given-names>L</given-names></name>, <name><surname>Pastor</surname><given-names>MA</given-names></name>, <name><surname>Lyon</surname><given-names>IN</given-names></name> (<year>1997</year>) <article-title>Human body-segment tilts induced by galvanic stimulation: a vestibularly driven balance protection mechanism</article-title>. <source>J physiol</source>
+<volume>500</volume>: <fpage>661</fpage>–<lpage>672</lpage>.<pub-id pub-id-type="pmid">9161984</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Hlavacka1">
+                <label>13</label>
+                <mixed-citation publication-type="journal"><name><surname>Hlavacka</surname><given-names>F</given-names></name>, <name><surname>Njiokiktjien</surname><given-names>C</given-names></name> (<year>1985</year>) <article-title>Postural responses evoked by sinusoidal galvanic stimulation of the labyrinth. Influence of head position</article-title>. <source>Acta Otolaryngol</source>
+<volume>99</volume>: <fpage>107</fpage>–<lpage>112</lpage>.<pub-id pub-id-type="pmid">3872005</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Johansson2">
+                <label>14</label>
+                <mixed-citation publication-type="journal"><name><surname>Johansson</surname><given-names>R</given-names></name>, <name><surname>Magnusson</surname><given-names>M</given-names></name>, <name><surname>Fransson</surname><given-names>PA</given-names></name> (<year>1995</year>) <article-title>Galvanic vestibular stimulation for analysis of postural adaptation and stability</article-title>. <source>IEEE Trans Biomed Eng</source>
+<volume>42</volume>: <fpage>282</fpage>–<lpage>292</lpage>.<pub-id pub-id-type="pmid">7698784</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Nashner1">
+                <label>15</label>
+                <mixed-citation publication-type="journal"><name><surname>Nashner</surname><given-names>LM</given-names></name>, <name><surname>Wolfson</surname><given-names>P</given-names></name> (<year>1974</year>) <article-title>Influence of head position and proprioceptive cues on short latency postural reflexes evoked by galvanic stimulation of the human labyrinth</article-title>. <source>Brain Res</source>
+<volume>67</volume>: <fpage>255</fpage>–<lpage>268</lpage>.<pub-id pub-id-type="pmid">4470421</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Peterka1">
+                <label>16</label>
+                <mixed-citation publication-type="journal"><name><surname>Peterka</surname><given-names>RJ</given-names></name> (<year>2002</year>) <article-title>Sensorimotor integration in human postural control</article-title>. <source>J Neurophysiol. Sep</source>
+<volume>88</volume>
+<issue>3</issue>: <fpage>1097</fpage>–<lpage>1118</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Peterka2">
+                <label>17</label>
+                <mixed-citation publication-type="journal"><name><surname>Peterka</surname><given-names>RJ</given-names></name>, <name><surname>Loughlin</surname><given-names>PJ</given-names></name> (<year>2004</year>) <article-title>Dynamic regulation of sensorimotor integration in human postural control</article-title>. <source>Journal of Neurophysiology</source>
+<volume>91</volume>: <fpage>410</fpage>–<lpage>423</lpage>.<pub-id pub-id-type="pmid">13679407</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-vanderKooij1">
+                <label>18</label>
+                <mixed-citation publication-type="journal"><name><surname>van der Kooij</surname><given-names>H</given-names></name>, <name><surname>Jacobs</surname><given-names>R</given-names></name>, <name><surname>Koopman</surname><given-names>B</given-names></name>, <name><surname>van der Helm</surname><given-names>F</given-names></name> (<year>2001</year>) <article-title>An adaptive model of sensory integration in a dynamic environment applied to human stance control</article-title>. <source>Biol Cybern</source>
+<volume>84</volume>
+<issue>2</issue>: <fpage>103</fpage>–<lpage>115</lpage>.<pub-id pub-id-type="pmid">11205347</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Mahboobin1">
+                <label>19</label>
+                <mixed-citation publication-type="journal"><name><surname>Mahboobin</surname><given-names>A</given-names></name>, <name><surname>Beck</surname><given-names>C</given-names></name>, <name><surname>Moeinzedah</surname><given-names>M</given-names></name>, <name><surname>Loughlin</surname><given-names>PJ</given-names></name> (<year>2002</year>) <article-title>Analysis and validation of a human postural control model</article-title>. <source>Proceeding of the American Control Conference</source>
+<fpage>4122</fpage>–<lpage>4128</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Kiemel1">
+                <label>20</label>
+                <mixed-citation publication-type="journal"><name><surname>Kiemel</surname><given-names>T</given-names></name>, <name><surname>Oie</surname><given-names>KS</given-names></name>, <name><surname>Jeka</surname><given-names>JJ</given-names></name> (<year>2002</year>) <article-title>Multisensory fusion and the stochastic structure of postural sway</article-title>. <source>Biological Cybernetics</source>
+<volume>87</volume>: <fpage>262</fpage>–<lpage>277</lpage>.<pub-id pub-id-type="pmid">12386742</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Oie1">
+                <label>21</label>
+                <mixed-citation publication-type="journal"><name><surname>Oie</surname><given-names>KS</given-names></name>, <name><surname>Kiemel</surname><given-names>T</given-names></name>, <name><surname>Jeka</surname><given-names>JJ</given-names></name> (<year>2001</year>) <article-title>Human multisensory fusion of vision and touch: detecting nonlinearity with small changes in the sensory environment</article-title>. <source>Neuroscience Letters</source>
+<volume>315</volume>: <fpage>113</fpage>–<lpage>116</lpage>.<pub-id pub-id-type="pmid">11716976</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Mahboobin2">
+                <label>22</label>
+                <mixed-citation publication-type="journal"><name><surname>Mahboobin</surname><given-names>A</given-names></name>, <name><surname>Loughlin</surname><given-names>PJ</given-names></name>, <name><surname>Redfern</surname><given-names>MS</given-names></name>, <name><surname>Sparto</surname><given-names>PJ</given-names></name> (<year>2005</year>) <article-title>Sensory re-weighting in human postural control during moving-scene perturbations</article-title>. <source>Experimental Brain Research</source>
+<volume>167</volume>: <fpage>260</fpage>–<lpage>267</lpage>.<pub-id pub-id-type="pmid">16025292</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Mahboobin3">
+                <label>23</label>
+                <mixed-citation publication-type="other">Mahboobin A (2008) Computational and Robotic Models of Human Postural Control. Doctoral Dissertation, University of Pittsburgh.</mixed-citation>
+              </ref>
+              <ref id="pone.0088132-McIlroy1">
+                <label>24</label>
+                <mixed-citation publication-type="journal"><name><surname>McIlroy</surname><given-names>WE</given-names></name>, <name><surname>Maki</surname><given-names>BE</given-names></name> (<year>1997</year>) <article-title>Preferred Placement of the Feet During Quiet Stance: Development of a Standardized Foot Placement for Balance Testing</article-title>. <source>Clinical Biomechanics</source>
+<volume>12</volume>: <fpage>66</fpage>–<lpage>70</lpage>.<pub-id pub-id-type="pmid">11415674</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Capicikova1">
+                <label>25</label>
+                <mixed-citation publication-type="journal"><name><surname>Capicikova</surname><given-names>N</given-names></name>, <name><surname>Rocchi</surname><given-names>I</given-names></name>, <name><surname>Hlavacka</surname><given-names>F</given-names></name>, <name><surname>Chiari</surname><given-names>I</given-names></name>, <name><surname>Cappello</surname><given-names>A</given-names></name> (<year>2006</year>) <article-title>Human postural response to lower leg muscle vibration of different duration</article-title>. <source>Physiol Res</source>
+<volume>55</volume>
+<issue>1</issue>: <fpage>S129</fpage>–<lpage>S134</lpage>.<pub-id pub-id-type="pmid">17177621</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Day2">
+                <label>26</label>
+                <mixed-citation publication-type="journal"><name><surname>Day</surname><given-names>BL</given-names></name>, <name><surname>Marsden</surname><given-names>JF</given-names></name>, <name><surname>Ramsay</surname><given-names>E</given-names></name>, <name><surname>Mian</surname><given-names>OS</given-names></name>, <name><surname>Fitzpatrick</surname><given-names>RC</given-names></name> (<year>2010</year>) <article-title>Non-linear vector summation of left and right vestibular signals for human balance</article-title>. <source>J physiol</source>
+<volume>508</volume>
+<issue>4</issue>: <fpage>671</fpage>–<lpage>682</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Bendat1">
+                <label>27</label>
+                <mixed-citation publication-type="book">Bendat JS, Piersol AG (2000) Random data: Analysis and measurement procedures, 3rd edition. New York: Wiley.</mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Zoubir1">
+                <label>28</label>
+                <mixed-citation publication-type="journal"><name><surname>Zoubir</surname><given-names>AM</given-names></name>, <name><surname>Boashash</surname><given-names>B</given-names></name> (<year>1998</year>) <article-title>The bootstrap and its application in signal processing</article-title>. <source>IEEE Signal Processing Magazine</source>
+<volume>15</volume>: <fpage>56</fpage>–<lpage>76</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Jeka2">
+                <label>29</label>
+                <mixed-citation publication-type="journal"><name><surname>Jeka</surname><given-names>JJ</given-names></name>, <name><surname>Oie</surname><given-names>KS</given-names></name>, <name><surname>Kiemel</surname><given-names>T</given-names></name> (<year>2008</year>) <article-title>Asymmetric adaptation with functional advantage in human sensorimotor control</article-title>. <source>Exp Bran Res</source>
+<volume>191</volume>: <fpage>453</fpage>–<lpage>463</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Kiemel2">
+                <label>30</label>
+                <mixed-citation publication-type="journal"><name><surname>Kiemel</surname><given-names>T</given-names></name>, <name><surname>Oie</surname><given-names>KS</given-names></name>, <name><surname>Jeka</surname><given-names>JJ</given-names></name> (<year>2006</year>) <article-title>Slow Dynamics of Postural Sway Are in the Feedback Loop</article-title>. <source>J Neurophysiol</source>
+<volume>95</volume>: <fpage>1410</fpage>–<lpage>1418</lpage>.<pub-id pub-id-type="pmid">16192341</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Oie2">
+                <label>31</label>
+                <mixed-citation publication-type="journal"><name><surname>Oie</surname><given-names>KS</given-names></name>, <name><surname>Kiemel</surname><given-names>T</given-names></name>, <name><surname>Jeka</surname><given-names>JJ</given-names></name> (<year>2002</year>) <article-title>Multisensory fusion: Simultaneous re-weighting of vision and touch for the control of human posture</article-title>. <source>Cognitive Brain Research</source>
+<volume>14</volume>: <fpage>164</fpage>–<lpage>176</lpage>.<pub-id pub-id-type="pmid">12063140</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Lackner1">
+                <label>32</label>
+                <mixed-citation publication-type="journal"><name><surname>Lackner</surname><given-names>JR</given-names></name>, <name><surname>Rabin</surname><given-names>E</given-names></name>, <name><surname>Dizio</surname><given-names>P</given-names></name> (<year>2000</year>) <article-title>Fingertip contact suppresses the destabilizing influence of leg muscle vibration</article-title>. <source>J Neurophysiol</source>
+<volume>84</volume>: <fpage>2217</fpage>–<lpage>2224</lpage>.<pub-id pub-id-type="pmid">11067967</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Johansson3">
+                <label>33</label>
+                <mixed-citation publication-type="journal"><name><surname>Johansson</surname><given-names>R</given-names></name>, <name><surname>Magnusson</surname><given-names>M</given-names></name>, <name><surname>Fransson</surname><given-names>PA</given-names></name>, <name><surname>Karlberg</surname><given-names>M</given-names></name> (<year>2001</year>) <article-title>Multi-stimulus multi-response posturography</article-title>. <source>Mathematical Biosciences</source>
+<volume>174</volume>: <fpage>41</fpage>–<lpage>59</lpage>.<pub-id pub-id-type="pmid">11595256</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Fransson1">
+                <label>34</label>
+                <mixed-citation publication-type="journal"><name><surname>Fransson</surname><given-names>PA</given-names></name>, <name><surname>Hjerpe</surname><given-names>M</given-names></name>, <name><surname>Johansson</surname><given-names>R</given-names></name> (<year>2007</year>) <article-title>Adaptation of multi-segmented body movements during vibratory proprioceptive and galvanic vestibular stimulation</article-title>. <source>Journal of Vestibular Research</source>
+<volume>17</volume>: <fpage>47</fpage>–<lpage>62</lpage>.<pub-id pub-id-type="pmid">18219104</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Kiemel3">
+                <label>35</label>
+                <mixed-citation publication-type="journal"><name><surname>Kiemel</surname><given-names>T</given-names></name>, <name><surname>Elahi</surname><given-names>AJ</given-names></name>, <name><surname>Jeka</surname><given-names>JJ</given-names></name> (<year>2008</year>) <article-title>Identification of the Plant for Upright Stance in Humans: Multiple Movement Patterns From a Single Neural Strategy</article-title>. <source>J Neurophysiol</source>
+<volume>100</volume>: <fpage>3394</fpage>–<lpage>3406</lpage>.<pub-id pub-id-type="pmid">18829854</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Kiemel4">
+                <label>36</label>
+                <mixed-citation publication-type="journal"><name><surname>Kiemel</surname><given-names>T</given-names></name>, <name><surname>Zhang</surname><given-names>Y</given-names></name>, <name><surname>Jeka</surname><given-names>JJ</given-names></name> (<year>2011</year>) <article-title>Visual flow is interpreted relative to multisegment postural control</article-title>. <source>J of Motor Behavior</source>
+<volume>43</volume>
+<issue>3</issue>: <fpage>237</fpage>–<lpage>246</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Creath1">
+                <label>37</label>
+                <mixed-citation publication-type="journal"><name><surname>Creath</surname><given-names>R</given-names></name>, <name><surname>Kiemel</surname><given-names>T</given-names></name>, <name><surname>Horak</surname><given-names>FB</given-names></name>, <name><surname>Jeka</surname><given-names>J</given-names></name> (<year>2008</year>) <article-title>The role of vestibular and somatosensory systems in intersegmental control of upright stance</article-title>. <source>J of Vestibular Research</source>
+<volume>18</volume>: <fpage>39</fpage>–<lpage>49</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Jeka3">
+                <label>38</label>
+                <mixed-citation publication-type="journal"><name><surname>Jeka</surname><given-names>JJ</given-names></name>, <name><surname>Oie</surname><given-names>KS</given-names></name>, <name><surname>Schoner</surname><given-names>G</given-names></name>, <name><surname>Dijkstra</surname><given-names>T</given-names></name>, <name><surname>Henson</surname><given-names>E</given-names></name> (<year>1998</year>) <article-title>Position and Velocity Coupling of Postural Sway to Somatosensory Drive</article-title>. <source>Journal of Neurophysiology</source>
+<volume>79</volume>: <fpage>1661</fpage>–<lpage>1674</lpage>.<pub-id pub-id-type="pmid">9535937</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Krebs1">
+                <label>39</label>
+                <mixed-citation publication-type="journal"><name><surname>Krebs</surname><given-names>DE</given-names></name>, <name><surname>Gill-body</surname><given-names>KE</given-names></name>, <name><surname>Riley</surname><given-names>PO</given-names></name>, <name><surname>Parker</surname><given-names>SW</given-names></name> (<year>1993</year>) <article-title>Double-blind, placebo-controlled trial of rehabilitation for bilateral vestibular hypofunction: preliminary report. Otalaryngol</article-title>. <source>Head Neck Surg</source>
+<volume>109</volume>: <fpage>735</fpage>–<lpage>741</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Howard1">
+                <label>40</label>
+                <mixed-citation publication-type="book">Howard IP (1982) Human Visual Orientation. New York: Wiley.</mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Dijkstra2">
+                <label>41</label>
+                <mixed-citation publication-type="journal"><name><surname>Dijkstra</surname><given-names>TM</given-names></name>, <name><surname>Schöner</surname><given-names>G</given-names></name>, <name><surname>Giese</surname><given-names>MA</given-names></name>, <name><surname>Gielen</surname><given-names>CCAM</given-names></name> (<year>1994</year>) <article-title>Frequency dependence of the action-perception cycle for postural control in a moving visual environment: Relative phase dynamics</article-title>. <source>Biological Cybernetics</source>
+<volume>71</volume>: <fpage>489</fpage>–<lpage>501</lpage>.<pub-id pub-id-type="pmid">7999875</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Peterka3">
+                <label>42</label>
+                <mixed-citation publication-type="journal"><name><surname>Peterka</surname><given-names>RJ</given-names></name>, <name><surname>Benolken</surname><given-names>MS</given-names></name> (<year>1995</year>) <article-title>Role of somatosensory and vestibular cues in attenuating visually induced human postural sway</article-title>. <source>Experimental Brain Research</source>
+<volume>105</volume>: <fpage>101</fpage>–<lpage>110</lpage>.<pub-id pub-id-type="pmid">7589307</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Soechting1">
+                <label>43</label>
+                <mixed-citation publication-type="journal"><name><surname>Soechting</surname><given-names>J</given-names></name>, <name><surname>Berthoz</surname><given-names>A</given-names></name> (<year>1979</year>) <article-title>Dynamic role of vision in the control of posture in man</article-title>. <source>Experimental Brain Research</source>
+<volume>36</volume>: <fpage>551</fpage>–<lpage>561</lpage>.<pub-id pub-id-type="pmid">477782</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Campbell1">
+                <label>44</label>
+                <mixed-citation publication-type="book">Campbell SA (2007) Time delays in neural systems. In: McIntosh AR and Jirsa VK, editors. Handbook of brain connectivity. New York, NY: Springer Verlag.</mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Gabor1">
+                <label>45</label>
+                <mixed-citation publication-type="journal"><name><surname>Gabor</surname><given-names>S</given-names></name> (<year>2009</year>) <article-title>Delay effects in the human sensory system during balancing</article-title>. <source>Phil Trans R Soc</source>
+<volume>367</volume>: <fpage>1195</fpage>–<lpage>1212</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Nijhawan1">
+                <label>46</label>
+                <mixed-citation publication-type="journal"><name><surname>Nijhawan</surname><given-names>R</given-names></name> (<year>2008</year>) <article-title>Visual prediction: Psychophysics and neurophysiology of compensation for time delays</article-title>. <source>Behavioral and Brain Sciences</source>
+<volume>31</volume>: <fpage>179</fpage>–<lpage>239</lpage>.<pub-id pub-id-type="pmid">18479557</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Fitzpatrick1">
+                <label>47</label>
+                <mixed-citation publication-type="journal"><name><surname>Fitzpatrick</surname><given-names>R</given-names></name>, <name><surname>McCloskey</surname><given-names>DI</given-names></name> (<year>1994</year>) <article-title>Proprioceptive, visual and vestibular thresholds for the perception of sway during standing in humans</article-title>. <source>Journal of Physiology</source>
+<volume>478</volume>
+<issue>1</issue>: <fpage>173</fpage>–<lpage>186</lpage>.<pub-id pub-id-type="pmid">7965833</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-DeAngelis1">
+                <label>48</label>
+                <mixed-citation publication-type="book">DeAngelis GC, Angelaki DE (2012) Visual-Vestibular Integration for Self-Motion Perception. In: Murray MM, Wallace Mt, editors. The Neural Bases of Multisensory Processes, Boca Raton(FL): CRC Press; 2012. Chapter 31.</mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Mahboobin4">
+                <label>49</label>
+                <mixed-citation publication-type="journal"><name><surname>Mahboobin</surname><given-names>A</given-names></name>, <name><surname>Loughlin</surname><given-names>P</given-names></name>, <name><surname>Atkeson</surname><given-names>C</given-names></name>, <name><surname>Redfern</surname><given-names>M</given-names></name> (<year>2009</year>) <article-title>A mechanism for sensory re-weighting in postural control</article-title>. <source>Med Biol Eng Comput</source>
+<volume>47</volume>: <fpage>921</fpage>–<lpage>929</lpage>.<pub-id pub-id-type="pmid">19326162</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Carver1">
+                <label>50</label>
+                <mixed-citation publication-type="journal"><name><surname>Carver</surname><given-names>S</given-names></name>, <name><surname>Kiemel</surname><given-names>T</given-names></name>, <name><surname>van der Kooij</surname><given-names>H</given-names></name>, <name><surname>Jeka</surname><given-names>JJ</given-names></name> (<year>2005</year>) <article-title>Comparing internal models of the dynamics of the visual environment</article-title>. <source>Biol Cybern</source>
+<volume>92</volume>: <fpage>147</fpage>–<lpage>163</lpage>.<pub-id pub-id-type="pmid">15703940</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0088132-Carver2">
+                <label>51</label>
+                <mixed-citation publication-type="journal"><name><surname>Carver</surname><given-names>S</given-names></name>, <name><surname>Kiemel</surname><given-names>T</given-names></name>, <name><surname>Jeka</surname><given-names>JJ</given-names></name> (<year>2006</year>) <article-title>Modeling the dynamics of sensory reweighting</article-title>. <source>Biol Cyvern</source>
+<volume>95</volume>: <fpage>123</fpage>–<lpage>134</lpage>.</mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,1300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T05:47:16Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:4302028" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:4302028</identifier>
+        <datestamp>2015-01-22</datestamp>
+        <setSpec>bmcmedgeno</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">BMC Med Genomics</journal-id>
+              <journal-id journal-id-type="iso-abbrev">BMC Med Genomics</journal-id>
+              <journal-title-group>
+                <journal-title>BMC Medical Genomics</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1755-8794</issn>
+              <publisher>
+                <publisher-name>BioMed Central</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC4302028</article-id>
+              <article-id pub-id-type="pmcid">PMC4302028</article-id>
+              <article-id pub-id-type="pmc-uid">4302028</article-id>
+              <article-id pub-id-type="pmid">25582225</article-id>
+              <article-id pub-id-type="pmid">25582225</article-id>
+              <article-id pub-id-type="publisher-id">72</article-id>
+              <article-id pub-id-type="doi">10.1186/s12920-014-0072-y</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Identifying a gene expression signature of frequent COPD exacerbations in peripheral blood using network methods</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Morrow</surname>
+                    <given-names>Jarrett D</given-names>
+                  </name>
+                  <address>
+                    <email>jarrett.morrow@channing.harvard.edu</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Qiu</surname>
+                    <given-names>Weiliang</given-names>
+                  </name>
+                  <address>
+                    <email>weiliang.qiu@channing.harvard.edu</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Chhabra</surname>
+                    <given-names>Divya</given-names>
+                  </name>
+                  <address>
+                    <email>redic@channing.harvard.edu</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1"/>
+                  <xref ref-type="aff" rid="Aff2"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rennard</surname>
+                    <given-names>Stephen I</given-names>
+                  </name>
+                  <address>
+                    <email>srennard@unmc.edu</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff3"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Belloni</surname>
+                    <given-names>Paula</given-names>
+                  </name>
+                  <address>
+                    <email>belloni.paula@gene.com</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff4"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Belousov</surname>
+                    <given-names>Anton</given-names>
+                  </name>
+                  <address>
+                    <email>anton.belousov@roche.com</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff5"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Pillai</surname>
+                    <given-names>Sreekumar G</given-names>
+                  </name>
+                  <address>
+                    <email>pillaisreekumar@yahoo.com</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff6"/>
+                  <xref ref-type="aff" rid="Aff7"/>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Hersh</surname>
+                    <given-names>Craig P</given-names>
+                  </name>
+                  <address>
+                    <email>craig.hersh@channing.harvard.edu</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1"/>
+                </contrib>
+                <aff id="Aff1"><label/>Channing Division of Network Medicine, Brigham and Women’s Hospital, 181 Longwood Avenue, Boston, MA 02115 USA </aff>
+                <aff id="Aff2"><label/>Division of Biomedical Informatics, University of California, San Diego, CA USA </aff>
+                <aff id="Aff3"><label/>University of Nebraska Medical Center, Omaha, NE USA </aff>
+                <aff id="Aff4"><label/>Genentech, Member of the Roche Group, South San Francisco, CA USA </aff>
+                <aff id="Aff5"><label/>Roche Innovation Center, Penzberg, Germany </aff>
+                <aff id="Aff6"><label/>Hoffman La Roche, Nutley, NJ USA </aff>
+                <aff id="Aff7"><label/>Current address: Eli Lilly and Company, Indianapolis, IN USA </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>13</day>
+                <month>1</month>
+                <year>2015</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>13</day>
+                <month>1</month>
+                <year>2015</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2015</year>
+              </pub-date>
+              <volume>8</volume>
+              <elocation-id>1</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>3</day>
+                  <month>7</month>
+                  <year>2014</year>
+                </date>
+                <date date-type="accepted">
+                  <day>12</day>
+                  <month>12</month>
+                  <year>2014</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© Morrow et al.; licensee BioMed Central. 2015</copyright-statement>
+                <license license-type="open-access">
+                  <license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0">http://creativecommons.org/licenses/by/4.0</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly credited. The Creative Commons Public Domain Dedication waiver (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link>) applies to the data made available in this article, unless otherwise stated.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <sec>
+                  <title>Background</title>
+                  <p>Exacerbations of chronic obstructive pulmonary disease (COPD), characterized by acute deterioration in symptoms, may be due to bacterial or viral infections, environmental exposures, or unknown factors. Exacerbation frequency may be a stable trait in COPD patients, which could imply genetic susceptibility. Observing the genes, networks, and pathways that are up- and down-regulated in COPD patients with differing susceptibility to exacerbations will help to elucidate the molecular signature and pathogenesis of COPD exacerbations.</p>
+                </sec>
+                <sec>
+                  <title>Methods</title>
+                  <p>Gene expression array and plasma biomarker data were obtained using whole-blood samples from subjects enrolled in the Treatment of Emphysema With a Gamma-Selective Retinoid Agonist (TESRA) study. Linear regression, weighted gene co-expression network analysis (WGCNA), and pathway analysis were used to identify signatures and network sub-modules associated with the number of exacerbations within the previous year; other COPD-related phenotypes were also investigated.</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p>Individual genes were not found to be significantly associated with the number of exacerbations. However using network methods, a statistically significant gene module was identified, along with other modules showing moderate association. A diverse signature was observed across these modules using pathway analysis, marked by differences in B cell and NK cell activity, as well as cellular markers of viral infection. Within two modules, gene set enrichment analysis recapitulated the molecular signatures of two gene expression experiments; one involving sputum from asthma exacerbations and another involving viral lung infections. The plasma biomarker myeloperoxidase (MPO) was associated with the number of recent exacerbations.</p>
+                </sec>
+                <sec>
+                  <title>Conclusion</title>
+                  <p>A distinct signature of COPD exacerbations may be observed in peripheral blood months following the acute illness. While not predictive in this cross-sectional analysis, these results will be useful in uncovering the molecular pathogenesis of COPD exacerbations.</p>
+                </sec>
+                <sec>
+                  <title>Electronic supplementary material</title>
+                  <p>The online version of this article (doi:10.1186/s12920-014-0072-y) contains supplementary material, which is available to authorized users.</p>
+                </sec>
+              </abstract>
+              <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>Network analysis</kwd>
+                <kwd>Chronic obstructive pulmonary disease</kwd>
+                <kwd>Gene expression profiling</kwd>
+                <kwd>Biomarker</kwd>
+              </kwd-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2015</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1" sec-type="introduction">
+              <title>Background</title>
+              <p>Chronic obstructive pulmonary disease (COPD) is characterized by progressive airflow obstruction accompanied by chronic inflammation. It is one of the leading causes of morbidity and mortality worldwide and is often caused by environmental exposure such as cigarette smoke [<xref ref-type="bibr" rid="CR1">1</xref>]. COPD exacerbations, periods of acute deterioration, are a major reason for COPD mortality and a major source of the high healthcare expenditure in patients with COPD. Acute exacerbations of COPD are characterized by symptoms of shortness of breath, cough, and sputum production. Although these exacerbations are often caused by bacterial or viral infections [<xref ref-type="bibr" rid="CR2">2</xref>] or inhaled particles, the variability in occurrence within COPD patients and the familial aggregation of exacerbations indicate that other factors such as genetics are important in determining the onset, severity and frequency [<xref ref-type="bibr" rid="CR3">3</xref>]. Also, the frequency of acute exacerbations appears to be a stable trait [<xref ref-type="bibr" rid="CR4">4</xref>], supporting genetic susceptibility, and loci associated with COPD exacerbations have been identified [<xref ref-type="bibr" rid="CR5">5</xref>,<xref ref-type="bibr" rid="CR6">6</xref>].</p>
+              <p>Despite the fact that gene expression data from lung tissues should provide greater sensitivity to detect the molecular signature of COPD exacerbations, COPD is a systemic disease, and blood is more accessible for genomics and biomarkers studies in large scale clinical trials and potentially in clinical practice than is lung tissue samples. Previous attempts to study lung disease via whole blood experiments have been successful while studying asthma [<xref ref-type="bibr" rid="CR7">7</xref>] and idiopathic pulmonary fibrosis [<xref ref-type="bibr" rid="CR8">8</xref>,<xref ref-type="bibr" rid="CR9">9</xref>]. Further supporting the use of blood expression profiling, previous COPD studies have documented differential expression in overlapping genes from both blood and lung samples [<xref ref-type="bibr" rid="CR10">10</xref>,<xref ref-type="bibr" rid="CR11">11</xref>]. Gene expression in peripheral blood has been associated with COPD and related phenotypes [<xref ref-type="bibr" rid="CR12">12</xref>].</p>
+              <p>Network medicine approaches provide a roadmap towards the understanding of complex diseases by studying interacting gene sets and pathways, instead of individual genetic determinants [<xref ref-type="bibr" rid="CR13">13</xref>,<xref ref-type="bibr" rid="CR14">14</xref>]. Network medicine techniques have been applied to the study of COPD [<xref ref-type="bibr" rid="CR15">15</xref>].</p>
+              <p>We hypothesized that we could identify a signature of frequent COPD exacerbations using gene expression data and protein biomarker data, both collected from peripheral blood samples. The goal is to use network methods to understand the molecular pathogenesis of COPD exacerbations, and perhaps predict onset through minimally invasive means. This study built upon the prior publications involving the use of peripheral blood to examine the molecular pathogenesis of COPD and other complex diseases [<xref ref-type="bibr" rid="CR8">8</xref>,<xref ref-type="bibr" rid="CR11">11</xref>,<xref ref-type="bibr" rid="CR12">12</xref>], and leveraged the power of network analysis methods to uncover gene expression signatures.</p>
+            </sec>
+            <sec id="Sec2" sec-type="materials|methods">
+              <title>Methods</title>
+              <sec id="Sec3">
+                <title>Study population</title>
+                <p>This analysis used expression data from 248 Caucasian COPD subjects from the Treatment of Emphysema with a Selective Retinoid Agonist (TESRA), a randomized controlled trial of palovarotene for treatment of COPD (clinicaltrials.gov identifier NCT00413205) [<xref ref-type="bibr" rid="CR16">16</xref>,<xref ref-type="bibr" rid="CR17">17</xref>]. TESRA subjects were former smokers with COPD who experienced two or fewer exacerbations requiring outpatient treatment with antibiotics or oral steroids or one exacerbation requiring hospitalization within the prior year. The total number of subjects in the study was 410. In our analysis, the number of exacerbations in the year prior to enrollment was considered both as a linear variable (0,1,2) and as a binary variable (0 vs. 1 or more). The baseline blood samples, from which our analysis data were obtained, were collected prior to randomization and any treatment associated with the clinical trial. Quantitative emphysema measurements were performed on chest computed tomography (CT) scans, including percent of lung with attenuation (%LAA) ≤ −910 HU and mean lung attenuation at the 15th percentile on lung attenuation curve (Perc15). The baseline phenotype data in our analyses were obtained prior to randomization and any treatment. All subjects provided written informed consent. TESRA was approved by the Institutional Review Boards at all participating centers (see Additional file <xref rid="MOESM1" ref-type="media">1</xref>).</p>
+              </sec>
+              <sec id="Sec4">
+                <title>Gene expression data</title>
+                <p>RNA was isolated from whole blood samples collected in PaxGene RNA tubes (PreAnalytiX, Franklin Lakes, NJ). Gene expression data were obtained using the Affymetrix Human Genome U133 Plus 2.0 Array. Data were available for 309 samples, including 39 replicates, as outlined in Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Table S1. Of the 270 remaining unique arrays, three were found to be outliers during the quality control process and were discarded. All 54,675 probes passing quality control were retained regardless of level of variance across samples. These data were background corrected and quantile normalized using the robust multi-array average (RMA) method via the R Bioconductor package affy [<xref ref-type="bibr" rid="CR18">18</xref>]. The 249 subjects that self-identified as Caucasian were included. Using information from a GWAS, one additional subject was omitted based on a genetic ancestry that did not cluster with the other Caucasian subjects, leaving 248 subjects for analysis.</p>
+              </sec>
+              <sec id="Sec5">
+                <title>Protein biomarkers</title>
+                <p>A total of 140 plasma biomarkers were measured in duplicate at Rules Based Medicine (Austin, TX) and Quest Diagnostics (Valencia, CA), as previous described [<xref ref-type="bibr" rid="CR17">17</xref>]. Biomarker data are available for 245 of the 248 subjects with associated gene expression data. Any biomarker with greater than 10% and less than 95% of its values below the lower limit of quantitation (LLOQ) were converted to a binary present vs. absent variable (n = 25). Two biomarkers with greater than 95% values below the LLOQ were excluded from the analysis. An empirical normal quantile transformation was performed on the 113 remaining continuous biomarker values. Model #1 from Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Table S2 was used to assess the association of biomarker levels with the number of recent exacerbations. Logistic regression was used for the binary biomarker values, and linear regression was used for the continuous biomarker values.</p>
+              </sec>
+              <sec id="Sec6">
+                <title>Gene expression analysis</title>
+                <p>Microarray batch effects visible from MDS plots were addressed by adjusting for the microarray lot number as a covariate. For each expression probe, biomarker or module eigengene, we fitted a linear regression model to detect association with variables of interest using R statistical software (v 3.0.2). In the microarray data analysis, an empirical Bayes shrinkage method was used to obtain a moderated t-test statistic and its p-value in the R Bioconductor package limma [<xref ref-type="bibr" rid="CR19">19</xref>]. Adjustment for multiple testing controlled for false discovery rate (FDR) [<xref ref-type="bibr" rid="CR20">20</xref>]. The regression models for each COPD phenotype are provided in Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Table S2.</p>
+              </sec>
+              <sec id="Sec7">
+                <title>Weighted Gene Co-expression Analysis (WGCNA)</title>
+                <p>The WGCNA method was used to identify groups of probes that have similar expression in the sample population, using the R package WGCNA [<xref ref-type="bibr" rid="CR21">21</xref>]. In order to identify possible sample outliers, a sample network based on squared Euclidean distances was built. An iterative approach was taken, where samples having a standardized connectivity below −5 were removed [<xref ref-type="bibr" rid="CR21">21</xref>]. One sample outlier was excluded using this process, leaving 247 subjects. Signed networks were built using biweight midcorrelation as the correlation function, and a soft thresholding power of 12. WGCNA produces a set of modules (labeled by color), each containing a set of unique genes. The module eigengene is defined as the first principal component of the expression matrix of the probes within the module. For association tests, the module eigengenes are included in the regression models from Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Table S2, similar to the expression probes, and adjustment for multiple testing was performed using Bonferroni correction, where the burden is reduced in comparison with a probe-based analysis. Driver or hub genes within each module are the probes with both high gene significance (GS) and high module membership (MM) metrics, represented by the p-value for the test of gene expression association with phenotype, and the correlation of gene expression with the module eigengene, respectively.</p>
+              </sec>
+              <sec id="Sec8">
+                <title>Pathway analysis</title>
+                <p>We examined enrichment of curated gene sets from the gene ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) databases in the gene groups from association tests or the co-expression modules using a hypergeometric test in the R Bioconductor package GeneAnswers [<xref ref-type="bibr" rid="CR22">22</xref>]. In the GO analysis, only the biological process (BP) category was considered. Further examination of the gene sets was performed using the gene set enrichment analysis (GSEA) to examine up- and down-regulated genes common to previous experiments and curated gene sets within all available MSigDB collections [<xref ref-type="bibr" rid="CR23">23</xref>]. The query gene lists (top association test results or module genes) were preranked according to their log fold change values from the gene expression association tests. GSEA was performed on both a set of all probes and subsets of probes from WGCNA modules, using a similar concept to the GO and KEGG analyses. The Cytoscape plug-in EnrichmentMap [<xref ref-type="bibr" rid="CR24">24</xref>] was used to plot the relationships between the individual GSEA results, as well as between the sets of results from different analyses.</p>
+              </sec>
+            </sec>
+            <sec id="Sec9" sec-type="results">
+              <title>Results</title>
+              <sec id="Sec10">
+                <title>Gene expression association with phenotype variables</title>
+                <p>Characteristics of study subjects are shown in Table <xref rid="Tab1" ref-type="table">1</xref>. The top five expression probesets ranked by p-value for association with number of exacerbations in the past 12 months are provided in Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Table S3. After controlling for FDR, no probes were statistically significant. The results for all other models are also provided in Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Table S3, where only one probe across the COPD-related phenotypes was found to be significant at FDR &lt; 0.05, for the six minute walk test. This probe did not have a gene annotation and maps to a region with no obvious biological significance. Enrichment tests were performed using the set of genes within the regression results having a p &lt; 0.05 for the exacerbation phenotype (Table <xref rid="Tab2" ref-type="table">2</xref>). Although the KEGG results demonstrate an enrichment of autoimmune-related genes, the overall results indicate a lack of specificity, as demonstrated by the presumably-unrelated diseases represented. In addition, the GO results are very broad, with processes related to protein ubiquitination and regulation of calcium concentration being dominant. To improve specificity, we used a network approach, whereby genes with similar characteristics may be grouped prior to pathway analysis.<table-wrap id="Tab1"><label>Table 1</label><caption><p><bold>TESRA study subjects</bold></p></caption><table frame="hsides" rules="groups"><thead><tr valign="top"><th><bold>Demographics</bold></th><th><bold>n = 248 expression (n = 245/248 biomarker)</bold></th><th><bold>Association with exacerbations</bold></th></tr></thead><tbody><tr valign="top"><td>Age (years)</td><td>66.4 +/− 7.9</td><td>linear regression p-value = 0.11</td></tr><tr valign="top"><td rowspan="2">Gender</td><td>Female 78</td><td rowspan="2">Fisher's Exact Test p-value = 0.86</td></tr><tr valign="top"><td>Male 170</td></tr><tr valign="top"><td>Race</td><td>Caucasian 100%</td><td>NA</td></tr><tr valign="top"><td>Former smokers</td><td>100%</td><td>NA</td></tr><tr valign="top"><td>Smoking history (pack-years)</td><td>47 +/− 24.3</td><td>linear regression p-value = 0.02</td></tr><tr valign="top"><td>BMI</td><td>26 +/− 4.7</td><td>linear regression p-value = 0.39</td></tr><tr valign="top"><td><bold>COPD outcomes</bold></td><td/><td rowspan="15"/></tr><tr valign="top"><td rowspan="3">Exacerbations in past 12 months</td><td>0 n = 123</td></tr><tr valign="top"><td>1 n = 102</td></tr><tr valign="top"><td>2 n = 23</td></tr><tr valign="top"><td>FEV1 (L)</td><td>1.34 +/− 0.35</td></tr><tr valign="top"><td>FEV1 % predicted</td><td>48.8 +/− 9.3</td></tr><tr valign="top"><td>FEV1/FVC</td><td>0.43 +/− 0.09</td></tr><tr valign="top"><td>% LAA ≤ −910 HU</td><td>41.65 +/− 16.2</td></tr><tr valign="top"><td>Perc15 (HU)</td><td>−946 +/− 23.6</td></tr><tr valign="top"><td>TLC (L)</td><td>6.9 +/− 1.4</td></tr><tr valign="top"><td>TLC % predicted</td><td>101.6 +/− 15.4</td></tr><tr valign="top"><td>DLCO (mL/min/mmHg)</td><td>12.3 +/− 3.9</td></tr><tr valign="top"><td>6 minute walk test (m)</td><td>317.5 +/− 111.2</td></tr><tr valign="top"><td>Residual volume % predicted</td><td>120.1 +/− 31</td></tr><tr valign="top"><td>Inspiratory capacity (L)</td><td>2.4 +/− 0.67</td></tr></tbody></table></table-wrap><table-wrap id="Tab2"><label>Table 2</label><caption><p><bold>Top categories enriched in association results for exacerbation phenotype (gene n = 999)</bold></p></caption><table frame="hsides" rules="groups"><thead><tr valign="top"><th><bold>GO category</bold></th><th><bold>ID</bold></th><th><bold>Genes in category</bold></th><th><bold>p-value</bold></th><th><bold>FDR q-value</bold></th></tr></thead><tbody><tr valign="top"><td>Protein ubiquitination</td><td>GO:0016567</td><td>23</td><td>2.78E-008</td><td>4.42E-006</td></tr><tr valign="top"><td>Purine ribonucleoside triphosphate catabolic process</td><td>GO:0009207</td><td>17</td><td>2.40E-006</td><td>4.78E-005</td></tr><tr valign="top"><td>Guanosine-containing compound catabolic process</td><td>GO:1901069</td><td>16</td><td>1.04E-006</td><td>2.69E-005</td></tr><tr valign="top"><td>Calcium ion homeostasis</td><td>GO:0055074</td><td>15</td><td>3.16E-007</td><td>1.68E-005</td></tr><tr valign="top"><td>Epidermal growth factor receptor signaling pathway</td><td>GO:0007173</td><td>14</td><td>1.18E-007</td><td>9.37E-006</td></tr><tr valign="top"><td>Cellular calcium ion homeostasis</td><td>GO:0006874</td><td>14</td><td>1.12E-006</td><td>2.69E-005</td></tr><tr valign="top"><td>Activation of protein kinase activity</td><td>GO:0032147</td><td>10</td><td>2.68E-004</td><td>2.66E-003</td></tr><tr valign="top"><td>Negative regulation of protein serine/threonine kinase activity</td><td>GO:0071901</td><td>9</td><td>9.97E-007</td><td>2.69E-005</td></tr><tr valign="top"><td><bold>KEGG category</bold></td><td><bold>ID</bold></td><td><bold>Genes in category</bold></td><td><bold>p-value</bold></td><td><bold>FDR q-value</bold></td></tr><tr valign="top"><td>Cell adhesion molecules (CAMs)</td><td>04514</td><td>13</td><td>3.86E-003</td><td>1.44E-001</td></tr><tr valign="top"><td>B cell receptor signaling pathway</td><td>04662</td><td>11</td><td>2.72E-004</td><td>4.75E-002</td></tr><tr valign="top"><td>T cell receptor signaling pathway</td><td>04660</td><td>11</td><td>5.62E-003</td><td>1.54E-001</td></tr><tr valign="top"><td>Antigen processing and presentation</td><td>04612</td><td>10</td><td>1.23E-003</td><td>5.73E-002</td></tr><tr valign="top"><td>Chagas disease (American trypanosomiasis)</td><td>05142</td><td>10</td><td>1.20E-002</td><td>2.23E-001</td></tr><tr valign="top"><td>Primary immunodeficiency</td><td>05340</td><td>7</td><td>5.37E-004</td><td>4.75E-002</td></tr><tr valign="top"><td>Allograft rejection</td><td>05330</td><td>7</td><td>7.66E-004</td><td>4.75E-002</td></tr><tr valign="top"><td>Autoimmune thyroid disease</td><td>05320</td><td>7</td><td>5.81E-003</td><td>1.54E-001</td></tr></tbody></table></table-wrap></p>
+              </sec>
+              <sec id="Sec11">
+                <title>Network analysis</title>
+                <p>A weighted gene co-expression network was constructed as outlined in Methods. The final network consisted of 32 modules, ranging in size from 30 to 19,748 probes. Two dendrograms of the module structure are presented in Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Figures S1-S2, as the number of probes (54,675) dictated that the network be built in two blocks. There was high correlation within the modules as expected, with the mean module membership (MM), or mean correlation of gene expression with the module eigengene, varying from 0.54 to 0.81 across all modules of interest. The grey module is a grouping of probes with outlying gene expression profiles and was not considered further.</p>
+                <p>Tests of association between COPD phenotypes and the module eigengenes were performed for each model in Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Table S2, and summarized in Figure <xref rid="Fig1" ref-type="fig">1</xref>. Across all phenotype variables and modules, only the white module (number of probes, n = 57) was significant after controlling for FDR (q-value = 0.02) for the association with the number of exacerbations within the year prior to enrollment. In addition, four other modules were nominally significant (p &lt; 0.05) for the association with exacerbations (royalblue n = 118, lightgreen n = 147, darkturquoise n = 73, darkgrey n = 65) (Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Table S4). All probesets in these modules had variance above the lower 5%ile for all probesets. The top modules associated with both exacerbations phenotypes were similar (Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Table S5).<fig id="Fig1"><label>Figure 1</label><caption><p><bold>Heatmap of module association with phenotype variables (color scale for adjusted p-value).</bold> The top number in each cell corresponds to the FDR q-value and the bottom number is the effect from the linear regression. Variable definitions are listed in Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Table S2.</p></caption><graphic xlink:href="12920_2014_72_Fig1_HTML" id="MO1"/></fig></p>
+                <p>Lacking similar support across the results for the other phenotypes, we chose to focus exclusively on the exacerbations phenotype for the remainder of the study. The putative hub genes for the five modules of interest are highlighted in the lists of module genes in Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Tables S6-S10. These hub genes with low gene significance (GS) p-values and high module membership (MM) correlations for the five modules include IGHM (immunoglobulin heavy constant mu; GS =0.002, MM = 0.9), KLRD1 (killer cell lectin-like receptor subfamily D, member 1; GS = 0.006, MM = 0.89 and GS = 0.007, MM = 0.88), AFF3 (AF4/FMR2 family, member 3; GS = 0.0014, MM = 0.8), GPR56 (G protein-coupled receptor 56; GS = 0.00024, MM = 0.8), and GBP5 (guanylate binding protein 5; GS = 0.009, MM = 0.77 and GS = 0.016, MM = 0.77) and GBP1 (guanylate binding protein 1, interferon-inducible; GS = 0.028, MM = 0.87).</p>
+                <p>GO and KEGG pathway analyses were performed on the five modules above. The results are provided in Table <xref rid="Tab3" ref-type="table">3</xref> for the white module and Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Tables S11-S14 for the other four modules. In contrast to the results for the overall gene expression association, the enrichment tests for each module provide more specific functional signatures, with B cell receptor signaling and autoimmune disease being enriched in the results for the white module; B cell pathway is also seen in the lightgreen module results. The darkgrey and darkturquoise module results are highlighted by cytokine activity, with the darkgrey module showing a strong signal for interferon activity and viral response pathways.<table-wrap id="Tab3"><label>Table 3</label><caption><p><bold>Top eight pathway analysis results for white module (unique gene symbols n = 32)</bold></p></caption><table frame="hsides" rules="groups"><thead><tr valign="top"><th><bold>GO category</bold></th><th><bold>ID</bold></th><th><bold>Genes in category</bold></th><th><bold>p-value</bold></th><th><bold>FDR q-value</bold></th></tr></thead><tbody><tr valign="top"><td>B cell receptor signaling pathway</td><td>GO:0050853</td><td>2</td><td>0.00072</td><td>0.10</td></tr><tr valign="top"><td>Antigen processing and presentation of exogenous peptide antigen via MHC class II</td><td>GO:0019886</td><td>2</td><td>0.0055</td><td>0.13</td></tr><tr valign="top"><td>Antigen receptor-mediated signaling pathway</td><td>GO:0050851</td><td>2</td><td>0.011</td><td>0.13</td></tr><tr valign="top"><td>Skeletal muscle tissue development</td><td>GO:0007519</td><td>2</td><td>0.029</td><td>0.18</td></tr><tr valign="top"><td>Skeletal muscle organ development</td><td>GO:0060538</td><td>2</td><td>0.031</td><td>0.18</td></tr><tr valign="top"><td>Clustering of voltage-gated potassium channels</td><td>GO:0045163</td><td>1</td><td>0.0036</td><td>0.13</td></tr><tr valign="top"><td>Protein localization to juxtaparanode region of axon</td><td>GO:0071205</td><td>1</td><td>0.0048</td><td>0.13</td></tr><tr valign="top"><td>Positive regulation of humoral immune response mediated by circulating immunoglobulin</td><td>GO:0002925</td><td>1</td><td>0.0073</td><td>0.13</td></tr><tr valign="top"><td><bold>KEGG category</bold></td><td><bold>ID</bold></td><td><bold>Genes in category</bold></td><td><bold>p-value</bold></td><td><bold>FDR q-value</bold></td></tr><tr valign="top"><td>B cell receptor signaling pathway</td><td>04662</td><td>4</td><td>7.6E-006</td><td>0.00018</td></tr><tr valign="top"><td>Cell adhesion molecules (CAMs)</td><td>04514</td><td>4</td><td>7.4E-005</td><td>0.00088</td></tr><tr valign="top"><td>Asthma</td><td>05310</td><td>2</td><td>1.4E-003</td><td>0.011</td></tr><tr valign="top"><td>Allograft rejection</td><td>05330</td><td>2</td><td>2.1E-003</td><td>0.011</td></tr><tr valign="top"><td>Graft-versus-host disease</td><td>05332</td><td>2</td><td>2.5E-003</td><td>0.011</td></tr><tr valign="top"><td>Type I diabetes mellitus</td><td>04940</td><td>2</td><td>2.8E-003</td><td>0.011</td></tr><tr valign="top"><td>Intestinal immune network for IgA production</td><td>04672</td><td>2</td><td>3.4E-003</td><td>0.012</td></tr><tr valign="top"><td>Autoimmune thyroid disease</td><td>05320</td><td>2</td><td>4.0E-003</td><td>0.012</td></tr></tbody></table></table-wrap></p>
+                <p>GSEA was performed on the five modules, and the results meeting the FDR q-value &lt; 0.25 are provided in Table <xref rid="Tab4" ref-type="table">4</xref>. B cell, T-cell and viral response signatures dominate the results, with the white, royalblue and darkgrey modules demonstrating enrichments for viral response gene sets. EnrichmentMap networks were constructed for the darkgrey and lightgreen modules, two longest lists from Table <xref rid="Tab4" ref-type="table">4</xref>. These are shown in Figure <xref rid="Fig2" ref-type="fig">2</xref> and Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Figure S3, respectively. The darkgrey module network shows multiple highly-connected nodes related to viral response. An EnrichmentMap network was also produced using the GSEA results for the set of genes nominally associated (p &lt; 0.05) with the exacerbations phenotype (model #1); the GSEA results are provided in Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Table S15 and the EnrichmentMap network is shown in Additional file <xref rid="MOESM3" ref-type="media">3</xref>: Figure S4. Many similar immune cell gene sets are seen, along with multiple non-specific results such as cancer gene sets.<table-wrap id="Tab4"><label>Table 4</label><caption><p><bold>GSEA results for modules associated with exacerbations phenotypes (gene sets with FDR q-value &lt; 0.25 are shown and viral response gene sets are in bold)</bold></p></caption><table frame="hsides" rules="groups"><thead><tr valign="top"><th><bold>Module name</bold></th><th><bold>Gene set description</bold></th><th><bold>ID</bold></th><th><bold>Set overlap</bold></th><th><bold>P-value</bold></th><th><bold>FDR q-value</bold></th></tr></thead><tbody><tr valign="top"><td rowspan="3">White (negative)*</td><td>NAIVE_BCELL_VS_MONOCYTE_UP</td><td>GSE22886</td><td>15</td><td>0.084</td><td>0.207</td></tr><tr valign="top"><td>CD4_TCELL_VS_BCELL_DN</td><td>GSE10325</td><td>18</td><td>0.122</td><td>0.230</td></tr><tr valign="top"><td><bold>BCELL_VS_MONOCYTE_DAY7_FLU_VACCINE_P</bold></td><td><bold>GSE29618</bold></td><td>17</td><td>0.185</td><td>0.216</td></tr><tr valign="top"><td rowspan="3">Royalblue (positive)*</td><td>NAIVE_VS_PD1LOW_CD8_TCELL_DN</td><td>GSE26495</td><td>28</td><td>0.004</td><td>0.048</td></tr><tr valign="top"><td><bold>HEALTHY_VS_RSV_INF_INFANT_PBMC_UP</bold></td><td><bold>GSE34205</bold></td><td>15</td><td>0.016</td><td>0.062</td></tr><tr valign="top"><td>DEURIG_T_CELL_PROLYMPHOCYTIC_LEUKEMIA_DN</td><td/><td>18</td><td>0.055</td><td>0.151</td></tr><tr valign="top"><td rowspan="11">Lightgreen (negative)*</td><td>BCELL_VS_MDC_DAY7_FLU_VACCINE_UP</td><td>GSE29618</td><td>17</td><td>0.006</td><td>0.095</td></tr><tr valign="top"><td>CD4_TCELL_VS_BCELL_DN</td><td>GSE10325</td><td>19</td><td>0.012</td><td>0.05</td></tr><tr valign="top"><td>BCELL_VS_MDC_UP</td><td>GSE29618</td><td>15</td><td>0.012</td><td>0.043</td></tr><tr valign="top"><td>LUPUS_CD4_TCELL_VS_LUPUS_BCELL_DN</td><td>GSE10325</td><td>20</td><td>0.01</td><td>0.046</td></tr><tr valign="top"><td>DODD_NASOPHARYNGEAL_CARCINOMA_UP</td><td/><td>15</td><td>0.023</td><td>0.068</td></tr><tr valign="top"><td>BCELL_VS_MONOCYTE_DAY7_FLU_VACCINE_UP</td><td>GSE29618</td><td>21</td><td>0.025</td><td>0.064</td></tr><tr valign="top"><td>BCELL_VS_MYELOID_UP</td><td>GSE10325</td><td>15</td><td>0.045</td><td>0.064</td></tr><tr valign="top"><td>NAIVE_BCELL_VS_MONOCYTE_UP</td><td>GSE22886</td><td>17</td><td>0.06</td><td>0.078</td></tr><tr valign="top"><td>BCELL_VS_MONOCYTE_UP</td><td>GSE29618</td><td>23</td><td>0.075</td><td>0.121</td></tr><tr valign="top"><td>CAGGTG_V$E12_Q6</td><td/><td>16</td><td>0.116</td><td>0.149</td></tr><tr valign="top"><td>MEMORY_CD4_TCELL_VS_BCELL_DN</td><td>GSE3982</td><td>17</td><td>0.137</td><td>0.14</td></tr><tr valign="top"><td rowspan="2">Darkturquoise (positive)*</td><td>NAIVE_VS_PD1LOW_CD8_TCELL_DN</td><td>GSE26495</td><td>26</td><td>0.057</td><td>0.090</td></tr><tr valign="top"><td>NAIVE_VS_PD1HIGH_CD8_TCELL_DN</td><td>GSE26495</td><td>19</td><td>0.158</td><td>0.166</td></tr><tr valign="top"><td rowspan="15">Darkgrey (positive)*</td><td>CTRL_VS_NEWCASTLE_VIRUS_DC_8H_DN</td><td>GSE18791</td><td>30</td><td>0.000</td><td>0.012</td></tr><tr valign="top"><td><bold>BOSCO_INTERFERON_INDUCED_ANTIVIRAL_MODULE</bold></td><td/><td>18</td><td><bold>0.003</bold></td><td><bold>0.038</bold></td></tr><tr valign="top"><td>UNSTIM_VS_4H_LPS_DC_TRANSLATED_RNA_DN</td><td>GSE14000</td><td>23</td><td>0.002</td><td>0.030</td></tr><tr valign="top"><td>MOSERLE_IFNA_RESPONSE</td><td/><td>17</td><td>0.011</td><td>0.104</td></tr><tr valign="top"><td>TAKEDA_TARGETS_OF_NUP98_HOXA9_FUSION_10D_UP</td><td/><td>20</td><td>0.016</td><td>0.094</td></tr><tr valign="top"><td>UNSTIM_VS_NEWCATSLE_VIRUS_DC_18H_DN</td><td>GSE18791</td><td>19</td><td>0.013</td><td>0.093</td></tr><tr valign="top"><td>UNSTIM_VS_NEWCATSLE_VIRUS_DC_6H_DN</td><td>GSE18791</td><td>31</td><td>0.031</td><td>0.105</td></tr><tr valign="top"><td>CTRL_VS_NEWCASTLE_VIRUS_DC_10H_DN</td><td>GSE18791</td><td>21</td><td>0.013</td><td>0.095</td></tr><tr valign="top"><td>CTRL_VS_NEWCASTLE_VIRUS_DC_12H_DN</td><td>GSE18791</td><td>19</td><td>0.026</td><td>0.134</td></tr><tr valign="top"><td>UNSTIM_VS_4H_LPS_DC_DN</td><td>GSE14000</td><td>24</td><td>0.031</td><td>0.141</td></tr><tr valign="top"><td>UNSTIM_VS_NEWCATSLE_VIRUS_DC_10H_DN</td><td>GSE18791</td><td>26</td><td>0.034</td><td>0.161</td></tr><tr valign="top"><td>CTRL_VS_NEWCASTLE_VIRUS_DC_4H_DN</td><td>GSE18791</td><td>22</td><td>0.052</td><td>0.166</td></tr><tr valign="top"><td>CTRL_VS_NEWCASTLE_VIRUS_DC_6H_DN</td><td>GSE18791</td><td>27</td><td>0.054</td><td>0.170</td></tr><tr valign="top"><td>BCELL_VS_LUPUS_BCELL_DN</td><td>GSE10325</td><td>17</td><td>0.094</td><td>0.250</td></tr><tr valign="top"><td>HECKER_IFNB1_TARGETS</td><td/><td>21</td><td>0.102</td><td>0.246</td></tr></tbody></table><table-wrap-foot><p>*Positive or negative correlation between module and phenotype.</p></table-wrap-foot></table-wrap><fig id="Fig2"><label>Figure 2</label><caption><p><bold>EnrichmentMap network for GSEA results from darkgrey module.</bold> Nodes correspond to gene sets and edges correspond to an overlap of the genes within two sets.</p></caption><graphic xlink:href="12920_2014_72_Fig2_HTML" id="MO2"/></fig></p>
+              </sec>
+              <sec id="Sec12">
+                <title>Biomarker association with exacerbations phenotype</title>
+                <p>The association between the number of exacerbations and each of the plasma biomarkers was tested adjusting for covariates and the top ten results are provided in Table <xref rid="Tab5" ref-type="table">5</xref>. Myeloperoxidase (MPO) was the top result (FDR q-value = 0.096), while club cell-16 (CC-16) showed nominal association (p &lt; 0.05).<table-wrap id="Tab5"><label>Table 5</label><caption><p><bold>Biomarker association with exacerbation phenotype</bold></p></caption><table frame="hsides" rules="groups"><thead><tr valign="top"><th><bold>Biomarker</bold></th><th><bold>Beta</bold></th><th><bold>Standard error</bold></th><th><bold>P-Value</bold></th><th><bold>FDR q-value</bold></th></tr></thead><tbody><tr valign="top"><td>MPO</td><td>0.33</td><td>0.096</td><td>0.00069</td><td>0.096</td></tr><tr valign="top"><td>CC_16</td><td>0.20</td><td>0.098</td><td>0.041</td><td>0.98</td></tr><tr valign="top"><td>ET1_Z</td><td>−0.44</td><td>0.25</td><td>0.074</td><td>0.98</td></tr><tr valign="top"><td>HPT</td><td>0.16</td><td>0.094</td><td>0.086</td><td>0.98</td></tr><tr valign="top"><td>ENA78</td><td>0.18</td><td>0.11</td><td>0.094</td><td>0.98</td></tr><tr valign="top"><td>TNFB</td><td>−0.32</td><td>0.20</td><td>0.11</td><td>0.98</td></tr><tr valign="top"><td>TP</td><td>−0.16</td><td>0.10</td><td>0.12</td><td>0.98</td></tr><tr valign="top"><td>TSH</td><td>0.15</td><td>0.10</td><td>0.13</td><td>0.98</td></tr><tr valign="top"><td>APOH</td><td>−0.15</td><td>0.10</td><td>0.14</td><td>0.98</td></tr><tr valign="top"><td>TGFB3</td><td>0.30</td><td>0.20</td><td>0.14</td><td>0.98</td></tr></tbody></table></table-wrap></p>
+              </sec>
+            </sec>
+            <sec id="Sec13" sec-type="discussion">
+              <title>Discussion</title>
+              <p>In order to identify genes associated with COPD-related phenotypes, we initially used standard gene expression models. Despite the sample size, we found a lack of significant results, and a lack of specificity with respect to pathways or diseases from the enrichment analyses. However, network methods were able to group similar probes into correlated modules with potential common functions, that were then tested for association with phenotypes of interest. Using these methods we were able to observe immunological functions across the modules associated with acute exacerbations of COPD. In addition, we were able to recapitulate the molecular signatures of previous studies involving viral lung infections and exacerbations of asthma, a related respiratory disease. The ability to uncover such signatures is limited given that only subjects having two or fewer exacerbations within the previous year were included in the study, as a wider range of exacerbation frequencies would provide greater resolution to detect the molecular underpinnings of COPD exacerbations. Yet the network methods added value to address these limitations of the dataset.</p>
+              <p>WGCNA allowed for identification of the putative hub genes for each of the five modules associated with exacerbations. These hubs include the immunoglobulin heavy constant mu (IGHM) gene in the white module, that codes for the C region of the mu heavy chain (defines the IgM isotype). Lending to its role in lung disease, IGHM was found to be down-regulated in idiopathic pulmonary fibrosis (IPF) whole blood samples versus normal samples [<xref ref-type="bibr" rid="CR9">9</xref>]. From the royalblue module, the putative hub was found to be KLRD1 (CD94) that codes for an antigen preferentially expressed on NK cells. A decrease in its expression has been observed in the blood of COPD patients versus controls [<xref ref-type="bibr" rid="CR25">25</xref>]. The gene product for AFF3 from the lightgreen module is a tissue restricted nuclear transcriptional activator, formerly known as lymphoid nuclear protein related to AF4, and it was down-regulated with respect to controls in BEAS-2B cells (immortalized human bronchial epithelial cells) treated with low doses of cigarette smoke condensate [<xref ref-type="bibr" rid="CR26">26</xref>]. From the darkturquoise module, GPR56 encodes G protein-coupled receptor 56; its involvement in COPD has not been previously established. Lastly, the hubs from the darkgrey module, GBP1 and GBP5, guanylate binding proteins whose expression is induced by interferon and are markers of M1 macrophage population, were found to be down-regulated by cigarette smoke in monocyte-derived macrophages [<xref ref-type="bibr" rid="CR27">27</xref>]. Taken as a whole, these hubs lend additional evidence to the specific role of each module: B cell activity for the white and lightgreen modules, NK cell activity for the royalblue module, and macrophage involvement in the darkgrey module.</p>
+              <p>GO and KEGG pathway enrichment analysis provided common functions of the module genes, namely the immune system response to bacterial and viral infections. Additionally, the significant enrichment for B cell and asthma pathways in the white module are of note, as are the cytokine and viral response related enrichments in the darkturquoise and darkgrey modules. However, the GSEA results were more informative, revealing signatures of gene expression previously identified in studies involving lung infections, which is consistent with the infectious etiology of most COPD exacerbations. One example was a top result for the darkgrey module (Table <xref rid="Tab4" ref-type="table">4</xref>). The gene set, BOSCO_INTERFERON_INDUCED_ANTIVIRAL_MODULE, was a WGCNA module (n = 78 genes) composed of genes downstream of interferon signaling, that was associated with lung function in a study of sputum samples of children with acute asthma exacerbations [<xref ref-type="bibr" rid="CR28">28</xref>]. This study found decreased activation of interferon pathways in asthmatic children with chronic airway obstruction compared with those without airway obstruction. The darkgrey module may harbor genes associated with differential responses during exacerbations that perhaps also play a role in onset, frequency and severity of COPD exacerbations.</p>
+              <p>In another example, the royalblue module enrichment results include the gene set GSE34205_HEALTHY_VS_RSV_INF_INFANT_PBMC_UP, genes differentially expressed in blood samples from healthy infants and infants suffering from respiratory syncytial virus (RSV) infection [<xref ref-type="bibr" rid="CR29">29</xref>]. RSV is a major respiratory pathogen that is more common in infants; however the elderly and patients with COPD or other lung diseases are also at risk of developing RSV infections [<xref ref-type="bibr" rid="CR2">2</xref>]. Using network analysis methods and GSEA, we were able to identify modules that contain genes demonstrating a signature previously seen in the sputum of patients suffering from acute asthma exacerbations and the blood of patients with respiratory infections. However, we detected these signatures using expression data from whole blood of COPD patients, collected months following exacerbations.</p>
+              <p>The EnrichmentMap network of GSEA results for the darkgrey module (Figure <xref rid="Fig2" ref-type="fig">2</xref>) shows an overlap between the asthma exacerbation [<xref ref-type="bibr" rid="CR28">28</xref>] and the viral-response gene sets, as would be expected given the virus-induced nature of many exacerbations. However the relatively narrow widths of many edges demonstrate that these gene sets are largely distinct. In the network for the lightgreen module in Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Figure S3, relatively strong connections exist between the nodes, demonstrating an enrichment of B cell pathway activity within the gene sets. In contrast to the specificity of the networks for the darkgrey and lightgreen modules, the EnrichmentMap for the probe-based analysis gene set shown in Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Figure S4 is less tightly connected with many nodes having zero connections. The probe-based analysis is less specific than the module analyses. Although the red sub-network in Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Figure S4 contains several viral response results, the blue sub-network contains various cancer gene sets, in addition to infectious diseases.</p>
+              <p>In the biomarker analysis, we found an association between MPO and the number of exacerbations, persisting months following illness. Serum MPO levels have been shown to be increased in COPD patients during acute exacerbations [<xref ref-type="bibr" rid="CR30">30</xref>]. However in contrast to our finding, a previous study did not find a difference in sputum MPO levels between patients with stable COPD having frequent (&gt;3/year) or infrequent (&lt;2/year) exacerbations in the previous 12 months [<xref ref-type="bibr" rid="CR31">31</xref>]. In addition, a study of bronchoalveolar lavage samples did not find significantly higher MPO levels in COPD patients with frequent (≥3/year) exacerbations as compared to infrequent (&lt;3/year) exacerbations [<xref ref-type="bibr" rid="CR32">32</xref>]. Perhaps the peripheral blood based signature of COPD exacerbations is able to persist due to systemic modulation of the immune system. Longitudinal studies have shown a reduction in serum MPO levels during treatment for acute exacerbations of chronic bronchitis, followed by the return to higher levels following treatment [<xref ref-type="bibr" rid="CR33">33</xref>], however no association with the number of exacerbations or their severity was noted. Taken together, our finding and the previous studies provide evidence for MPO as part of the molecular signature to be considered when predicting the onset, severity and frequency of future COPD exacerbations, as it has been previously established as an inflammatory marker, and specifically in COPD [<xref ref-type="bibr" rid="CR34">34</xref>].</p>
+              <p>The use of gene expression data from whole blood instead of lung tissue samples may limit the ability of our approach to detect signatures in the specific disease tissue. However, peripheral blood is more easily accessed than lung tissue and may provide specific insight into the infectious, immune and inflammatory mechanisms of COPD exacerbations. Like lung tissue, whole blood is a complex mixture of different cell types. Complete blood counts (CBC) with cell differentials are routinely measured in clinical practice, but were not available in the TESRA study. However, our analysis was able to distinguish B and T cell signatures, cell types which would not be discriminated in a standard CBC. An additional limitation of our approach involves the use biomarker and gene expression data as markers of exacerbations in the past year, yet this may indicate a stable molecular signature differing from that of lung function and other markers of severity. Lastly, one potential confounder is the external trigger of the exacerbation. Regardless of an individual’s genetic predisposition for exacerbations, a viral, bacterial or other environmental cause may lead to different signatures. Despite these limitations, we were able to effectively uncover expression signatures of frequent COPD exacerbations in peripheral whole blood samples.</p>
+            </sec>
+            <sec id="Sec14" sec-type="conclusion">
+              <title>Conclusions</title>
+              <p>In this study a distinct signature of COPD exacerbations was observed in peripheral whole blood months following the illness. This signature was correlated with previous studies involving exacerbations in asthma and viral lung infections, and therefore, it may be useful in uncovering the molecular pathogenesis of COPD exacerbations. The moderate association of MPO and number of exacerbations adds to the body of information supporting the use of MPO as a biomarker. Future studies with longitudinal expression data would allow an investigation of the temporal nature of the network modules, separating causal modules from the downstream modules demonstrating expression changes as a result of the disease state. Similarly, the methods presented here would benefit from gene expression data obtained during acute exacerbations, in addition to samples obtained months following the illness, particularly with respect to prediction. Overall, these approaches will help to elucidate the genetic component determining the heterogeneity of onset, severity, and frequency of exacerbations seen in COPD patients.</p>
+            </sec>
+          </body>
+          <back>
+            <app-group>
+              <app id="App1">
+                <sec id="Sec15">
+                  <title>Additional files</title>
+                  <p>
+                    <media position="anchor" xlink:href="12920_2014_72_MOESM1_ESM.xlsx" id="MOESM1">
+                      <label>Additional file 1:</label>
+                      <caption>
+                        <p>
+                          <bold>Institutional Review Boards for TESRA trial sites.</bold>
+                        </p>
+                      </caption>
+                    </media>
+                    <media position="anchor" xlink:href="12920_2014_72_MOESM2_ESM.doc" id="MOESM2">
+                      <label>Additional file 2: Table S1.</label>
+                      <caption>
+                        <p>Expression data cleaning process. <bold>Table S2.</bold> Regression models for association with outcomes of interest. <bold>Table S3.</bold> Top five results from test of gene expression association with phenotype variables. <bold>Figure S1.</bold> Clustering dendrograms based on topological overlap in WGCNA (block #1). <bold>Figure S2.</bold> Clustering dendrograms based on topological overlap in WGCNA (block #2). <bold>Table S4.</bold> WGCNA modules. <bold>Table S5.</bold> Module eigengene association with exacerbations phenotypes. <bold>Table S6.</bold> White module contents and information. <bold>Table S7.</bold> Royalblue module contents and information. <bold>Table S8.</bold> Lightgreen module contents and information. <bold>Table S9.</bold> Darkturquoise module contents and information. <bold>Table S10.</bold> Darkgrey module contents and information. <bold>Table S11.</bold> Top pathway analysis results for royalblue module. <bold>Table S12.</bold> Top pathway analysis results for lightgreen module. <bold>Table S13.</bold> Top pathway analysis results for darkturquoise module. <bold>Table S14.</bold> Top pathway analysis results for darkgrey module.<bold>Figure S3.</bold> EnrichmentMap network for GSEA results from lightgreen module. Nodes correspond to gene sets and edges correspond to an overlap of the genes within two sets. <bold>Table S15.</bold> GSEA results for probe association with exacerbations phenotype.</p>
+                      </caption>
+                    </media>
+                    <media position="anchor" xlink:href="12920_2014_72_MOESM3_ESM.pdf" id="MOESM3">
+                      <label>Additional file 3: Figure S4.</label>
+                      <caption>
+                        <p>EnrichmentMap for GSEA results for probe association with exacerbation phenotype.</p>
+                      </caption>
+                    </media>
+                  </p>
+                </sec>
+              </app>
+            </app-group>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Competing interests</bold>
+                </p>
+                <p>Drs. Morrow, Qiu, Chhabra, and Hersh report no competing interests related to this manuscript.</p>
+                <p>Dr. Rennard received a research grant from Roche for the TESRA study.</p>
+                <p>Dr. Belloni is an employee of Genentech.</p>
+                <p>Dr. Belousov is an employee of Roche.</p>
+                <p>Dr. Pillai was formerly an employee of Hoffman La Roche and is currently an employee of Eli Lilly and Company.</p>
+              </fn>
+              <fn>
+                <p>
+                  <bold>Authors’ contributions</bold>
+                </p>
+                <p>JM: analysis and interpretation of data, manuscript preparation, and approval of the final version. WQ: analysis and interpretation of data, approval of final version of the manuscript. DC: analysis and interpretation of data, approval of final version of the manuscript. SR: acquisition of data, review of manuscript and approval of the final version of manuscript. PB: acquisition of data, review of manuscript and approval of the final version of manuscript. AB: acquisition of data, review of manuscript and approval of the final version of manuscript. SP: acquisition of data, review of manuscript and approval of the final version of manuscript. CH: analysis and interpretation of data, manuscript preparation, and approval of the final version.</p>
+              </fn>
+            </fn-group>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>Supported by National Institutes of Health grants R01HL094635, R01NR013377, P01HL105339, R01HL111759. The TESRA study was supported by Roche.</p>
+              <p>Roche designed the TESRA study and collected the data. The funders had no role in the data analysis in this manuscript, the writing of the manuscript or the decision to submit the manuscript for publication.</p>
+              <p>TESRA Investigators: Ognian Georgiev, Sofia, Bulgaria; Dimitar Popov, Sofia, Bulgaria; Hristo Metev, Ruse, Bulgaria; Vasil Dimitrov, Sofia, Bulgaria; Yavor Ivanov, St. Pleven, Bulgaria; Libor Fila, Praha, Czech Republic; Vladimir Zindr Vitezna, Karlovy Vary, Czech Republic; Kamil Klenha, Tabor, Czech Republic; Jiri Votruba, Praha, Czech Republic; Jaromir Roubec, Ostrava, Czech Republic; Barna Szima, Szombathely, Hungary; Zsuzsanna Mark, Torokbalint, Hungary; Zoltan Baliko, Pecs Hungary; Zoltan Bartfai, Budapest, Hungary; Katalin Gomori, Balassagyarmat, Hungary; Andres Sigvaldason, Reykjavik, Iceland; Mordechai Kramer, Petach Tikva, Israel; Gershon Ya Fink, Rehovot, Israel; Zeev Weiler, Ashkelon, Israel; Joel Greif, Tel Aviv, Israel; Issahar Ben-Dov, Ramat Gan, Israel; Mordechai Yigla, Haifa, Israel; Leonardo Fabbri, Modena, Italy; Pierluigi Paggiaro, Pisa, Italy; Giorgio Canonica, Genova, Italy; Isa Cerveri, Pavia, Italy; Antra Bekere, Riga, Latvia; Aurika Babjoniseva, Riga, Latvia; Alvil Krams, Stopinu Pagasts, Rigas Rajons, Latvia; Wladyslaw Pierzchala, Katowice, Poland; Dariusz Nowak, Lodz, Poland; Robert Mroz, Bialystok, Poland; Hanna Szelerska-Twardosz, Poznan Poland; Malgorzata Rzymkowska, Poznan, Poland; Ismail Abdullah, Durban, South Africa; Christo Van Dyk, Western Cape, Worcester, South Africa; Nyda Fourie, Bloemfontein, South Africa; John O’Brien, Cape Town, South Africa; J. Joubert, Bellville-Cape Province, South Africa; Abdool Gafar, Kwa-Zulu Natal, Amanzimtoti, South Africa; Mary Bateman, Cape Town, South Africa; Hannes Van Rensburg, Centurion, South Africa; Lyudmila Yashina, Kiev, Ukraine; Nadezda Monogarova, Donetsk, Ukraine; Oleksandr Dzyublik, Kiev, Ukraine; Volodymyr Gavrysyuk, Kiev, Ukraine; Yuriy Feshchenko, Kiev, Ukraine; David Parr, Coventry, United Kingdom, Stephen Rennard, Omaha, NE; Richard Casaburi, Torrance, CA; Gerard Criner, Philadelphia, PA; Mark Dransfield, Birmingham, AL; Charles Fogarty, Spartanburg, SC; Nicola Hanania, Houston, TX; Carl Griffin, Oklahoma City, OK; Kathi Mcdavid, Oklahoma City, OK; Paul Kvale, Detroit, MI; Barry Make, Denver, CO; Joe Ramsdell, San Diego, CA; Michael D. Roth, Los Angeles, CA; Amir Harafkhaneh, Houston, TX; Peter Sporn, Chicago, IL. Steering Committee: Alvar Agustı´ (Spain), Peter Calverley (UK), Leonardo</p>
+              <p>Fabbri (Italy), Klaus F. Rabe (Netherlands), Nicolas Roche (France), Michael Roth (US), Jorgen Vestbo (Denmark), Stephen Rennard (US).</p>
+            </ack>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vestbo</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Hurd</surname>
+                      <given-names>SS</given-names>
+                    </name>
+                    <name>
+                      <surname>Agustí</surname>
+                      <given-names>AG</given-names>
+                    </name>
+                    <name>
+                      <surname>Jones</surname>
+                      <given-names>PW</given-names>
+                    </name>
+                    <name>
+                      <surname>Vogelmeier</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Anzueto</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Global strategy for the diagnosis, management, and prevention of chronic obstructive pulmonary disease: GOLD executive summary</article-title>
+                  <source>Am J Respir Crit Care Med</source>
+                  <year>2013</year>
+                  <volume>187</volume>
+                  <fpage>347</fpage>
+                  <lpage>365</lpage>
+                  <pub-id pub-id-type="doi">10.1164/rccm.201204-0596PP</pub-id>
+                  <?supplied-pmid 22878278?>
+                  <pub-id pub-id-type="pmid">22878278</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Alfredo</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Gaetano</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Paolo</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Marco</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Johnston</surname>
+                      <given-names>SL</given-names>
+                    </name>
+                    <name>
+                      <surname>Alberto</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Pathophysiology of viral-induced exacerbations of COPD</article-title>
+                  <source>Int J Chron Obstruct Pulmon Dis</source>
+                  <year>2007</year>
+                  <volume>2</volume>
+                  <fpage>477</fpage>
+                  <lpage>483</lpage>
+                  <pub-id pub-id-type="pmid">18268922</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Foreman</surname>
+                      <given-names>MG</given-names>
+                    </name>
+                    <name>
+                      <surname>DeMeo</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                    <name>
+                      <surname>Hersh</surname>
+                      <given-names>CP</given-names>
+                    </name>
+                    <name>
+                      <surname>Reilly</surname>
+                      <given-names>JJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Silverman</surname>
+                      <given-names>EK</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Clinical determinants of exacerbations in severe, early-onset COPD</article-title>
+                  <source>Eur Respir J</source>
+                  <year>2007</year>
+                  <volume>30</volume>
+                  <fpage>1124</fpage>
+                  <lpage>1130</lpage>
+                  <pub-id pub-id-type="doi">10.1183/09031936.00009307</pub-id>
+                  <?supplied-pmid 17715170?>
+                  <pub-id pub-id-type="pmid">17715170</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hurst</surname>
+                      <given-names>JR</given-names>
+                    </name>
+                    <name>
+                      <surname>Vestbo</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Anzueto</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Locantore</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Müllerova</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Tal-Singer</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Susceptibility to exacerbation in chronic obstructive pulmonary disease</article-title>
+                  <source>N Engl J Med</source>
+                  <year>2010</year>
+                  <volume>363</volume>
+                  <fpage>1128</fpage>
+                  <lpage>1138</lpage>
+                  <pub-id pub-id-type="doi">10.1056/NEJMoa0909883</pub-id>
+                  <?supplied-pmid 20843247?>
+                  <pub-id pub-id-type="pmid">20843247</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Foreman</surname>
+                      <given-names>MG</given-names>
+                    </name>
+                    <name>
+                      <surname>DeMeo</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                    <name>
+                      <surname>Hersh</surname>
+                      <given-names>CP</given-names>
+                    </name>
+                    <name>
+                      <surname>Carey</surname>
+                      <given-names>VJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Fan</surname>
+                      <given-names>VS</given-names>
+                    </name>
+                    <name>
+                      <surname>Reilly</surname>
+                      <given-names>JJ</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Polymorphic variation in surfactant protein B is associated with COPD exacerbations</article-title>
+                  <source>Eur Respir J</source>
+                  <year>2008</year>
+                  <volume>32</volume>
+                  <fpage>938</fpage>
+                  <lpage>944</lpage>
+                  <pub-id pub-id-type="doi">10.1183/09031936.00040208</pub-id>
+                  <?supplied-pmid 18550614?>
+                  <pub-id pub-id-type="pmid">18550614</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Takabatake</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Shibata</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Abe</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Wada</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Machiya</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Igarashi</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A single nucleotide polymorphism in the CCL1 gene predicts acute exacerbations in chronic obstructive pulmonary disease</article-title>
+                  <source>Am J Respir Crit Care Med</source>
+                  <year>2006</year>
+                  <volume>174</volume>
+                  <fpage>875</fpage>
+                  <lpage>885</lpage>
+                  <pub-id pub-id-type="doi">10.1164/rccm.200603-443OC</pub-id>
+                  <?supplied-pmid 16864713?>
+                  <pub-id pub-id-type="pmid">16864713</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hansel</surname>
+                      <given-names>NN</given-names>
+                    </name>
+                    <name>
+                      <surname>Hilmer</surname>
+                      <given-names>SC</given-names>
+                    </name>
+                    <name>
+                      <surname>Georas</surname>
+                      <given-names>SN</given-names>
+                    </name>
+                    <name>
+                      <surname>Cope</surname>
+                      <given-names>LM</given-names>
+                    </name>
+                    <name>
+                      <surname>Guo</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Irizarry</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Oligonucleotide-microarray analysis of peripheral-blood lymphocytes in severe asthma</article-title>
+                  <source>J Lab Clin Med</source>
+                  <year>2005</year>
+                  <volume>145</volume>
+                  <fpage>263</fpage>
+                  <lpage>274</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.lab.2005.02.010</pub-id>
+                  <?supplied-pmid 15902098?>
+                  <pub-id pub-id-type="pmid">15902098</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <mixed-citation publication-type="other">Herazo-Maya JD, Noth I, Duncan SR, Kim S, Ma S-F, Tseng GC, et al. Peripheral blood mononuclear cell gene expression profiles predict poor outcome in idiopathic pulmonary fibrosis. Sci Transl Med. 2013;5:205ra136.</mixed-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <mixed-citation publication-type="other">Yang IV, Luna LG, Cotter J, Talbert J, Leach SM, Kidd R, et al. The peripheral blood transcriptome identifies the presence and extent of disease in idiopathic pulmonary fibrosis. PLoS One. 2012;7:e37708.</mixed-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Poliska</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Csanky</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Szanto</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Szatmari</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Mesko</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Szeles</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Chronic obstructive pulmonary disease-specific gene expression signatures of alveolar macrophages as well as peripheral blood monocytes overlap and correlate with lung function</article-title>
+                  <source>Respiration</source>
+                  <year>2011</year>
+                  <volume>81</volume>
+                  <fpage>499</fpage>
+                  <lpage>510</lpage>
+                  <pub-id pub-id-type="doi">10.1159/000324297</pub-id>
+                  <?supplied-pmid 21430361?>
+                  <pub-id pub-id-type="pmid">21430361</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <mixed-citation publication-type="other">Bhattacharya S, Tyagi S, Srisuma S, Demeo DL, Shapiro SD, Bueno R, et al. Peripheral blood gene expression profiles in COPD subjects. J Clin Bioinforma. 2011;1:12.</mixed-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bahr</surname>
+                      <given-names>TM</given-names>
+                    </name>
+                    <name>
+                      <surname>Hughes</surname>
+                      <given-names>GJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Armstrong</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Reisdorph</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Coldren</surname>
+                      <given-names>CD</given-names>
+                    </name>
+                    <name>
+                      <surname>Edwards</surname>
+                      <given-names>MG</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Peripheral blood mononuclear cell gene expression in chronic obstructive pulmonary disease</article-title>
+                  <source>Am J Respir Cell Mol Biol</source>
+                  <year>2013</year>
+                  <volume>49</volume>
+                  <fpage>316</fpage>
+                  <lpage>323</lpage>
+                  <pub-id pub-id-type="doi">10.1165/rcmb.2012-0230OC</pub-id>
+                  <?supplied-pmid 23590301?>
+                  <pub-id pub-id-type="pmid">23590301</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Silverman</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Loscalzo</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Network medicine approaches to the genetics of complex diseases</article-title>
+                  <source>Discov Med</source>
+                  <year>2012</year>
+                  <volume>14</volume>
+                  <fpage>143</fpage>
+                  <lpage>152</lpage>
+                  <?supplied-pmid 22935211?>
+                  <pub-id pub-id-type="pmid">22935211</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <mixed-citation publication-type="other">Haas BE, Horvath S, Pietiläinen KH, Cantor RM, Nikkola E, Weissglas-Volkov D, et al. Adipose co-expression networks across Finns and Mexicans identify novel triglyceride-associated genes. BMC Med Genomics. 2012;5:61.</mixed-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Xue</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Schmidt</surname>
+                      <given-names>SV</given-names>
+                    </name>
+                    <name>
+                      <surname>Sander</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Draffehn</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Krebs</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Quester</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Transcriptome-based network analysis reveals a spectrum model of human macrophage activation</article-title>
+                  <source>Immunity</source>
+                  <year>2014</year>
+                  <volume>40</volume>
+                  <fpage>274</fpage>
+                  <lpage>288</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.immuni.2014.01.006</pub-id>
+                  <?supplied-pmid 24530056?>
+                  <pub-id pub-id-type="pmid">24530056</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <mixed-citation publication-type="other">Jones P, Rames A. TESRA (Treatment of Emphysema with a Selective Retinoid Agonist) study results. Am J Respir Crit Care Med. 2011;A6418.</mixed-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cheng</surname>
+                      <given-names>DT</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>DK</given-names>
+                    </name>
+                    <name>
+                      <surname>Cockayne</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                    <name>
+                      <surname>Belousov</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Bitter</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Cho</surname>
+                      <given-names>MH</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Systemic soluble receptor for advanced glycation endproducts is a biomarker of emphysema and associated with AGER genetic variants in patients with chronic obstructive pulmonary disease</article-title>
+                  <source>Am J Respir Crit Care Med</source>
+                  <year>2013</year>
+                  <volume>188</volume>
+                  <fpage>948</fpage>
+                  <lpage>957</lpage>
+                  <pub-id pub-id-type="doi">10.1164/rccm.201302-0247OC</pub-id>
+                  <?supplied-pmid 23947473?>
+                  <pub-id pub-id-type="pmid">23947473</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gautier</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Cope</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Bolstad</surname>
+                      <given-names>BM</given-names>
+                    </name>
+                    <name>
+                      <surname>Irizarry</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Affy–analysis of affymetrix GeneChip data at the probe level</article-title>
+                  <source>Bioinforma Oxf Engl</source>
+                  <year>2004</year>
+                  <volume>20</volume>
+                  <fpage>307</fpage>
+                  <lpage>315</lpage>
+                  <pub-id pub-id-type="doi">10.1093/bioinformatics/btg405</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Smyth</surname>
+                      <given-names>GK</given-names>
+                    </name>
+                  </person-group>
+                  <person-group person-group-type="editor">
+                    <name>
+                      <surname>Gentleman</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Carey</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Dudoit</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Irizarry</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Huber</surname>
+                      <given-names>W</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Limma: Linear Models for Microarray Data</article-title>
+                  <source>Bioinforma Comput Biol Solut Using R Bioconductor</source>
+                  <year>2005</year>
+                  <publisher-loc>New York</publisher-loc>
+                  <publisher-name>Springer</publisher-name>
+                  <fpage>397</fpage>
+                  <lpage>420</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Benjamini</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Hochberg</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Controlling the false discovery rate: a practical and powerful approach to multiple testing</article-title>
+                  <source>J R Stat Soc B</source>
+                  <year>1995</year>
+                  <volume>57</volume>
+                  <fpage>289</fpage>
+                  <lpage>300</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Horvath</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <source>Weighted Network Analysis: Applications in Genomics and Systems Biology</source>
+                  <year>2011</year>
+                  <edition>2011</edition>
+                  <publisher-loc>New York</publisher-loc>
+                  <publisher-name>Springer</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <mixed-citation publication-type="other">Feng G, Du P, Krett NL, Tessel M, Rosen S, Kibbe WA, et al. A collection of bioconductor methods to visualize gene-list annotations. BMC Res Notes. 2010;3:10.</mixed-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Subramanian</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Tamayo</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Mootha</surname>
+                      <given-names>VK</given-names>
+                    </name>
+                    <name>
+                      <surname>Mukherjee</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Ebert</surname>
+                      <given-names>BL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles</article-title>
+                  <source>Proc Natl Acad Sci U S A</source>
+                  <year>2005</year>
+                  <volume>102</volume>
+                  <fpage>15545</fpage>
+                  <lpage>15550</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.0506580102</pub-id>
+                  <?supplied-pmid 16199517?>
+                  <pub-id pub-id-type="pmid">16199517</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <mixed-citation publication-type="other">Merico D, Isserlin R, Stueker O, Emili A, Bader GD. Enrichment map: a network-based method for gene-set enrichment visualization and interpretation. PLoS One. 2010;5:e13984.</mixed-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hodge</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Mukaro</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Holmes</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Reynolds</surname>
+                      <given-names>PN</given-names>
+                    </name>
+                    <name>
+                      <surname>Hodge</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Enhanced cytotoxic function of natural killer and natural killer T-like cells associated with decreased CD94 (Kp43) in the chronic obstructive pulmonary disease airway</article-title>
+                  <source>Respirology</source>
+                  <year>2013</year>
+                  <volume>18</volume>
+                  <fpage>369</fpage>
+                  <lpage>376</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1440-1843.2012.02287.x</pub-id>
+                  <?supplied-pmid 23062183?>
+                  <pub-id pub-id-type="pmid">23062183</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Veljkovic</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Jiricny</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Menigatti</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Rehrauer</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Han</surname>
+                      <given-names>W</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Chronic exposure to cigarette smoke condensate in vitro induces epithelial to mesenchymal transition-like changes in human bronchial epithelial cells, BEAS-2B</article-title>
+                  <source>Toxicol In Vitro</source>
+                  <year>2011</year>
+                  <volume>25</volume>
+                  <fpage>446</fpage>
+                  <lpage>453</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.tiv.2010.11.011</pub-id>
+                  <?supplied-pmid 21095227?>
+                  <pub-id pub-id-type="pmid">21095227</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Doyle</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Ratcliffe</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Walding</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Vanden Bon</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Dymond</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Tomlinson</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Differential gene expression analysis in human monocyte-derived macrophages: impact of cigarette smoke on host defence</article-title>
+                  <source>Mol Immunol</source>
+                  <year>2010</year>
+                  <volume>47</volume>
+                  <fpage>1058</fpage>
+                  <lpage>1065</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.molimm.2009.11.008</pub-id>
+                  <?supplied-pmid 20022114?>
+                  <pub-id pub-id-type="pmid">20022114</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bosco</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Ehteshami</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Stern</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                    <name>
+                      <surname>Martinez</surname>
+                      <given-names>FD</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Decreased activation of inflammatory networks during acute asthma exacerbations is associated with chronic airflow obstruction</article-title>
+                  <source>Mucosal Immunol</source>
+                  <year>2010</year>
+                  <volume>3</volume>
+                  <fpage>399</fpage>
+                  <lpage>409</lpage>
+                  <pub-id pub-id-type="doi">10.1038/mi.2010.13</pub-id>
+                  <?supplied-pmid 20336062?>
+                  <pub-id pub-id-type="pmid">20336062</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ioannidis</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>McNally</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Willette</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Peeples</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Chaussabel</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Durbin</surname>
+                      <given-names>JE</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Plasticity and virus specificity of the airway epithelial cell immune response during respiratory virus infection</article-title>
+                  <source>J Virol</source>
+                  <year>2012</year>
+                  <volume>86</volume>
+                  <fpage>5422</fpage>
+                  <lpage>5436</lpage>
+                  <pub-id pub-id-type="doi">10.1128/JVI.06757-11</pub-id>
+                  <?supplied-pmid 22398282?>
+                  <pub-id pub-id-type="pmid">22398282</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fiorini</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Crespi</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Rinaldi</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Serum ECP and MPO are increased during exacerbations of chronic bronchitis with airway obstruction</article-title>
+                  <source>Biomed Pharmacother</source>
+                  <year>2000</year>
+                  <volume>54</volume>
+                  <fpage>274</fpage>
+                  <lpage>278</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0753-3322(00)80071-2</pub-id>
+                  <?supplied-pmid 10917466?>
+                  <pub-id pub-id-type="pmid">10917466</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gompertz</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Bayley</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                    <name>
+                      <surname>Hill</surname>
+                      <given-names>SL</given-names>
+                    </name>
+                    <name>
+                      <surname>Stockley</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Relationship between airway inflammation and the frequency of exacerbations in patients with smoking related COPD</article-title>
+                  <source>Thorax</source>
+                  <year>2001</year>
+                  <volume>56</volume>
+                  <fpage>36</fpage>
+                  <lpage>41</lpage>
+                  <pub-id pub-id-type="doi">10.1136/thorax.56.1.36</pub-id>
+                  <?supplied-pmid 11120902?>
+                  <pub-id pub-id-type="pmid">11120902</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tumkaya</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Atis</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Ozge</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Delialioglu</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Polat</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Kanik</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Relationship between airway colonization, inflammation and exacerbation frequency in COPD</article-title>
+                  <source>Respir Med</source>
+                  <year>2007</year>
+                  <volume>101</volume>
+                  <fpage>729</fpage>
+                  <lpage>737</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.rmed.2006.08.020</pub-id>
+                  <?supplied-pmid 17002892?>
+                  <pub-id pub-id-type="pmid">17002892</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gompertz</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>O’Brien</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Bayley</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                    <name>
+                      <surname>Hill</surname>
+                      <given-names>SL</given-names>
+                    </name>
+                    <name>
+                      <surname>Stockley</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Changes in bronchial inflammation during acute exacerbations of chronic bronchitis</article-title>
+                  <source>Eur Respir J</source>
+                  <year>2001</year>
+                  <volume>17</volume>
+                  <fpage>1112</fpage>
+                  <lpage>1119</lpage>
+                  <pub-id pub-id-type="doi">10.1183/09031936.01.99114901</pub-id>
+                  <?supplied-pmid 11491152?>
+                  <pub-id pub-id-type="pmid">11491152</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <mixed-citation publication-type="other">Cockayne DA, Cheng DT, Waschki B, Sridhar S, Ravindran P, Hilton H, et al. Systemic biomarkers of neutrophilic inflammation, tissue injury and repair in COPD patients with differing levels of disease severity. PLoS One. 2012;7:e38629.</mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

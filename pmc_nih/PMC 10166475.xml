@@ -1,0 +1,1592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T02:50:34Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:10166475" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:10166475</identifier>
+        <datestamp>2024-01-06</datestamp>
+        <setSpec>jcocci</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">JCO Clin Cancer Inform</journal-id>
+              <journal-id journal-id-type="iso-abbrev">JCO Clin Cancer Inform</journal-id>
+              <journal-id journal-id-type="hwp">cci</journal-id>
+              <journal-id journal-id-type="publisher-id">CCI</journal-id>
+              <journal-title-group>
+                <journal-title>JCO Clinical Cancer Informatics</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2473-4276</issn>
+              <publisher>
+                <publisher-name>Wolters Kluwer Health</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC10166475</article-id>
+              <article-id pub-id-type="pmcid">PMC10166475</article-id>
+              <article-id pub-id-type="pmc-uid">10166475</article-id>
+              <article-id pub-id-type="pmid">36608311</article-id>
+              <article-id pub-id-type="pmid">36608311</article-id>
+              <article-id pub-id-type="publisher-id">CCI.22.00140</article-id>
+              <article-id pub-id-type="doi">10.1200/CCI.22.00140</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>ORIGINAL REPORTS</subject>
+                  <subj-group>
+                    <subject>Biostatistical Methods and Applications</subject>
+                  </subj-group>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Target Trial Emulation: A Design Tool for Cancer Clinical Trials</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4624-8787</contrib-id>
+                  <name>
+                    <surname>Kwee</surname>
+                    <given-names>Sandi A.</given-names>
+                  </name>
+                  <degrees>MD, PhD</degrees>
+                  <xref rid="aff1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                  <xref rid="aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                  <xref rid="cor1" ref-type="corresp"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Wong</surname>
+                    <given-names>Linda L.</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <xref rid="aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                  <xref rid="aff3" ref-type="aff">
+                    <sup>3</sup>
+                  </xref>
+                  <xref rid="con1" ref-type="fn"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-0779-810X</contrib-id>
+                  <name>
+                    <surname>Ludema</surname>
+                    <given-names>Christina</given-names>
+                  </name>
+                  <degrees>MSPH, PhD</degrees>
+                  <xref rid="aff4" ref-type="aff">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Deng</surname>
+                    <given-names>Chris K.</given-names>
+                  </name>
+                  <degrees>BS</degrees>
+                  <xref rid="aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Taira</surname>
+                    <given-names>Deborah</given-names>
+                  </name>
+                  <degrees>ScD</degrees>
+                  <xref rid="aff5" ref-type="aff">
+                    <sup>5</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-9872-4290</contrib-id>
+                  <name>
+                    <surname>Seto</surname>
+                    <given-names>Todd</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <xref rid="aff1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                  <xref rid="con2" ref-type="fn"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Landsittel</surname>
+                    <given-names>Douglas</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref rid="aff4" ref-type="aff">
+                    <sup>4</sup>
+                  </xref>
+                  <xref rid="con3" ref-type="fn"/>
+                </contrib>
+                <aff id="aff1"><label><sup>1</sup></label>The Queen's Medical Center, Honolulu, HI</aff>
+                <aff id="aff2"><label><sup>2</sup></label>University of Hawai`i Cancer Center, Clinical and Translational Sciences Program, University of Hawaii at Manoa, Honolulu, HI</aff>
+                <aff id="aff3"><label><sup>3</sup></label>Department of Surgery, The John A. Burns School of Medicine, University of Hawaii at Manoa, Honolulu, HI</aff>
+                <aff id="aff4"><label><sup>4</sup></label>Indiana University School of Public Health, Bloomington, IN</aff>
+                <aff id="aff5"><label><sup>5</sup></label>The Daniel K. Inouye College of Pharmacy, University of Hawaii at Hilo, Hilo, HI</aff>
+              </contrib-group>
+              <author-notes>
+                <corresp id="cor1">Sandi A. Kwee, MD, PhD, The Queen's Medical Center, 1301 Punchbowl St, Honolulu, HI 96813; e-mail: <email>kwee@hawaii.edu</email>.</corresp>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <year>2023</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>6</day>
+                <month>1</month>
+                <year>2023</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>6</day>
+                <month>1</month>
+                <year>2024</year>
+              </pub-date>
+              <!--PMC Release delay is 12 months and 0 days and was based on the <pub-date pub-type="epub"/>.-->
+              <volume>7</volume>
+              <elocation-id>e2200140</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>8</day>
+                  <month>9</month>
+                  <year>2022</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>11</day>
+                  <month>11</month>
+                  <year>2022</year>
+                </date>
+                <date date-type="accepted">
+                  <day>23</day>
+                  <month>11</month>
+                  <year>2022</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2023 by American Society of Clinical Oncology</copyright-statement>
+                <copyright-year>2023</copyright-year>
+                <copyright-holder>American Society of Clinical Oncology</copyright-holder>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref>
+                  <license-p>Creative Commons Attribution Non-Commercial No Derivatives 4.0 License: <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link></license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:href="cci-7-e2200140.pdf"/>
+              <abstract>
+                <title>PURPOSE</title>
+                <p>To apply target trial emulation to explore the potential impact of eligibility criteria on the primary outcome of a randomized controlled trial.</p>
+                <sec>
+                  <title>METHODS</title>
+                  <p>Simulations of a real-world explanatory trial of transarterial radioembolization for advanced unresectable hepatocellular carcinoma with portal vein invasion were performed to examine the effects of cohort specification on survival outcomes and patient sample size. Simulations comprised 24 different permutations of the trial varied on three disease nonspecific eligibility parameters. Treatment and control arms for these emulated trials were drawn from the National Cancer Database and matched by treatment propensity. Target trial emulation served as the causal framework for this analysis, allowing the architecture of a true controlled experiment to address forms of bias routinely encountered in comparative effectiveness studies involving real-world observational data.</p>
+                </sec>
+                <sec>
+                  <title>RESULTS</title>
+                  <p>Twenty-four propensity score–matched cohorts comprising a wider clinical spectrum of patients than specified by the original target trial were successfully generated using the National Cancer Database. The arms for each of the emulated trials demonstrated exchangeability across all eligibility criteria and other clinical covariates. Significant treatment benefits were associated with only a narrow range of eligibility criteria, indicating that the original target trial was well specified.</p>
+                </sec>
+                <sec>
+                  <title>CONCLUSION</title>
+                  <p>The impact of patient selection on treatment outcomes can be studied using target trial emulation. This analytical framework can furthermore serve to leverage existing real-world data to inform the task of cohort specification for a randomized controlled trial, facilitating a more data-driven approach for this important step in clinical trial design.</p>
+                </sec>
+              </abstract>
+              <counts>
+                <fig-count count="5"/>
+                <table-count count="2"/>
+                <equation-count count="0"/>
+                <ref-count count="46"/>
+                <page-count count="0"/>
+              </counts>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>OPEN-ACCESS</meta-name>
+                  <meta-value>TRUE</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="introduction">
+              <title>INTRODUCTION</title>
+              <p>Clinical trials most commonly fail as a result of not having achieved their efficacy end points or because their target populations encountered increased toxicity. However, they can also fail for other reasons such as poor enrollment or excessive patient withdrawals. Suboptimal specification of clinical trial eligibility criteria is a potential root cause for all these types of failures.<sup><xref rid="b1" ref-type="bibr">1</xref>,<xref rid="b2" ref-type="bibr">2</xref></sup> For example, exclusion criteria that fall short in excluding patients at high risk of treatment-related toxicity could lead to unacceptably high adverse event rates or excessive patient withdrawals, whereas overly stringent criteria can negatively affect treatment effect size by excluding too many patients who would have benefited. Poorly specified eligibility criteria can also hamper the rate of enrollment, which then places a financial burden on the sponsor and raises the likelihood of premature trial closure. Furthermore, choices made during the specification of the eligibility criteria can affect external validity (ie, generalizability) and raise issues concerning social equity.<sup><xref rid="b3" ref-type="bibr">3</xref>-<xref rid="b5" ref-type="bibr">5</xref></sup> Cohort specifications are usually refined over the course of the study design process, providing ample opportunity to develop eligibility criteria that hopefully minimize the overall risk of trial failure. However, the fact that there are multiple competing factors and different modes of trial failure makes the task of defining study eligibility criteria a persistent challenge.</p>
+              <boxed-text id="B1" position="anchor">
+                <sec sec-type="context-box">
+                  <title>CONTEXT</title>
+                  <p>
+                    <list list-type="simple">
+                      <list-item>
+                        <p>
+                          <bold>Key Objective</bold>
+                        </p>
+                      </list-item>
+                      <list-item>
+                        <p>To apply target trial emulation to explore the impact of patient selection criteria on the primary outcome of a randomized controlled trial.</p>
+                      </list-item>
+                      <list-item>
+                        <p>
+                          <bold>Knowledge Generated</bold>
+                        </p>
+                      </list-item>
+                      <list-item>
+                        <p>The impact of eligibility specification on the primary outcome (overall survival) of a real-world target trial was simulated using propensity-score matched treatment and outcomes data drawn from the National Cancer Database. In addition to illustrating how clinical trial design may be informed by this process, strategies to address several potential limitations of this and other observational data sets in emulating target trials were demonstrated.</p>
+                      </list-item>
+                      <list-item>
+                        <p>
+                          <bold>Relevance</bold>
+                        </p>
+                      </list-item>
+                      <list-item>
+                        <p>Overly restrictive eligibility criteria can impede patient accrual for a clinical trial or weaken its generalizability. Conversely, poorly specified criteria can substantially diminish observed treatment benefits and increase the chances for a negative trial. Target trial emulation facilitates a data-driven approach to simulating the outcomes of a planned randomized trial as an aid to optimizing trial specification.</p>
+                      </list-item>
+                    </list>
+                  </p>
+                </sec>
+              </boxed-text>
+              <p>Relatively few strategies are available for evaluating the trade-offs associated with cohort specification. One common strategy is to apply real-world data (RWD) such as data from electronic health records or patient registries to help specify and refine trial eligibility criteria in a data-driven manner. RWD is already being used at other phases of drug development, in part formalized by the 21st Century Cures Act that called for the use of real-world evidence to support postapproval marketing claims or to investigate new indications for approved drugs.<sup><xref rid="b6" ref-type="bibr">6</xref></sup> For example, RCT DUPLICATE (Randomized, Controlled Trials Duplicated Using Prospective Longitudinal Insurance Claims: Applying Techniques of Epidemiology) was initiated by the US Food and Drug Administration (FDA) to compare the findings of randomized controlled trials with results from observational studies meant to emulate the design of an randomized controlled trial as closely as possible.<sup><xref rid="b7" ref-type="bibr">7</xref></sup> However, all such efforts are predicated on being able to reliably draw causal inference from observational data.<sup><xref rid="b6" ref-type="bibr">6</xref></sup></p>
+              <p>One way to support causal inference in observational comparative effectiveness studies is to emulate the design of a randomized trial while applying treatment propensity modeling methods such as propensity score matching (PSM) or inverse probability of treatment weighting to provide evenly balanced treatment groups for comparison.<sup><xref rid="b8" ref-type="bibr">8</xref></sup> Under certain assumptions, these methods provide a means to create observational cohorts that, on the basis of their observed characteristics, mimic the exchangeability of randomized cohorts.<sup><xref rid="b9" ref-type="bibr">9</xref></sup> However, to avoid introducing additional forms of bias, causal relationships not necessarily apparent in the data must also be recognized and incorporated into the observational study design.<sup><xref rid="b10" ref-type="bibr">10</xref>,<xref rid="b11" ref-type="bibr">11</xref></sup> For example, to recognize a temporal relationship between treatment assignment and initiation, observational cohorts must be balanced using only covariates known before treatment.<sup><xref rid="b10" ref-type="bibr">10</xref>,<xref rid="b12" ref-type="bibr">12</xref></sup> Furthermore, to guard against guarantee time/immortal time bias on the treatment outcome, the observational study design must also address imbalances when treatments occur for different groups.<sup><xref rid="b13" ref-type="bibr">13</xref></sup> These kinds of considerations have led to a formalization of the emulated target trial (ETT) approach, whereby the design and analysis framework of an actual controlled experiment (ie, the target trial) is applied to estimate treatment effects using observational data while avoiding self-inflicted or additional forms of bias.<sup><xref rid="b13" ref-type="bibr">13</xref>,<xref rid="b14" ref-type="bibr">14</xref></sup> Through deliberate applications of this causal inference framework, many incongruencies between observational studies and randomized trials have been resolved.<sup><xref rid="b15" ref-type="bibr">15</xref>-<xref rid="b17" ref-type="bibr">17</xref></sup> Through an examination of how cohort specification (ie, eligibility criteria) might influence the outcomes of a real-world phase 3 oncology trial, the current study illustrates how target trial emulation can be applied to further facilitate a data-driven approach to clinical trial design.</p>
+            </sec>
+            <sec sec-type="methods">
+              <title>METHODS</title>
+              <sec>
+                <title>Rationale for Emulating the Target Trial</title>
+                <p>A series of emulated trials were created to explore the potential outcomes of 24 unique permutations of a real-world clinical trial for patients with advanced unresectable hepatocellular carcinoma (HCC). As the most common form of primary liver cancer, HCC often presents at an advanced stage that precludes curative surgical intervention.<sup><xref rid="b18" ref-type="bibr">18</xref></sup> Although advanced HCC is not curable, it is amenable to nonsurgical treatments whose benefits are supported by previous clinical trials.<sup><xref rid="b18" ref-type="bibr">18</xref>,<xref rid="b19" ref-type="bibr">19</xref></sup> Clinical guidelines for advanced HCC currently advocate systemic therapy using long-standing FDA-approved drugs such as sorafenib<sup><xref rid="b19" ref-type="bibr">19</xref></sup> and more recently immune checkpoint inhibitor antibodies.<sup><xref rid="b20" ref-type="bibr">20</xref>,<xref rid="b21" ref-type="bibr">21</xref></sup> In addition, liver-directed treatments such as transarterial radioembolization (TARE) using yttrium-90 laden microparticles have also been proposed to treat advanced HCC although most guidelines continue to recommend systemic therapy as first line.<sup><xref rid="b18" ref-type="bibr">18</xref>,<xref rid="b22" ref-type="bibr">22</xref></sup> Although previously completed randomized trials have failed to demonstrate the superiority of TARE over systemic therapy, these trials notably exhibited significant imbalances in time to treatment after random assignment and a disproportionate rate of canceled treatments in the TARE arm.<sup><xref rid="b23" ref-type="bibr">23</xref></sup> As these trials were analyzed on the basis of intention to treat, it has been hypothesized that their outcomes might have been negatively affected by such factors.<sup><xref rid="b24" ref-type="bibr">24</xref></sup> Inadequate patient accrual and follow-up also led to the stoppage of one important clinical trial to compare TARE against systemic therapy in patients with advanced HCC with portal vein tumor involvement (<ext-link xlink:href="https://www.clinicaltrials.gov/ct2/show/NCT01887717" ext-link-type="uri">NCT01887717</ext-link>). Many patients with advanced HCC are precluded from clinical trials of TARE because of their underlying liver disease or comorbidities although nationwide registries such as the National Cancer Database (NCDB) reveal that such patients are increasingly undergoing this treatment clinically.<sup><xref rid="b23" ref-type="bibr">23</xref></sup> Recognizing the difficulties encountered by these prospective trials, we previously conducted an observational study involving target trial emulation of <ext-link xlink:href="https://www.clinicaltrials.gov/ct2/show/NCT01887717" ext-link-type="uri">NCT01887717</ext-link>, finding improved overall survival in TARE-treated patients who were matched by treatment propensity scores to systemic therapy–treated patients.<sup><xref rid="b23" ref-type="bibr">23</xref></sup> The current study further applies target trial emulation to examine how suitable the eligibility criteria were for this trial.</p>
+              </sec>
+              <sec>
+                <title>Identifying the Target Trial</title>
+                <p>Study information and a clinical protocol (v3.0, 2014/08/08, accessed November 27, 2020) on the phase III study titled “Prospective randomized clinical trial on <sup>90</sup>Yttrium trans-arterial radio-Embolization (TARE) vs. Standard of care (chemotherapy) for the treatment of advanced HCC with Portal vein thrombosis” (YES-P, ID NCT01887717) was obtained from ClinicalTrials.gov. According to its online record, the trial opened in 2014 but closed in 2017 before completion. On the basis of this protocol, target trial emulation will test the hypothesis that overall survival differs significantly between balanced cohorts of TARE-treated and systemically treated patients with advanced unresectable HCC complicated by major vascular invasion.</p>
+              </sec>
+              <sec>
+                <title>Data Collection and Management</title>
+                <p>After institutional review board approval, a deidentified data set containing case-level data was obtained from the NCDB, a joint program of the American College of Surgeons Commission on Cancer and the American Cancer Society. The data use agreement with the Commission on Cancer limited the distribution or sharing of this data set beyond the investigators. As this study was initiated during the US COVID-19 Public Health Emergency, target trial emulation was implemented on a web-based client-server platform (R Shiny, Posit Software, Boston, MA) to facilitate remote collaboration among investigators while mitigating the risk of unauthorized data access or distribution. The web app (Fig <xref rid="fig1" ref-type="fig">1</xref>) created on this platform allowed ETT designs to be submitted to the server for centralized analysis, further eliminating the need to distribute copies of the clinical data set to multiple users.</p>
+                <fig position="float" id="fig1" fig-type="figure">
+                  <label>FIG 1.</label>
+                  <caption>
+                    <p>An ETT user interface allows (A) study design/analysis settings, (B) cohort specifications, and (C) other eligibility criteria to be specified by multiple investigators using thin client devices. ETT, emulated target trial.</p>
+                  </caption>
+                  <graphic xlink:href="cci-7-e2200140-g001" position="float"/>
+                </fig>
+              </sec>
+              <sec sec-type="subjects">
+                <title>Patient Selection Criteria</title>
+                <p>Eligibility criteria from the YES-P trial were translated into ETT criteria on the basis of parameters available from the NCDB database as shown in Table <xref rid="tbl1" ref-type="table">1</xref>. Criteria deemed irrelevant (such as pregnancy test exclusion or ability to sign consent form) were not applied.</p>
+                <table-wrap position="float" id="tbl1">
+                  <label>TABLE 1.</label>
+                  <caption>
+                    <p>Patient Selection Criteria Translated From the YES-P Protocol to the ETT</p>
+                  </caption>
+                  <graphic xlink:href="cci-7-e2200140-g002" position="float"/>
+                </table-wrap>
+              </sec>
+              <sec>
+                <title>Cohort Specification</title>
+                <p>The YES-P trial was an industry-sponsored trial that required the use of specific agents in the experimental and control arms. The experimental agent specified was composed of yttrium-90 glass microspheres (TheraSphere, Boston Scientific, Marlborough, MA), whereas the control agent was sorafenib (Nexavar, Bayer Healthcare, Whippany, NJ). As specific commercial agents are not disclosed in the NCDB, the ETT was designed to compare their corresponding treatment classes. The ETT control treatment was defined as single-agent systemic therapy, for which sorafenib was the only FDA-approved drug and the standard of care for advanced unresectable HCC over the period from which data were collected. Treatment codes that signified single-agent chemotherapy as the first course of treatment were used to identify eligible patients in the NCDB for this arm. The ETT experimental treatment was defined as intra-arterial radioisotopic injection with intent to embolize the tumor or tumor-affected hepatic segment/lobe and deliver interstitial brachytherapy. Patients for the experimental arm were identified in the NCDB using specific radiation treatment codes.</p>
+              </sec>
+              <sec>
+                <title>Covariate Selection for Treatment Propensity Modeling</title>
+                <p>The theory underlying covariate selection is explained in other references.<sup><xref rid="b12" ref-type="bibr">12</xref>,<xref rid="b25" ref-type="bibr">25</xref></sup> The prevailing strategy involves engaging with clinical experts to identify the covariates strongly related to both treatment assignment and outcomes.<sup><xref rid="b12" ref-type="bibr">12</xref>,<xref rid="b26" ref-type="bibr">26</xref></sup> This strategy favors liberal covariate selection based on the premise that omission of a relevant covariate can lead to unaccounted bias, whereas the inclusion of an irrelevant covariate may only cause greater variance in the estimator.<sup><xref rid="b27" ref-type="bibr">27</xref></sup> Applying these principles, the following covariates were selected by clinical experts (S.A.K. and L.L.W.): age, sex, treatment facility type, Charlson-Deyo Comorbidity Score (CDCS, ranging from 0 [no comorbidities] to 3 [high-risk comorbidity] as a surrogate of the patient's overall health status<sup><xref rid="b28" ref-type="bibr">28</xref></sup>), creatinine (Cr) level (mg/dL), bilirubin level (mg/dL), international normalized ratio (INR), alpha-fetoprotein range, tumor focality, tumor lobularity, and maximum tumor size. The year of cancer diagnosis was also included to account for changes in treatment availability over time.</p>
+              </sec>
+              <sec>
+                <title>Covariate Balancing</title>
+                <p>The target trial was conducted as a site randomized unblinded trial with a 1:1 treatment to control ratio and stratification on the basis of alpha-fetoprotein level &gt; 400 ng/mL. To take advantage of an almost three-fold larger number of systemic therapy patients available from the NCDB, the ETT emulated random assignment by conducting PSM at a maximum ratio of 3:1 with balancing across strata of alpha-fetoprotein level. PSM was conducted without replacement, using the nearest-neighbor method with a caliper of size 0.2 using the R package MatchIt.<sup><xref rid="b29" ref-type="bibr">29</xref></sup> Assessment of covariate balance used the R package cobalt.<sup><xref rid="b30" ref-type="bibr">30</xref></sup> The covariate balance criterion was an absolute standardized mean difference &lt; 0.1.<sup><xref rid="b31" ref-type="bibr">31</xref></sup></p>
+              </sec>
+              <sec>
+                <title>Defining Primary Outcomes and Time Points for Evaluation</title>
+                <p>The primary outcome/efficacy variable was duration of overall survival or specifically the time from the baseline date until the date of death because of any cause. No secondary efficacy variables were evaluated by the ETT. The target trial defined the baseline date to be the date of random assignment. As there is no actual date of random assignment for an ETT, the default date of diagnosis as recorded in the NCDB served as the baseline date for calculating time to event for the ETT. The YES-P trial required that the control arm receive treatment within 2 weeks of random assignment and the treatment arm receive treatment within 3 weeks. Since the date of diagnosis was used as a surrogate for the date of random assignment, it is not possible to apply such treatment time windows to the ETT analysis. Thus, a conditional landmark analysis was incorporated into the outcomes analysis.<sup><xref rid="b32" ref-type="bibr">32</xref></sup> When necessary to convert units of months into days, the following formula was used: days = months × 365.25/12.</p>
+              </sec>
+              <sec>
+                <title>Treatment Cross-Over and Intention to Treat</title>
+                <p>Following the intention-to-treat principle, the YES-P trial allowed patients assigned to one arm to cross-over to the other arm if clinically warranted. Cross-over was emulated for the ETT by identifying patients from the ETT control group in whom a REASON_FOR_NO_RADIATION code was recorded in the NCDB. These patients were then included in the treatment group before PSM.</p>
+              </sec>
+              <sec>
+                <title>Statistical Analysis and Reporting</title>
+                <p>The target trial was designed to detect an increase of 4 months in median survival time from 9 months in the control arm to 13 months in the treatment arm, corresponding to a hazard ratio (HR) of 0.69. Each ETT is expected to have an 80% power to detect this target difference with a two-sided alpha of 0.05. This is based on assuming an approximately 80% cohort mortality rate over 5 years as was observed in the selected NCDB cohorts from each diagnosis year. All analyses were conducted using R 3.6.0 (R Foundation, Vienna, Austria). Statistical significance was based on a two-sided <italic toggle="yes">P</italic> &lt; .05. To support reproducibility and facilitate results dissemination, detailed study reports that include statistical tables and graphs were automatically generated using R Markdown and made available for immediate user download. An example of an ETT study report is included in the Data Supplement.</p>
+              </sec>
+            </sec>
+            <sec sec-type="results">
+              <title>RESULTS</title>
+              <p>The results from 24 ETTs conducted across the a priori selected range of cohorts are shown in Table <xref rid="tbl2" ref-type="table">2</xref>, summarizing the effects of three eligibility criteria (CDCS, Cr level, and INR) on the estimated outcome effect size and sample size (n). These three parameters were examined because they are not used to specify the target disease but frequently applied in HCC clinical trials to limit patient eligibility on the basis of comorbidities. The ranges of criteria examined were the Cr level from 2 to 6 mg/dL, the INR from 1.7 to 5, and CDCS 1-2. Not surprisingly, broadening the eligibility criteria increased sample sizes of the prematch and postmatch cohorts. However, this was associated with decreasing magnitude and significance of the estimated survival benefit (on the basis of the HR and 95% CI). The pattern of relationship between trial outcomes and eligibility criteria was depicted using a 3D array block plot (Fig <xref rid="fig2" ref-type="fig">2</xref>) with the Cr level (mg/dL) varied along the Y-axis, INR varied along the X-axis, and CDCS 1 identified as blue blocks and CDCS 1 + 2 identified as purple blocks. The survival HR, as a measure of the primary outcome, is plotted on the z-axis, with statistical significance color coded on top of each block according to <italic toggle="yes">P</italic> value: teal <italic toggle="yes">P</italic> &lt; .01, orange <italic toggle="yes">P</italic> &lt; .05, and red <italic toggle="yes">P</italic> ≥ .05. This plot gives an at-a-glance depiction of how broadening eligibility criteria negatively affects the estimated trial outcome effect and significance. Covariate balance criteria were met in each of the 24 ETTs performed (example diagnostic plots shown in Fig <xref rid="fig3" ref-type="fig">3</xref>). The ETT outcome is summarized as a survival plot (example shown in Fig <xref rid="fig4" ref-type="fig">4</xref>).</p>
+              <table-wrap position="float" id="tbl2">
+                <label>TABLE 2.</label>
+                <caption>
+                  <p>Results From 24 Emulated Trials Varied Across Three Different Eligibility Criteria</p>
+                </caption>
+                <graphic xlink:href="cci-7-e2200140-g003" position="float"/>
+              </table-wrap>
+              <fig position="float" id="fig2" fig-type="figure">
+                <label>FIG 2.</label>
+                <caption>
+                  <p>A three-dimensional array box plot presents HR as a function of three eligibility criteria: INR, creatinine level (in mg/dL), and Charlson-Deyo Comorbidity Score. Color coding is explained in the text. HR, hazard ratio; INR, international normalized ratio.</p>
+                </caption>
+                <graphic xlink:href="cci-7-e2200140-g004" position="float"/>
+              </fig>
+              <fig position="float" id="fig3" fig-type="figure">
+                <label>FIG 3.</label>
+                <caption>
+                  <p>(A) Love plot summarizing standardized mean differences as measures of balance for individual covariates before and after propensity score matching (covariate balance). (B) An overall balance distribution plot for distance summarizes the overall improvement in cohort exchangeability after matching.</p>
+                </caption>
+                <graphic xlink:href="cci-7-e2200140-g005" position="float"/>
+              </fig>
+              <fig position="float" id="fig4" fig-type="figure">
+                <label>FIG 4.</label>
+                <caption>
+                  <p>Example of a survival plot summarizing the main outcome of the ETT. This result corresponds to ETT #9 shown in Table <xref rid="tbl2" ref-type="table">2</xref>. Color-shaded areas represent 95% CIs across time. ETT, emulated target trial.</p>
+                </caption>
+                <graphic xlink:href="cci-7-e2200140-g006" position="float"/>
+              </fig>
+            </sec>
+            <sec sec-type="discussion">
+              <title>DISCUSSION</title>
+              <p>Target trial emulation has most commonly been used for hypothesis generation and confirmatory studies.<sup><xref rid="b14" ref-type="bibr">14</xref>,<xref rid="b33" ref-type="bibr">33</xref>-<xref rid="b35" ref-type="bibr">35</xref></sup> To illustrate how this approach can also be used to empirically inform the design of clinical trials involving existing or emerging treatments, permutations of an ETT for HCC that were based on a real-world target trial were conducted across a range of eligibility criteria to examine the potential impact of cohort specification on the primary survival outcome of the trial. As expected, the results of these trial simulations indicate that broadening the eligibility criteria could lead to more robust trial accrual; however, such changes to the study cohort would likely have a substantial negative impact on trial outcomes.</p>
+              <p>Other recent studies involving target trial emulation have also demonstrated the impact of cohort specification on cancer treatment outcomes. A study using the Flatiron Health database of immunotherapy-treated patients with advanced non–small-cell lung cancer found that treated patients who would have not been eligible for clinical trials of first-line or second-line pembrolizumab (ie, KEYNOTE-042 and KEYNOTE-010) experienced significantly worse overall survival compared with those who would have been eligible.<sup><xref rid="b36" ref-type="bibr">36</xref></sup> In another study involving this database, 10 different non–small-cell lung cancer clinical trials were emulated, resulting in the identification of eligibility criteria that were unlikely to affect overall survival.<sup><xref rid="b37" ref-type="bibr">37</xref></sup> Its authors surmised that relaxing these eligibility criteria could potentially more than double the number of trial eligible patients on average without negatively affecting survival HRs. These studies align with the current study in supporting the usefulness of target trial emulation for analyzing trial cohort specification.</p>
+              <p>In our study, the fact that the NCDB could supply well-balanced cohorts across an eligibility spectrum much wider than specified by the target trial (or any other previous trial) indicates that patients with advanced HCC who might not have otherwise qualified for previous clinical trials of TARE are already undergoing this procedure in the real world. Thus, target trial emulations using this source of RWD could be used to explore and design potential clinical trials involving a clinical spectrum of patients wider than those enrolled in prior trials. Results from the 24 ETT permutations suggest that substantially widening trial eligibility criteria could lead to negative results on the primary outcome of the trial. Although detailed inspection of these results may indicate that the limits for INR and Cr could be widened slightly without significantly affecting the survival outcome, for the most part, these results suggest that the original YES-P target cohort was well specified. It is therefore unfortunate that the accrual of such a cohort proved to be difficult and contributed to the stoppage of this trial. Some note of caution can be taken from these emulation results, as the survival benefits observed on this RWD analysis of different cohorts decreased sharply when patient eligibility limits were further widened or when patients with multiple comorbidities were not excluded. Such observations seem consistent with the fact that most patients with advanced HCC have underlying chronic liver disease and multiple competing mortality risks. Until there are more prospective data supporting the safety of TARE in a broader spectrum of patients, clinicians should strongly adhere to current guidelines for the selection of patients for this treatment.</p>
+              <p>Unlike other observational study frameworks, there are not yet any formal standards to promote research transparency and reproducibility in target trial emulation. Practical guides on how to conduct emulated trials are also not widely available, and virtually, no attention has been paid to safeguarding data although this approach frequently requires the use of RWD that is proprietary or accompanied by data use limitations. For our case study, the R programming ecosystem (RStudio, available under general public license) provided a comprehensive open-source platform for trial emulation that has the capacity to address emerging issues in target trial emulation such as research transparency, reproducibility, and data security. However, the specific methods used in our study may not be appropriate or adequate for all studies and there are alternative ways for conducting each step of ETT design and analysis. For example, numerous methods for modeling treatment propensity are now available, including covariate balancing propensity scoring,<sup><xref rid="b38" ref-type="bibr">38</xref></sup> generalized boosted modeling,<sup><xref rid="b39" ref-type="bibr">39</xref></sup> and other artificial intelligence or machine learning–based methods,<sup><xref rid="b40" ref-type="bibr">40</xref>,<xref rid="b41" ref-type="bibr">41</xref></sup> which may be better suited for certain types of data or analyses.</p>
+              <p>The limitations of this study and its methods are several. First, it is generally acknowledged that propensity-based methods, although practical, are not flawless in addressing selection bias in observational studies.<sup><xref rid="b27" ref-type="bibr">27</xref>,<xref rid="b42" ref-type="bibr">42</xref></sup> Although they can create observational cohorts that appear exchangeable across a set of measured covariates, it remains difficult to prove that there is no omitted variable bias. Although there are methods for analyzing sensitivity to unmeasured bias,<sup><xref rid="b43" ref-type="bibr">43</xref></sup> these methods do not directly address the problem of optimally selecting covariates. Second, there are a number of recognized limitations to the NCDB. For example, the NCDB focuses on initial treatment and has no data on follow-up treatment, adverse events, patient-reported outcomes, or specific cause of death. Such data could have been used to incorporate secondary end points into the ETT. Furthermore, the NCDB does not disclose specific drug names, requiring the ETT to focus on the therapeutic drug classes. In addition, although NCDB collects information on more than two thirds of newly diagnosed cancer cases in the United States, nonparticipation by some health care institutions and networks can potentially magnify regional or institutional biases occurring with this data set. However, such limitations are not unique to the NCDB, and this long-running database remains an important source of real-world oncology data. As one of the largest databases of its kind, the NCDB was selected for this study following our expectation that it could supply enough case data across a range of eligibility criteria. As with any data set, there will be statistical challenges that will need to be addressed methodologically. For example, significant delays or imbalances in treatment-related start times have been identified as a potential cause of guarantee time/immortal time bias in time-to-event analyses involving the NCDB.<sup><xref rid="b44" ref-type="bibr">44</xref></sup> This potential sources of bias was addressed in our study using landmark analysis.<sup><xref rid="b45" ref-type="bibr">45</xref></sup> Because most clinical data sources are not originally designed for research data abstraction, they might also lack certain kinds of information, including information that could further enhance causal inference. For example, social determinants of health, such as poverty and poor social support, can significantly influence treatment decisions and clinical outcomes to substantially confound an observational study. Such factors are not always well represented in clinical data sets although recently the systematic gathering of such data through electronic health records has greatly improved.<sup><xref rid="b46" ref-type="bibr">46</xref></sup> Thus, evaluating the suitability and addressing the limitations of an observational data set will be a critical part of the process of applying ETTs to clinical trial design.</p>
+              <p>In summary, through target trial emulation, the potential impact of cohort specification on the outcome of a real-world clinical trial was demonstrated, providing a concrete example of how target trial emulation can be used in the clinical trial development process. Similar to prospective studies, the framework of an ETT separates the study design steps from the analysis. This inherent separation was embodied in practice using a client-server model that also has benefits for supporting collaboration and safeguarding data. The increasing availability of publicly available software packages to support trial emulation and propensity score–based analyses, combined with the increasing availability of large clinical databases, will hopefully lead to a wider range of applications for this RWD analysis framework in clinical trial design.</p>
+            </sec>
+          </body>
+          <back>
+            <fn-group content-type="supported-by">
+              <title>SUPPORT</title>
+              <fn specific-use="supported-by" fn-type="supported-by">
+                <p>Supported by US National Institutes of Health grants 5P30CA071789, Agency for Healthcare Research and Quality grant R25HS023185-01 (Recipient: D.L.), Patient-Centered Outcomes Research Institute R-IMC-1306-03,827 (Recipient: D.L.), and The Education and Research Foundation of the Society of Nuclear Medicine and Molecular Imaging (Recipient: S.A.K.).</p>
+              </fn>
+            </fn-group>
+            <sec sec-type="data-availability">
+              <title>DATA SHARING STATEMENT</title>
+              <p>The data that support the findings of this study are available from The American College of Surgeons. Restrictions apply to the availability of these data, which were used under license for this study. Data are available from <ext-link xlink:href="https://www.facs.org/quality-programs/cancer/ncdb" ext-link-type="uri">https://www.facs.org/quality-programs/cancer/ncdb</ext-link> with the permission of The American College of Surgeons.</p>
+            </sec>
+            <sec sec-type="contributed">
+              <title>AUTHOR CONTRIBUTIONS</title>
+              <p><bold>Conception and design:</bold> Sandi A. Kwee, Linda L. Wong, Chris K. Deng, Deborah Taira, Todd Seto, Douglas Landsittel</p>
+              <p><bold>Collection and assembly of data:</bold> Sandi A. Kwee</p>
+              <p><bold>Data analysis and interpretation:</bold> Sandi A. Kwee, Christina Ludema, Chris K. Deng, Deborah Taira, Todd Seto, Douglas Landsittel</p>
+              <p><bold>Manuscript writing:</bold> All authors</p>
+              <p><bold>Final approval of manuscript:</bold> All authors</p>
+              <p><bold>Accountable for all aspects of the work:</bold> All authors</p>
+            </sec>
+            <sec sec-type="COI-statement">
+              <title>AUTHORS' DISCLOSURES OF POTENTIAL CONFLICTS OF INTEREST</title>
+              <p>The following represents disclosure information provided by authors of this manuscript. All relationships are considered compensated unless otherwise noted. Relationships are self-held unless noted. I = Immediate Family Member, Inst = My Institution. Relationships may not relate to the subject matter of this manuscript. For more information about ASCO's conflict of interest policy, please refer to <ext-link xlink:href="http://www.asco.org/rwc" ext-link-type="uri">www.asco.org/rwc</ext-link> or <ext-link xlink:href="https://ascopubs.org/cci/author-center" ext-link-type="uri">ascopubs.org/cci/author-center</ext-link>.</p>
+              <p>Open Payments is a public database containing information reported by companies about payments made to US-licensed physicians (<ext-link xlink:href="https://openpaymentsdata.cms.gov/" ext-link-type="uri">Open Payments</ext-link>).</p>
+              <fn-group content-type="COI-statement">
+                <fn id="con1" specific-use="COI-statement" fn-type="other">
+                  <p>
+                    <bold>Linda L. Wong</bold>
+                  </p>
+                  <p><bold>Honoraria:</bold> Helsinn Therapeutics/QED Therapeutics (Inst)</p>
+                  <p><bold>Speakers' Bureau:</bold> Helsinn Therapeutics/QED Therapeutics (Inst)</p>
+                </fn>
+                <fn id="con2" specific-use="COI-statement" fn-type="other">
+                  <p>
+                    <bold>Todd Seto</bold>
+                  </p>
+                  <p><bold>Expert Testimony:</bold> Sanofi</p>
+                </fn>
+                <fn id="con3" specific-use="COI-statement" fn-type="other">
+                  <p>
+                    <bold>Douglas Landsittel</bold>
+                  </p>
+                  <p><bold>Research Funding:</bold> Lilly (Inst), GlaxoSmithKline (Inst)</p>
+                  <p>No other potential conflicts of interest were reported.</p>
+                </fn>
+              </fn-group>
+            </sec>
+            <notes>
+              <fn-group content-type="COI-statement">
+                <fn specific-use="COI-statement" fn-type="other">
+                  <p>
+                    <bold>Linda L. Wong</bold>
+                  </p>
+                  <p><bold>Honoraria:</bold> Helsinn Therapeutics/QED Therapeutics (Inst)</p>
+                  <p><bold>Speakers' Bureau:</bold> Helsinn Therapeutics/QED Therapeutics (Inst)</p>
+                </fn>
+                <fn specific-use="COI-statement" fn-type="other">
+                  <p>
+                    <bold>Todd Seto</bold>
+                  </p>
+                  <p><bold>Expert Testimony:</bold> Sanofi</p>
+                </fn>
+                <fn specific-use="COI-statement" fn-type="other">
+                  <p>
+                    <bold>Douglas Landsittel</bold>
+                  </p>
+                  <p><bold>Research Funding:</bold> Lilly (Inst), GlaxoSmithKline (Inst)</p>
+                  <p>No other potential conflicts of interest were reported.</p>
+                </fn>
+              </fn-group>
+            </notes>
+            <ref-list>
+              <title>REFERENCES</title>
+              <ref id="b1">
+                <label>1.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fogel</surname>
+                      <given-names>DB</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Factors associated with clinical trials that fail and opportunities for improving the likelihood of success: A review</article-title>
+                  <source>Contemp Clin Trials Commun</source>
+                  <volume>11</volume>
+                  <fpage>156</fpage>
+                  <lpage>164</lpage>
+                  <year>2018</year>
+                  <pub-id pub-id-type="pmid">30112460</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b2">
+                <label>2.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>ES</given-names>
+                    </name>
+                    <name>
+                      <surname>Uldrick</surname>
+                      <given-names>TS</given-names>
+                    </name>
+                    <name>
+                      <surname>Schenkel</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Continuing to broaden eligibility criteria to make clinical trials more representative and inclusive: ASCO-Friends of Cancer Research Joint Research Statement</article-title>
+                  <source>Clin Cancer Res</source>
+                  <volume>27</volume>
+                  <fpage>2394</fpage>
+                  <lpage>2399</lpage>
+                  <year>2021</year>
+                  <pub-id pub-id-type="pmid">33563632</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b3">
+                <label>3.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lodi</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Phillips</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Lundgren</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Effect estimates in randomized trials and observational studies: Comparing apples with apples</article-title>
+                  <source>Am J Epidemiol</source>
+                  <volume>188</volume>
+                  <fpage>1569</fpage>
+                  <lpage>1577</lpage>
+                  <year>2019</year>
+                  <pub-id pub-id-type="pmid">31063192</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b4">
+                <label>4.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Harvey</surname>
+                      <given-names>RD</given-names>
+                    </name>
+                    <name>
+                      <surname>Bruinooge</surname>
+                      <given-names>SS</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Impact of broadening trial eligibility criteria for patients with advanced non-small cell lung cancer: Real-world analysis of select ASCO-Friends recommendations</article-title>
+                  <source>Clin Cancer Res</source>
+                  <volume>27</volume>
+                  <fpage>2430</fpage>
+                  <lpage>2434</lpage>
+                  <year>2021</year>
+                  <pub-id pub-id-type="pmid">33563634</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b5">
+                <label>5.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>ES</given-names>
+                    </name>
+                    <name>
+                      <surname>Bruinooge</surname>
+                      <given-names>SS</given-names>
+                    </name>
+                    <name>
+                      <surname>Roberts</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Broadening eligibility criteria to make clinical trials more representative: American Society of Clinical Oncology and Friends of Cancer Research Joint Research Statement</article-title>
+                  <source>J Clin Oncol</source>
+                  <volume>35</volume>
+                  <fpage>3737</fpage>
+                  <lpage>3744</lpage>
+                  <year>2017</year>
+                  <pub-id pub-id-type="pmid">28968170</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b6">
+                <label>6.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Beaulieu-Jones</surname>
+                      <given-names>BK</given-names>
+                    </name>
+                    <name>
+                      <surname>Finlayson</surname>
+                      <given-names>SG</given-names>
+                    </name>
+                    <name>
+                      <surname>Yuan</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Examining the use of real-world evidence in the regulatory process</article-title>
+                  <source>Clin Pharmacol Ther</source>
+                  <volume>107</volume>
+                  <fpage>843</fpage>
+                  <lpage>852</lpage>
+                  <year>2020</year>
+                  <pub-id pub-id-type="pmid">31562770</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b7">
+                <label>7.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Franklin</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Patorno</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Desai</surname>
+                      <given-names>RJ</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Emulating randomized clinical trials with nonrandomized real-world evidence studies: First results from the RCT DUPLICATE initiative</article-title>
+                  <source>Circulation</source>
+                  <volume>143</volume>
+                  <fpage>1002</fpage>
+                  <lpage>1013</lpage>
+                  <year>2021</year>
+                  <pub-id pub-id-type="pmid">33327727</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b8">
+                <label>8.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Austin</surname>
+                      <given-names>PC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The use of propensity score methods with survival or time-to-event outcomes: Reporting measures of effect similar to those used in randomized experiments</article-title>
+                  <source>Stat Med</source>
+                  <volume>33</volume>
+                  <fpage>1242</fpage>
+                  <lpage>1258</lpage>
+                  <year>2014</year>
+                  <pub-id pub-id-type="pmid">24122911</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b9">
+                <label>9.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hernan</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Robins</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Estimating causal effects from epidemiological data</article-title>
+                  <source>J Epidemiol Community Health</source>
+                  <volume>60</volume>
+                  <fpage>578</fpage>
+                  <lpage>586</lpage>
+                  <year>2006</year>
+                  <pub-id pub-id-type="pmid">16790829</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b10">
+                <label>10.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rubin</surname>
+                      <given-names>DB</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The design versus the analysis of observational studies for causal effects: Parallels with the design of randomized trials</article-title>
+                  <source>Stat Med</source>
+                  <volume>26</volume>
+                  <fpage>20</fpage>
+                  <lpage>36</lpage>
+                  <year>2007</year>
+                  <pub-id pub-id-type="pmid">17072897</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b11">
+                <label>11.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Garcia-Albeniz</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Hsu</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Hernan</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The value of explicitly emulating a target trial when using real world evidence: An application to colorectal cancer screening</article-title>
+                  <source>Eur J Epidemiol</source>
+                  <volume>32</volume>
+                  <fpage>495</fpage>
+                  <lpage>500</lpage>
+                  <year>2017</year>
+                  <pub-id pub-id-type="pmid">28748498</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b12">
+                <label>12.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Adelson</surname>
+                      <given-names>JL</given-names>
+                    </name>
+                    <name>
+                      <surname>McCoach</surname>
+                      <given-names>DB</given-names>
+                    </name>
+                    <name>
+                      <surname>Rogers</surname>
+                      <given-names>HJ</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Developing and applying the propensity score to make causal inferences: Variable selection and stratification</article-title>
+                  <source>Front Psychol</source>
+                  <volume>8</volume>
+                  <fpage>1413</fpage>
+                  <year>2017</year>
+                  <pub-id pub-id-type="pmid">28861028</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b13">
+                <label>13.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hernan</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Sauer</surname>
+                      <given-names>BC</given-names>
+                    </name>
+                    <name>
+                      <surname>Hernandez-Diaz</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Specifying a target trial prevents immortal time bias and other self-inflicted injuries in observational analyses</article-title>
+                  <source>J Clin Epidemiol</source>
+                  <volume>79</volume>
+                  <fpage>70</fpage>
+                  <lpage>75</lpage>
+                  <year>2016</year>
+                  <pub-id pub-id-type="pmid">27237061</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b14">
+                <label>14.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hernan</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Robins</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Using big data to emulate a target trial when a randomized trial is not available</article-title>
+                  <source>Am J Epidemiol</source>
+                  <volume>183</volume>
+                  <fpage>758</fpage>
+                  <lpage>764</lpage>
+                  <year>2016</year>
+                  <pub-id pub-id-type="pmid">26994063</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b15">
+                <label>15.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dickerman</surname>
+                      <given-names>BA</given-names>
+                    </name>
+                    <name>
+                      <surname>Garcia-Albeniz</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Logan</surname>
+                      <given-names>RW</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Avoidable flaws in observational analyses: An application to statins and cancer</article-title>
+                  <source>Nat Med</source>
+                  <volume>25</volume>
+                  <fpage>1601</fpage>
+                  <lpage>1606</lpage>
+                  <year>2019</year>
+                  <pub-id pub-id-type="pmid">31591592</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b16">
+                <label>16.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hernan</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Alonso</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Logan</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Observational studies analyzed like randomized experiments: An application to postmenopausal hormone therapy and coronary heart disease</article-title>
+                  <source>Epidemiology</source>
+                  <volume>19</volume>
+                  <fpage>766</fpage>
+                  <lpage>779</lpage>
+                  <year>2008</year>
+                  <pub-id pub-id-type="pmid">18854702</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b17">
+                <label>17.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Keyhani</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Cheng</surname>
+                      <given-names>EM</given-names>
+                    </name>
+                    <name>
+                      <surname>Hoggatt</surname>
+                      <given-names>KJ</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Comparative effectiveness of carotid endarterectomy vs initial medical therapy in patients with asymptomatic carotid stenosis</article-title>
+                  <source>JAMA Neurol</source>
+                  <volume>77</volume>
+                  <fpage>1110</fpage>
+                  <lpage>1121</lpage>
+                  <year>2020</year>
+                  <pub-id pub-id-type="pmid">32478802</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b18">
+                <label>18.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Heimbach</surname>
+                      <given-names>JK</given-names>
+                    </name>
+                    <name>
+                      <surname>Kulik</surname>
+                      <given-names>LM</given-names>
+                    </name>
+                    <name>
+                      <surname>Finn</surname>
+                      <given-names>RS</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>AASLD guidelines for the treatment of hepatocellular carcinoma</article-title>
+                  <source>Hepatology</source>
+                  <volume>67</volume>
+                  <fpage>358</fpage>
+                  <lpage>380</lpage>
+                  <year>2018</year>
+                  <pub-id pub-id-type="pmid">28130846</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b19">
+                <label>19.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bruix</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Raoul</surname>
+                      <given-names>JL</given-names>
+                    </name>
+                    <name>
+                      <surname>Sherman</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Efficacy and safety of sorafenib in patients with advanced hepatocellular carcinoma: Subanalyses of a phase III trial</article-title>
+                  <source>J Hepatol</source>
+                  <volume>57</volume>
+                  <fpage>821</fpage>
+                  <lpage>829</lpage>
+                  <year>2012</year>
+                  <pub-id pub-id-type="pmid">22727733</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b20">
+                <label>20.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Finn</surname>
+                      <given-names>RS</given-names>
+                    </name>
+                    <name>
+                      <surname>Ryoo</surname>
+                      <given-names>BY</given-names>
+                    </name>
+                    <name>
+                      <surname>Merle</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Pembrolizumab as second-line therapy in patients with advanced hepatocellular carcinoma in KEYNOTE-240: A randomized, double-blind, phase III trial</article-title>
+                  <source>J Clin Oncol</source>
+                  <volume>38</volume>
+                  <fpage>193</fpage>
+                  <lpage>202</lpage>
+                  <year>2020</year>
+                  <pub-id pub-id-type="pmid">31790344</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b21">
+                <label>21.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Finn</surname>
+                      <given-names>RS</given-names>
+                    </name>
+                    <name>
+                      <surname>Qin</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Ikeda</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma</article-title>
+                  <source>N Engl J Med</source>
+                  <volume>382</volume>
+                  <fpage>1894</fpage>
+                  <lpage>1905</lpage>
+                  <year>2020</year>
+                  <pub-id pub-id-type="pmid">32402160</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b22">
+                <label>22.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Salem</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Gabr</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Riaz</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Institutional decision to adopt Y90 as primary treatment for hepatocellular carcinoma informed by a 1,000-patient 15-year experience</article-title>
+                  <source>Hepatology</source>
+                  <volume>68</volume>
+                  <fpage>1429</fpage>
+                  <lpage>1440</lpage>
+                  <year>2018</year>
+                  <pub-id pub-id-type="pmid">29194711</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b23">
+                <label>23.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kwee</surname>
+                      <given-names>SA</given-names>
+                    </name>
+                    <name>
+                      <surname>Wong</surname>
+                      <given-names>LL</given-names>
+                    </name>
+                    <name>
+                      <surname>Sato</surname>
+                      <given-names>MM</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Transarterial radioembolization for hepatocellular carcinoma with major vascular invasion: A nationwide propensity score-matched analysis with target trial emulation</article-title>
+                  <source>J Vasc Interv Radiol</source>
+                  <volume>32</volume>
+                  <fpage>1258</fpage>
+                  <lpage>1266.e6</lpage>
+                  <year>2021</year>
+                  <pub-id pub-id-type="pmid">34242775</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b24">
+                <label>24.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sposito</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Mazzaferro</surname>
+                      <given-names>V</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The SIRveNIB and SARAH trials, radioembolization vs. sorafenib in advanced HCC patients: Reasons for a failure, and perspectives for the future</article-title>
+                  <source>Hepatobiliary Surg Nutr</source>
+                  <volume>7</volume>
+                  <fpage>487</fpage>
+                  <lpage>489</lpage>
+                  <year>2018</year>
+                  <pub-id pub-id-type="pmid">30652096</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b25">
+                <label>25.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Brookhart</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Schneeweiss</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Rothman</surname>
+                      <given-names>KJ</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Variable selection for propensity score models</article-title>
+                  <source>Am J Epidemiol</source>
+                  <volume>163</volume>
+                  <fpage>1149</fpage>
+                  <lpage>1156</lpage>
+                  <year>2006</year>
+                  <pub-id pub-id-type="pmid">16624967</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b26">
+                <label>26.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Landsittel</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Srivastava</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Kropf</surname>
+                      <given-names>K</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A narrative review of methods for causal inference and associated educational resources</article-title>
+                  <source>Qual Manag Health Care</source>
+                  <volume>29</volume>
+                  <fpage>260</fpage>
+                  <lpage>269</lpage>
+                  <year>2020</year>
+                  <pub-id pub-id-type="pmid">32991545</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b27">
+                <label>27.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>D'Agostino</surname>
+                      <given-names>RB</given-names>
+                      <suffix>Jr</suffix>
+                    </name>
+                    <name>
+                      <surname>D'Agostino</surname>
+                      <given-names>RB</given-names>
+                      <suffix>Sr</suffix>
+                    </name>
+                  </person-group>
+                  <article-title>Estimating treatment effects using observational data</article-title>
+                  <source>JAMA</source>
+                  <volume>297</volume>
+                  <fpage>314</fpage>
+                  <lpage>316</lpage>
+                  <year>2007</year>
+                  <pub-id pub-id-type="pmid">17227985</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b28">
+                <label>28.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Boorjian</surname>
+                      <given-names>SA</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>SP</given-names>
+                    </name>
+                    <name>
+                      <surname>Tollefson</surname>
+                      <given-names>MK</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Comparative performance of comorbidity indices for estimating perioperative and 5-year all cause mortality following radical cystectomy for bladder cancer</article-title>
+                  <source>J Urol</source>
+                  <volume>190</volume>
+                  <fpage>55</fpage>
+                  <lpage>60</lpage>
+                  <year>2013</year>
+                  <pub-id pub-id-type="pmid">23313198</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b29">
+                <label>29.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ho DI</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>King</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Stuart</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>MatchIt: Nonparametric preprocesing for parametric causal inference</article-title>
+                  <source>J Stat Softw</source>
+                  <volume>42</volume>
+                  <fpage>1</fpage>
+                  <lpage>28</lpage>
+                  <year>2011</year>
+                </mixed-citation>
+              </ref>
+              <ref id="b30">
+                <label>30.</label>
+                <mixed-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Greifer</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <source>cobalt: Covariate Balance Tables and Plots</source>
+                  <comment>
+                    <ext-link xlink:href="https://CRAN.R-project.org/package=cobalt" ext-link-type="uri">https://CRAN.R-project.org/package=cobalt</ext-link>
+                  </comment>
+                </mixed-citation>
+              </ref>
+              <ref id="b31">
+                <label>31.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>HJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Lonjon</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Balance diagnostics after propensity score matching</article-title>
+                  <source>Ann Transl Med</source>
+                  <volume>7</volume>
+                  <fpage>16</fpage>
+                  <year>2019</year>
+                  <pub-id pub-id-type="pmid">30788363</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b32">
+                <label>32.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Giobbie-Hurder</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Gelber</surname>
+                      <given-names>RD</given-names>
+                    </name>
+                    <name>
+                      <surname>Regan</surname>
+                      <given-names>MM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Challenges of guarantee-time bias</article-title>
+                  <source>J Clin Oncol</source>
+                  <volume>31</volume>
+                  <fpage>2963</fpage>
+                  <lpage>2969</lpage>
+                  <year>2013</year>
+                  <pub-id pub-id-type="pmid">23835712</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b33">
+                <label>33.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gershman</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Guo</surname>
+                      <given-names>DP</given-names>
+                    </name>
+                    <name>
+                      <surname>Dahabreh</surname>
+                      <given-names>IJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Using observational data for personalized medicine when clinical trial evidence is limited</article-title>
+                  <source>Fertil Steril</source>
+                  <volume>109</volume>
+                  <fpage>946</fpage>
+                  <lpage>951</lpage>
+                  <year>2018</year>
+                  <pub-id pub-id-type="pmid">29935652</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b34">
+                <label>34.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Harder</surname>
+                      <given-names>VS</given-names>
+                    </name>
+                    <name>
+                      <surname>Stuart</surname>
+                      <given-names>EA</given-names>
+                    </name>
+                    <name>
+                      <surname>Anthony</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Propensity score techniques and the assessment of measured covariate balance to test causal associations in psychological research</article-title>
+                  <source>Psychol Methods</source>
+                  <volume>15</volume>
+                  <fpage>234</fpage>
+                  <lpage>249</lpage>
+                  <year>2010</year>
+                  <pub-id pub-id-type="pmid">20822250</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b35">
+                <label>35.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ali</surname>
+                      <given-names>MS</given-names>
+                    </name>
+                    <name>
+                      <surname>Prieto-Alhambra</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Lopes</surname>
+                      <given-names>LC</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Propensity score methods in health technology assessment: Principles, extended applications, and recent advances</article-title>
+                  <source>Front Pharmacol</source>
+                  <volume>10</volume>
+                  <fpage>973</fpage>
+                  <year>2019</year>
+                  <pub-id pub-id-type="pmid">31619986</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b36">
+                <label>36.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jemielita</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>XN</given-names>
+                    </name>
+                    <name>
+                      <surname>Burke</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Augmenting real-world data through modeling key clinical trial eligibility criteria: An example of patients with non-small-cell lung cancer treated with pembrolizumab</article-title>
+                  <source>JCO Clin Cancer Inform</source>
+                  <volume>5</volume>
+                  <fpage>849</fpage>
+                  <lpage>858</lpage>
+                  <year>2021</year>
+                  <pub-id pub-id-type="pmid">34415774</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b37">
+                <label>37.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Rizzo</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Whipple</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Evaluating eligibility criteria of oncology trials using real-world data and AI</article-title>
+                  <source>Nature</source>
+                  <volume>592</volume>
+                  <fpage>629</fpage>
+                  <lpage>633</lpage>
+                  <year>2021</year>
+                  <pub-id pub-id-type="pmid">33828294</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b38">
+                <label>38.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Imai</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Ratkovic</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Covariate balancing propensity score</article-title>
+                  <source>J R Stat Soc Ser B</source>
+                  <volume>76</volume>
+                  <fpage>243</fpage>
+                  <lpage>263</lpage>
+                  <year>2014</year>
+                  <comment>part 1</comment>
+                </mixed-citation>
+              </ref>
+              <ref id="b39">
+                <label>39.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Setodji</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                    <name>
+                      <surname>McCaffrey</surname>
+                      <given-names>DF</given-names>
+                    </name>
+                    <name>
+                      <surname>Burgette</surname>
+                      <given-names>LF</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>The right tool for the job: Choosing between covariate-balancing and generalized boosted model propensity scores</article-title>
+                  <source>Epidemiology</source>
+                  <volume>28</volume>
+                  <fpage>802</fpage>
+                  <lpage>811</lpage>
+                  <year>2017</year>
+                  <pub-id pub-id-type="pmid">28817469</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b40">
+                <label>40.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Weberpals</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Becker</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Davies</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Deep learning-based propensity scores for confounding control in comparative effectiveness research: A large-scale, real-world data study</article-title>
+                  <source>Epidemiology</source>
+                  <volume>32</volume>
+                  <fpage>378</fpage>
+                  <lpage>388</lpage>
+                  <year>2021</year>
+                  <pub-id pub-id-type="pmid">33591049</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b41">
+                <label>41.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wyss</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Ellis</surname>
+                      <given-names>AR</given-names>
+                    </name>
+                    <name>
+                      <surname>Brookhart</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>The role of prediction modeling in propensity score estimation: An evaluation of logistic regression, bCART, and the covariate-balancing propensity score</article-title>
+                  <source>Am J Epidemiol</source>
+                  <volume>180</volume>
+                  <fpage>645</fpage>
+                  <lpage>655</lpage>
+                  <year>2014</year>
+                  <pub-id pub-id-type="pmid">25143475</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b42">
+                <label>42.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Austin</surname>
+                      <given-names>PC</given-names>
+                    </name>
+                    <name>
+                      <surname>Stuart</surname>
+                      <given-names>EA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Moving towards best practice when using inverse probability of treatment weighting (IPTW) using the propensity score to estimate causal treatment effects in observational studies</article-title>
+                  <source>Stat Med</source>
+                  <volume>34</volume>
+                  <fpage>3661</fpage>
+                  <lpage>3679</lpage>
+                  <year>2015</year>
+                  <pub-id pub-id-type="pmid">26238958</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b43">
+                <label>43.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zubizarreta</surname>
+                      <given-names>JR</given-names>
+                    </name>
+                    <name>
+                      <surname>Cerda</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Rosenbaum</surname>
+                      <given-names>PR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effect of the 2010 Chilean Earthquake on posttraumatic stress: Reducing sensitivity to unmeasured bias through study design</article-title>
+                  <source>Epidemiology</source>
+                  <volume>24</volume>
+                  <fpage>79</fpage>
+                  <lpage>87</lpage>
+                  <year>2013</year>
+                  <pub-id pub-id-type="pmid">23222557</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b44">
+                <label>44.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Newman</surname>
+                      <given-names>NB</given-names>
+                    </name>
+                    <name>
+                      <surname>Brett</surname>
+                      <given-names>CL</given-names>
+                    </name>
+                    <name>
+                      <surname>Kluwe</surname>
+                      <given-names>CA</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Immortal time bias in National Cancer Database studies</article-title>
+                  <source>Int J Radiat Oncol Biol Phys</source>
+                  <volume>106</volume>
+                  <fpage>5</fpage>
+                  <lpage>12</lpage>
+                  <year>2020</year>
+                  <pub-id pub-id-type="pmid">31404580</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b45">
+                <label>45.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Morgan</surname>
+                      <given-names>CJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Landmark analysis: A primer</article-title>
+                  <source>J Nucl Cardiol</source>
+                  <volume>26</volume>
+                  <fpage>391</fpage>
+                  <lpage>393</lpage>
+                  <year>2019</year>
+                  <pub-id pub-id-type="pmid">30719655</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="b46">
+                <label>46.</label>
+                <mixed-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Trinacty</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                    <name>
+                      <surname>LaWall</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Ashton</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal>et al</etal>
+                  </person-group>
+                  <article-title>Adding social determinants in the electronic health record in clinical care in Hawai'i: Supporting community-clinical linkages in patient care</article-title>
+                  <source>Hawaii J Med Public Health</source>
+                  <volume>78</volume>
+                  <fpage>46</fpage>
+                  <lpage>51</lpage>
+                  <year>2019</year>
+                  <issue>6 suppl 1</issue>
+                  <pub-id pub-id-type="pmid">31285969</pub-id>
+                </mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

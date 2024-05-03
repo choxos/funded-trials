@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T02:25:56Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8941356" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8941356</identifier>
+        <datestamp>2022-04-12</datestamp>
+        <setSpec>jamasd</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">JAMA Netw Open</journal-id>
+              <journal-id journal-id-type="iso-abbrev">JAMA Netw Open</journal-id>
+              <journal-title-group>
+                <journal-title>JAMA Network Open</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2574-3805</issn>
+              <publisher>
+                <publisher-name>American Medical Association</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8941356</article-id>
+              <article-id pub-id-type="pmcid">PMC8941356</article-id>
+              <article-id pub-id-type="pmc-uid">8941356</article-id>
+              <article-id pub-id-type="pmid">35315918</article-id>
+              <article-id pub-id-type="pmid">35315918</article-id>
+              <article-id pub-id-type="doi">10.1001/jamanetworkopen.2022.3424</article-id>
+              <article-id pub-id-type="publisher-id">zoi220129</article-id>
+              <article-categories>
+                <subj-group subj-group-type="category" specific-use="electronic">
+                  <subject>Research</subject>
+                </subj-group>
+                <subj-group subj-group-type="heading">
+                  <subject>Original Investigation</subject>
+                </subj-group>
+                <subj-group subj-group-type="online-only">
+                  <subject>Online Only</subject>
+                </subj-group>
+                <subj-group subj-group-type="subject-area">
+                  <subject>Surgery</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Analysis of a Machine Learning–Based Risk Stratification Scheme for Chronic Limb-Threatening Ischemia</article-title>
+                <alt-title alt-title-type="headline">Machine Learning–Based Risk Stratification for Chronic Limb-Threatening Ischemia</alt-title>
+                <alt-title alt-title-type="running-head">Machine Learning–Based Risk Stratification for Chronic Limb-Threatening Ischemia</alt-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Chung</surname>
+                    <given-names>Jayer</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <degrees>MSc</degrees>
+                  <xref rid="zoi220129aff1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Freeman</surname>
+                    <given-names>Nikki L. B.</given-names>
+                  </name>
+                  <degrees>MS</degrees>
+                  <xref rid="zoi220129aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kosorok</surname>
+                    <given-names>Michael R.</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref rid="zoi220129aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Marston</surname>
+                    <given-names>William A.</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <xref rid="zoi220129aff3" ref-type="aff">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Conte</surname>
+                    <given-names>Michael S.</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <xref rid="zoi220129aff4" ref-type="aff">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>McGinigle</surname>
+                    <given-names>Katharine L.</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <degrees>MPH</degrees>
+                  <xref rid="zoi220129aff3" ref-type="aff">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+              </contrib-group>
+              <aff id="zoi220129aff1"><label>1</label>Division of Vascular Surgery and Endovascular Therapy, Michael E. DeBakey Department of Surgery, Baylor College of Medicine, Houston, Texas</aff>
+              <aff id="zoi220129aff2"><label>2</label>Department of Biostatistics, University of North Carolina at Chapel Hill, Chapel Hill</aff>
+              <aff id="zoi220129aff3"><label>3</label>Division of Vascular Surgery, Department of Surgery, University of North Carolina at Chapel Hill, Chapel Hill</aff>
+              <aff id="zoi220129aff4"><label>4</label>Department of Surgery, University of California at San Francisco, San Francisco</aff>
+              <author-notes>
+                <title>Article Information</title>
+                <p><bold>Accepted for Publication:</bold> January 31, 2022.</p>
+                <p content-type="published-online"><bold>Published:</bold> March 22, 2022. <?xpp bx;1?>doi:<uri content-type="doi">10.1001/jamanetworkopen.2022.3424</uri></p>
+                <p content-type="open-access-note"><bold>Open Access:</bold> This is an open access article distributed under the terms of the <ext-link xlink:href="https://jamanetwork.com/pages/cc-by-license-permissions" ext-link-type="uri">CC-BY License</ext-link>. © 2022 Chung J et al. <italic>JAMA Network Open</italic>.</p>
+                <corresp id="zoi220129cor1"><bold>Corresponding Author:</bold> Katharine L. McGinigle, MD, MPH, Division of Vascular Surgery, Department of Surgery, University of North Carolina at Chapel Hill, 3021 Burnett-Womack Bldg, Campus Box 7212, Chapel Hill, NC 27599-7212 (<email xlink:href="katharine_mcginigle@med.unc.edu">katharine_mcginigle@med.unc.edu</email>).</corresp>
+                <p content-type="author-contributions"><bold>Author Contributions:</bold> Ms Freeman and Dr McGinigle had full access to all the data in the study and take responsibility for the integrity of the data and the accuracy of the data analysis.</p>
+                <p><italic>Concept and design:</italic> Chung, Kosorok, Marston, Conte, McGinigle.</p>
+                <p><italic>Acquisition, analysis, or interpretation of data:</italic> Chung, Freeman, McGinigle.</p>
+                <p><italic>Drafting of the manuscript:</italic> Chung, Freeman, McGinigle.</p>
+                <p><italic>Critical revision of the manuscript for important intellectual content:</italic> Chung, Kosorok, Marston, Conte, McGinigle.</p>
+                <p><italic>Statistical analysis:</italic> Freeman, Kosorok, McGinigle.</p>
+                <p><italic>Obtained funding:</italic> McGinigle.</p>
+                <p><italic>Administrative, technical, or material support:</italic> Marston, Conte, McGinigle.</p>
+                <p><italic>Supervision:</italic> Chung, Kosorok, McGinigle.</p>
+                <p content-type="COI-statement"><bold>Conflict of Interest Disclosures:</bold> Dr Marston reported grants from Society for Vascular Surgery Foundation Award during the conduct of the study; personal fees from Boston Scientific and personal fees from Cook Medical outside the submitted work. No other disclosures were reported.</p>
+                <p content-type="funding-statement"><bold>Funding/Support:</bold> The project was supported by grant UL1TR002489 from the National Center for Advancing Translational Sciences (NCATS), National Institutes of Health (NIH) (Dr McGinigle).</p>
+                <p><bold>Role of the Funder/Sponsor:</bold> Neither the NCATS nor the NIH participated in the design and conduct of the study; collection, management, analysis, and interpretation of the data; preparation, review, or approval of the manuscript; and decision to submit the manuscript for publication.</p>
+                <p><bold>Disclaimer:</bold> The content is solely the responsibility of the authors and does not necessarily represent the official views of the NIH.</p>
+              </author-notes>
+              <pub-date pub-type="epub" iso-8601-date="2022-03-22T10:00">
+                <day>22</day>
+                <month>3</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <month>3</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>22</day>
+                <month>3</month>
+                <year>2022</year>
+              </pub-date>
+              <!--PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="epub"/>.-->
+              <volume>5</volume>
+              <issue>3</issue>
+              <elocation-id>e223424</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>24</day>
+                  <month>9</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>31</day>
+                  <month>1</month>
+                  <year>2022</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>Copyright 2022 Chung J et al. <italic>JAMA Network Open</italic>.</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>This is an open access article distributed under the terms of the CC-BY License.</license-p>
+                </license>
+              </permissions>
+              <self-uri content-type="pdf-version" xlink:href="jamanetwopen-e223424.pdf">jamanetwopen-e223424.pdf</self-uri>
+              <self-uri content-type="silverchair" xlink:href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/10.1001/jamanetworkopen.2022.3424"/>
+              <abstract abstract-type="key-points">
+                <title>Key Points</title>
+                <sec id="ab-zoi220129-1">
+                  <title>Question</title>
+                  <p>At the time of chronic limb-threatening ischemia (CLTI) diagnosis, how are increasing patient risk, wound severity, and degree of atherosclerotic occlusions associated with CLTI-free survival?</p>
+                </sec>
+                <sec id="ab-zoi220129-2">
+                  <title>Findings</title>
+                  <p>This cohort study analyzed nested cohort data for 1238 patients from the Project of Ex Vivo Vein Graft Engineering via Transfection (PREVENT) III trial, the largest prospective randomized clinical trial evaluating the efficacy of edifoligide on outcomes in infrainguinal bypass for CLTI. The study identified 3 distinct clusters within the cohort, with 1-year CLTI-free survival rates of 82.3% for stage 1, 61.1% for stage 2, and 53.4% for stage 3.</p>
+                </sec>
+                <sec id="ab-zoi220129-3">
+                  <title>Meaning</title>
+                  <p>These findings suggest that, based on presenting characteristics, there are distinct clusters of patients with different 1-year CLTI-free survival; therefore, CLTI-free survival can be accurately and reproducibly quantified and may be used as a patient-centric outcome.</p>
+                </sec>
+              </abstract>
+              <abstract abstract-type="teaser" specific-use="electronic">
+                <p>This cohort study uses topic model cluster analysis to evaluate a risk stratification scheme for chronic limb-threatening ischemia.</p>
+              </abstract>
+              <abstract>
+                <sec id="ab-zoi220129-4">
+                  <title>Importance</title>
+                  <p>Valid risk stratification schemes are key to performing comparative effectiveness research; however, for chronic limb-threatening ischemia (CLTI), risk stratification schemes have limited efficacy. Improved, accurate, comprehensive, and reproducible risk stratification models for CLTI are needed.</p>
+                </sec>
+                <sec id="ab-zoi220129-5">
+                  <title>Objective</title>
+                  <p>To evaluate the use of topic model cluster analysis to generate an accurate risk prediction model for CLTI.</p>
+                </sec>
+                <sec id="ab-zoi220129-6">
+                  <title>Design, Setting, and Participants</title>
+                  <p>This multicenter, nested cohort study of existing Project of Ex Vivo Vein Graft Engineering via Transfection (PREVENT) III clinical trial data assessed data from patients undergoing infrainguinal vein bypass for the treatment of ischemic rest pain or ischemic tissue loss. Original data were collected from January 1, 2001, to December 31, 2003, and were analyzed in September 2021. All patients had 1 year of follow-up.</p>
+                </sec>
+                <sec id="ab-zoi220129-7">
+                  <title>Exposures</title>
+                  <p>Supervised topic model cluster analysis was applied to nested cohort data from the PREVENT III randomized clinical trial. Given a fixed number of clusters, the data were used to examine the probability that a patient belonged to each of the clusters and the distribution of the features within each cluster.</p>
+                </sec>
+                <sec id="ab-zoi220129-8">
+                  <title>Main Outcomes and Measures</title>
+                  <p>The primary outcome was 1-year CLTI-free survival, a composite of survival with remission of ischemic rest pain, wound healing, and freedom from major lower-extremity amputation without recurrent CLTI.</p>
+                </sec>
+                <sec id="ab-zoi220129-9">
+                  <title>Results</title>
+                  <p>Of the original 1404 patients, 166 were excluded because of a lack of sufficient feature and/or outcome data, leaving 1238 patients for analysis (mean [SD] age, 68.4 [11.2] years; 800 [64.6%] male; 894 [72.2%] White). The Society for Vascular Surgery Wound, Ischemia, and Foot Infection grade 2 wounds were present in 543 patients (43.8%), with rest pain present in 645 (52.1%). Three distinct clusters were identified within the cohort (130 patients in stage 1, 578 in stage 2, and 530 in stage 3), with 1-year CLTI-free survival rates of 82.3% (107 of 130 patients) for stage 1, 61.1% (353 of 578 patients) for stage 2, and 53.4% (283 of 530 patients) for stage 3. Stratified by stage, 1-year mortality was 10.0% (13 of 130 observed deaths in stage 1) for stage 1, 13.5% (78 of 578 patients) for stage 2, and 20.2% (105 of 521 patients) for stage 3. Similarly, stratifying by stage revealed major limb amputation rates of 4.2% (5 of 119 observed major limb amputations in stage 1) for stage 1, 10.8% (55 of 509 patients) for stage 2, and 18.4% (81 of 440 patients) for stage 3. Among survivors without a major amputation, the rates of CLTI recurrence were 9.2% (11 of 119 observed recurrences in stage 1) for stage 1, 24.9% (130 of 523 patients) for stage 2, and 29.6% (132 of 446 patients) for stage 3.</p>
+                </sec>
+                <sec id="ab-zoi220129-10">
+                  <title>Conclusions and Relevance</title>
+                  <p>The topic model cluster analysis in this cohort study identified 3 distinct stages within CLTI. Findings suggest that CLTI-free survival is an end point that can be accurately and reproducibly quantified and may be used as a patient-centric outcome.</p>
+                </sec>
+              </abstract>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="H1-1-ZOI220129">
+              <title>Introduction</title>
+              <p>Peripheral arterial disease is a common and debilitating manifestation of cardiovascular disease that impairs blood flow to the lower extremities. Chronic limb-threatening ischemia (CLTI) is the most severe manifestation of peripheral arterial disease and encompasses all patients with objective evidence of arterial insufficiency and symptoms of ischemic pain at rest and/or tissue loss (ulcerations, wounds, or gangrene). Required intensive medical therapy, revascularization, and/or wound management for patients with CLTI is complex, with highly variable patient responses and frequent reinterventions and even hospitalizations per year. Outcomes for patients with CLTI remain suboptimal despite evolving devices, medical therapeutics, and modern surgical techniques. Comparative effectiveness research (CER) is essential to iteratively improve data-driven outcomes in CLTI, yet the overwhelming heterogeneity of treatments and patient presentations in CLTI stymies CER by preventing objective outcome comparisons.<sup><xref rid="zoi220129r1" ref-type="bibr">1</xref>,<xref rid="zoi220129r2" ref-type="bibr">2</xref></sup> Patients and physicians have limited high-quality data to balance the competing mortality risk, limb threat, procedural invasiveness, hemodynamic efficacy, and longevity of a proposed procedure for a given patient with CLTI.<sup><xref rid="zoi220129r1" ref-type="bibr">1</xref>,<xref rid="zoi220129r2" ref-type="bibr">2</xref></sup></p>
+              <p>Although multiple researchers have developed baseline risk stratification schemes to enable CER in CLTI, none have been universally adopted.<sup><xref rid="zoi220129r2" ref-type="bibr">2</xref></sup> All have modest predictive ability in CLTI, with model accuracy less than 72%.<sup><xref rid="zoi220129r1" ref-type="bibr">1</xref>,<xref rid="zoi220129r2" ref-type="bibr">2</xref></sup> No prior risk stratification model has been prospectively validated against large external data sets. End points of prior models are variable, often focusing on limb outcomes or survival. Few risk stratification schemes use modern computational advances, such as cluster analyses and/or machine learning to optimize model accuracy.<sup><xref rid="zoi220129r3" ref-type="bibr">3</xref>,<xref rid="zoi220129r4" ref-type="bibr">4</xref></sup> The Society for Vascular Surgery Wound, Ischemia, and Foot Infection (WIfI) score has been validated with regard to limb-based outcomes in retrospective cohorts.<sup><xref rid="zoi220129r5" ref-type="bibr">5</xref>,<xref rid="zoi220129r6" ref-type="bibr">6</xref></sup> Unfortunately, WIfI was designed to predict major amputation at only 1 year and is not understood with regard to mortality or other non–limb-specific composite outcomes.</p>
+              <p>Moreover, efficacy of infrainguinal bypass has been challenged over the past 2 decades because of the penetrance of endovascular devices and techniques.<sup><xref rid="zoi220129r7" ref-type="bibr">7</xref></sup> Indeed, training patterns suggest that experience with infrainguinal bypass and in particular infrageniculate bypasses, may be waning.<sup><xref rid="zoi220129r8" ref-type="bibr">8</xref></sup> No one is certain whether current outcomes reflect ideal infrainguinal bypass outcomes, and the comparisons between endovascular and infrainguinal bypass outcomes are potentially biased by this unmeasured confounding. Hence, it remains germane to model CLTI outcomes after infrainguinal bypass within a CLTI cohort in which the outcomes reflect what is truly achievable with infrainguinal bypass. Finally, only a small amount of literature focuses on patient-centric outcomes in CLTI. For example, outcomes analyses in CLTI focus frequently on amputation-free survival or patency. Although important, these outcomes fail to capture patient-centric outcomes, such as relief of ischemic rest pain and wound healing.</p>
+              <p>In this context, we aim to recapitulate our novel technique to generate a machine learning–based risk stratification scheme for CLTI within the nested cohort data from the previously published Project of Ex Vivo Vein Graft Engineering via Transfection (PREVENT) III trial.<sup><xref rid="zoi220129r4" ref-type="bibr">4</xref>,<xref rid="zoi220129r9" ref-type="bibr">9</xref></sup> We also aim to evaluate the ability to accurately and reproducibly use CLTI-free survival as an end point in CLTI outcomes research.</p>
+            </sec>
+            <sec id="H1-2-ZOI220129">
+              <title>Methods</title>
+              <sec id="H2-1-ZOI220129">
+                <title>Study Population</title>
+                <p>The PREVENT III randomized clinical trial comprised 1404 patients undergoing infrainguinal vein bypass for the treatment of ischemic rest pain or ischemic tissue loss.<sup><xref rid="zoi220129r9" ref-type="bibr">9</xref></sup> Patients participating in the trial, which was monitored by a data and safety monitoring board, provided written informed consent on enrolling in the trial. In our cohort, we included all patients who had complete trial enrollment and outcome data. Original data were collected from January 1, 2001, to December 31, 2003, and were analyzed in September 2021. All patients had 1 year of follow-up. Nested cohort data from the PREVENT III trial were anonymized before data analysis. Because of the retrospective nature of the analysis and impracticality of obtaining patient consent years after the closure of the clinical trial, the institutional review board at the University of North Carolina waived consent. The study followed the Strengthening the Reporting of Observational Studies in Epidemiology (<ext-link xlink:href="https://www.equator-network.org/reporting-guidelines/strobe/" ext-link-type="uri">STROBE</ext-link>) reporting guideline.<sup><xref rid="zoi220129r10" ref-type="bibr">10</xref></sup></p>
+              </sec>
+              <sec id="H2-2-ZOI220129">
+                <title>Outcomes</title>
+                <p>The primary outcome measured was 1-year CLTI-free survival, which is a composite end point that includes patients who are alive with remission of CLTI symptoms (wound healing and/or freedom from ischemic pain), no ipsilateral major limb amputation, and no recurrence of ipsilateral CLTI at 1 year. Secondary outcomes are the individual components of this composite end point. We considered 1-year CLTI-free survival as a binary outcome, and we classified patients as having 1-year CLTI-free survival if they were alive, were free of major lower-extremity amputation, were free of recurrence, and had healed their index wound at 1 year after the index procedure. Specifically, mortality, major limb amputation, and recurrence of CLTI and their respective dates were recorded in the case report forms and used directly from the trial data set. For patients who had an index wound, we used the follow-up wound examination records to determine whether the index wound was healed. If the index wound was recorded as healed before or at 1 year after the index procedure, the wound was considered healed. If it was recorded as unhealed at 1 year after the index procedure, the wound was considered unhealed.</p>
+                <p>For the wound grade of the WIfI score, we used data from the baseline examination of the index leg. Records indicated the presence of gangrene and/or ulcers for each toe, the forefoot, the hindfoot, or other location. Free text responses to wound locations coded as other were recoded to the appropriate corresponding category (toe[s], forefoot, hindfoot, or leg). Wound scores were assigned as follows: wound grade 0, no index wound; wound grade 1, an ulcer was reported on only 1 toe; wound grade 2, an ulcer was reported on multiple toes OR gangrene was reported for 1 or more toes or the forefoot; wound grade 3, an ulcer was reported on the hindfoot or leg OR gangrene was reported for the forefoot, hindfoot, or leg; and highest score, multiple wounds (eg, a toe ulcer [grade 1] and a gangrenous hindfoot [grade 3]).</p>
+              </sec>
+              <sec id="H2-3-ZOI220129">
+                <title>Statistical Analysis</title>
+                <p>Demographic, comorbid, and CLTI-related characteristics for the cohort studied were described using medians (IQRs) for continuous variables and numbers (percentages) for categorical and binary variables. In accordance with the STROBE statement for reporting outcomes from observational studies, we do not include <italic>P</italic> value comparisons between the 2 groups in our description.<sup><xref rid="zoi220129r10" ref-type="bibr">10</xref></sup></p>
+                <p>Using the strategy developed in McGinigle et al,<sup><xref rid="zoi220129r4" ref-type="bibr">4</xref></sup> we used topic modeling from the natural language processing literature to cluster patients. Topic models are used to model the words in a corpus of documents to discover latent topics within those documents. In many cases, documents may have multiple topics; for example, movie reviews may be clustered by movie genre (eg, drama or horror) or by whether it was a positive review or not. Supervision is introduced to the model to guide topic formation so that topics are predictive of the desired response (eg, movie genre). In the context of our work, we considered our sample as a corpus of documents, with each individual in the sample as a document and the comorbid and CLTI-related features of each individual as the words in a document; supervision is provided by the outcome of interest, which in our case is CLTI-free survival.</p>
+                <p>To learn the latent topics or clusters in our sample, we specified a supervised latent Dirichlet allocation model,<sup><xref rid="zoi220129r11" ref-type="bibr">11</xref></sup> which models responses, latent topics, documents, and words within documents. The generative model supposes that documents are generated from a set of latent topics and those topics induce an unknown distribution over the vocabulary. Thus, each topic has words that are more likely or less likely to appear in a document that arose from that topic. Translating from text documents to patients with CLTI, this means that patients in a particular cluster are more likely to share common features (common vocabulary), for example, wound grade and history of myocardial infarction, than patients in a different cluster. In addition to looking for common patterns, the latent clusters are formed with supervision from the patient outcome of 1-year CLTI-free survival. Specifically, CLTI-free survival enters the model as conditional on the proportion of features that are assigned to each cluster for the patient; we use a probit model, a type of generalized linear model for regression with binary outcomes. Given a fixed number of topics or clusters, we use the data to learn the probability that a patient belongs to each of the clusters and the distribution over the features within each cluster.</p>
+                <p>We slightly modified the model so that the regression for the response included demographic variables, such as sex and race, that were not included in the features used for topic formation, because demographic characteristics are likely to be associated with differential response owing to systemic disparities in health and health care but are not features on which we would want to use to characterize CLTI subtypes. To learn the model parameters, we implemented the collapsed Gibbs sampling approach described by Griffiths and Steyvers<sup><xref rid="zoi220129r12" ref-type="bibr">12</xref></sup> and used the posterior samples of the topic assignments to calculate sufficient statistics of the model parameters.</p>
+                <p>The data were analyzed using <italic>K = 2,…,9</italic> clusters. The number of clusters in the final model was 3 because there was a clear point of diminishing returns for adding more clusters, and clinician examination of the patient features associated with each cluster confirmed a practical clinical applicability. In addition, we used bayesian model selection to approximate the posterior probability of the observed data (features) given that the model in the study by Griffiths and Steyvers<sup><xref rid="zoi220129r12" ref-type="bibr">12</xref></sup> and the model with <italic>K</italic> = 3 clusters yielded the highest posterior probability. After selecting the model with 3 clusters, the probabilities of patients belonging to a particular cluster were also computed. We considered patients to be in stage 1 if the probability of them being in stage 1 was higher than the probability of them being in stage 2 or stage 3 and similarly for stages 2 and 3. Clusters were characterized by the features with which they were most often associated and further characterized by analyzing the characteristics of the patients within them.</p>
+                <p>For this hypothesis-generating study, we emphasize that our model describes our cohort and provides insight into the feasibility of delineating limb-based and survival-based stages of CLTI. Based on guidance from the American Statistical Association, we did not conduct null hypothesis significance tests to compare the latent stages discovered as one may in a formal confirmatory study.<sup><xref rid="zoi220129r13" ref-type="bibr">13</xref>,<xref rid="zoi220129r14" ref-type="bibr">14</xref>,<xref rid="zoi220129r15" ref-type="bibr">15</xref></sup> Analyses were performed using R, version 4.0.4 (R Foundation for Statistical Computing) and Julia, version 1.6 (MIT Lincoln Laboratory).</p>
+              </sec>
+            </sec>
+            <sec id="H1-3-ZOI220129">
+              <title>Results</title>
+              <p>Of the 1404 patients originally randomized in PREVENT III, 166 patients were excluded because of a lack of significant feature and/or outcome data, leaving 1238 patients (mean [SD] age, 68.4 [11.3] years; 800 [64.6%] male; 10 [0.8%] Asian, 221 [17.9%] Black, 96 [7.8%] Hispanic, 894 [72.2%] White, and 17 [1.4%] other [no further detail available from the trial data set]) for analysis. The most prevalent comorbidities were hypercholesterolemia (680 patients [54.9%]) and diabetes (800 patients [64.6%]). With respect to presentation severity, 645 patients (52.1%) presented with rest pain, and 313 (25.3%) presented with a combination of rest pain and ischemic wounds. A total of 542 patients (43.8%) presented with a grade 2 wound as per the WIfI classification.<sup><xref rid="zoi220129r5" ref-type="bibr">5</xref></sup> Most bypasses (680 patients [54.9%]) were performed to a tibial artery target (<xref rid="zoi220129t1" ref-type="table">Table 1</xref>).</p>
+              <table-wrap position="float" id="zoi220129t1">
+                <label>Table 1. </label>
+                <caption>
+                  <title>Characteristics of the Patient Cohort</title>
+                </caption>
+                <table frame="hsides" rules="groups">
+                  <col width="67.19%" span="1"/>
+                  <col width="32.81%" span="1"/>
+                  <thead>
+                    <tr>
+                      <th valign="top" align="left" scope="col" rowspan="1" colspan="1">Characteristic</th>
+                      <th valign="top" align="left" scope="col" rowspan="1" colspan="1">Finding<xref rid="zoi220129t1n1" ref-type="table-fn"><sup>a</sup></xref></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Age, mean (SD) [range], y</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">68.4 (11.3) [30-99]</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="col" rowspan="1" colspan="1">Sex</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Female</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">438 (35.4)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Male</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">800 (64.6)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="col" rowspan="1" colspan="1">Race</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Asian</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">10 (0.8)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Black</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">221 (17.9)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Hispanic</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">96 (7.8)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> White</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">894 (72.2)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Other<xref rid="zoi220129t1n2" ref-type="table-fn"><sup>b</sup></xref>
+</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">17 (1.4)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Baseline weight, kg</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">78.7 (17.7)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Rest pain</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">645 (52.1)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="col" rowspan="1" colspan="1">Wound</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Grade 1</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">287 (23.2)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Grade 2</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">543 (43.8)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Grade 3</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">313 (25.3)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Stroke</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">245 (19.8)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Previous cardiac procedure</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">426 (34.4)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Diet- or medication-controlled diabetes</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">384 (31.0)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Insulin-controlled diabetes</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">416 (33.6)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Hypercholesterolemia or hyperlipidemia</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">680 (54.9)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="col" rowspan="1" colspan="1">Smoker</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Former</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">605 (48.9)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Current</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">321 (25.9)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Never</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">312 (25.2)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="col" rowspan="1" colspan="1">Popliteal bypass target</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Above knee</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">129 (10.4)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Below knee</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">279 (22.5)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="col" rowspan="1" colspan="1">Bypass target</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Tibial</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">680 (54.9)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Pedal</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">150 (12.1)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="col" rowspan="1" colspan="1">Previous procedure</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> In the index leg</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">328 (26.5)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> In the nonindex leg</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">316 (25.5)</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table-wrap-foot>
+                  <fn id="zoi220129t1n1">
+                    <label>
+                      <sup>a</sup>
+                    </label>
+                    <p>Data are presented as number (percentage) of patients unless otherwise indicated.</p>
+                  </fn>
+                  <fn id="zoi220129t1n2">
+                    <label>
+                      <sup>b</sup>
+                    </label>
+                    <p>No other information provided in the data set.</p>
+                  </fn>
+                </table-wrap-foot>
+              </table-wrap>
+              <sec id="H2-4-ZOI220129">
+                <title>Feature Differences in Each Stage Identified by Cluster Analysis of CLTI-Free Survival</title>
+                <p>Overall CLTI-free survival at 1 year was 60.0% (743 patients). We identified 3 clusters within the nested cohort (130 patients clustered in stage 1, 578 in stage 2, and 530 in stage 3). Results of our cluster analysis revealed 1-year CLTI-free survival as follows: 82.3% (107 of 130 patients) at stage 1, 61.1% (353 of 578 patients) at stage 2, and 53.4% (283 of 530 patients) at stage 3. Patients were considered to be in stage 1 if the probability of them being in stage 1 was higher than the probability of being stage 2 or stage 3 and similarly for stage 2 and stage 3. Of the 130 patients clustered into stage 1, 113 (86.9%) had an index wound. Of the 578 patients clustered into stage 2, 528 (91.4%) had an index wound. Among the 530 patients in stage 3, 501 (94.5%) had an index wound. Other significant differences between each stage are numerically quantified in <xref rid="zoi220129t2" ref-type="table">Table 2</xref> and graphically represented in <xref rid="zoi220129f1" ref-type="fig">Figure 1</xref>.</p>
+                <table-wrap position="float" id="zoi220129t2">
+                  <label>Table 2. </label>
+                  <caption>
+                    <title>Prevalence of Each Feature Within Each Stage</title>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <col width="29.78%" span="1"/>
+                    <col width="22.12%" span="1"/>
+                    <col width="24.05%" span="1"/>
+                    <col width="24.05%" span="1"/>
+                    <thead>
+                      <tr>
+                        <th rowspan="2" valign="top" align="left" scope="col" colspan="1">Feature</th>
+                        <th colspan="3" valign="top" align="left" scope="colgroup" rowspan="1">No. (%) [95% CI]</th>
+                      </tr>
+                      <tr>
+                        <th valign="top" colspan="1" align="left" scope="colgroup" rowspan="1">Stage 1</th>
+                        <th valign="top" align="left" scope="col" rowspan="1" colspan="1">Stage 2</th>
+                        <th valign="top" align="left" scope="col" rowspan="1" colspan="1">Stage 3</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td valign="top" align="left" scope="col" rowspan="1" colspan="1">Wound</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Grade 3</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">28 (21.5) [14.5-28.6]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">157 (26.0) [22.4-29.5]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">135 (25.5) [21.8-29.2]</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Grade 2</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">49 (37.7) [29.4-46.0]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">253 (43.8) [39.7-47.8]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">240 (45.3) [41.1-49.5]</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Grade 1</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">36 (27.7) [20.0-35.4]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">125 (21.6) [18.3-25.0]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">126 (23.8) [20.2-27.4]</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Stroke</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">22 (16.9) [10.5-23.4]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">115 (19.9) [16.6-23.2]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">108 (20.4) [17.0-23.8]</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Renal disease</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">24 (18.5) [11.8-25.1]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">149 (25.8) [22.2-29.3]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">142 (26.8) [23.0-30.6]</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Previous cardiac procedure</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">34 (26.2) [18.6-33.7]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">210 (36.3) [32.4-40.2]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">182 (34.3) [30.3-38.4]</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Myocardial infarction</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">35 (26.9) [19.3-34.6]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">177 (30.6) [26.9-34.4]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">153 (28.9) [25.0-32.7]</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Hypercholesterolemia or hyperlipidemia</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">76 (58.5) [50.0-66.9]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">316 (54.7) [50.6-58.7]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">288 (54.3) [50.1-58.6]</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Dialysis</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">9 (6.9) [2.6-11.3]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">66 (11.4) [8.8-14.0]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">74 (14.0) [11.0-16.9]</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Type 2 diabetes</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">42 (32.3) [24.3-40.4]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">186 (32.2) [28.4-36.0]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">156 (29.4) [25.6-33.3]</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Type 1 diabetes</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">40 (30.8) [22.8-38.7]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">186 (32.2) [28.4-36.0]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">190 (35.8) [31.8-39.9]</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Diabetes</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">9 (63.01) [54.8-71.4]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">66 (64.4) [60.5-68.3]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">74 (65.3) [61.2-69.3]</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" scope="col" rowspan="1" colspan="1">Procedure</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Index leg</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">31 (23.8) [16.5-31.2]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">157 (27.2) [23.5-30.8]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">140 (26.4) [22.7-30.2]</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Nonindex leg</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">25 (19.2) [12.5-26.0]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">159 (27.5) [23.9-31.2]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">132 (24.9) [21.2-28.6]</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" scope="col" rowspan="1" colspan="1">Smoker</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Never</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">25 (19.2) [12.5-26.0]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">137 (23.7) [20.2-27.2]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">150 (28.3) [24.5-32.1]</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Former</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">73 (56.2) [47.6-64.7]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">269 (46.5) [42.5-50.6]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">263 (49.6) [45.4-53.9]</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Current</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">32 (24.6) [17.2-32.0]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">172 (29.8) [26.0-33.5]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">117 (22.1) [18.5-25.6]</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Rest pain</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">60 (46.2) [37.6-54.7]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">313 (54.2) [50.1-58.2]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">272 (51.3) [47.1-55.6]</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Tibial</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">67 (51.5) [43.0-60.1]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">310 (53.6) [49.6-57.7]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">303 (57.2) [53.0-61.4]</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Pedal</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">9 (6.9) [2.6-11.3]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">71 (12.3) [9.6-15.0]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">70 (13.2) [10.3-16.1]</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" scope="col" rowspan="1" colspan="1">Knee popliteal</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Below</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">33 (25.4) [17.9-32.9]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">143 (24.7) [21.2-28.3]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">103 (19.4) [16.1-22.8]</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Above</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">21 (16.2) [9.8-22.5]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">54 (9.3) [7.0-11.7]</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">54 (10.2) [7.6-12.8]</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+                <fig position="float" id="zoi220129f1" fig-type="figure">
+                  <label>Figure 1. </label>
+                  <caption>
+                    <title>Characteristics of Each Stage as a Percentage Difference From the Mean Cohort</title>
+                    <p>Difference was calculated as stage minus study sample.</p>
+                  </caption>
+                  <graphic xlink:href="jamanetwopen-e223424-g001" position="float"/>
+                </fig>
+                <p>Comparisons to the overall population revealed that the 130 patients in stage 1 had the most variation from the overall pattern of patient features. Patients in stage 1 were more likely to have isolated femoropopliteal disease (with bypass targets more often to the above- or below-knee popliteal arteries), a history of smoking and hyperlipidemia, and smaller wounds. They were less likely to have diabetes, history of stroke or myocardial infarction, dialysis dependence, and grade 2 or 3 wounds.</p>
+                <p>Patients in stage 2 (n = 578) and stage 3 (n = 530) were more similar to the cohort pattern of features but had some key differences. Patients in stage 2 were more likely to be current smokers and have a more significant medical history, including renal disease, myocardial infarction, and stroke. Of interest, patients in stage 2 were also the most likely to have grade 3 wounds. Patients in stage 3 were more likely to have never smoked, but their peripheral arterial disease seems to be more driven by type 1 diabetes, kidney disease, and dialysis dependence. This finding correlates with known patterns of atherosclerotic disease, and patients in stage 3 were more likely than the cohort mean to undergo bypasses to tibial or pedal arteries. Patients in stage 3 were also more likely to present with grade 2 and 3 wounds. The prevalence of each feature by stage is graphically presented in <xref rid="zoi220129f2" ref-type="fig">Figure 2</xref>.</p>
+                <fig position="float" id="zoi220129f2" fig-type="figure">
+                  <label>Figure 2. </label>
+                  <caption>
+                    <title>Prevalence of Characteristics in Each Stage</title>
+                  </caption>
+                  <graphic xlink:href="jamanetwopen-e223424-g002" position="float"/>
+                </fig>
+              </sec>
+              <sec id="H2-5-ZOI220129">
+                <title>One-Year Mortality and Limb Loss by Stages Supervised by CLTI-Free Survival</title>
+                <p>For the entire cohort, 1-year mortality was 16.0%. When stratified by stage, mortality was as follows: 10.0% (13 of 130 observed deaths in stage 1) for stage 1, 13.5% (78 of 576 patients) for stage 2, and 20.2% (105 of 521 patients) for stage 3. We note a difference in denominators for stages 2 and 3 in the calculation of mortality that differs from the denominator used for the calculation of CLTI-free survival. Mortality information was not available for 2 patients in stage 2 and 9 patients in stage 3, but because 1-year recurrence for these patients was recorded before death, they were included in the CLTI-free survival calculations. We indicate that our calculations are based on the total number of observed deaths in the stage with the word <italic>observed</italic> and use this convention for calculations for the other secondary outcomes. Similarly, stratifying by stage revealed the following major limb amputation rates: 4.2% (5 of 119 observed major limb amputations in stage 1) for stage 1, 10.8% (55 of 509 patients) for stage 2, 18.4% (81 of 440 patients) for stage 3. Of those who remained alive and with an intact limb, the rates of CLTI recurrence were 9.2% for stage 1 (11 of 1 119 patients [with 11 patients excluded]), 24.9% for stage 2 (130 of 2 523 patients [with 55 patients excluded]), and 29.6% for stage 3 3 (132 of 446 patients [with 84 patients excluded]).</p>
+              </sec>
+            </sec>
+            <sec id="H1-4-ZOI220129">
+              <title>Discussion</title>
+              <p>In this cohort study, topic model cluster analysis showed the ability to discern 3 distinct clusters of patients within the nested cohort of the PREVENT III data. Chronic limb-threatening ischemia–free survival at 1 year by our modeled stages was 82.3% in stage 1; 61.1% in stage 2; and 53.4% in stage 3. This method may ultimately prove superior to other methods of risk stratification in CLTI because of its ability to incorporate a wider variety of features compared with other recent risk stratification schemes, such as WIfI. Moreover, topic model cluster analysis can adjust as the prevalence and severity of risk factors change over time within a particular disease state. The malleability of topic model cluster analysis may prove more useful than prior methods of generating risk scores to evaluate modern outcome data and quality improvement projects.</p>
+              <p>In contrast to the findings of prior publications,<sup><xref rid="zoi220129r3" ref-type="bibr">3</xref>,<xref rid="zoi220129r16" ref-type="bibr">16</xref></sup> wound and ischemic severity were not necessarily associated with worse outcomes, which intuitively makes sense, because not all patients with ischemic rest pain will have superior outcomes compared with those with ulcers or gangrene, and patients with less systemic disease may have better wound healing even for grade 2 and 3 wounds. This lack of strict association with ischemic and wound severity shows the importance of using CLTI-free survival as a composite end point. We should disclose that perfect discrimination between each wound grade cannot be performed retrospectively. Still, our data also show the novel promise of precisely measuring CLTI-free survival as a clinical end point. Although CLTI-free survival has been recently used by other authors,<sup><xref rid="zoi220129r17" ref-type="bibr">17</xref>,<xref rid="zoi220129r18" ref-type="bibr">18</xref></sup> to our knowledge, our study represents the largest to accurately use CLTI-free survival as the primary end point. This is significant because CLTI-free survival succinctly encapsulates patient-centric outcomes, such as wound healing, and alleviation of ischemic rest pain. Further external validation of our hypothesis-generating topic cluster model will be required to confirm our findings.</p>
+              <p>Prior literature does not include the relief of ischemic rest pain as a clinical outcome measure. Moreover, prior risk stratification schemes were not able to discern subpopulations with rest pain that may have worse outcomes even though, on average, patients with rest pain have improved outcomes compared with those with ischemic ulcerations. The use of topic model cluster analysis was likely able to mathematically distinguish the subpopulations of rest pain populations that may not have superior outcomes compared with those with minor tissue loss. The difference is how topic model cluster analysis identifies the subpopulations that may have a differential risk based on the totality of their risk factors than would otherwise be suggested by an individual clinical feature, such as rest pain.</p>
+              <p>Of interest, when splitting the primary end point, we found that patients in stage 1 had a 1-year mortality of 10.0% after infrainguinal bypass, which doubled to 20.2% in stage 3. The significance of this finding is that even though the mortality rate is high overall, there is a subpopulation of patients with CLTI who are expected to achieve significantly better survival. In this subpopulation of patients in stage 1, infrainguinal bypass is safe, and endovascular therapy may not mitigate morbidity and/or mortality because of other patient comorbidities. Our study does not incorporate data regarding technical feasibility of types of revascularization, which will be required in the future. In addition, it is unclear whether these outcomes are completely generalizable, because most trial participants were White and male. Still, it is important to have criterion-standard outcomes after infrainguinal bypass to compare at least within the scientific literature. This approach permits benchmarking of current outcomes, which will be particularly important when contextualizing the results of the Best Endovascular vs Best Surgical Therapy in Patients With Critical Limb Ischemia trial.<sup><xref rid="zoi220129r7" ref-type="bibr">7</xref></sup></p>
+              <sec id="H2-6-ZOI220129">
+                <title>Strengths and Limitations</title>
+                <p>There are several strengths to this study. The in-depth analysis of CLTI-free survival was long overdue and will contribute to a staging strategy to guide patients on treatment options based on outcomes more nuanced than just limb loss or death. Our novel machine learning and natural language processing methods represent a significant advance over prior literature regarding risk prediction and patient staging. This method that uses topic model cluster analysis can easily be applied to larger, more comprehensive data sets that also include specific vascular anatomy and target artery patency to further improve the predictive ability.</p>
+                <p>This research also has several limitations. A decade has passed since PREVENT III finished enrollment, and penetrance of wound care and optimal atherosclerotic medical care has changed over time, which may alter the expected outcomes of the clusters derived. Further delineation of specific distinguishing risk factors will be required also in analysis of other cohorts because the patients’ features in stages 2 and 3 were similar to those of the overall cohort mean with the exception of smoking history and dialysis dependence, which are the current differentiators between those stages. In addition, we did not have precise hemodynamic and infectious data, which limited our ability to calculate a complete WIfI score. Still, we were able to incorporate the wound severity, which is the most significant component of the WIfI score among patients who have undergone revascularization.<sup><xref rid="zoi220129r3" ref-type="bibr">3</xref></sup> The data were derived from a nested cohort of infrainguinal bypasses only; hence, we cannot extrapolate our results to populations undergoing endovascular and/or hybrid revascularizations.</p>
+              </sec>
+            </sec>
+            <sec id="H1-5-ZOI220129">
+              <title>Conclusions</title>
+              <p>This cohort study represents one of the largest and most comprehensive mathematically derived risk stratification schemes for CLTI. By topic model cluster analysis, 3 distinct stages of 1-year CLTI-free survival were identified. This study also showed that CLTI-free survival is an end point that can be accurately measured, which shows promise in improving patient-centric outcome assessments in CLTI.</p>
+            </sec>
+          </body>
+          <back>
+            <ref-list id="REF-ZOI220129">
+              <title>References</title>
+              <ref id="zoi220129r1">
+                <label>1</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Chung</surname><given-names>J</given-names></string-name>, <string-name><surname>Modrall</surname><given-names>JG</given-names></string-name>, <string-name><surname>Valentine</surname><given-names>RJ</given-names></string-name></person-group>. <article-title>The need for improved risk stratification in chronic critical limb ischemia</article-title>. <source>J Vasc Surg</source>. <year>2014</year>;<volume>60</volume>(<issue>6</issue>):<fpage>1677</fpage>-<lpage>1685</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jvs.2014.07.104</pub-id><?supplied-pmid 25214365?><pub-id pub-id-type="pmid">25214365</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi220129r2">
+                <label>2</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Conte</surname><given-names>MS</given-names></string-name>, <string-name><surname>Bradbury</surname><given-names>AW</given-names></string-name>, <string-name><surname>Kolh</surname><given-names>P</given-names></string-name>, <etal/></person-group>. <article-title>Global vascular guidelines on the management of chronic limb-threatening ischemia</article-title>. <source>Eur J Vasc Endovasc Surg</source>. <year>2019</year>;58(1S):S1-S109 e33. doi:<pub-id pub-id-type="doi">10.1016/j.ejvs.2019.05.006</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi220129r3">
+                <label>3</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Mayor</surname><given-names>J</given-names></string-name>, <string-name><surname>Chung</surname><given-names>J</given-names></string-name>, <string-name><surname>Zhang</surname><given-names>Q</given-names></string-name>, <etal/></person-group>. <article-title>Using the Society for Vascular Surgery Wound, Ischemia, and foot Infection classification to identify patients most likely to benefit from revascularization</article-title>. <source>J Vasc Surg</source>. <year>2019</year>;<volume>70</volume>(<issue>3</issue>):<fpage>776</fpage>-<lpage>785.e1</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jvs.2018.11.039</pub-id><?supplied-pmid 30922742?><pub-id pub-id-type="pmid">30922742</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi220129r4">
+                <label>4</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>McGinigle</surname><given-names>KL</given-names></string-name>, <string-name><surname>Freeman</surname><given-names>NLB</given-names></string-name>, <string-name><surname>Marston</surname><given-names>WA</given-names></string-name>, <etal/></person-group>. <article-title>Precision medicine enables more TNM-like staging in patients with chronic limb threatening ischemia</article-title>. <source>Front Cardiovasc Med</source>. <year>2021</year>;<volume>8</volume>:<elocation-id>709904</elocation-id>. doi:<pub-id pub-id-type="doi">10.3389/fcvm.2021.709904</pub-id><?supplied-pmid 34336963?><pub-id pub-id-type="pmid">34336963</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi220129r5">
+                <label>5</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Mills</surname><given-names>JL</given-names><suffix>Sr</suffix></string-name>, <string-name><surname>Conte</surname><given-names>MS</given-names></string-name>, <string-name><surname>Armstrong</surname><given-names>DG</given-names></string-name>, <etal/>; <collab>Society for Vascular Surgery Lower Extremity Guidelines Committee</collab></person-group>. <article-title>The Society for Vascular Surgery Lower Extremity Threatened Limb Classification System: risk stratification based on wound, ischemia, and foot infection (WIfI)</article-title>. <source>J Vasc Surg</source>. <year>2014</year>;<volume>59</volume>(<issue>1</issue>):<fpage>220</fpage>-<lpage>34.e1, 2</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jvs.2013.08.003</pub-id><?supplied-pmid 24126108?><pub-id pub-id-type="pmid">24126108</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi220129r6">
+                <label>6</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Mills</surname><given-names>JL</given-names><suffix>Sr</suffix></string-name></person-group>. <article-title>The application of the Society for Vascular Surgery Wound, Ischemia, and foot Infection (WIfI) classification to stratify amputation risk</article-title>. <source>J Vasc Surg</source>. <year>2017</year>;<volume>65</volume>(<issue>3</issue>):<fpage>591</fpage>-<lpage>593</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jvs.2016.12.090</pub-id><?supplied-pmid 28236912?><pub-id pub-id-type="pmid">28236912</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi220129r7">
+                <label>7</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Menard</surname><given-names>MT</given-names></string-name>, <string-name><surname>Farber</surname><given-names>A</given-names></string-name>, <string-name><surname>Assmann</surname><given-names>SF</given-names></string-name>, <etal/></person-group>. <article-title>Design and rationale of the Best Endovascular Versus Best Surgical Therapy for Patients With Critical Limb Ischemia (BEST-CLI) Trial</article-title>. <source>J Am Heart Assoc</source>. <year>2016</year>;<volume>5</volume>(<issue>7</issue>):<elocation-id>e003219</elocation-id>. doi:<pub-id pub-id-type="doi">10.1161/JAHA.116.003219</pub-id><?supplied-pmid 27402237?><pub-id pub-id-type="pmid">27402237</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi220129r8">
+                <label>8</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>McCallum</surname><given-names>JC</given-names></string-name>, <string-name><surname>Wyers</surname><given-names>MC</given-names></string-name>, <string-name><surname>Soden</surname><given-names>PA</given-names></string-name>, <etal/></person-group>. <article-title>Vascular fellow and resident experience performing infrapopliteal revascularization with endovascular procedures and vein bypass during training</article-title>. <source>J Vasc Surg</source>. <year>2018</year>;<volume>68</volume>(<issue>5</issue>):<fpage>1533</fpage>-<lpage>1537</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jvs.2018.01.054</pub-id><?supplied-pmid 30360842?><pub-id pub-id-type="pmid">30360842</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi220129r9">
+                <label>9</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Conte</surname><given-names>MS</given-names></string-name>, <string-name><surname>Bandyk</surname><given-names>DF</given-names></string-name>, <string-name><surname>Clowes</surname><given-names>AW</given-names></string-name>, <etal/>; <collab>PREVENT III Investigators</collab></person-group>. <article-title>Results of PREVENT III: a multicenter, randomized trial of edifoligide for the prevention of vein graft failure in lower extremity bypass surgery</article-title>. <source>J Vasc Surg</source>. <year>2006</year>;<volume>43</volume>(<issue>4</issue>):<fpage>742</fpage>-<lpage>751</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jvs.2005.12.058</pub-id><?supplied-pmid 16616230?><pub-id pub-id-type="pmid">16616230</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi220129r10">
+                <label>10</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Vandenbroucke</surname><given-names>JP</given-names></string-name>, <string-name><surname>von Elm</surname><given-names>E</given-names></string-name>, <string-name><surname>Altman</surname><given-names>DG</given-names></string-name>, <etal/>; <collab>STROBE Initiative</collab></person-group>. <article-title>Strengthening the Reporting of Observational Studies in Epidemiology (STROBE): explanation and elaboration</article-title>. <source>Epidemiology</source>. <year>2007</year>;<volume>18</volume>(<issue>6</issue>):<fpage>805</fpage>-<lpage>835</lpage>. doi:<pub-id pub-id-type="doi">10.1097/EDE.0b013e3181577511</pub-id><?supplied-pmid 18049195?><pub-id pub-id-type="pmid">18049195</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi220129r11">
+                <label>11</label>
+                <mixed-citation publication-type="webpage"><person-group><string-name><surname>Blei</surname><given-names>DM</given-names></string-name>, <string-name><surname>McAuliffe</surname><given-names>JD</given-names></string-name></person-group>. Supervised topic models In: Platt JC, Koller D, Singer Y, Roweis ST, eds. <italic>Advances in Neural Information Processing Systems 20</italic>. Curran Associates Inc; <year>2008</year>:121–128. Accessed September 3, 2019. <ext-link xlink:href="http://papers.nips.cc/paper/3328-supervised-topic-models.pdf" ext-link-type="uri">http://papers.nips.cc/paper/3328-supervised-topic-models.pdf</ext-link></mixed-citation>
+              </ref>
+              <ref id="zoi220129r12">
+                <label>12</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Griffiths</surname><given-names>TL</given-names></string-name>, <string-name><surname>Steyvers</surname><given-names>M</given-names></string-name></person-group>. <article-title>Finding scientific topics</article-title>. <source>Proc Natl Acad Sci U S A</source>. <year>2004</year>;<volume>101</volume>(<issue>suppl 1</issue>):<fpage>5228</fpage>-<lpage>5235</lpage>. doi:<pub-id pub-id-type="doi">10.1073/pnas.0307752101</pub-id><?supplied-pmid 14872004?><pub-id pub-id-type="pmid">14872004</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi220129r13">
+                <label>13</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Wasserstein</surname><given-names>RL</given-names></string-name>, <string-name><surname>Lazar</surname><given-names>NA</given-names></string-name></person-group>. <article-title>The ASA's statement on <italic>P</italic> values: context, process, and purpose</article-title>. <source>Am Stat.</source><year>2016</year>;<volume>70</volume>(<issue>2</issue>):<fpage>129</fpage>-<lpage>131</lpage>. doi:<pub-id pub-id-type="doi">10.1080/00031305.2016.1154108</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi220129r14">
+                <label>14</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Wasserstein</surname><given-names>RL</given-names></string-name>, <string-name><surname>Schirm</surname><given-names>AL</given-names></string-name>, <string-name><surname>Lazar</surname><given-names>NA</given-names></string-name></person-group>. <article-title>Moving to a world beyond “p &lt; 0.05”</article-title>. <source>Am Stat.</source><year>2019</year>;<volume>73</volume>:<fpage>1</fpage>-<lpage>19</lpage>. doi:<pub-id pub-id-type="doi">10.1080/00031305.2019.1583913</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi220129r15">
+                <label>15</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Tong</surname><given-names>C.</given-names></string-name></person-group><article-title>Statistical inference enables bad science; statistical thinking enables good science</article-title>. <source>Am Stat.</source><year>2019</year>;<volume>73</volume>:<fpage>246</fpage>-<lpage>261</lpage>. doi:<pub-id pub-id-type="doi">10.1080/00031305.2018.1518264</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi220129r16">
+                <label>16</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Taylor</surname><given-names>SM</given-names></string-name>, <string-name><surname>York</surname><given-names>JW</given-names></string-name>, <string-name><surname>Cull</surname><given-names>DL</given-names></string-name>, <string-name><surname>Kalbaugh</surname><given-names>CA</given-names></string-name>, <string-name><surname>Cass</surname><given-names>AL</given-names></string-name>, <string-name><surname>Langan</surname><given-names>EM</given-names><suffix>III</suffix></string-name></person-group>. <article-title>Clinical success using patient-oriented outcome measures after lower extremity bypass and endovascular intervention for ischemic tissue loss</article-title>. <source>J Vasc Surg</source>. <year>2009</year>;<volume>50</volume>(<issue>3</issue>):<fpage>534</fpage>-<lpage>541</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jvs.2009.03.030</pub-id><?supplied-pmid 19592193?><pub-id pub-id-type="pmid">19592193</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi220129r17">
+                <label>17</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Perlander</surname><given-names>A</given-names></string-name>, <string-name><surname>Jivegård</surname><given-names>L</given-names></string-name>, <string-name><surname>Nordanstig</surname><given-names>J</given-names></string-name>, <string-name><surname>Svensson</surname><given-names>M</given-names></string-name>, <string-name><surname>Österberg</surname><given-names>K</given-names></string-name></person-group>. <article-title>Amputation-free survival, limb symptom alleviation, and reintervention rates after open and endovascular revascularization of femoropopliteal lesions in patients with chronic limb-threatening ischemia</article-title>. <source>J Vasc Surg</source>. <year>2020</year>;<volume>72</volume>(<issue>6</issue>):<fpage>1987</fpage>-<lpage>1995</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jvs.2020.03.029</pub-id><?supplied-pmid 32276010?><pub-id pub-id-type="pmid">32276010</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi220129r18">
+                <label>18</label>
+                <mixed-citation publication-type="journal"><person-group><string-name><surname>Okazaki</surname><given-names>J</given-names></string-name>, <string-name><surname>Matsuda</surname><given-names>D</given-names></string-name>, <string-name><surname>Tanaka</surname><given-names>K</given-names></string-name>, <etal/></person-group>. <article-title>Analysis of wound healing time and wound-free period as outcomes after surgical and endovascular revascularization for critical lower limb ischemia</article-title>. <source>J Vasc Surg</source>. <year>2018</year>;<volume>67</volume>(<issue>3</issue>):<fpage>817</fpage>-<lpage>825</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jvs.2017.07.122</pub-id><?supplied-pmid 29032905?><pub-id pub-id-type="pmid">29032905</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

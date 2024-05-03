@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T02:16:36Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:9840444" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:9840444</identifier>
+        <datestamp>2023-01-15</datestamp>
+        <setSpec>tvst</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Transl Vis Sci Technol</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Transl Vis Sci Technol</journal-id>
+              <journal-id journal-id-type="publisher-id">TVST</journal-id>
+              <journal-title-group>
+                <journal-title>Translational Vision Science &amp; Technology</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2164-2591</issn>
+              <publisher>
+                <publisher-name>The Association for Research in Vision and Ophthalmology</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC9840444</article-id>
+              <article-id pub-id-type="pmcid">PMC9840444</article-id>
+              <article-id pub-id-type="pmc-uid">9840444</article-id>
+              <article-id pub-id-type="pmid">36633874</article-id>
+              <article-id pub-id-type="pmid">36633874</article-id>
+              <article-id pub-id-type="doi">10.1167/tvst.12.1.18</article-id>
+              <article-id pub-id-type="publisher-id">TVST-22-5160</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Artificial Intelligence</subject>
+                </subj-group>
+                <subj-group subj-group-type="category">
+                  <subject>Artificial Intelligence</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Evaluation of Multiple Machine Learning Models for Predicting Number of Anti-VEGF Injections in the Comparison of AMD Treatment Trials (CATT)</article-title>
+                <alt-title alt-title-type="runhead">Machine Learning Prediction of Anti-VEGF Treatment</alt-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Chandra</surname>
+                    <given-names>Rajat S.</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <name specific-use="Ying G">
+                    <surname>Ying</surname>
+                    <given-names>Gui-shuang</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <aff id="aff1"><label>1</label>Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, USA</aff>
+                <aff id="aff2"><label>2</label>Center for Preventive Ophthalmology and Biostatistics, Department of Ophthalmology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, USA</aff>
+              </contrib-group>
+              <author-notes>
+                <corresp id="cor1"><label>*</label><bold>Correspondence:</bold> Gui-shuang Ying, 3711 Market Street, Suite 801, Philadelphia, PA 19104, USA. email: <email>gsying@pennmedicine.upenn.edu</email></corresp>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>12</day>
+                <month>1</month>
+                <year>2023</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <month>1</month>
+                <year>2023</year>
+              </pub-date>
+              <volume>12</volume>
+              <issue>1</issue>
+              <elocation-id>18</elocation-id>
+              <history>
+                <date date-type="accepted">
+                  <day>23</day>
+                  <month>12</month>
+                  <year>2022</year>
+                </date>
+                <date date-type="received">
+                  <day>28</day>
+                  <month>9</month>
+                  <year>2022</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>Copyright 2023 The Authors</copyright-statement>
+                <copyright-year>2023</copyright-year>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref>
+                  <license-p>This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:title="pdf" xlink:href="tvst-12-1-18.pdf"/>
+              <abstract>
+                <sec>
+                  <title>Purpose</title>
+                  <p>To apply machine learning models for predicting the number of pro re nata (PRN) injections of antivascular endothelial growth factor (anti-VEGF) for neovascular age-related macular degeneration (nAMD) in two years in the Comparison of AMD (age-related macular degeneration) Treatments Trials.</p>
+                </sec>
+                <sec>
+                  <title>Methods</title>
+                  <p>The data from 493 eligible participants randomized to PRN treatment of ranibizumab or bevacizumab were used for training (n = 393) machine learning models including support-vector machine (SVM), random forest, and extreme gradient boosting (XGBoost) models. Model performances of prediction using clinical and image data from baseline, weeks 4, 8, and 12 were evaluated by the area under the receiver operating characteristic curve (AUC) for predicting few (≤8) or many (≥19) injections, by <italic toggle="yes">R</italic><sup>2</sup> and mean absolute error (MAE) for predicting the total number of injections in two years. The best model was selected for final validation on a test dataset (n = 100).</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p>Using training data up to week 12, the models achieved AUCs of 0.79–0.82 and 0.79–0.81 for predicting few and many injections, respectively, with <italic toggle="yes">R</italic><sup>2</sup> of 0.34–0.36 (MAE = 4.45–4.58 injections) for predicting total injections in two years from cross-validation. In final validation on the test dataset, the SVM model had AUCs of 0.77 and 0.82 for predicting few and many injections, respectively, with <italic toggle="yes">R</italic><sup>2</sup> of 0.44 (MAE = 3.92 injections). Important features included fluid in optical coherence tomography, lesion characteristics, and treatment trajectory in the first three months.</p>
+                </sec>
+                <sec>
+                  <title>Conclusions</title>
+                  <p>Machine learning models using loading dose phase data have the potential to predict two-year anti-VEGF demand for nAMD and quantify feature importance for these predictions.</p>
+                </sec>
+                <sec>
+                  <title>Translational Relevance</title>
+                  <p>Prediction of anti-VEGF injections using machine learning models from readily available data, after further validation on independent datasets, has the potential to help optimize treatment protocols and outcomes for nAMD patients in an individualized manner.</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>prediction</kwd>
+                <kwd>machine learning</kwd>
+                <kwd>neovascular age-related macular degeneration</kwd>
+                <kwd>anti-VEGF treatment</kwd>
+                <kwd>PRN</kwd>
+              </kwd-group>
+              <counts>
+                <page-count count="11"/>
+              </counts>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="intro" id="sec1">
+              <title>Introduction</title>
+              <p>Age-related macular degeneration (AMD) is a leading cause of visual loss and blindness worldwide.<xref rid="bib1" ref-type="bibr"><sup>1</sup></xref><sup>,</sup><xref rid="bib2" ref-type="bibr"><sup>2</sup></xref> Antivascular endothelial growth factor (anti-VEGF) therapy is a mainstay of treatment for neovascular AMD (nAMD) based on existing clinical practice guidelines, because various studies from different populations and of different design all support its efficacy and safety for nAMD.<xref rid="bib3" ref-type="bibr"><sup>3</sup></xref> The Comparison of AMD Treatments Trials (CATT) evaluated the relative efficacy and safety of two anti-VEGF treatments (ranibizumab, bevacizumab) treated monthly or pro re nata (PRN) for macular neovascularization (MNVs).<xref rid="bib4" ref-type="bibr"><sup>4</sup></xref> The CATT established that anti-VEGF therapy administered PRN achieved similar gain as monthly treatment in visual acuity (VA) at 1 year and about 2 letters less gain than monthly treatment at 2 years.<xref rid="bib4" ref-type="bibr"><sup>4</sup></xref><sup>,</sup><xref rid="bib5" ref-type="bibr"><sup>5</sup></xref> Patients with nAMD require frequent long-term follow-up and anti-VEGF treatment, and monthly injections for all nAMD patients would be impractical because of the large socioeconomic burden on healthcare systems, as well as patients. For this reason, PRN or treat and extend (T&amp;E) treatment strategies based on the nAMD disease activities evaluated by ocular coherence tomography (OCT) and VA are commonly used to manage patients with nAMD, allowing for patients to maintain or improve their VA without as many injections as monthly treatment.<xref rid="bib6" ref-type="bibr"><sup>6</sup></xref><sup>,</sup><xref rid="bib7" ref-type="bibr"><sup>7</sup></xref></p>
+              <p>Previous studies found that in patients receiving PRN treatment, the number of anti-VEGF injections varied substantially, indicating differential responses to anti-VEGF treatment in eliminating fluid.<xref rid="bib5" ref-type="bibr"><sup>5</sup></xref><sup>,</sup><xref rid="bib8" ref-type="bibr"><sup>8</sup></xref> This variation is likely to be influenced by many factors specific to each patient, including severity of disease, lesion composition, and genetic factors.<xref rid="bib8" ref-type="bibr"><sup>8</sup></xref><sup>–</sup><xref rid="bib10" ref-type="bibr"><sup>10</sup></xref> Because PRN and T&amp;E protocols are the most popular approaches for treating nAMD in clinical practice, identifying prognostic factors and being able to predict early-on the number of injections of anti-VEGF therapy a patient would need have great value.<xref rid="bib6" ref-type="bibr"><sup>6</sup></xref><sup>,</sup><xref rid="bib8" ref-type="bibr"><sup>8</sup></xref><sup>,</sup><xref rid="bib11" ref-type="bibr"><sup>11</sup></xref> Knowing the number of anti-VEGF injections a patient may require in the long-term is useful in consultations between physicians and patients by allowing for setting patient expectations and planning for the most appropriate regimen, potentially enabling them to make more informed decisions about the best course of treatment and improving their anti-VEGF treatment adherence. Because clinicians may have different experiences and varying judgements, machine learning models may provide useful tool for standardizing predictions. Thus such prediction has the potential to lead to the improved anti-VEGF treatment protocols that can help reduce the burden of anti-VEGF treatments and may result in individualized, flexible treatment regimens.</p>
+              <p>Machine learning models, including random forest models, natural gradient boosting (NGBoost) models, and neural networks, have demonstrated great promise for predicting the anti-VEGF treatment demand for nAMD and other retinal diseases.<xref rid="bib12" ref-type="bibr"><sup>12</sup></xref><sup>–</sup><xref rid="bib15" ref-type="bibr"><sup>15</sup></xref> These previous machine learning models primarily used morphological features extracted from OCT scans taken at baseline and up to the first few months of treatment. These models generally demonstrated poor prediction at baseline, but achieved better predictions with the addition of OCT images in the first two to three months after the initial treatment, reaching their best values for the area under the receiver operating characteristic (ROC) curve (AUC) between 0.68 and 0.85 for predicting low and high numbers of injections.<xref rid="bib12" ref-type="bibr"><sup>12</sup></xref><sup>–</sup><xref rid="bib15" ref-type="bibr"><sup>15</sup></xref> However, these machine learning models were based on limited sample sizes and did not include other readily available predictors such as MNV lesion features, VA, anti-VEGF injection trajectory during the loading dose phase, and other clinical variables. Additionally, most of these studies did not validate a final machine learning model on a dataset independently reserved for evaluating the models’ performances.</p>
+              <p>To overcome the limitations of the previous studies, we used the rich CATT data to develop multiple machine learning models and to validate the best machine learning model for predicting both the high and low treatment demand, as well as the total number of injections over the course of 2 years for nAMD patients randomized to PRN treatment with ranibizumab or bevacizumab for 2 years.</p>
+            </sec>
+            <sec sec-type="methods" id="sec2">
+              <title>Methods</title>
+              <sec id="sec2-1">
+                <title>Study Design</title>
+                <p>This is a secondary analysis of CATT data publicly available at <ext-link xlink:href="https://hyperprod.cceb.med.upenn.edu/catt/catt_index.php" ext-link-type="uri">https://hyperprod.cceb.med.upenn.edu/catt/catt_index.php</ext-link>. Details on the study design and methods of the CATT have been reported previously<xref rid="bib4" ref-type="bibr"><sup>4</sup></xref><sup>,</sup><xref rid="bib5" ref-type="bibr"><sup>5</sup></xref> and on ClinicalTrials.gov (NCT00593450). Only the major features related to the evaluation of factors within the first 12 weeks and PRN treatment protocol are described here.</p>
+              </sec>
+              <sec id="sec2-2">
+                <title>Study Participants</title>
+                <p>The institutional review board associated with each center approved the study protocol and a written consent form was obtained from each participant. Participants enrolled from 43 clinical centers in the United States were randomized to one of the four treatment groups: (1) ranibizumab monthly; (2) bevacizumab monthly; (3) ranibizumab PRN; and (4) bevacizumab PRN. The study enrollment criteria included age of 50 or older, the study eye (one eye per patient) had untreated active MNV caused by AMD, and VA between 20/25 and 20/320 on electronic VA testing. The presence of active MNV, as seen on fluorescein angiography, and fluid, as seen on time-domain OCT, located either within or below the retina or below the retinal pigment epithelium (RPE) were required to establish the presence of active MNV. Either neovascularization or its sequela (i.e., pigment epithelium detachment, subretinal or sub-RPE hemorrhage, blocked fluorescence, macular edema, or intraretinal, subretinal, or sub-RPE fluid) needed to be under the fovea.</p>
+              </sec>
+              <sec id="sec2-3">
+                <title>Study Procedures</title>
+                <p>During the initial visit, participants provided information on demographic characteristics and medical history. Certified photographers followed a standard protocol to obtain stereoscopic, color fundus photographs, and fluorescein angiograms at baseline, year 1, and year 2. OCT images were acquired for all participants at baseline and weeks 4, 8, 12, 24, 52, 76, and 104. The OCT imaging during year 1 was performed with time-domain OCT using Stratus OCT (Stratus software version 6.0 or higher; Carl Zeiss Meditec, Dublin, CA, USA).<xref rid="bib16" ref-type="bibr"><sup>16</sup></xref> Spectral-domain OCT was used for 22.6% of scans during year 2, performed on either Cirrus HDOCT (Cirrus software version 5.2 or higher; Carl Zeiss Meditec) or the Spectralis OCT (Spectralis software version 5.3 or higher; Heidelberg Engineering, Carlsbad, CA, USA).<xref rid="bib16" ref-type="bibr"><sup>16</sup></xref></p>
+                <p>As described in a previous CATT publication,<xref rid="bib17" ref-type="bibr"><sup>17</sup></xref> two masked trained readers in the CATT Fundus Photographic Reading Center independently evaluated lesion characteristics based on baseline fundus photographs and fluorescein angiograms. Qualitative evaluations of lesion characteristics included identification of the lesion location, lesion type, lesion composition, retinal angiomatous proliferation features, hemorrhage contiguous with the lesion, serous retinal pigment epithelial detachment, atrophic or fibrotic scars, any hemorrhage associated with lesion (not necessarily contiguous) and geographic atrophy anywhere in the macula. Quantitative measurements of the MNV area and of the total area of MNV lesion were made using Image J (<ext-link xlink:href="http://rsbweb.nih.gov/ij/" ext-link-type="uri">http://rsbweb.nih.gov/ij/</ext-link>, accessed on August 27, 2022). Discrepancies between two trained readers were adjudicated between the readers and Director of the Photograph Reading Center.<xref rid="bib17" ref-type="bibr"><sup>17</sup></xref></p>
+                <p>An OCT images evaluating team, composed of two independent trained readers and a senior reader, at the OCT Reading Center, masked to the treatment assignment, evaluated each OCT scan.<xref rid="bib18" ref-type="bibr"><sup>18</sup></xref> Any discrepancies between the two readers were adjudicated by an independent senior reader. OCT images were assessed with respect to the presence of fluid, location (intraretinal, subretinal, sub-RPE) of fluid, whether fluid was foveal, RPE elevation, subretinal hyper-reflective material, vitreous attached within central 3 mm (vitreomacular traction), and epiretinal membrane. In addition, trained readers measured the total thickness at the foveal center point, which was subdivided into three measurements: thickness of retina, subretinal fluid, and subretinal tissue complex (material between Bruch's membrane and outer retina or subretinal fluid, which includes pigment epithelial detachment, MNV, blood and fibrosis).<xref rid="bib18" ref-type="bibr"><sup>18</sup></xref></p>
+                <p>Certified VA examiners, who were masked to the treatment assignments, used the electronic visual acuity tester to measure VA after refraction in both eyes following the Diabetic Retinopathy Clinical Research Network's protocol.<xref rid="bib19" ref-type="bibr"><sup>19</sup></xref> These measurements were taken for participants at baseline and weeks 4, 12, 24, 36, 52, 64, 76, 88, and 104. The VA scores from the electronic visual acuity tester ranged from 0 to 100, corresponding with the Snellen equivalents of worse than 20/800 to 20/10.</p>
+              </sec>
+              <sec id="sec2-4">
+                <title>PRN Treatment Guidelines</title>
+                <p>All the CATT participants received baseline injection with ranibizumab or bevacizumab. Every 28 days, participants assigned to PRN treatment groups underwent OCT and were evaluated for retreatment by clinical center study–certified ophthalmologist based on the evidence of active MNV. Signs of active MNV were defined as fluid on OCT, new or persistent hemorrhage, decreased VA as compared with the previous examination, or dye leakage or increased lesion size on fluorescein angiography. Ophthalmologists at each clinical center, who were unaware of drug assignments, made retreatment decisions. Fluorescein angiography was performed at the discretion of the ophthalmologist to aid in retreatment decisions.</p>
+                <p>The clinical center ophthalmologist may have withheld treatment if a patient experienced a serious adverse event in the study eye after treatment including intraocular inflammation ≥2+, intraocular pressure ≥30 mm Hg, vitreous hemorrhage with a ≥30 letters loss in VA, new sensory rhegmatogenous retinal break or detachment (including macular hole), or local infection. The clinical center ophthalmologist may also have suspended the intravitreal injections of the study drug if, in the best medical judgment of the treating ophthalmologist, it is believed that there is no chance of any benefit to the patient from additional intravitreal injections in terms of preserving vision or retinal anatomy.</p>
+              </sec>
+              <sec id="sec2-5">
+                <title>Machine Learning Models</title>
+                <p>Among the eligible patients who were randomized to PRN treatment of ranibizumab or bevacizumab at baseline, we applied machine learning models for predicting the burden of PRN treatment in terms of three outcomes: (1) whether patients would have few (≤8) PRN injections in two years; (2) whether patients would have many (≥19) PRN injections in two years; or (3) the total number of PRN injections in two years. Our prediction is for PRN injections during a two-year period since the CATT participants randomized to PRN treatment regimen were treated and followed-up for two years following the standardized clinical trial protocol.<xref rid="bib4" ref-type="bibr"><sup>4</sup></xref><sup>,</sup><xref rid="bib5" ref-type="bibr"><sup>5</sup></xref> Other comparable studies also used a follow-up period of one to two years.<xref rid="bib12" ref-type="bibr"><sup>12</sup></xref><sup>–</sup><xref rid="bib15" ref-type="bibr"><sup>15</sup></xref> We prespecified eight PRN injections in two years as the upper bound for having few injections, as that would be equivalent to a rate of at most one injection per quarter. We also prespecified 19 PRN injections in two years as the cutoff for having many injections because the range of 19 injections to a maximum of 26 injections is equivalent to the range for few injections of a minimum of one injection to eight injections.</p>
+                <p>We applied three machine learning models: (1) the support-vector machine (SVM),<xref rid="bib20" ref-type="bibr"><sup>20</sup></xref> (2) random forest,<xref rid="bib21" ref-type="bibr"><sup>21</sup></xref> or (3) extreme gradient boosting (XGBoost).<xref rid="bib22" ref-type="bibr"><sup>22</sup></xref> We selected these models because they are among the most widely used and are all capable of making predictions for both classification and regression tasks. The SVM model is effective in transforming data to high-dimensional spaces to find a separation between different classes and to predict a continuous response variable with high generalization ability.<xref rid="bib20" ref-type="bibr"><sup>20</sup></xref> Random forest models use an ensemble of tree predictors that improves overall results and can prevent overfitting. Random forests have also already been demonstrated to be able to predict levels of treatment demand and the number of injections nAMD patients would receive.<xref rid="bib12" ref-type="bibr"><sup>12</sup></xref><sup>–</sup><xref rid="bib15" ref-type="bibr"><sup>15</sup></xref> The XGBoost model makes use of gradient tree boosting with an ensemble of tree predictors like the random forest model but is trained in an additive manner. It has achieved considerable success in machine learning competitions, including Kaggle, and can be applied to a broad range of problems.<xref rid="bib22" ref-type="bibr"><sup>22</sup></xref></p>
+                <p>For applying machine learning models to the CATT data, we split the data into a training dataset (80% of all samples) for training machine learning models and a test dataset (20% of all samples) for final validation of the best machine learning model identified from the training dataset. We trained machine learning models using participants’ features available up to four different time points: baseline, week 4, week 8, and week 12. The data available at baseline included demographics, clinical characteristics, randomized drug group (ranibizumab or bevacizumab), VA at study eye and fellow eye, qualitative and quantitative assessment of lesion characteristics in fundus photos and fluorescein angiograms, and OCT features including presence and location of fluid and thickness. The machine learning models for prediction at weeks 4, 8, and 12 used all the baseline data, and additional data available up to that week (OCT data, VA, and the number of PRN injections up to that week). The data used for machine learning modelling at each of the four time points is included in <xref rid="tvst-12-1-18_s001" ref-type="supplementary-material">Supplementary Table S1</xref>.</p>
+                <p>For each time point, three of each type of machine learning model (SVM, random forest, XGBoost) were trained for predicting each of three outcomes (one for predicting few injections, one for predicting many injections, and one for predicting the total number of injections), for a total of nine unique models at each time point. We performed 10-fold cross-validation using the training dataset for tuning the hyperparameters of our machine learning models. In 10-fold cross-validation at each time point, the training dataset is first divided into 10 nonoverlapping subsets of approximately equal size. Each subset is selected as a validation dataset, and the remaining nine subsets are used to train a model. This model is used to predict on the validation dataset, and this process occurs 10 times, one for each possible validation dataset across the 10 folds, with the mean performance from 10 folds used for model evaluation. This process was repeated for many combinations of hyperparameters to determine the best set of hyperparameters for each model. We tuned hyperparameters based on optimization of the F1 score (the harmonic mean of recall and precision) to train the classification models for predicting whether patients had few and many injections. For the regression models for predicting total number of injections, we tuned hyperparameters based on the optimization of <italic toggle="yes">R</italic><sup>2</sup> (a measure for quantifying the amount of variation in number of injections explained by the predictors). Once the hyperparameters were selected in this way, one final model can be fit on the entire training dataset available at each time point using these hyperparameters.</p>
+                <p>Based on the 10-fold cross-validation results of the machine learning models (SVM, random forest, XGBoost), the best model was selected for final validation on the test dataset. The primary measures for assessing machine learning model performance in the training dataset and test dataset were the AUC for predicting low and high numbers of PRN injections, and <italic toggle="yes">R</italic><sup>2</sup> and mean absolute error (MAE) for prediction of the total number of PRN injections in two years.</p>
+                <p>The importance of each feature was quantified by the permutation importance, defined by the decrease in the model's AUC for classification and <italic toggle="yes">R</italic><sup>2</sup> for regression, after shuffling the feature.<xref rid="bib21" ref-type="bibr"><sup>21</sup></xref> Feature importance was evaluated using both the training dataset and test dataset for the best machine learning model identified from cross-validation in the training dataset.</p>
+                <p>All of the machine learning models were implemented using Python 3.9 and its open-source package scikit-learn version 1.1.1. The code for this machine learning analysis can be provided on request to the authors.</p>
+              </sec>
+            </sec>
+            <sec sec-type="results" id="sec3">
+              <title>Results</title>
+              <sec id="sec3-1">
+                <title>PRN Cohort</title>
+                <p>Among 598 CATT participants randomized to PRN treatment with ranibizumab or bevacizumab at baseline, 497 (83.1%) participants were eligible for this analysis. Participants were excluded from analysis because of death (n = 40), not in the second year of the study (n = 21), treatment futility (n = 6), and missed visits or not treated because of contraindications in more than six out of 26 study visits in two years (n = 34).</p>
+                <p>Among the 497 participants eligible for analysis, the total number injections over two years (out of 26 maximum injections) ranged from one to 26 injections (median = 13) with a mean (standard deviation) of 13.4 (6.8). In two years, 143 patients (28.8%) had eight or fewer injections, 224 (45.1%) had nine to 18 injections, and 130 (26.2%) had 19 or more injections. Among the 497 eligible patients, four patients did not have baseline OCT grading data because of poor image quality and thus were excluded from the machine learning analysis.</p>
+              </sec>
+              <sec id="sec3-2">
+                <title>Cross-Validation for Predicting PRN Injections in 2 Years in Training Dataset</title>
+                <p>We evaluated SVM, random forest, and XGBoost machine learning models for predicting few (≤8) injections, many (≥19) injections, and the total number of injections in two years. The mean results from 10-fold cross-validation of each of these models in the training dataset for predicting at baseline, week 4, week 8, and week 12 are presented in <xref rid="tbl1" ref-type="table">Table 1</xref> and <xref rid="tvst-12-1-18_s001" ref-type="supplementary-material">Supplementary Figure S1</xref>.</p>
+                <table-wrap position="float" content-type="5col" id="tbl1">
+                  <label>Table 1.</label>
+                  <caption>
+                    <p>Tenfold Cross-Validation Results With Mean and SD for Predicting PRN Injections in Two Years Using Demographic and Ocular Characteristics Available at Baseline, Week 4, Week 8, and Week 12 in the Training Dataset</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <colgroup span="1">
+                      <col align="left" span="1"/>
+                      <col align="char" char="." span="1"/>
+                      <col align="char" char="." span="1"/>
+                      <col align="char" char="." span="1"/>
+                      <col align="char" char="." span="1"/>
+                    </colgroup>
+                    <thead>
+                      <tr>
+                        <th rowspan="1" colspan="1"/>
+                        <th align="center" rowspan="1" colspan="1">Baseline</th>
+                        <th align="center" rowspan="1" colspan="1">Week 4</th>
+                        <th align="center" rowspan="1" colspan="1">Week 8</th>
+                        <th align="center" rowspan="1" colspan="1">Week 12</th>
+                      </tr>
+                      <tr>
+                        <th rowspan="1" colspan="1">Model</th>
+                        <th align="center" rowspan="1" colspan="1">(n = 393)<xref rid="tb1fn2" ref-type="table-fn"><sup>*</sup></xref></th>
+                        <th align="center" rowspan="1" colspan="1">(n = 387)<xref rid="tb1fn2" ref-type="table-fn"><sup>*</sup></xref></th>
+                        <th align="center" rowspan="1" colspan="1">(n = 374)<xref rid="tb1fn2" ref-type="table-fn"><sup>*</sup></xref></th>
+                        <th align="center" rowspan="1" colspan="1">(n = 352)<xref rid="tb1fn2" ref-type="table-fn"><sup>*</sup></xref></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td rowspan="1" colspan="1">AUC for predicting few (≤8) PRN injections in two years, mean (SD)</td>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> SVM</td>
+                        <td rowspan="1" colspan="1">0.64 (0.07)</td>
+                        <td rowspan="1" colspan="1">0.72 (0.08)</td>
+                        <td rowspan="1" colspan="1">0.78 (0.07)</td>
+                        <td rowspan="1" colspan="1">0.82 (0.06)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> Random Forest</td>
+                        <td rowspan="1" colspan="1">0.65 (0.06)</td>
+                        <td rowspan="1" colspan="1">0.69 (0.07)</td>
+                        <td rowspan="1" colspan="1">0.75 (0.10)</td>
+                        <td rowspan="1" colspan="1">0.81 (0.07)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> XGBoost</td>
+                        <td rowspan="1" colspan="1">0.65 (0.07)</td>
+                        <td rowspan="1" colspan="1">0.70 (0.08)</td>
+                        <td rowspan="1" colspan="1">0.76 (0.08)</td>
+                        <td rowspan="1" colspan="1">0.79 (0.07)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">AUC for predicting many (≥19) PRN injections in two years, mean (SD)</td>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> SVM</td>
+                        <td rowspan="1" colspan="1">0.70 (0.06)</td>
+                        <td rowspan="1" colspan="1">0.77 (0.08)</td>
+                        <td rowspan="1" colspan="1">0.78 (0.09)</td>
+                        <td rowspan="1" colspan="1">0.81 (0.09)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> Random Forest</td>
+                        <td rowspan="1" colspan="1">0.63 (0.08)</td>
+                        <td rowspan="1" colspan="1">0.68 (0.09)</td>
+                        <td rowspan="1" colspan="1">0.75 (0.07)</td>
+                        <td rowspan="1" colspan="1">0.79 (0.05)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> XGBoost</td>
+                        <td rowspan="1" colspan="1">0.63 (0.10)</td>
+                        <td rowspan="1" colspan="1">0.69 (0.06)</td>
+                        <td rowspan="1" colspan="1">0.78 (0.07)</td>
+                        <td rowspan="1" colspan="1">0.80 (0.05)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"><italic toggle="yes">R</italic><sup>2</sup> for predicting total number of PRN injections in two years, mean (SD)</td>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> SVM</td>
+                        <td rowspan="1" colspan="1">0.06 (0.06)</td>
+                        <td rowspan="1" colspan="1">0.20 (0.07)</td>
+                        <td rowspan="1" colspan="1">0.30 (0.16)</td>
+                        <td rowspan="1" colspan="1">0.35 (0.18)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> Random Forest</td>
+                        <td rowspan="1" colspan="1">0.10 (0.07)</td>
+                        <td rowspan="1" colspan="1">0.22 (0.08)</td>
+                        <td rowspan="1" colspan="1">0.31 (0.16)</td>
+                        <td rowspan="1" colspan="1">0.36 (0.17)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> XGBoost</td>
+                        <td rowspan="1" colspan="1">0.03 (0.17)</td>
+                        <td rowspan="1" colspan="1">0.20 (0.14)</td>
+                        <td rowspan="1" colspan="1">0.31 (0.15)</td>
+                        <td rowspan="1" colspan="1">0.34 (0.21)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">Mean absolute error for predicting total number of PRN injections in two years, mean (SD)</td>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> SVM</td>
+                        <td rowspan="1" colspan="1">5.76 (0.69)</td>
+                        <td rowspan="1" colspan="1">5.27 (0.62)</td>
+                        <td rowspan="1" colspan="1">4.70 (0.58)</td>
+                        <td rowspan="1" colspan="1">4.45 (0.54)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> Random Forest</td>
+                        <td rowspan="1" colspan="1">5.59 (0.63)</td>
+                        <td rowspan="1" colspan="1">5.17 (0.60)</td>
+                        <td rowspan="1" colspan="1">4.59 (0.48)</td>
+                        <td rowspan="1" colspan="1">4.58 (0.45)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> XGBoost</td>
+                        <td rowspan="1" colspan="1">5.59 (0.70)</td>
+                        <td rowspan="1" colspan="1">5.09 (0.75)</td>
+                        <td rowspan="1" colspan="1">4.61 (0.46)</td>
+                        <td rowspan="1" colspan="1">4.48 (0.52)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="tb1fn1">
+                      <p>SD, standard deviation.</p>
+                    </fn>
+                    <fn id="tb1fn2">
+                      <label>*</label>
+                      <p>Patients with incomplete data at the specified time point were not included.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+                <p>For predicting few (≤8) injections, the mean AUC from the SVM model increases from 0.64 for prediction at baseline, 0.72 at week 4, 0.78 at week 8, and 0.82 at week 12. A similar increase in mean AUC was seen for prediction using the random forest (0.65 at baseline to 0.81 at week 12) and the XGBoost (0.65 at baseline to 0.79 at week 12) (<xref rid="tvst-12-1-18_s001" ref-type="supplementary-material">Supplementary Fig. S1A</xref>).</p>
+                <p>For predicting many (≥19) injections, the mean AUC from the SVM model increases from 0.70 for prediction at baseline, 0.77 at week 4, 0.78 at week 8, and 0.81 at week 12. The mean AUCs from the random forest (0.63 at baseline to 0.79 at week 12) and XGBoost (0.63 at baseline to 0.80 at week 12) were lower but showed similar trends of increasing over time (<xref rid="tvst-12-1-18_s001" ref-type="supplementary-material">Supplementary Fig. S1B</xref>).</p>
+                <p>The SVM model provides the highest mean AUCs in cross-validation for predicting both few injections (AUC = 0.82) and many injections (AUC = 0.81) by using data up to week 12. The ROC curves from each individual fold of the cross-validation for the SVM model in the training data at all four time points are shown in <xref rid="tvst-12-1-18_s001" ref-type="supplementary-material">Supplementary Figure S2</xref>.</p>
+                <p>For the prediction of the total number of PRN injections in two years using only baseline data, the <italic toggle="yes">R</italic><sup>2</sup> is highest from the random forest model (0.10), and lowest from the XGBoost model (0.03). The <italic toggle="yes">R</italic><sup>2</sup> from the three machine learning models increases over time, with <italic toggle="yes">R</italic><sup>2</sup> of 0.20-0.22 for the week 4 prediction, 0.30-0.31 for the week 8 prediction, and 0.34-0.36 for the week 12 prediction (<xref rid="tvst-12-1-18_s001" ref-type="supplementary-material">Supplementary Fig. S1C</xref>). The MAE for the baseline prediction is 5.76 injections for the SVM model and 5.59 injections for both the random forest and XGBoost models. The MAE decreases over time, reaching 4.45 injections in the SVM model, 4.48 injections in the XGBoost model, and 4.58 injections in the random forest model for predictions using data available up to 12 weeks (<xref rid="tvst-12-1-18_s001" ref-type="supplementary-material">Supplementary Fig. S1D</xref>).</p>
+                <p>As shown in <xref rid="tbl1" ref-type="table">Table 1</xref>, different numbers of patients were available at each time point in this analysis due to missing data or loss to follow-up, which may bias our evaluation of the performances of machine learning models over time. We performed a sensitivity analysis by restricting to 352 patients who had complete data at each of the time points (baseline and weeks 4, 8, and 12). As shown in <xref rid="tvst-12-1-18_s001" ref-type="supplementary-material">Supplementary Table S2</xref>, results consistently demonstrated improved model performance at later time points in line with the main cross-validation results in <xref rid="tbl1" ref-type="table">Table 1</xref> that consider all patients with complete data at a specific time point.</p>
+              </sec>
+              <sec sec-type="results" id="sec3-3">
+                <title>Results from Model Validation on Test Dataset</title>
+                <p>From the three machine learning models, the SVM model was selected for final validation on the test dataset, given its better prediction performance than the random forest and XGBoost models at 12 weeks, with superior performance in the classification tasks and similar prediction in the regression task at other time points compared to the random forest and XGBoost models in 10-fold cross-validation.</p>
+                <p>The SVM prediction performance in the test dataset was overall consistent with the results in the training dataset (<xref rid="tbl2" ref-type="table">Table 2</xref>, <xref rid="tvst-12-1-18_s001" ref-type="supplementary-material">Supplementary Fig. S3</xref>). The model's best performance occurred using data up to week 12, with AUC values of 0.77 for the prediction of few injections (<xref rid="fig1" ref-type="fig">Fig. 1</xref>A, <xref rid="tvst-12-1-18_s001" ref-type="supplementary-material">Supplementary Fig. S3A</xref>) and 0.82 for predicting many injections (<xref rid="fig1" ref-type="fig">Fig. 1</xref>B, <xref rid="tvst-12-1-18_s001" ref-type="supplementary-material">Supplementary Fig. S3B</xref>). For predicting the total number of injections in two years, the SVM model achieved its greatest <italic toggle="yes">R</italic><sup>2</sup> of 0.44 (<xref rid="tvst-12-1-18_s001" ref-type="supplementary-material">Supplementary Fig. S3C</xref>) and its minimum MAE of 3.92 injections (<xref rid="tvst-12-1-18_s001" ref-type="supplementary-material">Supplementary Fig. S3D</xref>) when using data up to week 12, consistent with the cross-validation results. <xref rid="tvst-12-1-18_s001" ref-type="supplementary-material">Supplementary Figure S4</xref> shows the agreement between the observed and predicted number of injections in the test dataset using data up to week 12.</p>
+                <table-wrap position="float" content-type="5col" id="tbl2">
+                  <label>Table 2.</label>
+                  <caption>
+                    <p>Final Validation Results With SD From 1000-Fold Bootstrapping for the Selected SVM Model for Predicting Number of PRN Injections in Two Years Using Demographic and Ocular Characteristics Available at Baseline, Week 4, Week 8, and Week 12 in the Test Dataset</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <colgroup span="1">
+                      <col align="left" span="1"/>
+                      <col align="char" char="." span="1"/>
+                      <col align="char" char="." span="1"/>
+                      <col align="char" char="." span="1"/>
+                      <col align="char" char="." span="1"/>
+                    </colgroup>
+                    <thead>
+                      <tr>
+                        <th rowspan="1" colspan="1"/>
+                        <th align="center" rowspan="1" colspan="1">Baseline</th>
+                        <th align="center" rowspan="1" colspan="1">Week 4</th>
+                        <th align="center" rowspan="1" colspan="1">Week 8</th>
+                        <th align="center" rowspan="1" colspan="1">Week 12</th>
+                      </tr>
+                      <tr>
+                        <th rowspan="1" colspan="1"/>
+                        <th align="center" rowspan="1" colspan="1">(n = 100)<xref rid="tb2fn2" ref-type="table-fn"><sup>*</sup></xref></th>
+                        <th align="center" rowspan="1" colspan="1">(n = 98)<xref rid="tb2fn2" ref-type="table-fn"><sup>*</sup></xref></th>
+                        <th align="center" rowspan="1" colspan="1">(n = 95)<xref rid="tb2fn2" ref-type="table-fn"><sup>*</sup></xref></th>
+                        <th align="center" rowspan="1" colspan="1">(n = 89)<xref rid="tb2fn2" ref-type="table-fn"><sup>*</sup></xref></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td rowspan="1" colspan="1">AUC (Bootstrapped SD) for predicting few (≤8) PRN injections in two years</td>
+                        <td rowspan="1" colspan="1">0.46 (0.07)</td>
+                        <td rowspan="1" colspan="1">0.63 (0.07)</td>
+                        <td rowspan="1" colspan="1">0.70 (0.07)</td>
+                        <td rowspan="1" colspan="1">0.77 (0.07)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">AUC (Bootstrapped SD) for predicting many (≥19) PRN injections in two years</td>
+                        <td rowspan="1" colspan="1">0.57 (0.08)</td>
+                        <td rowspan="1" colspan="1">0.72 (0.06)</td>
+                        <td rowspan="1" colspan="1">0.79 (0.05)</td>
+                        <td rowspan="1" colspan="1">0.82 (0.04)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"><italic toggle="yes">R</italic><sup>2</sup> (Bootstrapped SD) for predicting total number of PRN injections in two years</td>
+                        <td rowspan="1" colspan="1">0.01 (0.07)</td>
+                        <td rowspan="1" colspan="1">0.16 (0.08)</td>
+                        <td rowspan="1" colspan="1">0.25 (0.10)</td>
+                        <td rowspan="1" colspan="1">0.44 (0.08)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">Mean Absolute Error (Bootstrapped SD) for predicting total number of PRN injections in two years</td>
+                        <td rowspan="1" colspan="1">5.23 (0.35)</td>
+                        <td rowspan="1" colspan="1">4.84 (0.33)</td>
+                        <td rowspan="1" colspan="1">4.41 (0.34)</td>
+                        <td rowspan="1" colspan="1">3.92 (0.31)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="tb2fn1">
+                      <p>SD, standard deviation.</p>
+                    </fn>
+                    <fn id="tb2fn2">
+                      <label>*</label>
+                      <p>Patients with incomplete data at the specified time point were not included.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+                <fig position="float" id="fig1">
+                  <label>Figure 1.</label>
+                  <caption>
+                    <p>ROC curves for the selected SVM model for predicting (A) few (≤8) and (B) many (≥19) PRN injections in 2 years using demographic and ocular characteristics available at baseline (n = 100), week 4 (n = 98), week 8 (n = 95), and week 12 (n = 89) in the test dataset.</p>
+                  </caption>
+                  <graphic xlink:href="tvst-12-1-18-f001" position="float"/>
+                </fig>
+              </sec>
+              <sec id="sec3-4">
+                <title>Feature Importance</title>
+                <p>From the SVM model, the top 10 important features based on their relative importance (calculated by dividing each feature importance by the maximum feature importance) in the training dataset are displayed in <xref rid="fig2" ref-type="fig">Figure 2</xref> for the baseline and week 12 analyses. Relative feature importance is shown in <xref rid="tvst-12-1-18_s001" ref-type="supplementary-material">Supplementary Figure S5</xref> for week 4 and week 8 analyses using the training dataset, and in <xref rid="tvst-12-1-18_s001" ref-type="supplementary-material">Supplementary Figure S6</xref> for baseline and weeks 4, 8, and 12 in the test dataset. Fluid presence (intraretinal, subretinal, or sub-RPE) assessed in OCT was frequently among the features with the greatest importance, with baseline lesion characteristics and the number of injections received up to the specified time point also having relatively high importance. Baseline lesion characteristics include MNV lesion area, lesion location (subfoveal or non-subfoveal), lesion composition (considering lesions such as MNV, hemorrhage, blocked fluorescence, and serous retinal pigment epithelial detachment), and lesion type (occult only, minimally classic, or predominantly classic).</p>
+                <fig position="float" id="fig2">
+                  <label>Figure 2.</label>
+                  <caption>
+                    <p>Relative feature importance for the selected SVM model for predicting PRN injections in 2 years using demographic and ocular characteristics available at baseline (n = 393) and week 12 (n = 352) in the training dataset. The top 10 features by relative importance are displayed for the baseline analyses (A, few (≤8) injections; B, many (≥19) injections; C, number of injections) and week 12 analyses (D, few injections; E, many injections; F, number of injections).</p>
+                  </caption>
+                  <graphic xlink:href="tvst-12-1-18-f002" position="float"/>
+                </fig>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="sec4">
+              <title>Discussion</title>
+              <p>In this secondary analysis of CATT data, we assessed the ability of multiple machine learning models for predicting anti-VEGF treatment demand of nAMD patients including few (≤8) anti-VEGF injections, many (≥19) injections, and the total number of injections in two years. Notably, the rich CATT data enabled us to include additional data beyond OCT features in our analysis that are also generally available in real-world settings, such as demographics, baseline lesion features in fundus photographs, VA, treatment trajectory in the loading phase (first three months), and other clinical variables. Our results showed that machine learning models using baseline data did not provide good prediction for the level of treatment demand or number of injections, but the inclusion of data in the first three months of anti-VEGF treatment lead to substantial improvement in prediction performance.</p>
+              <p>Understanding the injection demand in terms of whether patients will receive few or many injections, along with measures of confidence for these values, is valuable for broadly gauging required treatment frequency for patients and providers in everyday clinical practice. Although providing a probability for every possible value for potential number of injections over the course of a 2-year period would be overwhelming and less practical in the clinical setting, we have predicted the precise number of injections as a supplementary piece of information for even further detail. Not only could this information be of general interest to patients, but with these predictions obtained in an objective manner, patients and providers can also better plan around the projected, long-term treatment course necessary to achieve the desired therapeutic effect, which may lead to the better treatment adherence. Furthermore, this information enables physicians and patients to consider other treatment options early-on if the expected anti-VEGF injection burden exceeds what the patient would be willing to tolerate.</p>
+              <p>Of the three types of machine learning models on which we trained (SVM, random forest, XGBoost), we selected the SVM model to evaluate on the test dataset for final validation. Although the SVM model is relatively simple, it allows for high generalization ability by controlling the trade-off between complexity and error rate, making it a useful model for classification and regression tasks.<xref rid="bib20" ref-type="bibr"><sup>20</sup></xref> We found that the final validation results from the test dataset are consistent with the cross-validation results in the training dataset. The SVM model ultimately achieved strong cross-validation and final validation results when evaluated in the context of existing studies that trained machine learning models for similar tasks.<xref rid="bib12" ref-type="bibr"><sup>12</sup></xref><sup>–</sup><xref rid="bib15" ref-type="bibr"><sup>15</sup></xref></p>
+              <p>Using data from 317 participants of the HARBOR trial (ClinicalTrials.gov number, NCT00891735), Bogunović et al.<xref rid="bib12" ref-type="bibr"><sup>12</sup></xref> evaluated random forest models for predicting low treatment demand (≤5 injections) and high treatment demand (≥16 injections) with ranibizumab PRN for nAMD in two years. When trained primarily on patients’ OCT features from the first two months in the clinical trial, these models achieved AUCs of 0.70 and 0.77 from 10-fold cross-validation for predicting low and high treatment demand, respectively. However, their model performance was not validated on a separate test dataset.</p>
+              <p>Using real-world data, Gallardo et al.<xref rid="bib13" ref-type="bibr"><sup>13</sup></xref> similarly trained random forest models for predicting the treatment demand for patients on a T&amp;E regimen of anti-VEGF therapy for retinal diseases including nAMD. These models using demographic information and OCT morphological features from the first three visits for 340 nAMD patients achieved AUCs of 0.79 from 10-fold cross-validation for predicting both low (average treatment interval of ≥10 weeks) and high (average treatment interval of ≤5 weeks) treatment demand for nAMD patients in one year. Similarly, the performance of these models was not validated on a separate test dataset.</p>
+              <p>Using features extracted from real-world OCT scans of 96 nAMD patients treated with PRN or T&amp;E protocols, Pfau et al.<xref rid="bib14" ref-type="bibr"><sup>14</sup></xref> trained several machine learning models (LASSO, principal component, random forest, NGBoost), to predict the total number of injections, as well as to predict low (≤4 injections) and high (≥10 injections) treatment demand in one year. The random forest model yielded the greatest <italic toggle="yes">R</italic><sup>2</sup> of 0.39 from nested cross-validation. The random forest and NGBoost models had the greatest AUCs of 0.68 for predicting low treatment demand, whereas the principal component and random forest models had the highest AUCs of 0.70 for predicting high treatment demand.</p>
+              <p>Additionally, Romo-Bucheli et al.<xref rid="bib15" ref-type="bibr"><sup>15</sup></xref> have even explored an end-to-end deep learning architecture for predicting anti-VEGF treatment requirements from longitudinal retinal OCT scans for nAMD patients. After being trained using OCT scans from the first two months after initial treatment for 281 patients treated PRN, in the test dataset of 69 patients this approach yielded AUCs of 0.85 and 0.81 in predicting low (≤5 injections) and high (≥16 injections) treatment demand, as well as an <italic toggle="yes">R</italic><sup>2</sup> of 0.22 for total number of injections in two years. Although this architecture performs well for predicting low and high treatment demands and is not limited to using only the prespecified extracted features from OCT scans, it does require that patients’ OCT scans be available to make its predictions after being trained through a more computationally intensive process. Additionally, this approach only considers features from OCT scans and does not consider other easily available data such as demographics, VA, past treatment trajectory, and other clinical characteristics.</p>
+              <p>Although deep learning, and artificial neural networks more generally, are very powerful modeling tools, there are several reasons why we did not evaluate them in our study because they are not as well suited for our analysis. Neural networks are typically used for more complex tasks, such as those with much larger training datasets or for use with image data.<xref rid="bib15" ref-type="bibr"><sup>15</sup></xref><sup>,</sup><xref rid="bib23" ref-type="bibr"><sup>23</sup></xref> Additionally, neural networks can be likened to a black-box model that complicates interpretation and ascertaining feature importance.<xref rid="bib15" ref-type="bibr"><sup>15</sup></xref> Understanding feature importance was a valuable aspect of our analysis, as we used the rich CATT data with many predictors not previously evaluated for the prediction of anti-VEGF treatment demand, including MNV lesion features, VA, and anti-VEGF injection trajectory during the loading dose phase. Furthermore, our relatively simple SVM model that incorporates these additional features achieved similar AUCs for predicting low and high injections, as well as a larger <italic toggle="yes">R</italic><sup>2</sup> for predicting the total number of injections compared to Romo's more computationally intensive deep learning architecture.<xref rid="bib15" ref-type="bibr"><sup>15</sup></xref> Nonetheless, further evaluation of the ability of neural networks to predict anti-VEGF treatment demand would be valuable for future research, especially for cases in which more data are available for training these models.</p>
+              <p>In comparison to previous studies, our SVM model predictions at 12 weeks achieved highest AUCs up to 0.82 and 0.81 for predicting few and many PRN injections, respectively, and an <italic toggle="yes">R</italic><sup>2</sup> up to 0.35 for predicting the total number of PRN injections in two years based on the cross-validation results. Similarly, when evaluated on the test dataset for final validation, our SVM model achieved AUCs up to 0.77 and 0.82, respectively, for predicting few and many injections, and an <italic toggle="yes">R</italic><sup>2</sup> of 0.44 for predicting the total number of PRN injections in two years. The similar AUCs and improved <italic toggle="yes">R</italic><sup>2</sup> of our models for long-term PRN injection prediction when compared to those achieved by Bogunović et al.,<xref rid="bib12" ref-type="bibr"><sup>12</sup></xref> Gallardo et al.,<xref rid="bib13" ref-type="bibr"><sup>13</sup></xref> Pfau et al.,<xref rid="bib14" ref-type="bibr"><sup>14</sup></xref> and Romo-Bucheli et al.<xref rid="bib15" ref-type="bibr"><sup>15</sup></xref> support that models like ours can supplement those from the previous studies in clinical application with predictive power gained from considering additional readily available data beyond those just from OCT images. Predictors from the CATT data that we used in training our models, including lesion features, VA, and treatment trajectory, can be easily obtained and have the potential to enhance prediction accuracy in the clinical setting.</p>
+              <p>Based on both our cross-validation and final validation results, the SVM model was able to better predict whether a patient would need many injections than whether a patient would need few injections at earlier time points. The SVM model achieved a mean AUC for cross-validation and AUC for final validation of at least 0.70 using data available at baseline and at week 4, respectively, for predicting many injections, but required an additional four weeks of data to achieve similar performance for predicting few injections. However, when using data available at 12 weeks, the model's performances for predicting few and many injections were more similar.</p>
+              <p>For predicting the total number of injections in the two years, the SVM model, like the other models, performed poorly using data at baseline. Adding features from subsequent weeks allowed the models to substantially improve their predictions, increasing the mean <italic toggle="yes">R</italic><sup>2</sup> by almost 0.30 in cross-validation when using the data up to the first 12 weeks. A more dramatic increase was seen in final validation from 0.01 using baseline data to 0.44 using week 12 data, underscoring the value of the patients’ features collected over time for predicting the number of injections. A similar improvement was observed in MAE between the SVM model trained only using baseline data and the SVM model trained using data available at week 12.</p>
+              <p>The ability to adequately predict anti-VEGF treatment demand for nAMD patients can have important implications for clinical practice. In the real-world setting, patients are typically treated using PRN or T&amp;E protocols for nAMD, which have shown promise in improving patients’ VA with a reduced number of visits and injections.<xref rid="bib24" ref-type="bibr"><sup>24</sup></xref> Given good predictions from using the first three months of data for injection demand patients may need in the long-term, it may be possible to refine a treatment plan that has the potential to improve efficacy with fewer injections in the context of PRN and T&amp;E regimens, as well as to better set expectations for patients.</p>
+              <p>Our machine learning models provide measures of confidence (i.e., probability) for the classification of few or many injections as well, which can prove valuable in clinical decision-making. As an example, for one patient in the training dataset with 21 injections over two years, the random forest models in cross-validation using baseline data predicted the patient would have 14.6 injections, had a 21% probability of receiving few injections, and had a 33% probability of receiving many injections. The random forest models cross-validation predictions improved substantially when incorporating data up to week 12, predicting 20.5 injections, with a 3% probability of receiving few injections and a 77% probability of receiving many injections. Notably, this patient had injections at weeks 4, 8, and 12, in addition to their baseline injection. Although this patient had subretinal and intraretinal fluid on OCT at baseline, week 4, week 8, and week 12, this patient had no sub-RPE fluid at baseline and week 4 but did have sub-RPE fluid at weeks 8 and 12.</p>
+              <p>Determining the most important features used by machine learning models to make predictions also enables providers to consider these specific features when anticipating how individual patients may respond to anti-VEGF therapy. The SVM model indicates OCT features including intraretinal, subretinal, and sub-RPE fluid had high importance, along with MNV area, MNV lesion size, and the number of injections already received, suggesting that these features may help inform providers of how many injections their patients would require.</p>
+              <p>The strengths of our study include the large sample size, comprehensive high-quality CATT data for prediction, and using a test dataset for model validation that is entirely separate from the training dataset. One limitation of our study is that it relies on OCT grading data by trained readers, which is a manual process that requires expertise. However, other studies have demonstrated methods for automated extraction of information from OCT images to use in predicting the number of anti-VEGF injections nAMD patients require, including the Iowa Reference Algorithms and deep learning.<xref rid="bib12" ref-type="bibr"><sup>12</sup></xref><sup>–</sup><xref rid="bib15" ref-type="bibr"><sup>15</sup></xref> These methods can be used to obtain features for use in machine learning models to make these predictions, although the accuracy of the extraction process would need to be ensured. Another limitation of our study is its use of clinical trial data instead of real-world data, which tends to be more heterogenous. However, we have shown that the CATT data lends itself well to training machine learning models to predict the number of injections patients would need, which can be viewed as being more representative of an ideal case given the high-quality data generated from the controlled environment of a clinical trial. Furthermore, real-world data can be augmented with this CATT data to increase the sample size for training, which can theoretically improve the performance of machine learning models.</p>
+              <p>In conclusion, we have evaluated the ability of machine learning models to predict anti-VEFG treatment demand in two years for nAMD patients and assessed the importance of different features in making these predictions. We have shown the improvement in prediction using data from the first three months of injections (e.g., treatment in the loading dose phase). Importantly, our machine learning models incorporated easily available predictors beyond OCT characteristics, including demographics, treatment trajectory, lesion characteristics in fundus images, VA, and other clinical data. Our machine learning models have the potential for clinical use that would be beneficial to both physicians and patients for clinical decision-making. Our machine learning models may provide standardized tools for assessing the expected burden of anti-VEGF injections, equipping physicians and patients to plan the best treatment course that can be tailored at the individual level. Future works are needed to further validate the machine learning model on independent real-word data, as well as identify other useful predictors to enhance the prediction of anti-VEGF treatment demand, before implementation of such machine learning models in clinical settings.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Material</title>
+              <supplementary-material id="tvst-12-1-18_s001" position="float" content-type="local-data">
+                <caption>
+                  <title>Supplement 1</title>
+                </caption>
+                <media xlink:href="tvst-12-1-18_s001.pdf" id="d64e858" position="anchor"/>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <title>Acknowledgments</title>
+              <p>The authors thank Saahil Jain, Peter Richards, and Richard Kennedy who supported the machine learning analysis in this study.</p>
+              <p>Supported by National Eye Institute Grant P30 EY01583 and Research to Prevent Blindness.</p>
+              <p content-type="COI-statement">Disclosure: <bold>R.S. Chandra</bold>, Sumitovant Biopharma (E, C), Roivant Sciences (I); <bold>G. Ying</bold>, None</p>
+            </ack>
+            <ref-list>
+              <title>References</title>
+              <ref id="bib1">
+                <label>1.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Congdon</surname><given-names>N</given-names></string-name>, <string-name><surname>O'Colmain</surname><given-names>B</given-names></string-name>, <string-name><surname>Klaver</surname><given-names>CC</given-names></string-name>, <etal>et al</etal>.</person-group><article-title>Causes and prevalence of visual impairment among adults in the United States</article-title>. <source><italic toggle="yes">Arch Ophthalmol</italic></source>. <year>2004</year>; <volume>122</volume>: <fpage>477</fpage>–<lpage>485</lpage>.<pub-id pub-id-type="pmid">15078664</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib2">
+                <label>2.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Pascolini</surname><given-names>D</given-names></string-name>, <string-name><surname>Mariotti</surname><given-names>SP</given-names></string-name>, <string-name><surname>Pokharel</surname><given-names>GP</given-names></string-name>, <etal>et al</etal>.</person-group><article-title>2002 global update of available data on visual impairment: a compilation of population-based prevalence studies</article-title>. <source><italic toggle="yes">Ophthalmic Epidemiol</italic></source>. <year>2004</year>; <volume>11</volume>: <fpage>67</fpage>–<lpage>115</lpage>.<pub-id pub-id-type="pmid">15255026</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib3">
+                <label>3.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Han</surname><given-names>X</given-names></string-name>, <string-name><surname>Chen</surname><given-names>Y</given-names></string-name>, <string-name><surname>Gordon</surname><given-names>I</given-names></string-name>, <etal>et al</etal>.</person-group><article-title>A systematic review of clinical practice guidelines for age-related macular degeneration [published online ahead of print April 13, 2022]</article-title>. <source><italic toggle="yes">Ophthalmic Epidemiol</italic></source>, <pub-id pub-id-type="doi">10.1080/09286586.2022.2059812</pub-id>.</mixed-citation>
+              </ref>
+              <ref id="bib4">
+                <label>4.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Martin</surname><given-names>DF</given-names></string-name>, <string-name><surname>Maguire</surname><given-names>MG</given-names></string-name>, <string-name><surname>Ying</surname><given-names>GS</given-names></string-name>, <string-name><surname>Grunwald</surname><given-names>JE</given-names></string-name>, <string-name><surname>Fine</surname><given-names>SL</given-names></string-name>, <string-name><surname>Jaffe</surname><given-names>GJ.</given-names></string-name></person-group><article-title>Ranibizumab and bevacizumab for neovascular age-related macular degeneration</article-title>. <source><italic toggle="yes">N Engl J Med</italic></source>. <year>2011</year>; <volume>364</volume>: <fpage>1897</fpage>–<lpage>1908</lpage>.<pub-id pub-id-type="pmid">21526923</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib5">
+                <label>5.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Martin</surname><given-names>DF</given-names></string-name>, <string-name><surname>Maguire</surname><given-names>MG</given-names></string-name>, <string-name><surname>Fine</surname><given-names>SL</given-names></string-name>, <etal>et al</etal>.</person-group><article-title>Ranibizumab and bevacizumab for treatment of neovascular age-related macular degeneration: two-year results</article-title>. <source><italic toggle="yes">Ophthalmology</italic></source>. <year>2012</year>; <volume>119</volume>: <fpage>1388</fpage>–<lpage>1398</lpage>.<pub-id pub-id-type="pmid">22555112</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib6">
+                <label>6.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Rosenberg</surname><given-names>D</given-names></string-name>, <string-name><surname>Deonarain</surname><given-names>DM</given-names></string-name>, <string-name><surname>Gould</surname><given-names>J</given-names></string-name>, <etal>et al</etal>.</person-group><article-title>Efficacy, safety, and treatment burden of treat-and-extend versus alternative anti-VEGF regimens for nAMD: a systematic review and meta-analysis [published online ahead of print April 8, 2022]</article-title>. <source><italic toggle="yes">Eye (Lond)</italic></source>, <pub-id pub-id-type="doi">10.1038/s41433-022-02020-7</pub-id>.</mixed-citation>
+              </ref>
+              <ref id="bib7">
+                <label>7.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Li</surname><given-names>E</given-names></string-name>, <string-name><surname>Donati</surname><given-names>S</given-names></string-name>, <string-name><surname>Lindsley</surname><given-names>KB</given-names></string-name>, <string-name><surname>Krzystolik</surname><given-names>MG</given-names></string-name>, <string-name><surname>Virgili</surname><given-names>G.</given-names></string-name></person-group><article-title>Treatment regimens for administration of anti-vascular endothelial growth factor agents for neovascular age-related macular degeneration</article-title>. <source><italic toggle="yes">Cochrane Database Syst Rev</italic></source>. <year>2020</year>; <volume>5</volume>: <fpage>CD012208</fpage>.<pub-id pub-id-type="pmid">32374423</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib8">
+                <label>8.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Mehta</surname><given-names>H</given-names></string-name>, <string-name><surname>Tufail</surname><given-names>A</given-names></string-name>, <string-name><surname>Daien</surname><given-names>V</given-names></string-name>, <etal>et al</etal>.</person-group><article-title>Real-world outcomes in patients with neovascular age-related macular degeneration treated with intravitreal vascular endothelial growth factor inhibitors</article-title>. <source><italic toggle="yes">Prog Retin Eye Res</italic></source>. <year>2018</year>; <volume>65</volume>: <fpage>127</fpage>–<lpage>146</lpage>.<pub-id pub-id-type="pmid">29305324</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib9">
+                <label>9.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Holz</surname><given-names>FG</given-names></string-name>, <string-name><surname>Korobelnik</surname><given-names>JF</given-names></string-name>, <string-name><surname>Lanzetta</surname><given-names>P</given-names></string-name>, <etal>et al</etal>.</person-group><article-title>The effects of a flexible visual acuity-driven ranibizumab treatment regimen in age-related macular degeneration: outcomes of a drug and disease model</article-title>. <source><italic toggle="yes">Invest Ophthalmol Vis Sci</italic></source>. <year>2010</year>; <volume>51</volume>: <fpage>405</fpage>–<lpage>412</lpage>.<pub-id pub-id-type="pmid">19661237</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib10">
+                <label>10.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ashraf</surname><given-names>M</given-names></string-name>, <string-name><surname>Souka</surname><given-names>A</given-names></string-name>, <string-name><surname>Adelman</surname><given-names>RA.</given-names></string-name></person-group><article-title>Age-related macular degeneration: using morphological predictors to modify current treatment protocols</article-title>. <source><italic toggle="yes">Acta Ophthalmol</italic></source>. <year>2018</year>; <volume>96</volume>: <fpage>120</fpage>–<lpage>133</lpage>.<pub-id pub-id-type="pmid">29130626</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib11">
+                <label>11.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kaiser</surname><given-names>SM</given-names></string-name>, <string-name><surname>Arepalli</surname><given-names>S</given-names></string-name>, <string-name><surname>Ehlers</surname><given-names>JP.</given-names></string-name></person-group><article-title>Current and future anti-VEGF agents for neovascular age-related macular degeneration</article-title>. <source><italic toggle="yes">J Exp Pharmacol</italic></source>. <year>2021</year>; <volume>13</volume>: <fpage>905</fpage>–<lpage>912</lpage>.<pub-id pub-id-type="pmid">34616189</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib12">
+                <label>12.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Bogunović</surname><given-names>H</given-names></string-name>, <string-name><surname>Waldstein</surname><given-names>SM</given-names></string-name>, <string-name><surname>Schlegl</surname><given-names>T</given-names></string-name>, <etal>et al</etal>.</person-group><article-title>Prediction of anti-VEGF treatment requirements in neovascular AMD using a machine learning approach</article-title>. <source><italic toggle="yes">Invest Ophthalmol Vis Sci</italic></source>. <year>2017</year>; <volume>58</volume>: <fpage>3240</fpage>–<lpage>3248</lpage>.<pub-id pub-id-type="pmid">28660277</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib13">
+                <label>13.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Gallardo</surname><given-names>M</given-names></string-name>, <string-name><surname>Munk</surname><given-names>MR</given-names></string-name>, <string-name><surname>Kurmann</surname><given-names>T</given-names></string-name>, <etal>et al</etal>.</person-group><article-title>Machine learning can predict anti-VEGF treatment demand in a treat-and-extend regimen for patients with neovascular AMD, DME, and RVO associated macular edema</article-title>. <source><italic toggle="yes">Ophthalmol Retina</italic></source>. <year>2021</year>; <volume>5</volume>: <fpage>604</fpage>–<lpage>624</lpage>.<pub-id pub-id-type="pmid">33971352</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib14">
+                <label>14.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Pfau</surname><given-names>M</given-names></string-name>, <string-name><surname>Sahu</surname><given-names>S</given-names></string-name>, <string-name><surname>Rupnow</surname><given-names>RA</given-names></string-name>, <etal>et al</etal>.</person-group><article-title>Probabilistic forecasting of anti-VEGF treatment frequency in neovascular age-related macular degeneration</article-title>. <source><italic toggle="yes">Transl Vis Sci Technol</italic></source>. <year>2021</year>; <volume>10</volume>(<issue>7</issue>): <fpage>30</fpage>.</mixed-citation>
+              </ref>
+              <ref id="bib15">
+                <label>15.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Romo-Bucheli</surname><given-names>D</given-names></string-name>, <string-name><surname>Schmidt-Erfurth</surname><given-names>U</given-names></string-name>, <string-name><surname>Bogunović</surname><given-names>H.</given-names></string-name></person-group><article-title>End-to-end deep learning model for predicting treatment requirements in neovascular AMD from longitudinal retinal OCT imaging</article-title>. <source><italic toggle="yes">IEEE J Biomed Health Inform</italic></source>. <year>2020</year>; <volume>24</volume>: <fpage>3456</fpage>–<lpage>3465</lpage>.<pub-id pub-id-type="pmid">32750929</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib16">
+                <label>16.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Folgar</surname><given-names>FA</given-names></string-name>, <string-name><surname>Jaffe</surname><given-names>GJ</given-names></string-name>, <string-name><surname>Ying</surname><given-names>G-S</given-names></string-name>, <string-name><surname>Maguire</surname><given-names>MG</given-names></string-name>, <string-name><surname>Toth</surname><given-names>CA.</given-names></string-name></person-group><article-title>Comparison of optical coherence tomography assessments in the comparison of age-related macular degeneration treatments trials</article-title>. <source><italic toggle="yes">Ophthalmology</italic></source>. <year>2014</year>; <volume>121</volume>: <fpage>1956</fpage>–<lpage>1965</lpage>.e2.<pub-id pub-id-type="pmid">24835760</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib17">
+                <label>17.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Grunwald</surname><given-names>JE</given-names></string-name>, <string-name><surname>Daniel</surname><given-names>E</given-names></string-name>, <string-name><surname>Ying</surname><given-names>GS</given-names></string-name>, <etal>et al</etal>.</person-group><article-title>Photographic assessment of baseline fundus morphologic features in the Comparison of Age-Related Macular Degeneration Treatments Trials</article-title>. <source><italic toggle="yes">Ophthalmology</italic></source>. <year>2012</year>; <volume>119</volume>: <fpage>1634</fpage>–<lpage>1641</lpage>.<pub-id pub-id-type="pmid">22512984</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib18">
+                <label>18.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Decroos</surname><given-names>FC</given-names></string-name>, <string-name><surname>Toth</surname><given-names>CA</given-names></string-name>, <string-name><surname>Stinnett</surname><given-names>SS</given-names></string-name>, <string-name><surname>Heydary</surname><given-names>CS</given-names></string-name>, <string-name><surname>Burns</surname><given-names>R</given-names></string-name>, <string-name><surname>Jaffe</surname><given-names>GJ.</given-names></string-name></person-group><article-title>Optical coherence tomography grading reproducibility during the Comparison of Age-related Macular Degeneration Treatments Trials</article-title>. <source><italic toggle="yes">Ophthalmology</italic></source>. <year>2012</year>; <volume>119</volume>: <fpage>2549</fpage>–<lpage>2557</lpage>.<pub-id pub-id-type="pmid">22939114</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib19">
+                <label>19.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Beck</surname><given-names>RW</given-names></string-name>, <string-name><surname>Moke</surname><given-names>PS</given-names></string-name>, <string-name><surname>Turpin</surname><given-names>AH</given-names></string-name>, <etal>et al</etal>.</person-group><article-title>A computerized method of visual acuity testing: adaptation of the early treatment of diabetic retinopathy study testing protocol</article-title>. <source><italic toggle="yes">Am J Ophthalmol</italic></source>. <year>2003</year>; <volume>135</volume>: <fpage>194</fpage>–<lpage>205</lpage>.<pub-id pub-id-type="pmid">12566024</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib20">
+                <label>20.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Cortes</surname><given-names>C</given-names></string-name>, <string-name><surname>Vapnik</surname><given-names>V.</given-names></string-name></person-group><article-title>Support-vector networks</article-title>. <source><italic toggle="yes">Mach Learning</italic></source>. <year>1995</year>; <volume>20</volume>: <fpage>273</fpage>–<lpage>297</lpage>.</mixed-citation>
+              </ref>
+              <ref id="bib21">
+                <label>21.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Breiman</surname><given-names>L</given-names></string-name></person-group>. <article-title>Random forest</article-title>. <source><italic toggle="yes">Mach Learning</italic></source>. <year>2001</year>; <volume>45</volume>: <fpage>5</fpage>–<lpage>32</lpage>.</mixed-citation>
+              </ref>
+              <ref id="bib22">
+                <label>22.</label>
+                <mixed-citation publication-type="other"><person-group person-group-type="author"><string-name><surname>Chen</surname><given-names>T</given-names></string-name>, <string-name><surname>Guestrin</surname><given-names>C.</given-names></string-name></person-group><article-title>XGBoost: a scalable tree boosting system</article-title>. In: <source><italic toggle="yes">Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining</italic></source>. <year>2016</year>: <fpage>785</fpage>–<lpage>794</lpage>.</mixed-citation>
+              </ref>
+              <ref id="bib23">
+                <label>23.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Uhrig</surname><given-names>RE</given-names></string-name></person-group>. <article-title>Introduction to artificial neural networks</article-title>. In: <source><italic toggle="yes">Proceedings of IECON'95-21st Annual Conference on IEEE Industrial Electronics</italic></source>. <year>1995</year>; <volume>1</volume>: <fpage>33</fpage>–<lpage>37</lpage>.</mixed-citation>
+              </ref>
+              <ref id="bib24">
+                <label>24.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Banaee</surname><given-names>T</given-names></string-name>, <string-name><surname>Alwan</surname><given-names>S</given-names></string-name>, <string-name><surname>Kellogg</surname><given-names>C</given-names></string-name>, <string-name><surname>Kornblau</surname><given-names>I</given-names></string-name>, <string-name><surname>El-Annan</surname><given-names>J.</given-names></string-name></person-group><article-title>PRN Treatment of neovascular AMD with cycles of three monthly injections</article-title>. <source><italic toggle="yes">J Ophthalmic Vis Res</italic></source>. <year>2021</year>; <volume>16</volume>: <fpage>178</fpage>–<lpage>186</lpage>.<pub-id pub-id-type="pmid">34055255</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

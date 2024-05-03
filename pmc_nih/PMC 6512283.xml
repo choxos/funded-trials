@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T02:34:15Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:6512283" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:6512283</identifier>
+        <datestamp>2019-05-28</datestamp>
+        <setSpec>jamasd</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">JAMA Netw Open</journal-id>
+              <journal-id journal-id-type="iso-abbrev">JAMA Netw Open</journal-id>
+              <journal-id journal-id-type="pmc">JAMA Netw Open</journal-id>
+              <journal-title-group>
+                <journal-title>JAMA Network Open</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2574-3805</issn>
+              <publisher>
+                <publisher-name>American Medical Association</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC6512283</article-id>
+              <article-id pub-id-type="pmcid">PMC6512283</article-id>
+              <article-id pub-id-type="pmc-uid">6512283</article-id>
+              <article-id pub-id-type="pmid">31074823</article-id>
+              <article-id pub-id-type="doi">10.1001/jamanetworkopen.2019.3721</article-id>
+              <article-id pub-id-type="publisher-id">zoi190165</article-id>
+              <article-categories>
+                <subj-group subj-group-type="category" specific-use="electronic">
+                  <subject>Research</subject>
+                </subj-group>
+                <subj-group subj-group-type="heading">
+                  <subject>Original Investigation</subject>
+                </subj-group>
+                <subj-group subj-group-type="online-only">
+                  <subject>Online Only</subject>
+                </subj-group>
+                <subj-group subj-group-type="subject-area">
+                  <subject>Gastroenterology and Hepatology</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Development and Validation of Machine Learning Models in Prediction of Remission in Patients With Moderate to Severe Crohn Disease</article-title>
+                <alt-title alt-title-type="headline">Machine Learning Models in Prediction of Remission in Patients With Active Crohn Disease</alt-title>
+                <alt-title alt-title-type="running-head">Machine Learning Models in Prediction of Remission in Patients With Active Crohn Disease</alt-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Waljee</surname>
+                    <given-names>Akbar K.</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <degrees>MSc</degrees>
+                  <xref ref-type="aff" rid="zoi190165aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="zoi190165aff2">
+                    <sup>2</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="zoi190165aff3">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Wallace</surname>
+                    <given-names>Beth I.</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <degrees>MS</degrees>
+                  <xref ref-type="aff" rid="zoi190165aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="zoi190165aff2">
+                    <sup>2</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="zoi190165aff4">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Cohen-Mekelburg</surname>
+                    <given-names>Shirley</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <degrees>MS</degrees>
+                  <xref ref-type="aff" rid="zoi190165aff2">
+                    <sup>2</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="zoi190165aff3">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Liu</surname>
+                    <given-names>Yumu</given-names>
+                  </name>
+                  <degrees>MS</degrees>
+                  <xref ref-type="aff" rid="zoi190165aff5">
+                    <sup>5</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Liu</surname>
+                    <given-names>Boang</given-names>
+                  </name>
+                  <degrees>MS</degrees>
+                  <xref ref-type="aff" rid="zoi190165aff5">
+                    <sup>5</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Sauder</surname>
+                    <given-names>Kay</given-names>
+                  </name>
+                  <degrees>BS</degrees>
+                  <xref ref-type="aff" rid="zoi190165aff3">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Stidham</surname>
+                    <given-names>Ryan W.</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <xref ref-type="aff" rid="zoi190165aff3">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Zhu</surname>
+                    <given-names>Ji</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="zoi190165aff5">
+                    <sup>5</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Higgins</surname>
+                    <given-names>Peter D. R.</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <degrees>PhD</degrees>
+                  <degrees>MSc</degrees>
+                  <xref ref-type="aff" rid="zoi190165aff3">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+              </contrib-group>
+              <aff id="zoi190165aff1"><label>1</label>Michigan Integrated Center for Health Analytics and Medical Prediction, Ann Arbor</aff>
+              <aff id="zoi190165aff2"><label>2</label>VA Center for Clinical Management Research, VA Ann Arbor Health Care System, Ann Arbor, Michigan</aff>
+              <aff id="zoi190165aff3"><label>3</label>Division of Gastroenterology and Hepatology, Department of Internal Medicine, Michigan Medicine, Ann Arbor</aff>
+              <aff id="zoi190165aff4"><label>4</label>Division of Rheumatology, Department of Internal Medicine, Michigan Medicine, Ann Arbor</aff>
+              <aff id="zoi190165aff5"><label>5</label>Department of Statistics, University of Michigan, Ann Arbor</aff>
+              <author-notes>
+                <title>Article Information</title>
+                <p><bold>Accepted for Publication:</bold> March 24, 2019.</p>
+                <p content-type="published-online"><bold>Published:</bold> May 10, 2019. <?xpp bx;1?>doi:<uri content-type="doi">10.1001/jamanetworkopen.2019.3721</uri></p>
+                <p content-type="open-access-note"><bold>Open Access:</bold> This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="https://jamanetwork.com/journals/jamanetworkopen/pages/instructions-for-authors#SecOpenAccess">CC-BY License</ext-link>. © 2019 Waljee AK et al. <italic>JAMA Network Open</italic>.</p>
+                <corresp id="zoi190165cor1"><bold>Corresponding Author:</bold> Akbar K. Waljee, MD, MSc, Division of Gastroenterology and Hepatology, Department of Internal Medicine, Michigan Medicine, Ann Arbor Veterans Affairs Medical Center, 2215 Fuller Rd, 111D, Ann Arbor, MI 48105 (<email xlink:href="awaljee@med.umich.edu">awaljee@med.umich.edu</email>).</corresp>
+                <p content-type="author-contributions"><bold>Author Contributions:</bold> Dr Waljee had full access to all of the data in the study and takes responsibility for the integrity of the data and the accuracy of the data analysis.</p>
+                <p><italic>Concept and design:</italic> Waljee, Stidham, Higgins.</p>
+                <p><italic>Acquisition, analysis, or interpretation of data:</italic> All authors.</p>
+                <p><italic>Drafting of the manuscript:</italic> Waljee, Cohen-Mekelburg, Y. Liu.</p>
+                <p><italic>Critical revision of the manuscript for important intellectual content:</italic> Waljee, Wallace, Cohen-Mekelburg, B. Liu, Sauder, Stidham, Zhu, Higgins.</p>
+                <p><italic>Statistical analysis:</italic> Waljee, Y. Liu, B. Liu, Stidham, Zhu, Higgins.</p>
+                <p><italic>Obtained funding:</italic> Higgins.</p>
+                <p><italic>Administrative, technical, or material support:</italic> Cohen-Mekelburg, Sauder, Stidham, Higgins.</p>
+                <p><italic>Supervision:</italic> Waljee, Higgins.</p>
+                <p content-type="COI-statement"><bold>Conflict of Interest Disclosures:</bold> Dr Higgins reported serving as a consultant for Takeda Pharmaceuticals International Inc; serving as a speaker for the GI Health Foundation and PRIME Medical Education; serving as a consultant and an advisory board member for AbbVie, Allergan, Amgen, Eli Lilly, Janssen, Lycera, Takeda, and UCB; and receiving research funding from AbbVie, Amgen, Arena, Ascentage Pharma, BCBS of Michigan, Buhlmann, Eli Lilly, Genentech, Janssen, Lycera, Medimmune, Nestle, Pfizer, RedX Pharma, Seres, Shire, Takeda, and UCB. No other disclosures were reported.</p>
+                <p content-type="funding-statement"><bold>Funding/Support:</bold> This study was supported by career development grant CDA 11-217 and merit review award IIR 16-024 from the US Department of Veterans Affairs Health Services Research and Development Service (Dr Waljee), by grant R01 GM097117 from the National Institutes of Health (Drs Higgins and Waljee), and by grant T32AR007080-38 from the University of Michigan (Dr Wallace).</p>
+                <p><bold>Role of the Funder/Sponsor:</bold> The funders had no role in the design and conduct of the study; collection, management, analysis, and interpretation of the data; preparation, review, or approval of the manuscript; and decision to submit the manuscript for publication.</p>
+                <p><bold>Disclaimer:</bold> The content is solely the responsibility of the authors and does not necessarily represent the official views of the University of Michigan, the Department of Veterans Affairs, or the National Institutes of Health.</p>
+              </author-notes>
+              <pub-date pub-type="epub" iso-8601-date="2019-05-10T10:00">
+                <day>10</day>
+                <month>5</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <month>5</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>10</day>
+                <month>5</month>
+                <year>2019</year>
+              </pub-date>
+              <!-- PMC Release delay is 0 months and
+						0 days and was based on the <pub-date
+						pub-type="epub"/>. -->
+              <volume>2</volume>
+              <issue>5</issue>
+              <elocation-id>e193721</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>6</day>
+                  <month>12</month>
+                  <year>2018</year>
+                </date>
+                <date date-type="final">
+                  <day>14</day>
+                  <month>3</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="accepted">
+                  <day>24</day>
+                  <month>3</month>
+                  <year>2019</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>Copyright 2019 Waljee AK et al. <italic>JAMA Network Open</italic>.</copyright-statement>
+                <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                  <license-p>This is an open access article distributed under the terms of the CC-BY License.</license-p>
+                </license>
+              </permissions>
+              <self-uri content-type="pdf-version" xlink:href="jamanetwopen-2-e193721.pdf">jamanetwopen-2-e193721.pdf</self-uri>
+              <self-uri content-type="silverchair" xlink:href="https://jamanetworkopen.jamanetwork.com/article.aspx?doi=10.1001/jamanetworkopen.2019.3721"/>
+              <abstract abstract-type="key-points">
+                <title>Key Points</title>
+                <sec id="ab-zoi190165-1">
+                  <title>Question</title>
+                  <p>Can laboratory data be used to predict durable response to ustekinumab among patients with Crohn disease before they commit to long-term treatment?</p>
+                </sec>
+                <sec id="ab-zoi190165-2">
+                  <title>Findings</title>
+                  <p>In this cohort study of 401 participants with active Crohn disease, a prediction model using demographic and laboratory data available after 1 dose of ustekinumab reliably identified patients with active Crohn disease who were likely to respond to treatment beyond week 42. The week-6 albumin to C-reactive protein ratio seemed to be a pragmatic predictor of future remission, but early ustekinumab serum levels appeared to add little to the predictive value of this model.</p>
+                </sec>
+                <sec id="ab-zoi190165-3">
+                  <title>Meaning</title>
+                  <p>Long-term ustekinumab response may be predicted using demographic and laboratory data before week 8 of treatment, without the need for costly drug-level monitoring.</p>
+                </sec>
+              </abstract>
+              <abstract>
+                <sec id="ab-zoi190165-4">
+                  <title>Importance</title>
+                  <p>Biological therapies have revolutionized inflammatory bowel disease management, but many patients do not respond to biological monotherapy. Identification of likely responders could reduce costs and delays in remission.</p>
+                </sec>
+                <sec id="ab-zoi190165-5">
+                  <title>Objective</title>
+                  <p>To identify patients with Crohn disease likely to be durable responders to ustekinumab before committing to long-term treatment.</p>
+                </sec>
+                <sec id="ab-zoi190165-6">
+                  <title>Design, Setting, and Participants</title>
+                  <p>This cohort study analyzed data from 3 phase 3 randomized clinical trials (UNITI-1, UNITI-2, and IM-UNITI) conducted from 2011 to 2015. Participants (n = 401) were individuals with active (C-reactive protein [CRP] measurement of ≥5 mg/L at enrollment) Crohn disease who received ustekinumab therapy. Data analysis was performed from November 1, 2017, to June 1, 2018.</p>
+                </sec>
+                <sec id="ab-zoi190165-7">
+                  <title>Exposures</title>
+                  <p>All included patients were exposed to 1 or more dose of ustekinumab for 8 weeks or more.</p>
+                </sec>
+                <sec id="ab-zoi190165-8">
+                  <title>Main Outcomes and Measures</title>
+                  <p>Random forest methods were used in building 2 models for predicting Crohn disease remission, with a CRP level lower than 5 mg/dL as a proxy for biological remission, beyond week 42 of ustekinumab treatment. The first model used only baseline data, and the second used data through week 8.</p>
+                </sec>
+                <sec id="ab-zoi190165-9">
+                  <title>Results</title>
+                  <p>In total, 401 participants, with a mean (SD) age of 36.3 (12.6) years and 170 male (42.4%), were included. The week-8 model had a mean area under the receiver operating characteristic curve (AUROC) of 0.78 (95% CI, 0.69-0.87). In the testing data set, 27 of 55 participants (49.1%) classified as likely to have treatment success achieved success with a CRP level lower than 5 mg/L after week 42, and 7 of 65 participants (10.8%) classified as likely to have treatment failure achieved this outcome. In the full cohort, 87 patients (21.7%) attained remission after week 42. A prediction model using the week-6 albumin to CRP ratio had an AUROC of 0.76 (95% CI, 0.71-0.82). Baseline ustekinumab serum levels did not improve the model’s prediction performance.</p>
+                </sec>
+                <sec id="ab-zoi190165-10">
+                  <title>Conclusions and Relevance</title>
+                  <p>In patients with active Crohn disease, demographic and laboratory data before week 8 of treatment appeared to allow the prompt identification of likely nonresponders to ustekinumab without the need for costly drug-level monitoring.</p>
+                </sec>
+              </abstract>
+              <abstract abstract-type="teaser">
+                <p>This cohort study describes 2 models for predicting the long-term response to ustekinumab therapy among patients with active Crohn disease.</p>
+              </abstract>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="H1-1-ZOI190165">
+              <title>Introduction</title>
+              <p>Inflammatory bowel disease (IBD) has been estimated to affect more than 1.6 million people in the United States on the basis of the adjusted prevalence rates in the 2010 US white population.<sup><xref rid="zoi190165r1" ref-type="bibr">1</xref>,<xref rid="zoi190165r2" ref-type="bibr">2</xref></sup> Although the advent of expensive biological medications revolutionized the treatment of IBD,<sup><xref rid="zoi190165r3" ref-type="bibr">3</xref></sup> the increasing use of these agents has revealed substantial heterogeneity of treatment effect across the population with IBD and likely overuse of these medications. Anti–tumor necrosis factor drugs, still the standard therapy for moderate to severe IBD, did not induce remission in 20% to 30% of patients and lost effectiveness within a year in another 30% to 40% of patients.<sup><xref rid="zoi190165r3" ref-type="bibr">3</xref>,<xref rid="zoi190165r4" ref-type="bibr">4</xref>,<xref rid="zoi190165r5" ref-type="bibr">5</xref>,<xref rid="zoi190165r6" ref-type="bibr">6</xref></sup> Novel biological agents emerging in recent years can help some patients who do not respond to anti–tumor necrosis factor therapy,<sup><xref rid="zoi190165r6" ref-type="bibr">6</xref></sup> but these agents are ineffective in many others.<sup><xref rid="zoi190165r7" ref-type="bibr">7</xref></sup> Initial efforts to improve remission rates with these agents have focused on optimizing serum drug levels and screening for antidrug antibodies, and these efforts have had some success.<sup><xref rid="zoi190165r3" ref-type="bibr">3</xref>,<xref rid="zoi190165r5" ref-type="bibr">5</xref></sup></p>
+              <p>Interest has been growing in personalizing treatment strategies by using methods such as machine learning to match patients with IBD to the treatment most likely to work for them. These techniques using clinical and laboratory predictors that outperform drug levels alone may decrease avoidable drug costs, hospitalizations, surgical procedures, and complications while allowing patients with IBD to achieve symptomatic and biological remission much sooner than the typical 52-week clinical trial end point.<sup><xref rid="zoi190165r8" ref-type="bibr">8</xref>,<xref rid="zoi190165r9" ref-type="bibr">9</xref></sup> Such approaches have not yet been applied to ustekinumab. Previous studies of ustekinumab pharmacokinetics present mixed findings. Some suggest a dose-related association between serum drug concentrations of ustekinumab and treatment efficacy in Crohn disease similar to that seen with other novel agents<sup><xref rid="zoi190165r8" ref-type="bibr">8</xref></sup>; others suggest that serum drug concentrations of ustekinumab are relatively poor predictors of clinical response in Crohn disease.<sup><xref rid="zoi190165r10" ref-type="bibr">10</xref></sup></p>
+              <p>The purpose of the present study was to (1) identify characteristics of patients with Crohn disease at baseline and at week 8 of ustekinumab therapy (before the start of subcutaneous maintenance therapy) that predict long-term remission on ustekinumab therapy using C-reactive protein (CRP) level as a biomarker of disease activity, and (2) evaluate the incremental advantage of using these predictors compared with drug level alone.</p>
+            </sec>
+            <sec id="H1-2-ZOI190165">
+              <title>Methods</title>
+              <p>We used publicly available data from 3 randomized clinical trials enrolling patients with active Crohn disease, UNITI-1 (ClinicalTrials.gov identifier <ext-link ext-link-type="uri" xlink:href="https://clinicaltrials.gov/ct2/show/NCT01369329">NCT01369329</ext-link>), UNITI-2 (identifier <ext-link ext-link-type="uri" xlink:href="https://clinicaltrials.gov/ct2/show/NCT01369342">NCT01369342</ext-link>), and IM-UNITI (identifier <ext-link ext-link-type="uri" xlink:href="https://clinicaltrials.gov/ct2/show/NCT01369355">NCT01369355</ext-link>), conducted from 2011 to 2015. Trials UNITI-1 and UNITI-2 were conducted at 178 sites in 23 countries and 175 sites in 23 countries respectively. The IM-UNITI trial was conducted at 260 sites in 27 countries.<sup><xref rid="zoi190165r7" ref-type="bibr">7</xref></sup> These data sets were obtained through the YODA (Yale Open Data Access) Project.<sup><xref rid="zoi190165r11" ref-type="bibr">11</xref></sup> The University of Michigan Institutional Review Board confirmed that institutional review board approval for this study was not necessary because it evaluated previously collected and deidentified phase 3 clinical trial data. Informed consent was not obtained for this reason. This study followed the Strengthening the Reporting of Observational Studies in Epidemiology (<ext-link ext-link-type="uri" xlink:href="http://www.equator-network.org/reporting-guidelines/strobe/">STROBE</ext-link>) reporting guideline and the Transparent Reporting of a Multivariable Prediction Model for Individual Prognosis or Diagnosis (<ext-link ext-link-type="uri" xlink:href="http://www.equator-network.org/reporting-guidelines/tripod-statement/">TRIPOD</ext-link>) reporting guideline. Data analysis was performed from November 1, 2017, to June 1, 2018.</p>
+              <p>The original clinical trial cohort had 1409 participants, 668 of whom were either randomized to placebo or lost to follow-up by week 8 of the trial and therefore excluded. The remaining 741 participants received ustekinumab at week 8. Of these, 462 participants had CRP measurements of 5 mg/L or higher at enrollment, suggesting active disease, and 61 participants were excluded for missing values. The final cohort comprised 401 participants, whose data were used for the week-8 model and sensitivity analyses (eTable in the <xref ref-type="supplementary-material" rid="note-ZOI190165-1-s">Supplement</xref>). The baseline model excluded 30 additional patients for missing baseline laboratory tests and included 371 patients (eFigure 1 in the <xref ref-type="supplementary-material" rid="note-ZOI190165-1-s">Supplement</xref>).</p>
+              <sec id="H2-1-ZOI190165">
+                <title>Predictor Variables</title>
+                <p>The week-8 model included 401 patients, 5 demographic predictors (age, sex, race, ethnicity, and weight), and laboratory tests performed at week 8 (CRP level at weeks 0, 3, 6, and 8; ratio of serum ustekinumab level to CRP level at week 0 after the first ustekinumab dose, week 3, and week 6 [eTable in the <xref ref-type="supplementary-material" rid="note-ZOI190165-1-s">Supplement</xref>]). The week-8 drug level was not used in modeling because of missing values. We also tracked CRP measurement in the long term and calculated mean, maximum, minimum, and the slope of CRP level from weeks 0 to 3, weeks 3 to 6, and weeks 6 to 8.</p>
+                <p>The baseline model at week 0 included 371 patients, and 30 patients were excluded from this cohort owing to missing baseline laboratory tests. This model included the 5 demographic predictors and 10 laboratory predictors (CRP level; platelet count; hemoglobin level; absolute counts of leukocytes, monocytes, lymphocytes, eosinophils, segmented neutrophils, and basophils; and serum ustekinumab concentration measured approximately 1 hour after the first drug dose).</p>
+              </sec>
+              <sec id="H2-2-ZOI190165">
+                <title>Definition of Outcomes</title>
+                <p>The primary outcome was the most recent available CRP measurement taken after week 42, which we used as a surrogate biological end point for Crohn disease inflammatory activity in patients with baseline CRP elevation. We dichotomized the outcome into 2 categories: CRP level lower than 5 mg/L as evidence of Crohn disease remission and CRP level of 5 mg/L or higher as evidence of continued Crohn disease activity and thus treatment failure (to convert CRP to nanomoles per liter, multiply by 9.524).<sup><xref rid="zoi190165r12" ref-type="bibr">12</xref></sup> We chose this outcome because endoscopic data (the criterion standard for disease activity) were not available from the trial cohort of interest, and CRP level was the only objective disease activity measure available at multiple time points from the clinical trials.</p>
+                <p>No study visits or missing CRP measurements after week 42 were defined as treatment failures. We considered the utility of a subjective outcome measure, such as the Crohn Disease Activity Index (CDAI), but given the relatively low specificity of the CDAI, we instead chose an objective primary outcome variable. We also considered fecal calprotectin given its known high sensitivity over CRP for detection of active endoscopic disease activity.<sup><xref rid="zoi190165r13" ref-type="bibr">13</xref></sup> However, we were limited by missing fecal calprotectin data, which might bias our results; instead, we chose to include fecal calprotectin as an outcome in a sensitivity analysis.</p>
+              </sec>
+              <sec id="H2-3-ZOI190165">
+                <title>Statistical Analysis and Model Development</title>
+                <p>Random forest is a machine learning method of prediction that uses an ensemble of decision trees<sup><xref rid="zoi190165r14" ref-type="bibr">14</xref>,<xref rid="zoi190165r15" ref-type="bibr">15</xref></sup> to classify observations. As previously described elsewhere,<sup><xref rid="zoi190165r8" ref-type="bibr">8</xref>,<xref rid="zoi190165r9" ref-type="bibr">9</xref></sup> information from a single patient (an observation) is evaluated by many decision trees (a forest) built on different bootstrap samples of the original data set. Each tree classifies the observation independently, which can be viewed as that tree’s vote. The forest then combines the votes from the individual trees to generate a summary prediction. A cutoff value of the outcome variable is typically prespecified to provide the desired balance of sensitivity and specificity for the model. We used 500 trees to build each random forest model. Random forest modeling was chosen in this case because of its ability to model complex, nonlinear relationships and to easily accommodate complexities, such as interaction terms, which may not be captured by parametric models like logistic regression. This method has been used in previous studies.<sup><xref rid="zoi190165r8" ref-type="bibr">8</xref>,<xref rid="zoi190165r9" ref-type="bibr">9</xref></sup></p>
+              </sec>
+              <sec id="H2-4-ZOI190165">
+                <title>Training and Testing Cohorts</title>
+                <p>As has been published,<sup><xref rid="zoi190165r8" ref-type="bibr">8</xref>,<xref rid="zoi190165r9" ref-type="bibr">9</xref></sup> the baseline and 8-week data sets were each split randomly into a 70% training set for model development and a 30% testing set. This splitting process was replicated 100 times, and each time the model was fit on the training set and used to predict the outcome in the testing set. This 100-times replication process was used to generate an estimate of the variation of the area under the receiver operating characteristic curve (AUROC) computed on the testing set. The mean AUROC was then obtained from the 100 replication test sets. Subsequently, the 1 split that produced a representative AUROC that was closest to the mean AUROC for the week-8 model was selected as a representative split (training and testing cohorts) for both the week-8 and baseline models. This split was used to produce AUROC plots, cutoff point selection, and misclassification tables. These results were then compared across models.</p>
+                <p>The AUROC was used to evaluate the performance of each model. All statistical analyses were performed with the statistical language R, version 3.3, randomForest<sup><xref rid="zoi190165r14" ref-type="bibr">14</xref></sup> and pROC packages (R Foundation for Statistical Computing). The optimal cutoff was defined as the point on the receiver operating characteristic plot with the highest sensitivity and specificity (ie, the point at which [1 – sensitivity]<sup>2</sup> + [1- specificity]<sup>2</sup> is minimized).</p>
+              </sec>
+              <sec id="H2-5-ZOI190165">
+                <title>Variable Importance and Partial Dependence Plots</title>
+                <p>We assessed predictor variable importance using a random forest model trained on the entire data set at baseline and at week 8.<sup><xref rid="zoi190165r8" ref-type="bibr">8</xref>,<xref rid="zoi190165r9" ref-type="bibr">9</xref></sup> We identified nodes in the group of trees in which each predictor appeared and then summed the information content of all nodes containing that predictor. Predictors providing greater combined discrimination were deemed to have higher importance. We built partial dependence plots on the entire cohort to demonstrate how each predictor affected the probability of success, defined by CRP level lower than 5 mg/L after week 42.<sup><xref rid="zoi190165r8" ref-type="bibr">8</xref>,<xref rid="zoi190165r9" ref-type="bibr">9</xref></sup> For each predictor, we used the random forest model on the entire data set at that time point to predict the probability of success by patient, with that predictor set to a given value and averaged over all patients to produce a mean probability of success. We repeated this procedure for each value of that predictor in the data, or for its 50 quantiles if more than 50 values were available.</p>
+              </sec>
+              <sec id="H2-6-ZOI190165">
+                <title>Simpler Pragmatic Models and Sensitivity Analyses</title>
+                <p>Given the complexity of random forest models, simpler models with comparable performance are typically preferred for clinical use. Because CRP<sup><xref rid="zoi190165r16" ref-type="bibr">16</xref></sup> and albumin<sup><xref rid="zoi190165r17" ref-type="bibr">17</xref></sup> are biomarkers used in the management of IBD, we constructed pragmatic single-variable prediction models with both baseline and weeks 6 to 8 data. This decision could also be justified by these 2 predictors’ association with the variable importance plots. We evaluated these single-variable models on the full data set and compared the resulting predictions with those generated by the random forest models. We favored a simplified model that did not require week-8 data because a week-8 model would not allow clinicians to decide whether to continue ustekinumab until after the week-8 dose had been administered. To evaluate whether the outcome accurately represented Crohn disease activity, we performed a sensitivity analysis with the same variables used in the week-8 model to predict a dichotomized version of the patient’s last CDAI score after week 42, with 150 as the cutoff point. Missing values were viewed as treatment failures. We included week-6 fecal calprotectin as a covariate in the week-8 model to evaluate prediction performance for a CRP-based outcome. We also created a model substituting dichotomized fecal calprotectin after week 42 as the outcome of interest, with thresholds of 100 μg/g or 400 μg/g.</p>
+              </sec>
+            </sec>
+            <sec id="H1-3-ZOI190165">
+              <title>Results</title>
+              <p>In total, 401 participants were included in the final analysis. Among the participants, the mean (SD) age was 36.3 (12.6) years and 170 (42.4%) were male. The original clinical trial cohort comprised 741 participants who received ustekinumab at week 8, whereas the present study’s week-8 model cohort had 401 participants and the baseline model cohort had 371. Additional demographic and clinical characteristics of all participants are presented in <xref rid="zoi190165t1" ref-type="table">Table 1</xref>.</p>
+              <table-wrap id="zoi190165t1" orientation="portrait" position="float">
+                <label>Table 1. </label>
+                <caption>
+                  <title>Participant Demographics</title>
+                </caption>
+                <table frame="hsides" rules="groups">
+                  <col width="29.31%" span="1"/>
+                  <col width="23.31%" span="1"/>
+                  <col width="24.17%" span="1"/>
+                  <col width="23.21%" span="1"/>
+                  <thead>
+                    <tr>
+                      <th valign="top" align="left" scope="col" rowspan="1" colspan="1">Variable</th>
+                      <th valign="top" align="left" scope="col" rowspan="1" colspan="1">Original Cohort (N = 741)</th>
+                      <th valign="top" align="left" scope="col" rowspan="1" colspan="1">Modeling Cohort (N = 401)</th>
+                      <th valign="top" align="left" scope="col" rowspan="1" colspan="1">Baseline Cohort (N = 371)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Age, mean (SD), y</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">37.7 (12.80)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">36.3 (12.6)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">36.3 (12.2)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Male sex, No. (%)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">314 (42.)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">170 (42.4)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">158 (42.6)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">White race, No. (%)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">626 (84.5)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">326 (81.3)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">301 (81.1)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Weight, mean (SD), kg</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">71.0 (19.9)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">70.2 (20.3)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">70.3 (20.3)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Baseline CRP, median (IQR), mg/L</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">8.5 (3.4-22.2)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">16.9 (9.2-32.3)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">16.8 (9.3-32.8)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="col" rowspan="1" colspan="1">Concomitant medications, No. (%)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Aminosalicylic acid</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">287 (38.7)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">168 (41.9)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">153 (41.2)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Immunosuppressants</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">308 (41.6)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">170 (42.4)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">152 (41.0)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Glucocorticoids</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">414 (55.9)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">212 (52.9)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">203 (54.7)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="col" rowspan="1" colspan="1">Location of disease, No. (%)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Colon only</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">128 (17.3)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">69 (17.2)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">63 (17.0)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Ileum only</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">150 (20.2)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">63 (15.7)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">58 (15.6)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Colon and ileum</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">459 (61.9)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">266 (66.3)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">248 (66.8)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Perianal</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">273 (36.8)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">176 (43.9)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">167 (45.0)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Extraintestinal manifestation</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">387 (52.2)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">214 (53.4)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">203 (54.7)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Proximal small bowel</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">135 (18.2)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">77 (19.2)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">70 (18.9)</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table-wrap-foot>
+                  <p>Abbreviations: CRP, C-reactive protein; IQR, interquartile range.</p>
+                  <p>SI conversion factor: To convert CRP to nanomoles per liter, multiply by 9.524.</p>
+                </table-wrap-foot>
+              </table-wrap>
+              <sec id="H2-7-ZOI190165">
+                <title>Baseline Model and Predictors</title>
+                <p>The mean (SD) AUROC for the baseline model in the testing set was 0.56 (0.053), and the AUROC in the representative testing set was 0.59 (95% CI, 0.46-0.72) (<xref ref-type="fig" rid="zoi190165f1">Figure 1</xref>A). The best predictors of CRP at week 0 in the baseline model were baseline CRP level, weight, platelet count, ustekinumab serum level after the first dose of drug, and monocyte count (<xref ref-type="fig" rid="zoi190165f1">Figure 1</xref>B). Race, sex, and ethnicity were weak predictors. Sensitivity for the baseline model, with 113 participants in the testing set, was 0.63, and specificity was 0.64. <xref rid="zoi190165t2" ref-type="table">Table 2</xref> lists the best cutoff values, number of predicted successes and failures, and prediction accuracy rates for the baseline model.</p>
+                <fig id="zoi190165f1" fig-type="figure" orientation="portrait" position="float">
+                  <label>Figure 1. </label>
+                  <caption>
+                    <title>Baseline Predictors</title>
+                    <p>A, Receiver operating characteristic (ROC) plot for baseline model. The area under the ROC curve in the representative testing set was 0.59 (95% CI, 0.46-0.72). B, Baseline variable importance plot. The importance of each predictor was computed by identifying nodes in the trees and summing up all information provided by the nodes containing the predictor. The higher the importance, the larger the total discrimination provided by the predictor. CRP indicates C-reactive protein.</p>
+                    <p><sup>a</sup>Level 1 hour after first dose.</p>
+                  </caption>
+                  <graphic xlink:href="jamanetwopen-2-e193721-g001"/>
+                </fig>
+                <table-wrap id="zoi190165t2" orientation="portrait" position="float">
+                  <label>Table 2. </label>
+                  <caption>
+                    <title>Prediction Performances of Models</title>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <col width="11.64%" span="1"/>
+                    <col width="7.91%" span="1"/>
+                    <col width="11.18%" span="1"/>
+                    <col width="9.31%" span="1"/>
+                    <col width="9.78%" span="1"/>
+                    <col width="9.78%" span="1"/>
+                    <col width="9.78%" span="1"/>
+                    <col width="9.78%" span="1"/>
+                    <col width="6.52%" span="1"/>
+                    <col width="6.52%" span="1"/>
+                    <col width="7.8%" span="1"/>
+                    <thead>
+                      <tr>
+                        <th rowspan="2" valign="top" align="left" scope="col" colspan="1">Model Tested </th>
+                        <th rowspan="2" valign="top" align="left" scope="col" colspan="1">Test Set Size</th>
+                        <th rowspan="2" valign="top" align="left" scope="col" colspan="1">AUROC (95% CI)</th>
+                        <th rowspan="2" valign="top" align="left" scope="col" colspan="1">Optimal Cutoff</th>
+                        <th colspan="2" valign="top" align="left" scope="colgroup" rowspan="1">Predicted Cases</th>
+                        <th colspan="2" valign="top" align="left" scope="colgroup" rowspan="1">Accurate Prediction Rate</th>
+                        <th rowspan="2" valign="top" align="left" scope="col" colspan="1">Sensitivity</th>
+                        <th rowspan="2" valign="top" align="left" scope="col" colspan="1">Specificity</th>
+                        <th rowspan="2" valign="top" align="left" scope="col" colspan="1">Brier Score<sup>a</sup></th>
+                      </tr>
+                      <tr>
+                        <th valign="top" colspan="1" align="left" scope="colgroup" rowspan="1">Success (≥Cutoff)</th>
+                        <th valign="top" align="left" scope="col" rowspan="1" colspan="1">Failure (&lt;Cutoff)</th>
+                        <th valign="top" align="left" scope="col" rowspan="1" colspan="1">Success (≥Cutoff)</th>
+                        <th valign="top" align="left" scope="col" rowspan="1" colspan="1">Failure (&lt;Cutoff)</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Baseline model</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">113</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.59 (0.46-0.72)</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.24</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">48</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">65</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.35</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.85</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.63</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.64</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.18</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Baseline CRP alone</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">401</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.67 (0.61-0.74)</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">14.65 (mg/L)</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">182</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">219</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.32</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.87</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.67</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.61</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">NA</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Week-8 model</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">120</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.78 (0.69-0.87</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.26</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">55</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">65</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.49</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.89</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.79</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.67</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.17</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Week-8 CRP alone</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">401</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.76 (0.71-0.82)</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">8.30</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">178</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">223</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.39</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.91</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.78</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.65</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">NA</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Week-6 (albumin × ustekinumab-to-CRP ratio) model</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">398</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.71 (0.65-0.77)</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">24.71</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">177</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">221</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.33</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.88</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.69</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.62</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">NA</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Week-6 CRP alone</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">401</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.75 (0.70-0.81)</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">6.77 (mg/L)</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">151</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">250</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.41</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.90</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.70</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.72</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">NA</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" scope="row" rowspan="1" colspan="1">Week-6 albumin to CRP ratio</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">398</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.76 (0.71-0.82)</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">4.92</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">166</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">232</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.40</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.91</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.77</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">0.68</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">NA</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <p>Abbreviations: AUROC, area under the receiver operating characteristic curve; CRP, C-reactive protein; NA, not applicable.</p>
+                    <p>SI conversion factor: To convert CRP to nanomoles per liter, multiply by 9.524.</p>
+                    <fn id="zoi190165t2n1">
+                      <label>
+                        <sup>a</sup>
+                      </label>
+                      <p>Brier score, with a range of 0 to 1, is a measure of calibration.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+                <p>Partial dependence plots were created to illustrate the association between each predictor and the outcome (eFigure 2 in the <xref ref-type="supplementary-material" rid="note-ZOI190165-1-s">Supplement</xref>). Most predictors showed nonlinear associations. The likelihood of treatment success (ie, CRP level lower than 5 mg/L after week 42) increased steeply with lower baseline CRP measurements, with baseline CRP measurements of 14.65 mg/L or lower predicting treatment success. Weight and platelet count did not show monotonic trends.</p>
+              </sec>
+              <sec id="H2-8-ZOI190165">
+                <title>Week-8 Model and Predictors</title>
+                <p>The mean (SD) AUROC for the week-8 model was 0.78 (0.042) (<xref ref-type="fig" rid="zoi190165f2">Figure 2</xref>A), and the AUROC on the representative testing set was 0.78 (95% CI, 0.69-0.87). The most important predictors in this model were CRP levels at weeks 3, 6, and 8 and serum ustekinumab to CRP ratio at weeks 3 and 6 (<xref ref-type="fig" rid="zoi190165f2">Figure 2</xref>B). Other than CRP, the most important laboratory variable included in this model was albumin measured at week 8. Race, sex, and ethnicity were weak predictors. Sensitivity for the week-8 model, with 120 participants in the testing set, was 0.79, and specificity was 0.67.</p>
+                <fig id="zoi190165f2" fig-type="figure" orientation="portrait" position="float">
+                  <label>Figure 2. </label>
+                  <caption>
+                    <title>Week-8 Predictors</title>
+                    <p>A. Receiver operating characteristic (ROC) plot for week-8 model with C-reactive protein (CRP) and ustekinumab to CRP ratio. The area under the ROC curve in the representative testing set was 0.78 (95% CI, 0.69-0.87). B, Week-8 variable importance plot. The importance of each predictor was computed by identifying nodes in the trees and summing all information provided by the nodes containing the predictor. The higher the importance, the larger the total discrimination provided by the predictor.</p>
+                    <p><sup>a</sup>One hour after infusion drug level with closest prior CRP.</p>
+                  </caption>
+                  <graphic xlink:href="jamanetwopen-2-e193721-g002"/>
+                </fig>
+                <p>The week-8 model classified participants into 2 groups: those in whom treatment was predicted to succeed (n = 55 [45.8%]), and those in whom treatment was predicted to fail (n = 65 [54.2%]). Twenty-seven participants (49.1%) classified as likely to have treatment success achieved the goal of CRP level lower than 5 mg/L after week 42, and 7 of 65 participants (10.8%) classified as likely to have treatment failure achieved this outcome. For comparison, 87 participants (21.7%) of the full cohort achieved the specified outcome of remission after week 42.</p>
+              </sec>
+              <sec id="H2-9-ZOI190165">
+                <title>Predictors After a Single Dose of Ustekinumab</title>
+                <p>The probability of treatment success increased steeply with lower CRP levels at weeks 3, 6, and 8 (eFigure 3 in the <xref ref-type="supplementary-material" rid="note-ZOI190165-1-s">Supplement</xref>). A higher value of the ustekinumab to CRP ratio at week 6 was associated with an increased treatment success rate, but the association was uncertain when the value was close to 0. The ustekinumab to CRP ratio at week 3 showed a nonmonotonic association with treatment success rate. A higher albumin level at week 6 was also associated with an increased treatment success rate. Other predictors showed weak or nonmonotonic associations with the outcome.</p>
+              </sec>
+              <sec id="H2-10-ZOI190165">
+                <title>Simpler Pragmatic Models</title>
+                <p>The predictive performance of the simpler pragmatic models evaluated on the full data set are shown in <xref rid="zoi190165t2" ref-type="table">Table 2</xref>. We found that baseline CRP (prior to first ustekinumab dose) was a weak predictor of treatment success, with an AUROC of 0.67 (95% CI, 0.61-0.74). The week-6 albumin (grams per deciliter) to CRP (milligrams per liter) ratio was as accurate as week 8 CRP alone, with an AUROC of 0.76 (95% CI, 0.71-0.82) and a cutoff of 4.92. It was less accurate than the week-8 random forest model. A CRP value at week 6 or 8 also performed well, with an AUROC of 0.75 (95% CI, 0.70-0.81) at week 6 and 0.76 (95% CI, 0.71-0.82) at week 8. The CRP measurement at week 8 also predicted treatment success with reasonable accuracy in this cohort of patients with high baseline CRP level. However, it was inferior to the full model and to the week-6 albumin to CRP ratio by sensitivity, specificity, and accurate prediction rate. Adding the week-6 ustekinumab serum level to the week-6 albumin to CRP ratio worsened the accuracy of this pragmatic model. These models are compared in <xref rid="zoi190165t2" ref-type="table">Table 2</xref>.</p>
+              </sec>
+              <sec id="H2-11-ZOI190165">
+                <title>Sensitivity Analysis for Clinical End Point</title>
+                <p>We fitted a random forest model with the same predictors used in the week-8 model, substituting the dichotomized CDAI score (&lt;150 indicates clinical remission) after week 42 as the outcome of interest. Using this outcome definition, we identified 242 (60.3%) treatment failures and 159 (39.7%) treatment successes. Performance of the week-8 model was poor for this clinical end point, with an out-of-bag AUROC of 0.61 (95% CI, 0.55-0.66) for the CDAI end point.</p>
+                <p>Including week-6 fecal calprotectin value as a covariate in the week-8 model did not improve the prediction performance for a CRP-based outcome. The mean AUROC was 0.76 (95% CI, 0.71-0.82). Substituting the dichotomized fecal calprotectin value after week 42 as the outcome of interest with thresholds of 100 μg/g returned a mean (SD) AUROC of 0.64 (0.061) or 400 μg/g returned a mean (SD) AUROC of 0.63 (0.060).</p>
+              </sec>
+            </sec>
+            <sec id="H1-4-ZOI190165">
+              <title>Discussion</title>
+              <p>Substantial heterogeneity in treatment response to costly biological therapies exists across the population with Crohn disease. For this reason, there is great interest in developing tools that can reliably identify patients who are unlikely to respond to costly medications after a short course of treatment. If effective, such tools could help clinicians identify patients who should be switched to an alternative treatment with a greater chance of success, reducing both the costs associated with an expensive but likely unsuccessful treatment and the harms associated with suboptimal disease control and avoidable steroid exposure.</p>
+              <p>We applied machine learning techniques to phase 3 trial data to generate predictive models of treatment response to ustekinumab at week 42 in patients with active Crohn disease, as defined by an elevated CRP level at enrollment using dichotomized CRP as a marker of biological remission. The model we constructed with baseline data was relatively inaccurate, performing worse than baseline CRP measurement alone (AUROC for CRP alone was 67%, with 67% sensitivity and 61% specificity). Thus, the baseline model should not be used clinically. This finding suggests, as do studies on vedolizumab,<sup><xref rid="zoi190165r8" ref-type="bibr">8</xref>,<xref rid="zoi190165r9" ref-type="bibr">9</xref></sup> that predicting an individual’s response to a biological therapy before the first dose is difficult. The week-8 model provided the best performance characteristics for predicting long-term biological response with an AUROC of 0.78 (95% CI, 0.69-0.87). This model also proved able to distinguish long-term biological remission (as defined by CRP &lt;5 mg/L beyond 42 weeks) from treatment failures. Simpler pragmatic models also showed good performance, with the week-6 albumin-to-CRP ratio showing an AUROC of 0.76 (95% CI, 0.71-0.82) at an albumin-to-CRP ratio cutoff of 4.92. Patients with higher values of this ratio at week 6 are increasingly likely to achieve biological remission.</p>
+              <p>Neither cross-sectional nor long-term measures of ustekinumab were associated with improvements in the performance of any of the models we tested, and they were associated with worse performance of week-6 pragmatic model. This finding supports previous studies demonstrating that serum ustekinumab level cannot adequately discriminate treatment responders from nonresponders in patients with Crohn disease enrolled in the UNITI clinical trials.<sup><xref rid="zoi190165r10" ref-type="bibr">10</xref></sup> It seems unlikely that increasing the frequency of ustekinumab dosing will provide additional advantages in early nonresponders.</p>
+              <p>Knowing this finding might help clinicians decide to switch drug classes or to augment ustekinumab with an anti–tumor necrosis factor or a Janus kinase inhibitor if a substantial objective improvement in inflammation is not seen before the second dose rather than commit additional time and resources to costly monotherapy intensification, which appears unlikely to be effective. This finding allows clinicians to limit futile care with expensive biological agents such as ustekinumab 90 mg, which has a list price of approximately $22 000 per dose.<sup><xref rid="zoi190165r18" ref-type="bibr">18</xref></sup> In clinical practice, either the week-8 random forest model or the pragmatic model using the week-6 albumin to CRP ratio could predict outcomes, although the pragmatic model appears more likely to be used at the point of care.</p>
+              <sec id="H2-12-ZOI190165">
+                <title>Limitations</title>
+                <p>This study has several limitations. First, we caution that the prediction performances of the pragmatic models should not be directly compared with those of the full models given that the pragmatic models were developed and tested on the entire cohort, whereas the random forest models were developed on a 70% random sample of the cohort and tested on the remaining 30%. Prior to clinical use, the pragmatic models would, ideally, be externally validated using a separate cohort. Second, we used patients with Crohn disease selected for enrollment in a clinical trial, which might not be generalizable to all patients with Crohn disease. Third, CRP is not a perfect proxy for biological remission given that up to 20% of patients with Crohn disease do not experience elevated CRP levels during a flare. Endoscopic data, which were not available for this cohort, would be ideal. To reduce the implications of this limitation, we used only the data from patients with elevated CRP levels at baseline and in whom CRP is more likely to be a reliable biomarker. Although this decision improves the reliability of these results, it might limit generalizability to patients who received ustekinumab with an elevated baseline CRP levels. Fourth, before this model can be used in a real-world setting, long-term intervention studies are needed to evaluate the best course of action for patients deemed unlikely to achieve biological remission with ustekinumab. Fifth, this test, like any other diagnostic test, is imperfect, and clinical context should be considered when making decisions about its use and interpretation.</p>
+              </sec>
+            </sec>
+            <sec id="H1-5-ZOI190165">
+              <title>Conclusions</title>
+              <p>In this study of clinical trial data, a model using demographic and laboratory data available after the first dose of ustekinumab reliably identified which patients with active Crohn disease at enrollment were likely to achieve treatment response beyond week 42. The week-6 albumin to CRP ratio is a potential predictor of future biological remission during ustekinumab therapy among patients with high baseline CRP levels. Unlike other biological agents for Crohn disease, ustekinumab serum did not appear to add substantial predictive value for future biological remission.</p>
+            </sec>
+          </body>
+          <back>
+            <ref-list id="REF-ZOI190165">
+              <title>References</title>
+              <ref id="zoi190165r1">
+                <label>1</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Shivashankar</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Tremaine</surname><given-names>WJ</given-names></name>, <name name-style="western"><surname>Harmsen</surname><given-names>WS</given-names></name>, <name name-style="western"><surname>Loftus</surname><given-names>EV</given-names><suffix>Jr</suffix></name></person-group><article-title>Incidence and prevalence of Crohn’s disease and ulcerative colitis in Olmsted County, Minnesota from 1970 through 2010</article-title>. <source>Clin Gastroenterol Hepatol</source>. <year>2017</year>;<volume>15</volume>(<issue>6</issue>):-. doi:<pub-id pub-id-type="doi">10.1016/j.cgh.2016.10.039</pub-id><?supplied-pmid 27856364?><pub-id pub-id-type="pmid">27856364</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190165r2">
+                <label>2</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Katsanos</surname><given-names>KH</given-names></name>, <name name-style="western"><surname>Papamichael</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Feuerstein</surname><given-names>JD</given-names></name>, <name name-style="western"><surname>Christodoulou</surname><given-names>DK</given-names></name>, <name name-style="western"><surname>Cheifetz</surname><given-names>AS</given-names></name></person-group><article-title>Biological therapies in inflammatory bowel disease: beyond anti-TNF therapies</article-title> [published online March 12, 2018]. <source>Clin Immunol</source>. </mixed-citation>
+              </ref>
+              <ref id="zoi190165r3">
+                <label>3</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Yanai</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Lichtenstein</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Assa</surname><given-names>A</given-names></name>, <etal/></person-group><article-title>Levels of drug and antidrug antibodies are associated with outcome of interventions after loss of response to infliximab or adalimumab</article-title>. <source>Clin Gastroenterol Hepatol</source>. <year>2015</year>;<volume>13</volume>(<issue>3</issue>):<fpage>522</fpage>-<lpage>530.e2</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.cgh.2014.07.029</pub-id><?supplied-pmid 25066837?><pub-id pub-id-type="pmid">25066837</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190165r4">
+                <label>4</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Papamichael</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Gils</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Rutgeerts</surname><given-names>P</given-names></name>, <etal/></person-group><article-title>Role for therapeutic drug monitoring during induction therapy with TNF antagonists in IBD: evolution in the definition and management of primary nonresponse</article-title>. <source>Inflamm Bowel Dis</source>. <year>2015</year>;<volume>21</volume>(<issue>1</issue>):<fpage>182</fpage>-<lpage>197</lpage>. doi:<pub-id pub-id-type="doi">10.1097/MIB.0000000000000202</pub-id><?supplied-pmid 25222660?><pub-id pub-id-type="pmid">25222660</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190165r5">
+                <label>5</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Yanai</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Hanauer</surname><given-names>SB</given-names></name></person-group><article-title>Assessing response and loss of response to biological therapies in IBD</article-title>. <source>Am J Gastroenterol</source>. <year>2011</year>;<volume>106</volume>(<issue>4</issue>):<fpage>685</fpage>-<lpage>698</lpage>. doi:<pub-id pub-id-type="doi">10.1038/ajg.2011.103</pub-id><?supplied-pmid 21427713?><pub-id pub-id-type="pmid">21427713</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190165r6">
+                <label>6</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Chan</surname><given-names>HC-H</given-names></name>, <name name-style="western"><surname>Ng</surname><given-names>SC</given-names></name></person-group><article-title>Emerging biologics in inflammatory bowel disease</article-title>. <source>J Gastroenterol</source>. <year>2017</year>;<volume>52</volume>(<issue>2</issue>):<fpage>141</fpage>-<lpage>150</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s00535-016-1283-0</pub-id><?supplied-pmid 27832357?><pub-id pub-id-type="pmid">27832357</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190165r7">
+                <label>7</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Feagan</surname><given-names>BG</given-names></name>, <name name-style="western"><surname>Sandborn</surname><given-names>WJ</given-names></name>, <name name-style="western"><surname>Gasink</surname><given-names>C</given-names></name>, <etal/>; <collab>UNITI–IM-UNITI Study Group</collab></person-group><article-title>Ustekinumab as induction and maintenance therapy for Crohn’s disease</article-title>. <source>N Engl J Med</source>. <year>2016</year>;<volume>375</volume>(<issue>20</issue>):<fpage>1946</fpage>-<lpage>1960</lpage>. doi:<pub-id pub-id-type="doi">10.1056/NEJMoa1602773</pub-id><?supplied-pmid 27959607?><pub-id pub-id-type="pmid">27959607</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190165r8">
+                <label>8</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Waljee</surname><given-names>AK</given-names></name>, <name name-style="western"><surname>Liu</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Sauder</surname><given-names>K</given-names></name>, <etal/></person-group><article-title>Predicting corticosteroid-free biologic remission with vedolizumab in Crohn’s disease</article-title>. <source>Inflamm Bowel Dis</source>. <year>2018</year>;<volume>24</volume>(<issue>6</issue>):<fpage>1185</fpage>-<lpage>1192</lpage>. doi:<pub-id pub-id-type="doi">10.1093/ibd/izy031</pub-id><?supplied-pmid 29668915?><pub-id pub-id-type="pmid">29668915</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190165r9">
+                <label>9</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Waljee</surname><given-names>AK</given-names></name>, <name name-style="western"><surname>Liu</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Sauder</surname><given-names>K</given-names></name>, <etal/></person-group><article-title>Predicting corticosteroid-free endoscopic remission with vedolizumab in ulcerative colitis</article-title>. <source>Aliment Pharmacol Ther</source>. <year>2018</year>;<volume>47</volume>(<issue>6</issue>):<fpage>763</fpage>-<lpage>772</lpage>. doi:<pub-id pub-id-type="doi">10.1111/apt.14510</pub-id><?supplied-pmid 29359519?><pub-id pub-id-type="pmid">29359519</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190165r10">
+                <label>10</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Adedokun</surname><given-names>OJ</given-names></name>, <name name-style="western"><surname>Xu</surname><given-names>Z</given-names></name>, <name name-style="western"><surname>Gasink</surname><given-names>C</given-names></name>, <etal/></person-group><article-title>Pharmacokinetics and exposure response relationships of ustekinumab in patients with Crohn’s disease</article-title>. <source>Gastroenterology</source>. <year>2018</year>;<volume>154</volume>(<issue>6</issue>):<fpage>1660</fpage>-<lpage>1671</lpage>. doi:<pub-id pub-id-type="doi">10.1053/j.gastro.2018.01.043</pub-id><?supplied-pmid 29409871?><pub-id pub-id-type="pmid">29409871</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190165r11">
+                <label>11</label>
+                <mixed-citation publication-type="web"><person-group><collab>The YODA Project</collab></person-group><ext-link ext-link-type="uri" xlink:href="https://yoda.yale.edu/">https://yoda.yale.edu/</ext-link>. Accessed November 6, 2018.</mixed-citation>
+              </ref>
+              <ref id="zoi190165r12">
+                <label>12</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Reinisch</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Oddens</surname><given-names>BJ</given-names></name>, <name name-style="western"><surname>Link</surname><given-names>R</given-names></name></person-group><article-title>C-reactive protein, an indicator for maintained response or remission to infliximab in patients with Crohn’s disease: a post-hoc analysis from ACCENT I</article-title>. <source>Aliment Pharmacol Ther</source>. <year>2012</year>;<volume>35</volume>(<issue>5</issue>):<fpage>568</fpage>-<lpage>576</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1365-2036.2011.04987.x</pub-id><?supplied-pmid 22251435?><pub-id pub-id-type="pmid">22251435</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190165r13">
+                <label>13</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Mosli</surname><given-names>MH</given-names></name>, <name name-style="western"><surname>Zou</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Garg</surname><given-names>SK</given-names></name>, <etal/></person-group><article-title>C-reactive protein, fecal calprotectin, and stool lactoferrin for detection of endoscopic activity in symptomatic inflammatory bowel disease patients: a systematic review and meta-analysis</article-title>. <source>Am J Gastroenterol</source>. <year>2015</year>;<volume>110</volume>(<issue>6</issue>):<fpage>802</fpage>-<lpage>819</lpage>. doi:<pub-id pub-id-type="doi">10.1038/ajg.2015.120</pub-id><?supplied-pmid 25964225?><pub-id pub-id-type="pmid">25964225</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190165r14">
+                <label>14</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Breiman</surname><given-names>L</given-names></name></person-group><article-title>Random forests</article-title>. <source>Mach Learn</source>. <year>2001</year>;<volume>45</volume>(<issue>1</issue>):<fpage>5</fpage>-<lpage>32</lpage>. doi:<pub-id pub-id-type="doi">10.1023/A:1010933404324</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190165r15">
+                <label>15</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Liaw</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Wiener</surname><given-names>M</given-names></name></person-group><article-title>Classification and regression by random Forest</article-title>. <source>R News</source>. <year>2002</year>;<volume>2</volume>(<issue>3</issue>):<fpage>18</fpage>-<lpage>22</lpage>. <ext-link ext-link-type="uri" xlink:href="https://www.r-project.org/doc/Rnews/Rnews_2002-3.pdf">https://www.r-project.org/doc/Rnews/Rnews_2002-3.pdf</ext-link>. Accessed June 1, 2018</mixed-citation>
+              </ref>
+              <ref id="zoi190165r16">
+                <label>16</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Vermeire</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Van Assche</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Rutgeerts</surname><given-names>P</given-names></name></person-group><article-title>C-reactive protein as a marker for inflammatory bowel disease</article-title>. <source>Inflamm Bowel Dis</source>. <year>2004</year>;<volume>10</volume>(<issue>5</issue>):<fpage>661</fpage>-<lpage>665</lpage>. doi:<pub-id pub-id-type="doi">10.1097/00054725-200409000-00026</pub-id><?supplied-pmid 15472532?><pub-id pub-id-type="pmid">15472532</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190165r17">
+                <label>17</label>
+                <mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Kochhar</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Lashner</surname><given-names>B</given-names></name></person-group><article-title>Utility of biomarkers in the management of inflammatory bowel disease</article-title>. <source>Curr Treat Options Gastroenterol</source>. <year>2017</year>;<volume>15</volume>(<issue>1</issue>):<fpage>105</fpage>-<lpage>115</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11938-017-0129-z</pub-id><?supplied-pmid 28138859?><pub-id pub-id-type="pmid">28138859</pub-id></mixed-citation>
+              </ref>
+              <ref id="zoi190165r18">
+                <label>18</label>
+                <mixed-citation publication-type="web">Metro Medical. <person-group><collab>Stelara</collab></person-group> 90MG/1ML PFS each. <ext-link ext-link-type="uri" xlink:href="https://www.metromedicalorder.com/stelara-90mg-1ml-pfs-each.html">https://www.metromedicalorder.com/stelara-90mg-1ml-pfs-each.html</ext-link>. Accessed November 6, 2018.</mixed-citation>
+              </ref>
+            </ref-list>
+            <notes notes-type="supplementary-material" id="note-ZOI190165-1">
+              <supplementary-material content-type="local-data" id="note-ZOI190165-1-s">
+                <label>Supplement.</label>
+                <caption>
+                  <p><bold>eTable.</bold> Quantitative Laboratory Tests Included in Week-8 Model</p>
+                  <p><bold>eFigure 1.</bold> Consort Diagram</p>
+                  <p><bold>eFigure 2.</bold> Partial Dependence Plots for Baseline Model Predictors</p>
+                  <p><bold>eFigure 3.</bold> Partial Dependence Plots for Week-8 Model Predictors</p>
+                </caption>
+                <media xlink:href="jamanetwopen-2-e193721-s001.pdf">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </notes>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

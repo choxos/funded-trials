@@ -1,0 +1,1260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T03:11:02Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8771190" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8771190</identifier>
+        <datestamp>2022-01-20</datestamp>
+        <setSpec>bmcmrm</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article" dtd-version="1.3">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">BMC Med Res Methodol</journal-id>
+              <journal-id journal-id-type="iso-abbrev">BMC Med Res Methodol</journal-id>
+              <journal-title-group>
+                <journal-title>BMC Medical Research Methodology</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1471-2288</issn>
+              <publisher>
+                <publisher-name>BioMed Central</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8771190</article-id>
+              <article-id pub-id-type="pmcid">PMC8771190</article-id>
+              <article-id pub-id-type="pmc-uid">8771190</article-id>
+              <article-id pub-id-type="pmid">35057743</article-id>
+              <article-id pub-id-type="publisher-id">1475</article-id>
+              <article-id pub-id-type="doi">10.1186/s12874-021-01475-8</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Comparison of statistical methods for the analysis of recurrent adverse events in the presence of non-proportional hazards and unobserved heterogeneity: a simulation study</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Patson</surname>
+                    <given-names>Noel</given-names>
+                  </name>
+                  <address>
+                    <email>noelpatson@gmail.com</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Mukaka</surname>
+                    <given-names>Mavuto</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kazembe</surname>
+                    <given-names>Lawrence</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Eijkemans</surname>
+                    <given-names>Marinus J. C.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Mathanga</surname>
+                    <given-names>Don</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Laufer</surname>
+                    <given-names>Miriam K.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff7">7</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Chirwa</surname>
+                    <given-names>Tobias</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.11951.3d</institution-id><institution-id institution-id-type="ISNI">0000 0004 1937 1135</institution-id><institution>School of Public Health, </institution><institution>University of the Witwatersrand, </institution></institution-wrap>Johannesburg, South Africa </aff>
+                <aff id="Aff2"><label>2</label>School of Global and Public Health, Kamuzu University of Health Sciences, Blantyre, Malawi </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.501272.3</institution-id><institution-id institution-id-type="ISNI">0000 0004 5936 4917</institution-id><institution>Mahidol Oxford Tropical Medicine Research unit (MORU), </institution></institution-wrap>Bangkok, Thailand </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.4991.5</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 8948</institution-id><institution>Centre for Tropical Medicine, Nuffield Department of Medicine, </institution><institution>University of Oxford, </institution></institution-wrap>Oxford, UK </aff>
+                <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.10598.35</institution-id><institution-id institution-id-type="ISNI">0000 0001 1014 6159</institution-id><institution>Department of Biostatistics, </institution><institution>University of Namibia, </institution></institution-wrap>Windhoek, Namibia </aff>
+                <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="GRID">grid.7692.a</institution-id><institution-id institution-id-type="ISNI">0000000090126352</institution-id><institution>Julius Center for Health Sciences and Primary Care, </institution><institution>University Medical Center Utrecht, Utrecht University, </institution></institution-wrap>Utrecht, The Netherlands </aff>
+                <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="GRID">grid.411024.2</institution-id><institution-id institution-id-type="ISNI">0000 0001 2175 4264</institution-id><institution>Center for Vaccine Development and Global Health, </institution><institution>University of Maryland School of Medicine, </institution></institution-wrap>Baltimore, MD USA </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>20</day>
+                <month>1</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>20</day>
+                <month>1</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2022</year>
+              </pub-date>
+              <volume>22</volume>
+              <elocation-id>24</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>1</day>
+                  <month>5</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>19</day>
+                  <month>11</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2022</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p><bold>Open Access</bold>This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>. The Creative Commons Public Domain Dedication waiver (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link>) applies to the data made available in this article, unless otherwise stated in a credit line to the data.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <sec>
+                  <title>Background</title>
+                  <p id="Par1">In preventive drug trials such as intermittent preventive treatment for malaria prevention during pregnancy (IPTp), where there is repeated treatment administration, recurrence of adverse events (AEs) is expected. Challenges in modelling the risk of the AEs include accounting for time-to-AE and within-patient-correlation, beyond the conventional methods. The correlation comes from two sources; (a) individual patient unobserved heterogeneity (i.e. frailty) and (b) the dependence between AEs characterised by time-dependent treatment effects. Potential AE-dependence can be modelled via time-dependent treatment effects, event-specific baseline and event-specific random effect, while heterogeneity can be modelled via subject-specific random effect. Methods that can improve the estimation of both the unobserved heterogeneity and treatment effects can be useful in understanding the evolution of risk of AEs, especially in preventive trials where time-dependent treatment effect is expected.</p>
+                </sec>
+                <sec>
+                  <title>Methods</title>
+                  <p id="Par2">Using both a simulation study and the <italic>Chloroquine for Malaria in Pregnancy</italic> (NCT01443130) trial data to demonstrate the application of the models, we investigated whether the lognormal shared frailty models with restricted cubic splines and non-proportional hazards (LSF-NPH) assumption can improve estimates for both frailty variance and treatment effect compared to the conventional inverse Gaussian shared frailty model with proportional hazard (ISF-PH), in the presence of time-dependent treatment effects and unobserved patient heterogeneity. We assessed the bias, precision gain and coverage probability of 95% confidence interval of the frailty variance estimates for the models under varying known unobserved heterogeneity, sample sizes and time-dependent effects.</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p id="Par3">The ISF-PH model provided a better coverage probability of 95% confidence interval, less bias and less precise frailty variance estimates compared to the LSF-NPH models. The LSF-NPH models yielded unbiased hazard ratio estimates at the expense of imprecision and high mean square error compared to the ISF-PH model.</p>
+                </sec>
+                <sec>
+                  <title>Conclusion</title>
+                  <p id="Par4">The choice of the shared frailty model for the recurrent AEs analysis should be driven by the study objective. Using the LSF-NPH models is appropriate if unbiased hazard ratio estimation is of primary interest in the presence of time-dependent treatment effects. However, ISF-PH model is appropriate if unbiased frailty variance estimation is of primary interest.</p>
+                </sec>
+                <sec>
+                  <title>Trial registration</title>
+                  <p id="Par5">ClinicalTrials.gov; <ext-link ext-link-type="uri" xlink:href="https://clinicaltrials.gov/ct2/show/NCT01443130">NCT01443130</ext-link></p>
+                </sec>
+              </abstract>
+              <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>Recurrent adverse events</kwd>
+                <kwd>Randomised controlled trials</kwd>
+                <kwd>Non-proportional hazards</kwd>
+                <kwd>Unobserved heterogeneity</kwd>
+              </kwd-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2022</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Background</title>
+              <p id="Par17">The development of a comprehensive drug safety profile in randomized controlled trials (RCTs) requires statistical methods that can adequately characterize the adverse event (AE) occurrence process (e.g. time of onset, recurrence and duration) [<xref ref-type="bibr" rid="CR1">1</xref>]. Traditionally, analysis of AEs in IPTp trials, like all clinical trials, is predominantly descriptive and non-parametric such that advanced methods (e.g. parametric and semi-parametric) are rarely used [<xref ref-type="bibr" rid="CR2">2</xref>–<xref ref-type="bibr" rid="CR4">4</xref>]. The use of descriptive and non-parametric methods can lead to poor estimates of the effect of treatment on AE recurrence. The descriptive and non-parametric methods may not account for essential aspects of the data structure such as censoring, potential time-varying treatment effect and the AE-dependence. For example, mean cumulative function is the simple and popular non-parametric method used to facilitate the development of trajectories of AEs profiles over the study period, where a patient may experience more than one AEs [<xref ref-type="bibr" rid="CR5">5</xref>]. However, the method fails to explicitly account for the potential dependence of the AEs or individual patient heterogeneity. The utility of the existing recurrent event methods towards the AEs analysis has been recently considered [<xref ref-type="bibr" rid="CR6">6</xref>]. However, adopting and interpreting such recurrent events methods results in drug safety assessment setting remains a challenge. This motivates a need for further investigations on the clinical value and practical applicability of the advanced methods [<xref ref-type="bibr" rid="CR7">7</xref>]. In the framework of benefit-risk assessment, two models (the Andersen Gill model and Prentice, Williams and Peterson model) have been demonstrated to be useful in providing both direct and indirect effects of treatment on AE recurrence [<xref ref-type="bibr" rid="CR6">6</xref>]. However, these models yield unbiased estimates if the AEs are uncorrelated and do not efficiently capture (i.e. account for) both potential time-dependent treatment effects and unobserved heterogeneity. This motivates the need to consider using flexible parametric shared frailty models that can optimally capture both the time-dependent effects and unobserved heterogeneity, to improve drug safety estimates.</p>
+              <p id="Par18">In IPTp clinical trials, the potential of recurrent AEs is high because the preventive antimalarial drugs are repeatedly administered. Recurrent AEs may induce within-patient correlation that originates from two sources: the individual patient unobserved heterogeneity and the dependence between events [<xref ref-type="bibr" rid="CR8">8</xref>]. The individual patient heterogeneity cannot be explained by the observed/known factors [<xref ref-type="bibr" rid="CR9">9</xref>, <xref ref-type="bibr" rid="CR10">10</xref>], while the between-AE-dependence can be explained based on the observed AEs. The unobserved heterogeneity arises from unmeasured information that partly explains the treatment effect. For example, in IPTp trials, unobserved heterogeneity can arise from the unmeasured inherent characteristics (e.g. physiological changes associated with foetus development). The underlying individual patient-specific unobserved heterogeneity can influence the susceptibility of patients to AE recurrence. In IPTp trials, as the case with some drug trials, the treatment effect depends on follow-up time. Such treatment effect that is a function of follow-up time is called time-varying or time-dependent treatment effect. In the presence of the time-dependent treatment effect, the relative effect of treatment changes over the follow-up time such that the proportional assumption is violated (on log hazard scale). Ignoring the time-dependent effects can lead to biased estimates. Therefore, accounting for the potential time-dependent treatment effects in the analysis of recurrent events is necessary. However, in practice, identifying a model that can account for both unobserved heterogeneity and time-dependent effects can present a challenge. Since the recurrence of AEs can be a reflection of both time-dependent treatment effects and underlying individual patient unobserved heterogeneity. Therefore, it is vital to consider models that account for both issues.</p>
+              <p id="Par19">Currently, shared frailty is one of the prevalent models for the analysis of recurrent events. This model can account for both the observed and unobserved heterogeneity. However, the common current applications of the shared frailty model assume that the treatment effect estimate (i.e. hazard ratio) is constant over the follow-up time [<xref ref-type="bibr" rid="CR11">11</xref>]. In preventive drug trial settings, where there is repeated treatment administration and a long patient follow-up time, the proportional hazard assumption can be invalid when treatment hazard rates, between/across arms, for recurrent events can vary over the follow-up time. For example, in the context of IPTp drug safety assessment, more recurrent AEs are expected close to the day(s) of taking the days. The potential presence of time-dependent treatment effects can pose a challenge in applying the shared frailty model to analyse recurrent events since it becomes complicated to separate time-dependent effects from unobserved heterogeneity [<xref ref-type="bibr" rid="CR12">12</xref>].</p>
+              <p id="Par20">Recent developments in flexible parametric survival models can effectively capture both time-dependent effects and unobserved heterogeneity [<xref ref-type="bibr" rid="CR13">13</xref>]. Researchers have established, mainly in univariate survival data context, that flexible parametric survival models with restricted cubic splines can accurately model time-dependent effects [<xref ref-type="bibr" rid="CR14">14</xref>, <xref ref-type="bibr" rid="CR15">15</xref>]. However, there is limited literature investigating the efficiency and utility of such methods in the context of multivariate survival data and drug safety assessment. Within multivariate survival data setting, Gasparini et al. recently compared the standard and spline-based shared frailty models under varying heterogeneity and baseline hazard specification assuming proportional hazards [<xref ref-type="bibr" rid="CR16">16</xref>]. The shared parametric models with splines emerged to be more robust to model misspecification than the standard approaches. However, their work is limited to the context of the proportional hazards assumption. As highlighted above, a challenge arises in applying the shared frailty model when there are time-dependent effects. Using the standard semi-parametric shared frailty models, Balan and Putter demonstrated that the bias of frailty variance estimate, in the presence of time-dependent effects, can be mitigated as the cluster size (i.e. number of recurrent events within an individual) increases [<xref ref-type="bibr" rid="CR12">12</xref>]. Based on the available literature, it is not clear whether the use of flexible parametric shared frailty with splines models can improve the frailty estimates compared to the standard shared frailty models in the presence of both time-dependent treatment and unobserved heterogeneity.</p>
+              <p id="Par21">Our work aims at investigating whether the flexible parametric shared frailty model with non-proportional hazards and restricted cubic splines can improve both the frailty variance and hazard ratio estimates compared to the standard parametric shared frailty models, in the presence of both unobserved heterogeneity and time-dependent treatment effects. The optimal shared frailty model can efficiently capture both unobserved heterogeneity and time-dependent effects. We evaluated the following models; (a) inverse Gaussian shared frailty (ISF-PH) model with proportional hazards and Weibull baseline hazard (b) Lognormal shared frailty model with non-proportional hazard and restricted cubic splines where we model the baseline hazard function with 1 degree of freedom and model the time-dependent treatment effect with 1 degree of freedom (LSF-NPHS1) and (c) Lognormal shared frailty model with non-proportional hazard and restricted cubic splines where we model the baseline hazard function with 3 degrees of freedom and model the time-dependent treatment effect with 1 degree of freedom (LSF-NPHS3). We compare the models using a simulation study assuming an application area of recurrent AEs in IPTp trials. Understanding the statistical properties would enhance the informed choice of statistical methods for the analysis of recurrent AEs. The simulation offers an opportunity to effectively understand the properties of the statistical models since the true data distribution is known, unlike in a practical clinical trial setting. We present the remaining sections of the paper as follows: In the methods section, we provide a detailed review of the models under study, outline the simulation study design and describe the analysis approach. In the results section, we present the findings of our simulation study and apply the models to the analysis of recurrent AEs observed in <italic>Chloroquine for Malaria in pregnancy</italic> trial (NCT01443130). In the discussion section, we discuss the key findings of our work and provide a conclusion.</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Methods</title>
+              <p id="Par22">This section outlines notation and provides an overview of the three models that were compared in our simulation study. Specifically, we briefly introduce and discuss the general inferential methodological framework of the models, focussing on model specification, parameter estimation and respective assumptions. The presentation of this section is customized to the context of drug safety assessment in clinical trials. For readers interested in detailed concepts, on recurrent events analysis, they can consult excellent introductory books on recurrent events analysis and frailty models methodology [<xref ref-type="bibr" rid="CR10">10</xref>, <xref ref-type="bibr" rid="CR17">17</xref>, <xref ref-type="bibr" rid="CR18">18</xref>], written for a wider audience.</p>
+              <sec id="Sec3">
+                <title>Notation</title>
+                <p id="Par23">We assume that the observation begins at enrolment, denoted as time t = 0. Let <italic>T</italic><sub><italic>ik</italic></sub> be the total time of the <italic>k</italic><sup><italic>th</italic></sup> event for the <italic>i</italic><sup><italic>th</italic></sup> patient where <italic>i</italic> = 1, 2, ………<italic>n</italic>, <italic>k</italic> = 0, 1, 2, ……. <italic>p</italic> and we assume <italic>T</italic><sub><italic>i</italic>1</sub> &lt; <italic>T</italic><sub><italic>i</italic>2</sub> &lt; … &lt; <italic>T</italic><sub><italic>ik</italic></sub>. The AEs are assumed to be recorded over a period of time interval [0, τ] such that the total number of AEs recorded per patient <italic>i</italic> over that time is <inline-formula id="IEq1"><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$=\sum_{k=0}^{\infty }I\left({T}_{ik}\le t\right)$$\end{document}</tex-math><mml:math id="M2"><mml:mrow><mml:mo>=</mml:mo><mml:msubsup><mml:mo>∑</mml:mo><mml:mrow><mml:mi>k</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow><mml:mi>∞</mml:mi></mml:msubsup><mml:mi>I</mml:mi><mml:mfenced close=")" open="("><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi mathvariant="italic">ik</mml:mi></mml:mrow></mml:msub><mml:mo>≤</mml:mo><mml:mi>t</mml:mi></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="12874_2021_1475_Article_IEq1.gif"/></alternatives></inline-formula> . The history of the recorded number of events over given time t, denoted as <italic>N</italic>(<italic>t</italic>), 0 ≤ <italic>t</italic>, is defined as a counting process; this forms the basis for easy-to-implement recurrent events analysis. The frailty is defined as <italic>φ</italic><sub><italic>i</italic></sub> and interpreted as an unobserved covariate common for all recurrent AEs within the patient. Covariate and regression coefficients vectors are defined as <bold><italic>X</italic></bold><sub><italic>ik</italic></sub> and <bold><italic>β</italic></bold> respectively. The covariates from the covariates vector are considered to be fixed. Under the simulation study design described below, one covariate is considered (i.e. treatment). For the non-proportional hazard models, the treatment effect is allowed to be dependent on time (i.e. <bold><italic>β</italic></bold>(<bold><italic>t</italic></bold>)). These are further discussed in context in the section below.</p>
+              </sec>
+              <sec id="Sec4">
+                <title>Statistical methods for recurrent events</title>
+                <p id="Par24">Recurrent events modelling is popularly based on three main approaches; event counts, event intensity function and joint distribution of gap times between successive events. Event counts-based models are suitable when there are frequent events and event occurrence does not impact the occurrence of the subsequent events [<xref ref-type="bibr" rid="CR17">17</xref>, <xref ref-type="bibr" rid="CR19">19</xref>]. In the context of AEs, some mild AEs may not alter the event process (e.g. mild headache). When events are infrequent and the prediction of the next event is of interest, gap times methods are appropriate [<xref ref-type="bibr" rid="CR20">20</xref>, <xref ref-type="bibr" rid="CR21">21</xref>]. To ensure that the event process history is appropriately incorporated, the intensity function is used; the function defines the instantaneous probability of an event occurring at time t given the event process history [<xref ref-type="bibr" rid="CR17">17</xref>].<disp-formula id="Equ1"><label>M1</label><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\lambda \left(t|H(t)\right)=\underset{\Delta \to 0}{\lim}\frac{\Pr \Big(\Delta N(t)=1\mid \left(H(t)\right)}{\Delta t}$$\end{document}</tex-math><mml:math id="M4" display="block"><mml:mrow><mml:mi>λ</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi><mml:mo stretchy="false">|</mml:mo><mml:mi>H</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mfenced><mml:mo>=</mml:mo><mml:munder><mml:mo movablelimits="false">lim</mml:mo><mml:mrow><mml:mi mathvariant="normal">Δ</mml:mi><mml:mo stretchy="false">→</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:munder><mml:mfrac><mml:mrow><mml:mo>Pr</mml:mo><mml:mrow><mml:mo maxsize="1.623em" minsize="1.623em" stretchy="true">(</mml:mo></mml:mrow><mml:mi mathvariant="normal">Δ</mml:mi><mml:mi>N</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>∣</mml:mo><mml:mfenced close=")" open="("><mml:mi>H</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mfenced></mml:mrow><mml:mrow><mml:mi mathvariant="normal">Δ</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="12874_2021_1475_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par25">Where <italic>∆N(t)</italic> is the number of events in the time interval [t, ∆t), <italic>H(t)</italic> is the history of the event process at time t. Since event counts (i.e. Poisson process) modelling approach assumes that the events are independent such that the event history process at <italic>t</italic>, H(t), does not affect the instantaneous probability of an event at time <italic>t</italic>, the intensity function is reduced to the rate function <italic>ρ(t)</italic> below;<disp-formula id="Equ2"><label>M2</label><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\lambda \left(t|H(t)\right)=\underset{\Delta \to 0}{\lim}\frac{\Pr \left(\Delta N(t)=1\right)}{\Delta t}=\rho (t)$$\end{document}</tex-math><mml:math id="M6" display="block"><mml:mrow><mml:mi>λ</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi><mml:mo stretchy="false">|</mml:mo><mml:mi>H</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mfenced><mml:mo>=</mml:mo><mml:munder><mml:mo movablelimits="false">lim</mml:mo><mml:mrow><mml:mi mathvariant="normal">Δ</mml:mi><mml:mo stretchy="false">→</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:munder><mml:mfrac><mml:mrow><mml:mo>Pr</mml:mo><mml:mfenced close=")" open="("><mml:mi mathvariant="normal">Δ</mml:mi><mml:mi>N</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mfenced></mml:mrow><mml:mrow><mml:mi mathvariant="normal">Δ</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mi>ρ</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:math><graphic xlink:href="12874_2021_1475_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par26">This implies; ∆<italic>tρ</italic>(<italic>t</italic>) = <italic>E</italic>(∆<italic>N</italic>(<italic>t</italic>)). Hence if we let the expected cumulative rate at time <italic>t</italic> to be μ(<italic>t</italic>), we can derive the expected cumulative rate by integrating the rate function over the interval [0, <italic>t</italic>).<disp-formula id="Equ3"><label>M3</label><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu (t)={\int}_0^t\rho (s) ds$$\end{document}</tex-math><mml:math id="M8" display="block"><mml:mrow><mml:mi>μ</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msubsup><mml:mo>∫</mml:mo><mml:mn>0</mml:mn><mml:mi>t</mml:mi></mml:msubsup><mml:mi>ρ</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>s</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi>d</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:math><graphic xlink:href="12874_2021_1475_Article_Equ3.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par27">The gap/waiting times method is another alternative approach that focusses on modelling time between consecutive events. Methods based on gap time are suitable mainly in setting where the occurrence of the events is considered relatively infrequent [<xref ref-type="bibr" rid="CR17">17</xref>]. The work in this paper is confined to multiplicative intensity-based models because it permits deriving and interpretation of failure intensity relative to the treatment under investigation. Shared frailty models are considered as important intensity-based models for the analysis of recurrent events that can account for both measured and unmeasured heterogeneity.</p>
+              </sec>
+              <sec id="Sec5">
+                <title>The shared frailty models</title>
+                <p id="Par28">In practice, the common approach to account for unobserved heterogeneity in recurrent events analysis is to use a robust variance (i.e. robust sandwich covariance matrix is used in estimating the log hazard ratio). Adjusting for within-subject unobserved heterogeneity using robust variance has been shown to be inadequate in some settings [<xref ref-type="bibr" rid="CR22">22</xref>]. One of the solutions to this is explicitly modelling the correlation using patient-specific random effect. Such a model is defined as a frailty model. Frailty models are hazard models having a multiplicative frailty factor [<xref ref-type="bibr" rid="CR10">10</xref>]; these are conditional models. Overall, the model has frailty, linear predictor and the baseline hazard function as the multiplicative factors. The random effect introduced in frailty models describes the excess risk that cannot be explained by the measured/observed variables [<xref ref-type="bibr" rid="CR10">10</xref>]. The unmeasured observations may introduce heterogeneity between the analysis units e.g. for recurrent AEs, observations within a patient may be more similar compared to different patients. Hence frailty model attempts to account for the within-patient correlation. Ignoring the potential heterogeneity in modelling recurrent events can lead to underestimation of treatment effect [<xref ref-type="bibr" rid="CR23">23</xref>, <xref ref-type="bibr" rid="CR24">24</xref>].</p>
+                <p id="Par29">For recurrent events, when the frailty is modelled as a common random effect for all events within a patient, it is defined as a shared frailty model (see model M4). The dependence accounted for in the shared frailty model is only due to the unobserved individual heterogeneity, <italic>φ</italic><sub><italic>i</italic></sub>. This measure of the extent of heterogeneity among the patients can follow several distributions [<xref ref-type="bibr" rid="CR18">18</xref>]. Gamma and inverse Gaussian distributions are the common frailty distribution specifications, possibly due to their mathematical tractability and software availability. Across all the patients, the respective random effects are assumed to be independent and identically distributed.<disp-formula id="Equ4"><label>M4</label><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\lambda}_{ik}\left({t}_{ij}|{\varphi}_i,\kern0.5em {X}_{ik}\right)={\varphi}_i{\lambda}_0\left({t}_{ij}\right)\mathit{\exp}\left({\boldsymbol{X}}_{\boldsymbol{ik}}^{\mathbf{T}}(t)\boldsymbol{\beta} \right)$$\end{document}</tex-math><mml:math id="M10" display="block"><mml:mrow><mml:msub><mml:mi>λ</mml:mi><mml:mrow><mml:mi mathvariant="italic">ik</mml:mi></mml:mrow></mml:msub><mml:mfenced close=")" open="("><mml:msub><mml:mi>t</mml:mi><mml:mrow><mml:mi mathvariant="italic">ij</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="false">|</mml:mo></mml:mrow><mml:msub><mml:mi>φ</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mspace width="5.0pt"/><mml:msub><mml:mi>X</mml:mi><mml:mrow><mml:mi mathvariant="italic">ik</mml:mi></mml:mrow></mml:msub></mml:mfenced><mml:mo>=</mml:mo><mml:msub><mml:mi>φ</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:msub><mml:mi>λ</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mfenced close=")" open="("><mml:msub><mml:mi>t</mml:mi><mml:mrow><mml:mi mathvariant="italic">ij</mml:mi></mml:mrow></mml:msub></mml:mfenced><mml:mo>exp</mml:mo><mml:mfenced close=")" open="("><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">X</mml:mi></mml:mrow><mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">ik</mml:mi></mml:mrow></mml:mrow><mml:mi mathvariant="bold">T</mml:mi></mml:msubsup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">β</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="12874_2021_1475_Article_Equ4.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par30">If the baseline hazard, <italic>λ</italic><sub>0</sub>(<italic>t</italic><sub><italic>ij</italic></sub>), is unspecified, the model is called a semi-parametric frailty model. Specifying the baseline hazard function ensures that an appropriate shape of the hazard function is captured. However, miss-specification of the baseline hazard distribution may induce bias on regression coefficients [<xref ref-type="bibr" rid="CR16">16</xref>]. Therefore, caution needs to be exercised on the choice of the baseline hazard distribution by paying attention to the most clinically plausible hazard function. Traditionally, the hazards are assumed proportional over the whole follow-up time. Within the flexible parametric survival methods framework, the proportional hazards assumption can be relaxed to accommodate time-dependent treatment effects (i.e. non-proportional hazards [<xref ref-type="bibr" rid="CR13">13</xref>]). This can be implemented by interacting treatment with splines of log time as part of the linear predictor. Fitting such flexible non-proportional shared frailty model on log hazard scale is helpful since it can effectively accommodate interpretation and presentation of results. The shared frailty model with non-proportional hazards and restricted cubic splines can be written as;<disp-formula id="Equ5"><label>M5</label><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mathit{\log}\ \left\{{\lambda}_{ik}\left({t}_{ij}|{\varphi}_i,\kern0.5em {X}_{ik}\right)\right\}=s\left\{\log (t)|\gamma, {k}_0\right\}+{\boldsymbol{X}}_{ik}^{\mathbf{T}}\boldsymbol{\beta} +\mathit{\log}\left(\ {\varphi}_i\right)+\sum_{f=1}^Fs\left\{\log (t)|{\delta}_f,{k}_f\right\}{x}_{ik f}$$\end{document}</tex-math><mml:math id="M12" display="block"><mml:mrow><mml:mo>log</mml:mo><mml:mspace width="4pt"/><mml:mfenced close="}" open="{"><mml:msub><mml:mi>λ</mml:mi><mml:mrow><mml:mi mathvariant="italic">ik</mml:mi></mml:mrow></mml:msub><mml:mfenced close=")" open="("><mml:msub><mml:mi>t</mml:mi><mml:mrow><mml:mi mathvariant="italic">ij</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="false">|</mml:mo></mml:mrow><mml:msub><mml:mi>φ</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mspace width="5.0pt"/><mml:msub><mml:mi>X</mml:mi><mml:mrow><mml:mi mathvariant="italic">ik</mml:mi></mml:mrow></mml:msub></mml:mfenced></mml:mfenced><mml:mo>=</mml:mo><mml:mi>s</mml:mi><mml:mfenced close="}" open="{"><mml:mrow><mml:mo>log</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo stretchy="false">|</mml:mo><mml:mi>γ</mml:mi><mml:mo>,</mml:mo></mml:mrow><mml:msub><mml:mi>k</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:mfenced><mml:mo>+</mml:mo><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">X</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="italic">ik</mml:mi></mml:mrow><mml:mi mathvariant="bold">T</mml:mi></mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">β</mml:mi></mml:mrow><mml:mo>+</mml:mo><mml:mo>log</mml:mo><mml:mfenced close=")" open="("><mml:mspace width="4pt"/><mml:msub><mml:mi>φ</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mfenced><mml:mo>+</mml:mo><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>f</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>F</mml:mi></mml:munderover><mml:mi>s</mml:mi><mml:mfenced close="}" open="{"><mml:mrow><mml:mo>log</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo stretchy="false">|</mml:mo></mml:mrow><mml:msub><mml:mi>δ</mml:mi><mml:mi>f</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>k</mml:mi><mml:mi>f</mml:mi></mml:msub></mml:mfenced><mml:msub><mml:mi>x</mml:mi><mml:mrow><mml:mi mathvariant="italic">ikf</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math><graphic xlink:href="12874_2021_1475_Article_Equ5.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par31">The treatment <italic>x</italic><sub><italic>ik</italic></sub> is interacted with restricted cubic function of log time, <italic>s</italic>{log(<italic>t</italic>)| <italic>γ</italic>, <italic>k</italic><sub>0</sub>}, such that <italic>γ</italic> is parameter vector and <italic>k</italic><sub>0</sub> is knot vector. Similarly, <italic>s</italic>{log(<italic>t</italic>)| <italic>δ</italic><sub><italic>f</italic></sub>, <italic>k</italic><sub><italic>f</italic></sub>} represents a spline function of log time for the <italic>f</italic><sup>th</sup> time-dependent effect with parameter vector <italic>δ</italic><sub><italic>f</italic></sub> and knots vector <italic>k</italic><sub><italic>f</italic></sub>. Since the number of restricted cubic splines can determine the most appropriate model to use we considered to evaluate two flexible parametric shared frailty models as follows;
+<list list-type="simple"><list-item><label>(i)</label><p id="Par32"><bold>LSF-NPHS1:</bold> We considered a shared frailty model assuming lognormal frailty distribution and non-proportional hazards with restricted cubic splines where the baseline hazard function is modelled using 1 degree of freedom and the time-dependent treatment effect is modelled using 1 degree of freedom.</p></list-item><list-item><label>(ii)</label><p id="Par33"><bold>LSF-NPHS3</bold>: We also considered a shared frailty model was fitted assuming lognormal frailty distribution and non-proportional hazards with restricted cubic splines where the baseline hazard function is modelled using 3 degrees of freedom and the time-dependent treatment effect is modelled using 1 degree of freedom.</p></list-item></list></p>
+                <p id="Par34">Generally, under shared frailty models, depending on the model specification, parameter estimation can be done using expectation-maximization algorithm, maximum likelihood penalized partial likelihood and Markov chain Monte-Carlo methods [<xref ref-type="bibr" rid="CR18">18</xref>]. Since in this paper we focus on parametric shared frailty models from a Frequentist perspective, the parameter estimation is based on maximum likelihood estimation. It should be noted that in drug clinical trials not all patients may experience the AEs (i.e. some patients are censored). Censoring in this paper is considered independent of the AE occurrence. Specifically, the model parameters can be estimated by maximizing marginal log-likelihood as shown below; Let <italic>Z</italic> be the vector containing the observed patient-specific information such that<disp-formula id="Equa"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Z=\left(\left({y}_{ij},{\xi}_{ij},{x}_{ij}\right)\ \right|j=0,1,\dots k\Big)$$\end{document}</tex-math><mml:math id="M14" display="block"><mml:mrow><mml:mi>Z</mml:mi><mml:mo>=</mml:mo><mml:mfenced close="|" open="("><mml:mfenced close=")" open="("><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi mathvariant="italic">ij</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>ξ</mml:mi><mml:mrow><mml:mi mathvariant="italic">ij</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mrow><mml:mi mathvariant="italic">ij</mml:mi></mml:mrow></mml:msub></mml:mfenced><mml:mspace width="4pt"/></mml:mfenced><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mo>⋯</mml:mo><mml:mi>k</mml:mi><mml:mrow><mml:mo maxsize="1.623em" minsize="1.623em" stretchy="true">)</mml:mo></mml:mrow></mml:mrow></mml:math><graphic xlink:href="12874_2021_1475_Article_Equa.gif" position="anchor"/></alternatives></disp-formula>where <italic>y</italic><sub><italic>ij</italic></sub>, <italic>ξ</italic><sub><italic>ij</italic></sub> and <italic>x</italic><sub><italic>ij</italic></sub> are time to AE occurrence, AE occurrence indicator (1 for AE occurrence and 0 otherwise) and fixed covariate for patient <italic>i</italic> and <italic>jth</italic> AE occurrence, respectively. Let <bold><italic>U</italic></bold> be a vector containing the latent information (the frailty terms) for n patients.<disp-formula id="Equb"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$U=\left({u}_1,{u}_2,\dots, {u}_n\right),$$\end{document}</tex-math><mml:math id="M16" display="block"><mml:mrow><mml:mi>U</mml:mi><mml:mo>=</mml:mo><mml:mfenced close=")" open="("><mml:msub><mml:mi>u</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>u</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mo>⋯</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mi>u</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mfenced><mml:mo>,</mml:mo></mml:mrow></mml:math><graphic xlink:href="12874_2021_1475_Article_Equb.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par35">therefore, the marginal log-likelihood of the observed data <italic>Z</italic> can be written as:<disp-formula id="Equc"><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${l}_{marg}\left(\xi, \beta, Z|\tau \right)=\sum_{i=1}^n\left\{\left[\sum_{j=0}^k{\xi}_{ij}\left(\log \left({h}_0{y}_{ij}\right)\right)+\left({X}_{ij}^T\beta \right)\right]+\log \right[{\left(-1\right)}^{d_i}\left({\mathcal{L}}^{\left({d}_i\right)}\left(\sum_{j=0}^k{H}_0\left({y}_{ij}\right)\exp \left({X}_{ij}^T\beta \right)\Big)\right]-\log \left[\mathcal{L}\left(\sum_{j=0}^k{H}_0\left({\tau}_{ij}\right)\exp \left({X}_{ij}^T\beta \right)\right)\right]\right\}$$\end{document}</tex-math><mml:math id="M18" display="block"><mml:mrow><mml:msub><mml:mi>l</mml:mi><mml:mrow><mml:mi mathvariant="italic">marg</mml:mi></mml:mrow></mml:msub><mml:mfenced close=")" open="("><mml:mi>ξ</mml:mi><mml:mo>,</mml:mo><mml:mi>β</mml:mi><mml:mo>,</mml:mo><mml:mi>Z</mml:mi><mml:mo stretchy="false">|</mml:mo><mml:mi>τ</mml:mi></mml:mfenced><mml:mo>=</mml:mo><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>n</mml:mi></mml:munderover><mml:mfenced close="[" open="{"><mml:mfenced close="]" open="["><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow><mml:mi>k</mml:mi></mml:munderover><mml:msub><mml:mi>ξ</mml:mi><mml:mrow><mml:mi mathvariant="italic">ij</mml:mi></mml:mrow></mml:msub><mml:mfenced close=")" open="("><mml:mo>log</mml:mo><mml:mfenced close=")" open="("><mml:msub><mml:mi>h</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi mathvariant="italic">ij</mml:mi></mml:mrow></mml:msub></mml:mfenced></mml:mfenced><mml:mo>+</mml:mo><mml:mfenced close=")" open="("><mml:msubsup><mml:mi>X</mml:mi><mml:mrow><mml:mi mathvariant="italic">ij</mml:mi></mml:mrow><mml:mi>T</mml:mi></mml:msubsup><mml:mi>β</mml:mi></mml:mfenced></mml:mfenced><mml:mo>+</mml:mo><mml:mo>log</mml:mo></mml:mfenced><mml:msup><mml:mrow><mml:mfenced close=")" open="("><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mfenced></mml:mrow><mml:msub><mml:mi>d</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:msup><mml:mfenced close="}" open="("><mml:msup><mml:mrow><mml:mi mathvariant="script">L</mml:mi></mml:mrow><mml:mfenced close=")" open="("><mml:msub><mml:mi>d</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mfenced></mml:msup><mml:mfenced close="]" open="("><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow><mml:mi>k</mml:mi></mml:munderover><mml:msub><mml:mi>H</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mfenced close=")" open="("><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi mathvariant="italic">ij</mml:mi></mml:mrow></mml:msub></mml:mfenced><mml:mo>exp</mml:mo><mml:mfenced close=")" open="("><mml:msubsup><mml:mi>X</mml:mi><mml:mrow><mml:mi mathvariant="italic">ij</mml:mi></mml:mrow><mml:mi>T</mml:mi></mml:msubsup><mml:mi>β</mml:mi></mml:mfenced><mml:mrow><mml:mo maxsize="1.623em" minsize="1.623em" stretchy="true">)</mml:mo></mml:mrow></mml:mfenced><mml:mo>-</mml:mo><mml:mo>log</mml:mo><mml:mfenced close="]" open="["><mml:mi mathvariant="script">L</mml:mi><mml:mfenced close=")" open="("><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow><mml:mi>k</mml:mi></mml:munderover><mml:msub><mml:mi>H</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mfenced close=")" open="("><mml:msub><mml:mi>τ</mml:mi><mml:mrow><mml:mi mathvariant="italic">ij</mml:mi></mml:mrow></mml:msub></mml:mfenced><mml:mo>exp</mml:mo><mml:mfenced close=")" open="("><mml:msubsup><mml:mi>X</mml:mi><mml:mrow><mml:mi mathvariant="italic">ij</mml:mi></mml:mrow><mml:mi>T</mml:mi></mml:msubsup><mml:mi>β</mml:mi></mml:mfenced></mml:mfenced></mml:mfenced></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="12874_2021_1475_Article_Equc.gif" position="anchor"/></alternatives></disp-formula>where <italic>d</italic><sub><italic>i</italic></sub> represents the total number of events for patient and <inline-formula id="IEq2"><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathcal{L}}^{(v)}(.)$$\end{document}</tex-math><mml:math id="M20"><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="script">L</mml:mi></mml:mrow><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>v</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mo>.</mml:mo><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:math><inline-graphic xlink:href="12874_2021_1475_Article_IEq2.gif"/></alternatives></inline-formula> represents the <italic>v</italic><sup><italic>th</italic></sup> derivative of the Laplace transform for the derivative. Availability of the Laplace transform simplifies the maximization of the log-likelihood in order to compute the desired model parameters. Under the time-dependent treatment effect, the fixed treatment effect <italic>β</italic> can be replaced by the time-dependent treatment effect <italic>β</italic>(<italic>t</italic>).</p>
+              </sec>
+              <sec id="Sec6">
+                <title>Simulation study</title>
+                <p id="Par36">This simulation study was conducted and reported based on “Aims, Data generating process, Method of analysis, Estimands and Performance” approach [<xref ref-type="bibr" rid="CR25">25</xref>] since it provides a scientifically coherent structured framework for designing, interpreting and reporting simulation studies.</p>
+                <sec id="Sec7">
+                  <title>Aim</title>
+                  <p id="Par37">There is a dearth of literature highlighting the performance of recurrent statistical methods when both AE-dependence and heterogeneity is accounted for in analysis of recurrent AEs in clinical trials. The aim of the simulation study was to evaluate whether the use of Lognormal shared frailty model with restricted splines and non-proportional hazards improves both the frailty variance and hazard ratio estimates in the presence of time-dependent effects and unobserved heterogeneity under varying unobserved heterogeneity levels and sample sizes. The performance of this flexible model was compared against the standard proportional hazards-based inverse Gaussian shared frailty model with proportional hazard and Weibull baseline hazard distribution assumptions.</p>
+                </sec>
+                <sec id="Sec8">
+                  <title>Data generating mechanisms</title>
+                  <p id="Par38">The data generating mechanism (DGM) in this simulation study focussed on the specification and estimation of frailty variance and hazard ratio in the presence of time-dependent treatment effects and unobserved heterogeneity (Table <xref rid="Tab1" ref-type="table">1</xref>). For each scenario, we considered 1000 simulations, lognormal frailty distribution, Weibull baseline hazard, fixed effect treatment effect of log hazard ratio 0.5 and up to a maximum of 4 AEs experienced by a patient. The choice of possible maximum of 4 AEs per patient was aimed at mimicking a setting for moderately high occurrence of recurrent AEs, in IPTp trials. The choice of lognormal frailty distribution was driven by the mathematical tractability of the distribution, availability of software for implementation and interpretability of the results in the context of AEs. The DGMs varied sample size (<italic>n</italic> = 300, <italic>n</italic> = 500), frailty distribution variance (0.25, 0.50, 0.75) and time-dependent effect (0.03, − 0.03). The choice of the sample size was intended to reflect sample sizes that are commonly employed in most IPTp trials. Choice of frailty variance (i.e. a measure of the strength of the unobserved heterogeneity within an individual) intended to represent a setting 0.25, 0.5 and 0.75 represented weak variance, moderate variance and heavy variance respectively. The time-dependent treatment effect allowed the fixed effect treatment effect of log hazard ratio 0.5 to decay over time (when set at − 0.03) or increase over time (when set at 0.03) or remain constant when set at 0.0). All the DGMs were parametrically based, to accommodate the investigation of several scenarios unlike resampling that confines investigation to data with properties only for the application data under study [<xref ref-type="bibr" rid="CR25">25</xref>]. Hence, we simulated recurrent AE data similar to common scenarios that are practically and theoretically expected in IPTp trials. In all the simulation scenarios, the data generation mimicked a randomized controlled trial with two treatment arms. In all scenarios under study, we assumed that there were no substantial competing risks observed during the trial such that censoring was considered independent. The individual follow-up times were simulated based on uniform distribution and maximum follow-up time of 12 months (i.e. administrative censoring was set at 1 year), using <italic>Survsim</italic> package in stata. The choice of 12 months of follow-up time was motivated by the fact that most IPTp trials follow-up the mother for 12 months from enrolment to beyond delivery.<table-wrap id="Tab1"><label>Table 1</label><caption><p>Frailty variance estimates bias, coverage probability across shared frailty models in the presence of unobserved heterogeneity and non-proportional hazards</p></caption><table frame="hsides" rules="groups"><thead><tr><th colspan="4">Data Generating Mechanisms</th><th>ISF-PH Model</th><th>LSF-NPHS1 Model</th><th>LSF-NPHS3 Model</th><th colspan="2">% gain in precision relative to ISF-PH model</th></tr><tr><th>Scenario<sup>a</sup>
+</th><th>Sample size</th><th>Frailty variance</th><th>TDE</th><th>Bias (MCSE), Coverage (MCSE), MSE (MCSE)</th><th>Bias (MCSE), Coverage (MCSE), MSE (MCSE)</th><th>Bias (MCSE), Coverage (MCSE), MSE (MCSE)</th><th>LSF-NPHS1% gain in precision (MCSE)</th><th>LSF-NPHS3% gain in precision (MCSE)</th></tr></thead><tbody><tr><td>1</td><td>500</td><td>0.25</td><td>0.03</td><td>−0.0389 (0.0064), 96.40 (0.5891), 0.0423 (0.0021)</td><td>−0.0556 (0.0060), 95.90 (0.6270), 0.0386 (0.0020)</td><td>− 0.0263 (0.0061), 96.20 (0.6046), 0.0374 (0.0019)</td><td>14.6985 (0.7269)</td><td>11.1644 (1.6768)</td></tr><tr><td>2</td><td>500</td><td>0.50</td><td>0.03</td><td>−0.0431 (0.0051), 95.00 (0.6892), 0.0278 (0.0012)</td><td>−0.1329 (0.0045), 87.10 (1.0600), 0.0375 (0.0015)</td><td>−0.1098 (0.0045), 90.20 (0.9402), 0.0323 (0.0014)</td><td>30.9883 (0.9472)</td><td>27.8901 (1.8680)</td></tr><tr><td>3</td><td>500</td><td>0.75</td><td>0.03</td><td>− 0.0689 (0.0048), 92.80 (0.8174), 0.0280 (0.0013)</td><td>− 0.2151 (0.0041), 61.80 (1.5365), 0.0628 (0.0020)</td><td>−0.1939 (0.0041), 69.10 (1.4612), 0.0544 (0.0019)</td><td>40.7088 (1.0645)</td><td>38.4618 (1.9530)</td></tr><tr><td>4</td><td>300</td><td>0.25</td><td>0.03</td><td>−0.0363 (0.0079), 97.20 (0.5217), 0.0637 (0.0029)</td><td>−0.0542 (0.0073), 97.50 (0.4937), 0.0569 (0.0027)</td><td>− 0.0248 (0.0075), 96.70 (0.5649), 0.0561 (0.0027)</td><td>12.5407 (1.8701)</td><td>12.5407 (1.8701)</td></tr><tr><td>5</td><td>300</td><td>0.50</td><td>0.03</td><td>−0.0557 (0.0069), 94.90 (0.6957), 0.0504 (0.0025)</td><td>−0.1448 (0.0061), 90.60 (0.9228), 0.0575 (0.0027)</td><td>− 0.1221 (0.0061), 92.50 (0.8329), 0.0518 (0.0025)</td><td>29.3473 (0.9645)</td><td>28.3377 (1.8182)</td></tr><tr><td>6</td><td>300</td><td>0.75</td><td>0.03</td><td>− 0.0674 (0.0062), 94.50 (0.7209), 0.0431 (0.0020)</td><td>− 0.2141 (0.0052), 76.60 (1.3388), 0.0729 (0.0026)</td><td>− 0.1950 (0.0053), 80.90 (1.2431), 0.0660 (0.0025)</td><td>42.0668 (1.1767)</td><td>37.7659 (2.0100)</td></tr><tr><td>7</td><td>500</td><td>0.25</td><td>− 0.03</td><td>− 0.0212 (0.0063), 96.10 (0.6122), 0.0405 (0.0019)</td><td>− 0.0694 (0.0060), 95.20 (0.6760), 0.0413 (0.0021)</td><td>− 0.0348 (0.0061), 95.90 (0.6270), 0.0384 (0.0020)</td><td>9.7913 (0.6757)</td><td>7.8448 (1.5502)</td></tr><tr><td>8</td><td>500</td><td>0.50</td><td>− 0.03</td><td>−0.0317 (0.0051), 95.30 (0.6693), 0.0268 (0.0012)</td><td>− 0.1425 (0.0045), 85.60 (1.1102), 0.0405 (0.0016)</td><td>− 0.1163 (0.0045), 89.00 (0.9894), 0.0341 (0.0014)</td><td>27.3902 (0.9049)</td><td>25.1537 (1.7685)</td></tr><tr><td>9</td><td>500</td><td>0.75</td><td>−0.03</td><td>− 0.0605 (0.0048), 93.30 (0.7906), 0.0269 (0.0013)</td><td>− 0.2236 (0.0041), 59.20 (1.5541), 0.0668 (0.0021)</td><td>− 0.1998 (0.0041), 67.70(1.4788), 0.0569 (0.0019)</td><td>38.1980 (1.0547)</td><td>37.1299 (1.8588)</td></tr><tr><td>10</td><td>300</td><td>0.25</td><td>−0.03</td><td>− 0.0190 (0.0079), 97.00 (0.5394), 0.0621 (0.0027)</td><td>− 0.0680 (0.0075), 97.70 (0.4740), 0.0602 (0.0028)</td><td>− 0.0335 (0.0075), 97.00 (0.5394), 0.0577 (0.002)</td><td>11.1739 (0.7791)</td><td>9.1266 (1.7207)</td></tr><tr><td>11</td><td>300</td><td>0.50</td><td>−0.03</td><td>− 0.0454 (0.0069), 94.80 (0.7021), 0.0493 (0.0024)</td><td>− 0.1549 (0.0061), 89.50 (0.9694), 0.0614 (0.0029)</td><td>− 0.1286 (0.0061), 92.50 (0.8329), 0.0537 (0.0026)</td><td>26.3505 (0.9108)</td><td>26.8512 (1.7308)</td></tr><tr><td>12</td><td>300</td><td>0.75</td><td>−0.03</td><td>−0.0588 (0.0062), 94.80 (0.7021), 0.0418 (0.0019)</td><td>− 0.2219 (0.0053), 75.70 (1.3563), 0.0768 (0.0027)</td><td>− 0.2005 (0.0053), 79.90 (1.2673), 0.0684 (0.0026)</td><td>39.0878 (1.1318)</td><td>36.0944 (1.9042)</td></tr><tr><td>13</td><td>500</td><td>0.25</td><td>0</td><td>−0.0296 (0.0064), 96.50 (0.5812), 0.0412 (0.0020)</td><td>− 0.0619 (0.0060), 95.70 (0.6415), 0.0398 (0.0020)</td><td>− 0.0300 (0.0061), 95.90 (0.6270), 0.0378 (0.0019)</td><td>12.1870 (0.6812)</td><td>9.4918 (1.6201)</td></tr><tr><td>14</td><td>500</td><td>0.50</td><td>0</td><td>−0.0373 (0.0051), 95.00 (0.6892), 0.0272 (0.0012)</td><td>− 0.1373 (0.0045), 86.80 (1.0704), 0.0389 (0.0016)</td><td>− 0.1127 (0.0045), 89.70 (0.9612), 0.0331 (0.0014)</td><td>29.0623 (0.8985)</td><td>26.5314 (1.8048)</td></tr><tr><td>15</td><td>500</td><td>0.75</td><td>0</td><td>−0.0644 (0.0048), 93.00 (0.8068), 0.0274 (0.0013)</td><td>−0.2188 (0.0041), 61.30 (1.5402), 0.0646 (0.0020)</td><td>−0.1964 (0.0041), 68.80 (1.4651), 0.0554 (0.0019)</td><td>39.4216 (1.0400)</td><td>37.9288 (1.8940)</td></tr><tr><td>16</td><td>300</td><td>0.25</td><td>0</td><td>−0.0273 (0.0079), 97.10 (0.5307), 0.0627 (0.0028)</td><td>− 0.0605 (0.0074) 97.70 (0.4740), 0.0583 (0.0028)</td><td>−0.0283 (0.0075), 96.70 (0.5649), 0.0567 (0.0027)</td><td>13.2530 (0.7841)</td><td>10.8368 (1.7814)</td></tr><tr><td>17</td><td>300</td><td>0.50</td><td>0</td><td>−0.0500 (0.0069), 94.80 (0.7021), 0.0495 (0.0024)</td><td>−0.1491 (0.0061), 90.20 (0.9402), 0.0591 (0.0028)</td><td>− 0.1249 (0.0061), 92.60 (0.8278), 0.0526 (0.0026)</td><td>27.7522 (0.9164)</td><td>27.0827 (1.7637)</td></tr><tr><td>18</td><td>300</td><td>0.75</td><td>0</td><td>−0.0627 (0.0062), 94.50 (0.7209) 0.0423 (0.0020)</td><td>−0.2174 (0.0052), 76.20 (1.3467), 0.0745 (0.0027)</td><td>− 0.1972 (0.0053), 80.60 (1.250) 0.0668 (0.0026)</td><td>40.6654 (1.1293)</td><td>37.0383 (1.9578)</td></tr></tbody></table><table-wrap-foot><p><italic>TDE</italic> time dependent effect</p><p><sup>a</sup>each scenario is based on 1000 simulations</p></table-wrap-foot></table-wrap></p>
+                  <p id="Par39">The hazard functions were simulated using inversion method, under Weibull baseline hazard function, accommodating both time-varying treatment effect and unobserved heterogeneity with lognormal frailty distribution. The inversion method enabled sampling from a given distribution using uniform distribution and quantile function [<xref ref-type="bibr" rid="CR26">26</xref>] where uniform distribution was assumed to have minimum 0 and maximum of 1. An overview of the investigated scenarios appears in Table <xref rid="Tab1" ref-type="table">1</xref> below.</p>
+                  <p id="Par40">During the data generation process, convergence of the models was also continuously monitored. After the data generation descriptive summary statistics were also done to check for any abnormal observations. For each scenario, graphical exploration of the distribution of the estimates was done to ascertain the assumed underlying distribution of the generated data.</p>
+                </sec>
+              </sec>
+              <sec id="Sec9">
+                <title>Simulation study targets</title>
+                <p id="Par41">Of primary interest in this study was shared frailty models` ability to effectively capture the unobserved heterogeneity. Therefore, the primary estimand of interest was log frailty variance <italic>φ</italic><sub><italic>i</italic></sub> for each of the investigated models. Since our second interest was to assess the ability of the models in capturing time-dependent treatment effect, the log hazard ratio <bold><italic>β</italic></bold> computed at 3 months of follow-up time was considered as a secondary estimand. We opted for log hazard ratio at the specific follow-up time in order to ensure that the estimates from both the proportional and non-proportional hazard models are comparable.</p>
+                <sec id="Sec10">
+                  <title>Methods for data analysis</title>
+                  <p id="Par42">Each simulated data set was analysed using the three methods under investigation: ISF-PH, LSF-NPHS1 and LSF-NPHS3. Based on our simulation scenarios, the ISF-PH model miss-specified the proportionality of the hazards although it correctly specified the baseline hazard function (i.e. the baseline hazard function for the ISF-PH was modelled using Weibull distribution). The LSF-NPHS1 and LSF-NPHS3 models correctly specified the proportionality of the hazards although the baseline hazard function is approximated by the restricted cubic splines. When there are non-proportional hazards, reporting of a single average HR is considered not practically useful. Therefore, in order to ensure that the performance measures for the HR estimates are comparable across the three models, we computed hazard ratio at 3 months of follow-up time since enrolment (i.e. LSF-NPHS1 and LSF-NPHS3 are non-proportional hazard models and ISF-PH is a proportional hazard model). The choice of the time at which the HR was calculated was motivated by our practical experience where most patients take approximately half of their scheduled IPTp doses by third month of follow-up time.</p>
+                  <p id="Par43">The three shared frailty models (ISF-PH, LSF-NPHS1 and LSF-NPHS3) are also used in the analysis of recurrent adverse events that were observed in the <italic>Chloroquine for Malaria Prevention in Pregnancy</italic> trial (NCT01443130) data. The motivating data description, data analysis and results appear in the application section of this paper, after simulation results presentation.</p>
+                </sec>
+                <sec id="Sec11">
+                  <title>Performance measures</title>
+                  <p id="Par44">In this paper, our model performance measures of interest were defined as described in Morris et al [<xref ref-type="bibr" rid="CR25">25</xref>]. Bias and MSE were main performance measures for our estimands. For frailty variance estimand, we assessed the model performance based on precision, bias, MSE and coverage probability of 95% confidence interval of the frailty variance estimates. For the hazard ratio estimand, we assessed the model performance based on precision, bias and MSE. Point estimates of performance are reported including Monte Carlo standard errors in order to highlight the certainty of our point estimates.</p>
+                  <p id="Par45">We used bias in order to quantify whether the estimator of interest targeted the true value of interest. Bias is defined as the difference between the expected value of an estimator and the true parameter value. Secondly, in order to integrate bias and variance of an estimator into one performance measure, we computed the mean square error (MSE). MSE is defined as sum of the squared bias and variance of the estimator. In defining relative precision gain, ISF-PH model was considered as a reference model. Therefore, precision gain is defined as the inverse squared ratio of the empirical SE of the respective flexible parametric model (i.e. LSF-NPHS1 or LSF-NPHS3) to the empirical SE of the ISF-PH model. Additionally, coverage was also computed, defined as proportion of confidence intervals for an estimator that contain the true parameter value.</p>
+                </sec>
+                <sec id="Sec12">
+                  <title>Software and computer hardware specification</title>
+                  <p id="Par46">The simulation study was conducted using user-written <italic>survsim</italic> and <italic>merlin</italic> packages in Stata version 15.1 [<xref ref-type="bibr" rid="CR27">27</xref>–<xref ref-type="bibr" rid="CR29">29</xref>]. The analyses of the simulated and application data were also done using <italic>streg</italic> built-in function in Stata for the ISF-PH model.</p>
+                  <p id="Par47">The simulation study was performed using the Stata version 15.1 that was installed in a purposely-built Threadripper 3990X GT 1030 workstation, equipped with a Threadripper 3990X (288 MB Cache, 64x Cores, 4.3GHz) turbo processor, MSI TRX40 PRO 10G AMD Ryzen Threadripper Motherboard, Nvidia GeForce RTX 2070 SUPER OC Ed. 8GB GDDR6 GPU, Corsair Vengeance PRO RGB 3200 MHz 64 GB High-Performance Gaming, Hikvision E2000 1 TB M.2 SSD that reads up to 3.5 GB/s and a 4 TB High-Performance Hard Disk Drive (HDD).</p>
+                </sec>
+              </sec>
+              <sec id="Sec13">
+                <title>Ethical considerations</title>
+                <p id="Par48">The <italic>Chloroquine for malaria in pregnancy</italic> trial was conducted in accordance with the Declaration of Helsinki and Good Clinical Practice guidelines. The trial obtained ethical approval from the Institutional Review Board at the University of Maryland, the College of Medicine Research and Ethics Committee at the University of Malawi and the Malawi Pharmacy Medicines and Poisons Board. The current study was approved by the University of the Witwatersrand’s Human Research Ethics Committee.</p>
+              </sec>
+            </sec>
+            <sec id="Sec14">
+              <title>Results</title>
+              <sec id="Sec15">
+                <title>Frailty variance estimates coverage probability, bias and MSE across the shared frailty models</title>
+                <p id="Par49">Based on 1000 simulations for each scenario, we observed a 100% convergence rate of all the models that were fitted. Across all the scenarios, the magnitude of bias for the frailty variance estimates increased as the known unobserved heterogeneity variance increased from 0.25 to 0.75 whether the sample size was 300 or 500 (Table <xref rid="Tab1" ref-type="table">1</xref>). The observed bias across all the scenarios was negative suggesting underestimation of the unobserved heterogeneity. The magnitude of bias for the frailty variance estimates were slightly higher when the sample size was 300 compared to the sample size of 500. Overall, the coverage probability of the frailty variance estimates consistently decreased as the known unobserved heterogeneity variance increased from 0.25 to 0.75. The coverage probability across all the models was slightly above 95% for scenarios where the unobserved heterogeneity variance was 0.25, suggesting some negligible over-coverage. For example, for scenario 1, coverage (MCSE) was 96.40 (0.5891), 95.90 (0.6270) and 96.20 (0.6046) for ISF-PH, LSF-NPHS1 and LSF-NPHS3 models respectively. Overall, substantial under-coverage was observed for scenarios where the unobserved heterogeneity variance was 0.50 or 0.75 among the flexible parametric models (LSF-NPHS1 and LSF-NPHS3). The under-coverage worsened as the sample size increased from 300 to 500. Such under-coverage suggested inaccuracy of the frailty variance estimates obtained using the LSF-NPHS1 and LSF-NPHS3 models.</p>
+                <p id="Par50">As expected, overall, among the non-proportional hazard models with restricted cubic splines, the LSF-NPHS3 had lower bias and higher coverage of the frailty variance estimates compared to the LSF-NPHS1. This result suggests that for the non-proportional hazard models with restricted cubic splines, increasing the number of degrees of freedom modelling the baseline hazard function from 1 to 3 improves the frailty variance estimates. For the scenarios where the known unobserved heterogeneity was 0.50 or 0.75, we observed a higher magnitude of bias of frailty variance estimates for the non-proportional hazard models with restricted cubic splines models compared to the ISF-PH model. For the scenarios where the known unobserved heterogeneity variance was 0.25, we observed the lowest magnitude of bias for the frailty variance estimates in LSF-NPHS3 model followed by ISF-PH model then LSF-NPHS1 model.. For example, under scenario 1, the frailty variance estimate bias (MCSE) was − 0.0389 (0.0064), − 0.0556 (0.0060), − 0.0263 (0.0061) for ISF-PH, LSF-NPHS1 and LSF-NPHS3 models respectively. Pertaining to coverage, although the coverage probability decreased with increase in unobserved heterogeneity variance, decreasing the sample size from 500 to 300 yielded results with higher coverage. The decrease in coverage probability for the frailty variance estimates with increased unobserved heterogeneity was more drastic among the non-proportional hazards with restricted cubic splines models (LSF-NPHS1 or LSF-NPHS3) compared to the ISF-PH model. Overall, the ISF-PH model consistently yielded coverage probability closer to the nominal level of 95% compared to the non-proportional hazards with restricted cubic splines models (LSF-NPHS1 or LSF-NPHS3).</p>
+                <p id="Par51">Overall, the MSE for the ISF-PH model frailty variance estimates were lower compared to the LSF-NPHS1 and LSF-NPHS3 models, except when the known unobserved heterogeneity variance was 0.25. Across all the 18 scenarios studied, we observed that the MSE estimates for the ISF-PH model decreased as the unobserved heterogeneity variance increased. However, the MSE estimates for the LSF-NPHS1 and LSF-NPHS1 models increased as the unobserved heterogeneity variance increased: Notably, the MSE for the LSF-NPHS3 model yielded lower MSE estimates compared to the LSF-NPHS1 model. As expected, increasing the sample size from 300 to 500 reduced the MSE estimates for the corresponding scenarios.</p>
+                <p id="Par52">Our investigation showed that LSF-NPHS1 and LSF-NPHS3 models were more efficient than the ISF-PH model as demonstrated by the lower mean of model-based standard errors (Fig. <xref rid="Fig1" ref-type="fig">1</xref>). The difference in model-based standard errors between that LSF-NPHS1 and LSF-NPHS3 models was negligible. As expected, increasing sample size from 300 to 500 improved the efficiency of the shared frailty models under study such that the model-based standard errors for the frailty variance estimates decreased.<fig id="Fig1"><label>Fig. 1</label><caption><p>Average model standard errors (SE) for the frailty variance estimates across shared frailty models under varying data-generating mechanisms</p></caption><graphic xlink:href="12874_2021_1475_Fig1_HTML" id="MO1"/></fig></p>
+              </sec>
+              <sec id="Sec16">
+                <title>Percentage gain in precision for frailty variance estimates of non-proportional hazards shared frailty models with restricted cubic splines relative to ISF-PH model</title>
+                <p id="Par53">Overall, as the unobserved heterogeneity increased, percentage gain in precision for frailty variance estimates of non-proportional hazards shared frailty models with restricted cubic splines relative ISF-PH model also increased (Table <xref rid="Tab1" ref-type="table">1</xref>). The gain in precision was higher when time-dependent treatment effects were increasing (i.e. TDE = 0.03) compared to the decaying time-dependent treatment effects (TDE = -0.03). Across the models, the gain in precision was higher in the LSF-NPHS1 model compared to LSF-NPHS3 model. The observed gain in precision for LSF-NPHS1 and LSF-NPHS3 models compared to ISF-PH model under proportional hazard scenarios (i.e. TDE = 0) was similar to the scenarios when time-dependent treatment effects were increasing (i.e. TDE = 0.03).</p>
+              </sec>
+              <sec id="Sec17">
+                <title>Bias and MSE for the estimated log hazard ratio estimates across the shared frailty models under varying unobserved heterogeneity and sample size</title>
+                <p id="Par54">Overall, across all the three models under study, the MSE for the HR estimates increased as the unobserved heterogeneity variance increased (Table <xref rid="Tab2" ref-type="table">2</xref>). The ISF-PH model consistently yielded lowest MSE estimates for the HRs across the three models regardless of the nature of the time-dependent treatment effect. Increasing the sample size from 300 to 500 also led to reduction in the estimated MSE for the HRs. We observed a loss in precision of HR estimates for the ISF-PH model compared to the LSF-NPHS1 and LSF-NPHS3 model. The precision loss ranged from 9 to 20%. The highest precision loss was observed when the unobserved heterogeneity was low (i.e. frailty variance equal to 0.25). The precision loss estimates were similar for both LSF-NPHS1 and LSF-NPHS3 models. There was low precision loss in the absence of time-dependent treatment effects (TDE = 0). In the presence of time-dependent treatment effects (i.e. TDE = 0.03 and TDE = -0.03), we observed higher magnitude of bias in the ISF-PH model compared to the LSF-NPHS1 and LSF-NPHS3 models. In the absence of the time-dependent treatment effects, the bias for the HR estimates was lower in the ISF-PH model compared to the LSF-NPHS1 and LSF-NPHS3 models. However, in the absence of the time-dependent treatment effects, the bias across all the three models was relatively lower (i.e. under 0.01) compared to scenarios when time-dependent effects are present.<table-wrap id="Tab2"><label>Table 2</label><caption><p>Bias and mean square error (MSE) for log hazard ratio estimates, estimated at 3 months, across shared frailty models in the presence of both unobserved heterogeneity and non-proportional hazards</p></caption><table frame="hsides" rules="groups"><thead><tr><th colspan="4">Data Generating Mechanisms</th><th>ISF-PH Model</th><th>LSF-NPHS1 Model</th><th>LSF-NPHS3 Model</th><th colspan="2">% gain in precision relative to ISF-PH model</th></tr><tr><th>Scenario<sup>a</sup>
+</th><th>Sample size</th><th>Frailty variance</th><th>TDE</th><th>Bias (MCSE), MSE (MCSE)</th><th>Bias (MCSE), MSE (MCSE)</th><th>Bias (MCSE), MSE (MCSE)</th><th>LSF-NPHS1% gain in precision (MCSE)</th><th>LSF-NPHS3% gain in precision (MCSE)</th></tr></thead><tbody><tr><td>1</td><td>500</td><td>0.25</td><td>0.03</td><td>−0.0284 (0.0021), 0.0050 (0.0002)</td><td>− 0.0033 (0.0023), 0.0051 (0.0002)</td><td>0.0021 (0.0023), 0.0052 (0.0002)</td><td>−17.4231 (2.1208)</td><td>− 18.7145 (2.0875)</td></tr><tr><td>2</td><td>500</td><td>0.50</td><td>0.03</td><td>− 0.0285 (0.0024), 0.0068 (0.0003)</td><td>− 0.0023 (0.0026), 0.0067 (0.0003)</td><td>0.0031 (0.0026), 0.0068 (0.0003)</td><td>−11.1578 (1.9985)</td><td>−12.3537 (1.9639)</td></tr><tr><td>3</td><td>500</td><td>0.75</td><td>0.03</td><td>−0.0233 (0.0027), 0.0076 (0.0004)</td><td>0.0035 (0.0029), 0.0081 (0.0004)</td><td>0.0093 (0.0029), 0.0083 (0.0004)</td><td>−12.7599 (1.9452)</td><td>−14.1747 (1.8756)</td></tr><tr><td>4</td><td>300</td><td>0.25</td><td>0.03</td><td>− 0.0259 (0.0028), 0.0085 (0.0004)</td><td>− 0.0015 (0.0030), 0.0093 (0.0004)</td><td>0.0041 (0.0031), 0.0096 (0.0004)</td><td>− 15.4391 (2.0856)</td><td>− 18.0137 (2.0061)</td></tr><tr><td>5</td><td>300</td><td>0.50</td><td>0.03</td><td>− 0.0215 (0.0032), 0.0105 (0.0005)</td><td>0.0047 (0.0033), 0.0111 (0.0005)</td><td>0.0103 (0.0034), 0.0114 (0.0005)</td><td>−9.4606 (2.1449)</td><td>−11.4682 (2.0577)</td></tr><tr><td>6</td><td>300</td><td>0.75</td><td>0.03</td><td>−0.0252 (0.0035), 0.0126 (0.0006)</td><td>0.0019 (0.0037) 0.0134 (0.0006)</td><td>0.0069 (0.0037), 0.0137 (0.0006)</td><td>− 10.3721 (1.9615)</td><td>− 12.1647 (1.8949)</td></tr><tr><td>7</td><td>500</td><td>0.25</td><td>−0.03</td><td>0.0287 (0.0021), 0.0051 (0.0002)</td><td>− 0.0075 (0.0023), 0.0053 (0.0002)</td><td>0.0018 (0.0023), 0.0053 (0.0002)</td><td>−18.3401 (2.1438)</td><td>−19.5151 (2.1016)</td></tr><tr><td>8</td><td>500</td><td>0.50</td><td>−0.03</td><td>0.0289 (0.0024), 0.0068 (0.0003),</td><td>− 0.0072 (0.0026), 0.0069 (0.0003)</td><td>0.0021 (0.0026), 0.0069 (0.0003)</td><td>−12.1807 (2.0392)</td><td>− 13.6435 (1.9931)</td></tr><tr><td>9</td><td>500</td><td>0.75</td><td>−0.03</td><td>0.0341 (0.0027), 0.0083 (0.0004)</td><td>−0.0011 (0.0029), 0.0083 (0.0004)</td><td>0.0086 (0.0029), 0.0085 (0.0004)</td><td>−14.1771 (1.9844)</td><td>−15.7796 (1.9005)</td></tr><tr><td>10</td><td>300</td><td>0.25</td><td>−0.03</td><td>0.0311 (0.0028), 0.0088 (0.0004)</td><td>− 0.0059 (0.0031), 0.0095 (0.0004)</td><td>0.0035 (0.0031), 0.0098(0.0004)</td><td>−16.7676 (2.1182)</td><td>−19.2818 (2.0272)</td></tr><tr><td>11</td><td>300</td><td>0.50</td><td>−0.03</td><td>0.0361 (0.0032), 0.0114 (0.0005)</td><td>0.0004 (0.0033), 0.0112 (0.0005)</td><td>0.0096 (0.0034), 0.0116 (0.0005)</td><td>−10.0998 (2.1977)</td><td>−12.4175 (2.0889)</td></tr><tr><td>12</td><td>300</td><td>0.75</td><td>−0.03</td><td>0.0316 (0.0035), 0.0130 (0.0006)</td><td>− 0.0032 (0.0037), 0.0136 (0.0006)</td><td>0.0052 (0.0037), 0.0139 (0.0007)</td><td>−11.6808 (2.0013)</td><td>− 13.7017 (1.9235)</td></tr><tr><td>13</td><td>500</td><td>0.25</td><td>0</td><td>−0.0009 (0.0021), 0.0042 (0.0002)</td><td>− 0.0051 (0.0023), 0.0052(0.0002)</td><td>0.0020 (0.0023), 0.0053 (0.0002)</td><td>−17.8005 (2.1303)</td><td>−19.0529 (2.0932)</td></tr><tr><td>14</td><td>500</td><td>0.50</td><td>0</td><td>−0.0009 (0.0024), 0.0059 (0.0003)</td><td>− 0.0044 (0.0026), 0.0067 (0.0003)</td><td>0.0027(0.0026), 0.0068 (0.0003)</td><td>−11.4262 (2.0238)</td><td>−12.6627 (1.9860)</td></tr><tr><td>15</td><td>500</td><td>0.75</td><td>0</td><td>0.0044 (0.0027), 0.0071 (0.0003)</td><td>0.0016 (0.0029), 0.0082 (0.0004)</td><td>0.0091 (0.0029), 0.0084 (0.0004)</td><td>−13.4164 (1.9621)</td><td>−14.9156 (1.8853)</td></tr><tr><td>16</td><td>300</td><td>0.25</td><td>0</td><td>0.0017 (0.0028), 0.0079 (0.0004)</td><td>−0.0032 (0.0031), 0.0094 (0.0004)</td><td>0.0041 (0.0031), 0.0097 (0.0004)</td><td>−15.8830 (2.0985)</td><td>−18.3944 (2.0120)</td></tr><tr><td>17</td><td>300</td><td>0.50</td><td>0</td><td>0.0061 (0.0032), 0.0101 (0.0005)</td><td>0.0027 (0.0033), 0.0112 (0.0005)</td><td>0.0097 (0.0034), 0.0115 (0.0005)</td><td>−9.7878 (2.1647)</td><td>−11.9642 (2.0672)</td></tr><tr><td>18</td><td>300</td><td>0.75</td><td>0</td><td>0.0021 (0.0035), 0.0120 (0.0006)</td><td>−0.0004 (0.0037), 0.0134 (0.0006)</td><td>0.0062 (0.0037), 0.0138 (0.0006)</td><td>−11.0009 (1.9807)</td><td>−12.9017 (1.9108)</td></tr></tbody></table></table-wrap></p>
+              </sec>
+              <sec id="Sec18">
+                <title>Example data application: Chloroquine for malaria in pregnancy trial</title>
+                <p id="Par55">We illustrated the application of the three investigated shared frailty models above (ISF-PH, LSF-NPHS1 and LSF-NPHS3) to data on recurrent AEs collected from a clinical trial evaluating antimalarial drugs to prevent malaria in pregnancy. The trial is called <italic>Chloroquine for malaria in pregnancy</italic>.</p>
+                <p id="Par56">The current modelling focussed on investigating the effect of treatment on recurrent AEs. We included a population of 600 pregnant women in their first or second trimesters who were randomized to receive IPTp of (a) sulfadoxine-pyrimethamine (SP, two doses, 4 weeks apart), (b) chloroquine (CQ, 600 mg on day 1, 600 mg on day 2, and 300 mg on day 3 two days apart). Although the original trial had three treatment arms, in the current analysis, we dropped the arm of CQ prophylaxis (to focus on IPTp arms) since its treatment schedule was radically different from the IPTp arms. Full details of the trial are published elsewhere [<xref ref-type="bibr" rid="CR30">30</xref>].</p>
+                <p id="Par57">Of the 600 pregnant women analysed in the current analysis, 474 (79%) experienced at least one AE. Cumulatively, more AEs were experienced in the CQ arm (895 AEs) than those in the SP arm (650 AEs). We fitted ISF-PH model followed by the LSF-NPHS1 and LSF-NPHS3 models where IPTp treatment was an exposure of interest. The SP treatment was considered as a reference treatment in the interpretation of the results. ISF-PH assumed the baseline hazard function followed Weibull distribution, unobserved heterogeneity followed inverse Gaussian distribution and the hazard rates between the CQ and SP treatments were proportional over the follow-up time. The non-proportional hazard models with restricted models (NPHS1 and LSF-NPHS3) assumed that unobserved heterogeneity followed lognormal distribution and time-dependent effects could be modelled using one degree of freedom. NPHS1 and LSF-NPHS3 approximated the baseline hazard function using 1 and 2 degrees of freedom respectively. We fitted adjusted and unadjusted model for all the three model under investigation. The adjusted model included the following covariates: treatment, maternal age, maternal body mass index and gravidity (i.e. whether the pregnant woman had previous pregnancy or not). We adjusted for the same covariates for the three models to ensure that the estimates were comparable. Since the results from the adjusted and unadjusted models were similar, our results reported in Table <xref rid="Tab3" ref-type="table">3</xref> below are based the unadjusted models since we considered them more parsimonious. The reported hazard ratios across the three models are based on marginal hazard ratio, predicted hazard ratio at 14 days and 60 days of follow-up. Additionally, we plotted the hazard ratio estimates over the follow-up time.<table-wrap id="Tab3"><label>Table 3</label><caption><p>Comparing sharing frailty models for analysis of recurrent AEs among pregnant women on IPTp treatment in Malawi</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Estimate</th><th>ISF-PH</th><th>LSF-NPHS1</th><th>LSF-NPHS2<sup>a</sup>
+</th><th>LSF-NPHS3</th><th>LSF-NPHS4<sup>b</sup>
+</th></tr></thead><tbody><tr><td>Log HR at 14 days (SE)</td><td>0.2281 (0.0499)</td><td>0.4758 (0.3572)</td><td>0.4343 (0.3724)</td><td>0.4648 (0.4033)</td><td>0.4404 (0.3710)</td></tr><tr><td>log HR at 60 days (SE)</td><td>0.2281 (0.0499)</td><td>0.0236 (0.1240)</td><td>0.2011 (0.2562)</td><td>0.2251 (0.2831)</td><td>0.1837 (0.2441)</td></tr><tr><td>Marginal log HR (SE)</td><td>0.2281 (0.0499)</td><td>0.2328 (0.0517)</td><td>0.3090 (0.0769)</td><td>0.3360 (0.0850)</td><td>0.3024 (0.0746)</td></tr><tr><td>Frailty variance</td><td>0.0324</td><td>0.0476</td><td>0.4591</td><td>0.6440</td><td>0.3977</td></tr><tr><td>AIC</td><td>6562.57</td><td>19,922.40</td><td>19,658.30</td><td>19,651.20</td><td>19,570.70</td></tr></tbody></table><table-wrap-foot><p><sup>a</sup>Lognormal shared frailty model with non-proportional hazard and restricted cubic splines where the baseline hazard is modelled with 2 degrees of freedom and the time-dependent treatment effects is modelled with 1 degree of freedom</p><p><sup>b</sup>Lognormal shared frailty model with non-proportional hazard and restricted cubic splines where the baseline hazard is modelled with 4 degrees of freedom and the time-dependent treatment effects is modelled with 1 degree of freedom</p></table-wrap-foot></table-wrap></p>
+                <p id="Par58">In this clinical example for recurrent AEs data analysis, the estimated marginal log hazard ratios were 0.2281 (0.0499)0.2328(SE: 0.0517), 0.3090 (0.0769), 0.3360 (SE:0.0850) and 0.3024(0.0746) for ISF-PH, LSF-NPHS1, LSF-NPHS2, LSF-NPHS3 and LSF-NPHS4 models respectively, indicating an increased risk of AEs among the women who took the CQ treatment arm compared to those in the SP treatment arm (Table <xref rid="Tab3" ref-type="table">3</xref>). At 14 days, the Log HR across the non-proportional hazard models were similar ranging between 0.43 to 0.47 and were higher compared to the ISF-PH model. However, at 60 days only LSF-NPHS2, LSF-NPHS3 and yielded similar log HR estimates approximately 0.20 and were lower compared to the ISF-PH model estimates. The frailty variance estimates generally higher among the non-proportional hazard models compared to the ISF-PH model. Among the non-proportional hazards models with restricted cubic splines, the AIC estimates show that the model fit was good when the baseline hazard function was approximated with minimum of 2 degrees.</p>
+              </sec>
+            </sec>
+            <sec id="Sec19">
+              <title>Discussion</title>
+              <p id="Par59">The analysis of recurrent AEs in clinical trials rarely account for potential unobserved heterogeneity and time-dependent effects [<xref ref-type="bibr" rid="CR2">2</xref>]. Using a simulation study, we investigated the performance of three statistical methods for recurrent events that can be adapted towards the analysis of recurrent AEs in clinical trials, in the presence of both time-dependent effects and unobserved heterogeneity. Our paper mainly focused on evaluating the ability of the flexible parametric shared frailty models with non-proportional hazards and restricted cubic splines to capture both the unobserved heterogeneity and time-dependent treatment effects. We established that the inverse Gaussian shared frailty with proportional hazard model consistently yielded good coverage closer to the nominal level of 95%, lower bias and lower MSE of the frailty variance estimates at the expense of imprecision compared to the flexible shared frailty models with non-proportional hazards and restricted cubic splines. Interestingly, the frailty variance estimates coverage and bias, for the shared frailty models with non-proportional hazards and restricted cubic splines, improved upon increasing the number of degrees of freedom used to model the baseline hazard function. As expected, the flexible parametric shared frailty model with non-proportional hazards and restricted cubic splines yielded better hazard ratio estimates, reflecting the time-dependent treatment effects, compared to the inverse Gaussian shared frailty with proportional hazard model. The flexible parametric shared frailty models with non-proportional hazards and restricted cubic splines yielded unbiased estimates of HRs at the expense of imprecision and inaccuracy (i.e. high MSE) compared to the ISF-PH model. Therefore, our findings show that the more precise estimators were biased and imprecise estimators were unbiased. In drug safety assessment using methods that yield an unbiased hazard ratio would be of primary interest such that the flexible parametric shared frailty model should be considered if there is the presence of both unobserved heterogeneity and time-dependent effects. However, such a decision should be made at the cost of imprecision and loss of accuracy. Hence, we emphasize that the flexible shared frailty with non-proportional hazards and restricted cubic splines should be applied only when the proportional hazards assumption is violated. If interest is in estimating frailty variance, the inverse Gaussian model with proportional hazards can be considered sufficient even in the presence of both time-dependent treatment effect and unobserved heterogeneity.</p>
+              <p id="Par60">The inverse Gaussian shared frailty with proportional hazard probably effectively captured the unobserved heterogeneity because we did not mis-specify the baseline hazard (i.e. Weibull distribution). Secondly, the longer follow-up period of 12 months made the population more homogeneous with time since the unobserved heterogeneity for inverse Gaussian frailty decays over the follow-up time [<xref ref-type="bibr" rid="CR31">31</xref>]. Thirdly, the inverse Gaussian frailty is practically close to the lognormal frailty where the simulated data arose. The structure of the inverse Gaussian frailty would be considered more appropriate in the context of recurrent AEs in antimalarial drug trials where there are more frequent AEs early in the clinical trial [<xref ref-type="bibr" rid="CR18">18</xref>]. Unfortunately, the conditional hazard ratio derived from the inverse Gaussian shared frailty with proportional hazard is constant over the follow-up time which does not reflect the non-proportionality of the hazards in the presence of time-dependent treatment effect.</p>
+              <p id="Par61">The interpretation of our results is confined to scenarios where the censoring is assumed to be non-informative. In the presence of informative censoring, it will be interesting to understand how the models perform. Failure to account for time to medication presents a limitation in all the models considered in this work. Another key limitation of our study is relying on the assumption of constant unobserved heterogeneity. Future work can consider evaluating the performance of the shared frailty models accounting for both actual time to medication and time to AE occurrence under complicated scenarios where there is both time-varying treatment effects and time-varying unobserved heterogeneity.</p>
+              <p id="Par62">Generally, in drug clinical trials, understanding drug safety profile requires efficient modelling of the recurrent AEs including accounting for both unobserved heterogeneity and any non-linear effects of the investigated drug. The methods studied in this paper provide key knowledge on choosing the most appropriate model for analysing recurrent AE data presenting the unobserved heterogeneity and time-dependent effects issues. The flexible parametric shared methods accounting for both time-dependent effects and unobserved heterogeneity are directly useful in IPTp trials since physiological changes that occur during pregnancy are mostly unobserved and can contribute to the heterogeneity of the treatment effect.</p>
+              <p id="Par63">Based on our findings, we provide some practical recommendations on the studied shared frailty models to analyse the recurrent AEs when the hazards are non-proportional and the potential unobserved heterogeneity. Overall, the choice of the most appropriate model should be driven by the objective of the analysis. For instance, if interest is mainly in estimating hazard ratios, a shared frailty model with non-proportional hazards and restricted cubic splines is appropriate. When interest is in obtaining the unobserved heterogeneity estimates, inverse Gaussian with proportional hazard can serve the purpose. In the absence of time-dependent effects, using a shared frailty model with non-proportional hazards and restricted cubic splines should be avoided since it leads to biased estimates due to model overfitting.</p>
+            </sec>
+          </body>
+          <back>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term>IPTp</term>
+                  <def>
+                    <p id="Par6">Intermittent preventive treatment for malaria prevention during pregnancy</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>AEs</term>
+                  <def>
+                    <p id="Par7">Adverse events</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>RCTs</term>
+                  <def>
+                    <p id="Par8">Randomized controlled trials</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>ISF-PH</term>
+                  <def>
+                    <p id="Par9">Gaussian shared frailty model with proportional hazard</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>LSF-NPH1</term>
+                  <def>
+                    <p id="Par10">Lognormal Shared frailty model with non-proportional hazards and single restricted cubic spline</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>LSF-NPH3</term>
+                  <def>
+                    <p id="Par11">Lognormal Shared frailty model with non-proportional hazards and three restricted cubic splines</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>DGM</term>
+                  <def>
+                    <p id="Par12">Data generating mechanism</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>TDE</term>
+                  <def>
+                    <p id="Par13">Time-dependent effects</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>MCSE</term>
+                  <def>
+                    <p id="Par14">Monte-Carlo Standard error</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>CQ</term>
+                  <def>
+                    <p id="Par15">Chloroquine</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>SP</term>
+                  <def>
+                    <p id="Par16">Sulfadoxine-pyrimethamine</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Publisher’s Note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>We thank all the study participants and data collectors in the clinical trial.</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Authors’ contributions</title>
+              <p>Study idea conceptualization: NP, TC, MM, MJCE. Methodology development: NP, MM, LK, TC, MKL, DM, MJCE. Analysis and first draft development: NP. Supervision, writing revised drafts-reviewing and editing: MM, MKL, LK, TC, DM, MJCE. Enrolled patients and conducted clinical investigation: MKL. Reading and approving the final manuscript: NP, MM, MKL, LK, TC, DM, MJCE. The author(s) read and approved the final manuscript.</p>
+            </notes>
+            <notes notes-type="funding-information">
+              <title>Funding</title>
+              <p>The clinical trial was supported by funding from NIH (grants U01AI087624 and K24AI114996 to MKL).</p>
+              <p>NP was supported by the Fogarty International Center of the National Institutes of Health [Grant number D43TW010075 to MKL and DM].</p>
+              <p>NP was also supported by South African Research Chairs Initiative (SARChI) of the Department of Science and Technology and National Research Foundation (grant 64788) awarded to Dr. Ikechukwu Achilonu (SARChI Chair in Protein Biochemistry and Structural Biology), School of Molecular and Cell Biology, University of the Witwatersrand, Johannesburg, South Africa.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Availability of data and materials</title>
+              <p>The code for simulated data generated is available from the corresponding author upon reasonable request. The <italic>Chloroquine for Malaria in Pregnancy</italic> (NCT01443130) trial data that support the findings of this study are available from Blantyre Malaria Project, Malawi but restrictions apply to the availability of these data, which were used under license for the current study, and so are not publicly available. Data are however available from the corresponding author upon reasonable request and with permission of Blantyre Malaria Project, Blantyre, Malawi.</p>
+            </notes>
+            <notes>
+              <title>Declarations</title>
+              <notes id="FPar1">
+                <title>Ethics approval and consent to participate</title>
+                <p id="Par64">The current study has been performed in accordance with the relevant regulations and guidelines. The current study is based on computer simulations where no human subjects are used. The current study was approved by the University of the Witwatersrand’s Human Research Ethics Committee. The Chloroquine for Malaria in Pregnancy trial obtained ethical approval from the Institutional Review Board at the University of Maryland, the College of Medicine Research and Ethics Committee at the University of Malawi and the Malawi Pharmacy Medicines and Poisons Board. Informed consent was obtained from all the participants.</p>
+              </notes>
+              <notes id="FPar2">
+                <title>Consent for publication</title>
+                <p id="Par65">Not applicable.</p>
+              </notes>
+              <notes id="FPar3" notes-type="COI-statement">
+                <title>Competing interests</title>
+                <p id="Par66">The authors declare that they have no competing interests.</p>
+              </notes>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Munsaka</surname>
+                      <given-names>MS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A question-based approach to the analysis of safety data</article-title>
+                  <source>Biopharmaceutical Applied Statistics Symposium. Biostatistical analysis of clinical trials, Vol. 2</source>
+                  <year>2018</year>
+                  <publisher-loc>Singapore</publisher-loc>
+                  <publisher-name>Springer</publisher-name>
+                  <fpage>193</fpage>
+                  <lpage>216</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Patson</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Mukaka</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Otwombe</surname>
+                      <given-names>KN</given-names>
+                    </name>
+                    <name>
+                      <surname>Kazembe</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Mathanga</surname>
+                      <given-names>DP</given-names>
+                    </name>
+                    <name>
+                      <surname>Mwapasa</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Kabaghe</surname>
+                      <given-names>AN</given-names>
+                    </name>
+                    <name>
+                      <surname>Eijkemans</surname>
+                      <given-names>MJC</given-names>
+                    </name>
+                    <name>
+                      <surname>Laufer</surname>
+                      <given-names>MK</given-names>
+                    </name>
+                    <name>
+                      <surname>Chirwa</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Systematic review of statistical methods for safety data in malaria chemoprevention in pregnancy trials</article-title>
+                  <source>Malar J</source>
+                  <year>2020</year>
+                  <volume>19</volume>
+                  <issue>1</issue>
+                  <fpage>119</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s12936-020-03190-z</pub-id>
+                  <pub-id pub-id-type="pmid">32197619</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Phillips</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Cornelius</surname>
+                      <given-names>V</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Understanding current practice, identifying barriers and exploring priorities for adverse event analysis in randomised controlled trials: an online, cross-sectional survey of statisticians from academia and industry</article-title>
+                  <source>BMJ Open</source>
+                  <year>2020</year>
+                  <volume>10</volume>
+                  <issue>6</issue>
+                  <fpage>e036875</fpage>
+                  <pub-id pub-id-type="doi">10.1136/bmjopen-2020-036875</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Colopy</surname>
+                      <given-names>MW</given-names>
+                    </name>
+                    <name>
+                      <surname>Gordon</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Ahmad</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>WW</given-names>
+                    </name>
+                    <name>
+                      <surname>Duke</surname>
+                      <given-names>SP</given-names>
+                    </name>
+                    <name>
+                      <surname>Ball</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Statistical practices of safety monitoring: an industry survey</article-title>
+                  <source>Ther Innov Reg Sci</source>
+                  <year>2019</year>
+                  <volume>53</volume>
+                  <issue>3</issue>
+                  <fpage>293</fpage>
+                  <lpage>300</lpage>
+                  <pub-id pub-id-type="doi">10.1177/2168479018779973</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Siddiqui</surname>
+                      <given-names>O</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Statistical methods to analyze adverse events data of randomized clinical trials</article-title>
+                  <source>J Biopharm Stat</source>
+                  <year>2009</year>
+                  <volume>19</volume>
+                  <issue>5</issue>
+                  <fpage>889</fpage>
+                  <lpage>899</lpage>
+                  <pub-id pub-id-type="doi">10.1080/10543400903105463</pub-id>
+                  <pub-id pub-id-type="pmid">20183450</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hengelbrock</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Gillhaus</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Kloss</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Leverkus</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Safety data from randomized controlled trials: applying models for recurrent events</article-title>
+                  <source>Pharm Stat</source>
+                  <year>2016</year>
+                  <volume>15</volume>
+                  <issue>4</issue>
+                  <fpage>315</fpage>
+                  <lpage>323</lpage>
+                  <pub-id pub-id-type="doi">10.1002/pst.1757</pub-id>
+                  <pub-id pub-id-type="pmid">27291933</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cabarrou</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Gomez-Roca</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Viala</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Rabeau</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Paulon</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Loirat</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Munsch</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Delord</surname>
+                      <given-names>J-P</given-names>
+                    </name>
+                    <name>
+                      <surname>Filleron</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Modernizing adverse events analysis in oncology clinical trials using alternative approaches: rationale and design of the MOTIVATE trial</article-title>
+                  <source>Investig New Drugs</source>
+                  <year>2020</year>
+                  <volume>38</volume>
+                  <fpage>1879</fpage>
+                  <lpage>1887</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s10637-020-00938-x</pub-id>
+                  <pub-id pub-id-type="pmid">32383099</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Box-Steffensmeier</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>De Boef</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Repeated events survival models: the conditional frailty model</article-title>
+                  <source>Stat Med</source>
+                  <year>2006</year>
+                  <volume>25</volume>
+                  <issue>20</issue>
+                  <fpage>3518</fpage>
+                  <lpage>3533</lpage>
+                  <pub-id pub-id-type="doi">10.1002/sim.2434</pub-id>
+                  <pub-id pub-id-type="pmid">16345026</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hougaard</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <source>Analysis of multivariate survival data</source>
+                  <year>2012</year>
+                  <publisher-loc>New York</publisher-loc>
+                  <publisher-name>Springer</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Duchateau</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Janssen</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <source>The frailty model</source>
+                  <year>2007</year>
+                  <publisher-loc>New York</publisher-loc>
+                  <publisher-name>Springer</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Amorim</surname>
+                      <given-names>LD</given-names>
+                    </name>
+                    <name>
+                      <surname>Cai</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Modelling recurrent events: a tutorial for analysis in epidemiology</article-title>
+                  <source>Int J Epidemiol</source>
+                  <year>2015</year>
+                  <volume>44</volume>
+                  <issue>1</issue>
+                  <fpage>324</fpage>
+                  <lpage>333</lpage>
+                  <pub-id pub-id-type="doi">10.1093/ije/dyu222</pub-id>
+                  <pub-id pub-id-type="pmid">25501468</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Balan</surname>
+                      <given-names>TA</given-names>
+                    </name>
+                    <name>
+                      <surname>Putter</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Nonproportional hazards and unobserved heterogeneity in clustered survival data: when can we tell the difference?</article-title>
+                  <source>Stat Med</source>
+                  <year>2019</year>
+                  <volume>38</volume>
+                  <issue>18</issue>
+                  <fpage>3405</fpage>
+                  <lpage>3420</lpage>
+                  <pub-id pub-id-type="doi">10.1002/sim.8171</pub-id>
+                  <pub-id pub-id-type="pmid">31050028</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Crowther</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                  </person-group>
+                  <source>Extended multivariate generalised linear and non-linear mixed effects models</source>
+                  <year>2017</year>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <mixed-citation publication-type="other">Bower H, Crowther MJ, Rutherford MJ, Andersson TM-L, Clements M, Liu X-R, et al. Capturing simple and complex time-dependent effects using flexible parametric survival models: a simulation study. Commun Stat Simul Comput. 2021;50(11):3777–93.</mixed-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rutherford</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Crowther</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Lambert</surname>
+                      <given-names>PC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The use of restricted cubic splines to approximate complex hazard functions in the analysis of time-to-event data: a simulation study</article-title>
+                  <source>J Stat Comput Simul</source>
+                  <year>2015</year>
+                  <volume>85</volume>
+                  <issue>4</issue>
+                  <fpage>777</fpage>
+                  <lpage>793</lpage>
+                  <pub-id pub-id-type="doi">10.1080/00949655.2013.845890</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gasparini</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Clements</surname>
+                      <given-names>MS</given-names>
+                    </name>
+                    <name>
+                      <surname>Abrams</surname>
+                      <given-names>KR</given-names>
+                    </name>
+                    <name>
+                      <surname>Crowther</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Impact of model misspecification in shared frailty survival models</article-title>
+                  <source>Stat Med</source>
+                  <year>2019</year>
+                  <volume>38</volume>
+                  <issue>23</issue>
+                  <fpage>4477</fpage>
+                  <lpage>4502</lpage>
+                  <pub-id pub-id-type="doi">10.1002/sim.8309</pub-id>
+                  <pub-id pub-id-type="pmid">31328285</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cook</surname>
+                      <given-names>RJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Lawless</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <source>The statistical analysis of recurrent events</source>
+                  <year>2007</year>
+                  <publisher-loc>New York</publisher-loc>
+                  <publisher-name>Springer</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hanagal</surname>
+                      <given-names>DD</given-names>
+                    </name>
+                  </person-group>
+                  <source>Modeling survival data using frailty models</source>
+                  <year>2019</year>
+                  <publisher-loc>Singapore</publisher-loc>
+                  <publisher-name>Springer</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <mixed-citation publication-type="other">Andersen PK, Gill RD. Cox's regression model for counting processes: a large sample study. Ann Stat. 1982;10(4):1100–20.</mixed-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kalbfleisch</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                    <name>
+                      <surname>Prentice</surname>
+                      <given-names>RL</given-names>
+                    </name>
+                  </person-group>
+                  <source>The statistical analysis of failure time data</source>
+                  <year>2011</year>
+                  <publisher-loc>Newyork</publisher-loc>
+                  <publisher-name>Wiley</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lawless</surname>
+                      <given-names>JF</given-names>
+                    </name>
+                  </person-group>
+                  <source>Statistical models and methods for lifetime data</source>
+                  <year>2003</year>
+                  <publisher-loc>Newyork</publisher-loc>
+                  <publisher-name>Wiley</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kelly</surname>
+                      <given-names>PJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Lim</surname>
+                      <given-names>LLY</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Survival analysis for recurrent event data: an application to childhood infectious diseases</article-title>
+                  <source>Stat Med</source>
+                  <year>2000</year>
+                  <volume>19</volume>
+                  <issue>1</issue>
+                  <fpage>13</fpage>
+                  <lpage>33</lpage>
+                  <pub-id pub-id-type="doi">10.1002/(SICI)1097-0258(20000115)19:1&lt;13::AID-SIM279&gt;3.0.CO;2-5</pub-id>
+                  <pub-id pub-id-type="pmid">10623910</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Babiker</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Cuzick</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A simple frailty model for family studies with covariates</article-title>
+                  <source>Stat Med</source>
+                  <year>1994</year>
+                  <volume>13</volume>
+                  <issue>16</issue>
+                  <fpage>1679</fpage>
+                  <lpage>1692</lpage>
+                  <pub-id pub-id-type="doi">10.1002/sim.4780131608</pub-id>
+                  <pub-id pub-id-type="pmid">7973243</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pickles</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Crouchley</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A comparison of frailty models for multivariate survival data</article-title>
+                  <source>Stat Med</source>
+                  <year>1995</year>
+                  <volume>14</volume>
+                  <issue>13</issue>
+                  <fpage>1447</fpage>
+                  <lpage>1461</lpage>
+                  <pub-id pub-id-type="doi">10.1002/sim.4780141305</pub-id>
+                  <pub-id pub-id-type="pmid">7481183</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Morris</surname>
+                      <given-names>TP</given-names>
+                    </name>
+                    <name>
+                      <surname>White</surname>
+                      <given-names>IR</given-names>
+                    </name>
+                    <name>
+                      <surname>Crowther</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Using simulation studies to evaluate statistical methods</article-title>
+                  <source>Stat Med</source>
+                  <year>2019</year>
+                  <volume>38</volume>
+                  <issue>11</issue>
+                  <fpage>2074</fpage>
+                  <lpage>2102</lpage>
+                  <pub-id pub-id-type="doi">10.1002/sim.8086</pub-id>
+                  <pub-id pub-id-type="pmid">30652356</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bender</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Augustin</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Blettner</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Generating survival times to simulate cox proportional hazards models</article-title>
+                  <source>Stat Med</source>
+                  <year>2005</year>
+                  <volume>24</volume>
+                  <issue>11</issue>
+                  <fpage>1713</fpage>
+                  <lpage>1723</lpage>
+                  <pub-id pub-id-type="doi">10.1002/sim.2059</pub-id>
+                  <pub-id pub-id-type="pmid">15724232</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Crowther</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                  </person-group>
+                  <source>Merlin-a unified modelling framework for data analysis and methods development in Stata</source>
+                  <year>2018</year>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Crowther</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Lambert</surname>
+                      <given-names>PC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Simulating biologically plausible complex survival data</article-title>
+                  <source>Stat Med</source>
+                  <year>2013</year>
+                  <volume>32</volume>
+                  <issue>23</issue>
+                  <fpage>4118</fpage>
+                  <lpage>4134</lpage>
+                  <pub-id pub-id-type="doi">10.1002/sim.5823</pub-id>
+                  <pub-id pub-id-type="pmid">23613458</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Crowther</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Look</surname>
+                      <given-names>MP</given-names>
+                    </name>
+                    <name>
+                      <surname>Riley</surname>
+                      <given-names>RD</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Multilevel mixed effects parametric survival models using adaptive Gauss–Hermite quadrature with application to recurrent events and individual participant data meta-analysis</article-title>
+                  <source>Stat Med</source>
+                  <year>2014</year>
+                  <volume>33</volume>
+                  <issue>22</issue>
+                  <fpage>3844</fpage>
+                  <lpage>3858</lpage>
+                  <pub-id pub-id-type="doi">10.1002/sim.6191</pub-id>
+                  <pub-id pub-id-type="pmid">24789760</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Divala</surname>
+                      <given-names>TH</given-names>
+                    </name>
+                    <name>
+                      <surname>Mungwira</surname>
+                      <given-names>RG</given-names>
+                    </name>
+                    <name>
+                      <surname>Mawindo</surname>
+                      <given-names>PM</given-names>
+                    </name>
+                    <name>
+                      <surname>Nyirenda</surname>
+                      <given-names>OM</given-names>
+                    </name>
+                    <name>
+                      <surname>Kanjala</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Ndaferankhande</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Tsirizani</surname>
+                      <given-names>LE</given-names>
+                    </name>
+                    <name>
+                      <surname>Masonga</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Muwalo</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Boudová</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Chloroquine as weekly chemoprophylaxis or intermittent treatment to prevent malaria in pregnancy in Malawi: a randomised controlled trial</article-title>
+                  <source>Lancet Infect Dis</source>
+                  <year>2018</year>
+                  <volume>18</volume>
+                  <issue>10</issue>
+                  <fpage>1097</fpage>
+                  <lpage>1107</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S1473-3099(18)30415-8</pub-id>
+                  <pub-id pub-id-type="pmid">30195996</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hougaard</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Life table methods for heterogeneous populations: distributions describing the heterogeneity</article-title>
+                  <source>Biometrika.</source>
+                  <year>1984</year>
+                  <volume>71</volume>
+                  <issue>1</issue>
+                  <fpage>75</fpage>
+                  <lpage>83</lpage>
+                  <pub-id pub-id-type="doi">10.1093/biomet/71.1.75</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

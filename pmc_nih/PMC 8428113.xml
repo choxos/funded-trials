@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T02:47:28Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8428113" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8428113</identifier>
+        <datestamp>2021-09-09</datestamp>
+        <setSpec>nihpa</setSpec>
+        <setSpec>pmc-open</setSpec>
+        <setSpec>manuscript</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-journal-id">101573691</journal-id>
+              <journal-id journal-id-type="pubmed-jr-id">39703</journal-id>
+              <journal-id journal-id-type="nlm-ta">Cell Rep</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Cell Rep</journal-id>
+              <journal-title-group>
+                <journal-title>Cell reports</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2211-1247</issn>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8428113</article-id>
+              <article-id pub-id-type="pmcid">PMC8428113</article-id>
+              <article-id pub-id-type="pmc-uid">8428113</article-id>
+              <article-id pub-id-type="pmid">34433024</article-id>
+              <article-id pub-id-type="pmid">34433024</article-id>
+              <article-id pub-id-type="doi">10.1016/j.celrep.2021.109566</article-id>
+              <article-id pub-id-type="manuscript">nihpa1735642</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Synchronization patterns reveal neuronal coding of working memory content</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Mamashli</surname>
+                    <given-names>Fahimeh</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="A1">1</xref>
+                  <xref ref-type="aff" rid="A2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Khan</surname>
+                    <given-names>Sheraz</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="A1">1</xref>
+                  <xref ref-type="aff" rid="A2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Hämäläinen</surname>
+                    <given-names>Matti</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="A1">1</xref>
+                  <xref ref-type="aff" rid="A2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Jas</surname>
+                    <given-names>Mainak</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="A1">1</xref>
+                  <xref ref-type="aff" rid="A2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Raij</surname>
+                    <given-names>Tommi</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="A1">1</xref>
+                  <xref ref-type="aff" rid="A2">2</xref>
+                  <xref ref-type="aff" rid="A3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Stufflebeam</surname>
+                    <given-names>Steven M.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="A1">1</xref>
+                  <xref ref-type="aff" rid="A2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Nummenmaa</surname>
+                    <given-names>Aapo</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="A1">1</xref>
+                  <xref ref-type="aff" rid="A2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ahveninen</surname>
+                    <given-names>Jyrki</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="A1">1</xref>
+                  <xref ref-type="aff" rid="A2">2</xref>
+                  <xref ref-type="aff" rid="A4">4</xref>
+                  <xref rid="CR1" ref-type="corresp">*</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="A1"><label>1</label>Athinoula A. Martinos Center for Biomedical Imaging, Department of Radiology, Massachusetts General Hospital, Bldg. 149 13<sup>th</sup> Street, Charlestown, MA 02129, USA</aff>
+              <aff id="A2"><label>2</label>Department of Radiology, Harvard Medical School, 25 Shattuck Street, Boston, MA 02115, USA</aff>
+              <aff id="A3"><label>3</label>Departments of Physical Medicine and Rehabilitation and Neurobiology, Northwestern University, 710 North Lake Shore Drive, Chicago, IL 60611, USA</aff>
+              <aff id="A4"><label>4</label>Lead contact</aff>
+              <author-notes>
+                <corresp id="CR1"><label>*</label>Correspondence: <email>jahveninen@mgh.harvard.edu</email></corresp>
+                <fn fn-type="con" id="FN1">
+                  <p id="P1">AUTHOR CONTRIBUTIONS</p>
+                  <p id="P2">F.M. and J.A. conceived the study, designed the study, conducted the experiments, analyzed the data, and wrote the manuscript. S.K., M.H., and M.J. analyzed the data and wrote the manuscript. A.N., S.M.S., and T.R. conceived the study, contributed to the study design and analysis, and wrote the manuscript.</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="nihms-submitted">
+                <day>27</day>
+                <month>8</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="ppub">
+                <day>24</day>
+                <month>8</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>09</day>
+                <month>9</month>
+                <year>2021</year>
+              </pub-date>
+              <volume>36</volume>
+              <issue>8</issue>
+              <fpage>109566</fpage>
+              <lpage>109566</lpage>
+              <!--elocation-id from pubmed: 10.1016/j.celrep.2021.109566-->
+              <permissions>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>This is an open access article under the CC BY license (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+                </license>
+              </permissions>
+              <abstract id="ABS1">
+                <title>SUMMARY</title>
+                <p id="P3">Neuronal oscillations are suggested to play an important role in auditory working memory (WM), but their contribution to content-specific representations has remained unclear. Here, we measure magnetoencephalography during a retro-cueing task with parametric ripple-sound stimuli, which are spectrotemporally similar to speech but resist non-auditory memory strategies. Using machine learning analyses, with rigorous between-subject cross-validation and non-parametric permutation testing, we show that memorized sound content is strongly represented in phase-synchronization patterns between subregions of auditory and frontoparietal cortices. These phase-synchronization patterns predict the memorized sound content steadily across the studied maintenance period. In addition to connectivity-based representations, there are indices of more local, “activity silent” representations in auditory cortices, where the decoding accuracy of WM content significantly increases after task-irrelevant “impulse stimuli.” Our results demonstrate that synchronization patterns across auditory sensory and association areas orchestrate neuronal coding of auditory WM content. This connectivity-based coding scheme could also extend beyond the auditory domain.</p>
+              </abstract>
+              <abstract id="ABS2" abstract-type="graphical">
+                <title>Graphical abstract</title>
+                <p id="P4">
+                  <graphic xlink:href="nihms-1735642-f0001.jpg" position="anchor" orientation="portrait"/>
+                </p>
+              </abstract>
+              <abstract id="ABS3" abstract-type="summary">
+                <title>In brief</title>
+                <p id="P5">Mamashli et al. use machine learning analyses of human magnetoencephalography (MEG) recordings to study “working memory,” maintenance of information in mind over brief periods of time. Their results show that the human brain maintains working memory content in transient functional connectivity patterns across sensory and association areas.</p>
+              </abstract>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="S1">
+              <title>INTRODUCTION</title>
+              <p id="P6">Auditory working memory (WM) refers to our capability to maintain and manipulate sound information in our minds over brief periods of time, which has co-evolved with the auditory-vocal communication skills that set humans apart in the animal kingdom (<xref rid="R1" ref-type="bibr">Aboitiz, 2018</xref>). How neurons maintain information in WM and how different parts of the brain contribute to this process continue to be unresolved and debated questions, irrespective of stimulus modality (<xref rid="R12" ref-type="bibr">Constantinidis et al., 2018</xref>; <xref rid="R76" ref-type="bibr">Stokes, 2015</xref>; <xref rid="R86" ref-type="bibr">Xu, 2017</xref>). A specific complication in the auditory domain has been that many of the available WM tasks have been based on complex stimuli that allow or even facilitate non-auditory WM maintenance strategies (<xref rid="R34" ref-type="bibr">Kaiser et al., 2003</xref>, <xref rid="R36" ref-type="bibr">2009</xref>; <xref rid="R45" ref-type="bibr">Lutzenberger et al., 2002</xref>), such as verbal rehearsal (<xref rid="R71" ref-type="bibr">Smith and Jonides, 1997</xref>). The fundamental mechanisms of how purely auditory attributes are maintained thus constitute one of the least understood aspects of human WM (<xref rid="R68" ref-type="bibr">Scott and Mishkin, 2016</xref>).</p>
+              <p id="P7">WM research has long been influenced by a hypothesis that there is a dedicated area of prefrontal (PFC) or posterior parietal (PPC) cortices, which maintains information via the sustained firing of neurons (<xref rid="R23" ref-type="bibr">Fuster and Alexander, 1971</xref>; <xref rid="R24" ref-type="bibr">Goldman-Rakic, 2011</xref>; <xref rid="R72" ref-type="bibr">Smith and Jonides, 1999</xref>; <xref rid="R86" ref-type="bibr">Xu, 2017</xref>). However, it is becoming increasingly clear that activation patterns that carry the information of WM content occur at many areas of the brain (<xref rid="R10" ref-type="bibr">Christophel et al., 2017</xref>), ranging from early auditory or visual cortices to the highest cognitive areas (<xref rid="R4" ref-type="bibr">Bigelow et al., 2014</xref>; <xref rid="R9" ref-type="bibr">Christophel et al., 2012</xref>; <xref rid="R25" ref-type="bibr">Gottlieb et al., 1989</xref>; <xref rid="R28" ref-type="bibr">Grimault et al., 2009</xref>; <xref rid="R33" ref-type="bibr">Huang et al., 2016</xref>; <xref rid="R39" ref-type="bibr">Kumar et al., 2016</xref>; <xref rid="R42" ref-type="bibr">Linke et al., 2011</xref>; <xref rid="R55" ref-type="bibr">Ng et al., 2014</xref>; <xref rid="R69" ref-type="bibr">Scott et al., 2014</xref>; <xref rid="R70" ref-type="bibr">Serences, 2016</xref>; <xref rid="R75" ref-type="bibr">Sreenivasan et al., 2014</xref>; <xref rid="R79" ref-type="bibr">Uluç et al., 2018</xref>; <xref rid="R85" ref-type="bibr">Wolff et al., 2020</xref>). Many current theories thus view WM as an emergent property of functionally interconnected brain areas that represent different sensory, perceptual, and cognitive stages of the task-relevant content (<xref rid="R10" ref-type="bibr">Christophel et al., 2017</xref>; <xref rid="R60" ref-type="bibr">Postle, 2006</xref>). However, although these distributed models are gaining wide support, relatively few studies have examined information content in interregional patterns of brain activity per se during WM maintenance (<xref rid="R65" ref-type="bibr">Salazar et al., 2012</xref>; <xref rid="R73" ref-type="bibr">Soreq et al., 2019</xref>).</p>
+              <p id="P8">An ideal way to examine the role of interregional functional connectivity patterns in human WM is to analyze interregional phase synchronization of neuronal oscillations estimated from magnetoencephalography (MEG) signals. In previous visual studies, indices of long-range synchronization effects that depend on task attributes such as the amount of maintained information, or “WM load,” have been reported both using human MEG (<xref rid="R15" ref-type="bibr">Daume et al., 2017</xref>; <xref rid="R58" ref-type="bibr">Palva et al., 2010</xref>; <xref rid="R66" ref-type="bibr">Sato et al., 2018</xref>) and non-human primate neurophysiology (<xref rid="R6" ref-type="bibr">Buschman et al., 2012</xref>; <xref rid="R65" ref-type="bibr">Salazar et al., 2012</xref>). At the same time, accumulating neurophysiological evidence suggests that functional collectivity of more local neuronal networks, mediated by bursts of neuronal oscillations that modulate and refresh synaptic plasticity, play a crucial role in supporting WM maintenance (<xref rid="R44" ref-type="bibr">Lundqvist et al., 2016</xref>; <xref rid="R52" ref-type="bibr">Miller et al., 2018</xref>). However, whether phase synchronization across the broader network of brain areas involved in human WM carries information of its memory content is still uncertain.</p>
+              <p id="P9">Here, we tested the hypothesis that auditory WM content is encoded and maintained in transient changes of functional connectivity between brain areas involved in auditory perception and cognition. To this end, we examined frequency-specific changes in phase synchronization of neuronal oscillations using MEG, a non-invasive measure of synaptic currents in the human brain. Unlike EEG, MEG readily dissociates signals from the auditory cortices and frontocentral regions in the sensor space (<xref rid="R29" ref-type="bibr">Hamalainen et al., 1993</xref>), which significantly facilitates the cortical source estimation needed for our hypothesis testing. To ensure that the effects reflect purely auditory WM, we designed a task with dynamic ripple sound stimuli, which are spectrotemporally similar to human vocalizations but resist non-auditory memory strategies (<xref rid="R82" ref-type="bibr">Visscher et al., 2007</xref>). We developed a multivariate machine-learning pipeline to predict the ripple-sound content maintained in WM using the patterns of subregional functional connectivity as well as spectral and temporal brain activity measures. In addition, we tested for the existence of “activity silent” WM representations in auditory cortices (<xref rid="R54" ref-type="bibr">Mongillo et al., 2008</xref>; <xref rid="R76" ref-type="bibr">Stokes, 2015</xref>) by examining the content specificity of oscillatory power patterns elicited to task-irrelevant impulse stimuli (<xref rid="R62" ref-type="bibr">Rose et al., 2016</xref>; <xref rid="R83" ref-type="bibr">Wolff et al., 2015</xref>, <xref rid="R84" ref-type="bibr">2017</xref>, <xref rid="R85" ref-type="bibr">2020</xref>).</p>
+            </sec>
+            <sec id="S2">
+              <title>RESULTS</title>
+              <p id="P10">Using machine learning, we show that phase synchronization patterns between subregions of auditory and frontoparietal cortices predict the content of auditory WM with high accuracy. In most of these functional connectivity patterns, the decoding accuracy of memory content remained stable across the studied maintenance period. Furthermore, the connections that revealed the WM content during the later stage of maintenance consisted of a subset of those found during the earlier part of maintenance. In addition to these connectivity-based results, we found indices of activity silent WM representations in auditory cortices, as suggested by enhanced decoding of memorized sound content from patterns of oscillatory power after task-irrelevant impulse sounds.</p>
+              <sec id="S3">
+                <title>Behavioral performance</title>
+                <p id="P11">Auditory WM was examined using a “retro-cueing” paradigm, a strategy that helps control for the differing accounts of recent stimulus history (i.e., passive sensory memory) and actively maintained WM content (<xref rid="R39" ref-type="bibr">Kumar et al., 2016</xref>; <xref rid="R62" ref-type="bibr">Rose et al., 2016</xref>; <xref rid="R74" ref-type="bibr">Sprague et al., 2016</xref>; <xref rid="R79" ref-type="bibr">Uluç et al., 2018</xref>; <xref rid="R84" ref-type="bibr">Wolff et al., 2017</xref>) (<xref rid="F1" ref-type="fig">Figure 1</xref>). The memory items consisted of six ripple velocities separated by 1.5 of their just noticeable differences (JNDs), which was determined in a separate session to control for individual differences in sound discrimination (<xref rid="R82" ref-type="bibr">Visscher et al., 2007</xref>). MEG data were measured from 20 participants while subjects were performing the WM task. All of the subjects were capable of performing the task according to the instruction. The mean proportion of correct responses was 0.84 (standard deviation = 0.1).</p>
+              </sec>
+              <sec id="S4">
+                <title>Auditory WM content-specific functional connectivity patterns</title>
+                <p id="P12">We selected six regions of interest (ROIs) based on the previous studies on auditory WM (<xref rid="R5" ref-type="bibr">Buchsbaum et al., 2005</xref>; <xref rid="R13" ref-type="bibr">Crottaz-Herbette et al., 2004</xref>; <xref rid="R32" ref-type="bibr">Huang et al., 2013</xref>; <xref rid="R39" ref-type="bibr">Kumar et al., 2016</xref>; <xref rid="R61" ref-type="bibr">Rodriguez-Jimenez et al., 2009</xref>; <xref rid="R79" ref-type="bibr">Uluç et al., 2018</xref>; <xref rid="R80" ref-type="bibr">Vallar et al., 1997</xref>), as specifically defined by using the Freesurfer Desikan parcellation (<xref rid="R16" ref-type="bibr">Desikan et al., 2006</xref>). These ROIs included the superior temporal cortex (STC; superior temporal and Heschl’s gyri combined) and inferior frontal gyrus (IFG), as well as the caudal middle frontal (CMF), lateral orbitofrontal (LOF), rostral middle frontal (RMF), precentral (PC), and supramarginal (SM; overlapping with intraparietal lobule [IPL]) areas in each hemisphere. Given that different parts of STC are sensitive to different spectrotemporal properties (<xref rid="R67" ref-type="bibr">Schönwiesner and Zatorre, 2009</xref>), we hypothesized that the memorized ripple-sound content is represented in the subregional phase-synchronization patterns between the auditory cortex and other ROIs. Therefore, we focused on the connections between STC and other ROIs to tap into the role of networks involving sensory cortices in WM. We developed an approach that uses sub-ROI functional connectivity patterns to predict the WM content with a linear support vector machine (SVM) classifier (<xref rid="F2" ref-type="fig">Figure 2</xref>). As the functional connectivity measure, the imaginary part of the coherence (ImCoh) between sub-ROI pairs (<xref rid="F2" ref-type="fig">Figure 2A</xref>) was used to minimize spurious connectivity due to the field spread effect (<xref rid="R56" ref-type="bibr">Nolte et al., 2004</xref>). We considered early (0.5–1.25 s from memory cue) and late (1.25–2 s) time windows in the maintenance period. The data from all of the subjects were merged together within the classification, which was cross-validated by permuting the data 100 times. This means training the model with data from 75% of the subjects and testing on the remaining data. The statistical significance of the classification accuracy was determined by comparing the original accuracy with a null distribution created by using a randomized classifier by permuting the labels 500 times. To control for multiple comparisons, from each permutation, the maximum statistical value across the studied 60 connections (12 STC-ROI pairs in 5 frequency bands) was assigned to this null distribution. To further test the validity of our results, we conducted a similar connectivity-based decoding analysis with the visual cortex area lateral occipital cortex (LOC) as the seed region (for further details of the statistical analyses, see <xref rid="S11" ref-type="sec">STAR Methods</xref>).</p>
+                <p id="P13">During maintenance, decoding accuracies were significantly above chance level in 12 frequency-specific connections within the early time window (<xref rid="F3" ref-type="fig">Figure 3A</xref>) and in 8 connections within the later time window (<xref rid="F3" ref-type="fig">Figure 3B</xref>). Significant connectivity-based decoding results were found in both hemispheres at the alpha and gamma ranges, with the strongest effects emerging at the high gamma band in the right hemisphere (for details of the statistical inference, see <xref rid="S11" ref-type="sec">STAR Methods</xref>). Importantly, all connections that revealed WM content within the late time window showed significant decoding results also within the early time window (labeled with an asterisk in <xref rid="F3" ref-type="fig">Figure 3</xref>). In the right hemisphere, WM content was stably decodable from both time windows from the high gamma-band connection patterns between STC versus LOF, IFG, RMF, CMF, and PC, as well as from the alpha-band connection patterns between STC and IFG. In the left hemisphere, the WM content could be stably decoded from the alpha-band STC-PC and high gamma-band STC-SM connectivity patterns (<xref rid="F3" ref-type="fig">Figure 3</xref>). In the control analysis with LOC as the seed, none of the estimated decoding accuracies was significantly above chance level (<xref rid="F4" ref-type="fig">Figure 4</xref>; for details of the statistical inference, see <xref rid="S11" ref-type="sec">STAR Methods</xref>). The results of additional connectivity-based analyses, which decoded the stimulus content during the WM encoding, are presented in <xref rid="SD1" ref-type="supplementary-material">Figure S1</xref>. Examples of confusion matrices related to the decoding analyses during the maintenance period are shown in <xref rid="SD1" ref-type="supplementary-material">Figures S2</xref> and <xref rid="SD1" ref-type="supplementary-material">S3</xref>.</p>
+                <p id="P14">To rule out power-related biases in our coherence estimates, we conducted another control analysis, in which the power values in each ROI were used as features in the SVM classifier (<xref rid="F5" ref-type="fig">Figure 5A</xref>). As expected, in contrast to the connectivity-based analysis, the control analysis aiming to classify the memorized ripple-sound content based on oscillatory power patterns at the same five frequency ranges provided no significant results in any of the ROIs (for details of the statistical inference, see <xref rid="S11" ref-type="sec">STAR Methods</xref>).</p>
+              </sec>
+              <sec id="S5">
+                <title>Probing the activity-silent WM traces in auditory cortex areas</title>
+                <p id="P15">Recent electroencephalography (EEG) studies suggest that task-irrelevant impulse stimuli help amplify the readout of neural memory traces from distributed brain activation patterns (<xref rid="R62" ref-type="bibr">Rose et al., 2016</xref>; <xref rid="R84" ref-type="bibr">Wolff et al., 2017</xref>, <xref rid="R85" ref-type="bibr">2020</xref>). In addition to the connectivity -analysis, we therefore probed for activity silent WM representations in the auditory cortex by examining content-related changes of responses to task-irrelevant auditory impulse stimuli, which were unrelated to the stored attributes, per se: a 50-ms white-noise burst was randomly presented in 50% of the trials after 2.5 s into the delay period to induce a brief transient activation in auditory cortices (<xref rid="F1" ref-type="fig">Figure 1</xref>). We then attempted to decode which of the six ripple sound items was maintained in WM from the frequency band x sub-ROI patterns of oscillatory power in left and right STC, with versus without the impulse sound (<xref rid="F5" ref-type="fig">Figure 5A</xref>). The effect of impulse sound was tested by using a linear mixed effect (LME) model with fixed effect factors “impulse sound” (with versus without) and the MEG frequency band center frequency, as well as the random effect of subject identity, using the MATLAB function fitlme (for details of the statistical inference, see <xref rid="S11" ref-type="sec">STAR Methods</xref>). In support of our hypothesis, the content of auditory WM could be decoded significantly more accurately from STC from trials that included the impulse sound versus those not including the impulse sound (<italic>t</italic><sub>187</sub> = 4.0, <italic>p<sub>Bonferroni</sub></italic> = 0.001; <xref rid="F5" ref-type="fig">Figure 5B</xref>). The best-fitting model furthermore suggested that the decoding accuracy generally increased as a function of the increasing MEG frequency band (<italic>t</italic><sub>187</sub> = 3.1, <italic>p</italic><sub><italic>Bonferroni</italic></sub> = 0.03; <xref rid="F5" ref-type="fig">Figure 5B</xref>). This suggests that the impulse sound improves the decoding accuracy of WM content in STC areas that encompass the human auditory cortex.</p>
+                <p id="P16">We hypothesized that the readout of WM content would be enhanced by the impulse sound specifically in auditory cortices. However, in a confirmatory control analysis, we tested the effect of the impulse sound also in the frontal and parietal ROIs using a sub-ROI power pattern of spectral power in the five frequency bands (<xref rid="F5" ref-type="fig">Figure 5A</xref>). We corrected for multiple comparisons with Bonferroni correction across 13 t-statistics. In contrast to the significant effects bilateral STCs, the impulse sound did not improve the decoding accuracy in our parietal and frontal ROIs. The analysis procedure is described in detail in the <xref rid="S11" ref-type="sec">STAR Methods</xref>.</p>
+              </sec>
+              <sec id="S6">
+                <title>Power variation during maintenance</title>
+                <p id="P17">A recent study in auditory WM examined the sustained activity in different frequency bands and areas during the maintenance period using local field potential data (<xref rid="R40" ref-type="bibr">Kumar et al., 2021</xref>). We therefore investigated oscillatory power variation during maintenance in all ROIs. We found that the power during maintenance shows sustained activity in alpha, beta, and low gamma in early time periods, while at later time windows, this pattern is present in the high gamma band (<xref rid="SD1" ref-type="supplementary-material">Figures S4</xref> and <xref rid="SD1" ref-type="supplementary-material">S5</xref>; for further details of the statistical inference, see <xref rid="S11" ref-type="sec">STAR Methods</xref>).</p>
+              </sec>
+              <sec id="S7">
+                <title>Temporal pattern decoding</title>
+                <p id="P18">The auditory WM content could be classified significantly above chance level also from the temporal pattern of the MEG source activity during WM encoding (<xref rid="SD1" ref-type="supplementary-material">Figure S6</xref>), but no significant effects were found during maintenance. The details of the statistical analyses are presented in the <xref rid="S11" ref-type="sec">STAR Methods</xref>.</p>
+              </sec>
+              <sec id="S8">
+                <title>Behavioral relevance of functional connectivity during WM maintenance</title>
+                <p id="P19">Our support vector regression (SVR) and permutation testing analyses suggest that each subject’s behavioral WM performance can be predicted based on high-frequency STC-frontoparietal synchronization patterns, which in our main analysis contained information of WM content (see <xref rid="SD1" ref-type="supplementary-material">Figure S7</xref>). The details of statistical inference are described in the <xref rid="S11" ref-type="sec">STAR Methods</xref>.</p>
+              </sec>
+              <sec id="S9">
+                <title>Similarity between WM encoding and maintenance</title>
+                <p id="P20">Following the synaptic model of WM, we hypothesized that maintaining an item in auditory WM involves the same functional network that is used during encoding. To test this hypothesis, we trained a linear SVM classifier using the connectivity features of WM encoding and tested it with the connectivity pattern during WM maintenance. None of the connections were significantly above the chance level that was determined using the permutation method.</p>
+              </sec>
+            </sec>
+            <sec id="S10">
+              <title>DISCUSSION</title>
+              <p id="P21">Our results provide evidence that parametric attributes of auditory WM content are represented in behaviorally relevant neuronal phase-synchronization patterns, which connect auditory areas of STC with inferior-lateral frontoparietal cortices. According to our machine-learning analyses, which used rigorous between-subject cross-validation and non-parametric permutation testing, most of these connectivity-based WM representations remained stable across the studied maintenance period. Stable and significant connectivity-based decoding results were found at the alpha and high gamma bands in both hemispheres, with the strongest WM content representations emerging at the high gamma band in the right hemisphere. These findings support a hypothesis that auditory WM content is maintained in long-range synchronization patterns of neuronal oscillations.</p>
+              <p id="P22">It has long been debated whether WM involves a dedicated storage region or whether the maintenance process is distributed across multiple brain areas and hierarchical levels (for reviews, see <xref rid="R10" ref-type="bibr">Christophel et al., 2017</xref>; <xref rid="R24" ref-type="bibr">Goldman-Rakic, 2011</xref>; <xref rid="R60" ref-type="bibr">Postle, 2006</xref>; <xref rid="R76" ref-type="bibr">Stokes, 2015</xref>; <xref rid="R86" ref-type="bibr">Xu, 2017</xref>). Our results provide an alternative perspective to this theoretical question: WM maintenance could be supported by a broader interregional connectivity architecture, in which each dynamic ripple sound memory is represented by a content-specific combination of functional connections across different aspects of auditory cortex, premotor cortex, and frontoparietal association areas. The content specificity of these connectivity patterns could be built upon an intrinsic connectivity topography in which the “best ripple velocity” differs across different subareas of the auditory cortex (<xref rid="R50" ref-type="bibr">Massoudi et al., 2015</xref>; <xref rid="R67" ref-type="bibr">Schönwiesner and Zatorre, 2009</xref>) and also across frontoparietal neurons that are connected to different parts of the auditory cortex (<xref rid="R22" ref-type="bibr">Fritz et al., 2010</xref>). This connectivity-based coding hypothesis receives indirect support from a recent fMRI study, according to which the content of human visual WM can be decoded more precisely from functional connectivity than local hemodynamic activation patterns (<xref rid="R73" ref-type="bibr">Soreq et al., 2019</xref>).</p>
+              <p id="P23">The theoretical idea that WM content could be represented in functional connectivity has been described previously at the level of a local network of nearby neuronal units (<xref rid="R2" ref-type="bibr">Barak and Tsodyks, 2014</xref>; <xref rid="R54" ref-type="bibr">Mongillo et al., 2008</xref>; <xref rid="R76" ref-type="bibr">Stokes, 2015</xref>). A candidate mechanism for such local connectivity-based effects is short-term synaptic plasticity (STSP): During encoding, the stimulus-driven activity temporarily changes the synaptic efficacy within the neural network, which leaves behind a temporary synaptic memory trace via STSP (<xref rid="R87" ref-type="bibr">Zucker and Regehr, 2002</xref>). These STSP effects could then change the functional connectivity of the neural network and result in a transient item-specific circuit for the WM memoranda (<xref rid="R17" ref-type="bibr">Erickson et al., 2010</xref>; <xref rid="R76" ref-type="bibr">Stokes, 2015</xref>). It is possible such effects could also modulate the intrinsic connectivity of larger-scale networks that are observable in MEG source estimates. In other words, the content specificity of large-scale functional connectivity, which we observed in the linear classifier analysis of MEG source estimates, could reflect an altered state of the underlying synaptic connections.</p>
+              <p id="P24">Content-specific interregional synchronization in WM could also be intuitively explained by the communication through coherence theory (<xref rid="R20" ref-type="bibr">Fries, 2005</xref>). According to this theory, frequency-specific coherence provides a mechanism for information transfer by phase-aligning periods of excitability to maximize the opportunity for communication (<xref rid="R20" ref-type="bibr">Fries, 2005</xref>). During WM encoding, the intrinsic oscillatory activity of groups of neurons, which are sensitive to the to-be-remembered auditory attributes, could become synchronized or “entrained.” During maintenance, the entrained (interregional) oscillatory activity could then increase the temporal coherence of activations that, for example, help periodically refresh synaptic traces of the maintained information (for a review, see <xref rid="R52" ref-type="bibr">Miller et al., 2018</xref>).</p>
+              <p id="P25">In auditory cortices, we found a significant increase in the decoding accuracy of the memory content after task-irrelevant impulse sounds, when compared to maintenance trials with no such impulse stimuli. This finding is broadly consistent with previous EEG studies of activity silent representations in visual (<xref rid="R62" ref-type="bibr">Rose et al., 2016</xref>; <xref rid="R78" ref-type="bibr">Ten Oever et al., 2020</xref>; <xref rid="R84" ref-type="bibr">Wolff et al., 2017</xref>, <xref rid="R85" ref-type="bibr">2020</xref>) and auditory WM (<xref rid="R85" ref-type="bibr">Wolff et al., 2020</xref>). However, as the previous non-invasive human studies were focused on the EEG electrode space analysis, the underlying sources of activity silent WM representations, and particularly the contribution of sensory areas, had remained ambiguous. Our MRI-constrained cortical MEG source analysis results thus significantly extend these previous findings by showing that activity silent WM maintenance takes place in the sensory areas of the human cortex as well.</p>
+              <p id="P26">In our connectivity-based decoding analyses, we found content-specific WM effects at alpha and high gamma ranges. Previous studies in both visual (<xref rid="R31" ref-type="bibr">Howard et al., 2003</xref>; <xref rid="R51" ref-type="bibr">Medendorp et al., 2007</xref>; <xref rid="R58" ref-type="bibr">Palva et al., 2010</xref>; <xref rid="R64" ref-type="bibr">Roux et al., 2012</xref>; <xref rid="R81" ref-type="bibr">van Vugt et al., 2010</xref>) and auditory domains (<xref rid="R35" ref-type="bibr">Kaiser et al., 2008</xref>; <xref rid="R45" ref-type="bibr">Lutzenberger et al., 2002</xref>) have suggested functional specificity of different oscillatory frequency ranges. In these studies, gamma band oscillations have often been associated with active maintenance of WM information (<xref rid="R63" ref-type="bibr">Roux and Uhlhaas, 2014</xref>). Previous neurophysiological work suggests that gamma activity is closely linked to spiking patterns that carry information about WM memoranda (<xref rid="R44" ref-type="bibr">Lundqvist et al., 2016</xref>). Although often considered predominantly a local phenomenon (<xref rid="R21" ref-type="bibr">Fries et al., 2007</xref>), gamma-range synchronization patterns occur also across longer distances (<xref rid="R7" ref-type="bibr">Buzsáki and Schomburg, 2015</xref>), including between the primate PFC and sensory areas during active attention tasks (<xref rid="R27" ref-type="bibr">Gregoriou et al., 2009</xref>). In contrast, alpha-band activity has been linked to protecting WM items from non-relevant information (<xref rid="R63" ref-type="bibr">Roux and Uhlhaas, 2014</xref>). Our results suggest that these frequency-specific changes in functional connectivity show content-specific variability, which can be decoded using machine-learning techniques.</p>
+              <p id="P27">In conclusion, our results provide converging evidence that auditory WM information is maintained in patterns of functional connectivity between subregions of frontoparietal and temporal cortices. The content specificity of these connectivity-based WM representations fundamentally relies on sensory areas of the human auditory cortex. It is conceivable that the principles of our connectivity-based perspective on the neural coding of WM extend beyond the auditory domain.</p>
+            </sec>
+            <sec id="S11">
+              <title>STAR★METHODS</title>
+              <sec id="S12">
+                <title>RESOURCE AVAILABILITY</title>
+                <sec id="S13">
+                  <title>Lead contact</title>
+                  <p id="P28">Further information and requests for resources should be directed to and will be fulfilled by the Lead Contact, Jyrki Ahveninen, <email>jahveninen@mgh.harvard.edu</email>.</p>
+                </sec>
+                <sec id="S14">
+                  <title>Materials availability</title>
+                  <p id="P29">This study did not generate new materials.</p>
+                </sec>
+                <sec sec-type="data-availability" id="S15">
+                  <title>Data and code availability</title>
+                  <list list-type="bullet" id="L2">
+                    <list-item>
+                      <p id="P30">Deidentified MEG ImCoh data utilized in our connectivity-based analyses to yield our main results are available at <ext-link ext-link-type="uri" xlink:href="https://dataverse.harvard.edu/citation?persistentId=doi:10.7910/DVN/I307DS">https://dataverse.harvard.edu/citation?persistentId=doi:10.7910/DVN/I307DS</ext-link>.</p>
+                    </list-item>
+                    <list-item>
+                      <p id="P31">Custom code utilized to generate our results is available at <ext-link ext-link-type="uri" xlink:href="https://zenodo.org/record/5112421">https://zenodo.org/record/5112421</ext-link>.</p>
+                    </list-item>
+                    <list-item>
+                      <p id="P32">Any additional information required to reanalyze the data reported in this paper is available from the Lead Contact upon request.</p>
+                    </list-item>
+                  </list>
+                </sec>
+              </sec>
+              <sec id="S16">
+                <title>EXPERIMENTAL MODEL AND SUBJECT DETAILS</title>
+                <sec id="S17">
+                  <title>Human participants</title>
+                  <p id="P33">A total of 20 healthy adult participants with no self-reported hearing deficits and (corrected-to-) normal vision were included (age 22-39 years, 12 women). The subjects’ capability to detect and discriminate the auditory stimuli were confirmed in a brief behavioral assessment before the MEG session. All procedures were approved by the Institutional Review Board of Massachusetts General Hospital. All subjects gave their informed consent before participating in the study.</p>
+                </sec>
+              </sec>
+              <sec id="S18">
+                <title>METHOD DETAILS</title>
+                <sec id="S19">
+                  <title>Stimuli and WM task</title>
+                  <p id="P34">The majority of previous studies on auditory WM use stimuli that allow non-auditory maintenance strategies. Here, to eliminate verbal and other non-auditory rehearsal strategies, we used moving ripple sounds, which are spectrotemporally similar to speech but not contaminated by semantic properties or perceptual categories (<xref rid="R82" ref-type="bibr">Visscher et al., 2007</xref>) (<xref rid="F1" ref-type="fig">Figure 1A</xref>). An individualized set of 17 stimuli with different ripple velocities, separated by intervals of <bold>Δ</bold>ω = 0.5 × the just noticeable difference (JND) were generated for each subject in a separate behavioral session, to control for individual differences in sound discrimination (<xref rid="R82" ref-type="bibr">Visscher et al., 2007</xref>). The dynamic ripple sounds were generated by superimposing 20 sinusoids/octave ranging from <italic>f</italic><sub>0</sub> = 0.2 kHz to <italic>f</italic> = 1.6 kHz. Their intensity at any time and frequency was defined by <italic>s(g,t</italic>) = <italic>D</italic><sub><italic>0</italic></sub> + <italic>D</italic> cos[2π(<italic>ωt</italic> + Ω<italic>g</italic>)) + <italic>ψ</italic>], where g = log(<italic>f/f<sub>0</sub></italic>), D is the modulation depth, and ψ is the phase of the ripple (duration = 1 s, Ω = 1 cycles/octave). JND of ω was approximated as the minimally detectable base 2 logarithmic ripple-velocity interval within a range of 3-48 cycles/s based on an adaptive 2 down/1 up staircase algorithm. The sounds were delivered at a comfortable level via a headphone.</p>
+                  <p id="P35">A “retro-cueing” paradigm was utilized to control for the differing accounts of recent stimulus history and actively maintained WM content (<xref rid="R39" ref-type="bibr">Kumar et al., 2016</xref>; <xref rid="R62" ref-type="bibr">Rose et al., 2016</xref>; <xref rid="R74" ref-type="bibr">Sprague et al., 2016</xref>; <xref rid="R79" ref-type="bibr">Uluç et al., 2018</xref>; <xref rid="R84" ref-type="bibr">Wolff et al., 2017</xref>) (<xref rid="F1" ref-type="fig">Figure 1B</xref>). The subject was first presented with two sound items in a row. A subsequent retro-cue indicated which of the two items was to be maintained in memory. Four seconds after the retro-cue, the subject heard a probe stimulus and was asked to press one button if the probe matched the relevant item and another button if not. In 50% of the trials, the probe matched the maintained item. In 50% of the remaining non-matching trials (25% of total count), the probe matched the irrelevant item, to confirm that subjects were maintaining only the relevant item. Notably, the subject was not informed that whereas the probes were selected from the entire individualized pool of 17 possible stimuli, the pairs of items consisted of only 6 possible classes. To increase the physical variability to minimize any long-term learning effects, there was also a half-JND offset between the possible relevant versus irrelevant item classes. Finally, in half of the trials, a task-irrelevant impulse stimulus, a 50-ms white-noise burst, was randomly presented 2.5 s into the delay period. This impulse stimulus was utilized to tap into the hidden states of WM, as inspired by previous EEG studies (<xref rid="R62" ref-type="bibr">Rose et al., 2016</xref>; <xref rid="R84" ref-type="bibr">Wolff et al., 2017</xref>, <xref rid="R85" ref-type="bibr">2020</xref>).</p>
+                </sec>
+                <sec id="S20">
+                  <title>Structural MRI data acquisition and processing</title>
+                  <p id="P36">T1-weighted anatomical images were obtained for combining anatomical and functional data using a multi-echo MPRAGE pulse sequence (TR = 2530 ms; 4 echoes with TEs = 1.69, 3.55, 5.41, 7.27 ms; 176 sagittal slices with 1 × 1 × 1 mm<sup>3</sup> voxels, 256 × 256 mm<sup>2</sup> matrix; flip angle = 7°) in a 3T Siemens Prisma whole-body MRI scanner (Siemens Medical Systems, Erlangen, Germany) using a 64-channel head and neck coil. Cortical reconstruction and parcellations for each subject were generated using Freesurfer (<xref rid="R14" ref-type="bibr">Dale et al., 1999</xref>; <xref rid="R19" ref-type="bibr">Fischl et al., 1999</xref>). After correcting for topological defects, the cortical surfaces were triangulated with dense meshes with ~130 000 vertices in each hemisphere. For visualization, the surfaces were inflated, thereby exposing the sulci (<xref rid="R14" ref-type="bibr">Dale et al., 1999</xref>).</p>
+                </sec>
+                <sec id="S21">
+                  <title>MEG data acquisition</title>
+                  <p id="P37">MEG data were acquired inside a magnetically shielded room (IMEDCO AG, Haegendorf, Switzerland) using a whole-head Vector-View MEG system (MEGIN Oy, Helsinki, Finland), comprised of 306 sensors arranged in 102 triplets of two orthogonal planar gradiometers and one magnetometer. The signals were filtered between 0.1 and 200 Hz and sampled at 1000 Hz. The position and orientation of the head with respect to the MEG sensor array was recorded continuously with help of four head position indicator coils. To allow co-registration of the MEG and MRI data, the locations of three fiduciary points (nasion and pre-auricular points) that define a head-based coordinate system, a set of points from the head surface, and the sites of the four head position indicator coils were digitized using a Fastrak digitizer (Polhemus) integrated with the Vectorview system. MEG Data were recorded in four 24-minute runs, with 96 trials within each run. The ECG and electrooculography signals were recorded simultaneously to identify epochs containing heartbeats as well as vertical and horizontal eye movement and blink artifacts. During data acquisition, online averages were computed from artifact-free epochs to monitor data quality in real time. All offline analysis was based on the saved raw data. In addition, 5 minutes of data from the room void of a subject were recorded before each experimental session for noise estimation purposes.</p>
+                </sec>
+                <sec id="S22">
+                  <title>MEG data preprocessing</title>
+                  <p id="P38">MEG data were spatially filtered using the signal space separation method (SSS, Elekta-Neuromag Maxfilter software) to suppress noise generated by sources outside the brain (<xref rid="R77" ref-type="bibr">Taulu et al., 2004</xref>). The SSS method also corrects for head motion between and within runs (<xref rid="R77" ref-type="bibr">Taulu et al., 2004</xref>). Cardiac and ocular artifacts were removed by signal space projection (SSP) (<xref rid="R37" ref-type="bibr">Khan et al., 2018</xref>; <xref rid="R48" ref-type="bibr">Mamashli et al., 2019b</xref>). Data were visually browsed and sufficient number of SSP (between 1-4) were selected separately to remove cardiac and ocular artifacts. The data were filtered between 0.5 and 140 Hz and downsampled to 500 Hz.</p>
+                  <p id="P39">Each task trial was epoched for encoding and maintenance period: (a) Encoding from −500ms to 1 s after the first sound item and the second sound items (i.e., resulting in two epochs per task trial); (b) Maintenance from 0 to 2.5 s after the memory cue; (c) Impulse sound period from −0.5 s to 1.5 s after onset of the impulse sound or the corresponding time point in trials with no impulse sounds. Epochs were rejected if the peak-to-peak amplitude during the epochs exceeded 1000 fT and 3000 fT/cm in any of the magnetometer and gradiometer channels, respectively. On average, we had 115 ± 15 epochs for encoding and 58 ± 7 epochs for maintenance for each ripple-velocity condition. One subject was excluded due to excessive motion noise, resulting in 19 subjects in total. Two additional subjects were excluded from the connectivity analysis because of an insufficient number of epochs to provide a sufficient signal to noise ratio for coherence analyses.</p>
+                </sec>
+                <sec id="S23">
+                  <title>Source estimation</title>
+                  <p id="P40">The geometry of each participant’s cortical surface was reconstructed from the 3D structural MRI data using FreeSurfer software (<ext-link ext-link-type="uri" xlink:href="https://surfer.nmr.mgh.harvard.edu/">https://surfer.nmr.mgh.harvard.edu</ext-link>). The cortical surface was decimated to a grid of 10242 dipoles per hemisphere, corresponding to a spacing of approximately 5 mm between adjacent source locations in the cortex. The MEG forward solution was computed using a single-compartment boundary-element model (BEM) assuming the shape of the intracranial space. The watershed algorithm was used to generate the inner skull surface triangulations from the T1-weighted MRIs of each participant. The cortical current distribution was estimated using minimum-norm estimate (MNE) software (<ext-link ext-link-type="uri" xlink:href="http://www.nmr.mgh.harvard.edu/martinos/userInfo/data/sofMNE.php">http://www.nmr.mgh.harvard.edu/martinos/userInfo/data/sofMNE.php</ext-link>) (<xref rid="R26" ref-type="bibr">Gramfort et al., 2014</xref>) and assuming the orientation of the source to be fixed perpendicular to the cortical mesh. The noise-covariance matrix used to calculate the inverse operator was estimated from data collected without a subject present. To reduce the bias of the MNEs toward superficial currents, we used depth weighting (<xref rid="R41" ref-type="bibr">Lin et al., 2006</xref>).</p>
+                </sec>
+                <sec id="S24">
+                  <title>Inter-subject cortical surface registration for group analysis</title>
+                  <p id="P41">Each participant’s inflated cortical surface was registered to an average cortical representation (fsaverage in FreeSurfer) by optimally aligning individual sulcal-gyral patterns (<xref rid="R19" ref-type="bibr">Fischl et al., 1999</xref>).</p>
+                </sec>
+                <sec id="S25">
+                  <title>Region of interest (ROI) identification and analysis</title>
+                  <p id="P42">We selected the ROIs based on the Freesurfer Desikan parcellation (<xref rid="R16" ref-type="bibr">Desikan et al., 2006</xref>), as guided by previous studies human auditory WM (<xref rid="R5" ref-type="bibr">Buchsbaum et al., 2005</xref>; <xref rid="R13" ref-type="bibr">Crottaz-Herbette et al., 2004</xref>; <xref rid="R32" ref-type="bibr">Huang et al., 2013</xref>; <xref rid="R39" ref-type="bibr">Kumar et al., 2016</xref>; <xref rid="R61" ref-type="bibr">Rodriguez-Jimenez et al., 2009</xref>; <xref rid="R79" ref-type="bibr">Uluç et al., 2018</xref>; <xref rid="R80" ref-type="bibr">Vallar et al., 1997</xref>). The combination of Heschl’s and superior temporal gyri was utilized to model auditory cortical WM processes (jointly labeled as STC). The other ROIs include the inferior frontal gyrus (IFG; pars opercularis, triangularis, and orbitalis), as well as the caudal middle frontal (CMF), lateral orbitofrontal (LOF), rostral middle frontal (RMF), precentral (PC), and supramarginal (SM) areas. An automatic routine was utilized to break each larger ROI into smaller, approximately equally sized sub-ROIs (<xref rid="R47" ref-type="bibr">Mamashli et al., 2019a</xref>). The purpose of this procedure was to increase the spatial specificity of our subsequent analyses of spatio-spectrotemporal WM activation patterns, as well as to deal with potential signal cancellations due to the sulcus geometry (<xref rid="R47" ref-type="bibr">Mamashli et al., 2019a</xref>). Furthermore, dividing each ROI into sub-ROI approach would allow us to account for the sensitivity of different parts of STC to different spectrotemporal properties (<xref rid="R67" ref-type="bibr">Schönwiesner and Zatorre, 2009</xref>) and testing our hypothesis of sound content-specific representation in the STC-ROI sub-regional phase-synchronization patterns.</p>
+                </sec>
+                <sec id="S26">
+                  <title>Sub-ROI time series extraction</title>
+                  <p id="P43">Epochs were extracted for all vertices within each sub-ROI using inverse operator. The time series were averaged across the vertices within every sub-ROI, with the waveform signs of sources aligned on the basis of surface-normal orientations to avoid phase cancellations. This results in a two-dimensional (2D) time-series matrix of epochs by time for each sub-ROI (<xref rid="R46" ref-type="bibr">Mamashli et al., 2018</xref>, <xref rid="R47" ref-type="bibr">2019a</xref>).</p>
+                </sec>
+                <sec id="S27">
+                  <title>Time-frequency decomposition</title>
+                  <p id="P44">The 2D time series was convolved with a dictionary of complex Morlet wavelets (each spanning seven cycles), resulting in three-dimensional complex spectra epoch-time-frequency matrix: <inline-formula><mml:math display="inline" id="M2"><mml:mrow><mml:msub><mml:mi>S</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>,</mml:mo><mml:mi>f</mml:mi><mml:mo>)</mml:mo><mml:mo>∈</mml:mo><mml:msup><mml:mi mathvariant="double-struck">R</mml:mi><mml:mrow><mml:mi>K</mml:mi><mml:mspace width="thinmathspace"/><mml:mo>×</mml:mo><mml:mspace width="thinmathspace"/><mml:mi>T</mml:mi><mml:mo>×</mml:mo><mml:mspace width="thinmathspace"/><mml:mi>F</mml:mi></mml:mrow></mml:msup></mml:mrow></mml:math></inline-formula>, <italic>K</italic> is number of epochs, <italic>T</italic> is time points and <italic>F</italic> is frequency bins.</p>
+                </sec>
+                <sec id="S28">
+                  <title>Functional connectivity computation</title>
+                  <p id="P45">The coherence between each sub-ROI pair (<italic>I<sub>i</sub>, J<sub>j</sub></italic>) in <italic>ROI<sub>I</sub></italic> and <italic>ROI</italic><sub><italic>J</italic></sub> (<italic>I</italic> = 1, 2 and <italic>J</italic> = 1, …, 6), was computed for all frequencies between 3 Hz and 120 Hz across each 1/4<sup>th</sup> of the total epochs. Functional connectivity was estimated for all intra-hemispheric connections with right STC and left STC (<italic>I</italic> = 1, 2): In summary, we had 6 STC-ROI connections in right hemisphere and 6 STC-ROI connections in left hemisphere. We used the imaginary part of the coherence (ImCoh) to minimize spurious connectivity due to field spread effect (<xref rid="R56" ref-type="bibr">Nolte et al., 2004</xref>). To maintain a constant signal-to-noise ratio across conditions, the number of epochs per condition per participant was fixed at the minimum number of accepted epochs that we had for each condition and participant. The connectivity analysis was not done for the impulse sound responses, as the impulse sound was present only in 50% of the epochs, which rendered the number of epochs too small to provide a sufficient signal to noise ratio of the coherence estimation.</p>
+                </sec>
+                <sec id="S29">
+                  <title>Power computation</title>
+                  <list list-type="alpha-upper" id="L4">
+                    <list-item>
+                      <p id="P46">MVPA analysis: Power spectrum (no temporal resolution) was estimated using multi-taper approach implemented for single epochs in MNE-Python software from 3 to 120 Hz for each sub-ROI. For each subject, the minimum number of epochs across conditions was considered to control for signal to noise ratio across conditions. Power spectrum was averaged into four groups for each condition. This allowed for four-fold cross validation in the subsequent multivariate pattern analysis (MVPA).</p>
+                    </list-item>
+                    <list-item>
+                      <p id="P47">Power variation during maintenance: Temporally resolved power values were averaged across 6-ripple velocity memorization during maintenance. Averaged power changes in the post stimulus interval (0 to 2 s) were estimated as relative change from the baseline interval (−400 to −200ms). Power values were averaged within each of the five studied frequency bands.</p>
+                    </list-item>
+                  </list>
+                </sec>
+                <sec id="S30">
+                  <title>Machine learning analysis</title>
+                  <p id="P48">MVPA have been successfully used to decode neural activity using MEG signal patterns (<xref rid="R30" ref-type="bibr">Haxby et al., 2014</xref>; <xref rid="R38" ref-type="bibr">King and Dehaene, 2014</xref>; <xref rid="R53" ref-type="bibr">Mohsenzadeh et al., 2018</xref>). We used MVPA to decode the six ripple sounds classes from MEG signal patterns during WM processing. Following our hypothesis, we used STC-ROI connectivity patterns and sub-regional power pattern within each ROI as our features.</p>
+                  <list list-type="alpha-upper" id="L6">
+                    <list-item>
+                      <p id="P49">STC-ROI Connectivity Pattern: Connectivity pattern was extracted for both WM maintenance period and WM encoding period separately. In WM maintenance, we considered two time windows: early (0.5 to 1.25 s) and late (1.25 – 2 s) to allow us to investigate the stability of connectivity-based WM coding across the maintenance period. ImCoh values between each sub-ROI pair were averaged within each time window separately in each frequency band. In WM encoding ImCoh were averaged from 0-1 s. The frequency range used for each frequency bands were as follows: Theta: 3-7 Hz, Alpha: 8-12 Hz, Beta: 13-30 Hz, Low Gamma: 31-60 Hz and High Gamma: 61-120 Hz (<xref rid="F2" ref-type="fig">Figure 2A</xref>). The STC-to-ROI connectivity matrix consisted of <bold><italic>N</italic><sub><italic>STC</italic></sub>×<italic>N</italic><sub><italic>ROI</italic></sub></bold>, (<italic><bold>N</bold></italic><sub><italic><bold>STC</bold></italic></sub>: Number of sub-ROIs in STC, <italic><bold>N</bold></italic><sub><italic><bold>ROI</bold></italic></sub>: Number of sub-ROIs in ROI) sub-ROI pair connections, giving <bold><italic>N</italic><sub><italic>STC</italic></sub>×<italic>N</italic><sub><italic>ROI</italic></sub></bold> = <italic><bold>T</bold></italic> features for each frequency band (<xref rid="F2" ref-type="fig">Figure 2B</xref>). The number of sub-ROIs in left and right STC were <italic><bold>N</bold></italic><sub><italic><bold>left STC</bold></italic></sub> = <bold>12</bold> and <italic><bold>N</bold></italic><sub><italic><bold>right STC</bold></italic></sub> = <bold>13</bold> respectively. The numbers of sub-ROIs in other ROIs are in <xref rid="SD1" ref-type="supplementary-material">Table S1</xref>. We used support vector machine (SVM) implemented in libsvm (<xref rid="R8" ref-type="bibr">Chang and Lin, 2011</xref>) and provided in the COSMOMVPA package (<ext-link ext-link-type="uri" xlink:href="http://www.cosmomvpa.org/">http://www.cosmomvpa.org/</ext-link>) (<xref rid="R57" ref-type="bibr">Oosterhof et al., 2016</xref>) in MATLAB. SVM is widely used in comparable neuroimaging studies because of its suitability for analyses with relatively small number of samples (&lt; 10,000). Another advantage of linear SVM over other suitable classifiers, such as linear discriminant analysis, is the regularization parameter (known as C in the equation), which helps to adjust or penalize for the large number of features when estimating the cost function in the optimization process (<xref rid="R8" ref-type="bibr">Chang and Lin, 2011</xref>). SVM can be described as a hyperplane that separates the classes as best as possible. Specifically, we trained a SVM classifier with linear kernel and cost equal to one (<italic><bold>C</bold></italic> = <bold>1</bold>). To increase the impact of the analysis to larger population, we merged the data from all subjects together and performed the classification across the subjects. In total, we had <bold>306×<italic>T</italic></bold> dataset for training and tested on <bold>102×<italic>T</italic></bold> dataset and did cross validation by permuting the whole data 100 times and replicating the classification process. Accuracy of the classifier as performance measures was averaged across 100 cross-validations. We also looked at the confusion matrix that was averaged across 100 cross-validation. This process was done for each STC-ROI connection and each frequency band. Therefore, we performed 60 (5 frequency bands X 12 connections) classifications procedure.</p>
+                    </list-item>
+                    <list-item>
+                      <p id="P50">ROI Power Pattern: We extracted sub-regional power pattern in WM encoding and WM maintenance separately. We used frequency specific power pattern within each frequency band (theta, alpha, beta, low gamma, and high gamma) in each ROI to decode the relevant ripple velocity class (out of six). The frequencies were selected logarithmically between 3 to 120 Hz with total 73 frequency bins. Therefore, there were <bold><italic>N</italic>×<italic>M</italic></bold> = <italic><bold>H</bold></italic> features (<italic><bold>N</bold></italic> number of sub-ROI within each ROI and M frequency bins within frequency band, <italic><bold>M</bold></italic> = 5 in theta and alpha, <italic><bold>M</bold></italic> = 18 in beta, <italic><bold>M</bold></italic> = 20 in low gamma and <italic><bold>M</bold></italic> = 21 in high gamma). Power values within each sub-ROI were averaged across each 1/4<sup>th</sup> of the epochs for each condition (<xref rid="F5" ref-type="fig">Figure 5a</xref>) that allows four-fold cross validation (trained on <bold>18×<italic>H</italic></bold> data and tested in <bold>6×<italic>H</italic></bold> data, repeated 4 times) within each subject. The classifier was SVM with a “radial basis function” kernel as implemented in scikit-learn (<xref rid="R59" ref-type="bibr">Pedregosa et al., 2011</xref>) with default parameters; C = 1 and gamma is <inline-formula><mml:math display="inline" id="M3"><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:mo>{</mml:mo><mml:mi>H</mml:mi><mml:mo>×</mml:mo><mml:msup><mml:mi>σ</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mo>(</mml:mo><mml:mi mathvariant="bold">P</mml:mi><mml:mo>)</mml:mo><mml:mo>}</mml:mo></mml:mrow></mml:mfrac></mml:math></inline-formula>, in which <bold>P</bold> stands for power. The idea for this analysis was to (i) understand the effect of impulse sound in auditory cortex. Thus, we focused on the bilateral STC frequency specific power pattern and compared the decoding accuracies during the last 1.5 s of maintenance, across the trials with and without the impulse sound. (ii) Identify potential confounding effects in the MVPA connectivity analysis (<xref rid="R43" ref-type="bibr">Lowet et al., 2016</xref>) tested across all ROIs.</p>
+                    </list-item>
+                    <list-item>
+                      <p id="P51">Cortical Activation Temporal Decoding: We used the time course activation within each vertex in the whole cortex for decoding the represented ripple velocity during WM encoding and maintenance (<xref rid="SD1" ref-type="supplementary-material">Figure S6</xref>). We also compared the time-course decoding accuracies during the last 1.5 s of maintenance, across the trials with and without the impulse sound. We used the same time interval as the connectivity in both WM maintenance (0.5-2 s) and encoding (0-1 s) data. The data were band pass filtered from 0.5-12 Hz. During WM encoding, we had 500 samples and during maintenance 750 samples data both before and after impulse sound. We used principal component analysis (PCA) to reduce the number of temporal features from 750 and 500 time points to 100 principal components that explained 99% of the variance of the data. The input data to the classifier was <bold><italic>N</italic><sub><italic>trials</italic></sub>×100</bold> principal components for each subject. SVM classifier with radial basis function kernel was used with default value of C = 1, gamma = <inline-formula><mml:math display="inline" id="M4"><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:mo>{</mml:mo><mml:mi>H</mml:mi><mml:mo>×</mml:mo><mml:msup><mml:mi>σ</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mo>(</mml:mo><mml:mi mathvariant="bold">PC</mml:mi><mml:mo>)</mml:mo><mml:mo>}</mml:mo></mml:mrow></mml:mfrac></mml:math></inline-formula>, in which <bold>PC</bold> is the principal components, and 10-fold cross validations. We used equal number of trials across the conditions within each subject.</p>
+                    </list-item>
+                  </list>
+                </sec>
+                <sec id="S31">
+                  <title>Similarity pattern between WM encoding and maintenance</title>
+                  <p id="P52">MVPA STC-ROI Connectivity pattern: To test whether there were similarities in WM encoding and maintenance, we used a multivariate approach. We tested whether the connectivity pattern of the 6-ripple velocity memorized in “WM encoding” is able to predict the ripple velocity class in “WM maintenance.” To this end, we trained a linear SVM model with WM encoding connectivity pattern as features and tested with WM maintenance connectivity pattern with 4-fold cross validation and non-overlapping runs, as implemented across all connections and all frequency bands within each subject.</p>
+                </sec>
+                <sec id="S32">
+                  <title>Behavioral relevance of functional connectivity during WM maintenance</title>
+                  <p id="P53">In previous studies, direct correlations between MVPA decoding accuracy and behavioral WM performance have often been relatively scarce (<xref rid="R11" ref-type="bibr">Christophel et al., 2018</xref>; <xref rid="R39" ref-type="bibr">Kumar et al., 2016</xref>; <xref rid="R79" ref-type="bibr">Uluç et al., 2018</xref>), or they have emerged only in simpler tasks than that used in the present study (<xref rid="R3" ref-type="bibr">Bettencourt and Xu, 2016</xref>; <xref rid="R18" ref-type="bibr">Ester et al., 2013</xref>). These difficulties in finding direct correlations between MVPA and behavioral WM measures may stem from both cognitive (the additional contribution of recall/matching, decision making processes) and neuroimaging signal-processing (e.g., individual variable SNR) confounds. An inherent property of our between-subject connectivity-based SVM analysis, further, is that it outputs only group-level decoding accuracies, which limits correlation analyses to the variability of behavioral performance. Here, to examine the behavioral relevance of our connectivity-based measures, we therefore adapted a different strategy: The relationship between each subject’s proportion correct responses and functional connectivity patters was analyzed during the early (0.5 to 1.25 s) and late (1.25 – 2 s) maintenance time windows using a support vector regression (SVR) implemented in libsvm (<xref rid="R8" ref-type="bibr">Chang and Lin, 2011</xref>) and provided in the COSMOMVPA package (<ext-link ext-link-type="uri" xlink:href="http://www.cosmomvpa.org/">http://www.cosmomvpa.org/</ext-link>) in MATLAB.</p>
+                  <p id="P54">Specifically, ImCoh values between each sub-ROI pair were averaged within each time window separately in the same frequency ranges that were utilized in the content-decoding analysis, including Theta (3-7 Hz), Alpha (8-12 Hz), Beta (13-30 Hz), Low Gamma (31-60 Hz), and High Gamma (61-120 Hz). Each subjects STC-to-ROI connectivity matrix consisted of <italic>N</italic><sub><italic>STC</italic></sub>×<italic>N</italic><sub><italic>ROI</italic></sub> sub-ROI pair connections (<italic>N</italic><sub><italic>STC</italic></sub> is the number of sub-ROIs in STC, <italic>N</italic><sub><italic>ROI</italic></sub> refers to those in the other ROI; see <xref rid="SD1" ref-type="supplementary-material">Table S1</xref>) giving <italic>N</italic><sub><italic>STC</italic></sub>×<italic>N</italic><sub><italic>ROI</italic></sub> = <italic>T</italic> features for each of the four subsamples and frequency band. The run-specific sub-ROI pair connectivity matrices were concatenated across subjects: The initial input data to our SVR, which used a linear kernel and cost equal to one (<italic>C</italic> = 1)), thus was (<italic>N</italic><sub><italic>runs</italic></sub>×<italic>N</italic><sub><italic>subjects</italic></sub>×<italic>T</italic> = 68×<italic>T</italic>. However, in each of our four cross-validation folds, the 51×<italic>T</italic> initial training set was subjected to a principal component analysis (PCA) to reduce its connectivity features to the number of principal components (PC) that explained 95% of the variance of the data. The resulting PCA coefficients were, subsequently, used to multiply the remaining test data, to yield a matching <italic>N</italic><sub><italic>PC</italic></sub> of features across the 17 subjects having a sufficient number of epochs for the connectivity analysis. The prediction accuracy was defined based on the root mean square error of the predicted versus the actual proportion correct values (RMSE).</p>
+                </sec>
+              </sec>
+              <sec id="S33">
+                <title>QUANTIFICATION AND STATISTICAL ANALYSIS</title>
+                <list list-type="alpha-upper" id="L8">
+                  <list-item>
+                    <p id="P55">MVPA Connectivity analysis: We used nonparametric permutation approach to test the significance of the accuracy values. First, we created 500 unique permutations of the true labels of the classifier. A null distribution of the accuracy was generated using the training data with randomized item-content labels. This null distribution helped us determine the classification accuracies that emerge by chance with 6-classes. The null distribution was generated for each connection and frequency bands separately. To correct for multiple comparisons across all connections and frequency bands (total 60), we used maximum statistics. We took the maximum value of the null distribution across all 60 tests which provided a final null-distribution. To assign a p value for each connection, the original accuracy value (found from a classifier with true labels) was compared with this null-distribution.</p>
+                  </list-item>
+                  <list-item>
+                    <p id="P56">MVPA Power analysis: Similar to MVPA connectivity we followed a permutation approach. We generated a null distribution of accuracies with a classifier with randomized labels. We replicated this process for each subject and averaged the values. This was done separately for each frequency band. Lastly, we took the maximum across 5 frequency bands to correct for multiple comparisons. In addition, to compare decoding accuracies from with and without the impulse sound, we used LME modeling, as implemented using the MATLAB functions fitlme. The best fitting model was selected in a stepwise fashion by using likelihood ratio tests (compare.m): The complexity of the model was increased starting from the simplest possible model, which contained only the intercept and the random effect of subject identity, toward the full factorial model (containing all possible main effects and interactions) until we reached a point where no significant improvement was achieved. In addition to the random effect of subject identity and intercept, the LME analysis considered the fixed effects of Impulse Sound (impulse sound versus no impulse sound), the MEG Frequency Band (represented by each band’s center frequency) that was transformed by base-2 logarithm before the analysis. For the practical implementation, the accuracy values were rescaled by subtracting 1/6. We corrected for multiple comparisons by applying Bonferroni correction across 13 t statistics.</p>
+                  </list-item>
+                  <list-item>
+                    <p id="P57">Power variation during maintenance: threshold-free clustering was applied with one-sample t test as the test statistics and 500 permutations across 19 subjects.</p>
+                  </list-item>
+                  <list-item>
+                    <p id="P58">Cortical activation temporal decoding: To assess statistical significances, we used cluster-based statistics with 1,000 permutations, initial alpha value of 0.05 and one-sample t test as test statistics comparing the decoding accuracy against the chance level of 1/6 in whole cortex across all subjects (n = 19). Cluster-based statistics is a nonparametric, permutation-based method (<xref rid="R49" ref-type="bibr">Maris and Oostenveld, 2007</xref>) that inherently corrects for multiple comparisons. The cluster statistics was used to compare the decoding accuracy against the chance level during WM encoding, WM maintenance, and impulse sound response.</p>
+                  </list-item>
+                  <list-item>
+                    <p id="P59">Behavioral relevance of functional connectivity during WM maintenance: The RMSE values averaged across the four folds were compared to a null distribution, which was accumulated by repeating the same SVR procedure in 1000 permutations with training-set labels (i.e., proportion correct values) being randomly shuffled within each subsample. To manage the multiple comparisons problem, from each permutation, we selected the minimum RMSE across all sub-ROI frequency connectivity pairs, across the early and late time windows, to be entered into the null distribution. The alpha was set to p &lt; 0.05 (two tails): the sub-ROI frequency connectivity patterns whose RMSE value was smaller than in 97.5% of those in the combined null distribution during both the early and late time window were deemed as statistically significant predictors of the behavioral performance.</p>
+                  </list-item>
+                </list>
+              </sec>
+            </sec>
+            <sec sec-type="supplementary-material" id="SM1">
+              <title>Supplementary Material</title>
+              <supplementary-material content-type="local-data" id="SD1">
+                <label>1</label>
+                <media xlink:href="NIHMS1735642-supplement-1.pdf" orientation="portrait" id="d40e1321" position="anchor"/>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack id="S34">
+              <title>ACKNOWLEDGMENTS</title>
+              <p id="P60">This work was supported by NIH grants R01DC016915, R01DC016765, R01DC017991, 5R01NS104585, and P41EB015896. We thank Mary O’Hara, Larry White, Nao Matsuda, and Matthew Hibert, as well as Drs. Seppo Ahlfors, Işil Uluç, Thomas Witzel, and Bruce Rosen for their advice and support.</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="COI-statement" id="FN2">
+                <p id="P61">DECLARATION OF INTERESTS</p>
+                <p id="P62">The authors declare no competing interests.</p>
+              </fn>
+              <fn id="FN3">
+                <p id="P63">SUPPLEMENTAL INFORMATION</p>
+                <p id="P64">Supplemental information can be found online at <ext-link ext-link-type="doi" xlink:href="10.1016/j.celrep.2021.109566">https://doi.org/10.1016/j.celrep.2021.109566</ext-link>.</p>
+              </fn>
+            </fn-group>
+            <ref-list>
+              <title>REFERENCES</title>
+              <ref id="R1">
+                <mixed-citation publication-type="journal"><name><surname>Aboitiz</surname><given-names>F</given-names></name> (<year>2018</year>). <article-title>A Brain for Speech. Evolutionary Continuity in Primate and Human Auditory-Vocal Processing</article-title>. <source>Front. Neurosci</source>
+<volume>12</volume>, <fpage>174</fpage>.<pub-id pub-id-type="pmid">29636657</pub-id></mixed-citation>
+              </ref>
+              <ref id="R2">
+                <mixed-citation publication-type="journal"><name><surname>Barak</surname><given-names>O</given-names></name>, and <name><surname>Tsodyks</surname><given-names>M</given-names></name> (<year>2014</year>). <article-title>Working models of working memory</article-title>. <source>Curr. Opin. Neurobiol</source>
+<volume>25</volume>, <fpage>20</fpage>–<lpage>24</lpage>.<pub-id pub-id-type="pmid">24709596</pub-id></mixed-citation>
+              </ref>
+              <ref id="R3">
+                <mixed-citation publication-type="journal"><name><surname>Bettencourt</surname><given-names>KC</given-names></name>, and <name><surname>Xu</surname><given-names>Y</given-names></name> (<year>2016</year>). <article-title>Decoding the content of visual short-term memory under distraction in occipital and parietal areas</article-title>. <source>Nat. Neurosci</source>
+<volume>19</volume>, <fpage>150</fpage>–<lpage>157</lpage>.<pub-id pub-id-type="pmid">26595654</pub-id></mixed-citation>
+              </ref>
+              <ref id="R4">
+                <mixed-citation publication-type="journal"><name><surname>Bigelow</surname><given-names>J</given-names></name>, <name><surname>Rossi</surname><given-names>B</given-names></name>, and <name><surname>Poremba</surname><given-names>A</given-names></name> (<year>2014</year>). <article-title>Neural correlates of short-term memory in primate auditory cortex</article-title>. <source>Front. Neurosci</source>
+<volume>8</volume>, <fpage>250</fpage>.<pub-id pub-id-type="pmid">25177266</pub-id></mixed-citation>
+              </ref>
+              <ref id="R5">
+                <mixed-citation publication-type="journal"><name><surname>Buchsbaum</surname><given-names>BR</given-names></name>, <name><surname>Olsen</surname><given-names>RK</given-names></name>, <name><surname>Koch</surname><given-names>P</given-names></name>, and <name><surname>Berman</surname><given-names>KF</given-names></name> (<year>2005</year>). <article-title>Human dorsal and ventral auditory streams subserve rehearsal-based and echoic processes during verbal working memory</article-title>. <source>Neuron</source>
+<volume>48</volume>, <fpage>687</fpage>–<lpage>697</lpage>.<pub-id pub-id-type="pmid">16301183</pub-id></mixed-citation>
+              </ref>
+              <ref id="R6">
+                <mixed-citation publication-type="journal"><name><surname>Buschman</surname><given-names>TJ</given-names></name>, <name><surname>Denovellis</surname><given-names>EL</given-names></name>, <name><surname>Diogo</surname><given-names>C</given-names></name>, <name><surname>Bullock</surname><given-names>D</given-names></name>, and <name><surname>Miller</surname><given-names>EK</given-names></name> (<year>2012</year>). <article-title>Synchronous oscillatory neural ensembles for rules in the prefrontal cortex</article-title>. <source>Neuron</source>
+<volume>76</volume>, <fpage>838</fpage>–<lpage>846</lpage>.<pub-id pub-id-type="pmid">23177967</pub-id></mixed-citation>
+              </ref>
+              <ref id="R7">
+                <mixed-citation publication-type="journal"><name><surname>Buzsáki</surname><given-names>G</given-names></name>, and <name><surname>Schomburg</surname><given-names>EW</given-names></name> (<year>2015</year>). <article-title>What does gamma coherence tell us about inter-regional neural communication?</article-title>
+<source>Nat. Neurosci</source>
+<volume>18</volume>, <fpage>484</fpage>–<lpage>489</lpage>.<pub-id pub-id-type="pmid">25706474</pub-id></mixed-citation>
+              </ref>
+              <ref id="R8">
+                <mixed-citation publication-type="journal"><name><surname>Chang</surname><given-names>C-C</given-names></name>, and <name><surname>Lin</surname><given-names>C-J</given-names></name> (<year>2011</year>). <article-title>LIBSVM: a library for support vector machines</article-title>. <source>ACM Trans. Intell. Syst. Technol</source>
+<volume>2</volume>, <fpage>1</fpage>–<lpage>27</lpage>.</mixed-citation>
+              </ref>
+              <ref id="R9">
+                <mixed-citation publication-type="journal"><name><surname>Christophel</surname><given-names>TB</given-names></name>, <name><surname>Hebart</surname><given-names>MN</given-names></name>, and <name><surname>Haynes</surname><given-names>JD</given-names></name> (<year>2012</year>). <article-title>Decoding the contents of visual short-term memory from human visual and parietal cortex</article-title>. <source>J. Neurosci</source>
+<volume>32</volume>, <fpage>12983</fpage>–<lpage>12989</lpage>.<pub-id pub-id-type="pmid">22993415</pub-id></mixed-citation>
+              </ref>
+              <ref id="R10">
+                <mixed-citation publication-type="journal"><name><surname>Christophel</surname><given-names>TB</given-names></name>, <name><surname>Klink</surname><given-names>PC</given-names></name>, <name><surname>Spitzer</surname><given-names>B</given-names></name>, <name><surname>Roelfsema</surname><given-names>PR</given-names></name>, and <name><surname>Haynes</surname><given-names>JD</given-names></name> (<year>2017</year>). <article-title>The Distributed Nature of Working Memory</article-title>. <source>Trends Cogn. Sci</source>
+<volume>21</volume>, <fpage>111</fpage>–<lpage>124</lpage>.<pub-id pub-id-type="pmid">28063661</pub-id></mixed-citation>
+              </ref>
+              <ref id="R11">
+                <mixed-citation publication-type="journal"><name><surname>Christophel</surname><given-names>TB</given-names></name>, <name><surname>Allefeld</surname><given-names>C</given-names></name>, <name><surname>Endisch</surname><given-names>C</given-names></name>, and <name><surname>Haynes</surname><given-names>JD</given-names></name> (<year>2018</year>). <article-title>View-Independent Working Memory Representations of Artificial Shapes in Prefrontal and Posterior Regions of the Human Brain</article-title>. <source>Cereb. Cortex</source>
+<volume>28</volume>, <fpage>2146</fpage>–<lpage>2161</lpage>.<pub-id pub-id-type="pmid">28505235</pub-id></mixed-citation>
+              </ref>
+              <ref id="R12">
+                <mixed-citation publication-type="journal"><name><surname>Constantinidis</surname><given-names>C</given-names></name>, <name><surname>Funahashi</surname><given-names>S</given-names></name>, <name><surname>Lee</surname><given-names>D</given-names></name>, <name><surname>Murray</surname><given-names>JD</given-names></name>, <name><surname>Qi</surname><given-names>XL</given-names></name>, <name><surname>Wang</surname><given-names>M</given-names></name>, and <name><surname>Arnsten</surname><given-names>AFT</given-names></name> (<year>2018</year>). <article-title>Persistent Spiking Activity Underlies Working Memory</article-title>. <source>J. Neurosci</source>
+<volume>38</volume>, <fpage>7020</fpage>–<lpage>7028</lpage>.<pub-id pub-id-type="pmid">30089641</pub-id></mixed-citation>
+              </ref>
+              <ref id="R13">
+                <mixed-citation publication-type="journal"><name><surname>Crottaz-Herbette</surname><given-names>S</given-names></name>, <name><surname>Anagnoson</surname><given-names>RT</given-names></name>, and <name><surname>Menon</surname><given-names>V</given-names></name> (<year>2004</year>). <article-title>Modality effects in verbal working memory: differential prefrontal and parietal responses to auditory and visual stimuli</article-title>. <source>Neuroimage</source>
+<volume>21</volume>, <fpage>340</fpage>–<lpage>351</lpage>.<pub-id pub-id-type="pmid">14741672</pub-id></mixed-citation>
+              </ref>
+              <ref id="R14">
+                <mixed-citation publication-type="journal"><name><surname>Dale</surname><given-names>AM</given-names></name>, <name><surname>Fischl</surname><given-names>B</given-names></name>, and <name><surname>Sereno</surname><given-names>MI</given-names></name> (<year>1999</year>). <article-title>Cortical surface-based analysis. I. Segmentation and surface reconstruction</article-title>. <source>Neuroimage</source>
+<volume>9</volume>, <fpage>179</fpage>–<lpage>194</lpage>.<pub-id pub-id-type="pmid">9931268</pub-id></mixed-citation>
+              </ref>
+              <ref id="R15">
+                <mixed-citation publication-type="journal"><name><surname>Daume</surname><given-names>J</given-names></name>, <name><surname>Gruber</surname><given-names>T</given-names></name>, <name><surname>Engel</surname><given-names>AK</given-names></name>, and <name><surname>Friese</surname><given-names>U</given-names></name> (<year>2017</year>). <article-title>Phase-Amplitude Coupling and Long-Range Phase Synchronization Reveal Frontotemporal Interactions during Visual Working Memory</article-title>. <source>J. Neurosci</source>
+<volume>37</volume>, <fpage>313</fpage>–<lpage>322</lpage>.<pub-id pub-id-type="pmid">28077711</pub-id></mixed-citation>
+              </ref>
+              <ref id="R16">
+                <mixed-citation publication-type="journal"><name><surname>Desikan</surname><given-names>RS</given-names></name>, <name><surname>Ségonne</surname><given-names>F</given-names></name>, <name><surname>Fischl</surname><given-names>B</given-names></name>, <name><surname>Quinn</surname><given-names>BT</given-names></name>, <name><surname>Dickerson</surname><given-names>BC</given-names></name>, <name><surname>Blacker</surname><given-names>D</given-names></name>, <name><surname>Buckner</surname><given-names>RL</given-names></name>, <name><surname>Dale</surname><given-names>AM</given-names></name>, <name><surname>Maguire</surname><given-names>RP</given-names></name>, <name><surname>Hyman</surname><given-names>BT</given-names></name>, <etal/> (<year>2006</year>). <article-title>An automated labeling system for subdividing the human cerebral cortex on MRI scans into gyral based regions of interest</article-title>. <source>Neuroimage</source>
+<volume>31</volume>, <fpage>968</fpage>–<lpage>980</lpage>.<pub-id pub-id-type="pmid">16530430</pub-id></mixed-citation>
+              </ref>
+              <ref id="R17">
+                <mixed-citation publication-type="journal"><name><surname>Erickson</surname><given-names>MA</given-names></name>, <name><surname>Maramara</surname><given-names>LA</given-names></name>, and <name><surname>Lisman</surname><given-names>J</given-names></name> (<year>2010</year>). <article-title>A single brief burst induces GluR1-dependent associative short-term potentiation: a potential mechanism for short-term memory</article-title>. <source>J. Cogn. Neurosci</source>
+<volume>22</volume>, <fpage>2530</fpage>–<lpage>2540</lpage>.<pub-id pub-id-type="pmid">19925206</pub-id></mixed-citation>
+              </ref>
+              <ref id="R18">
+                <mixed-citation publication-type="journal"><name><surname>Ester</surname><given-names>EF</given-names></name>, <name><surname>Anderson</surname><given-names>DE</given-names></name>, <name><surname>Serences</surname><given-names>JT</given-names></name>, and <name><surname>Awh</surname><given-names>E</given-names></name> (<year>2013</year>). <article-title>A neural measure of precision in visual working memory</article-title>. <source>J. Cogn. Neurosci</source>
+<volume>25</volume>, <fpage>754</fpage>–<lpage>761</lpage>.<pub-id pub-id-type="pmid">23469889</pub-id></mixed-citation>
+              </ref>
+              <ref id="R19">
+                <mixed-citation publication-type="journal"><name><surname>Fischl</surname><given-names>B</given-names></name>, <name><surname>Sereno</surname><given-names>MI</given-names></name>, and <name><surname>Dale</surname><given-names>AM</given-names></name> (<year>1999</year>). <article-title>Cortical surface-based analysis. II: inflation, flattening, and a surface-based coordinate system</article-title>. <source>Neuroimage</source>
+<volume>9</volume>, <fpage>195</fpage>–<lpage>207</lpage>.<pub-id pub-id-type="pmid">9931269</pub-id></mixed-citation>
+              </ref>
+              <ref id="R20">
+                <mixed-citation publication-type="journal"><name><surname>Fries</surname><given-names>P</given-names></name> (<year>2005</year>). <article-title>A mechanism for cognitive dynamics: neuronal communication through neuronal coherence</article-title>. <source>Trends Cogn. Sci</source>
+<volume>9</volume>, <fpage>474</fpage>–<lpage>480</lpage>.<pub-id pub-id-type="pmid">16150631</pub-id></mixed-citation>
+              </ref>
+              <ref id="R21">
+                <mixed-citation publication-type="journal"><name><surname>Fries</surname><given-names>P</given-names></name>, <name><surname>Nikolić</surname><given-names>D</given-names></name>, and <name><surname>Singer</surname><given-names>W</given-names></name> (<year>2007</year>). <article-title>The gamma cycle</article-title>. <source>Trends Neurosci</source>. <volume>30</volume>, <fpage>309</fpage>–<lpage>316</lpage>.<pub-id pub-id-type="pmid">17555828</pub-id></mixed-citation>
+              </ref>
+              <ref id="R22">
+                <mixed-citation publication-type="journal"><name><surname>Fritz</surname><given-names>JB</given-names></name>, <name><surname>David</surname><given-names>SV</given-names></name>, <name><surname>Radtke-Schuller</surname><given-names>S</given-names></name>, <name><surname>Yin</surname><given-names>P</given-names></name>, and <name><surname>Shamma</surname><given-names>SA</given-names></name> (<year>2010</year>). <article-title>Adaptive, behaviorally gated, persistent encoding of task-relevant auditory information in ferret frontal cortex</article-title>. <source>Nat. Neurosci</source>
+<volume>13</volume>, <fpage>1011</fpage>–<lpage>1019</lpage>.<pub-id pub-id-type="pmid">20622871</pub-id></mixed-citation>
+              </ref>
+              <ref id="R23">
+                <mixed-citation publication-type="journal"><name><surname>Fuster</surname><given-names>JM</given-names></name>, and <name><surname>Alexander</surname><given-names>GE</given-names></name> (<year>1971</year>). <article-title>Neuron activity related to short-term memory</article-title>. <source>Science</source>
+<volume>173</volume>, <fpage>652</fpage>–<lpage>654</lpage>.<pub-id pub-id-type="pmid">4998337</pub-id></mixed-citation>
+              </ref>
+              <ref id="R24">
+                <mixed-citation publication-type="journal"><name><surname>Goldman-Rakic</surname><given-names>PS</given-names></name> (<year>2011</year>). <article-title>Circuitry of Primate Prefrontal Cortex and Regulation of Behavior by Representational Memory</article-title>. <source>Compr. Physiol</source>
+<pub-id pub-id-type="doi">10.1002/cphy.cp010509</pub-id><comment>.</comment></mixed-citation>
+              </ref>
+              <ref id="R25">
+                <mixed-citation publication-type="journal"><name><surname>Gottlieb</surname><given-names>Y</given-names></name>, <name><surname>Vaadia</surname><given-names>E</given-names></name>, and <name><surname>Abeles</surname><given-names>M</given-names></name> (<year>1989</year>). <article-title>Single unit activity in the auditory cortex of a monkey performing a short term memory task</article-title>. <source>Exp. Brain Res</source>
+<volume>74</volume>, <fpage>139</fpage>–<lpage>148</lpage>.<pub-id pub-id-type="pmid">2924831</pub-id></mixed-citation>
+              </ref>
+              <ref id="R26">
+                <mixed-citation publication-type="journal"><name><surname>Gramfort</surname><given-names>A</given-names></name>, <name><surname>Luessi</surname><given-names>M</given-names></name>, <name><surname>Larson</surname><given-names>E</given-names></name>, <name><surname>Engemann</surname><given-names>DA</given-names></name>, <name><surname>Strohmeier</surname><given-names>D</given-names></name>, <name><surname>Brodbeck</surname><given-names>C</given-names></name>, <name><surname>Parkkonen</surname><given-names>L</given-names></name>, and <name><surname>Hämäläinen</surname><given-names>MS</given-names></name> (<year>2014</year>). <article-title>MNE software for processing MEG and EEG data</article-title>. <source>Neuroimage</source>
+<volume>86</volume>, <fpage>446</fpage>–<lpage>460</lpage>.<pub-id pub-id-type="pmid">24161808</pub-id></mixed-citation>
+              </ref>
+              <ref id="R27">
+                <mixed-citation publication-type="journal"><name><surname>Gregoriou</surname><given-names>GG</given-names></name>, <name><surname>Gotts</surname><given-names>SJ</given-names></name>, <name><surname>Zhou</surname><given-names>H</given-names></name>, and <name><surname>Desimone</surname><given-names>R</given-names></name> (<year>2009</year>). <article-title>High-frequency, long-range coupling between prefrontal and visual cortex during attention</article-title>. <source>Science</source>
+<volume>324</volume>, <fpage>1207</fpage>–<lpage>1210</lpage>.<pub-id pub-id-type="pmid">19478185</pub-id></mixed-citation>
+              </ref>
+              <ref id="R28">
+                <mixed-citation publication-type="journal"><name><surname>Grimault</surname><given-names>S</given-names></name>, <name><surname>Lefebvre</surname><given-names>C</given-names></name>, <name><surname>Vachon</surname><given-names>F</given-names></name>, <name><surname>Peretz</surname><given-names>I</given-names></name>, <name><surname>Zatorre</surname><given-names>R</given-names></name>, <name><surname>Robitaille</surname><given-names>N</given-names></name>, and <name><surname>Jolicoeur</surname><given-names>P</given-names></name> (<year>2009</year>). <article-title>Load-dependent brain activity related to acoustic short-term memory for pitch: magnetoencephalography and fMRI</article-title>. <source>Ann. N Y Acad. Sci</source>
+<volume>1169</volume>, <fpage>273</fpage>–<lpage>277</lpage>.<pub-id pub-id-type="pmid">19673792</pub-id></mixed-citation>
+              </ref>
+              <ref id="R29">
+                <mixed-citation publication-type="journal"><name><surname>Hamalainen</surname><given-names>M</given-names></name>, <name><surname>Hari</surname><given-names>R</given-names></name>, <name><surname>Ilmoniemi</surname><given-names>RJ</given-names></name>, <name><surname>Knuutila</surname><given-names>J</given-names></name>, and <name><surname>Lounasmaa</surname><given-names>OV</given-names></name> (<year>1993</year>). <article-title>Magnetoencephalography - Theory, Instrumentation, and Applications to Noninvasive Studies of the Working Human Brain</article-title>. <source>Rev. Mod. Phys</source>
+<volume>65</volume>, <fpage>413</fpage>–<lpage>497</lpage>.</mixed-citation>
+              </ref>
+              <ref id="R30">
+                <mixed-citation publication-type="journal"><name><surname>Haxby</surname><given-names>JV</given-names></name>, <name><surname>Connolly</surname><given-names>AC</given-names></name>, and <name><surname>Guntupalli</surname><given-names>JS</given-names></name> (<year>2014</year>). <article-title>Decoding neural representational spaces using multivariate pattern analysis</article-title>. <source>Annu. Rev. Neurosci</source>
+<volume>37</volume>, <fpage>435</fpage>–<lpage>56</lpage>.<pub-id pub-id-type="pmid">25002277</pub-id></mixed-citation>
+              </ref>
+              <ref id="R31">
+                <mixed-citation publication-type="journal"><name><surname>Howard</surname><given-names>MW</given-names></name>, <name><surname>Rizzuto</surname><given-names>DS</given-names></name>, <name><surname>Caplan</surname><given-names>JB</given-names></name>, <name><surname>Madsen</surname><given-names>JR</given-names></name>, <name><surname>Lisman</surname><given-names>J</given-names></name>, <name><surname>Aschenbrenner-Scheibe</surname><given-names>R</given-names></name>, <name><surname>Schulze-Bonhage</surname><given-names>A</given-names></name>, and <name><surname>Kahana</surname><given-names>MJ</given-names></name> (<year>2003</year>). <article-title>Gamma oscillations correlate with working memory load in humans</article-title>. <source>Cereb. Cortex</source>
+<volume>13</volume>, <fpage>1369</fpage>–<lpage>1374</lpage>.<pub-id pub-id-type="pmid">14615302</pub-id></mixed-citation>
+              </ref>
+              <ref id="R32">
+                <mixed-citation publication-type="journal"><name><surname>Huang</surname><given-names>S</given-names></name>, <name><surname>Seidman</surname><given-names>LJ</given-names></name>, <name><surname>Rossi</surname><given-names>S</given-names></name>, and <name><surname>Ahveninen</surname><given-names>J</given-names></name> (<year>2013</year>). <article-title>Distinct cortical networks activated by auditory attention and working memory load</article-title>. <source>Neuroimage</source>
+<volume>83</volume>, <fpage>1098</fpage>–<lpage>1108</lpage>.<pub-id pub-id-type="pmid">23921102</pub-id></mixed-citation>
+              </ref>
+              <ref id="R33">
+                <mixed-citation publication-type="journal"><name><surname>Huang</surname><given-names>Y</given-names></name>, <name><surname>Matysiak</surname><given-names>A</given-names></name>, <name><surname>Heil</surname><given-names>P</given-names></name>, <name><surname>König</surname><given-names>R</given-names></name>, and <name><surname>Brosch</surname><given-names>M</given-names></name> (<year>2016</year>). <article-title>Persistent neural activity in auditory cortex is related to auditory working memory in humans and nonhuman primates</article-title>. <source>eLife</source>
+<volume>5</volume>, <fpage>e15441</fpage>.<pub-id pub-id-type="pmid">27438411</pub-id></mixed-citation>
+              </ref>
+              <ref id="R34">
+                <mixed-citation publication-type="journal"><name><surname>Kaiser</surname><given-names>J</given-names></name>, <name><surname>Ripper</surname><given-names>B</given-names></name>, <name><surname>Birbaumer</surname><given-names>N</given-names></name>, and <name><surname>Lutzenberger</surname><given-names>W</given-names></name> (<year>2003</year>). <article-title>Dynamics of gamma-band activity in human magnetoencephalogram during auditory pattern working memory</article-title>. <source>Neuroimage</source>
+<volume>20</volume>, <fpage>816</fpage>–<lpage>827</lpage>.<pub-id pub-id-type="pmid">14568454</pub-id></mixed-citation>
+              </ref>
+              <ref id="R35">
+                <mixed-citation publication-type="journal"><name><surname>Kaiser</surname><given-names>J</given-names></name>, <name><surname>Heidegger</surname><given-names>T</given-names></name>, <name><surname>Wibral</surname><given-names>M</given-names></name>, <name><surname>Altmann</surname><given-names>CF</given-names></name>, and <name><surname>Lutzenberger</surname><given-names>W</given-names></name> (<year>2008</year>). <article-title>Distinct gamma-band components reflect the short-term memory maintenance of different sound lateralization angles</article-title>. <source>Cereb. Cortex</source>
+<volume>18</volume>, <fpage>2286</fpage>–<lpage>2295</lpage>.<pub-id pub-id-type="pmid">18252742</pub-id></mixed-citation>
+              </ref>
+              <ref id="R36">
+                <mixed-citation publication-type="journal"><name><surname>Kaiser</surname><given-names>J</given-names></name>, <name><surname>Lutzenberger</surname><given-names>W</given-names></name>, <name><surname>Decker</surname><given-names>C</given-names></name>, <name><surname>Wibral</surname><given-names>M</given-names></name>, and <name><surname>Rahm</surname><given-names>B</given-names></name> (<year>2009</year>). <article-title>Task- and performance-related modulation of domain-specific auditory short-term memory representations in the gamma-band</article-title>. <source>Neuroimage</source>
+<volume>46</volume>, <fpage>1127</fpage>–<lpage>1136</lpage>.<pub-id pub-id-type="pmid">19289171</pub-id></mixed-citation>
+              </ref>
+              <ref id="R37">
+                <mixed-citation publication-type="journal"><name><surname>Khan</surname><given-names>S</given-names></name>, <name><surname>Hashmi</surname><given-names>JA</given-names></name>, <name><surname>Mamashli</surname><given-names>F</given-names></name>, <name><surname>Michmizos</surname><given-names>K</given-names></name>, <name><surname>Kitzbichler</surname><given-names>MG</given-names></name>, <name><surname>Bharadwaj</surname><given-names>H</given-names></name>, <name><surname>Bekhti</surname><given-names>Y</given-names></name>, <name><surname>Ganesan</surname><given-names>S</given-names></name>, <name><surname>Garel</surname><given-names>KA</given-names></name>, <name><surname>Whitfield-Gabrieli</surname><given-names>S</given-names></name>, <etal/> (<year>2018</year>). <article-title>Maturation trajectories of cortical resting-state networks depend on the mediating frequency band</article-title>. <source>Neuroimage</source>
+<volume>174</volume>, <fpage>57</fpage>–<lpage>68</lpage>.<pub-id pub-id-type="pmid">29462724</pub-id></mixed-citation>
+              </ref>
+              <ref id="R38">
+                <mixed-citation publication-type="journal"><name><surname>King</surname><given-names>JR</given-names></name>, and <name><surname>Dehaene</surname><given-names>S</given-names></name> (<year>2014</year>). <article-title>Characterizing the dynamics of mental representations: the temporal generalization method</article-title>. <source>Trends Cogn. Sci</source>
+<volume>18</volume>, <fpage>203</fpage>–<lpage>210</lpage>.<pub-id pub-id-type="pmid">24593982</pub-id></mixed-citation>
+              </ref>
+              <ref id="R39">
+                <mixed-citation publication-type="journal"><name><surname>Kumar</surname><given-names>S</given-names></name>, <name><surname>Joseph</surname><given-names>S</given-names></name>, <name><surname>Gander</surname><given-names>PE</given-names></name>, <name><surname>Barascud</surname><given-names>N</given-names></name>, <name><surname>Halpern</surname><given-names>AR</given-names></name>, and <name><surname>Griffiths</surname><given-names>TD</given-names></name> (<year>2016</year>). <article-title>A Brain System for Auditory Working Memory</article-title>. <source>J. Neurosci</source>
+<volume>36</volume>, <fpage>4492</fpage>–<lpage>4505</lpage>.<pub-id pub-id-type="pmid">27098693</pub-id></mixed-citation>
+              </ref>
+              <ref id="R40">
+                <mixed-citation publication-type="journal"><name><surname>Kumar</surname><given-names>S</given-names></name>, <name><surname>Gander</surname><given-names>PE</given-names></name>, <name><surname>Berger</surname><given-names>JI</given-names></name>, <name><surname>Billig</surname><given-names>AJ</given-names></name>, <name><surname>Nourski</surname><given-names>KV</given-names></name>, <name><surname>Oya</surname><given-names>H</given-names></name>, <name><surname>Kawasaki</surname><given-names>H</given-names></name>, <name><surname>Howard</surname><given-names>MA</given-names><suffix>3rd</suffix></name>, and <name><surname>Griffiths</surname><given-names>TD</given-names></name> (<year>2021</year>). <article-title>Oscillatory correlates of auditory working memory examined with human electrocorticography</article-title>. <source>Neuropsychologia</source>
+<volume>150</volume>, <fpage>107691</fpage>.<pub-id pub-id-type="pmid">33227284</pub-id></mixed-citation>
+              </ref>
+              <ref id="R41">
+                <mixed-citation publication-type="journal"><name><surname>Lin</surname><given-names>FH</given-names></name>, <name><surname>Belliveau</surname><given-names>JW</given-names></name>, <name><surname>Dale</surname><given-names>AM</given-names></name>, and <name><surname>Hämäläinen</surname><given-names>MS</given-names></name> (<year>2006</year>). <article-title>Distributed current estimates using cortical orientation constraints</article-title>. <source>Hum. Brain Mapp</source>
+<volume>27</volume>, <fpage>1</fpage>–<lpage>13</lpage>.<pub-id pub-id-type="pmid">16082624</pub-id></mixed-citation>
+              </ref>
+              <ref id="R42">
+                <mixed-citation publication-type="journal"><name><surname>Linke</surname><given-names>AC</given-names></name>, <name><surname>Vicente-Grabovetsky</surname><given-names>A</given-names></name>, and <name><surname>Cusack</surname><given-names>R</given-names></name> (<year>2011</year>). <article-title>Stimulus-specific suppression preserves information in auditory short-term memory</article-title>. <source>Proc. Natl. Acad. Sci. USA</source>
+<volume>108</volume>, <fpage>12961</fpage>–<lpage>12966</lpage>.<pub-id pub-id-type="pmid">21768383</pub-id></mixed-citation>
+              </ref>
+              <ref id="R43">
+                <mixed-citation publication-type="journal"><name><surname>Lowet</surname><given-names>E</given-names></name>, <name><surname>Roberts</surname><given-names>MJ</given-names></name>, <name><surname>Bonizzi</surname><given-names>P</given-names></name>, <name><surname>Karel</surname><given-names>J</given-names></name>, and <name><surname>De Weerd</surname><given-names>P</given-names></name> (<year>2016</year>). <article-title>Quantifying Neural Oscillatory Synchronization: A Comparison between Spectral Coherence and Phase-Locking Value Approaches</article-title>. <source>PLoS ONE</source>
+<volume>11</volume>, <fpage>e0146443</fpage>.<pub-id pub-id-type="pmid">26745498</pub-id></mixed-citation>
+              </ref>
+              <ref id="R44">
+                <mixed-citation publication-type="journal"><name><surname>Lundqvist</surname><given-names>M</given-names></name>, <name><surname>Rose</surname><given-names>J</given-names></name>, <name><surname>Herman</surname><given-names>P</given-names></name>, <name><surname>Brincat</surname><given-names>SL</given-names></name>, <name><surname>Buschman</surname><given-names>TJ</given-names></name>, and <name><surname>Miller</surname><given-names>EK</given-names></name> (<year>2016</year>). <article-title>Gamma and Beta Bursts Underlie Working Memory</article-title>. <source>Neuron</source>
+<volume>90</volume>, <fpage>152</fpage>–<lpage>164</lpage>.<pub-id pub-id-type="pmid">26996084</pub-id></mixed-citation>
+              </ref>
+              <ref id="R45">
+                <mixed-citation publication-type="journal"><name><surname>Lutzenberger</surname><given-names>W</given-names></name>, <name><surname>Ripper</surname><given-names>B</given-names></name>, <name><surname>Busse</surname><given-names>L</given-names></name>, <name><surname>Birbaumer</surname><given-names>N</given-names></name>, and <name><surname>Kaiser</surname><given-names>J</given-names></name> (<year>2002</year>). <article-title>Dynamics of gamma-band activity during an audiospatial working memory task in humans</article-title>. <source>J. Neurosci</source>
+<volume>22</volume>, <fpage>5630</fpage>–<lpage>5638</lpage>.<pub-id pub-id-type="pmid">12097514</pub-id></mixed-citation>
+              </ref>
+              <ref id="R46">
+                <mixed-citation publication-type="journal"><name><surname>Mamashli</surname><given-names>F</given-names></name>, <name><surname>Khan</surname><given-names>S</given-names></name>, <name><surname>Bharadwaj</surname><given-names>H</given-names></name>, <name><surname>Losh</surname><given-names>A</given-names></name>, <name><surname>Pawlyszyn</surname><given-names>SM</given-names></name>, <name><surname>Hämäläinen</surname><given-names>MS</given-names></name>, and <name><surname>Kenet</surname><given-names>T</given-names></name> (<year>2018</year>). <article-title>Maturational trajectories of local and long-range functional connectivity in autism during face processing</article-title>. <source>Hum. Brain Mapp</source>
+<volume>39</volume>, <fpage>4094</fpage>–<lpage>4104</lpage>.<pub-id pub-id-type="pmid">29947148</pub-id></mixed-citation>
+              </ref>
+              <ref id="R47">
+                <mixed-citation publication-type="journal"><name><surname>Mamashli</surname><given-names>F</given-names></name>, <name><surname>Hämäläinen</surname><given-names>M</given-names></name>, <name><surname>Ahveninen</surname><given-names>J</given-names></name>, <name><surname>Kenet</surname><given-names>T</given-names></name>, and <name><surname>Khan</surname><given-names>S</given-names></name> (<year>2019a</year>). <article-title>Permutation Statistics for Connectivity Analysis between Regions of Interest in EEG and MEG Data</article-title>. <source>Sci. Rep</source>
+<volume>9</volume>, <fpage>7942</fpage>.<pub-id pub-id-type="pmid">31138854</pub-id></mixed-citation>
+              </ref>
+              <ref id="R48">
+                <mixed-citation publication-type="journal"><name><surname>Mamashli</surname><given-names>F</given-names></name>, <name><surname>Khan</surname><given-names>S</given-names></name>, <name><surname>Obleser</surname><given-names>J</given-names></name>, <name><surname>Friederici</surname><given-names>AD</given-names></name>, and <name><surname>Maess</surname><given-names>B</given-names></name> (<year>2019b</year>). <article-title>Oscillatory dynamics of cortical functional connections in semantic prediction</article-title>. <source>Hum. Brain Mapp</source>
+<volume>40</volume>, <fpage>1856</fpage>–<lpage>1866</lpage>.<pub-id pub-id-type="pmid">30537025</pub-id></mixed-citation>
+              </ref>
+              <ref id="R49">
+                <mixed-citation publication-type="journal"><name><surname>Maris</surname><given-names>E</given-names></name>, and <name><surname>Oostenveld</surname><given-names>R</given-names></name> (<year>2007</year>). <article-title>Nonparametric statistical testing of EEG- and MEG-data</article-title>. <source>J. Neurosci. Methods</source>
+<volume>164</volume>, <fpage>177</fpage>–<lpage>190</lpage>.<pub-id pub-id-type="pmid">17517438</pub-id></mixed-citation>
+              </ref>
+              <ref id="R50">
+                <mixed-citation publication-type="journal"><name><surname>Massoudi</surname><given-names>R</given-names></name>, <name><surname>Van Wanrooij</surname><given-names>MM</given-names></name>, <name><surname>Versnel</surname><given-names>H</given-names></name>, and <name><surname>Van Opstal</surname><given-names>AJ</given-names></name> (<year>2015</year>). <article-title>Spectrotemporal response properties of core auditory cortex neurons in awake monkey</article-title>. <source>PLoS ONE</source>
+<volume>10</volume>, <fpage>e0116118</fpage>.<pub-id pub-id-type="pmid">25680187</pub-id></mixed-citation>
+              </ref>
+              <ref id="R51">
+                <mixed-citation publication-type="journal"><name><surname>Medendorp</surname><given-names>WP</given-names></name>, <name><surname>Kramer</surname><given-names>GF</given-names></name>, <name><surname>Jensen</surname><given-names>O</given-names></name>, <name><surname>Oostenveld</surname><given-names>R</given-names></name>, <name><surname>Schoffelen</surname><given-names>JM</given-names></name>, and <name><surname>Fries</surname><given-names>P</given-names></name> (<year>2007</year>). <article-title>Oscillatory activity in human parietal and occipital cortex shows hemispheric lateralization and memory effects in a delayed double-step saccade task</article-title>. <source>Cereb. Cortex</source>
+<volume>17</volume>, <fpage>2364</fpage>–<lpage>2374</lpage>.<pub-id pub-id-type="pmid">17190968</pub-id></mixed-citation>
+              </ref>
+              <ref id="R52">
+                <mixed-citation publication-type="journal"><name><surname>Miller</surname><given-names>EK</given-names></name>, <name><surname>Lundqvist</surname><given-names>M</given-names></name>, and <name><surname>Bastos</surname><given-names>AM</given-names></name> (<year>2018</year>). <article-title>Working Memory 2.0</article-title>. <source>Neuron</source>
+<volume>100</volume>, <fpage>463</fpage>–<lpage>475</lpage>.<pub-id pub-id-type="pmid">30359609</pub-id></mixed-citation>
+              </ref>
+              <ref id="R53">
+                <mixed-citation publication-type="journal"><name><surname>Mohsenzadeh</surname><given-names>Y</given-names></name>, <name><surname>Qin</surname><given-names>S</given-names></name>, <name><surname>Cichy</surname><given-names>RM</given-names></name>, and <name><surname>Pantazis</surname><given-names>D</given-names></name> (<year>2018</year>). <article-title>Ultra-Rapid serial visual presentation reveals dynamics of feedforward and feedback processes in the ventral visual pathway</article-title>. <source>eLife</source>
+<volume>7</volume>, <fpage>e36329</fpage>.<pub-id pub-id-type="pmid">29927384</pub-id></mixed-citation>
+              </ref>
+              <ref id="R54">
+                <mixed-citation publication-type="journal"><name><surname>Mongillo</surname><given-names>G</given-names></name>, <name><surname>Barak</surname><given-names>O</given-names></name>, and <name><surname>Tsodyks</surname><given-names>M</given-names></name> (<year>2008</year>). <article-title>Synaptic theory of working memory</article-title>. <source>Science</source>
+<volume>319</volume>, <fpage>1543</fpage>–<lpage>1546</lpage>.<pub-id pub-id-type="pmid">18339943</pub-id></mixed-citation>
+              </ref>
+              <ref id="R55">
+                <mixed-citation publication-type="journal"><name><surname>Ng</surname><given-names>CW</given-names></name>, <name><surname>Plakke</surname><given-names>B</given-names></name>, and <name><surname>Poremba</surname><given-names>A</given-names></name> (<year>2014</year>). <article-title>Neural correlates of auditory recognition memory in the primate dorsal temporal pole</article-title>. <source>J. Neurophysiol</source>
+<volume>111</volume>, <fpage>455</fpage>–<lpage>469</lpage>.<pub-id pub-id-type="pmid">24198324</pub-id></mixed-citation>
+              </ref>
+              <ref id="R56">
+                <mixed-citation publication-type="journal"><name><surname>Nolte</surname><given-names>G</given-names></name>, <name><surname>Bai</surname><given-names>O</given-names></name>, <name><surname>Wheaton</surname><given-names>L</given-names></name>, <name><surname>Mari</surname><given-names>Z</given-names></name>, <name><surname>Vorbach</surname><given-names>S</given-names></name>, and <name><surname>Hallett</surname><given-names>M</given-names></name> (<year>2004</year>). <article-title>Identifying true brain interaction from EEG data using the imaginary part of coherency</article-title>. <source>Clin. Neurophysiol</source>
+<volume>115</volume>, <fpage>2292</fpage>–<lpage>2307</lpage>.<pub-id pub-id-type="pmid">15351371</pub-id></mixed-citation>
+              </ref>
+              <ref id="R57">
+                <mixed-citation publication-type="journal"><name><surname>Oosterhof</surname><given-names>NN</given-names></name>, <name><surname>Connolly</surname><given-names>AC</given-names></name>, and <name><surname>Haxby</surname><given-names>JV</given-names></name> (<year>2016</year>). <article-title>CoSMoMVPA: Multi-Modal Multivariate Pattern Analysis of Neuroimaging Data in Matlab/GNU Octave</article-title>. <source>Front. Neuroinform</source>
+<volume>10</volume>, <fpage>27</fpage>.<pub-id pub-id-type="pmid">27499741</pub-id></mixed-citation>
+              </ref>
+              <ref id="R58">
+                <mixed-citation publication-type="journal"><name><surname>Palva</surname><given-names>JM</given-names></name>, <name><surname>Monto</surname><given-names>S</given-names></name>, <name><surname>Kulashekhar</surname><given-names>S</given-names></name>, and <name><surname>Palva</surname><given-names>S</given-names></name> (<year>2010</year>). <article-title>Neuronal synchrony reveals working memory networks and predicts individual memory capacity</article-title>. <source>Proc. Natl. Acad. Sci. USA</source>
+<volume>107</volume>, <fpage>7580</fpage>–<lpage>7585</lpage>.<pub-id pub-id-type="pmid">20368447</pub-id></mixed-citation>
+              </ref>
+              <ref id="R59">
+                <mixed-citation publication-type="journal"><name><surname>Pedregosa</surname><given-names>F</given-names></name>, <name><surname>Varoquaux</surname><given-names>G</given-names></name>, <name><surname>Gramfort</surname><given-names>A</given-names></name>, <name><surname>Michel</surname><given-names>V</given-names></name>, and <name><surname>Thirion</surname><given-names>B</given-names></name> (<year>2011</year>). <article-title>Scikit-learn: Machine Learning in Python</article-title>. <source>J. Mach. Learn. Res</source>
+<volume>12</volume>, <fpage>2825</fpage>–<lpage>2830</lpage>.</mixed-citation>
+              </ref>
+              <ref id="R60">
+                <mixed-citation publication-type="journal"><name><surname>Postle</surname><given-names>BR</given-names></name> (<year>2006</year>). <article-title>Working memory as an emergent property of the mind and brain</article-title>. <source>Neuroscience</source>
+<volume>139</volume>, <fpage>23</fpage>–<lpage>38</lpage>.<pub-id pub-id-type="pmid">16324795</pub-id></mixed-citation>
+              </ref>
+              <ref id="R61">
+                <mixed-citation publication-type="journal"><name><surname>Rodriguez-Jimenez</surname><given-names>R</given-names></name>, <name><surname>Avila</surname><given-names>C</given-names></name>, <name><surname>Garcia-Navarro</surname><given-names>C</given-names></name>, <name><surname>Bagney</surname><given-names>A</given-names></name>, <name><surname>Aragon</surname><given-names>AM</given-names></name>, <name><surname>Ventura-Campos</surname><given-names>N</given-names></name>, <name><surname>Martinez-Gras</surname><given-names>I</given-names></name>, <name><surname>Forn</surname><given-names>C</given-names></name>, <name><surname>Ponce</surname><given-names>G</given-names></name>, <name><surname>Rubio</surname><given-names>G</given-names></name>, <etal/> (<year>2009</year>). <article-title>Differential dorsolateral prefrontal cortex activation during a verbal n-back task according to sensory modality</article-title>. <source>Behav. Brain Res</source>
+<volume>205</volume>, <fpage>299</fpage>–<lpage>302</lpage>.<pub-id pub-id-type="pmid">19712703</pub-id></mixed-citation>
+              </ref>
+              <ref id="R62">
+                <mixed-citation publication-type="journal"><name><surname>Rose</surname><given-names>NS</given-names></name>, <name><surname>LaRocque</surname><given-names>JJ</given-names></name>, <name><surname>Riggall</surname><given-names>AC</given-names></name>, <name><surname>Gosseries</surname><given-names>O</given-names></name>, <name><surname>Starrett</surname><given-names>MJ</given-names></name>, <name><surname>Meyering</surname><given-names>EE</given-names></name>, and <name><surname>Postle</surname><given-names>BR</given-names></name> (<year>2016</year>). <article-title>Reactivation of latent working memories with transcranial magnetic stimulation</article-title>. <source>Science</source>
+<volume>354</volume>, <fpage>1136</fpage>–<lpage>1139</lpage>.<pub-id pub-id-type="pmid">27934762</pub-id></mixed-citation>
+              </ref>
+              <ref id="R63">
+                <mixed-citation publication-type="journal"><name><surname>Roux</surname><given-names>F</given-names></name>, and <name><surname>Uhlhaas</surname><given-names>PJ</given-names></name> (<year>2014</year>). <article-title>Working memory and neural oscillations: α-γ versus θ-γ codes for distinct WM information?</article-title>
+<source>Trends Cogn. Sci</source>
+<volume>18</volume>, <fpage>16</fpage>–<lpage>25</lpage>.<pub-id pub-id-type="pmid">24268290</pub-id></mixed-citation>
+              </ref>
+              <ref id="R64">
+                <mixed-citation publication-type="journal"><name><surname>Roux</surname><given-names>F</given-names></name>, <name><surname>Wibral</surname><given-names>M</given-names></name>, <name><surname>Mohr</surname><given-names>HM</given-names></name>, <name><surname>Singer</surname><given-names>W</given-names></name>, and <name><surname>Uhlhaas</surname><given-names>PJ</given-names></name> (<year>2012</year>). <article-title>Gamma-band activity in human prefrontal cortex codes for the number of relevant items maintained in working memory</article-title>. <source>J. Neurosci</source>
+<volume>32</volume>, <fpage>12411</fpage>–<lpage>12420</lpage>.<pub-id pub-id-type="pmid">22956832</pub-id></mixed-citation>
+              </ref>
+              <ref id="R65">
+                <mixed-citation publication-type="journal"><name><surname>Salazar</surname><given-names>RF</given-names></name>, <name><surname>Dotson</surname><given-names>NM</given-names></name>, <name><surname>Bressler</surname><given-names>SL</given-names></name>, and <name><surname>Gray</surname><given-names>CM</given-names></name> (<year>2012</year>). <article-title>Content-specific fronto-parietal synchronization during visual working memory</article-title>. <source>Science</source>
+<volume>338</volume>, <fpage>1097</fpage>–<lpage>1100</lpage>.<pub-id pub-id-type="pmid">23118014</pub-id></mixed-citation>
+              </ref>
+              <ref id="R66">
+                <mixed-citation publication-type="journal"><name><surname>Sato</surname><given-names>J</given-names></name>, <name><surname>Mossad</surname><given-names>SI</given-names></name>, <name><surname>Wong</surname><given-names>SM</given-names></name>, <name><surname>Hunt</surname><given-names>BAE</given-names></name>, <name><surname>Dunkley</surname><given-names>BT</given-names></name>, <name><surname>Smith</surname><given-names>ML</given-names></name>, <name><surname>Urbain</surname><given-names>C</given-names></name>, and <name><surname>Taylor</surname><given-names>MJ</given-names></name> (<year>2018</year>). <article-title>Alpha keeps it together: alpha oscillatory synchrony underlies working memory maintenance in young children</article-title>. <source>Dev. Cogn. Neurosci</source>
+<volume>34</volume>, <fpage>114</fpage>–<lpage>123</lpage>.<pub-id pub-id-type="pmid">30336447</pub-id></mixed-citation>
+              </ref>
+              <ref id="R67">
+                <mixed-citation publication-type="journal"><name><surname>Schönwiesner</surname><given-names>M</given-names></name>, and <name><surname>Zatorre</surname><given-names>RJ</given-names></name> (<year>2009</year>). <article-title>Spectro-temporal modulation transfer function of single voxels in the human auditory cortex measured with high-resolution fMRI</article-title>. <source>Proc. Natl. Acad. Sci. USA</source>
+<volume>106</volume>, <fpage>14611</fpage>–<lpage>14616</lpage>.<pub-id pub-id-type="pmid">19667199</pub-id></mixed-citation>
+              </ref>
+              <ref id="R68">
+                <mixed-citation publication-type="journal"><name><surname>Scott</surname><given-names>BH</given-names></name>, and <name><surname>Mishkin</surname><given-names>M</given-names></name> (<year>2016</year>). <article-title>Auditory short-term memory in the primate auditory cortex</article-title>. <source>Brain Res</source>. <volume>1640</volume> (<issue>Pt B</issue>), <fpage>264</fpage>–<lpage>277</lpage>.<pub-id pub-id-type="pmid">26541581</pub-id></mixed-citation>
+              </ref>
+              <ref id="R69">
+                <mixed-citation publication-type="journal"><name><surname>Scott</surname><given-names>BH</given-names></name>, <name><surname>Mishkin</surname><given-names>M</given-names></name>, and <name><surname>Yin</surname><given-names>P</given-names></name> (<year>2014</year>). <article-title>Neural correlates of auditory short-term memory in rostral superior temporal cortex</article-title>. <source>Curr. Biol</source>
+<volume>24</volume>, <fpage>2767</fpage>–<lpage>2775</lpage>.<pub-id pub-id-type="pmid">25456448</pub-id></mixed-citation>
+              </ref>
+              <ref id="R70">
+                <mixed-citation publication-type="journal"><name><surname>Serences</surname><given-names>JT</given-names></name> (<year>2016</year>). <article-title>Neural mechanisms of information storage in visual short-term memory</article-title>. <source>Vision Res</source>. <volume>128</volume>, <fpage>53</fpage>–<lpage>67</lpage>.<pub-id pub-id-type="pmid">27668990</pub-id></mixed-citation>
+              </ref>
+              <ref id="R71">
+                <mixed-citation publication-type="journal"><name><surname>Smith</surname><given-names>EE</given-names></name>, and <name><surname>Jonides</surname><given-names>J</given-names></name> (<year>1997</year>).<article-title>Working memory: a view from neuroimaging</article-title>. <source>Cognit. Psychol</source>
+<volume>33</volume>, <fpage>5</fpage>–<lpage>42</lpage>.<pub-id pub-id-type="pmid">9212720</pub-id></mixed-citation>
+              </ref>
+              <ref id="R72">
+                <mixed-citation publication-type="journal"><name><surname>Smith</surname><given-names>EE</given-names></name>, and <name><surname>Jonides</surname><given-names>J</given-names></name> (<year>1999</year>). <article-title>Storage and executive processes in the frontal lobes</article-title>. <source>Science</source>
+<volume>283</volume>, <fpage>1657</fpage>–<lpage>1661</lpage>.<pub-id pub-id-type="pmid">10073923</pub-id></mixed-citation>
+              </ref>
+              <ref id="R73">
+                <mixed-citation publication-type="journal"><name><surname>Soreq</surname><given-names>E</given-names></name>, <name><surname>Leech</surname><given-names>R</given-names></name>, and <name><surname>Hampshire</surname><given-names>A</given-names></name> (<year>2019</year>). <article-title>Dynamic network coding of working-memory domains and working-memory processes</article-title>. <source>Nat. Commun</source>
+<volume>10</volume>, <fpage>936</fpage>.<pub-id pub-id-type="pmid">30804436</pub-id></mixed-citation>
+              </ref>
+              <ref id="R74">
+                <mixed-citation publication-type="journal"><name><surname>Sprague</surname><given-names>TC</given-names></name>, <name><surname>Ester</surname><given-names>EF</given-names></name>, and <name><surname>Serences</surname><given-names>JT</given-names></name> (<year>2016</year>). <article-title>Restoring Latent Visual Working Memory Representations in Human Cortex</article-title>. <source>Neuron</source>
+<volume>91</volume>, <fpage>694</fpage>–<lpage>707</lpage>.<pub-id pub-id-type="pmid">27497224</pub-id></mixed-citation>
+              </ref>
+              <ref id="R75">
+                <mixed-citation publication-type="journal"><name><surname>Sreenivasan</surname><given-names>KK</given-names></name>, <name><surname>Curtis</surname><given-names>CE</given-names></name>, and <name><surname>D’Esposito</surname><given-names>M</given-names></name> (<year>2014</year>). <article-title>Revisiting the role of persistent neural activity during working memory</article-title>. <source>Trends Cogn. Sci</source>
+<volume>18</volume>, <fpage>82</fpage>–<lpage>89</lpage>.<pub-id pub-id-type="pmid">24439529</pub-id></mixed-citation>
+              </ref>
+              <ref id="R76">
+                <mixed-citation publication-type="journal"><name><surname>Stokes</surname><given-names>MG</given-names></name> (<year>2015</year>). ‘<article-title>Activity-silent’ working memory in prefrontal cortex: a dynamic coding framework</article-title>. <source>Trends Cogn. Sci</source>
+<volume>19</volume>, <fpage>394</fpage>–<lpage>405</lpage>.<pub-id pub-id-type="pmid">26051384</pub-id></mixed-citation>
+              </ref>
+              <ref id="R77">
+                <mixed-citation publication-type="journal"><name><surname>Taulu</surname><given-names>S</given-names></name>, <name><surname>Kajola</surname><given-names>M</given-names></name>, and <name><surname>Simola</surname><given-names>J</given-names></name> (<year>2004</year>). <article-title>Suppression of interference and artifacts by the Signal Space Separation Method</article-title>. <source>Brain Topogr</source>. <volume>16</volume>, <fpage>269</fpage>–<lpage>275</lpage>.<pub-id pub-id-type="pmid">15379226</pub-id></mixed-citation>
+              </ref>
+              <ref id="R78">
+                <mixed-citation publication-type="journal"><name><surname>Ten Oever</surname><given-names>S</given-names></name>, <name><surname>De Weerd</surname><given-names>P</given-names></name>, and <name><surname>Sack</surname><given-names>AT</given-names></name> (<year>2020</year>). <article-title>Phase-dependent amplification of working memory content and performance</article-title>. <source>Nat. Commun</source>
+<volume>11</volume>, <fpage>1832</fpage>.<pub-id pub-id-type="pmid">32286288</pub-id></mixed-citation>
+              </ref>
+              <ref id="R79">
+                <mixed-citation publication-type="journal"><name><surname>Uluç</surname><given-names>I</given-names></name>, <name><surname>Schmidt</surname><given-names>TT</given-names></name>, <name><surname>Wu</surname><given-names>YH</given-names></name>, and <name><surname>Blankenburg</surname><given-names>F</given-names></name> (<year>2018</year>). <article-title>Content-specific codes of parametric auditory working memory in humans</article-title>. <source>Neuroimage</source>
+<volume>183</volume>, <fpage>254</fpage>–<lpage>262</lpage>.<pub-id pub-id-type="pmid">30107259</pub-id></mixed-citation>
+              </ref>
+              <ref id="R80">
+                <mixed-citation publication-type="journal"><name><surname>Vallar</surname><given-names>G</given-names></name>, <name><surname>Di Betta</surname><given-names>AM</given-names></name>, and <name><surname>Silveri</surname><given-names>MC</given-names></name> (<year>1997</year>). <article-title>The phonological short-term store-rehearsal system: patterns of impairment and neural correlates</article-title>. <source>Neuropsychologia</source>
+<volume>35</volume>, <fpage>795</fpage>–<lpage>812</lpage>.<pub-id pub-id-type="pmid">9204486</pub-id></mixed-citation>
+              </ref>
+              <ref id="R81">
+                <mixed-citation publication-type="journal"><name><surname>van Vugt</surname><given-names>MK</given-names></name>, <name><surname>Schulze-Bonhage</surname><given-names>A</given-names></name>, <name><surname>Litt</surname><given-names>B</given-names></name>, <name><surname>Brandt</surname><given-names>A</given-names></name>, and <name><surname>Kahana</surname><given-names>MJ</given-names></name> (<year>2010</year>). <article-title>Hippocampal gamma oscillations increase with memory load</article-title>. <source>J. Neurosci</source>
+<volume>30</volume>, <fpage>2694</fpage>–<lpage>2699</lpage>.<pub-id pub-id-type="pmid">20164353</pub-id></mixed-citation>
+              </ref>
+              <ref id="R82">
+                <mixed-citation publication-type="journal"><name><surname>Visscher</surname><given-names>KM</given-names></name>, <name><surname>Kaplan</surname><given-names>E</given-names></name>, <name><surname>Kahana</surname><given-names>MJ</given-names></name>, and <name><surname>Sekuler</surname><given-names>R</given-names></name> (<year>2007</year>). <article-title>Auditory short-term memory behaves like visual short-term memory</article-title>. <source>PLoS Biol</source>. <volume>5</volume>, <fpage>e56</fpage>.<pub-id pub-id-type="pmid">17311472</pub-id></mixed-citation>
+              </ref>
+              <ref id="R83">
+                <mixed-citation publication-type="journal"><name><surname>Wolff</surname><given-names>MJ</given-names></name>, <name><surname>Ding</surname><given-names>J</given-names></name>, <name><surname>Myers</surname><given-names>NE</given-names></name>, and <name><surname>Stokes</surname><given-names>MG</given-names></name> (<year>2015</year>). <article-title>Revealing hidden states in visual working memory using electroencephalography</article-title>. <source>Front. Syst. Neurosci</source>
+<volume>9</volume>, <fpage>123</fpage>.<pub-id pub-id-type="pmid">26388748</pub-id></mixed-citation>
+              </ref>
+              <ref id="R84">
+                <mixed-citation publication-type="journal"><name><surname>Wolff</surname><given-names>MJ</given-names></name>, <name><surname>Jochim</surname><given-names>J</given-names></name>, <name><surname>Akyürek</surname><given-names>EG</given-names></name>, and <name><surname>Stokes</surname><given-names>MG</given-names></name> (<year>2017</year>). <article-title>Dynamic hidden states underlying working-memory-guided behavior</article-title>. <source>Nat. Neurosci</source>
+<volume>20</volume>, <fpage>864</fpage>–<lpage>871</lpage>.<pub-id pub-id-type="pmid">28414333</pub-id></mixed-citation>
+              </ref>
+              <ref id="R85">
+                <mixed-citation publication-type="journal"><name><surname>Wolff</surname><given-names>MJ</given-names></name>, <name><surname>Kandemir</surname><given-names>G</given-names></name>, <name><surname>Stokes</surname><given-names>MG</given-names></name>, and <name><surname>Akyürek</surname><given-names>EG</given-names></name> (<year>2020</year>). <article-title>Unimodal and Bimodal Access to Sensory Working Memories by Auditory and Visual Impulses</article-title>. <source>J. Neurosci</source>
+<volume>40</volume>, <fpage>671</fpage>–<lpage>681</lpage>.<pub-id pub-id-type="pmid">31754009</pub-id></mixed-citation>
+              </ref>
+              <ref id="R86">
+                <mixed-citation publication-type="journal"><name><surname>Xu</surname><given-names>Y</given-names></name> (<year>2017</year>). <article-title>Reevaluating the Sensory Account of Visual Working Memory Storage</article-title>. <source>Trends Cogn. Sci</source>
+<volume>21</volume>, <fpage>794</fpage>–<lpage>815</lpage>.<pub-id pub-id-type="pmid">28774684</pub-id></mixed-citation>
+              </ref>
+              <ref id="R87">
+                <mixed-citation publication-type="journal"><name><surname>Zucker</surname><given-names>RS</given-names></name>, and <name><surname>Regehr</surname><given-names>WG</given-names></name> (<year>2002</year>). <article-title>Short-term synaptic plasticity</article-title>. <source>Annu. Rev. Physiol</source>
+<volume>64</volume>, <fpage>355</fpage>–<lpage>405</lpage>.<pub-id pub-id-type="pmid">11826273</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+          <floats-group>
+            <fig id="F1" orientation="portrait" position="float">
+              <label>Figure 1.</label>
+              <caption>
+                <title>Auditory stimuli and WM tasks</title>
+                <p id="P65">(A) Time-frequency representations of 2 moving ripple sounds, modulated across time (ripple velocity, ω cycles/s) and frequency (Ω cycles/octave).</p>
+                <p id="P66">(B) Trial design. After an alerting cue, subjects heard 2 ripple sound stimuli (i.e., memory items) in a row. A brief visual cue then followed, to instruct which of the previous items was to be actively memorized for a period of 4 s. After hearing the probe, the subject was asked to press one button (“yes”) if the probe matched the relevant item and another(“no”) if it did not. In half of the trials, a brief broadband auditory noise burst called “impulse stimulus” was presented during the maintenance period, to help decode item-specific activations.</p>
+              </caption>
+              <graphic xlink:href="nihms-1735642-f0002"/>
+            </fig>
+            <fig id="F2" orientation="portrait" position="float">
+              <label>Figure 2.</label>
+              <caption>
+                <title>Schematic of multivariate pattern analysis (MVPA) using the connectivity pattern between 2 examples of ROIs</title>
+                <p id="P67">We used an automatic routine to break each large ROI into smaller, approximately equal-size sub-ROIs (<xref rid="R47" ref-type="bibr">Mamashli et al., 2019a</xref>) to increase the spatial specificity, allowing us to capture the spatio-spectral WM activation variability.</p>
+                <p id="P68">(A) Imaginary coherence (ImCoh) was estimated between 9 × 13 sub-ROIs pairs within STC and IFG across each ¼ of the total number of epochs. An example of the ImCoh is shown at right. The ImCoh were averaged in early (0.5–1.25 s) and late (1.25–2 s from memory cue) time windows and each frequency band.</p>
+                <p id="P69">(B) The ImCoh value of each sub-ROI pair was used to generate the connectivity matrix. The connectivity pattern matrix was then converted to a vector (e.g., here consisting of 9 × 13 = 117 features) to classify the 6 sound classes. We then combined all subjects’ data, fed them into a linear support vector machine, trained the model on the data from 75% of the subjects and tested it on the remaining subjects. For cross-validation, we permuted the data 100 times and replicated the classification. The accuracy was used as the performance metric. The related confusion matrices are in <xref rid="SD1" ref-type="supplementary-material">Figures S2</xref> and <xref rid="SD1" ref-type="supplementary-material">S3</xref>. For further details of the method, see <xref rid="S11" ref-type="sec">STAR Methods</xref>.</p>
+              </caption>
+              <graphic xlink:href="nihms-1735642-f0003"/>
+            </fig>
+            <fig id="F3" orientation="portrait" position="float">
+              <label>Figure 3.</label>
+              <caption>
+                <title>Evidence for connectivity-based auditory WM representations</title>
+                <p id="P70">Decoding accuracy in the connectivity-based decoding analysis at the 5 studied frequency bands during (A) the earlier (0.5–1.25 s) and (B) the later (1.25–2 s) WM maintenance time windows. The left panel shows the null distributions of maximum statistics for each time window, created using classifiers with randomized stimulus-item labels. The thresholds of significance are marked with vertical dashed lines. The center panel shows the decoding accuracy values for each connection and frequency within each time window. Those above the threshold (horizontal dashed line) were deemed statistically significant. The connections with the most stable decoding accuracy, revealing the WM content both during the early (A) and later (B) time windows, are labeled with an asterisk. The rightmost panel shows the anatomical connections that showed significant decoding accuracy in at least 1 of the frequency bands.</p>
+                <p id="P71">For further details of the analysis, see the subsections <xref rid="S18" ref-type="sec">Method details</xref> and <xref rid="S33" ref-type="sec">Quantification and statistical analysis</xref> in the <xref rid="S11" ref-type="sec">STAR Methods</xref>.</p>
+              </caption>
+              <graphic xlink:href="nihms-1735642-f0004"/>
+            </fig>
+            <fig id="F4" orientation="portrait" position="float">
+              <label>Figure 4.</label>
+              <caption>
+                <title>No significant effects were observed in a control analysis, which used connectivity patterns to the visual cortex area LOC for decoding the memorized sound content</title>
+                <p id="P72">(A) Earlier time window (0.5–1.25 s) of WM maintenance.</p>
+                <p id="P73">(B) Later time window (1.25–2 s) of WM maintenance. The left panel shows the null distributions of maximum statistics for each time window, created using a classifier with randomized sound-content labels. The dashed lines show the critical values (i.e., the threshold) of statistical significance for each time window. The center panels show the accuracy values for each connection and each frequency, none of which were statistically significant. The rightmost panel displays the location of the LOC seed and other ROIs.</p>
+                <p id="P74">For further details of the analysis, see the subsections <xref rid="S18" ref-type="sec">Method details</xref> and <xref rid="S33" ref-type="sec">Quantification and statistical analysis</xref> in the <xref rid="S11" ref-type="sec">STAR Methods</xref>.</p>
+              </caption>
+              <graphic xlink:href="nihms-1735642-f0005"/>
+            </fig>
+            <fig id="F5" orientation="portrait" position="float">
+              <label>Figure 5.</label>
+              <caption>
+                <title>MVPA using oscillatory power and impulse sound effect</title>
+                <p id="P75">(A) Schematic display of MVPA using STC oscillatory power to decode activity-silent WM representations in auditory areas. Single-epoch power was estimated within each sub-ROI and then averaged across ¼ of the epochs within frequency bin. At each separate frequency band, the bilateral STC power pattern included 25 sub-ROIs (i.e., 12 in right-STC and 13 in left-STC), which were entered into a band-specific SVM classifier with 4-fold cross-validation.</p>
+                <p id="P76">(B) MVPA decoding accuracy at 5 frequency bands in theta, alpha, beta, low, and high gamma bands in response to impulse and no-impulse sound. According to our linear mixed-effects model, the decoding accuracy was significantly enhanced by the impulse sound. The error bars show the standard error of the mean.</p>
+                <p id="P77">For further details of the analysis, see the subsections <xref rid="S18" ref-type="sec">Method details</xref> and <xref rid="S33" ref-type="sec">Quantification and statistical analysis</xref> in the <xref rid="S11" ref-type="sec">STAR Methods</xref>.</p>
+              </caption>
+              <graphic xlink:href="nihms-1735642-f0006"/>
+            </fig>
+            <table-wrap id="T1" position="float" orientation="portrait">
+              <caption>
+                <p id="P78">KEY RESOURCES TABLE</p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <colgroup span="1">
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th align="left" valign="top" rowspan="1" colspan="1">REAGENT or RESOURCE</th>
+                    <th align="left" valign="top" rowspan="1" colspan="1">SOURCE</th>
+                    <th align="left" valign="top" rowspan="1" colspan="1">IDENTIFIER</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td colspan="3" align="left" valign="top" style="border-bottom: solid 1px" rowspan="1">Deposited data</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" style="border-bottom: solid 1px" rowspan="1" colspan="1">MEG connectivity data</td>
+                    <td align="left" valign="top" style="border-bottom: solid 1px" rowspan="1" colspan="1">This study</td>
+                    <td align="left" valign="top" style="border-bottom: solid 1px" rowspan="1" colspan="1">
+                      <ext-link ext-link-type="uri" xlink:href="https://dataverse.harvard.edu/citation?persistentId=doi:10.7910/DVN/I307DS">https://dataverse.harvard.edu/citation?persistentId=doi:10.7910/DVN/I307DS</ext-link>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="left" valign="top" style="border-bottom: solid 1px" rowspan="1">Software and algorithms</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">MNE</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">
+                      <xref rid="R26" ref-type="bibr">Gramfort et al., 2014</xref>
+                    </td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">
+                      <ext-link ext-link-type="uri" xlink:href="https://www.nmr.mgh.harvard.edu/martinos/userInfo/data/sofMNE.php">https://www.nmr.mgh.harvard.edu/martinos/userInfo/data/sofMNE.php</ext-link>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">FreeSurfer</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1"><xref rid="R14" ref-type="bibr">Dale et al., 1999</xref>; <xref rid="R19" ref-type="bibr">Fischl et al., 1999</xref></td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">
+                      <ext-link ext-link-type="uri" xlink:href="https://surfer.nmr.mgh.harvard.edu/">https://surfer.nmr.mgh.harvard.edu/</ext-link>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">libsvm</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">
+                      <xref rid="R8" ref-type="bibr">Chang and Lin, 2011</xref>
+                    </td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">
+                      <ext-link ext-link-type="uri" xlink:href="https://www.csie.ntu.edu.tw/~cjlin/libsvm/">https://www.csie.ntu.edu.tw/~cjlin/libsvm/</ext-link>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">COSMOMVPA</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">
+                      <xref rid="R57" ref-type="bibr">Oosterhof et al., 2016</xref>
+                    </td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">
+                      <ext-link ext-link-type="uri" xlink:href="http://www.cosmomvpa.org/">http://www.cosmomvpa.org/</ext-link>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">Custom code</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">This study</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">
+                      <ext-link ext-link-type="uri" xlink:href="https://zenodo.org/record/5112421">https://zenodo.org/record/5112421</ext-link>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+            <boxed-text id="BX1" position="float" orientation="portrait">
+              <caption>
+                <title>Highlights</title>
+              </caption>
+              <list list-type="bullet" id="L10">
+                <list-item>
+                  <p id="P79">How neurons in human brain store transient working memories (WMs) is debated</p>
+                </list-item>
+                <list-item>
+                  <p id="P80">We hypothesize that interregional phase synchronization supports WM maintenance</p>
+                </list-item>
+                <list-item>
+                  <p id="P81">We decode auditory memories from magnetoencephalograms to test this hypothesis</p>
+                </list-item>
+                <list-item>
+                  <p id="P82">Synchronization patterns across sensory and higher areas reveal content held in WM</p>
+                </list-item>
+              </list>
+            </boxed-text>
+          </floats-group>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

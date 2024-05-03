@@ -1,0 +1,1157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T03:13:41Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8016090" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8016090</identifier>
+        <datestamp>2021-04-21</datestamp>
+        <setSpec>bmjdrc</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">BMJ Open Diabetes Res Care</journal-id>
+              <journal-id journal-id-type="iso-abbrev">BMJ Open Diabetes Res Care</journal-id>
+              <journal-id journal-id-type="hwp">bmjdrc</journal-id>
+              <journal-id journal-id-type="publisher-id">bmjdrc</journal-id>
+              <journal-title-group>
+                <journal-title>BMJ Open Diabetes Research &amp; Care</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2052-4897</issn>
+              <publisher>
+                <publisher-name>BMJ Publishing Group</publisher-name>
+                <publisher-loc>BMA House, Tavistock Square, London, WC1H 9JR</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8016090</article-id>
+              <article-id pub-id-type="pmcid">PMC8016090</article-id>
+              <article-id pub-id-type="pmc-uid">8016090</article-id>
+              <article-id pub-id-type="pmid">33789908</article-id>
+              <article-id pub-id-type="publisher-id">bmjdrc-2020-001953</article-id>
+              <article-id pub-id-type="doi">10.1136/bmjdrc-2020-001953</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Epidemiology/Health services research</subject>
+                </subj-group>
+                <subj-group subj-group-type="hwp-journal-coll">
+                  <subject>1506</subject>
+                  <subject>1867</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Predictive utilities of lipid traits, lipoprotein subfractions and other risk factors for incident diabetes: a machine learning approach in the Diabetes Prevention Program</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib id="author-83063111" contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-2383-699X</contrib-id>
+                  <name>
+                    <surname>Varga</surname>
+                    <given-names>Tibor V</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <xref ref-type="aff" rid="aff2">2</xref>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                </contrib>
+                <contrib id="author-83110473" contrib-type="author">
+                  <name>
+                    <surname>Liu</surname>
+                    <given-names>Jinxi</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff4">4</xref>
+                </contrib>
+                <contrib id="author-5027685" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-0924-1110</contrib-id>
+                  <name>
+                    <surname>Goldberg</surname>
+                    <given-names>Ronald B</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff5">5</xref>
+                </contrib>
+                <contrib id="author-83137846" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-6252-4673</contrib-id>
+                  <name>
+                    <surname>Chen</surname>
+                    <given-names>Guannan</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff4">4</xref>
+                </contrib>
+                <contrib id="author-32990770" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-5318-9677</contrib-id>
+                  <name>
+                    <surname>Dagogo-Jack</surname>
+                    <given-names>Samuel</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">6</xref>
+                </contrib>
+                <contrib id="author-47835872" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-7080-765X</contrib-id>
+                  <name>
+                    <surname>Lorenzo</surname>
+                    <given-names>Carlos</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff7">7</xref>
+                </contrib>
+                <contrib id="author-81276300" contrib-type="author">
+                  <name>
+                    <surname>Mather</surname>
+                    <given-names>Kieren J</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff8">8</xref>
+                </contrib>
+                <contrib id="author-36274707" contrib-type="author">
+                  <name>
+                    <surname>Pi-Sunyer</surname>
+                    <given-names>Xavier</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff9">9</xref>
+                </contrib>
+                <contrib id="author-83137765" contrib-type="author">
+                  <name>
+                    <surname>Brunak</surname>
+                    <given-names>Søren</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff2">2</xref>
+                </contrib>
+                <contrib id="author-55255519" contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-9976-745X</contrib-id>
+                  <name>
+                    <surname>Temprosa</surname>
+                    <given-names>Marinella</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <collab>the Diabetes Prevention Program Research Group</collab>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1"><label>1</label><institution content-type="department">Section of Epidemiology, Department of Public Health</institution>, <institution>University of Copenhagen</institution>, <addr-line content-type="city">Copenhagen</addr-line>, <country>Denmark</country></aff>
+              <aff id="aff2"><label>2</label><institution>Novo Nordisk Foundation Center for Protein Research, Translational Disease Systems Biology Group, Faculty of Health and Medical Sciences, University of Copenhagen</institution>, <addr-line content-type="city">Copenhagen</addr-line>, <country>Denmark</country></aff>
+              <aff id="aff3"><label>3</label><institution content-type="department">Department of Clinical Sciences, Genetic and Molecular Epidemiology Unit</institution>, <institution>Lund University, Skåne University Hospital Malmö</institution>, <addr-line content-type="city">Malmö</addr-line>, <country>Sweden</country></aff>
+              <aff id="aff4"><label>4</label><institution content-type="department">Biostatistics Center and Department of Biostatistics and Bioinformatics</institution>, <institution>Milken Institute School of Public Health, George Washington University</institution>, <addr-line content-type="city">Rockville</addr-line>, <addr-line content-type="state">Maryland</addr-line>, <country>USA</country></aff>
+              <aff id="aff5"><label>5</label><institution content-type="department">Department of Medicine</institution>, <institution>University of Miami</institution>, <addr-line content-type="city">Miami</addr-line>, <addr-line content-type="state">Florida</addr-line>, <country>USA</country></aff>
+              <aff id="aff6"><label>6</label><institution>University of Tennessee Health Science Center</institution>, <addr-line content-type="city">Memphis</addr-line>, <addr-line content-type="state">Tennessee</addr-line>, <country>USA</country></aff>
+              <aff id="aff7"><label>7</label><institution>The University of Texas Health Science Center at San Antonio</institution>, <addr-line content-type="city">San Antonio</addr-line>, <addr-line content-type="state">Texas</addr-line>, <country>USA</country></aff>
+              <aff id="aff8"><label>8</label><institution>Indiana University School of Medicine</institution>, <addr-line content-type="city">Indianapolis</addr-line>, <addr-line content-type="state">Indiana</addr-line>, <country>USA</country></aff>
+              <aff id="aff9"><label>9</label><institution>Columbia University Medical Center</institution>, <addr-line content-type="city">New York City</addr-line>, <addr-line content-type="state">New York</addr-line>, <country>USA</country></aff>
+              <author-notes>
+                <corresp><label>Correspondence to</label> Dr Tibor V Varga; <email>Tibor.Varga@sund.ku.dk</email>; Dr Marinella Temprosa; <email>ella@bsc.gwu.edu</email></corresp>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>31</day>
+                <month>3</month>
+                <year>2021</year>
+              </pub-date>
+              <volume>9</volume>
+              <issue>1</issue>
+              <elocation-id>e001953</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>19</day>
+                  <month>10</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>18</day>
+                  <month>2</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>25</day>
+                  <month>2</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© Author(s) (or their employer(s)) 2021. Re-use permitted under CC BY-NC. No commercial re-use. See rights and permissions. Published by BMJ.</copyright-statement>
+                <copyright-year>2021</copyright-year>
+                <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by-nc/4.0/">
+                  <ali:license_ref start_date="2021-03-31">http://creativecommons.org/licenses/by-nc/4.0/</ali:license_ref>
+                  <license-p>This is an open access article distributed in accordance with the Creative Commons Attribution Non Commercial (CC BY-NC 4.0) license, which permits others to distribute, remix, adapt, build upon this work non-commercially, and license their derivative works on different terms, provided the original work is properly cited, appropriate credit is given, any changes made indicated, and the use is non-commercial. See: <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:title="pdf" xlink:href="bmjdrc-2020-001953.pdf"/>
+              <abstract>
+                <sec>
+                  <title>Introduction</title>
+                  <p>Although various lipid and non-lipid analytes measured by nuclear magnetic resonance (NMR) spectroscopy have been associated with type 2 diabetes, a structured comparison of the ability of NMR-derived biomarkers and standard lipids to predict individual diabetes risk has not been undertaken in larger studies nor among individuals at high risk of diabetes.</p>
+                </sec>
+                <sec>
+                  <title>Research design and methods</title>
+                  <p>Cumulative discriminative utilities of various groups of biomarkers including NMR lipoproteins, related non-lipid biomarkers, standard lipids, and demographic and glycemic traits were compared for short-term (3.2 years) and long-term (15 years) diabetes development in the Diabetes Prevention Program, a multiethnic, placebo-controlled, randomized controlled trial of individuals with pre-diabetes in the USA (N=2590). Logistic regression, Cox proportional hazards model and six different hyperparameter-tuned machine learning algorithms were compared. The Matthews Correlation Coefficient (MCC) was used as the primary measure of discriminative utility.</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p>Models with baseline NMR analytes and their changes did not improve the discriminative utility of simpler models including standard lipids or demographic and glycemic traits. Across all algorithms, models with baseline 2-hour glucose performed the best (max MCC=0.36). Sophisticated machine learning algorithms performed similarly to logistic regression in this study.</p>
+                </sec>
+                <sec>
+                  <title>Conclusions</title>
+                  <p>NMR lipoproteins and related non-lipid biomarkers were associated but did not augment discrimination of diabetes risk beyond traditional diabetes risk factors except for 2-hour glucose. Machine learning algorithms provided no meaningful improvement for discrimination compared with logistic regression, which suggests a lack of influential latent interactions among the analytes assessed in this study.</p>
+                </sec>
+                <sec>
+                  <title>Trial registration number</title>
+                  <p>Diabetes Prevention Program: <ext-link ext-link-type="uri" xlink:href="NCT00004992">NCT00004992</ext-link>; Diabetes Prevention Program Outcomes Study: <ext-link ext-link-type="ClinicalTrials.gov" xlink:href="NCT00038727">NCT00038727</ext-link>.</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>lipoproteins</kwd>
+                <kwd>prediabetic state</kwd>
+                <kwd>diabetes mellitus</kwd>
+                <kwd>type 2</kwd>
+                <kwd>lipids</kwd>
+              </kwd-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>special-feature</meta-name>
+                  <meta-value>unlocked</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <boxed-text id="BX1" position="float" orientation="portrait">
+              <caption>
+                <title>Significance of this study</title>
+              </caption>
+              <sec>
+                <title>What is already known about this subject?</title>
+                <list list-type="bullet">
+                  <list-item>
+                    <p>A large number of lipid and lipoprotein biomarkers demonstrate robust associations with type 2 diabetes, and certain lipid biomarkers such as triglycerides and high-density lipoprotein cholesterol are components of established clinical type 2 diabetes risk prediction models.</p>
+                  </list-item>
+                  <list-item>
+                    <p>High-throughput, large-scale, low-cost assessments of previously unconsidered biomarkers, such as full nuclear magnetic resonance (NMR)-derived biomarker panels, are becoming commonplace.</p>
+                  </list-item>
+                </list>
+              </sec>
+              <sec>
+                <title>What are the new findings?</title>
+                <list list-type="bullet">
+                  <list-item>
+                    <p>Lipoproteins and other NMR-derived analytes do not offer clinically meaningful improvement in the prediction of type 2 diabetes compared with standard laboratory lipids or a minimal model that comprised age, sex, ethnicity and fasting glucose in a population of individuals with pre-diabetes.</p>
+                  </list-item>
+                  <list-item>
+                    <p>Association is not prediction: while numerous biomarkers demonstrate robust statistical associations with type 2 diabetes, their cumulative discriminative utility can be low.</p>
+                  </list-item>
+                  <list-item>
+                    <p>Baseline postprandial 2-hour glucose levels offer a meaningful improvement in discriminating future diabetes when compared with simpler models including fasting glucose.</p>
+                  </list-item>
+                </list>
+              </sec>
+              <sec>
+                <title>How might these results change the focus of research or clinical practice?</title>
+                <list list-type="bullet">
+                  <list-item>
+                    <p>Future studies should evaluate NMR-derived analytes and biomarkers from other ‘omics’ profiles with regard to their discriminatory utilities for type 2 diabetes in diverse, prospective, general population cohorts using statistically appropriate predictive models.</p>
+                  </list-item>
+                </list>
+              </sec>
+            </boxed-text>
+            <sec sec-type="intro" id="s1">
+              <title>Introduction</title>
+              <p>Lipid and lipoprotein abnormalities are well-established risk factors for type 2 diabetes.<xref rid="R1" ref-type="bibr">1</xref> Elevated triglyceride and reduced high-density lipoprotein cholesterol (HDL-C) levels have been shown to associate with incident diabetes after adjustment of other standard diabetes risk factors,<xref rid="R2" ref-type="bibr">2–4</xref> and triglyceride values &gt;250 mg/dL and HDL-C &lt;35 mg/dL have been recommended by the American Diabetes Association as screening criteria for pre-diabetes and diabetes<xref rid="R5" ref-type="bibr">5</xref> and are routinely used in diabetes risk scores.<xref rid="R4" ref-type="bibr">4</xref> Furthermore, alterations in lipoprotein size and concentration such as those characterized by nuclear magnetic resonance (NMR) have been found to associate with incident diabetes<xref rid="R6" ref-type="bibr">6–10</xref> and have been shown to identify insulin resistance-based dyslipoproteinemia early in the course of diabetes development.<xref rid="R6" ref-type="bibr">6 7</xref> In most studies to date, these associations remained statistically significant after adjusting for standard lipid measurements.<xref rid="R6" ref-type="bibr">6–9</xref>
+</p>
+              <p>While alterations in lipids and lipoproteins demonstrate reproducible, robust statistical associations with type 2 diabetes, it is unknown whether standard lipid measurements have predictive utility (good classification of future cases) for diabetes incidence and whether lipoproteins improve prediction over standard lipids or standard diabetes risk factors.<xref rid="R11" ref-type="bibr">11</xref> This is especially pertinent in subjects at high risk of developing diabetes, such as those with pre-diabetes, where improved individualized prediction<xref rid="R12" ref-type="bibr">12</xref> might allow more targeted implementation of prevention strategies. The statistical methods underlying evaluation of risk factor association differ from those used for assessing outcome prediction. Specifically, to properly assess whether a biomarker can classify an individual correctly according to whether they eventually develop a disease or not requires specific statistical testing pertaining to outcome prediction and discriminative utility<xref rid="R13" ref-type="bibr">13 14</xref> using measures such as the receiver operating characteristic area under the curve (ROC AUC) and other metrics.</p>
+              <p>We leveraged data from the Diabetes Prevention Program (DPP) and the Diabetes Prevention Program Outcomes Study (DPPOS) to evaluate the predictive utility of standard lipid measurements as well as NMR-measured lipoprotein size and concentration for incident diabetes. The DPP was a randomized clinical trial that tested the effect of lifestyle and metformin interventions compared with placebo in preventing diabetes in a large cohort with pre-diabetes who were at high risk of diabetes development.<xref rid="R15" ref-type="bibr">15</xref> We evaluated whether lipid measures added predictive utility to standard glycemic, anthropometric and other established risk factors in the three intervention groups. Since these interventions have significant effects on metabolic markers,<xref rid="R16" ref-type="bibr">16</xref> we included in the analysis both baseline measures and their changes 1 year after randomization, and we tested whether these factors predicted incident diabetes differently in participants who progressed relatively rapidly compared with those who progressed more slowly. In addition, because the NMR method has been extended to include several novel non-lipid biomarkers that have been shown to associate with diabetes,<xref rid="R17" ref-type="bibr">17</xref> these were tested as well. Lastly, based on the assumption that state-of-the-art machine learning algorithms might have advantages over logistic regression models when latent interactions exist in the data matrix,<xref rid="R18" ref-type="bibr">18</xref> we examined whether there were differences in discriminative utilities using a range of standard statistical and machine learning algorithms. All models were internally validated using a robust, nested cross-validation framework.</p>
+            </sec>
+            <sec sec-type="materials" id="s2">
+              <title>Materials and methods</title>
+              <sec id="s2-1">
+                <title>Participants</title>
+                <p>The DPP was a multiethnic, multicenter, randomized controlled trial (RCT) located in the USA. Initially, 3234 individuals with fasting glucose levels 95–125 mg/dL and impaired glucose tolerance who were overweight or obese were randomized into four arms: intensive lifestyle intervention, metformin, troglitazone and placebo control.<xref rid="R15" ref-type="bibr">15 19</xref> The troglitazone arm was subsequently terminated due to side effects. Individuals in the metformin arm received 850 mg metformin two times per day, and those in the lifestyle arm received individual and group-based counseling and were encouraged to maintain a moderate level of physical activity and reduce their dietary fat consumption.<xref rid="R15" ref-type="bibr">15</xref> The placebo arm received general advice on healthy lifestyle habits. The primary endpoint of the DPP was type 2 diabetes incidence, assessed semiannually by a fasting glucose test and annually by an oral glucose tolerance test, and the RCT was terminated at 3.2 years.<xref rid="R20" ref-type="bibr">20</xref> The DPPOS was established as a continuation of the DPP. By maintaining the three original intervention groups, the main aim of the DPPOS was to investigate whether the treatment effects on diabetes would translate into long-lasting health effects.<xref rid="R21" ref-type="bibr">21</xref> After removing individuals who were initially randomized to the troglitazone arm and those with no NMR analytes measured, the total sample size for this study was 2590 at baseline. All participants provided written, informed consent.</p>
+              </sec>
+              <sec id="s2-2">
+                <title>Standard laboratory and NMR methods</title>
+                <p>Information on basic and clinical variables in the DPP has been reported elsewhere.<xref rid="R19" ref-type="bibr">19 22</xref> In brief, anthropometric measures, blood pressure and clinical data were collected using standard methods. Measures of insulin, glycemia and standard lipids were obtained at the Central Biochemistry Laboratory (Northwest Lipid Research Laboratories, University of Washington, Seattle, Washington).<xref rid="R16" ref-type="bibr">16</xref> The reciprocal of the fasting insulin level (1/FI or IFI) was used as a marker of insulin resistance, and the insulinogenic index (Δ-insulin (30–0 min)/Δ-glucose (30–0 min)) was used as a marker of insulin secretion. The insulinogenic index was determined during an oral glucose tolerance test.<xref rid="R23" ref-type="bibr">23</xref> Lipoprotein subclass concentrations and lipoprotein sizes at randomization (the beginning of the DPP) and 1 year after randomization were quantified by NMR spectroscopy at LipoScience using fasting heparin samples stored at −70°C.<xref rid="R16" ref-type="bibr">16</xref>
+<italic>Laboratory lipids</italic> included serum triglycerides, total cholesterol, HDL-C and low-density lipoprotein cholesterol (LDL-C) levels. <italic>NMR analytes</italic> included lipid/lipoprotein and non-lipid measures. The lipid-related analytes included HDL-related measures: large, medium, small HDL and H1P, H2P, H3P, H4P, H5P, H6P, and H7P concentrations, and HDL size; LDL-related measures: large, small LDL concentrations and LDL size; and triacylglycerol-rich lipoprotein (TRL)-related measures: very large, large, medium, small TRL concentrations, TRL-carried cholesterol and triglyceride levels, TRL size, LDL peak particle density, apolipoprotein B and apolipoprotein A1.<xref rid="R16" ref-type="bibr">16 22</xref> The H1P–H7P subclasses represent a refined classification of HDL particles from the smallest (H1P) to the largest particles (H7P). Non-lipid analytes were also measured using NMR, including amino acids (glycine, valine, leucine, isoleucine, alanine), ketones (acetone, beta-hydroxy-butyrate, acetoacetate, total ketones), citrate, and glycoprotein acetylation (GlycA), a novel inflammatory biomarker.<xref rid="R24" ref-type="bibr">24</xref> The predictive utility of these analytes was evaluated for incident diabetes at the end of the DPP (<italic>short-term</italic>, 3.2 years) and at the end of the DPPOS (<italic>long-term</italic>, 15 years).</p>
+              </sec>
+              <sec id="s2-3">
+                <title>Statistical analyses</title>
+                <p>Statistical analyses were performed using R v.3.6.1.<xref rid="R25" ref-type="bibr">25</xref> In the analytic framework, single analytes measured at baseline were evaluated in univariate prediction models. In addition, the following multivariable models were evaluated:</p>
+                <list list-type="bullet">
+                  <list-item>
+                    <p>Model 1: age at randomization, sex (male, female), self-reported ethnicity (non-Hispanic white, African American, Hispanic, American Indian and Asian American), laboratory lipids, lipid-lowering medication use (yes/no), and treatment arm (placebo, lifestyle, metformin).</p>
+                  </list-item>
+                  <list-item>
+                    <p>Model 2: Model 1 + all baseline lipid-related NMR analytes.</p>
+                  </list-item>
+                  <list-item>
+                    <p>Model 3: age at randomization, sex, self-reported ethnicity, fasting glucose, baseline hemoglobin A1c (HbA1c), and treatment arm.</p>
+                  </list-item>
+                  <list-item>
+                    <p>Model 4: Model 3 + family history of diabetes (yes/no), gestational diabetes mellitus history (yes/no for women and not applicable for men), systolic blood pressure (SBP), blood pressure medication use (yes/no), waist circumference, and body mass index (BMI).</p>
+                  </list-item>
+                  <list-item>
+                    <p>Model 5: Model 3 + all laboratory lipids and lipid-lowering medication use.</p>
+                  </list-item>
+                  <list-item>
+                    <p>Model 6: Model 3 + all laboratory lipids, all baseline lipid-related NMR analytes, and lipid-lowering medication use.</p>
+                  </list-item>
+                  <list-item>
+                    <p>Model 7a: Model 6 + all baseline NMR analytes.</p>
+                  </list-item>
+                  <list-item>
+                    <p>Model 7b: Model 6 + all baseline NMR analytes and their changes.</p>
+                  </list-item>
+                  <list-item>
+                    <p>Model 8: Model 7a + family history of diabetes, gestational diabetes mellitus history, SBP, blood pressure medication use, waist circumference, and BMI.</p>
+                  </list-item>
+                  <list-item>
+                    <p>Model 9: Model 4 + postprandial glucose, insulinogenic index, and IFI.</p>
+                  </list-item>
+                </list>
+                <p>In Model 7b, NMR analytes changes were defined as:</p>
+                <p>
+                  <disp-formula id="E1">
+                    <mml:math id="eqn1">
+                      <mml:mstyle displaystyle="true" scriptlevel="0">
+                        <mml:mrow>
+                          <mml:mi mathvariant="normal">Δ</mml:mi>
+                          <mml:mi>a</mml:mi>
+                          <mml:mi>n</mml:mi>
+                          <mml:mi>a</mml:mi>
+                          <mml:mi>l</mml:mi>
+                          <mml:mi>y</mml:mi>
+                          <mml:mi>t</mml:mi>
+                          <mml:mi>e</mml:mi>
+                          <mml:mo>=</mml:mo>
+                          <mml:mi>a</mml:mi>
+                          <mml:mi>n</mml:mi>
+                          <mml:mi>a</mml:mi>
+                          <mml:mi>l</mml:mi>
+                          <mml:mi>y</mml:mi>
+                          <mml:mi>t</mml:mi>
+                          <mml:msub>
+                            <mml:mi>e</mml:mi>
+                            <mml:mrow>
+                              <mml:mn>1</mml:mn>
+                              <mml:mi>y</mml:mi>
+                              <mml:mi>r</mml:mi>
+                            </mml:mrow>
+                          </mml:msub>
+                          <mml:mo>−</mml:mo>
+                          <mml:mi>a</mml:mi>
+                          <mml:mi>n</mml:mi>
+                          <mml:mi>a</mml:mi>
+                          <mml:mi>l</mml:mi>
+                          <mml:mi>y</mml:mi>
+                          <mml:mi>t</mml:mi>
+                          <mml:msub>
+                            <mml:mi>e</mml:mi>
+                            <mml:mrow>
+                              <mml:mi>b</mml:mi>
+                              <mml:mi>a</mml:mi>
+                              <mml:mi>s</mml:mi>
+                              <mml:mi>e</mml:mi>
+                              <mml:mi>l</mml:mi>
+                              <mml:mi>i</mml:mi>
+                              <mml:mi>n</mml:mi>
+                              <mml:mi>e</mml:mi>
+                            </mml:mrow>
+                          </mml:msub>
+                        </mml:mrow>
+                      </mml:mstyle>
+                    </mml:math>
+                  </disp-formula>
+                </p>
+                <p>As NMR data at 1 year were available in a smaller sample (n=2067 vs N=2590), model comparison was undertaken in two separate analytic steps: (1) using the total sample size at baseline (N=2590) and not considering model 7b; and (2) using the total sample size at baseline and follow-up (n=2067) and considering all models, including model 7b. The data contained no missing values.</p>
+                <p>Before analyses, variables with zero or near-zero variances and linearly dependent variables were removed. To determine the effect of correlation among included variables on the subsequent analytic framework, three distinct pairwise correlation filters were used in separate models: (1) Pearson’s |r|&gt;0.6; (2) Pearson’s |r|&gt;0.8; and (3) no correlation filter. Model comparisons were undertaken in a 5-fold nested cross-validation framework (illustrated by <xref ref-type="supplementary-material" rid="SP7">online supplemental figure 1</xref>) using the <italic>caret</italic> package.<xref rid="R26" ref-type="bibr">26</xref> In brief, the outer cross-validation loops split the data into five training and validation sets (80%) and five hold-out test sets (20%). The inner cross-validation loops split the five training + validation sets into five training (80%) and validation sets (20%). In this construct, the inner loops are used for hyperparameter optimization using a grid search, and the outer loops are used to establish discriminative utility using the hold-out test sets. The hyperparameter optimization step was implemented as machine learning algorithms have a large number of parameters (eg, number of hidden units and layers in a neural network, number of trees in random forest) that can alter the performance of the algorithms. As the performance of the algorithms depends on the used data, it is of importance to systematically evaluate a wide range of these tunable parameters during the training + validation phase.</p>
+                <supplementary-material content-type="local-data" id="SP7">
+                  <object-id pub-id-type="doi">10.1136/bmjdrc-2020-001953.supp7</object-id>
+                  <label>Supplementary data</label>
+                  <p>
+                    <inline-supplementary-material id="SS7" xlink:href="bmjdrc-2020-001953supp007.pdf" mime-subtype="pdf" mimetype="application" content-type="local-data"/>
+                  </p>
+                </supplementary-material>
+                <p>All numeric variables have been scaled to mean=0 and SD=1 in the training sets, and the summary statistics of the training data were used to scale the test data in a separate step.<xref rid="R27" ref-type="bibr">27</xref> Downsampling of the majority outcome class in the training set was implemented to ensure outcome balance. No downsampling was undertaken in the test sets. In the inner and outer cross-validation loops, the Matthews Correlation Coefficient (MCC) was used as a measure of discriminative utility, as it has been shown to be one of the most robust measures in binary classification problems.<xref rid="R28" ref-type="bibr">28</xref> MCC is defined as:</p>
+                <p>
+                  <disp-formula id="E2">
+                    <mml:math id="eqn2">
+                      <mml:mstyle displaystyle="true" scriptlevel="0">
+                        <mml:mrow>
+                          <mml:mi>M</mml:mi>
+                          <mml:mi>C</mml:mi>
+                          <mml:mi>C</mml:mi>
+                          <mml:mo>=</mml:mo>
+                          <mml:mfrac>
+                            <mml:mrow>
+                              <mml:mi>T</mml:mi>
+                              <mml:mi>P</mml:mi>
+                              <mml:mo>×</mml:mo>
+                              <mml:mi>T</mml:mi>
+                              <mml:mi>N</mml:mi>
+                              <mml:mo>−</mml:mo>
+                              <mml:mi>F</mml:mi>
+                              <mml:mi>P</mml:mi>
+                              <mml:mo>×</mml:mo>
+                              <mml:mi>F</mml:mi>
+                              <mml:mi>N</mml:mi>
+                            </mml:mrow>
+                            <mml:msqrt>
+                              <mml:mrow>
+                                <mml:mo>(</mml:mo>
+                                <mml:mrow>
+                                  <mml:mi>T</mml:mi>
+                                  <mml:mi>P</mml:mi>
+                                  <mml:mo>+</mml:mo>
+                                  <mml:mi>F</mml:mi>
+                                  <mml:mi>P</mml:mi>
+                                </mml:mrow>
+                                <mml:mo>)</mml:mo>
+                              </mml:mrow>
+                              <mml:mrow>
+                                <mml:mo>(</mml:mo>
+                                <mml:mrow>
+                                  <mml:mi>T</mml:mi>
+                                  <mml:mi>P</mml:mi>
+                                  <mml:mo>+</mml:mo>
+                                  <mml:mi>F</mml:mi>
+                                  <mml:mi>N</mml:mi>
+                                </mml:mrow>
+                                <mml:mo>)</mml:mo>
+                              </mml:mrow>
+                              <mml:mrow>
+                                <mml:mo>(</mml:mo>
+                                <mml:mrow>
+                                  <mml:mi>T</mml:mi>
+                                  <mml:mi>N</mml:mi>
+                                  <mml:mo>+</mml:mo>
+                                  <mml:mi>F</mml:mi>
+                                  <mml:mi>P</mml:mi>
+                                </mml:mrow>
+                                <mml:mo>)</mml:mo>
+                              </mml:mrow>
+                              <mml:mrow>
+                                <mml:mo>(</mml:mo>
+                                <mml:mrow>
+                                  <mml:mi>T</mml:mi>
+                                  <mml:mi>N</mml:mi>
+                                  <mml:mo>+</mml:mo>
+                                  <mml:mi>F</mml:mi>
+                                  <mml:mi>N</mml:mi>
+                                </mml:mrow>
+                                <mml:mo>)</mml:mo>
+                              </mml:mrow>
+                            </mml:msqrt>
+                          </mml:mfrac>
+                        </mml:mrow>
+                      </mml:mstyle>
+                    </mml:math>
+                  </disp-formula>
+                </p>
+                <p>where TP, TN, FP and FN correspond to the number of true positives, true negatives, false positives and false negatives from the confusion matrix, respectively. ROC AUC values were also presented as a secondary measure. MCC and ROC AUC values from the five tests sets were averaged. Of note, ROC AUC values range between 0 and 1, with 0.5 representing random guess. In contrast, MCC values range between −1 (perfect negative correlation) and 1 (perfect correlation), with 0 representing random guess (no correlation).</p>
+                <p>Logistic regression (generalized linear model, GLM), Cox proportional hazards model and six hyperparameter-tuned machine learning algorithms were employed to assess the discriminative utilities of the models. The six algorithms were stochastic gradient boosting, random forest, support vector machines with linear kernel (SVM-L), polynomial kernel (SVM-P) and radial kernel (SVM-R), and artificial neural network (ANN). The methods and hyperparameters are described in <xref ref-type="supplementary-material" rid="SP11">online supplemental file 2</xref>. We hypothesized that any improvement in discriminative utilities between GLM and the more elaborate machine learning algorithms will be due to linear and/or non-linear interactions that the logistic regression framework would not be able to detect without adding explicit interaction terms. To test this hypothesis, we conducted an experiment on simulated data to assess whether latent interactions would be detected or not using the eight algorithms above. This simulation experiment and its results are described in detail in <xref ref-type="supplementary-material" rid="SP12">online supplemental file 3</xref>.</p>
+                <supplementary-material content-type="local-data" id="SP11">
+                  <object-id pub-id-type="doi">10.1136/bmjdrc-2020-001953.supp11</object-id>
+                  <label>Supplementary data</label>
+                  <p>
+                    <inline-supplementary-material id="SS11" xlink:href="bmjdrc-2020-001953supp011.pdf" mime-subtype="pdf" mimetype="application" content-type="local-data"/>
+                  </p>
+                </supplementary-material>
+                <supplementary-material content-type="local-data" id="SP12">
+                  <object-id pub-id-type="doi">10.1136/bmjdrc-2020-001953.supp12</object-id>
+                  <label>Supplementary data</label>
+                  <p>
+                    <inline-supplementary-material id="SS12" xlink:href="bmjdrc-2020-001953supp012.pdf" mime-subtype="pdf" mimetype="application" content-type="local-data"/>
+                  </p>
+                </supplementary-material>
+              </sec>
+            </sec>
+            <sec sec-type="results" id="s3">
+              <title>Results</title>
+              <sec id="s3-1">
+                <title>Baseline and 1-year characteristics</title>
+                <p>Baseline clinical characteristics are shown in <xref rid="T1" ref-type="table">table 1</xref>. Concentrations and sizes of the main lipoprotein classes and their 1-year changes have been reported previously in a smaller subset of the DPP.<xref rid="R16" ref-type="bibr">16</xref> Additional NMR analysis contributed more detailed phenotypic resolution with additional measured metabolites, in a larger sample size. Thus, the descriptive statistics of baseline and 1-year NMR analytes and their changes by treatment and overall were recalculated and shown in <xref ref-type="supplementary-material" rid="SP1 SP2 SP3">online supplemental tables 1–3</xref>, respectively. At 3.2 and 15 years following randomization, 20.9% and 50.4% of the study cohort had developed diabetes, respectively. A heatmap representing Spearman correlations among laboratory lipids and NMR analytes is shown in the interactive <xref ref-type="supplementary-material" rid="SP8">online supplemental figure 2</xref>.</p>
+                <supplementary-material content-type="local-data" id="SP1">
+                  <object-id pub-id-type="doi">10.1136/bmjdrc-2020-001953.supp1</object-id>
+                  <label>Supplementary data</label>
+                  <p>
+                    <inline-supplementary-material id="SS1" xlink:href="bmjdrc-2020-001953supp001.pdf" mime-subtype="pdf" mimetype="application" content-type="local-data"/>
+                  </p>
+                </supplementary-material>
+                <supplementary-material content-type="local-data" id="SP2">
+                  <object-id pub-id-type="doi">10.1136/bmjdrc-2020-001953.supp2</object-id>
+                  <label>Supplementary data</label>
+                  <p>
+                    <inline-supplementary-material id="SS2" xlink:href="bmjdrc-2020-001953supp002.pdf" mime-subtype="pdf" mimetype="application" content-type="local-data"/>
+                  </p>
+                </supplementary-material>
+                <supplementary-material content-type="local-data" id="SP3">
+                  <object-id pub-id-type="doi">10.1136/bmjdrc-2020-001953.supp3</object-id>
+                  <label>Supplementary data</label>
+                  <p>
+                    <inline-supplementary-material id="SS3" xlink:href="bmjdrc-2020-001953supp003.pdf" mime-subtype="pdf" mimetype="application" content-type="local-data"/>
+                  </p>
+                </supplementary-material>
+                <supplementary-material content-type="local-data" id="SP8">
+                  <object-id pub-id-type="doi">10.1136/bmjdrc-2020-001953.supp8</object-id>
+                  <label>Supplementary data</label>
+                  <p>
+                    <inline-supplementary-material id="SS8" xlink:href="bmjdrc-2020-001953supp008.pdf" mime-subtype="pdf" mimetype="application" content-type="local-data"/>
+                  </p>
+                </supplementary-material>
+                <table-wrap id="T1" orientation="portrait" position="float">
+                  <label>Table 1</label>
+                  <caption>
+                    <p>Clinical characteristics at baseline among participants with available data (N=2590)</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <thead>
+                      <tr>
+                        <td align="left" valign="bottom" rowspan="1" colspan="1"/>
+                        <td align="left" valign="bottom" rowspan="1" colspan="1">All</td>
+                        <td align="left" valign="bottom" rowspan="1" colspan="1">Placebo</td>
+                        <td align="left" valign="bottom" rowspan="1" colspan="1">Metformin</td>
+                        <td align="left" valign="bottom" rowspan="1" colspan="1">Lifestyle</td>
+                        <td align="left" valign="bottom" rowspan="1" colspan="1"><italic>P</italic> value</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Treatment</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">2590</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">867</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">865</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">858</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Age</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">50.8 (44.4, 58.3)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">50.4 (45.0, 57.9)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">50.7 (43.5, 59.2)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">51.0 (44.9, 57.9)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.508</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="5">Sex</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.441</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> Male</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">898 (34.7)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">292 (33.7)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">294 (34.0)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">312 (36.4)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> Female</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1692 (65.3)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">575 (66.3)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">571 (66.0)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">546 (63.6)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="5">Ethnicity</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.290</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> Non-Hispanic white</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1395 (53.9)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">464 (53.5)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">445 (51.4)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">486 (56.6)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> African American</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">510 (19.7)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">170 (19.6)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">170 (19.7)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">170 (19.8)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> Hispanic</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">428 (16.5)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">144 (16.6)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">154 (17.8)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">130 (15.2)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> Asian American</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">116 (4.5)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">37 (4.3)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">49 (5.7)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">30 (3.5)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> American Indian</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">141 (5.4)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">52 (6.0)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">47 (5.4)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">42 (4.9)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> HbA1c (%)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.9 (5.6, 6.2)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.9 (5.6, 6.2)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.9 (5.6, 6.2)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.9 (5.6, 6.2)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.702</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> Fasting glucose (mg/dL)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">105.0 (100.0, 111.0)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">105.0 (100.0, 111.0)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">105.0 (100.0, 111.0)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">104.0 (100.0, 111.0)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.748</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> BMI (kg/m<sup>2</sup>)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">32.6 (28.9, 37.2)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">32.8 (28.8, 37.5)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">32.5 (28.9, 36.9)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">32.6 (29.1, 37)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.795</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> Waist (cm)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">103.8 (94.8, 113.2)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">103.5 (94.1, 113.2)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">103.2 (95.1, 113)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">104.4 (94.9, 113.2)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.779</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> Systolic blood pressure (mm Hg)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">122.0 (113.0, 133.0)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">122.0 (113, 132.0)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">122.0 (113.0, 133.0)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">123.5 (113.0, 133.8)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.429</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="5">Family history of diabetes</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.786</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> No</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">803 (31.0)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">270 (31.1)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">261 (30.2)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">272 (31.7)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> Yes</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1787 (69.0)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">597 (68.9)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">604 (69.8)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">586 (68.3)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="5">GDM history</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.645</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> No</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1450 (56.0)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">491 (56.6)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">485 (56.1)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">474 (55.2)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> Yes</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">242 (9.3)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">84 (9.7)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">86 (9.9)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">72 (8.4)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> Not applicable (male)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">898 (34.7)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">292 (33.7)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">294 (34.0)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">312 (36.4)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="5">Blood pressure medication</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.569</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> No</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">2166 (83.6)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">733 (84.5)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">715 (82.7)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">718 (83.7)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> Yes</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">424 (16.4)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">134 (15.5)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">150 (17.3)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">140 (16.3)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> 2-hour glucose (mg/dL)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">162.0 (149.0, 178.0)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">163.0 (149.0, 178.0)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">162.0 (150.0, 178.0)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">163.0 (149.0, 179.0)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.801</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> Insulinogenic index (uU/mg)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">103.8 (66.7, 158.2)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">105.8 (66.3, 163.6)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">104.8 (67.2, 160.3)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">101.8 (66.7, 152.3)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.729</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> IFI (mL/uU)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.2×10<sup>−2</sup> (0, 6.2×10<sup>−2</sup>)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.2×10<sup>−2</sup> (0, 6.2×10<sup>−2</sup>)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.4×10<sup>−2</sup> (0, 6.2×10<sup>−2</sup>)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.2×10<sup>−2</sup> (0, 6.2×10<sup>−2</sup>)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.600</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> Triglycerides (mg/dL)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">144.0 (102.0, 204.0)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">149.0 (105.0, 206.5)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">142.0 (98.0, 201.0)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">142.0 (100.2, 201.0)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.096</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> Total cholesterol (mg/dL)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">203.0 (179.0, 227.8)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">202.0 (177.0, 227.5)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">205.0 (180.0, 229.0)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">202.5 (178.2, 226)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.541</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> LDL-C (mg/dL)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">124.0 (102.0, 145.0)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">123.0 (101.0, 146.5)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">125.0 (102.0, 145.0)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">122.0 (103.0, 144.0)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.720</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> HDL-C (mg/dL)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">44.0 (37.0, 52.0)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">43.0 (37.0, 51.0)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">45.0 (37.0, 53.0)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">44.0 (38.0, 53.0)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.018</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="T1_FN1">
+                      <p>The table shows the median and 25th and 75th percentiles for continuous variables and counts and percentages for categorical variables.</p>
+                    </fn>
+                    <fn id="T1_FN2">
+                      <p><italic>P</italic> values are calculated using Kruskal-Wallis rank sum tests (for continuous variables) and Χ<sup>2</sup> tests (for categorical variables) to assess mean differences between the three treatment arms.</p>
+                    </fn>
+                    <fn id="T1_FN3">
+                      <p>BMI, body mass index; GDM, gestational diabetes mellitus; HbA1c, hemoglobin A1c; HDL-C, high-density lipoprotein cholesterol; IFI, reciprocal of the fasting insulin level; LDL-C, low-density lipoprotein cholesterol.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+              <sec id="s3-2">
+                <title>Comparison of lipid-related models</title>
+                <p>We first evaluated Model 1 and Model 2 to compare the predictive utilities of standard lipids and all lipid-related NMR analytes. MCC and ROC AUC values from these models are presented in <xref ref-type="fig" rid="F1">figure 1</xref>. The means and SD for MCC and ROC AUC for all models, methods, and correlation filters are browsable in the interactive <xref ref-type="supplementary-material" rid="SP4">online supplemental table 4</xref>. The discriminative utilities of models for short-term and long-term diabetes demonstrated a maximum observed MCC of 0.16 and a maximum ROC AUC of 0.62. Model 2 offered small improvement in the discriminative utilities compared with model 1 for both short-term and long-term diabetes. A maximum MCC of 0.12 was observed for model 1 using the GLM and ANN methods for short-term diabetes (max ROC AUC=0.61) and a maximum MCC of 0.14 using ANN for long-term diabetes (max ROC AUC=0.58). In comparison, a maximum MCC of 0.16 was observed for model 2 using the SVM-L method for short-term diabetes (max ROC AUC=0.62) and a maximum MCC of 0.16 using SVM-R for long-term diabetes (max ROC AUC=0.60).</p>
+                <supplementary-material content-type="local-data" id="SP4">
+                  <object-id pub-id-type="doi">10.1136/bmjdrc-2020-001953.supp4</object-id>
+                  <label>Supplementary data</label>
+                  <p>
+                    <inline-supplementary-material id="SS4" xlink:href="bmjdrc-2020-001953supp004.pdf" mime-subtype="pdf" mimetype="application" content-type="local-data"/>
+                  </p>
+                </supplementary-material>
+                <fig id="F1" orientation="portrait" position="float">
+                  <label>Figure 1</label>
+                  <caption>
+                    <p>MCC and ROC AUC statistics across all machine learning algorithms and baseline lipid-related prediction models in relation to short-term and long-term diabetes incidence (N=2590). MCC averages are represented by circles and ROC AUC averages are represented by squares. The averages are calculated from the five obtained MCC and ROC AUC values from the five separate test sets in the nested cross-validation framework. The error bars represent SD of the five obtained MCC and ROC AUC values. The left panel shows the discriminative utilities for short-term, while the right panel shows the discriminative utilities for long-term diabetes incidence. Model 1 includes predictors: age at randomization, sex, self-reported ethnicity, all laboratory lipids, lipid-lowering medication use and treatment arm. Model 2 includes all Model 1 predictors and all baseline lipid-related NMR analytes. ANN, artificial neural network; GLM, generalized linear model (refers to logistic regression here); MCC, Matthews Correlation Coefficient; NMR, nuclear magnetic resonance; RF, random forest; ROC AUC, receiver operating characteristic area under the curve; SGB, stochastic gradient boosting; SVM-L, support vector machine with linear kernel; SVM-P, support vector machine with polynomial kernel; SVM-R, support vector machine with radial kernel; T2D, type 2 diabetes.</p>
+                  </caption>
+                  <graphic xlink:href="bmjdrc-2020-001953f01"/>
+                </fig>
+              </sec>
+              <sec id="s3-3">
+                <title>Univariate prediction models</title>
+                <p>As a second step, we examined univariate prediction models. The results from these models for short-term and long-term diabetes, using GLM, are presented in <xref ref-type="fig" rid="F2">figure 2A</xref>. In these analyses, standard lipid and lipid-related NMR analytes as well as clinical and glycemic risk factors and non-lipid NMR analytes were included. Using MCC, the strongest predictors of both short-term and long-term diabetes were glycemic traits, although the insulinogenic index and IFI were considerably weaker than others. Among standard lipids, triglycerides showed the strongest prediction for short-term diabetes using both MCC and ROC AUC (MCC=0.15; ROC AUC=0.62), while HDL-C was the strongest predictor of long-term diabetes development (MCC=0.08; ROC AUC=0.56). Among NMR lipid analytes, TRL size had the highest prediction for short-term diabetes (MCC=0.15; ROC AUC=0.56), while large and small LDL particles, LDL size and TRL size demonstrated the highest predictive utility for long-term diabetes (MCC ~0.10; ROC AUC ~0.57 for these four lipid analytes).</p>
+                <fig id="F2" orientation="portrait" position="float">
+                  <label>Figure 2</label>
+                  <caption>
+                    <p>(A) Univariate discriminative utilities of continuous analytes at baseline in relation to short-term and long-term diabetes incidence (N=2590). The MCC and ROC AUC values are averages, calculated from the five obtained MCC and ROC AUC values from the five separate test sets in the nested cross-validation framework using the GLM method (logistic regression). The black circles represent MCC and ROC AUC values for short-term diabetes, while the red circles represent MCC and ROC AUC values for long-term diabetes. The predictors are sorted according to their MCC values for short-term diabetes. Model 1 includes predictors: age at randomization, sex, self-reported ethnicity, all laboratory lipids, lipid-lowering medication use and treatment arm. Model 2 includes all model 1 predictors and all baseline lipid-related NMR analytes. (B) Distributions of the six best performing univariate predictors for short-term diabetes, stratified by incident diabetes status (N=2590). The upper panel of the figure shows a schematic explanation for distributions that generally indicate good versus poor discriminative utility. The lower panel of the figure shows the density plots of the variables fasting glucose, 2-hour glucose, HbA1c, insulinogenic index, TRL size and glycine. AcAc, acetoacetate; ApoA1, apolipoprotein A1; ApoB, apolipoprotein B; BHB, beta-hydroxy-butyrate; BMI, body mass index; GlycA, glycoprotein acetylation; GLM, generalized linear model; HbA1c, hemoglobin A1c; HDL-C, high-density lipoprotein cholesterol; IFI, reciprocal of the fasting insulin level; LDL-C, low-density lipoprotein cholesterol; MCC, Matthews Correlation Coefficient; NMR, nuclear magnetic resonance; PPD, peak particle density; ROC AUC, receiver operating characteristic area under the curve; SBP, systolic blood pressure; T2D, type 2 diabetes; TC, total cholesterol; TG, triglycerides; TRL, triglyceride rich lipoprotein; TRL-C, TRL-cholesterol; TRL-G, TRL-triacylglycerol.</p>
+                  </caption>
+                  <graphic xlink:href="bmjdrc-2020-001953f02"/>
+                </fig>
+                <p>The outcome-stratified distributions of the top six classifiers for short-term diabetes, namely fasting glucose (MCC=0.25), 2-hour glucose (MCC=0.23), HbA1c (MCC=0.19), insulinogenic index (MCC=0.15), TRL size (MCC=0.15) and glycine (MCC=0.15), are shown in <xref ref-type="fig" rid="F2">figure 2B</xref>. The main difference for long-term diabetes was that after the glycemic traits, the next three strongest univariate predictors were all branched chain amino acids (valine, isoleucine, leucine). The associations between baseline analytes and the outcomes, the development of diabetes at 3.2 and 15 years, are shown in <xref ref-type="supplementary-material" rid="SP5 SP6">online supplemental tables 5 and 6</xref>, respectively.</p>
+                <supplementary-material content-type="local-data" id="SP5">
+                  <object-id pub-id-type="doi">10.1136/bmjdrc-2020-001953.supp5</object-id>
+                  <label>Supplementary data</label>
+                  <p>
+                    <inline-supplementary-material id="SS5" xlink:href="bmjdrc-2020-001953supp005.pdf" mime-subtype="pdf" mimetype="application" content-type="local-data"/>
+                  </p>
+                </supplementary-material>
+                <supplementary-material content-type="local-data" id="SP6">
+                  <object-id pub-id-type="doi">10.1136/bmjdrc-2020-001953.supp6</object-id>
+                  <label>Supplementary data</label>
+                  <p>
+                    <inline-supplementary-material id="SS6" xlink:href="bmjdrc-2020-001953supp006.pdf" mime-subtype="pdf" mimetype="application" content-type="local-data"/>
+                  </p>
+                </supplementary-material>
+              </sec>
+              <sec id="s3-4">
+                <title>Comparison of all models</title>
+                <p>In order to test whether the inclusion of lipid data augmented the predictive utility of models incorporating usual epidemiological measures, we next evaluated seven additional models of increasing complexity. Baseline models are presented in <xref ref-type="fig" rid="F3">figure 3</xref>, while all models (including model 7b with the 1-year change variables and a smaller sample size) are presented in <xref ref-type="supplementary-material" rid="SP9">online supplemental figure 3</xref>. The means and SD for MCC and ROC AUC for all methods, models and correlation filters are browsable in the interactive <xref ref-type="supplementary-material" rid="SP4">online supplemental table 4</xref>.</p>
+                <supplementary-material content-type="local-data" id="SP9">
+                  <object-id pub-id-type="doi">10.1136/bmjdrc-2020-001953.supp9</object-id>
+                  <label>Supplementary data</label>
+                  <p>
+                    <inline-supplementary-material id="SS9" xlink:href="bmjdrc-2020-001953supp009.pdf" mime-subtype="pdf" mimetype="application" content-type="local-data"/>
+                  </p>
+                </supplementary-material>
+                <fig id="F3" orientation="portrait" position="float">
+                  <label>Figure 3</label>
+                  <caption>
+                    <p>MCC and ROC AUC statistics across all machine learning algorithms and all prediction models in relation to short-term and long-term diabetes incidence (N=2590). MCC averages are represented by circles and ROC AUC averages are represented by squares. The averages are calculated from the five obtained MCC and ROC AUC values from the five separate test sets in the nested cross-validation framework. The error bars represent SD of the five obtained MCC and ROC AUC values. The left panel shows the discriminative utilities for short-term, while the right panel shows the discriminative utilities for long-term diabetes incidence. This figure demonstrates the model results for all baseline models (N=2590). ANN, artificial neural network; GLM, generalized linear model (refers to logistic regression here); MCC, Matthews Correlation Coefficient; RF, random forest; ROC AUC, receiver operating characteristic area under the curve; SGB, stochastic gradient boosting; SVM-L, support vector machine with linear kernel; SVM-P, support vector machine with polynomial kernel; SVM-R, support vector machine with radial kernel; T2D, type 2 diabetes.</p>
+                  </caption>
+                  <graphic xlink:href="bmjdrc-2020-001953f03"/>
+                </fig>
+                <p>The standard and NMR lipid measures or the full NMR panel did not improve prediction (max MCC=0.30; max ROC AUC=0.74) when added to the simpler clinical model including fasting glucose (max MCC=0.30; max ROC AUC=0.73).</p>
+                <p>The highest discriminative utility was observed for Model 9 (including 2-hour glucose). This was seen in evaluation of short-term diabetes prediction (using SVM-R; MCC=0.36) and long-term diabetes prediction (using SVM-P and ANN; MCC=0.34). For prediction of short-term diabetes the ANN, SVM-L and SVM-R resulted in ROC AUC=0.77, and for long-term diabetes the SVM-P, SVM-R and ANN methods produced ROC AUC=0.73.</p>
+                <p>In a sensitivity analysis, Model 9 was repeated without the IFI and insulinogenic index variables. This analysis yielded very similar results to the original Model 9 metrics, indicating that 2-hour glucose alone here is sufficient to achieve the highest MCC and ROC AUC values.</p>
+                <p>Although Cox models and random forest generally underperformed the other methods in both short-term and long-term T2D classification (<xref ref-type="fig" rid="F3">figure 3</xref>), there were no large differences in discriminative utilities between GLM and the other machine learning algorithms.</p>
+                <p>No meaningful differences were observed when comparing the results from models filtered by the other evaluated correlation thresholds (|r|&gt;0.8 and no filter). Rank transformation of NMR analytes did not materially affect the results.</p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="s4">
+              <title>Discussion</title>
+              <p>We have undertaken analyses of the predictive utility of traditional clinical factors, biochemical measures of routinely measured blood lipids, and NMR measures of lipoproteins as predictors of short-term and long-term incident diabetes in the DPP and the DPPOS. We found that standard lipids such as triglycerides and HDL-C were poor predictors of both short-term and long-term incident type 2 diabetes in the DPP and the DPPOS. Triglyceride level was a somewhat better predictor of short-term diabetes than HDL-C in univariate analysis, whereas HDL-C was the better predictor of longer-term diabetes development. This may at least in part be due to the fact that HDL-C is a more stable measure over time than triglycerides. Although TRL size appeared overall to be the best individual NMR-based predictor of incident diabetes, a model containing NMR-measured lipoprotein measures provided minimal added discriminative utility in predicting incident diabetes over the model containing only standard lipids in our study. The best predictive models included measures of glycemia; the inclusion of standard lipids or NMR-based lipoprotein size and concentration measures did not augment the predictive utility of models incorporating glycemia.</p>
+              <p>Multiple studies demonstrate that elevated triglyceride and reduced HDL-C are strongly associated with insulin resistance and diabetes development.<xref rid="R2" ref-type="bibr">2–4</xref> In our analyses, total HDL and triglycerides were also significantly associated with diabetes development. These lipid alterations were shown to be due to lipoprotein size and concentration abnormalities resulting from insulin resistance, which manifest prior to the development of dysglycemia.<xref rid="R6" ref-type="bibr">6–10</xref> There may also be other mechanisms linking lipoprotein abnormalities to diabetes development.<xref rid="R29" ref-type="bibr">29</xref> These studies also showed that these epidemiological associations remained statistically significant after the adjustment of conventional risk factors for diabetes development such as BMI, family history and glycemic measures. This observation suggests that lipid and lipoprotein markers may have value for risk stratification in patients with dysglycemia. In addition, in most studies,<xref rid="R6" ref-type="bibr">6–9</xref> lipoprotein abnormalities such as higher very-low-density lipoprotein (VLDL) size remained associated with incident diabetes after adjusting for triglyceride and HDL-C concentrations, suggesting increased sensitivity as markers of risk compared with standard lipid measurements.</p>
+              <p>Single or multiple NMR analytes, related measures, or composite scores based on NMR analytes such as the lipoprotein insulin resistance score have been shown to strongly associate with glycemia<xref rid="R30" ref-type="bibr">30 31</xref> and type 2 diabetes.<xref rid="R10" ref-type="bibr">10 32 33</xref> However, the question as to whether various lipid and non-lipid NMR analytes can offer improvement in the classification of future type 2 diabetes status is debated. Recent studies showing strong associations between the lipoprotein insulin resistance score and type 2 diabetes incidence showed no or very small improvement in discriminative utilities of NMR lipoproteins when compared with established predictors.<xref rid="R9" ref-type="bibr">9 32</xref>
+</p>
+              <p>The apparent contradiction between our findings (showing limited predictive utility) versus our supplemental analysis of associations and previous studies (reporting strong associations of the same biomarkers) showcases a common, yet poorly understood, phenomenon. Biomarkers with robust statistical associations in populations are often poor classifiers of future disease status in individuals<xref rid="R13" ref-type="bibr">13 34 35</xref> and therefore may not have value for individualized (n=1) prediction.<xref rid="R12" ref-type="bibr">12</xref> While association studies are important in demonstrating a link between a biomarker and a disease, and may point to potential interventions for preventing or treating a disease, prediction of disease is more useful in making clinical decisions in a given individual. Thus, while lipids and lipoprotein abnormalities are linked to the pathophysiological changes underlying the development of type 2 diabetes and may have importance in identifying individuals with pre-diabetes at increased risk of cardiovascular disease, in our analyses they did not add discriminative value in predicting incident diabetes.</p>
+              <p>Of note, the expanded NMR assessment that included measurement of branched chain amino acids and glycine, which have been shown to be associated with insulin resistance and incident diabetes,<xref rid="R36" ref-type="bibr">36</xref> also did not add discriminative utility to the glycemic model, although glycine and TRL size were among the best individual non-glucose predictors of short-term diabetes and branched chain amino acids were the best univariate predictors of long-term diabetes after glycemic traits in this cohort. Interestingly, TRL size has been shown to improve risk prediction for diabetes elsewhere, particularly in individuals with lower HbA1c values.<xref rid="R37" ref-type="bibr">37</xref> Since lifestyle intervention and to a lesser extent metformin treatment caused beneficial changes in lipids and lipoproteins<xref rid="R16" ref-type="bibr">16</xref> in the DPP, we also tested an NMR model that included changes in analytes after 1 year of lifestyle and metformin treatment, but found that these treatment-related changes added no additional discriminative utility for incident diabetes.</p>
+              <p>Other than known strengths and limitations of using data emanating from randomized trials,<xref rid="R38" ref-type="bibr">38</xref> a further limitation of our analysis should be considered. Our findings were obtained in a clinical trial with pre-diabetes who were at high risk of developing diabetes and whose risk factor distributions may be different from individuals in the general population. Thus, these results might not be generalizable to populations with different distributions of diabetes risk factors. Specifically, our findings might not apply when assessing risk or predicting diabetes in people with normal glucose response. Predictive models for incident diabetes that also include data from healthier populations might provide evidence for stronger discriminative utilities of non-glycemic markers.<xref rid="R39" ref-type="bibr">39</xref> On the other hand, the importance of more precise prediction of diabetes in high-risk subjects remains, since in the DPPOS, even after 15 years of follow-up, over 40% of participants in the placebo group did not develop diabetes.<xref rid="R40" ref-type="bibr">40</xref> An additional potential limitation is the long-term storage of blood samples before the NMR analysis—as all samples were analyzed &gt;7 years after the samples had been obtained, it is possible that some more sensitive molecules, for instance amino acids, could have been affected.<xref rid="R41" ref-type="bibr">41</xref>
+</p>
+              <p>In our study, the fasting glucose and 2-hour glucose levels at baseline were the best univariate predictors (mean MCC ~0.25 and ROC AUC ~0.67) outperforming all other risk factors including BMI and measures of insulin resistance and insulin secretion. This is not unexpected since these glycemic measures define the criteria for the diagnosis of incident diabetes in the DPP/DPPOS. The addition of 2-hour glucose to the glycemic model including fasting glucose increased its discriminative utility, and although 2-hour glucose measurement is less widely used than it once was to identify people with pre-diabetes, it clearly improved prediction of diabetes over other measures. This improvement in discriminative utility when adding 2-hour glucose to the model had been observed elsewhere in large populations.<xref rid="R42" ref-type="bibr">42</xref> Of note, even the best model (Model 9, max MCC=0.36, max ROC AUC=0.77) that included both the fasting and 2-hour glucose measurements was not able to predict future diabetes well in our study. New biomarkers arising from various ‘omics’ platforms, environmental and lifestyle determinants, personal disease histories and other layers of personal data may prove useful in improving prediction models.<xref rid="R43" ref-type="bibr">43</xref> Lipidomics and metabolomics, in particular, offer promising avenues for further research;<xref rid="R44" ref-type="bibr">44</xref> multiple recent reports demonstrate that these more refined assessments have the potential to yield well-performing predictive models, even when compared with simpler models incorporating glycemic measures.<xref rid="R45" ref-type="bibr">45–50</xref> Future studies should evaluate lipidomic and metabolomic profiles, sampled at multiple occasions—in both fasting and metabolically challenged states—to gain a more holistic picture and hopefully superior predictive models to predict diabetes.</p>
+              <p>Overall prediction was somewhat superior for all models for short-term diabetes (metrics of discriminative utility consistently higher in these models compared with those in the long-term diabetes models), although this was only apparent when assessing predictive validities using ROC AUC. This could reflect a higher predictive validity of risk factors in those at highest risk of diabetes development.</p>
+              <p>In this study, we chose to compare standard statistical methods for prediction with sophisticated machine learning algorithms that can provide improvement to established methods in prediction modeling.<xref rid="R51" ref-type="bibr">51</xref> We acknowledge that the relatively small sample size in our study is a limitation when applying machine learning algorithms. We aimed to offset the small sample size by establishing a nested cross-validation framework so that all observations can be used in test sets and thereby maximize test data size and decrease the chances of mismatch between the random test data and the whole cohort. A simulation study was undertaken to test the utility of machine learning algorithms to detect latent interactions that might impact discriminative utilities. The result of the performed simulation experiment was that latent interactions, if present, would be detected using some of the more sophisticated machine learning algorithms, compared with simpler methods, such as GLM and SVM-L. As no large improvement in the discriminative utilities was observed when comparing prediction models, the results of this study are indicative of the lack of interactions that would meaningfully impact the performance of the used predictive models, for example, between our measures and the treatment arms.</p>
+              <p>In conclusion, although lipid and lipoprotein size and concentration measures associate strongly with incident diabetes, they did not add predictive utility to other standard clinical and glycemic risk factors in the DPP/DPPOS. Even using the best predictors, namely fasting and 2-hour glucose measurements, binary prediction of diabetes development was only moderate. Given that machine learning algorithms were not superior to traditional logistic regression in this setting, we conclude that influential non-linearities in the analyzed data were limited.</p>
+              <supplementary-material content-type="local-data" id="SP10">
+                <object-id pub-id-type="doi">10.1136/bmjdrc-2020-001953.supp10</object-id>
+                <label>Supplementary data</label>
+                <p>
+                  <inline-supplementary-material id="SS10" xlink:href="bmjdrc-2020-001953supp010.pdf" mime-subtype="pdf" mimetype="application" content-type="local-data"/>
+                </p>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>The authors thank Dr Naji Younes (Associate Research Professor, Department of Biostatistics and Bioinformatics, George Washington University) for his feedback on statistical methodology. The research group gratefully acknowledges the commitment and dedication of the participants of the DPP and the DPPOS.</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="other">
+                <p><bold>Collaborators:</bold> Pennington Biomedical Research Center (Baton Rouge, LA): George A. Bray, MD*, Kishore Gadde, MD*, Iris W. Culbert, BSN, RN, CCRC**, Jennifer Arceneaux RN, BSN**, Annie Chatellier, RN, CCRC**, Amber Dragg RD, LDN**, Catherine M. Champagne, PhD, RD, Crystal Duncan, LPN, Barbara Eberhardt, RD, LDN, Frank Greenway, MD, Fonda G. Guillory, LPN, April A. Herbert, RD, Michael L. Jeffirs, LPN, Betty M. Kennedy, MPA, Erma Levy, RD, Monica Lockett, LPN, Jennifer C. Lovejoy, PhD, Laura H. Morris, BS, Lee E. Melancon, BA, BS, Donna H. Ryan, MD, Deborah A. Sanford, LPN, Kenneth G. Smith, BS, MT, Lisa L. Smith, BS, Julia A. St. Amant, RTR, Richard T. Tulley, PhD, Paula C. Vicknair, MS, RD, Donald Williamson, PhD, Jeffery J. Zachwieja, PhD; University of Chicago (Chicago, IL): Kenneth S. Polonsky, MD*, Janet Tobian, MD, PhD*, David A. Ehrmann, MD*, Margaret J. Matulik, RN, BSN**, Karla A. Temple, PhD, RDN, LDN**, Bart Clark, MD, Kirsten Czech, MS, Catherine DeSandre, BA, Ruthanne Hilbrich, RD, Wylie McNabb, EdD, Ann R. Semenske, MS, RD; Jefferson Medical College (Philadelphia, PA): Jose F. Caro, MD*, Kevin Furlong, DO*, Barry J. Goldstein, MD, PhD*, Pamela G. Watson, RN, ScD*, Kellie A. Smith, RN, MSN**, Jewel Mendoza, RN, BSN**, Marsha Simmons, CCRP**, Wendi Wildman, RN**, Renee Liberoni, MPH, John Spandorfer, MD, Constance Pepe, MS, RD; University of Miami (Miami, FL): Richard P. Donahue, PhD*, Ronald B. Goldberg, MD*, Ronald Prineas, MD, PhD*, Juliet Ojito, RN**, Patricia Rowe, MPA**, Jeanette Calles, MSEd**, Paul Cassanova-Romero, MD, Sumaya Castillo-Florez, MPH, Hermes J. Florez, MD, Anna Giannella, RD, MS**, Lascelles Kirby, MS, Carmen Larreal, Olga Lara, Valerie McLymont, RN, Jadell Mendez, Arlette Perry, PhD, Patrice Saab, PhD, Beth Veciana; The University of Texas Health Science Center (San Antonio, TX): Steven M. Haffner, MD, MPH*, Helen P. Hazuda, PhD*, Maria G. Montez, RN, MSHP, CDE**, Kathy Hattaway, RD, MS, Juan Isaac, RN, BSN, Carlos Lorenzo, MD, PhD, Arlene Martinez, RN, BSN, CDE, Monica Salazar, Tatiana Walker, RD, MS, CDE; University of Colorado (Denver, CO): Dana Dabelea, MD, PhD*, Richard F. Hamman, MD, DrPH*, Patricia V. Nash, MS**, Sheila C. Steinke, MS**, Lisa Testaverde, MS**, Jennifer Truong, MPH**, Denise R. Anderson, RN, BSN, Larry B. Ballonoff, MD, Alexis Bouffard, MA, RN, BSN, Brian Bucca OD, FAOO, B. Ned Calonge, MD, MPH, Lynne Delve, Martha Farago, RN, James O. Hill, PhD, Shelley R. Hoyer, BS, Tonya Jenkins, RD, CDE, Bonnie T. Jortberg, MS, RD, CDE, Dione Lenz, RN, BSN, CDE, Marsha Miller, MS, RD, Thomas Nilan, BS, Leigh Perreault, MD, David W. Price, MD, Judith G. Regensteiner, PhD, Emily B. Schroeder, MD, Helen Seagle, MS, RD, Carissa M. Smith, BS, Brent VanDorsten, PhD; Joslin Diabetes Center (Boston, MA): Edward S. Horton, MD*, Medha Munshi, MD*, Kathleen E. Lawton, RN**, Sharon D. Jackson, CCRC, MS, RD, CDE**, Catherine S. Poirier, RN, BSN**, Kati Swift, RN, BSN**, Ronald A. Arky, MD, Marybeth Bryant, Jacqueline P. Burke, BSN, Enrique Caballero, MD, Karen M. Callaphan, BA, Barbara Fargnoli, RD, Therese Franklin, Om P. Ganda, MD, Ashley Guidi, BS, Mathew Guido, BA, Alan M. Jacobsen, MD, Lyn M. Kula, RD, Margaret Kocal, RN, CDE, Lori Lambert, MS, RD, LD, Kathleen E. Lawton, RN, Sarah Ledbury, Med, RD, Maureen A. Malloy, BS, Roeland J.W. Middelbeek, MD, Maryanne Nicosia, MS, RD, Cathryn F. Oldmixon, RN, Jocelyn Pan, BS, MPH, Marizel Quitingon, Stacy Rubtchinsky, BS, Ellen W. Seely, MD, Jessica Sansoucy, BS, Dana Schweizer, BSN, Donald Simonson, MD, Fannie Smith, MD, Caren G. Solomon, MD, MPH, Jeanne Spellman, RD, James Warram, MD; VA Puget Sound Health Care System and University of Washington (Seattle, WA): Steven E. Kahn, MB, ChB*, Basma Fattaleh, BA **, Brenda K. Montgomery, RN, BSN, CDE**, Celeste Colegrove, BS, Wilfred Fujimoto, MD, Robert H. Knopp, MD, Edward W. Lipkin, MD, Michelle Marr, BA, Ivy Morgan-Taggart, Anne Murillo, BS, Kayla O’Neal, BS, Dace Trence, MD, Lonnese Taylor, RN, BS, April Thomas, RD, MPH, CDE, Elaine C. Tsai, MD, MPH; University of Tennessee (Memphis, TN): Samuel Dagogo-Jack, MD, MSc, FRCP, FACP*, Abbas E. Kitabchi, PhD, MD, FACP*, Mary E. Murphy, RN, MS, CDE, MBA**, Laura Taylor, RN, BSN, CDE**, Jennifer Dolgoff, RN, BSN**, William B. Applegate, MD, MPH, Michael Bryer-Ash, MD, Debra Clark, LPN, Sandra L. Frieson, RN, Uzoma Ibebuogu, MD, Raed Imseis, MD, Helen Lambeth, RN, BSN, Lynne C. Lichtermann, RN, BSN, Hooman Oktaei, MD, Harriet Ricks, Lily M.K. Rutledge, RN, BSN, Amy R. Sherman, RD, LD, Clara M. Smith, RD, MHP, LDN, Judith E. Soberman, MD, Beverly Williams-Cleaves, MD, Avnisha Patel, MLT, Ebenezer A. Nyenwe, MD, FACP, Ethel Faye Hampton, R.N; Northwestern University’s Feinberg School of Medicine (Chicago, IL): Boyd E. Metzger, MD*, Mark E. Molitch, MD*, Mariana K. Johnson, MS, RN**, Daphne T. Adelman, MBA, RN, Catherine Behrends, Michelle Cook, MS, Marian Fitzgibbon, PhD, Mimi M. Giles, MS, RD, Deloris Heard, MA, Cheryl K.H. Johnson, MS, RN, Diane Larsen, BS, Anne Lowe, BS, Megan Lyman, BS, David McPherson, MD, Samsam C. Penn, BA, Thomas Pitts, MD, Renee Reinhart, RN, MS, Susan Roston, RN, RD, Pamela A. Schinleber, RN, MS, Amisha Wallia, MD; Massachusetts General Hospital (Boston, MA): David M. Nathan, MD*, Charles McKitrick, BSN**, Heather Turgeon, BSN**, Mary Larkin, MSN**, Marielle Mugford, BA**, Kathy Abbott, Ellen Anderson, MS, RD, Laurie Bissett, MS, RD, Kristy Bondi, BS, Enrico Cagliero, MD, Jose C. Florez, MD, PhD+, Linda Delahanty, MS, RD, Valerie Goldman, MS, RD, Elaine Grassa, Lindsery Gurry BSN, RN, CDE, Kali D’Anna, Fernelle Leandre BS, Peter Lou, MD, Alexandra Poulos, Elyse Raymond, BS, Valerie Ripley, BS, Christine Stevens, RN, Beverly Tseng; University of California-San Diego (La Jolla, CA): Jerrold M. Olefsky, MD*, Elizabeth Barrett-Connor, MD*, Sunder Mudaliar, MD*, Maria Rosario Araneta, PhD*, Mary Lou Carrion-Petersen, RN, BSN**, Karen Vejvoda, RN, BSN, CDE, CCRC**, Madeline Beltran, RN, BSN, CDE, Lauren N. Claravall, BS, Jonalle M. Dowden, BS, Steven V. Edelman, MD, Pranav Garimella, MBBS, Robert R. Henry, MD, Javiva Horne, RD, Marycie Lamkin, RN, Simona Szerdi Janesch, BA, Diana Leos, William Polonsky, PhD, Jean Smith, RN, Jennifer Torio-Hurley; Columbia University (New York, NY): F. Xavier Pi-Sunyer, MD*, Jane E. Lee, MS**, Susan Hagamen, MS, RN, CDE**, David B. Allison, PhD, Nnenna Agharanya, Nancy J. Aronoff, MS, RD, Maria Baldo, Jill P. Crandall, MD, Sandra T. Foo, MD, Jose A. Luchsinger, MD, MPH, Carmen Pal, MD, Kathy Parkes, RN, Mary Beth Pena, RN, Ellen S. Rooney, BA, Gretchen E.H. Van Wye, MA, Kristine A. Viscovich, ANP; Indiana University (Indianapolis, IN): David G. Marrero, PhD*, Kieren J. Mather, MD*, Melvin J. Prince, MD*, Susie M. Kelly, RN, CDE**, Marcia A. Jackson**, Gina McAtee**, Paula Putenney, RN**, Ronald T. Ackermann, MD, Carolyn M. Cantrell, Yolanda F. Dotson, BS, Edwin S. Fineberg, MD, Megan Fultz, John C. Guare, PhD, Angela Hadden, James M. Ignaut, MA, Marion S. Kirkman, MD, Erin O’Kelly Phillips, Beverly D. Porter, MSN, Paris J. Roach, MD, Nancy D. Rowland, BS, MS, Madelyn L. Wheeler, RD; Medstar Research Institute (Washington, DC): Vanita Aroda, MD*, Michelle Magee, MD*, Robert E. Ratner, MD*, Gretchen Youssef, RD, CDE**, Sue Shapiro, RN, BSN, CCRC**, Natalie Andon, RN, Catherine Bavido-Arrage, MS, RD, LD, Geraldine Boggs, MSN, RN, Marjorie Bronsord, MS, RD, CDE, Ernestine Brown, Holly Love Burkott, RN, Wayman W. Cheatham, MD, Susan Cola, Cindy Evans, Peggy Gibbs, Tracy Kellum, MS, RD, CDE, Lilia Leon, Milvia Lagarda, Claresa Levatan, MD, Milajurine Lindsay, Asha K. Nair, BS, Jean Park, MD, Maureen Passaro, MD, Angela Silverman, Gabriel Uwaifo, MD, Debra Wells-Thayer, NP, CDE, Renee Wiggins, RD; University of Southern California/UCLA Research Center (Alhambra, CA): Mohammed F. Saad, MD*, Karol Watson, MD*, Maria Budget**, Sujata Jinagouda, MD**, Medhat Botrous, MD**, Anthony Sosa**, Sameh Tadros**, Khan Akbar, MD, Claudia Conzues, Perpetua Magpuri, Kathy Ngo, Amer Rassam, MD, Debra Waters, Kathy Xapthalamous; Washington University (St. Louis, MO): Julio V. Santiago, MD*, Samuel Dagogo-Jack, MD, MSc, FRCP, FACP*, Neil H. White, MD, CDE*, Angela L. Brown, MD*, Samia Das, MS, MBA, RD, LD**, Prajakta Khare-Ranade, MSc, RDN, LD**, Tamara Stich, RN, MSN, CDE**, Ana Santiago, RN, Edwin Fisher, PhD, Emma Hurt, RN, Tracy Jones, RN, Michelle Kerr, RD, Lucy Ryder, RN, Cormarie Wernimont, RD, LD; Johns Hopkins School of Medicine (Baltimore, MD): Sherita Hill Golden, MD, MHS, FAHA*, Christopher D. Saudek, MD*, Vanessa Bradley, BA**, Emily Sullivan, MEd, RN**, Tracy Whittington, BS**, Caroline Abbas, Adrienne Allen, Frederick L. Brancati, MD, MHS, Sharon Cappelli, Jeanne M. Clark, MD, Jeanne B. Charleston, RN, MSN, Janice Freel, Katherine Horak, RD, Alicia Greene, Dawn Jiggetts, Deloris Johnson, Hope Joseph, Kimberly Loman, Nestoras Mathioudakis, MD, MHS, Henry Mosley, John Reusing, Richard R. Rubin, PhD, Alafia Samuels, MD, Thomas Shields, Shawne Stephens, Kerry J. Stewart, EdD, LeeLana Thomas, Evonne Utsey, Paula Williamson; University of New Mexico (Albuquerque, NM): David S. Schade, MD*, Karwyn S. Adams, RN, MSN**, Janene L. Canady, RN, CDE**, Carolyn Johannes, RN, CDE**, Claire Hemphill, RN, BSN**, Penny Hyde, RN, BSN**, Leslie F. Atler, PhD, Patrick J. Boyle, MD, Mark R. Burge, MD, Lisa Chai, RN, Kathleen Colleran, MD, Ysela Gonzales, Doris A. Hernandez-McGinnis, Patricia Katz, LPN, Carolyn King, Med, Amer Rassam, MD, Sofya Rubinchik, MD, Willette Senter, RD, Debra Waters, PhD; Albert Einstein College of Medicine (Bronx, NY): Jill Crandall, MD*, Harry Shamoon, MD*, Janet O. Brown, RN, MPH, MSN**, Gilda Trandafirescu, MD**, Danielle Powell, MPH, Elsie Adorno, BS, Liane Cox, MS, RD, Helena Duffy, MS, C-ANP, Samuel Engel, MD, Allison Friedler, BS, Angela Goldstein, FNP-C, NPP, CSW, Crystal J. Howard-Century, MA, Jennifer Lukin, BA, Stacey Kloiber, RN, Nadege Longchamp, LPN, Helen Martinez, RN, MSN, FNP-C, Dorothy Pompi, BA, Jonathan Scheindlin, MD, Elissa Violino, RD, MS, Elizabeth A. Walker PhD, RN, Judith Wylie-Rosett, EdD, RD, Elise Zimmerman, RD, MS, Joel Zonszein, MD; University of Pittsburgh (Pittsburgh, PA): Trevor Orchard, MD*, Elizabeth Venditti, PhD*, Rena R. Wing, PhD*, Susan Jeffries, RN, MSN**, Gaye Koenning, MS, RD**, M. Kaye Kramer, BSN, MPH**, Marie Smith, RN, BSN**, Susan Barr, BS, Catherine Benchoff, Miriam Boraz, PhD, Lisa Clifford, BS, Rebecca Culyba, BS, Marlene Frazier, Ryan Gilligan, BS, Stephanie Guimond, BS, Susan Harrier, MLT, Louann Harris, RN, Andrea Kriska, PhD, Qurashia Manjoo, MD, Monica Mullen, MHP, RD, Alicia Noel, BS, Amy Otto, PhD, Jessica Pettigrew, CMA, Debra Rubinstein, MD, Linda Semler, MS, RD, Cheryl F. Smith, PhD, Valarie Weinzierl, MPH, Katherine V. Williams, MD, MPH, Tara Wilson, BA; University of Hawaii (Honolulu, HI): Marjorie K. Mau, MD*, Narleen K. Baker-Ladao, BS**, John S. Melish, MD, Richard F. Arakaki, MD*, Renee W. Latimer, BSN, MPH**, Mae K. Isonaga, RD, MPH**, Ralph Beddow, MD, Nina E. Bermudez, MS, Lorna Dias, AA, Jillian Inouye, RN, PhD, Kathy Mikami, BS, RD, Pharis Mohideen, MD, Sharon K. Odom, RD, MPH, Raynette U. Perry, AA, Robin E. Yamamoto, CDE, RD; Southwest American Indian Centers (Phoenix, AZ; Shiprock, NM; Zuni, NM): William C. Knowler, MD, DrPH*+, Norman Cooeyate**, Mary A. Hoskin, RD, MS**, Carol A. Percy, RN, MS**, Alvera Enote**, Camille Natewa**, Kelly J. Acton, MD, MPH, Vickie L. Andre, RN, FNP, Rosalyn Barber, Shandiin Begay, MPH, Peter H. Bennett, MB, FRCP, Mary Beth Benson, RN, BSN, Evelyn C. Bird, RD, MPH, Brenda A. Broussard, RD, MPH, MBA, CDE, Brian C. Bucca, OD, FAAO, Marcella Chavez, RN, AS, Sherron Cook, Jeff Curtis, MD, Tara Dacawyma, Matthew S. Doughty, MD, Roberta Duncan, RD, Charlotte Dodge, Cyndy Edgerton, RD, Jacqueline M. Ghahate, Justin Glass, MD, Martia Glass, MD, Dorothy Gohdes, MD, Wendy Grant, MD, Robert L. Hanson, MD, MPH, Ellie Horse, Louise E. Ingraham, MS, RD, LN, Merry Jackson, Priscilla Jay, Roylen S. Kaskalla, David Kessler, MD, Kathleen M. Kobus, RNC-ANP, Jonathan Krakoff, MD, Jason Kurland, MD, Catherine Manus, LPN, Cherie McCabe, Sara Michaels, MD, Tina Morgan, Yolanda Nashboo, Julie A. Nelson, RD, Steven Poirier, MD, Evette Polczynski, MD, Christopher Piromalli, DO, Mike Reidy, MD, Jeanine Roumain, MD, MPH, Debra Rowse, MD, Robert J. Roy, Sandra Sangster, RD, Janet Sewenemewa, Miranda Smart, Darryl Tonemah, PhD, Rachel Williams, FNP, Charlton Wilson, MD, Michelle Yazzie; George Washington University Biostatistics Center (DPP Coordinating Center Rockville, MD): Raymond Bain, PhD*, Sarah Fowler, PhD*, Marinella Temprosa, PhD*, Michael D. Larsen, PhD*, Tina Brenneman**, Sharon L. Edelstein, ScM**, Solome Abebe, MS, Julie Bamdad, MS, Melanie Barkalow, Joel Bethepu, Tsedenia Bezabeh, Anna Bowers, Nicole Butler, Jackie Callaghan, Caitlin E. Carter, Costas Christophi, PhD, Gregory M. Dwyer, MPH, Mary Foulkes, PhD, Yuping Gao, Robert Gooding, Adrienne Gottlieb, Kristina L. Grimes, Nisha Grover-Fairchild, MPH, Lori Haffner, MS, Heather Hoffman, PhD, Kathleen Jablonski, PhD, Steve Jones, Tara L. Jones, Richard Katz, MD, Preethy Kolinjivadi, MS, John M. Lachin, ScD, Yong Ma, PhD, Pamela Mucik, Robert Orlosky, Qing Pan, PhD, Susan Reamer, James Rochon, PhD, Alla Sapozhnikova, Hanna Sherif, MS, Charlotte Stimpson, Ashley Hogan Tjaden, MPH, Fredricka Walker-Murray; Lifestyle Resource Core: Elizabeth M. Venditti, PhD*, Andrea M. Kriska, PhD, Linda Semler, MS, RD, LDN, Valerie Weinzierl, MPH; Central Biochemistry Laboratory (Seattle, WA): Santica Marcovina, PhD, ScD*, F. Alan Aldrich**, Jessica Harting**, John Albers, PhD, Greg Strylewicz, PhD; NIH/NIDDK (Bethesda, MD): R. Eastman, MD, Judith Fradkin, MD, Sanford Garfield, PhD, Christine Lee, MD, MS; Centers for Disease Control &amp; Prevention (Atlanta, GA): Edward Gregg, PhDPing Zhang, PhD; Carotid Ultrasound: Dan O’Leary, MD*, Gregory Evans; Coronary Artery Calcification Reading Center: Matthew Budoff, MD, Chris Dailing. CT Scan Reading Center: Elizabeth Stamm, MD*; Dual Energy X-ray Absorptiometry Reading Center (San Francisco, CA): Ann Schwartz, PhD, Caroline Navy, Lisa Palermo, MS; Epidemiological Cardiology Research Center- Epicare (Winston-Salem, NC): Pentti Rautaharju, MD, PhD*, Ronald J. Prineas, MD, PhD**, Teresa Alexander, Charles Campbell, MS, Sharon Hall, Yabing Li, MD, Margaret Mills, Nancy Pemberton, MS, Farida Rautaharju, PhD, Zhuming Zhang, MD, Elsayed Z. Soliman, MD*, Julie Hu, MSc, Susan Hensley, BS, Lisa Keasler, Tonya Taylor; Fundus Photo Reading Center (Madison, WI): Barbara Blodi, MD*, Ronald Danis, MD*, Matthew Davis, MD*, Larry Hubbard*, Ryan Endres**, Deborah Elsas**, Samantha Johnson**, Dawn Myers**, Nancy Barrett, Heather Baumhauer, Wendy Benz, Holly Cohn, Ellie Corkery, Kristi Dohm, Amitha Domalpally, MD, PhD, Vonnie Gama, Anne Goulding, Andy Ewen, Cynthia Hurtenbach, Daniel Lawrence, Kyle McDaniel, Jeong Pak, James Reimers, Ruth Shaw, Maria Swift, Pamela Vargo, CRA, Sheila Watson; Neurocognitive Assessment Group: Jose A. Luchsinger, MD, MPH, Jennifer Manly, PhD; Nutrition Coding Center (Columbia, SC): Elizabeth Mayer-Davis, PhD*, Robert R. Moran, PhD**; Quality of Well-Being Center (La Jolla, CA): Ted Ganiats, MD*, Kristin David, MHP*, Andrew J. Sarkin, PhD*, Erik Groessl, PhD, Naomi Katzir, Helen Chong, MA; University of Michigan (Ann Arbor, MI): William H. Herman, MD, MPH, Michael Brändle, MD, MS, Morton B. Brown, PhD; +Genetics Working Group: Jose C. Florez, MD, PhD (Massachusetts General Hospital, Broad Institute), David Altshuler, MD, PhD (Massachusetts General Hospital, Broad Institute), Liana K. Billings, MD (Massachusetts General Hospital), Ling Chen, MS (Massachusetts General Hospital), Maegan Harden, BS (Broad Institute), Robert L. Hanson, MD, MPH (NIDDK), William C. Knowler, MD, DrPH (NIDDK), Toni I. Pollin, PhD (University of Maryland), Alan R. Shuldiner, MD (University of Maryland), Kathleen Jablonski, PhD (Coordinating Center), Paul W. Franks, PhD, MPhil, MS (Lund University, Sweden, Umeå University, Sweden, Harvard School of Public Health), Marie-France Hivert, MD (Université de Sherbrooke).</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Contributors:</bold> TVV, RBG and MT designed the study. TVV, JL and GC performed the statistical analyses. SD-J, CL, KJM, XP-S, SB, RBG and MT provided supervision. TVV drafted the manuscript. All authors critically revised and approved the manuscript. TVV and MT have primary responsibility for the final content (guarantors).</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Funding:</bold> TVV is supported by the Novo Nordisk Foundation (<ext-link ext-link-type="uri" xlink:href="https://novonordiskfonden.dk/en/">https://novonordiskfonden.dk/en/</ext-link>) Postdoctoral Fellowship within Endocrinology/Metabolism at International Elite Research Environments via NNF16OC0020698, the Swedish Research Council (Strategic Research Area Exodiab) (<ext-link ext-link-type="uri" xlink:href="https://www.vr.se/english/">https://www.vr.se/english/</ext-link>) via Dnr 2009-1039, and the Swedish Foundation for Strategic Research (<ext-link ext-link-type="uri" xlink:href="https://strategiska.se/en/">https://strategiska.se/en/</ext-link>) via Dnr IRC15-0067. SB is supported by the Novo Nordisk Foundation via NNF14CC0001 and NNF17OC0027594. The National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) of the National Institutes of Health provided funding to the clinical centers and the coordinating center for the design and conduct of the study, and collection, management, analysis, and interpretation of the data (U01 DK048489). The Southwestern American Indian Centers were supported directly by the NIDDK, including its Intramural Research Program, and the Indian Health Service. The General Clinical Research Center Program, National Center for Research Resources, and the Department of Veterans Affairs supported data collection at many of the clinical centers. Funding was also provided by the National Institute of Child Health and Human Development, the National Institute on Aging, the National Eye Institute, the National Heart, Lung, and Blood Institute, the National Cancer Institute, the Office of Research on Women’s Health, the National Institute on Minority Health and Health Disparities, the Centers for Disease Control and Prevention, and the American Diabetes Association. Merck KGaA provides medication for DPPOS. DPP/DPPOS have also received donated materials from Bristol Myers Squibb, Parke-Davis, and LifeScan. LifeScan, Health O Meter, Hoechst Marion Roussel, Merck-Medco Managed Care, Merck and Co, Nike Sports Marketing, Slim Fast Foods, and Quaker Oats donated materials, equipment, or medicines for concomitant conditions. McKesson BioServices, Matthews Media Group, and the Henry M Jackson Foundation provided support services under subcontract with the coordinating center. The sponsor of this study was represented on the steering committee and played a part in study design, how the study was done, and publication. All authors in the writing group had access to all data. The opinions expressed are those of the study group and do not necessarily reflect the views of the funding agencies. A complete list of centers, investigators, and staff can be found in online supplemental file 1.</p>
+              </fn>
+              <fn fn-type="COI-statement">
+                <p><bold>Competing interests:</bold> None declared.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Provenance and peer review:</bold> Not commissioned; externally peer reviewed.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Supplemental material:</bold> This content has been supplied by the author(s). It has not been vetted by BMJ Publishing Group Limited (BMJ) and may not have been peer-reviewed. Any opinions or recommendations discussed are solely those of the author(s) and are not endorsed by BMJ. BMJ disclaims all liability and responsibility arising from any reliance placed on the content. Where the content includes any translated material, BMJ does not warrant the accuracy and reliability of the translations (including but not limited to local regulations, clinical guidelines, terminology, drug names and drug dosages), and is not responsible for any error and/or omissions arising from translation and adaptation or otherwise.</p>
+              </fn>
+            </fn-group>
+            <sec sec-type="data-availability">
+              <title>Data availability statement</title>
+              <p>Data may be obtained from a third party and are not publicly available. In accordance with the NIH Public Access Policy, we continue to provide all manuscripts to PubMed Central including this manuscript. DPP/DPPOS has provided the protocols and lifestyle and medication intervention manuals to the public through its public website (<ext-link ext-link-type="uri" xlink:href="https://www.dppos.org">https://www.dppos.org</ext-link>). The DPPOS abides by the NIDDK data sharing policy and implementation guidance as required by the NIH/NIDDK (<ext-link ext-link-type="uri" xlink:href="https://www.niddkrepository.org/studies/dppos/">https://www.niddkrepository.org/studies/dppos/</ext-link>).</p>
+            </sec>
+            <sec sec-type="ethics-statement">
+              <title>Ethics statements</title>
+              <sec sec-type="ethics-consent-to-publish">
+                <title>Patient consent for publication</title>
+                <p>Not required.</p>
+              </sec>
+              <sec sec-type="ethics-approval">
+                <title>Ethics approval</title>
+                <p>The study protocols were approved by the institutional review board of each clinical center and participating centers.</p>
+              </sec>
+            </sec>
+            <ref-list>
+              <title>References</title>
+              <ref id="R1">
+                <label>1</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Krauss</surname><given-names>RM</given-names></string-name></person-group>. <article-title>Lipids and lipoproteins in patients with type 2 diabetes</article-title>. <source>Diabetes Care</source><year>2004</year>;<volume>27</volume>:<fpage>1496</fpage>–<lpage>504</lpage>. <pub-id pub-id-type="doi">10.2337/diacare.27.6.1496</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/15161808?><pub-id pub-id-type="pmid">15161808</pub-id></mixed-citation>
+              </ref>
+              <ref id="R2">
+                <label>2</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Haffner</surname><given-names>SM</given-names></string-name>, <string-name><surname>Stern</surname><given-names>MP</given-names></string-name>, <string-name><surname>Hazuda</surname><given-names>HP</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Cardiovascular risk factors in confirmed prediabetic individuals. does the clock for coronary heart disease start ticking before the onset of clinical diabetes?</article-title><source>JAMA</source><year>1990</year>;<volume>263</volume>:<fpage>2893</fpage>–<lpage>8</lpage>. <pub-id pub-id-type="doi">10.1001/jama.263.21.2893</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/2338751?><pub-id pub-id-type="pmid">2338751</pub-id></mixed-citation>
+              </ref>
+              <ref id="R3">
+                <label>3</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>McPhillips</surname><given-names>JB</given-names></string-name>, <string-name><surname>Barrett-Connor</surname><given-names>E</given-names></string-name>, <string-name><surname>Wingard</surname><given-names>DL</given-names></string-name></person-group>. <article-title>Cardiovascular disease risk factors prior to the diagnosis of impaired glucose tolerance and non-insulin-dependent diabetes mellitus in a community of older adults</article-title>. <source>Am J Epidemiol</source><year>1990</year>;<volume>131</volume>:<fpage>443</fpage>–<lpage>53</lpage>. <pub-id pub-id-type="doi">10.1093/oxfordjournals.aje.a115519</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/2301354?><pub-id pub-id-type="pmid">2301354</pub-id></mixed-citation>
+              </ref>
+              <ref id="R4">
+                <label>4</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Mykkänen</surname><given-names>L</given-names></string-name>, <string-name><surname>Kuusisto</surname><given-names>J</given-names></string-name>, <string-name><surname>Pyörälä</surname><given-names>K</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Cardiovascular disease risk factors as predictors of type 2 (non-insulin-dependent) diabetes mellitus in elderly subjects</article-title>. <source>Diabetologia</source><year>1993</year>;<volume>36</volume>:<fpage>553</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1007/BF02743273</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/8335178?><pub-id pub-id-type="pmid">8335178</pub-id></mixed-citation>
+              </ref>
+              <ref id="R5">
+                <label>5</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><collab>American Diabetes Association</collab></person-group>. <article-title>2. Classification and diagnosis of diabetes: Standards of Medical Care in Diabetes-2019</article-title>. <source>Diabetes Care</source><year>2019</year>;<volume>42</volume>:<fpage>S13</fpage>–<lpage>28</lpage>. <pub-id pub-id-type="doi">10.2337/dc19-S002</pub-id>
+<?supplied-pmid 30559228?><pub-id pub-id-type="pmid">30559228</pub-id></mixed-citation>
+              </ref>
+              <ref id="R6">
+                <label>6</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Garvey</surname><given-names>WT</given-names></string-name>, <string-name><surname>Kwon</surname><given-names>S</given-names></string-name>, <string-name><surname>Zheng</surname><given-names>D</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Effects of insulin resistance and type 2 diabetes on lipoprotein subclass particle size and concentration determined by nuclear magnetic resonance</article-title>. <source>Diabetes</source><year>2003</year>;<volume>52</volume>:<fpage>453</fpage>–<lpage>62</lpage>. <pub-id pub-id-type="doi">10.2337/diabetes.52.2.453</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/12540621?><pub-id pub-id-type="pmid">12540621</pub-id></mixed-citation>
+              </ref>
+              <ref id="R7">
+                <label>7</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Festa</surname><given-names>A</given-names></string-name>, <string-name><surname>Williams</surname><given-names>K</given-names></string-name>, <string-name><surname>Hanley</surname><given-names>AJG</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Nuclear magnetic resonance lipoprotein abnormalities in prediabetic subjects in the insulin resistance atherosclerosis study</article-title>. <source>Circulation</source><year>2005</year>;<volume>111</volume>:<fpage>3465</fpage>–<lpage>72</lpage>. <pub-id pub-id-type="doi">10.1161/CIRCULATIONAHA.104.512079</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/15983261?><pub-id pub-id-type="pmid">15983261</pub-id></mixed-citation>
+              </ref>
+              <ref id="R8">
+                <label>8</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Mora</surname><given-names>S</given-names></string-name>, <string-name><surname>Otvos</surname><given-names>JD</given-names></string-name>, <string-name><surname>Rosenson</surname><given-names>RS</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Lipoprotein particle size and concentration by nuclear magnetic resonance and incident type 2 diabetes in women</article-title>. <source>Diabetes</source><year>2010</year>;<volume>59</volume>:<fpage>1153</fpage>–<lpage>60</lpage>. <pub-id pub-id-type="doi">10.2337/db09-1114</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/20185808?><pub-id pub-id-type="pmid">20185808</pub-id></mixed-citation>
+              </ref>
+              <ref id="R9">
+                <label>9</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Dugani</surname><given-names>SB</given-names></string-name>, <string-name><surname>Akinkuolie</surname><given-names>AO</given-names></string-name>, <string-name><surname>Paynter</surname><given-names>N</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Association of Lipoproteins, Insulin Resistance, and Rosuvastatin With Incident Type 2 Diabetes Mellitus : Secondary Analysis of a Randomized Clinical Trial</article-title>. <source>JAMA Cardiol</source><year>2016</year>;<volume>1</volume>:<fpage>136</fpage>–<lpage>45</lpage>. <pub-id pub-id-type="doi">10.1001/jamacardio.2016.0096</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/27347563?><pub-id pub-id-type="pmid">27347563</pub-id></mixed-citation>
+              </ref>
+              <ref id="R10">
+                <label>10</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hodge</surname><given-names>AM</given-names></string-name>, <string-name><surname>Jenkins</surname><given-names>AJ</given-names></string-name>, <string-name><surname>English</surname><given-names>DR</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Nmr-Determined lipoprotein subclass profile predicts type 2 diabetes</article-title>. <source>Diabetes Res Clin Pract</source><year>2009</year>;<volume>83</volume>:<fpage>132</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1016/j.diabres.2008.11.007</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/19091436?><pub-id pub-id-type="pmid">19091436</pub-id></mixed-citation>
+              </ref>
+              <ref id="R11">
+                <label>11</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Noble</surname><given-names>D</given-names></string-name>, <string-name><surname>Mathur</surname><given-names>R</given-names></string-name>, <string-name><surname>Dent</surname><given-names>T</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Risk models and scores for type 2 diabetes: systematic review</article-title>. <source>BMJ</source><year>2011</year>;<volume>343</volume>:<elocation-id>d7163</elocation-id>. <pub-id pub-id-type="doi">10.1136/bmj.d7163</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/22123912?><pub-id pub-id-type="pmid">22123912</pub-id></mixed-citation>
+              </ref>
+              <ref id="R12">
+                <label>12</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Schork</surname><given-names>NJ</given-names></string-name></person-group>. <article-title>Personalized medicine: time for one-person trials</article-title>. <source>Nature</source><year>2015</year>;<volume>520</volume>:<fpage>609</fpage>–<lpage>11</lpage>. <pub-id pub-id-type="doi">10.1038/520609a</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/25925459?><pub-id pub-id-type="pmid">25925459</pub-id></mixed-citation>
+              </ref>
+              <ref id="R13">
+                <label>13</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Feng</surname><given-names>Z</given-names></string-name></person-group>. <article-title>Classification versus association models: should the same methods apply?</article-title><source>Scand J Clin Lab Invest Suppl</source><year>2010</year>;<volume>242</volume>:<fpage>53</fpage>–<lpage>8</lpage>. <pub-id pub-id-type="doi">10.3109/00365513.2010.493387</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/20515278?><pub-id pub-id-type="pmid">20515278</pub-id></mixed-citation>
+              </ref>
+              <ref id="R14">
+                <label>14</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Varga</surname><given-names>TV</given-names></string-name>, <string-name><surname>Niss</surname><given-names>K</given-names></string-name>, <string-name><surname>Estampador</surname><given-names>AC</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Association is not prediction: A landscape of confused reporting in diabetes - A systematic review</article-title>. <source>Diabetes Res Clin Pract</source><year>2020</year>;<volume>170</volume>:<elocation-id>108497</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.diabres.2020.108497</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/33068662?><pub-id pub-id-type="pmid">33068662</pub-id></mixed-citation>
+              </ref>
+              <ref id="R15">
+                <label>15</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><collab>Diabetes Prevention Program (DPP) Research Group</collab></person-group>. <article-title>The diabetes prevention program (DPP): description of lifestyle intervention</article-title>. <source>Diabetes Care</source><year>2002</year>;<volume>25</volume>:<fpage>2165</fpage>–<lpage>71</lpage>. <pub-id pub-id-type="doi">10.2337/diacare.25.12.2165</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/12453955?><pub-id pub-id-type="pmid">12453955</pub-id></mixed-citation>
+              </ref>
+              <ref id="R16">
+                <label>16</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Goldberg</surname><given-names>R</given-names></string-name>, <string-name><surname>Temprosa</surname><given-names>M</given-names></string-name>, <string-name><surname>Otvos</surname><given-names>J</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Lifestyle and metformin treatment favorably influence lipoprotein subfraction distribution in the diabetes prevention program</article-title>. <source>J Clin Endocrinol Metab</source><year>2013</year>;<volume>98</volume>:<fpage>3989</fpage>–<lpage>98</lpage>. <pub-id pub-id-type="doi">10.1210/jc.2013-1452</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/23979954?><pub-id pub-id-type="pmid">23979954</pub-id></mixed-citation>
+              </ref>
+              <ref id="R17">
+                <label>17</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Flores-Guerrero</surname><given-names>JL</given-names></string-name>, <string-name><surname>Osté</surname><given-names>MCJ</given-names></string-name>, <string-name><surname>Kieneker</surname><given-names>LM</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Plasma branched-chain amino acids and risk of incident type 2 diabetes: results from the PREVEND prospective cohort study</article-title>. <source>J Clin Med</source><year>2018</year>;<volume>7</volume>. <pub-id pub-id-type="doi">10.3390/jcm7120513</pub-id>. [Epub ahead of print: <comment>04 12 2018</comment>].
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/30518023?></mixed-citation>
+              </ref>
+              <ref id="R18">
+                <label>18</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Shah</surname><given-names>NH</given-names></string-name>, <string-name><surname>Milstein</surname><given-names>A</given-names></string-name>, <string-name><surname>Bagley PhD</surname><given-names>SC</given-names></string-name></person-group>. <article-title>Making machine learning models clinically useful</article-title>. <source>JAMA</source><year>2019</year>. <pub-id pub-id-type="doi">10.1001/jama.2019.10306</pub-id>. [Epub ahead of print: <comment>08 Aug 2019</comment>] (<comment>published Online First: 2019/08/09</comment>).
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/31393527?></mixed-citation>
+              </ref>
+              <ref id="R19">
+                <label>19</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><collab>The Diabetes Prevention Program</collab></person-group>. <article-title>The diabetes prevention program: baseline characteristics of the randomized cohort. The diabetes prevention program Research Group</article-title>. <source>Diabetes Care</source><year>2000</year>;<volume>23</volume>:<fpage>1619</fpage>–<lpage>29</lpage>. <pub-id pub-id-type="doi">10.2337/diacare.23.11.1619</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/11092283?><pub-id pub-id-type="pmid">11092283</pub-id></mixed-citation>
+              </ref>
+              <ref id="R20">
+                <label>20</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Knowler</surname><given-names>WC</given-names></string-name>, <string-name><surname>Barrett-Connor</surname><given-names>E</given-names></string-name>, <string-name><surname>Fowler</surname><given-names>SE</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin</article-title>. <source>N Engl J Med</source><year>2002</year>;<volume>346</volume>:<fpage>393</fpage>–<lpage>403</lpage>. <pub-id pub-id-type="doi">10.1056/NEJMoa012512</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/11832527?><pub-id pub-id-type="pmid">11832527</pub-id></mixed-citation>
+              </ref>
+              <ref id="R21">
+                <label>21</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><collab>Diabetes Prevention Program Research Group</collab></person-group>. <article-title>Long-Term effects of lifestyle intervention or metformin on diabetes development and microvascular complications over 15-year follow-up: the diabetes prevention program outcomes study</article-title>. <source>Lancet Diabetes Endocrinol</source><year>2015</year>;<volume>3</volume>:<fpage>866</fpage>–<lpage>75</lpage>. <pub-id pub-id-type="doi">10.1016/S2213-8587(15)00291-0</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/26377054?><pub-id pub-id-type="pmid">26377054</pub-id></mixed-citation>
+              </ref>
+              <ref id="R22">
+                <label>22</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Varga</surname><given-names>TV</given-names></string-name>, <string-name><surname>Winters</surname><given-names>AH</given-names></string-name>, <string-name><surname>Jablonski</surname><given-names>KA</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Comprehensive analysis of established Dyslipidemia-Associated loci in the diabetes prevention program</article-title>. <source>Circ Cardiovasc Genet</source><year>2016</year>;<volume>9</volume>:<fpage>495</fpage>–<lpage>503</lpage>. <pub-id pub-id-type="doi">10.1161/CIRCGENETICS.116.001457</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/27784733?><pub-id pub-id-type="pmid">27784733</pub-id></mixed-citation>
+              </ref>
+              <ref id="R23">
+                <label>23</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hanson</surname><given-names>RL</given-names></string-name>, <string-name><surname>Pratley</surname><given-names>RE</given-names></string-name>, <string-name><surname>Bogardus</surname><given-names>C</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Evaluation of simple indices of insulin sensitivity and insulin secretion for use in epidemiologic studies</article-title>. <source>Am J Epidemiol</source><year>2000</year>;<volume>151</volume>:<fpage>190</fpage>–<lpage>8</lpage>. <pub-id pub-id-type="doi">10.1093/oxfordjournals.aje.a010187</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/10645822?><pub-id pub-id-type="pmid">10645822</pub-id></mixed-citation>
+              </ref>
+              <ref id="R24">
+                <label>24</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Connelly</surname><given-names>MA</given-names></string-name>, <string-name><surname>Otvos</surname><given-names>JD</given-names></string-name>, <string-name><surname>Shalaurova</surname><given-names>I</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>GlycA, a novel biomarker of systemic inflammation and cardiovascular disease risk</article-title>. <source>J Transl Med</source><year>2017</year>;<volume>15</volume>:<elocation-id>219</elocation-id>. <pub-id pub-id-type="doi">10.1186/s12967-017-1321-6</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/29078787?><pub-id pub-id-type="pmid">29078787</pub-id></mixed-citation>
+              </ref>
+              <ref id="R25">
+                <label>25</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><collab>R Core Team R</collab></person-group>. <source>R: a language and environment for statistic computing [program</source>. <publisher-loc>Vienna, Austria</publisher-loc>: <publisher-name>R Foundation for Statistic Computing</publisher-name>, <year>2015</year>.</mixed-citation>
+              </ref>
+              <ref id="R26">
+                <label>26</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kuhn</surname><given-names>M</given-names></string-name></person-group>. <article-title>Building Predictive Models in R Using the <bold>caret</bold> Package</article-title>. <source>J Stat Softw</source><year>2008</year>;<volume>28</volume>. <pub-id pub-id-type="doi">10.18637/jss.v028.i05</pub-id></mixed-citation>
+              </ref>
+              <ref id="R27">
+                <label>27</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Chollet</surname><given-names>F</given-names></string-name></person-group>. <source>Deep learning with python</source>. <publisher-loc>Shelter Island</publisher-loc>: <publisher-name>Manning Publications</publisher-name>, <year>2018</year>.</mixed-citation>
+              </ref>
+              <ref id="R28">
+                <label>28</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Chicco</surname><given-names>D</given-names></string-name></person-group>. <article-title>Ten quick tips for machine learning in computational biology</article-title>. <source>BioData Min</source><year>2017</year>;<volume>10</volume>:<elocation-id>35</elocation-id>. <pub-id pub-id-type="doi">10.1186/s13040-017-0155-3</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/29234465?><pub-id pub-id-type="pmid">29234465</pub-id></mixed-citation>
+              </ref>
+              <ref id="R29">
+                <label>29</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Abderrahmani</surname><given-names>A</given-names></string-name>, <string-name><surname>Niederhauser</surname><given-names>G</given-names></string-name>, <string-name><surname>Favre</surname><given-names>D</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Human high-density lipoprotein particles prevent activation of the JNK pathway induced by human oxidised low-density lipoprotein particles in pancreatic beta cells</article-title>. <source>Diabetologia</source><year>2007</year>;<volume>50</volume>:<fpage>1304</fpage>–<lpage>14</lpage>. <pub-id pub-id-type="doi">10.1007/s00125-007-0642-z</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/17437081?><pub-id pub-id-type="pmid">17437081</pub-id></mixed-citation>
+              </ref>
+              <ref id="R30">
+                <label>30</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Waldman</surname><given-names>B</given-names></string-name>, <string-name><surname>Jenkins</surname><given-names>AJ</given-names></string-name>, <string-name><surname>Davis</surname><given-names>TME</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Hdl-C and HDL-C/ApoA-I predict long-term progression of glycemia in established type 2 diabetes</article-title>. <source>Diabetes Care</source><year>2014</year>;<volume>37</volume>:<fpage>2351</fpage>–<lpage>8</lpage>. <pub-id pub-id-type="doi">10.2337/dc13-2738</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/24804699?><pub-id pub-id-type="pmid">24804699</pub-id></mixed-citation>
+              </ref>
+              <ref id="R31">
+                <label>31</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Wang</surname><given-names>J</given-names></string-name>, <string-name><surname>Stančáková</surname><given-names>A</given-names></string-name>, <string-name><surname>Soininen</surname><given-names>P</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Lipoprotein subclass profiles in individuals with varying degrees of glucose tolerance: a population-based study of 9399 Finnish men</article-title>. <source>J Intern Med</source><year>2012</year>;<volume>272</volume>:<fpage>562</fpage>–<lpage>72</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2796.2012.02562.x</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/22650159?><pub-id pub-id-type="pmid">22650159</pub-id></mixed-citation>
+              </ref>
+              <ref id="R32">
+                <label>32</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Harada</surname><given-names>PHN</given-names></string-name>, <string-name><surname>Demler</surname><given-names>OV</given-names></string-name>, <string-name><surname>Dugani</surname><given-names>SB</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Lipoprotein insulin resistance score and risk of incident diabetes during extended follow-up of 20 years: The Women’s Health Study</article-title>. <source>J Clin Lipidol</source><year>2017</year>;<volume>11</volume>:<fpage>1257</fpage>–<lpage>67</lpage>. <pub-id pub-id-type="doi">10.1016/j.jacl.2017.06.008</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/28733174?><pub-id pub-id-type="pmid">28733174</pub-id></mixed-citation>
+              </ref>
+              <ref id="R33">
+                <label>33</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Austin</surname><given-names>MA</given-names></string-name>, <string-name><surname>Mykkänen</surname><given-names>L</given-names></string-name>, <string-name><surname>Kuusisto</surname><given-names>J</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Prospective study of small LDLs as a risk factor for non-insulin dependent diabetes mellitus in elderly men and women</article-title>. <source>Circulation</source><year>1995</year>;<volume>92</volume>:<fpage>1770</fpage>–<lpage>8</lpage>. <pub-id pub-id-type="doi">10.1161/01.CIR.92.7.1770</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/7671360?><pub-id pub-id-type="pmid">7671360</pub-id></mixed-citation>
+              </ref>
+              <ref id="R34">
+                <label>34</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Lo</surname><given-names>A</given-names></string-name>, <string-name><surname>Chernoff</surname><given-names>H</given-names></string-name>, <string-name><surname>Zheng</surname><given-names>T</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Why significant variables aren't automatically good predictors</article-title>. <source>Proc Natl Acad Sci U S A</source><year>2015</year>;<volume>112</volume>:<fpage>13892</fpage>–<lpage>7</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1518285112</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/26504198?><pub-id pub-id-type="pmid">26504198</pub-id></mixed-citation>
+              </ref>
+              <ref id="R35">
+                <label>35</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Mosley</surname><given-names>JD</given-names></string-name>, <string-name><surname>Gupta</surname><given-names>DK</given-names></string-name>, <string-name><surname>Tan</surname><given-names>J</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Predictive accuracy of a polygenic risk score compared with a clinical risk score for incident coronary heart disease</article-title>. <source>JAMA</source><year>2020</year>;<volume>323</volume>:<fpage>627</fpage>–<lpage>35</lpage>. <pub-id pub-id-type="doi">10.1001/jama.2019.21782</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/32068817?><pub-id pub-id-type="pmid">32068817</pub-id></mixed-citation>
+              </ref>
+              <ref id="R36">
+                <label>36</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Guasch-Ferré</surname><given-names>M</given-names></string-name>, <string-name><surname>Hruby</surname><given-names>A</given-names></string-name>, <string-name><surname>Toledo</surname><given-names>E</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Metabolomics in prediabetes and diabetes: a systematic review and meta-analysis</article-title>. <source>Diabetes Care</source><year>2016</year>;<volume>39</volume>:<fpage>833</fpage>–<lpage>46</lpage>. <pub-id pub-id-type="doi">10.2337/dc15-2251</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/27208380?><pub-id pub-id-type="pmid">27208380</pub-id></mixed-citation>
+              </ref>
+              <ref id="R37">
+                <label>37</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Carvalho</surname><given-names>LSF</given-names></string-name>, <string-name><surname>Benseñor</surname><given-names>IM</given-names></string-name>, <string-name><surname>Nogueira</surname><given-names>AC</given-names></string-name></person-group>. <article-title>Increased particle size of triacylglycerol-enriched remnant lipoproteins, but not their plasma concentration or lipid content, augments risk prediction of incident type 2 diabetes</article-title>. <source>Diabetologia</source><year>2020</year>:<fpage>1</fpage>–<lpage>12</lpage>.<pub-id pub-id-type="pmid">32840677</pub-id></mixed-citation>
+              </ref>
+              <ref id="R38">
+                <label>38</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Pajouheshnia</surname><given-names>R</given-names></string-name>, <string-name><surname>Groenwold</surname><given-names>RHH</given-names></string-name>, <string-name><surname>Peelen</surname><given-names>LM</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>When and how to use data from randomised trials to develop or validate prognostic models</article-title>. <source>BMJ</source><year>2019</year>;<volume>365</volume>:<fpage>l2154</fpage>. <pub-id pub-id-type="doi">10.1136/bmj.l2154</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/31142454?><pub-id pub-id-type="pmid">31142454</pub-id></mixed-citation>
+              </ref>
+              <ref id="R39">
+                <label>39</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Mora</surname><given-names>S</given-names></string-name>, <string-name><surname>Otvos</surname><given-names>JD</given-names></string-name>, <string-name><surname>Rifai</surname><given-names>N</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Lipoprotein particle profiles by nuclear magnetic resonance compared with standard lipids and apolipoproteins in predicting incident cardiovascular disease in women</article-title>. <source>Circulation</source><year>2009</year>;<volume>119</volume>:<fpage>931</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1161/CIRCULATIONAHA.108.816181</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/19204302?><pub-id pub-id-type="pmid">19204302</pub-id></mixed-citation>
+              </ref>
+              <ref id="R40">
+                <label>40</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><collab>Diabetes Prevention Program Research Group</collab></person-group>. <article-title>Long-Term effects of metformin on diabetes prevention: identification of subgroups that Benefited most in the diabetes prevention program and diabetes prevention program outcomes study</article-title>. <source>Diabetes Care</source><year>2019</year>;<volume>42</volume>:<fpage>601</fpage>–<lpage>8</lpage>. <pub-id pub-id-type="doi">10.2337/dc18-1970</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/30877090?><pub-id pub-id-type="pmid">30877090</pub-id></mixed-citation>
+              </ref>
+              <ref id="R41">
+                <label>41</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Wagner-Golbs</surname><given-names>A</given-names></string-name>, <string-name><surname>Neuber</surname><given-names>S</given-names></string-name>, <string-name><surname>Kamlage</surname><given-names>B</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Effects of long-term storage at −80 °C on the human plasma metabolome</article-title>. <source>Metabolites</source><year>2019</year>;<volume>9</volume>:<elocation-id>99</elocation-id>. <pub-id pub-id-type="doi">10.3390/metabo9050099</pub-id></mixed-citation>
+              </ref>
+              <ref id="R42">
+                <label>42</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Schmidt</surname><given-names>MI</given-names></string-name>, <string-name><surname>Bracco</surname><given-names>PA</given-names></string-name>, <string-name><surname>Yudkin</surname><given-names>JS</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Intermediate hyperglycaemia to predict progression to type 2 diabetes (ELSA-Brasil): an occupational cohort study in Brazil</article-title>. <source>Lancet Diabetes Endocrinol</source><year>2019</year>;<volume>7</volume>:<fpage>267</fpage>–<lpage>77</lpage>. <pub-id pub-id-type="doi">10.1016/S2213-8587(19)30058-0</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/30803929?><pub-id pub-id-type="pmid">30803929</pub-id></mixed-citation>
+              </ref>
+              <ref id="R43">
+                <label>43</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Nielsen</surname><given-names>AB</given-names></string-name>, <string-name><surname>Thorsen-Meyer</surname><given-names>H-C</given-names></string-name>, <string-name><surname>Belling</surname><given-names>K</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Survival prediction in intensive-care units based on aggregation of long-term disease history and acute physiology: a retrospective study of the Danish national patient registry and electronic patient records</article-title>. <source>Lancet Digit Health</source><year>2019</year>;<volume>1</volume>:<fpage>e78</fpage>–<lpage>89</lpage>. <pub-id pub-id-type="doi">10.1016/S2589-7500(19)30024-X</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/33323232?><pub-id pub-id-type="pmid">33323232</pub-id></mixed-citation>
+              </ref>
+              <ref id="R44">
+                <label>44</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Meikle</surname><given-names>PJ</given-names></string-name>, <string-name><surname>Wong</surname><given-names>G</given-names></string-name>, <string-name><surname>Barlow</surname><given-names>CK</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Lipidomics: potential role in risk prediction and therapeutic monitoring for diabetes and cardiovascular disease</article-title>. <source>Pharmacol Ther</source><year>2014</year>;<volume>143</volume>:<fpage>12</fpage>–<lpage>23</lpage>. <pub-id pub-id-type="doi">10.1016/j.pharmthera.2014.02.001</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/24509229?><pub-id pub-id-type="pmid">24509229</pub-id></mixed-citation>
+              </ref>
+              <ref id="R45">
+                <label>45</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Mamtani</surname><given-names>M</given-names></string-name>, <string-name><surname>Kulkarni</surname><given-names>H</given-names></string-name>, <string-name><surname>Wong</surname><given-names>G</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Lipidomic risk score independently and cost-effectively predicts risk of future type 2 diabetes: results from diverse cohorts</article-title>. <source>Lipids Health Dis</source><year>2016</year>;<volume>15</volume>:<elocation-id>67</elocation-id>. <pub-id pub-id-type="doi">10.1186/s12944-016-0234-3</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/27044508?><pub-id pub-id-type="pmid">27044508</pub-id></mixed-citation>
+              </ref>
+              <ref id="R46">
+                <label>46</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Suvitaival</surname><given-names>T</given-names></string-name>, <string-name><surname>Bondia-Pons</surname><given-names>I</given-names></string-name>, <string-name><surname>Yetukuri</surname><given-names>L</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Lipidome as a predictive tool in progression to type 2 diabetes in Finnish men</article-title>. <source>Metabolism</source><year>2018</year>;<volume>78</volume>:<fpage>1</fpage>–<lpage>12</lpage>. <pub-id pub-id-type="doi">10.1016/j.metabol.2017.08.014</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/28941595?><pub-id pub-id-type="pmid">28941595</pub-id></mixed-citation>
+              </ref>
+              <ref id="R47">
+                <label>47</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Fernandez</surname><given-names>C</given-names></string-name>, <string-name><surname>Surma</surname><given-names>MA</given-names></string-name>, <string-name><surname>Klose</surname><given-names>C</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Plasma lipidome and prediction of type 2 diabetes in the population-based Malmö diet and cancer cohort</article-title>. <source>Diabetes Care</source><year>2020</year>;<volume>43</volume>:<fpage>366</fpage>–<lpage>73</lpage>. <pub-id pub-id-type="doi">10.2337/dc19-1199</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/31818810?><pub-id pub-id-type="pmid">31818810</pub-id></mixed-citation>
+              </ref>
+              <ref id="R48">
+                <label>48</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Rhee</surname><given-names>EP</given-names></string-name>, <string-name><surname>Cheng</surname><given-names>S</given-names></string-name>, <string-name><surname>Larson</surname><given-names>MG</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Lipid profiling identifies a triacylglycerol signature of insulin resistance and improves diabetes prediction in humans</article-title>. <source>J Clin Invest</source><year>2011</year>;<volume>121</volume>:<fpage>1402</fpage>–<lpage>11</lpage>. <pub-id pub-id-type="doi">10.1172/JCI44442</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/21403394?><pub-id pub-id-type="pmid">21403394</pub-id></mixed-citation>
+              </ref>
+              <ref id="R49">
+                <label>49</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Razquin</surname><given-names>C</given-names></string-name>, <string-name><surname>Toledo</surname><given-names>E</given-names></string-name>, <string-name><surname>Clish</surname><given-names>CB</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Plasma lipidomic profiling and risk of type 2 diabetes in the PREDIMED trial</article-title>. <source>Diabetes Care</source><year>2018</year>;<volume>41</volume>:<fpage>2617</fpage>–<lpage>24</lpage>. <pub-id pub-id-type="doi">10.2337/dc18-0840</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/30327364?><pub-id pub-id-type="pmid">30327364</pub-id></mixed-citation>
+              </ref>
+              <ref id="R50">
+                <label>50</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Lu</surname><given-names>J</given-names></string-name>, <string-name><surname>Lam</surname><given-names>SM</given-names></string-name>, <string-name><surname>Wan</surname><given-names>Q</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>High-coverage targeted lipidomics reveals novel serum lipid predictors and lipid pathway dysregulation antecedent to type 2 diabetes onset in normoglycemic Chinese adults</article-title>. <source>Diabetes Care</source><year>2019</year>;<volume>42</volume>:<fpage>2117</fpage>–<lpage>26</lpage>. <pub-id pub-id-type="doi">10.2337/dc19-0100</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/31455687?><pub-id pub-id-type="pmid">31455687</pub-id></mixed-citation>
+              </ref>
+              <ref id="R51">
+                <label>51</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Weng</surname><given-names>SF</given-names></string-name>, <string-name><surname>Reps</surname><given-names>J</given-names></string-name>, <string-name><surname>Kai</surname><given-names>J</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Can machine-learning improve cardiovascular risk prediction using routine clinical data?</article-title><source>PLoS One</source><year>2017</year>;<volume>12</volume>:<elocation-id>e0174944</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0174944</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/28376093?><pub-id pub-id-type="pmid">28376093</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

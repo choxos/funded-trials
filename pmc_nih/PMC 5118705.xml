@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T06:58:49Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:5118705" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:5118705</identifier>
+        <datestamp>2016-11-28</datestamp>
+        <setSpec>scirep</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Sci Rep</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Sci Rep</journal-id>
+              <journal-title-group>
+                <journal-title>Scientific Reports</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2045-2322</issn>
+              <publisher>
+                <publisher-name>Nature Publishing Group</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC5118705</article-id>
+              <article-id pub-id-type="pmcid">PMC5118705</article-id>
+              <article-id pub-id-type="pmc-uid">5118705</article-id>
+              <article-id pub-id-type="pmid">27872484</article-id>
+              <article-id pub-id-type="pii">srep37241</article-id>
+              <article-id pub-id-type="doi">10.1038/srep37241</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Co-occurrence of Local Anisotropic Gradient Orientations (CoLlAGe): A new radiomics descriptor</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Prasanna</surname>
+                    <given-names>Prateek</given-names>
+                  </name>
+                  <xref ref-type="corresp" rid="c1">a</xref>
+                  <xref ref-type="aff" rid="a1">1</xref>
+                  <xref ref-type="author-notes" rid="n1">*</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Tiwari</surname>
+                    <given-names>Pallavi</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="a1">1</xref>
+                  <xref ref-type="author-notes" rid="n1">*</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Madabhushi</surname>
+                    <given-names>Anant</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="a1">1</xref>
+                </contrib>
+                <aff id="a1"><label>1</label><institution>Department of Biomedical Engineering, Case Western Reserve University</institution>, Cleveland, OH 44120, <country>USA</country></aff>
+              </contrib-group>
+              <author-notes>
+                <corresp id="c1">
+                  <label>a</label>
+                  <email>prateek.prasanna@gmail.com</email>
+                </corresp>
+                <fn id="n1">
+                  <label>*</label>
+                  <p>These authors contributed equally to this work.</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>22</day>
+                <month>11</month>
+                <year>2016</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2016</year>
+              </pub-date>
+              <volume>6</volume>
+              <elocation-id>37241</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>16</day>
+                  <month>02</month>
+                  <year>2016</year>
+                </date>
+                <date date-type="accepted">
+                  <day>27</day>
+                  <month>10</month>
+                  <year>2016</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>Copyright © 2016, The Author(s)</copyright-statement>
+                <copyright-year>2016</copyright-year>
+                <copyright-holder>The Author(s)</copyright-holder>
+                <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                  <!--author-paid-->
+                  <license-p>This work is licensed under a Creative Commons Attribution 4.0 International License. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link></license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>In this paper, we introduce a new radiomic descriptor, Co-occurrence of Local Anisotropic Gradient Orientations (CoLlAGe) for capturing subtle differences between benign and pathologic phenotypes which may be visually indistinguishable on routine anatomic imaging. CoLlAGe seeks to capture and exploit local anisotropic differences in voxel-level gradient orientations to distinguish similar appearing phenotypes. CoLlAGe involves assigning every image voxel an entropy value associated with the co-occurrence matrix of gradient orientations computed around every voxel. The hypothesis behind CoLlAGe is that benign and pathologic phenotypes even though they may appear similar on anatomic imaging, will differ in their local entropy patterns, in turn reflecting subtle local differences in tissue microarchitecture. We demonstrate CoLlAGe’s utility in three clinically challenging classification problems: distinguishing (1) radiation necrosis, a benign yet confounding effect of radiation treatment, from recurrent tumors on T1-w MRI in 42 brain tumor patients, (2) different molecular sub-types of breast cancer on DCE-MRI in 65 studies and (3) non-small cell lung cancer (adenocarcinomas) from benign fungal infection (granulomas) on 120 non-contrast CT studies. For each of these classification problems, CoLlAGE in conjunction with a random forest classifier outperformed state of the art radiomic descriptors (Haralick, Gabor, Histogram of Gradient Orientations).</p>
+              </abstract>
+            </article-meta>
+          </front>
+          <body>
+            <p>There are several instances where benign and malignant pathologies might appear very similar on radiographic imaging. One such example is radiation necrosis (RN) (a relatively benign effect of radiation treatment) and recurrent brain tumors (rBT), which are visually almost indistinguishable on conventional MRI<xref ref-type="bibr" rid="b1">1</xref>; even though both RN and rBT have distinct cellular and architectural arrangements when examined on a pathology slide under a microscope. Another example is triple negative (TN) breast cancer (highly aggressive) and fibroadenomas (FA) (benign tumor) with similar morphologic appearances on MRI<xref ref-type="bibr" rid="b2">2</xref>. Similarly, fungal infections known as granulomas look strikingly similar to non-small cell lung cancers (adenocarcinomas) on routine non-contrast CT imaging. There is hence a need for identifying non-invasive markers that can reliably distinguish such similar appearing pathologies on routine imaging for early diagnosis as well as treatment evaluation. Identification of these imaging biomarkers could potentially obviate the need for unnecessary surgical interventions, as well as exposure to unnecessary radiation, for disease confirmation. “Radiomics”<xref ref-type="bibr" rid="b3">3</xref><xref ref-type="bibr" rid="b4">4</xref><xref ref-type="bibr" rid="b5">5</xref>, an emerging field in medical image analysis, refers to the quantitative extraction of shape, histogram, and/or texture-based features from radiographic images to distinguish disease phenotypes that are not visually appreciable on imaging. Two popular radiomic features are Haralick<xref ref-type="bibr" rid="b6">6</xref> and Gabor steerable filters<xref ref-type="bibr" rid="b7">7</xref>. Haralick features capture gray-level co-occurrence patterns<xref ref-type="bibr" rid="b8">8</xref><xref ref-type="bibr" rid="b9">9</xref>, where a matrix of co-occurring gray-level pairs in the image is constructed, from which second-order statistical texture features can be calculated. Haralick texture analysis is relatively popular in medical image analysis as it allows for capturing variations in gray-level image characteristics via second order intensity statistics (e.g. angular second moment, contrast, and difference entropy). However, Haralick features may fail to capture variations in subtly different sub-structures that may be morphologically different but may have identical co-occurring gray-level intensities. <xref ref-type="fig" rid="f1">Figure 1(b) and (f)</xref> show one such example of two similar appearing texture patterns, where the corresponding Haralick energy feature (shown in <xref ref-type="fig" rid="f1">Fig. 1(c) and (g)</xref>) for both the patterns was found to be identical.</p>
+            <p>Gabor filters<xref ref-type="bibr" rid="b7">7</xref> are modeled to mimic the way human visual system deciphers object appearances<xref ref-type="bibr" rid="b10">10</xref>. A Gabor filter can be defined as the modulation of a complex sinusoidal by a Gaussian function and is controlled by scale (<italic>t</italic>) and orientation (<italic>λ</italic>) parameters. Gabor features can be extracted as a response to convolution of an image with distinct Gabor filters obtained by varying each of the associated parameters (<italic>t, λ</italic>) across the filter bank. However, Gabor filters capture a global response for an image at a specific value of (<italic>t, λ</italic>), and may not capture local variations in orientations on a per-pixel basis within local neighborhoods, which may be an important attribute when computing differences across similar-appearing micro-textures. <xref ref-type="fig" rid="f1">Figure 1(d) and (h)</xref> show a representative example of similar feature responses obtained for a Gabor filter at <italic>t</italic> = 2, and <italic>λ</italic> = <italic>π</italic>/4 for the two texture patterns shown in <xref ref-type="fig" rid="f1">Fig. 1(b) and (f)</xref> respectively.</p>
+            <p>Other popular radiomic features include histogram of gradient orientations (HOG)<xref ref-type="bibr" rid="b11">11</xref>. HOG yields a global patch-based signature by computing histogram distribution of orientations obtained from computing differences in image intensities in <italic>X</italic> and <italic>Y</italic> directions on a per pixel basis. A variant of HOG, called co-occurrence of histogram of gradient orientations (Co-HOG) was recently presented by Watanabe <italic>et al</italic>.<xref ref-type="bibr" rid="b12">12</xref> and Pang <italic>et al</italic>.<xref ref-type="bibr" rid="b13">13</xref> for pedestrian detection. Co-HOG is a multiple-gradient-orientation-based feature descriptor. Its computation yields a high dimensional feature vector that combines neighbor gradient orientations to quantify shape-based appearances in regions of interest. However, the Co-HOG approach in refs <xref ref-type="bibr" rid="b12">12</xref>, <xref ref-type="bibr" rid="b13">13</xref>, <xref ref-type="bibr" rid="b14">14</xref> (a) does not capture localized intensity-dependent variations across neighboring orientations, and (b) is susceptible to “curse of dimensionality” (due to a high dimensional feature space).</p>
+            <p>Recently, Lee <italic>et al</italic>.<xref ref-type="bibr" rid="b15">15</xref> developed a novel quantitative feature called cell orientation entropy (CoRE) to capture differences in orientation of nuclei with respect to the neighboring nuclei across different pathologies, and demonstrated differences in nuclear orientations across aggressive and benign conditions in the context of prostate cancer. If such pathologic differences are indeed reflected at the radiologic level (even though these differences may not be visually discernible), it begs the question whether a radiomic descriptor could be developed to capture the histologic anisotropy across different pathologies at the radiologic scale.</p>
+            <p>In this work, we present a new radiomic descriptor, Co-occurrence of Local Anisotropic Gradient Orientations (CoLlAGe), to capture anisotropic tensor gradient differences across similar appearing pathologies in an image. The rationale behind CoLlAGe, is that even though overall the global textural patterns or even the filter responses at a majority of pixel locations might be similar between two differing pathological conditions (e.g. RN versus rBT, FA versus TN breast cancer or adenocarcinomas versus granulomas), the organization and co-occurrences of local tensor gradients may differ across classes and will be relatively consistent within a class. CoLlAGe seeks to capture these local anisotropic differences in micro-structures by measuring entropy (a mathematical construct to measure disorder) of co-occurrences of pixel/voxel-level gradient orientations computed within a local neighborhood. The rationale being that the distribution of entropy of localized gradient field within a lesion will be high for aggressive disease conditions, potentially manifesting their inherent disorder and high heterogeneity appreciable at a cellular scale, as compared to benign pathologies which have a more coherent micro-architecture. An example of CoLlAGe is shown in <xref ref-type="fig" rid="f1">Fig. 1(e) and (i)</xref> to distinguish two synthetic checkerboard images with similar-appearing patterns. CoLlAGe was found to capture localized variations in gradients on a per-pixel basis (reflected by high CoLlAGe values) across the two patterns, differences that were not appreciable on Haralick and Gabor feature representations.</p>
+            <p>The rest of the paper is organized as follows. The algorithm of CoLlAGe is detailed in the Methodology section, followed by the experimental setup to demonstrate the utility of CoLlAGe in the context of three problems involving brain tumors, breast cancer, and lung cancer. Subsequently we present and discuss the results followed by the concluding remarks.</p>
+            <sec disp-level="1">
+              <title>Methodology of CoLlAGe</title>
+              <p>In the following subsections, we describe the detailed mathematical formulation of our CoLlAGe strategy, both in 2-dimensions (2D) and in 3-dimensions (3D). A preliminary implementation of 2D CoLlAGe was previously presented in ref. <xref ref-type="bibr" rid="b16">16</xref>. <xref ref-type="fig" rid="f2">Figure 2</xref> shows the workflow of CoLlAGe in 2D, while the 3D implementation is shown in <xref ref-type="fig" rid="f3">Fig. 3</xref>.</p>
+              <sec disp-level="2">
+                <title>Notation</title>
+                <p>An MRI image scene <inline-formula id="d33e376"><inline-graphic id="d33e377" xlink:href="srep37241-m1.jpg"/></inline-formula> is defined as <inline-formula id="d33e379"><inline-graphic id="d33e380" xlink:href="srep37241-m2.jpg"/></inline-formula> where <inline-formula id="d33e382"><inline-graphic id="d33e383" xlink:href="srep37241-m3.jpg"/></inline-formula> is a spatial grid <italic>C</italic> of locations <italic>c</italic> ∈ <italic>C</italic>, in a 2-dimensional, <inline-formula id="d33e395"><inline-graphic id="d33e396" xlink:href="srep37241-m4.jpg"/></inline-formula>, or a 3-dimensional space, <inline-formula id="d33e398"><inline-graphic id="d33e399" xlink:href="srep37241-m5.jpg"/></inline-formula>. Each such spatial location, <italic>c</italic> ∈ <italic>C</italic> (in <inline-formula id="d33e407"><inline-graphic id="d33e408" xlink:href="srep37241-m6.jpg"/></inline-formula> or <inline-formula id="d33e411"><inline-graphic id="d33e412" xlink:href="srep37241-m7.jpg"/></inline-formula>) is associated with an intensity value <italic>f(c</italic>). A local neighborhood of <inline-formula id="d33e417"><inline-graphic id="d33e418" xlink:href="srep37241-m8.jpg"/></inline-formula> pixels/voxels is defined within a window <italic>W</italic>, while the co-occurrence matrix computed from within <italic>W</italic> is denoted as <inline-formula id="d33e426"><inline-graphic id="d33e427" xlink:href="srep37241-m9.jpg"/></inline-formula>. The entropy map is given as <inline-formula id="d33e430"><inline-graphic id="d33e431" xlink:href="srep37241-m10.jpg"/></inline-formula>, and the final CoLlAGe feature vector is denoted as <bold>F</bold>. For the sake of clarity, the notations used for computation of 2D CoLlAGe are denoted with superscript 2<italic>D</italic>, while the notations for computation of 3D CoLlAGe are denoted with superscript 3<italic>D</italic>. The common notations, operators and acronyms employed in this paper are listed in <xref ref-type="table" rid="t1">Table 1</xref>.</p>
+              </sec>
+              <sec disp-level="2">
+                <title>Methodology</title>
+                <p>Computation of 2D CoLlAGe (Algortithm 1) for every <italic>c</italic> ∈ <italic>C</italic> involves the following main steps,
+<list id="l1" list-type="order"><list-item><p><bold>Calculation of gradient magnitudes for every pixel</bold>: For every <italic>c</italic> ∈ <italic>C</italic>, gradients along the <italic>X</italic> and <italic>Y</italic> directions are computed as, <inline-formula id="d33e473"><inline-graphic id="d33e474" xlink:href="srep37241-m11.jpg"/></inline-formula>. Here, <inline-formula id="d33e477"><inline-graphic id="d33e478" xlink:href="srep37241-m12.jpg"/></inline-formula> and <inline-formula id="d33e480"><inline-graphic id="d33e481" xlink:href="srep37241-m13.jpg"/></inline-formula> are the gradient magnitudes along the <italic>X</italic> and the <italic>Y</italic> axes respectively, denoted by ∂ <italic>f</italic><sub><italic>X</italic></sub> (<italic>c</italic>) and ∂ <italic>f</italic><sub><italic>Y</italic></sub> (<italic>c</italic>).</p></list-item><list-item><p><bold>Computing local dominant orientations via singular value decomposition</bold> (<bold>SVD</bold>): A <inline-formula id="d33e515"><inline-graphic id="d33e516" xlink:href="srep37241-m14.jpg"/></inline-formula> window <italic>W</italic> centered around every <italic>c</italic> ∈ <italic>C</italic> is selected to compute the localized gradient field. We then compute ∂ <italic>f</italic><sub><italic>X</italic></sub> (<italic>c</italic><sub><italic>k</italic></sub>) and ∂ <italic>f</italic><sub><italic>Y</italic></sub> (<italic>c</italic><sub><italic>k</italic></sub>), <inline-formula id="d33e553"><inline-graphic id="d33e554" xlink:href="srep37241-m15.jpg"/></inline-formula>. The vector gradient matrix <inline-formula id="d33e556"><inline-graphic id="d33e557" xlink:href="srep37241-m16.jpg"/></inline-formula> associated with every <italic>c</italic> is given by <inline-formula id="d33e562"><inline-graphic id="d33e563" xlink:href="srep37241-m17.jpg"/></inline-formula>, where <inline-formula id="d33e565"><inline-graphic id="d33e566" xlink:href="srep37241-m18.jpg"/></inline-formula>, <inline-formula id="d33e568"><inline-graphic id="d33e569" xlink:href="srep37241-m19.jpg"/></inline-formula> is the matrix of gradient vectors in the <italic>X</italic> and <italic>Y</italic> directions for every <italic>c</italic><sub><italic>k</italic></sub> given by a <inline-formula id="d33e584"><inline-graphic id="d33e585" xlink:href="srep37241-m20.jpg"/></inline-formula> matrix, <disp-formula id="eq21"><inline-graphic id="d33e588" xlink:href="srep37241-m21.jpg"/></disp-formula>The most significant orientation for each pixel <italic>c</italic><sub><italic>k</italic></sub> within <inline-formula id="d33e598"><inline-graphic id="d33e599" xlink:href="srep37241-m22.jpg"/></inline-formula> gradient field is obtained by performing singular value decomposition (SVD) of <inline-formula id="d33e601"><inline-graphic id="d33e602" xlink:href="srep37241-m23.jpg"/></inline-formula>. The dominant principal components in <italic>X</italic> and <italic>Y</italic> directions are obtained from SVD as <inline-formula id="d33e611"><inline-graphic id="d33e612" xlink:href="srep37241-m24.jpg"/></inline-formula> and <inline-formula id="d33e614"><inline-graphic id="d33e615" xlink:href="srep37241-m25.jpg"/></inline-formula> for every <inline-formula id="d33e617"><inline-graphic id="d33e618" xlink:href="srep37241-m26.jpg"/></inline-formula>. The most significant orientation for every <italic>c</italic><sub><italic>k</italic></sub> is then calculated as <inline-formula id="d33e626"><inline-graphic id="d33e627" xlink:href="srep37241-m27.jpg"/></inline-formula>.</p></list-item><list-item><p><bold>Calculation of second</bold>-<bold>order statistics for most significant orientations</bold>: The objects of interest for calculating CoLlAGe features are the co-occurring directions given by discretization of the dominant orientation <inline-formula id="d33e636"><inline-graphic id="d33e637" xlink:href="srep37241-m28.jpg"/></inline-formula> for every pixel <italic>c</italic>, such that <inline-formula id="d33e642"><inline-graphic id="d33e643" xlink:href="srep37241-m29.jpg"/></inline-formula>, where <italic>ω</italic> is a discretization factor. An <italic>N</italic> × <italic>N</italic> co-occurrence matrix <inline-formula id="d33e655"><inline-graphic id="d33e656" xlink:href="srep37241-m30.jpg"/></inline-formula> subsequently captures pairs of orientations (<italic>p, q</italic>) between pixels (<italic>c</italic><sub><italic>j</italic></sub>, <italic>c</italic><sub><italic>k</italic></sub>) which co-occur in the neighborhood <inline-formula id="d33e674"><inline-graphic id="d33e675" xlink:href="srep37241-m31.jpg"/></inline-formula>, such that, <disp-formula id="eq32"><inline-graphic id="d33e678" xlink:href="srep37241-m32.jpg"/></disp-formula> where <inline-formula id="d33e680"><inline-graphic id="d33e681" xlink:href="srep37241-m33.jpg"/></inline-formula> is the number of discrete angular bins. Entropy measure, <inline-formula id="d33e683"><inline-graphic id="d33e684" xlink:href="srep37241-m34.jpg"/></inline-formula> is then computed from every co-occurrence matrix on every <italic>c</italic> as, <disp-formula id="eq35"><inline-graphic id="d33e691" xlink:href="srep37241-m35.jpg"/></disp-formula></p></list-item><list-item><p>A <bold>histogram of</bold>
+<inline-formula id="d33e697"><inline-graphic id="d33e698" xlink:href="srep37241-m36.jpg"/></inline-formula> is computed by aggregating <inline-formula id="d33e700"><inline-graphic id="d33e701" xlink:href="srep37241-m37.jpg"/></inline-formula>, <inline-formula id="d33e703"><inline-graphic id="d33e704" xlink:href="srep37241-m38.jpg"/></inline-formula>, where |·| is the cardinality of set <italic>C</italic>. The entropy histogram is divided into bin size <italic>v</italic>, optimized on the training set via grid search optimization.</p></list-item></list></p>
+                <p>A CoLlAGe feature vector, <bold>F</bold><sup>2<italic>D</italic></sup> can be obtained for every <italic>c</italic> ∈ <italic>C</italic> which consists of the binned histogram values in the form of <italic>v</italic> × 1 vectors.</p>
+                <p>
+                  <disp-formula id="eq143">
+                    <inline-graphic id="d33e733" xlink:href="srep37241-m143.jpg"/>
+                  </disp-formula>
+                </p>
+                <p><bold>Algorithm 1</bold>: Computation of 2D CoLlAGe features</p>
+                <p>
+                  <disp-formula id="eq144">
+                    <inline-graphic id="d33e740" xlink:href="srep37241-m144.jpg"/>
+                  </disp-formula>
+                </p>
+                <p><bold>Algorithm 2</bold>: Computation of 3D CoLlAGe features</p>
+              </sec>
+              <sec disp-level="2">
+                <title>Extension of CoLlAGe to 3-Dimensions</title>
+                <p>For 3D CoLlAGe (Algortithm 2), the local neighborhood around a voxel is first defined by a 3D window <italic>W</italic> of size <inline-formula id="d33e753"><inline-graphic id="d33e754" xlink:href="srep37241-m79.jpg"/></inline-formula> along the <italic>X, Y</italic>, and <italic>Z</italic>-directions and gradient directions for every voxel are calculated from within <italic>W</italic>. We collate the gradient magnitudes along the three axes in <italic>W</italic> into a single gradient matrix <inline-formula id="d33e769"><inline-graphic id="d33e770" xlink:href="srep37241-m80.jpg"/></inline-formula> of size <inline-formula id="d33e772"><inline-graphic id="d33e773" xlink:href="srep37241-m81.jpg"/></inline-formula> given as: <inline-formula id="d33e775"><inline-graphic id="d33e776" xlink:href="srep37241-m82.jpg"/></inline-formula>, where <inline-formula id="d33e778"><inline-graphic id="d33e779" xlink:href="srep37241-m83.jpg"/></inline-formula>, <inline-formula id="d33e781"><inline-graphic id="d33e782" xlink:href="srep37241-m84.jpg"/></inline-formula> is the matrix of gradient vectors in the <italic>X, Y</italic> and <italic>Z</italic> directions respectively for every <italic>c</italic><sub><italic>k</italic></sub>. SVD of <inline-formula id="d33e797"><inline-graphic id="d33e798" xlink:href="srep37241-m85.jpg"/></inline-formula> for a voxel <italic>c</italic><sub><italic>k</italic></sub> yields three dominant principal components <italic>ψ</italic><sub><italic>X</italic></sub>(<italic>c</italic><sub><italic>k</italic></sub>), <italic>ψ</italic><sub><italic>Y</italic></sub>(<italic>c</italic><sub><italic>k</italic></sub>) and <italic>ψ</italic><sub><italic>Y</italic></sub>(<italic>c</italic><sub><italic>k</italic></sub>) in the <italic>X</italic>-, <italic>Y</italic>- and <italic>Z</italic>- directions respectively. Two dominant orientations <italic>θ</italic><sup>3<italic>D</italic></sup>(<italic>c</italic><sub><italic>k</italic></sub>) and <italic>ϕ</italic><sup>3<italic>D</italic></sup>(<italic>c</italic><sub><italic>k</italic></sub>) can then be obtained from the three principal components to capture variability in orientations across (<italic>X, Y</italic>), and (<italic>X, Y, Z</italic>), given by</p>
+                <p>
+                  <disp-formula id="eq86">
+                    <inline-graphic id="d33e889" xlink:href="srep37241-m86.jpg"/>
+                  </disp-formula>
+                </p>
+                <p>and</p>
+                <p>
+                  <disp-formula id="eq87">
+                    <inline-graphic id="d33e894" xlink:href="srep37241-m87.jpg"/>
+                  </disp-formula>
+                </p>
+                <p>Two co-occurrence matrices <inline-formula id="d33e897"><inline-graphic id="d33e898" xlink:href="srep37241-m88.jpg"/></inline-formula> and <inline-formula id="d33e900"><inline-graphic id="d33e901" xlink:href="srep37241-m89.jpg"/></inline-formula> corresponding to <italic>θ</italic><sup>3<italic>D</italic></sup>(<italic>c</italic><sub><italic>k</italic></sub>) and <italic>ϕ</italic><sup>3<italic>D</italic></sup>(<italic>c</italic><sub><italic>k</italic></sub>) capture the orientation pairs between voxels in the neighborhood and are computed as given in <xref ref-type="disp-formula" rid="eq32">Equation 1</xref>. <inline-formula id="d33e933"><inline-graphic id="d33e934" xlink:href="srep37241-m90.jpg"/></inline-formula> from <inline-formula id="d33e936"><inline-graphic id="d33e937" xlink:href="srep37241-m91.jpg"/></inline-formula> and <inline-formula id="d33e940"><inline-graphic id="d33e941" xlink:href="srep37241-m92.jpg"/></inline-formula> from <inline-formula id="d33e943"><inline-graphic id="d33e944" xlink:href="srep37241-m93.jpg"/></inline-formula> (computed using <xref ref-type="disp-formula" rid="eq35">Equation 2</xref>), yield two distinct entropy representations in (<italic>X, Y</italic>) and (<italic>X, Y, Z</italic>) directions within the volume of interest. A joint histogram of CoLlAGe feature vector <inline-formula id="d33e955"><inline-graphic id="d33e956" xlink:href="srep37241-m94.jpg"/></inline-formula> can be obtained for further evaluation in a supervised or an unsupervised classification setting.</p>
+              </sec>
+            </sec>
+            <sec disp-level="1">
+              <title>Experimental Design</title>
+              <sec disp-level="2">
+                <title>Datasets and Preprocessing</title>
+                <p>In this work, we employed three unique dataset cohorts obtained from different collaborating institutions to evaluate the efficacy of CoLlAGe on three extremely challenging clinical problems: (a) distinguishing radiation necrosis, a relatively benign effect of radiation, from tumor recurrence on T1-w MRI in brain tumors, (b) distinguishing different molecular sub-types of breast cancer on DCE-MRI, and (c) distinguishing adenocarcinomas from granulomas on non-contrast CT images. Details regarding inclusion criteria, pre-processing, and experimental design for each of the three datasets are provided below.</p>
+                <sec disp-level="3">
+                  <title>Brain tumor dataset</title>
+                  <p>Imaging scans were acquired under an Institutional Review Board (IRB)-approved (IRB # CC00148) and HIPAA-compliant study at University Hospitals, Cleveland (UH). The patient cohorts were identified by performing a retrospective review of neuropathology in all brain tumor patients who underwent a surgery of a recurrent or progressive Gd T1w-enhancing lesion identified during follow-up post-9 months (or later) after the initial after brain radiation therapy. Follow-up MRI scans within 0–21 days prior to second resection or biopsy (for disease confirmation) were used for analysis. Written informed consent was obtained from all the subjects. Inclusion criteria were that the pathology specimen must have been obtained by resection (preferably) or by multiple biopsies (&gt;2) via stereotactic guidance. Fewer than two biopsies were not allowed because of the potential for sampling error. Histology was re-reviewed by a neuropathologist, blinded to the original diagnosis and type of radiation, in order to quantify the percentage of radiation necrosis and recurrent tumor. In order to avoid any training errors due to “mixed” pathologies on the same lesion the presence of RN was strictly defined as &gt;80% RN and of recurrent tumor as &gt;80% recurrent tumor (other “mixed” cases with varying proportions of RN and tumor recurrence were excluded). We identified a total of 42 cases, from 2006 to 2014 that followed this strict inclusion criterion. Our retrospectively analyzed brain tumor dataset comprised 22 primary (10 RN, 12 rBT) and 20 metastatic (8 RN, 12 rBT) cases. Patient MRIs were acquired at 3 Tesla. Images have an in-plane resolution of 0.8–0.93 mm/pixel. Slice thickness = 3–5 mm, TR = 400–750 ms, TE = 14–17 ms. The clinicopathologic characteristics of the brain tumor dataset have been summarized in <xref ref-type="table" rid="t2">Table 2</xref>.</p>
+                </sec>
+                <sec disp-level="3">
+                  <title>Breast cancer dataset</title>
+                  <p>Breast MRI data was prospectively collected in an Institutional Review Board-approved (IRB #02-13-42C), HIPAA-compliant study at the University of Pennsylvania (UPenn) between 2002 and 2007. Written informed consent was obtained from all subjects. Women without contraindication to MRI or gadolinium who presented with either a suspicious breast lesion or known malignancy prior to surgery were recruited to a larger single-institution study of MRI in the staging, diagnosis, and screening of breast cancer. Women who underwent neoadjuvant chemotherapy prior to surgery were excluded, as were women who had excisional biopsy prior to entry. From this data set we sub-selected women whose pathology revealed invasive cancer. Subjects whose images of the index lesion demonstrated substantial metallic artifact from prior biopsy were also excluded. This study examined MRI characteristics in 76 solid lesions from 65 patients for whom pathology results and, where applicable, ER, PR, and HER2 results were available. Reference standard diagnosis was made by histopathologic examination of tissue obtained by either core biopsy sampling or lumpectomy. Of the 76 lesions, 12 were benign fibroadenomas and 64 were invasive carcinomas. All of the carcinomas were immunohistochemically stained for hormone receptors and HER-2/neu. In cases in which staining for HER-2/neu was inconclusive, amplification was confirmed with fluorescence <italic>in situ</italic> hybridization. Of the 64 carcinomas, 21 were triple negative (ER−/PR−/HER2−) cancer, 18 were HER2+ (14 ER−/HER2+, 4 ER+/HER2+) cancer, and 25 were ER+ (ER+/HER2−) cancer. Patient MRIs were acquired at either 1.5 or 3 Tesla (Siemens Sonata or Trio, respectively, Malvern, PA). Imaging parameters for DCE-MRI varied over time and magnet type (in-plane resolution 0.20–0.70 mm/pixel, slice thickness 2–5 mm, TR = 7–26 ms, TE = 1.8–6.5 ms, flip angle 25–30 degrees. The clinicopathologic characteristics of the breast cancer dataset have been summarized in <xref ref-type="table" rid="t3">Table 3</xref>.</p>
+                </sec>
+                <sec disp-level="3">
+                  <title>Lung cancer dataset</title>
+                  <p>Two separate datasets of non-contrast Lung CT scans were prospectively collected in an Institutional Review Board-approved (IRB #02-13-42C), HIPAA-compliant study from two collaborating institutions: University Hospitals, Cleveland and Cleveland Clinic Foundation (CCF) in 2013 and 2014. Written informed consent was obtained for all the studies within the two cohorts. Histology was confirmed by anatomical pathologists at the respective institutions from the surgical specimen available for studies employed in both the cohorts. All patients underwent non-contrast CT scans prior to resection as part of routine care. Patients with multiple solitary nodules were excluded. Dataset 1 from University Hospitals, used as the training set, comprised 64 studies (31 adenocarcinomas and 33 granulomas). Dataset 2, from Cleveland Clinic, consisted of 56 cases (34 adenocarcinomas and 22 granulomas), and was used as an independent test set. The CTs were acquired using Siemens scanners with 2 mm slice thickness and 1 mm reconstruction. The tube voltage/current was 120 kV/150 mAs. The clinicopathologic characteristics of the lung cancer dataset have been summarized in <xref ref-type="table" rid="t4">Table 4</xref>.</p>
+                </sec>
+                <sec disp-level="3">
+                  <title>Pre-processing</title>
+                  <p>For the brain tumor cohort, the lesion ROIs were manually traced by an expert neuroradiologist, with over 25 years of experience, using the annotation tool in 3D Slicer after skull-stripping and intensity standardization. Intensity standardization<xref ref-type="bibr" rid="b17">17</xref><xref ref-type="bibr" rid="b18">18</xref> is an essential pre-requisite when comparing image intensities across different acquisitions, as it allows the gray scale MR intensities to have a fixed tissue-specific meaning within the same imaging protocol and the same body region, and within the same patient. For the brain MRI cohort, the segmented regions included enhancing and non-enhancing neoplastic tissue with the exclusion of edema. The neuroradiologist annotated all the 2D slices that had visible lesions.</p>
+                  <p>For the breast cancer and lung cancer cohort, the best representative section, which was a central section of either the DCE-MRI volume or the non-contrast CT scan, was annotated by a breast radiologist and a thoracic radiologist respectively, who were both blinded to the pathologic diagnosis. Both for lung and breast cohorts, the lesion boundary was manually delineated on the basis of the image that demonstrated the greatest lesion conspicuity from neighboring tissues, which was then used for subsequent analysis.</p>
+                </sec>
+              </sec>
+              <sec disp-level="2">
+                <title>Comparison of CoLlAGe with other popular texture features</title>
+                <p>While we qualitatively evaluated 3D CoLlAGe on a limited cohort of studies, quantitative analysis for all the three use cases in brain, breast, and lung, was restricted to 2D CoLlAGe, due to the variable slice thickness and anistropic MRI volumes of our retrospective studies. We compared the performance of 2D CoLlAGe with other state-of-the-art texture descriptors (i.e. Haralick, Gabor, HOG). Apart from CoLlAGe, we extracted a total of 584 2D texture features for the ROIs on a per-pixel basis, including 52 Haralick features, 432 Gabor features and 100 HOG descriptors. The Gabor filter bank consisted of six different frequency-shift values <inline-formula id="d33e1007"><inline-graphic id="d33e1008" xlink:href="srep37241-m95.jpg"/></inline-formula>, eight orientation parameter values <inline-formula id="d33e1010"><inline-graphic id="d33e1011" xlink:href="srep37241-m96.jpg"/></inline-formula>, and 9 different variance settings, generating a total of 432 different filters. Each filter yielded a real and imaginary response, which were used to calculate the total response magnitude for every region of interest. HOG features were computed via pixel-wise gradient orientations obtained from the grayscale intensity differences in the region of interest. These orientations were then equally binned into <italic>v</italic> bins, <inline-formula id="d33e1016"><inline-graphic id="d33e1017" xlink:href="srep37241-m97.jpg"/></inline-formula>, with each bin encompassing 36°, 24°, 18°, 14.4° or 12°. For Haralick and Gabor descriptors, the feature representations were obtained from every lesion by computing the median of feature values across all pixels within a lesion. Summary of parameters used for different feature sets is provided in <xref ref-type="table" rid="t5">Table 5</xref>.</p>
+              </sec>
+              <sec disp-level="2">
+                <title>Comparison of CoLlAGe with expert diagnosis</title>
+                <p>To further demonstrate the efficacy of CoLlAGe in distinguishing similar appearing pathologies on imaging, we performed a human machine comparison for our brain (N = 42) and lung (N = 20) cohort. For both the cohorts, collaborating expert readers (board certified attending radiologists and pulmonologists) independently provided a diagnosis, which was then compared with the analysis from the CoLlAGe classifier. In both the human-machine comparison experiments, the expert readers were kept blinded to the pathology reports. The experts assigned a score between [0, 1] to each lesion, with 0 referring to a high confidence that the nodule is “benign” (radiation necrosis or granuloma), and 1 being “malignant” (recurrent tumor or adenocarcinoma). Similarly, probability scores were assigned by the Random Forest classifier using CoLlAGe features. Using the assigned probabilities we computed the areas under the respective receiver operating characteristic curves (AUCs).</p>
+              </sec>
+              <sec disp-level="2">
+                <title>Experimental Evaluation</title>
+                <p>The feature sets were used to train a Random Forest (RF) classifier<xref ref-type="bibr" rid="b19">19</xref>, a boostrapped aggregation of multiple decision tree classifiers, in conjunction with <bold>F</bold><sup>2<italic>D</italic></sup> to distinguish between the categories of interest. Wilcoxon’s rank sum test<xref ref-type="bibr" rid="b20">20</xref> was employed to assess statistical significance and corrected for multiple comparisons for the experiments performed for the three use-cases. The sample size for the different experiments has been summarized in <xref ref-type="table" rid="t6">Table 6</xref>. In all our experiments, the RF classifier was used to assign every ROI into classes {+1, −1} based on the following classification tasks:<list id="l2" list-type="bullet"><list-item><p><bold>Experiment 1</bold>: Distinguishing radiation necrosis from recurrent tumor on MRI,</p></list-item><list-item><p><bold>Experiment 2</bold>: Distinguishing triple negatives from other molecular subtypes of breast cancer (ER+, HER2+ and benign FA) on MRI,</p></list-item><list-item><p><bold>Experiment 3</bold>: Distinguishing adenocarcinoma from granuloma on non-contrast CT.</p></list-item></list></p>
+                <sec disp-level="3">
+                  <title>Experiment <italic>E</italic><sub>1</sub>: Distinguishing Radiation Necrosis from Recurrent Tumor</title>
+                  <p>We computed <bold>F</bold><sup>2<italic>D</italic></sup> for every slice with expert-annotated ROI on the primary and metastatic brain tumor cohorts and employed the feature set in a RF classifier setting to distinguish RN from rBT such that slices from the same patient are either used for training or for testing. A total of 50 trees were used for training the RF classifier. 3-fold randomized cross-validation was used to train and evaluate classifier performance. This involved randomly splitting the entire dataset into 3 equally sized sets with 2 subsets used for classifier training and 1 subset used for independent evaluation. The diagnostic performance of each classifier trained with CoLlAGe and other comparative features was evaluated using average classification accuracy <italic>β</italic><sup><italic>Acc</italic></sup>, computed over 150 iterations of cross-validation runs. Quantitative results across CoLlAGe and the other texture features were compared by computing <italic>β</italic><sup><italic>Acc</italic></sup> for every feature set at the operating point. Additionally, for a subset of studies we computed <bold>F</bold><sup>3<italic>D</italic></sup> for qualitative visualization. Qualitative results for both 2D and 3D CoLlAGe feature representation were visualized as standard heatmaps where high CoLlAGe values were shown in red while blue represented low CoLlAGe values.</p>
+                </sec>
+                <sec disp-level="3">
+                  <title>Experiment <italic>E</italic><sub>2</sub>: Distinguishing Molecular Subtypes of Breast Cancer</title>
+                  <p><bold>F</bold><sup>2<italic>D</italic></sup> was similarly computed for the slices with expert annotated ROI for the breast cancer cohort and was used to distinguish triple negative from the other breast cancer subtypes (ER+, HER2+) and benign fibroadenoma. A similar cross-validation technique was employed, along with a comprehensive comparison with other texture descriptors as given in <italic>E</italic><sub>1</sub>.</p>
+                </sec>
+                <sec disp-level="3">
+                  <title>Experiment <italic>E</italic><sub>3</sub>: Distinguishing Adenocarcinomas from Granulomas</title>
+                  <p>For every slice with the expert annotated ROI, <bold>F</bold><sup>2<italic>D</italic></sup> was similarly computed for the lung cancer cohort and was used to distinguish adenocarcinomas from granulomas. Cross-validation, along with a comprehensive comparison with other texture descriptors as given in <italic>E</italic><sub>1</sub> was employed for the training set. This cross-validation strategy was employed for all the parameters as listed in <xref ref-type="table" rid="t5">Table 5</xref>. The model using the parameters that yielded the best results, for each category of feature descriptors, across the aggregated cross-validation runs was ‘locked down’, and then used to classify the cases in the independent test cohort.</p>
+                </sec>
+              </sec>
+              <sec disp-level="2">
+                <title>Parameter Sensitivity Analysis</title>
+                <p>The sensitivity of CoLlAGe features was evaluated across its two key parameters, bin size of the entropy histogram (<italic>v</italic>) and neighborhood <inline-formula id="d33e1150"><inline-graphic id="d33e1151" xlink:href="srep37241-m98.jpg"/></inline-formula> size for computing localized orientations. To account for smaller lesion sizes across the two cohorts, we restricted the <inline-formula id="d33e1153"><inline-graphic id="d33e1154" xlink:href="srep37241-m99.jpg"/></inline-formula>. Bin sizes <inline-formula id="d33e1156"><inline-graphic id="d33e1157" xlink:href="srep37241-m100.jpg"/></inline-formula> were additionally considered at regular bin intervals of 5 to evaluate variation in <italic>β</italic><sup><italic>Acc</italic></sup>. We reported the variation in <italic>β</italic><sup><italic>Acc</italic></sup> as a function of <inline-formula id="d33e1172"><inline-graphic id="d33e1173" xlink:href="srep37241-m101.jpg"/></inline-formula> and <italic>v. v</italic> &gt; 20, and <inline-formula id="d33e1178"><inline-graphic id="d33e1179" xlink:href="srep37241-m102.jpg"/></inline-formula> (<xref ref-type="fig" rid="f4">Fig. 4</xref>) were found to be optimal parameters for the brain tumor cohort. Similarly, for the breast cancer cohorts (results not shown), the following pairs of parameters were found to be optimal: <italic>v</italic> = 30, and <inline-formula id="d33e1188"><inline-graphic id="d33e1189" xlink:href="srep37241-m103.jpg"/></inline-formula> for TN versus ER+, <italic>v</italic> = 30, and <inline-formula id="d33e1194"><inline-graphic id="d33e1195" xlink:href="srep37241-m104.jpg"/></inline-formula> both for TN versus HER2+ and TN versus FA. For the lung cancer cohort, the best parameters were found to be <italic>v</italic> = 10, and <inline-formula id="d33e1200"><inline-graphic id="d33e1201" xlink:href="srep37241-m105.jpg"/></inline-formula>. The bounds of the different parameters were selected in a way that accounted for boundary effects that would arise in case of relatively small lesions <inline-formula id="d33e1204"><inline-graphic id="d33e1205" xlink:href="srep37241-m106.jpg"/></inline-formula>, and when <italic>v</italic> &gt; 30. <xref ref-type="fig" rid="f4">Figure 4</xref> shows the parameter sensitivity for all the different classification experiments using CoLlAGe.</p>
+              </sec>
+            </sec>
+            <sec disp-level="1">
+              <title>Results and Discussion</title>
+              <sec disp-level="2">
+                <title>Experiment <italic>E</italic><sub>1</sub>: Distinguishing Radiation Necrosis from Recurrent tumor</title>
+                <p><xref ref-type="fig" rid="f5">Figure 5</xref> shows the qualitative feature maps of 3D CoLlAGe on a Gd-T1 MRI for radiation necrosis (a) and recurrent tumor (e) respectively. The localized gradient field, <italic>θ</italic><sup>3<italic>D</italic></sup>, for radiation necrosis and recurrent tumor is shown in (b) and (e), while the CoLlAGe entropy heatmaps, <inline-formula id="d33e1235"><inline-graphic id="d33e1236" xlink:href="srep37241-m107.jpg"/></inline-formula> and <inline-formula id="d33e1238"><inline-graphic id="d33e1239" xlink:href="srep37241-m108.jpg"/></inline-formula> are shown in (c), (d) for radiation necrosis and in (g), (h) for tumor recurrence respectively. High CoLlAGe values are reflected in red, while blue reflects under expression of CoLlAGe values. As may be evidenced from the CoLlAGe heatmaps, tumor recurrence has an over-expression of CoLlAGe both in (<italic>X, Y</italic>) as well as (<italic>X, Y, Z</italic>) directions compared to radiation necrosis. The over-expression of CoLlAGe values may be reflective of the higher structural heterogeneity of recurrent tumor, owing to the presence of more varied tissue types and hypercellularity, as compared to radiation necrosis.</p>
+                <p>The quantitative results including comparison of the classification performance of 2D CoLlAGe with Haralick, Gabor, and HOG, using the best parameter settings, are shown in <xref ref-type="table" rid="t7">Table 7</xref>. The best classification accuracy obtained for the popular-texture features was reported to be between 50% to 65%, while CoLlAGe was found to perform significantly better (over 20% improvement in classification accuracy (<italic>p</italic>-value &lt; 0.001)) with an accuracy of 83.79 ± 5.43% for primary cases, and 88.52% ± 3.93 for the metastatic brain tumor cohort. It has been previously shown that anomalies in brain tissue morphology are associated with directional patterns that can be captured by texture analysis. For example, gyrifications in gray matter create oriented spatial frequencies, that can be captured by wavelet-based features. Kovalev <italic>et al</italic>.<xref ref-type="bibr" rid="b21">21</xref> have analyzed gradient and anisotropy properties of 3D texture in the context of neurodegenerative diseases. According to Georgiadia <italic>et al</italic>.<xref ref-type="bibr" rid="b22">22</xref>, brain lesion texture is correlated with presence and type of cancer cells. A recent study<xref ref-type="bibr" rid="b23">23</xref> employed Haralick and wavelet texture features to distinguish radiation necrosis from metastatic brain tumor recurrence with a reported AUC of 94%. However, we believe that the results, reported on a per-slice basis, may have been affected by the classifier being contaminated by slices from the same patient being used both within the training as well as testing sets during classification. It is worth noting that the diagnostic accuracy of distinguishing radiation necrosis from tumor recurrence by an expert radiologist on visual inspection of MRI has been reported to be between 50–60%<xref ref-type="bibr" rid="b24">24</xref>.</p>
+              </sec>
+              <sec disp-level="2">
+                <title>Experiment <italic>E</italic><sub>2</sub>: Distinguishing Molecular Sub-types of Breast Cancer</title>
+                <p><xref ref-type="fig" rid="f6">Figure 6</xref> shows the qualitative 2D CoLlAGe feature maps for each of the breast cancer sub-types, TN (i), HER2+ (j), ER+ (k), and FA (l). Higher CoLlAGe values are reflected in red, while blue reflects low CoLlAGe values. The corresponding localized orientations (<italic>θ</italic><sup>2<italic>D</italic></sup>) for TN, HER2+, ER+ and FA are shown in <xref ref-type="fig" rid="f6">Fig. 6(e)</xref>, <xref ref-type="fig" rid="f6">(f)</xref>, <xref ref-type="fig" rid="f6">(g) and (h)</xref> respectively. It is interesting to note that the gradient field was found to be more disordered across cancer sub-types, as compared to benign FA. Similar to Experiment <italic>E</italic><sub>1</sub>, a marked difference in CoLlAGe values was observed across different sub-types of breast cancer (TN, HER2+, ER+, and FA), suggesting that CoLlAGe may potentially be capturing local anisotropic differences in micro-structures on imaging that are otherwise not visually appreciable.</p>
+                <p><xref ref-type="table" rid="t7">Table 7</xref> shows the average <italic>β</italic><sup><italic>Acc</italic></sup> values obtained over 150 iterations of a 3 fold-cross validation via a RF classifier. <italic>β</italic><sup><italic>Acc</italic></sup> values obtained from CoLlAGe in the breast cancer cohort significantly outperformed (<italic>p</italic>-value &lt; 0.001) the other state-of-the-art texture descriptors (Haralick, Gabor, HOG), with an improvement of ≈10% for majority of the 3 classification tasks (TN versus ER+, TN versus HER2+, TN versus FA). Our results resonate with the findings reported in Agner <italic>et al</italic>.<xref ref-type="bibr" rid="b25">25</xref> that used a similar cohort of breast DCE-MRI studies to distinguish different sub-types of breast cancer using a novel texture kinetic approach. Similar to Agner <italic>et al</italic>., the most prominent difference, both in qualitative and quantitative performance of CoLlAGe, is reported between FA, a benign condition, from TN, the most aggressive sub-type of breast cancer with <italic>β</italic><sup><italic>Acc</italic></sup> of 90.06 ± 4.38. It is worth noting that currently radiologists are unable to distinguish TNs from FAs on a routine MRI<xref ref-type="bibr" rid="b26">26</xref><xref ref-type="bibr" rid="b27">27</xref><xref ref-type="bibr" rid="b28">28</xref>.</p>
+              </sec>
+              <sec disp-level="2">
+                <title>Experiment <italic>E</italic><sub>3</sub>: Distinguishing Adenocarcinomas from Granulomas</title>
+                <p><xref ref-type="fig" rid="f7">Figure 7</xref> shows the qualitative 2D CoLlAGe feature maps for a representative non-contrast CT image with pathologically proven adenocarcinoma (a) and granuloma (d), respectively. Higher CoLlAGe values are reflected in red, while blue reflects low CoLlAGe values. It may be observed that representative adenocarcinoma lesion has higher density of larger CoLlAGe entropy values as compared to the granuloma sample. <xref ref-type="table" rid="t7">Table 7</xref> shows the average <italic>β</italic><sup><italic>Acc</italic></sup> values obtained over 150 iterations of a 3 fold-cross validation via a RF classifier. Using the locked-down classifier, CoLlAGe features showed the best classification results for the test set (69.8%).</p>
+                <p>Tumor heterogeneity has been previously shown to be associated with non-small cell lung carcinoma<xref ref-type="bibr" rid="b29">29</xref>. This heterogeneity can be attributed to the hypoxic microenvironment<xref ref-type="bibr" rid="b30">30</xref>. The subtle differences in the hypoxia-related heterogeneity as suggested in ref. <xref ref-type="bibr" rid="b29">29</xref> is perhaps manifested in the differential expression of CoLlAGe entropy. Dennie <italic>et al</italic>.<xref ref-type="bibr" rid="b31">31</xref> have reported an AUC of 0.90 in distinguishing the two conditions. The texture analysis in ref. <xref ref-type="bibr" rid="b31">31</xref>, using Haralick features, has yielded higher accuracy than FDG-PET/CT in distinguishing the two pathologies. However, the approach in ref. <xref ref-type="bibr" rid="b31">31</xref> has not been validated on an independent test set. Besides, there is no clear qualitative evidence of the Haralick features visibly distinguishing the two pathologies.</p>
+              </sec>
+              <sec disp-level="2">
+                <title>Human-Machine Comparison Results</title>
+                <p>On the hold-out lung cohort, the AUCs for the two experts were found to be 0.68, and 0.54 respectively. Using the CoLlAGe features, the associated AUC was computed as 0.78. For the brain tumor studies, AUCs for the two independent readers were 0.75 and 0.58 respectively, while the same for a CoLlAGe-based classifier was computed to be 0.80. To the best of our knowledge, no radiomics-based work recently has demonstrated such a rigorous and comprehensive human-machine reader comparison across multiple disease sites.</p>
+              </sec>
+            </sec>
+            <sec disp-level="1">
+              <title>Concluding Remarks</title>
+              <p>We presented a radiomic feature descriptor, Co-occurrence of Local Anisotropic Gradient Orientations (CoLlAGe), that captures higher order co-occurrence patterns of local gradient tensors at a voxel level to distinguish disease phenotypes that have similar morphologic appearances. We employed three clinically challenging datasets to evaluate the efficacy of CoLlAGe, distinguishing (a) radiation necrosis, a relatively benign effect of radiation, from tumor recurrence on T1-w MRI in brain tumors, (b) different molecular sub-types of breast cancer on DCE-MRI and (c) adenocarcinomas from granulomas on non-contrast CT. Additionally, we compared performance of CoLlAGe with other state-of-the-art texture descriptors (Haralick, Gabor, Histogram of Gradient orientations) as well as across two expert readers (for two use-cases), and demonstrated that CoLlAGe has significantly better classification accuracy than the other texture descriptors as well as the expert readers. Across the cross-validation and testing stages, CoLlAGe outperformed other texture features in 20 out of 21 comparative experiments (<xref ref-type="table" rid="t7">Table 7</xref>). Our results, on all three cohorts, seem to suggest that CoLlAGe has the potential to serve as a powerful radiomic descriptor in distinguishing similar appearing pathologies on imaging.</p>
+              <p>Nevertheless, there are a few limitations to our study. Firstly, CoLlAGe was only compared against three popularly used texture features (Haralick, Gabor, and HOG). Secondly, based on our parameter sensitivity analysis, it appears that parameter selection may be an important consideration when employing CoLlAGe for a specific problem. In this paper, histogram representation was used to collate CoLlAGe values to classify every image within a random forest classifier. However, the choice of feature representation and classification methods is flexible and can be modified depending on the specific application. Future work will focus on (1) rigorously evaluating efficacy of CoLlAGe across other texture features on a larger cohort of multi-institutional studies, and (2) identifying a domain-independent parameter selection strategy to evaluate robustness of CoLlAGe.</p>
+            </sec>
+            <sec disp-level="1">
+              <title>Additional Information</title>
+              <p><bold>How to cite this article</bold>: Prasanna, P. <italic>et al</italic>. Co-occurrence of Local Anisotropic Gradient Orientations (CoLlAGe): A new radiomics descriptor. <italic>Sci. Rep.</italic><bold>6</bold>, 37241; doi: 10.1038/srep37241 (2016).</p>
+              <p><bold>Publisher’s note:</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>Research reported in this publication was supported by the National Cancer Institute of the National Institutes of Health under award numbers R01CA136535-01, R01CA140772-01, R21CA167811-01, R21CA179327-01; R21CA195152-01 the National Institute of Diabetes and Digestive and Kidney Diseases under award number R01DK098503-02, the DOD Prostate Cancer Synergistic Idea Development Award (PC120857); the DOD Lung Cancer Idea Development New Investigator Award (LC130463); the Ohio Third Frontier Technology development Grant, the CTSC Coulter Annual Pilot Grant, the Case Comprehensive Cancer Center Pilot Grant, VelaSano Grant from the Cleveland Clinic, and the Wallace H. Coulter Foundation Program in the Department of Biomedical Engineering at Case Western Reserve University. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.</p>
+            </ack>
+            <ref-list>
+              <ref id="b1">
+                <mixed-citation publication-type="journal"><name><surname>Tiwari</surname><given-names>P.</given-names></name><etal/>. <article-title>Texture descriptors to distinguish radiation necrosis from recurrent brain tumors on multi-parametric MRI</article-title>. In <source>SPIE Medical Imaging</source>, 90352B–90352B (International Society for Optics and Photonics, <year>2014</year>).</mixed-citation>
+              </ref>
+              <ref id="b2">
+                <mixed-citation publication-type="journal"><name><surname>Agner</surname><given-names>S.</given-names></name><etal/>. <article-title>Computerized image analysis for identifying triple-negative breast cancers and differentiating them from other molecular subtypes of breast cancer on DCE-MRI</article-title>. <source>Radiology</source><volume>272</volume>, <fpage>91</fpage>–<lpage>99</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24620909</pub-id></mixed-citation>
+              </ref>
+              <ref id="b3">
+                <mixed-citation publication-type="journal"><name><surname>Kumar</surname><given-names>V.</given-names></name><etal/>. <article-title>Radiomics: the process and the challenges</article-title>. <source>Magn Reson Imaging</source><volume>30</volume>(9), <fpage>1234</fpage>–<lpage>48</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22898692</pub-id></mixed-citation>
+              </ref>
+              <ref id="b4">
+                <mixed-citation publication-type="journal"><name><surname>Lambin</surname><given-names>P.</given-names></name><etal/>. <article-title>Radiomics: extracting more information from medical images using advanced feature analysis</article-title>. <source>European Journal of Cancer</source><volume>48</volume>, <fpage>441</fpage>–<lpage>446</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22257792</pub-id></mixed-citation>
+              </ref>
+              <ref id="b5">
+                <mixed-citation publication-type="journal"><name><surname>Gatenby</surname><given-names>R.</given-names></name>, <name><surname>Grove</surname><given-names>O.</given-names></name> &amp; <name><surname>Gillies</surname><given-names>R.</given-names></name>
+<article-title>Quantitative imaging in cancer evolution and ecology</article-title>. <source>Radiology</source>
+<volume>269</volume>, <fpage>8</fpage>–<lpage>14</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">24062559</pub-id></mixed-citation>
+              </ref>
+              <ref id="b6">
+                <mixed-citation publication-type="journal"><name><surname>Haralick</surname><given-names>R.</given-names></name>, <name><surname>Shanmugam</surname><given-names>K.</given-names></name> &amp; <name><surname>Dinstein</surname><given-names>I. H.</given-names></name>
+<article-title>Textural features for image classification</article-title>. <source>Systems, Man and Cybernetics, IEEE Transactions on</source>
+<fpage>610</fpage>–<lpage>621</lpage> (<year>1973</year>).</mixed-citation>
+              </ref>
+              <ref id="b7">
+                <mixed-citation publication-type="other"><name><surname>Jain</surname><given-names>A.</given-names></name> &amp; <name><surname>Farrokhnia</surname><given-names>F.</given-names></name>
+<article-title>Unsupervised texture segmentation using Gabor filters</article-title>. In <italic>Systems, Man and Cybernetics, 1990. Conference Proceedings</italic>., <italic>IEEE International Conference on</italic>, <fpage>14</fpage>–<lpage>19</lpage> (IEEE, <year>1990</year>).</mixed-citation>
+              </ref>
+              <ref id="b8">
+                <mixed-citation publication-type="other"><name><surname>Prasanna</surname><given-names>P.</given-names></name>, <name><surname>Jain</surname><given-names>S.</given-names></name>, <name><surname>Bhagat</surname><given-names>N.</given-names></name> &amp; <name><surname>Madabhushi</surname><given-names>A.</given-names></name>
+<article-title>“Decision support system for detection of diabetic retinopathy using smartphones,” 2013 7th International Conference on Pervasive Computing Technologies for Healthcare and Workshops</article-title>, <fpage>176</fpage>–<lpage>179</lpage>, 2013.</mixed-citation>
+              </ref>
+              <ref id="b9">
+                <mixed-citation publication-type="other"><name><surname>Prasanna</surname><given-names>P.</given-names></name>, <name><surname>Patel</surname><given-names>J.</given-names></name>, <name><surname>Partovi</surname><given-names>S.</given-names></name>, <name><surname>Madabhushi</surname><given-names>A.</given-names></name> &amp; <name><surname>Tiwari</surname><given-names>P.</given-names></name>
+<article-title>“Radiomic features from the peritumoral brain parenchyma on treatment-naive multi-parametric MR imaging predict long versus short-term survival in glioblastoma multiforme: Preliminary findings,” European Radiology 2016, doi:10.1007/s00330-016-4637-3</article-title>.</mixed-citation>
+              </ref>
+              <ref id="b10">
+                <mixed-citation publication-type="journal"><name><surname>Fogel</surname><given-names>I.</given-names></name> &amp; <name><surname>Sagi</surname><given-names>D.</given-names></name>
+<article-title>Gabor filters as texture discriminator</article-title>. <source>Biological cybernetics</source>
+<volume>61</volume>, <fpage>103</fpage>–<lpage>113</lpage> (<year>1989</year>).</mixed-citation>
+              </ref>
+              <ref id="b11">
+                <mixed-citation publication-type="journal"><name><surname>Dalal</surname><given-names>N.</given-names></name> &amp; <name><surname>Triggs</surname><given-names>B.</given-names></name>
+<article-title>Histograms of Oriented Gradients for human detection</article-title>. In <source>CVPR 2005</source>
+<volume>vol. 1</volume>, <fpage>886</fpage>–<lpage>893</lpage> (IEEE, <year>2005</year>).</mixed-citation>
+              </ref>
+              <ref id="b12">
+                <mixed-citation publication-type="journal"><name><surname>Watanabe</surname><given-names>T.</given-names></name>, <name><surname>Ito</surname><given-names>S.</given-names></name> &amp; <name><surname>Yokoi</surname><given-names>K.</given-names></name>
+<article-title>Co-occurrence histograms of oriented gradients for pedestrian detection</article-title>. In <source>Advances in Image and Video Technology</source>
+<volume>5414</volume>, <fpage>37</fpage>–<lpage>47</lpage> (<year>2009</year>).</mixed-citation>
+              </ref>
+              <ref id="b13">
+                <mixed-citation publication-type="journal"><name><surname>Pang</surname><given-names>Y.</given-names></name>, <name><surname>Yan</surname><given-names>H.</given-names></name>, <name><surname>Yuan</surname><given-names>Y.</given-names></name> &amp; <name><surname>Wang</surname><given-names>K.</given-names></name>
+<article-title>Robust CoHOG feature extraction in human-centered image/video management system</article-title>. <source>Systems, Man, and Cybernetics</source>
+<volume>42</volume>, <fpage>458</fpage>–<lpage>468</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22113786</pub-id></mixed-citation>
+              </ref>
+              <ref id="b14">
+                <mixed-citation publication-type="journal"><name><surname>Ito</surname><given-names>S.</given-names></name> &amp; <name><surname>Kubota</surname><given-names>S.</given-names></name>
+<article-title>Object classification using heterogeneous co-occurrence features</article-title>. In <source>Computer Vision–ECCV 2010</source>
+<volume>6315</volume>, <fpage>701</fpage>–<lpage>714</lpage> (<year>2010</year>).</mixed-citation>
+              </ref>
+              <ref id="b15">
+                <mixed-citation publication-type="journal"><name><surname>Lee</surname><given-names>G.</given-names></name><etal/>. <article-title>Cell Orientation Entropy (COrE): Predicting biochemical recurrence from prostate cancer tissue microarrays</article-title>. In <source>MICCAI</source> (<italic>3</italic>), <fpage>396</fpage>–<lpage>403</lpage> (<year>2013</year>).</mixed-citation>
+              </ref>
+              <ref id="b16">
+                <mixed-citation publication-type="journal"><name><surname>Prasanna</surname><given-names>P.</given-names></name>, <name><surname>Tiwari</surname><given-names>P.</given-names></name> &amp; <name><surname>Madabhushi</surname><given-names>A.</given-names></name>
+<article-title>Co-occurrence of local anisotropic gradient orientations (collage): Distinguishing tumor confounders and molecular subtypes on MRI</article-title>. In <source>MICCAI 2014</source>, <fpage>73</fpage>–<lpage>80</lpage> (Springer International Publishing, <year>2014</year>).</mixed-citation>
+              </ref>
+              <ref id="b17">
+                <mixed-citation publication-type="journal"><name><surname>Madabhushi</surname><given-names>A.</given-names></name> &amp; <name><surname>Udupa</surname><given-names>J.</given-names></name>
+<article-title>New methods of MR image intensity standardization via generalized scale</article-title>. <source>Medical Physics</source>
+<volume>33</volume>, <fpage>3426</fpage>–<lpage>3434</lpage> (<year>2006</year>).<pub-id pub-id-type="pmid">17022239</pub-id></mixed-citation>
+              </ref>
+              <ref id="b18">
+                <mixed-citation publication-type="journal"><name><surname>Lötjönen</surname><given-names>Jyrki M. P.</given-names></name><etal/>. <article-title>Fast and robust multi-atlas segmentation of brain magnetic resonance images</article-title>. <source>Neuroimage</source><volume>49</volume>(3), <fpage>2352</fpage>–<lpage>2365</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">19857578</pub-id></mixed-citation>
+              </ref>
+              <ref id="b19">
+                <mixed-citation publication-type="journal"><name><surname>Breiman</surname><given-names>L.</given-names></name><article-title>Random forests</article-title>. <source>Machine learning</source><volume>45</volume>, <fpage>5</fpage>–<lpage>32</lpage> (<year>2001</year>).</mixed-citation>
+              </ref>
+              <ref id="b20">
+                <mixed-citation publication-type="journal"><name><surname>Wilcoxon</surname><given-names>F.</given-names></name> &amp; <name><surname>Wilcox</surname><given-names>R. A.</given-names></name>
+<source>Some Rapid Approximate Statistical Procedures</source> (Lederle Laboratories, <year>1964</year>).</mixed-citation>
+              </ref>
+              <ref id="b21">
+                <mixed-citation publication-type="journal"><name><surname>Kovalev</surname><given-names>V. A.</given-names></name>, <name><surname>Kruggel</surname><given-names>F.</given-names></name>, <name><surname>Gertz</surname><given-names>H.-J.</given-names></name> &amp; <name><surname>Von Cramon</surname><given-names>D. Y.</given-names></name>
+<article-title>Three-dimensional texture analysis of mri brain datasets</article-title>. <source>Medical Imaging, IEEE Transactions on</source>
+<volume>20</volume>, <fpage>424</fpage>–<lpage>433</lpage> (<year>2001</year>).</mixed-citation>
+              </ref>
+              <ref id="b22">
+                <mixed-citation publication-type="journal"><name><surname>Georgiadis</surname><given-names>P.</given-names></name><etal/>. <article-title>Enhancing the discrimination accuracy between metastases, gliomas and meningiomas on brain mri by volumetric textural features and ensemble pattern recognition methods</article-title>. <source>Magnetic Resonance Imaging</source><volume>27</volume>, <fpage>120</fpage>–<lpage>130</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">18602785</pub-id></mixed-citation>
+              </ref>
+              <ref id="b23">
+                <mixed-citation publication-type="journal"><name><surname>Larroza</surname><given-names>A.</given-names></name><etal/>. <article-title>Support vector machine classification of brain metastasis and radiation necrosis based on texture analysis in MRI</article-title>. <source>Magnetic Resonance Imaging</source><volume>42</volume>(5), <fpage>1362</fpage>–<lpage>1368</lpage> (<year>2015</year>).</mixed-citation>
+              </ref>
+              <ref id="b24">
+                <mixed-citation publication-type="journal"><name><surname>Verma</surname><given-names>N.</given-names></name>, <name><surname>Cowperthwaite</surname><given-names>M.</given-names></name>, <name><surname>Burnett</surname><given-names>M.</given-names></name> &amp; <name><surname>Markey</surname><given-names>M.</given-names></name>
+<article-title>Differentiating tumor recurrence from treatment necrosis: a review of neuro-oncologic imaging strategies</article-title>. <source>Neuro-oncology</source>
+<volume>15</volume>, <fpage>515</fpage>–<lpage>534</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23325863</pub-id></mixed-citation>
+              </ref>
+              <ref id="b25">
+                <mixed-citation publication-type="journal"><name><surname>Agner</surname><given-names>S.</given-names></name><etal/>. <article-title>Textural kinetics: a novel dynamic contrast-enhanced (DCE)-MRI feature for breast lesion classification</article-title>. <source>Journal of Digital Imaging</source><volume>24</volume>, <fpage>446</fpage>–<lpage>463</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">20508965</pub-id></mixed-citation>
+              </ref>
+              <ref id="b26">
+                <mixed-citation publication-type="journal"><name><surname>Schrading</surname><given-names>S.</given-names></name> &amp; <name><surname>Christiane</surname><given-names>K. K.</given-names></name>
+<article-title>Mammographic, US, and MR Imaging Phenotypes of Familial Breast Cancer 1</article-title>. <source>Radiology</source>
+<volume>15</volume>, <fpage>58</fpage>–<lpage>70</lpage> (<year>2008</year>).</mixed-citation>
+              </ref>
+              <ref id="b27">
+                <mixed-citation publication-type="journal"><name><surname>Uematsu</surname><given-names>T.</given-names></name>, <name><surname>Kasami</surname><given-names>M.</given-names></name> &amp; <name><surname>Yuen</surname><given-names>S.</given-names></name>
+<article-title>Triple-Negative Breast Cancer: Correlation between MR Imaging and Pathologic Findings 1</article-title>. <source>Radiology</source>
+<volume>250</volume>(3), <fpage>638</fpage>–<lpage>647</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19244039</pub-id></mixed-citation>
+              </ref>
+              <ref id="b28">
+                <mixed-citation publication-type="journal"><name><surname>Agner</surname><given-names>S.</given-names></name><etal/>. <article-title>Computerized image analysis for identifying triple-negative breast cancers and differentiating them from other molecular subtypes of breast cancer on dynamic contrast-enhanced MR images: a feasibility study</article-title>. <source>Radiology</source><volume>272</volume>(1), <fpage>91</fpage>–<lpage>99</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24620909</pub-id></mixed-citation>
+              </ref>
+              <ref id="b29">
+                <mixed-citation publication-type="journal"><name><surname>Ganeshan</surname><given-names>B.</given-names></name><etal/>. <article-title>Tumour heterogeneity in non-small cell lung carcinoma assessed by CT texture analysis: a potential marker of survival</article-title>. <source>European radiology</source><volume>22</volume>, <fpage>796</fpage>–<lpage>802</lpage> (<year>2016</year>).</mixed-citation>
+              </ref>
+              <ref id="b30">
+                <mixed-citation publication-type="journal"><name><surname>Foster</surname><given-names>J. G.</given-names></name>, <name><surname>Wong</surname><given-names>S. C.</given-names></name> &amp; <name><surname>Sharp</surname><given-names>T. V.</given-names></name>
+<article-title>The hypoxic tumor microenvironment: driving the tumorigenesis of non-small-cell lung cancer</article-title>. <source>Future Oncology</source>
+<volume>10</volume>(16), <fpage>2659</fpage>–<lpage>2674</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25531051</pub-id></mixed-citation>
+              </ref>
+              <ref id="b31">
+                <mixed-citation publication-type="journal"><name><surname>Dennie</surname><given-names>C.</given-names></name><etal/>. <article-title>Role of quantitative computed tomography texture analysis in the differentiation of primary lung cancer and granulomatous nodules</article-title>. <source>Quantitative imaging in medicine and surgery</source><volume>6</volume>(1) (<year>2016</year>).</mixed-citation>
+              </ref>
+            </ref-list>
+            <fn-group>
+              <fn>
+                <p><bold>Author Contributions</bold> P.P. developed the method, P.P., P.T. and A.M. conceived the experiments, P.P. conducted the experiments, P.P. and P.T. analyzed the results. All authors reviewed the manuscript.</p>
+              </fn>
+            </fn-group>
+          </back>
+          <floats-group>
+            <fig id="f1">
+              <label>Figure 1</label>
+              <caption>
+                <title>Comparison of different feature representations for two similar-appearing toy images.</title>
+                <p>(<bold>a</bold>) A synthetic checkerboard image. Two 3 × 3 patches (<italic>P</italic><sub>1</sub>, <italic>P</italic><sub>2</sub>) obtained from the checkerboard image are shown in (<bold>b</bold>) and (<bold>f</bold>) respectively such that <italic>P</italic><sub>2</sub> = ~(<italic>P</italic><sub>1</sub>). The corresponding feature representations for <italic>P</italic><sub>1</sub> and <italic>P</italic><sub>2</sub> are shown in (<bold>c</bold>) and (<bold>g</bold>) for Haralick entropy, (<bold>d</bold>) and (<bold>h</bold>) for Gabor (<italic>t</italic> = 4, <italic>λ</italic> = 22.5), and (<bold>e</bold>) and (<bold>i</bold>) for CoLlAGe respectively.</p>
+              </caption>
+              <graphic xlink:href="srep37241-f1"/>
+            </fig>
+            <fig id="f2">
+              <label>Figure 2</label>
+              <caption>
+                <title>Overview of 2-dimensional CoLlAGe and overall workflow.</title>
+                <p>The first module involves computing gradient orientations on a per-pixel basis within the lesion. In the second module, dominant direction for every pixel is computed within a <inline-formula id="d33e1504"><inline-graphic id="d33e1505" xlink:href="srep37241-m109.jpg"/></inline-formula> neighborhood via singular value decomposition. A co-occurrence matrix of orientations and subsequently the associated entropy of each pixel is calculated in the third module. A histogram of entropy values is then aggregated for every pixel in the fourth module and used for classification in the fifth module to distinguish similar appearing pathological conditions.</p>
+              </caption>
+              <graphic xlink:href="srep37241-f2"/>
+            </fig>
+            <fig id="f3">
+              <label>Figure 3</label>
+              <caption>
+                <title>Workflow for extracting 3D CoLlAGe features.</title>
+                <p>Note that unlike 2D features, two dominant directions (<italic>θ</italic><sup>3<italic>D</italic></sup>, <italic>ϕ</italic><sup>3<italic>D</italic></sup>) are computed for 3D CoLlAGe associated with each <italic>c</italic> ∈ <italic>C</italic>, which provide complimentary information about the degree of disorder of the principal gradient orientations in (<italic>X, Y</italic>) and (<italic>X, Y, Z</italic>) directions.</p>
+              </caption>
+              <graphic xlink:href="srep37241-f3"/>
+            </fig>
+            <fig id="f4">
+              <label>Figure 4</label>
+              <caption>
+                <p>Parameter sensitivity analysis shown for CoLlAGe features for the six different classification experiments (<bold>a</bold>) RN vs rBT (primary brain tumors), (<bold>b</bold>) RN vs rBT (metastatic brain tumors), (<bold>c</bold>) TN vs ER+, (<bold>d</bold>) TN vs HER2+, (<bold>e</bold>) TN vs FA and (<bold>f</bold>) adenocarcinoma vs granuloma. The most optimal CoLlAGe parameters for each of the experiments were found to be as follows: (<bold>a</bold>) <inline-formula id="d33e1566"><inline-graphic id="d33e1567" xlink:href="srep37241-m110.jpg"/></inline-formula>, <italic>v</italic> = 30 (<bold>b</bold>) <inline-formula id="d33e1575"><inline-graphic id="d33e1576" xlink:href="srep37241-m111.jpg"/></inline-formula>, <italic>v</italic> = 20 (<bold>c</bold>) <inline-formula id="d33e1585"><inline-graphic id="d33e1586" xlink:href="srep37241-m112.jpg"/></inline-formula>, <italic>v</italic> = 30 (<bold>d</bold>) <inline-formula id="d33e1594"><inline-graphic id="d33e1595" xlink:href="srep37241-m113.jpg"/></inline-formula>, <italic>v</italic> = 30 (<bold>e</bold>) <inline-formula id="d33e1604"><inline-graphic id="d33e1605" xlink:href="srep37241-m114.jpg"/></inline-formula>, <italic>v</italic> = 30 (<bold>f</bold>) <inline-formula id="d33e1613"><inline-graphic id="d33e1614" xlink:href="srep37241-m115.jpg"/></inline-formula>, <italic>v</italic> = 10, respectively.</p>
+              </caption>
+              <graphic xlink:href="srep37241-f4"/>
+            </fig>
+            <fig id="f5">
+              <label>Figure 5</label>
+              <caption>
+                <title>CoLlAGe entropy maps on brain tumor cases.</title>
+                <p>Qualitative feature maps of 3D CoLlAGe visualized on Gd-T1 MRI for radiation necrosis (<bold>a</bold>) and recurrent tumor (<bold>e</bold>) respectively. The localized gradient orientations are shown in (<bold>b</bold>) and (<bold>f</bold>) for radiation necrosis and tumor recurrence, while the CoLlAGe heatmaps, <inline-formula id="d33e1638"><inline-graphic id="d33e1639" xlink:href="srep37241-m116.jpg"/></inline-formula> and <inline-formula id="d33e1642"><inline-graphic id="d33e1643" xlink:href="srep37241-m117.jpg"/></inline-formula> are shown in (<bold>c</bold>), (<bold>d</bold>) for radiation necrosis and in (<bold>g</bold>), (<bold>h</bold>) for tumor recurrence respectively. As evident, tumor recurrence has a higher density of high entropy regions both in (<italic>X, Y</italic>) as well as (<italic>X, Y, Z</italic>) directions than radiation necrosis.</p>
+              </caption>
+              <graphic xlink:href="srep37241-f5"/>
+            </fig>
+            <fig id="f6">
+              <label>Figure 6</label>
+              <caption>
+                <title>CoLlAGe entropy maps on breast cancer cases.</title>
+                <p>2D DCE-MRI (1.5 Tesla) scan for TN+ (<bold>a</bold>), HER2+ (<bold>b</bold>), ER+ (<bold>c</bold>), and FA (<bold>d</bold>) with the lesion outlined in red. 4(<bold>e</bold>), (<bold>f</bold>), (<bold>g</bold>), (<bold>h</bold>) represent localized gradient orientations, while 4(<bold>i</bold>), (<bold>j</bold>), (<bold>k</bold>), (<bold>l</bold>) represent CoLlAGe heatmaps for the corresponding lesion on (<bold>a</bold>), (<bold>b</bold>), (<bold>c</bold>) and (<bold>d</bold>), where red represents higher while blue represents low CoLlAGe values.</p>
+              </caption>
+              <graphic xlink:href="srep37241-f6"/>
+            </fig>
+            <fig id="f7">
+              <label>Figure 7</label>
+              <caption>
+                <title>CoLlAGe entropy maps on lung cancer cases.</title>
+                <p>Qualitative feature maps of 2D CoLlAGe visualized on non-contrast lung CT for (<bold>a</bold>) adenocarcinoma and (<bold>d</bold>) granuloma shown in (<bold>c</bold>) and (<bold>f</bold>) respectively. Adenocarcinomas have higher CoLlAGe entropy values as compared to granulomas. Red represents higher while blue represents low CoLlAGe values.</p>
+              </caption>
+              <graphic xlink:href="srep37241-f7"/>
+            </fig>
+            <table-wrap position="float" id="t1">
+              <label>Table 1</label>
+              <caption>
+                <title>List of commonly used notations, symbols and acronyms in this paper.</title>
+              </caption>
+              <table frame="hsides" rules="groups" border="1">
+                <colgroup>
+                  <col align="left"/>
+                  <col align="center"/>
+                  <col align="center"/>
+                  <col align="center"/>
+                </colgroup>
+                <thead valign="bottom">
+                  <tr>
+                    <th align="left" valign="top" charoff="50">Symbol</th>
+                    <th align="center" valign="top" charoff="50">Description</th>
+                    <th align="center" valign="top" charoff="50">Symbol</th>
+                    <th align="center" valign="top" charoff="50">Description</th>
+                  </tr>
+                </thead>
+                <tbody valign="top">
+                  <tr>
+                    <td align="left" valign="top" charoff="50">
+                      <inline-formula id="d33e1759">
+                        <inline-graphic id="d33e1760" xlink:href="srep37241-m118.jpg"/>
+                      </inline-formula>
+                    </td>
+                    <td align="center" valign="top" charoff="50">MRI scene</td>
+                    <td align="center" valign="top" charoff="50">
+                      <italic>β</italic>
+                      <sup>
+                        <italic>Acc</italic>
+                      </sup>
+                    </td>
+                    <td align="center" valign="top" charoff="50">Average accuracy</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">
+                      <italic>C</italic>
+                    </td>
+                    <td align="center" valign="top" charoff="50">Grid of MRI voxels</td>
+                    <td align="center" valign="top" charoff="50">
+                      <italic>c</italic>
+                    </td>
+                    <td align="center" valign="top" charoff="50">Spatial location of pixel/voxel of interest</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50"><italic>f(c</italic>)</td>
+                    <td align="center" valign="top" charoff="50">MRI signal intensity at <italic>c</italic></td>
+                    <td align="center" valign="top" charoff="50">
+                      <inline-formula id="d33e1792">
+                        <inline-graphic id="d33e1793" xlink:href="srep37241-m119.jpg"/>
+                      </inline-formula>
+                    </td>
+                    <td align="center" valign="top" charoff="50">Spatial derivative</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">∂ <italic>f</italic><sub><italic>X</italic></sub> (<italic>c</italic>)</td>
+                    <td align="center" valign="top" charoff="50">Gradient magnitude along <italic>X</italic>-axis</td>
+                    <td align="center" valign="top" charoff="50">∂ <italic>f</italic><sub><italic>Y</italic></sub> (<italic>c</italic>)</td>
+                    <td align="center" valign="top" charoff="50">Gradient magnitude along <italic>Y</italic>-axis</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">∂ <italic>f</italic><sub><italic>Z</italic></sub> (<italic>c</italic>)</td>
+                    <td align="center" valign="top" charoff="50">Gradient magnitude along <italic>Z</italic>-axis</td>
+                    <td align="center" valign="top" charoff="50">
+                      <italic>W</italic>
+                    </td>
+                    <td align="center" valign="top" charoff="50">Local neighborhood around central location</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">
+                      <italic>k</italic>
+                    </td>
+                    <td align="center" valign="top" charoff="50">Index of voxels/pixels of interest, <italic>k</italic> ∈ 1, …, |<italic>C</italic>|</td>
+                    <td align="center" valign="top" charoff="50">
+                      <inline-formula id="d33e1864">
+                        <inline-graphic id="d33e1865" xlink:href="srep37241-m120.jpg"/>
+                      </inline-formula>
+                    </td>
+                    <td align="center" valign="top" charoff="50">Vector gradient matrix</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">
+                      <italic>v</italic>
+                    </td>
+                    <td align="center" valign="top" charoff="50">Bin size</td>
+                    <td align="center" valign="top" charoff="50">
+                      <italic>ω</italic>
+                    </td>
+                    <td align="center" valign="top" charoff="50">Discretization factor</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">
+                      <inline-formula id="d33e1881">
+                        <inline-graphic id="d33e1882" xlink:href="srep37241-m121.jpg"/>
+                      </inline-formula>
+                    </td>
+                    <td align="center" valign="top" charoff="50">Principal component in <inline-formula id="d33e1885"><inline-graphic id="d33e1886" xlink:href="srep37241-m122.jpg"/></inline-formula>, <italic>a</italic> ∈ <italic>X, Y</italic></td>
+                    <td align="center" valign="top" charoff="50"><italic>ψ</italic><sub><italic>n</italic></sub>(<italic>c</italic><sub><italic>k</italic></sub>)</td>
+                    <td align="center" valign="top" charoff="50">Principal component in <inline-formula id="d33e1908"><inline-graphic id="d33e1909" xlink:href="srep37241-m123.jpg"/></inline-formula>, <italic>n</italic> ∈ <italic>X, Y, Z</italic></td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">
+                      <italic>θ</italic>
+                      <sup>2<italic>D</italic></sup>
+                    </td>
+                    <td align="center" valign="top" charoff="50">Dominant orientation computed from <inline-formula id="d33e1926"><inline-graphic id="d33e1927" xlink:href="srep37241-m124.jpg"/></inline-formula>, <inline-formula id="d33e1929"><inline-graphic id="d33e1930" xlink:href="srep37241-m125.jpg"/></inline-formula></td>
+                    <td align="center" valign="top" charoff="50">
+                      <italic>θ</italic>
+                      <sup>3<italic>D</italic></sup>
+                    </td>
+                    <td align="center" valign="top" charoff="50">Dominant orientation computed from <italic>ψ</italic><sub><italic>X</italic></sub>, <italic>ψ</italic><sub><italic>Y</italic></sub></td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">
+                      <italic>ϕ</italic>
+                      <sup>3<italic>D</italic></sup>
+                    </td>
+                    <td align="center" valign="top" charoff="50">Dominant orientation computed from <italic>ψ</italic><sub><italic>X</italic></sub>, <italic>ψ</italic><sub><italic>Y</italic></sub>, <italic>ψ</italic><sub><italic>Z</italic></sub></td>
+                    <td align="center" valign="top" charoff="50">
+                      <inline-formula id="d33e1979">
+                        <inline-graphic id="d33e1980" xlink:href="srep37241-m126.jpg"/>
+                      </inline-formula>
+                    </td>
+                    <td align="center" valign="top" charoff="50">Window size dimensions (pixels/voxels)</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">
+                      <italic>N</italic>
+                    </td>
+                    <td align="center" valign="top" charoff="50">Window size for co-occurrence computation</td>
+                    <td align="center" valign="top" charoff="50">
+                      <inline-formula id="d33e1990">
+                        <inline-graphic id="d33e1991" xlink:href="srep37241-m127.jpg"/>
+                      </inline-formula>
+                    </td>
+                    <td align="center" valign="top" charoff="50">Co-occurrence matrix neighborhood</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">
+                      <inline-formula id="d33e1997">
+                        <inline-graphic id="d33e1998" xlink:href="srep37241-m128.jpg"/>
+                      </inline-formula>
+                    </td>
+                    <td align="center" valign="top" charoff="50">Co-occurrence matrix computed from <italic>θ</italic><sup>2<italic>D</italic></sup></td>
+                    <td align="center" valign="top" charoff="50">
+                      <inline-formula id="d33e2008">
+                        <inline-graphic id="d33e2009" xlink:href="srep37241-m129.jpg"/>
+                      </inline-formula>
+                    </td>
+                    <td align="center" valign="top" charoff="50">Co-occurrence matrix computed from <italic>θ</italic><sup>3<italic>D</italic></sup></td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">
+                      <inline-formula id="d33e2020">
+                        <inline-graphic id="d33e2021" xlink:href="srep37241-m130.jpg"/>
+                      </inline-formula>
+                    </td>
+                    <td align="center" valign="top" charoff="50">Entropy map computed from <inline-formula id="d33e2024"><inline-graphic id="d33e2025" xlink:href="srep37241-m131.jpg"/></inline-formula></td>
+                    <td align="center" valign="top" charoff="50">
+                      <inline-formula id="d33e2027">
+                        <inline-graphic id="d33e2028" xlink:href="srep37241-m132.jpg"/>
+                      </inline-formula>
+                    </td>
+                    <td align="center" valign="top" charoff="50">Entropy map computed from <inline-formula id="d33e2031"><inline-graphic id="d33e2032" xlink:href="srep37241-m133.jpg"/></inline-formula></td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">
+                      <inline-formula id="d33e2035">
+                        <inline-graphic id="d33e2036" xlink:href="srep37241-m134.jpg"/>
+                      </inline-formula>
+                    </td>
+                    <td align="center" valign="top" charoff="50">Co-occurrence matrix computed from <italic>ϕ</italic><sup>3<italic>D</italic></sup></td>
+                    <td align="center" valign="top" charoff="50">
+                      <inline-formula id="d33e2046">
+                        <inline-graphic id="d33e2047" xlink:href="srep37241-m135.jpg"/>
+                      </inline-formula>
+                    </td>
+                    <td align="center" valign="top" charoff="50">Entropy map computed from <inline-formula id="d33e2050"><inline-graphic id="d33e2051" xlink:href="srep37241-m136.jpg"/></inline-formula></td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">
+                      <bold>F</bold>
+                      <sup>2<italic>D</italic></sup>
+                    </td>
+                    <td align="center" valign="top" charoff="50">2D CoLlAGe feature vector</td>
+                    <td align="center" valign="top" charoff="50">
+                      <bold>F</bold>
+                      <sup>3<italic>D</italic></sup>
+                    </td>
+                    <td align="center" valign="top" charoff="50">3D CoLlAGe feature vector</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">UH</td>
+                    <td align="center" valign="top" charoff="50">University Hospitals, Cleveland</td>
+                    <td align="center" valign="top" charoff="50">CCF</td>
+                    <td align="center" valign="top" charoff="50">Cleveland Clinic Foundation</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">UPenn</td>
+                    <td align="center" valign="top" charoff="50">University of Pennsylvania</td>
+                    <td align="center" valign="top" charoff="50">RN</td>
+                    <td align="center" valign="top" charoff="50">Radiation Necrosis</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">rBT</td>
+                    <td align="center" valign="top" charoff="50">Recurrent Brain Tumor</td>
+                    <td align="center" valign="top" charoff="50">TN</td>
+                    <td align="center" valign="top" charoff="50">Triple Negative</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">ER</td>
+                    <td align="center" valign="top" charoff="50">Estrogen Receptor</td>
+                    <td align="center" valign="top" charoff="50">HER2</td>
+                    <td align="center" valign="top" charoff="50">Human Epidermal growth factor Receptor 2</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">FA</td>
+                    <td align="center" valign="top" charoff="50">Fibroadenoma</td>
+                    <td align="center" valign="top" charoff="50">RF</td>
+                    <td align="center" valign="top" charoff="50">Random Forest</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">PET</td>
+                    <td align="center" valign="top" charoff="50">Positron Emission Tomography</td>
+                    <td align="center" valign="top" charoff="50">CT</td>
+                    <td align="center" valign="top" charoff="50">Computed Tomography</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">FDG</td>
+                    <td align="center" valign="top" charoff="50">Fluorodeoxyglucose</td>
+                    <td align="center" valign="top" charoff="50">Gd</td>
+                    <td align="center" valign="top" charoff="50">Gadolinium</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+            <table-wrap position="float" id="t2">
+              <label>Table 2</label>
+              <caption>
+                <title>Clinicopathologic characteristics of brain tumor studies.</title>
+              </caption>
+              <table frame="hsides" rules="groups" border="1">
+                <colgroup>
+                  <col align="left"/>
+                  <col align="center"/>
+                  <col align="center"/>
+                </colgroup>
+                <thead valign="bottom">
+                  <tr>
+                    <th align="left" valign="top" charoff="50"> </th>
+                    <th align="center" valign="top" charoff="50">Primary Brain tumors</th>
+                    <th align="center" valign="top" charoff="50">Metastatic Brain Tumors</th>
+                  </tr>
+                </thead>
+                <tbody valign="top">
+                  <tr>
+                    <td align="left" valign="top" charoff="50">Number of patients (samples)</td>
+                    <td align="center" valign="top" charoff="50">22 (10 RN, 12 rBT)</td>
+                    <td align="center" valign="top" charoff="50">20 (8 RN, 12 rBT)</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">Gender</td>
+                    <td align="center" valign="top" charoff="50">12 F, 10 M</td>
+                    <td align="center" valign="top" charoff="50">5 F, 15 M</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">Age (y, range)</td>
+                    <td align="center" valign="top" charoff="50">53 (33–75)</td>
+                    <td align="center" valign="top" charoff="50">50 (37–65)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+            <table-wrap position="float" id="t3">
+              <label>Table 3</label>
+              <caption>
+                <title>Clinicopathologic characteristics of breast cancer studies.</title>
+              </caption>
+              <table frame="hsides" rules="groups" border="1">
+                <colgroup>
+                  <col align="left"/>
+                  <col align="center"/>
+                  <col align="center"/>
+                  <col align="center"/>
+                  <col align="center"/>
+                </colgroup>
+                <thead valign="bottom">
+                  <tr>
+                    <th align="left" valign="top" charoff="50"> </th>
+                    <th align="center" valign="top" charoff="50">Fibroadenoma</th>
+                    <th align="center" valign="top" charoff="50">HER2+</th>
+                    <th align="center" valign="top" charoff="50">ER+</th>
+                    <th align="center" valign="top" charoff="50">Triple Negative</th>
+                  </tr>
+                </thead>
+                <tbody valign="top">
+                  <tr>
+                    <td align="left" valign="top" charoff="50">Number of patients (samples)</td>
+                    <td align="center" valign="top" charoff="50">9</td>
+                    <td align="center" valign="top" charoff="50">14</td>
+                    <td align="center" valign="top" charoff="50">23</td>
+                    <td align="center" valign="top" charoff="50">19</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">Number of lesions</td>
+                    <td align="center" valign="top" charoff="50">12</td>
+                    <td align="center" valign="top" charoff="50">18</td>
+                    <td align="center" valign="top" charoff="50">25</td>
+                    <td align="center" valign="top" charoff="50">21</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">Age (y, range)</td>
+                    <td align="center" valign="top" charoff="50">46 (32–60)</td>
+                    <td align="center" valign="top" charoff="50">50 (38–63)</td>
+                    <td align="center" valign="top" charoff="50">45 (32–70)</td>
+                    <td align="center" valign="top" charoff="50">51 (32–68)</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">Pre-menopausal (n)</td>
+                    <td align="center" valign="top" charoff="50">5</td>
+                    <td align="center" valign="top" charoff="50">5</td>
+                    <td align="center" valign="top" charoff="50">15</td>
+                    <td align="center" valign="top" charoff="50">9</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">Post-menopausal (n)</td>
+                    <td align="center" valign="top" charoff="50">2</td>
+                    <td align="center" valign="top" charoff="50">9</td>
+                    <td align="center" valign="top" charoff="50">1</td>
+                    <td align="center" valign="top" charoff="50">7</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">Peri-menopausal (n)</td>
+                    <td align="center" valign="top" charoff="50">2</td>
+                    <td align="center" valign="top" charoff="50">0</td>
+                    <td align="center" valign="top" charoff="50">7</td>
+                    <td align="center" valign="top" charoff="50">3</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">Lymph Node Positive Studies</td>
+                    <td align="center" valign="top" charoff="50">0</td>
+                    <td align="center" valign="top" charoff="50">1</td>
+                    <td align="center" valign="top" charoff="50">8</td>
+                    <td align="center" valign="top" charoff="50">3</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+            <table-wrap position="float" id="t4">
+              <label>Table 4</label>
+              <caption>
+                <title>Clinicopathologic characteristics of lung studies.</title>
+              </caption>
+              <table frame="hsides" rules="groups" border="1">
+                <colgroup>
+                  <col align="left"/>
+                  <col align="center"/>
+                  <col align="center"/>
+                </colgroup>
+                <thead valign="bottom">
+                  <tr>
+                    <th align="left" valign="top" charoff="50"> </th>
+                    <th align="center" valign="top" charoff="50">Adenocarcinomas</th>
+                    <th align="center" valign="top" charoff="50">Granulomas</th>
+                  </tr>
+                </thead>
+                <tbody valign="top">
+                  <tr>
+                    <td align="left" valign="top" charoff="50">Number of patients (samples)</td>
+                    <td align="center" valign="top" charoff="50">65</td>
+                    <td align="center" valign="top" charoff="50">55</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">Gender</td>
+                    <td align="center" valign="top" charoff="50">39 F, 26 M</td>
+                    <td align="center" valign="top" charoff="50">25 F, 30 M</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">Age (y, range)</td>
+                    <td align="center" valign="top" charoff="50">67 (40–85)</td>
+                    <td align="center" valign="top" charoff="50">58 (18–84)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+            <table-wrap position="float" id="t5">
+              <label>Table 5</label>
+              <caption>
+                <title>Summary of features and feature parameters used in this work.</title>
+              </caption>
+              <table frame="hsides" rules="groups" border="1">
+                <colgroup>
+                  <col align="left"/>
+                  <col align="center"/>
+                  <col align="center"/>
+                </colgroup>
+                <thead valign="bottom">
+                  <tr>
+                    <th align="left" valign="top" charoff="50"> Descriptor</th>
+                    <th align="center" valign="top" charoff="50">#</th>
+                    <th align="center" valign="top" charoff="50">Feature setting</th>
+                  </tr>
+                </thead>
+                <tbody valign="top">
+                  <tr>
+                    <td align="left" valign="top" charoff="50"> Haralick</td>
+                    <td align="center" valign="top" charoff="50">52</td>
+                    <td align="center" valign="top" charoff="50">Window size <inline-formula id="d33e2329"><inline-graphic id="d33e2330" xlink:href="srep37241-m137.jpg"/></inline-formula>; <inline-formula id="d33e2332"><inline-graphic id="d33e2333" xlink:href="srep37241-m138.jpg"/></inline-formula>; <italic>θ</italic> ∈ [0 180°]</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50"> HOG</td>
+                    <td align="center" valign="top" charoff="50">100</td>
+                    <td align="center" valign="top" charoff="50"><italic>v</italic> ∈ {10, 15, 20, 25, 30}; <italic>κ</italic> = 360°/<italic>v</italic></td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50"> Gabor</td>
+                    <td align="center" valign="top" charoff="50">432</td>
+                    <td align="center" valign="top" charoff="50"><italic>t</italic> ∈ {0, 2, 4, …, 32}; <italic>λ</italic> ∈ {0, 22.5, …, 180}; <inline-formula id="d33e2364"><inline-graphic id="d33e2365" xlink:href="srep37241-m139.jpg"/></inline-formula>, <inline-formula id="d33e2367"><inline-graphic id="d33e2368" xlink:href="srep37241-m140.jpg"/></inline-formula></td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50"> CoLlAGe</td>
+                    <td align="center" valign="top" charoff="50">500</td>
+                    <td align="center" valign="top" charoff="50">Window size <inline-formula id="d33e2376"><inline-graphic id="d33e2377" xlink:href="srep37241-m141.jpg"/></inline-formula>; <inline-formula id="d33e2379"><inline-graphic id="d33e2380" xlink:href="srep37241-m142.jpg"/></inline-formula>; <italic>v</italic> ∈ {10, 15, 20, 25, 30}</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table-wrap-foot>
+                <fn id="t5-fn1">
+                  <p>A total of 26 parameters (across different features) were compared and evaluated in terms of their classification performance, for each of the three experiments in brain, breast and lung cancers.</p>
+                </fn>
+              </table-wrap-foot>
+            </table-wrap>
+            <table-wrap position="float" id="t6">
+              <label>Table 6</label>
+              <caption>
+                <title>List of studies employed in this work for three different clinical problems in brain, breast, and lung cancers.</title>
+              </caption>
+              <table frame="hsides" rules="groups" border="1">
+                <colgroup>
+                  <col align="left"/>
+                  <col align="center"/>
+                  <col align="center"/>
+                  <col align="center"/>
+                  <col align="center"/>
+                </colgroup>
+                <thead valign="bottom">
+                  <tr>
+                    <th align="left" valign="top" charoff="50">Cancer Site</th>
+                    <th align="center" valign="top" charoff="50">Cohort Size (Site)</th>
+                    <th align="center" valign="top" charoff="50">Clinical challenge</th>
+                    <th align="center" valign="top" charoff="50">Classification task</th>
+                    <th align="center" valign="top" charoff="50">Number of samples</th>
+                  </tr>
+                </thead>
+                <tbody valign="top">
+                  <tr>
+                    <td rowspan="2" align="center" valign="top" charoff="50">Brain Tumors</td>
+                    <td rowspan="2" align="center" valign="top" charoff="50">42 (UH)</td>
+                    <td rowspan="2" align="center" valign="top" charoff="50">RN versus rBT</td>
+                    <td align="center" valign="top" charoff="50">Primary tumor cohort</td>
+                    <td align="center" valign="top" charoff="50">10 RN, 12 rBT</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="top" charoff="50">Metastatic tumor cohort</td>
+                    <td align="center" valign="top" charoff="50">8 RN, 12 rBT</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="3" align="center" valign="top" charoff="50">Breast Cancer</td>
+                    <td rowspan="3" align="center" valign="top" charoff="50">65 studies (UPenn)</td>
+                    <td rowspan="3" align="center" valign="top" charoff="50">Distinguish subtypes of breast cancer</td>
+                    <td align="center" valign="top" charoff="50">TN-ER</td>
+                    <td align="center" valign="top" charoff="50">21 TN, 25 ER+</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="top" charoff="50">TN-HER2+</td>
+                    <td align="center" valign="top" charoff="50">21 TN, 18 HER2+</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="top" charoff="50">TN-FA</td>
+                    <td align="center" valign="top" charoff="50">21 TN, 12 FA</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2" align="center" valign="top" charoff="50">Lung Cancer</td>
+                    <td rowspan="2" align="center" valign="top" charoff="50">120 studies (UH, CCF)</td>
+                    <td rowspan="2" align="center" valign="top" charoff="50">Distinguish granuloma from adenocarcinoma</td>
+                    <td align="center" valign="top" charoff="50">Training Set (UH)</td>
+                    <td align="center" valign="top" charoff="50">31 adenocarcinoma, 33 granuloma</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="top" charoff="50">Test Set (CCF)</td>
+                    <td align="center" valign="top" charoff="50">34 adenocarcinoma, 22 granuloma</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table-wrap-foot>
+                <fn id="t6-fn1">
+                  <p>The data acquisition sites include University Hospitals, Cleveland (UH), University of Pennsylvania (UPenn) and Cleveland Clinic (CCF).</p>
+                </fn>
+              </table-wrap-foot>
+            </table-wrap>
+            <table-wrap position="float" id="t7">
+              <label>Table 7</label>
+              <caption>
+                <title><italic>β</italic><sup><italic>Acc</italic></sup> for 2D CoLlAGe and the comparative strategies (Haralick, Gabor, and HOG) obtained across 150 iterations of 3-fold cross validation in a random forest classifier setting for the brain and breast cancer use-cases, as well as for independent training and test dataset for the lung cancer use-case.</title>
+              </caption>
+              <table frame="hsides" rules="groups" border="1">
+                <colgroup>
+                  <col align="left"/>
+                  <col align="center"/>
+                  <col align="center"/>
+                  <col align="center"/>
+                  <col align="center"/>
+                </colgroup>
+                <thead valign="bottom">
+                  <tr>
+                    <th align="left" valign="top" charoff="50">Classification Task</th>
+                    <th align="center" valign="top" charoff="50">Haralick</th>
+                    <th align="center" valign="top" charoff="50">HOG</th>
+                    <th align="center" valign="top" charoff="50">Gabor</th>
+                    <th align="center" valign="top" charoff="50">
+                      <bold>CoLlAGe</bold>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody valign="top">
+                  <tr>
+                    <td align="left" valign="top" charoff="50">RN vs rBT (GBM)</td>
+                    <td align="center" valign="top" charoff="50">62.19 ± 0.99</td>
+                    <td align="center" valign="top" charoff="50">60.62 ± 3.21</td>
+                    <td align="center" valign="top" charoff="50">59.68 ± 5.8</td>
+                    <td align="center" valign="top" charoff="50"><bold>83</bold>.<bold>73</bold> ± <bold>5</bold>.<bold>43</bold></td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">RN vs rBT (Metastatic)</td>
+                    <td align="center" valign="top" charoff="50">63.83 ± 2.42</td>
+                    <td align="center" valign="top" charoff="50">72.99 ± 1.35</td>
+                    <td align="center" valign="top" charoff="50">59.45 ± 1.73</td>
+                    <td align="center" valign="top" charoff="50"><bold>88</bold>.<bold>52</bold> ± <bold>3</bold>.<bold>93</bold></td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">TN vs ER+</td>
+                    <td align="center" valign="top" charoff="50">60.5 ± 4.49</td>
+                    <td align="center" valign="top" charoff="50">68.49 ± 3.8</td>
+                    <td align="center" valign="top" charoff="50">62.37 ± 4.29</td>
+                    <td align="center" valign="top" charoff="50"><bold>72</bold>.<bold>52</bold> ± <bold>5</bold>.<bold>19</bold></td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">TN vs HER2+</td>
+                    <td align="center" valign="top" charoff="50">54.69 ± 5.19</td>
+                    <td align="center" valign="top" charoff="50">60.18 ± 4.08</td>
+                    <td align="center" valign="top" charoff="50">62.67 ± 3.97</td>
+                    <td align="center" valign="top" charoff="50"><bold>71</bold>.<bold>64</bold> ± <bold>6</bold>.<bold>13</bold></td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">TN vs FA</td>
+                    <td align="center" valign="top" charoff="50">78.37 ± 3.75</td>
+                    <td align="center" valign="top" charoff="50">72.7 ± 4.41</td>
+                    <td align="center" valign="top" charoff="50">68.1 ± 1.85</td>
+                    <td align="center" valign="top" charoff="50"><bold>90</bold>.<bold>06</bold> ± <bold>4</bold>.<bold>38</bold></td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">Adenocarcinoma vs Granuloma (Training)</td>
+                    <td align="center" valign="top" charoff="50">75.5 ± 5</td>
+                    <td align="center" valign="top" charoff="50">67.7 ± 5.4</td>
+                    <td align="center" valign="top" charoff="50">66.2 ± 4.4</td>
+                    <td align="center" valign="top" charoff="50"><bold>70</bold>.<bold>9</bold> ± <bold>7</bold>.<bold>1</bold></td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">Adenocarcinoma vs Granuloma (Testing)</td>
+                    <td align="center" valign="top" charoff="50">69.6</td>
+                    <td align="center" valign="top" charoff="50">67.3</td>
+                    <td align="center" valign="top" charoff="50">62.4</td>
+                    <td align="center" valign="top" charoff="50"><bold>69</bold>.<bold>8</bold></td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+          </floats-group>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

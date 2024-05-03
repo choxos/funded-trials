@@ -1,0 +1,1199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T03:04:35Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7075895" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7075895</identifier>
+        <datestamp>2020-03-18</datestamp>
+        <setSpec>nppharm</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Neuropsychopharmacology</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Neuropsychopharmacology</journal-id>
+              <journal-title-group>
+                <journal-title>Neuropsychopharmacology</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">0893-133X</issn>
+              <issn pub-type="epub">1740-634X</issn>
+              <publisher>
+                <publisher-name>Springer International Publishing</publisher-name>
+                <publisher-loc>Cham</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7075895</article-id>
+              <article-id pub-id-type="pmcid">PMC7075895</article-id>
+              <article-id pub-id-type="pmc-uid">7075895</article-id>
+              <article-id pub-id-type="pmid">31978933</article-id>
+              <article-id pub-id-type="publisher-id">620</article-id>
+              <article-id pub-id-type="doi">10.1038/s41386-020-0620-4</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Detection of acute 3,4-methylenedioxymethamphetamine (MDMA) effects across protocols using automated natural language processing</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Agurto</surname>
+                    <given-names>Carla</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-1013-8348</contrib-id>
+                  <name>
+                    <surname>Cecchi</surname>
+                    <given-names>Guillermo A.</given-names>
+                  </name>
+                  <address>
+                    <email>gcecchi@us.ibm.com</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7737-4172</contrib-id>
+                  <name>
+                    <surname>Norel</surname>
+                    <given-names>Raquel</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ostrand</surname>
+                    <given-names>Rachel</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kirkpatrick</surname>
+                    <given-names>Matthew</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Baggott</surname>
+                    <given-names>Matthew J.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Wardle</surname>
+                    <given-names>Margaret C.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Wit</surname>
+                    <given-names>Harriet de</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Bedi</surname>
+                    <given-names>Gillinder</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.481554.9</institution-id><institution>Computational Biology Center – Neuroscience, IBM T.J. Watson Research Center, </institution></institution-wrap>Yorktown Heights, NY USA </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2156 6853</institution-id><institution-id institution-id-type="GRID">grid.42505.36</institution-id><institution>Department of Preventive Medicine, Keck School of Medicine, </institution><institution>University of Southern California, </institution></institution-wrap>Los Angeles, CA USA </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 0447 5441</institution-id><institution-id institution-id-type="GRID">grid.280676.d</institution-id><institution>Addiction and Pharmacology Research Laboratory, Friends Research Institute, </institution></institution-wrap>San Francisco, CA USA </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2175 0319</institution-id><institution-id institution-id-type="GRID">grid.185648.6</institution-id><institution>Department of Psychology, </institution><institution>University of Illinois at Chicago, </institution></institution-wrap>Chicago, IL USA </aff>
+                <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 1936 7822</institution-id><institution-id institution-id-type="GRID">grid.170205.1</institution-id><institution>Human Behavioral Pharmacology Laboratory, Department of Psychiatry and Behavioral Neuroscience, </institution><institution>University of Chicago, </institution></institution-wrap>Chicago, IL USA </aff>
+                <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2179 088X</institution-id><institution-id institution-id-type="GRID">grid.1008.9</institution-id><institution>Centre for Youth Mental Health, </institution><institution>University of Melbourne, and Orygen National Centre of Excellence in Youth Mental Health, </institution></institution-wrap>Melbourne, Australia </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>24</day>
+                <month>1</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>24</day>
+                <month>1</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="ppub">
+                <month>4</month>
+                <year>2020</year>
+              </pub-date>
+              <volume>45</volume>
+              <issue>5</issue>
+              <fpage>823</fpage>
+              <lpage>832</lpage>
+              <history>
+                <date date-type="received">
+                  <day>23</day>
+                  <month>8</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>28</day>
+                  <month>11</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="accepted">
+                  <day>8</day>
+                  <month>1</month>
+                  <year>2020</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2020</copyright-statement>
+                <license license-type="OpenAccess">
+                  <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par1">The detection of changes in mental states such as those caused by psychoactive drugs relies on clinical assessments that are inherently subjective. Automated speech analysis may represent a novel method to detect objective markers, which could help improve the characterization of these mental states. In this study, we employed computer-extracted speech features from multiple domains (acoustic, semantic, and psycholinguistic) to assess mental states after controlled administration of 3,4-methylenedioxymethamphetamine (MDMA) and intranasal oxytocin. The training/validation set comprised within-participants data from 31 healthy adults who, over four sessions, were administered MDMA (0.75, 1.5 mg/kg), oxytocin (20 IU), and placebo in randomized, double-blind fashion. Participants completed two 5-min speech tasks during peak drug effects. Analyses included group-level comparisons of drug conditions and estimation of classification at the individual level within this dataset and on two independent datasets. Promising classification results were obtained to detect drug conditions, achieving cross-validated accuracies of up to 87% in training/validation and 92% in the independent datasets, suggesting that the detected patterns of speech variability are associated with drug consumption. Specifically, we found that oxytocin seems to be mostly driven by changes in emotion and prosody, which are mainly captured by acoustic features. In contrast, mental states driven by MDMA consumption appear to manifest in multiple domains of speech. Furthermore, we find that the experimental task has an effect on the speech response within these mental states, which can be attributed to presence or absence of an interaction with another individual. These results represent a proof-of-concept application of the potential of speech to provide an objective measurement of mental states elicited during intoxication.</p>
+              </abstract>
+              <kwd-group kwd-group-type="npg-subject">
+                <title>Subject terms</title>
+                <kwd>Psychology</kwd>
+                <kwd>Human behaviour</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">https://doi.org/10.13039/100000026</institution-id>
+                      <institution>U.S. Department of Health &amp; Human Services | NIH | National Institute on Drug Abuse (NIDA)</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>DA026570</award-id>
+                  <award-id>DA02812</award-id>
+                  <award-id>DA040855</award-id>
+                  <award-id>DA034877</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Wit</surname>
+                      <given-names>Harriet de</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>U.S. Department of Health &amp; Human Services | NIH | National Institute on Drug Abuse (NIDA)</institution>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>U.S. Department of Health &amp; Human Services | NIH | National Institute on Drug Abuse (NIDA)</institution>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>U.S. Department of Health &amp; Human Services | NIH | National Institute on Drug Abuse (NIDA)</institution>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© American College of Neuropsychopharmacology 2020</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1" sec-type="introduction">
+              <title>Introduction</title>
+              <p id="Par2">In recent years, psychiatry researchers have endeavored to identify alternative, objective evaluations to aid subjective clinical assessments and diagnoses [<xref ref-type="bibr" rid="CR1">1</xref>]. One approach analyzes free speech, a promising data source due to its low cost, easy acquisition, and high reliability. Speech, a universal human phenomenon, represents a rich source of semantic, syntactic, and acoustic data that can be mined for clinically relevant information such as quantifying incoherence in schizophrenic speech [<xref ref-type="bibr" rid="CR2">2</xref>]. In the past, speech assessment was largely reliant on clinical observation, manual coding, or word counting methods (e.g. see [<xref ref-type="bibr" rid="CR3">3</xref>]). These approaches, while providing important information, have limitations in objectivity and how comprehensively they can assess this nuanced, complex behavior e.g. acoustic components. As a complement to existing methods, recent rapid developments in computerized natural language processing [<xref ref-type="bibr" rid="CR4">4</xref>] provide increasingly sophisticated automated methods to quantitatively characterize speech and investigate mental states based on the features extracted. These methods are routinely used in industry for the purpose of speech recognition [<xref ref-type="bibr" rid="CR5">5</xref>], chatbots and conversation agents [<xref ref-type="bibr" rid="CR6">6</xref>], and recommender systems [<xref ref-type="bibr" rid="CR7">7</xref>] among others. Whether they could aid research and practice in psychiatry is only beginning to be explored in the context of simulated psychiatric evaluations (e.g. see [<xref ref-type="bibr" rid="CR1">1</xref>, <xref ref-type="bibr" rid="CR8">8</xref>, <xref ref-type="bibr" rid="CR9">9</xref>]) or the analysis of alternative ways of communication such as social media (e.g. see [<xref ref-type="bibr" rid="CR10">10</xref>–<xref ref-type="bibr" rid="CR12">12</xref>]).</p>
+              <p id="Par3">Research on acute drug effects is one area in which investigation of mental states is paramount. Abused drugs profoundly alter mental states in ways that appear to motivate use [<xref ref-type="bibr" rid="CR13">13</xref>–<xref ref-type="bibr" rid="CR15">15</xref>]. Mental state changes due to intoxication are typically assessed using standardized self-report measures of relevant subjective states (e.g. “euphoric”, “high”) repeatedly throughout the drug experience [<xref ref-type="bibr" rid="CR13">13</xref>, <xref ref-type="bibr" rid="CR14">14</xref>]. While such approaches provide valuable information, the sensitivity of standardized scales is limited by the mood descriptors included, which may not capture the effects of emerging drugs. Moreover, self-report scales rely on access to interoceptive experiences, as well as motivation and capacity to accurately report them, factors that may vary systematically with drug effects. Computerized analysis of free speech offers the potential to by-pass some of these limitations, providing a more direct “window into the mind” [<xref ref-type="bibr" rid="CR16">16</xref>].</p>
+              <p id="Par4">Based on this rationale, we conducted two initial investigations employing automated natural language processing to assess mental state alterations due to intoxication. In the first, we investigated whether the semantic content of speech while intoxicated could discriminate between different drugs in a small double-blind placebo-controlled within-participants human laboratory study (<italic>N</italic> = 13, [<xref ref-type="bibr" rid="CR16">16</xref>]). Volunteers received 3,4-methylenedioxymethamphetamine (MDMA; the main psychoactive constituent in ‘ecstasy’ or ‘molly’; 0.75, 1.5 mg/kg), methamphetamine (20 mg), and placebo before undergoing a 10-min free speech task in which they described people close to them. We measured speech semantic content using Latent Semantic Analysis (LSA), a well-validated automated content assessment method [<xref ref-type="bibr" rid="CR17">17</xref>]. Specifically, for each speech transcription we extracted LSA values for semantic proximity to several concepts chosen a priori to reflect the apparently usual prosocial effects of MDMA (e.g. <italic>empathy</italic>, <italic>friend</italic>, <italic>rapport,</italic> etc.). We found that speech on MDMA (1.5 or 0.75 mg/kg) was closer to relevant concepts such as <italic>empathy</italic>, <italic>rapport</italic>, <italic>friend</italic>, and <italic>intimacy</italic> than speech on methamphetamine or placebo. Moreover, in cross-validated prediction, speech features differentiated MDMA (1.5 mg/kg) and placebo with 88% accuracy, and MDMA (1.5 mg/kg) and methamphetamine with 84% accuracy [<xref ref-type="bibr" rid="CR16">16</xref>]. Thus, this preliminary investigation indicated that natural language processing of free speech is capable of capturing behavior information associated with clinical studies findings, such as an increased empathy of an individual due to intoxication with MDMA.</p>
+              <p id="Par5">In the second within-participants analysis, 35 volunteers received placebo and MDMA (1.5 mg/kg) across two sessions, administered in a randomized double-blind fashion, prior to a 5-min speech task focused on an important person in the participant’s life [<xref ref-type="bibr" rid="CR18">18</xref>]. Analyses employed a bag-of-words approach, with classification based on how often individual words appeared in speech transcriptions, without reference to their order or context. A random forest machine learning approach classified speech (placebo vs. MDMA) based on the frequency of word occurrence within transcriptions. This allowed identification of the most important words contributing to the classification of speech on MDMA relative to placebo. Words contributing to the classification included some with social content (<italic>outgoing</italic>, <italic>camaraderie</italic>), as well as emotionally positive (<italic>beautiful</italic>) and negative (<italic>trouble</italic>) words. These findings thus also support the potential for computerized natural language processing to contribute to understanding of the acute effects of psychoactive drugs like MDMA.</p>
+              <p id="Par6">These initial analyses had several limitations: they focused on limited aspects of speech (semantic content), had small sample sizes, and did not use independent samples to test the classification algorithms developed. Here, we conducted a secondary analysis of a larger dataset to provide a more comprehensive assessment of natural language processing for detection of mental state changes during intoxication with MDMA (0.75; 1.5 mg/kg), compared to both placebo and intranasal oxytocin (20 IU). The larger study from which data were taken [<xref ref-type="bibr" rid="CR19">19</xref>] investigated the social behavioral effects of oral MDMA compared to intranasal oxytocin, given that oxytocin administration produces some prosocial effects apparently similar to those of MDMA (e.g. see [<xref ref-type="bibr" rid="CR20">20</xref>]). In addition to publication of the behavioral data from this study [<xref ref-type="bibr" rid="CR19">19</xref>], a subset of these speech data were previously analyzed using the bag-of-words approach described above [<xref ref-type="bibr" rid="CR18">18</xref>]. In this work, we perform a complete speech characterization using a broader range of features that includes semantic, acoustic, and psycholinguistic. We used a dataset composed of a description task (performed with minimal interaction with an interviewer) and a monologue task, as well as two independent datasets acquired in similar conditions for validation purposes. Within this setting, we aimed to test the following hypotheses: (i) each drug condition had a unique signature in speech, spanning different domains such as acoustics and content; (ii) the higher the dose of MDMA, the greater the associated changes in speech were; (iii) participants during the monologue could express their emotions more freely given the fact that they were alone in the room during the task; (iv) the trained models would generalize well in the independent validation datasets.</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Methods</title>
+              <sec id="Sec3">
+                <title>Participants</title>
+                <p id="Par7">Healthy participants who reported using “ecstasy” or “molly” at least twice underwent comprehensive screening (medical examination, electrocardiogram, and structured interview) and provided written informed consent for participation. They then performed two different speech tasks after drug administration under procedures approved by the University of Chicago Institutional Review Board. Exclusion criteria included current medical illness or psychiatric disorder, body mass index outside of 18.5–30 kg/m<sup>2</sup>, cardiovascular disease, prior adverse ecstasy response, and pregnancy or lactation. Of 35 participants, 4 participants were discarded from the dataset since at least one of their 8 recordings (4 sessions × 2 speech tasks) were unusable. Two of them did not engage in the monologue task (they did not talk), while the other ones had very strong background noise in their recordings. Participants comprised 12 females (age 24.6 ± 4.7 years) and 19 males (24.1 ± 4.5 years). More information of the demographics and the substance at study entry can be found in Table <xref rid="Tab1" ref-type="table">1</xref>.<table-wrap id="Tab1"><label>Table 1</label><caption><p>Demographics and substance use characteristics.</p></caption><table frame="hsides" rules="groups"><thead><tr><th/><th>Category</th><th>Training/validation dataset (N = 31)</th><th>ID1 (<italic>N</italic> = 36)</th><th>ID2 (<italic>N</italic> = 13)</th></tr></thead><tbody><tr><td rowspan="4">Demographics</td><td>Sex</td><td>39% females</td><td>50% females</td><td>31% females</td></tr><tr><td>Age</td><td>24.3 (4.4)</td><td>24.6 (4.7)</td><td>24.5 (5.4)</td></tr><tr><td>Race</td><td>100% Caucasian</td><td>67% Caucasian, 11% African American, 3% Asian, 19% other/mixed race</td><td>84% Caucasian, 8% African American, 8% other/mixed race</td></tr><tr><td>Education in years</td><td>14.7 (1.30)</td><td>15.1(1.5)</td><td>–</td></tr><tr><td rowspan="2">Current substance use</td><td>Alcohol drink per week</td><td>8.7 (6.8)</td><td>9.9 (10.6)</td><td>7.4 (5.5)</td></tr><tr><td>Smoking past month</td><td>32%</td><td>22%</td><td>–</td></tr><tr><td rowspan="2">Lifetime occasions recreational use</td><td>MDMA</td><td>12.6 (9.3)</td><td>10.2 (8.2)</td><td>12.6 (19.1)</td></tr><tr><td>Cannabis (days in past month)</td><td>7 (7.24)</td><td>64% (more than 100 times)</td><td>9.5 (10.8)</td></tr></tbody></table><table-wrap-foot><p>Notes: Statistically significant difference was found for race category when the training/validation set was compared to ID1 (<italic>p</italic>-value of 4E−4) and ID2 (<italic>p</italic>-value of 2E−2).</p></table-wrap-foot></table-wrap></p>
+              </sec>
+              <sec id="Sec4">
+                <title>Experimental protocol</title>
+                <p id="Par8">The study employed a randomized, double-blind, within-between-participants design. All participants received placebo, two doses of MDMA (0.75 mg/kg and 1.5 mg/kg), and one dose of oxytocin (20 IU) over four different sessions. To account for potential differences in the time course of these drugs and facilitate blinding, a double-dummy approach was taken such that MDMA/placebo capsules were administered orally 30 min before an oxytocin/placebo intranasal spray. Thus, while participants received both a capsule and an intranasal spray in each session, they never received active MDMA and oxytocin together. Further information about drug doses and administration procedures has previously been published [<xref ref-type="bibr" rid="CR18">18</xref>].</p>
+                <p id="Par9">Sessions lasted from approximately 9 am until 1.30 pm and were spaced at least 5 days apart for drug washout. Before sessions, participants were asked to abstain from food for 2 h; cannabis for 7 days—if participants’ urine test was positive for cannabis, we followed up with a saliva test (Oratect, Branan Medical Corp., Irvine, CA); alcohol or medications for 24 h; and all other illicit drugs for 48 h. Compliance with these requirements was ascertained by urine (Ontrak TestStik, Roche Diagnostic Systems, Somerville, NJ), saliva (Oratect, Branan Medical Corp., Irvine, California), and breathalyzer (Alco-Sensor III Breathalyzer, Intoximeters, St Louis, MO) tests at the beginning of each session. Females were tested for pregnancy at each session. Speech tasks were conducted between approximately 75 and 105 min post-MDMA/placebo administration, coinciding with expected peak drug effects [<xref ref-type="bibr" rid="CR21">21</xref>].</p>
+              </sec>
+              <sec id="Sec5">
+                <title>Assessment measures</title>
+                <p id="Par10">In each session, participants completed 2 speech tasks. The first, which we refer to as <italic>Description</italic>, comprised 5 min of free speech, with participants asked to talk about an important person in their life. The specific person was selected randomly each session from a list of four people provided previously by the participant. A research assistant listened, and if needed, they were trained to help the participant continue speaking by asking questions paraphrasing and reflecting the participant’s feelings. We have previously employed this approach to elicit free speech [<xref ref-type="bibr" rid="CR16">16</xref>]. In the second task, <italic>Monologue</italic>, participants were asked to talk for up to 5 min (as much or as little as they liked) about any topic. A list of suggested topics was provided (e.g., family, friends, travel), but these were not limiting and participants could change topics as often as they wanted [<xref ref-type="bibr" rid="CR22">22</xref>]. In the Monologue task, no listener was present. All speech was recorded using one channel at 44.1 kHz in WMA format. To analyze the semantic and syntactic speech content, a professional blind to drug condition manually transcribed the audio files.</p>
+              </sec>
+              <sec id="Sec6">
+                <title>Analytic approach</title>
+                <sec id="Sec7">
+                  <title>Pre-processing</title>
+                  <p id="Par11">We extracted features based both on the acoustic properties of participants’ voices, and the information contained in transcripts. To ensure optimal reliability of the acoustic properties, the initial and final 30 s of each recording were not used for feature extraction. In addition, for the Description task, in which the research assistant was present and potentially speaking, his/her voice was manually removed from the recording. For the transcripts, in addition to removing the research assistant speech, we also removed punctuation and any special characters (e.g., #, $, [, etc.).</p>
+                </sec>
+                <sec id="Sec8">
+                  <title>Feature extraction</title>
+                  <p id="Par12">To optimally mine the rich information in speech for mental state analysis, we extracted three feature types: acoustic, semantic, and psycholinguistic (i.e. syntactic). Below, details are provided about feature extraction (see also Table <xref rid="Tab2" ref-type="table">2</xref>):<list list-type="alpha-lower"><list-item><p id="Par13"><italic>Acoustic features</italic>: 88 acoustic features were extracted from each recording. The main software tools used for the feature extraction were Praat [<xref ref-type="bibr" rid="CR23">23</xref>, <xref ref-type="bibr" rid="CR24">24</xref>] and Python (<ext-link ext-link-type="uri" xlink:href="http://www.python.org">www.python.org</ext-link>). Features were extracted from five categories (see Table <xref rid="Tab2" ref-type="table">2</xref>). First, we extracted features that characterize voice stability, including jitter, shimmer, and voice breaks. Then, noise was assessed with harmonic to noise ratio (HNR), noise to harmonics ratio (NHR), and mean autocorrelation. The third category includes temporal features such as the distribution of pauses and utterances. Pitch variations across the total recording time were also extracted. Information from the power spectrum is represented via Mel-frequency cepstral coefficients (MFCCs), which correlate with emotional states [<xref ref-type="bibr" rid="CR25">25</xref>–<xref ref-type="bibr" rid="CR27">27</xref>]. Finally, we extracted formant values, which characterize the acoustic resonance of uttered vowels in the vocal tract. Formant information is used to estimate the vowel space of each individual, which determines his/her vowel quality. Vowel space information reflects speaker characteristics, speech development, speaking style, sociolinguistic factors, and speech disorders (e.g. [<xref ref-type="bibr" rid="CR28">28</xref>, <xref ref-type="bibr" rid="CR29">29</xref>]).</p></list-item><list-item><p id="Par14"><italic>Semantic features</italic>: To extract the semantic features, we employed a similar approach to that which we have previously used (LSA; see [<xref ref-type="bibr" rid="CR16">16</xref>]). In the first stage, we processed transcripts with the Natural Language Toolkit (NLTK; [<xref ref-type="bibr" rid="CR30">30</xref>]). Using the Treebank tagger in NTLK, we parsed interviews into sentences and identified nouns. Finally, we extracted the roots of words with the WordNetLemmatizer to obtain robust measurements. This generated a list of tokenized words for further processing. The second stage identified the semantic proximity between lemmatized words and several semantic concepts of interest by representing each word as a numeric vector based on its co-occurrence with every other word in a large corpus (the TASA corpus, a collection of educational materials compiled by Touchstone Applied Science Associates containing 7651 documents and 12,190,931 words, from a vocabulary of 77,998 distinct words). Using previous knowledge from MDMA research [<xref ref-type="bibr" rid="CR31">31</xref>], we selected the following concepts of interest to best represent a range of subjective mental states likely impacted by MDMA: <italic>affect, anxiety, compassion, confidence, disdain, emotion, empathy, fear, feeling, forgive, friend, happy, intimacy, love, pain, peace, rapport, sad, support, think</italic>, and <italic>talk</italic>. A semantic proximity value was then calculated using cosine distance (dot product) between each concept of interest (using a unique word representation) and each word in the speech transcripts. Then, the median semantic proximity between each concept and the overall text was estimated. This procedure was repeated for the 21 concepts of interest, yielding 21 semantic features for each text.</p></list-item><list-item><p id="Par15"><italic>Psycholinguistic features</italic>: These features, capturing the lexical and syntactic complexity of speech, are divided into three categories. First, we used the Computerized Propositional Idea Density Rater (CPIDR [<xref ref-type="bibr" rid="CR32">32</xref>]), to compute the total word count and number of ideas (expressed propositions) found in each transcript. Propositional density was also computed by dividing the number of ideas by the total word number. Second, we quantified parts of speech by dividing the number of occurrences of each part of speech by the total word number. This was done for pronouns, nouns, verbs, determiners, indefinites, and definites. Third, we extracted features to characterize participants’ lexical content. We used Honore’s statistic, a measure of lexical richness (number of words used exactly once) and Brunet’s index, also a measure of lexical diversity.</p></list-item></list><table-wrap id="Tab2"><label>Table 2</label><caption><p>Description of extracted speech features.</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Type of Feature</th><th>Category</th><th>List of all features</th></tr></thead><tbody><tr><td rowspan="7">Acoustic</td><td>Voice stability</td><td>Jitter, shimmer, voice breaks</td></tr><tr><td>Noise measurements</td><td>Noise to harmonics ratio, harmonics to noise ratio, mean autocorrelation</td></tr><tr><td>Pitch variations</td><td>Pitch distribution</td></tr><tr><td>Spectral characterization</td><td>Max dB, max frequency, energy, slope</td></tr><tr><td>Vowel space</td><td>Total area, ‘a-i-u’ area, Formants 1,2,3 distribution</td></tr><tr><td>Mel-frequency cepstral coefficients (MFCC)</td><td>Sixteen MFCCs</td></tr><tr><td>Temporal Features</td><td>Pause duration distribution, articulation and speech rates</td></tr><tr><td>Semantic</td><td>LSA (21 Concepts of interest)</td><td><italic>affect, anxiety, compassion, confidence, disdain, emotion, empathy, fear, feeling, forgive, friend, happy, intimacy, love, pain, peace, rapport, sad, support, think</italic>, and <italic>talk</italic>.</td></tr><tr><td rowspan="3">Psycholinguistic</td><td>CPIDR</td><td>Ideas, total words, propositional density</td></tr><tr><td>Parts of speech</td><td>pronouns, nouns, verbs, determiners, indefinites and definites, I (singular first person noun)</td></tr><tr><td>Lexical content</td><td>Honore’s statistic and Brunet’s index, content words, total words, empty words, type-token, frequency, and fillers.</td></tr></tbody></table></table-wrap></p>
+                </sec>
+                <sec id="Sec9">
+                  <title>Condition-level comparisons</title>
+                  <p id="Par16">As a first step to analyze whether speech features differed between the placebo and active conditions, we performed a univariate analysis using paired Wilcoxon sign rank tests. Since we also wanted to evaluate the influence of the task on the extracted features, we performed these tests for each task separately. To correct for multiple comparisons, false discovery rate (FDR) correction at <italic>q</italic> &lt; 0.05 was performed through the Benjamini–Hochberg procedure [<xref ref-type="bibr" rid="CR33">33</xref>]. In addition, we analyzed the interactions between the features that pass FDR correction for all conditions using pairwise partial correlations, which measure the linear relationship between two variables while controlling for the effects of other variables. More specifically, partial correlations were calculated using the inverse of the regularized covariance matrix [<xref ref-type="bibr" rid="CR34">34</xref>].</p>
+                </sec>
+                <sec id="Sec10">
+                  <title>Classification</title>
+                  <p id="Par17">In addition to using condition-level descriptive analysis to evaluate if the extracted features were associated with mental states arising due to drug effects, we assessed their predictive performance through classification analysis. To detect the effects in the participants speech while they were under the influence of the analyzed drugs, we need to consider the inherent variability in speech across individuals. We illustrate this with the following example: some people talk faster than others. If a drug were to affect the speech rate of an individual by speeding it up and we observed its effect on a person that talks slowly, it is likely that this person would still talk slower than a person that usually talks very fast. Therefore, the effect of the drug would remain unnoticed. For this reason, we decided to adjust for these differences by correcting the speech characteristics of each individual by their own baselines. By doing so, we would effectively measure the differential effect of a drug in each individual. We followed this rational to detect the effects of a drug with respect to placebo by subtracting their feature representations. On the other hand, if we wanted to explore the effect of placebo with respect to the drug, we would need to reverse the sign of the subtraction. In other terms, classifying condition A vs B is equivalent to classifying (A – B) vs (B – A). More details of this approach can be found in [<xref ref-type="bibr" rid="CR16">16</xref>]. After generating features based on this representation, we evaluated the following classification tasks: placebo vs. each active drug condition (MDMA 0.75 mg/kg; MDMA 1.5 mg/kg, and oxytocin), and MDMA 0.75 mg/kg vs. MDMA 1.5 mg/kg for the <italic>Description</italic> and <italic>Monologue</italic> tasks individually. Prior to classification, all features were standardized to a mean of 0 and standard deviation of 1. We employed three classifier types to evaluate the predictive power of speech features to differentiate between conditions: (a) linear support vector machines (SVM), which estimates based on linear combinations of features; (b) nearest neighbors, whose predictions are based on similarity metrics between samples; and (c) a non-linear classifier based on decision trees called random forest. To identify performance of the classifiers and optimize the parameters, we used a nested leave-one-participant-out cross-validation approach. Finally, since both group representations come from both sessions of the same set of subjects, the probability of detecting either condition by chance is exactly 50%. To perform feature selection, we ranked the features using two sample t-tests with samples of the training set as we were measuring changes (as opposed to absolute values) associated with drug effects. We report the cross-validation performance obtained using the optimal set of features.</p>
+                </sec>
+                <sec id="Sec11">
+                  <title>Multivariate analysis</title>
+                  <p id="Par18">As a post hoc analysis, we checked the weights obtained by the best models generated for the different classification tasks. Since the contribution of the most informative features was evaluated in terms of weights assigned by the classifier, this could only be achieved through the analysis of the linear classifier: linear SVM. To be able to compare the weights assigned across models, these were rescaled to the range of 0 to 1 by (1) taking their absolute values, and (2) dividing them by their sum across all features. By doing so, we had the contribution of each feature to the classification as a percentage value. To reduce the complexity of this depiction, we only focus on the features that had a relative contribution of more than 10%. It should be noted that since these are the results of a cross-validated approach, different sets of optimal are found across folds.</p>
+                </sec>
+                <sec id="Sec12">
+                  <title>Validation</title>
+                  <p id="Par19">Models were estimated on the training dataset (<italic>N</italic> = 31) described above. We then validated the models in two independent datasets in which participants had also undergone the <italic>Description</italic> task after MDMA (0.75, 1.5 mg/kg) and placebo. The same set of features described above was extracted from these independent datasets, with the exception of acoustic data, which was not available due to lower quality audio recordings. In addition, in one of these datasets (Independent Dataset 2; ID2), the duration of the task was 10 instead of 5 min, so two psycholinguistic features that vary with task duration (total word count and number of ideas) were not considered for model validation in ID2. Independent Dataset 1 (ID1) comprised data from 36 healthy participants (18 females; age = 24.6 ± 4.7 years) who completed a 3-session within-participants study, receiving placebo, low dose MDMA (0.75 mg/kg) and MDMA (1.5 mg/kg). Further details of the overall study from which ID1 was obtained are described in a previous publication, which employed a word count method to assay positive and negative words used in the speech task [<xref ref-type="bibr" rid="CR35">35</xref>]. The speech data in ID1 were collected 140 min after MDMA/placebo administration. ID2 was comprised of data we previously analyzed for semantic and syntactic features of speech [<xref ref-type="bibr" rid="CR16">16</xref>]. This dataset is composed of speech data from 13 participants (4 females; overall age = 24.5 ± 5.4 years) who also completed a within-participants study and received placebo and MDMA (0.75, 1.5 mg/kg) across 3 sessions; details of this study have previously been reported ([<xref ref-type="bibr" rid="CR16">16</xref>, <xref ref-type="bibr" rid="CR36">36</xref>] participants also underwent a methamphetamine session in ID2, however these data are not included in this analysis). Speech data for ID2 were collected 130 min post MDMA/placebo administration. Demographic information of ID1 and ID2 is provided in Table <xref rid="Tab1" ref-type="table">1</xref>. The only variable that presents statistically significant differences between the train/validation dataset and the independent datasets is race, showing <italic>p</italic>-values of 4E–4 (train/validation set vs ID1) and 2E–2 (train/validation set vs ID2) for the proportion of Caucasian individuals.</p>
+                </sec>
+              </sec>
+            </sec>
+            <sec id="Sec13" sec-type="results">
+              <title>Results</title>
+              <sec id="Sec14">
+                <title>Condition-level comparisons</title>
+                <p id="Par20">The top three features (identified by the lowest <italic>p</italic>-value) for each of the four comparisons (e.g., MDMA 0.75 vs. placebo) by speech task (i.e. Description and Monologue) are presented in Table <xref rid="Tab3" ref-type="table">3</xref>. Ten features were found to show statistically significant differences across conditions after FDR correction. Acoustic features appear to be more relevant to detect the effects of oxytocin. In addition, different sets of relevant features were observed for the two different speech tasks.<table-wrap id="Tab3"><label>Table 3</label><caption><p>Univariate analysis: features ranked using the <italic>p</italic>-value of Wilcoxon paired <italic>t</italic>-test.</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2">Conditions</th><th colspan="3">Monologues feature name</th><th colspan="3">Description feature name</th></tr><tr><th>Acoustic</th><th>Semantic</th><th>Psycholinguistic</th><th>Acoustic</th><th>Semantic</th><th>Psycholinguistic</th></tr></thead><tbody><tr><td rowspan="3">MDMA 0.75 vs. PBO</td><td>Pitch<sub>a</sub></td><td>Think*</td><td>W-Empty</td><td>F1<sub>b</sub></td><td>Sad*</td><td>Density</td></tr><tr><td>Pitch<sub>e</sub></td><td>Talk*</td><td>Determiners</td><td>Angle</td><td>Happy</td><td>W-Empty</td></tr><tr><td>MFCC #13<sub>b</sub></td><td>Feeling*</td><td>Indefinites</td><td>PauseDist<sub>e</sub></td><td>Confidence</td><td>N-Nouns</td></tr><tr><td rowspan="3">MDMA 1.5 vs. PBO</td><td>MFCC #12<sub>a</sub></td><td>Talk</td><td>Frequency</td><td>Angle</td><td>Support</td><td>Ideas*</td></tr><tr><td>F3<sub>e</sub></td><td>Love</td><td>Determiners</td><td>PauseDist<sub>a</sub></td><td>Think</td><td>Honores*</td></tr><tr><td>PauseDist<sub>g</sub></td><td>Peace</td><td>Definites</td><td>PauseDist<sub>b</sub></td><td>Love</td><td>W – Total*</td></tr><tr><td rowspan="3">MDMA 0.75 vs. MDMA1.5</td><td>Pitch<sub>a</sub></td><td>Support</td><td>Frequency</td><td>PauseDist<sub>a</sub></td><td>Sad</td><td>W-Empty *</td></tr><tr><td>MFCC #4<sub>b</sub></td><td>Think</td><td>Determiners</td><td>PauseDist<sub>g</sub></td><td>Love</td><td>W-Total</td></tr><tr><td>MFCC #12<sub>a</sub></td><td>Affect</td><td>Density</td><td>PauseDist<sub>b</sub></td><td>Rapport</td><td>W-content</td></tr><tr><td rowspan="3">OT vs. PBO</td><td>F2<sub>c</sub>*</td><td>Emotion</td><td>Density</td><td>PauseDist<sub>a</sub></td><td>Support</td><td>Definites</td></tr><tr><td>F2<sub>b</sub>*</td><td>Anxiety</td><td>N-Nouns</td><td>Shimmer<sub>h</sub></td><td>Peace</td><td>Determiners</td></tr><tr><td>F2<sub>e</sub></td><td>Talk</td><td>N-Verbs</td><td>Unvoiced<sub>i</sub></td><td>Feeling</td><td>W-empty</td></tr></tbody></table><table-wrap-foot><p>Notes: Sub-index in the name of the feature indicate the descriptor: (a) median, (b) IQR, (c) kurtosis, (d) skewness, (e) percentile 5th, (f) percentile 50, (g) percentile 95th, (h) local; (i) frames. W refers to number of words. * indicates that the test passed FDR correction. PBO = placebo; MDMA 0.75 = 3,4-methylenedioxymethamphetamine 0.75 mg/kg; MDMA 1.5 = 3,4-methylenedioxymethamphetamine 1.5 mg/kg; OT = oxytocin 20 international units.</p></table-wrap-foot></table-wrap></p>
+              </sec>
+              <sec id="Sec15">
+                <title>Partial correlations</title>
+                <p id="Par21">Partial correlations were conducted to examine the relationships between pairs of features that best differentiated conditions (see Table <xref rid="Tab3" ref-type="table">3</xref>). Figure <xref rid="Fig1" ref-type="fig">1a</xref> presents the structure and strength of partial correlations among these features as a function of condition (columns) and task type (rows), while Fig. <xref rid="Fig1" ref-type="fig">1b</xref> provides a multidimensional mapping of the partial correlations shown in Fig. <xref rid="Fig1" ref-type="fig">1a</xref>. Stronger associations were found when the subjects were under the influence of psychoactive drugs relative to placebo, especially MDMA. The projection of the partial correlations in two dimensions show that each speech task has roughly a different location along one of the axis of this subspace, in this subspace and that, regardless of the speech task, the increased dose of MDMA can be detected by the second dimension in this subspace (axis y in Fig. <xref rid="Fig1" ref-type="fig">1b</xref>).<fig id="Fig1"><label>Fig. 1</label><caption><p><bold>a</bold> Partial correlations between the statistically significant features found in Table <xref rid="Tab2" ref-type="table">2</xref> identified as a function of drug condition and task (Monologue presented in the top row and Description in the bottom row). <bold>b</bold> Multidimensional scaling representation of the partial correlations in Fig. 1a. Observe the horizontal axis differentiating the monologue and description task for each drug condition, and the vertical axis differentiating low and high MDMA conditions for each task. Moreover, the dashed line contains exclusively all of the monologue tasks, stressing the consistency of the representation with the experimental conditions.</p></caption><graphic xlink:href="41386_2020_620_Fig1_HTML" id="d29e1348"/></fig></p>
+              </sec>
+              <sec id="Sec16">
+                <title>Classification</title>
+                <p id="Par22">The accuracy of the four binary classifications (cross-validated) in the Monologue and Descriptions task are presented in Fig. <xref rid="Fig2" ref-type="fig">2</xref>. Classification using acoustic features only is more accurate for the Monologue than the Description task. Conversely, features obtained from transcripts (semantic and psycholinguistic) were more informative for the Descriptions task. The highest accuracy observed was for classification of a low MDMA dose relative to placebo, where features extracted from speech yielded accuracy of up to 87 and 84% with feature selection for Monologue and Description tasks, respectively. The entire set of features did not always improve classification accuracy. Regarding the use of classifiers, the most accurate classifications were obtained using linear SVM, followed by Random Forest and Nearest Neighbors. We implemented a binomial test to estimate significance of the prediction accuracy.<fig id="Fig2"><label>Fig. 2</label><caption><title>Classification accuracy by task, feature type, and binary condition comparison.</title><p>The number of features obtained after feature selection is specified at the top of each bar. The symbols at the bottom of the bar indicate with which algorithm the maximum accuracy was achieved: o Linear SVM, * Random Forest, and + Nearest neighbors. The types of features are indicated as follows: A = Acoustic features only; B = Semantic features only; C = Psycholinguistic/syntactic features only; D = Combined features. PBO = placebo; MDMA 0.75 = 3,4-methylenedioxymethamphetamine 0.75 mg/kg; MDMA 1.5 = 3,4-methylenedioxymethamphetamine 1.5 mg/kg; OT = oxytocin 20 international units. Letters underlined in black indicate that at least one of the models achieved classification higher than chance at p &lt; 0.05, underlined in red at <italic>p</italic> &lt; 0.001.</p></caption><graphic xlink:href="41386_2020_620_Fig2_HTML" id="d29e1370"/></fig></p>
+              </sec>
+              <sec id="Sec17">
+                <title>Multivariate analysis</title>
+                <p id="Par23">Weight contributions in each of the linear optimal models is shown in Fig. <xref rid="Fig3" ref-type="fig">3</xref>. Although linear SVM models achieved the highest accuracy for only three out of the eight analyzed conditions (See Fig. <xref rid="Fig2" ref-type="fig">2</xref>, combined features + features selection), the accuracies of all of the analyzed linear SVM models are good, with results in the range of [71% 87%]. We observe that for the monologue task, psycholinguistic features do not have any contribution to either of the four classification tasks. However, for the description task, psycholinguistic features appear to be relevant for three of the four classification tasks. We also observe that most of the top features reported in the univariate test (Table <xref rid="Tab3" ref-type="table">3</xref>) are also relevant for classification, except for MDMA 0.75 vs. PBO, in which <italic>anxiety</italic> appears to have a predominant role relative to the semantic features reported in Table <xref rid="Tab3" ref-type="table">3</xref>.<fig id="Fig3"><label>Fig. 3</label><caption><title>Weight representation of combined features found by optimal linear classification models (2 tasks x 4 conditions).</title><p>Weights are normalized to represent the relevant contribution of each feature as percentages. Two heatmaps are shown corresponding to both speech tasks analyzed in this study (left: monologue, right: description). Features that contributed less than 10% were not displayed here. First letter in the feature name indicates the type of feature: A = Acoustic, S = semantic, P = Psycholinguistic.</p></caption><graphic xlink:href="41386_2020_620_Fig3_HTML" id="d29e1402"/></fig></p>
+              </sec>
+              <sec id="Sec18">
+                <title>Validation</title>
+                <p id="Par24">The accuracy of the classifiers generated on the training data was tested in two separate validation datasets (Description task only) for three of the four conditions (Fig. <xref rid="Fig4" ref-type="fig">4</xref>). Accuracy values up to 92 and 66% were achieved for ID1 and ID2, respectively (chance = 50%) using models enriched with feature selection. We also implemented a binomial test for significance; however, this is a pessimistic measure of significance for a validation dataset that, as is the case here, differs from the training dataset in several experimental dimensions [<xref ref-type="bibr" rid="CR37">37</xref>, <xref ref-type="bibr" rid="CR38">38</xref>]. Even with this conservative approach, we observed discrimination accuracies significantly higher than chance.<fig id="Fig4"><label>Fig. 4</label><caption><title>Classification accuracy by feature type and binary condition comparison in the validation datasets.</title><p>PBO = placebo; MDMA 0.75 = 3,4-methylenedioxymethamphetamine 0.75 mg/kg; MDMA 1.5 = 3,4-methylenedioxymethamphetamine 1.5 mg/kg. Letters underlined in black indicate that at least one of the models achieved classification higher than chance at <italic>p</italic> &lt; 0.05, underlined in red at <italic>p</italic> &lt; 0.002 (note these are pessimistic significance estimates based on multiple differences between the training and validation datasets).</p></caption><graphic xlink:href="41386_2020_620_Fig4_HTML" id="d29e1433"/></fig></p>
+              </sec>
+            </sec>
+            <sec id="Sec19" sec-type="discussion">
+              <title>Discussion</title>
+              <p id="Par25">These analyses represent, to the best of our knowledge, the first attempt to use a broad spectrum of speech characteristics to assess acute mental state changes as a result of drug intoxication in a laboratory setting. Previous studies investigating the acute effects of drugs on speech have employed a range of different analytic methods, including automated semantic and syntactic analysis [<xref ref-type="bibr" rid="CR16">16</xref>, <xref ref-type="bibr" rid="CR18">18</xref>], computerized word count methods [<xref ref-type="bibr" rid="CR35">35</xref>], and manual approaches (e.g. [<xref ref-type="bibr" rid="CR39">39</xref>, <xref ref-type="bibr" rid="CR40">40</xref>]). The results presented here suggest that a broad array of computer-extracted speech features, including acoustic, semantic, and psycholinguistic variables, can provide a more complete characterization of all speech changes generated by the acute effects of MDMA and intranasal oxytocin administration. Indeed, the complexity of these results highlights both the richness of speech as a data source and the difficulty inherent in identifying which features are most important in relation to specific drug effects.</p>
+              <p id="Par26">We found that (1) The top features identified in the analysis were related to both the drug and the task employed (i.e. whether it was a description elicited via questions from a researcher or a monologue); (2) Within each drug condition, associations (partial correlations) between speech variables varied with the task; (3) Accuracy varied with drug, feature type, and task type; (4) Higher dose of MDMA is not associated with higher changes with respect to placebo; and (5) Combining features in machine learning classifiers consistently yielded accuracy rates higher than chance, including when tested in two independent datasets. These data indicate that speech analysis shows promise as an assay of acute drug effects, providing further proof-of-concept evidence for computerized use of speech to measure mental states in humans. For example, automated speech analysis could potentially aid psychiatry to overcome the limitations of traditional assessments, such as compensate for the limited number of trained professionals to evaluate various aspects of communication or aid them to monitor changes over time [<xref ref-type="bibr" rid="CR8">8</xref>].</p>
+              <p id="Par27">Several aspects of these results warrant comment. In condition-wise comparisons, features differing between conditions varied both with task and drug comparison. For example, in the oxytocin vs. placebo comparison, the top features identified passed FDR correction for the Monologue, but not the Description task. The top acoustic features in the Monologue task across comparisons were related to MFCCs and formants, which are known to reflect affective states [<xref ref-type="bibr" rid="CR41">41</xref>]. For example, mean MFCC values differentiate between boredom and neutral emotions [<xref ref-type="bibr" rid="CR42">42</xref>]. The position of the formants in the vowel space has also been studied for emotion recognition from speech [<xref ref-type="bibr" rid="CR43">43</xref>], finding that formant frequency values reflect speech valence. Specifically, positive emotions and high arousal are associated with higher second formant (F2) values, which we also observed under oxytocin compared to placebo in the Monologue task. In fact, weight analysis revealed that a very high accuracy was achieved with only F2 features (See Fig. <xref rid="Fig3" ref-type="fig">3</xref>). Conversely, the top acoustic features in the Description task were related to the duration of pauses during speech. This difference may suggest that our hypothesis actually holds and the presence of the research assistant during the Description task prevented participants from expressing their emotions as freely as they could in the Monologue. Alternatively, this may reflect the different instructions given for each task. Either possibility indicates that the optimal conditions for eliciting speech for the purpose of automated speech analysis represent a critical factor in need of further research.</p>
+              <p id="Par28">We can provide an illustrative template for interpreting how the mental states underlying the eight conditions (four drugs x two tasks) determine interactions between speech components. Figure <xref rid="Fig1" ref-type="fig">1a</xref> shows partial correlations between the most relevant features identified. Across tasks, partial correlations were low, with more pronounced strength in the active drug conditions. In these, it is interesting to note that the only substantial link between an acoustic feature (F2 kurtosis) and a linguistic feature (“feeling”) is observed for the monologue with low dose MDMA. Similarly, the description task with a high dose of MDMA is the only condition that uncouples structural linguistic features (w-empty, w-total, Honoré’s and ideas) from semantic features (“think”, “sad”, “talk”, “feeling”). Further insights can be obtained by mapping the partial correlation matrices onto a two-dimensional space using Multidimensional Scaling (MDS), which arranges them according to their similarity [<xref ref-type="bibr" rid="CR44">44</xref>]. MDS (Fig. <xref rid="Fig1" ref-type="fig">1b</xref>) finds that the two main dimensions of similarity are one that is determined by the task (“monologue to description factor”), such that for each drug condition <italic>description</italic> instance is to the right of <italic>monologue</italic>, and another dimension that determines MDMA dose level, such that for both tasks <italic>high MDMA</italic> is higher than <italic>low MDMA</italic>. Although the effect of a higher doses of MDMA is in the same direction regardless of the tasks, we observe that a higher dose of MDMA does not yield to a higher distance from placebo, as we hypothesized at the beginning of this work. This is also corroborated by the performance of our models where a slightly higher performance is obtained for MDMA 0.75 vs. placebo than for MDMA 1.5 vs. placebo.</p>
+              <p id="Par29">The overall accuracy of cross-validated classification, which was higher than chance, was consistent with previous findings by our group indicating that, at least in cross-validation, automated speech analysis can contribute to higher-than-chance classification between drug conditions [<xref ref-type="bibr" rid="CR16">16</xref>]. Here, we extended significantly on those findings to report that speech-based classifiers trained on one dataset yield higher-than chance classification in independent validation datasets (see Fig. <xref rid="Fig4" ref-type="fig">4</xref>). These results also, however, highlighted the impact of methodological details, with classification accuracy higher in Independent Dataset 2 relative to Independent Dataset 1. One possible factor in this difference is that the speech task in ID2 (130 min after dosing) was conducted closer to peak drug effects and the time of the speech task in the training dataset (between 75 and 105 min) than that in ID1 (140 min after dosing). Another possible factor is that for ID1, there is a statistically significant difference (<italic>p</italic>-value = 4E–4) with the training/validation dataset in terms of the proportion of Caucasian participants. We speculate that different races, which may be associated with different cultural backgrounds, could have an effect in how people perform the description task that we were not able to account for. This suggests a further axis of complexity in characterizing drug effects via automated speech, with features and classification accuracy varying along the time-course of drug effects as well as with drug, dose, speech elicitation task, and potentially race or ethnicity.</p>
+              <p id="Par30">As a secondary analysis, this study has several limitations. First, the three datasets employed for analyses were designed for other studies [<xref ref-type="bibr" rid="CR19">19</xref>, <xref ref-type="bibr" rid="CR36">36</xref>, <xref ref-type="bibr" rid="CR45">45</xref>, <xref ref-type="bibr" rid="CR46">46</xref>]. Moreover, subsets of the data have been used in previous analyses of speech features [<xref ref-type="bibr" rid="CR16">16</xref>, <xref ref-type="bibr" rid="CR18">18</xref>, <xref ref-type="bibr" rid="CR35">35</xref>]. However, the current analyses significantly extended prior findings by: (1) Including acoustic, semantic, and psycholinguistic features; and (2) Training classifiers on one dataset and testing them on two independent datasets. Second, because the original studies were not designed for the present purpose, there were methodological differences between studies including variation in the position of the speech task in the drug time course, and differences in the specific tasks used. While not optimal, this variability did point towards important factors potentially influencing outcome for further empirical investigation. Third, we only assessed a limited number of drug conditions (two doses of MDMA, and one of oxytocin for each participant). An obvious extension of these findings would be to investigate the potential capacity of computerized speech analysis to detect intoxication with more commonly used drugs. This is particularly relevant for cannabis, given that biochemical markers may not provide a reliable test of impairment (rather than exposure), which is increasingly necessary in the context of legalization of cannabis for medicinal and recreational purposes [<xref ref-type="bibr" rid="CR47">47</xref>, <xref ref-type="bibr" rid="CR48">48</xref>].</p>
+              <p id="Par31">These findings contribute to a small but rapidly growing body of literature suggesting that computerized speech analysis methods may present a powerful, non-invasive, and cost-effective way to capture clinically relevant mental states, including those occurring during intoxication. Further work is needed to refine these methods and reduce the complexity of speech data mining into usable algorithms; in particular, larger and more varied datasets would help considerably to identify which speech markers are independent of the particular task and experimental setting, and also allow for a systematic exploration of interpretable data-driven markers [<xref ref-type="bibr" rid="CR49">49</xref>]. However, these methods suggest that in the near future, digital phenotyping, including automated speech analysis, could provide reliable, objective information to complement existing methods used to understand human mental states.</p>
+            </sec>
+            <sec id="Sec20">
+              <title>Funding and disclosure</title>
+              <p id="Par32">This research was supported by the National Institute on Drug Abuse (DA026570, DA02812, DA040855, DA034877). The authors have no conflicts of interest to declare.</p>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p><bold>Publisher’s note</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>The authors would like to thank participants for their involvement, and Jon Solamillo and Celina Joos for helping with data collection.</p>
+            </ack>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <mixed-citation publication-type="other">Corcoran CM, Cecchi GA Computational approaches to behavior analysis in psychiatry. Neuropsychopharmacology. 2018. 10.1038/npp.2017.188.</mixed-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Elvevåg</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Foltz</surname>
+                      <given-names>PW</given-names>
+                    </name>
+                    <name>
+                      <surname>Weinberger</surname>
+                      <given-names>DR</given-names>
+                    </name>
+                    <name>
+                      <surname>Goldberg</surname>
+                      <given-names>TE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Quantifying incoherence in speech: an automated methodology and novel application to schizophrenia</article-title>
+                  <source>Schizophr Res</source>
+                  <year>2007</year>
+                  <volume>93</volume>
+                  <fpage>304</fpage>
+                  <lpage>16</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.schres.2007.03.001</pub-id>
+                  <pub-id pub-id-type="pmid">17433866</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>DeLisi</surname>
+                      <given-names>LE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Speech disorder in schizophrenia: Review of the literature and exploration of its relation to the uniquely human capacity for language</article-title>
+                  <source>Schizophrenia Bull</source>
+                  <year>2001</year>
+                  <volume>27</volume>
+                  <fpage>481</fpage>
+                  <lpage>96</lpage>
+                  <pub-id pub-id-type="doi">10.1093/oxfordjournals.schbul.a006889</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <mixed-citation publication-type="other">Bird S, Klein E, Loper E. Natural language processing with python: analyzing text with the natural language toolkit. 2009. 10.1097/00004770-200204000-00018.</mixed-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <mixed-citation publication-type="other">Neustein A. Advances in speech recognition: mobile environments, call centers and clinics. 2010. 10.1007/978-1-4419-5951-5.</mixed-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vaidyam</surname>
+                      <given-names>AN</given-names>
+                    </name>
+                    <name>
+                      <surname>Wisniewski</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Halamka</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                    <name>
+                      <surname>Kashavan</surname>
+                      <given-names>MS</given-names>
+                    </name>
+                    <name>
+                      <surname>Torous</surname>
+                      <given-names>JB</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Chatbots and conversational agents in mental health: a review of the psychiatric landscape</article-title>
+                  <source>Can J Psychiatry</source>
+                  <year>2019</year>
+                  <volume>64</volume>
+                  <fpage>456</fpage>
+                  <lpage>64</lpage>
+                  <?supplied-pmid 30897957?>
+                  <pub-id pub-id-type="pmid">30897957</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <mixed-citation publication-type="other">Mu R. A survey of recommender systems based on deep learning. In: IEEE Access. 2018. 10.1109/ACCESS.2018.2880197.</mixed-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <mixed-citation publication-type="other">Cohen AS, Elvevåg B. Automated computerized analysis of speech in psychiatric disorders. Curr Opin Psychiatry. 2014. 10.1097/YCO.0000000000000056.</mixed-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Poulin</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Shiner</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Thompson</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Vepstas</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Young-Xu</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Goertzel</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Predicting the risk of suicide by analyzing the text of clinical notes</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2014</year>
+                  <volume>9</volume>
+                  <fpage>e85733</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0085733</pub-id>
+                  <pub-id pub-id-type="pmid">24489669</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Eichstaedt</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>RJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Merchant</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                    <name>
+                      <surname>Ungar</surname>
+                      <given-names>LH</given-names>
+                    </name>
+                    <name>
+                      <surname>Crutchley</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Preoţiuc-Pietro</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Facebook language predicts depression in medical records</article-title>
+                  <source>Proc Natl Acad Sci USA</source>
+                  <year>2018</year>
+                  <volume>115</volume>
+                  <fpage>11203</fpage>
+                  <lpage>8</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.1802331115</pub-id>
+                  <pub-id pub-id-type="pmid">30322910</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <mixed-citation publication-type="other">Zirikly A, Resnik P, Uzuner Ö, Hollingshead K. CLPsych 2019 shared task: predicting the degree of suicide risk in reddit posts. In: Proceedings of the sixth workshop on computational linguistics and clinical psychology. Association for Computational Linguistics; 2019. <ext-link ext-link-type="uri" xlink:href="https://www.aclweb.org/anthology/W19-3003.bib">https://www.aclweb.org/anthology/W19-3003.bib</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <mixed-citation publication-type="other">Coppersmith G, Dredze M, Harman C. Quantifying mental health signals in twitter. 2015. 10.3115/v1/w14-3207.</mixed-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Carter</surname>
+                      <given-names>LP</given-names>
+                    </name>
+                    <name>
+                      <surname>Griffiths</surname>
+                      <given-names>RR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Principles of laboratory assessment of drug abuse liability and implications for clinical development</article-title>
+                  <source>Drug Alcohol Depend</source>
+                  <year>2009</year>
+                  <volume>105</volume>
+                  <fpage>S14</fpage>
+                  <lpage>25</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.drugalcdep.2009.04.003</pub-id>
+                  <pub-id pub-id-type="pmid">19443137</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>FISCHMAN</surname>
+                      <given-names>MW</given-names>
+                    </name>
+                    <name>
+                      <surname>FOLTIN</surname>
+                      <given-names>RW</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Utility of subjective‐effects measurements in assessing abuse liability of drugs in humans</article-title>
+                  <source>Br J Addict</source>
+                  <year>1991</year>
+                  <volume>86</volume>
+                  <fpage>1563</fpage>
+                  <lpage>70</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1360-0443.1991.tb01749.x</pub-id>
+                  <pub-id pub-id-type="pmid">1786488</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sumnall</surname>
+                      <given-names>HR</given-names>
+                    </name>
+                    <name>
+                      <surname>Cole</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                    <name>
+                      <surname>Jerome</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The varieties of ecstatic experience: an exploration of the subjective experiences of ecstasy</article-title>
+                  <source>J Psychopharmacol</source>
+                  <year>2006</year>
+                  <volume>20</volume>
+                  <fpage>670</fpage>
+                  <lpage>82</lpage>
+                  <pub-id pub-id-type="doi">10.1177/0269881106060764</pub-id>
+                  <pub-id pub-id-type="pmid">16401654</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bedi</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Cecchi</surname>
+                      <given-names>GA</given-names>
+                    </name>
+                    <name>
+                      <surname>Slezak</surname>
+                      <given-names>DF</given-names>
+                    </name>
+                    <name>
+                      <surname>Carrillo</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Sigman</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>De Wit</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A Window into the Intoxicated Mind? Speech as an Index of Psychoactive Drug Effects</article-title>
+                  <source>Neuropsychopharmacology</source>
+                  <year>2014</year>
+                  <volume>39</volume>
+                  <fpage>1</fpage>
+                  <lpage>9</lpage>
+                  <pub-id pub-id-type="doi">10.1038/npp.2014.80</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <mixed-citation publication-type="other">Deerwester S, Dumais ST, Furnas GW, Landauer TK, Harshman R. Indexing by latent semantic analysis. J Am Soc Inf Sci. 1990. 10.1002/(SICI)1097-4571(199009)41:63.0.CO;2-9.</mixed-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Baggott</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Kirkpatrick</surname>
+                      <given-names>MG</given-names>
+                    </name>
+                    <name>
+                      <surname>Bedi</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>De Wit</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Intimate insight: MDMA changes how people talk about significant others</article-title>
+                  <source>J Psychopharmacol</source>
+                  <year>2015</year>
+                  <volume>29</volume>
+                  <fpage>669</fpage>
+                  <lpage>77</lpage>
+                  <pub-id pub-id-type="doi">10.1177/0269881115581962</pub-id>
+                  <pub-id pub-id-type="pmid">25922420</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kirkpatrick</surname>
+                      <given-names>MG</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Wardle</surname>
+                      <given-names>MC</given-names>
+                    </name>
+                    <name>
+                      <surname>Jacob</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>de Wit</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effects of MDMA and Intranasal oxytocin on social and emotional processing</article-title>
+                  <source>Neuropsychopharmacology</source>
+                  <year>2014</year>
+                  <volume>39</volume>
+                  <fpage>1654</fpage>
+                  <lpage>63</lpage>
+                  <pub-id pub-id-type="doi">10.1038/npp.2014.12</pub-id>
+                  <pub-id pub-id-type="pmid">24448644</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <mixed-citation publication-type="other">Kosfeld M, Heinrichs M, Zak PJ, Fischbacher U, Fehr E. Oxytocin increases trust in humans. Nature. 2005. 10.1038/nature03701.</mixed-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cami</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Farré</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Mas</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Roset</surname>
+                      <given-names>PN</given-names>
+                    </name>
+                    <name>
+                      <surname>Poudevida</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Mas</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Human pharmacology of 3,4-methylenedioxymethamphetamine (‘ecstasy’): psychomotor performance and subjective effects</article-title>
+                  <source>J Clin Psychopharmacol</source>
+                  <year>2000</year>
+                  <volume>20</volume>
+                  <fpage>455</fpage>
+                  <lpage>66</lpage>
+                  <pub-id pub-id-type="doi">10.1097/00004714-200008000-00010</pub-id>
+                  <pub-id pub-id-type="pmid">10917407</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wardle</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Cederbaum</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>de Wit</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Quantifying talk: Developing reliable measures of verbal productivity</article-title>
+                  <source>Behav Res Methods</source>
+                  <year>2011</year>
+                  <volume>43</volume>
+                  <fpage>168</fpage>
+                  <lpage>78</lpage>
+                  <pub-id pub-id-type="doi">10.3758/s13428-010-0019-y</pub-id>
+                  <pub-id pub-id-type="pmid">21287128</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Boersma</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>van Heuven</surname>
+                      <given-names>V</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Speak and unSpeak with Praat</article-title>
+                  <source>Glot Int</source>
+                  <year>2001</year>
+                  <volume>5</volume>
+                  <fpage>341</fpage>
+                  <lpage>7</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <mixed-citation publication-type="other">Corretge R. Praat vocal toolkit: overview. 2012. <ext-link ext-link-type="uri" xlink:href="http://www.praatvocaltoolkit.com/2012/11/cut-pauses.html">http://www.praatvocaltoolkit.com/2012/11/cut-pauses.html</ext-link></mixed-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cowie</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Douglas-Cowie</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Tsapatsoulis</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Votsis</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Kollias</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Fellenz</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Emotion recognition in human-computer interaction</article-title>
+                  <source>Signal Process Mag IEEE</source>
+                  <year>2001</year>
+                  <volume>18</volume>
+                  <fpage>32</fpage>
+                  <lpage>80</lpage>
+                  <pub-id pub-id-type="doi">10.1109/79.911197</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                    <name>
+                      <surname>Narayanan</surname>
+                      <given-names>SS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Toward detecting emotions in spoken dialogs</article-title>
+                  <source>IEEE Trans Speech Audio Process</source>
+                  <year>2005</year>
+                  <volume>13</volume>
+                  <fpage>293</fpage>
+                  <lpage>303</lpage>
+                  <pub-id pub-id-type="doi">10.1109/TSA.2004.838534</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <mixed-citation publication-type="other">Yildirim S, Bulut M, Lee C. An acoustic study of emotions expressed in speech. In: Proceedings of the InterSpeech. 2004. p. 2193–6.</mixed-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hillenbrand</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Getty</surname>
+                      <given-names>LA</given-names>
+                    </name>
+                    <name>
+                      <surname>Clark</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Wheeler</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Acoust</surname>
+                      <given-names>PBJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Acoustic characteristics of American English vowels</article-title>
+                  <source>J Acoust Soc Am</source>
+                  <year>1995</year>
+                  <volume>97</volume>
+                  <fpage>3099</fpage>
+                  <lpage>111</lpage>
+                  <pub-id pub-id-type="doi">10.1121/1.411872</pub-id>
+                  <pub-id pub-id-type="pmid">7759650</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Skodda</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Grönheit</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Schlegel</surname>
+                      <given-names>U</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Impairment of vowel articulation as a possible marker of disease progression in parkinson’s disease</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2012</year>
+                  <volume>7</volume>
+                  <fpage>e32132</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0032132</pub-id>
+                  <pub-id pub-id-type="pmid">22389682</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <mixed-citation publication-type="other">Bird S, Klein E, Loper E. Natural language processing with python: analyzing text with the natural language toolkit. O’Reilly Media, Inc.; 2009.</mixed-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kamilar-Britt</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Bedi</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The prosocial effects of 3,4-methylenedioxymethamphetamine (MDMA): Controlled studies in humans and laboratory animals</article-title>
+                  <source>Neurosci Biobehav Rev</source>
+                  <year>2015</year>
+                  <volume>57</volume>
+                  <fpage>433</fpage>
+                  <lpage>46</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neubiorev.2015.08.016</pub-id>
+                  <pub-id pub-id-type="pmid">26408071</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Brown</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Snodgrass</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Kemper</surname>
+                      <given-names>SJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Herman</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Covington</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Automatic measurement of prepositional idea density from part-of-speech tagging</article-title>
+                  <source>Behav Res Methods</source>
+                  <year>2008</year>
+                  <volume>40</volume>
+                  <fpage>540</fpage>
+                  <lpage>5</lpage>
+                  <pub-id pub-id-type="doi">10.3758/BRM.40.2.540</pub-id>
+                  <pub-id pub-id-type="pmid">18522065</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <mixed-citation publication-type="other">Benjamini Y, Hochberg Y. Controlling the false discovery rate: a practical and powerful approach to multiple testing. J R Stat Soc Ser B. 1995. 10.1111/j.2517-6161.1995.tb02031.x.</mixed-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <mixed-citation publication-type="other">Ledoit O, Wolf M. A well-conditioned estimator for large-dimensional covariance matrices. J Multivar Anal. 2004. 10.1016/S0047-259X(03)00096-4.</mixed-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wardle</surname>
+                      <given-names>MC</given-names>
+                    </name>
+                    <name>
+                      <surname>De Wit</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>MDMA alters emotional processing and facilitates positive social interaction</article-title>
+                  <source>Psychopharmacology (Berlin)</source>
+                  <year>2014</year>
+                  <volume>231</volume>
+                  <fpage>4219</fpage>
+                  <lpage>29</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00213-014-3570-x</pub-id>
+                  <pub-id pub-id-type="pmid">24728603</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bedi</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Hyman</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>De Wit</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Is ecstasy an ‘empathogen’? Effects of ±3,4-methylenedioxymethamphetamine on prosocial feelings and identification of emotional states in others</article-title>
+                  <source>Biol Psychiatry</source>
+                  <year>2010</year>
+                  <volume>68</volume>
+                  <fpage>1134</fpage>
+                  <lpage>40</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.biopsych.2010.08.003</pub-id>
+                  <pub-id pub-id-type="pmid">20947066</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <mixed-citation publication-type="other">Golland P, Liang F, Mukherjee S, Panchenko D. Permutation tests for classification. In: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics). 2005. 10.1007/11503415_34.</mixed-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Noirhomme</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Lesenfants</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Gomez</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Soddu</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Schrouff</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Garraux</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Biased binomial assessment of cross-validated estimation of classification accuracies illustrated in diagnosis predictions</article-title>
+                  <source>NeuroImage Clin</source>
+                  <year>2014</year>
+                  <volume>4</volume>
+                  <fpage>687</fpage>
+                  <lpage>94</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.nicl.2014.04.004</pub-id>
+                  <pub-id pub-id-type="pmid">24936420</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Marrone</surname>
+                      <given-names>GF</given-names>
+                    </name>
+                    <name>
+                      <surname>Pardo</surname>
+                      <given-names>JS</given-names>
+                    </name>
+                    <name>
+                      <surname>Krauss</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                    <name>
+                      <surname>Hart</surname>
+                      <given-names>CL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Amphetamine analogs methamphetamine and 3,4-methylenedioxymethamphetamine (MDMA) differentially affect speech</article-title>
+                  <source>Psychopharmacol (Berl)</source>
+                  <year>2010</year>
+                  <volume>208</volume>
+                  <fpage>169</fpage>
+                  <lpage>77</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00213-009-1715-0</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Stitzer</surname>
+                      <given-names>ML</given-names>
+                    </name>
+                    <name>
+                      <surname>McCaul</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Bigleow</surname>
+                      <given-names>GE</given-names>
+                    </name>
+                    <name>
+                      <surname>Liebson</surname>
+                      <given-names>IA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Hydromorphone effects on human conversational speech</article-title>
+                  <source>Psychopharmacol (Berl)</source>
+                  <year>1984</year>
+                  <volume>84</volume>
+                  <fpage>402</fpage>
+                  <lpage>4</lpage>
+                  <pub-id pub-id-type="doi">10.1007/BF00555221</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <mixed-citation publication-type="other">Pfister T, Robinson P. Real-time recognition of affective states from nonverbal features of speech and its application for public speaking skill analysis. IEEE Trans Affect Comput. 2011. 10.1109/T-AFFC.2011.8.</mixed-citation>
+              </ref>
+              <ref id="CR42">
+                <label>42.</label>
+                <mixed-citation publication-type="other">Khulageand AA. Analysis of speech under stress using linear techniques and non-linear techniques for emotion recognition system. Comput Sci Inf Technol. (CS IT). 2012; 285–94. 10.5121/csit.2012.2328.</mixed-citation>
+              </ref>
+              <ref id="CR43">
+                <label>43.</label>
+                <mixed-citation publication-type="other">Goudbeek M, Goldman JP, Scherer KR. Emotion dimensions and formant position. In: Proceedings of the annual conference of the international speech communication association, INTERSPEECH 1575–8. 2009.</mixed-citation>
+              </ref>
+              <ref id="CR44">
+                <label>44.</label>
+                <mixed-citation publication-type="other">Kruskal, JB. Multidimensional scaling by optimizing goodness of fit to a nonmetric hypothesis. Psychometrika. 1964. 10.1007/BF02289565.</mixed-citation>
+              </ref>
+              <ref id="CR45">
+                <label>45.</label>
+                <mixed-citation publication-type="other">Kirkpatrick MG, Francis SM, Lee R, De Wit H, Jacob S. Plasma oxytocin concentrations following MDMA or intranasal oxytocin in humans. Psychoneuroendocrinology. 2014. 10.1016/j.psyneuen.2014.04.006.</mixed-citation>
+              </ref>
+              <ref id="CR46">
+                <label>46.</label>
+                <mixed-citation publication-type="other">Wardle MC, Kirkpatrick MG, de Wit H. ‘Ecstasy’ as a social drug: MDMA preferentially affects responses to emotional stimuli with social content. Soc Cogn Affect Neurosci. 2014. 10.1093/scan/nsu035.</mixed-citation>
+              </ref>
+              <ref id="CR47">
+                <label>47.</label>
+                <mixed-citation publication-type="other">Hartman RL, Brown TL, Milavetz G, Spurgin A, Pierce RS, Gorelick DA, et al. Cannabis effects on driving lateral control with and without alcohol. Drug Alcohol Depend. 2015. 10.1016/j.drugalcdep.2015.06.015.</mixed-citation>
+              </ref>
+              <ref id="CR48">
+                <label>48.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Watson</surname>
+                      <given-names>TM</given-names>
+                    </name>
+                    <name>
+                      <surname>Mann</surname>
+                      <given-names>RE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>International approaches to driving under the influence of cannabis: a review of evidence on impact</article-title>
+                  <source>Drug Alcohol Depend</source>
+                  <year>2016</year>
+                  <volume>169</volume>
+                  <fpage>148</fpage>
+                  <lpage>55</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.drugalcdep.2016.10.023</pub-id>
+                  <pub-id pub-id-type="pmid">27810658</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR49">
+                <label>49.</label>
+                <mixed-citation publication-type="other">Dhurandhar A, Luss R, Shanmugam K, Olsen P. Improving simple models with confidence profiles. In: Advances in neural information processing systems. Curran Associates; 2018.</mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

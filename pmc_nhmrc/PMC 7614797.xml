@@ -1,0 +1,1425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T09:05:32Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7614797" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7614797</identifier>
+        <datestamp>2023-08-30</datestamp>
+        <setSpec>blackwellopen</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3-mathml3.xsd" dtd-version="1.3" id="sim9818" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Stat Med</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Stat Med</journal-id>
+              <journal-id journal-id-type="doi">10.1002/(ISSN)1097-0258</journal-id>
+              <journal-id journal-id-type="publisher-id">SIM</journal-id>
+              <journal-title-group>
+                <journal-title>Statistics in Medicine</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">0277-6715</issn>
+              <issn pub-type="epub">1097-0258</issn>
+              <publisher>
+                <publisher-name>John Wiley &amp; Sons, Inc.</publisher-name>
+                <publisher-loc>Hoboken, USA</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7614797</article-id>
+              <article-id pub-id-type="pmcid">PMC7614797</article-id>
+              <article-id pub-id-type="pmc-uid">7614797</article-id>
+              <article-id pub-id-type="pmid">37365776</article-id>
+              <article-id pub-id-type="pmid">37365776</article-id>
+              <article-id pub-id-type="doi">10.1002/sim.9818</article-id>
+              <article-id pub-id-type="publisher-id">SIM9818</article-id>
+              <article-categories>
+                <subj-group subj-group-type="overline">
+                  <subject>Research Article</subject>
+                </subj-group>
+                <subj-group subj-group-type="heading">
+                  <subject>Research Articles</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Handling misclassified stratification variables in the analysis of randomised trials with continuous outcomes</article-title>
+                <alt-title alt-title-type="left-running-head">Yelland et al.</alt-title>
+              </title-group>
+              <contrib-group>
+                <contrib id="sim9818-cr-0001" contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Yelland</surname>
+                    <given-names>Lisa N.</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3803-8728</contrib-id>
+                  <xref rid="sim9818-aff-0001" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                  <xref rid="sim9818-aff-0002" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                  <address>
+                    <email>lisa.yelland@sahmri.com</email>
+                  </address>
+                </contrib>
+                <contrib id="sim9818-cr-0002" contrib-type="author">
+                  <name>
+                    <surname>Louise</surname>
+                    <given-names>Jennie</given-names>
+                  </name>
+                  <xref rid="sim9818-aff-0003" ref-type="aff">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib id="sim9818-cr-0003" contrib-type="author">
+                  <name>
+                    <surname>Kahan</surname>
+                    <given-names>Brennan C.</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-9957-0844</contrib-id>
+                  <xref rid="sim9818-aff-0004" ref-type="aff">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib id="sim9818-cr-0004" contrib-type="author">
+                  <name>
+                    <surname>Morris</surname>
+                    <given-names>Tim P.</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-5850-3610</contrib-id>
+                  <xref rid="sim9818-aff-0004" ref-type="aff">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib id="sim9818-cr-0005" contrib-type="author">
+                  <name>
+                    <surname>Lee</surname>
+                    <given-names>Katherine J.</given-names>
+                  </name>
+                  <xref rid="sim9818-aff-0005" ref-type="aff">
+                    <sup>5</sup>
+                  </xref>
+                  <xref rid="sim9818-aff-0006" ref-type="aff">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib id="sim9818-cr-0006" contrib-type="author">
+                  <name>
+                    <surname>Sullivan</surname>
+                    <given-names>Thomas R.</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6930-5406</contrib-id>
+                  <xref rid="sim9818-aff-0001" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                  <xref rid="sim9818-aff-0002" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+              </contrib-group>
+              <aff id="sim9818-aff-0001">
+                <label>
+                  <sup>1</sup>
+                </label>
+                <named-content content-type="organisation-division">Women and Kids Theme</named-content>
+                <institution>South Australian Health and Medical Research Institute</institution>
+                <city>Adelaide</city>
+                <named-content content-type="country-part">South Australia</named-content>
+                <country country="AU">Australia</country>
+              </aff>
+              <aff id="sim9818-aff-0002">
+                <label>
+                  <sup>2</sup>
+                </label>
+                <named-content content-type="organisation-division">School of Public Health</named-content>
+                <institution>The University of Adelaide</institution>
+                <city>Adelaide</city>
+                <named-content content-type="country-part">South Australia</named-content>
+                <country country="AU">Australia</country>
+              </aff>
+              <aff id="sim9818-aff-0003">
+                <label>
+                  <sup>3</sup>
+                </label>
+                <named-content content-type="organisation-division">Adelaide Medical School</named-content>
+                <institution>The University of Adelaide</institution>
+                <city>Adelaide</city>
+                <named-content content-type="country-part">South Australia</named-content>
+                <country country="AU">Australia</country>
+              </aff>
+              <aff id="sim9818-aff-0004">
+                <label>
+                  <sup>4</sup>
+                </label>
+                <institution>MRC Clinical Trials Unit at UCL</institution>
+                <city>London</city>
+                <country country="GB">UK</country>
+              </aff>
+              <aff id="sim9818-aff-0005">
+                <label>
+                  <sup>5</sup>
+                </label>
+                <named-content content-type="organisation-division">Clinical Epidemiology and Biostatistics Unit</named-content>
+                <institution>Murdoch Children's Research Institute</institution>
+                <city>Melbourne</city>
+                <named-content content-type="country-part">Victoria</named-content>
+                <country country="AU">Australia</country>
+              </aff>
+              <aff id="sim9818-aff-0006">
+                <label>
+                  <sup>6</sup>
+                </label>
+                <named-content content-type="organisation-division">Department of Paediatrics</named-content>
+                <institution>The University of Melbourne</institution>
+                <city>Melbourne</city>
+                <named-content content-type="country-part">Victoria</named-content>
+                <country country="AU">Australia</country>
+              </aff>
+              <author-notes>
+                <corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+Lisa N. Yelland, South Australian Health and Medical Research Institute, PO Box 11060, Adelaide 5001, SA, Australia.<break/>
+Email: <email>lisa.yelland@sahmri.com</email>
+<break/>
+</corresp>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>26</day>
+                <month>6</month>
+                <year>2023</year>
+              </pub-date>
+              <pub-date pub-type="ppub">
+                <day>30</day>
+                <month>8</month>
+                <year>2023</year>
+              </pub-date>
+              <volume>42</volume>
+              <issue seq="120">19</issue>
+              <issue-id pub-id-type="doi">10.1002/sim.v42.19</issue-id>
+              <fpage>3529</fpage>
+              <lpage>3546</lpage>
+              <history>
+                <date date-type="rev-recd">
+                  <day>11</day>
+                  <month>4</month>
+                  <year>2023</year>
+                </date>
+                <date date-type="received">
+                  <day>06</day>
+                  <month>9</month>
+                  <year>2022</year>
+                </date>
+                <date date-type="accepted">
+                  <day>27</day>
+                  <month>5</month>
+                  <year>2023</year>
+                </date>
+              </history>
+              <permissions>
+                <!--&#x000a9; 2023 John Wiley & Sons, Ltd.-->
+                <copyright-statement content-type="article-copyright">© 2023 The Authors. <italic toggle="yes">Statistics in Medicine</italic> published by John Wiley &amp; Sons Ltd.</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+              </permissions>
+              <self-uri content-type="pdf" xlink:href="file:SIM-42-3529.pdf"/>
+              <abstract>
+                <p>Many trials use stratified randomisation, where participants are randomised within strata defined by one or more baseline covariates. While it is important to adjust for stratification variables in the analysis, the appropriate method of adjustment is unclear when stratification variables are affected by misclassification and hence some participants are randomised in the incorrect stratum. We conducted a simulation study to compare methods of adjusting for stratification variables affected by misclassification in the analysis of continuous outcomes when all or only some stratification errors are discovered, and when the treatment effect or treatment‐by‐covariate interaction effect is of interest. The data were analysed using linear regression with no adjustment, adjustment for the strata used to perform the randomisation (randomisation strata), adjustment for the strata if all errors are corrected (true strata), and adjustment for the strata after some errors are discovered and corrected (updated strata). The unadjusted model performed poorly in all settings. Adjusting for the true strata was optimal, while the relative performance of adjusting for the randomisation strata or the updated strata varied depending on the setting. As the true strata are unlikely to be known with certainty in practice, we recommend using the updated strata for adjustment and performing subgroup analyses, provided the discovery of errors is unlikely to depend on treatment group, as expected in blinded trials. Greater transparency is needed in the reporting of stratification errors and how they were addressed in the analysis.</p>
+              </abstract>
+              <kwd-group kwd-group-type="author-generated">
+                <kwd id="sim9818-kwd-0001">covariate misclassification</kwd>
+                <kwd id="sim9818-kwd-0002">covariate‐adaptive randomisation</kwd>
+                <kwd id="sim9818-kwd-0003">randomisation error</kwd>
+                <kwd id="sim9818-kwd-0004">stratification error</kwd>
+                <kwd id="sim9818-kwd-0005">stratified randomisation</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group id="funding-0001">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>Medical Research Council
+</institution>
+                      <institution-id institution-id-type="doi">10.13039/501100007155</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>MC_UU_00004/07</award-id>
+                  <award-id>MC_UU_00004/09</award-id>
+                </award-group>
+                <award-group id="funding-0002">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>National Health and Medical Research Council
+</institution>
+                      <institution-id institution-id-type="doi">10.13039/501100000925</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>1127984</award-id>
+                  <award-id>1171422</award-id>
+                  <award-id>1173576</award-id>
+                </award-group>
+              </funding-group>
+              <counts>
+                <fig-count count="5"/>
+                <table-count count="5"/>
+                <page-count count="18"/>
+                <word-count count="9085"/>
+              </counts>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>source-schema-version-number</meta-name>
+                  <meta-value>2.0</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>cover-date</meta-name>
+                  <meta-value>30 August 2023</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>details-of-publishers-convertor</meta-name>
+                  <meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.3.9 mode:remove_FC converted:18.03.2024</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+            <notes>
+              <p content-type="self-citation">
+                <mixed-citation publication-type="journal" id="sim9818-cit-1001"><string-name><surname>Yelland</surname><given-names>LN</given-names></string-name>, <string-name><surname>Louise</surname><given-names>J</given-names></string-name>, <string-name><surname>Kahan</surname><given-names>BC</given-names></string-name>, <string-name><surname>Morris</surname><given-names>TP</given-names></string-name>, <string-name><surname>Lee</surname><given-names>KJ</given-names></string-name>, <string-name><surname>Sullivan</surname><given-names>TR</given-names></string-name>. <article-title>Handling misclassified stratification variables in the analysis of randomised trials with continuous outcomes</article-title>. <source>Statistics in Medicine</source>. <year>2023</year>;<volume>42</volume>(<issue>19</issue>):<fpage>3529</fpage>–<lpage>3546</lpage>. doi: <pub-id pub-id-type="doi">10.1002/sim.9818</pub-id>
+<pub-id pub-id-type="pmid">37365776</pub-id>
+</mixed-citation>
+              </p>
+            </notes>
+          </front>
+          <body id="sim9818-body-0001">
+            <sec id="sim9818-sec-0001">
+              <label>1</label>
+              <title>INTRODUCTION</title>
+              <p>Stratified randomisation is a popular approach for randomly assigning participants to treatment groups in clinical trials.<xref rid="sim9818-bib-0001" ref-type="bibr"><sup>1</sup></xref>, <xref rid="sim9818-bib-0002" ref-type="bibr"><sup>2</sup></xref>, <xref rid="sim9818-bib-0003" ref-type="bibr"><sup>3</sup></xref> It is a member of a broader class of covariate‐adaptive randomisation procedures<xref rid="sim9818-bib-0002" ref-type="bibr"><sup>2</sup></xref> that take baseline covariates into account when allocating participants to treatment groups, thus preventing imbalance between the randomised groups on the chosen covariates at the trial design stage.<xref rid="sim9818-bib-0004" ref-type="bibr"><sup>4</sup></xref> To implement stratified randomisation, participants are divided into subgroups or strata defined by one or more baseline covariates. Permuted block randomisation is then performed within each stratum, resulting in treatment groups that are closely balanced with respect to the stratification variables. Stratified randomisation has many advantages compared to simple randomisation, particularly in small trials, including improved precision of the treatment effect estimate, and enhanced credibility of the trial.<xref rid="sim9818-bib-0004" ref-type="bibr"><sup>4</sup></xref>, <xref rid="sim9818-bib-0005" ref-type="bibr"><sup>5</sup></xref>
+</p>
+              <p>It is widely recognised that analytic methods should reflect the trial design and hence adjustment should be made for the stratification variables in the analysis of trials that use stratified randomisation.<xref rid="sim9818-bib-0005" ref-type="bibr"><sup>5</sup></xref>, <xref rid="sim9818-bib-0006" ref-type="bibr"><sup>6</sup></xref>, <xref rid="sim9818-bib-0007" ref-type="bibr"><sup>7</sup></xref>, <xref rid="sim9818-bib-0008" ref-type="bibr"><sup>8</sup></xref>, <xref rid="sim9818-bib-0009" ref-type="bibr"><sup>9</sup></xref> Kahan and Morris<xref rid="sim9818-bib-0010" ref-type="bibr"><sup>10</sup></xref> provided an intuitive rationale for performing this adjustment by showing that stratification induces correlation between the sample means of a continuous outcome in the intervention and control groups. Failing to account for this correlation by performing an unadjusted analysis leads to a range of problems when estimating treatment effects, including SEs that are too large, confidence intervals that are too wide, type I error rates that are too low and reduced power. In contrast, an adjusted analysis that includes the stratification variables as covariates in a regression model provides valid inference for treatment effects.<xref rid="sim9818-bib-0010" ref-type="bibr"><sup>10</sup></xref>, <xref rid="sim9818-bib-0011" ref-type="bibr"><sup>11</sup></xref>
+</p>
+              <p>When a stratification variable is affected by measurement error, some participants may be misclassified and hence randomised in the incorrect stratum. Such errors, referred to hereafter as <italic toggle="yes">stratification errors</italic>, can occur for many reasons. For instance, participants may incorrectly report the value of their stratification variable, or researchers may incorrectly enter the value into a web‐based randomisation service.<xref rid="sim9818-bib-0012" ref-type="bibr"><sup>12</sup></xref> While stratification errors are rarely reported in trial publications,<xref rid="sim9818-bib-0003" ref-type="bibr"><sup>3</sup></xref> error rates as high as 17% have been documented.<xref rid="sim9818-bib-0013" ref-type="bibr"><sup>13</sup></xref> These errors raise the question of whether the analysis should be adjusted for the strata used to perform the randomisation (the <italic toggle="yes">randomisation strata</italic>), which may be incorrect for some participants but ensures the analysis reflects the trial design, or the strata defined by the true covariate values (the <italic toggle="yes">true strata</italic>), which are expected to have a stronger relationship with the outcome. Adjusting for the true strata is only possible if all stratification errors are identified and corrected prior to analysis, though one can rarely be certain this is the case. In practice, some stratification errors may go unrecognised and hence a choice must be made between adjusting for the randomisation strata or the strata that have been updated to correct errors discovered prior to analysis (the <italic toggle="yes">updated strata</italic>).</p>
+              <p>Several previous studies have explored the impact of stratification errors on treatment effect estimation using regression models. Ke et al.<xref rid="sim9818-bib-0013" ref-type="bibr"><sup>13</sup></xref> studied continuous and time‐to‐event outcomes. Their simulation study identified no bias or power reduction when adjusting for the true strata but found that error variances were overestimated, power was reduced, and treatment‐by‐covariate interaction effect estimates were biased when adjusting for the randomisation strata. They suggested adjusting for the randomisation strata in the analysis, adjusting for the true strata in a sensitivity analysis when the error rate is large, and using the true strata to perform subgroup analyses by the stratification variable. Fan et al.<xref rid="sim9818-bib-0014" ref-type="bibr"><sup>14</sup></xref> studied binary and count outcomes. Their simulation study also showed that adjusting for the true strata was optimal, while adjusting for the randomisation strata resulted in biased conditional treatment effect estimates (for binary outcomes only) and reduced power. They recommended adjusting for the true strata in the analysis. Most recently, Wang et al.<xref rid="sim9818-bib-0015" ref-type="bibr"><sup>15</sup></xref> showed theoretically that adjusting for the randomisation strata achieves the nominal type I error rate for continuous outcomes. They did not consider adjusting for the true strata or provide any recommendations to guide practice. Importantly, none of these previous studies considered the performance of different adjustment approaches in the realistic setting where stratification errors occur but only some errors are discovered. This limitation, together with the lack of clear and consistent recommendations for practice, may leave applied researchers unsure how best to analyse data from clinical trials affected by stratification errors.</p>
+              <p>The aims of the current article are: (1) to explore the impact of stratification errors on the correlation between sample means induced by stratification; and (2) to compare methods of adjusting for stratification variables affected by misclassification in the analysis of continuous outcomes, when all or only some stratification errors are discovered, and when the treatment effect or treatment‐by‐covariate interaction effect is of interest. In Sections <xref rid="sim9818-sec-0002" ref-type="sec">2</xref> and <xref rid="sim9818-sec-0008" ref-type="sec">3</xref>, we describe the simulation methods and results that address our aims. In Section <xref rid="sim9818-sec-0014" ref-type="sec">4</xref>, we present an example trial where around 4% of participants were randomised in the incorrect stratum to illustrate the impact of choosing different analysis methods on trial results in practice. We discuss our key findings in Section <xref rid="sim9818-sec-0015" ref-type="sec">5</xref> and provide practical recommendations for researchers involved in the design and analysis of clinical trials that utilise stratified randomisation in Section <xref rid="sim9818-sec-0016" ref-type="sec">6</xref>.</p>
+            </sec>
+            <sec id="sim9818-sec-0002">
+              <label>2</label>
+              <title>SIMULATION METHODS</title>
+              <p>A simulation study was conducted to investigate the impact of stratification errors on the analysis of trials that use stratified randomisation. Continuous outcomes for the <mml:math id="jats-math-1" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:mrow></mml:math>th patient were randomly generated from the model
+<disp-formula id="sim9818-disp-0001"><label>(1)</label><mml:math id="jats-math-2" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>Y</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo linebreak="goodbreak">=</mml:mo><mml:mi>α</mml:mi><mml:mo linebreak="goodbreak">+</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mi>T</mml:mi></mml:msub><mml:msub><mml:mi>T</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo linebreak="goodbreak">+</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mi>X</mml:mi></mml:msub><mml:msub><mml:mi>X</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo linebreak="goodbreak">+</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mi mathvariant="italic">TX</mml:mi></mml:msub><mml:msub><mml:mi>T</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:msub><mml:mi>X</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo linebreak="goodbreak">+</mml:mo><mml:msub><mml:mi>e</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>,</mml:mo></mml:mrow></mml:mrow></mml:math></disp-formula>
+where <mml:math id="jats-math-3" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>T</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math> is a binary indicator for the randomised treatment group (<mml:math id="jats-math-4" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>T</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mrow></mml:math> for patients assigned to the control arm and <mml:math id="jats-math-5" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>T</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow></mml:math> for patients assigned to the intervention arm), <mml:math id="jats-math-6" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>X</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math> is a binary baseline covariate with prevalence 0.5 that was randomly generated from a Bernoulli (0.5) distribution, and <mml:math id="jats-math-7" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>e</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>˜</mml:mo><mml:mi>N</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:math> is a residual error term. The sample size was fixed at 1000 based on power considerations (see below) and treatment group was assigned using randomly permuted blocks of size 4 (1:1 randomisation) within strata defined by <mml:math id="jats-math-8" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>Z</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math>, which differs from <mml:math id="jats-math-9" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>X</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math> if the <italic toggle="yes">i</italic>th patient is affected by a stratification error and matches <mml:math id="jats-math-10" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>X</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math> otherwise (ie, <mml:math id="jats-math-11" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>Z</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math> is the randomisation stratum for the <italic toggle="yes">i</italic>th patient and <mml:math id="jats-math-12" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>X</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math> is the true stratum). If a stratification error is discovered for the <italic toggle="yes">i</italic>th patient, the updated stratum is recorded in <mml:math id="jats-math-13" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>W</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math>, which differs from <mml:math id="jats-math-14" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>X</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math> if a stratification error occurs but remains undiscovered and matches <mml:math id="jats-math-15" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>X</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math> otherwise.</p>
+              <p>For each scenario, 10 000 simulated datasets were generated and analysed using Stata 16.1 (StataCorp, College Station, Texas, USA). Simulation results were summarised using the simsum command<xref rid="sim9818-bib-0016" ref-type="bibr"><sup>16</sup></xref> and simulation code is provided in a Supplementary File <xref rid="sim9818-supitem-0001" ref-type="supplementary-material">S1</xref>. Further details for each specific simulation setting are provided below using the ADEMP framework for describing the Aims, Data‐generating mechanisms, Estimands, Methods, and Performance measures for simulation studies.<xref rid="sim9818-bib-0017" ref-type="bibr"><sup>17</sup></xref> Simulation parameters (summarised in Table <xref rid="sim9818-tbl-0001" ref-type="table">1</xref>) were primarily chosen with the aim of identifying problems that may occur with particular adjustment approaches and hence may be more extreme than values typically encountered in real trials.</p>
+              <table-wrap position="float" id="sim9818-tbl-0001" content-type="TABLE">
+                <label>TABLE 1</label>
+                <caption>
+                  <p>Summary of simulation parameters included in each simulation setting.</p>
+                </caption>
+                <table frame="hsides" rules="groups">
+                  <col align="left" span="1"/>
+                  <col align="left" span="1"/>
+                  <col align="left" span="1"/>
+                  <col align="left" span="1"/>
+                  <col align="left" span="1"/>
+                  <col align="left" span="1"/>
+                  <col align="left" span="1"/>
+                  <col align="left" span="1"/>
+                  <col align="left" span="1"/>
+                  <col align="left" span="1"/>
+                  <col align="left" span="1"/>
+                  <col align="left" span="1"/>
+                  <thead valign="bottom">
+                    <tr style="border-bottom:solid 1px #000000">
+                      <th align="left" valign="bottom" rowspan="1" colspan="1">Simulation setting</th>
+                      <th align="left" valign="bottom" rowspan="1" colspan="1">Total sample size</th>
+                      <th align="left" valign="bottom" rowspan="1" colspan="1">Covariate prevalence</th>
+                      <th align="left" valign="bottom" rowspan="1" colspan="1">α</th>
+                      <th align="left" valign="bottom" rowspan="1" colspan="1">
+                        <mml:math id="jats-math-16" display="inline" overflow="scroll">
+                          <mml:mrow>
+                            <mml:mrow>
+                              <mml:msub>
+                                <mml:mi>β</mml:mi>
+                                <mml:mi>T</mml:mi>
+                              </mml:msub>
+                            </mml:mrow>
+                          </mml:mrow>
+                        </mml:math>
+                      </th>
+                      <th align="left" valign="bottom" rowspan="1" colspan="1">
+                        <mml:math id="jats-math-17" display="inline" overflow="scroll">
+                          <mml:mrow>
+                            <mml:mrow>
+                              <mml:msub>
+                                <mml:mi>β</mml:mi>
+                                <mml:mi>X</mml:mi>
+                              </mml:msub>
+                            </mml:mrow>
+                          </mml:mrow>
+                        </mml:math>
+                      </th>
+                      <th align="left" valign="bottom" rowspan="1" colspan="1">
+                        <mml:math id="jats-math-18" display="inline" overflow="scroll">
+                          <mml:mrow>
+                            <mml:mrow>
+                              <mml:msub>
+                                <mml:mi>β</mml:mi>
+                                <mml:mi mathvariant="italic">TX</mml:mi>
+                              </mml:msub>
+                            </mml:mrow>
+                          </mml:mrow>
+                        </mml:math>
+                      </th>
+                      <th align="left" valign="bottom" rowspan="1" colspan="1">Stratification error rate</th>
+                      <th align="left" valign="bottom" rowspan="1" colspan="1">Errors across strata</th>
+                      <th align="left" valign="bottom" rowspan="1" colspan="1">Error discovery rate</th>
+                      <th align="left" valign="bottom" rowspan="1" colspan="1">Error discovery across treatment groups</th>
+                      <th align="left" valign="bottom" rowspan="1" colspan="1">Number of scenarios</th>
+                    </tr>
+                  </thead>
+                  <tbody valign="top">
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Effect of stratification errors on correlation between treatment groups (Section <xref rid="sim9818-sec-0003" ref-type="sec">2.1</xref>)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1000</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0.5</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1, 3</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0%, 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Equal</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">100%</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">N/A</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">18</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Estimating treatment effects when all stratification errors are discovered (Section <xref rid="sim9818-sec-0004" ref-type="sec">2.2</xref>)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1000</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0.5</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0, 0.2</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1, 3</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1%, 20%</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Equal, Unequal (three times higher in one stratum)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">100%</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">N/A</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">16</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Reference case: Estimating treatment effects when there are no stratification errors (Section <xref rid="sim9818-sec-0004" ref-type="sec">2.2</xref>)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1000</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0.5</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0, 0.2</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1, 3</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0%</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">N/A</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">N/A</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">N/A</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">4</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Estimating treatment effects when only some stratification errors are discovered (Section <xref rid="sim9818-sec-0005" ref-type="sec">2.3</xref>)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1000</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0.5</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0, 0.2</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1, 3</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1%, 20%</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Equal, Unequal (three times higher in one stratum)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">50%</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Equal, Unequal (three times higher in one group)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">32</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Estimating treatment by covariate interaction effects when all stratification errors are discovered (Section <xref rid="sim9818-sec-0006" ref-type="sec">2.4</xref>)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1000</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0.5</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0, 0.1, 0.2</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0.4 (when <mml:math id="jats-math-19" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>T</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math>=0), 0.2 (when <mml:math id="jats-math-20" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>T</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math>=0.1), 0 (when <mml:math id="jats-math-21" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>T</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math>=0.2)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1%, 20%</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Equal, Unequal (three times higher in one stratum)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">100%</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">N/A</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">12</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Estimating treatment by covariate interaction effects when only some stratification errors are discovered (Section <xref rid="sim9818-sec-0006" ref-type="sec">2.4</xref>)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1000</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0.5</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0, 0.1, 0.2</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0.4 (when <mml:math id="jats-math-22" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>T</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math>=0), 0.2 (when <mml:math id="jats-math-23" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>T</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math>=0.1), 0 (when <mml:math id="jats-math-24" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>T</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math>=0.2)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1%, 20%</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Equal, Unequal (three times higher in one stratum)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">50%</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Equal, Unequal (three times higher in one group)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">24</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Sensitivity simulations: Estimating treatment effects when only some stratification errors are discovered (Section <xref rid="sim9818-sec-0007" ref-type="sec">2.5</xref>)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">200, 1000</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0.5 (when <italic toggle="yes">n</italic> = 200), 0.75 (when <italic toggle="yes">n</italic> = 1000)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">3</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">20%</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Equal, Unequal (three times higher in one stratum<xref rid="sim9818-note-0001" ref-type="table-fn"><sup>a</sup></xref>)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">50%</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Equal, Unequal (three times higher in one group)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">8</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Sensitivity simulations: Estimating treatment by covariate interaction effects when only some stratification errors are discovered (Section <xref rid="sim9818-sec-0007" ref-type="sec">2.5</xref>)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">200, 1000</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0.5 (when <italic toggle="yes">n</italic> = 200), 0.75 (when <italic toggle="yes">n</italic> = 1000)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0.4</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">20%</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Equal, Unequal (three times higher in one stratum<xref rid="sim9818-note-0001" ref-type="table-fn"><sup>a</sup></xref>)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">50%</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Equal, Unequal (three times higher in one group)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">8</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table-wrap-foot id="sim9818-ntgp-0001">
+                  <fn id="sim9818-note-0001">
+                    <label>
+                      <sup>a</sup>
+                    </label>
+                    <p>When the covariate prevalence was 0.75, the error rate was three times higher in the more common stratum.</p>
+                  </fn>
+                </table-wrap-foot>
+              </table-wrap>
+              <sec id="sim9818-sec-0003">
+                <label>2.1</label>
+                <title>Effect of stratification errors on the correlation between treatment groups</title>
+                <p>The previous finding that stratification induces correlation between the sample mean outcomes in the treatment groups<xref rid="sim9818-bib-0010" ref-type="bibr"><sup>10</sup></xref> provides an intuitive explanation for why an unadjusted analysis that ignores this correlation performs poorly in the absence of stratification errors. It is, therefore, of interest to understand how stratification errors influence the correlation induced by stratification when interpreting the performance of an unadjusted analysis in the presence of stratification errors. To explore this issue, outcomes were generated from model (1) with <mml:math id="jats-math-25" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>α</mml:mi><mml:mo>=</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mi>T</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mi mathvariant="italic">TX</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mrow></mml:math> (note that the correlation between treatment groups is independent of the treatment effect for a linear regression model<xref rid="sim9818-bib-0010" ref-type="bibr"><sup>10</sup></xref>) and <mml:math id="jats-math-26" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>X</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow></mml:math> or <mml:math id="jats-math-27" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:mrow></mml:math> (ie, the mean outcome differs by 1 or 3 SDs between the two strata). The former value for <mml:math id="jats-math-28" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>X</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math> was chosen as a large but realistic covariate effect (eg, many studies have reported mean differences of 1 SD or more in health outcomes of children born preterm vs those born at term<xref rid="sim9818-bib-0018" ref-type="bibr"><sup>18</sup></xref>, <xref rid="sim9818-bib-0019" ref-type="bibr"><sup>19</sup></xref>, <xref rid="sim9818-bib-0020" ref-type="bibr"><sup>20</sup></xref>, <xref rid="sim9818-bib-0021" ref-type="bibr"><sup>21</sup></xref>), while the latter value was chosen as an extreme covariate effect to produce a moderate correlation between the treatment group means in the absence of stratification errors<xref rid="sim9818-bib-0010" ref-type="bibr"><sup>10</sup></xref> and thus highlight the effect of stratification errors on this correlation. Stratification errors were introduced at random with probability ranging from 0 to 0.4 in increments of 0.05. The estimand of interest was the correlation between the mean outcome in each treatment group. To estimate this quantity, the sample mean was calculated by randomised treatment group within each simulated dataset and the correlation between the sample means was then calculated across repetitions for each scenario (2 covariate effects × 9 stratification error probabilities = 18 scenarios). The Monte Carlo SE for the Fisher <italic toggle="yes">z</italic>‐transformation of the correlation was calculated as <mml:math id="jats-math-29" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msqrt><mml:mrow><mml:mn>1</mml:mn><mml:mo stretchy="false">/</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:mtext>number of repetitions</mml:mtext><mml:mo>−</mml:mo><mml:mn>3</mml:mn></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:msqrt><mml:mo>≈</mml:mo><mml:mn>0.01</mml:mn></mml:mrow></mml:mrow></mml:math>.</p>
+              </sec>
+              <sec id="sim9818-sec-0004">
+                <label>2.2</label>
+                <title>Estimating treatment effects when all stratification errors are discovered</title>
+                <p>To compare the performance of different methods of adjusting for stratification variables when all stratification errors are discovered, outcomes were generated from model (1) with <mml:math id="jats-math-30" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>α</mml:mi><mml:mo>=</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mi mathvariant="italic">TX</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mrow></mml:math>, <mml:math id="jats-math-31" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>T</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mrow></mml:math> or <mml:math id="jats-math-32" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mn>0.2</mml:mn></mml:mrow></mml:mrow></mml:math>, and <mml:math id="jats-math-33" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>X</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow></mml:math> or <mml:math id="jats-math-34" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:mrow></mml:math>. The former value for <mml:math id="jats-math-35" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>T</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math> was chosen to allow examination of the type I error rate, while the latter value was chosen to provide &gt;80% power to detect a difference in means between the treatment groups for the fixed sample size of 1000 (power = 88% based on a two‐sample <italic toggle="yes">t</italic>‐test with <italic toggle="yes">α</italic> = 0.05). The covariate effects <mml:math id="jats-math-36" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>X</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math> were chosen to be relatively large, since stratification should ideally be based on the most prognostic covariates. In addition, there is little difference between an unadjusted analysis and an analysis adjusting for the stratification variable when the covariate effect is small<xref rid="sim9818-bib-0010" ref-type="bibr"><sup>10</sup></xref> and hence any differences in adjustment approaches would likely be difficult to see with smaller values of <mml:math id="jats-math-37" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>X</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math>. Four stratification error patterns were considered: stratification errors occurring at random with probability 0.01 or 0.2 across both strata; and stratification errors occurring at random with probability 0.01 or 0.2 overall, such that errors were three times more likely in one stratum than the other (ie, the probability of a stratification error was 0.005 or 0.1 in stratum <mml:math id="jats-math-38" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>X</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mrow></mml:math> and 0.015 or 0.3 in stratum <mml:math id="jats-math-39" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>X</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow></mml:math>). While a stratification error rate around 1% in all strata seems realistic for most trials, error rates approaching 20%<xref rid="sim9818-bib-0013" ref-type="bibr"><sup>13</sup></xref> or that vary across strata<xref rid="sim9818-bib-0014" ref-type="bibr"><sup>14</sup></xref> have been documented and should highlight any differences that may exist between adjustment methods for informing general recommendations. As stratification errors occur prior to treatment group allocation, errors were generated independent of treatment group for each of the 16 scenarios considered (2 treatment effects × 2 covariate effects × 4 stratification error patterns). For reference, simulations were repeated with no stratification errors (2 treatment effects × 2 covariate effects = 4 scenarios).</p>
+                <p>Using <mml:math id="jats-math-40" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>Y</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:math> to denote the potential outcome when a participant is assigned treatment <mml:math id="jats-math-41" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:mrow></mml:math>, the estimand of interest for this simulation study was <mml:math id="jats-math-42" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>E</mml:mi><mml:mrow><mml:mo stretchy="false">[</mml:mo><mml:mrow><mml:mi>Y</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>−</mml:mo><mml:mi>Y</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>0</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow><mml:mo stretchy="false">]</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:math>, the expected difference in potential outcomes between the intervention and control arms, with true value <mml:math id="jats-math-43" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>T</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math> as used in the data generation process. The data were analysed using a linear regression model with a main effect for the randomised treatment group and either:
+<list list-type="order" id="sim9818-list-0001"><list-item id="sim9818-li-0001"><p>no additional covariates (unadjusted analysis),</p></list-item><list-item id="sim9818-li-0002"><p>a main effect for <mml:math id="jats-math-44" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>Z</mml:mi></mml:mrow></mml:mrow></mml:math> (adjusted for the randomisation strata), or</p></list-item><list-item id="sim9818-li-0003"><p>a main effect for <mml:math id="jats-math-45" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>X</mml:mi></mml:mrow></mml:mrow></mml:math> (adjusted for the true strata, which equals the updated strata <mml:math id="jats-math-46" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>W</mml:mi></mml:mrow></mml:mrow></mml:math> in this setting where all stratification errors are discovered).</p></list-item></list>
+</p>
+                <p>While adjusting for both <mml:math id="jats-math-47" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>Z</mml:mi></mml:mrow></mml:mrow></mml:math> and <mml:math id="jats-math-48" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>X</mml:mi></mml:mrow></mml:mrow></mml:math> within the same model is another possible analysis approach, this was not considered due to the high correlation between <mml:math id="jats-math-49" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>Z</mml:mi></mml:mrow></mml:mrow></mml:math> and <mml:math id="jats-math-50" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>X</mml:mi></mml:mrow></mml:mrow></mml:math>, particularly in the low error setting.</p>
+                <p>Letting <mml:math id="jats-math-51" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>β</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover><mml:mi mathvariant="italic">Tj</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math> represent the treatment effect estimate for the <italic toggle="yes">j</italic>th simulated dataset (<mml:math id="jats-math-52" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:mrow></mml:math> = 1 … 10 000), results from each scenario were summarised across repetitions according to the following performance measures:<list list-type="alpha-lower" id="sim9818-list-0002"><list-item id="sim9818-li-0004"><p>bias in the parameter estimate <mml:math id="jats-math-53" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mfenced open="(" close=")" separators=""><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>β</mml:mi><mml:mo stretchy="true">‾</mml:mo></mml:mover><mml:mi>T</mml:mi></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mi>T</mml:mi></mml:msub></mml:mrow><mml:mo>,</mml:mo><mml:mrow><mml:mtext>where</mml:mtext><mml:mspace width="0.25em"/><mml:msub><mml:mover accent="true"><mml:mi>β</mml:mi><mml:mo stretchy="true">‾</mml:mo></mml:mover><mml:mi>T</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mn>10000</mml:mn></mml:mfrac><mml:msubsup><mml:mo>∑</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mn>10000</mml:mn></mml:msubsup><mml:msub><mml:mover accent="true"><mml:mi>β</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover><mml:mi mathvariant="italic">Tj</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:math>,</p></list-item><list-item id="sim9818-li-0005"><p>empirical standard error <mml:math id="jats-math-54" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mfenced open="(" close=")" separators=""><mml:mrow><mml:mtext mathvariant="italic">EmpSE</mml:mtext><mml:mo>=</mml:mo><mml:msqrt><mml:mrow><mml:mfrac><mml:mn>1</mml:mn><mml:mn>9999</mml:mn></mml:mfrac><mml:msubsup><mml:mo>∑</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mn>10000</mml:mn></mml:msubsup><mml:msup><mml:mfenced open="(" close=")" separators=""><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>β</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover><mml:mi mathvariant="italic">Tj</mml:mi></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mover accent="true"><mml:mi>β</mml:mi><mml:mo stretchy="true">‾</mml:mo></mml:mover><mml:mi>T</mml:mi></mml:msub></mml:mrow></mml:mfenced><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:msqrt></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:math>,</p></list-item><list-item id="sim9818-li-0006"><p>model‐based standard error <mml:math id="jats-math-55" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mfenced open="(" close=")" separators=""><mml:mrow><mml:mtext mathvariant="italic">ModSE</mml:mtext><mml:mo>=</mml:mo><mml:msqrt><mml:mrow><mml:mfrac><mml:mn>1</mml:mn><mml:mn>10000</mml:mn></mml:mfrac><mml:msubsup><mml:mo>∑</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mn>10000</mml:mn></mml:msubsup><mml:mover accent="true"><mml:mi mathvariant="italic">Var</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover><mml:mfenced open="(" close=")" separators=""><mml:msub><mml:mover accent="true"><mml:mi>β</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover><mml:mi mathvariant="italic">Tj</mml:mi></mml:msub></mml:mfenced></mml:mrow></mml:msqrt></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:math>,</p></list-item><list-item id="sim9818-li-0007"><p>relative percent error in the model‐based standard error <mml:math id="jats-math-56" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mfenced open="(" close=")" separators=""><mml:mrow><mml:mn>100</mml:mn><mml:mfenced open="(" close=")" separators=""><mml:mrow><mml:mfrac><mml:mtext mathvariant="italic">ModSE</mml:mtext><mml:mtext mathvariant="italic">EmpSE</mml:mtext></mml:mfrac><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:math>,</p></list-item><list-item id="sim9818-li-0008"><p>coverage (the percentage of 95% confidence intervals for <mml:math id="jats-math-57" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>T</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math> that contain the true value <mml:math id="jats-math-58" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>T</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math>), and</p></list-item><list-item id="sim9818-li-0009"><p>type I error/power (the percentage of tests of <mml:math id="jats-math-59" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>T</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mrow></mml:math> that are rejected at the 5% level).</p></list-item></list>
+</p>
+                <p>Monte Carlo standard errors were calculated for each performance measure based on equations presented elsewhere.<xref rid="sim9818-bib-0016" ref-type="bibr"><sup>16</sup></xref>
+</p>
+              </sec>
+              <sec id="sim9818-sec-0005">
+                <label>2.3</label>
+                <title>Estimating treatment effects when only some stratification errors are discovered</title>
+                <p>To compare the performance of different methods of adjusting for stratification variables when only some stratification errors are discovered, the simulation study described in Section <xref rid="sim9818-sec-0004" ref-type="sec">2.2</xref> was repeated under 2 error discovery patterns. First, stratification errors were discovered at random with probability 0.5, independent of treatment group, as would be expected in blinded trials. Second, the overall probability of discovering an error was kept at 0.5 but errors were three times more likely to be discovered in the intervention arm (ie, the probability of discovering an error was 0.25 in the control arm and 0.75 in the intervention arm). This scenario is plausible in unblinded trials, for example in trials that compare intensive interventions to usual care and thus involve substantially more contact with intervention participants. A total of 32 additional simulation scenarios were therefore considered (2 treatment effects × 2 covariate effects × 4 stratification error patterns × 2 stratification error discovery patterns). A linear regression model with main effects for the randomised treatment group and <mml:math id="jats-math-60" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>W</mml:mi></mml:mrow></mml:mrow></mml:math> (adjusted for the updated strata) was included as an additional method of analysis. Although the true strata are unknown here and hence adjusting for <mml:math id="jats-math-61" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>X</mml:mi></mml:mrow></mml:mrow></mml:math> is not possible in practice, this adjustment method was still included in the simulation study for reference.</p>
+              </sec>
+              <sec id="sim9818-sec-0006">
+                <label>2.4</label>
+                <title>Estimating treatment by covariate interaction effects</title>
+                <p>To explore the impact of stratification errors on treatment‐by‐covariate interaction tests, outcomes were generated from model (1) with <mml:math id="jats-math-62" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>α</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mrow></mml:math>, <mml:math id="jats-math-63" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>X</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow></mml:math> and <mml:math id="jats-math-64" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mfenced open="(" close=")" separators=""><mml:msub><mml:mi>β</mml:mi><mml:mi>T</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mi mathvariant="italic">TX</mml:mi></mml:msub></mml:mfenced><mml:mo>=</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0</mml:mn></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:math>, <mml:math id="jats-math-65" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:mn>0.1</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:math> or <mml:math id="jats-math-66" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mn>0.4</mml:mn></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:math>. The chosen combinations for <mml:math id="jats-math-67" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mfenced open="(" close=")" separators=""><mml:msub><mml:mi>β</mml:mi><mml:mi>T</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mi mathvariant="italic">TX</mml:mi></mml:msub></mml:mfenced></mml:mrow></mml:mrow></mml:math> produce treatment effects of 0.2, 0.1 or 0 in stratum <mml:math id="jats-math-68" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>X</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mrow></mml:math> and 0.2, 0.3 or 0.4 in stratum <mml:math id="jats-math-69" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>X</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow></mml:math>, and hence the marginal treatment effect (here, the average treatment effect across the two strata) was fixed at 0.2 across all scenarios. The latter two combinations of <mml:math id="jats-math-70" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mfenced open="(" close=")" separators=""><mml:msub><mml:mi>β</mml:mi><mml:mi>T</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mi mathvariant="italic">TX</mml:mi></mml:msub></mml:mfenced></mml:mrow></mml:mrow></mml:math> result in 35% and 88% power, respectively, to detect an interaction effect with a fixed sample size of 1000 (based on a two‐way ANOVA with α = 0.05). Stratification error patterns varied as before. Errors were either all discovered, discovered at random with probability 0.5 independent of treatment group, or discovered at random with probability 0.25 in the control arm and 0.75 in the intervention arm. This resulted in a total of 36 simulation scenarios (3 combinations for <mml:math id="jats-math-71" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mfenced open="(" close=")" separators=""><mml:msub><mml:mi>β</mml:mi><mml:mi>T</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mi mathvariant="italic">TX</mml:mi></mml:msub></mml:mfenced></mml:mrow></mml:mrow></mml:math> × 4 stratification error patterns × 3 stratification error discovery patterns).</p>
+                <p>The primary estimand of interest was <mml:math id="jats-math-72" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>E</mml:mi><mml:mrow><mml:mo stretchy="false">[</mml:mo><mml:mrow><mml:mi>Y</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>−</mml:mo><mml:mi>Y</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>0</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow><mml:mspace width="0.1em"/><mml:mo stretchy="false">|</mml:mo><mml:mspace width="0.1em"/><mml:mrow><mml:mi>X</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mo stretchy="false">]</mml:mo></mml:mrow><mml:mo>−</mml:mo><mml:mi>E</mml:mi><mml:mrow><mml:mo stretchy="false">[</mml:mo><mml:mrow><mml:mi>Y</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>−</mml:mo><mml:mi>Y</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>0</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow><mml:mo stretchy="false">|</mml:mo><mml:mrow><mml:mi>X</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow><mml:mo stretchy="false">]</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:math>, the expected difference in potential outcomes between the intervention and control arms for stratum <mml:math id="jats-math-73" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>X</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow></mml:math> vs <mml:math id="jats-math-74" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>X</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mrow></mml:math>, with true value <mml:math id="jats-math-75" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi mathvariant="italic">TX</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math> as used in the data generation process. The data were analysed using a linear regression model with main effects for the randomised treatment group and either <mml:math id="jats-math-76" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>Z</mml:mi></mml:mrow></mml:mrow></mml:math>, <mml:math id="jats-math-77" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>X</mml:mi></mml:mrow></mml:mrow></mml:math> or <mml:math id="jats-math-78" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>W</mml:mi></mml:mrow></mml:mrow></mml:math>, and an interaction between treatment group and either <mml:math id="jats-math-79" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>Z</mml:mi></mml:mrow></mml:mrow></mml:math>, <mml:math id="jats-math-80" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>X</mml:mi></mml:mrow></mml:mrow></mml:math> or <mml:math id="jats-math-81" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>W</mml:mi></mml:mrow></mml:mrow></mml:math>, respectively. In scenarios where all errors were discovered, <mml:math id="jats-math-82" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>W</mml:mi><mml:mo>=</mml:mo><mml:mi>X</mml:mi></mml:mrow></mml:mrow></mml:math> and hence only an analysis based on <mml:math id="jats-math-83" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>X</mml:mi></mml:mrow></mml:mrow></mml:math> was considered. The performance measures of interest for <mml:math id="jats-math-84" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi mathvariant="italic">TX</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math> were the bias in the parameter estimate, the empirical SE, the relative percent error in the model‐based SE, coverage, type I error and power (as defined in Section <xref rid="sim9818-sec-0004" ref-type="sec">2.2</xref> for <mml:math id="jats-math-85" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>T</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math>). Bias in the parameter estimate and coverage were also of interest for <mml:math id="jats-math-86" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>T</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math>, given its role in estimating treatment effects within subgroups defined by the covariate (since the treatment effect <mml:math id="jats-math-87" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>=</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mi>T</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math> in stratum <mml:math id="jats-math-88" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>X</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mrow></mml:math> and <mml:math id="jats-math-89" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>T</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mi mathvariant="italic">TX</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math> in stratum <mml:math id="jats-math-90" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>X</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow></mml:math>).</p>
+                <p>A secondary estimand of interest was the marginal treatment effect <mml:math id="jats-math-91" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>E</mml:mi><mml:mrow><mml:mo stretchy="false">[</mml:mo><mml:mrow><mml:mi>Y</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>−</mml:mo><mml:mi>Y</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>0</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow><mml:mo stretchy="false">]</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:math>, with true value 0.2. This was estimated from a linear regression model with main effects for the randomised treatment group and either no additional covariates, or <mml:math id="jats-math-92" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>Z</mml:mi></mml:mrow></mml:mrow></mml:math>, <mml:math id="jats-math-93" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>X</mml:mi></mml:mrow></mml:mrow></mml:math> or <mml:math id="jats-math-94" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>W</mml:mi></mml:mrow></mml:mrow></mml:math>. No interaction term was included in the model, since interaction terms are rarely included in the primary analysis of trial outcomes<xref rid="sim9818-bib-0007" ref-type="bibr"><sup>7</sup></xref>, <xref rid="sim9818-bib-0009" ref-type="bibr"><sup>9</sup></xref> and hence it is of interest to understand how the different adjustment approaches perform when an underlying interaction is ignored.</p>
+              </sec>
+              <sec id="sim9818-sec-0007">
+                <label>2.5</label>
+                <title>Sensitivity of results to sample size and covariate prevalence</title>
+                <p>To explore the sensitivity of our simulation results to the chosen sample size and covariate prevalence, we repeated a subset of simulations (see Table <xref rid="sim9818-tbl-0001" ref-type="table">1</xref> for details) with a sample size of 200 instead of 1000 or a covariate prevalence of 0.75 instead of 0.5. In each case, the stratification error rate was set to 20% to highlight any differences between methods and only some errors were discovered to allow the performance of the updated strata to be studied.</p>
+              </sec>
+            </sec>
+            <sec id="sim9818-sec-0008">
+              <label>3</label>
+              <title>SIMULATION RESULTS</title>
+              <sec id="sim9818-sec-0009">
+                <label>3.1</label>
+                <title>Effect of stratification errors on the correlation between treatment groups</title>
+                <p>When there were no stratification errors, the correlation between the sample means in the two treatment groups was 0.10 for a strong covariate effect (<mml:math id="jats-math-95" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>X</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow></mml:math>) and 0.53 for a very strong covariate effect (<mml:math id="jats-math-96" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>X</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>3</mml:mn></mml:mrow></mml:mrow></mml:math>). The correlation decreased as the probability of a stratification error increased and was approximately zero with 40% errors, irrespective of the strength of the covariate effect (Figure <xref rid="sim9818-fig-0001" ref-type="fig">1</xref>). This relationship suggests that the problems associated with performing an unadjusted analysis will reduce as stratification errors increase but are unlikely to disappear for realistic error rates.</p>
+                <fig position="float" fig-type="FIGURE" id="sim9818-fig-0001">
+                  <label>FIGURE 1</label>
+                  <caption>
+                    <p>Relationship between the probability of a stratification error and the correlation between the sample means in the intervention and control groups following stratified randomisation based on a covariate with a strong (<italic toggle="yes">β</italic>
+<sub>X</sub> = 1) or very strong (<italic toggle="yes">β</italic>
+<sub>X</sub> = 3) relationship with the outcome. The Monte Carlo SE for the Fisher z‐transformation of the correlation was 0.01 in each scenario.</p>
+                  </caption>
+                  <graphic xlink:href="SIM-42-3529-g005" position="anchor" id="jats-graphic-1">
+                    <alt-text>SIM-9818-FIG-0001-c</alt-text>
+                  </graphic>
+                </fig>
+              </sec>
+              <sec id="sim9818-sec-0010">
+                <label>3.2</label>
+                <title>Estimating treatment effects when all stratification errors are discovered</title>
+                <p>All methods of analysis (unadjusted, adjusted for the randomisation strata and adjusted for the true strata) produced unbiased treatment effect estimates across all scenarios (results not shown). However, the methods differed according to other performance measures. In the reference setting when there were no stratification errors, the unadjusted analysis performed poorly as expected, producing model‐based standard errors that were too large, coverage rates that were too high, type I error rates that were too low and reduced power compared to the adjusted analysis methods. Problems worsened as the covariate effect increased. In contrast, both adjusted analysis methods performed well on all performance measures (see Supplementary Table <xref rid="sim9818-supitem-0001" ref-type="supplementary-material">S1</xref>).</p>
+                <p>When stratification errors occurred, the unadjusted analysis still performed poorly, albeit to a lesser extent when the error rate was high compared to low, and hence the correlation induced by stratification was reduced (as shown in Section <xref rid="sim9818-sec-0009" ref-type="sec">3.1</xref>). In comparison to the unadjusted analysis, the models adjusting for the randomisation strata or the true strata both performed well overall, although adjusting for the true strata was preferable to the randomisation strata in some settings. With few stratification errors (1% error rate), there was little difference in performance measures between models adjusting for the randomisation strata or the true strata. Adjusting for the true strata produced marginally smaller empirical standard errors (Figure <xref rid="sim9818-fig-0002" ref-type="fig">2</xref>) and was slightly more powerful but only when the covariate effect was very strong (˜3% increase in power when <mml:math id="jats-math-97" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>X</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>3</mml:mn></mml:mrow></mml:mrow></mml:math>; see Table <xref rid="sim9818-tbl-0002" ref-type="table">2</xref>). When the stratification error rate was high (20%) and the covariate effect was very strong, adjusting for the true strata produced substantially smaller empirical SEs (Figure <xref rid="sim9818-fig-0002" ref-type="fig">2</xref>) and provided a much more powerful analysis (Table <xref rid="sim9818-tbl-0002" ref-type="table">2</xref>) compared to adjusting for the randomisation strata (˜36% increase in power). Both adjusted analysis methods performed similarly in terms of the relative percent error in the model‐based SE (Supplementary Figure <xref rid="sim9818-supitem-0001" ref-type="supplementary-material">S1</xref>), coverage (Supplementary Figure <xref rid="sim9818-supitem-0001" ref-type="supplementary-material">S2</xref>) and type I error (Table <xref rid="sim9818-tbl-0002" ref-type="table">2</xref>), and both performed as well or better than the unadjusted analysis across all performance measures. The size of the treatment effect and the distribution of errors across strata had little impact on the simulation results for any analysis method.</p>
+                <fig position="float" fig-type="FIGURE" id="sim9818-fig-0002">
+                  <label>FIGURE 2</label>
+                  <caption>
+                    <p>Empirical SE across simulation scenarios comparing an unadjusted analysis, adjusting for the randomisation strata and adjusting for the true strata (which matches the updated strata in this setting) when the treatment effect is of interest and all stratification errors are discovered. The maximum Monte Carlo SE across all methods and scenarios was 0.0007.</p>
+                  </caption>
+                  <graphic xlink:href="SIM-42-3529-g003" position="anchor" id="jats-graphic-3">
+                    <alt-text>SIM-9818-FIG-0002-c</alt-text>
+                  </graphic>
+                </fig>
+                <table-wrap position="float" id="sim9818-tbl-0002" content-type="TABLE">
+                  <label>TABLE 2</label>
+                  <caption>
+                    <p>Type I error and power (%) across simulation scenarios comparing an unadjusted analysis, adjusting for the randomisation strata and adjusting for the true strata when the treatment effect is of interest and all stratification errors are discovered.</p>
+                  </caption>
+                  <table frame="hsides" rules="cols">
+                    <col align="left" span="1"/>
+                    <col align="left" span="1"/>
+                    <col align="left" span="1"/>
+                    <col align="left" span="1"/>
+                    <col align="left" span="1"/>
+                    <col align="left" span="1"/>
+                    <col align="left" span="1"/>
+                    <col align="left" span="1"/>
+                    <col align="left" span="1"/>
+                    <thead valign="bottom">
+                      <tr>
+                        <th align="left" valign="top" rowspan="1" colspan="1"/>
+                        <th align="left" valign="top" rowspan="1" colspan="1"/>
+                        <th align="left" valign="top" rowspan="1" colspan="1"/>
+                        <th colspan="3" align="left" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Type I error (%) (<mml:math id="jats-math-98" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>T</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mrow></mml:math>)</th>
+                        <th colspan="3" align="left" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Power (%) (<mml:math id="jats-math-99" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>T</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>0.2</mml:mn></mml:mrow></mml:mrow></mml:math>)</th>
+                      </tr>
+                      <tr style="border-bottom:solid 1px #000000">
+                        <th align="left" valign="bottom" rowspan="1" colspan="1">Stratification error rate</th>
+                        <th align="left" valign="bottom" rowspan="1" colspan="1">Errors across strata</th>
+                        <th align="left" valign="bottom" rowspan="1" colspan="1">Covariate effect (<italic toggle="yes">β</italic>
+<sub>X</sub>)</th>
+                        <th align="left" valign="bottom" rowspan="1" colspan="1">Unadjusted</th>
+                        <th align="left" valign="bottom" rowspan="1" colspan="1">Randomisation strata</th>
+                        <th align="left" valign="bottom" rowspan="1" colspan="1">True strata<xref rid="sim9818-note-0003" ref-type="table-fn"><sup>a</sup></xref>
+</th>
+                        <th align="left" valign="bottom" rowspan="1" colspan="1">Unadjusted</th>
+                        <th align="left" valign="bottom" rowspan="1" colspan="1">Randomisation strata</th>
+                        <th align="left" valign="bottom" rowspan="1" colspan="1">True strata<xref rid="sim9818-note-0003" ref-type="table-fn"><sup>a</sup></xref>
+</th>
+                      </tr>
+                    </thead>
+                    <tbody valign="top">
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1%</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Equal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">2.85</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.90</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.85</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">83.05</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.13</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.40</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1%</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Equal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">3</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.07</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.92</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.12</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">36.64</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">85.59</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.80</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1%</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Unequal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">3.13</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.38</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.39</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">82.96</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">87.89</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.30</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1%</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Unequal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">3</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.05</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.66</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.01</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">35.94</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">85.48</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.11</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">20%</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Equal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.21</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.09</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.98</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">81.80</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">83.79</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.37</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">20%</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Equal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">3</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">2.74</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.68</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.68</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">39.81</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">51.88</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.54</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">20%</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Unequal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.04</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.74</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.71</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">81.78</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">83.86</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">89.10</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">20%</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Unequal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">3</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">2.16</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.00</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.25</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">40.31</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">52.89</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.87</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot id="sim9818-ntgp-0002">
+                    <fn id="sim9818-note-0002">
+                      <p><italic toggle="yes">Note</italic>: The maximum Monte Carlo SE across all methods and scenarios was 0.23 for type I error and 0.50 for power.</p>
+                    </fn>
+                    <fn id="sim9818-note-0003">
+                      <label>
+                        <sup>a</sup>
+                      </label>
+                      <p>Matches the updated strata in this setting where all stratification errors are discovered.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+              <sec id="sim9818-sec-0011">
+                <label>3.3</label>
+                <title>Estimating treatment effects when only some stratification errors are discovered</title>
+                <p>The unadjusted analysis produced unbiased treatment effect estimates but performed poorly on other performance measures in all scenarios where only some stratification errors were discovered, consistent with the scenarios where all stratification errors were discovered (as expected, since this method is unaffected by whether errors are discovered or not). Adjusting for the true strata was the best performing approach, consistently producing unbiased treatment effect estimates (Supplementary Figure <xref rid="sim9818-supitem-0001" ref-type="supplementary-material">S3</xref>) with the smallest empirical standard errors (Supplementary Figure <xref rid="sim9818-supitem-0001" ref-type="supplementary-material">S4</xref>) and providing the greatest power (Table <xref rid="sim9818-tbl-0003" ref-type="table">3</xref>). As this method cannot be used in practice when some errors go undiscovered, the next best approach was adjusting for the updated strata. This method also produced unbiased treatment effect estimates and had advantages over adjusting for the randomisation strata in terms of empirical standard errors and power across most scenarios. The only exception was when errors were unequal across strata and error discovery was unequal across treatment groups, in which case adjusting for the updated strata produced biased treatment effect estimates (Supplementary Figure <xref rid="sim9818-supitem-0001" ref-type="supplementary-material">S3</xref>). This led to poor coverage (Figure <xref rid="sim9818-fig-0003" ref-type="fig">3</xref>), inflated type I error rates and reduced power (Table <xref rid="sim9818-tbl-0003" ref-type="table">3</xref>) when the error rate was high, and problems worsened as the covariate effect increased. Adjusting for the randomisation strata was preferable in this setting of unequal errors across strata and unequal error discovery across treatment groups, producing unbiased treatment effect estimates and type I error and coverage rates close to nominal levels. Adjusting for the randomisation strata, true strata and updated strata all performed similarly in terms of the relative percent error in the model‐based SE (Supplementary Figure <xref rid="sim9818-supitem-0001" ref-type="supplementary-material">S5</xref>) with values close to zero in all scenarios. They also performed similarly in terms of coverage (Figure <xref rid="sim9818-fig-0003" ref-type="fig">3</xref>) and type I error (Table <xref rid="sim9818-tbl-0003" ref-type="table">3</xref>), with values close to nominal levels except in those scenarios where adjusting for the updated strata was biased. Only the analysis based on the updated strata was affected by the distribution of stratification errors across strata or the pattern of error discovery across treatment groups, while the size of the treatment effect had little impact on the results for all analysis methods.</p>
+                <table-wrap position="float" id="sim9818-tbl-0003" content-type="TABLE">
+                  <label>TABLE 3</label>
+                  <caption>
+                    <p>Type I error and power (%) across simulation scenarios comparing an unadjusted analysis, adjusting for the randomisation strata, adjusting for the true strata and adjusting for the updated strata when the treatment effect is of interest and only some stratification errors are discovered.</p>
+                  </caption>
+                  <table frame="hsides" rules="cols">
+                    <col align="left" span="1"/>
+                    <col align="left" span="1"/>
+                    <col align="left" span="1"/>
+                    <col align="left" span="1"/>
+                    <col align="left" span="1"/>
+                    <col align="left" span="1"/>
+                    <col align="left" span="1"/>
+                    <col align="left" span="1"/>
+                    <col align="left" span="1"/>
+                    <col align="left" span="1"/>
+                    <col align="left" span="1"/>
+                    <col align="left" span="1"/>
+                    <thead valign="bottom">
+                      <tr>
+                        <th align="left" valign="top" rowspan="1" colspan="1"/>
+                        <th align="left" valign="top" rowspan="1" colspan="1"/>
+                        <th align="left" valign="top" rowspan="1" colspan="1"/>
+                        <th align="left" valign="top" rowspan="1" colspan="1"/>
+                        <th colspan="4" align="left" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Type I Error (%) (<mml:math id="jats-math-100" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>T</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mrow></mml:math>)</th>
+                        <th colspan="4" align="left" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Power (%) (<mml:math id="jats-math-101" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>T</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>0.2</mml:mn></mml:mrow></mml:mrow></mml:math>)</th>
+                      </tr>
+                      <tr style="border-bottom:solid 1px #000000">
+                        <th align="left" valign="bottom" rowspan="1" colspan="1">Error discovery across treatment groups</th>
+                        <th align="left" valign="bottom" rowspan="1" colspan="1">Stratification error rate</th>
+                        <th align="left" valign="bottom" rowspan="1" colspan="1">Errors across strata</th>
+                        <th align="left" valign="bottom" rowspan="1" colspan="1">Covariate effect (<italic toggle="yes">β</italic>
+<sub>X</sub>)</th>
+                        <th align="left" valign="bottom" rowspan="1" colspan="1">Unadjusted</th>
+                        <th align="left" valign="bottom" rowspan="1" colspan="1">Randomisation strata</th>
+                        <th align="left" valign="bottom" rowspan="1" colspan="1">True strata</th>
+                        <th align="left" valign="bottom" rowspan="1" colspan="1">Updated strata</th>
+                        <th align="left" valign="bottom" rowspan="1" colspan="1">Unadjusted</th>
+                        <th align="left" valign="bottom" rowspan="1" colspan="1">Randomisation strata</th>
+                        <th align="left" valign="bottom" rowspan="1" colspan="1">True strata</th>
+                        <th align="left" valign="bottom" rowspan="1" colspan="1">Updated strata</th>
+                      </tr>
+                    </thead>
+                    <tbody valign="top">
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Equal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1%</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Equal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">2.80</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.74</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.86</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.75</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">82.67</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">87.79</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.02</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">87.98</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Equal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1%</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Equal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">3</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.07</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.14</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.95</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.00</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">35.78</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">85.27</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.21</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">86.81</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Equal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1%</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Unequal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">3.05</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.32</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.26</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.35</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">83.53</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.32</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.57</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.41</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Equal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1%</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Unequal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">3</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.11</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.84</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.71</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.78</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">36.31</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">85.65</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.21</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">87.03</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Equal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">20%</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Equal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.41</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.40</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.41</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.25</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">80.71</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">83.04</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">87.99</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">85.15</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Equal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">20%</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Equal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">3</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">2.36</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.91</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.59</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.39</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">41.11</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">52.85</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.84</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">65.20</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Equal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">20%</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Unequal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.09</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.95</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.16</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.95</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">81.44</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">83.48</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.40</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">85.60</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Equal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">20%</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Unequal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">3</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">2.40</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.99</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.19</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.17</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">39.08</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">52.32</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.17</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">64.53</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Unequal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1%</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Equal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">3.05</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.02</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.04</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.07</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">83.14</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.14</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.73</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.43</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Unequal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1%</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Equal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">3</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.09</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.06</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.24</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.02</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">36.06</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">85.95</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.43</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">87.02</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Unequal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1%</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Unequal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">2.63</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.87</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.82</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.89</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">83.26</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.19</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.40</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">87.45</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Unequal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1%</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Unequal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">3</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.05</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.09</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.96</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.33</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">36.81</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">85.91</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.55</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">84.70</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Unequal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">20%</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Equal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.25</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.08</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.03</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.05</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">81.87</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">83.77</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.28</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">85.75</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Unequal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">20%</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Equal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">3</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">2.46</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.06</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.06</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.16</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">41.48</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">52.54</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.61</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">65.76</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Unequal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">20%</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Unequal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.26</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.19</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.17</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">9.43</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">82.04</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">83.92</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.62</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">67.86</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Unequal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">20%</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Unequal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">3</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">2.35</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.18</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.53</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">30.66</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">40.00</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">52.03</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.03</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">15.04</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot id="sim9818-ntgp-0003">
+                    <fn id="sim9818-note-0004">
+                      <p><italic toggle="yes">Note</italic>: The maximum Monte Carlo SE across all methods and scenarios was 0.46 for type I error and 0.50 for power.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+                <fig position="float" fig-type="FIGURE" id="sim9818-fig-0003">
+                  <label>FIGURE 3</label>
+                  <caption>
+                    <p>Coverage rates across simulation scenarios compared to the nominal rate of 95% comparing an unadjusted analysis, adjusting for the randomisation strata, adjusting for the true strata and adjusting for the updated strata when the treatment effect is of interest and only some stratification errors are discovered either equally or unequally across treatment groups. The maximum Monte Carlo SE across all methods and scenarios was 0.46.</p>
+                  </caption>
+                  <graphic xlink:href="SIM-42-3529-g004" position="anchor" id="jats-graphic-5">
+                    <alt-text>SIM-9818-FIG-0003-c</alt-text>
+                  </graphic>
+                </fig>
+              </sec>
+              <sec id="sim9818-sec-0012">
+                <label>3.4</label>
+                <title>Estimating treatment by covariate interaction effects</title>
+                <p>When all stratification errors were discovered, using the true strata to test for an interaction effect performed well on all measures across all scenarios. This method consistently produced unbiased parameter estimates (Figure <xref rid="sim9818-fig-0004" ref-type="fig">4</xref>), and type I error (Table <xref rid="sim9818-tbl-0004" ref-type="table">4</xref>) and coverage rates (Supplementary Figure <xref rid="sim9818-supitem-0001" ref-type="supplementary-material">S6</xref>) that were close to nominal levels. It also produced slightly smaller empirical standard errors for the interaction term (results not shown) and had greater power to detect the interaction effect (Table <xref rid="sim9818-tbl-0004" ref-type="table">4</xref>) compared with an analysis using the randomisation strata, especially when stratification errors were common (power ˜21% and 48% higher using the true strata when <mml:math id="jats-math-102" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi mathvariant="italic">TX</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>0.2</mml:mn></mml:mrow></mml:mrow></mml:math> and <mml:math id="jats-math-103" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mn>0.4</mml:mn></mml:mrow></mml:mrow></mml:math>, respectively). In contrast, using the randomisation strata to test for the presence of a treatment‐by‐covariate interaction effect produced substantially biased estimates of both the treatment (overestimated) and interaction (underestimated) parameters from the data generation model when an interaction effect was present and the error rate was high (Figure <xref rid="sim9818-fig-0004" ref-type="fig">4</xref>), which led to lower than nominal coverage rates for both parameters (Supplementary Figure <xref rid="sim9818-supitem-0001" ref-type="supplementary-material">S6</xref>). However, this method produced unbiased parameter estimates (Figure <xref rid="sim9818-fig-0004" ref-type="fig">4</xref>) and type I errors that were close to the nominal level (Table <xref rid="sim9818-tbl-0004" ref-type="table">4</xref>) in the absence of an interaction. The relative percent error in the model‐based SE for the interaction term was small for both analysis methods in all scenarios (maximum error = 2.3%; results not shown) and the distribution of errors across strata had little impact on the results for either method of analysis. When the analysis model did not include an interaction effect and was used to estimate the marginal treatment effect, the different analysis approaches (unadjusted analysis, adjusting for the randomisation strata or adjusting for the true strata) produced unbiased estimates and performed similarly to the setting with no interaction effect (see Section <xref rid="sim9818-sec-0010" ref-type="sec">3.2</xref>), with adjustment for the true strata outperforming the randomisation strata (results not shown).</p>
+                <fig position="float" fig-type="FIGURE" id="sim9818-fig-0004">
+                  <label>FIGURE 4</label>
+                  <caption>
+                    <p>Bias in the treatment (<italic toggle="yes">β</italic>
+<sub>T</sub>) and interaction (<italic toggle="yes">β</italic>
+<sub>TX</sub>) parameter estimates across simulation scenarios comparing an analysis based on the randomisation strata and the true strata (which matches the updated strata in this setting) when the treatment by covariate interaction effect is of interest, the covariate effect is strong (<italic toggle="yes">β</italic>
+<sub>X</sub> = 1) and all stratification errors are discovered. The maximum Monte Carlo SE across all parameters, methods and scenarios was 0.001.</p>
+                  </caption>
+                  <graphic xlink:href="SIM-42-3529-g002" position="anchor" id="jats-graphic-7">
+                    <alt-text>SIM-9818-FIG-0004-c</alt-text>
+                  </graphic>
+                </fig>
+                <table-wrap position="float" id="sim9818-tbl-0004" content-type="TABLE">
+                  <label>TABLE 4</label>
+                  <caption>
+                    <p>Type I error and power (%) for the interaction test across simulation scenarios comparing an analysis based on the randomisation strata and the true strata when the treatment by covariate interaction effect is of interest, the covariate effect is strong (<mml:math id="jats-math-104" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>X</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow></mml:math>) and all stratification errors are discovered.</p>
+                  </caption>
+                  <table frame="hsides" rules="cols">
+                    <col align="left" span="1"/>
+                    <col align="left" span="1"/>
+                    <col align="left" span="1"/>
+                    <col align="left" span="1"/>
+                    <col align="left" span="1"/>
+                    <col align="left" span="1"/>
+                    <col align="left" span="1"/>
+                    <col align="left" span="1"/>
+                    <thead valign="bottom">
+                      <tr>
+                        <th align="left" valign="top" rowspan="1" colspan="1"/>
+                        <th align="left" valign="top" rowspan="1" colspan="1"/>
+                        <th colspan="2" align="left" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Type I error (%) (<mml:math id="jats-math-105" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi mathvariant="italic">TX</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mrow></mml:math>)</th>
+                        <th colspan="2" align="left" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Power (%) (<mml:math id="jats-math-106" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi mathvariant="italic">TX</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>0.2</mml:mn></mml:mrow></mml:mrow></mml:math>)</th>
+                        <th colspan="2" align="left" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Power (%) (<mml:math id="jats-math-107" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi mathvariant="italic">TX</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>0.4</mml:mn></mml:mrow></mml:mrow></mml:math>)</th>
+                      </tr>
+                      <tr style="border-bottom:solid 1px #000000">
+                        <th align="left" valign="bottom" rowspan="1" colspan="1">Stratification error rate</th>
+                        <th align="left" valign="bottom" rowspan="1" colspan="1">Errors across strata</th>
+                        <th align="left" valign="bottom" rowspan="1" colspan="1">Randomisation strata</th>
+                        <th align="left" valign="bottom" rowspan="1" colspan="1">True strata<xref rid="sim9818-note-0006" ref-type="table-fn"><sup>a</sup></xref>
+</th>
+                        <th align="left" valign="bottom" rowspan="1" colspan="1">Randomisation strata</th>
+                        <th align="left" valign="bottom" rowspan="1" colspan="1">True strata<xref rid="sim9818-note-0006" ref-type="table-fn"><sup>a</sup></xref>
+</th>
+                        <th align="left" valign="bottom" rowspan="1" colspan="1">Randomisation Strata</th>
+                        <th align="left" valign="bottom" rowspan="1" colspan="1">True strata<xref rid="sim9818-note-0006" ref-type="table-fn"><sup>a</sup></xref>
+</th>
+                      </tr>
+                    </thead>
+                    <tbody valign="top">
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1%</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Equal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.16</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.08</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">33.77</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">34.98</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">86.45</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.21</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">1%</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Unequal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.71</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.16</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">33.61</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">35.40</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">86.89</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.61</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">20%</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Equal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.99</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.23</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">13.70</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">35.01</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">40.08</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.22</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">20%</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Unequal</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">4.51</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">5.11</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">13.23</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">34.43</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">41.80</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">88.93</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot id="sim9818-ntgp-0004">
+                    <fn id="sim9818-note-0005">
+                      <p><italic toggle="yes">Note</italic>: The maximum Monte Carlo standard error across all methods and scenarios was 0.22 for type I error and 0.49 for power.</p>
+                    </fn>
+                    <fn id="sim9818-note-0006">
+                      <label>
+                        <sup>a</sup>
+                      </label>
+                      <p>Matches the updated strata in this setting where all stratification errors are discovered.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+                <p>When only some stratification errors were discovered, using the updated strata to test for an interaction effect was problematic in some cases. This method produced biased treatment and interaction parameter estimates (Figure <xref rid="sim9818-fig-0005" ref-type="fig">5</xref>) leading to lower than nominal coverage rates for both parameters (Supplementary Figure <xref rid="sim9818-supitem-0001" ref-type="supplementary-material">S7</xref>) when the error rate was high, except in scenarios where there was no interaction and the errors were discovered equally between the treatment groups. This method also suffered from inflated type I error rates when stratification errors were common and more errors were discovered in one treatment group (Supplementary Table <xref rid="sim9818-supitem-0001" ref-type="supplementary-material">S2</xref>). In comparison, the analysis based on the randomisation strata generally performed worse than the analysis using the updated strata in terms of bias (Figure <xref rid="sim9818-fig-0005" ref-type="fig">5</xref>), coverage (Supplementary Figure <xref rid="sim9818-supitem-0001" ref-type="supplementary-material">S7</xref>) and power (Supplementary Table <xref rid="sim9818-supitem-0001" ref-type="supplementary-material">S2</xref>) when errors were equally likely to be discovered in both treatment groups, but had advantages over using the updated strata in terms of reduced bias and closer to nominal coverage when errors were more frequently discovered in one treatment group. The apparent power gains achieved by using the updated strata in scenarios where error discovery depended on treatment group (Supplementary Table <xref rid="sim9818-supitem-0001" ref-type="supplementary-material">S2</xref>) resulted from the positive bias in the interaction effect estimates and hence do not demonstrate an advantage of this analysis approach. The relative percent error in the model‐based SE for the interaction term was small for all methods across all scenarios (maximum error = 1.8%; data not shown). The analysis based on the randomisation strata produced the largest empirical standard errors for the interaction term, followed by the updated strata (results not shown). Only the ideal but unachievable approach of testing for an interaction using the true strata did well across all performance measures and all scenarios. When the analysis model did not include an interaction term and was used to estimate the marginal treatment effect, the relative performance of the different adjustment approaches was generally similar to the setting with no interaction effect (see Section <xref rid="sim9818-sec-0011" ref-type="sec">3.3</xref>), with the updated strata outperforming the randomisation strata except when errors were unequal across strata and error discovery was unequal across treatment groups. The problems with adjusting for the updated strata in this specific setting were accentuated by the presence of an interaction effect (results not shown).</p>
+                <fig position="float" fig-type="FIGURE" id="sim9818-fig-0005">
+                  <label>FIGURE 5</label>
+                  <caption>
+                    <p>Bias in the treatment (<italic toggle="yes">β</italic>
+<sub>T</sub>) and interaction (<italic toggle="yes">β</italic>
+<sub>TX</sub>) parameter estimates across simulation scenarios comparing an analysis based on the randomisation strata, the true strata and the updated strata when the treatment by covariate interaction effect is of interest, the covariate effect is strong (<italic toggle="yes">β</italic>
+<sub>X</sub> = 1) and only some stratification errors are discovered either equally or unequally across treatment groups. The maximum Monte Carlo SE across all parameters, methods and scenarios was 0.001.</p>
+                  </caption>
+                  <graphic xlink:href="SIM-42-3529-g001" position="anchor" id="jats-graphic-9">
+                    <alt-text>SIM-9818-FIG-0005-c</alt-text>
+                  </graphic>
+                </fig>
+              </sec>
+              <sec id="sim9818-sec-0013">
+                <label>3.5</label>
+                <title>Sensitivity of results to sample size and covariate prevalence</title>
+                <p>Reducing the sample size from 1000 to 200 resulted in larger empirical standard errors and reduced power across all methods as expected (results not shown). It had little impact on analyses based on the true strata otherwise and little impact on bias for any method. In contrast, the smaller sample size reduced but did not eliminate the undercoverage observed when estimating treatment effects using the updated strata (Supplementary Figure <xref rid="sim9818-supitem-0001" ref-type="supplementary-material">S8</xref>), and when estimating treatment by covariate interaction effects using either the randomisation strata or the updated strata (Supplementary Figure <xref rid="sim9818-supitem-0001" ref-type="supplementary-material">S9</xref>).</p>
+                <p>Increasing the covariate prevalence from 0.5 to 0.75 introduced bias and undercoverage into the treatment effect estimate based on the updated strata in the setting where errors were equal across strata but error discovery was unequal across treatment groups (Supplementary Figure <xref rid="sim9818-supitem-0001" ref-type="supplementary-material">S8</xref>) and increased the magnitude of the bias and undercoverage observed for this method in other settings (Supplementary Figures <xref rid="sim9818-supitem-0001" ref-type="supplementary-material">S8</xref> and <xref rid="sim9818-supitem-0001" ref-type="supplementary-material">S9</xref>). Similarly, bias and coverage problems increased when estimating treatment by covariate interaction effects using the randomisation strata (Supplementary Figure <xref rid="sim9818-supitem-0001" ref-type="supplementary-material">S9</xref>). Analyses based on the true strata were largely unaffected by the covariate prevalence.</p>
+              </sec>
+            </sec>
+            <sec id="sim9818-sec-0014">
+              <label>4</label>
+              <title>EXAMPLE: THE <styled-content style="fixed-case" toggle="no">OPTIMISE</styled-content> RANDOMISED TRIAL</title>
+              <p>To illustrate how different methods of adjusting for stratification variables perform in a real trial affected by stratification errors, we consider data from the OPTIMISE trial.<xref rid="sim9818-bib-0022" ref-type="bibr"><sup>22</sup></xref> OPTIMISE was a randomised controlled trial investigating the effect of a dietary and lifestyle intervention compared with standard antenatal care in 641 pregnant women with healthy weight (body mass index in the range 18.5‐24.9 kg/m<sup>2</sup> at the first antenatal appointment). Randomisation was performed by highly trained research staff within a web‐based system using 1:1 allocation and randomly permuted blocks of size 4 within strata defined by parity (0 vs 1 or more previous pregnancies that reached at least 20 weeks' gestation) as reported by participants at baseline. The women and the research team delivering the intervention were necessarily unblinded to the treatment group allocation and research staff had substantially more contact with women in the intervention arm due to the nature of the intervention.</p>
+              <p>Following randomisation, obstetric history was obtained from all participants' medical records, which revealed stratification errors for 23 women (3.6% of trial participants). Based on their medical records, 59% of women had no previous pregnancies. Accessing medical records prior to randomisation to determine the appropriate strata was not possible due to requirements for consent to access this information and the time delay involved in accessing paper records. The errors resulted from participants incorrectly answering the relevant question (“Have you had any pregnancies of 20 weeks or more?”) on the trial screening form, rather than data entry errors in the web‐based randomisation system. The reasons for this are unclear, since the screening question was relatively straightforward and language difficulties were not a factor for trial participants. Stratification errors were more common in one stratum, affecting only 5 (1%) women with no previous pregnancies compared to 18 (7%) women with a previous pregnancy. However, the discovery of these errors did not appear to depend on treatment group (11 errors in the intervention arm vs 12 in the control arm).</p>
+              <p>For illustration, the key secondary outcome of infant birthweight was analysed using a linear regression model including the randomised treatment group and either no additional covariates (unadjusted model), the randomisation strata or the updated strata (which likely equals, or very closely matches, the true strata in this setting where medical records were reviewed for all trial participants). The stratification variable was an important predictor of this outcome, since the mean infant birthweight increased by 107 g (95% CI 21–193), or approximately 0.2 standard deviations, for women with a previous pregnancy compared to women without a previous pregnancy. The estimated treatment effects (SEs) were −79.6 g (43.9), −81.1 g (43.6) and −78.3 g (43.7) when adjusting for no covariates, the randomisation strata and the updated strata, respectively. Differences in treatment effect estimates between methods were small as expected from the simulation results, given the stratification errors were balanced across treatment groups and hence all methods are expected to produce unbiased treatment effect estimates. The unadjusted analysis produced the largest SE, consistent with simulation findings. An ad hoc approach to error discovery in OPTIMISE could have feasibly resulted in more errors being discovered in the intervention group through greater contact with these women, leading to larger differences in results depending on the chosen adjustment approach. For instance, if all errors in the intervention group had been discovered but none in the control group, an analysis adjusting for the updated strata (which likely matches the true strata for the intervention group but matches the randomisation strata for the control group) would have produced an estimated treatment effect (SE) of −82.1 g (43.7), which differs somewhat from the estimate of −78.3 g when adjustment was made for the updated strata and (presumably) all errors were discovered in both treatment groups. This result highlights the potential for the chosen method of adjustment to impact trial results.</p>
+            </sec>
+            <sec sec-type="discussion" id="sim9818-sec-0015">
+              <label>5</label>
+              <title>DISCUSSION</title>
+              <p>In this article, we have used simulation studies and an example dataset to explore the impact of misclassification in a stratification variable when analysing continuous outcomes. Building on previous research,<xref rid="sim9818-bib-0013" ref-type="bibr"><sup>13</sup></xref>, <xref rid="sim9818-bib-0014" ref-type="bibr"><sup>14</sup></xref>, <xref rid="sim9818-bib-0015" ref-type="bibr"><sup>15</sup></xref> we have considered for the first time the realistic setting where only some stratification errors are discovered. Our results show that while stratification errors reduce the correlation induced by stratification, adjustment for the stratification variable in some form remains important. If treatment effect estimation is of interest, adjusting for the randomisation strata is an acceptable approach and the only option if the errors are never discovered, but adjusting for the true strata (if all errors are discovered) or the updated strata (if only some errors are discovered) generally leads to gains in power. Caution is needed in settings where the discovery of stratification errors may depend on treatment group, since adjusting for the updated strata can introduce bias in this case. These findings apply whether the treatment effect is constant or varies across strata. If treatment‐by‐covariate interactions and subgroup effects are of interest, only an analysis based on the true strata consistently produces unbiased parameter estimates. These findings highlight the importance of identifying and documenting any stratification errors that do occur, though there is always a risk that some errors will go undiscovered.</p>
+              <p>With few stratification errors, our simulations revealed little difference in performance between the different adjustment approaches and hence it is unlikely to matter which covariate is used for adjustment (the randomisation strata, true strata or updated strata) in most practical settings. Reassuringly, our results therefore raise no concerns over previous trial results based on any adjustment strategy, provided the error rate was low. Substantial differences between adjustment approaches were seen when the error rate was high, however, and the chosen approach has the potential to influence trial conclusions in this case. Our view is that the best performing method for handling stratification errors should be pre‐specified for the analysis, regardless of whether the trial ends up being affected by many errors or only one, and we provide recommendations regarding which methods to pre‐specify in Section <xref rid="sim9818-sec-0016" ref-type="sec">6</xref>.</p>
+              <p>Previous work on measurement error has shown that misclassification in a binary predictor variable leads to biased regression coefficient estimates for that predictor and possibly other predictors in a linear regression setting.<xref rid="sim9818-bib-0023" ref-type="bibr"><sup>23</sup></xref> We therefore expect regression coefficients to be biased for the stratification variable when stratification errors occur, however the main concern in a clinical trial is whether these errors lead to biased treatment effect estimates. Others have shown theoretically under a linear regression model that the treatment effect estimate is unbiased whether adjustment is made for the randomisation strata or the true strata<xref rid="sim9818-bib-0013" ref-type="bibr"><sup>13</sup></xref> and our simulation results are consistent with these theoretical findings. Interestingly, we found that when some errors go undiscovered, adjusting for the updated strata can introduce bias into the treatment effect estimate in the setting where error discovery depends on treatment group, which resulted in problems with other performance measures. The reason for this bias can be seen by considering the extreme case where all errors are discovered in the intervention group (ie, <mml:math id="jats-math-108" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>W</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>X</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math> when <mml:math id="jats-math-109" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>T</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow></mml:math>) but none are discovered in the control group (ie, <mml:math id="jats-math-110" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>W</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>Z</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math> when <mml:math id="jats-math-111" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>T</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mrow></mml:math>). Adjusting for the updated strata thus estimates <mml:math id="jats-math-112" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>E</mml:mi><mml:mrow><mml:mo stretchy="false">[</mml:mo><mml:mrow><mml:mi>Y</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow><mml:mo stretchy="false">|</mml:mo><mml:mi>W</mml:mi><mml:mo stretchy="false">]</mml:mo></mml:mrow><mml:mo>−</mml:mo><mml:mi>E</mml:mi><mml:mrow><mml:mo stretchy="false">[</mml:mo><mml:mrow><mml:mi>Y</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>0</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow><mml:mo stretchy="false">|</mml:mo><mml:mi>W</mml:mi><mml:mo stretchy="false">]</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>E</mml:mi><mml:mrow><mml:mo stretchy="false">[</mml:mo><mml:mrow><mml:mi>Y</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow><mml:mo stretchy="false">|</mml:mo><mml:mi>X</mml:mi><mml:mo stretchy="false">]</mml:mo></mml:mrow><mml:mo>−</mml:mo><mml:mi>E</mml:mi><mml:mrow><mml:mo stretchy="false">[</mml:mo><mml:mrow><mml:mi>Y</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>0</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow><mml:mo stretchy="false">|</mml:mo><mml:mi>Z</mml:mi><mml:mo stretchy="false">]</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:math>, which is biased in general for the adjusted estimand of interest <mml:math id="jats-math-113" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>E</mml:mi><mml:mrow><mml:mo stretchy="false">[</mml:mo><mml:mrow><mml:mi>Y</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow><mml:mo stretchy="false">|</mml:mo><mml:mi>X</mml:mi><mml:mo stretchy="false">]</mml:mo></mml:mrow><mml:mo>−</mml:mo><mml:mi>E</mml:mi><mml:mrow><mml:mo stretchy="false">[</mml:mo><mml:mrow><mml:mi>Y</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>0</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow><mml:mo stretchy="false">|</mml:mo><mml:mi>X</mml:mi><mml:mo stretchy="false">]</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:math>. Such bias is highly unlikely to occur in blinded trials and is most plausible in unblinded trials involving more contact with intervention participants, thus providing more opportunity for any stratification errors to be discovered in this treatment group.</p>
+              <p>Our simulations confirm previous findings that failing to adjust for stratification variables by performing an unadjusted analysis leads to biased standard errors and overcoverage, while adjusting for the randomisation strata avoids these issues.<xref rid="sim9818-bib-0010" ref-type="bibr"><sup>10</sup></xref> Perhaps surprisingly, our simulations show that in the presence of stratification errors, such problems do not occur when adjusting for the true strata rather than the randomisation strata. Intuitively, this occurs because the randomisation was based on a misclassified covariate and by adjusting for the true covariate, the correlation induced by stratification is accounted for. More formally, biased standard errors and overcoverage are expected when there is restricted (eg, blocked) randomisation based on <mml:math id="jats-math-114" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>Z</mml:mi></mml:mrow></mml:mrow></mml:math> but no adjustment for <mml:math id="jats-math-115" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>Z</mml:mi></mml:mrow></mml:mrow></mml:math> and <mml:math id="jats-math-116" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>P</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:mi>Y</mml:mi><mml:mo stretchy="false">|</mml:mo><mml:mi>Z</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold-italic">V</mml:mi></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>≠</mml:mo><mml:mi>P</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>Y</mml:mi><mml:mo stretchy="false">|</mml:mo><mml:mi mathvariant="bold-italic">V</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:math>, where <mml:math id="jats-math-117" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">V</mml:mi></mml:mrow></mml:mrow></mml:math> is a vector of covariates for adjustment. In the case of stratification errors, where the outcome <mml:math id="jats-math-118" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>Y</mml:mi></mml:mrow></mml:mrow></mml:math> depends on the true strata <mml:math id="jats-math-119" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>X</mml:mi></mml:mrow></mml:mrow></mml:math> but not the randomisation strata <mml:math id="jats-math-120" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>Z</mml:mi></mml:mrow></mml:mrow></mml:math> except through the relationship <mml:math id="jats-math-121" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>Z</mml:mi><mml:mo>=</mml:mo><mml:mi>X</mml:mi><mml:mo>+</mml:mo><mml:mtext mathvariant="italic">error</mml:mtext></mml:mrow></mml:mrow></mml:math>, <mml:math id="jats-math-122" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>P</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:mi>Y</mml:mi><mml:mo stretchy="false">|</mml:mo><mml:mi>Z</mml:mi><mml:mo>,</mml:mo><mml:mi>X</mml:mi></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>P</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>Y</mml:mi><mml:mo stretchy="false">|</mml:mo><mml:mi>X</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:math> and hence adjustment for <mml:math id="jats-math-123" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>X</mml:mi></mml:mrow></mml:mrow></mml:math> is sufficient to avoid biased standard errors and overcoverage.<xref rid="sim9818-bib-0024" ref-type="bibr"><sup>24</sup></xref>
+</p>
+              <p>A limitation of our study is that we only considered continuous outcomes. Binary, count and time‐to‐event outcomes analysed via logistic regression, log Poisson regression and Cox proportional hazards models, respectively, have been studied previously.<xref rid="sim9818-bib-0013" ref-type="bibr"><sup>13</sup></xref>, <xref rid="sim9818-bib-0014" ref-type="bibr"><sup>14</sup></xref> In each case, treatment effect estimation was of interest and all stratification errors were discovered. For each type of outcome, the type I error rate was maintained at the nominal level whether adjustment was made for the randomisation strata (provided allowance was made for overdispersion in the case of count outcomes) or the true strata, while adjusting for the true strata was more powerful, consistent with our findings for continuous outcomes. No bias was observed in the estimated treatment effects, except in the case of binary outcomes where adjusting for the randomisation strata produced biased estimates of the conditional log‐odds ratio (due to the change in estimand being estimated by models adjusting for different covariates that is a known issue with logistic regression<xref rid="sim9818-bib-0025" ref-type="bibr"><sup>25</sup></xref>). We are not aware of any studies considering non‐continuous outcomes in settings where treatment‐by‐covariate interaction effects are of interest or only some stratification errors are discovered, and these are potential topics for future research. Our work could also be extended in several other ways. First, the stratification variable could have more than two categories and be included in the analysis using random effects, as is generally recommended when stratifying by centre in multicentre trials.<xref rid="sim9818-bib-0026" ref-type="bibr"><sup>26</sup></xref> Second, unequal treatment allocation (eg, 2:1 randomisation) could be considered, which may necessitate both the inclusion of treatment‐by‐covariate interactions in the model for estimating treatment effects and use of an alternate variance estimator to avoid inflated type I errors.<xref rid="sim9818-bib-0027" ref-type="bibr"><sup>27</sup></xref> Third, misclassification in balancing variables for other forms of covariate‐adaptive randomisation, such as minimisation, could be investigated in settings where only some errors are discovered, building on previous work by others.<xref rid="sim9818-bib-0014" ref-type="bibr"><sup>14</sup></xref>, <xref rid="sim9818-bib-0015" ref-type="bibr"><sup>15</sup></xref> Finally, many trials use multiple stratification variables<xref rid="sim9818-bib-0001" ref-type="bibr"><sup>1</sup></xref>, <xref rid="sim9818-bib-0002" ref-type="bibr"><sup>2</sup></xref> and the impact of varying levels of misclassification and error discovery across stratification variables could be explored.</p>
+            </sec>
+            <sec id="sim9818-sec-0016">
+              <label>6</label>
+              <title>RECOMMENDATIONS FOR PRACTICE</title>
+              <p>Stratification errors can occur in any trial that uses stratified randomisation. We encourage researchers to consider the possibility of stratification errors at all stages of the trial and provide 10 general recommendations for addressing these errors during the design, conduct, analysis and reporting of the trial in Table <xref rid="sim9818-tbl-0005" ref-type="table">5</xref>. Most importantly for the trial statistician, we recommend pre‐specifying how stratification errors will be addressed in the primary analysis and any planned secondary or subgroup analyses in the statistical analysis plan (Recommendation 2) to help avoid the risk of p‐hacking.<xref rid="sim9818-bib-0028" ref-type="bibr"><sup>28</sup></xref> The findings from our simulation study and previous research<xref rid="sim9818-bib-0013" ref-type="bibr"><sup>13</sup></xref>, <xref rid="sim9818-bib-0014" ref-type="bibr"><sup>14</sup></xref>, <xref rid="sim9818-bib-0015" ref-type="bibr"><sup>15</sup></xref> yield important insights into the best analytic methods to pre‐specify in the statistical analysis plan and provide the basis for Recommendations 2a and b, as detailed below. Since researchers will likely never know whether they have identified all stratification errors or not, our recommendations focus on choosing between the randomisation strata and the updated strata, rather than the ideal but possibly unobtainable true strata.</p>
+              <table-wrap position="float" id="sim9818-tbl-0005" content-type="TABLE">
+                <label>TABLE 5</label>
+                <caption>
+                  <p>Recommendations for addressing stratification errors by trial stage in trials using stratified randomisation.</p>
+                </caption>
+                <table frame="hsides" rules="cols">
+                  <col align="left" span="1"/>
+                  <col align="left" span="1"/>
+                  <thead valign="bottom">
+                    <tr style="border-bottom:solid 1px #000000">
+                      <th align="left" valign="bottom" rowspan="1" colspan="1">Trial stage</th>
+                      <th align="left" valign="bottom" rowspan="1" colspan="1">Recommendations</th>
+                    </tr>
+                  </thead>
+                  <tbody valign="top">
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Design</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">
+                        <list list-type="order" id="sim9818-list-0003">
+                          <list-item id="sim9818-li-0010">
+                            <p>Implement strategies to minimise the risk of stratification errors, such as clearly defining stratification variables, avoiding stratification variables that are likely to be subject to high levels of misclassification, training staff to carefully check the stratification variables before randomising participants, and designing randomisation systems that are easy to use.</p>
+                          </list-item>
+                          <list-item id="sim9818-li-0011">
+                            <p>Pre‐specify how stratification errors will be addressed in the primary analysis and any planned secondary or subgroup analyses in the statistical analysis plan.<list list-type="alpha-lower" id="sim9818-list-0004"><list-item id="sim9818-li-0012"><p>If the discovery of errors is unlikely to be related to treatment group (eg, in a blinded trial), then (i) adjust for the updated strata<xref rid="sim9818-note-0007" ref-type="table-fn"><sup>a</sup></xref> in the primary analysis, (ii) adjust for the randomisation strata<xref rid="sim9818-note-0007" ref-type="table-fn"><sup>a</sup></xref> in a sensitivity analysis, and (iii) use the updated strata<xref rid="sim9818-note-0007" ref-type="table-fn"><sup>a</sup></xref> to perform any subgroup analyses.</p></list-item><list-item id="sim9818-li-0013"><p>If the discovery of errors could plausibly be related to treatment group (eg, in an unblinded trial involving more contact with intervention participants), then (i) adjust for the randomisation strata<xref rid="sim9818-note-0007" ref-type="table-fn"><sup>a</sup></xref> in the primary analysis, (ii) adjust for the updated strata<xref rid="sim9818-note-0007" ref-type="table-fn"><sup>a</sup></xref> in a sensitivity analysis, and (iii) use the randomisation strata<xref rid="sim9818-note-0007" ref-type="table-fn"><sup>a</sup></xref> to perform any subgroup analyses.</p></list-item></list>
+</p>
+                          </list-item>
+                        </list>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Conduct</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">
+                        <list list-type="simple" id="sim9818-list-0005">
+                          <list-item id="sim9818-li-0014">
+                            <label>3</label>
+                            <p>Implement systematic strategies to identify stratification errors across all participants, such as cross‐checking stratification variables against alternate data sources (where available).</p>
+                          </list-item>
+                          <list-item id="sim9818-li-0015">
+                            <label>4</label>
+                            <p>Thoroughly document any stratification errors that are identified, including how they occurred, to assist with staff training and inform the design of future trials.</p>
+                          </list-item>
+                          <list-item id="sim9818-li-0016">
+                            <label>5</label>
+                            <p>Record the updated strata<xref rid="sim9818-note-0007" ref-type="table-fn"><sup>a</sup></xref> in a new field in the trial database and leave the randomisation strata<xref rid="sim9818-note-0007" ref-type="table-fn"><sup>a</sup></xref> unchanged as a record of how the randomisation was performed.</p>
+                          </list-item>
+                        </list>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Analysis</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">
+                        <list list-type="simple" id="sim9818-list-0006">
+                          <list-item id="sim9818-li-0017">
+                            <label>6</label>
+                            <p>Examine the number of stratification errors that were identified overall and broken down by treatment group, stratum and their combination.</p>
+                          </list-item>
+                          <list-item id="sim9818-li-0018">
+                            <label>7</label>
+                            <p>Address stratification errors in the planned analyses using the approach(es) pre‐specified in the statistical analysis plan.</p>
+                          </list-item>
+                          <list-item id="sim9818-li-0019">
+                            <label>8</label>
+                            <p>Consider whether any additional, unplanned analyses should be performed, based on the number and pattern of stratification errors that were identified in the trial (eg, a sensitivity analysis excluding participants affected by stratification errors).</p>
+                          </list-item>
+                        </list>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Reporting</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">
+                        <list list-type="simple" id="sim9818-list-0007">
+                          <list-item id="sim9818-li-0020">
+                            <label>9</label>
+                            <p>Report the number of stratification errors that were identified by treatment group and stratum, potentially in a Supplementary Appendix S1, or state that no such errors were identified.</p>
+                          </list-item>
+                          <list-item id="sim9818-li-0021">
+                            <label>10</label>
+                            <p>Indicate whether the randomisation strata<xref rid="sim9818-note-0007" ref-type="table-fn"><sup>a</sup></xref> or the updated strata<xref rid="sim9818-note-0007" ref-type="table-fn"><sup>a</sup></xref> was used in each analysis involving the stratification variables.</p>
+                          </list-item>
+                        </list>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table-wrap-foot id="sim9818-ntgp-0005">
+                  <fn id="sim9818-note-0007">
+                    <label>
+                      <sup>a</sup>
+                    </label>
+                    <p>The <italic toggle="yes">randomisation strata</italic> are the strata used to perform the randomisation that may be incorrect for some participants. The <italic toggle="yes">updated strata</italic> are the strata based on the best information available at the time of the analysis, where those errors that have been identified are corrected but some errors may remain.</p>
+                  </fn>
+                </table-wrap-foot>
+              </table-wrap>
+              <p>In most trials, the discovery of stratification errors is unlikely to be related to treatment group. For example, in blinded trials the research staff typically have similar amounts of contact with participants in each group, providing similar opportunities for errors to be discovered in each group. In this case, we recommend adjusting for the updated strata in the primary analysis for all trial outcomes (Recommendation 2a) due to its power advantages. Adjusting for the randomisation strata should be considered in a sensitivity analysis, at least for the primary outcome, to explore the impact of any stratification errors on the trial results. If subgroup analyses by the stratification variable are planned, we recommend using the updated strata to define the subgroups and perform the interaction test in order to minimise any bias in the subgroup effect estimates.</p>
+              <p>An exception to these recommendations should be made when the discovery of stratification errors could plausibly be related to treatment group. This can occur, for example, in unblinded trials involving substantially greater contact with trial participants assigned to one treatment arm and hence providing a greater opportunity for stratification errors to be discovered among these participants. In this setting, we recommend adjusting for the randomisation strata in the primary analysis for all trial outcomes (Recommendation 2b) to avoid the risk of introducing bias into the treatment effect estimates. Adjusting for the updated strata should be performed in a sensitivity analysis, at least for the primary outcome, to explore the impact of any stratification errors on the trial results, while acknowledging the results of this sensitivity analysis could be biased. The risk of bias can be judged by examining and reporting the number of stratification errors that were identified by treatment group, with bias expected when the discovery of stratification errors is more common in one group. If subgroup analyses by the stratification variable are planned, we recommend using the randomisation strata to define the subgroups and perform the interaction test. Although this approach will likely be biased and this should be acknowledged, less bias is expected compared to using the updated strata in this setting.</p>
+              <p>Existing analysis guidelines state that ‘if one or more factors are used to stratify the design, it is appropriate to account for those factors in the analysis’<xref rid="sim9818-bib-0007" ref-type="bibr"><sup>7</sup></xref> and ‘the factors that are the basis of stratification should normally be included as covariates or stratification variables in the primary outcome model’,<xref rid="sim9818-bib-0009" ref-type="bibr"><sup>9</sup></xref> but do not address the problem of stratification errors. Our recommendations add clarification regarding stratification errors and may be helpful for informing future updates of these guidelines.</p>
+            </sec>
+            <sec sec-type="conclusions" id="sim9818-sec-0017">
+              <label>7</label>
+              <title>CONCLUSION</title>
+              <p>Stratification is a useful tool for achieving balanced treatment groups on important baseline covariates, but greater attention should be given to the risk of stratification errors and the implications these errors have for the trial analysis. In most trials, the discovery of stratification errors is unlikely to depend on treatment group and hence using the updated strata, where the errors that have been discovered are corrected, is preferable to using the randomisation strata for adjustment and performing subgroup analyses. In trials where the discovery of stratification errors could plausibly depend on treatment group, analyses should be based on the randomisation strata. Given the potential for stratification errors to introduce bias into treatment and subgroup effect estimates, greater transparency is needed in the reporting of stratification errors and how they were addressed in the analysis.</p>
+            </sec>
+            <sec id="sim9818-sec-0019">
+              <title>FUNDING INFORMATION</title>
+              <p>This research was supported by a Centre of Research Excellence grant from the Australian National Health and Medical Research Council (ID 1171422), to the Australian Trials Methodology (AusTriM) Research Network. BCK and TPM are funded by the UK MRC, grants MC_UU_00004/07 and MC_UU_00004/09. KJL and TRS are supported by the Australian National Health and Medical Research Council (KJL Career Development Fellowship ID 1127984; TRS Emerging Leadership Grant ID 1173576).</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supporting information</title>
+              <supplementary-material id="sim9818-supitem-0001" position="float" content-type="local-data">
+                <caption>
+                  <p><bold>Appendix S1.</bold> Supporting information.</p>
+                </caption>
+                <media xlink:href="SIM-42-3529-s001.pdf"/>
+              </supplementary-material>
+              <supplementary-material id="sim9818-supitem-0002" position="float" content-type="local-data">
+                <caption>
+                  <p><bold>Appendix S2.</bold> Supporting information.</p>
+                </caption>
+                <media xlink:href="SIM-42-3529-s002.do"/>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack id="sim9818-sec-0018">
+              <title>ACKNOWLEDGEMENTS</title>
+              <p>The authors would like to thank Professor Andrew Forbes and other members of the Australian Trials Methodology (AusTriM) Research Network for useful feedback on this work. Open access publishing facilitated by The University of Adelaide, as part of the Wiley ‐ The University of Adelaide agreement via the Council of Australian University Librarians.</p>
+            </ack>
+            <sec sec-type="data-availability" id="sim9818-sec-0021">
+              <title>DATA AVAILABILITY STATEMENT</title>
+              <p>The simulated data used to generate the findings presented in this article can be generated using the Stata code provided as supplementary material. The data from the OPTIMISE trial example are not publicly available due to privacy restrictions but can be requested by contacting the second author.</p>
+            </sec>
+            <ref-list id="sim9818-bibl-0001" content-type="cited-references">
+              <title>REFERENCES</title>
+              <ref id="sim9818-bib-0001">
+                <label>1</label>
+                <mixed-citation publication-type="journal" id="sim9818-cit-0001"><string-name><surname>Kahan</surname><given-names>BC</given-names></string-name>, <string-name><surname>Morris</surname><given-names>TP</given-names></string-name>. <article-title>Reporting and analysis of trials using stratified randomisation in leading medical journals: review and reanalysis</article-title>. <source>Br Med J</source>. <year>2012</year>;<volume>345</volume>:<elocation-id>e5840</elocation-id>.<pub-id pub-id-type="pmid">22983531</pub-id></mixed-citation>
+              </ref>
+              <ref id="sim9818-bib-0002">
+                <label>2</label>
+                <mixed-citation publication-type="journal" id="sim9818-cit-0002"><string-name><surname>Lin</surname><given-names>Y</given-names></string-name>, <string-name><surname>Zhu</surname><given-names>M</given-names></string-name>, <string-name><surname>Su</surname><given-names>Z</given-names></string-name>. <article-title>The pursuit of balance: an overview of covariate‐adaptive randomization techniques in clinical trials</article-title>. <source>Contemp Clin Trials</source>. <year>2015</year>;<volume>45</volume>:<fpage>21</fpage>‐<lpage>25</lpage>.<pub-id pub-id-type="pmid">26244705</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="sim9818-bib-0003">
+                <label>3</label>
+                <mixed-citation publication-type="journal" id="sim9818-cit-0003"><string-name><surname>Yelland</surname><given-names>LN</given-names></string-name>, <string-name><surname>Kahan</surname><given-names>BC</given-names></string-name>, <string-name><surname>Dent</surname><given-names>E</given-names></string-name>, et al. <article-title>Prevalence and reporting of recruitment, randomisation and treatment errors in clinical trials: a systematic review</article-title>. <source>Clin Trials</source>. <year>2018</year>;<volume>15</volume>:<fpage>278</fpage>‐<lpage>285</lpage>.<pub-id pub-id-type="pmid">29638145</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="sim9818-bib-0004">
+                <label>4</label>
+                <mixed-citation publication-type="journal" id="sim9818-cit-0004"><string-name><surname>Tu</surname><given-names>DS</given-names></string-name>, <string-name><surname>Shalay</surname><given-names>K</given-names></string-name>, <string-name><surname>Pater</surname><given-names>J</given-names></string-name>. <article-title>Adjustment of treatment effect for covariates in clinical trials: statistical and regulatory issues</article-title>. <source>Drug Inf J</source>. <year>2000</year>;<volume>34</volume>:<fpage>511</fpage>‐<lpage>523</lpage>.</mixed-citation>
+              </ref>
+              <ref id="sim9818-bib-0005">
+                <label>5</label>
+                <mixed-citation publication-type="journal" id="sim9818-cit-0005"><string-name><surname>Kernan</surname><given-names>WN</given-names></string-name>, <string-name><surname>Viscoli</surname><given-names>CM</given-names></string-name>, <string-name><surname>Makuch</surname><given-names>RW</given-names></string-name>, <string-name><surname>Brass</surname><given-names>LM</given-names></string-name>, <string-name><surname>Horwitz</surname><given-names>RI</given-names></string-name>. <article-title>Stratified randomization for clinical trials</article-title>. <source>J Clin Epidemiol</source>. <year>1999</year>;<volume>52</volume>:<fpage>19</fpage>‐<lpage>26</lpage>.<pub-id pub-id-type="pmid">9973070</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="sim9818-bib-0006">
+                <label>6</label>
+                <mixed-citation publication-type="journal" id="sim9818-cit-0006"><collab collab-type="authors">Committee for Proprietary Medicinal Products</collab>
+. <article-title>Points to consider on adjustment for baseline covariates</article-title>. <source>Stat Med</source>. <year>2004</year>;<volume>23</volume>:<fpage>701</fpage>‐<lpage>709</lpage>.<pub-id pub-id-type="pmid">14981670</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="sim9818-bib-0007">
+                <label>7</label>
+                <mixed-citation publication-type="journal" id="sim9818-cit-0007"><article-title>ICH E9 expert working group. Statistical principles for clinical trials</article-title>. <source>Stat Med</source>. <year>1999</year>;<volume>18</volume>:<fpage>1905</fpage>‐<lpage>1942</lpage>.<pub-id pub-id-type="pmid">10532877</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="sim9818-bib-0008">
+                <label>8</label>
+                <mixed-citation publication-type="journal" id="sim9818-cit-0008"><string-name><surname>Raab</surname><given-names>GM</given-names></string-name>, <string-name><surname>Day</surname><given-names>S</given-names></string-name>, <string-name><surname>Sales</surname><given-names>J</given-names></string-name>. <article-title>How to select covariates to include in the analysis of a clinical trial</article-title>. <source>Control Clin Trials</source>. <year>2000</year>;<volume>21</volume>:<fpage>330</fpage>‐<lpage>342</lpage>.<pub-id pub-id-type="pmid">10913808</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="sim9818-bib-0009">
+                <label>9</label>
+                <mixed-citation publication-type="miscellaneous" id="sim9818-cit-0009"><article-title>Committee for Medicinal Products for Human Use. Guideline on adjustment for baseline covariates in clinical trials</article-title>. <ext-link xlink:href="https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-adjustment-baseline-covariates-clinical-trials_en.pdf" ext-link-type="uri">https://www.ema.europa.eu/en/documents/scientific‐guideline/guideline‐adjustment‐baseline‐covariates‐clinical‐trials_en.pdf</ext-link>; 2015. Accessed 20 October 2021</mixed-citation>
+              </ref>
+              <ref id="sim9818-bib-0010">
+                <label>10</label>
+                <mixed-citation publication-type="journal" id="sim9818-cit-0010"><string-name><surname>Kahan</surname><given-names>BC</given-names></string-name>, <string-name><surname>Morris</surname><given-names>TP</given-names></string-name>. <article-title>Improper analysis of trials randomised using stratified blocks or minimisation</article-title>. <source>Stat Med</source>. <year>2012</year>;<volume>31</volume>:<fpage>328</fpage>‐<lpage>340</lpage>.<pub-id pub-id-type="pmid">22139891</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="sim9818-bib-0011">
+                <label>11</label>
+                <mixed-citation publication-type="journal" id="sim9818-cit-0011"><string-name><surname>Shao</surname><given-names>J</given-names></string-name>, <string-name><surname>Yu</surname><given-names>X</given-names></string-name>, <string-name><surname>Zhong</surname><given-names>B</given-names></string-name>. <article-title>A theory for testing hypotheses under covariate‐adaptive randomization</article-title>. <source>Biometrika</source>. <year>2010</year>;<volume>97</volume>:<fpage>347</fpage>‐<lpage>360</lpage>.</mixed-citation>
+              </ref>
+              <ref id="sim9818-bib-0012">
+                <label>12</label>
+                <mixed-citation publication-type="journal" id="sim9818-cit-0012"><string-name><surname>Yelland</surname><given-names>LN</given-names></string-name>, <string-name><surname>Sullivan</surname><given-names>TR</given-names></string-name>, <string-name><surname>Voysey</surname><given-names>M</given-names></string-name>, <string-name><surname>Lee</surname><given-names>KJ</given-names></string-name>, <string-name><surname>Cook</surname><given-names>JA</given-names></string-name>, <string-name><surname>Forbes</surname><given-names>AB</given-names></string-name>. <article-title>Applying the intention‐to‐treat principle in practice: guidance on handling randomisation errors</article-title>. <source>Clin Trials</source>. <year>2015</year>;<volume>12</volume>:<fpage>418</fpage>‐<lpage>423</lpage>.<pub-id pub-id-type="pmid">26033877</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="sim9818-bib-0013">
+                <label>13</label>
+                <mixed-citation publication-type="journal" id="sim9818-cit-0013"><string-name><surname>Ke</surname><given-names>CL</given-names></string-name>, <string-name><surname>Wang</surname><given-names>JM</given-names></string-name>, <string-name><surname>Zhang</surname><given-names>C</given-names></string-name>, <string-name><surname>Jiang</surname><given-names>Q</given-names></string-name>, <string-name><surname>Snapinn</surname><given-names>S</given-names></string-name>. <article-title>On errors in stratified randomization</article-title>. <source>Stat Biopharm Res</source>. <year>2017</year>;<volume>9</volume>:<fpage>225</fpage>‐<lpage>233</lpage>.</mixed-citation>
+              </ref>
+              <ref id="sim9818-bib-0014">
+                <label>14</label>
+                <mixed-citation publication-type="journal" id="sim9818-cit-0014"><string-name><surname>Fan</surname><given-names>L</given-names></string-name>, <string-name><surname>Yeatts</surname><given-names>SD</given-names></string-name>, <string-name><surname>Wolf</surname><given-names>BJ</given-names></string-name>, <string-name><surname>McClure</surname><given-names>LA</given-names></string-name>, <string-name><surname>Selim</surname><given-names>M</given-names></string-name>, <string-name><surname>Palesch</surname><given-names>YY</given-names></string-name>. <article-title>The impact of covariate misclassification using generalized linear regression under covariate‐adaptive randomization</article-title>. <source>Stat Methods Med Res</source>. <year>2018</year>;<volume>27</volume>:<fpage>20</fpage>‐<lpage>34</lpage>.<pub-id pub-id-type="pmid">26596352</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="sim9818-bib-0015">
+                <label>15</label>
+                <mixed-citation publication-type="journal" id="sim9818-cit-0015"><string-name><surname>Wang</surname><given-names>T</given-names></string-name>, <string-name><surname>Ma</surname><given-names>W</given-names></string-name>. <article-title>The impact of misclassification on covariate‐adaptive randomized clinical trials</article-title>. <source>Biometrics</source>. <year>2021</year>;<volume>77</volume>:<fpage>451</fpage>‐<lpage>464</lpage>.<pub-id pub-id-type="pmid">32453885</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="sim9818-bib-0016">
+                <label>16</label>
+                <mixed-citation publication-type="journal" id="sim9818-cit-0016"><string-name><surname>White</surname><given-names>IR</given-names></string-name>. <article-title>Simsum: analyses of simulation studies including Monte Carlo error</article-title>. <source>Stata J</source>. <year>2010</year>;<volume>10</volume>:<fpage>369</fpage>‐<lpage>385</lpage>.</mixed-citation>
+              </ref>
+              <ref id="sim9818-bib-0017">
+                <label>17</label>
+                <mixed-citation publication-type="journal" id="sim9818-cit-0017"><string-name><surname>Morris</surname><given-names>TP</given-names></string-name>, <string-name><surname>White</surname><given-names>IR</given-names></string-name>, <string-name><surname>Crowther</surname><given-names>MJ</given-names></string-name>. <article-title>Using simulation studies to evaluate statistical methods</article-title>. <source>Stat Med</source>. <year>2019</year>;<volume>38</volume>:<fpage>2074</fpage>‐<lpage>2102</lpage>.<pub-id pub-id-type="pmid">30652356</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="sim9818-bib-0018">
+                <label>18</label>
+                <mixed-citation publication-type="journal" id="sim9818-cit-0018"><string-name><surname>Edwards</surname><given-names>MO</given-names></string-name>, <string-name><surname>Kotecha</surname><given-names>SJ</given-names></string-name>, <string-name><surname>Lowe</surname><given-names>J</given-names></string-name>, <string-name><surname>Watkins</surname><given-names>WJ</given-names></string-name>, <string-name><surname>Henderson</surname><given-names>AJ</given-names></string-name>, <string-name><surname>Kotecha</surname><given-names>S</given-names></string-name>. <article-title>Effect of preterm birth on exercise capacity: a systematic review and meta‐analysis</article-title>. <source>Pediatr Pulmonol</source>. <year>2015</year>;<volume>50</volume>:<fpage>293</fpage>‐<lpage>301</lpage>.<pub-id pub-id-type="pmid">29889363</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="sim9818-bib-0019">
+                <label>19</label>
+                <mixed-citation publication-type="journal" id="sim9818-cit-0019"><string-name><surname>Johnson</surname><given-names>MJ</given-names></string-name>, <string-name><surname>Wootton</surname><given-names>SA</given-names></string-name>, <string-name><surname>Leaf</surname><given-names>AA</given-names></string-name>, <string-name><surname>Jackson</surname><given-names>AA</given-names></string-name>. <article-title>Preterm birth and body composition at term equivalent age: a systematic review and meta‐analysis</article-title>. <source>Pediatrics</source>. <year>2012</year>;<volume>130</volume>:<fpage>e640</fpage>‐<lpage>e649</lpage>.<pub-id pub-id-type="pmid">22891222</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="sim9818-bib-0020">
+                <label>20</label>
+                <mixed-citation publication-type="journal" id="sim9818-cit-0020"><string-name><surname>Kotecha</surname><given-names>SJ</given-names></string-name>, <string-name><surname>Edwards</surname><given-names>MO</given-names></string-name>, <string-name><surname>Watkins</surname><given-names>WJ</given-names></string-name>, et al. <article-title>Effect of preterm birth on later FEV1: a systematic review and meta‐analysis</article-title>. <source>Thorax</source>. <year>2013</year>;<volume>68</volume>:<fpage>760</fpage>‐<lpage>766</lpage>.<pub-id pub-id-type="pmid">23604458</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="sim9818-bib-0021">
+                <label>21</label>
+                <mixed-citation publication-type="journal" id="sim9818-cit-0021"><string-name><surname>Markopoulou</surname><given-names>P</given-names></string-name>, <string-name><surname>Papanikolaou</surname><given-names>E</given-names></string-name>, <string-name><surname>Analytis</surname><given-names>A</given-names></string-name>, <string-name><surname>Zoumakis</surname><given-names>E</given-names></string-name>, <string-name><surname>Siahanidou</surname><given-names>T</given-names></string-name>. <article-title>Preterm birth as a risk factor for metabolic syndrome and cardiovascular disease in adult life: a systematic review and meta‐analysis</article-title>. <source>J Pediatr</source>. <year>2019</year>;<volume>210</volume>:<fpage>69</fpage>‐<lpage>80</lpage>.<pub-id pub-id-type="pmid">30992219</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="sim9818-bib-0022">
+                <label>22</label>
+                <mixed-citation publication-type="journal" id="sim9818-cit-0022"><string-name><surname>Dodd</surname><given-names>JM</given-names></string-name>, <string-name><surname>Deussen</surname><given-names>AR</given-names></string-name>, <string-name><surname>Louise</surname><given-names>J</given-names></string-name>. <article-title>A randomised trial to Optimise gestational weight gain and improve maternal and infant health outcomes through antenatal dietary, lifestyle and exercise advice: the OPTIMISE randomised trial</article-title>. <source>Nutrients</source>. <year>2019</year>;<volume>11</volume>(<issue>12</issue>):<fpage>2911</fpage>.<pub-id pub-id-type="pmid">31810217</pub-id></mixed-citation>
+              </ref>
+              <ref id="sim9818-bib-0023">
+                <label>23</label>
+                <mixed-citation publication-type="journal" id="sim9818-cit-0023"><string-name><surname>Gustafson</surname><given-names>P</given-names></string-name>, <string-name><surname>Le Nhu</surname><given-names>D</given-names></string-name>. <article-title>Comparing the effects of continuous and discrete covariate mismeasurement, with emphasis on the dichotomization of mismeasured predictors</article-title>. <source>Biometrics</source>. <year>2002</year>;<volume>58</volume>:<fpage>878</fpage>‐<lpage>887</lpage>.<pub-id pub-id-type="pmid">12495142</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="sim9818-bib-0024">
+                <label>24</label>
+                <mixed-citation publication-type="journal" id="sim9818-cit-0024"><string-name><surname>Parzen</surname><given-names>M</given-names></string-name>, <string-name><surname>Lipsitz</surname><given-names>SR</given-names></string-name>, <string-name><surname>Dear</surname><given-names>KBG</given-names></string-name>. <article-title>Does clustering affect the usual test statistics of no treatment effect in a randomized clinical trial?</article-title><source>Biom J</source>. <year>1998</year>;<volume>40</volume>:<fpage>385</fpage>‐<lpage>402</lpage>.</mixed-citation>
+              </ref>
+              <ref id="sim9818-bib-0025">
+                <label>25</label>
+                <mixed-citation publication-type="journal" id="sim9818-cit-0025"><string-name><surname>Robinson</surname><given-names>LD</given-names></string-name>, <string-name><surname>Jewell</surname><given-names>NP</given-names></string-name>. <article-title>Some surprising results about covariate adjustment in logistic regression models</article-title>. <source>Int Stat Rev</source>. <year>1991</year>;<volume>59</volume>:<fpage>227</fpage>‐<lpage>240</lpage>.</mixed-citation>
+              </ref>
+              <ref id="sim9818-bib-0026">
+                <label>26</label>
+                <mixed-citation publication-type="journal" id="sim9818-cit-0026"><string-name><surname>Kahan</surname><given-names>BC</given-names></string-name>, <string-name><surname>Morris</surname><given-names>TP</given-names></string-name>. <article-title>Analysis of multicentre trials with continuous outcomes: when and how should we account for Centre effects?</article-title><source>Stat Med</source>. <year>2013</year>;<volume>32</volume>:<fpage>1136</fpage>‐<lpage>1149</lpage>.<pub-id pub-id-type="pmid">23112128</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="sim9818-bib-0027">
+                <label>27</label>
+                <mixed-citation publication-type="journal" id="sim9818-cit-0027"><string-name><surname>Ma</surname><given-names>W</given-names></string-name>, <string-name><surname>Tu</surname><given-names>F</given-names></string-name>, <string-name><surname>Liu</surname><given-names>H</given-names></string-name>. <article-title>Regression analysis for covariate‐adaptive randomization: a robust and efficient inference perspective</article-title>. <source>Stat Med</source>. <year>2020</year>;<volume>41</volume>:<fpage>5645</fpage>‐<lpage>5661</lpage>.</mixed-citation>
+              </ref>
+              <ref id="sim9818-bib-0028">
+                <label>28</label>
+                <mixed-citation publication-type="journal" id="sim9818-cit-0028"><string-name><surname>Kahan</surname><given-names>BC</given-names></string-name>, <string-name><surname>Forbes</surname><given-names>G</given-names></string-name>, <string-name><surname>Cro</surname><given-names>S</given-names></string-name>. <article-title>How to design a pre‐specified statistical analysis approach to limit p‐hacking in clinical trials: the pre‐SPEC framework</article-title>. <source>BMC Med</source>. <year>2020</year>;<volume>18</volume>:<fpage>253</fpage>.<pub-id pub-id-type="pmid">32892743</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

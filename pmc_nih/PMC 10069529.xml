@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T02:33:58Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:10069529" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:10069529</identifier>
+        <datestamp>2023-04-04</datestamp>
+        <setSpec>bmjo</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">BMJ Open</journal-id>
+              <journal-id journal-id-type="iso-abbrev">BMJ Open</journal-id>
+              <journal-id journal-id-type="hwp">bmjopen</journal-id>
+              <journal-id journal-id-type="publisher-id">bmjopen</journal-id>
+              <journal-title-group>
+                <journal-title>BMJ Open</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2044-6055</issn>
+              <publisher>
+                <publisher-name>BMJ Publishing Group</publisher-name>
+                <publisher-loc>BMA House, Tavistock Square, London, WC1H 9JR</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC10069529</article-id>
+              <article-id pub-id-type="pmcid">PMC10069529</article-id>
+              <article-id pub-id-type="pmc-uid">10069529</article-id>
+              <article-id pub-id-type="pmid">36990492</article-id>
+              <article-id pub-id-type="pmid">36990492</article-id>
+              <article-id pub-id-type="publisher-id">bmjopen-2022-068173</article-id>
+              <article-id pub-id-type="doi">10.1136/bmjopen-2022-068173</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Medical Publishing and Peer Review</subject>
+                </subj-group>
+                <subj-group subj-group-type="hwp-journal-coll">
+                  <subject>1506</subject>
+                  <subject>1711</subject>
+                </subj-group>
+                <series-title>Protocol</series-title>
+              </article-categories>
+              <title-group>
+                <article-title>SPIRIT and CONSORT extensions for early phase dose-finding clinical trials: the DEFINE (DosE-FIndiNg Extensions) study protocol</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib id="author-101246016" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-1271-302X</contrib-id>
+                  <name>
+                    <surname>Espinasse</surname>
+                    <given-names>Aude</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib id="author-101346907" contrib-type="author">
+                  <name>
+                    <surname>Solovyeva</surname>
+                    <given-names>Olga</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib id="author-31068396" contrib-type="author">
+                  <name>
+                    <surname>Dimairo</surname>
+                    <given-names>Munyaradzi</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib id="author-22055900" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-6494-4903</contrib-id>
+                  <name>
+                    <surname>Weir</surname>
+                    <given-names>Christopher</given-names>
+                  </name>
+                  <xref rid="aff3" ref-type="aff">3</xref>
+                </contrib>
+                <contrib id="author-101394727" contrib-type="author">
+                  <name>
+                    <surname>Jaki</surname>
+                    <given-names>Thomas</given-names>
+                  </name>
+                  <xref rid="aff4" ref-type="aff">4</xref>
+                  <xref rid="aff5" ref-type="aff">5</xref>
+                </contrib>
+                <contrib id="author-101347031" contrib-type="author">
+                  <name>
+                    <surname>Mander</surname>
+                    <given-names>Adrian</given-names>
+                  </name>
+                  <xref rid="aff6" ref-type="aff">6</xref>
+                </contrib>
+                <contrib id="author-101347064" contrib-type="author">
+                  <name>
+                    <surname>Kightley</surname>
+                    <given-names>Andrew</given-names>
+                  </name>
+                  <xref rid="aff7" ref-type="aff">7</xref>
+                </contrib>
+                <contrib id="author-101347126" contrib-type="author">
+                  <name>
+                    <surname>Evans</surname>
+                    <given-names>Jeffry</given-names>
+                  </name>
+                  <xref rid="aff8" ref-type="aff">8</xref>
+                </contrib>
+                <contrib id="author-101347159" contrib-type="author">
+                  <name>
+                    <surname>Lee</surname>
+                    <given-names>Shing</given-names>
+                  </name>
+                  <xref rid="aff9" ref-type="aff">9</xref>
+                </contrib>
+                <contrib id="author-101347206" contrib-type="author">
+                  <name>
+                    <surname>Bedding</surname>
+                    <given-names>Alun</given-names>
+                  </name>
+                  <xref rid="aff10" ref-type="aff">10</xref>
+                </contrib>
+                <contrib id="author-27632628" contrib-type="author">
+                  <name>
+                    <surname>Hopewell</surname>
+                    <given-names>Sally</given-names>
+                  </name>
+                  <xref rid="aff11" ref-type="aff">11</xref>
+                </contrib>
+                <contrib id="author-101347244" contrib-type="author">
+                  <name>
+                    <surname>Rantell</surname>
+                    <given-names>Khadija</given-names>
+                  </name>
+                  <xref rid="aff12" ref-type="aff">12</xref>
+                </contrib>
+                <contrib id="author-101347307" contrib-type="author">
+                  <name>
+                    <surname>Liu</surname>
+                    <given-names>Rong</given-names>
+                  </name>
+                  <xref rid="aff13" ref-type="aff">13</xref>
+                </contrib>
+                <contrib id="author-20410114" contrib-type="author">
+                  <name>
+                    <surname>Chan</surname>
+                    <given-names>An-Wen</given-names>
+                  </name>
+                  <xref rid="aff14" ref-type="aff">14</xref>
+                </contrib>
+                <contrib id="author-85518475" contrib-type="author">
+                  <name>
+                    <surname>De Bono</surname>
+                    <given-names>Johann</given-names>
+                  </name>
+                  <xref rid="aff15" ref-type="aff">15</xref>
+                  <xref rid="aff16" ref-type="aff">16</xref>
+                </contrib>
+                <contrib id="author-70840341" contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-6715-2514</contrib-id>
+                  <name>
+                    <surname>Yap</surname>
+                    <given-names>Christina</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1"><label>1</label><institution content-type="department">Clinical Trial and Statistical Unit</institution>, <institution specific-use="Ringgold_117534">Institute of Cancer Research Sutton</institution>, <addr-line content-type="city">London</addr-line>, <country>UK</country></aff>
+              <aff id="aff2"><label>2</label><institution content-type="department">School of Health and Related Research</institution>, <institution specific-use="Ringgold_7315">The University of Sheffield</institution>, <addr-line content-type="city">Sheffield</addr-line>, <country>UK</country></aff>
+              <aff id="aff3"><label>3</label><institution content-type="department">Edinburgh Clinical Trials Unit</institution>, <institution>University of Edinburgh, Usher Institute</institution>, <addr-line content-type="city">Edinburgh</addr-line>, <country>UK</country></aff>
+              <aff id="aff4"><label>4</label><institution content-type="department">Computational Statistics Group, Department of Informatics and Data Science</institution>, <institution specific-use="Ringgold_9147">University of Regensburg</institution>, <addr-line content-type="city">Regensburg</addr-line>, <country>Germany</country></aff>
+              <aff id="aff5"><label>5</label><institution content-type="department">MRC Biostatistics Unit</institution>, <institution specific-use="Ringgold_2152">University of Cambridge</institution>, <addr-line content-type="city">Cambridge</addr-line>, <country>UK</country></aff>
+              <aff id="aff6"><label>6</label><institution specific-use="Ringgold_475118">Cardiff University Centre for Trials Research</institution>, <addr-line content-type="city">Cardiff</addr-line>, <country>UK</country></aff>
+              <aff id="aff7"><label>7</label><institution>Patient and Public Involvement Lead</institution>, <addr-line content-type="city">Lichfield</addr-line>, <country>UK</country></aff>
+              <aff id="aff8"><label>8</label><institution content-type="department">Institute of Cancer Sciences</institution>, <institution specific-use="Ringgold_3526">University of Glasgow</institution>, <addr-line content-type="city">Glasgow</addr-line>, <country>UK</country></aff>
+              <aff id="aff9"><label>9</label><institution specific-use="Ringgold_5798">Columbia University</institution>, <addr-line content-type="city">New York</addr-line>, <addr-line content-type="state">New York</addr-line>, <country>USA</country></aff>
+              <aff id="aff10"><label>10</label><institution content-type="department">Data and Statistical Sciences Department</institution>, <institution specific-use="Ringgold_8502">Roche Products Ltd</institution>, <addr-line content-type="city">Welwyn Garden City</addr-line>, <country>UK</country></aff>
+              <aff id="aff11"><label>11</label><institution content-type="department">Centre for Statistics in Medicine, Oxford Clinical Trials Unit</institution>, <institution specific-use="Ringgold_6396">University of Oxford</institution>, <addr-line content-type="city">Oxford</addr-line>, <country>UK</country></aff>
+              <aff id="aff12"><label>12</label><institution specific-use="Ringgold_9059">Medicines and Healthcare Products Regulatory Agency</institution>, <addr-line content-type="city">London</addr-line>, <country>UK</country></aff>
+              <aff id="aff13"><label>13</label><institution content-type="department">Biostatistics Department</institution>, <institution specific-use="Ringgold_3971">Bristol-Myers Squibb Co</institution>, <addr-line content-type="city">New York</addr-line>, <addr-line content-type="state">New York</addr-line>, <country>USA</country></aff>
+              <aff id="aff14"><label>14</label><institution content-type="department">Department of Medicine, Women's College Research Institute</institution>, <institution specific-use="Ringgold_7938">University of Toronto</institution>, <addr-line content-type="city">Toronto</addr-line>, <addr-line content-type="state">Ontario</addr-line>, <country>Canada</country></aff>
+              <aff id="aff15"><label>15</label><institution specific-use="Ringgold_280081">Institute of Cancer Research</institution>, <addr-line content-type="city">London</addr-line>, <country>UK</country></aff>
+              <aff id="aff16"><label>16</label><institution>Royal Marsden Hospital</institution>, <addr-line content-type="city">London</addr-line>, <country>UK</country></aff>
+              <author-notes>
+                <corresp><label>Correspondence to</label> Prof Christina Yap; <email>christina.yap@icr.ac.uk</email></corresp>
+                <fn fn-type="other">
+                  <p>AE and OS are joint first authors.</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <year>2023</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>28</day>
+                <month>3</month>
+                <year>2023</year>
+              </pub-date>
+              <volume>13</volume>
+              <issue>3</issue>
+              <elocation-id>e068173</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>08</day>
+                  <month>9</month>
+                  <year>2022</year>
+                </date>
+                <date date-type="accepted">
+                  <day>13</day>
+                  <month>3</month>
+                  <year>2023</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© Author(s) (or their employer(s)) 2023. Re-use permitted under CC BY. Published by BMJ.</copyright-statement>
+                <copyright-year>2023</copyright-year>
+                <ali:free_to_read/>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense" start_date="2023-03-28">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>This is an open access article distributed in accordance with the Creative Commons Attribution 4.0 Unported (CC BY 4.0) license, which permits others to copy, redistribute, remix, transform and build upon this work for any purpose, provided the original work is properly cited, a link to the licence is given, and indication of whether changes were made. See: <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:title="pdf" xlink:href="bmjopen-2022-068173.pdf"/>
+              <self-uri content-type="reviewers-comments-pdf" xlink:href="bmjopen-2022-068173.reviewer_comments.pdf"/>
+              <self-uri content-type="draft-revisions-pdf" xlink:href="bmjopen-2022-068173.draft_revisions.pdf"/>
+              <abstract>
+                <sec>
+                  <title>Introduction</title>
+                  <p>Early phase dose-finding (EPDF) studies are critical for the development of new treatments, directly influencing whether compounds or interventions can be investigated in further trials to confirm their safety and efficacy. There exists guidance for clinical trial protocols and reporting of completed trials in the Standard Protocol Items: Recommendations for Interventional Trials (SPIRIT) 2013 and CONsolidated Standards Of Reporting Randomised Trials (CONSORT) 2010 statements. However, neither the original statements nor their extensions adequately cover the specific features of EPDF trials. The DEFINE (DosE-FIndiNg Extensions) study aims to enhance transparency, completeness, reproducibility and interpretation of EPDF trial protocols (SPIRIT-DEFINE) and their reports once completed (CONSORT-DEFINE), across all disease areas, building on the original SPIRIT 2013 and CONSORT 2010 statements.</p>
+                </sec>
+                <sec>
+                  <title>Methods and analysis</title>
+                  <p>A methodological review of published EPDF trials will be conducted to identify features and deficiencies in reporting and inform the initial generation of the candidate items. The early draft checklists will be enriched through a review of published and grey literature, real-world examples analysis, citation and reference searches and consultation with international experts, including regulators and journal editors. Development of CONSORT-DEFINE commenced in March 2021, followed by SPIRIT-DEFINE from January 2022. A modified Delphi process, involving worldwide, multidisciplinary and cross-sector key stakeholders, will be run to refine the checklists. An international consensus meeting in autumn 2022 will finalise the list of items to be included in both guidance extensions.</p>
+                </sec>
+                <sec>
+                  <title>Ethics and dissemination</title>
+                  <p>This project was approved by ICR’s Committee for Clinical Research. The Health Research Authority confirmed Research Ethics Approval is not required. The dissemination strategy aims to maximise guideline awareness and uptake, including but not limited to dissemination in stakeholder meetings, conferences, peer-reviewed publications and on the EQUATOR Network and DEFINE study websites.</p>
+                </sec>
+                <sec>
+                  <title>Registration details</title>
+                  <p>SPIRIT-DEFINE and CONSORT-DEFINE are registered with the EQUATOR Network.</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>EDUCATION &amp; TRAINING (see Medical Education &amp; Training)</kwd>
+                <kwd>STATISTICS &amp; RESEARCH METHODS</kwd>
+                <kwd>Protocols &amp; guidelines</kwd>
+              </kwd-group>
+              <funding-group specific-use="FundRef">
+                <award-group id="funding-1">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>Medical Research Council - National Institute for Health and Care Research</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>MR/T044934/1</award-id>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>special-feature</meta-name>
+                  <meta-value>unlocked</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <boxed-text id="BX1" position="float">
+              <caption>
+                <title>STRENGTHS AND LIMITATIONS OF THIS STUDY</title>
+              </caption>
+              <list list-type="bullet">
+                <list-item>
+                  <p>This study will develop international consensus-driven Standard Protocol Items: Recommendations for Interventional Trials (SPIRIT) and CONsolidated Standards Of Reporting Randomised Trials (CONSORT) extensions using a gold standard methodological framework, for early phase dose-finding clinical trials across all disease areas and regardless of trial design used.</p>
+                </list-item>
+                <list-item>
+                  <p>A multidisciplinary international team of experts in both academia and pharmaceutical industry, regulators, SPIRIT and CONSORT group representatives and a patient partner has been brought together to drive the delivery of the project.</p>
+                </list-item>
+                <list-item>
+                  <p>A diverse group of stakeholders, including clinical trial researchers, regulators, ethics committee members, journal editors, funders and funding committee members, and patients and public advocates, will be involved in the Delphi survey and consensus meeting.</p>
+                </list-item>
+                <list-item>
+                  <p>The scope of our guidelines does not specifically cover early phase trials with only one dosing regimen or later phase dose-finding trials with dose (de-)escalations; however, we would expect the basic principles may still be applicable.</p>
+                </list-item>
+                <list-item>
+                  <p>The consensus meeting discussions will not be anonymous, which may impact the flow of dialogue; however, the voting process to determine the inclusion of items will be anonymous.</p>
+                </list-item>
+              </list>
+            </boxed-text>
+            <sec sec-type="intro" id="s1">
+              <title>Introduction</title>
+              <sec id="s1-1">
+                <title>Background</title>
+                <p>Early phase dose-finding (EPDF) or dose-escalation trials, also referred to as phase I or phase I/II, are critical in clinical therapy development. Depending on the drug and endpoint of interest, the studies may be conducted in healthy volunteers or patients with the condition or disease. These studies involve interim dose decisions and may provide data on safety, adverse effects, pharmacokinetics (characterisation of a drug’s absorption, distribution, metabolism, and excretion), pharmacodynamics, biomarker activity, clinical activity and other information needed to choose a suitable dosage range and/or administration schedule to inform further studies. Results from these trials directly influence decisions on further development and whether the selected doses and schedules are sufficiently safe and have promising results on activity.</p>
+                <p>A clinical trial protocol is a vital document that details the study rationale, methods, organisation and ethical considerations.<xref rid="R1" ref-type="bibr">1</xref> By providing the details to guide the conduct of a high-quality study, a well-written protocol is a shared central reference for the study teams<xref rid="R2" ref-type="bibr">2 3</xref> and facilitates appraisal of its scientific, methodological, safety and ethical rigour by external reviewers. However, protocols can vary greatly in content and quality despite their importance.<xref rid="R2" ref-type="bibr">2 3</xref> To address this, the Standard Protocol Items: Recommendations for Interventional Trials (SPIRIT) 2013<xref rid="R2" ref-type="bibr">2</xref> statement was established to provide evidence-based guidance for the minimum essential content of clinical trial protocols and is widely endorsed as the international standard for trial protocols. Although the considerations of SPIRIT 2013 are largely applicable across many types of trials, some circumstances require additional items.<xref rid="R2" ref-type="bibr">2</xref> Guidance on content specific to EPDF trials, including dose and schedule determination based on safety/tolerability either alone or with one or more pharmacokinetic or activity markers, is lacking. Examples of features unique to such trials include:</p>
+                <list list-type="bullet">
+                  <list-item>
+                    <p>Starting dose and its justification.</p>
+                  </list-item>
+                  <list-item>
+                    <p>How interim dose decisions will be undertaken (including clearly defined outcome measures and their assessment window, and analysis populations for interim adaptations).</p>
+                  </list-item>
+                  <list-item>
+                    <p>How future recommended dose(s) will be selected.</p>
+                  </list-item>
+                </list>
+                <p>Incomplete or unclear information on the design, conduct and analysis in EPDF trial protocols and reporting papers hinders the interpretability and reproducibility of the results from such studies, which may impact the overall clinical development timeline, lead to erroneous conclusions on safety and efficacy, and compromise the safety of trial participants.<xref rid="R4" ref-type="bibr">4</xref></p>
+                <p>This is particularly relevant as a considerable number of early phase trials are sponsored and run by academic institutions or publicly funded organisations with funding from non-commercial sources, including Research Councils and medical charities (eg, Cancer Research UK, Wellcome Trust, US National Cancer Institute). In the UK, 159 out of 1157 (14%) phase I clinical trials, started in 2014–2018, had non-industry sponsors (data from ClinicalTrials.gov). This emphasises the importance of this research to public research institutions and industry alike. Based on results from ClinicalTrials.gov of trials in all countries, there are substantially more phase I trials than phase III trials (13 826 phase I vs 9501 phase III which started in 2014–2018). Data from pharmaceutical trials in the USA in 2004–2012 show that the estimated average cost of a phase I trial across all therapeutic areas ranged from US$1.4 to US$6.6 million<xref rid="R5" ref-type="bibr">5</xref>; such high costs reinforce the importance of managing resources efficiently. The attrition rate throughout the drug development process is high, and the success rate between phase I studies and marketing authorisation has been reported as between 9.8% and 13.8%,<xref rid="R6" ref-type="bibr">6 7</xref> with failure being primarily attributable to either poor tolerability or lack of biological activity (79% of failed studies over the period 2016–2018).<xref rid="R8" ref-type="bibr">8</xref> In this context, EPDF trial results must be assessed accurately to avoid poor dose selection, which will often lead to failed trials (phases II and phase III), delays in regulatory submissions, additional postmarketing commitments or dose changes postapproval due to excessive toxicities or lack of efficacy.<xref rid="R9" ref-type="bibr">9</xref></p>
+                <p>The use of more complex dose-escalation designs such as model-assisted or model-based designs is rising: 1.6% (20/1235 phase I published cancer trials) in 1991–2006<xref rid="R10" ref-type="bibr">10</xref> to 6.4% (11/172) by 2012–2014.<xref rid="R11" ref-type="bibr">11</xref> Such designs are more complex to implement<xref rid="R12" ref-type="bibr">12–14</xref> and require the specification of more design features.<xref rid="R15" ref-type="bibr">15</xref> Further transparency and reporting demands are needed in such protocols and trial reports to facilitate understanding of the design, ensure the methods and results are reproducible, and explain how dose decisions will be and have been made.<xref rid="R16" ref-type="bibr">16–18</xref></p>
+                <p>More than 580 biomedical journals now require that trial reports conform to the CONsolidated Standards Of Reporting Randomised Trials (CONSORT) 2010 reporting guidelines for randomised parallel group clinical trials or an appropriate CONSORT extension to improve transparency, reproducibility, consistency and accuracy in reporting.<xref rid="R19" ref-type="bibr">19–21</xref> A total of 153 journals, as well as a growing number of commercial and non-commercial funders, regulators, trial organisations and patient groups, have also endorsed SPIRIT.<xref rid="R22" ref-type="bibr">22</xref> A systematic review based on more than 16 000 trials published in 2012 showed that journal endorsement of the CONSORT guidelines was associated with more completely reported randomised trials.<xref rid="R23" ref-type="bibr">23</xref></p>
+                <p>Neither the original guidance, SPIRIT 2013 and CONSORT 2010, nor their extensions adequately cover the features of EPDF trials. The DosE-FIndiNg Extensions (DEFINE) study aims to enhance transparency, completeness, reproducibility and interpretation of EPDF trial protocols and their reporting of results, across all disease areas, and to build on the checklists outlined in the SPIRIT 2013 and CONSORT 2010 statements.</p>
+              </sec>
+              <sec id="s1-2">
+                <title>Overall aim</title>
+                <p>The aim of this research is to develop and disseminate an extension to the SPIRIT 2013 and CONSORT 2010 statements tailored to the specific requirements of EPDF clinical trials across all disease areas.<xref rid="R24" ref-type="bibr">24</xref> The full study protocols are accessible on the Enhancing the QUAlity and Transparency Of health Research (EQUATOR) website.<xref rid="R25" ref-type="bibr">25 26</xref></p>
+              </sec>
+            </sec>
+            <sec sec-type="methods" id="s2">
+              <title>Methods and analysis</title>
+              <p>The strategy for the development of reporting guidelines follows the gold-standard methodology framework for guideline development recommended by the EQUATOR network.<xref rid="R27" ref-type="bibr">27</xref> To ensure the guidance is as impactful and widely adopted as possible, an international Executive Committee was formed, comprising a multidisciplinary team of methodologists, clinicians with expertise in early phase trials in both academia and pharmaceutical industry, a representative each from the SPIRIT and CONSORT groups and a patient and public partner, with planned active engagement with regulators. An independent multidisciplinary expert panel will provide oversight and quality control assurances.</p>
+              <p>Development of CONSORT-DEFINE commenced in March 2021, followed by SPIRIT-DEFINE from January 2022. <xref rid="F1" ref-type="fig">Figure 1</xref> illustrates the development process, and each stage will be addressed in detail below.</p>
+              <fig position="float" id="F1">
+                <label>Figure 1</label>
+                <caption>
+                  <p>Project overview for the development of SPIRIT-DEFINE and CONSORT-DEFINE guidelines. CONSORT, CONsolidated Standards Of Reporting Randomised Trials; SPIRIT, Standard Protocol Items: Recommendations for Interventional Trials; DEFINE, DosE-FIndiNg Extensions.</p>
+                </caption>
+                <graphic xlink:href="bmjopen-2022-068173f01" position="float"/>
+              </fig>
+              <sec id="s2-1">
+                <title>Stage 1: literature review and draft checklist generation</title>
+                <p>The objectives for this stage are to (A) explore current practice in EPDF trials reporting and identify gaps and (B) generate candidate items for CONSORT-DEFINE SPIRIT-DEFINE checklists.</p>
+                <sec id="s2-1-1">
+                  <title>Methodological review</title>
+                  <p>A methodological review<xref rid="R28" ref-type="bibr">28</xref> will be conducted to explore the current status of reporting of EPDF trials, identify gaps and specific features of EPDF trials not adequately covered by existing guidance, and inform the drafting of the checklist. The review will also serve in providing a sampling frame for some of the stakeholder categories for the Delphi survey (see the ‘Stage 2: Delphi survey section’). A random sample of 476 papers in EPDF trials published between 2011 and 2020, stratified by setting (oncology/non-oncology), will be evaluated. This sample size will provide a two-sided 95% CI for the reporting frequency of an individual item with a width of at most 9% (±4.5%) based on a conservative sample proportion of 0.5 (which gives the largest variance). To standardise the process, a detailed data extraction form and comprehensive guidance will be generated, and agreement between reviewers assessed.</p>
+                </sec>
+                <sec id="s2-1-2">
+                  <title>Candidate item generation</title>
+                  <p>Based on the results of the methodological review as well as expert opinion from the Executive Committee, items considered relevant to constituting a minimum set of reporting requirements will be identified as candidates items for CONSORT-DEFINE. A literature review of multiple databases (Medline via PubMed and Embase) will be performed, alongside grey literature and regulatory or industry guidelines, to identify relevant guidance. Recommendations will also be sought from experts, including regulatory bodies. The SPIRIT-DEFINE candidate item generation process is presented in <xref rid="F2" ref-type="fig">figure 2</xref> and described below.</p>
+                  <fig position="float" id="F2">
+                    <label>Figure 2</label>
+                    <caption>
+                      <p>SPIRIT-DEFINE candidate item generation development process. CONSORT, CONsolidated Standards Of Reporting Randomised Trials; SPIRIT, Standard Protocol Items: Recommendations for Interventional Trials; DosE-FIndiNg Extensions</p>
+                    </caption>
+                    <graphic xlink:href="bmjopen-2022-068173f02" position="float"/>
+                  </fig>
+                  <p>An initial draft of the SPIRIT-DEFINE candidate items will be prepared, building on the original SPIRIT 2013, and enriched by the candidate items identified as specific to EPDF trials from the CONSORT-DEFINE development work. The list will be refined through expert opinions from the Executive Committee, grey literature, including regulatory and industry guidance documents and protocol templates by professional groups. Key stakeholder groups identified in the CONSORT-DEFINE development protocol (clinical trials units, including Medicines and Healthcare products Regulatory Agency-accredited phase I units, funders and ethics committees) and experts from other protocol standard initiatives relevant to EPDF trials (eg, from trial registries) will be consulted and their templates included.</p>
+                  <p>Building on the review conducted for CONSORT-DEFINE, the search strategy will be updated to identify protocol recommendations in peer-reviewed literature. Relevant literature not picked up by the search strategy but recommended by experts will be included. Citation and reference searches of key articles will also be conducted. Throughout the stage one (draft checklist generation) process, the Executive Committee will refine the candidate items for both CONSORT-DEFINE and SPIRIT-DEFINE guidance.</p>
+                </sec>
+              </sec>
+              <sec id="s2-2">
+                <title>Stage 2: Delphi survey</title>
+                <p>The draft candidate items for the SPIRIT-DEFINE and CONSORT-DEFINE checklists will be submitted for feedback to a wider stakeholder group through a Delphi survey. The Delphi process will be conducted according to existing methodological guidance<xref rid="R29" ref-type="bibr">29–31</xref> and involves inviting participants to complete iterative rounds of a web-based survey, where results from earlier rounds will inform the design of subsequent rounds. Each candidate item will be scored on a 9-point Likert scale relating to the participant’s opinion of its importance, grouped into three categories: (1–3) ‘not important’, (4–6) ‘important but not critical’ and (7–9) ‘important and critical’. An option ‘unable to rate’ will be provided for participants who are unable to give their rating opinions for any reason. Free text fields will also be used to elicit comments on the candidate items, and in round 1, participants will also have the opportunity to suggest additional items.</p>
+                <p>The Executive Committee will discuss the results between each round and agree on any required changes (see the ‘Analysis’ section). The DEFINE Delphi survey will be hosted on the University of Liverpool’s DelphiManager, a purpose-built web-based platform and the Executive Committee will pilot the survey before launch.</p>
+                <sec id="s2-2-1">
+                  <title>Identification of participants</title>
+                  <p>A wide cross-section of stakeholders will be approached to take part in the Delphi survey. For this study, stakeholders will be considered to be direct users or beneficiaries of the guidance and those involved in research conduct, governance, approval, commissioning, funding or publishing EPDF trials.</p>
+                  <p>Potential participants will be approached through a combination of individual and group approaches through publicly available contact details and various professional organisations or advocacy groups and encouraged to disseminate the invitation further. Professional contacts of the Executive Committee experts will be contacted, and events and conferences used to garner participation. <xref rid="T1" ref-type="table">Table 1</xref> references the identified groups as well as contact platforms and organisations. The survey will also be advertised on social media, and a link provided on the DEFINE study website (<ext-link xlink:href="www.icr.ac.uk/DEFINEstudy" ext-link-type="uri">www.icr.ac.uk/DEFINEstudy</ext-link>).</p>
+                  <table-wrap position="float" id="T1">
+                    <label>Table 1</label>
+                    <caption>
+                      <p>Delphi survey stakeholders and methods of access</p>
+                    </caption>
+                    <table frame="hsides" rules="groups">
+                      <thead>
+                        <tr>
+                          <td align="left" valign="bottom" rowspan="1" colspan="1">Stakeholders</td>
+                          <td align="left" valign="bottom" rowspan="1" colspan="1">Platforms</td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Clinical trials researchers (including<break/>clinicians/clinical pharmacologists,<break/>trial management staff,<break/>statisticians,<break/>trial methodologists)</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">
+                            <list list-type="bullet">
+                              <list-item>
+                                <p>Medical Research Council-National Institute for Health and Care Research Trial Methodology Research Partnership (MRC-NIHR) (UK)</p>
+                              </list-item>
+                              <list-item>
+                                <p>UK Clinical Research Collaboration Network of Registered clinical trial Units</p>
+                              </list-item>
+                              <list-item>
+                                <p>Targeted conferences or organisations such as the Society for Clinical Trials, International Clinical Trials Methodology Conference, International Society for Clinical Biostatistics, Statisticians in the Pharmaceutical Industry, European Federation of Statisticians in the Pharmaceutical Industry, Drug Information Association</p>
+                              </list-item>
+                              <list-item>
+                                <p>Clinical Conferences such as the National Cancer Research Institute (NCRI) annual conference (NCRI), the European Society for Medical Oncology congress, American Society for Clinical Oncology, the Experimental Cancer Medicine Centres events, European Centre for Rare Diseases and orphan products</p>
+                              </list-item>
+                              <list-item>
+                                <p>Sponsors from industry (via organisations such as Pharmaceutical Research and Manufacturers of America in the US, European Federation of Pharmaceutical Industries and Associations in Europe) or the Association of British Pharmaceutical Industry</p>
+                              </list-item>
+                              <list-item>
+                                <p>Publications: Corresponding authors of papers selected for the Methodological review as well as papers identified but not sampled. If necessary, further searches without data limitation may be performed</p>
+                              </list-item>
+                              <list-item>
+                                <p>Executive Committee members’ professional contacts</p>
+                              </list-item>
+                              <list-item>
+                                <p>Targeted professional social network groups</p>
+                              </list-item>
+                            </list>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Regulators</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">
+                            <list list-type="bullet">
+                              <list-item>
+                                <p>US Food and Drug Administration</p>
+                              </list-item>
+                              <list-item>
+                                <p>European Medicines Agency</p>
+                              </list-item>
+                              <list-item>
+                                <p>UK Medicines and Healthcare products Regulatory Agency</p>
+                              </list-item>
+                              <list-item>
+                                <p>Japan Pharmaceuticals and Medical Devices Agency</p>
+                              </list-item>
+                              <list-item>
+                                <p>China National Medical Product Association Centre for Drug Evaluation.</p>
+                              </list-item>
+                              <list-item>
+                                <p>Australia Therapeutic Group Administration</p>
+                              </list-item>
+                              <list-item>
+                                <p>Drugs Controller General of India</p>
+                              </list-item>
+                              <list-item>
+                                <p>Health Products and Food Branch, Health Canada</p>
+                              </list-item>
+                              <list-item>
+                                <p>Ministry of Food and Drug Safety, South Korea</p>
+                              </list-item>
+                              <list-item>
+                                <p>Executive Committee members' professional contacts</p>
+                              </list-item>
+                            </list>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Ethics committee/ethicscommittee members</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">
+                            <list list-type="bullet">
+                              <list-item>
+                                <p>UK Health Research Authority (targeting Research Ethics Committees specialised in reviewing early phase trials)</p>
+                              </list-item>
+                              <list-item>
+                                <p>European Network of ethics Committees</p>
+                              </list-item>
+                              <list-item>
+                                <p>US Institutional Review Boards</p>
+                              </list-item>
+                              <list-item>
+                                <p>Australia Health Research Ethics Committees registered through the National Human Medical Research Council.</p>
+                              </list-item>
+                              <list-item>
+                                <p>India Institutional Ethics Committees</p>
+                              </list-item>
+                              <list-item>
+                                <p>Health Canada and Public Health Agency of Canada Research Ethics Board</p>
+                              </list-item>
+                              <list-item>
+                                <p>South Korea Institutes Review Board</p>
+                              </list-item>
+                              <list-item>
+                                <p>Executive Committee members’ professional contacts</p>
+                              </list-item>
+                            </list>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Journal editors, associate editors and conference abstracts review committee members</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">
+                            <list list-type="bullet">
+                              <list-item>
+                                <p>Leading medical research journals in publishing clinical trials, and targeted journals will be informed by journals where many phase I trials have been published (identified through Methodological review)</p>
+                              </list-item>
+                              <list-item>
+                                <p>International Committee of Medical Journal Editors</p>
+                              </list-item>
+                              <list-item>
+                                <p>Abstract review Committee members from leading conferences presenting phase one results (see above)</p>
+                              </list-item>
+                              <list-item>
+                                <p>Executive Committee members' professional contacts</p>
+                              </list-item>
+                            </list>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Funders/funding committee members</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">
+                            <list list-type="bullet">
+                              <list-item>
+                                <p>Funding panels such as MRC, NIHR, Cancer Research UK, Blood Cancer UK, Wellcome Trust, Bill &amp; Melinda Gates Foundation, Great Ormond Street Hospital and other selected charities funding phase one work as applicable</p>
+                              </list-item>
+                              <list-item>
+                                <p>USA National Institutes of Health</p>
+                              </list-item>
+                              <list-item>
+                                <p>Pharmaceutical companies</p>
+                              </list-item>
+                              <list-item>
+                                <p>Executive Committee members’ professional contacts</p>
+                              </list-item>
+                            </list>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Patients and public</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">
+                            <list list-type="bullet">
+                              <list-item>
+                                <p>Patient and Public engagement platforms</p>
+                              </list-item>
+                              <list-item>
+                                <p>European Patients’ forum <ext-link xlink:href="https://www.eu-patient.eu/" ext-link-type="uri">https://www.eu-patient.eu/</ext-link></p>
+                              </list-item>
+                              <list-item>
+                                <p>International disease-specific advocacy groups</p>
+                              </list-item>
+                              <list-item>
+                                <p>Patient representatives on phase one trials management groups (through Clinical Trials Units portfolios)</p>
+                              </list-item>
+                              <list-item>
+                                <p>Executive Committee members’ professional contacts</p>
+                              </list-item>
+                            </list>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </table-wrap>
+                  <p>Consent to take part will be sought via the web-based survey application. No personal identifiable data will be collected aside from name and email address. Data gathered will include professional background characteristics, including geographical location, self-identified stakeholder group (as defined in the ‘Identification of participants’ section), and years of experience in clinical research and early phase trials. Information on data processing and handling will be provided on the participant information sheet via email invitation and website.</p>
+                </sec>
+                <sec id="s2-2-2">
+                  <title>Sample size</title>
+                  <p>As this is a prospective exercise and a multi-faceted survey, the sample size was decided on pragmatically, to be both achievable and ensure a meaningful representation of all the stakeholder categories. The survey will seek to obtain responses from at least 15 participants in each of the identified stakeholder categories, giving an overall target of at least 90 participants. To achieve this, as many potential participants as possible will be approached, identified through the authors list from the methodological review, approaches from professionals following professional meetings and presentations, as well as recommendations from the Executive Committee and independent expert panel. The registration and survey response rates, overall and by stakeholder category and country, will be monitored by the Executive Committee. If a low rate of intake or response is observed, targeted further approaches will be made as appropriate.</p>
+                </sec>
+                <sec id="s2-2-3">
+                  <title>Survey administration</title>
+                  <p>Potential participants will be invited to take part and nominate additional experts to be contacted by the DEFINE team, and various professional or advocacy groups will be approached for dissemination among their members. Interested stakeholders will be asked to register on the survey website before the survey launch. Once registered, consented participants will be alerted to the survey launch by an email containing the link to the survey. Each round of the survey will be open for approximately 4 weeks, and reminders sent weekly during this period. Participants will be allowed to complete a round even if they haven’t completed the previous one, provided they have registered for the first round.</p>
+                </sec>
+                <sec id="s2-2-4">
+                  <title>Pilot</title>
+                  <p>The Delphi survey will be piloted by the members of the Executive Committee, before launching the main survey.</p>
+                  <p>Particular attention will be paid to piloting the Delphi survey to ensure patient and public engagement and representation can be optimised. Selected consumer representatives with substantial experience will be approached to take part in the pilot, and their feedback will be sought to ensure the survey is accessible. Should the Delphi survey not allow lay participants to fully contribute due to the complexity, technicality or number of items to be assessed, a focus group will be organised with patient and public involvement and engagement (PPIE) experts to identify a core set of SPIRIT-DEFINE and CONSORT-DEFINE items relevant to PPI contributors. This core set will be submitted for feedback to a wider PPIE audience through a separate process.</p>
+                </sec>
+                <sec id="s2-2-5">
+                  <title>Analysis</title>
+                  <p>The response observed to the initial approaches will be explored in a narrative summary. Following each round, the response rate will be calculated based on the number of participants who registered and completed the survey. A descriptive summary analysis of the responding population will be presented based on the background characteristics data collected. For each item, the distribution of scores as well as summary statistics (median, IQR, minimum and maximum) will be computed and presented. Summary statistics will be presented by the key stakeholder categories defined in the ‘Identification of participants’ section and overall. Geographical and professional background characteristics data may be used to explore the data further.</p>
+                  <p>Qualitative data from the free text section of the survey will be thematically analysed to identify potential new items for inclusion.</p>
+                  <p>After each round, members of the Executive Committee will discuss the output and any changes required. Items scored 1–3 ‘not important’ by at least 80% of the participants may be dropped between rounds, subject to confirmation by the Executive Committee. Notes will also be made on any feedback relevant to the development of the explanation and elaboration (E&amp;E) documents.</p>
+                  <p>Participants will also be presented with the distribution of ratings, their ratings from the previous round, as well as feedback on how suggestions and comments from the free text fields were dealt with.</p>
+                  <p>At further rounds, participants will be given the opportunity to change their ratings, and such changes will be monitored. The change in participants’ ratings between subsequent rounds will be analysed at item level and interest will be on participants who moved from one category to another (eg, from not ‘important’ to ‘important but not critical’).</p>
+                  <p>For each reporting item, the distribution of the changes in rating scores and proportion below 15% change will be reported.</p>
+                  <p>To gauge the level of agreement between round 1 and round 2 ratings, the following statistics will be calculated and reported for each reporting item with associated 95% CIs<xref rid="R32" ref-type="bibr">32</xref>:</p>
+                  <list list-type="alpha-lower">
+                    <list-item>
+                      <p>Percentage agreement; percentage of participants with the same rating between rounds relative to the total responders to all rounds.</p>
+                    </list-item>
+                    <list-item>
+                      <p>Weighted Cohen’s kappa coefficient using absolute error weights.<xref rid="R33" ref-type="bibr">33</xref></p>
+                    </list-item>
+                  </list>
+                  <p>The analysis will be performed in R’s latest version at the time of analysis.<xref rid="R34" ref-type="bibr">34</xref></p>
+                </sec>
+                <sec id="s2-2-6">
+                  <title>Stopping criteria</title>
+                  <p>The Executive Committee will decide to stop the Delphi survey process once consensus and stability of ratings have been achieved. It is anticipated that two rounds will be sufficient to achieve this objective; however, the committee may proceed to a third round based on the observed level of agreement and stability and an assessment of whether a subsequent round is likely to yield any further information.</p>
+                </sec>
+              </sec>
+              <sec id="s2-3">
+                <title>Stage 3 consensus meeting</title>
+                <p>The objectives of the consensus meeting will be to finalise the full list of items to be included in the guidance, guided by the information on item importance and level of agreement gleaned during the Delphi survey, as well as the structure of the E&amp;E document. The consensus meeting will follow the recommended methodology for such exercise.<xref rid="R27" ref-type="bibr">27</xref></p>
+                <sec id="s2-3-1">
+                  <title>Definition of consensus</title>
+                  <p>For the purpose of automatic inclusion into the checklist, items rated 7–9 (‘critically important’) by at least 70% of the Delphi survey respondents will be considered as having reached a consensus.</p>
+                </sec>
+                <sec id="s2-3-2">
+                  <title>Identification of participants</title>
+                  <p>The Executive Committee will be responsible for the selection of relevant experts in each of the key stakeholder categories (see <xref rid="T1" ref-type="table">table 1</xref>) to be invited to participate in the consensus meeting. Responses to the invitations will be tracked to ensure a balanced representation across the key stakeholder groups.</p>
+                  <p>Checklist items having reached consensus (see the ‘Definition of consensus’ section) will be automatically recommended for inclusion. Items that did not reach consensus will be discussed for inclusions and/or modification based on the overall importance rating achieved in the last round of the Delphi survey. Following the discussion, consensus group members will anonymously be given an opportunity to make individual decisions about the inclusion of a specific item; ‘keep’, ‘discard’, and ‘unsure or no opinion’. A decision to retain a reporting item will be based on achieving at least 50% support from group members deciding/wishing to keep the item; however, the Executive Committee will retain the prerogative to discuss and make final decisions for low-scoring items or items where a consensus is difficult to achieve. The rationale to guide decisions will be whether the item addresses elements unique to EPDF trials and whether they belong in a minimum reporting set of items. Notes will be taken, and the discussions audiorecorded, with the participants’ consent. Particular attention will be paid to any feedback or discussion requiring inclusion in the E&amp;E document.</p>
+                  <p>Following the meeting, a summary report will be produced and shared with the meeting attendees as well as the Delphi survey participants.</p>
+                </sec>
+              </sec>
+              <sec id="s2-4">
+                <title>Stage 4: development of a reporting guidance and explanatory support document</title>
+                <p>The objectives of this stage are to finalise the SPIRIT-DEFINE and CONSORT-DEFINE guidance and supporting documentation, including the corresponding E&amp;E documents.</p>
+                <p>After the consensus meeting, the Executive Committee will continue refining the content and wording of both guidelines, and the E&amp;E documents, intended to provide explanations on the rationale and elaboration of the items, as well as evidence and examples applied in the literature. Feedback from the Delphi survey and the consensus meeting will be checked for any information relevant for inclusion in the E&amp;E document.</p>
+                <p>Both guidelines will be piloted with real-world examples by a selection of key stakeholders with expertise in developing and reporting EPDF trials to test their usability and provide insight into issues that should be addressed in the E&amp;E documents. The committee will discuss feedback from the pilot and decide on further modifications, either to the checklist itself or the E&amp;E document.</p>
+              </sec>
+              <sec id="s2-5">
+                <title>Data management and confidentiality</title>
+                <p>All data generated and collected during the DEFINE study will be handled, processed and stored according to all applicable data protection legislation. Data collected during the Delphi survey will be stored on a MySQL database hosted on a dedicated DelphiManager server hosted by the University of Liverpool’s Data Centre. Following closure of the Delphi survey, data will be downloaded and stored on secure servers at the Institute of Cancer Research Clinical Trials and Statistical Unit, alongside audio recordings and transcripts from the consensus meeting. Access to study data will be restricted to personnel conducting the analyses, and the data will be stored for a minimum of 5 years after the end of the study.</p>
+              </sec>
+              <sec id="s2-6">
+                <title>Patient and public involvement</title>
+                <p>The DEFINE Study PPIE lead (AK) was involved in the study design from inception and contributed to the development of the protocol. Additional PPIE representatives from both the oncology and non-oncology disease areas will also be consulted on the checklists’ items to ensure the optimum representation of this particular patient group. The DEFINE study also comprises a specific PPIE work package aimed at producing lay publications to chart the development of both the SPIRIT-DEFINE and CONSORT-DEFINE guidelines (see the ‘Ethics and dissemination’ section).</p>
+              </sec>
+            </sec>
+            <sec id="s3">
+              <title>Ethics and dissemination</title>
+              <p>This project has been formally assessed for risk and approved by the Institute of Cancer Research Committee for Clinical Research as the sponsor. The Health Research Authority has been consulted and confirmed Research Ethics Approval is not required.</p>
+              <p>The Executive Committee will devise a detailed dissemination strategy to maximise guideline awareness and uptake. Broadly, the strategy will comprise the following:</p>
+              <list list-type="bullet">
+                <list-item>
+                  <p>Direct feedback will be provided to the Delphi survey participants, consensus meeting contributors and the stakeholder groups identified in <xref rid="T1" ref-type="table">table 1</xref>.</p>
+                </list-item>
+                <list-item>
+                  <p>The guidelines will be accessible via the CONSORT and EQUATOR network website, as well as on the DEFINE study website, which will also be kept updated throughout the project.</p>
+                </list-item>
+                <list-item>
+                  <p>Dissemination at specific UK and international study groups that run phase I trials, such as the <ext-link xlink:href="http://csg.ncri.org.uk/" ext-link-type="uri">UK National Cancer Studies Groups</ext-link>, as well as to funders for early phase trials (including Medical Research Council, Cancer Research UK, National Institute for Health and Care Research (NIHR) Biomedical Research Centres, Experimental Cancer Medicine Centres and National Cancer Institute (NCI)) and industry via The Association of British Pharmaceutical Industry and pharma partners’ networks.</p>
+                </list-item>
+                <list-item>
+                  <p>Maximising publications in high-impact scientific journals.</p>
+                </list-item>
+                <list-item>
+                  <p>Presentation at meetings of UK Clinical Research Collaboration (UKCRC) Clinical Trials Unit, UKCRC Statistics Operational Group and NIHR Early Phase Statistics Group; national and international methodological conferences (eg, International Clinical Trials and Methodology Conference, Society of Clinical Trials or International Society of Clinical Biostatistics) and pharmaceutical conferences/meetings via our industry partners (eg, Statisticians in the Pharmaceutical Industry, European Federation of Statisticians in the Pharmaceutical Industry, Drug Information Association) and clinical conferences (eg, National Cancer Research Institute, European Society for Medical Oncology, American Society for Clinical Oncology, European Centre for Rare Diseases).</p>
+                </list-item>
+                <list-item>
+                  <p>Practical Dissemination workshops will be organised, one specifically aimed at journal editors to promote the use of the guideline and encourage endorsement.</p>
+                </list-item>
+                <list-item>
+                  <p>Patient and public engagement will be sought via the publication of PPI lay summary papers, including the production of a lay study report template, liaison with patient groups (including the Royal Marsden Patients and Carers Review Panel and the Independent Cancer Patient’s Voice), as well as dissemination at local and national PPI events.</p>
+                </list-item>
+                <list-item>
+                  <p>Broader communication with the public will also be pursued via the Institute of Cancer Research’s website and social media, including blogs, posts on Twitter, Facebook and LinkedIn, press releases and potentially through leadership pieces on trials reporting in the media.</p>
+                </list-item>
+              </list>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Material</title>
+              <supplementary-material content-type="local-data" id="d64e361">
+                <caption>
+                  <title>Reviewer comments</title>
+                </caption>
+                <media xlink:href="bmjopen-2022-068173.reviewer_comments.pdf"/>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="d64e362">
+                <caption>
+                  <title>Author's
+manuscript</title>
+                </caption>
+                <media xlink:href="bmjopen-2022-068173.draft_revisions.pdf"/>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>The authors acknowledge the support of E. Garrett-Mayer, D. Ashby and J. Isaacs, members of the Independent Expert Panel, in contributing their expertise and support to this initiative, and Siew Wan Hee for proofreading an earlier protocol version. The authors also thank the late D. Altman for his enthusiasm, inspiration and significant contribution to the initial conception of this work.</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="other">
+                <p><bold>Twitter:</bold> @ChristinaBYap</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Contributors:</bold> CY and CW conceived the idea. CY, CW, MD, TJ, AM, AK, JE, SL, SH and JDB obtained funding for CONSORT-DEFINE. AE, OS, MD, CW, TJ, AM, AK, JE, SL, SH, A-WC, JDB and CY contributed to the design of the study. AE, OS and CY wrote the first draft of the manuscript. All authors contributed to the refinement of the study methods and critical revision of the manuscript. All authors read and approved the final version of the manuscript.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Funding:</bold> The CONSORT-DEFINE part of this study was supported by the UK Research and Innovation (UKRI) Medical Research Council-National Institute for Health Research (MRC-NIHR), grant number MR/T044934/1. The SPIRIT-DEFINE part received no specific grant from any funding agency in the public, commercial or not-for-profit sectors. T Jaki received funding from UK Medical Research Council (MC_UU_00002/14). CW was supported in this work by NHS Lothian via Edinburgh Clinical Trials Unit. SL was funded through the National Center for Advancing Translational Sciences, National Institutes of Health (Grant Number UL1TR001873). However, research outputs will be published in line with the funders’ publication policy requirements. SPIRIT-DEFINE part did not receive any external funding. For the purpose of open access, the author has applied a Creative Commons Attribution (CC BY) licence to any Author Accepted Manuscript version arising from this submission.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Disclaimer:</bold> The funders have no involvement in the study design, collection, analysis, interpretation of findings, and reporting. The views expressed in this article are those of the author(s) and not necessarily those of the NHS, the NIHR, or the Department of Health.</p>
+              </fn>
+              <fn fn-type="COI-statement">
+                <p><bold>Competing interests:</bold> JDB has served on advisory boards and received fees from many companies, including Amgen, Astra Zeneca, Astellas, Bayer, Bioxcel Therapeutics, Boehringer Ingelheim, Cellcentric, Daiichi, Eisai, Genentech/Roche, Genmab, GSK, Harpoon, ImCheck Therapeutics, Janssen, Merck Serono, Merck Sharp &amp; Dohme, Menarini/Silicon Biosystems, Orion, Pfizer, Qiagen, Sanofi Aventis, Sierra Oncology, Taiho, Terumo, Vertex Pharmaceuticals. JDB is an employee of The Institute of Cancer Research, which has received funding or other support for his research work from AZ, Astellas, Bayer, Cellcentric, Daiichi, Genentech, Genmab, GSK, Janssen, Merck Serono, MSD, Menarini/Silicon Biosystems, Orion, Sanofi Aventis, Sierra Oncology, Taiho, Pfizer, Vertex, and which has a commercial interest in abiraterone, PARP inhibition in DNA repair defective cancers and PI3K/AKT pathway inhibitors (no personal income). JDB was named as an inventor with no financial interest in Patent No. 8822438 submitted by Janssen that covers the use of abiraterone acetate with corticosteroids. He has been the CI/PI of many industry-sponsored clinical trials. JDB is a National Institute for Health Research (NIHR) Senior Investigator. JE has received advisory board or speaker fees from AstraZeneca, Bayer, Bristol-Myers Squibb, Bicycle Therapeutics, Celgene, Clovis, Eisai, Medivir, Nucana, and Roche/Genentech; and has received funding or other support for non-commercial and commercial studies from Adaptimmune, AstraZeneca, Astellas, Basilea, Bayer, Boehringer Ingelheim, Bicycle Therapeutics, Bristol-Myers Squibb, Beigene, Celgene, Codiak, CytomX, Eisai, GlaxoSmithKline, Immunocore, iOncture, Johnson and Johnson, Lilly, Medivir, Merck Sharp &amp; Dohme, MiNa Therapeutics, Novartis, Nucana, Pfizer, and Roche/Genentech, Sanofi, Sapience Therapeutics, Seagen, Sierra, Starpharma, UCB and Verastem. Professor Evans serves as a member of the Clinical Experts Review Panel and Clinical Research Committee for Cancer Research UK, a member of the International Liver Cancer Association Annual Meeting abstracts committee and a member of Pancreatic Cancer Research Fund Scientific Advisory Panel. JE is also a member of the American Association for Cancer Research, the American Society of Clinical Oncology, the Association of Cancer Physicians (UK), the British Association for Cancer Research, the European Association for Cancer Research, and the International Liver Cancer Association. JE is a Clinical Subject editor for the British Journal of Cancer and has received honorarium payable to the employing institution for serving as chair of the Independent Data Monitoring Committee for a phase I trial.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Patient and public involvement:</bold> Patients and/or the public were involved in the design, or conduct, or reporting, or dissemination plans of this research. Refer to the Methods section for further details.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Provenance and peer review:</bold> Not commissioned; externally peer reviewed.</p>
+              </fn>
+            </fn-group>
+            <sec sec-type="ethics-statement">
+              <title>Ethics statements</title>
+              <sec>
+                <title>Patient consent for publication</title>
+                <p content-type="ethics-consent-to-publish">Not applicable.</p>
+              </sec>
+            </sec>
+            <ref-list>
+              <title>References</title>
+              <ref id="R1">
+                <label>1</label>
+                <mixed-citation publication-type="webpage"><person-group person-group-type="author"><collab>World Medical Association</collab></person-group>. <article-title>Declaration of helsinki – ethical principles for medical reseacrh involving human subjects</article-title>. <year>1964</year>. <comment>Available</comment>: <uri xlink:href="https://www.wma.net/policies-post/wma-declaration-of-helsinki-ethical-principles-for-medical-research-involving-human-subjects">https://www.wma.net/policies-post/wma-declaration-of-helsinki-ethical-principles-for-medical-research-involving-human-subjects</uri></mixed-citation>
+              </ref>
+              <ref id="R2">
+                <label>2</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Chan</surname><given-names>A-W</given-names></string-name>, <string-name><surname>Tetzlaff</surname><given-names>JM</given-names></string-name>, <string-name><surname>Altman</surname><given-names>DG</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>SPIRIT 2013 statement: defining standard protocol items for clinical trials</article-title>. <source>Ann Intern Med</source><year>2013</year>;<volume>158</volume>:<fpage>200</fpage>–<lpage>7</lpage>. <pub-id pub-id-type="doi">10.7326/0003-4819-158-3-201302050-00583</pub-id><pub-id pub-id-type="pmid">23295957</pub-id></mixed-citation>
+              </ref>
+              <ref id="R3">
+                <label>3</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Chan</surname><given-names>A-W</given-names></string-name>, <string-name><surname>Tetzlaff</surname><given-names>JM</given-names></string-name>, <string-name><surname>Gøtzsche</surname><given-names>PC</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>SPIRIT 2013 explanation and elaboration: guidance for protocols of clinical trials</article-title>. <source>BMJ</source><year>2013</year>;<volume>346</volume>:<elocation-id>e7586</elocation-id>. <pub-id pub-id-type="doi">10.1136/bmj.e7586</pub-id><pub-id pub-id-type="pmid">23303884</pub-id></mixed-citation>
+              </ref>
+              <ref id="R4">
+                <label>4</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Mariani</surname><given-names>L</given-names></string-name>, <string-name><surname>Marubini</surname><given-names>E</given-names></string-name></person-group>. <article-title>Content and quality of currently published phase II cancer trials</article-title>. <source>J Clin Oncol</source><year>2000</year>;<volume>18</volume>:<fpage>429</fpage>–<lpage>36</lpage>. <pub-id pub-id-type="doi">10.1200/JCO.2000.18.2.429</pub-id><pub-id pub-id-type="pmid">10637259</pub-id></mixed-citation>
+              </ref>
+              <ref id="R5">
+                <label>5</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Sertkaya</surname><given-names>A</given-names></string-name>, <string-name><surname>Wong</surname><given-names>H-H</given-names></string-name>, <string-name><surname>Jessup</surname><given-names>A</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Key cost drivers of pharmaceutical clinical trials in the united states</article-title>. <source>Clin Trials</source><year>2016</year>;<volume>13</volume>:<fpage>117</fpage>–<lpage>26</lpage>. <pub-id pub-id-type="doi">10.1177/1740774515625964</pub-id><pub-id pub-id-type="pmid">26908540</pub-id></mixed-citation>
+              </ref>
+              <ref id="R6">
+                <label>6</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Aitken</surname><given-names>M</given-names></string-name></person-group>. <article-title>Global trends in clinical research</article-title>. <source>Pharma Times Magazine</source><year>2021</year>:<fpage>30</fpage>–<lpage>1</lpage>.</mixed-citation>
+              </ref>
+              <ref id="R7">
+                <label>7</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Wong</surname><given-names>CH</given-names></string-name>, <string-name><surname>Siah</surname><given-names>KW</given-names></string-name>, <string-name><surname>Lo</surname><given-names>AW</given-names></string-name></person-group>. <article-title>Estimation of clinical trial success rates and related parameters</article-title>. <source>Biostatistics</source><year>2019</year>;<volume>20</volume>:<fpage>273</fpage>–<lpage>86</lpage>. <pub-id pub-id-type="doi">10.1093/biostatistics/kxx069</pub-id><pub-id pub-id-type="pmid">29394327</pub-id></mixed-citation>
+              </ref>
+              <ref id="R8">
+                <label>8</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Dowden</surname><given-names>H</given-names></string-name>, <string-name><surname>Munro</surname><given-names>J</given-names></string-name></person-group>. <article-title>Trends in clinical success rates and therapeutic focus</article-title>. <source>Nat Rev Drug Discov</source><year>2019</year>;<volume>18</volume>:<fpage>495</fpage>–<lpage>6</lpage>. <pub-id pub-id-type="doi">10.1038/d41573-019-00074-z</pub-id><pub-id pub-id-type="pmid">31267067</pub-id></mixed-citation>
+              </ref>
+              <ref id="R9">
+                <label>9</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Arrowsmith</surname><given-names>J</given-names></string-name>, <string-name><surname>Miller</surname><given-names>P</given-names></string-name></person-group>. <article-title>Trial watch: phase II and phase III attrition rates 2011-2012</article-title>. <source>Nat Rev Drug Discov</source><year>2013</year>;<volume>12</volume>:<elocation-id>569</elocation-id>. <pub-id pub-id-type="doi">10.1038/nrd4090</pub-id><pub-id pub-id-type="pmid">23903212</pub-id></mixed-citation>
+              </ref>
+              <ref id="R10">
+                <label>10</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Rogatko</surname><given-names>A</given-names></string-name>, <string-name><surname>Schoeneck</surname><given-names>D</given-names></string-name>, <string-name><surname>Jonas</surname><given-names>W</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Translation of innovative designs into phase I trials</article-title>. <source>J Clin Oncol</source><year>2007</year>;<volume>25</volume>:<fpage>4982</fpage>–<lpage>6</lpage>. <pub-id pub-id-type="doi">10.1200/JCO.2007.12.1012</pub-id><pub-id pub-id-type="pmid">17971597</pub-id></mixed-citation>
+              </ref>
+              <ref id="R11">
+                <label>11</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>van Brummelen</surname><given-names>EMJ</given-names></string-name>, <string-name><surname>Huitema</surname><given-names>ADR</given-names></string-name>, <string-name><surname>van Werkhoven</surname><given-names>E</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>The performance of model-based versus rule-based phase I clinical trials in oncology</article-title>. <source>J Pharmacokinet Pharmacodyn</source><year>2016</year>;<volume>43</volume>:<fpage>235</fpage>–<lpage>42</lpage>. <pub-id pub-id-type="doi">10.1007/s10928-016-9466-0</pub-id><pub-id pub-id-type="pmid">26960536</pub-id></mixed-citation>
+              </ref>
+              <ref id="R12">
+                <label>12</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Jaki</surname><given-names>T</given-names></string-name></person-group>. <article-title>Uptake of novel statistical methods for early-phase clinical studies in the UK public sector</article-title>. <source>Clin Trials</source><year>2013</year>;<volume>10</volume>:<fpage>344</fpage>–<lpage>6</lpage>. <pub-id pub-id-type="doi">10.1177/1740774512474375</pub-id><pub-id pub-id-type="pmid">23378484</pub-id></mixed-citation>
+              </ref>
+              <ref id="R13">
+                <label>13</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Love</surname><given-names>SB</given-names></string-name>, <string-name><surname>Brown</surname><given-names>S</given-names></string-name>, <string-name><surname>Weir</surname><given-names>CJ</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Embracing model-based designs for dose-finding trials</article-title>. <source>Br J Cancer</source><year>2017</year>;<volume>117</volume>:<fpage>332</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1038/bjc.2017.186</pub-id><pub-id pub-id-type="pmid">28664918</pub-id></mixed-citation>
+              </ref>
+              <ref id="R14">
+                <label>14</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Yap</surname><given-names>C</given-names></string-name>, <string-name><surname>Billingham</surname><given-names>LJ</given-names></string-name>, <string-name><surname>Cheung</surname><given-names>YK</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Dose transition pathways: the missing link between complex dose-finding designs and simple decision-making</article-title>. <source>Clin Cancer Res</source><year>2017</year>;<volume>23</volume>:<fpage>7440</fpage>–<lpage>7</lpage>. <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-17-0582</pub-id><pub-id pub-id-type="pmid">28733440</pub-id></mixed-citation>
+              </ref>
+              <ref id="R15">
+                <label>15</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Iasonos</surname><given-names>A</given-names></string-name>, <string-name><surname>Gönen</surname><given-names>M</given-names></string-name>, <string-name><surname>Bosl</surname><given-names>GJ</given-names></string-name></person-group>. <article-title>Scientific review of phase I protocols with novel dose-escalation designs: how much information is needed?</article-title><source>J Clin Oncol</source><year>2015</year>;<volume>33</volume>:<fpage>2221</fpage>–<lpage>5</lpage>. <pub-id pub-id-type="doi">10.1200/JCO.2014.59.8466</pub-id><pub-id pub-id-type="pmid">25940721</pub-id></mixed-citation>
+              </ref>
+              <ref id="R16">
+                <label>16</label>
+                <mixed-citation publication-type="webpage"><person-group person-group-type="author"><collab>Committee for Medicinal Products for Human Use (CHMP), E.M.A</collab></person-group>. <article-title>Strategies to identify and mitigate risks for first-in-human and early clinical trials with investigational medicinal products - scientific guideline 2017</article-title>. <year>2017</year>.</mixed-citation>
+              </ref>
+              <ref id="R17">
+                <label>17</label>
+                <mixed-citation publication-type="webpage"><person-group person-group-type="author"><collab>U.S. Department of Health and Human Services, Food and Drug Administration, Center for Drug Evaluation and Research (CDER), Center for Biologics Evaluation and Research (CBER)</collab></person-group>. <article-title>Adaptive designs for clinical trials of drugs and biologics: guidance for industry</article-title>. <year>2019</year>. <comment>Available</comment>: <uri xlink:href="https://www.fda.gov/media/78495/download">https://www.fda.gov/media/78495/download</uri></mixed-citation>
+              </ref>
+              <ref id="R18">
+                <label>18</label>
+                <mixed-citation publication-type="webpage"><person-group person-group-type="author"><collab>Association of the British Pharmaceutical Industry</collab></person-group>. <article-title>Guidelines for phase I clinical trials</article-title>. <year>2018</year>. <comment>Available</comment>: <uri xlink:href="https://www.abpi.org.uk/publications/guidelines-for-phase-i-clinical-trials-2018-edition">https://www.abpi.org.uk/publications/guidelines-for-phase-i-clinical-trials-2018-edition</uri></mixed-citation>
+              </ref>
+              <ref id="R19">
+                <label>19</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Moher</surname><given-names>D</given-names></string-name>, <string-name><surname>Hopewell</surname><given-names>S</given-names></string-name>, <string-name><surname>Schulz</surname><given-names>KF</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Consort 2010 explanation and elaboration: updated guidelines for reporting parallel group randomised trials</article-title>. <source>J Clin Epidemiol</source><year>2010</year>;<volume>63</volume>:<fpage>e1</fpage>–<lpage>37</lpage>. <pub-id pub-id-type="doi">10.1016/j.jclinepi.2010.03.004</pub-id><pub-id pub-id-type="pmid">20346624</pub-id></mixed-citation>
+              </ref>
+              <ref id="R20">
+                <label>20</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Schulz</surname><given-names>KF</given-names></string-name>, <string-name><surname>Altman</surname><given-names>DG</given-names></string-name>, <string-name><surname>Moher</surname><given-names>D</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Consort 2010 statement: updated guidelines for reporting parallel group randomised trials</article-title>. <source>BMC Med</source><year>2010</year>;<volume>8</volume>:<elocation-id>18</elocation-id>. <pub-id pub-id-type="doi">10.1186/1741-7015-8-18</pub-id><pub-id pub-id-type="pmid">20334633</pub-id></mixed-citation>
+              </ref>
+              <ref id="R21">
+                <label>21</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Shamseer</surname><given-names>L</given-names></string-name>, <string-name><surname>Hopewell</surname><given-names>S</given-names></string-name>, <string-name><surname>Altman</surname><given-names>DG</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Update on the endorsement of consort by high impact factor journals: a survey of Journal Instructions to authors in 2014</article-title>. <source>Trials</source><year>2016</year>;<volume>17</volume>:<elocation-id>301</elocation-id>. <pub-id pub-id-type="doi">10.1186/s13063-016-1408-z</pub-id><pub-id pub-id-type="pmid">27343072</pub-id></mixed-citation>
+              </ref>
+              <ref id="R22">
+                <label>22</label>
+                <mixed-citation publication-type="webpage"><person-group person-group-type="author"><collab>SPIRIT group</collab></person-group>. <article-title>SPIRIT endorsement</article-title>. <year>2023</year>. <comment>Available</comment>: <uri xlink:href="https://www.spirit-statement.org/about-spirit/spirit-endorsement">https://www.spirit-statement.org/about-spirit/spirit-endorsement</uri></mixed-citation>
+              </ref>
+              <ref id="R23">
+                <label>23</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Turner</surname><given-names>L</given-names></string-name>, <string-name><surname>Shamseer</surname><given-names>L</given-names></string-name>, <string-name><surname>Altman</surname><given-names>DG</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Consolidated standards of reporting trials (consort) and the completeness of reporting of randomised controlled trials (rcts) published in medical journals</article-title>. <source>Cochrane Database Syst Rev</source><year>2012</year>;<volume>11</volume>:<elocation-id>MR000030</elocation-id>. <pub-id pub-id-type="doi">10.1002/14651858.MR000030.pub2</pub-id><pub-id pub-id-type="pmid">23152285</pub-id></mixed-citation>
+              </ref>
+              <ref id="R24">
+                <label>24</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Yap</surname><given-names>C</given-names></string-name>, <string-name><surname>Bedding</surname><given-names>A</given-names></string-name>, <string-name><surname>de Bono</surname><given-names>J</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>The need for reporting guidelines for early phase dose-finding trials: dose-finding consort extension</article-title>. <source>Nat Med</source><year>2022</year>;<volume>28</volume>:<fpage>6</fpage>–<lpage>7</lpage>. <pub-id pub-id-type="doi">10.1038/s41591-021-01594-1</pub-id><pub-id pub-id-type="pmid">34992264</pub-id></mixed-citation>
+              </ref>
+              <ref id="R25">
+                <label>25</label>
+                <mixed-citation publication-type="webpage"><person-group person-group-type="author"><collab>DEFINE study Protocol writing group</collab></person-group>. <article-title>CONSORT-DEFINE (dose finding extensions): development of a CONSORT extension for early-phase dose-finding trials (CONSORT-DEFINE)</article-title>. <year>2021</year>. <comment>Available</comment>: <uri xlink:href="https://www.equator-network.org/wp-content/uploads/2022/05/DF-CONSORT-protocol-v1.2_FINAL.pdf">https://www.equator-network.org/wp-content/uploads/2022/05/DF-CONSORT-protocol-v1.2_FINAL.pdf</uri></mixed-citation>
+              </ref>
+              <ref id="R26">
+                <label>26</label>
+                <mixed-citation publication-type="webpage"><person-group person-group-type="author"><collab>DEFINE study Protocol writing group</collab></person-group>. <article-title>SPIRIT–DEFINE (dose finding): development of a SPIRIT extension for early-phase dosefinding trials 2022</article-title>. <year>2022</year>. <comment>Available</comment>: <uri xlink:href="https://www.equator-network.org/wp-content/uploads/2022/05/SPIRIT-protocol-v1.0-06052022_FINAL1.pdf">https://www.equator-network.org/wp-content/uploads/2022/05/SPIRIT-protocol-v1.0-06052022_FINAL1.pdf</uri></mixed-citation>
+              </ref>
+              <ref id="R27">
+                <label>27</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Moher</surname><given-names>D</given-names></string-name>, <string-name><surname>Schulz</surname><given-names>KF</given-names></string-name>, <string-name><surname>Simera</surname><given-names>I</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Guidance for developers of health research reporting guidelines</article-title>. <source>PLoS Med</source><year>2010</year>;<volume>7</volume>:<elocation-id>e1000217</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pmed.1000217</pub-id><pub-id pub-id-type="pmid">20169112</pub-id></mixed-citation>
+              </ref>
+              <ref id="R28">
+                <label>28</label>
+                <mixed-citation publication-type="webpage"><person-group person-group-type="author"><string-name><surname>Solovyeva</surname><given-names>O</given-names></string-name>, <string-name><surname>Weir</surname><given-names>CJ</given-names></string-name>, <string-name><surname>Lee</surname><given-names>S</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Reporting quality of early phase dose-finding clinical trials: a rapid methodological review protocol</article-title>. <year>2021</year>. <comment>Available</comment>: <uri xlink:href="https://osf.io/7pyds">https://osf.io/7pyds</uri></mixed-citation>
+              </ref>
+              <ref id="R29">
+                <label>29</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Diamond</surname><given-names>IR</given-names></string-name>, <string-name><surname>Grant</surname><given-names>RC</given-names></string-name>, <string-name><surname>Feldman</surname><given-names>BM</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Defining consensus: a systematic review recommends methodologic criteria for reporting of delphi studies</article-title>. <source>J Clin Epidemiol</source><year>2014</year>;<volume>67</volume>:<fpage>401</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1016/j.jclinepi.2013.12.002</pub-id><pub-id pub-id-type="pmid">24581294</pub-id></mixed-citation>
+              </ref>
+              <ref id="R30">
+                <label>30</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hasson</surname><given-names>F</given-names></string-name>, <string-name><surname>Keeney</surname><given-names>S</given-names></string-name>, <string-name><surname>McKenna</surname><given-names>H</given-names></string-name></person-group>. <article-title>Research guidelines for the delphi survey technique</article-title>. <source>J Adv Nurs</source><year>2000</year>;<volume>32</volume>:<fpage>1008</fpage>–<lpage>15</lpage>. <pub-id pub-id-type="doi">10.1046/j.1365-2648.2000.01567.x</pub-id><pub-id pub-id-type="pmid">11095242</pub-id></mixed-citation>
+              </ref>
+              <ref id="R31">
+                <label>31</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Gracht</surname><given-names>HA</given-names></string-name></person-group>. <article-title>Consensus measurement in delphi studies review and implications for future quality assurance</article-title>. <source>Technol Forecast Soc Change</source><year>2012</year>;<volume>79</volume>:<fpage>1525</fpage>–<lpage>36</lpage>.</mixed-citation>
+              </ref>
+              <ref id="R32">
+                <label>32</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Jakobsson</surname><given-names>U</given-names></string-name>, <string-name><surname>Westergren</surname><given-names>A</given-names></string-name></person-group>. <article-title>Statistical methods for assessing agreement for ordinal data</article-title>. <source>Scand J Caring Sci</source><year>2005</year>;<volume>19</volume>:<fpage>427</fpage>–<lpage>31</lpage>. <pub-id pub-id-type="doi">10.1111/j.1471-6712.2005.00368.x</pub-id><pub-id pub-id-type="pmid">16324069</pub-id></mixed-citation>
+              </ref>
+              <ref id="R33">
+                <label>33</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Landis</surname><given-names>JR</given-names></string-name>, <string-name><surname>Koch</surname><given-names>GG</given-names></string-name></person-group>. <article-title>The measurement of observer agreement for categorical data</article-title>. <source>Biometrics</source><year>1977</year>;<volume>33</volume>:<fpage>159</fpage>–<lpage>74</lpage>.<pub-id pub-id-type="pmid">843571</pub-id></mixed-citation>
+              </ref>
+              <ref id="R34">
+                <label>34</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><collab>R Core Team</collab></person-group>. <source>R: A language and environment for statistical computing</source>. <publisher-loc>Vienna, Austria</publisher-loc>: <publisher-name>R Foundation for Statistical Computing</publisher-name>, <year>2022</year>.</mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,2255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T04:19:32Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:6351990" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:6351990</identifier>
+        <datestamp>2019-02-22</datestamp>
+        <setSpec>jmir</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">J Med Internet Res</journal-id>
+              <journal-id journal-id-type="iso-abbrev">J Med Internet Res</journal-id>
+              <journal-id journal-id-type="publisher-id">JMIR</journal-id>
+              <journal-title-group>
+                <journal-title>Journal of Medical Internet Research</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">1439-4456</issn>
+              <issn pub-type="epub">1438-8871</issn>
+              <publisher>
+                <publisher-name>JMIR Publications</publisher-name>
+                <publisher-loc>Toronto, Canada</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC6351990</article-id>
+              <article-id pub-id-type="pmcid">PMC6351990</article-id>
+              <article-id pub-id-type="pmc-uid">6351990</article-id>
+              <article-id pub-id-type="pmid">30664453</article-id>
+              <article-id pub-id-type="publisher-id">v21i1e10793</article-id>
+              <article-id pub-id-type="pmid">30664453</article-id>
+              <article-id pub-id-type="doi">10.2196/10793</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Original Paper</subject>
+                </subj-group>
+                <subj-group subj-group-type="article-type">
+                  <subject>Original Paper</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Improving Electronic Health Record Note Comprehension With NoteAid: Randomized Trial of Electronic Health Record Note Comprehension Interventions With Crowdsourced Workers</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Eysenbach</surname>
+                    <given-names>Gunther</given-names>
+                  </name>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib contrib-type="reviewer">
+                  <name>
+                    <surname>Brunak</surname>
+                    <given-names>Soren</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="reviewer">
+                  <name>
+                    <surname>Jones</surname>
+                    <given-names>J.b</given-names>
+                  </name>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib id="contrib1" contrib-type="author">
+                  <name>
+                    <surname>Lalor</surname>
+                    <given-names>John P</given-names>
+                  </name>
+                  <degrees>MS</degrees>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0848-4786</contrib-id>
+                </contrib>
+                <contrib id="contrib2" contrib-type="author">
+                  <name>
+                    <surname>Woolf</surname>
+                    <given-names>Beverly</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-0509-307X</contrib-id>
+                </contrib>
+                <contrib id="contrib3" contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Yu</surname>
+                    <given-names>Hong</given-names>
+                  </name>
+                  <degrees>PhD, FACMI</degrees>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-9263-5035</contrib-id>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                  <xref rid="aff3" ref-type="aff">3</xref>
+                  <xref rid="aff4" ref-type="aff">4</xref>
+                  <address>
+                    <institution>Department of Computer Science</institution>
+                    <institution>University of Massachusetts Lowell</institution>
+                    <addr-line>1 University Avenue</addr-line>
+                    <addr-line>Lowell, MA,</addr-line>
+                    <country>United States</country>
+                    <phone>1 508 612 7292</phone>
+                    <email>hong.yu@umassmed.edu</email>
+                  </address>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1">
+                <label>1</label>
+                <institution>College of Information and Computer Sciences</institution>
+                <institution>University of Massachusetts</institution>
+                <addr-line>Amherst, MA</addr-line>
+                <country>United States</country>
+              </aff>
+              <aff id="aff2">
+                <label>2</label>
+                <institution>Department of Computer Science</institution>
+                <institution>University of Massachusetts Lowell</institution>
+                <addr-line>Lowell, MA</addr-line>
+                <country>United States</country>
+              </aff>
+              <aff id="aff3">
+                <label>3</label>
+                <institution>Department of Medicine</institution>
+                <institution>University of Massachusetts Medical School</institution>
+                <addr-line>Worcester, MA</addr-line>
+                <country>United States</country>
+              </aff>
+              <aff id="aff4">
+                <label>4</label>
+                <institution>Bedford Veterans Affairs Medical Center</institution>
+                <institution>Center for Healthcare Organization and Implementation Research</institution>
+                <addr-line>Bedford, MA</addr-line>
+                <country>United States</country>
+              </aff>
+              <author-notes>
+                <corresp>Corresponding Author: Hong Yu
+<email>hong.yu@umassmed.edu</email></corresp>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <month>1</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>16</day>
+                <month>1</month>
+                <year>2019</year>
+              </pub-date>
+              <volume>21</volume>
+              <issue>1</issue>
+              <elocation-id>e10793</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>27</day>
+                  <month>4</month>
+                  <year>2018</year>
+                </date>
+                <date date-type="rev-request">
+                  <day>19</day>
+                  <month>7</month>
+                  <year>2018</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>28</day>
+                  <month>9</month>
+                  <year>2018</year>
+                </date>
+                <date date-type="accepted">
+                  <day>26</day>
+                  <month>10</month>
+                  <year>2018</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>©John P Lalor, Beverly Woolf, Hong Yu. Originally published in the Journal of Medical Internet Research (http://www.jmir.org), 16.01.2019.</copyright-statement>
+                <copyright-year>2019</copyright-year>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (<ext-link xlink:href="https://creativecommons.org/licenses/by/4.0/" ext-link-type="uri">https://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work, first published in the Journal of Medical Internet Research, is properly cited. The complete bibliographic information, a link to the original publication on <ext-link xlink:href="http://www.jmir.org/" ext-link-type="uri">http://www.jmir.org/</ext-link>, as well as this copyright and license information must be included.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:href="http://www.jmir.org/2019/1/e10793/"/>
+              <abstract>
+                <sec sec-type="background">
+                  <title>Background</title>
+                  <p>Patient portals are becoming more common, and with them, the ability of patients to access their personal electronic health records (EHRs). EHRs, in particular the free-text EHR notes, often contain medical jargon and terms that are difficult for laypersons to understand. There are many Web-based resources for learning more about particular diseases or conditions, including systems that directly link to lay definitions or educational materials for medical concepts.</p>
+                </sec>
+                <sec sec-type="objective">
+                  <title>Objective</title>
+                  <p>Our goal is to determine whether use of one such tool, NoteAid, leads to higher EHR note comprehension ability. We use a new EHR note comprehension assessment tool instead of patient self-reported scores.</p>
+                </sec>
+                <sec sec-type="methods">
+                  <title>Methods</title>
+                  <p>In this work, we compare a passive, self-service educational resource (MedlinePlus) with an active resource (NoteAid) where definitions are provided to the user for medical concepts that the system identifies. We use Amazon Mechanical Turk (AMT) to recruit individuals to complete ComprehENotes, a new test of EHR note comprehension.</p>
+                </sec>
+                <sec sec-type="results">
+                  <title>Results</title>
+                  <p>Mean scores for individuals with access to NoteAid are significantly higher than the mean baseline scores, both for raw scores (<italic>P=</italic>.008) and estimated ability (<italic>P</italic>=.02).</p>
+                </sec>
+                <sec sec-type="conclusions">
+                  <title>Conclusions</title>
+                  <p>In our experiments, we show that the active intervention leads to significantly higher scores on the comprehension test as compared with a baseline group with no resources provided. In contrast, there is no significant difference between the group that was provided with the passive intervention and the baseline group. Finally, we analyze the demographics of the individuals who participated in our AMT task and show differences between groups that align with the current understanding of health literacy between populations. This is the first work to show improvements in comprehension using tools such as NoteAid as measured by an EHR note comprehension assessment tool as opposed to patient self-reported scores.</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>health literacy</kwd>
+                <kwd>crowdsourcing</kwd>
+                <kwd>natural language processing</kwd>
+                <kwd>information storage and retrieval</kwd>
+                <kwd>psychometrics</kwd>
+                <kwd>MedlinePlus</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="introduction">
+              <title>Introduction</title>
+              <sec>
+                <title>Background and Significance</title>
+                <p>In recent years, many hospitals have adopted patient portals to make medical records available to patients. In particular, patient portals allow patients to access their electronic health records (EHRs). In a survey of studies related to patient access to their medical records, generally, patients who chose to see their records were satisfied with their contents [<xref rid="ref1" ref-type="bibr">1</xref>-<xref rid="ref4" ref-type="bibr">4</xref>] and felt greater autonomy about their care [<xref rid="ref1" ref-type="bibr">1</xref>,<xref rid="ref5" ref-type="bibr">5</xref>,<xref rid="ref6" ref-type="bibr">6</xref>]. Granting patients access to their records also does not increase the workload of medical staff members [<xref rid="ref1" ref-type="bibr">1</xref>,<xref rid="ref7" ref-type="bibr">7</xref>-<xref rid="ref9" ref-type="bibr">9</xref>]. Generally, patient access to EHRs can lead to positive health outcomes and greater understanding of their conditions [<xref rid="ref1" ref-type="bibr">1</xref>,<xref rid="ref10" ref-type="bibr">10</xref>,<xref rid="ref11" ref-type="bibr">11</xref>]. However, EHRs and the progress notes that are included often contain complex medical jargon that is difficult for patients to comprehend. When given access to their notes, patients have questions about the meaning of medical terms and other concepts included in the notes [<xref rid="ref9" ref-type="bibr">9</xref>,<xref rid="ref12" ref-type="bibr">12</xref>]. Tools such as OpenNotes have promoted the inclusion of patient visit notes in patient portals, but simply including the notes may not be beneficial for patients if they have questions regarding the meaning of terms in the notes. Tools and resources that can define terms and provide lay definitions for medical concepts are needed as part of the move to make EHR notes available to patients so that they can understand the contents of their notes and their medical record.</p>
+                <p>Self-service educational materials are widely available, especially on the Web. There is a wealth of information related to medicine and health care on the internet, ranging from well-maintained ontologies with curated educational materials to Web-based discussion communities of patients that suffer from the same disease. With this information, patients with certain symptoms can find information about their condition on the internet. But is the wealth of information useful? That is, does simply having access to health information lead to better understanding? In this work, we test the usefulness of both passive and active interventions for assisting patients with understanding medical concepts. The passive system, MedlinePlus (MLP) [<xref rid="ref13" ref-type="bibr">13</xref>], is a Web-based repository maintained by the US National Library of Medicine that includes information and definitions for clinical concepts, diseases, and other terms related to health care. MLP has been used in the past to promote patient education and provide patients with definitions and educational material to improve health literacy [<xref rid="ref14" ref-type="bibr">14</xref>-<xref rid="ref17" ref-type="bibr">17</xref>]. MLP is a large repository of high-quality health care information, but the user must search for the information that he or she is looking for. MLP does not automatically surface information for users.</p>
+                <p>NoteAid [<xref rid="ref18" ref-type="bibr">18</xref>,<xref rid="ref19" ref-type="bibr">19</xref>] is a freely available Web-based system developed by our team that automatically identifies medical concepts and displays their definitions to users. NoteAid has previously been shown to improve patients’ understanding of notes as measured by self-reporting [<xref rid="ref18" ref-type="bibr">18</xref>,<xref rid="ref19" ref-type="bibr">19</xref>].</p>
+                <p>In this work, our goal is to determine if access to NoteAid or MLP is associated with higher levels of EHR note comprehension. Do these interventions of educational materials improve a patient’s ability to comprehend his or her EHR note? In this work, we use the Amazon Mechanical Turk (AMT) microtask crowdsourcing platform to give AMT workers (Turkers) the ComprehENotes EHR note comprehension test [<xref rid="ref20" ref-type="bibr">20</xref>], a set of questions designed to test EHR note comprehension. AMT is an increasingly popular tool for gathering research data [<xref rid="ref21" ref-type="bibr">21</xref>-<xref rid="ref23" ref-type="bibr">23</xref>] and recruiting participants for experiments, both in open-domain tasks [<xref rid="ref24" ref-type="bibr">24</xref>,<xref rid="ref25" ref-type="bibr">25</xref>] and medical-specific research [<xref rid="ref26" ref-type="bibr">26</xref>-<xref rid="ref29" ref-type="bibr">29</xref>]. Certain Turkers were not given 1 of the external resources, whereas others were provided with either MLP or NoteAid. Our results show that using NoteAid leads to significantly higher scores on the EHR comprehension test compared with the baseline population that was given no external resource. However, we found no significant difference between the Turkers with no resource and the Turkers who used MLP. Turkers were also asked to take the short Test of Functional Health Literacy in Adults (S-TOFHLA) to assess functional health literacy. All the Turkers scored <italic>adequate health literacy</italic>, the highest level for S-TOFHLA. This is the first work to quantitatively analyze the impact of tools such as NoteAid using a test of EHR note comprehension as opposed to self-reported scores.</p>
+                <p>In this work, we show that NoteAid has a significant impact on EHR note comprehension as measured by a test specific to that task. In addition, simply giving a patient access to sites such as MLP does not lead to significant improvements in test scores over a baseline group that had no external resources available to them. Finally, we analyze the demographics of the Turkers who completed our tasks. A regression model to predict test scores showed differences between demographic groups that align with the current knowledge regarding health literacy. For example, individuals that reported education of less than high school scored lower than average, whereas individuals that identified as white scored higher than average.</p>
+              </sec>
+              <sec>
+                <title>Related Work</title>
+                <p>Health literacy is an important issue for patients. Low health literacy is a widespread problem, with only 12% of adults estimated to be proficient in health literacy [<xref rid="ref30" ref-type="bibr">30</xref>]. The Institute of Medicine defines health literacy as “the degree to which individuals have the capacity to make appropriate decisions regarding their health” [<xref rid="ref31" ref-type="bibr">31</xref>]. Patients with low health literacy often have difficulty with understanding instructions for medications from their doctors and have trouble navigating systems for making appointments, filling prescriptions, and fulfilling other health-related tasks [<xref rid="ref32" ref-type="bibr">32</xref>,<xref rid="ref33" ref-type="bibr">33</xref>]. In addition, having low health literacy has been linked to negative health outcomes in areas such as heart disease and fear of cancer progression [<xref rid="ref34" ref-type="bibr">34</xref>,<xref rid="ref35" ref-type="bibr">35</xref>].</p>
+                <p>It is important to be able to test a patient’s health literacy to identify those patients with low health literacy. Doctors can then provide these patients with educational materials to improve their understanding of medical terms and concepts. Testing health literacy is especially important with the proliferation of Web-based patient portals, where patients can access their EHRs and EHR notes directly. Giving a patient access to their EHRs and EHR notes without confirming that the patient can understand the content of the notes may lead to confusion and frustration with their health care experience.</p>
+                <p>There are a number of tests for health literacy, including the Test of Functional Health Literacy in Adults (TOFHLA) and the Newest Vital Sign (NVS) [<xref rid="ref36" ref-type="bibr">36</xref>-<xref rid="ref38" ref-type="bibr">38</xref>]. TOFHLA and its shortened form (S-TOFHLA) test comprehension and numeracy by providing scenarios to patients and constructing fill-in-the-blank questions by removing key terms from the scenario passages. NVS is a short test where patients are required to answer questions related to a nutrition label, to test whether the patient can navigate the label. These tests work well as screening instruments to identify patients who may have low health literacy, but they are broad tests and do not specifically test EHR note comprehension.</p>
+                <p>Although these and other tests are available, the only test that specifically targets a patient’s ability to comprehend their EHR notes is the ComprehENotes test [<xref rid="ref20" ref-type="bibr">20</xref>]. The ComprehENotes test questions were developed using key concepts extracted from deidentified EHR notes. Questions were written by physicians and medical researchers using Sentence Verification Technique and validated using Item Response Theory (IRT) [<xref rid="ref39" ref-type="bibr">39</xref>,<xref rid="ref40" ref-type="bibr">40</xref>]. The test set is the first of its kind that specifically tests a patient’s ability to comprehend the type of content that is included in EHR notes.</p>
+              </sec>
+            </sec>
+            <sec sec-type="methods">
+              <title>Methods</title>
+              <sec>
+                <title>Overview</title>
+                <p>In this work, we recruited Turkers on the AMT platform and asked them to complete the ComprehENotes EHR note comprehension test. Turkers were split into 3 groups and were allowed to use 1 external resource when completing the test (or no resource in the case of the baseline group). Test results were collected and analyzed using IRT to estimate EHR note comprehension ability for each of the individuals, and group results were analyzed to determine if either of the external resources had a significant effect on test scores. <xref rid="figure1" ref-type="fig">Figure 1</xref> illustrates our methodology at a high level. Details for each of the steps are described below.</p>
+              </sec>
+              <sec>
+                <title>Data Collection</title>
+                <p>To assess EHR note comprehension, we used the ComprehENotes question set [<xref rid="ref20" ref-type="bibr">20</xref>]. The dataset consists of 55 questions to measure EHR note comprehension. A bank of 154 questions was developed by groups of physicians and medical researchers from deidentified patient notes and then filtered down to a final test set using IRT. A total of 83 of the 154 questions were provided to AMT Turkers, who provided responses. These responses were used to fit an IRT model that estimated the questions’ ability to test EHR note comprehension. Of the questions in the original question bank, 55 were retained as a test of note comprehension [<xref rid="ref20" ref-type="bibr">20</xref>].</p>
+                <p>The questions in the ComprehENotes test set include questions from patient EHR notes associated with 6 diseases: heart failure, hypertension, diabetes, chronic obstructive pulmonary disease (COPD), liver failure, and cancer. The questions are all general enough that they assess a key concept associated with 1 of the 6 diseases without being so specific to a single patient that they are not useful to others [<xref rid="ref20" ref-type="bibr">20</xref>]. Therefore, the test can be used to assess a patient’s general EHR note comprehension ability and allows for comparisons between patients with respect to comprehension ability.</p>
+                <p>The ComprehENotes test set is most informative for individuals with low health literacy. That is, the SE of the ability estimation is lowest at low levels of ability (eg, −2 to −0.5). In addition, most of the ComprehENotes questions have low difficulty parameters. The difficulty parameters range from −2.2 to 0.7. That is, the questions are of a difficulty that individuals with lower than average ability have a 50% chance of answering correctly. For example, if a question has a difficulty parameter of −1.0, then an individual with estimated ability of −1.0 has a 50% chance of answering the question correctly. Ability estimates are normally distributed, so an individual with estimated ability of −1.0 is 1 SD below the average individual. <xref rid="box1" ref-type="boxed-text">Textbox 1</xref> shows two example questions taken from the ComprehENotes test. Individuals are shown a snippet of text from a deidentified EHR note and asked to select the answer that has the same meaning as the italicized portion of the text.</p>
+                <p>We set up 3 AMT tasks for Turkers to complete. Turkers were presented with the ComprehENotes question set, 1 question at a time, and were asked to provide the correct answer.</p>
+                <p>For 1 task (Baseline), the Turkers were instructed to not use any external resources when answering the questions. For the first treatment task (Treatment-MLP), Turkers were given a link to MLP and were told that they could use the site as a reference when completing the task. Turkers were encouraged to use the MLP page search functionality to search for definitions to unknown terms or concepts that appeared in the task. For the second treatment task (Treatment-NoteAid [Treatment-NA]), the Turkers were provided with a version of the ComprehENotes test set that had been preprocessed with NoteAid. We preprocessed the ComprehENotes question text using NoteAid, extracted the simplifications and definitions that were provided, and used the NoteAid output as the question text shown to Turkers in the Treatment-NA group (refer to <xref rid="figure2" ref-type="fig">Figure 2</xref> for an example of text simplified by NoteAid). The tasks were restricted so that individuals who completed 1 were not eligible to complete the other 2. For all groups, we collected demographic information about the Turkers’ age, gender, ethnicity, level of education, and occupation. We also administered the S-TOFHLA test for each group to assess functional health literacy and to compare S-TOFHLA and ComprehENotes scores.</p>
+                <p>As we are not able to monitor the Turkers as they complete our tasks, we cannot know for sure that the baseline group did not use any external resources as instructed. However, we can be confident that they did not have access to NoteAid. To access NoteAid, the Turkers would have to have known the URL link to access the system, even though we did not provide it to them. Alternatively, the Turkers would have had to search for NoteAid without knowing the name of the specific system we are testing. Therefore, we are confident that even if the baseline group did use some external source during the task, they did not have access to NoteAid. The baseline Turkers may have found MLP if they searched on the Web for medical concepts during the task. For example, a Google search of “COPD definition” returns an MLP link on the first page. However, unless the Turkers knew about MLP before beginning the task, it is unlikely that they would use MLP as a reference during the task.</p>
+                <fig position="float" id="figure1">
+                  <label>Figure 1</label>
+                  <caption>
+                    <p>Flowchart describing our experiment. Amazon Mechanical Turk workers were randomly assigned to one of three tasks on the platform. They completed the ComprehENotes test with the use of the provided external tool. All scores were then collected, and ability estimated were obtained using Item Response Theory (IRT).</p>
+                  </caption>
+                  <graphic xlink:href="jmir_v21i1e10793_fig1" position="float"/>
+                </fig>
+                <boxed-text id="box1" position="float">
+                  <caption>
+                    <title>Sample questions taken from the ComprehENotes test.</title>
+                  </caption>
+                  <p>Instructions</p>
+                  <p>Please read the following questions, making a note of the italicized text, and then examine the provided answer choices. Please select the answer that best represents the italicized portion of the question text.</p>
+                  <p>Amitriptyline 25 mg po at bedtime; Bactrim 160 mg po bid on Friday, Saturday, and Sunday; hydrocortisone cream; and <italic>pegfilgrastim 6 mg subcutaneous one dose</italic>. He will continue to return for scheduled chemotherapy and will also be following up with the hematology and oncology clinic.</p>
+                  <list list-type="order">
+                    <list-item>
+                      <p>Do a under skin injection of 1 dose of 6 mg pegfilgrastim.</p>
+                    </list-item>
+                    <list-item>
+                      <p>Pegfilgrastim 6 mg epidermal 1 dose.</p>
+                    </list-item>
+                    <list-item>
+                      <p>Pegfilgrastim may prevent neutropenia.</p>
+                    </list-item>
+                  </list>
+                  <p><italic>The patient is in for her physical examination today</italic>. Overall, she is doing very well. She is not on any blood pressure medications at the moment; she is doing fine. She had some issues in the past, but those settled down. Her blood pressure is 110/78 today on no medications, pulse 68 and regular, respirations 12.</p>
+                  <list list-type="order">
+                    <list-item>
+                      <p>No physical examination was performed for the patient today.</p>
+                    </list-item>
+                    <list-item>
+                      <p>The patient came to check her health.</p>
+                    </list-item>
+                    <list-item>
+                      <p>An eye exam is not a part of a regular physical examination.</p>
+                    </list-item>
+                  </list>
+                </boxed-text>
+                <fig position="float" id="figure2">
+                  <label>Figure 2</label>
+                  <caption>
+                    <p>Example showing NoteAid simplified text.</p>
+                  </caption>
+                  <graphic xlink:href="jmir_v21i1e10793_fig2" position="float"/>
+                </fig>
+                <p>We included quality control checks for our AMT tasks to ensure a high-quality response from the Turkers. First, we restricted access to our tasks to Turkers with a prior approval rating above 95% to include only Turkers whose work has been judged as high quality by other requesters. We also restricted the task to Turkers located in the United States as a proxy for a test of English proficiency. Within the actual task, we included 3 quality-check questions, which consisted of a very simple question with an obvious answer. If any Turker answered 1 or more of the quality control checks incorrectly, their responses were removed from the later analyses.</p>
+              </sec>
+              <sec>
+                <title>NoteAid</title>
+                <p>The NoteAid system supplies lay definitions for medical concepts in EHR notes [<xref rid="ref18" ref-type="bibr">18</xref>,<xref rid="ref19" ref-type="bibr">19</xref>]. Users enter the text from their EHR notes into the NoteAid system, which outputs a version of the note with medical concepts defined. When the user hovers his or her mouse over a concept, a popup with the definition is shown. <xref rid="figure2" ref-type="fig">Figure 2</xref> shows a high-level overview of the components in the NoteAid system, with example text that has been annotated. Users enter their EHR note text into NoteAid and are provided with a reproduction of the text, with key medical concepts linked to their definitions.</p>
+                <fig position="float" id="figure3">
+                  <label>Figure 3</label>
+                  <caption>
+                    <p>Equations for Item Response Theory 3-parameter logistic models.</p>
+                  </caption>
+                  <graphic xlink:href="jmir_v21i1e10793_fig3" position="float"/>
+                </fig>
+                <p>NoteAid consists of 2 components. The <italic>concept identifier</italic> component processes input text and maps terms to medical concepts. The concepts are mapped to entries in the Unified Medical Language System using MetaMap [<xref rid="ref41" ref-type="bibr">41</xref>,<xref rid="ref42" ref-type="bibr">42</xref>]. It then filters the list of returned concepts to include only concepts that match a subset of possible semantic types related to patient health (eg, disease or syndrome and lab or test result). The <italic>definition fetcher</italic> component uses the filtered list of concepts to pull definitions from an external knowledge resource (eg, Wikipedia or MLP).</p>
+                <p>Previous evaluation of NoteAid has shown that patients’ self-reported comprehension scores improve when using the system [<xref rid="ref18" ref-type="bibr">18</xref>,<xref rid="ref19" ref-type="bibr">19</xref>]. However, there has not yet been an evaluation of NoteAid on a test of comprehension, as opposed to self-reporting scores.</p>
+              </sec>
+              <sec>
+                <title>Item Response Theory Analysis</title>
+                <p>The ComprehENotes test set was developed using IRT [<xref rid="ref40" ref-type="bibr">40</xref>]. The test set was built according to a single factor, 3-parameter logistic IRT model with a fixed guessing parameter. The test, therefore, measures a single latent trait, specifically the ability to comprehend EHR notes. Once the model has been fit, ability for a new test respondent is estimated by estimating <italic>θ</italic> according to the respondent’s answers to the test questions after the responses have been converted to a correct or incorrect binary format. For a single test question <italic>i</italic>, the probability that individual <italic>j</italic> answers the question correctly is a function of the individual’s ability (<italic>θ</italic>). <xref rid="figure3" ref-type="fig">Figure 3</xref> includes 3 equations: equation 1 is used to calculate the probability that individual <italic>j</italic> with an estimated ability of <italic>θ</italic><sub><italic>j</italic></sub> will answer question <italic>i</italic> correctly; equation 2 calculates the probability that individual <italic>j</italic> with estimated ability <italic>θ</italic><sub><italic>j</italic></sub> will answer question <italic>i</italic> incorrectly; and equation 3 calculates the likelihood of individual <italic>j</italic> ’s set of responses <italic>U</italic><sub><italic>j</italic></sub> to all items in the test set, where <italic>u</italic><sub><italic>ij</italic></sub> is 1 if individual <italic>j</italic> answered item <italic>I</italic> correctly and 0 if they did not.</p>
+                <p><italic>p</italic><sub><italic>i</italic></sub> and <italic>q</italic><sub><italic>i</italic></sub> are functions of the known item parameters, and therefore, we can estimate <italic>θ</italic> via maximum likelihood for each Turker. We also calculated raw test scores for each Turker (percent of questions answered correctly) for comparison.</p>
+              </sec>
+            </sec>
+            <sec sec-type="results">
+              <title>Results</title>
+              <sec>
+                <title>Turker Demographics</title>
+                <p>We first report the demographic information for the Turkers who completed our tasks. <xref rid="table1" ref-type="table">Table 1</xref> shows the demographic information that we collected from the Turkers for the Baseline, Treatment-MLP, and Treatment-NA groups. Overall, most of the Turkers who completed our tasks are white, young, and have at least an associate degree. In addition, most of the Turkers do not work in the medical field. These demographics are not representative of a wider population and do not fit demographics that are more commonly associated with low health literacy [<xref rid="ref31" ref-type="bibr">31</xref>]. However, our goal here is to compare the results with respect to different interventions. In this case, we do not need to test individuals with low health literacy; we instead want to see if scores improve when users are provided with certain external resources.</p>
+              </sec>
+              <sec>
+                <title>Influence of Interventions</title>
+                <p>Our analysis includes both the raw test scores as well as the estimated ability level using IRT. As the test set consists of questions that were fit using IRT, we can also calculate the ability of these Turkers and test whether the mean ability score was higher for Turkers that used NoteAid. Ability is a useful metric as it takes into consideration which questions you answer correctly, not just how many. IRT models question difficulty, so by considering whether easy or difficult answers were correct, IRT allows for a more informative score than percent correct. For each Turker, we calculated their ability score (<italic>θ</italic>) using the IRT model fit as part of the ComprehENotes dataset [<xref rid="ref20" ref-type="bibr">20</xref>]. We use the <italic>mirt</italic> and <italic>ltm</italic> open-source R packages for estimation [<xref rid="ref43" ref-type="bibr">43</xref>,<xref rid="ref44" ref-type="bibr">44</xref>].</p>
+                <p><xref rid="figure4" ref-type="fig">Figure 4</xref> plots the raw scores for each AMT Turker for our test set. The center rectangles span the range from the first quartile to the third quartile of responses, and the bolded line inside each box represents the median score. Open circles indicate outlier scores. The upper horizontal line marks the maximum score for each group, and the lower horizontal line is 1.5 times the interquartile range below the first quartile. As the figure shows, visually there is a spread between the populations that did and did not have access to the interventions. Median raw scores for the baseline and MLP groups are similar, whereas median scores for the NoteAid group is higher. The spread of responses for the treatment groups is also smaller than the baseline group.</p>
+                <p><xref rid="figure5" ref-type="fig">Figure 5</xref> shows the box plots of ability estimates. Again, the median values for the baseline and MLP groups are similar and the median ability estimates for the NoteAid group is higher. The lowest ability estimates for the baseline and MLP groups are much lower than for the NoteAid group (2 SDs below the mean as opposed to 1 SD below). This shows that even for individuals that use NoteAid and still struggle, the low range of ability is higher than when NoteAid is not used.</p>
+                <p>To test whether either intervention caused a significant difference in scores, we compared each intervention with our baseline using Welch 2-sample <italic>t</italic> test. <xref rid="table2" ref-type="table">Table 2</xref> shows the mean raw scores and mean ability estimates for Turkers in each group. Mean scores are significantly higher than the baseline for Turkers that had access to NoteAid, both with regard to the raw scores (<italic>P</italic>=.01) and estimated ability (<italic>P</italic>=.02).</p>
+              </sec>
+              <sec>
+                <title>Regression Analysis</title>
+                <p>We also wanted to determine if demographic factors had an impact on test scores. To that end, we fit a linear regression model to predict raw scores using demographic information and group (eg, baseline or treatment) as features. The results of the analysis showed that the intervention (none, MLP, or NoteAid) was a significant feature in predicting raw score. In addition, certain demographic groups were significant in determining score. Regarding ethnicity, individuals who self-reported as white had a significant positive coefficient. Regarding education, individuals that have less than a high school degree had a significant negative coefficient. These results are consistent with what is known about populations that are at risk for low health literacy. Individuals with lower education often have higher instances of low health literacy, as well as minorities. Our populations for this task, particularly with regard to minorities and less educated individuals, were very small. Future work on NoteAid in minority populations would be worthwhile to confirm these effects.</p>
+                <table-wrap position="float" id="table1">
+                  <label>Table 1</label>
+                  <caption>
+                    <p>Demographic information collected from Turkers who completed our task.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+                    <col width="30" span="1"/>
+                    <col width="260" span="1"/>
+                    <col width="180" span="1"/>
+                    <col width="200" span="1"/>
+                    <col width="180" span="1"/>
+                    <col width="150" span="1"/>
+                    <thead>
+                      <tr valign="top">
+                        <td colspan="2" rowspan="1">Demographic</td>
+                        <td rowspan="1" colspan="1">Baseline (N=41), n (%)</td>
+                        <td rowspan="1" colspan="1">MedlinePlus (N=29), n (%)</td>
+                        <td rowspan="1" colspan="1">NoteAid (N=27), n (%)</td>
+                        <td rowspan="1" colspan="1">Total (N=97), n (%)</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr valign="top">
+                        <td colspan="6" rowspan="1">
+                          <bold>Gender</bold>
+                        </td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Male</td>
+                        <td rowspan="1" colspan="1">27 (66)</td>
+                        <td rowspan="1" colspan="1">8 (28)</td>
+                        <td rowspan="1" colspan="1">18 (67)</td>
+                        <td rowspan="1" colspan="1">53 (55)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Female</td>
+                        <td rowspan="1" colspan="1">14 (34)</td>
+                        <td rowspan="1" colspan="1">21 (72)</td>
+                        <td rowspan="1" colspan="1">9 (33)</td>
+                        <td rowspan="1" colspan="1">44 (45)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td colspan="6" rowspan="1">
+                          <bold>Age (years)</bold>
+                        </td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">22-34</td>
+                        <td rowspan="1" colspan="1">23 (56)</td>
+                        <td rowspan="1" colspan="1">16 (55)</td>
+                        <td rowspan="1" colspan="1">16 (59)</td>
+                        <td rowspan="1" colspan="1">55 (57)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">35-44</td>
+                        <td rowspan="1" colspan="1">6 (15)</td>
+                        <td rowspan="1" colspan="1">9 (31)</td>
+                        <td rowspan="1" colspan="1">8 (30)</td>
+                        <td rowspan="1" colspan="1">23 (24)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">45-54</td>
+                        <td rowspan="1" colspan="1">8 (20)</td>
+                        <td rowspan="1" colspan="1">2 (7)</td>
+                        <td rowspan="1" colspan="1">3 (11)</td>
+                        <td rowspan="1" colspan="1">13 (13)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">55-64</td>
+                        <td rowspan="1" colspan="1">4 (10)</td>
+                        <td rowspan="1" colspan="1">2 (7)</td>
+                        <td rowspan="1" colspan="1">0 (0)</td>
+                        <td rowspan="1" colspan="1">6 (6)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">65 and older</td>
+                        <td rowspan="1" colspan="1">0 (0)</td>
+                        <td rowspan="1" colspan="1">0 (0)</td>
+                        <td rowspan="1" colspan="1">0 (0)</td>
+                        <td rowspan="1" colspan="1">0 (0)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td colspan="6" rowspan="1">
+                          <bold>Ethnicity</bold>
+                        </td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">American Indian or Alaska Native</td>
+                        <td rowspan="1" colspan="1">0 (0)</td>
+                        <td rowspan="1" colspan="1">1 (3)</td>
+                        <td rowspan="1" colspan="1">1 (4)</td>
+                        <td rowspan="1" colspan="1">2 (2)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Asian</td>
+                        <td rowspan="1" colspan="1">3 (7)</td>
+                        <td rowspan="1" colspan="1">0 (0)</td>
+                        <td rowspan="1" colspan="1">1 (4)</td>
+                        <td rowspan="1" colspan="1">4 (4)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Black or African American</td>
+                        <td rowspan="1" colspan="1">8 (20)</td>
+                        <td rowspan="1" colspan="1">3 (10)</td>
+                        <td rowspan="1" colspan="1">4 (15)</td>
+                        <td rowspan="1" colspan="1">15 (16)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Hispanic</td>
+                        <td rowspan="1" colspan="1">4 (10)</td>
+                        <td rowspan="1" colspan="1">1 (3)</td>
+                        <td rowspan="1" colspan="1">0 (0)</td>
+                        <td rowspan="1" colspan="1">5 (5)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">White</td>
+                        <td rowspan="1" colspan="1">26 (63)</td>
+                        <td rowspan="1" colspan="1">24 (83)</td>
+                        <td rowspan="1" colspan="1">21 (78)</td>
+                        <td rowspan="1" colspan="1">71 (73)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td colspan="6" rowspan="1">
+                          <bold>Education</bold>
+                        </td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Less than high school</td>
+                        <td rowspan="1" colspan="1">1 (2)</td>
+                        <td rowspan="1" colspan="1">0 (0)</td>
+                        <td rowspan="1" colspan="1">0 (0)</td>
+                        <td rowspan="1" colspan="1">1 (1)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">High school diploma</td>
+                        <td rowspan="1" colspan="1">9 (22)</td>
+                        <td rowspan="1" colspan="1">8 (28)</td>
+                        <td rowspan="1" colspan="1">8 (30)</td>
+                        <td rowspan="1" colspan="1">25 (26)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Associates</td>
+                        <td rowspan="1" colspan="1">8 (20)</td>
+                        <td rowspan="1" colspan="1">5 (17)</td>
+                        <td rowspan="1" colspan="1">3 (11)</td>
+                        <td rowspan="1" colspan="1">16 (17)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Bachelors</td>
+                        <td rowspan="1" colspan="1">20 (49)</td>
+                        <td rowspan="1" colspan="1">14 (48)</td>
+                        <td rowspan="1" colspan="1">14 (51)</td>
+                        <td rowspan="1" colspan="1">48 (50)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Masters or higher</td>
+                        <td rowspan="1" colspan="1">3 (7)</td>
+                        <td rowspan="1" colspan="1">2 (7)</td>
+                        <td rowspan="1" colspan="1">2 (7)</td>
+                        <td rowspan="1" colspan="1">7 (7)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td colspan="6" rowspan="1">
+                          <bold>Occupation</bold>
+                        </td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Physician</td>
+                        <td rowspan="1" colspan="1">0 (0)</td>
+                        <td rowspan="1" colspan="1">0 (0)</td>
+                        <td rowspan="1" colspan="1">1 (4)</td>
+                        <td rowspan="1" colspan="1">1 (1)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Nurse</td>
+                        <td rowspan="1" colspan="1">2 (5)</td>
+                        <td rowspan="1" colspan="1">0 (0)</td>
+                        <td rowspan="1" colspan="1">0 (0)</td>
+                        <td rowspan="1" colspan="1">2 (2)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Medical student</td>
+                        <td rowspan="1" colspan="1">1 (2)</td>
+                        <td rowspan="1" colspan="1">1 (3)</td>
+                        <td rowspan="1" colspan="1">1 (4)</td>
+                        <td rowspan="1" colspan="1">3 (3)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Other profession in medicine</td>
+                        <td rowspan="1" colspan="1">2 (5)</td>
+                        <td rowspan="1" colspan="1">3 (10)</td>
+                        <td rowspan="1" colspan="1">3 (11)</td>
+                        <td rowspan="1" colspan="1">8 (8)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Other profession</td>
+                        <td rowspan="1" colspan="1">36 (88)</td>
+                        <td rowspan="1" colspan="1">25 (86)</td>
+                        <td rowspan="1" colspan="1">22 (82)</td>
+                        <td rowspan="1" colspan="1">83 (86)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+                <fig position="float" id="figure4">
+                  <label>Figure 4</label>
+                  <caption>
+                    <p>Box plot of raw scores for baseline and treatment Turker groups. The treatment groups were able to use MedlinePlus and NoteAid, respectively, when taking the ComprehENotes test.</p>
+                  </caption>
+                  <graphic xlink:href="jmir_v21i1e10793_fig4" position="float"/>
+                </fig>
+                <fig position="float" id="figure5">
+                  <label>Figure 5</label>
+                  <caption>
+                    <p>Box plot of ability estimates for baseline and treatment Turker groups. The treatment groups MLP and NA were able to use MedlinePlus and NoteAid, respectively, when taking the ComprehENotes test. IRT: Item Response Theory.</p>
+                  </caption>
+                  <graphic xlink:href="jmir_v21i1e10793_fig5" position="float"/>
+                </fig>
+                <table-wrap position="float" id="table2">
+                  <label>Table 2</label>
+                  <caption>
+                    <p>Mean scores for the 3 groups. Mean NoteAid scores are significantly higher than the mean baseline scores, both for raw scores (<italic>P</italic>=.01) and estimated ability (<italic>P</italic>=.02).</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+                    <col width="700" span="1"/>
+                    <col width="150" span="1"/>
+                    <col width="150" span="1"/>
+                    <thead>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Group</td>
+                        <td rowspan="1" colspan="1">Raw score</td>
+                        <td rowspan="1" colspan="1">Ability estimate</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Baseline</td>
+                        <td rowspan="1" colspan="1">0.831</td>
+                        <td rowspan="1" colspan="1">−0.065</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">MedlinePlus</td>
+                        <td rowspan="1" colspan="1">0.849</td>
+                        <td rowspan="1" colspan="1">0.138</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">NoteAid</td>
+                        <td rowspan="1" colspan="1">0.923<sup>a</sup></td>
+                        <td rowspan="1" colspan="1">0.477<sup>a</sup></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="table2fn1">
+                      <p><sup>a</sup>Score significantly higher than baseline.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+              <sec>
+                <title>Comparison With the Short Test of Functional Health Literacy in Adults</title>
+                <p>All Turkers who completed our tasks were also given the S-TOFHLA test to complete. Scores on S-TOFHLA place test-takers into 1 of the 3 categories: <italic>inadequate health literacy</italic>, <italic>marginal health literacy</italic>, and <italic>adequate health literacy</italic>. It is most useful as a screening tool to identify individuals with low or marginal health literacy. All Turkers in our tasks were scored to have <italic>adequate health literacy</italic>. In fact, all Turkers either scored perfect scores or only answered 1 question incorrectly, whereas the scores from the ComprehENotes test covered a wide range of ability estimates. The ComprehENotes can be used to assess EHR note comprehension at a more granular level as opposed to a screening tool such as S-TOFHLA, where the primary concern is identification of individuals with low health literacy.</p>
+              </sec>
+              <sec>
+                <title>ComprehENotes Analysis</title>
+                <p>Finally, we wanted to see if the IRT model that was originally fit as part of the ComprehENotes dataset was validated by the response patterns that we collected from the Turkers. To this end, we selected the 2 questions that the most Turkers answered correctly as well as the 2 questions that the fewest Turkers answered correctly.</p>
+                <p>These questions can be considered the easiest and hardest, respectively, from our task. The difficulty parameters for these items as modeled by IRT match the expectation of how difficult these items should be. The 2 hardest questions from our task (in terms of how many Turkers answered correctly) have difficulty parameters of 0.7 and −0.3, whereas the 2 easiest questions have difficulty parameters of −1.8 and −1.4. The difficulty parameter is associated with the level of ability at which an individual has a 50% chance of answering the question correctly. Therefore, the low difficulty levels imply that someone of low ability has a 50% chance of answering the question correctly. Conversely, a higher difficulty parameter means that someone must be of a higher estimated ability level to have a 50% chance of answering correctly.</p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion">
+              <title>Discussion</title>
+              <sec>
+                <title>Principal Findings</title>
+                <p>In this work, we have shown the importance of targeted, active intervention when trying to improve a person’s ability to comprehend EHR notes. By giving Turkers access to NoteAid, scores on the ComprehENotes test are significantly improved over a baseline population that had no external resources. On the other hand, Turkers that had access to MLP but had to search themselves for the information that they wanted did not have a significant improvement in scores. NoteAid automatically identifies key medical concepts and provides definitions, as opposed to the scenario with MLP, where a user must decide what to search for. The user may not know that a certain concept is key for understanding a passage or they may assume that they understand certain concepts that they do not. By letting the user decide what to search for, important terms may be missed and overall comprehension may be affected. This result is consistent with previous work on assessing comprehension using tools such as NoteAid [<xref rid="ref18" ref-type="bibr">18</xref>,<xref rid="ref19" ref-type="bibr">19</xref>], but this is the first time where the conclusion is based on an EHR note comprehension assessment instead of patient self-reported scores. By using the ComprehENotes test, we can quantitatively confirm the previous results self-reported by patients.</p>
+              </sec>
+              <sec>
+                <title>Limitations</title>
+                <p>There are limitations to this work. First, by using AMT, we are not able to monitor the Turkers who complete our task to ensure that only the external resources that we provide were used. This is particularly true in the baseline group, where our expectation is that no external resource was used. However, it is unlikely that the baseline users were able to access NoteAid without prior knowledge of the system; therefore, we can be confident that they did not use it in our task. If the baseline users did use external resources, they most likely used a passive resource such as Google or even MLP. As NoteAid was integrated into the Treatment-NA task, we can be confident that Turkers in the Treatment-NA task used NoteAid. The discrepancy between Treatment-MLP and Treatment-NA may seem to bias improvements toward the Treatment-NA group, but there is an important distinction to be made. At present, sites such as MLP are available to any patient that seeks them out, but the onus is on the patient to go to the site and search for terms. With the Treatment-NA group, we have shown that by integrating a system that can simplify and define medical terms automatically, the burden of defining terms is removed from the patient.</p>
+                <p>In addition, the demographics of the Turkers who completed our task are not representative of the larger population, specifically among demographics associated with higher risks of low health literacy [<xref rid="ref31" ref-type="bibr">31</xref>]. In the case of this work, that is not problematic, as our goal was to examine the effect of active and passive interventions on EHR note comprehension. The demographics of our 3 groups were similarly distributed, so the changes in scores can be linked to the intervention used. Although the results obtained were significant, ideally larger populations could be examined in each group. However, as the demographics of the Turkers are not consistent with demographic groups associated with low health literacy, the follow-up work should focus on those groups. By using AMT and Turkers, we have shown that tools such as NoteAid do improve EHR note comprehension generally, but future work should look specifically at groups associated with low health literacy to determine if our results hold for those groups as well.</p>
+                <p>Another limitation of this study is that patients are not evaluated on their own notes. Ideally, we would be able to assess the EHR note comprehension of each patient by testing the patient using concepts extracted from his or her own EHR notes. However, there are several roadblocks to making this a reality. First, this type of personalized assessment would reduce the ability to compare comprehension ability between patients. If a patient scores highly on an assessment of their own note, we can say that the patient understands the note, but if there were no complex concepts in the note, we cannot compare this with a patient who scores poorly on an evaluation based on his or her own complex EHR note. Second, to build a personalized EHR note evaluation would require complex natural language processing (NLP) systems to automatically generate multiple- choice questions (MCQs) for patients when they enter their EHR notes. To our knowledge, there does not currently exist an NLP system for medical MCQ generation. We do believe that the development of such a system will be beneficial for personalized patient assessment of EHR note comprehension. Such a personalized system could complement the ComprehENotes test so that a patient would be assessed on their own EHR note as well as on a standardized assessment.</p>
+              </sec>
+              <sec>
+                <title>Conclusions</title>
+                <p>In this work, we have shown that simply having access to resources designed to improve health literacy and medical concept understanding is not enough to provide benefit. The Turkers in our experiment who had access to MLP did not score significantly higher on the ComprehENotes test than those Turkers that were not provided with an external resource. On the other hand, having access to NoteAid, which actively pulls definition information and provides it to the user, led to significantly higher scores for Turkers. This result validates previously reported self-scored comprehension results showing that users had an easier time understanding their notes when they had access to NoteAid.</p>
+                <p>Knowing that users do not see benefits from simply having access to MLP is an important observation. When doctors are recommending next steps for patients who wish to improve their health literacy, it may not be sufficient to point them to Web-based resources. Targeted interventions are necessary to ensure that patients are able to learn about specific concepts and diseases that are relevant to them. In particular, the integration of NoteAid with the EHR note on a patient’s portal would remove the friction from the patient accessing an external resource. Instead, the patient would have key terms defined and simplified within his or her own patient portal, which would minimize the effort involved from the patient’s standpoint and keep the information in the note within the portal itself.</p>
+                <p>There are several directions for future work. Developing target curricula is necessary to ensure that patients can see benefits from Web-based resources. They may not need a tool such as NoteAid (eg, if they are not looking at their notes), but something more targeted than MLP is needed to ensure that patients are learning. In addition, there should be further validation of the ComprehENotes test set with patients that are at risk for low health literacy. The Turkers in our task all scored either close to average or above average in our ability estimates, except for a few outliers. The test was designed to be most informative for individuals of lower ability, so this test should be replicated with such a population.</p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>The authors thank the anonymous Turkers who participated in the Amazon Mechanical Turk tasks. This work was supported in part by the Investigator Initiated Research 1I01HX001457 from the Health Services Research and Development Program of the United States Department of Veterans Affairs (VA) and in part by a startup fund from the University of Massachusetts Medical School, both to HY. We also acknowledge the support of R01LM012817 from the National Institutes of Health (NIH). This work was also supported in part by the Center for Intelligent Information Retrieval (CIIR). The content is solely the responsibility of the authors and does not represent the views of CIIR, NIH, VA, the US Government, or the University of Massachusetts Medical School.</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="COI-statement">
+                <p>Conflicts of Interest: None declared.</p>
+              </fn>
+            </fn-group>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term id="abb1">AMT</term>
+                  <def>
+                    <p>Amazon Mechanical Turk</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb2">COPD</term>
+                  <def>
+                    <p>chronic obstructive pulmonary disease</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb3">EHR</term>
+                  <def>
+                    <p>electronic health record</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb4">IRT</term>
+                  <def>
+                    <p>Item Response Theory</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb5">MCQ</term>
+                  <def>
+                    <p>multiple-choice question</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb6">MLP</term>
+                  <def>
+                    <p>MedlinePlus</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb7">NLP</term>
+                  <def>
+                    <p>natural language processing</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb8">NVS</term>
+                  <def>
+                    <p>Newest Vital Sign</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb9">S-TOFHLA</term>
+                  <def>
+                    <p>short Test of Functional Health Literacy in Adults</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb10">TOFHLA</term>
+                  <def>
+                    <p>Test of Functional Health Literacy in Adults</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb11">Treatment-NA</term>
+                  <def>
+                    <p>Treatment-NoteAid</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <ref-list>
+              <ref id="ref1">
+                <label>1</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ross</surname>
+                      <given-names>SE</given-names>
+                    </name>
+                    <name>
+                      <surname>Lin</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The effects of promoting patient access to medical records: a review</article-title>
+                  <source>J Am Med Inform Assoc</source>
+                  <year>2003</year>
+                  <month>04</month>
+                  <volume>10</volume>
+                  <issue>2</issue>
+                  <fpage>129</fpage>
+                  <lpage>38</lpage>
+                  <comment>
+                    <ext-link xlink:href="http://jamia.oxfordjournals.org/cgi/pmidlookup?view=long&amp;pmid=12595402" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="medline">12595402</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC150366</pub-id>-->
+                  <pub-id pub-id-type="pmid">12595402</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref2">
+                <label>2</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Masys</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Baker</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Butros</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Cowles</surname>
+                      <given-names>KE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Giving patients access to their medical records via the internet: the PCASSO experience</article-title>
+                  <source>J Am Med Inform Assoc</source>
+                  <year>2002</year>
+                  <volume>9</volume>
+                  <issue>2</issue>
+                  <fpage>181</fpage>
+                  <lpage>91</lpage>
+                  <comment>
+                    <ext-link xlink:href="http://europepmc.org/abstract/MED/11861633" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="medline">11861633</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC344575</pub-id>-->
+                  <pub-id pub-id-type="pmid">11861633</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref3">
+                <label>3</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sheldon</surname>
+                      <given-names>MG</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Giving patients a copy of their computer medical record</article-title>
+                  <source>J R Coll Gen Pract</source>
+                  <year>1982</year>
+                  <month>02</month>
+                  <volume>32</volume>
+                  <issue>235</issue>
+                  <fpage>80</fpage>
+                  <lpage>6</lpage>
+                  <comment>
+                    <ext-link xlink:href="http://bjgp.org/cgi/pmidlookup?view=long&amp;pmid=7097630" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="medline">7097630</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC1971001</pub-id>-->
+                  <pub-id pub-id-type="pmid">7097630</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref4">
+                <label>4</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bronson</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                    <name>
+                      <surname>Costanza</surname>
+                      <given-names>MC</given-names>
+                    </name>
+                    <name>
+                      <surname>Tufo</surname>
+                      <given-names>HM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Using medical records for older patient education in ambulatory practice</article-title>
+                  <source>Med Care</source>
+                  <year>1986</year>
+                  <month>04</month>
+                  <volume>24</volume>
+                  <issue>4</issue>
+                  <fpage>332</fpage>
+                  <lpage>9</lpage>
+                  <pub-id pub-id-type="medline">3515060</pub-id>
+                  <pub-id pub-id-type="pmid">3515060</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref5">
+                <label>5</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Homer</surname>
+                      <given-names>CS</given-names>
+                    </name>
+                    <name>
+                      <surname>Davis</surname>
+                      <given-names>GK</given-names>
+                    </name>
+                    <name>
+                      <surname>Everitt</surname>
+                      <given-names>LS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The introduction of a woman-held record into a hospital antenatal clinic: the bring your own records study</article-title>
+                  <source>Aust N Z J Obstet Gynaecol</source>
+                  <year>1999</year>
+                  <month>02</month>
+                  <volume>39</volume>
+                  <issue>1</issue>
+                  <fpage>54</fpage>
+                  <lpage>7</lpage>
+                  <pub-id pub-id-type="medline">10099751</pub-id>
+                  <pub-id pub-id-type="pmid">10099751</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref6">
+                <label>6</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Draper</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Field</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Thomas</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Hare</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Should women carry their antenatal records?</article-title>
+                  <source>Br Med J (Clin Res Ed)</source>
+                  <year>1986</year>
+                  <month>03</month>
+                  <day>01</day>
+                  <volume>292</volume>
+                  <issue>6520</issue>
+                  <fpage>603</fpage>
+                  <comment>
+                    <ext-link xlink:href="http://europepmc.org/abstract/MED/3081189" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="medline">3081189</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC1339577</pub-id>-->
+                </element-citation>
+              </ref>
+              <ref id="ref7">
+                <label>7</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hertz</surname>
+                      <given-names>CG</given-names>
+                    </name>
+                    <name>
+                      <surname>Bernheim</surname>
+                      <given-names>JW</given-names>
+                    </name>
+                    <name>
+                      <surname>Perloff</surname>
+                      <given-names>TN</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Patient participation in the problem-oriented system: a health care plan</article-title>
+                  <source>Med Care</source>
+                  <year>1976</year>
+                  <month>01</month>
+                  <volume>14</volume>
+                  <issue>1</issue>
+                  <fpage>77</fpage>
+                  <lpage>9</lpage>
+                  <pub-id pub-id-type="medline">1084944</pub-id>
+                  <pub-id pub-id-type="pmid">1084944</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref8">
+                <label>8</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Baldry</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Cheal</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Fisher</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Gillett</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Huet</surname>
+                      <given-names>V</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Giving patients their own records in general practice: experience of patients and staff</article-title>
+                  <source>Br Med J (Clin Res Ed)</source>
+                  <year>1986</year>
+                  <month>03</month>
+                  <day>1</day>
+                  <volume>292</volume>
+                  <issue>6520</issue>
+                  <fpage>596</fpage>
+                  <lpage>8</lpage>
+                  <comment>
+                    <ext-link xlink:href="http://europepmc.org/abstract/MED/3081187" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="medline">3081187</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC1339574</pub-id>-->
+                </element-citation>
+              </ref>
+              <ref id="ref9">
+                <label>9</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Golodetz</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Ruess</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Milhous</surname>
+                      <given-names>RL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The right to know: giving the patient his medical record</article-title>
+                  <source>Arch Phys Med Rehabil</source>
+                  <year>1976</year>
+                  <month>02</month>
+                  <volume>57</volume>
+                  <issue>2</issue>
+                  <fpage>78</fpage>
+                  <lpage>81</lpage>
+                  <pub-id pub-id-type="medline">1083223</pub-id>
+                  <pub-id pub-id-type="pmid">1083223</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref10">
+                <label>10</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Honeyman</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Cox</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Fisher</surname>
+                      <given-names>B</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Potential impacts of patient access to their electronic care records</article-title>
+                  <source>Inform Prim Care</source>
+                  <year>2005</year>
+                  <volume>13</volume>
+                  <issue>1</issue>
+                  <fpage>55</fpage>
+                  <lpage>60</lpage>
+                  <comment>
+                    <ext-link xlink:href="http://hijournal.bcs.org/index.php/jhi/article/view/579" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="medline">15949176</pub-id>
+                  <pub-id pub-id-type="pii">579</pub-id>
+                  <pub-id pub-id-type="pmid">15949176</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref11">
+                <label>11</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Delbanco</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Walker</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Bell</surname>
+                      <given-names>SK</given-names>
+                    </name>
+                    <name>
+                      <surname>Darer</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                    <name>
+                      <surname>Elmore</surname>
+                      <given-names>JG</given-names>
+                    </name>
+                    <name>
+                      <surname>Farag</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Feldman</surname>
+                      <given-names>HJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Mejilla</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Ngo</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Ralston</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                    <name>
+                      <surname>Ross</surname>
+                      <given-names>SE</given-names>
+                    </name>
+                    <name>
+                      <surname>Trivedi</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Vodicka</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Leveille</surname>
+                      <given-names>SG</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Inviting patients to read their doctors' notes: a quasi-experimental study and a look ahead</article-title>
+                  <source>Ann Intern Med</source>
+                  <year>2012</year>
+                  <month>10</month>
+                  <day>2</day>
+                  <volume>157</volume>
+                  <issue>7</issue>
+                  <fpage>461</fpage>
+                  <lpage>70</lpage>
+                  <comment>
+                    <ext-link xlink:href="http://europepmc.org/abstract/MED/23027317" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.7326/0003-4819-157-7-201210020-00002</pub-id>
+                  <pub-id pub-id-type="medline">23027317</pub-id>
+                  <pub-id pub-id-type="pii">1363511</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC3908866</pub-id>-->
+                  <pub-id pub-id-type="pmid">23027317</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref12">
+                <label>12</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jones</surname>
+                      <given-names>RB</given-names>
+                    </name>
+                    <name>
+                      <surname>McGhee</surname>
+                      <given-names>SM</given-names>
+                    </name>
+                    <name>
+                      <surname>McGhee</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Patient on-line access to medical records in general practice</article-title>
+                  <source>Health Bull (Edinb)</source>
+                  <year>1992</year>
+                  <month>03</month>
+                  <volume>50</volume>
+                  <issue>2</issue>
+                  <fpage>143</fpage>
+                  <lpage>50</lpage>
+                  <pub-id pub-id-type="medline">1517087</pub-id>
+                  <pub-id pub-id-type="pmid">1517087</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref13">
+                <label>13</label>
+                <element-citation publication-type="webpage">
+                  <source>US National Library of Medicine</source>
+                  <date-in-citation content-type="access-date">2018-12-03</date-in-citation>
+                  <comment>Fact Sheet: MedlinePlus®
+<ext-link xlink:href="http://wayback.archive-it.org/org-350/20180312141606/https://www.nlm.nih.gov/pubs/factsheets/medlineplus.html" ext-link-type="uri">http://wayback.archive-it.org/org-350/20180312141606/https://www.nlm.nih.gov/pubs/factsheets/medlineplus.html</ext-link>
+</comment>
+                </element-citation>
+              </ref>
+              <ref id="ref14">
+                <label>14</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Coberly</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Boren</surname>
+                      <given-names>SA</given-names>
+                    </name>
+                    <name>
+                      <surname>Davis</surname>
+                      <given-names>JW</given-names>
+                    </name>
+                    <name>
+                      <surname>McConnell</surname>
+                      <given-names>AL</given-names>
+                    </name>
+                    <name>
+                      <surname>Chitima-Matsiga</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Ge</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Logan</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                    <name>
+                      <surname>Steinmann</surname>
+                      <given-names>WC</given-names>
+                    </name>
+                    <name>
+                      <surname>Hodge</surname>
+                      <given-names>RH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Linking clinic patients to Internet-based, condition-specific information prescriptions</article-title>
+                  <source>J Med Libr Assoc</source>
+                  <year>2010</year>
+                  <month>04</month>
+                  <volume>98</volume>
+                  <issue>2</issue>
+                  <fpage>160</fpage>
+                  <lpage>4</lpage>
+                  <comment>
+                    <ext-link xlink:href="http://europepmc.org/abstract/MED/20428282" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.3163/1536-5050.98.2.009</pub-id>
+                  <pub-id pub-id-type="medline">20428282</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC2859275</pub-id>-->
+                  <pub-id pub-id-type="pmid">20428282</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref15">
+                <label>15</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gaines</surname>
+                      <given-names>JK</given-names>
+                    </name>
+                    <name>
+                      <surname>Levy</surname>
+                      <given-names>LS</given-names>
+                    </name>
+                    <name>
+                      <surname>Cogdill</surname>
+                      <given-names>KW</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Sharing MedlinePlus®/MEDLINE® for information literacy education (SMILE): a dental public health information project</article-title>
+                  <source>Med Ref Serv Q</source>
+                  <year>2011</year>
+                  <volume>30</volume>
+                  <issue>4</issue>
+                  <fpage>357</fpage>
+                  <lpage>64</lpage>
+                  <comment>
+                    <ext-link xlink:href="http://europepmc.org/abstract/MED/22040242" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1080/02763869.2011.609016</pub-id>
+                  <pub-id pub-id-type="medline">22040242</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC3334827</pub-id>-->
+                  <pub-id pub-id-type="pmid">22040242</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref16">
+                <label>16</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McMullen</surname>
+                      <given-names>KD</given-names>
+                    </name>
+                    <name>
+                      <surname>McConnaughy</surname>
+                      <given-names>RP</given-names>
+                    </name>
+                    <name>
+                      <surname>Riley</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Outreach to improve patient education at South Carolina free medical clinics</article-title>
+                  <source>J Consum Health Internet</source>
+                  <year>2011</year>
+                  <volume>15</volume>
+                  <issue>2</issue>
+                  <fpage>117</fpage>
+                  <lpage>131</lpage>
+                  <comment>
+                    <ext-link xlink:href="http://europepmc.org/abstract/MED/22084623" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1080/15398285.2011.572779</pub-id>
+                  <pub-id pub-id-type="medline">22084623</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC3213640</pub-id>-->
+                  <pub-id pub-id-type="pmid">22084623</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref17">
+                <label>17</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Teolis</surname>
+                      <given-names>MG</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A MedlinePlus kiosk promoting health literacy</article-title>
+                  <source>J Consum Health Internet</source>
+                  <year>2010</year>
+                  <volume>14</volume>
+                  <issue>2</issue>
+                  <fpage>126</fpage>
+                  <lpage>137</lpage>
+                  <comment>
+                    <ext-link xlink:href="http://europepmc.org/abstract/MED/20808715" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1080/15398281003780966</pub-id>
+                  <pub-id pub-id-type="medline">20808715</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC2929770</pub-id>-->
+                  <pub-id pub-id-type="pmid">20808715</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref18">
+                <label>18</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Polepalli</surname>
+                      <given-names>RB</given-names>
+                    </name>
+                    <name>
+                      <surname>Houston</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Brandt</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Fang</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Improving patients' electronic health record comprehension with NoteAid</article-title>
+                  <source>Stud Health Technol Inform</source>
+                  <year>2013</year>
+                  <volume>192</volume>
+                  <fpage>714</fpage>
+                  <lpage>8</lpage>
+                  <pub-id pub-id-type="medline">23920650</pub-id>
+                  <pub-id pub-id-type="pmid">23920650</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref19">
+                <label>19</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Polepalli</surname>
+                      <given-names>RB</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Systems for Improving Electronic Health Record Note Comprehension</article-title>
+                  <year>2013</year>
+                  <conf-name>ACM SIGIR Workshop on Health Search &amp; Discovery</conf-name>
+                  <conf-date>2013</conf-date>
+                  <conf-loc>Dublin</conf-loc>
+                </element-citation>
+              </ref>
+              <ref id="ref20">
+                <label>20</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lalor</surname>
+                      <given-names>JP</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Mazor</surname>
+                      <given-names>KM</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>ComprehENotes, an instrument to assess patient reading comprehension of electronic health record notes: development and validation</article-title>
+                  <source>J Med Internet Res</source>
+                  <year>2018</year>
+                  <month>04</month>
+                  <day>25</day>
+                  <volume>20</volume>
+                  <issue>4</issue>
+                  <fpage>e139</fpage>
+                  <comment>
+                    <ext-link xlink:href="http://www.jmir.org/2018/4/e139/" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.2196/jmir.9380</pub-id>
+                  <pub-id pub-id-type="medline">29695372</pub-id>
+                  <pub-id pub-id-type="pii">v20i4e139</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC5943623</pub-id>-->
+                  <pub-id pub-id-type="pmid">29695372</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref21">
+                <label>21</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Snow</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>O'Connor</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Jurafsky</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Ng</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cheap and fast---but is it good?: evaluating non-expert annotations for natural language tasks</article-title>
+                  <source>Proceedings of the Conference on Empirical Methods in Natural Language Processing</source>
+                  <year>2008</year>
+                  <conf-name>EMNLP '08</conf-name>
+                  <conf-date>October 25 - 27, 2008</conf-date>
+                  <conf-loc>Honolulu, Hawaii</conf-loc>
+                  <publisher-loc>USA</publisher-loc>
+                  <publisher-name>Association for Computational Linguistics</publisher-name>
+                  <comment>
+                    <ext-link xlink:href="http://dl.acm.org/citation.cfm?id=1613715.1613751" ext-link-type="uri"/>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref22">
+                <label>22</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sabou</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Bontcheva</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Scharl</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Crowdsourcing Research Opportunities: Lessons from Natural Language Processing</article-title>
+                  <year>2012</year>
+                  <conf-name>International Conference on Knowledge Management and Knowledge Technologies</conf-name>
+                  <conf-date>September 05 - 07, 2012</conf-date>
+                  <conf-loc>Graz, Austria</conf-loc>
+                  <publisher-loc>USA</publisher-loc>
+                  <publisher-name>ACM</publisher-name>
+                  <pub-id pub-id-type="doi">10.1145/2362456.2362479</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref23">
+                <label>23</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lalor</surname>
+                      <given-names>JP</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Building an evaluation scale using item response theory</article-title>
+                  <source>Proc Conf Empir Methods Nat Lang Process</source>
+                  <year>2016</year>
+                  <month>11</month>
+                  <volume>2016</volume>
+                  <fpage>648</fpage>
+                  <lpage>657</lpage>
+                  <comment>
+                    <ext-link xlink:href="http://aclweb.org/anthology/D16-1062" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="medline">28004039</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC5167538</pub-id>-->
+                  <pub-id pub-id-type="pmid">28004039</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref24">
+                <label>24</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Demartini</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Difallah</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Cudré-Mauroux</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>ZenCrowd: leveraging probabilistic reasoning and crowdsourcing techniques for large-scale entity linking</article-title>
+                  <year>2012</year>
+                  <conf-name>International Conference on World Wide Web</conf-name>
+                  <conf-date>April 16 - 20, 2012</conf-date>
+                  <conf-loc>Lyon, France</conf-loc>
+                  <publisher-loc>USA</publisher-loc>
+                  <publisher-name>ACM</publisher-name>
+                  <pub-id pub-id-type="doi">10.1145/2187836.2187900</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref25">
+                <label>25</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lalor</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Munkhdalai</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Understanding Deep Learning Performance through an Examination of Test Set Difficulty: A Psychometric Case Study</article-title>
+                  <year>2018</year>
+                  <conf-name>Empirical Methods in Natural Language Processing</conf-name>
+                  <conf-date>October 31–November 4</conf-date>
+                  <conf-loc>Brussels, Belgium</conf-loc>
+                </element-citation>
+              </ref>
+              <ref id="ref26">
+                <label>26</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhai</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Lingren</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Deleger</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Kaiser</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Stoutenborough</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Solti</surname>
+                      <given-names>I</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Web 2.0-based crowdsourcing for high-quality gold standard development in clinical natural language processing</article-title>
+                  <source>J Med Internet Res</source>
+                  <year>2013</year>
+                  <volume>15</volume>
+                  <issue>4</issue>
+                  <fpage>e73</fpage>
+                  <comment>
+                    <ext-link xlink:href="http://www.jmir.org/2013/4/e73/" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.2196/jmir.2426</pub-id>
+                  <pub-id pub-id-type="medline">23548263</pub-id>
+                  <pub-id pub-id-type="pii">v15i4e73</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC3636329</pub-id>-->
+                  <pub-id pub-id-type="pmid">23548263</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref27">
+                <label>27</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Good</surname>
+                      <given-names>BM</given-names>
+                    </name>
+                    <name>
+                      <surname>Nanis</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Su</surname>
+                      <given-names>AI</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Microtask crowdsourcing for disease mention annotation in PubMed abstracts</article-title>
+                  <source>Pac Symp Biocomput</source>
+                  <year>2015</year>
+                  <fpage>282</fpage>
+                  <lpage>93</lpage>
+                  <comment>
+                    <ext-link xlink:href="http://psb.stanford.edu/psb-online/proceedings/psb15/abstracts/2015_p282.html" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="medline">25592589</pub-id>
+                  <pub-id pub-id-type="pii">9789814644730_0028</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC4299946</pub-id>-->
+                  <pub-id pub-id-type="pmid">25592589</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref28">
+                <label>28</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mortensen</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Minty</surname>
+                      <given-names>EP</given-names>
+                    </name>
+                    <name>
+                      <surname>Januszyk</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Sweeney</surname>
+                      <given-names>TE</given-names>
+                    </name>
+                    <name>
+                      <surname>Rector</surname>
+                      <given-names>AL</given-names>
+                    </name>
+                    <name>
+                      <surname>Noy</surname>
+                      <given-names>NF</given-names>
+                    </name>
+                    <name>
+                      <surname>Musen</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Using the wisdom of the crowds to find critical errors in biomedical ontologies: a study of SNOMED CT</article-title>
+                  <source>J Am Med Inform Assoc</source>
+                  <year>2015</year>
+                  <month>05</month>
+                  <volume>22</volume>
+                  <issue>3</issue>
+                  <fpage>640</fpage>
+                  <lpage>8</lpage>
+                  <comment>
+                    <ext-link xlink:href="http://europepmc.org/abstract/MED/25342179" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1136/amiajnl-2014-002901</pub-id>
+                  <pub-id pub-id-type="medline">25342179</pub-id>
+                  <pub-id pub-id-type="pii">amiajnl-2014-002901</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC5566196</pub-id>-->
+                  <pub-id pub-id-type="pmid">25342179</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref29">
+                <label>29</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gottlieb</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Hoehndorf</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Dumontier</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Altman</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Ranking adverse drug reactions with crowdsourcing</article-title>
+                  <source>J Med Internet Res</source>
+                  <year>2015</year>
+                  <month>03</month>
+                  <day>23</day>
+                  <volume>17</volume>
+                  <issue>3</issue>
+                  <fpage>e80</fpage>
+                  <comment>
+                    <ext-link xlink:href="http://www.jmir.org/2015/3/e80/" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.2196/jmir.3962</pub-id>
+                  <pub-id pub-id-type="medline">25800813</pub-id>
+                  <pub-id pub-id-type="pii">v17i3e80</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC4387295</pub-id>-->
+                  <pub-id pub-id-type="pmid">25800813</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref30">
+                <label>30</label>
+                <element-citation publication-type="webpage">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kutner</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <source>Eric</source>
+                  <year>2006</year>
+                  <date-in-citation content-type="access-date">2018-12-03</date-in-citation>
+                  <comment>The Health Literacy of America's Adults: Results from the 2003 National Assessment of Adult Literacy. NCES 2006-483
+<ext-link xlink:href="https://eric.ed.gov/?id=ED493284" ext-link-type="uri">https://eric.ed.gov/?id=ED493284</ext-link>
+</comment>
+                </element-citation>
+              </ref>
+              <ref id="ref31">
+                <label>31</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lynn</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Allison</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <source>Health literacy: a prescription to end confusion</source>
+                  <year>2004</year>
+                  <publisher-loc>Washington (DC)</publisher-loc>
+                  <publisher-name>The National Academies Press</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="ref32">
+                <label>32</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lerner</surname>
+                      <given-names>EB</given-names>
+                    </name>
+                    <name>
+                      <surname>Jehle</surname>
+                      <given-names>DV</given-names>
+                    </name>
+                    <name>
+                      <surname>Janicke</surname>
+                      <given-names>DM</given-names>
+                    </name>
+                    <name>
+                      <surname>Moscati</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Medical communication: do our patients understand?</article-title>
+                  <source>Am J Emerg Med</source>
+                  <year>2000</year>
+                  <month>11</month>
+                  <volume>18</volume>
+                  <issue>7</issue>
+                  <fpage>764</fpage>
+                  <lpage>6</lpage>
+                  <pub-id pub-id-type="doi">10.1053/ajem.2000.18040</pub-id>
+                  <pub-id pub-id-type="medline">11103725</pub-id>
+                  <pub-id pub-id-type="pii">S0735-6757(00)39827-8</pub-id>
+                  <pub-id pub-id-type="pmid">11103725</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref33">
+                <label>33</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chapman</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Abraham</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Jenkins</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Fallowfield</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Lay understanding of terms used in cancer consultations</article-title>
+                  <source>Psychooncology</source>
+                  <year>2003</year>
+                  <month>09</month>
+                  <volume>12</volume>
+                  <issue>6</issue>
+                  <fpage>557</fpage>
+                  <lpage>66</lpage>
+                  <pub-id pub-id-type="doi">10.1002/pon.673</pub-id>
+                  <pub-id pub-id-type="medline">12923796</pub-id>
+                  <pub-id pub-id-type="pmid">12923796</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref34">
+                <label>34</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Halbach</surname>
+                      <given-names>SM</given-names>
+                    </name>
+                    <name>
+                      <surname>Enders</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Kowalski</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Pförtner</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Pfaff</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Wesselmann</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Ernstmann</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Health literacy and fear of cancer progression in elderly women newly diagnosed with breast cancer--a longitudinal analysis</article-title>
+                  <source>Patient Educ Couns</source>
+                  <year>2016</year>
+                  <month>05</month>
+                  <volume>99</volume>
+                  <issue>5</issue>
+                  <fpage>855</fpage>
+                  <lpage>62</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.pec.2015.12.012</pub-id>
+                  <pub-id pub-id-type="medline">26742608</pub-id>
+                  <pub-id pub-id-type="pii">S0738-3991(15)30168-3</pub-id>
+                  <pub-id pub-id-type="pmid">26742608</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref35">
+                <label>35</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Reading</surname>
+                      <given-names>SR</given-names>
+                    </name>
+                    <name>
+                      <surname>Go</surname>
+                      <given-names>AS</given-names>
+                    </name>
+                    <name>
+                      <surname>Fang</surname>
+                      <given-names>MC</given-names>
+                    </name>
+                    <name>
+                      <surname>Singer</surname>
+                      <given-names>DE</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>IA</given-names>
+                    </name>
+                    <name>
+                      <surname>Black</surname>
+                      <given-names>MH</given-names>
+                    </name>
+                    <name>
+                      <surname>Udaltsova</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Reynolds</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <collab>Anticoagulation and Risk Factors in Atrial Fibrillation–Cardiovascular Research Network (ATRIA-CVRN) Investigators</collab>
+                  </person-group>
+                  <article-title>Health literacy and awareness of atrial fibrillation</article-title>
+                  <source>J Am Heart Assoc</source>
+                  <year>2017</year>
+                  <month>04</month>
+                  <day>11</day>
+                  <volume>6</volume>
+                  <issue>4</issue>
+                  <fpage>e005128</fpage>
+                  <comment>
+                    <ext-link xlink:href="http://jaha.ahajournals.org/cgi/pmidlookup?view=long&amp;pmid=28400367" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1161/JAHA.116.005128</pub-id>
+                  <pub-id pub-id-type="medline">28400367</pub-id>
+                  <pub-id pub-id-type="pii">JAHA.116.005128</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC5533014</pub-id>-->
+                  <pub-id pub-id-type="pmid">28400367</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref36">
+                <label>36</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Parker</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                    <name>
+                      <surname>Baker</surname>
+                      <given-names>DW</given-names>
+                    </name>
+                    <name>
+                      <surname>Williams</surname>
+                      <given-names>MV</given-names>
+                    </name>
+                    <name>
+                      <surname>Nurss</surname>
+                      <given-names>JR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The test of functional health literacy in adults: a new instrument for measuring patients' literacy skills</article-title>
+                  <source>J Gen Intern Med</source>
+                  <year>1995</year>
+                  <month>10</month>
+                  <volume>10</volume>
+                  <issue>10</issue>
+                  <fpage>537</fpage>
+                  <lpage>41</lpage>
+                  <pub-id pub-id-type="medline">8576769</pub-id>
+                  <pub-id pub-id-type="pmid">8576769</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref37">
+                <label>37</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Baker</surname>
+                      <given-names>DW</given-names>
+                    </name>
+                    <name>
+                      <surname>Williams</surname>
+                      <given-names>MV</given-names>
+                    </name>
+                    <name>
+                      <surname>Parker</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                    <name>
+                      <surname>Gazmararian</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Nurss</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Development of a brief test to measure functional health literacy</article-title>
+                  <source>Patient Educ Couns</source>
+                  <year>1999</year>
+                  <month>09</month>
+                  <volume>38</volume>
+                  <issue>1</issue>
+                  <fpage>33</fpage>
+                  <lpage>42</lpage>
+                  <pub-id pub-id-type="medline">14528569</pub-id>
+                  <pub-id pub-id-type="pii">S0738-3991(98)00116-5</pub-id>
+                  <pub-id pub-id-type="pmid">14528569</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref38">
+                <label>38</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Weiss</surname>
+                      <given-names>BD</given-names>
+                    </name>
+                    <name>
+                      <surname>Mays</surname>
+                      <given-names>MZ</given-names>
+                    </name>
+                    <name>
+                      <surname>Martz</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Castro</surname>
+                      <given-names>KM</given-names>
+                    </name>
+                    <name>
+                      <surname>DeWalt</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                    <name>
+                      <surname>Pignone</surname>
+                      <given-names>MP</given-names>
+                    </name>
+                    <name>
+                      <surname>Mockbee</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Hale</surname>
+                      <given-names>FA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Quick assessment of literacy in primary care: the newest vital sign</article-title>
+                  <source>Ann Fam Med</source>
+                  <year>2005</year>
+                  <volume>3</volume>
+                  <issue>6</issue>
+                  <fpage>514</fpage>
+                  <lpage>22</lpage>
+                  <comment>
+                    <ext-link xlink:href="http://www.annfammed.org/cgi/pmidlookup?view=long&amp;pmid=16338915" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1370/afm.405</pub-id>
+                  <pub-id pub-id-type="medline">16338915</pub-id>
+                  <pub-id pub-id-type="pii">3/6/514</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC1466931</pub-id>-->
+                  <pub-id pub-id-type="pmid">16338915</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref39">
+                <label>39</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Royer</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Hastings</surname>
+                      <given-names>CN</given-names>
+                    </name>
+                    <name>
+                      <surname>Hook</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A sentence verification technique for measuring reading comprehension</article-title>
+                  <source>J Lit Res</source>
+                  <year>2016</year>
+                  <month>09</month>
+                  <day>11</day>
+                  <volume>11</volume>
+                  <issue>4</issue>
+                  <fpage>355</fpage>
+                  <lpage>363</lpage>
+                  <pub-id pub-id-type="doi">10.1080/10862967909547341</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref40">
+                <label>40</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Baker</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>SH</given-names>
+                    </name>
+                  </person-group>
+                  <source>Item Response Theory: Parameter Estimation Techniques, Second Edition</source>
+                  <year>2004</year>
+                  <publisher-loc>Boca Raton, Florida</publisher-loc>
+                  <publisher-name>CRC Press</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="ref41">
+                <label>41</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Aronson</surname>
+                      <given-names>AR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effective mapping of biomedical text to the UMLS Metathesaurus: the MetaMap program</article-title>
+                  <source>Proc AMIA Symp</source>
+                  <year>2001</year>
+                  <fpage>17</fpage>
+                  <lpage>21</lpage>
+                  <comment>
+                    <ext-link xlink:href="http://europepmc.org/abstract/MED/11825149" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="medline">11825149</pub-id>
+                  <pub-id pub-id-type="pii">D010001275</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC2243666</pub-id>-->
+                  <pub-id pub-id-type="pmid">11825149</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref42">
+                <label>42</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bodenreider</surname>
+                      <given-names>O</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Unified Medical Language System (UMLS): integrating biomedical terminology</article-title>
+                  <source>Nucleic Acids Res</source>
+                  <year>2004</year>
+                  <month>01</month>
+                  <day>1</day>
+                  <volume>32</volume>
+                  <issue>Database issue</issue>
+                  <fpage>D267</fpage>
+                  <lpage>70</lpage>
+                  <comment>
+                    <ext-link xlink:href="http://nar.oxfordjournals.org/cgi/pmidlookup?view=long&amp;pmid=14681409" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1093/nar/gkh061</pub-id>
+                  <pub-id pub-id-type="medline">14681409</pub-id>
+                  <pub-id pub-id-type="pii">32/suppl_1/D267</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC308795</pub-id>-->
+                  <pub-id pub-id-type="pmid">14681409</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref43">
+                <label>43</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rizopoulos</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>ltm: an R package for latent variable modeling and item response analysis</article-title>
+                  <source>J Stat Soft</source>
+                  <year>2006</year>
+                  <volume>17</volume>
+                  <issue>5</issue>
+                  <fpage>1</fpage>
+                  <lpage>25</lpage>
+                  <pub-id pub-id-type="doi">10.18637/jss.v017.i05</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref44">
+                <label>44</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chalmers</surname>
+                      <given-names>RP</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>mirt: a multidimensional item response theory package for the R environment</article-title>
+                  <source>J Stat Soft</source>
+                  <year>2012</year>
+                  <volume>48</volume>
+                  <issue>6</issue>
+                  <fpage>1</fpage>
+                  <lpage>29</lpage>
+                  <comment>
+                    <ext-link xlink:href="https://cran.r-project.org/web/packages/mirt/index.html" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.18637/jss.v048.i06</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,1231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T02:29:33Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8265076" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8265076</identifier>
+        <datestamp>2021-07-08</datestamp>
+        <setSpec>bmcmrm</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">BMC Med Res Methodol</journal-id>
+              <journal-id journal-id-type="iso-abbrev">BMC Med Res Methodol</journal-id>
+              <journal-title-group>
+                <journal-title>BMC Medical Research Methodology</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1471-2288</issn>
+              <publisher>
+                <publisher-name>BioMed Central</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8265076</article-id>
+              <article-id pub-id-type="pmcid">PMC8265076</article-id>
+              <article-id pub-id-type="pmc-uid">8265076</article-id>
+              <article-id pub-id-type="pmid">34238221</article-id>
+              <article-id pub-id-type="publisher-id">1322</article-id>
+              <article-id pub-id-type="doi">10.1186/s12874-021-01322-w</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Software</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>RITS: a toolbox for assessing complex interventions via interrupted time series models</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes" equal-contrib="yes">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-1644-9913</contrib-id>
+                  <name>
+                    <surname>Cruz</surname>
+                    <given-names>Maricela</given-names>
+                  </name>
+                  <address>
+                    <email>maricela.f.cruz@kp.org</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author" equal-contrib="yes">
+                  <name>
+                    <surname>Pinto-Orellana</surname>
+                    <given-names>Marco A.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Gillen</surname>
+                    <given-names>Daniel L.</given-names>
+                  </name>
+                  <address>
+                    <email>dgillen@uci.edu</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ombao</surname>
+                    <given-names>Hernando C.</given-names>
+                  </name>
+                  <address>
+                    <email>hernando.ombao@kaust.edu.sa</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.488833.c</institution-id><institution-id institution-id-type="ISNI">0000 0004 0615 7519</institution-id><institution>Kaiser Permanente Washington Health Research Institute, </institution></institution-wrap>Seattle, WA, USA </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.34477.33</institution-id><institution-id institution-id-type="ISNI">0000000122986657</institution-id><institution>Department of BiostatisticsUniversity of Washington, </institution></institution-wrap>Seattle, WA, USA </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.5510.1</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 8921</institution-id><institution>Department of Mechanical, Electronics and Chemical Engineering, </institution><institution>Metropolitan Oslo University, </institution></institution-wrap>Oslo, Norway </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.266093.8</institution-id><institution-id institution-id-type="ISNI">0000 0001 0668 7243</institution-id><institution>Department of StatisticsUniversity of California Irvine, </institution></institution-wrap>Irvine, California, USA </aff>
+                <aff id="Aff5"><label>5</label>Computer, Electrical and Mathematical Science and Engineering DivisionKing Abdullah University of Science and Technology, Thuwal, Saudi Arabia </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>8</day>
+                <month>7</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>8</day>
+                <month>7</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2021</year>
+              </pub-date>
+              <volume>21</volume>
+              <elocation-id>143</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>3</day>
+                  <month>3</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>19</day>
+                  <month>5</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2021</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>. The Creative Commons Public Domain Dedication waiver (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link>) applies to the data made available in this article, unless otherwise stated in a credit line to the data.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <sec>
+                  <title>Background</title>
+                  <p id="Par1">Various interacting and interdependent components comprise complex interventions. These components create difficulty in assessing the true impact of interventions designed to improve patient-centered outcomes. Interrupted time series (ITS) designs borrow from case-crossover designs and serve as quasi-experimental methodology able to retrospectively assess the impact of an intervention while accounting for temporal correlation. While ITS designs are aptly situated for studying the impacts of large-scale public health policies, existing ITS software implement rigid ITS methodology that often assume the pre- and post-intervention phases are fully differentiated (by a known change-point or set of time points) and do not allow for changes in both the mean functions and correlation structure.</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p id="Par2">This article describes the Robust Interrupted Time Series (RITS) toolbox, a stand-alone user-friendly application researchers can use to implement flexible ITS models that estimate the lagged effect of an intervention on an outcome, level and trend changes, and post-intervention changes in the correlation structure, for single and multiple ITS. The RITS toolbox incorporates a formal test for the existence of a change in the outcome and estimates a change-point over a set of possible change-points defined by the researcher. In settings with multiple ITS, RITS provides a global over-all units change-point and allows for unit-specific changes in the mean functions and correlation structures.</p>
+                </sec>
+                <sec>
+                  <title>Conclusions</title>
+                  <p id="Par3">The RITS toolbox is the first piece of software that allows researchers to use flexible ITS models that test for the existence of a change-point, estimate the change-point (if estimation is desired), and allow for changes in both the mean functions and correlation structures at the change point. RITS does not require any knowledge of a statistical (or otherwise) programming language, is freely available to the community, and may be downloaded and used on a local machine to ensure data protection.</p>
+                </sec>
+              </abstract>
+              <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>Change-point detection</kwd>
+                <kwd>Complex interventions</kwd>
+                <kwd>Interrupted time series</kwd>
+                <kwd>Policy interventions</kwd>
+                <kwd>Segmented regression</kwd>
+                <kwd>Toolbox</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100000049</institution-id>
+                      <institution>National Institute on Aging</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>R01 AG053555</award-id>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100000049</institution-id>
+                      <institution>National Institute on Aging</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>P50 AG16573</award-id>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>National Institute of Mental Health (US)</institution>
+                  </funding-source>
+                  <award-id>R01-MH115697</award-id>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>Global Collaborative Research, King Abdullah University of Science and Technology (SA)</institution>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2021</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Background</title>
+              <p>Evaluating the impact of complex interventions on patient-centered outcomes is a critical concern in public health, as natural experiments are generally not scientifically controlled. Randomized controlled trials, the “gold standard” for evidence-generation of health interventions, are often infeasible and impractical regarding health care reform [<xref ref-type="bibr" rid="CR1">1</xref>]. As such, data from natural experiments in public health do not typically arise from randomized controlled trials [<xref ref-type="bibr" rid="CR2">2</xref>]. According to the 2018 Annual Review of Public Health, interrupted time series (ITS) designs are aptly situated for studying the impacts of large-scale public health policies [<xref ref-type="bibr" rid="CR3">3</xref>]. ITS designs borrow from traditional case-crossover designs and serve as quasi-experimental methodology able to assess the impact of an intervention retrospectively and account for temporal dependency [<xref ref-type="bibr" rid="CR4">4</xref>].</p>
+              <p>Natural experiment data regularly present as ITS: sequences of measurements for an outcome (e.g., patient experience scores) recorded at various time points before and after an intervention. Simple comparisons of the mean pre- and post-intervention, say via a t-test, do not provide the statistical rigor needed to account for contextual factors and preexisting trends encountered in ITS data [<xref ref-type="bibr" rid="CR5">5</xref>]. The most utilized statistical methodology for analyzing ITS data is segmented regression, a powerful methodology accounting for underlying trends, including outcome trajectories and correlation [<xref ref-type="bibr" rid="CR6">6</xref>–<xref ref-type="bibr" rid="CR8">8</xref>]. Segmented regression was first introduced in [<xref ref-type="bibr" rid="CR9">9</xref>], closely followed by [<xref ref-type="bibr" rid="CR10">10</xref>]. Since then, segmented regression has been used in many forms and disciplines, including health services research, economics, and education.</p>
+              <p>Traditional segmented regression a priori assumes the change-point to be a specific value, typically at or around the formal intervention, to fully differentiate the pre- and post-intervention phases [<xref ref-type="bibr" rid="CR11">11</xref>]. The change-point is defined as the time point at which a change occurs in the time series, i.e., the first time point in the post-intervention phase [<xref ref-type="bibr" rid="CR8">8</xref>]. A change in the time series is not limited to a difference in the mean level. Changes in the time series may be a change in the mean function (e.g., slope), a difference in the variance or spread around the mean function, or a change in the time series data’s autocorrelation structure. An intervention interested in increasing the stability and predictability of an outcome may not lead to a change in the time series mean level but may have decreased outcome variability and increased autocorrelation. Decreasing outcome variability leads to less extreme values while increasing autocorrelation leads to a more predictable outcome. When assessing the impact of an intervention, differences in variability and autocorrelation are therefore important to capture alongside mean differences. Our proposed RITS and R-MITS approaches capture all of the aforementioned time series’ changes.</p>
+              <p>An instantaneous intervention effect is often assumed, i.e., the change-point is often set to the intervention time. Specification of the change-point as the time of intervention does not, however, represent the reality that complex interventions may have varied effects and take time to manifest change, and can therefore lead to incorrect measures of the intervention’s effect. Prevalent approaches to overcoming this limitation are to remove a specific set of time points from the analysis [<xref ref-type="bibr" rid="CR7">7</xref>, <xref ref-type="bibr" rid="CR11">11</xref>]. This censoring (i.e., removal of time points) not only omits data, but also potentially biases parameter estimates, as the study team decides which time points to remove. Segmented regression methods, furthermore, neglect plausible changes in temporal dependence and variability post-intervention and restrict the analysis to a single unit. These are serious limitations because these methods ignore interpretable changes in the higher-order moments of the response and do not take advantage of all available data that may provide information on the intervention’s effect.</p>
+              <p>The public health community has adopted two measures to assess the impact of an intervention: level change and trend change. It is necessary to report both level change and trend change when interpreting the results of an ITS study [<xref ref-type="bibr" rid="CR12">12</xref>]. Level change is interpreted as the discontinuity between the projected mean (based on the pre-change-point phase) and the estimated mean post-change-point, i.e., the anchored intercept at the change-point, depicted graphically in Fig. <xref rid="Fig1" ref-type="fig">1</xref>. Trend change quantifies the impact of the intervention on the overall trajectory of the mean function, i.e., the change in slopes post-intervention.
+<fig id="Fig1"><label>Fig. 1</label><caption><p>An example of an estimated mean function for sample data. Depicts: (1) the estimated mean function for the pre- and post-change-point phases, (2) the projection of the mean function at the change-point based on the pre-change-point regression, and (3) the change in level</p></caption><graphic xlink:href="12874_2021_1322_Fig1_HTML" id="MO1"/></fig></p>
+              <p>The ‘Robust-ITS’ model proposed in [<xref ref-type="bibr" rid="CR13">13</xref>] is based on segmented regression and addresses two of the aforementioned limitations by estimating from the data — rather than merely specifying a priori — the change-point and allowing for changes in an outcome’s mean function and correlation structure post-intervention. Robust-ITS provides estimates of the level change and trend change, as well as changes in the adjacent correlation (correlation between two consecutive time points) and variance of the response. Thus, using Robust-ITS allows researchers to estimate (rather than merely assume) the lagged effect of a health care intervention on a health outcome. Moreover, researchers can determine whether health outcomes are more predictable — stronger temporal dependence and smaller variability suggests a more predictable, and thus more desirable outcome — post-intervention.</p>
+              <p>[<xref ref-type="bibr" rid="CR14">14</xref>] propose the ‘Robust Multiple ITS’ (R-MITS) model, an extension of Robust-ITS for multi-unit data (e.g., multiple ITS of the same outcome for different units, health systems, clusters, etc.), and the ‘supremum Wald test’ (SWT). The SWT is a formal test used to determine the existence of a change-point over a set of possible change-points specified by the intervention experts. R-MITS borrows information across hospital units to increase efficiency, estimates a global over-all units change-point, and also allows for changes in the mean functions, temporal dependence, and variability of an outcome across units.</p>
+              <p>This paper focuses on enabling the implementation of Robust-ITS, R-MITS, and the SWT in the Robust Interrupted Time Series (RITS) toolbox, a stand-alone user-friendly, open-source and cross-platform application freely available to the community. The RITS Toolbox has been implemented using web technologies to ensure smooth and uniform execution across platforms. The user interface has been developed in JavaScript language programming, while the statistical model has been independently implemented in Nim language programming to ensure better memory and speed efficiency. The source code is maintained in a public GitHub repository [<xref ref-type="bibr" rid="CR15">15</xref>]. Updated links for downloading the toolbox are included in the repository.</p>
+              <sec id="Sec2">
+                <title>Overview of methods</title>
+                <p>The RITS toolbox implements (i.) Robust-ITS for a single ITS, (ii.) R-MITS for multiple ITS, and (iii.) the SWT to test for the existence of a change-point in the mean function(s) over a set of user-specified plausible change-points. The Robust-ITS and R-MITS models differ in expression solely through their capability to handle single or multiple ITS; we, therefore, follow the notation for R-MITS [<xref ref-type="bibr" rid="CR14">14</xref>]. Let <italic>N</italic> denote the number of ITS or units. If <italic>N</italic>=1, then RITS implements the Robust-ITS model, otherwise, R-MITS is implemented.</p>
+                <p>As in [<xref ref-type="bibr" rid="CR13">13</xref>] and [<xref ref-type="bibr" rid="CR14">14</xref>], we make a clear distinction between the <bold>time of intervention</bold> and the <bold>change-point</bold>. The time point at which the intervention is formally introduced is denoted by <italic>t</italic><sup>∗</sup> and the change-point by <italic>τ</italic>. It may be true that <italic>t</italic><sup>∗</sup>=<italic>τ</italic>, but this need not always be the case. For example, an intervention learning effect may exist, leading to a delay in the realization of the full intervention impact. Conversely, there could be an anticipatory effect if there is a period between announcement of the intervention and its implementation during which some intervention changes are slowly introduced [<xref ref-type="bibr" rid="CR16">16</xref>].</p>
+                <p>Let <italic>y</italic><sub><italic>it</italic></sub> denote the outcome of interest for unit <italic>i</italic> at time <italic>t</italic>, with <inline-formula id="IEq1"><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$i \in \{1, \dots, N\}, t \in \{1, \dots, n_{i}\},$\end{document}</tex-math><mml:math id="M2"><mml:mi>i</mml:mi><mml:mo>∈</mml:mo><mml:mo>{</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mo>…</mml:mo><mml:mo>,</mml:mo><mml:mi>N</mml:mi><mml:mo>}</mml:mo><mml:mo>,</mml:mo><mml:mi>t</mml:mi><mml:mo>∈</mml:mo><mml:mo>{</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mo>…</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>}</mml:mo><mml:mo>,</mml:mo></mml:math><inline-graphic xlink:href="12874_2021_1322_Article_IEq1.gif"/></alternatives></inline-formula> and <italic>n</italic><sub><italic>i</italic></sub> denoting the time series length for unit <italic>i</italic>. Then, the general regression is defined as 
+<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$  y_{it} = \mu_{it} + \epsilon_{it},  $$ \end{document}</tex-math><mml:math id="M4"><mml:msub><mml:mrow><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">it</mml:mtext></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">it</mml:mtext></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>ε</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">it</mml:mtext></mml:mrow></mml:msub><mml:mo>,</mml:mo></mml:math><graphic xlink:href="12874_2021_1322_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p>where <italic>μ</italic><sub><italic>it</italic></sub> is the mean function and <italic>ε</italic><sub><italic>it</italic></sub> is the stochastic process that models fluctuations around the mean functions and auto-correlation within the time series. The mean function of the outcome of interest for unit <italic>i</italic> at time <italic>t</italic> is 
+<disp-formula id="Equ2"><label>2</label><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$  \mu_{it} = \left\{ \begin{array}{ll} \beta_{i0}^{\tau} + \beta_{i1}^{\tau} \, t, &amp; \, t &lt; \tau \\ \left(\beta_{i0}^{\tau} + \delta_{i}^{\tau}\right) \, + \left(\beta_{i1}^{\tau} + \Delta_{i}^{\tau}\right) t, &amp; t \geq \tau \end{array} \right.,  $$ \end{document}</tex-math><mml:math id="M6"><mml:msub><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">it</mml:mtext></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfenced open="{"><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:msubsup><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mi>τ</mml:mi></mml:mrow></mml:msubsup><mml:mo>+</mml:mo><mml:msubsup><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>τ</mml:mi></mml:mrow></mml:msubsup><mml:mspace width="0.3em"/><mml:mi>t</mml:mi><mml:mo>,</mml:mo></mml:mtd><mml:mtd><mml:mspace width="0.3em"/><mml:mi>t</mml:mi><mml:mo>&lt;</mml:mo><mml:mi>τ</mml:mi></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mfenced close=")" open="("><mml:mrow><mml:msubsup><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mi>τ</mml:mi></mml:mrow></mml:msubsup><mml:mo>+</mml:mo><mml:msubsup><mml:mrow><mml:mi>δ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>τ</mml:mi></mml:mrow></mml:msubsup></mml:mrow></mml:mfenced><mml:mspace width="0.3em"/><mml:mo>+</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:msubsup><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>τ</mml:mi></mml:mrow></mml:msubsup><mml:mo>+</mml:mo><mml:msubsup><mml:mrow><mml:mi>Δ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>τ</mml:mi></mml:mrow></mml:msubsup></mml:mrow></mml:mfenced><mml:mi>t</mml:mi><mml:mo>,</mml:mo></mml:mtd><mml:mtd><mml:mi>t</mml:mi><mml:mo>≥</mml:mo><mml:mi>τ</mml:mi></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced><mml:mo>,</mml:mo></mml:math><graphic xlink:href="12874_2021_1322_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p>where <inline-formula id="IEq2"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\beta _{i0}^{\tau }$\end{document}</tex-math><mml:math id="M8"><mml:msubsup><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mi>τ</mml:mi></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="12874_2021_1322_Article_IEq2.gif"/></alternatives></inline-formula> denotes the intercept of the mean function prior to the change-point, <inline-formula id="IEq3"><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\beta _{i1}^{\tau }$\end{document}</tex-math><mml:math id="M10"><mml:msubsup><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>τ</mml:mi></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="12874_2021_1322_Article_IEq3.gif"/></alternatives></inline-formula> denotes the slope of the outcome prior to the change-point, <inline-formula id="IEq4"><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\beta _{i0}^{\tau } + \delta _{i}^{\tau }$\end{document}</tex-math><mml:math id="M12"><mml:msubsup><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mi>τ</mml:mi></mml:mrow></mml:msubsup><mml:mo>+</mml:mo><mml:msubsup><mml:mrow><mml:mi>δ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>τ</mml:mi></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="12874_2021_1322_Article_IEq4.gif"/></alternatives></inline-formula> is the intercept of the post-intervention phase, <inline-formula id="IEq5"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\beta _{i1}^{\tau } + \Delta _{i}^{\tau }$\end{document}</tex-math><mml:math id="M14"><mml:msubsup><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>τ</mml:mi></mml:mrow></mml:msubsup><mml:mo>+</mml:mo><mml:msubsup><mml:mrow><mml:mi>Δ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>τ</mml:mi></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="12874_2021_1322_Article_IEq5.gif"/></alternatives></inline-formula> is the slope of the post-intervention phase for the outcome in unit <italic>i</italic>, and <italic>τ</italic> denotes the global over-all-unit change-point of the response. In the case with only one unit, <italic>τ</italic> denotes the change-point for that one time series. If <inline-formula id="IEq6"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\delta _{i}^{\tau }=\Delta _{i}^{\tau }=0,$\end{document}</tex-math><mml:math id="M16"><mml:msubsup><mml:mrow><mml:mi>δ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>τ</mml:mi></mml:mrow></mml:msubsup><mml:mo>=</mml:mo><mml:msubsup><mml:mrow><mml:mi>Δ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>τ</mml:mi></mml:mrow></mml:msubsup><mml:mo>=</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo></mml:math><inline-graphic xlink:href="12874_2021_1322_Article_IEq6.gif"/></alternatives></inline-formula> then there is no change in the mean function of unit <italic>i</italic> before and after <italic>τ</italic>.</p>
+                <p>Recall, the two metrics that are most commonly reported in ITS studies are level change and trend change [<xref ref-type="bibr" rid="CR12">12</xref>]. Level change is denoted by <inline-formula id="IEq7"><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\delta _{i}^{\tau } + \Delta _{i}^{\tau } \tau $\end{document}</tex-math><mml:math id="M18"><mml:msubsup><mml:mrow><mml:mi>δ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>τ</mml:mi></mml:mrow></mml:msubsup><mml:mo>+</mml:mo><mml:msubsup><mml:mrow><mml:mi>Δ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>τ</mml:mi></mml:mrow></mml:msubsup><mml:mi>τ</mml:mi></mml:math><inline-graphic xlink:href="12874_2021_1322_Article_IEq7.gif"/></alternatives></inline-formula> and interpreted as the change in anchored intercept (anchored at the change-point); see Fig. <xref rid="Fig1" ref-type="fig">1</xref> for visualization. Trend change is the change in slope and thus denoted by <inline-formula id="IEq8"><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\Delta _{i}^{\tau }$\end{document}</tex-math><mml:math id="M20"><mml:msubsup><mml:mrow><mml:mi>Δ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>τ</mml:mi></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="12874_2021_1322_Article_IEq8.gif"/></alternatives></inline-formula> in Eq. (<xref rid="Equ2" ref-type="">2</xref>).</p>
+                <p>The RITS toolbox allows the correlation structure to be modeled with an independent, exchangeable, or AR(1) correlation structure (default). In all cases the correlation structure is assumed to vary pre- and post-change-point. For simplicity we include the model specification for the AR(1) case only, as that is the default and original correlation structure assumed in both the Robust-ITS and R-MITS models. Assuming an AR(1) process to model the correlation structure via the residuals, RITS conditions on the first observation, <italic>y</italic><sub><italic>i</italic>1</sub> for all <italic>i</italic>. Let <inline-formula id="IEq9"><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$r_{it} = y_{it} - \widehat {\mu }_{it}$\end{document}</tex-math><mml:math id="M22"><mml:msub><mml:mrow><mml:mi>r</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">it</mml:mtext></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">it</mml:mtext></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mrow><mml:mover accent="false"><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mo>^</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">it</mml:mtext></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="12874_2021_1322_Article_IEq9.gif"/></alternatives></inline-formula> denote the residuals, with <inline-formula id="IEq10"><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$i \in \{1, \dots, N\}, t \in \{2, \dots, n_{i}\},$\end{document}</tex-math><mml:math id="M24"><mml:mi>i</mml:mi><mml:mo>∈</mml:mo><mml:mo>{</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mo>…</mml:mo><mml:mo>,</mml:mo><mml:mi>N</mml:mi><mml:mo>}</mml:mo><mml:mo>,</mml:mo><mml:mi>t</mml:mi><mml:mo>∈</mml:mo><mml:mo>{</mml:mo><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mo>…</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>}</mml:mo><mml:mo>,</mml:mo></mml:math><inline-graphic xlink:href="12874_2021_1322_Article_IEq10.gif"/></alternatives></inline-formula> and <inline-formula id="IEq11"><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\widehat {\mu }_{it}$\end{document}</tex-math><mml:math id="M26"><mml:msub><mml:mrow><mml:mover accent="false"><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mo>^</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">it</mml:mtext></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="12874_2021_1322_Article_IEq11.gif"/></alternatives></inline-formula> as an estimate of the mean function for unit <italic>i</italic> at time <italic>t</italic>. The residuals are modeled as: 
+<disp-formula id="Equ3"><label>3</label><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$  {}r_{it} = \left\{ \begin{array}{lrr} \phi_{i1} (\tau) \, r_{i, t-1} + e_{it, 1}, &amp; &amp; \, \, \, \, \, \, \, \, \, \, \, \, \, \, \, \, \, 1 \, &lt; \, t \, \leq \, \widehat{\tau} -1\\ \phi_{i2} (\tau) \, r_{i, t-1} + e_{it, 2} &amp; &amp; \widehat{\tau} -1 \, &lt; \, t \, \leq \, n. \end{array} \right.,  $$ \end{document}</tex-math><mml:math id="M28"><mml:msub><mml:mrow><mml:mi>r</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">it</mml:mtext></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfenced open="{"><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:msub><mml:mrow><mml:mi>ϕ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mi>τ</mml:mi><mml:mo>)</mml:mo><mml:mspace width="0.3em"/><mml:msub><mml:mrow><mml:mi>r</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">it</mml:mtext><mml:mo>,</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo></mml:mtd><mml:mtd><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:mn>1</mml:mn><mml:mspace width="0.3em"/><mml:mo>&lt;</mml:mo><mml:mspace width="0.3em"/><mml:mi>t</mml:mi><mml:mspace width="0.3em"/><mml:mo>≤</mml:mo><mml:mspace width="0.3em"/><mml:mover accent="false"><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mo>^</mml:mo></mml:mover><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msub><mml:mrow><mml:mi>ϕ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mi>τ</mml:mi><mml:mo>)</mml:mo><mml:mspace width="0.3em"/><mml:msub><mml:mrow><mml:mi>r</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">it</mml:mtext><mml:mo>,</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:mtd><mml:mtd><mml:mover accent="false"><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mo>^</mml:mo></mml:mover><mml:mo>−</mml:mo><mml:mn>1</mml:mn><mml:mspace width="0.3em"/><mml:mo>&lt;</mml:mo><mml:mspace width="0.3em"/><mml:mi>t</mml:mi><mml:mspace width="0.3em"/><mml:mo>≤</mml:mo><mml:mspace width="0.3em"/><mml:mi>n.</mml:mi></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced><mml:mo>,</mml:mo></mml:math><graphic xlink:href="12874_2021_1322_Article_Equ3.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p>with <italic>ϕ</italic><sub><italic>i</italic>1</sub>(<italic>τ</italic>) and <italic>ϕ</italic><sub><italic>i</italic>2</sub>(<italic>τ</italic>) in the interval (−1,1) for all <italic>i</italic>, as they are correlations. Specifically, <italic>ϕ</italic><sub><italic>i</italic>1</sub>(<italic>τ</italic>) is the correlation between time point <italic>t</italic> and <italic>t</italic>+1 where <italic>t</italic> and <italic>t</italic>+1 belong to the pre-change-point phase and <inline-formula id="IEq12"><alternatives><tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\phi _{i1}^{\vert h \vert }(\tau)$\end{document}</tex-math><mml:math id="M30"><mml:msubsup><mml:mrow><mml:mi>ϕ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mi>h</mml:mi><mml:mo>|</mml:mo></mml:mrow></mml:msubsup><mml:mo>(</mml:mo><mml:mi>τ</mml:mi><mml:mo>)</mml:mo></mml:math><inline-graphic xlink:href="12874_2021_1322_Article_IEq12.gif"/></alternatives></inline-formula> is the correlation between two time points <italic>h</italic> units away, say <italic>t</italic> and <italic>t</italic>+<italic>h</italic>, both in the pre-change-point phase. The auto-regressive coefficient of the post-change-point phase, <italic>ϕ</italic><sub><italic>i</italic>2</sub>(<italic>τ</italic>), has a similar interpretation. Note, <inline-formula id="IEq13"><alternatives><tex-math id="M31">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$e_{it, j} \stackrel {iid}{\sim } N \left (0, \sigma _{iw, j}^{2} \right)$\end{document}</tex-math><mml:math id="M32"><mml:msub><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">it</mml:mtext><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mover><mml:mrow><mml:mo>∼</mml:mo></mml:mrow><mml:mrow><mml:mrow><mml:mtext mathvariant="italic">iid</mml:mtext></mml:mrow></mml:mrow></mml:mover><mml:mi>N</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:msubsup><mml:mrow><mml:mi>σ</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">iw</mml:mtext><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:mrow></mml:mfenced></mml:math><inline-graphic xlink:href="12874_2021_1322_Article_IEq13.gif"/></alternatives></inline-formula> for <italic>i</italic>∈{1,2}, and thus, the variance of the response at any time point <italic>t</italic> is <inline-formula id="IEq14"><alternatives><tex-math id="M33">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$ \sigma _{it}^{2} = \frac { \sigma _{iw, j}^{2}}{1 - \phi _{ij}(\tau)^{2}}$\end{document}</tex-math><mml:math id="M34"><mml:msubsup><mml:mrow><mml:mi>σ</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">it</mml:mtext></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msubsup><mml:mrow><mml:mi>σ</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">iw</mml:mtext><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:msub><mml:mrow><mml:mi>ϕ</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">ij</mml:mtext></mml:mrow></mml:msub><mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mi>τ</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:mfrac></mml:math><inline-graphic xlink:href="12874_2021_1322_Article_IEq14.gif"/></alternatives></inline-formula> for <italic>j</italic>∈{1,2}.</p>
+                <sec id="Sec3">
+                  <title>Parameter estimation</title>
+                  <p>The mean function parameters are estimated simultaneously with the stochastic component parameters and the change-point. First, the set of potential change-points is established by the application experts. Then, for each possible change-point, the generalized least squares estimates of the mean function parameters are obtained, followed by the method of moments estimates of the stochastic component parameters, via an iteratively re-weighted least squares algorithm (IRLS). For further details about the estimation procedure refer to [<xref ref-type="bibr" rid="CR13">13</xref>] and [<xref ref-type="bibr" rid="CR14">14</xref>].</p>
+                  <p>The estimated change-point corresponds to the time point in the set of possible change-points that maximizes the conditional likelihood. The final estimates of the mean function and correlation parameters are obtained by the IRWLS algorithm at the estimated change-point.</p>
+                </sec>
+                <sec id="Sec4">
+                  <title>Formal test for the existence of a change-point</title>
+                  <p>RITS implements the supremum Wald test (SWT), a test for the existence of a change-point in the outcome mean functions [<xref ref-type="bibr" rid="CR14">14</xref>]. The supremum Wald test calculates a multivariate Wald test statistic for every possible change-point and applies the Benjamini-Hochberg method to adjust for multiplicity. If any of the multivariate Wald statistics provide significant results when compared to the Benjamini-Hochberg corrected critical values, the SWT concludes that a change-point exists for at least one of the units. The SWT results in a binary decision of whether or not a change-point exists in any of the unit-specific mean functions.</p>
+                  <p>The SWT focuses on determining the existence of a change-point across the unit specific mean functions, i.e., for each <italic>q</italic>∈<italic>Q</italic>, where <italic>Q</italic> denotes the set of possible change-points, the SWT tests 
+<disp-formula id="Equa"><alternatives><tex-math id="M35">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$\begin{aligned} H_{0} : \, \left[\begin{array}{c} \delta_{1} \\ \Delta_{1} \\ \vdots \\ \delta_{N} \\ \Delta_{N} \end{array}\right] = \left[\begin{array}{c} 0 \\ 0 \\ \vdots \\ 0 \\ 0 \end{array}\right] \text{vs.} \,\,\,\,\, H_{a} : \, \ \left[\begin{array}{c} \delta_{1} \\ \Delta_{1} \\ \vdots \\ \delta_{N} \\ \Delta_{N} \end{array}\right] \neq \left[\begin{array}{c} 0 \\ 0 \\ \vdots \\ 0 \\ 0 \end{array}\right]. \end{aligned} $$ \end{document}</tex-math><mml:math id="M36"><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:msub><mml:mrow><mml:mi>H</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>:</mml:mo><mml:mspace width="0.3em"/><mml:mfenced close="]" open="["><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:msub><mml:mrow><mml:mi>δ</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msub><mml:mrow><mml:mi>Δ</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mo>⋮</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msub><mml:mrow><mml:mi>δ</mml:mi></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:msub></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msub><mml:mrow><mml:mi>Δ</mml:mi></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:msub></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:mfenced close="]" open="["><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mn>0</mml:mn></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mn>0</mml:mn></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mo>⋮</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mn>0</mml:mn></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mn>0</mml:mn></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced><mml:mtext>vs.</mml:mtext><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:msub><mml:mrow><mml:mi>H</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msub><mml:mo>:</mml:mo><mml:mspace width="0.3em"/><mml:mspace width="1em"/><mml:mfenced close="]" open="["><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:msub><mml:mrow><mml:mi>δ</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msub><mml:mrow><mml:mi>Δ</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mo>⋮</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msub><mml:mrow><mml:mi>δ</mml:mi></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:msub></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msub><mml:mrow><mml:mi>Δ</mml:mi></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:msub></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced><mml:mo>≠</mml:mo><mml:mfenced close="]" open="["><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mn>0</mml:mn></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mn>0</mml:mn></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mo>⋮</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mn>0</mml:mn></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mn>0</mml:mn></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced><mml:mi>.</mml:mi></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="12874_2021_1322_Article_Equa.gif" position="anchor"/></alternatives></disp-formula> Let <inline-formula id="IEq15"><alternatives><tex-math id="M37">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\vec {\beta }^{1} \equiv \left [\beta _{1, 0}^{1} \,\,\, \beta _{1, 1}^{1} \,\, \delta _{1} \,\, \Delta _{1} \, \dots \, \beta _{N, 0}^{1} \,\,\, \beta _{N, 1}^{1} \,\, \delta _{N} \,\, \Delta _{N} \right ]^{'}$\end{document}</tex-math><mml:math id="M38"><mml:msup><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mo>→</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mo>≡</mml:mo><mml:msup><mml:mrow><mml:mfenced close="]" open="["><mml:mrow><mml:msubsup><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msubsup><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:msubsup><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msubsup><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:msub><mml:mrow><mml:mi>δ</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:msub><mml:mrow><mml:mi>Δ</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mspace width="0.3em"/><mml:mo>…</mml:mo><mml:mspace width="0.3em"/><mml:msubsup><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>N</mml:mi><mml:mo>,</mml:mo><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msubsup><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:msubsup><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>N</mml:mi><mml:mo>,</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msubsup><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:msub><mml:mrow><mml:mi>δ</mml:mi></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:msub><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:msub><mml:mrow><mml:mi>Δ</mml:mi></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:msup><mml:mrow/><mml:mrow><mml:mo>′</mml:mo></mml:mrow></mml:msup></mml:mrow></mml:msup></mml:math><inline-graphic xlink:href="12874_2021_1322_Article_IEq15.gif"/></alternatives></inline-formula> be the vector of mean function parameters under the <italic>alternative</italic> hypothesis (with 4×<italic>N</italic> elements), <inline-formula id="IEq16"><alternatives><tex-math id="M39">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\vec {\beta }^{0} \equiv \left [\beta _{1, 0}^{0} \,\,\, \beta _{1, 1}^{0} \dots \, \beta _{N, 0}^{0} \,\,\, \beta _{N, 1}^{0} \right ]^{'}$\end{document}</tex-math><mml:math id="M40"><mml:msup><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mo>→</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msup><mml:mo>≡</mml:mo><mml:msup><mml:mrow><mml:mfenced close="]" open="["><mml:mrow><mml:msubsup><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msubsup><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:msubsup><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msubsup><mml:mo>…</mml:mo><mml:mspace width="0.3em"/><mml:msubsup><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>N</mml:mi><mml:mo>,</mml:mo><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msubsup><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:msubsup><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>N</mml:mi><mml:mo>,</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msubsup></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:msup><mml:mrow/><mml:mrow><mml:mo>′</mml:mo></mml:mrow></mml:msup></mml:mrow></mml:msup></mml:math><inline-graphic xlink:href="12874_2021_1322_Article_IEq16.gif"/></alternatives></inline-formula> be the vector of mean function parameter estimates under the <italic>null</italic> hypothesis (with 2×<italic>N</italic> elements), and <bold>C</bold> denote the contrast matrix that selects the <italic>δ</italic><sub><italic>i</italic></sub> and <italic>Δ</italic><sub><italic>i</italic></sub> entries for all <italic>i</italic> from <inline-formula id="IEq17"><alternatives><tex-math id="M41">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\vec {\beta }^{1}.$\end{document}</tex-math><mml:math id="M42"><mml:msup><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mo>→</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mi>.</mml:mi></mml:math><inline-graphic xlink:href="12874_2021_1322_Article_IEq17.gif"/></alternatives></inline-formula> The above hypotheses can then be simply rewritten as 
+<disp-formula id="Equb"><alternatives><tex-math id="M43">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$H_{0} : \, \mathbf{C} \, \vec{\beta}^{1} = \vec{0} \,\, \, \text{vs.} \,\, \, H_{a} : \, \mathbf{C} \, \vec{\beta}^{1} \neq \vec{0}. $$ \end{document}</tex-math><mml:math id="M44"><mml:mrow><mml:msub><mml:mrow><mml:mi>H</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>:</mml:mo><mml:mspace width="0.3em"/><mml:mi mathvariant="bold">C</mml:mi><mml:mspace width="0.3em"/><mml:msup><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mo>→</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mo>=</mml:mo><mml:mover accent="true"><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mo>→</mml:mo></mml:mover><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:mtext>vs.</mml:mtext><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:msub><mml:mrow><mml:mi>H</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msub><mml:mo>:</mml:mo><mml:mspace width="0.3em"/><mml:mi mathvariant="bold">C</mml:mi><mml:mspace width="0.3em"/><mml:msup><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mo>→</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mo>≠</mml:mo><mml:mover accent="true"><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mo>→</mml:mo></mml:mover><mml:mi>.</mml:mi></mml:mrow></mml:math><graphic xlink:href="12874_2021_1322_Article_Equb.gif" position="anchor"/></alternatives></disp-formula> The multivariate Wald test statistic is therefore 
+<disp-formula id="Equ4"><label>4</label><alternatives><tex-math id="M45">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$ W = \left(\mathbf{C} \widehat{\vec{\beta}}^{1} \, \right)^{'} \, \left[\mathbf{C} \,\, \mathbf{\widehat{V}} (\widehat{\vec{\beta}}^{0}) \, \mathbf{C}^{\prime}\right]^{-1} \left(\mathbf{C} \widehat{\vec{\beta}}^{1} \, \right) \, \overset{H_0}{\overset{.}{\sim}} \, \chi^{2}_{2N},  $$ \end{document}</tex-math><mml:math id="M46"><mml:mi>W</mml:mi><mml:mo>=</mml:mo><mml:msup><mml:mrow><mml:mfenced close=")" open="("><mml:mrow><mml:mi mathvariant="bold">C</mml:mi><mml:msup><mml:mrow><mml:mover accent="false"><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mo>→</mml:mo></mml:mover></mml:mrow><mml:mo>^</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mspace width="0.3em"/></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:msup><mml:mrow/><mml:mrow><mml:mo>′</mml:mo></mml:mrow></mml:msup></mml:mrow></mml:msup><mml:mspace width="0.3em"/><mml:msup><mml:mrow><mml:mfenced close="]" open="["><mml:mrow><mml:mi mathvariant="bold">C</mml:mi><mml:mspace width="0.3em"/><mml:mspace width="0.3em"/><mml:mstyle mathvariant="bold"><mml:mover accent="false"><mml:mrow><mml:mi>V</mml:mi></mml:mrow><mml:mo>^</mml:mo></mml:mover></mml:mstyle><mml:mo>(</mml:mo><mml:msup><mml:mrow><mml:mover accent="false"><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mo>→</mml:mo></mml:mover></mml:mrow><mml:mo>^</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msup><mml:mo>)</mml:mo><mml:mspace width="0.3em"/><mml:msup><mml:mrow><mml:mi mathvariant="bold">C</mml:mi></mml:mrow><mml:mrow><mml:mo>′</mml:mo></mml:mrow></mml:msup></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mfenced close=")" open="("><mml:mrow><mml:mi mathvariant="bold">C</mml:mi><mml:msup><mml:mrow><mml:mover accent="false"><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mo>→</mml:mo></mml:mover></mml:mrow><mml:mo>^</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mspace width="0.3em"/></mml:mrow></mml:mfenced><mml:mspace width="0.3em"/><mml:mover class="overset"><mml:mrow><mml:mover class="overset"><mml:mrow><mml:mo>∼</mml:mo></mml:mrow><mml:mrow><mml:mi>.</mml:mi></mml:mrow></mml:mover></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>H</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mover><mml:mspace width="0.3em"/><mml:msubsup><mml:mrow><mml:mi>χ</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:mi>N</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup><mml:mo>,</mml:mo></mml:math><graphic xlink:href="12874_2021_1322_Article_Equ4.gif" position="anchor"/></alternatives></disp-formula></p>
+                  <p>with <inline-formula id="IEq18"><alternatives><tex-math id="M47">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$ \mathbf {\widehat {V}}\left (\widehat {\vec {\beta }}^{0}\right)$\end{document}</tex-math><mml:math id="M48"><mml:mstyle mathvariant="bold"><mml:mover accent="false"><mml:mrow><mml:mi>V</mml:mi></mml:mrow><mml:mo>^</mml:mo></mml:mover></mml:mstyle><mml:mfenced close=")" open="("><mml:mrow><mml:msup><mml:mrow><mml:mover accent="false"><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mo>→</mml:mo></mml:mover></mml:mrow><mml:mo>^</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:mfenced></mml:math><inline-graphic xlink:href="12874_2021_1322_Article_IEq18.gif"/></alternatives></inline-formula> denoting the estimator of the variance covariance matrix of <inline-formula id="IEq19"><alternatives><tex-math id="M49">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\widehat {\vec {\beta }}^{0},$\end{document}</tex-math><mml:math id="M50"><mml:msup><mml:mrow><mml:mover accent="false"><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mo>→</mml:mo></mml:mover></mml:mrow><mml:mo>^</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msup><mml:mo>,</mml:mo></mml:math><inline-graphic xlink:href="12874_2021_1322_Article_IEq19.gif"/></alternatives></inline-formula> the estimator of <inline-formula id="IEq20"><alternatives><tex-math id="M51">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\vec {\beta }^{0}.$\end{document}</tex-math><mml:math id="M52"><mml:msup><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mo>→</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msup><mml:mi>.</mml:mi></mml:math><inline-graphic xlink:href="12874_2021_1322_Article_IEq20.gif"/></alternatives></inline-formula> Note, <inline-formula id="IEq21"><alternatives><tex-math id="M53">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$ \mathbf {\widehat {V}}\left (\widehat {\vec {\beta }}^{0}\right)$\end{document}</tex-math><mml:math id="M54"><mml:mstyle mathvariant="bold"><mml:mover accent="false"><mml:mrow><mml:mi>V</mml:mi></mml:mrow><mml:mo>^</mml:mo></mml:mover></mml:mstyle><mml:mfenced close=")" open="("><mml:mrow><mml:msup><mml:mrow><mml:mover accent="false"><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mo>→</mml:mo></mml:mover></mml:mrow><mml:mo>^</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:mfenced></mml:math><inline-graphic xlink:href="12874_2021_1322_Article_IEq21.gif"/></alternatives></inline-formula> is block diagonal (with each block corresponding to one unit) because we assume that the units are independent. The multivariate Wald statistic is calculated for each <italic>q</italic>∈<italic>Q</italic>. If any of the multivariate Wald tests provide significant results when compared to the Benjamini-Hochberg corrected critical values, the SWT concludes that a change-point exists for at least one of the units over the set of possible change-points.</p>
+                </sec>
+              </sec>
+            </sec>
+            <sec id="Sec5">
+              <title>Implementation</title>
+              <p>The RITS toolbox is a cross-platform open-source program developed using web technologies to assess the impact of interventions using two statistical models: the Robust-ITS and R-MITS models for single- and multi-unit data. The user interface aims to smoothly interact with data while prioritizing interpretability via a high-level abstraction of the statistical model and internal computational details.</p>
+              <p>The toolbox is designed with an architecture based on classes and components organized in logical packages grouped into two subsystems: the modeling and the graphical user interface subsystem – each one written in a different language and under distinct sets of dependent libraries.</p>
+              <p>The user interface is delivered using hybrid web-desktop technologies with integration between user-friendly modern features from web widgets and native operating system (OS) services. The communication with the user’s OS is achieved using the Electron framework. This technical choice enables the program to be executed across platforms consistently without the need to install any additional software. Note that the proper functionality of the main features is evaluated on three major operating systems: MacOS, Windows, and GNU/Linux.</p>
+              <p>RITS toolbox’s users can manage potentially sensitive information. We, therefore, evaluate and examine the libraries involved in the program to ensure that the framework will operate fully offline. There is full control over the data used inside the software (web-based libraries do not always meet with this requirement).</p>
+              <p>Compared to the user interfaces, the RITS’ statistical models have a different set of computational requirements, including a higher degree of numerical accuracy, better memory management and time efficiency. In order to meet these requirements, we implement the subsystem in a different programming environment that can support the specifications. The source code is written in the Nim language programming using an object-oriented programming (OOP) paradigm.</p>
+              <p>The statistical modeling subsystem is written in the Nim programming language with a collection of OS-independent libraries that allow this software component to be embedded as a standalone library in C applications or included in web applications written in JS. Both back-ends are provided by the programming language, which ensures the inter-compatibility of the application with potential extensions. The vast majority of the source code in this subsystem is written as an object-oriented paradigm (OOP) for extensibility and debugging purposes. The OOP style enables the integration of future models in the RITS toolbox. In addition, the chosen programming framework provides a robust type system that encourages the consistency of input data at compile-time without memory and time overhead. The source code written with this language is later compiled into a highly optimized JavaScript (JS) that is later coupled into the user interface. The model’s code is highly optimized to ensure the overall efficiency of the RITS software.</p>
+              <p>The user interface (UI) subsystem is mainly written in plain JS, based on web components (also named custom elements in the W3C specification of HTML5.3 [<xref ref-type="bibr" rid="CR17">17</xref>]). RITS toolbox depends in several libraries including Riot.js (component management), Dygraph (visualization), domtoimage (visualization), htmlDocx (reporting), and moment.js (time data parsing). Secure access and manipulation of local files is provided by the Electron framework which encapsulates the web application into a desktop executable using the core functions of the Chromium rendering engine.</p>
+              <p>Moreover, the UI subsystem is completely written into a component-oriented programming (COP) framework. This programming methodology is standard for user interfaces and ensures some of the main OOP’s features, such as encapsulation, but it prioritizes composition over the inheritance as prevalent mechanism for reusing pieces of code.</p>
+              <p>Given the complexity and the need for the user interfaces’ extensibility, the UI subsystem is grouped into five packages according to their core functionality: data source management, layout, summary panels, report panels, and visualization components. Figure <xref rid="Fig2" ref-type="fig">2</xref> displays a simplified class diagram of the toolbox, where the association between the different packages and subsystems is highlighted. The final graphical interface that the user navigates in the toolbox, shown in Fig. <xref rid="Fig3" ref-type="fig">3</xref>, consists of multiple modules from different packages that are seamlessly combined.
+<fig id="Fig2"><label>Fig. 2</label><caption><p>Abbreviated class diagram of the RITS toolbox with their respective subsystems: a) statistical model and b) user interface. Component packages part of the user interface subsystem are also marked with blue dotted boxes: b.1) layout controllers, b.2) data sources’ management, b.3) summary panels’ controllers, b.4) report panels’ controllers, and b.5) visualization components</p></caption><graphic xlink:href="12874_2021_1322_Fig2_HTML" id="MO2"/></fig><fig id="Fig3"><label>Fig. 3</label><caption><p>Overall user interface (a) of the RITS toolbox along with the menu options distributed in four main tabs: b) Data, c) Plots, d) Reports, and e) Help with their respective buttons</p></caption><graphic xlink:href="12874_2021_1322_Fig3_HTML" id="MO3"/></fig></p>
+              <p>The elements specified in the layout controller package describe the application’s logical structure: menus, panels, and wide-system events. The processing of input data is abstracted through several classes within the data source package. The presentation of information is carried out in two modes (overall or detailed/comprehensive), and it is managed by a) the summary package that handles the components that expose a limited, yet succinct, information of each ITS through tables and figures; and b) the report package that includes the components that display a comprehensive list of tables or figures with all relevant results. The main difference between the previous packages consists of the report components’ ability to render and export its contents to document formats, such as DOCX file formats. It should be noted that the management of every figure in the software is handled by one component in the visualization package; and that every single plotted graph includes some visualization interactivity, image exporting functions (in PNG or DOCX formats), and updating routines that are optimized to avoid overhead in memory or speed performance.</p>
+            </sec>
+            <sec id="Sec6" sec-type="discussion">
+              <title>Discussion</title>
+              <sec id="Sec7">
+                <title>User interface</title>
+                <p>The RITS toolbox has a visual structure organized through the main menu and several panels. The menu contains four tabs: Data, Plots, Reports, and Help which centralize the access to any of the panels assigned to the primary tasks: obtain estimations, generate reports, or adjust the model’s specifications. The function of each panel is described below.</p>
+                <sec id="Sec8">
+                  <title>Button data &gt; load</title>
+                  <p>This button loads a dataset into memory. Currently, the software allows comma- or tab-separated file formats as input, CSV or TSV, respectively. Those files are read and transformed into instances of the class ModelDataSource in memory.</p>
+                </sec>
+                <sec id="Sec9">
+                  <title>Panel date &gt; date settings</title>
+                  <p>In real conditions, the user could focus the analysis on a fragment of the full dataset closer to the formal policy intervention. This could turn into more pertinent for voluminous records. This filtering by date range can be achieved in this panel. There is an interactive graph with a smaller range selector at the bottom for picking the date intervals to focus. Only the visible part of the time series will be processed.</p>
+                  <p>Every update on these parameters will be applied only after clicking the button Run the model at the bottom of the screen. Note also that the settings can be changed at any moment.</p>
+                </sec>
+                <sec id="Sec10">
+                  <title>Panel date &gt; change-point candidates</title>
+                  <p>Robust-ITS and R-MITS require determining a collection of change-point candidates through the interval {<italic>t</italic><sup>∗</sup>−<italic>m</italic>,…,<italic>t</italic><sup>∗</sup>,…,<italic>t</italic><sup>∗</sup>+<italic>k</italic>}, where <italic>m</italic> and <italic>k</italic> are positive integers. In the RITS toolbox, the user can determine this set of possible change-points using the date range selector at the bottom of this panel. Consider that the change-point candidate <italic>τ</italic> is assumed to be in the middle of the chosen range. Once the interval has been defined, click on Run the model to update the model.</p>
+                </sec>
+                <sec id="Sec11">
+                  <title>Panel view &gt; summary</title>
+                  <p>This panel provides a summarized perspective of the theoretical and estimated change-points for each unit. Note that this panel is automatically opened after performing any update in the model settings.</p>
+                  <p>There are two subpanels in this layout. The upper panel, summary data, exhibits a table that highlights the impact (or changes) on estimates of the model (intercept, slope, and noise) as a result of the change-point at every unit. In general, this view gives a brief perspective on the strength of a particular policy.</p>
+                  <p>The second subpanel, relevant results, breakdowns the information of the previous table for each unit. A graph contrasts the estimated change-point against the formal intervention point. The table makes explicit the estimated change-point, and the parameters’ values, differences and confidence intervals before and after the change-point.</p>
+                </sec>
+                <sec id="Sec12">
+                  <title>Panel view &gt; original series</title>
+                  <p>The time series displayed in the dataset can be examined in this table. Each chart is grouped according to its unit (which can be accessed from the list on the left side).</p>
+                </sec>
+                <sec id="Sec13">
+                  <title>Panel view &gt; estimated model</title>
+                  <p>This panel shows the original time series and the estimated mean functions displayed simultaneously organized by units. The likelihood associated with each change-point candidate is also plotted. Note that each graphic allows various interactive display actions: zoom in, zoom out, on-hover legend, and export the chart.</p>
+                </sec>
+                <sec id="Sec14">
+                  <title>Panel view &gt; residuals</title>
+                  <p>To allow a visual inspection of the quality of the fitted model, this panel shows the residuals of the model. Three visual components are displayed per unit: the residuals over time (for a visual inspection of heteroscedasticity), box plots, and the autocorrelation function. All components are separated for comparing pre- and post-change-point.</p>
+                </sec>
+                <sec id="Sec15">
+                  <title>Panel report &gt; complete report</title>
+                  <p>The report panel carries the essential function of presenting a full tabular and graphical description of the study on the target dataset.</p>
+                  <p>To properly evaluate the presence of a change-point, the first table displays the results of applying a supremum Wald test, as it is described in the SWT section. Benjamini-Hochberg adjusted <italic>p</italic>-values (and critical values) are also reported in these tables. According to those estimates’ uncertainty levels, the units’ time series are labeled as with “effective change-point” (when the <italic>p</italic>-values are lower than 0.05) or “no change-point”.</p>
+                  <p>In a second and third table, the estimates of the intercept and slopes pre- and post-estimated change-points are exposed. In each table, the estimates, <italic>p</italic>-values and 95% confidence intervals are detailed.</p>
+                  <p>Finally, the report also includes a set of graphs associated to the fitted models of every unit: the estimated mean functions, time plots of the residuals and their autocorrelation function.</p>
+                </sec>
+                <sec id="Sec16">
+                  <title>Button report &gt; DOCX report</title>
+                  <p>The comprehensive report of the analysis can be exported through this button into a Microsoft Word 2017 XML (DOCX) file format. Any word processor capable of parsing MHT embedded in DOCX files can adequately render the generated report. Note that it could take a few seconds to load during the first time this button is pressed due to the large number of graphs.</p>
+                </sec>
+                <sec id="Sec17">
+                  <title>Panel help &gt; model description</title>
+                  <p>The preprint of [<xref ref-type="bibr" rid="CR13">13</xref>] and [<xref ref-type="bibr" rid="CR14">14</xref>], enclosing the technical description of the models, are embedded in the software for more in-depth information about Robust ITS and R-MITS.</p>
+                </sec>
+              </sec>
+              <sec id="Sec18">
+                <title>Illustrative example</title>
+                <p>Alongside the toolbox, we provide four different sets of sample data. Here we present an analysis sample_4.csv to illustrate the decisions users will have to make, as well as the results produced by RITS. The dataset used here provides generated data at the month level for 4 different institutes during a time period of about 7 years. This sample data is loosely based on patient-centered ITS data collected around the implementation of Clinical Nurse Leader (CNL) integrated care delivery, a nursing model that embeds a master prepared nurse into the front lines of care [<xref ref-type="bibr" rid="CR18">18</xref>]. The outcome is based on aggregated (summed) patient experience scores generated bi-weekly between January 1, 2010 and May 24, 2017. For the purposes of illustrating the toolbox, we refer to the outcome simply by ‘outcome’ in this section.</p>
+                <p>Prior to showing any toolbox images or results of our sample data, we provide a general guide on how to use the toolbox. The standard execution workflow inside the toolbox is: 
+<list list-type="order"><list-item><p>Initially, download the sample CSV-formatted dataset from the toolbox homepage [<xref ref-type="bibr" rid="CR19">19</xref>] to reproduce the results of the current section or skip to step 2.</p></list-item><list-item><p><bold>Start the RITS toolbox</bold>: A data and privacy policy disclaimer is shown automatically (Fig. <xref rid="Fig4" ref-type="fig">4</xref>.A). Select Accept if you adhere to these terms and proceed with the use of the toolbox.
+<fig id="Fig4"><label>Fig. 4</label><caption><p>Screenshots of the RITS toolbox (I): A) data and security policy, B) loading open data file, C) defining time period analysis, D) setting change-point date candidates, E) data summary table, F) summary results per unit</p></caption><graphic xlink:href="12874_2021_1322_Fig4_HTML" id="MO4"/></fig></p></list-item><list-item><p><bold>Load the data</bold>: Click on the Data &gt; Load button and select the dataset that will be used for the analyses(Fig. <xref rid="Fig4" ref-type="fig">4</xref>.B). If using one of the sample datasets we provide, upload the data directly/. If using your own data ensure that the data is in the correct format - refer to our sample data for the correct format. (Fig. <xref rid="Fig4" ref-type="fig">4</xref>.B).</p></list-item><list-item><p><bold>Define model settings</bold>: Specify the interval of dates to be included in the analysis using the date-range selector (Fig. <xref rid="Fig4" ref-type="fig">4</xref>.C). Also, choose the potential change-point and formal intervention time point candidates (Fig. <xref rid="Fig4" ref-type="fig">4</xref>.D). Choose the appropriate correlation structure: AR(1), exchangeable or independent. Click on Run the model when both date ranges and the theoretical (or formal intervention) time point have been selected.</p></list-item><list-item><p><bold>Model summary</bold>: RITS will automatically switch to a new view with the summary data panel (Fig. <xref rid="Fig4" ref-type="fig">4</xref>.E) and the relevant results panel (Fig. <xref rid="Fig4" ref-type="fig">4</xref>.F).</p></list-item><list-item><p><bold>Visual examination</bold>: Click on View &gt; Original series to check the raw time series (Fig. <xref rid="Fig5" ref-type="fig">5</xref>.A) or View &gt; Estimated model to inspect the fitted mean functions overlaid with time series (Fig. <xref rid="Fig5" ref-type="fig">5</xref>.B). The pre- and post-estimated change-point residuals can be assessed in the residuals panel, View &gt; Residuals, (Fig. <xref rid="Fig5" ref-type="fig">5</xref>.C,.D)
+<fig id="Fig5"><label>Fig. 5</label><caption><p>Screenshots of the RITS toolbox (II): A) raw time series plot, B) estimated model and change-point characteristics in the time series, C) residuals time-series, D) residuals auto-correlation function, E) reports I: supremum Wald test, F) reports II: intercept and slope changes pre- and post-change-point</p></caption><graphic xlink:href="12874_2021_1322_Fig5_HTML" id="MO5"/></fig></p></list-item><list-item><p><bold>Report review</bold>: Click on Reports &gt; Complete report to access a comprehensive review of the results of the analysis (Fig. <xref rid="Fig5" ref-type="fig">5</xref>.E). Note that the first table contains the supremum Wald test. In addition, as mentioned before, this report can be exported to a DOCX by clicking on the button Reports &gt; DOCX report (Fig. <xref rid="Fig5" ref-type="fig">5</xref>.F).</p></list-item></list></p>
+                <p>We followed steps 1-3 by downloading the data from the toolbox website, accepted the data and privacy disclaimer, and uploaded sample_4.csv. After uploading the data, RITS provides two plots: a plot of the time series (Fig. <xref rid="Fig6" ref-type="fig">6</xref>) and a plot of the set of possible change-points(Fig. <xref rid="Fig7" ref-type="fig">7</xref>). At first both plots span the same time period, but the user can adjust both plots as they see fit.
+<fig id="Fig6"><label>Fig. 6</label><caption><p>Plots the time series for each unit (or health institutes) and allows the user to select the time period of analyses. The first plot RITS provides</p></caption><graphic xlink:href="12874_2021_1322_Fig6_HTML" id="MO6"/></fig><fig id="Fig7"><label>Fig. 7</label><caption><p>Plots and allows the user to select the set of possible change-points as well as the formal intervention or change-point, denoted as ‘theoretical’ in the plot. This is the second plot RITS produces</p></caption><graphic xlink:href="12874_2021_1322_Fig7_HTML" id="MO7"/></fig></p>
+                <p>Figure <xref rid="Fig6" ref-type="fig">6</xref> plots the time series outcome for the 4 health institutes present in our sample dataset; this is the first plot the toolbox produces. The user can choose the time period to include in the analysis with the edges of the bottom portion of this plot. We used the entire time period, and as such, did not move the edges of the bottom portion of the plot in Fig. <xref rid="Fig6" ref-type="fig">6</xref>.</p>
+                <p>The plot that allows the user to define the set of possible change-points and formal intervention time point (“theoretical” change-point) is provided in Fig. <xref rid="Fig7" ref-type="fig">7</xref> for our specific example. We set the theoretical change-point to October 17, 2012 and the set of possible change-points to be all measurements between May 28, 2012 and April 18, 2013, for a total of 22 possible change-points. Note, if your set of possible change-points starts between May 20, 2012 and June 4, 2012 and ends between March 31, 2013 and April 18, 2013, you will get the same results we obtain in this example. This is because the measure dates occur between the selected end-point dates and not exactly on those chosen end-point dates. Figure <xref rid="Fig7" ref-type="fig">7</xref> visually depicts our chosen set of possible change-points and theoretical change-point (the blue line at the top part of the figure). We chose an AR(1) correlation structure in this setting.</p>
+                <p>We then clicked on Run the model and RITS switched to a new view that provided the summary data panel (Fig. <xref rid="Fig8" ref-type="fig">8</xref>) and relevant results panel (Fig. <xref rid="Fig9" ref-type="fig">9</xref>).
+<fig id="Fig8"><label>Fig. 8</label><caption><p>Estimates of the trend change, level change, and change in adjacent correlation for the example data</p></caption><graphic xlink:href="12874_2021_1322_Fig8_HTML" id="MO8"/></fig><fig id="Fig9"><label>Fig. 9</label><caption><p>Estimates of model parameters for Health Institute A of our example data</p></caption><graphic xlink:href="12874_2021_1322_Fig9_HTML" id="MO9"/></fig></p>
+                <p>These two panels in Figs. <xref rid="Fig8" ref-type="fig">8</xref> and <xref rid="Fig9" ref-type="fig">9</xref> contain the bulk of the results. Figure <xref rid="Fig8" ref-type="fig">8</xref> shows the summary data panel for all our example data and Fig. <xref rid="Fig9" ref-type="fig">9</xref> includes the relevant results panel for one health institute, Health Institute A. The summary panel provides estimates of the change-point, level change, trend change, and change in adjacent correlation. From Fig. <xref rid="Fig9" ref-type="fig">9</xref> we can see that for our sample data and specified set of possible change-points, the change-point is estimated to occur on April 30, 2013. The estimates of level change, trend change, and adjacent correlation change provided in Fig. <xref rid="Fig8" ref-type="fig">8</xref> generally suggest that the policy intervention lead to an immediate increase followed by a gradual decrease in the outcome after the intervention.</p>
+                <p>Figure <xref rid="Fig10" ref-type="fig">10</xref> provides the estimated mean function of Health Institute A. From Fig. <xref rid="Fig10" ref-type="fig">10</xref>, we see that the outcome seems to jump at the estimated change point and drops slowly after that for Health Institute A.
+<fig id="Fig10"><label>Fig. 10</label><caption><p>Estimated change-point and mean function for Health Institute A of our example data</p></caption><graphic xlink:href="12874_2021_1322_Fig10_HTML" id="MO10"/></fig></p>
+                <p>We then followed step 6 to view the residuals of our estimated model. The residuals, provided in Fig. <xref rid="Fig11" ref-type="fig">11</xref> seem well-behaved. These there is no evidence to indicate that the model assumptions were violated.
+<fig id="Fig11"><label>Fig. 11</label><caption><p>Residuals and autocorrelation function plots for Health Institute A of our example data</p></caption><graphic xlink:href="12874_2021_1322_Fig11_HTML" id="MO11"/></fig></p>
+                <p>Lastly, we followed step 7 to export our results to a word document in which all the aforementioned plots and tables are included.</p>
+              </sec>
+              <sec id="Sec19">
+                <title>Toolbox availability</title>
+                <p>The RITS toolbox, as described above, is an open-source application available under the MIT/GPL dual license. Use the git repository [<xref ref-type="bibr" rid="CR15">15</xref>] to find the source code of the application and their respective code documentation. Compiled binaries can be obtained from the repository page for the major operating systems (Mac OS, Windows and GNU Linux) [<xref ref-type="bibr" rid="CR19">19</xref>].</p>
+              </sec>
+              <sec id="Sec20">
+                <title>Existing software</title>
+                <p>The models implemented in the RITS toolbox are based on segmented regression but allow for more flexibility regarding the change-point and correlation structure. Various statistical packages and software exist for segmented regression, not for the broader Robust-ITS and R-MITS models or for a formal test for the existence of a change-point. In SAS ETS, PROC may be used to model the mean function and stochastic process without a change-point, therefore modeling time series data with no interruption [<xref ref-type="bibr" rid="CR20">20</xref>]. PROC ARIMA, also in SAS ETS, is able to model ITS data solely with one overarching correlation structure and a pre-specified change-point or the set of possible change-points removed from the analyses [<xref ref-type="bibr" rid="CR20">20</xref>]. Similarly in STATA, ITS data can be modeled assuming a single correlation structure for the entire observational period and with the change-point a priori specified or with the set of possible change-points removed [<xref ref-type="bibr" rid="CR6">6</xref>]. Using the package segmentedR in R ITS data can be modeled with a fixed number of discontinuities but without consideration of the temporal correlation [<xref ref-type="bibr" rid="CR21">21</xref>].</p>
+                <p>The models implemented in the RITS toolbox are based on segmented regression but allow for more flexibility regarding the change-point and correlation structure. Various statistical packages and software exist for segmented regression, not for the broader Robust-ITS and R-MITS models or for a formal test for the existence of a change-point. In SAS ETS, PROC may be used to model the mean function and stochastic process without a change-point, therefore modeling time series data with no interruption [<xref ref-type="bibr" rid="CR20">20</xref>]. PROC ARIMA, also in SAS ETS, is able to model ITS data solely with one overarching correlation structure and a pre-specified change-point or the set of possible change-points removed from the analyses [<xref ref-type="bibr" rid="CR20">20</xref>]. Similarly in STATA, ITS data can be modeled assuming a single correlation structure for the entire observational period and with the change-point a priori specified or with the set of possible change-points removed [<xref ref-type="bibr" rid="CR6">6</xref>]. Using the package segmentedR in R ITS data can be modeled with a fixed number of discontinuities but without consideration of the temporal correlation [<xref ref-type="bibr" rid="CR21">21</xref>].</p>
+              </sec>
+              <sec id="Sec21">
+                <title>Limitations of existing software</title>
+                <p>Existing software limit the type of ITS analyses that researchers can conduct. Researchers are not able to model changes in both the mean functions and correlation structures, implement a test for the existence of a change-point, and estimate a change-point (if estimation is appropriate). Using existing software, researchers have to choose whether to incorporate a change in the mean functions or a change in the correlation structures. The RITS toolbox is the first piece of software that tests for the existence of a change-point, estimates the change-point (if estimation is desired), and allows for changes in both the mean functions and correlation structures at the change point. Existing software requires the user to operate a statistical programming language (e.g., STATA, SAS, and R), thus limiting user access to those with statistical programming experience. RITS does not require users to know or learn any programming language. Instead, RITS is an interactive toolbox that anyone without any statistical programming experience can use.</p>
+              </sec>
+            </sec>
+            <sec id="Sec22" sec-type="conclusion">
+              <title>Conclusion</title>
+              <p>The RITS toolbox models both single and multiple ITS for continuous outcomes, allowing for unit-specific mean functions and correlation structures, and estimating (rather than assuming) a global over-all units change-point. The mean functions and stochastic processes are allowed to vary for each unit, thus providing unit-specific estimates of the outcome’s level change, trend change, and pre- and post-intervention adjacent correlations and variances. RITS allows independent, exchangeable, or AR(1) correlation structures. See [<xref ref-type="bibr" rid="CR13">13</xref>] or [<xref ref-type="bibr" rid="CR14">14</xref>] for brief discussions on how to choose the correct correlation structures. We hope to incorporate more complex correlation structures, like an AR(p) with p&gt;1 or an MA(q), into the RITS toolbox as part of our future work. For guidance on how the length of the time series and number of units impact empirical power and type one error rates please see [<xref ref-type="bibr" rid="CR14">14</xref>].</p>
+              <p>RITS estimates an over-all-units change-point when multiple ITS are analyzed while allowing the mean functions and correlation structures to vary by unit. The change-point is estimated via a grid search over a pre-determined set of possible change-points specified by the toolbox user. When specifying the set of possible change-points, users must be cautious of competing intervention effects. Users should aim to define the set of possible change-points as the time points during which the intervention of interest plausibly impacted the outcome and exclude time periods affected by another intervention. RITS implements a formal test for the existence of a change-point over the set of possible change-points. Identification of a change-point relies upon the detection of a change in either the mean level or slope of the response post-intervention, across units.</p>
+              <p>RITS requires that the outcome is recorded at evenly-spaced time intervals. The RITS toolbox allows for missing data by linearly interpolating missing values. This imputation may lead to a small bias in parameter estimates in comparison to other methods [<xref ref-type="bibr" rid="CR22">22</xref>, <xref ref-type="bibr" rid="CR23">23</xref>].We therefore recommend against analyzing series with missing data in RITS. In addition, RITS assumes that the time series are recorded for the same time points across units and analyzes data only for the overlapping time points. For example, if one time series includes monthly measures between January and December 2015 and all other units have monthly data from January 2015 to December 2016, only the 2015 data will be used. Evenly spaced measurements are needed to estimate the assumed AR(1) correlation structure properly, if assumed.</p>
+              <p>The methodology implemented in RITS assumes outcomes are normally distributed, and as such, RITS does not appropriately model discrete outcomes (e.g., does not take the mean-variance relationship into account). We plan on expanding the methodology and developing software specifically for ITS analyses of discrete responses. RITS does not allow for additional covariates (e.g., number of nurses in each unit, gender, etc.) at this time. We hope to eventually build covariates into RITS in the future. Researchers interested in adjusting for additional covariates may now utilize and extend our code to do so in their particular setting. Furthermore, when multiple time series are analyzed, RITS assumes one global overall-units change-point. This assumption may not be accurate in practice, where different units may be affected by the intervention at varying times. We will develop both methods and software for ITS data that allows for unit-specific change-points.</p>
+            </sec>
+            <sec id="Sec23">
+              <title>Availability and requirements</title>
+              <p>
+                <list list-type="bullet">
+                  <list-item>
+                    <p><bold>Project name:</bold> Robust Interrupted Time Series Toolbox</p>
+                  </list-item>
+                  <list-item>
+                    <p><bold>Project home page:</bold><ext-link ext-link-type="uri" xlink:href="https://biostatistics-kaust.github.io/robust_time_series_toolbox/">https://biostatistics-kaust.github.io/robust_time_series_toolbox/</ext-link>[<xref ref-type="bibr" rid="CR19">19</xref>]</p>
+                  </list-item>
+                  <list-item>
+                    <p><bold>Operating system(s):</bold> Mac OSX, Windows (64 bits), GNU/Linux</p>
+                  </list-item>
+                  <list-item>
+                    <p><bold>Programming language:</bold> Nim programming language using an object-oriented programming paradigm and JavaScript</p>
+                  </list-item>
+                  <list-item>
+                    <p><bold>Other requirements:</bold> No additional software required</p>
+                  </list-item>
+                  <list-item>
+                    <p><bold>License:</bold> MIT/GPL dual license</p>
+                  </list-item>
+                  <list-item>
+                    <p><bold>Any restrictions to use by non-academics:</bold> None</p>
+                  </list-item>
+                </list>
+              </p>
+            </sec>
+          </body>
+          <back>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term>ITS</term>
+                  <def>
+                    <p>Interrupted Time Series</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>RITS</term>
+                  <def>
+                    <p>Robust Interrupted Time Series</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>R-MITS</term>
+                  <def>
+                    <p>Robust Multiple Interrupted Time Series</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>SWT</term>
+                  <def>
+                    <p>Supremum Wald Test</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>IRLS</term>
+                  <def>
+                    <p>Iteratively Re-weighted Least Squares</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>OS</term>
+                  <def>
+                    <p>Operating System</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>OOP</term>
+                  <def>
+                    <p>Object-Oriented Paradigm</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>JS</term>
+                  <def>
+                    <p>JavaScript</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>UI</term>
+                  <def>
+                    <p>User Interface</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>COP</term>
+                  <def>
+                    <p>Component-Oriented Programming</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>CNL</term>
+                  <def>
+                    <p>Clinical Nurse Leader</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Publisher’s Note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+              <fn>
+                <p>Maricela Cruz and Marco A. Pinto-Orellana contributed equally to this work.</p>
+              </fn>
+            </fn-group>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>We thank Dr. Miriam Bender (University of California Irvine) for providing us with data used to generate our example datasets.</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Authors’ contributions</title>
+              <p>MC: made substantial contributions to the conception, analysis, interpretation of data, and has drafted the work. MAPO: made substantial contributions to the deign of the work, creation of new software used in work, and has drafted the work. DLG: made substantial contributions to the conception and has substantively revised the work. HCO: made substantial contributions to the conception, design of the work, and has substantively revised the work. All authors read and approved the final manuscript.</p>
+            </notes>
+            <notes notes-type="funding-information">
+              <title>Funding</title>
+              <p>This work was supported in part by KAUST research grant to the KAUST Biostatistics research group, the National Institute on Aging of the National Institutes of Health under award numbers R01AG053555 and P50AG16573, and the National Institute of Mental Health of the National Institutes of Health under award number R01MH115697. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Availability of data and materials</title>
+              <p>The datasets generated and/or utilised are embedded within the toolbox and can be obtained in the ‘data-samples’ folder of the kbiostats.robust_time_series_toolbox repository [<xref ref-type="bibr" rid="CR15">15</xref>]. All source code can also be obtained in the kbiostats.robust_time_series_toolbox repository [<xref ref-type="bibr" rid="CR15">15</xref>].</p>
+            </notes>
+            <notes>
+              <title>Declarations</title>
+              <notes id="FPar1">
+                <title>Ethics approval and consent to participate</title>
+                <p>Not applicable.</p>
+              </notes>
+              <notes id="FPar2">
+                <title>Consent for publication</title>
+                <p>Not applicable.</p>
+              </notes>
+              <notes id="FPar3" notes-type="COI-statement">
+                <title>Competing interests</title>
+                <p>The authors declare that they have no competing interests.</p>
+              </notes>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>West</surname>
+                      <given-names>SG</given-names>
+                    </name>
+                    <name>
+                      <surname>Duan</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Pequegnat</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Gaist</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Des Jarlais</surname>
+                      <given-names>DC</given-names>
+                    </name>
+                    <name>
+                      <surname>Holtgrave</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Alternatives to the randomized controlled trial</article-title>
+                  <source>Am J Public Health</source>
+                  <year>2008</year>
+                  <volume>98</volume>
+                  <issue>8</issue>
+                  <fpage>1359</fpage>
+                  <lpage>66</lpage>
+                  <pub-id pub-id-type="doi">10.2105/AJPH.2007.124446</pub-id>
+                  <pub-id pub-id-type="pmid">18556609</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Craig</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Cooper</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Gunnell</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Haw</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Lawson</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Macintyre</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Using natural experiments to evaluate population health interventions: new Medical Research Council guidance</article-title>
+                  <source>J Epidemiol Community Health</source>
+                  <year>2012</year>
+                  <volume>66</volume>
+                  <issue>12</issue>
+                  <fpage>1182</fpage>
+                  <lpage>6</lpage>
+                  <pub-id pub-id-type="doi">10.1136/jech-2011-200375</pub-id>
+                  <pub-id pub-id-type="pmid">22577181</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Handley</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Lyles</surname>
+                      <given-names>CR</given-names>
+                    </name>
+                    <name>
+                      <surname>McCulloch</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Cattamanchi</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Selecting and improving quasi-experimental designs in effectiveness and implementation research</article-title>
+                  <source>Annu Rev Public Health</source>
+                  <year>2018</year>
+                  <volume>39</volume>
+                  <fpage>5</fpage>
+                  <lpage>25</lpage>
+                  <pub-id pub-id-type="doi">10.1146/annurev-publhealth-040617-014128</pub-id>
+                  <pub-id pub-id-type="pmid">29328873</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bernal</surname>
+                      <given-names>JL</given-names>
+                    </name>
+                    <name>
+                      <surname>Cummins</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Gasparrini</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Interrupted time series regression for the evaluation of public health interventions: a tutorial</article-title>
+                  <source>Int J Epidemiol</source>
+                  <year>2017</year>
+                  <volume>46</volume>
+                  <issue>1</issue>
+                  <fpage>348</fpage>
+                  <lpage>55</lpage>
+                  <?supplied-pmid 27283160?>
+                  <pub-id pub-id-type="pmid">27283160</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ramsay</surname>
+                      <given-names>CR</given-names>
+                    </name>
+                    <name>
+                      <surname>Matowe</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Grilli</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Grimshaw</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Thomas</surname>
+                      <given-names>RE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Interrupted time series designs in health technology assessment: lessons from two systematic reviews of behavior change strategies</article-title>
+                  <source>Int J Technol Assess Health Care</source>
+                  <year>2003</year>
+                  <volume>19</volume>
+                  <issue>4</issue>
+                  <fpage>613</fpage>
+                  <lpage>23</lpage>
+                  <pub-id pub-id-type="doi">10.1017/S0266462303000576</pub-id>
+                  <pub-id pub-id-type="pmid">15095767</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Linden</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Conducting interrupted time-series analysis for single-and multiple-group comparisons</article-title>
+                  <source>Stata J</source>
+                  <year>2015</year>
+                  <volume>15</volume>
+                  <issue>2</issue>
+                  <fpage>480</fpage>
+                  <lpage>500</lpage>
+                  <pub-id pub-id-type="doi">10.1177/1536867X1501500208</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Penfold</surname>
+                      <given-names>RB</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Use of interrupted time series analysis in evaluating health care quality improvements</article-title>
+                  <source>Acad Pediatr</source>
+                  <year>2013</year>
+                  <volume>13</volume>
+                  <issue>6</issue>
+                  <fpage>S38</fpage>
+                  <lpage>S44</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.acap.2013.08.002</pub-id>
+                  <pub-id pub-id-type="pmid">24268083</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wagner</surname>
+                      <given-names>AK</given-names>
+                    </name>
+                    <name>
+                      <surname>Soumerai</surname>
+                      <given-names>SB</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Ross-Degnan</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Segmented regression analysis of interrupted time series studies in medication use research</article-title>
+                  <source>J Clin Pharm Ther</source>
+                  <year>2002</year>
+                  <volume>27</volume>
+                  <issue>4</issue>
+                  <fpage>299</fpage>
+                  <lpage>309</lpage>
+                  <pub-id pub-id-type="doi">10.1046/j.1365-2710.2002.00430.x</pub-id>
+                  <pub-id pub-id-type="pmid">12174032</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Quandt</surname>
+                      <given-names>RE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The estimation of the parameters of a linear regression system obeying two separate regimes</article-title>
+                  <source>J Am Stat Assoc</source>
+                  <year>1958</year>
+                  <volume>53</volume>
+                  <issue>284</issue>
+                  <fpage>873</fpage>
+                  <lpage>80</lpage>
+                  <pub-id pub-id-type="doi">10.1080/01621459.1958.10501484</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Thistlethwaite</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                    <name>
+                      <surname>Campbell</surname>
+                      <given-names>DT</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Regression-discontinuity analysis: An alternative to the ex post facto experiment</article-title>
+                  <source>J Educ Psychol</source>
+                  <year>1960</year>
+                  <volume>51</volume>
+                  <issue>6</issue>
+                  <fpage>309</fpage>
+                  <pub-id pub-id-type="doi">10.1037/h0044319</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Taljaard</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>McKenzie</surname>
+                      <given-names>JE</given-names>
+                    </name>
+                    <name>
+                      <surname>Ramsay</surname>
+                      <given-names>CR</given-names>
+                    </name>
+                    <name>
+                      <surname>Grimshaw</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The use of segmented regression in analysing interrupted time series studies: an example in pre-hospital ambulance care</article-title>
+                  <source>Implement Sci</source>
+                  <year>2014</year>
+                  <volume>9</volume>
+                  <issue>1</issue>
+                  <fpage>77</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1748-5908-9-77</pub-id>
+                  <pub-id pub-id-type="pmid">24943919</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12</label>
+                <mixed-citation publication-type="other">Cochrane. Effective Practice and Organisation of Care (EPOC). Interrupted time series (ITS) and repeated measure (RM) studies. EPOC Resources for review authors. 2017. <ext-link ext-link-type="uri" xlink:href="https://epoc.cochrane.org/resources/epoc-resources-review-authors">epoc.cochrane.org/resources/epoc-resources-review-authors</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cruz</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Bender</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Ombao</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A robust interrupted time series model for analyzing complex health care intervention data</article-title>
+                  <source>Stat Med</source>
+                  <year>2017</year>
+                  <volume>36</volume>
+                  <issue>29</issue>
+                  <fpage>4660</fpage>
+                  <lpage>76</lpage>
+                  <pub-id pub-id-type="doi">10.1002/sim.7443</pub-id>
+                  <pub-id pub-id-type="pmid">28850683</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cruz</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Gillen</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                    <name>
+                      <surname>Bender</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Ombao</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Assessing health care interventions via an interrupted time series model: Study power and design considerations</article-title>
+                  <source>Stat Med</source>
+                  <year>2019</year>
+                  <volume>38</volume>
+                  <issue>10</issue>
+                  <fpage>1734</fpage>
+                  <lpage>52</lpage>
+                  <pub-id pub-id-type="doi">10.1002/sim.8067</pub-id>
+                  <pub-id pub-id-type="pmid">30616298</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15</label>
+                <mixed-citation publication-type="other">Pinto-Orellana MA. Biostatistics kaust kbiostats robust time series toolbox. [Internet]. 2021. Accessed from: https:/github.com/biostatistics-kaust/kbiostats.robust_time_series_tool.</mixed-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Alpert</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The anticipatory effects of Medicare Part D on drug utilization</article-title>
+                  <source>J Health Econ</source>
+                  <year>2016</year>
+                  <volume>49</volume>
+                  <fpage>28</fpage>
+                  <lpage>45</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jhealeco.2016.06.004</pub-id>
+                  <pub-id pub-id-type="pmid">27372577</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17</label>
+                <mixed-citation publication-type="other">Lawson B, Wu X, Aas P, Dixit S, Moon S, Eden T, et al. HTML 5.3. W3C. [Internet]. 2018. Accessed from: Https://www.w3.org/TR/2018/WD-html53-20181018/.</mixed-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bender</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Williams</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Su</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Hites</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Refining and validating a conceptual model of Clinical Nurse Leader integrated care delivery</article-title>
+                  <source>J Adv Nurs</source>
+                  <year>2017</year>
+                  <volume>73</volume>
+                  <issue>2</issue>
+                  <fpage>448</fpage>
+                  <lpage>64</lpage>
+                  <pub-id pub-id-type="doi">10.1111/jan.13113</pub-id>
+                  <pub-id pub-id-type="pmid">27555500</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19</label>
+                <mixed-citation publication-type="other">Pinto-Orellana MA. Robust Interrupted Time Series Toolbox. [Internet]. 2021. Accessed from: <ext-link ext-link-type="uri" xlink:href="https://biostatistics-kaust.github.io/robust_time_series_toolbox/">https://biostatistics-kaust.github.io/robust_time_series_toolbox/</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20</label>
+                <mixed-citation publication-type="other">SAS User Guide. SAS/ETS 9.2 User’s Guide. Chapter. 2008.</mixed-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21</label>
+                <mixed-citation publication-type="other">Muggeo V. Segmented relationships in regression models with breakpoints/changepoints estimation. CRAN-R 02. 2012; 9.</mixed-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gnauck</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Interpolation and approximation of water quality time series and process identification</article-title>
+                  <source>Anal Bioanal Chem</source>
+                  <year>2004</year>
+                  <volume>380</volume>
+                  <issue>3</issue>
+                  <fpage>484</fpage>
+                  <lpage>92</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00216-004-2799-3</pub-id>
+                  <pub-id pub-id-type="pmid">15365680</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wubetie</surname>
+                      <given-names>HT</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Missing data management and statistical measurement of socio-economic status: application of big data</article-title>
+                  <source>J Big Data</source>
+                  <year>2017</year>
+                  <volume>4</volume>
+                  <issue>1</issue>
+                  <fpage>1</fpage>
+                  <lpage>44</lpage>
+                  <pub-id pub-id-type="doi">10.1186/s40537-017-0099-y</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

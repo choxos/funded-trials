@@ -1,0 +1,2373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T04:03:38Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7539162" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7539162</identifier>
+        <datestamp>2020-10-20</datestamp>
+        <setSpec>mhealth</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">JMIR Mhealth Uhealth</journal-id>
+              <journal-id journal-id-type="iso-abbrev">JMIR Mhealth Uhealth</journal-id>
+              <journal-id journal-id-type="publisher-id">JMU</journal-id>
+              <journal-title-group>
+                <journal-title>JMIR mHealth and uHealth</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2291-5222</issn>
+              <publisher>
+                <publisher-name>JMIR Publications</publisher-name>
+                <publisher-loc>Toronto, Canada</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7539162</article-id>
+              <article-id pub-id-type="pmcid">PMC7539162</article-id>
+              <article-id pub-id-type="pmc-uid">7539162</article-id>
+              <article-id pub-id-type="pmid">32960179</article-id>
+              <article-id pub-id-type="publisher-id">v8i9e20488</article-id>
+              <article-id pub-id-type="pmid">32960179</article-id>
+              <article-id pub-id-type="doi">10.2196/20488</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Original Paper</subject>
+                </subj-group>
+                <subj-group subj-group-type="article-type">
+                  <subject>Original Paper</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Digital Cardiovascular Biomarker Responses to Transcutaneous Cervical Vagus Nerve Stimulation: State-Space Modeling, Prediction, and Simulation</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Eysenbach</surname>
+                    <given-names>Gunther</given-names>
+                  </name>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib contrib-type="reviewer">
+                  <name>
+                    <surname>George</surname>
+                    <given-names>Immanuel Victor</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="reviewer">
+                  <name>
+                    <surname>Joel</surname>
+                    <given-names>Oliver</given-names>
+                  </name>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib id="contrib1" contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Gazi</surname>
+                    <given-names>Asim H</given-names>
+                  </name>
+                  <degrees>BS</degrees>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-4698-2823</contrib-id>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <address>
+                    <institution>School of Electrical and Computer Engineering</institution>
+                    <institution>Georgia Institute of Technology</institution>
+                    <addr-line>North Ave NW</addr-line>
+                    <addr-line>Atlanta, GA, 30332</addr-line>
+                    <country>United States</country>
+                    <phone>1 4693608083</phone>
+                    <email>asim.gazi@gatech.edu</email>
+                  </address>
+                </contrib>
+                <contrib id="contrib2" contrib-type="author">
+                  <name>
+                    <surname>Gurel</surname>
+                    <given-names>Nil Z</given-names>
+                  </name>
+                  <degrees>MS</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-3702-0449</contrib-id>
+                </contrib>
+                <contrib id="contrib3" contrib-type="author">
+                  <name>
+                    <surname>Richardson</surname>
+                    <given-names>Kristine L S</given-names>
+                  </name>
+                  <degrees>BS</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-9683-0628</contrib-id>
+                </contrib>
+                <contrib id="contrib4" contrib-type="author">
+                  <name>
+                    <surname>Wittbrodt</surname>
+                    <given-names>Matthew T</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff2">2</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-9533-8041</contrib-id>
+                </contrib>
+                <contrib id="contrib5" contrib-type="author">
+                  <name>
+                    <surname>Shah</surname>
+                    <given-names>Amit J</given-names>
+                  </name>
+                  <degrees>MPH, MD</degrees>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                  <xref ref-type="aff" rid="aff4">4</xref>
+                  <xref ref-type="aff" rid="aff5">5</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-9099-9687</contrib-id>
+                </contrib>
+                <contrib id="contrib6" contrib-type="author">
+                  <name>
+                    <surname>Vaccarino</surname>
+                    <given-names>Viola</given-names>
+                  </name>
+                  <degrees>MD, PhD</degrees>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                  <xref ref-type="aff" rid="aff4">4</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-9054-0654</contrib-id>
+                </contrib>
+                <contrib id="contrib7" contrib-type="author">
+                  <name>
+                    <surname>Bremner</surname>
+                    <given-names>J Douglas</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <xref ref-type="aff" rid="aff2">2</xref>
+                  <xref ref-type="aff" rid="aff5">5</xref>
+                  <xref ref-type="aff" rid="aff6">6</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-1633-6433</contrib-id>
+                </contrib>
+                <contrib id="contrib8" contrib-type="author">
+                  <name>
+                    <surname>Inan</surname>
+                    <given-names>Omer T</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <xref ref-type="aff" rid="aff7">7</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-7952-1794</contrib-id>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1">
+                <label>1</label>
+                <institution>School of Electrical and Computer Engineering</institution>
+                <institution>Georgia Institute of Technology</institution>
+                <addr-line>Atlanta, GA</addr-line>
+                <country>United States</country>
+              </aff>
+              <aff id="aff2">
+                <label>2</label>
+                <institution>Department of Psychiatry and Behavioral Sciences</institution>
+                <institution>Emory University School of Medicine</institution>
+                <addr-line>Atlanta, GA</addr-line>
+                <country>United States</country>
+              </aff>
+              <aff id="aff3">
+                <label>3</label>
+                <institution>Department of Epidemiology</institution>
+                <institution>Rollins School of Public Health</institution>
+                <addr-line>Atlanta, GA</addr-line>
+                <country>United States</country>
+              </aff>
+              <aff id="aff4">
+                <label>4</label>
+                <institution>Department of Medicine</institution>
+                <institution>Division of Cardiology</institution>
+                <institution>Emory University School of Medicine</institution>
+                <addr-line>Atlanta, GA</addr-line>
+                <country>United States</country>
+              </aff>
+              <aff id="aff5">
+                <label>5</label>
+                <institution>Atlanta VA Medical Center</institution>
+                <institution>Emory University</institution>
+                <addr-line>Atlanta, GA</addr-line>
+                <country>United States</country>
+              </aff>
+              <aff id="aff6">
+                <label>6</label>
+                <institution>Department of Radiology</institution>
+                <institution>Emory University School of Medicine</institution>
+                <addr-line>Atlanta, GA</addr-line>
+                <country>United States</country>
+              </aff>
+              <aff id="aff7">
+                <label>7</label>
+                <institution>Coulter Department of Bioengineering</institution>
+                <institution>Georgia Institute of Technology</institution>
+                <addr-line>Atlanta, GA</addr-line>
+                <country>United States</country>
+              </aff>
+              <author-notes>
+                <corresp>Corresponding Author: Asim H Gazi <email>asim.gazi@gatech.edu</email></corresp>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <month>9</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>22</day>
+                <month>9</month>
+                <year>2020</year>
+              </pub-date>
+              <volume>8</volume>
+              <issue>9</issue>
+              <elocation-id>e20488</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>20</day>
+                  <month>5</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="rev-request">
+                  <day>26</day>
+                  <month>6</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>27</day>
+                  <month>6</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="accepted">
+                  <day>26</day>
+                  <month>7</month>
+                  <year>2020</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>©Asim H Gazi, Nil Z Gurel, Kristine L S Richardson, Matthew T Wittbrodt, Amit J Shah, Viola Vaccarino, J Douglas Bremner, Omer T Inan. Originally published in JMIR mHealth and uHealth (http://mhealth.jmir.org), 22.09.2020.</copyright-statement>
+                <copyright-year>2020</copyright-year>
+                <license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/">
+                  <license-p><!--CREATIVE COMMONS-->This is an open-access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work, first published in JMIR mHealth and uHealth, is properly cited. The complete bibliographic information, a link to the original publication on <ext-link ext-link-type="uri" xlink:href="http://mhealth.jmir.org/">http://mhealth.jmir.org/</ext-link>, as well as this copyright and license information must be included.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:type="simple" xlink:href="http://mhealth.jmir.org/2020/9/e20488/"/>
+              <abstract>
+                <sec sec-type="background">
+                  <title>Background</title>
+                  <p>Transcutaneous cervical vagus nerve stimulation (tcVNS) is a promising alternative to implantable stimulation of the vagus nerve. With demonstrated potential in myriad applications, ranging from systemic inflammation reduction to traumatic stress attenuation, closed-loop tcVNS during periods of risk could improve treatment efficacy and reduce ineffective delivery. However, achieving this requires a deeper understanding of biomarker changes over time.</p>
+                </sec>
+                <sec sec-type="objective">
+                  <title>Objective</title>
+                  <p>The aim of the present study was to reveal the dynamics of relevant cardiovascular biomarkers, extracted from wearable sensing modalities, in response to tcVNS.</p>
+                </sec>
+                <sec sec-type="methods">
+                  <title>Methods</title>
+                  <p>Twenty-four human subjects were recruited for a randomized double-blind clinical trial, for whom electrocardiography and photoplethysmography were used to measure heart rate and photoplethysmogram amplitude responses to tcVNS, respectively. Modeling these responses in state-space, we (1) compared the biomarkers in terms of their predictability and active vs sham differentiation, (2) studied the latency between stimulation onset and measurable effects, and (3) visualized the true and model-simulated biomarker responses to tcVNS.</p>
+                </sec>
+                <sec sec-type="results">
+                  <title>Results</title>
+                  <p>The models accurately predicted future heart rate and photoplethysmogram amplitude values with root mean square errors of approximately one-fifth the standard deviations of the data. Moreover, (1) the photoplethysmogram amplitude showed superior predictability (<italic>P</italic>=.03) and active vs sham separation compared to heart rate; (2) a consistent delay of greater than 5 seconds was found between tcVNS onset and cardiovascular effects; and (3) dynamic characteristics differentiated responses to tcVNS from the sham stimulation.</p>
+                </sec>
+                <sec sec-type="conclusions">
+                  <title>Conclusions</title>
+                  <p>This work furthers the state of the art by modeling pertinent biomarker responses to tcVNS. Through subsequent analysis, we discovered three key findings with implications related to (1) wearable sensing devices for bioelectronic medicine, (2) the dominant mechanism of action for tcVNS-induced effects on cardiovascular physiology, and (3) the existence of dynamic biomarker signatures that can be leveraged when titrating therapy in closed loop.</p>
+                </sec>
+                <sec sec-type="trial registration">
+                  <title>Trial Registration</title>
+                  <p>ClinicalTrials.gov NCT02992899; https://clinicaltrials.gov/ct2/show/NCT02992899</p>
+                </sec>
+                <sec sec-type="registered-report">
+                  <title>International Registered Report Identifier (IRRID)</title>
+                  <p>RR2-10.1016/j.brs.2019.08.002</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>vagus nerve stimulation</kwd>
+                <kwd>noninvasive</kwd>
+                <kwd>wearable sensing</kwd>
+                <kwd>digital biomarkers</kwd>
+                <kwd>dynamic models</kwd>
+                <kwd>state space</kwd>
+                <kwd>biomarker</kwd>
+                <kwd>cardiovascular</kwd>
+                <kwd>neuromodulation</kwd>
+                <kwd>bioelectronic medicine</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="introduction">
+              <title>Introduction</title>
+              <p>Transcutaneous cervical vagus nerve stimulation (tcVNS) devices have emerged as inexpensive and convenient alternatives to implantable devices for stimulation of the cervical vagus nerve [<xref rid="ref1" ref-type="bibr">1</xref>]. Over the last half decade, tcVNS-based devices have been approved by the Food and Drug Administration (FDA) for the treatment of migraine and cluster headache, and have demonstrated efficacy in myriad applications, ranging from pain and inflammation reduction to emotional/mental stress attenuation [<xref rid="ref2" ref-type="bibr">2</xref>-<xref rid="ref5" ref-type="bibr">5</xref>]. As a noninvasive, nonpharmacologic therapy with minimal side effects [<xref rid="ref6" ref-type="bibr">6</xref>], the capacity for the widespread use of tcVNS is promising [<xref rid="ref7" ref-type="bibr">7</xref>]. Yet, to achieve this potential in time-sensitive applications such as in response to traumatic stress, real-time information regarding the patient’s state and response to tcVNS must be incorporated. Thus, a compelling need exists to understand observable biomarker dynamics in relation to tcVNS. This would advance scientific knowledge by uncovering temporal dependencies at finer time resolutions, facilitate real-time predictions of physiological responses to tcVNS for improved treatment titration, and pave the way for optimal estimation approaches to simultaneously track physiological state.</p>
+              <p>In enabling such closed-loop approaches to tcVNS, initial challenges include (1) identifying noninvasively measured biomarkers of desirable effects, (2) understanding how these biomarkers change dynamically with the delivery of tcVNS for a deepened understanding of the characteristic responses, and, accordingly, (3) predicting each subject’s responses to tcVNS for improved treatment outcomes. In current psychiatric practice, the responses to interventions are primarily assessed through patient reports and qualitative judgments of symptoms [<xref rid="ref8" ref-type="bibr">8</xref>]. However, these methods are limited by the subjectivity of such reporting and may not be reflective of the true nature of a psychiatric disturbance or subsequent therapeutic response due to factors that include disorder-based perceptual distortions (eg, dissociation), subjective bias, or alternative motivations (eg, malingering) [<xref rid="ref9" ref-type="bibr">9</xref>]. Alternatively, by studying objective measures that reflect underlying physiological processes, these limitations could potentially be mitigated.</p>
+              <p>Unfortunately, the existing literature on such objective biomarkers is limited to invasive or obtrusive measures (eg, brain imaging or blood biomarkers) [<xref rid="ref4" ref-type="bibr">4</xref>,<xref rid="ref10" ref-type="bibr">10</xref>,<xref rid="ref11" ref-type="bibr">11</xref>], next-day/longitudinal assessment [<xref rid="ref2" ref-type="bibr">2</xref>], or static features extracted over minute-long time windows [<xref rid="ref5" ref-type="bibr">5</xref>,<xref rid="ref12" ref-type="bibr">12</xref>]. Improving upon this, we applied parametric modeling methods to digital (or physiological) biomarkers [<xref rid="ref13" ref-type="bibr">13</xref>] that have been deemed to be the most promising in previous work [<xref rid="ref12" ref-type="bibr">12</xref>]. Specifically, we used state-space models in an input-output formulation to model the dynamic responses of heart rate and photoplethysmogram (PPG) amplitude to tcVNS, as illustrated in <xref rid="figure1" ref-type="fig">Figure 1</xref>. State-space models were selected as the machine-learning framework of choice owing to their superior utility in real-time estimation and control applications [<xref rid="ref14" ref-type="bibr">14</xref>,<xref rid="ref15" ref-type="bibr">15</xref>]. This work thereby presents a first-of-its-kind dynamic analysis of physiological biomarker responses to tcVNS and furthers the state of the art by: (1) identifying PPG amplitude as a superior digital biomarker to heart rate for the prediction of real-time responses and appraisal of tcVNS effects; (2) quantifying a consistent delay in tcVNS-induced downstream cardiovascular biomarker variation; and (3) uncovering characteristic dynamic response signatures that separate PPG amplitude and heart rate responses to tcVNS from a sham stimulation.</p>
+              <fig id="figure1" position="float">
+                <label>Figure 1</label>
+                <caption>
+                  <p>High-level illustration of the modeling task investigated in this study. Transcutaneous cervical vagus nerve stimulation (tcVNS) is treated as the input to the underlying physiological system, while the observed cardiovascular responses found pertinent to tcVNS effects in previous work are treated as the output signals. This work focuses on the dynamics described by linear time-invariant difference equations, formulated as discrete-time state-space equations. The latent state is depicted here as variable x, while f and g are nonlinear functions. HR: heart rate; PPG: photoplethysmogram; ECG: electrocardiogram.</p>
+                </caption>
+                <graphic xlink:href="mhealth_v8i9e20488_fig1"/>
+              </fig>
+            </sec>
+            <sec sec-type="methods">
+              <title>Methods</title>
+              <sec>
+                <title>Human Subjects Experiment</title>
+                <p>As part of a collaborative study approved by the Institutional Review Boards of the Georgia Institute of Technology (#H17126), Emory University School of Medicine (#IRB00091171), SPAWAR Systems Center Pacific, and the Department of Navy Human Research Protection Program, 24 healthy human subjects, including 12 women and 12 men, with a mean age of 31 (SD 9) years, height of 173.4 (SD 8.9) cm, and weight of 77.9 (SD 13.7) kg, were recruited. All subjects had a history of prior psychological trauma, but without current posttraumatic stress disorder or other major psychiatric disorder, and written informed consent was obtained. Conforming to a randomized double-blind protocol spanning 3 days (ClinicalTrials.gov NCT02992899), each subject received four administrations—two on the first day and one on each of the following two days—of either “active” tcVNS or “sham” stimulation. These four administrations were accompanied by no other form of stimulus to focus solely on the effects of tcVNS on human physiology. Overall, 96 doses of either active or sham tcVNS were administered in total to the 24 subjects (with 12 allocated to the active group).</p>
+                <p>The active and sham devices (gammaCore, electroCore, Basking Ridge, NJ, USA) were identical in both appearance and operation, differing only with respect to the stimulation parameters. The active devices administered voltage signals consisting of five 5-kHz sinusoidal pulses repeating at a rate of 25 Hz, while the sham devices delivered biphasic square pulses at a rate of 0.2 Hz, resulting in a perceptible tingling sensation. For both active and sham devices, electrical stimulation was delivered transcutaneously to the left side of the neck, targeting the cervical vagus nerve projection. At specified times, the researcher initiated the device and adjusted the stimulation amplitude (ranging from 0 to 5 arbitrary units [AU], corresponding to 0-30 V and 0-14 V for the active and sham device, respectively) to as high as the subject could comfortably endure (active: 3.0 [SD 0.8] AU; sham: 4.4 [SD 1.2] AU). The amplitude was then kept fixed for the remainder of a 120-second period, following which the device automatically stopped, reducing its stimulation amplitude to zero. This 2-minute timeframe replicates the programmed administrations onboard the tcVNS devices that are currently in use [<xref rid="ref16" ref-type="bibr">16</xref>]. For further protocol and stimulation details, the reader is referred to Gurel et al [<xref rid="ref5" ref-type="bibr">5</xref>].</p>
+              </sec>
+              <sec>
+                <title>Physiological Sensing, Signal Processing, and Biomarker Extraction</title>
+                <p>Electrocardiogram (ECG) and transmissive PPG signals, taken from the finger, were continuously measured at the locations displayed in <xref rid="figure2" ref-type="fig">Figure 2</xref> using the Biopac RSPEC-R and Biopac PPGED-R systems (Biopac Systems, Goleta, CA, USA), respectively. All data were acquired at a 2-kHz sampling rate using the Biopac MP150 16-bit data acquisition system.</p>
+                <p>To extract the instantaneous heart rate from the ECG signal, finite impulse response bandpass filtering (passband of 0.6-40 Hz) was applied to cancel out-of-band noise while maintaining the waveform shape [<xref rid="ref17" ref-type="bibr">17</xref>]. By then detecting the R-peaks, the instantaneous heart rate was computed in beats per minute by taking the reciprocal of the time length, in minutes, between each pair of R-peaks (R-R interval). These R-peaks were subsequently leveraged to beat-separate the bandpass-filtered PPG signals (passband of 0.4-8 Hz [<xref rid="ref18" ref-type="bibr">18</xref>]). PPG amplitude (in AU), was then calculated on a beat-by-beat basis by subtracting the global minimum of each PPG beat from its global maximum.</p>
+                <p>The focus on heart rate and PPG amplitude as the biomarkers of interest for this work was based on a rationale that both cardiac and vascular downstream responses to stimulus were of interest scientifically and may indicate different autonomically mediated mechanisms following tcVNS. Heart rate is a hallmark measure of the cardiac response to changes in autonomic tone and is controlled by both the sympathetic and parasympathetic branches of the autonomic nervous system. Parasympathetic decreases in heart rate are mediated by the release of acetylcholine that binds to muscarinic receptors in the heart, whereas sympathetic increases in heart rate are mediated by the release of epinephrine and norepinephrine that bind to beta-1 receptors in the heart. PPG is a measure of peripheral blood volume pulse, and represents a surrogate measure of vasodilation or vasoconstriction resulting primarily from changes in sympathetic tone. Peripheral vasoconstriction is mediated by alpha-1 receptors in the smooth muscle of the vasculature [<xref rid="ref19" ref-type="bibr">19</xref>].</p>
+                <fig id="figure2" position="float">
+                  <label>Figure 2</label>
+                  <caption>
+                    <p>Physiological sensing, signal processing, and modeling preparation. Twenty-four subjects (12 active) underwent a clinical protocol, wherein the electrocardiogram (ECG) was measured with electrodes placed in a three-lead configuration and the photoplethysmogram (PPG) was measured from the fingertip in a transmissive LED-photodiode setup. Transcutaneous cervical vagus nerve stimulation (tcVNS) or sham stimulation was administered at predefined times, where the exact stimulation location was identified by locating the left carotid pulse. Following signal processing and biomarker extraction, the biomarkers were prepared for modeling via 5-point causal averaging, resampling to 1 Hz, normalizing to rest, and finally parsing into 4 separate vectors associated with the 4 tcVNS/sham administrations studied. By referencing stimulation initiation, the corresponding input amplitude waveforms were then constructed to replicate device administration. Amp.: amplitude; D1: day 1; D2: day 2; D3: day 3.</p>
+                  </caption>
+                  <graphic xlink:href="mhealth_v8i9e20488_fig2"/>
+                </fig>
+              </sec>
+              <sec>
+                <title>Preparing the Biomarker Time Series for Modeling</title>
+                <p>Following feature extraction, the heart rate and PPG amplitude values existed as beat-to-beat time series of nonuniform sampling rates (due to variability in heart rate). Thus, prior to any modeling, a few time-series processing steps were employed (<xref rid="figure2" ref-type="fig">Figure 2</xref>). First, each subject’s biomarker time series were prepared using a causal moving average of 5 data points (approximately 5-second, rectangular windows) to attenuate high-frequency artifacts. The filtered time series were then resampled at a constant frequency of 1 Hz to satisfy uniform sampling rate requirements [<xref rid="ref20" ref-type="bibr">20</xref>], followed by normalization to each day’s resting value (subtracting and then dividing by rest) to account for intersubject variability during our subsequent population-level analysis.</p>
+                <p>To then separately investigate the effects of tcVNS/sham administration on each of the two biomarkers, the resultant time series were parsed according to the 4 administrations per subject. Based on the data available, parsing was achieved by leaving 60 seconds of data prior to each 120-second administration and retaining 120 seconds of data postadministration, for a total of 300 seconds per administration. Note that missing data at the end of the 300-second interval relevant to our analysis affected 3 administrations among the 96 collected, and therefore the corresponding data vectors were shortened accordingly.</p>
+                <p>The accompanying input data were then created for each of the 192 subject-administration-biomarker combinations (2 biomarkers × 4 administrations × 24 subjects). This was accomplished by modeling the relative tcVNS/sham amplitude delivered to each subject with pulse-like trapezoidal signals that replicated the ramping and stabilization of true stimulation. These inputs were formed by passing a boxcar input of 120-second width and unit amplitude through a 5-point moving average filter. Since stimulation amplitude remains the only variable modulated during tcVNS/sham administration, stimulation amplitude was specified as the input variable, as done in related work [<xref rid="ref21" ref-type="bibr">21</xref>,<xref rid="ref22" ref-type="bibr">22</xref>]. This ensured that the subsequently analyzed input-induced effects modeled the tcVNS-induced effects under study. Note that the digital biomarker response dynamics modeled in this study correspond to a particular therapy—FDA-approved tcVNS—that exhibits equivalent input bandwidths across all administrations. Therefore, modeling the input-output relationship for the specific input variability exhibited during practical device usage remains invaluable to future analysis and development. For further reasoning and evidence behind this approach, please see <xref ref-type="supplementary-material" rid="app1">Multimedia Appendix 1</xref>.</p>
+              </sec>
+              <sec>
+                <title>State-Space Modeling and Cross-Validation</title>
+                <p>Considering the established diversity in VNS outcomes, which itself remains an active area of research [<xref rid="ref23" ref-type="bibr">23</xref>], subject-specific models were developed for our study, leaving the identification of consistencies across relevant subject groupings for the subsequent model analysis phase. To address biomarker differences, heart rate and PPG amplitude were modeled separately to foster comparison between the estimated systems and responses for each of the two biomarkers. This maneuver to disentangle outputs that seemingly respond to tcVNS/sham simultaneously derives from a result in state-space input-output modeling, where the absence of output feedback–controlled effects on the input under study allows for the disentangling of multiple-output systems [<xref rid="ref24" ref-type="bibr">24</xref>] (see <xref ref-type="supplementary-material" rid="app1">Multimedia Appendix 1</xref>).</p>
+                <p>The forthcoming equations and corresponding explanations will thus depict single-input single-output systems. The discrete-time state-space model structure in innovations form is governed by the following two difference equations:</p>
+                <p><italic>x<sub>k+1</sub></italic>=<italic>Ax</italic><sub>k</sub> +<italic>Bu<sub>k–τ</sub></italic> + <italic>Ke<sub>k</sub></italic>   <bold>(1)</bold></p>
+                <p><italic>y<sub>k</sub></italic>=<italic>Cx<sub>k</sub></italic> + <italic>Du<sub>k–τ</sub></italic> + <italic>e<sub>k</sub></italic>   <bold>(2)</bold></p>
+                <p>where <italic>k</italic> represents the discrete time step, <italic>τ</italic> represents the input delay of the system (also known as the “dead time” between changes in input and resultant changes in system behavior), <italic>y</italic> ∈ <bold>R</bold> represents the output, <italic>u</italic> ∈ <bold>R</bold> represents the input, <italic>x</italic> ∈ <bold>R</bold><sup>M</sup> represents the latent state of the dynamical system (referred to as the state vector), where <italic>M</italic> is referred to as the model order of the system, <italic>e</italic> ∈ <bold>R</bold> is the residual computed as the innovation estimate, and <italic>A</italic> ∈ <bold>R</bold><sup>M×M</sup>, <italic>B</italic> ∈ <bold>R</bold><sup>M×1</sup>, <italic>C</italic> ∈ <bold>R</bold><sup>1×M</sup>, <italic>D</italic> ∈ <bold>R</bold><sup>M×M</sup>, and <italic>K</italic> ∈ <bold>R</bold><sup>M×1</sup> are matrices consisting of free parameters that are estimated to best describe the data provided. In the context of this work, the scalar <italic>D</italic> is set to zero, as it quantifies the feedthrough component’s contribution on the output (ie, the static contribution of the input that circumvents dynamics entirely).</p>
+                <p>In this study, we initialized model estimates using subspace identification [<xref rid="ref25" ref-type="bibr">25</xref>] and then employed prediction error minimization to ameliorate any limitations of the computationally cheaper subspace method [<xref rid="ref26" ref-type="bibr">26</xref>]. In accordance with our subject-specific modeling objective, leave-one-out cross-validation was used to train and evaluate the state-space models. Specifically, each of the 4 administrations was used for testing exactly once, with the remaining 3 administrations used for model estimation. This eventually resulted in an overall 4 models per biomarker per subject, following the optimization process detailed below. <xref rid="figure3" ref-type="fig">Figure 3</xref> illustrates this cross-validation process.</p>
+                <fig id="figure3" position="float">
+                  <label>Figure 3</label>
+                  <caption>
+                    <p>Modeling, optimization, and cross-validation; quality assurance; and analysis. (Left) Modeling, optimization, and testing were performed in a leave-one-out cross-validation (CV) scheme, where, out of the four administrations, each administration was considered once as the unseen test set. The model order (M) and input delay (τ) were optimized by minimizing the small sample size-corrected Akaike information criterion (AICc). For each model order-input delay combination, a state-space model was trained by first initializing the parameter estimates using subspace estimation (N4SID); this was then followed by prediction error minimization (PEM) to refine the parameter estimates. Ridge regression was then performed for this specific model configuration by iterating lambda (λ) logarithmically over a specified interval and minimizing the mean square error. The 1-step-ahead prediction performance was evaluated using a fit percentage formula based on the root mean square error (RMSE) normalized by the standard deviation of the data (σ). (Middle) For quality assurance beyond subjective satisfaction in visual results, the models were evaluated against two objective baseline tests from the literature: the mean test and the naïve test. (Right) To extract the model information pertinent to a deepened dynamic understanding of biomarker responses, (1) optimal input delays were compiled to assess the expected response latency following stimulation onset, (2) the biomarkers were compared against each other to identify superiority in monitoring dynamic changes following transcutaneous cervical vagus nerve stimulation (tcVNS), and (3) the responses were quantifiably visualized via controlled simulation to produce population trajectories of expected dynamic changes following transcutaneous cervical vagus nerve stimulation (tcVNS) administration, in comparison to sham.</p>
+                  </caption>
+                  <graphic xlink:href="mhealth_v8i9e20488_fig3"/>
+                </fig>
+              </sec>
+              <sec>
+                <title>Regularization and Hyperparameter Optimization</title>
+                <p>The small sample size-corrected Akaike information criterion (AICc) was employed to select the optimal model configuration (M*, τ*); the AICc was used instead of the standard AIC due to the ratio between training data points, <italic>N,</italic> and the number of parameters, <italic>p,</italic> in the largest candidate model remaining less than 40 [<xref rid="ref27" ref-type="bibr">27</xref>,<xref rid="ref28" ref-type="bibr">28</xref>]. For technical details on usage, please refer to <xref ref-type="supplementary-material" rid="app1">Multimedia Appendix 1</xref>.</p>
+                <p>To optimize τ, based on a previous effort to subjectively annotate the delays between tcVNS and biomarker changes [<xref rid="ref29" ref-type="bibr">29</xref>], the interval was set to 0 ≤τ≤35; this was to circumscribe a 99% confidence interval about the reported result of 18 seconds (SD 7). For <italic>M</italic>, the lack of broadband input constrained the parameter total to below the order of input persistence of excitation for any candidate model [<xref rid="ref30" ref-type="bibr">30</xref>]. The order of persistent excitation is estimated by counting the number of distinct frequencies with spectral content larger than a set threshold [<xref rid="ref31" ref-type="bibr">31</xref>]. By performing this computation iteratively across all input signals used in this study, including those associated with datasets missing data points, the order never decreased below 50. Thus, our optimization interval was safely restricted to a maximum of 50 parameters, corresponding to model order 10 for modal form estimates (see <xref ref-type="supplementary-material" rid="app1">Multimedia Appendix 1</xref>).</p>
+                <p>Once the optimal state-space model was selected for each training set of 3 administrations, the model was then regularized separately via ridge regression [<xref rid="ref32" ref-type="bibr">32</xref>]. The parameter λ was selected by minimizing the mean square error over the interval λ ∊ [10<sup>–15</sup>, 10<sup>4</sup>]. The lower bound was selected due to MATLAB’s machine epsilon for double-precision floating points (2<sup>–52</sup>) and the upper bound was selected during an experimentation period. These optimal, regularized model estimates were then used for the remaining analyses. The methods described in this subsection and the previous section correspond to the box on the left in <xref rid="figure3" ref-type="fig">Figure 3</xref>.</p>
+              </sec>
+              <sec>
+                <title>Fit Percentage Definition and Baseline Testing</title>
+                <p>The models were evaluated against two established baselines for dynamic modeling tasks: the mean test and the naïve test. The mean test involves comparing out-of-sample 1-step prediction performance vs mean predictors, and the naïve test involves comparing 1-step prediction performance vs the naïve predictor [<xref rid="ref33" ref-type="bibr">33</xref>-<xref rid="ref35" ref-type="bibr">35</xref>] (see <xref ref-type="supplementary-material" rid="app1">Multimedia Appendix 1</xref> for further details). This out-of-sample testing is depicted in the box on the right of <xref rid="figure3" ref-type="fig">Figure 3</xref> (left). <xref rid="figure3" ref-type="fig">Figure 3</xref> (middle) also summarizes the baseline testing.</p>
+                <p>The metric used herein for evaluation is the fit %, defined as:</p>
+                <graphic xlink:href="mhealth_v8i9e20488_fig7.jpg" mimetype="image" position="float"/>
+                <p>where <italic>ŷ</italic>=[<italic>ŷ</italic><sub>1</sub>
+<italic>ŷ</italic><sub>2</sub>… <italic>ŷ</italic><sub>N</sub>]<italic><sup>T</sup></italic> represents the predicted output values from time step 1 to N and <italic>y</italic>=[<italic>y</italic><sub>1</sub><italic>y</italic><sub>2</sub>… <italic>y</italic><sub>N</sub>]<italic><sup>T</sup></italic> represents the true output. This exact metric has been widely used to quantify time-series model validity (eg, [<xref rid="ref21" ref-type="bibr">21</xref>,<xref rid="ref24" ref-type="bibr">24</xref>]), along with its variants (eg, [<xref rid="ref33" ref-type="bibr">33</xref>]). Note that the above fit % formula can be equivalently rewritten as (1 – RMSE/σ) × 100%, where RMSE is the root mean square error between the predicted and true values and σ is the standard deviation of the data. Thus, the fit % used here is commonly referred to as a fit % metric based on standard deviation – normalized RMSE, which represents an estimate of the output variability the model can accurately reproduce [<xref rid="ref24" ref-type="bibr">24</xref>]. This is seen to be the case when comparing the fit % to the coefficient of determination, given by:</p>
+                <graphic xlink:href="mhealth_v8i9e20488_fig8.jpg" mimetype="image" position="float"/>
+                <p>demonstrating that the fit % simply replaces the mean square error and variance with the RMSE and standard deviation, respectively. It thereby exhibits improved spread for RMSE &lt; σ/2.</p>
+              </sec>
+              <sec>
+                <title>Model Configuration and Fit Comparisons</title>
+                <p><xref rid="figure3" ref-type="fig">Figure 3</xref> (right) illustrates the subsequent methods of analysis. To determine the presence of any notable differences in predictability between the biomarkers in question, the biomarker fit percentages were compared. Additionally, the optimal model orders associated with each biomarker’s models were compared to determine whether any model complexity differences could be posited. In this case, unlike fit %, lower model orders are generally favored, as they signify relatively simpler systems.</p>
+                <p>To further investigate the optimal model configurations, the automatically optimized input delays, τ*, for each of the two biomarkers were compiled. These two sets of latencies were then compared against the manually annotated delays of previous work. As detailed in Gurel et al [<xref rid="ref29" ref-type="bibr">29</xref>], this manual labeling was performed independently by three investigators with an interannotator agreement of 90%.</p>
+              </sec>
+              <sec>
+                <title>Statistical Testing</title>
+                <p>With 4 fit % values, model orders, and input delays obtained per subject-biomarker combination (corresponding to the 4 models produced via cross-validation), all quantities were first averaged across all 4 models prior to comparison/compilation. To examine biomarker differences in fit % and model order, pairwise <italic>t</italic> tests or Wilcoxon signed-rank tests were employed for normally and nonnormally (tested using the Shapiro-Wilk test) distributed variables, respectively. For comparison of the delay results, after failing to reject normality and sphericity (tested using the Mauchly sphericity test), a one-way repeated-measures analysis of variance was used; α=.05 was used as the level of significance for these comparisons.</p>
+              </sec>
+              <sec>
+                <title>Investigating Biomarker Responses to tcVNS vs Sham</title>
+                <p>As a final analysis step, we investigated the tcVNS-induced response dynamics captured through modeling by simulating both the active and sham models forward from a controlled state. To leverage the previously resampled biomarker time series, we assembled a second set of plots corresponding to the true experimental responses. To facilitate qualitative comparisons, both sets were constructed by compiling/simulating the true/artificial biomarker time series such that 10 seconds existed prior to the true/simulated stimulus administration and 120 seconds remained afterward. The 120 seconds corresponds to the 2-minute poststimulus period used during modeling, and the 10 seconds were included to better understand the true biomarker values prior to stimulation.</p>
+                <sec>
+                  <title>Resampled Experimental Responses</title>
+                  <p>For each of the 4 administrations for the 24 subjects, the heart rate and PPG amplitude time series were extracted by simply considering the values produced as a result of the modeling preparation steps. With resampled and normalized time series in hand, each biomarker’s overall response was constructed by first averaging the biomarker responses across all 4 administrations, followed by additional average and SEM calculations across all 12 subjects in each device group.</p>
+                </sec>
+                <sec>
+                  <title>Simulated Model Responses</title>
+                  <p>To visualize the biomarker dynamics captured by the models, each model was simulated forward by (i) setting the initial conditions to zero (ie, initializing the system at its equilibrium) to guarantee equivalence between active and sham time series (setting <italic>x</italic><sub>1</sub>=0 guarantees that the system will remain there for as long as no stimulus is present); (ii) constructing an input waveform equivalent to the input used during the modeling process, nonzero between time points 10 and 130 seconds; and (iii) solving the difference equations forward in time for each model, ignoring the contribution of <italic>Ke</italic> and <italic>e</italic> in Equations (1) and (2), respectively, as these quantities represent the unmodeled aspect of the system, along with noise, lumped into residual terms [<xref rid="ref36" ref-type="bibr">36</xref>]. Each biomarker’s overall response was constructed by averaging across all 4 simulated model responses, followed by calculation of the average and SEM across each device group. For further details regarding the advantages of this approach and insight into the subsequent simulation analysis, please refer to <xref ref-type="supplementary-material" rid="app1">Multimedia Appendix 1</xref>.</p>
+                </sec>
+              </sec>
+            </sec>
+            <sec sec-type="results">
+              <title>Results</title>
+              <sec>
+                <title>Baseline Test Results</title>
+                <p><xref rid="figure4" ref-type="fig">Figure 4</xref> (left) displays the heart rate and PPG amplitude data in response to a single administration of active tcVNS from a representative subject. For illustrative purposes, the corresponding model predictions are overlaid. To produce these predictions for each biomarker, the model was trained on the remaining three datasets for this subject and tested on this particular dataset.</p>
+                <p>The naïve test results across all subjects are shown on the right side of <xref rid="figure4" ref-type="fig">Figure 4</xref>. Note that the mean predictors, by definition, always produce fits of 0%. Hence, the models for both biomarkers passed both the naïve test and the mean test, exhibiting significantly higher fit percentages than the naïve predictors (<italic>P</italic>&lt;.001) and mean predictors (<italic>P</italic>&lt;.001).</p>
+                <fig id="figure4" position="float">
+                  <label>Figure 4</label>
+                  <caption>
+                    <p>Example model predictions vs true data, along with naïve test box plot results for the entire sample. (Left) Both model vs data plots shown originate from one administration of a single active transcutaneous cervical vagus nerve stimulation (tcVNS) subject. Each biomarker’s model was trained on the three other tcVNS administration datasets available for this subject; the test results on the remaining unseen dataset in a 1-step-ahead prediction task are shown. The gray dashed lines demarcate the time frame in which tcVNS was administered, and the fit percentages are calculated as previously defined. The y-axis represents relative changes from rest in percent form. (Right) The regularized, optimal state space models strongly satisfied both the naïve test and the mean test. The statistically significant (<italic>P</italic>&lt;.001) naïve test results are shown, where the box plots indicate results for the entire sample; * denotes statistical significance. The blue squares indicate outlier points, where outliers lie above the upper quartile or below the lower quartile by more than 1.5 times the interquartile range. Significance (<italic>P</italic>&lt;.001) held for the mean test as well for both biomarkers (not shown).</p>
+                  </caption>
+                  <graphic xlink:href="mhealth_v8i9e20488_fig4"/>
+                </fig>
+              </sec>
+              <sec>
+                <title>Modeling Amenability Comparison</title>
+                <p><xref rid="table1" ref-type="table">Table 1</xref> summarizes the results from the biomarker fit % and model order contrast. The fit of each of the PPG amplitude models was significantly better than that of the heart rate models (<italic>P</italic>=.03), albeit without compensation through an increase in model order/complexity. Model order did not differ between heart rate and PPG (<italic>P</italic>=.14).</p>
+                <table-wrap id="table1" position="float">
+                  <label>Table 1</label>
+                  <caption>
+                    <p>Mean (SD) fit % and model orders for each biomarker’s state-space model.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+                    <col width="330" span="1"/>
+                    <col width="330" span="1"/>
+                    <col width="340" span="1"/>
+                    <thead>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Metric</td>
+                        <td rowspan="1" colspan="1">Heart rate</td>
+                        <td rowspan="1" colspan="1">PPG<sup>a</sup> amplitude</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Fit %</td>
+                        <td rowspan="1" colspan="1">76.67 (6.96)</td>
+                        <td rowspan="1" colspan="1">81.64 (7.07)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Model order</td>
+                        <td rowspan="1" colspan="1">9.52 (0.38)</td>
+                        <td rowspan="1" colspan="1">9.39 (0.34)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="table1fn1">
+                      <p><sup>a</sup>PPG: photoplethysmogram.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+              <sec>
+                <title>Automatically Estimated Input Delays vs Manually Labeled Onset Delays</title>
+                <p><xref rid="figure5" ref-type="fig">Figure 5</xref> shows the automatically estimated input delays for both biomarker models, as well as the manually annotated result from previous work [<xref rid="ref29" ref-type="bibr">29</xref>]. The mean input delay for the heart rate and PPG amplitude state-space models was 17.65 seconds (SD 5.17) and 20.58 seconds (SD 5.81), respectively, and the mean manually labeled delay was 18 seconds (SD 7). No statistically significant differences were found between the three sets of onset delays (F<sub>2, 22</sub>=0.71, <italic>P</italic>=.51, <italic>η</italic><sup>2</sup><sub>p</sub>=.06).</p>
+                <fig id="figure5" position="float">
+                  <label>Figure 5</label>
+                  <caption>
+                    <p>Delayed effects of transcutaneous cervical vagus nerve stimulation (tcVNS) in downstream cardiovascular biomarkers. By including input delay as a free parameter necessitating optimization, the objective, quantitative state-space model optimization process described in this paper reproduced the tcVNS delay findings of the manual, subjective annotations of [<xref rid="ref29" ref-type="bibr">29</xref>]; no statistically significant differences existed between the three sets of onset delays. The coral-colored square represents an outlier, and the black crosses represent the means.</p>
+                  </caption>
+                  <graphic xlink:href="mhealth_v8i9e20488_fig5"/>
+                </fig>
+              </sec>
+              <sec>
+                <title>Biomarker Responses to tcVNS vs Sham</title>
+                <p><xref rid="figure6" ref-type="fig">Figure 6</xref> shows the heart rate and PPG amplitude responses to tcVNS or sham administration. The graphs on the left correspond to the resampled experimental responses, and those on the right correspond to the simulated model responses. Although conclusions are weakened when comparing the true active and sham responses due to the lack of controlled initial conditions, one can posit possible dynamic response signatures for PPG amplitude and heart rate in response to active tcVNS when comparing against their respective sham counterparts. Through modeling and simulation, we remedy these initial condition concerns. Rubin causality is therefore exhibited in response to tcVNS, allowing for causal inference to be legitimately made by comparing the active and sham responses. Moreover, the underlying dynamic response signatures of tcVNS can be better visualized in comparison to the uneventful sham responses.</p>
+                <fig id="figure6" position="float">
+                  <label>Figure 6</label>
+                  <caption>
+                    <p>Dynamic responses to transcutaneous cervical vagus nerve stimulation (tcVNS) for heart rate (HR) and photoplethysmogram (PPG) amplitude. The curves themselves, along with their accompanying shaded regions, represent average (SEM). (Left) True responses, resampled for population averaging and subsequent dynamic modeling. The y-axis values represent relative changes from rest in percent form, and the orange dashed lines demarcate the period of active/sham stimulus administration (t ∈ (10, 130) seconds). (Right) Simulated responses to tcVNS, produced by solving the state-space model difference equations forward in time. The y-axis values represent relative changes from rest in percent form, and the orange dashed lines demarcate the period of simulated active/sham stimulus administration (t ∈ (10, 130) seconds).</p>
+                  </caption>
+                  <graphic xlink:href="mhealth_v8i9e20488_fig6"/>
+                </fig>
+              </sec>
+            </sec>
+            <sec sec-type="discussion">
+              <title>Discussion</title>
+              <sec>
+                <title>PPG Amplitude is a More Reliable and Predictable Biomarker of tcVNS Effects</title>
+                <p>Based on the results in <xref rid="table1" ref-type="table">Table 1</xref>, we found that the models were able to reproduce the PPG amplitude data significantly better than the heart rate data, albeit without requiring any increase in model complexity to compensate. PPG amplitude may thus be a more trackable dynamic marker of the physiological responsiveness to tcVNS than those previously investigated. Notably, such biomarkers have thus far remained elusive in the existing tVNS literature [<xref rid="ref37" ref-type="bibr">37</xref>]. Hence, in conjunction with the consistency of PPG amplitude discovered in previous work [<xref rid="ref5" ref-type="bibr">5</xref>,<xref rid="ref12" ref-type="bibr">12</xref>], the finding that PPG amplitude remains more amenable to our modeling approach suggests that PPG amplitude may serve as a superior biomarker for real-time tcVNS systems, and thus should be given precedence in a multimodal sensing setting.</p>
+                <p>Biomarker characteristics that could explain this distinction involve measurement location and physiological origin. Heart rate is a cardiac measure originating centrally from the heart, whereas the PPG signals measured in this study were sensed at the periphery—in particular, transmissively at the fingertip. As described in the Methods section, a clear physiological distinction exists; these differences may in fact explain the relative contrasts observed in this study, as well as the previous difficulties encountered in identifying a trustworthy biomarker derived from the heart (eg, heart rate variability measures) [<xref rid="ref37" ref-type="bibr">37</xref>].</p>
+                <p>Cardiovascular biomarkers extracted from peripheral processes, mediated solely by the sympathetic nervous system (eg, vasoconstrictor sympathetic nerve activity [<xref rid="ref38" ref-type="bibr">38</xref>] and PPG amplitude [<xref rid="ref18" ref-type="bibr">18</xref>]), have shown repeated success in capturing the effects of tVNS. An explanation for this may involve physiological control. In comparison to the peripheral blood vessels and their sympathetically mediated vasoconstriction, heart rate is regulated by both the sympathetic and parasympathetic nervous systems; additionally, the heart, owing to its critical role in maintaining blood supply to the entire body, is subject to far tighter regulation [<xref rid="ref19" ref-type="bibr">19</xref>,<xref rid="ref39" ref-type="bibr">39</xref>]. The peripheral vasculature thus remains more susceptible to external modulation, or in a systems sense, external “disturbances.” Thus, a promising approach for sense-and-react systems that seek to assess the effects of external modulation may be to leverage peripheral biomarkers that measure quantities subject to looser homeostatic control.</p>
+              </sec>
+              <sec>
+                <title>tcVNS-Induced Effects are Delayed in Digital Cardiovascular Biomarkers</title>
+                <p><xref rid="figure5" ref-type="fig">Figure 5</xref> illustrates the consistency found between the optimized input delays of this work and the manually annotated latencies of prior work [<xref rid="ref29" ref-type="bibr">29</xref>]. Note, however, that these delay values of approximately 15 seconds may in fact be overestimates in certain situations due to the approximate 5-second ramp-up period during administration. Since this aspect was accounted for during modeling, one can reasonably deduct 5 seconds from the delays listed for purposes involving closed-loop system design and hypothesizing the dominant mechanism of action. Our reasoning is that for a closed-loop system adapted for a particular subject, the threshold of comfort will likely be known, thereby eliminating the ramp-up period. To provide quantitative evidence for a dominant mechanism of action, protocol-related delays are not necessarily relevant to determining the underlying pathways that tcVNS affects when causing downstream cardiovascular effects. Nevertheless, as determined by the notched confidence intervals shown in <xref rid="figure5" ref-type="fig">Figure 5</xref>, mechanistically relevant delays remain at latencies of &gt;5 seconds, even after factoring in the 5-second deduction. Thus, for closed-loop tcVNS systems, a delay greater than 5 seconds must be taken into consideration and designed for accordingly [<xref rid="ref40" ref-type="bibr">40</xref>,<xref rid="ref41" ref-type="bibr">41</xref>].</p>
+                <p>In providing quantitative evidence for the likely dominant mechanism of action for tcVNS effects on downstream physiology, we here highlight the two prevalent hypotheses for tcVNS at either the cervical or auricular branch of the vagus nerve [<xref rid="ref42" ref-type="bibr">42</xref>,<xref rid="ref43" ref-type="bibr">43</xref>] (see <xref ref-type="supplementary-material" rid="app1">Multimedia Appendix 1</xref> for a detailed illustration). The first hypothesis involves electrical activation of vagal efferents terminating at the heart [<xref rid="ref44" ref-type="bibr">44</xref>]; this mechanism would in fact induce the expected decrease in heart rate, which has been frequently cited in previous animal studies (eg, [<xref rid="ref45" ref-type="bibr">45</xref>]) and was also found to be the case here. However, this hypothesis may not necessarily explain the sympathetically mediated effects observed at the periphery during tVNS administration (eg, vasoconstrictor sympathetic nerve activity [<xref rid="ref38" ref-type="bibr">38</xref>]). The second hypothesis implicates afferent vagal stimulation as a pathway to brain activity in autonomically relevant brain areas, followed by downstream effects induced by resultant efferent signaling. Although brain imaging and electrophysiological measurements have confirmed the activation of vagal afferents during tcVNS [<xref rid="ref10" ref-type="bibr">10</xref>,<xref rid="ref46" ref-type="bibr">46</xref>], it remains unclear whether these “bottom-up” effects serve as the dominant cause for the resultant autonomic efferent activity.</p>
+                <p>The results presented herein seem to align with the latter hypothesis: namely, that the delayed effects modeled—and subjectively observed in previous work—are a byproduct of afferent vagal activity, processing in the brain, and resultant efferent-mediated autonomic effects. Synthesizing previous sensing and measurement studies of tcVNS, afferent signatures (P1-N1 vagal somatosensory evoked potentials) tend to occur within 1 second of amplitude stabilization [<xref rid="ref46" ref-type="bibr">46</xref>]. Considering that finite element modeling results suggest that only A and B vagal fibers can be stimulated through gammaCore tcVNS [<xref rid="ref47" ref-type="bibr">47</xref>], and that efferent B fiber conduction velocities range from 5 to 10 m/s [<xref rid="ref44" ref-type="bibr">44</xref>], we would expect that if the dominant pathway for cardiac effects occurred through direct efferent stimulation, these effects would occur within 2-3 seconds of amplitude stabilization. Instead, we conclude that the dominant tcVNS effects on cardiovascular physiology likely occur after 5-10 seconds have elapsed, following amplitude stabilization (after reasonably deducting a 5-second ramp-up period from the ~15-second delays reported). This suggests that downstream cardiovascular effects are likely mediated by the prolonged afferent-brain-efferent mechanism of action.</p>
+              </sec>
+              <sec>
+                <title>Distinct Dynamic Signatures Characterize tcVNS-Induced Effects</title>
+                <p>Heart rate and PPG amplitude responses were visualized both for resampled data averaged across administrations and subjects, and for simulated responses produced by solving the estimated difference equations forward in time. As shown in <xref rid="figure6" ref-type="fig">Figure 6</xref> (left), the average active PPG amplitude response to tcVNS clearly exceeded the average sham response to tcVNS, although they coincidentally initialized at similar relative values. In contrast, the average active heart rate graph displays a transient decrease in response to tcVNS that lasts about 50 seconds, followed by a return to prestimulus values. Interestingly, this agrees with recent findings in the auricular tVNS literature, which noted 3-4% transient drops in heart rate that recovered over the course of 30 seconds following stimulation onset [<xref rid="ref48" ref-type="bibr">48</xref>]. Unlike the PPG amplitude responses, the average heart rate responses of the two device groups initialized with an almost 4% relative difference between them, which is an important point to consider when comparing the two trajectories. Although the average active heart rate response seems starkly different from the average sham heart rate response, if one were to artificially shift the two responses’ initial conditions vertically to level the playing field, the active response would remain beneath the sham response, but definitively by less. Moreover, this disregards the concerns associated with performing such an artificial transformation for causal inference and comparison [<xref rid="ref49" ref-type="bibr">49</xref>].</p>
+                <p>This issue of Rubin causality (see <xref ref-type="supplementary-material" rid="app1">Multimedia Appendix 1</xref>) is ultimately resolved on the right side of <xref rid="figure6" ref-type="fig">Figure 6</xref>. Since the dynamic models developed thus far were simulated forward from the same equilibrium condition, we arrived at population-level characteristic responses to tcVNS that exhibited the necessary equivalent prestimulus behavior. With this added causal inference power, we not only observed apparent similarities between the plots on the left and right of <xref rid="figure6" ref-type="fig">Figure 6</xref>, but we also discovered evident differences between the active and sham groups in their responses to tcVNS. In particular, the active group’s simulated PPG amplitude responses significantly exceeded the relatively flat sham PPG amplitude trajectories; analogously, but in the opposite direction, the active heart rate trajectories displayed a clear decrease in comparison to the sham responses, where the sham responses again remained relatively constant. Thus, the exact same modeling and simulation methodology were applied to data from both device groups, and yet stark differences arose in the characteristic responses to stimulation. Furthermore, the sham group displayed relatively subdued responses to the simulated stimulus, as expected. These results serve as further validation for the current approach and ultimately imply the presence of distinctive dynamic signatures that characterize the continuous-time effects of tcVNS on digital cardiovascular biomarkers.</p>
+              </sec>
+              <sec>
+                <title>Limitations and Future Work</title>
+                <p>A few limitations are to be noted for this study. Although nonlinear approaches to difference equation modeling are generally discouraged at the outset unless expert knowledge or sufficient evidence seems to suggest otherwise [<xref rid="ref24" ref-type="bibr">24</xref>], nonlinear dynamics exist in general. Nevertheless, in agreement with previous findings demonstrating that a considerable percentage of dynamic variability exhibited by cardiovascular biomarkers such as heart rate can be modeled linearly [<xref rid="ref50" ref-type="bibr">50</xref>], we found that approximately 80% of the biomarker variability observed can still be predicted accurately. Hence, this paper presents a “best linear approximation” that could further be built upon in future work directed at characterizing the nonlinearities of tcVNS responses [<xref rid="ref24" ref-type="bibr">24</xref>].</p>
+                <p>Although all tcVNS clinical protocols reported to date have used the gammaCore device to which the present results readily apply, future control approaches will need to venture beyond this standardized waveform and vary parameters during stimulation to achieve desired regulation goals, while simultaneously maintaining user safety. This would additionally help in satisfying the stringent input requirements for system identification [<xref rid="ref24" ref-type="bibr">24</xref>], which are conditions that have not been met thus far.</p>
+                <p>Finally, we note that biomarkers other than PPG amplitude and heart rate were found to be statically relevant in quantifying tcVNS effects in previous work [<xref rid="ref5" ref-type="bibr">5</xref>], although static PPG amplitude and heart features were found to be the most salient [<xref rid="ref12" ref-type="bibr">12</xref>]. Thus, a multimodal closed-loop system that utilizes signals other than ECG and PPG may benefit from further application of such dynamic modeling and analysis.</p>
+              </sec>
+              <sec>
+                <title>Conclusions</title>
+                <p>In this work, we studied heart rate and PPG amplitude responses to tcVNS and derived three key findings by approaching this question from a dynamic modeling perspective. First, PPG amplitude demonstrates preeminence in both modeling amenability and active vs sham response separation, suggesting its superiority as a digital biomarker for real-time response prediction and tcVNS effect quantification. Second, a consistent delay of greater than 5 seconds exists between tcVNS onset and downstream cardiovascular biomarker responses. Latency must therefore be considered and accounted for appropriately during clinical monitoring and closed-loop system design. Moreover, this delay may provide measurable evidence for the dominance of the hypothesized vagal afferent-to-brain-to-autonomic efferent pathway in downstream cardiovascular modulation. Lastly, state-space models can successfully predict heart rate and PPG amplitude dynamics in response to tcVNS, and can help to identify the characteristic dynamic signatures that separate these biomarker responses to tcVNS from sham stimulation. This dynamic modeling and analysis thereby deepens our understanding of tcVNS effects and lays the groundwork for future closed-loop approaches in time-sensitive applications.</p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>This work was sponsored in part by the Defense Advanced Research Projects Agency (DARPA) Biological Technologies Office (BTO) Targeted Neuroplasticity Training (TNT) program through the Naval Information Warfare Center (NIWC) Cooperative Agreement No. N66001-16-4054, and by DARPA BTO ElectRx through NIWC Cooperative Agreement No. N66001-19-2-4002. AS was funded by the National Institutes of Health (K23HL127251). JB receives funding from an electroCore Investigator Initiated Research Grant and from a Distinguished Investigator Award from the Brain and Behavior Foundation. The gammaCore stimulation devices used in this study were provided by electroCore.</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="COI-statement">
+                <p>Conflicts of Interest: JB has received funding from an electroCore Investigator Initiated Research Grant, and the gammaCore stimulation devices used in this study were provided by electroCore.</p>
+              </fn>
+            </fn-group>
+            <app-group>
+              <app>
+                <title>Appendix</title>
+                <supplementary-material content-type="local-data" id="app1">
+                  <label>Multimedia Appendix 1</label>
+                  <p>Supplementary material.</p>
+                  <media xlink:href="mhealth_v8i9e20488_app1.pdf" xlink:title="PDF File (Adobe PDF File), 330 KB" xlink:type="simple" id="d38e1215" position="anchor"/>
+                </supplementary-material>
+              </app>
+            </app-group>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term id="abb1">AICc</term>
+                  <def>
+                    <p>small sample size-corrected Akaike information criterion</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb2">AU</term>
+                  <def>
+                    <p>arbitrary units</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb3">ECG</term>
+                  <def>
+                    <p>electrocardiogram</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb4">FDA</term>
+                  <def>
+                    <p>Food and Drug Administration</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb5">PPG</term>
+                  <def>
+                    <p>photoplethysmogram</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb6">RMSE</term>
+                  <def>
+                    <p>root mean square error</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb7">tcVNS</term>
+                  <def>
+                    <p>transcutaneous cervical vagus nerve stimulation</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <ref-list>
+              <ref id="ref1">
+                <label>1</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Adair</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Truong</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Esmaeilpour</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Gebodh</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Borges</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Ho</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Bremner</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                    <name>
+                      <surname>Badran</surname>
+                      <given-names>BW</given-names>
+                    </name>
+                    <name>
+                      <surname>Napadow</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Clark</surname>
+                      <given-names>VP</given-names>
+                    </name>
+                    <name>
+                      <surname>Bikson</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Electrical stimulation of cranial nerves in cognition and disease</article-title>
+                  <source>Brain Stimul</source>
+                  <year>2020</year>
+                  <month>5</month>
+                  <volume>13</volume>
+                  <issue>3</issue>
+                  <fpage>717</fpage>
+                  <lpage>750</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://linkinghub.elsevier.com/retrieve/pii/S1935-861X(20)30041-3"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1016/j.brs.2020.02.019</pub-id>
+                  <pub-id pub-id-type="medline">32289703</pub-id>
+                  <!--<pub-id pub-id-type="pii">S1935-861X(20)30041-3</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7196013</pub-id>-->
+                  <pub-id pub-id-type="pmid">32289703</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref2">
+                <label>2</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Brock</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Brock</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Aziz</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Møller</surname>
+                      <given-names>H J</given-names>
+                    </name>
+                    <name>
+                      <surname>Pfeiffer Jensen</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Drewes</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                    <name>
+                      <surname>Farmer</surname>
+                      <given-names>AD</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Transcutaneous cervical vagal nerve stimulation modulates cardiac vagal tone and tumor necrosis factor-alpha</article-title>
+                  <source>Neurogastroenterol Motil</source>
+                  <year>2017</year>
+                  <month>5</month>
+                  <day>12</day>
+                  <volume>29</volume>
+                  <issue>5</issue>
+                  <fpage>e12999</fpage>
+                  <pub-id pub-id-type="doi">10.1111/nmo.12999</pub-id>
+                  <pub-id pub-id-type="medline">27957782</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref3">
+                <label>3</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lerman</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Davis</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Sorkin</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Proudfoot</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhong</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Kimball</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Rao</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Simon</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Spadoni</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Strigo</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Baker</surname>
+                      <given-names>DG</given-names>
+                    </name>
+                    <name>
+                      <surname>Simmons</surname>
+                      <given-names>AN</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Noninvasive vagus nerve stimulation alters neural response and physiological autonomic tone to noxious thermal challenge</article-title>
+                  <source>PLoS One</source>
+                  <year>2019</year>
+                  <month>2</month>
+                  <day>13</day>
+                  <volume>14</volume>
+                  <issue>2</issue>
+                  <fpage>e0201212</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://dx.plos.org/10.1371/journal.pone.0201212"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0201212</pub-id>
+                  <pub-id pub-id-type="medline">30759089</pub-id>
+                  <!--<pub-id pub-id-type="pii">PONE-D-18-20139</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC6373934</pub-id>-->
+                  <pub-id pub-id-type="pmid">30759089</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref4">
+                <label>4</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lerman</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Hauger</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Sorkin</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Proudfoot</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Davis</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Lam</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Simon</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Baker</surname>
+                      <given-names>DG</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Noninvasive Transcutaneous Vagus Nerve Stimulation Decreases Whole Blood Culture-Derived Cytokines and Chemokines: A Randomized, Blinded, Healthy Control Pilot Trial</article-title>
+                  <source>Neuromodulation</source>
+                  <year>2016</year>
+                  <month>4</month>
+                  <day>15</day>
+                  <volume>19</volume>
+                  <issue>3</issue>
+                  <fpage>283</fpage>
+                  <lpage>290</lpage>
+                  <pub-id pub-id-type="doi">10.1111/ner.12398</pub-id>
+                  <pub-id pub-id-type="medline">26990318</pub-id>
+                  <pub-id pub-id-type="pmid">26990318</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref5">
+                <label>5</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gurel</surname>
+                      <given-names>NZ</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Wittbrodt</surname>
+                      <given-names>MT</given-names>
+                    </name>
+                    <name>
+                      <surname>Jung</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Ladd</surname>
+                      <given-names>SL</given-names>
+                    </name>
+                    <name>
+                      <surname>Shandhi</surname>
+                      <given-names>MMH</given-names>
+                    </name>
+                    <name>
+                      <surname>Ko</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Shallenberger</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Nye</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Pearce</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Vaccarino</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Shah</surname>
+                      <given-names>AJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Bremner</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                    <name>
+                      <surname>Inan</surname>
+                      <given-names>OT</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Quantifying acute physiological biomarkers of transcutaneous cervical vagal nerve stimulation in the context of psychological stress</article-title>
+                  <source>Brain Stimul</source>
+                  <year>2020</year>
+                  <month>1</month>
+                  <volume>13</volume>
+                  <issue>1</issue>
+                  <fpage>47</fpage>
+                  <lpage>59</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://linkinghub.elsevier.com/retrieve/pii/S1935-861X(19)30346-8"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1016/j.brs.2019.08.002</pub-id>
+                  <pub-id pub-id-type="medline">31439323</pub-id>
+                  <!--<pub-id pub-id-type="pii">S1935-861X(19)30346-8</pub-id>-->
+                  <pub-id pub-id-type="pmid">31439323</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref6">
+                <label>6</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Redgrave</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Day</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Leung</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Laud</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Ali</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Lindert</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Majid</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Safety and tolerability of Transcutaneous Vagus Nerve stimulation in humans; a systematic review</article-title>
+                  <source>Brain Stimul</source>
+                  <year>2018</year>
+                  <month>11</month>
+                  <volume>11</volume>
+                  <issue>6</issue>
+                  <fpage>1225</fpage>
+                  <lpage>1238</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.brs.2018.08.010</pub-id>
+                  <pub-id pub-id-type="medline">30217648</pub-id>
+                  <!--<pub-id pub-id-type="pii">S1935-861X(18)30293-6</pub-id>-->
+                  <pub-id pub-id-type="pmid">30217648</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref7">
+                <label>7</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bremner</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                    <name>
+                      <surname>Rapaport</surname>
+                      <given-names>MH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Vagus Nerve Stimulation: Back to the Future</article-title>
+                  <source>Am J Psychiatry</source>
+                  <year>2017</year>
+                  <month>7</month>
+                  <day>01</day>
+                  <volume>174</volume>
+                  <issue>7</issue>
+                  <fpage>609</fpage>
+                  <lpage>610</lpage>
+                  <pub-id pub-id-type="doi">10.1176/appi.ajp.2017.17040422</pub-id>
+                  <pub-id pub-id-type="medline">28669203</pub-id>
+                  <pub-id pub-id-type="pmid">28669203</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref8">
+                <label>8</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Venigalla</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Mekala</surname>
+                      <given-names>HM</given-names>
+                    </name>
+                    <name>
+                      <surname>Hassan</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Ahmed</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Zain</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Dar</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Veliz</surname>
+                      <given-names>SS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An Update on Biomarkers in Psychiatric Disorders - Are we aware, Do we use in our clinical practice?</article-title>
+                  <source>Ment Health Fam Med</source>
+                  <year>2017</year>
+                  <volume>13</volume>
+                  <fpage>471</fpage>
+                  <lpage>479</lpage>
+                </element-citation>
+              </ref>
+              <ref id="ref9">
+                <label>9</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pitman</surname>
+                      <given-names>RK</given-names>
+                    </name>
+                    <name>
+                      <surname>Rasmusson</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                    <name>
+                      <surname>Koenen</surname>
+                      <given-names>KC</given-names>
+                    </name>
+                    <name>
+                      <surname>Shin</surname>
+                      <given-names>LM</given-names>
+                    </name>
+                    <name>
+                      <surname>Orr</surname>
+                      <given-names>SP</given-names>
+                    </name>
+                    <name>
+                      <surname>Gilbertson</surname>
+                      <given-names>MW</given-names>
+                    </name>
+                    <name>
+                      <surname>Milad</surname>
+                      <given-names>MR</given-names>
+                    </name>
+                    <name>
+                      <surname>Liberzon</surname>
+                      <given-names>I</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Biological studies of post-traumatic stress disorder</article-title>
+                  <source>Nat Rev Neurosci</source>
+                  <year>2012</year>
+                  <month>11</month>
+                  <day>10</day>
+                  <volume>13</volume>
+                  <issue>11</issue>
+                  <fpage>769</fpage>
+                  <lpage>787</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/23047775"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1038/nrn3339</pub-id>
+                  <pub-id pub-id-type="medline">23047775</pub-id>
+                  <!--<pub-id pub-id-type="pii">nrn3339</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC4951157</pub-id>-->
+                  <pub-id pub-id-type="pmid">23047775</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref10">
+                <label>10</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Frangos</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Komisaruk</surname>
+                      <given-names>BR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Access to Vagal Projections via Cutaneous Electrical Stimulation of the Neck: fMRI Evidence in Healthy Humans</article-title>
+                  <source>Brain Stimul</source>
+                  <year>2017</year>
+                  <month>1</month>
+                  <volume>10</volume>
+                  <issue>1</issue>
+                  <fpage>19</fpage>
+                  <lpage>27</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.brs.2016.10.008</pub-id>
+                  <pub-id pub-id-type="medline">28104084</pub-id>
+                  <!--<pub-id pub-id-type="pii">S1935-861X(16)30268-6</pub-id>-->
+                  <pub-id pub-id-type="pmid">28104084</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref11">
+                <label>11</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wittbrodt</surname>
+                      <given-names>MT</given-names>
+                    </name>
+                    <name>
+                      <surname>Gurel</surname>
+                      <given-names>NZ</given-names>
+                    </name>
+                    <name>
+                      <surname>Nye</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Ladd</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Shandhi</surname>
+                      <given-names>MMH</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Shah</surname>
+                      <given-names>AJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Pearce</surname>
+                      <given-names>BD</given-names>
+                    </name>
+                    <name>
+                      <surname>Alam</surname>
+                      <given-names>ZS</given-names>
+                    </name>
+                    <name>
+                      <surname>Rapaport</surname>
+                      <given-names>MH</given-names>
+                    </name>
+                    <name>
+                      <surname>Murrah</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Ko</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Haffer</surname>
+                      <given-names>AA</given-names>
+                    </name>
+                    <name>
+                      <surname>Shallenberger</surname>
+                      <given-names>LH</given-names>
+                    </name>
+                    <name>
+                      <surname>Vaccarino</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Inan</surname>
+                      <given-names>OT</given-names>
+                    </name>
+                    <name>
+                      <surname>Bremner</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Non-invasive vagal nerve stimulation decreases brain activity during trauma scripts</article-title>
+                  <source>Brain Stimul</source>
+                  <year>2020</year>
+                  <month>7</month>
+                  <day>10</day>
+                  <volume>13</volume>
+                  <issue>5</issue>
+                  <fpage>1333</fpage>
+                  <lpage>1348</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://linkinghub.elsevier.com/retrieve/pii/S1935-861X(20)30199-6"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1016/j.brs.2020.07.002</pub-id>
+                  <pub-id pub-id-type="medline">32659483</pub-id>
+                  <!--<pub-id pub-id-type="pii">S1935-861X(20)30199-6</pub-id>-->
+                  <pub-id pub-id-type="pmid">32659483</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref12">
+                <label>12</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gurel</surname>
+                      <given-names>NZ</given-names>
+                    </name>
+                    <name>
+                      <surname>Wittbrodt</surname>
+                      <given-names>MT</given-names>
+                    </name>
+                    <name>
+                      <surname>Jung</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Ladd</surname>
+                      <given-names>SL</given-names>
+                    </name>
+                    <name>
+                      <surname>Shah</surname>
+                      <given-names>AJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Vaccarino</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Bremner</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                    <name>
+                      <surname>Inan</surname>
+                      <given-names>O</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Automatic Detection of Target Engagement in Transcutaneous Cervical Vagal Nerve Stimulation for Traumatic Stress Triggers</article-title>
+                  <source>IEEE J Biomed Health Inform</source>
+                  <year>2020</year>
+                  <month>7</month>
+                  <volume>24</volume>
+                  <issue>7</issue>
+                  <fpage>1917</fpage>
+                  <lpage>1925</lpage>
+                  <pub-id pub-id-type="doi">10.1109/jbhi.2020.2981116</pub-id>
+                  <pub-id pub-id-type="pmid">32175881</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref13">
+                <label>13</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Coravos</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Khozin</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Mandl</surname>
+                      <given-names>KD</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Erratum: Author Correction: Developing and adopting safe and effective digital biomarkers to improve patient outcomes</article-title>
+                  <source>NPJ Digit Med</source>
+                  <year>2019</year>
+                  <month>5</month>
+                  <day>10</day>
+                  <volume>2</volume>
+                  <issue>1</issue>
+                  <fpage>40</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/31304386"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1038/s41746-019-0119-8</pub-id>
+                  <pub-id pub-id-type="medline">31304386</pub-id>
+                  <!--<pub-id pub-id-type="pii">119</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC6550146</pub-id>-->
+                  <pub-id pub-id-type="pmid">31304386</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref14">
+                <label>14</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kailath</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Sayed</surname>
+                      <given-names>AH</given-names>
+                    </name>
+                    <name>
+                      <surname>Hassibi</surname>
+                      <given-names>B</given-names>
+                    </name>
+                  </person-group>
+                  <source>Linear Estimation</source>
+                  <year>2000</year>
+                  <publisher-loc>Upper Saddle River, NJ</publisher-loc>
+                  <publisher-name>Prentice-Hall</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="ref15">
+                <label>15</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ioannou</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Sun</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <source>Robust adaptive control</source>
+                  <year>2012</year>
+                  <publisher-loc>Mineola, NY</publisher-loc>
+                  <publisher-name>Dover Publications</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="ref16">
+                <label>16</label>
+                <element-citation publication-type="webpage">
+                  <source>Instructions for Use for gammaCore Sapphire</source>
+                  <year>2019</year>
+                  <date-in-citation>2020-05-20</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.gammacore.com/wp-content/themes/gammacore-p2/pdf/gammacore-IFU.pdf">https://www.gammacore.com/wp-content/themes/gammacore-p2/pdf/gammacore-IFU.pdf</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref17">
+                <label>17</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sornmo</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Laguna</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <source>Bioelectrical Signal Processing in Cardiac and Neurological Applications</source>
+                  <year>2005</year>
+                  <publisher-loc>Burlington, MA</publisher-loc>
+                  <publisher-name>Elsevier Academic Press</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="ref18">
+                <label>18</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Allen</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Photoplethysmography and its application in clinical physiological measurement</article-title>
+                  <source>Physiol Meas</source>
+                  <year>2007</year>
+                  <month>2</month>
+                  <day>20</day>
+                  <volume>28</volume>
+                  <issue>3</issue>
+                  <fpage>R1</fpage>
+                  <lpage>R39</lpage>
+                  <pub-id pub-id-type="doi">10.1088/0967-3334/28/3/r01</pub-id>
+                  <pub-id pub-id-type="pmid">17322588</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref19">
+                <label>19</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Klabunde</surname>
+                      <given-names>RE</given-names>
+                    </name>
+                  </person-group>
+                  <source>Cardiovascular Physiology Concepts</source>
+                  <year>2012</year>
+                  <publisher-loc>Baltimore, MD</publisher-loc>
+                  <publisher-name>Lippincott Williams &amp; Wilkins</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="ref20">
+                <label>20</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Xiao</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Mullen</surname>
+                      <given-names>TJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Mukkamala</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>System identification: a multi-signal approach for probing neural cardiovascular regulation</article-title>
+                  <source>Physiol Meas</source>
+                  <year>2005</year>
+                  <month>2</month>
+                  <day>02</day>
+                  <volume>26</volume>
+                  <issue>3</issue>
+                  <fpage>R41</fpage>
+                  <lpage>R71</lpage>
+                  <pub-id pub-id-type="doi">10.1088/0967-3334/26/3/r01</pub-id>
+                  <pub-id pub-id-type="pmid">15798289</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref21">
+                <label>21</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Santaniello</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Fiengo</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Glielmo</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Grill</surname>
+                      <given-names>WM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Closed-Loop Control of Deep Brain Stimulation: A Simulation Study</article-title>
+                  <source>IEEE Trans Neural Syst Rehabil Eng</source>
+                  <year>2011</year>
+                  <month>2</month>
+                  <volume>19</volume>
+                  <issue>1</issue>
+                  <fpage>15</fpage>
+                  <lpage>24</lpage>
+                  <pub-id pub-id-type="doi">10.1109/tnsre.2010.2081377</pub-id>
+                  <pub-id pub-id-type="pmid">20889437</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref22">
+                <label>22</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Connolly</surname>
+                      <given-names>AT</given-names>
+                    </name>
+                    <name>
+                      <surname>Shanechi</surname>
+                      <given-names>MM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A control-theoretic system identification framework and a real-time closed-loop clinical simulation testbed for electrical brain stimulation</article-title>
+                  <source>J Neural Eng</source>
+                  <year>2018</year>
+                  <month>12</month>
+                  <day>17</day>
+                  <volume>15</volume>
+                  <issue>6</issue>
+                  <fpage>066007</fpage>
+                  <pub-id pub-id-type="doi">10.1088/1741-2552/aad1a8</pub-id>
+                  <pub-id pub-id-type="medline">30221624</pub-id>
+                  <pub-id pub-id-type="pmid">30221624</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref23">
+                <label>23</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Meng</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Guan</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Ma</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Liang</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Lin</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Pan</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Qu</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Hao</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Luan</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Preoperative Heart Rate Variability as Predictors of Vagus Nerve Stimulation Outcome in Patients with Drug-resistant Epilepsy</article-title>
+                  <source>Sci Rep</source>
+                  <year>2018</year>
+                  <month>3</month>
+                  <day>01</day>
+                  <volume>8</volume>
+                  <issue>1</issue>
+                  <fpage>3856</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41598-018-21669-3</pub-id>
+                  <pub-id pub-id-type="medline">29497072</pub-id>
+                  <!--<pub-id pub-id-type="pii">10.1038/s41598-018-21669-3</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC5832772</pub-id>-->
+                  <pub-id pub-id-type="pmid">29497072</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref24">
+                <label>24</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schoukens</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Ljung</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Nonlinear System Identification: A User-Oriented Road Map</article-title>
+                  <source>IEEE Control Systems Magazine</source>
+                  <year>2019</year>
+                  <volume>39</volume>
+                  <issue>6</issue>
+                  <fpage>28</fpage>
+                  <lpage>99</lpage>
+                </element-citation>
+              </ref>
+              <ref id="ref25">
+                <label>25</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>van Overschee</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>de Moor</surname>
+                      <given-names>B</given-names>
+                    </name>
+                  </person-group>
+                  <source>Subspace Identification for Linear Systems</source>
+                  <year>1996</year>
+                  <publisher-loc>Norwell, MA</publisher-loc>
+                  <publisher-name>Kluwer Academic Publishers</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="ref26">
+                <label>26</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ljung</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>On The Consistency of Prediction Error Identification Methods</article-title>
+                  <source>Math Sci Eng</source>
+                  <year>1976</year>
+                  <volume>126</volume>
+                  <fpage>121</fpage>
+                  <lpage>164</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0076-5392(08)60871-1</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref27">
+                <label>27</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Burnham</surname>
+                      <given-names>KP</given-names>
+                    </name>
+                    <name>
+                      <surname>Anderson</surname>
+                      <given-names>DR</given-names>
+                    </name>
+                  </person-group>
+                  <source>Model Selection and Multimodel Inference: A Practical Information-Theoretic Approach</source>
+                  <year>2002</year>
+                  <publisher-loc>New York, NY</publisher-loc>
+                  <publisher-name>Springer-Verlag</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="ref28">
+                <label>28</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Akaike</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A new look at the statistical model identification</article-title>
+                  <source>IEEE Trans Automat Contr</source>
+                  <year>1974</year>
+                  <month>12</month>
+                  <volume>19</volume>
+                  <issue>6</issue>
+                  <fpage>716</fpage>
+                  <lpage>723</lpage>
+                  <pub-id pub-id-type="doi">10.1109/tac.1974.1100705</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref29">
+                <label>29</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gurel</surname>
+                      <given-names>NZ</given-names>
+                    </name>
+                    <name>
+                      <surname>Gazi</surname>
+                      <given-names>AH</given-names>
+                    </name>
+                    <name>
+                      <surname>Scott</surname>
+                      <given-names>KL</given-names>
+                    </name>
+                    <name>
+                      <surname>Wittbrodt</surname>
+                      <given-names>MT</given-names>
+                    </name>
+                    <name>
+                      <surname>Shah</surname>
+                      <given-names>AJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Vaccarino</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Bremner</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                    <name>
+                      <surname>Inan</surname>
+                      <given-names>OT</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Timing Considerations for Noninvasive Vagal Nerve Stimulation in Clinical Studies</article-title>
+                  <year>2019</year>
+                  <conf-name>AMIA Annual Symposium</conf-name>
+                  <conf-date>2019</conf-date>
+                  <conf-loc>Washington, DC</conf-loc>
+                  <fpage>1061</fpage>
+                  <lpage>1070</lpage>
+                </element-citation>
+              </ref>
+              <ref id="ref30">
+                <label>30</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mukkamala</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Cohen</surname>
+                      <given-names>RJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A forward model-based validation of cardiovascular system identification</article-title>
+                  <source>Am J Physiol Heart Circ Physiol</source>
+                  <year>2001</year>
+                  <month>12</month>
+                  <volume>281</volume>
+                  <issue>6</issue>
+                  <fpage>H2714</fpage>
+                  <lpage>H2730</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://journals.physiology.org/doi/10.1152/ajpheart.2001.281.6.H2714?url_ver=Z39.88-2003&amp;rfr_id=ori:rid:crossref.org&amp;rfr_dat=cr_pub%3dpubmed"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1152/ajpheart.2001.281.6.H2714</pub-id>
+                  <pub-id pub-id-type="medline">11709441</pub-id>
+                  <pub-id pub-id-type="pmid">11709441</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref31">
+                <label>31</label>
+                <element-citation publication-type="webpage">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ljung</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <source>System Identification Toolbox User's Guide</source>
+                  <date-in-citation>2020-05-20</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.mathworks.com/help/pdf_doc/ident/ident_ug.pdf">https://www.mathworks.com/help/pdf_doc/ident/ident_ug.pdf</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref32">
+                <label>32</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tikhonov</surname>
+                      <given-names>AN</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Solution of Incorrectly Formulated Problems and the Regularization Method</article-title>
+                  <source>Soviet Math Doklady</source>
+                  <year>1963</year>
+                  <volume>4</volume>
+                  <fpage>1035</fpage>
+                  <lpage>1038</lpage>
+                  <pub-id pub-id-type="doi">10.1007/978-1-4612-5280-1_1</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref33">
+                <label>33</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Sani</surname>
+                      <given-names>OG</given-names>
+                    </name>
+                    <name>
+                      <surname>Chang</surname>
+                      <given-names>EF</given-names>
+                    </name>
+                    <name>
+                      <surname>Shanechi</surname>
+                      <given-names>MM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Dynamic network modeling and dimensionality reduction for human ECoG activity</article-title>
+                  <source>J Neural Eng</source>
+                  <year>2019</year>
+                  <month>8</month>
+                  <day>14</day>
+                  <volume>16</volume>
+                  <issue>5</issue>
+                  <fpage>056014</fpage>
+                  <pub-id pub-id-type="doi">10.1088/1741-2552/ab2214</pub-id>
+                  <pub-id pub-id-type="medline">31096206</pub-id>
+                  <pub-id pub-id-type="pmid">31096206</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref34">
+                <label>34</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Box</surname>
+                      <given-names>GEP</given-names>
+                    </name>
+                    <name>
+                      <surname>Jenkins</surname>
+                      <given-names>GM</given-names>
+                    </name>
+                    <name>
+                      <surname>Reinsel</surname>
+                      <given-names>GC</given-names>
+                    </name>
+                    <name>
+                      <surname>Ljung</surname>
+                      <given-names>GM</given-names>
+                    </name>
+                  </person-group>
+                  <source>Time Series Analysis, Forecasting, and Control</source>
+                  <year>2016</year>
+                  <publisher-loc>Hoboken, NJ</publisher-loc>
+                  <publisher-name>John Wiley &amp; Sons</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="ref35">
+                <label>35</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hyndman</surname>
+                      <given-names>RJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Athanasopoulos</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <source>Forecasting: Principles and Practice</source>
+                  <year>2018</year>
+                  <date-in-citation>2020-05-20</date-in-citation>
+                  <publisher-loc>Melbourne, Australia</publisher-loc>
+                  <publisher-name>OTexts</publisher-name>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://otexts.com/fpp2/">https://otexts.com/fpp2/</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref36">
+                <label>36</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ljung</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <person-group person-group-type="editor">
+                    <name>
+                      <surname>Kailath</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>System Identification: Theory for the User</article-title>
+                  <source>Prentice Hall Information and System Sciences Series</source>
+                  <year>1999</year>
+                  <publisher-loc>Upper Saddle River, NJ</publisher-loc>
+                  <publisher-name>Prentice-Hall, Inc</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="ref37">
+                <label>37</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Burger</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                    <name>
+                      <surname>D'Agostini</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Verkuil</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Van Diest</surname>
+                      <given-names>I</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Moving beyond belief: A narrative review of potential biomarkers for transcutaneous vagus nerve stimulation</article-title>
+                  <source>Psychophysiology</source>
+                  <year>2020</year>
+                  <month>6</month>
+                  <day>23</day>
+                  <volume>57</volume>
+                  <issue>6</issue>
+                  <fpage>e13571</fpage>
+                  <pub-id pub-id-type="doi">10.1111/psyp.13571</pub-id>
+                  <pub-id pub-id-type="medline">32202671</pub-id>
+                  <pub-id pub-id-type="pmid">32202671</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref38">
+                <label>38</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Clancy</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Mary</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                    <name>
+                      <surname>Witte</surname>
+                      <given-names>KK</given-names>
+                    </name>
+                    <name>
+                      <surname>Greenwood</surname>
+                      <given-names>JP</given-names>
+                    </name>
+                    <name>
+                      <surname>Deuchars</surname>
+                      <given-names>SA</given-names>
+                    </name>
+                    <name>
+                      <surname>Deuchars</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Non-invasive vagus nerve stimulation in healthy humans reduces sympathetic nerve activity</article-title>
+                  <source>Brain Stimul</source>
+                  <year>2014</year>
+                  <month>11</month>
+                  <volume>7</volume>
+                  <issue>6</issue>
+                  <fpage>871</fpage>
+                  <lpage>877</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.brs.2014.07.031</pub-id>
+                  <pub-id pub-id-type="medline">25164906</pub-id>
+                  <!--<pub-id pub-id-type="pii">S1935-861X(14)00260-5</pub-id>-->
+                  <pub-id pub-id-type="pmid">25164906</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref39">
+                <label>39</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Khoo</surname>
+                      <given-names>MCK</given-names>
+                    </name>
+                  </person-group>
+                  <source>Physiological Control Systems: Analysis, Simulation, and Estimation</source>
+                  <year>2018</year>
+                  <publisher-loc>Piscataway, NJ</publisher-loc>
+                  <publisher-name>IEEE Press</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="ref40">
+                <label>40</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ganzer</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Sharma</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Opportunities and challenges for developing closed-loop bioelectronic medicines</article-title>
+                  <source>Neural Regen Res</source>
+                  <year>2019</year>
+                  <month>1</month>
+                  <volume>14</volume>
+                  <issue>1</issue>
+                  <fpage>46</fpage>
+                  <lpage>50</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://www.nrronline.org/article.asp?issn=1673-5374;year=2019;volume=14;issue=1;spage=46;epage=50;aulast=Ganzer"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.4103/1673-5374.243697</pub-id>
+                  <pub-id pub-id-type="medline">30531069</pub-id>
+                  <!--<pub-id pub-id-type="pii">NeuralRegenRes_2019_14_1_46_243697</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC6262994</pub-id>-->
+                  <pub-id pub-id-type="pmid">30531069</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref41">
+                <label>41</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>OJM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A controller to overcome dead time</article-title>
+                  <source>ISA J</source>
+                  <year>1959</year>
+                  <volume>6</volume>
+                  <fpage>28</fpage>
+                  <lpage>33</lpage>
+                </element-citation>
+              </ref>
+              <ref id="ref42">
+                <label>42</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Badran</surname>
+                      <given-names>BW</given-names>
+                    </name>
+                    <name>
+                      <surname>Mithoefer</surname>
+                      <given-names>OJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Summer</surname>
+                      <given-names>CE</given-names>
+                    </name>
+                    <name>
+                      <surname>LaBate</surname>
+                      <given-names>NT</given-names>
+                    </name>
+                    <name>
+                      <surname>Glusman</surname>
+                      <given-names>CE</given-names>
+                    </name>
+                    <name>
+                      <surname>Badran</surname>
+                      <given-names>AW</given-names>
+                    </name>
+                    <name>
+                      <surname>DeVries</surname>
+                      <given-names>WH</given-names>
+                    </name>
+                    <name>
+                      <surname>Summers</surname>
+                      <given-names>PM</given-names>
+                    </name>
+                    <name>
+                      <surname>Austelle</surname>
+                      <given-names>CW</given-names>
+                    </name>
+                    <name>
+                      <surname>McTeague</surname>
+                      <given-names>LM</given-names>
+                    </name>
+                    <name>
+                      <surname>Borckardt</surname>
+                      <given-names>JJ</given-names>
+                    </name>
+                    <name>
+                      <surname>George</surname>
+                      <given-names>MS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Short trains of transcutaneous auricular vagus nerve stimulation (taVNS) have parameter-specific effects on heart rate</article-title>
+                  <source>Brain Stimul</source>
+                  <year>2018</year>
+                  <month>7</month>
+                  <volume>11</volume>
+                  <issue>4</issue>
+                  <fpage>699</fpage>
+                  <lpage>708</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/29716843"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1016/j.brs.2018.04.004</pub-id>
+                  <pub-id pub-id-type="medline">29716843</pub-id>
+                  <!--<pub-id pub-id-type="pii">S1935-861X(18)30105-0</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC6536129</pub-id>-->
+                  <pub-id pub-id-type="pmid">29716843</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref43">
+                <label>43</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>George</surname>
+                      <given-names>MS</given-names>
+                    </name>
+                    <name>
+                      <surname>Nahas</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Bohning</surname>
+                      <given-names>DE</given-names>
+                    </name>
+                    <name>
+                      <surname>Mu</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Andrew Kozel</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Borckhardt</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Denslow</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mechanisms of action of vagus nerve stimulation (VNS)</article-title>
+                  <source>Clin Neurosci Res</source>
+                  <year>2004</year>
+                  <month>7</month>
+                  <volume>4</volume>
+                  <issue>1-2</issue>
+                  <fpage>71</fpage>
+                  <lpage>79</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.cnr.2004.06.006</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref44">
+                <label>44</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Qing</surname>
+                      <given-names>KY</given-names>
+                    </name>
+                    <name>
+                      <surname>Wasilczuk</surname>
+                      <given-names>KM</given-names>
+                    </name>
+                    <name>
+                      <surname>Ward</surname>
+                      <given-names>MP</given-names>
+                    </name>
+                    <name>
+                      <surname>Phillips</surname>
+                      <given-names>EH</given-names>
+                    </name>
+                    <name>
+                      <surname>Vlachos</surname>
+                      <given-names>PP</given-names>
+                    </name>
+                    <name>
+                      <surname>Goergen</surname>
+                      <given-names>CJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Irazoqui</surname>
+                      <given-names>PP</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>B fibers are the best predictors of cardiac activity during Vagus nerve stimulation: Qing, vagal B fiber activation and cardiac effects</article-title>
+                  <source>Bioelectron Med</source>
+                  <year>2018</year>
+                  <month>4</month>
+                  <day>20</day>
+                  <volume>4</volume>
+                  <issue>1</issue>
+                  <fpage>5</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/32232081"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1186/s42234-018-0005-8</pub-id>
+                  <pub-id pub-id-type="medline">32232081</pub-id>
+                  <!--<pub-id pub-id-type="pii">5</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7098216</pub-id>-->
+                  <pub-id pub-id-type="pmid">32232081</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref45">
+                <label>45</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Harel</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Gath</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Ben-Haim</surname>
+                      <given-names>SA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>System response of the sinoatrial node during vagal stimulation</article-title>
+                  <source>Physiol Meas</source>
+                  <year>1998</year>
+                  <month>5</month>
+                  <day>01</day>
+                  <volume>19</volume>
+                  <issue>2</issue>
+                  <fpage>149</fpage>
+                  <lpage>157</lpage>
+                  <pub-id pub-id-type="doi">10.1088/0967-3334/19/2/002</pub-id>
+                  <pub-id pub-id-type="medline">9626679</pub-id>
+                  <pub-id pub-id-type="pmid">9626679</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref46">
+                <label>46</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nonis</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>D'Ostilio</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Schoenen</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Magis</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Evidence of activation of vagal afferents by non-invasive vagus nerve stimulation: An electrophysiological study in healthy volunteers</article-title>
+                  <source>Cephalalgia</source>
+                  <year>2017</year>
+                  <month>11</month>
+                  <day>26</day>
+                  <volume>37</volume>
+                  <issue>13</issue>
+                  <fpage>1285</fpage>
+                  <lpage>1293</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://journals.sagepub.com/doi/10.1177/0333102417717470?url_ver=Z39.88-2003&amp;rfr_id=ori:rid:crossref.org&amp;rfr_dat=cr_pub%3dpubmed"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1177/0333102417717470</pub-id>
+                  <pub-id pub-id-type="medline">28648089</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC5680905</pub-id>-->
+                  <pub-id pub-id-type="pmid">28648089</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref47">
+                <label>47</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mourdoukoutas</surname>
+                      <given-names>AP</given-names>
+                    </name>
+                    <name>
+                      <surname>Truong</surname>
+                      <given-names>DQ</given-names>
+                    </name>
+                    <name>
+                      <surname>Adair</surname>
+                      <given-names>DK</given-names>
+                    </name>
+                    <name>
+                      <surname>Simon</surname>
+                      <given-names>BJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Bikson</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>High-Resolution Multi-Scale Computational Model for Non-Invasive Cervical Vagus Nerve Stimulation</article-title>
+                  <source>Neuromodulation</source>
+                  <year>2018</year>
+                  <month>4</month>
+                  <day>27</day>
+                  <volume>21</volume>
+                  <issue>3</issue>
+                  <fpage>261</fpage>
+                  <lpage>268</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/29076212"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1111/ner.12706</pub-id>
+                  <pub-id pub-id-type="medline">29076212</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC5895480</pub-id>-->
+                  <pub-id pub-id-type="pmid">29076212</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref48">
+                <label>48</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tyler</surname>
+                      <given-names>WJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Wyckoff</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Hearn</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Hool</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Safety and Efficacy of Transdermal Auricular Vagal Nerve Stimulation Earbud Electrodes for Modulating Autonomic Arousal, Attention, Sensory Gating, and Cortical Brain Plasticity in Humans</article-title>
+                  <source>bioRxiv</source>
+                  <year>2019</year>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.biorxiv.org/content/10.1101/732529v2"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1101/732529</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref49">
+                <label>49</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McDowall</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>McCleary</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Bartos</surname>
+                      <given-names>BJ</given-names>
+                    </name>
+                  </person-group>
+                  <source>Interrupted Time Series Analysis</source>
+                  <year>2019</year>
+                  <publisher-loc>New York, NY</publisher-loc>
+                  <publisher-name>Oxford University Press</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="ref50">
+                <label>50</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chon</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Mukkamala</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Toska</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Mullen</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Armoundas</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Cohen</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Linear and nonlinear system identification of autonomic heart-rate modulation</article-title>
+                  <source>IEEE Eng Med Biol Mag</source>
+                  <year>1997</year>
+                  <volume>16</volume>
+                  <issue>5</issue>
+                  <fpage>96</fpage>
+                  <lpage>105</lpage>
+                  <pub-id pub-id-type="doi">10.1109/51.620500</pub-id>
+                  <pub-id pub-id-type="medline">9313086</pub-id>
+                  <pub-id pub-id-type="pmid">9313086</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,1301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T01:31:03Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:10722139" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:10722139</identifier>
+        <datestamp>2023-12-16</datestamp>
+        <setSpec>aacrsd</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Clin Cancer Res</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Clin Cancer Res</journal-id>
+              <journal-title-group>
+                <journal-title>Clinical Cancer Research</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">1078-0432</issn>
+              <issn pub-type="epub">1557-3265</issn>
+              <publisher>
+                <publisher-name>American Association for Cancer Research</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC10722139</article-id>
+              <article-id pub-id-type="pmcid">PMC10722139</article-id>
+              <article-id pub-id-type="pmc-uid">10722139</article-id>
+              <article-id pub-id-type="pmid">37812476</article-id>
+              <article-id pub-id-type="pmid">37812476</article-id>
+              <article-id pub-id-type="publisher-id">CCR-23-0229</article-id>
+              <article-id pub-id-type="doi">10.1158/1078-0432.CCR-23-0229</article-id>
+              <article-version id="ver1" article-version-type="VoR">Version of Record</article-version>
+              <article-categories>
+                <subj-group subj-group-type="category">
+                  <subject>Clinical Trial Results</subject>
+                  <subj-group subj-group-type="category">
+                    <subject>Phase I clinical trials</subject>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="category">
+                  <subject>Hematological Cancers</subject>
+                  <subj-group subj-group-type="category">
+                    <subject>Myelomas</subject>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="category">
+                  <subject>Immunotherapy</subject>
+                  <subj-group subj-group-type="category">
+                    <subject>Checkpoint Blockade</subject>
+                    <subject>Combination Immunotherapy</subject>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="category">
+                  <subject>Tumor Microenvironment</subject>
+                  <subj-group subj-group-type="category">
+                    <subject>Immune Cells and the Microenvironment</subject>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="heading">
+                  <subject>Clinical Trials: Immunotherapy</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Comprehensive Single-Cell Immune Profiling Defines the Patient Multiple Myeloma Microenvironment Following Oncolytic Virus Therapy in a Phase Ib Trial</article-title>
+                <alt-title alt-title-type="short">Single-Cell Profiling after Pelareorep in Multiple Myeloma</alt-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" equal-contrib="yes">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8767-3969</contrib-id>
+                  <name>
+                    <surname>Nawrocki</surname>
+                    <given-names>Steffan T.</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <xref rid="num1" ref-type="author-notes">#</xref>
+                </contrib>
+                <contrib contrib-type="author" equal-contrib="yes">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0008-9040-0804</contrib-id>
+                  <name>
+                    <surname>Olea</surname>
+                    <given-names>Julian</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                  <xref rid="num1" ref-type="author-notes">#</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-6727-0505</contrib-id>
+                  <name>
+                    <surname>Villa Celi</surname>
+                    <given-names>Claudia</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-5611-2883</contrib-id>
+                  <name>
+                    <surname>Dadrastoussi</surname>
+                    <given-names>Homa</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0005-6604-5775</contrib-id>
+                  <name>
+                    <surname>Wu</surname>
+                    <given-names>Kaijin</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-2010-0829</contrib-id>
+                  <name>
+                    <surname>Tsao-Wei</surname>
+                    <given-names>Denice</given-names>
+                  </name>
+                  <xref rid="aff3" ref-type="aff">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4981-1651</contrib-id>
+                  <name>
+                    <surname>Colombo</surname>
+                    <given-names>Anthony</given-names>
+                  </name>
+                  <xref rid="aff3" ref-type="aff">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-7211-829X</contrib-id>
+                  <name>
+                    <surname>Coffey</surname>
+                    <given-names>Matt</given-names>
+                  </name>
+                  <xref rid="aff4" ref-type="aff">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-5489-5095</contrib-id>
+                  <name>
+                    <surname>Fernandez Hernandez</surname>
+                    <given-names>Eduardo</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-9051-0802</contrib-id>
+                  <name>
+                    <surname>Chen</surname>
+                    <given-names>Xuelian</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-5351-4721</contrib-id>
+                  <name>
+                    <surname>Nuovo</surname>
+                    <given-names>Gerard J.</given-names>
+                  </name>
+                  <xref rid="aff5" ref-type="aff">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-8578-8292</contrib-id>
+                  <name>
+                    <surname>Carew</surname>
+                    <given-names>Jennifer S.</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0005-5823-5122</contrib-id>
+                  <name>
+                    <surname>Mohrbacher</surname>
+                    <given-names>Ann F.</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9608-6464</contrib-id>
+                  <name>
+                    <surname>Fields</surname>
+                    <given-names>Paul</given-names>
+                  </name>
+                  <xref rid="aff6" ref-type="aff">6</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-2629-4505</contrib-id>
+                  <name>
+                    <surname>Kuhn</surname>
+                    <given-names>Peter</given-names>
+                  </name>
+                  <xref rid="aff7" ref-type="aff">7</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8083-9639</contrib-id>
+                  <name>
+                    <surname>Siddiqi</surname>
+                    <given-names>Imran</given-names>
+                  </name>
+                  <xref rid="aff8" ref-type="aff">8</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7472-822X</contrib-id>
+                  <name>
+                    <surname>Merchant</surname>
+                    <given-names>Akil</given-names>
+                  </name>
+                  <xref rid="aff9" ref-type="aff">9</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-3638-5956</contrib-id>
+                  <name>
+                    <surname>Kelly</surname>
+                    <given-names>Kevin R.</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                  <xref rid="cor1" ref-type="corresp">*</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1"><label>1</label>Division of Hematology and Oncology, Department of Medicine, University of Arizona Cancer Center, Tucson, Arizona.</aff>
+              <aff id="aff2"><label>2</label>Division of Hematology, Health Sciences Campus, University of Southern California, Los Angeles, California.</aff>
+              <aff id="aff3"><label>3</label>Department of Preventive Medicine, Keck School of Medicine, University of Southern California, Los Angeles, California.</aff>
+              <aff id="aff4"><label>4</label>Oncolytics Biotech, Inc, Calgary, Alberta, Canada.</aff>
+              <aff id="aff5"><label>5</label>The Ohio State University Comprehensive Cancer Center Columbus, Columbus, Ohio.</aff>
+              <aff id="aff6"><label>6</label>Formerly, Adaptive Biotechnologies, Seattle, Washington; currently, Tempus Labs, Seattle, Washington.</aff>
+              <aff id="aff7"><label>7</label>USC Michelson Center for Convergent Biosciences and Department of Biological Sciences, University of Southern California, Los Angeles.</aff>
+              <aff id="aff8"><label>8</label>Department of Pathology, University of Southern California, Los Angeles, California.</aff>
+              <aff id="aff9"><label>9</label>Samuel Oschin Comprehensive Cancer Institute, Cedars-Sinai Medical Center, Los Angeles, California.</aff>
+              <author-notes>
+                <fn fn-type="equal" id="num1">
+                  <label>#</label>
+                  <p>S.T. Nawrocki and J. Olea contributed equally to this article.</p>
+                </fn>
+                <fn fn-type="other">
+                  <p><bold>ClinicalTrials.gov identifier:</bold> NCT02514382</p>
+                </fn>
+                <corresp id="cor1"><label>*</label><bold>Corresponding Author:</bold> Kevin R. Kelly, USC Norris Comprehensive Cancer Center, 1441 Eastlake Avenue Ste 3440, Los Angeles, CA 90089. E-mail: <email>kevin.kelly@med.usc.edu</email></corresp>
+                <fn fn-type="other">
+                  <p>Clin Cancer Res 2023;29:5087–103</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="ppub" iso-8601-date="2023-12-15">
+                <day>15</day>
+                <month>12</month>
+                <year>2023</year>
+              </pub-date>
+              <pub-date pub-type="epub" iso-8601-date="2023-10-09">
+                <day>09</day>
+                <month>10</month>
+                <year>2023</year>
+              </pub-date>
+              <volume>29</volume>
+              <issue>24</issue>
+              <fpage>5087</fpage>
+              <lpage>5103</lpage>
+              <history>
+                <date date-type="received" iso-8601-date="2023-03-07">
+                  <day>07</day>
+                  <month>3</month>
+                  <year>2023</year>
+                </date>
+                <date date-type="rev-recd" iso-8601-date="2023-06-26">
+                  <day>26</day>
+                  <month>6</month>
+                  <year>2023</year>
+                </date>
+                <date date-type="accepted" iso-8601-date="2023-10-05">
+                  <day>05</day>
+                  <month>10</month>
+                  <year>2023</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>©2023 The Authors; Published by the American Association for Cancer Research</copyright-statement>
+                <copyright-year>2023</copyright-year>
+                <copyright-holder>American Association for Cancer Research</copyright-holder>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref>
+                  <license-p>This open access article is distributed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:href="5087.pdf"/>
+              <abstract>
+                <title>Abstract</title>
+                <sec>
+                  <title>Purpose:</title>
+                  <p>Our preclinical studies showed that the oncolytic reovirus formulation pelareorep (PELA) has significant immunomodulatory anti-myeloma activity. We conducted an investigator-initiated clinical trial to evaluate PELA in combination with dexamethasone (Dex) and bortezomib (BZ) and define the tumor immune microenvironment (TiME) in patients with multiple myeloma treated with this regimen.</p>
+                </sec>
+                <sec>
+                  <title>Patients and Methods:</title>
+                  <p>Patients with relapsed/refractory multiple myeloma (<italic toggle="yes">n</italic> = 14) were enrolled in a phase Ib clinical trial (ClinicalTrials.gov: NCT02514382) of three escalating PELA doses administered on Days 1, 2, 8, 9, 15, and 16. Patients received 40 mg Dex and 1.5 mg/m<sup>2</sup> BZ on Days 1, 8, and 15. Cycles were repeated every 28 days. Pre- and posttreatment bone marrow specimens (IHC, <italic toggle="yes">n</italic> = 9; imaging mass cytometry, <italic toggle="yes">n</italic> = 6) and peripheral blood samples were collected for analysis (flow cytometry, <italic toggle="yes">n</italic> = 5; T-cell receptor clonality, <italic toggle="yes">n</italic> = 7; cytokine assay, <italic toggle="yes">n</italic> = 7).</p>
+                </sec>
+                <sec>
+                  <title>Results:</title>
+                  <p>PELA/BZ/Dex was well-tolerated in all patients. Treatment-emergent toxicities were transient, and no dose-limiting toxicities occurred. Six (55%) of 11 response-evaluable patients showed decreased paraprotein. Treatment increased T and natural killer cell activation, inflammatory cytokine release, and programmed death-ligand 1 expression in bone marrow. Compared with nonresponders, responders had higher reovirus protein levels, increased cytotoxic T-cell infiltration posttreatment, cytotoxic T cells in significantly closer proximity to multiple myeloma cells, and larger populations of a novel immune-primed multiple myeloma phenotype (CD138<sup>+</sup> IDO1<sup>+</sup>HLA-ABC<sup>High</sup>), indicating immunomodulation.</p>
+                </sec>
+                <sec>
+                  <title>Conclusions:</title>
+                  <p>PELA/BZ/Dex is well-tolerated and associated with anti–multiple myeloma activity in a subset of responding patients, characterized by immune reprogramming and TiME changes, warranting further investigation of PELA as an immunomodulator.</p>
+                </sec>
+              </abstract>
+              <funding-group>
+                <award-group id="funding-1">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>National Cancer Institute (NCI)</institution>
+                      <institution-id institution-id-type="DOI">10.13039/100000054</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>R01CA190789</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Nawrocki</surname>
+                      <given-names>S.T.</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+                <award-group id="funding-2">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>National Cancer Institute (NCI)</institution>
+                      <institution-id institution-id-type="DOI">10.13039/100000054</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>P30CA014089</award-id>
+                </award-group>
+                <award-group id="funding-3">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>L. K. Whittier Foundation</institution>
+                      <institution-id institution-id-type="DOI">10.13039/100009856</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>003457</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Kelly</surname>
+                      <given-names>K.R.</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <counts>
+                <page-count count="17"/>
+              </counts>
+            </article-meta>
+          </front>
+          <body>
+            <boxed-text position="margin" id="b1">
+              <caption>
+                <title>Translational Relevance</title>
+              </caption>
+              <p>Pelareorep (PELA) is an oncolytic virus formulation that is currently being investigated for multiple myeloma therapy. Our study shows that combination PELA, bortezomib, and dexamethasone therapy is safe, well-tolerated, and induces an inflammatory response in patients with multiple myeloma characterized by significant T and natural killer cell activation, enhanced chemokine release, bone marrow T-cell infiltration, and increased programmed death-ligand 1 expression in multiple myeloma cells. Multiplexed immune cell profiling of the tumor immune microenvironment (TiME) defined a novel immune-primed multiple myeloma phenotype (CD138<sup>+</sup>IDO1<sup>+</sup>HLA-ABC<sup>High</sup>) and revealed increased interactions between multiple myeloma and immune cell subsets in bone marrow from responders compared with nonresponders. Our findings support further investigation of oncolytic virotherapy-driven immune reprogramming as a potential strategy for sensitizing immunologically “cold” tumors to immune checkpoint inhibitor therapies. Additionally, our study demonstrates that TiME immune cell profiling should be explored as a potential clinical tool to distinguish early responders and nonresponders.</p>
+            </boxed-text>
+            <sec sec-type="intro" id="sec1">
+              <title>Introduction</title>
+              <p>Multiple myeloma is the second most common hematologic malignancy (1% of all cancers) in the United States, with approximately 30,000 new cases diagnosed in 2017 (<xref rid="bib1" ref-type="bibr">1</xref>). Multiple myeloma is characterized by clonal plasma cell proliferation, leading to excess paraprotein production, progressive bone marrow failure, pathologic fractures, and immunoparesis (<xref rid="bib2" ref-type="bibr">2</xref>). Although novel agents have improved survival, multiple myeloma remains incurable, and most patients become refractory to available therapies (<xref rid="bib3" ref-type="bibr">3</xref>). New approaches featuring novel mechanisms of action are essential for improving long-term survival in patients with relapsed/refractory multiple myeloma (RRMM).</p>
+              <p>Many recent advances in multiple myeloma treatment have involved novel immunotherapies, including monoclonal antibodies, immunomodulating agents, chimeric antigen receptor (CAR) T cells, and T cell–redirecting bispecific antibodies (<xref rid="bib4" ref-type="bibr">4</xref>). Oncolytic viral therapy represents another promising avenue being explored in ongoing clinical trials (<xref rid="bib5" ref-type="bibr">5</xref>). Reovirus is a double-stranded oncolytic RNA virus found ubiquitously in the environment that typically causes asymptomatic respiratory and gastrointestinal tract infections in humans. Pelareorep (PELA, formerly Reolysin) is a proprietary clinical reovirus formulation currently under investigation as an oncolytic viral therapy in multiple myeloma. We previously showed that reovirus infection increases viral protein accumulation, endoplasmic reticulum stress, apoptosis, and significantly augments the antimyeloma effects of bortezomib (BZ) in a therapeutically selective manner (<xref rid="bib6" ref-type="bibr">6</xref>). PELA also stimulates an anticancer immune response, associated with significantly increased programmed death-ligand 1 (PD-L1) expression in multiple myeloma cell lines and patient-derived specimens but not in normal cells (<xref rid="bib7" ref-type="bibr">7</xref>). Reovirus treatment induces direct cell lysis and promotes tumor-associated antigen presentation, associated with a less-tolerant tumor immune microenvironment (TiME) and enhanced inflammatory cytokine expression (<xref rid="bib8" ref-type="bibr">8</xref>).</p>
+              <p>The complex TiME changes induced by oncolytic viral therapy remain incompletely understood due, in part, to limitations of available visualization methods. For example, IHC is only able to concurrently label up to three markers per section. Flow cytometry can identify complex immune cell subsets but requires tissue disruption, resulting in the loss of spatial information and precluding analyses of complex cell–cell interactions. Highly multiplexed techniques enable the simultaneous detection of multiple markers in a single section, facilitating spatial analyses through genomics-based (e.g., Visium spatial transcriptomics) or proteomics-based approaches [e.g., PhenoCycler repetitive imaging cycling, multiplexed ion beam imaging by time of flight, and imaging mass cytometry (IMC); refs. <xref rid="bib9" ref-type="bibr">9–11</xref>].</p>
+              <p>Our collective preclinical findings informed the design of this investigator-initiated phase Ib study to determine the safety and recommended phase II dose (RP2D) of combination PELA, BZ, and dexamethasone (Dex) therapy in patients with RRMM. We report that treatment with the PELA/BZ/Dex regimen robustly induced natural killer (NK) and T-cell activation. To explore the spatial relationships between multiple myeloma and various immune cells within the multiple myeloma TiME, we mapped the multiple myeloma–immune cell interactome using IMC, which revealed significant inter-patient heterogeneity. Bone marrow samples from responding patients showed higher levels of reovirus protein, cytotoxic T-cell infiltration, and immune-rich microenvironments than those from nonresponding patients. In posttreatment samples, we identified an immune-primed (IP) multiple myeloma phenotype (CD138<sup>+</sup>IDO1<sup>+</sup>HLA-ABC<sup>High</sup>) associated with prolonged response to treatment and shorter distances to immune cells. Our findings support further investigation of the therapeutic immune reprogramming effects of PELA and suggest that mapping the multiple myeloma–immune interactome may have potential clinical applications for the early stratification of responders and nonresponders.</p>
+            </sec>
+            <sec id="sec2">
+              <title>Patients and Methods</title>
+              <sec id="sec2-1">
+                <title>Patients</title>
+                <p>Patients with RRMM, including those refractory to BZ, were enrolled. Additional eligibility requirements included measurable disease (defined as ≥0.5 g/dL immunoglobulin G or ≥0.25 g/dL IgA paraprotein in serum electrophoreses; ≥ 100 mg/L light chain in serum; or urinary excretion of ≥200 mg monoclonal light chain per 24 hours); Eastern Cooperative Oncology Group performance status of 0 to 2; and adequate bone marrow (absolute neutrophil count ≥1,000 cells/mm<sup>3</sup>; platelet count ≥ 50,000/mm<sup>3</sup>), hepatic [total bilirubin ≤ 1.5 × upper limit of normal (ULN); serum alanine or aspartate aminotransferase ≤3 × ULN], and renal (serum creatinine ≤2 × ULN) function. Patients were excluded if they had current evidence of intracranial disease; were diagnosed or treated for any malignancy other than myeloma within 2 years prior to the first dose; received autologous stem cell transplantation within 3 months prior to enrollment or allogeneic stem cell transplantation at any time; or had grade 2 or higher peripheral neuropathy. All patients provided written informed consent.</p>
+              </sec>
+              <sec id="sec2-2">
+                <title>Study design</title>
+                <p>This single-arm, open-label, phase Ib study (ClinicalTrials.gov: NCT02514382) was conducted at the University of Southern California Norris Comprehensive Cancer Center with approval from the institutional review board in accordance with ethical principles founded in the Declaration of Helsinki, including the International Conference on Harmonization, Good Clinical Practice regulations and guidelines, and all applicable local regulations. Patient enrollment followed a standard 3+3 design using three escalating PELA doses [Cohort 1: 3×10<sup>10</sup> median tissue culture infectious dose (TCID<sub>50</sub>); Cohort 2: 4.5×10<sup>10</sup> TCID<sub>50</sub>; and Cohort 3: 9×10<sup>10</sup> TCID<sub>50</sub>]. PELA was administered on Days 1, 2, 8, 9, 15, and 16. Patients received 40 mg Dex and 1.5 mg/m<sup>2</sup> BZ on Days 1, 8, and 15. Cycles were repeated every 28 days in the absence of disease progression or unacceptable toxicity. Because this was a single-arm pilot study, no randomization or blinding was performed, and no power analysis was necessary.</p>
+              </sec>
+              <sec id="sec2-3">
+                <title>Objectives and assessments</title>
+                <p>The primary objectives were to determine the safety, tolerability, maximum tolerated dose (MTD), and RP2D of PELA/BZ/Dex therapy in patients with RRMM. The secondary objectives included characterizing pharmacodynamic responses and antitumor activity by evaluating the objective response rate (ORR).</p>
+                <p>The MTD was defined as the dose below the level at which 2 patients in a single cohort experienced any dose-limiting toxicities (DLT, defined in Supplementary Methods) during their first treatment cycle. If the highest tested dose (9 × 10<sup>10</sup> TCID<sub>50</sub>) is reached without 2 patients in a single cohort experiencing a DLT, this dosing level will be used as the RP2D. Toxicity was evaluated according to the NCI Common Terminology Criteria for Adverse Events (RRID:SCR_010296), Version 4.03 (June 2010).</p>
+                <p>Blood samples were collected at baseline (pretreatment) and Day 2 of Cycle 1 (C1D2, posttreatment) before administering the second PELA dose. Bone marrow aspirates and biopsies were collected at screening (pretreatment) and posttreatment, on either Day 9 of Cycle 1 (C1D9; Patients 9 to 14) or within 7 days prior to Cycle 2 (C2D1; Patients 1, 5, and 7). Patients 2, 3, 4, 6, and 8 had no posttreatment bone marrow samples.</p>
+                <p>Efficacy parameters were evaluated on all patients receiving at least one PELA dose and at least one post-dose efficacy assessment (intention to treat population). Antitumor activity was assessed each cycle using the International Myeloma Working Group Uniform Response Criteria (<xref rid="bib12" ref-type="bibr">12, 13</xref>) and is presented as response [ORR, defined as partial response (PR) or better] and time-to-event endpoints [duration of response, time to progression, progression-free survival (PFS), and overall survival (OS)].</p>
+              </sec>
+              <sec id="sec2-4">
+                <title>T and NK-cell activation</title>
+                <p>Peripheral blood mononuclear cells (PBMC) were isolated by Ficoll separation of peripheral blood samples collected at baseline (pretreatment) and 24 hours after the first treatment (posttreatment). Cells were stained with antibodies against CD3 (Thermo Fisher Scientific, Waltham, MA; catalog no. 11–0036–42, RRID:AB_1272072), CD56 (Thermo Fisher Scientific, catalog no. 12–0567–42, RRID:AB_10598200), and CD69 (Thermo Fisher Scientific, catalog no. 17–0699–42, RRID:AB_2016681) and subjected to flow cytometry. CD69 expression (early lymphocyte activation marker) was evaluated on CD3<sup>−</sup>CD56<sup>+</sup> NK cells and CD3<sup>+</sup> CD56<sup>−</sup> T cells. See Supplementary Methods for additional details.</p>
+              </sec>
+              <sec id="sec2-5">
+                <title>Cytokine analysis</title>
+                <p>Blood samples were collected at screening (pretreatment) and 24 hours after the first treatment (posttreatment). Plasma was subjected to cytokine analysis performed by Myriad Rules Based Medicine (Austin, TX).</p>
+              </sec>
+              <sec id="sec2-6">
+                <title>IHC</title>
+                <p>Reovirus capsid protein antibody was provided by Dr. Matt Coffey (Oncolytics Biotech Inc, Calgary, Canada). Antibodies against PD-L1 (Abcam, Cambridge, MA; catalog no. ab213524, RRID:AB_2857903), caspase-3 (Abcam, catalog no. ab179517, RRID:AB_2893359), junctional adhesion molecule A (JAM-A; Abcam, catalog no. ab52647, RRID:AB_881206), CD8 (Abcam, catalog no. ab237709, RRID:AB_2892677), and anti-CD138 (Ventana Medical Systems, Tucson, AZ; catalog no. 4248, RRID:AB_2335948) were used. Comparisons of IHC and IMC were performed by USC Pathology using antibodies against CD3 (Leica Biosystems, Deer Park, IL; catalog no. PA0553, RRID:AB_10554601) and CD138 (Leica Biosystems, catalog no. PA0088, RRID:AB_10555989). The viral RNA <italic toggle="yes">in situ</italic> hybridization protocol has been previously described (<xref rid="bib14" ref-type="bibr">14</xref>). Pre- and posttreatment bone marrow samples were collected from 7 patients. The bone marrow myeloma load was calculated as the percentage of CD138<sup>+</sup> cells. Reoviral<sup>+</sup> multiple myeloma cell counts were calculated as the percentage of CD138<sup>+</sup> cells containing reoviral RNA or protein. CD8<sup>+</sup>, PD-L1<sup>+</sup>, and caspase-3<sup>+</sup> cell counts were calculated as the number of positive cells per 500 total cells from multiple 20× fields containing at least 20% myeloma cells. At least 3,000 cells were counted. Co-expression analyses were performed using the Nuance Multispectral Imaging System (PerkinElmer, Inc., Boston, MA; RRID:SCR_015382), as previously described (<xref rid="bib14" ref-type="bibr">14</xref>).</p>
+              </sec>
+              <sec id="sec2-7">
+                <title>TCR immunosequencing</title>
+                <p>Immunosequencing of the complementarity-determining region 3 (CDR3) on human T-cell receptor beta (TCRβ) chains was performed using the ImmunoSEQ Assay (Adaptive Biotechnologies, Seattle, WA; RRID:SCR_014709). DNA was isolated from pre- and posttreatment formalin-fixed, paraffin-embedded (FFPE) bone marrow samples (<italic toggle="yes">n</italic> = 3) or bone marrow mononuclear cell pellets (<italic toggle="yes">n</italic> = 4). TCRβ CDR3 was amplified by multiplex bias-controlled PCR with primers targeting the V and J genes of T cells as previously described (<xref rid="bib15" ref-type="bibr">15</xref>). PCR products were sequenced on an Illumina NextSeq (Illumina, San Diego, CA). Primers targeting housekeeping genes were used as internal controls. Total nucleated cells in each sample were quantified, as previously described. Differential abundance was calculated as previously described (<xref rid="bib16" ref-type="bibr">16</xref>).</p>
+              </sec>
+              <sec id="sec2-8">
+                <title>IMC</title>
+                <p>IMC was performed on anonymized bone marrow samples obtained from six patients before (pretreatment) and after PELA/BZ/Dex treatment (posttreatment).</p>
+                <sec id="sec2-8-1">
+                  <title>Region of interest selection</title>
+                  <p>Sections were stained by hematoxylin and eosin, and areas with ≥10% plasma cells and ≥30% cellularity were used to select regions of interest (ROI) on neighboring sections stained with the IMC antibody panel.</p>
+                </sec>
+                <sec id="sec2-8-2">
+                  <title>Panel design, sample preparation, staining, and ablation</title>
+                  <p>A panel of 31 metal-conjugated antibodies was designed to interrogate proteins of interest in bone marrow biopsy samples, with a focus on multiple myeloma–related and immune proteins (Supplementary Table S1). FFPE sections were prepared, stained with the designed antibody panel, and ablated, as previously described (<xref rid="bib17" ref-type="bibr">17</xref>).</p>
+                </sec>
+                <sec id="sec2-8-3">
+                  <title>IMC image preprocessing</title>
+                  <p>MCD (.mcd) files generated from the Hyperion Imaging System (RRID:SCR_023195) were visualized using HistoCAT++ (version 2.2) and MCD Viewer (version 1.0.560.6, RRID:SCR_023007) to assess staining quality. After visually inspecting each ROI, the data were processed and segmented by adapting the ImcSegmentationPipeline, as previously described (<xref rid="bib18" ref-type="bibr">18</xref>). Pixel classification–based segmentation was performed in Ilastik (version 1.3.3; RRID:SCR_015246), as previously described (<xref rid="bib19" ref-type="bibr">19, 20</xref>). HistoCAT (version 1.76) was used to import the segmentation mask with accompanying TIFF files for each ROI to normalize and analyze the segmented data (<xref rid="bib21" ref-type="bibr">21</xref>).</p>
+                </sec>
+                <sec id="sec2-8-4">
+                  <title>Clustering and meta-clustering</title>
+                  <p>T-distributed stochastic neighbor embedding (tSNE) coordinate generation and initial phenotypic clustering were performed in HistoCAT (<xref rid="bib22" ref-type="bibr">22</xref>). The clustered data were then imported into RStudio (version 1.3.959; RRID:SCR_000432) for further analysis. The Rphenograph package (RRID:SCR_022603) was used to identify additional, infrequent phenotypes grouped within clusters identified by the initial PhenoGraph analysis.</p>
+                </sec>
+                <sec id="sec2-8-5">
+                  <title>Spatial analysis</title>
+                  <p>The neighbouRhood package, an RStudio implementation of the neighborhood analysis tool from HistoCAT (<xref rid="bib23" ref-type="bibr">23</xref>), was used for neighborhood analysis of clustered data. Distances between the centroid of a tumor cell of interest and the centroid of each immune cell proximal to the tumor cell of interest were measured to obtain a mean and standard deviation for each tumor cell. The dataset with clustering and meta-clustering was imported into the ImaCytE visualization and spatial analysis suite (<xref rid="bib24" ref-type="bibr">24</xref>) to generate representative images of segmented data. The spatial analysis feature was used to identify unique, significant neighborhood motifs highlighted on appropriate ROIs, as previously described (<xref rid="bib24" ref-type="bibr">24</xref>). A z-score cutoff ≥ 1.96 was used to determine significant motifs (equivalent to <italic toggle="yes">P</italic> &lt; 0.05).</p>
+                </sec>
+              </sec>
+              <sec id="sec2-9">
+                <title>Statistical analyses</title>
+                <p>Clinical trial outcomes are described using descriptive statistics. Pharmacodynamic measurements were compared by two-sided Student <italic toggle="yes">t</italic> test using GraphPad Prism 5 (RRID:SCR_002798) or R software (RRID:SCR_001905), and <italic toggle="yes">P</italic> &lt; 0.05 was considered significant. Pre- and posttreatment cytokine levels were compared using paired Student <italic toggle="yes">t</italic> test. IHC data were tested for normality using the Shapiro–Wilk test. Student <italic toggle="yes">t</italic> test was used to assess significance in normal data (unpaired for comparisons between response types; paired for comparisons between treatment time points). Non-normal data were assessed using paired or unpaired Wilcoxon signed-rank tests, as appropriate. For TCR rearrangements, <italic toggle="yes">P</italic> values were calculated using a binomial test according to the distribution of counts in each sample. Benjamini–Hochberg multiple hypothesis corrections were applied to rearrangements with cumulative counts of at least five in both pre- and posttreatment samples. Tests with alpha &lt; 0.01 were designated differentially abundant. Between-group differences in spatial relationships were determined on a per-ROI basis using two-sample Wilcoxon signed-rank tests (unpaired for comparisons between response types; paired for comparisons between treatment timepoints), followed by Benjamini–Hochberg multiple comparison adjustment. For spatial analysis, <italic toggle="yes">P</italic> &lt; 0.01 was considered significant unless otherwise stated. Detailed explanation for how per-ROI values were obtained can be found in Supplementary Methods.</p>
+              </sec>
+              <sec id="sec2-10">
+                <title>Ethics approval and consent to participate</title>
+                <p>The study protocol was approved by the Institutional Review Board of the University of Southern California (IRB No. HS-15–00262). The study was conducted in accordance with the Good Clinical Practice Guidelines and Declaration of Helsinki. Written informed consent was obtained from all patients.</p>
+              </sec>
+              <sec id="sec2-11">
+                <title>Patient consent for publication</title>
+                <p>Not applicable.</p>
+              </sec>
+              <sec sec-type="data-availability" id="sec2-12">
+                <title>Availability of data and material</title>
+                <p>All software and code that produced the findings of the study, including Mac OS12 (Supplementary Software 1), Windows 7 (Supplementary Software 2), and Windows 10 (Supplementary Software 3) versions of HistoCAT, are available at <ext-link xlink:href="https://github.com/BodenmillerGroup/histoCAT" ext-link-type="uri" xlink:show="new">https://github.com/BodenmillerGroup/histoCAT</ext-link>. All raw data, including source data for <xref rid="fig3" ref-type="fig">Fig. 3</xref>, HistoCAT sessions, and interactive graphs, that support the findings of the study are available at <ext-link xlink:href="https://figshare.com/articles/dataset/Comprehensive_Single-Cell_Immune_Profiling_Defines_the_Patient_Multiple_Myeloma_Microenvironment_Following_Oncolytic_Virus_Therapy/24175404" ext-link-type="uri" xlink:show="new">https://figshare.com/articles/dataset/Comprehensive_Single-Cell_Immune_Profiling_Defines_the_Patient_Multiple_Myeloma_Microenvironment_Following_Oncolytic _Virus_Therapy/24175404</ext-link> (DOI: 10.6084/m9.figshare.24175404). The clinical trial protocol is available upon request, and the study is registered at ClinicalTrials.gov (NCT02514382).</p>
+              </sec>
+            </sec>
+            <sec sec-type="results" id="sec3">
+              <title>Results</title>
+              <sec id="sec3-1">
+                <title>Patient characteristics</title>
+                <p>A total of 14 patients were enrolled in this phase Ib trial. The study design is presented in <xref rid="fig1" ref-type="fig">Fig. 1A</xref>, and patient demographic characteristics are summarized in <xref rid="tbl1" ref-type="table">Table 1</xref> and Supplementary Table S2. Most patients (<italic toggle="yes">n</italic> = 10) were men with a median age of 58 years (range 33–79 years). The median number of prior therapies was 3.5 (range 1–7). All patients were previously exposed to BZ, and 9 patients were previously exposed to immunomodulatory agents and carfilzomib.</p>
+                <fig position="float" id="fig1">
+                  <label>Figure 1.</label>
+                  <caption>
+                    <p>Study design and treatment effects of combination PELA/BZ/Dex therapy. <bold>A,</bold> Study schema showing enrollment and downstream analyses of blood/tissue samples. <bold>B,</bold> Waterfall plot showing the best percentage change in serum paraprotein among the 11 response-evaluable patients. <bold>C,</bold> Kaplan–Meier plot showing OS (red) and PFS (blue). <bold>D</bold>–<bold>G</bold>, Blood samples were collected from Patients 8–14 at baseline (pretreatment) and 24 hours after dosing on C1D1 (posttreatment). <bold>D,</bold> Cytokine levels were measured by enzyme-linked immunosorbent assay (ELISA) before (C1D1) and after (C1D2) treatment. Significant posttreatment increases were observed for C-X-C motif ligand 10 (CXCL10; C1D1: 187.000 ± 100.57 pg/mL; C1D2: 3640.00 ± 1127.90 pg/mL; <italic toggle="yes">P</italic> = 0.0023), CXCL11 (C1D1: 115.86 ±48.95 pg/mL; C1D2: 1636.86 ± 909.40 pg/mL; <italic toggle="yes">P</italic> = 0.0175), IL18 (C1D1: 227.71 ± 180.14 pg/mL; C1D2: 459.57 ± 316.19 pg/mL; <italic toggle="yes">P</italic> = 0.0196), C-C motif ligand 8 (CCL8; C1D1: 19.43 ± 3.64 pg/mL; C1D2: 422.71 ± 184.87 pg/mL; <italic toggle="yes">P</italic> = 0.0077), and tumor inhibitor of metalloproteases 1 (TIMP-1; C1D1: 76.14 ± 49.27 ng/mL; C1D2: 130.71 ± 89.11 ng/mL; <italic toggle="yes">P</italic> = 0.0482). *<italic toggle="yes">P</italic> &lt; 0.05; ** <italic toggle="yes">P</italic> &lt; 0.005. <bold>E,</bold> Flow cytometry was applied to assess the expression of CD69 on CD3<sup>−</sup>CD56<sup>+</sup> NK cells and CD3+CD56<sup>−</sup> T cells in peripheral blood monocytes (PBMC). Dot plots show representative data for CD69 expression in Patient 11. <bold>F</bold> and <bold>G</bold>, Quantification of CD69<sup>+</sup> NK (CD69<sup>+</sup>CD3<sup>−</sup>CD56<sup>+</sup>cells/all CD3<sup>−</sup>CD56<sup>+</sup> cells; Pre: 6.06% ± 2.08%; Post: 59.82% ± 20.42%; <italic toggle="yes">P</italic> = 0.0047) (<bold>F</bold>) and T cells (CD69<sup>+</sup>CD3<sup>+</sup>CD56<sup>−</sup> cells/all CD3<sup>+</sup>CD56<sup>−</sup> cells; Pre: 7.16% ± 1.30%; Post: 40.68% ± 6.26%; <italic toggle="yes">P</italic> = 0.0005) (<bold>G</bold>) in PBMCs. Each dot represents an individual patient. Data are presented as the mean and standard deviation. <italic toggle="yes">P</italic> values derived from Student <italic toggle="yes">t</italic> test, followed by Benjamini–Hochberg multiple comparison adjustment.</p>
+                  </caption>
+                  <alt-text>Figure 1. Study design and treatment effects of combination PELA/BZ/Dex therapy. A, Study schema showing enrollment and downstream analyses of blood/tissue samples. B, Waterfall plot showing the best percentage change in serum paraprotein among the 11 response-evaluable patients. C, Kaplan–Meier plot showing OS (red) and PFS (blue). D–G, Blood samples were collected from Patients 8–14 at baseline (pretreatment) and 24 hours after dosing on C1D1 (posttreatment). D, Cytokine levels were measured by enzyme-linked immunosorbent assay (ELISA) before (C1D1) and after (C1D2) treatment. Significant posttreatment increases were observed for C-X-C motif ligand 10 (CXCL10; C1D1: 187.000 ± 100.57 pg/mL; C1D2: 3640.00 ± 1127.90 pg/mL; P = 0.0023), CXCL11 (C1D1: 115.86 ±48.95 pg/mL; C1D2: 1636.86 ± 909.40 pg/mL; P = 0.0175), IL18 (C1D1: 227.71 ± 180.14 pg/mL; C1D2: 459.57 ± 316.19 pg/mL; P = 0.0196), C-C motif ligand 8 (CCL8; C1D1: 19.43 ± 3.64 pg/mL; C1D2: 422.71 ± 184.87 pg/mL; P = 0.0077), and tumor inhibitor of metalloproteases 1 (TIMP-1; C1D1: 76.14 ± 49.27 ng/mL; C1D2: 130.71 ± 89.11 ng/mL; P = 0.0482). *P &lt; 0.05; ** P &lt; 0.005. E, Flow cytometry was applied to assess the expression of CD69 on CD3−CD56+ NK cells and CD3+CD56− T cells in peripheral blood monocytes (PBMC). Dot plots show representative data for CD69 expression in Patient 11. F and G, Quantification of CD69+ NK (CD69+CD3−CD56+cells/all CD3−CD56+ cells; Pre: 6.06% ± 2.08%; Post: 59.82% ± 20.42%; P = 0.0047) (F) and T cells (CD69+CD3+CD56− cells/all CD3+CD56− cells; Pre: 7.16% ± 1.30%; Post: 40.68% ± 6.26%; P = 0.0005) (G) in PBMCs. Each dot represents an individual patient. Data are presented as the mean and standard deviation. P values derived from Student t test, followed by Benjamini–Hochberg multiple comparison adjustment.</alt-text>
+                  <graphic xlink:href="5087fig1" position="float"/>
+                </fig>
+                <table-wrap position="float" id="tbl1">
+                  <label>Table 1.</label>
+                  <caption>
+                    <p>Patient characteristics.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <thead>
+                      <tr>
+                        <th align="left" rowspan="1" colspan="1">Patient Number</th>
+                        <th align="left" rowspan="1" colspan="1">Sex</th>
+                        <th align="left" rowspan="1" colspan="1">Cytogenetics</th>
+                        <th align="left" rowspan="1" colspan="1">Prior Treatment (time in months, best response)</th>
+                        <th align="left" rowspan="1" colspan="1">Refractory</th>
+                        <th align="left" rowspan="1" colspan="1">Time from study to last line (months)</th>
+                        <th align="left" rowspan="1" colspan="1">Time from study to last BZ (months)</th>
+                        <th align="left" rowspan="1" colspan="1">Last BZ status</th>
+                        <th align="left" rowspan="1" colspan="1">PELA/BZ/Dex cycles received</th>
+                        <th align="left" rowspan="1" colspan="1">Best response</th>
+                        <th align="left" rowspan="1" colspan="1">Time to progression (days)</th>
+                        <th align="left" rowspan="1" colspan="1">Survival status</th>
+                        <th align="left" rowspan="1" colspan="1">OS (months)</th>
+                        <th align="left" rowspan="1" colspan="1">Testing</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td colspan="14" align="left" rowspan="1">Cohort 1 (3 × 10<sup>10</sup> TCID<sub>50</sub>)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">1</td>
+                        <td align="left" rowspan="1" colspan="1">M</td>
+                        <td align="left" rowspan="1" colspan="1">Normal</td>
+                        <td align="left" rowspan="1" colspan="1">CyBorD (6, VGPR), BZ maintenance (7, VGPR)</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">6</td>
+                        <td align="left" rowspan="1" colspan="1">6</td>
+                        <td align="left" rowspan="1" colspan="1">VGPR</td>
+                        <td align="left" rowspan="1" colspan="1">4</td>
+                        <td align="left" rowspan="1" colspan="1">MR</td>
+                        <td align="left" rowspan="1" colspan="1">116</td>
+                        <td align="left" rowspan="1" colspan="1">Died</td>
+                        <td align="left" rowspan="1" colspan="1">17</td>
+                        <td align="left" rowspan="1" colspan="1">TCR-seq; IHC; IMC</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">2</td>
+                        <td align="left" rowspan="1" colspan="1">F</td>
+                        <td align="left" rowspan="1" colspan="1">Normal</td>
+                        <td align="left" rowspan="1" colspan="1">CyBorD (8, VGPR), Len/Dex (6, VGPR), Carfil/Dex (12, PD), BT062/Pom (N/A, PD)</td>
+                        <td align="left" rowspan="1" colspan="1">CyBorD, Len, Carfil, BT062/Pom</td>
+                        <td align="left" rowspan="1" colspan="1">1</td>
+                        <td align="left" rowspan="1" colspan="1">32</td>
+                        <td align="left" rowspan="1" colspan="1">PD</td>
+                        <td align="left" rowspan="1" colspan="1">1</td>
+                        <td align="left" rowspan="1" colspan="1">PD</td>
+                        <td align="left" rowspan="1" colspan="1">3</td>
+                        <td align="left" rowspan="1" colspan="1">Died</td>
+                        <td align="left" rowspan="1" colspan="1">1</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">3</td>
+                        <td align="left" rowspan="1" colspan="1">M</td>
+                        <td align="left" rowspan="1" colspan="1">Normal</td>
+                        <td align="left" rowspan="1" colspan="1">CyBorD (8, PR), BZ maintenance (5, PD)</td>
+                        <td align="left" rowspan="1" colspan="1">BZ</td>
+                        <td align="left" rowspan="1" colspan="1">9</td>
+                        <td align="left" rowspan="1" colspan="1">9</td>
+                        <td align="left" rowspan="1" colspan="1">PD</td>
+                        <td align="left" rowspan="1" colspan="1">1</td>
+                        <td align="left" rowspan="1" colspan="1">N/A</td>
+                        <td align="left" rowspan="1" colspan="1">N/A<sup>a</sup></td>
+                        <td align="left" rowspan="1" colspan="1">Died</td>
+                        <td align="left" rowspan="1" colspan="1">43</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">4</td>
+                        <td align="left" rowspan="1" colspan="1">M</td>
+                        <td align="left" rowspan="1" colspan="1">t(4,14)</td>
+                        <td align="left" rowspan="1" colspan="1">CyBorD (4, PD), Thal/Dex/BZ (3, PD), Vinc/Doxil/Dex (2, PD), Carfil (1, PR), RXT and VD-PACE (3, N/A) Ben/BZ/Dex (N/A, PD), Len (4, recurrence), PI3K/HDAC (N/A, N/A), Pom (5, PD)</td>
+                        <td align="left" rowspan="1" colspan="1">CyBorD, Thal/Dex/BZ, Vinc/Doxil/Dex, Carfil, Ben/BZ, Len, PI3K/HDAC, Pom</td>
+                        <td align="left" rowspan="1" colspan="1">2</td>
+                        <td align="left" rowspan="1" colspan="1">22</td>
+                        <td align="left" rowspan="1" colspan="1">PD</td>
+                        <td align="left" rowspan="1" colspan="1">2</td>
+                        <td align="left" rowspan="1" colspan="1">PD</td>
+                        <td align="left" rowspan="1" colspan="1">27</td>
+                        <td align="left" rowspan="1" colspan="1">Died</td>
+                        <td align="left" rowspan="1" colspan="1">2</td>
+                        <td align="left" rowspan="1" colspan="1">TCR-Seq</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">5</td>
+                        <td align="left" rowspan="1" colspan="1">M</td>
+                        <td align="left" rowspan="1" colspan="1">+5, +17</td>
+                        <td align="left" rowspan="1" colspan="1">Len/Dex (3, PR), CyBorD (7, PR), Carfil/Dex (12, PR)</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">1</td>
+                        <td align="left" rowspan="1" colspan="1">31</td>
+                        <td align="left" rowspan="1" colspan="1">PR</td>
+                        <td align="left" rowspan="1" colspan="1">3</td>
+                        <td align="left" rowspan="1" colspan="1">MR</td>
+                        <td align="left" rowspan="1" colspan="1">N/A<sup>a</sup></td>
+                        <td align="left" rowspan="1" colspan="1">Alive</td>
+                        <td align="left" rowspan="1" colspan="1">69</td>
+                        <td align="left" rowspan="1" colspan="1">TCR-Seq; IHC</td>
+                      </tr>
+                      <tr>
+                        <td colspan="14" align="left" rowspan="1">Cohort 2 (4.5 × 10<sup>10</sup> TCID<sub>50</sub>)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">6</td>
+                        <td align="left" rowspan="1" colspan="1">M</td>
+                        <td align="left" rowspan="1" colspan="1">Normal</td>
+                        <td align="left" rowspan="1" colspan="1">CyBorD (N/A, CR), Len/Dex, Pom/Dex (N/A, PD), Carfil/Dex (N/A, PD), Dara (N/A, PD), Auto Tx (N/A, N/A)</td>
+                        <td align="left" rowspan="1" colspan="1">Pom, Carfil, Dara</td>
+                        <td align="left" rowspan="1" colspan="1">2</td>
+                        <td align="left" rowspan="1" colspan="1">23</td>
+                        <td align="left" rowspan="1" colspan="1">PD</td>
+                        <td align="left" rowspan="1" colspan="1">1</td>
+                        <td align="left" rowspan="1" colspan="1">PD</td>
+                        <td align="left" rowspan="1" colspan="1">37</td>
+                        <td align="left" rowspan="1" colspan="1">Died</td>
+                        <td align="left" rowspan="1" colspan="1">5</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">7</td>
+                        <td align="left" rowspan="1" colspan="1">M</td>
+                        <td align="left" rowspan="1" colspan="1">+1q</td>
+                        <td align="left" rowspan="1" colspan="1">CyBorD (4, MR), Len/Dex (15, PR) BT062 (3, PD), Carfil/Dex (8, PD)</td>
+                        <td align="left" rowspan="1" colspan="1">BT062, Carfil</td>
+                        <td align="left" rowspan="1" colspan="1">1</td>
+                        <td align="left" rowspan="1" colspan="1">60</td>
+                        <td align="left" rowspan="1" colspan="1">MR</td>
+                        <td align="left" rowspan="1" colspan="1">10</td>
+                        <td align="left" rowspan="1" colspan="1">MR</td>
+                        <td align="left" rowspan="1" colspan="1">314</td>
+                        <td align="left" rowspan="1" colspan="1">Died</td>
+                        <td align="left" rowspan="1" colspan="1">44</td>
+                        <td align="left" rowspan="1" colspan="1">IHC; IMC</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">8</td>
+                        <td align="left" rowspan="1" colspan="1">M</td>
+                        <td align="left" rowspan="1" colspan="1">-13</td>
+                        <td align="left" rowspan="1" colspan="1">CyBorD (6, VGPR), BZ maintenance (3, PR), CyBorD (3, PD), BZ/Zometa (9, PD) Carfil/Dex (2, PD), V-PACE (2, PD), Len/Dex, (5, PD)</td>
+                        <td align="left" rowspan="1" colspan="1">BZ, CyBorD, BZ, Carfil, V-PACE, Len</td>
+                        <td align="left" rowspan="1" colspan="1">1</td>
+                        <td align="left" rowspan="1" colspan="1">6</td>
+                        <td align="left" rowspan="1" colspan="1">PD</td>
+                        <td align="left" rowspan="1" colspan="1">2</td>
+                        <td align="left" rowspan="1" colspan="1">PD</td>
+                        <td align="left" rowspan="1" colspan="1">26</td>
+                        <td align="left" rowspan="1" colspan="1">Died</td>
+                        <td align="left" rowspan="1" colspan="1">2</td>
+                        <td align="left" rowspan="1" colspan="1">Cytokine;</td>
+                      </tr>
+                      <tr>
+                        <td colspan="14" align="left" rowspan="1">Cohort 3 (9 × 10<sup>10</sup> TCID<sub>50</sub>)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">9</td>
+                        <td align="left" rowspan="1" colspan="1">M</td>
+                        <td align="left" rowspan="1" colspan="1">1q+, t(11,14)</td>
+                        <td align="left" rowspan="1" colspan="1">CyBorD (4, PD), Carfil/Dex (12, PR)</td>
+                        <td align="left" rowspan="1" colspan="1">CyBorD</td>
+                        <td align="left" rowspan="1" colspan="1">18</td>
+                        <td align="left" rowspan="1" colspan="1">18</td>
+                        <td align="left" rowspan="1" colspan="1">PD</td>
+                        <td align="left" rowspan="1" colspan="1">9</td>
+                        <td align="left" rowspan="1" colspan="1">SD</td>
+                        <td align="left" rowspan="1" colspan="1">237</td>
+                        <td align="left" rowspan="1" colspan="1">Alive</td>
+                        <td align="left" rowspan="1" colspan="1">24</td>
+                        <td align="left" rowspan="1" colspan="1">Cytokine; TCR-Seq; IHC; IMC</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">10</td>
+                        <td align="left" rowspan="1" colspan="1">F</td>
+                        <td align="left" rowspan="1" colspan="1">-13, + 9, +11, +15</td>
+                        <td align="left" rowspan="1" colspan="1">CyBorD (6, PR), BZ maintenance (12, SD)</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">48</td>
+                        <td align="left" rowspan="1" colspan="1">48</td>
+                        <td align="left" rowspan="1" colspan="1">VGPR</td>
+                        <td align="left" rowspan="1" colspan="1">46</td>
+                        <td align="left" rowspan="1" colspan="1">VGPR</td>
+                        <td align="left" rowspan="1" colspan="1">1371</td>
+                        <td align="left" rowspan="1" colspan="1">Alive</td>
+                        <td align="left" rowspan="1" colspan="1">60</td>
+                        <td align="left" rowspan="1" colspan="1">FC; Cytokine; TCR-Seq; IHC; IMC</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">11</td>
+                        <td align="left" rowspan="1" colspan="1">F</td>
+                        <td align="left" rowspan="1" colspan="1">+1q, + 9, +11, +15, +17, del TP53, partial del IgH</td>
+                        <td align="left" rowspan="1" colspan="1">CyBorD (8, PR), BZ maintenance (4, PD)</td>
+                        <td align="left" rowspan="1" colspan="1">BZ</td>
+                        <td align="left" rowspan="1" colspan="1">2</td>
+                        <td align="left" rowspan="1" colspan="1">2</td>
+                        <td align="left" rowspan="1" colspan="1">PD</td>
+                        <td align="left" rowspan="1" colspan="1">55</td>
+                        <td align="left" rowspan="1" colspan="1">PR</td>
+                        <td align="left" rowspan="1" colspan="1">1560</td>
+                        <td align="left" rowspan="1" colspan="1">Alive</td>
+                        <td align="left" rowspan="1" colspan="1">60</td>
+                        <td align="left" rowspan="1" colspan="1">FC; Cytokine</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">12</td>
+                        <td align="left" rowspan="1" colspan="1">M</td>
+                        <td align="left" rowspan="1" colspan="1">Normal</td>
+                        <td align="left" rowspan="1" colspan="1">CyBorD (2, neuropathy), Len/Dex (4, PD), Carfil (17, SD),</td>
+                        <td align="left" rowspan="1" colspan="1">Len, Carfil</td>
+                        <td align="left" rowspan="1" colspan="1">3</td>
+                        <td align="left" rowspan="1" colspan="1">31</td>
+                        <td align="left" rowspan="1" colspan="1">SD</td>
+                        <td align="left" rowspan="1" colspan="1">5</td>
+                        <td align="left" rowspan="1" colspan="1">SD</td>
+                        <td align="left" rowspan="1" colspan="1">124</td>
+                        <td align="left" rowspan="1" colspan="1">Died</td>
+                        <td align="left" rowspan="1" colspan="1">42</td>
+                        <td align="left" rowspan="1" colspan="1">FC; Cytokine; IHC; IMC</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">13</td>
+                        <td align="left" rowspan="1" colspan="1">F</td>
+                        <td align="left" rowspan="1" colspan="1">1q+, +5 and 11q+</td>
+                        <td align="left" rowspan="1" colspan="1">BZ/Dex (5, PD) Len maintenance (N/A, N/A), CyPom (N/A, N/A), Doxil (N/A, N/A), Carfil/Dex (18, PD), Dara (2, PD), Benda/Len/Dex (N/A, PR), CyPom (N/A, N/A)</td>
+                        <td align="left" rowspan="1" colspan="1">BZ, Carfil/Dex, Dara</td>
+                        <td align="left" rowspan="1" colspan="1">1</td>
+                        <td align="left" rowspan="1" colspan="1">45</td>
+                        <td align="left" rowspan="1" colspan="1">PD</td>
+                        <td align="left" rowspan="1" colspan="1">1</td>
+                        <td align="left" rowspan="1" colspan="1">PD</td>
+                        <td align="left" rowspan="1" colspan="1">28</td>
+                        <td align="left" rowspan="1" colspan="1">Lost to follow-up</td>
+                        <td align="left" rowspan="1" colspan="1">1</td>
+                        <td align="left" rowspan="1" colspan="1">FC; Cytokine; TCR-seq; IHC</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">14</td>
+                        <td align="left" rowspan="1" colspan="1">M</td>
+                        <td align="left" rowspan="1" colspan="1">1q+, t(11;14), complex vt(11;14)</td>
+                        <td align="left" rowspan="1" colspan="1">BZ/Melphalan/Dex (N/A, PD), Carfil/Cy/Dex (N/A, VGPR). Auto Tx, Len maintenance (N/A, 18, N/A), Carfil/Dex (8, Relapse), Dara/Pom/Dex (N/A, PD)</td>
+                        <td align="left" rowspan="1" colspan="1">BZ/ Melphalan, Carfil, Dara/Pom</td>
+                        <td align="left" rowspan="1" colspan="1">1</td>
+                        <td align="left" rowspan="1" colspan="1">74</td>
+                        <td align="left" rowspan="1" colspan="1">PD</td>
+                        <td align="left" rowspan="1" colspan="1">2</td>
+                        <td align="left" rowspan="1" colspan="1">SD</td>
+                        <td align="left" rowspan="1" colspan="1">43</td>
+                        <td align="left" rowspan="1" colspan="1">Died</td>
+                        <td align="left" rowspan="1" colspan="1">19</td>
+                        <td align="left" rowspan="1" colspan="1">FC; Cytokine; TCR-seq; IHC; IMC</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn>
+                      <p>Abbreviations: Auto Tx, autologous stem cell transplant; Benda, bendamustine; Carfil; carfilzomib; Cy, cyclophosphamide; CyBorD, cyclophosphamide, bortezomib, and dexamethasone; Dara, daratumumab; Doxil, doxorubicin; FC, flow cytometry; Len, lenalidomide; N/A, not available or not assessable; PACE, cisplatin, doxorubicin, cyclophosphamide, and etoposide; PD, progressive disease; Pom, pomalidomide; RXT, radiation X-ray therapy; TCID<sub>50</sub>, median tissue culture infectious dose; TCR-seq, T-cell receptor sequencing; Thal, thalidomide; VGPR, very good partial response; Vinc, vincristine; V-PACE, cisplatin, doxorubicin, cyclophosphamide, etoposide, and bortezomib.</p>
+                    </fn>
+                    <fn id="tb1fn1">
+                      <p><sup>a</sup>Patient withdrew from the study prior to progression.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+              <sec id="sec3-2">
+                <title>Safety and toxicity</title>
+                <p>Cohort 1 (3×10<sup>10</sup> TCID<sub>50</sub> PELA) included 5 patients, Cohort 2 (4.5×10<sup>10</sup> TCID<sub>50</sub> PELA) included 3 patients, and Cohort 3 (9×10<sup>10</sup> TCID<sub>50</sub> PELA) included 6 patients. No DLTs occurred in any cohort. Three patients failed to complete one treatment cycle (1 withdrew consent; 2 experienced clinical deterioration due to underlying disease). One patient completed only one treatment cycle. One patient each completed 3, 4, 5, 9, and 10 treatment cycles. One patient with a very good PR (VGPR) completed 46 cycles, and another patient with a PR completed 55 cycles. Discontinuation occurred due to progressive disease (PD; <italic toggle="yes">n</italic> = 8), withdrawal of consent (<italic toggle="yes">n</italic> = 2), clinical deterioration related to the underlying disease (<italic toggle="yes">n</italic> = 3), and symptomatic pulmonary hypertension in a patient with prior carfilzomib exposure (<italic toggle="yes">n</italic> = 1).</p>
+                <p>The PELA/BZ/Dex regimen was well-tolerated, and most treatment-emergent toxicities were transient and easily managed with supportive care. The most common treatment-related toxicities were grade 1, transient, and consistent with viremia (flu-like symptoms, diarrhea, fatigue, headache, and nausea; Supplementary Table S3).</p>
+              </sec>
+              <sec id="sec3-3">
+                <title>Antitumor activity of PELA/BZ/Dex</title>
+                <p>Of 14 patients, 3 were excluded from the efficacy analysis due to a lack of post-baseline assessments. Among the 11 response-evaluable patients, 1 had a VGPR, 1 had a PR, 2 had a minor response (MR), 4 had stable disease (SD) lasting at least 1 cycle, and 3 had PD after 1 cycle (<xref rid="tbl1" ref-type="table">Table 1</xref>). <xref rid="fig1" ref-type="fig">Figure 1B</xref> shows a waterfall plot illustrating observed changes in paraprotein for each response-evaluable patient. Patients with a 25% or greater reduction in paraprotein levels were defined as responders, and all other patients were defined as nonresponders. Median OS was 42.6 months [95% confidence interval (CI), 2.0 to ≥69.2 months], and median PFS was 2.6 months (95% CI, 0.9–10.3 months; <xref rid="fig1" ref-type="fig">Fig. 1C</xref>).</p>
+              </sec>
+              <sec id="sec3-4">
+                <title>PELA/BZ/Dex promotes an inflammatory chemokine response associated with immune cell recruitment</title>
+                <p>Cytokines stimulate both antiviral and antitumor immune responses, and cytokine levels can predict the response to immunotherapy (<xref rid="bib25" ref-type="bibr">25, 26</xref>). We quantified 41 cytokines and chemokines in patient serum samples obtained before and after PELA/BZ/Dex treatment. Significant posttreatment increases were observed for cytokines associated with T-cell trafficking, T-cell tumor infiltration (C–X–C motif ligand 10 [CXCL10], CXCL11), NK-cell activation (IL18), and monocyte activation [C–C motif ligand 8 (CCL8)], in addition to the cytokine modulator tissue inhibitor of metalloproteinases 1 (TIMP-1), in both responders and nonresponders (<xref rid="fig1" ref-type="fig">Fig. 1D</xref>; the 14 cytokines with the largest posttreatment shifts are shown in Supplementary Fig. S1A). Consistent with our preclinical data, the most significantly increased cytokine was CXCL10, a potential driver of anticancer activities involved in T-cell trafficking and angiogenesis inhibition (<xref rid="bib27" ref-type="bibr">27</xref>).</p>
+              </sec>
+              <sec id="sec3-5">
+                <title>PELA/BZ/Dex promotes NK and T-cell activation</title>
+                <p>In addition to direct cytolytic effects, PELA enhances <italic toggle="yes">in vitro</italic> tumor cell killing through activation of patient-derived NK cells (<xref rid="bib28" ref-type="bibr">28, 29</xref>). Multiple myeloma progression is associated with increased NK-cell dysfunction, driven by TiME reprogramming (<xref rid="bib30" ref-type="bibr">30</xref>) and defects in the anti–multiple myeloma activity of T cells (<xref rid="bib31" ref-type="bibr">31</xref>). To evaluate the effects of PELA on NK (CD3<sup>−</sup>CD56<sup>+</sup>) and T-cell (CD3<sup>+</sup>CD56<sup>−</sup>) activation, we used flow cytometry to first isolate NK and T-cell populations from pre- and posttreatment PBMCs and then to evaluate the proportions of CD69<sup>+</sup> cells within the total NK and T-cell populations (<xref rid="fig1" ref-type="fig">Fig. 1E</xref>). Significant CD69 upregulation was observed in all posttreatment samples (CD69<sup>+</sup>CD3<sup>−</sup>CD56<sup>+</sup> cells/all CD3<sup>−</sup>CD56<sup>+</sup> NK cells: 59% posttreatment versus 5% pretreatment, <xref rid="fig1" ref-type="fig">Fig. 1F</xref>; CD69<sup>+</sup>CD3<sup>+</sup>CD56<sup>−</sup> cells/all CD3<sup>+</sup>CD56<sup>−</sup> T cells: 41% posttreatment versus 7% pretreatment, <xref rid="fig1" ref-type="fig">Fig. 1G</xref>). These effects appeared to be driven by PELA rather than BZ or Dex, as the <italic toggle="yes">ex vivo</italic> treatment of patient-derived multiple myeloma cells with PELA alone was sufficient to robustly activate NK and T cells (Supplementary Fig. S1B).</p>
+              </sec>
+              <sec id="sec3-6">
+                <title>PELA/BZ/Dex increases bone marrow CD8<sup>+</sup> T-cell infiltration and immune checkpoint expression in multiple myeloma cells</title>
+                <p>Multiple myeloma often lacks features of tumors that respond well to single-agent programmed cell death 1 (PD-1) blockade therapy, such as high baseline CD8<sup>+</sup> T-cell infiltration and PD-L1 expression (<xref rid="bib7" ref-type="bibr">7, 32, 33</xref>). However, oncolytic viral therapy offers the potential to phenotypically transform immunologically “cold” tumors into “hot” tumors. To assess whether PELA treatment can reprogram the bone marrow TiME, we analyzed PELA<sup>+</sup> cells in baseline and posttreatment biopsies from 8 patients. PELA RNA (<xref rid="fig2" ref-type="fig">Fig. 2A</xref>), a marker of reovirus entry, was detected in posttreatment biopsy samples. No significant difference in the percentage of RNA<sup>+</sup> cells was observed between responders and nonresponders. IHC suggested that PELA RNA was preferentially concentrated in cells with plasma cell phenotypes, as more than 90% of the total RNA signal was detected in CD138<sup>+</sup> multiple myeloma cells (<xref rid="fig2" ref-type="fig">Fig. 2B</xref>). Consistent with preclinical findings that PELA enters multiple myeloma cells through JAM-A, PELA RNA colocalized with JAM-A (<xref rid="fig2" ref-type="fig">Fig. 2C</xref>). PD-L1 staining was membranous and largely restricted to cells with characteristic multiple myeloma cell morphology containing reoviral RNA (<xref rid="fig2" ref-type="fig">Fig. 2D</xref>). Although PELA RNA is an indicator of viral entry, the presence of RNA does not necessarily indicate viral proliferation. To assess viral protein production, we examined posttreatment samples for the presence of reoviral capsid protein, a marker of lytic replication. Unlike reoviral RNA, which was detected in similar proportions of multiple myeloma cells from both responders and nonresponders, the proportion of reovirus protein–positive multiple myeloma cells was significantly larger in responders than in nonresponders (<xref rid="fig2" ref-type="fig">Fig. 2E</xref>). PELA/BZ/Dex treatment resulted in significant increases in the proportions of PD-L1<sup>+</sup> cells (<xref rid="fig2" ref-type="fig">Fig. 2F</xref>), and PD-L1 upregulation in CD138<sup>+</sup> cells was confirmed by flow cytometric data (Supplementary Fig. S1C and S1D). The posttreatment percentages of CD8<sup>+</sup> cytotoxic T cells (<xref rid="fig2" ref-type="fig">Fig. 2G</xref>) and activated caspase-3<sup>+</sup> apoptotic cells (<xref rid="fig2" ref-type="fig">Fig. 2H</xref>) increased in both nonresponders and responders, but only responders showed significant posttreatment increases compared with pretreatment values. These findings indicate that PELA/BZ/Dex treatment elicits a strong inflammatory response with subsequent immune checkpoint induction.</p>
+                <fig position="float" id="fig2">
+                  <label>Figure 2.</label>
+                  <caption>
+                    <p>Reovirus detection in multiple myeloma cells following PELA/BZ/Dex combination therapy and inducement of host immune response. <bold>A,</bold> Representative pre- and posttreatment bone marrow biopsy images stained for PELA RNA in pre- (left) and posttreatment (right) biopsy samples. Scatter plot (bottom) shows the quantification of percentage cells with positive staining [Pre-Nonresponder (NR): 0.00% ± 0.00%; Pre-Responder (R): 0.00% ± 0.00%; Post-NR: 53.93% ± 30.02%; Post-R: 49.55% ± 39.16%]. Black boxes indicate the area shown in insets. <bold>B</bold>–<bold>D</bold>, Representative posttreatment biopsy samples showing co-expression of PELA RNA with various protein markers. <bold>B,</bold> The Nuance system was used to convert reoviral RNA to blue (left) and CD138 to red (middle), with co-expression shown in yellow (right). <bold>C</bold> and <bold>D</bold>, The Nuance system was used to convert reoviral RNA to green (left). Junctional adhesion molecule A (JAM-A) (<bold>C</bold>) or PD-L1 (<bold>D</bold>) was converted to red (center), and co-expression images are shown in yellow (left). White boxes indicate the area shown in insets. Scale bar 60 μm for <bold>B</bold> and <bold>D</bold>, 100 μm for <bold>C</bold>. <bold>E,</bold> Representative image showing detection of reovirus protein in posttreatment biopsy samples. Scatter plot (bottom) shows the quantification of percentage cells with positive staining (Pre-NR: 0.00% ± 0.00%; Pre-R: 0.00% ± 0.00%; Post-NR: 1.10% ± 1.12%; Post-R: 11.85% ± 10.33%; Post-NR vs. Post-R, <italic toggle="yes">P</italic> = 0.042, unpaired <italic toggle="yes">t</italic> test). <bold>F</bold>–<bold>H</bold>, Representative images of pre- (left) and posttreatment (right) bone marrow biopsies stained for PD-L1 (Pre-NR: 0.44% ± 0.55%; Pre-R: 0.75% ± 1.50%; Post-NR: 7.34% ± 8.12%; Post-R: 5.80% ± 4.06%; All Pre vs. All Post, <italic toggle="yes">P</italic> = 0.0078, Wilcoxon signed-rank test) (<bold>F</bold>), CD8 (Pre-NR: 12.96% ± 3.53%; Pre-R: 9.05% ± 2.97%; Post-NR: 19.50% ± 7.53%; Post-R: 23.53% ± 6.95%; Pre-R vs. Post-R, <italic toggle="yes">P</italic> = 0.0112, paired <italic toggle="yes">t</italic> test) (<bold>G</bold>), and activated caspase-3 (Pre-NR: 0.06% ± 0.48%; Pre-R: 1.13% ± 0.79%; Post-NR: 2.08% ± 2.31%; Post-R: 3.88% ± 2.08%; Pre-R vs. Post-R, <italic toggle="yes">P</italic> = 0.024, paired <italic toggle="yes">t</italic> test) (<bold>H</bold>). Scale bar 500 μm. Numbers indicate the percentage of positive cells in each image. Black boxes indicate the area shown in insets. Scatter plots (bottom) show the quantification of percentage cells with positive staining. All scatter plots are presented as the mean and standard deviation. NR, <italic toggle="yes">n</italic> = 4; R, <italic toggle="yes">n</italic> = 4.</p>
+                  </caption>
+                  <alt-text>Figure 2. Reovirus detection in multiple myeloma cells following PELA/BZ/Dex combination therapy and inducement of host immune response. A, Representative pre- and posttreatment bone marrow biopsy images stained for PELA RNA in pre- (left) and posttreatment (right) biopsy samples. Scatter plot (bottom) shows the quantification of percentage cells with positive staining [Pre-Nonresponder (NR): 0.00% ± 0.00%; Pre-Responder (R): 0.00% ± 0.00%; Post-NR: 53.93% ± 30.02%; Post-R: 49.55% ± 39.16%]. Black boxes indicate the area shown in insets. B–D, Representative posttreatment biopsy samples showing co-expression of PELA RNA with various protein markers. B, The Nuance system was used to convert reoviral RNA to blue (left) and CD138 to red (middle), with co-expression shown in yellow (right). C and D, The Nuance system was used to convert reoviral RNA to green (left). Junctional adhesion molecule A (JAM-A) (C) or PD-L1 (D) was converted to red (center), and co-expression images are shown in yellow (left). White boxes indicate the area shown in insets. Scale bar 60 μm for B and D, 100 μm for C. E, Representative image showing detection of reovirus protein in posttreatment biopsy samples. Scatter plot (bottom) shows the quantification of percentage cells with positive staining (Pre-NR: 0.00% ± 0.00%; Pre-R: 0.00% ± 0.00%; Post-NR: 1.10% ± 1.12%; Post-R: 11.85% ± 10.33%; Post-NR vs. Post-R, P = 0.042, unpaired t test). F–H, Representative images of pre- (left) and posttreatment (right) bone marrow biopsies stained for PD-L1 (Pre-NR: 0.44% ± 0.55%; Pre-R: 0.75% ± 1.50%; Post-NR: 7.34% ± 8.12%; Post-R: 5.80% ± 4.06%; All Pre vs. All Post, P = 0.0078, Wilcoxon signed-rank test) (F), CD8 (Pre-NR: 12.96% ± 3.53%; Pre-R: 9.05% ± 2.97%; Post-NR: 19.50% ± 7.53%; Post-R: 23.53% ± 6.95%; Pre-R vs. Post-R, P = 0.0112, paired t test) (G), and activated caspase-3 (Pre-NR: 0.06% ± 0.48%; Pre-R: 1.13% ± 0.79%; Post-NR: 2.08% ± 2.31%; Post-R: 3.88% ± 2.08%; Pre-R vs. Post-R, P = 0.024, paired t test) (H). Scale bar 500 μm. Numbers indicate the percentage of positive cells in each image. Black boxes indicate the area shown in insets. Scatter plots (bottom) show the quantification of percentage cells with positive staining. All scatter plots are presented as the mean and standard deviation. NR, n = 4; R, n = 4.</alt-text>
+                  <graphic xlink:href="5087fig2" position="float"/>
+                </fig>
+              </sec>
+              <sec id="sec3-7">
+                <title>PELA/BZ/Dex induces clonal T-cell expansion</title>
+                <p>Our results showed that PELA/BZ/Dex therapy induced T-cell activation and significantly increased CD8<sup>+</sup> T cells in bone marrow (<xref rid="fig1" ref-type="fig">Figs. 1E</xref>–<xref rid="fig1" ref-type="fig">G</xref>, and <xref rid="fig2" ref-type="fig">2G</xref>). Therefore, we examined changes in the TCR repertoire using TCR immunosequencing of pre- and posttreatment bone marrow samples from 7 patients, revealing clonal expansion in all patients (Supplementary Fig. S2A). The fraction of expanded clones showed a trend toward a positive correlation with the percentage of reovirus RNA<sup>+</sup> multiple myeloma cells (Supplementary Fig. S2B). These data suggest that clonal expansion occurs in response to viral entry but does not determine the response to treatment.</p>
+              </sec>
+              <sec id="sec3-8">
+                <title>IMC allows multiplex visualization of the bone marrow TiME</title>
+                <p>To better understand the cellular dynamics in response to PELA/BZ/Dex treatment and obtain a detailed view of the spatial relationships within the multiple myeloma TiME, we performed IMC in pre- and posttreatment samples. Unlike IHC, which retains spatial information but is limited to a few markers, or flow cytometry, which can label multiple markers but requires the disruption of spatial relationships, IMC allows for the labeling of multiple markers simultaneously while retaining the spatial information of the local environment. We generated an antibody panel targeting 31 TiME-specific biomarkers (<xref rid="fig3" ref-type="fig">Fig. 3A</xref>; Supplementary Table S1), based on cytokine assays, flow cytometry data, and available literature, which we used to perform IMC in samples from six patients with adequate pre- and posttreatment tissue. A comparison of serial FFPE bone marrow sections separately subjected to IHC and IMC revealed similar CD138 and CD3 expression patterns, validating the ability of IMC to simultaneously visualize multiple markers in our samples (Supplementary Fig. S3A). Multiplex staining allowed for the simultaneous detection of multiple immune and tumor markers, highlighting cellular compositions, states, and interactions (<xref rid="fig3" ref-type="fig">Fig. 3B</xref> shows a representative ROI; Supplementary Fig. S3B displays staining for all markers within a single ROI).</p>
+                <fig position="float" id="fig3">
+                  <label>Figure 3.</label>
+                  <caption>
+                    <p>Visualization of the custom IMC bone marrow panel. <bold>A,</bold> A custom IMC panel was designed consisting of antibodies against 31 markers to interrogate the multiple myeloma TiME in the bone marrow. <bold>B,</bold> Multiplexed image from Patient 9 posttreatment showing tumor–immune cell interactions: monocyte/macrophage marker (CD14<sup>+</sup>), NK cell receptor (NKG2D+) and its ligand ULBP-2/5/6, multiple myeloma marker (CD138<sup>+</sup>), T cell markers [CD4<sup>+</sup>, CD8a<sup>+</sup>, and forkhead box P3 (FOXP3)<sup>+</sup>], as well as the NK cytotoxicity receptor, NKp46<sup>+</sup>, and the T and NK-cell cytotoxicity marker, Granzyme. <bold>C,</bold> Patient 7 posttreatment sample showing the interaction between the inhibitory NK cell receptor NKG2A and its ligand, HLA-E. <bold>D,</bold> Patient 9 posttreatment sample showing HLA-ABC<sup>+</sup> cells expressing cytotoxic T cells (CD8a<sup>+</sup>). <bold>E,</bold> Patient 9 posttreatment sample showing HLA-DR and CD4 co-expression. <bold>F,</bold> Patient 10 posttreatment sample showing dendritic cell cross-priming: CD4<sup>+</sup> (T helper cells), CD8a<sup>+</sup> (cytotoxic T cells), and reovirus<sup>+</sup>CD163<sup>+</sup> cells (M2 macrophages). <bold>G,</bold> Image from Patient 10 posttreatment showing apoptotic multiple myeloma cells [CD138<sup>+</sup> and cleaved caspase-3 (CC3<sup>+</sup>)]. Histone H3<sup>+</sup> is used to highlight nuclei. <bold>H,</bold> Image from Patient 1 posttreatment showing the immune checkpoint interaction between PD-L1<sup>+</sup> multiple myeloma cells (CD138<sup>+</sup>) and PD-1<sup>+</sup> T cells (CD3<sup>+</sup>). <bold>I,</bold> Image from Patient 1 posttreatment showing the inhibitory receptor, lymphocyte-activation gene 3 (LAG3), on NK cells (CD16<sup>+</sup>). <bold>J,</bold> Patient 1 posttreatment sample showing IDO<sup>+</sup> positive monocyte/macrophages (CD68<sup>+</sup>). <bold>K,</bold> Patient 9 posttreatment sample showing T cell immunoglobulin mucin-3 (TIM3), an immune checkpoint receptor, on T cells (CD3<sup>+</sup>). <bold>L,</bold> Patient 10 posttreatment sample showing Ki-67 (proliferation marker) in T cells (CD3<sup>+</sup>) and multiple myeloma cells (CD138<sup>+</sup>). <bold>M,</bold> Patient 1 posttreatment sample showing the plasma cell markers CD138<sup>+</sup> and MUM1/IRF4<sup>+</sup>. <bold>N,</bold> Patient 1 posttreatment sample showing B cells (CD20<sup>+</sup>), megakaryocytes and endothelial cells (CD31<sup>+</sup>), leukocyte adhesion marker (CD11b<sup>+</sup>), monocyte/macrophages (CD68<sup>+</sup>), granulocytes (CD15<sup>+</sup>), and histone H3<sup>+</sup>.</p>
+                  </caption>
+                  <alt-text>Figure 3. Visualization of the custom IMC bone marrow panel. A, A custom IMC panel was designed consisting of antibodies against 31 markers to interrogate the multiple myeloma TiME in the bone marrow. B, Multiplexed image from Patient 9 posttreatment showing tumor–immune cell interactions: monocyte/macrophage marker (CD14+), NK cell receptor (NKG2D+) and its ligand ULBP-2/5/6, multiple myeloma marker (CD138+), T cell markers [CD4+, CD8a+, and forkhead box P3 (FOXP3)+], as well as the NK cytotoxicity receptor, NKp46+, and the T and NK-cell cytotoxicity marker, Granzyme. C, Patient 7 posttreatment sample showing the interaction between the inhibitory NK cell receptor NKG2A and its ligand, HLA-E. D, Patient 9 posttreatment sample showing HLA-ABC+ cells expressing cytotoxic T cells (CD8a+). E, Patient 9 posttreatment sample showing HLA-DR and CD4 co-expression. F, Patient 10 posttreatment sample showing dendritic cell cross-priming: CD4+ (T helper cells), CD8a+ (cytotoxic T cells), and reovirus+CD163+ cells (M2 macrophages). G, Image from Patient 10 posttreatment showing apoptotic multiple myeloma cells [CD138+ and cleaved caspase-3 (CC3+)]. Histone H3+ is used to highlight nuclei. H, Image from Patient 1 posttreatment showing the immune checkpoint interaction between PD-L1+ multiple myeloma cells (CD138+) and PD-1+ T cells (CD3+). I, Image from Patient 1 posttreatment showing the inhibitory receptor, lymphocyte-activation gene 3 (LAG3), on NK cells (CD16+). J, Patient 1 posttreatment sample showing IDO+ positive monocyte/macrophages (CD68+). K, Patient 9 posttreatment sample showing T cell immunoglobulin mucin-3 (TIM3), an immune checkpoint receptor, on T cells (CD3+). L, Patient 10 posttreatment sample showing Ki-67 (proliferation marker) in T cells (CD3+) and multiple myeloma cells (CD138+). M, Patient 1 posttreatment sample showing the plasma cell markers CD138+ and MUM1/IRF4+. N, Patient 1 posttreatment sample showing B cells (CD20+), megakaryocytes and endothelial cells (CD31+), leukocyte adhesion marker (CD11b+), monocyte/macrophages (CD68+), granulocytes (CD15+), and histone H3+.</alt-text>
+                  <graphic xlink:href="5087fig3" position="float"/>
+                </fig>
+                <p>NKG2D<sup>+</sup> NK cells were observed adjacent to multiple myeloma cells expressing the NKG2D cognate receptor ULBP-2/5/6 (<xref rid="fig3" ref-type="fig">Fig. 3B</xref>), whereas NKG2A<sup>+</sup> cells were adjacent to human leukocyte antigen (HLA)-E<sup>+</sup> cells (<xref rid="fig3" ref-type="fig">Fig. 3C</xref>). CD8<sup>+</sup> cells were positive for HLA-ABC (<xref rid="fig3" ref-type="fig">Fig. 3D</xref>), and CD4<sup>+</sup> cells were positive for HLA-DR (<xref rid="fig3" ref-type="fig">Fig. 3E</xref>). PELA+ CD163<sup>+</sup> cells were closely associated with CD4<sup>+</sup> and CD8<sup>+</sup> T cells indicating dendritic cell cross-priming following viral entry (<xref rid="fig3" ref-type="fig">Fig. 3F</xref>). Consistent with the IHC results, a proportion of multiple myeloma cells (CD138<sup>+</sup>) were apoptotic (CC3<sup>+</sup>, <xref rid="fig3" ref-type="fig">Fig. 3G</xref>), and PD-L1<sup>+</sup> multiple myeloma cells were adjacent to PD-1<sup>+</sup> CD3<sup>+</sup> cells (<xref rid="fig3" ref-type="fig">Fig. 3H</xref>). Distinct expression patterns were observed for other immune regulators, such as CD16<sup>+</sup> NK cells positive for negative regulator lymphocyte-activation gene 3 (LAG-3; <xref rid="fig3" ref-type="fig">Fig. 3I</xref>), CD68<sup>+</sup> macrophages positive for indoleamine 2,3-dioxygenase 1 (IDO1; <xref rid="fig3" ref-type="fig">Fig. 3J</xref>), and CD3<sup>+</sup> T cells positive for T-cell immunoglobin and mucin domain–containing protein 3 (TIM3; <xref rid="fig3" ref-type="fig">Fig. 3K</xref>). The proliferation marker Ki-67 (<xref rid="fig3" ref-type="fig">Fig. 3L</xref>) was detected in both T cells (CD3<sup>+</sup>) and multiple myeloma cells (CD138<sup>+</sup>), whereas the transcription factor MUM1/IRF4 (<xref rid="fig3" ref-type="fig">Fig. 3M</xref>) was observed only in multiple myeloma cells. Our comprehensive immune cell panel also detected other immune cell types, including B cells, granulocytes, and macrophages (<xref rid="fig3" ref-type="fig">Fig. 3N</xref>).</p>
+              </sec>
+              <sec id="sec3-9">
+                <title>Spatial proteomics reveals enhanced tumor–immune interactions in patients with multiple myeloma that respond to PELA/BZ/Dex</title>
+                <p>Up to three 1-mm<sup>2</sup> ROIs containing multiple myeloma and immune cells were segmented into single cells, yielding an average of 2,278 cells per ROI (70,633 cells total), as previously described (<xref rid="bib19" ref-type="bibr">19, 20, 23</xref>). Lineage marker expression, cell sizes, and cell shapes were hierarchically clustered using PhenoGraph (<xref rid="fig4" ref-type="fig">Fig. 4A</xref>; ref. <xref rid="bib34" ref-type="bibr">34</xref>), identifying distinct immune phenotype clusters: macrophages (CD163<sup>+</sup> or CD68<sup>+</sup>), B cells (CD20<sup>+</sup>), cytotoxic T cells (CD3<sup>+</sup>CD8<sup>+</sup>), NK cells (NKG2D<sup>+</sup>CD3<sup>−</sup> or NKp46<sup>+</sup>Granzyme B<sup>+</sup>CD3<sup>−</sup> or NKG2A<sup>+</sup>CD3<sup>−</sup>), monocytes (CD14<sup>+</sup>), granulocytes (CD11b<sup>+</sup>CD15<sup>+</sup>), T helper cells (CD3<sup>+</sup>CD4<sup>+</sup>), and endothelial cells or megakaryocytes (both CD31<sup>+</sup>). The application of PhenoGraph to the initial multiple myeloma phenotype identified a CD31<sup>+</sup> multiple myeloma cluster and a unique IP meta-cluster (CD138<sup>+</sup> IDO1<sup>+</sup>HLA-ABC<sup>High</sup>). To better visualize this meta-cluster, we imported custom phenotypes into ImaCytE (representative image in <xref rid="fig4" ref-type="fig">Fig. 4B</xref>; ref. <xref rid="bib24" ref-type="bibr">24</xref>) and applied tSNE analysis, which revealed each cluster as distinct (<xref rid="fig4" ref-type="fig">Fig. 4C</xref>). Although frequency analysis revealed heterogeneous cluster compositions across patients (<xref rid="fig4" ref-type="fig">Fig. 4D</xref>), the proportion of cytotoxic T cells was significantly higher in responders than in nonresponders in both pre- (<italic toggle="yes">P</italic> = 0.00117) and posttreatment (<italic toggle="yes">P</italic> = 0.00175) samples. This finding suggests that cytotoxic T-cell infiltration may be a determinant of the clinical response to PELA/BZ/Dex treatment. Granzyme B<sup>+</sup> NK and T cells also increased significantly in posttreatment samples compared with pretreatment samples, indicating increased immune cell activation (Supplementary Fig. S4A).</p>
+                <fig position="float" id="fig4">
+                  <label>Figure 4.</label>
+                  <caption>
+                    <p>PhenoGraph, tSNE, and cluster visualization. <bold>A,</bold> Unsupervised clustering was performed using the PhenoGraph algorithm. Clusters were annotated on the basis of the interpretation of each cluster's unique expression profile. <bold>B,</bold> ImaCytE visualization software highlights each cluster in a unique color on the original segmentation mask. <bold>C,</bold> tSNE dimensionality reduction algorithm shows that each cluster is unique and separate. The central legend is shared between panels <bold>B</bold> and <bold>C</bold>. <bold>D,</bold> Comparison of the frequencies of each cluster observed for each patient between pre- and posttreatment samples. Patients are grouped into nonresponders (Patients 9, 12, and 14) and responders (Patients 1, 7, and 10). The proportion of cytotoxic T cells is significantly higher in the responder group compared with the nonresponder group for both pretreatment [median (interquartile range): R, 8.96% (1.48%); NR, 5.73% (1.26%); <italic toggle="yes">P</italic> = 0.02, unpaired <italic toggle="yes">t</italic> test] and posttreatment samples [R, 9.73% (4.27%); NR, 2.98% (2.86%); <italic toggle="yes">P</italic> = 0.02, unpaired <italic toggle="yes">t</italic> test].</p>
+                  </caption>
+                  <alt-text>Figure 4. PhenoGraph, tSNE, and cluster visualization. A, Unsupervised clustering was performed using the PhenoGraph algorithm. Clusters were annotated on the basis of the interpretation of each cluster's unique expression profile. B, ImaCytE visualization software highlights each cluster in a unique color on the original segmentation mask. C, tSNE dimensionality reduction algorithm shows that each cluster is unique and separate. The central legend is shared between panels B and C. D, Comparison of the frequencies of each cluster observed for each patient between pre- and posttreatment samples. Patients are grouped into nonresponders (Patients 9, 12, and 14) and responders (Patients 1, 7, and 10). The proportion of cytotoxic T cells is significantly higher in the responder group compared with the nonresponder group for both pretreatment [median (interquartile range): R, 8.96% (1.48%); NR, 5.73% (1.26%); P = 0.02, unpaired t test] and posttreatment samples [R, 9.73% (4.27%); NR, 2.98% (2.86%); P = 0.02, unpaired t test].</alt-text>
+                  <graphic xlink:href="5087fig4" position="float"/>
+                </fig>
+                <p>Visual analysis of multiplexed images revealed fewer tumor-infiltrating CD8<sup>+</sup> T cells in nonresponder samples (<xref rid="fig5" ref-type="fig">Fig. 5A</xref>, top) than in responder samples (<xref rid="fig5" ref-type="fig">Fig. 5A</xref>, bottom). Neighborhood analysis using ImaCytE revealed significant posttreatment differences between nonresponders and responders. Representative images of the most commonly identified posttreatment neighborhood compositions revealed that in nonresponders, the most abundant posttreatment neighborhood consisted almost entirely of tumor cells (<xref rid="fig5" ref-type="fig">Fig. 5B</xref>, top), whereas, in responders, the most abundant neighborhood consisted of tumor cells located near immune cells (<xref rid="fig5" ref-type="fig">Fig. 5B</xref>, bottom), including cytotoxic T cells and macrophages, consistent with increased CD8<sup>+</sup> T-cell infiltration. We then examined the distances between tumor cells and various immune cells, including cytotoxic T cells, CD68<sup>+</sup> macrophages, NKG2A<sup>+</sup> NK cells, and T helper cells, and found that tumor cells were located significantly closer to cytotoxic T cells in responders than in nonresponders, after treatment (<xref rid="fig5" ref-type="fig">Fig. 5C</xref>; distances for each patient can be found in Supplementary Table S4). Notably, in posttreatment samples, cytotoxic T cells were 3-fold closer to multiple myeloma cells in responders than in nonresponders. A representative image from a responder (Patient 10) showing that areas with high multiple myeloma populations have high cytotoxic T-cell presence, whereas areas with low multiple myeloma populations have low numbers of cytotoxic T cells, can be found in Supplementary Fig. S4B. These findings suggest that the quantification of distances between tumor and cytotoxic T cells may allow for the assessment of posttreatment responses and the pretreatment prediction of which patients are likely to respond to therapy.</p>
+                <fig position="float" id="fig5">
+                  <label>Figure 5.</label>
+                  <caption>
+                    <p>Nearest neighbor analysis. <bold>A,</bold> Representative MCD viewer images depicting the proportions of cytotoxic T cells (green) in the most commonly identified posttreatment neighborhoods in bone marrow samples from nonresponders (top, 11,940 cells) and responders (bottom, 25,900 cells). CD138<sup>+</sup> multiple myeloma cells are shown in red. White boxes indicate the area shown in insets. Scale bar, 100 μm. <bold>B,</bold> ImaCytE spatial analysis highlighting the most abundant neighborhoods identified for both nonresponders (top) and responders (bottom). MM, multiple myeloma; CTC, cytotoxic T cell; MP, macrophage; Gran, granulocyte. <bold>C,</bold> Nearest neighbor violin plots comparing distances from various immune cell types to all myeloma cells in nonresponders (NR, green) and responders (R, red) in pre- (top, NR: 18,679 cells; R: 14,114 cells) and posttreatment (bottom, NR: 11,940 cells; R: 25,900) samples. Smaller distances indicate closer phenotypes. Black labels on each violin plot represent the median distance. Median (interquartile range) values are as follows. (pretreatment, top) Cytotoxic T cell: NR, 34.29 (33.70); R, 24.83 (23.08); <italic toggle="yes">P</italic> = 0.46. Macrophage (CD68<sup>+</sup>): NR, 32.87 (54.70); R, 29.72 (35.03); <italic toggle="yes">P</italic> = 0.974. NK (NKG2A<sup>+</sup>): NR, 42.93 (52.50); R, 32.54 (32.69); <italic toggle="yes">P</italic> = 0.483. T helper: NR, 52.00 (53.64); R, 55.48 (54.32); <italic toggle="yes">P</italic> = 0.94. (posttreatment, bottom) Cytotoxic T cell: NR, 64.57 (59.09); R, 21.33 (20.30); **<italic toggle="yes">P</italic> = 0.0093. Macrophage (CD68<sup>+</sup>): NR, 74.63 (75.62); R, 25.76 (33.83); <italic toggle="yes">P</italic> = 0.46. NK (NKG2A<sup>+</sup>): NR, 37.49 (74.93); R, 34.53 (46.66); <italic toggle="yes">P</italic> = 0.94. T helper: NR, 46.38 (56.71); R, 35.99 (45.51), <italic toggle="yes">P</italic> = 0.69. <bold>D,</bold> ImaCytE spatial analysis highlighting neighborhoods of low immune activity around a single non-IP myeloma cell (top, 5,514 cells analyzed) and increased immune activity around a single IP myeloma cell (bottom, 2,771 cells analyzed). CTC, cytotoxic T cell; MM (IP), IP multiple myeloma. MP, macrophage. <bold>E,</bold> Nearest neighbor distance violin plots comparing distances from various immune cell types to IP (green, 2,771 cells) and non-IP (red, 5,514 cells) myeloma cells in posttreatment samples. Smaller distances between MM cells and immune cells indicate closer proximity. Numeric labels on each violin plot represent the median distance. Median (interquartile range) values are as follows. Cytotoxic T cell: MM, 47.33 (57.86); MM (IP), 20.48 (19.91); *<italic toggle="yes">P</italic> = 0.028. Macrophage (CD68<sup>+</sup>): MM, 34.33 (62.62); MM (IP), 31.40 (41.07); <italic toggle="yes">P</italic> = 0.28. NK (NKG2A<sup>+</sup>): MM, 55.06 (62.66); MM (IP), 24.45 (31.35); <italic toggle="yes">P</italic> = 0.95. T helper: MM, 54.54 (57.62); MM (IP), 27.56 (30.10), <italic toggle="yes">P</italic> = 0.31. All comparisons were performed using Wilcoxon signed-rank tests (unpaired for comparisons between response type, paired for comparisons between treatment time points), followed by Benjamini–Hochberg multiple comparison adjustment.</p>
+                  </caption>
+                  <alt-text>Figure 5. Nearest neighbor analysis. A, Representative MCD viewer images depicting the proportions of cytotoxic T cells (green) in the most commonly identified posttreatment neighborhoods in bone marrow samples from nonresponders (top, 11,940 cells) and responders (bottom, 25,900 cells). CD138+ multiple myeloma cells are shown in red. White boxes indicate the area shown in insets. Scale bar, 100 μm. B, ImaCytE spatial analysis highlighting the most abundant neighborhoods identified for both nonresponders (top) and responders (bottom). MM, multiple myeloma; CTC, cytotoxic T cell; MP, macrophage; Gran, granulocyte. C, Nearest neighbor violin plots comparing distances from various immune cell types to all myeloma cells in nonresponders (NR, green) and responders (R, red) in pre- (top, NR: 18,679 cells; R: 14,114 cells) and posttreatment (bottom, NR: 11,940 cells; R: 25,900) samples. Smaller distances indicate closer phenotypes. Black labels on each violin plot represent the median distance. Median (interquartile range) values are as follows. (pretreatment, top) Cytotoxic T cell: NR, 34.29 (33.70); R, 24.83 (23.08); P = 0.46. Macrophage (CD68+): NR, 32.87 (54.70); R, 29.72 (35.03); P = 0.974. NK (NKG2A+): NR, 42.93 (52.50); R, 32.54 (32.69); P = 0.483. T helper: NR, 52.00 (53.64); R, 55.48 (54.32); P = 0.94. (posttreatment, bottom) Cytotoxic T cell: NR, 64.57 (59.09); R, 21.33 (20.30); **P = 0.0093. Macrophage (CD68+): NR, 74.63 (75.62); R, 25.76 (33.83); P = 0.46. NK (NKG2A+): NR, 37.49 (74.93); R, 34.53 (46.66); P = 0.94. T helper: NR, 46.38 (56.71); R, 35.99 (45.51), P = 0.69. D, ImaCytE spatial analysis highlighting neighborhoods of low immune activity around a single non-IP myeloma cell (top, 5,514 cells analyzed) and increased immune activity around a single IP myeloma cell (bottom, 2,771 cells analyzed). CTC, cytotoxic T cell; MM (IP), IP multiple myeloma. MP, macrophage. E, Nearest neighbor distance violin plots comparing distances from various immune cell types to IP (green, 2,771 cells) and non-IP (red, 5,514 cells) myeloma cells in posttreatment samples. Smaller distances between MM cells and immune cells indicate closer proximity. Numeric labels on each violin plot represent the median distance. Median (interquartile range) values are as follows. Cytotoxic T cell: MM, 47.33 (57.86); MM (IP), 20.48 (19.91); *P = 0.028. Macrophage (CD68+): MM, 34.33 (62.62); MM (IP), 31.40 (41.07); P = 0.28. NK (NKG2A+): MM, 55.06 (62.66); MM (IP), 24.45 (31.35); P = 0.95. T helper: MM, 54.54 (57.62); MM (IP), 27.56 (30.10), P = 0.31. All comparisons were performed using Wilcoxon signed-rank tests (unpaired for comparisons between response type, paired for comparisons between treatment time points), followed by Benjamini–Hochberg multiple comparison adjustment.</alt-text>
+                  <graphic xlink:href="5087fig5" position="float"/>
+                </fig>
+                <p>We next conducted a focused evaluation of the IMC data obtained for Patient 10, who had a 90% reduction in paraprotein sustained over 46 cycles and displayed significantly increased posttreatment levels of IP multiple myeloma cells (<xref rid="fig4" ref-type="fig">Fig. 4D</xref>), suggesting that the presence and expansion of IP multiple myeloma cells may serve as a marker of treatment response. Assessment of the most abundant neighborhood motifs associated with different multiple myeloma types revealed that non-IP multiple myeloma phenotypes (5,514 cells) were most commonly located in neighborhoods with few or no immune cells (<xref rid="fig5" ref-type="fig">Fig. 5D</xref>, left), whereas the IP phenotype (2,771 cells) was most commonly found in neighborhoods containing various immune cells, including cytotoxic T cells, NK cells, T helper cells, and macrophages (<xref rid="fig5" ref-type="fig">Fig. 5D</xref>, right; Supplementary Fig. S4C shows both non-IP multiple myeloma and IP multiple myeloma cells within the same ROI). Distance analysis revealed that IP multiple myeloma cells were significantly closer to cytotoxic T cells than non-IP multiple myeloma cells following PELA/BZ/Dex treatment (<xref rid="fig5" ref-type="fig">Fig. 5E</xref>; distances for each patient can be found in Supplementary Table S5). Our findings suggest that the spatial dynamics between IP multiple myeloma cells and cytotoxic T cells may also determine the patient response.</p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="sec4">
+              <title>Discussion</title>
+              <p>Our study demonstrates that intravenous PELA administration (at a dose as high as 9×10<sup>10</sup> TCID<sub>50</sub>) combined with BZ and Dex therapy is well-tolerated in patients with RRMM. Most of the reported therapy-related toxicities were transient flu-like symptoms that were easily managed with acetaminophen, anti-emetics, and anti-diarrheal medications and significantly diminished after completion of the first treatment cycle. As no DLTs occurred, the MTD was not technically reached. A 3×10<sup>10</sup> TCID<sub>50</sub> PELA dose administered for 5 consecutive days in 21- and 28-day treatment cycles (as monotherapy and in combination with chemotherapy) has been used in multiple studies to date (<xref rid="bib35" ref-type="bibr">35</xref>). Our study integrated PELA into the BZ/Dex regimen established for patients with RRMM using a 5-day PELA treatment–free interval between two consecutive rounds of daily PELA doses. This study represents the first clinical trial to evaluate the 9×10<sup>10</sup> TCID<sub>50</sub> PELA dose for any indication.</p>
+              <p>No objective responses were observed in a previous study of PELA monotherapy conducted among a similar population of patients with RRMM (<xref rid="bib36" ref-type="bibr">36</xref>). However, preclinical and clinical trial data indicate that PELA is more effective when combined with other anticancer agents (<xref rid="bib6" ref-type="bibr">6</xref>). Although all patients in the current study had prior BZ exposure, 6 of 11 response-evaluable patients (55%) showed a decrease in paraprotein following treatment. Preclinical studies have shown that proteasome inhibitors may enhance PELA activity through several mechanisms, including enhanced PELA-induced oncolysis and synergistic endoplasmic reticulum stress induction (<xref rid="bib6" ref-type="bibr">6, 37</xref>), and multiple mechanisms may have contributed to the patient responses observed in this trial.</p>
+              <p>Compared with nonresponders, responders to PELA/BZ/Dex therapy exhibited a larger proportion of multiple myeloma cells containing PELA protein, indicating active viral proliferation. The mechanism underlying the lack of viral proliferation in nonresponders is not immediately clear. Reoviral proliferation depends on a number of different factors, including an active transcriptional environment and a limited antiviral response (<xref rid="bib38" ref-type="bibr">38</xref>), and differences in any of these elements could inhibit proliferation. These differences are being actively studied in an ongoing clinical trial of reovirus, BZ, and pembrolizumab (NCT05514990).</p>
+              <p>In responders, viral proliferation was associated with increased apoptosis, indicated by the detection of increased abundance of cleaved caspase-3. Although BZ/Dex therapy may also induce apoptosis and nonresponders showed some increase in caspase-3<sup>+</sup> cells, only responders showed both PELA protein expression and a significant increase in caspase-3<sup>+</sup> cells after treatment. Therefore, PELA viral proliferation likely had direct apoptotic effects. In addition, the 2 patients with the best responses and who received the most treatment cycles (Patient 10, VGPR, 46 cycles and Patient 11, PR, 55 cycles) were on BZ maintenance prior to this trial. Patient 10 spent 12 months on BZ maintenance, whereas Patient 11 had progressed while on month 4 of BZ maintenance and had high-risk cytogenetic features (17p deletion and 1q amplification). The response to PELA/BZ/Dex treatment in these patients lasted far longer than would be expected for BZ retreatment alone (Patient 11: PFS of 45 months; Patient 10: PFS 52 months for PELA/BZ/Dex vs. 6.4 months expected for BZ retreatment; ref. <xref rid="bib39" ref-type="bibr">39</xref>). Patient 7 (PFS 314 days), who received 10 cycles of study treatment with a MR, experienced PD on another proteasome inhibitor, carfilzomib, suggesting that proteasome inhibition alone was not responsible for the observed outcome.</p>
+              <p>A preclinical study of chronic lymphocytic leukemia reported that PELA phenotypically and functionally activated patient NK cells resulting in enhanced NK cell killing (<xref rid="bib28" ref-type="bibr">28</xref>). Consistently, our data showed that oncolytic viral therapy induced the production of chemokines involved in T cell, NK cell, and monocyte homing (CXCL9, CXCL10, CXCL11, CCL20, IL18, CCL2, and CCL8) and activation (CD69), which may have contributed to TiME remodeling (<xref rid="bib40" ref-type="bibr">40</xref>). The observed upregulation in cytokines in both responders and nonresponders may have occurred in response to the presence of reovirus but may not require active viral replication. However, the presence of reovirus protein may be required for an anti-myeloma effect because the reoviral protein levels were higher in responders than in nonresponders.</p>
+              <p>Our IHC analysis revealed similar proportions of cytotoxic T cells in pre- and posttreatment bone marrow samples regardless of response status. However, in our IMC analysis, responders demonstrated a significant increase in cytotoxic T-cell proportions following treatment, which was not observed in nonresponders. Although IHC provides a broad overview of protein expression in the tumor tissue, IMC offers a close spatial analysis of the TiME immediately surrounding multiple myeloma cells. IMC revealed that multiple myeloma cells were more likely to be located in neighborhoods containing various immune cells, including cytotoxic T cells, NK cells, and macrophages, in responders than in nonresponders, and that the proportions of cytotoxic T cells in the immediate area surrounding multiple myeloma cells were significantly higher in responders than in nonresponders at posttreatment time points. These findings suggest that cytotoxic T cells may be more likely to cluster around multiple myeloma cells in responders and highlight the benefits of using IMC to better understand the spatial dynamics among cell types in the TiME. The relationship between spatial dynamics and clinical response warrants further investigation not only for PELA-based regimens but also for other immunomodulatory therapies. Validation of this technique and immunophenotype as a potential early predictor of response is of particular interest.</p>
+              <p>Other approaches are also being developed to predict response to therapy. A 12-chemokine signature associated with increased survival in patients with melanoma (<xref rid="bib26" ref-type="bibr">26</xref>) is being developed to predict the response to immune checkpoint inhibitor therapy. Eight of these 12 chemokines were measured in this study (CXCL9, CXCL10, CXCL11, CCL2, CCL3, CCL4, CCL8, and CCL9), and all were significantly increased posttreatment. Similarly, to predict response to pembrolizumab, a 6-gene panel has been developed, including CXCL9 and CXCL10, which were both increased in this study (<xref rid="bib25" ref-type="bibr">25</xref>).</p>
+              <p>Although the development of immunotherapy approaches is changing the cancer treatment paradigm, tumor cells proliferate by evading antitumor immune responses. Some tumor types have a T cell–inflamed phenotype characterized by high concentrations of infiltrating T cells and chemokine secretion, indicative of innate immune activation (<xref rid="bib41" ref-type="bibr">41</xref>). Because these tumors survive through an immune checkpoint-dependent mechanism, they respond well to single-agent immune checkpoint inhibitors. However, not all tumor types respond to single-agent approaches, and cancer types that lack the T cell–inflamed phenotype, including multiple myeloma, resist immune attack through immune system exclusion (<xref rid="bib7" ref-type="bibr">7</xref>). Consistently, no objective responses were reported in a clinical trial of single-agent pembrolizumab in multiple myeloma (<xref rid="bib42" ref-type="bibr">42</xref>). Alternative strategies are necessary to expand immunotherapy approaches to intrinsically immunologically “cold” cancer types.</p>
+              <p>The strategy of combining priming agents with immune checkpoint inhibitors in patients with RRMM was tested in a study examining pembrolizumab combined with lenalidomide, a potent inducer of the innate immune response (<xref rid="bib43" ref-type="bibr">43, 44</xref>). However, phase III studies of pembrolizumab + lenalidomide were halted due to significant toxicity. Oncolytic viruses represent attractive priming agents due to general tolerability, and several oncolytic viruses are being examined in multiple myeloma in ongoing clinical trials, including PELA, measles virus (NCT00450814 and NCT02192775), and vesicular stomatitis virus (NCT00450814; ref. <xref rid="bib45" ref-type="bibr">45</xref>). Although oncolytic viruses display anticancer activity when used alone or in combination with conventional chemotherapy, their greatest potential may be their ability to sensitize cancers to immune checkpoint inhibitor therapies (<xref rid="bib46" ref-type="bibr">46, 47</xref>). For example, a recent phase I study showed that the oncolytic herpes virus, talimogene laherparepvec, enhanced the response to immune checkpoint blockade by increasing CD8<sup>+</sup> T-cell infiltration and PD-L1 protein expression (<xref rid="bib47" ref-type="bibr">47</xref>). Talimogene laherparepvec is now FDA approved as an oncolytic viral therapy for melanoma (<xref rid="bib48" ref-type="bibr">48</xref>). We previously demonstrated that PELA treatment selectively induces significantly increased PD-L1 expression in primary multiple myeloma cells and multiple myeloma cell lines (<xref rid="bib7" ref-type="bibr">7</xref>). Our current study demonstrates that PELA has PD-L1–related immune-priming effects, supporting its potential to sensitize multiple myeloma cells for improved responses to immune checkpoint inhibitor therapy.</p>
+              <p>On the basis of the results of this phase Ib, we designed a follow-up phase I/II clinical trial of PELA, BZ, and pembrolizumab (NCT05514990) to further investigate and validate PELA's immune reprogramming effects in patients with multiple myeloma. This trial is now actively accruing patients. PELA is also being evaluated in combination with other therapies [PELA, carfilzomib, and nivolumab (NCT03605719)], including monoclonal antibodies targeting markers that were enriched in the IP multiple myeloma TiME in this study: NKG2A (monalizumab; refs. <xref rid="bib49" ref-type="bibr">49, 50</xref>) and CD47 (magrolimab; ref. <xref rid="bib51" ref-type="bibr">51</xref>).</p>
+              <p>One limitation of this study, which we hope will be better addressed in future studies, was the overrepresentation of male patients among the study cohort. This is not surprising given that multiple myeloma is known to disproportionately affect men (1.53 men are affected for every 1 woman). In a random population of 15 patients with multiple myeloma, we would expect to encounter 9 men and 6 women. This is similar to the proportions observed in our study (10 men and 4 women), indicating that our study population is representative of the overall multiple myeloma population. We used a non-random sampling approach, enrolling consecutive patients who met our study criteria and were referred to our treatment center without consideration for demographic factors. The underrepresentation of women in clinical trials of multiple myeloma is a known issue in the field, and future studies should take this into consideration when designing eligibility and enrollment criteria to strive for better male:female ratios.</p>
+              <p>This is the first study to use targeted proteomics via IMC to comprehensively characterize changes in the TiME of patients with RRMM following oncolytic virotherapy. Although prior studies have attempted to perform single-cell analyses to assess changes in gene expression correlated with disease stages, many have focused solely on the immune component (CD138<sup>−</sup>), and those that have examined multiple myeloma cells have used bone marrow aspirates or utilized filtration methods that disrupted the spatial relationships between immune cells and multiple myeloma cells (<xref rid="bib52" ref-type="bibr">52–54</xref>). Our application of IMC allowed us to evaluate the multifaceted immune response to oncolytic viral therapy through the simultaneous analysis of protein expression and spatial information in both immune cells and multiple myeloma cells, resulting in high-dimensional marker detection and the detection of a novel IP multiple myeloma phenotype (CD138<sup>+</sup>IDO1<sup>+</sup>HLA-ABC<sup>High</sup>). Our results indicate that virotherapy was associated with a shift from the typically “cold” multiple myeloma TiME to a “hot” phenotype in a subset of responding patients, favoring an anti–multiple myeloma immune response. Our findings suggest that IMC-based analyses of biopsy tissues may be able to validate the immune-priming effects of oncolytic viral therapy and identify potential “good” responders prior to initiating treatment. Further investigations of the application of IMC in response prediction are warranted. Collectively, our findings not only establish the safety and immunomodulatory effects of PELA in multiple myeloma combination therapy but also provide rationale for developing new combination approaches able to exploit virotherapy-induced changes in the TiME, particularly using immune checkpoint inhibitors. Our ongoing phase I/II clinical trial of PELA, BZ, and pembrolizumab (NCT05514990) will rigorously test this strategy, and our planned correlative analyses will yield deeper mechanistic insights into the relationship between PELA's architectural reorganization of the TiME and patient outcomes.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Material</title>
+              <supplementary-material position="float" content-type="local-data">
+                <label>Supplementary Figure S1</label>
+                <caption>
+                  <p>Supplementary Figure 1. Induced expression of cytokines, CD69 in lymphocytes, and PD-L1 in MM cells with no changes in T cell clonality</p>
+                </caption>
+                <media xlink:href="ccr-23-0229_supplementary_figure_s1_suppfs1.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material position="float" content-type="local-data">
+                <label>Supplementary Figure S2</label>
+                <caption>
+                  <p>Supplementary Figure 2. TCR analysis</p>
+                </caption>
+                <media xlink:href="ccr-23-0229_supplementary_figure_s2_suppfs2.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material position="float" content-type="local-data">
+                <label>Supplementary Figure S3</label>
+                <caption>
+                  <p>Supplementary Figure 3. Imaging mass cytometry (IMC) staining overview</p>
+                </caption>
+                <media xlink:href="ccr-23-0229_supplementary_figure_s3_suppfs3.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material position="float" content-type="local-data">
+                <label>Supplementary Figure S4</label>
+                <caption>
+                  <p>Supplementary Figure 4. Increased immune cell activity observed by imaging mass cytometry (IMC)</p>
+                </caption>
+                <media xlink:href="ccr-23-0229_supplementary_figure_s4_suppfs4.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material position="float" content-type="local-data">
+                <label>Supplementary Methods S1</label>
+                <caption>
+                  <p>Supplementary Methods</p>
+                </caption>
+                <media xlink:href="ccr-23-0229_supplementary_methods_s1_suppms1.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material position="float" content-type="local-data">
+                <label>Supplementary Table S1</label>
+                <caption>
+                  <p>Supplementary Table 1. Detailed IMC panel</p>
+                </caption>
+                <media xlink:href="ccr-23-0229_supplementary_table_s1_suppts1.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material position="float" content-type="local-data">
+                <label>Supplementary Table S2</label>
+                <caption>
+                  <p>Supplementary Table 2: Representativeness of Study Participants</p>
+                </caption>
+                <media xlink:href="ccr-23-0229_supplementary_table_s2_suppts2.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material position="float" content-type="local-data">
+                <label>Supplementary Table S3</label>
+                <caption>
+                  <p>Supplementary Table 3. Toxicity summary excluding toxicities defined as unrelated to either bortezomib or pelareorep</p>
+                </caption>
+                <media xlink:href="ccr-23-0229_supplementary_table_s3_suppts3.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material position="float" content-type="local-data">
+                <label>Supplementary Table S4</label>
+                <caption>
+                  <p>Supplementary Table 4. Distance from tumor cell to immune cell for each patient (Figure 5C)</p>
+                </caption>
+                <media xlink:href="ccr-23-0229_supplementary_table_s4_suppts4.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material position="float" content-type="local-data">
+                <label>Supplementary Table S5</label>
+                <caption>
+                  <p>Supplementary Table 5. Distance from tumor cell to immune cell for each patient (Figure 5E)</p>
+                </caption>
+                <media xlink:href="ccr-23-0229_supplementary_table_s5_suppts5.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <title>Acknowledgments</title>
+              <p>This clinical trial was funded by a grant from the Whittier Foundation (to K.R. Kelly) and by Oncolytics Biotech Inc (to K.R. Kelly). The correlative studies were funded by NIH/NCI grant R01CA190789 (to S.T. Nawrocki) and by Oncolytics Biotech Inc. Imaging mass cytometry was supported by funding from the Ming Hsieh Institute at the University of Southern California (to K.R. Kelly, A. Merchant, and P. Kuhn). Medical editing support was funded by Oncolytics Biotech Inc. Statistical analysis support was provided by the Norris Comprehensive Cancer Center Data Science Core, supported in part by award number P30CA014089 from the NIH/NCI.</p>
+              <p>The authors would like to acknowledge all of the patients who participated in this study. The authors thank Lisa Giles, PhD, at BioScience Writers, LLC, for medical editing support.</p>
+              <p>The publication costs of this article were defrayed in part by the payment of publication fees. Therefore, and solely to indicate this fact, this article is hereby marked “advertisement” in accordance with 18 USC section 1734.</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="supplementary-material">
+                <p><bold>Note:</bold> Supplementary data for this article are available at Clinical Cancer Research Online (http://clincancerres.aacrjournals.org/).</p>
+              </fn>
+            </fn-group>
+            <sec id="sec5">
+              <title>Authors' Disclosures</title>
+              <p>S.T. Nawrocki reports other support from Majestic Therapeutics, LLC, outside the submitted work. J. Olea reports Grant P30 CA014089 from NIH/National Cancer Center Core Grants during the conduct of the study; and personal fees from Standard Biotools outside the submitted work. H. Dadrastoussi reports Grant P30 CA014089 from NIH/National Cancer Center Core Grants during the conduct of the study. K. Wu reports grants from NIH during the conduct of the study. A.R. Colombo reports that the science was performed by Dr. Kevin Kelly's lab and his academic research team, which includes A.R. Colombo; that the reolysin drug was provided with a supportive relationship from a pharmaceutical company interested in reolysin for multiple myeloma in a collaboration and supportive relationship; and that the pharmaceutical company was not involved with the science of the writing of the manuscript but there was, to A.R. Colombo's knowledge, support of the drug through the company in a collaborative relationship with a company. M. Coffey reports personal fees and other support from Oncolytics Biotech Inc. during the conduct of the study; personal fees from Oncolytics Biotech Inc. outside the submitted work; in addition, M. Coffey has a patent for US-20180344853-A1 issued to Oncolytics Biotech Inc. J.S. Carew reports other support from Majestic Therapeutics, LLC, outside the submitted work. P. Fields reports personal fees from Adaptive Biotechnologies outside the submitted work. A. Merchant reports personal fees from Oncovalent and from Novartis outside the submitted work. K.R. Kelly reports grants from Oncolytics Biotech Inc., National Cancer Center Core Grants, Ming Hsieh Institute at the University of Southern California, Merck, Whittier Initiative at the University of Southern California–Translational Research during the conduct of the study, and Takeda outside the submitted work; and personal fees from Janssen, Ipsen Biopharmaceuticals, AstraZeneca, Karyopharm Therapeutics, Servier Pharmaceuticals, Gilead Sciences Inc., Seagen Inc., Eli Lilly and Company, Bristol-Myers Squibb, GSK, AbbVie, ACI Clinical, Denovo Biopharma, Incyte Pharmaceuticals, TG Therapeutics, Inc, Epizyme, and Sanofi. No disclosures were reported by the other authors.</p>
+            </sec>
+            <sec id="sec6">
+              <title>Disclaimer</title>
+              <p>The content is solely the responsibility of the authors and does not necessarily represent the official views of the NCI or NIH.</p>
+            </sec>
+            <sec id="sec7">
+              <title>Authors' Contributions</title>
+              <p><bold>S.T. Nawrocki:</bold> Conceptualization, data curation, formal analysis, funding acquisition, validation, visualization, methodology, writing–original draft, writing–review and editing. <bold>J. Olea:</bold> Data curation, software, formal analysis, validation, investigation, visualization, methodology, writing–original draft, writing–review and editing. <bold>C. Villa Celi:</bold> Investigation, visualization. <bold>H. Dadrastoussi:</bold> Data curation, formal analysis, validation, investigation, visualization. <bold>K. Wu:</bold> Formal analysis, funding acquisition, validation, investigation, visualization, methodology. <bold>D. Tsao-Wei:</bold> Formal analysis, funding acquisition, validation, investigation, visualization, methodology. <bold>A. Colombo:</bold> Formal analysis, funding acquisition, validation, investigation, visualization, methodology, project administration, writing–review and editing. <bold>M. Coffey:</bold> Formal analysis, funding acquisition, validation, investigation, visualization, methodology, project administration, writing–review and editing. <bold>E. Fernandez Hernandez:</bold> Formal analysis, validation, investigation, visualization, methodology, project administration, writing–review and editing. <bold>X. Chen:</bold> Conceptualization, resources, formal analysis, funding acquisition, validation, investigation, visualization, methodology, project administration, writing–review and editing. <bold>G.J. Nuovo:</bold> Conceptualization, resources, formal analysis, funding acquisition, validation, investigation, visualization, methodology, writing–review and editing. <bold>J.S. Carew:</bold> Conceptualization, resources, formal analysis, funding acquisition, validation, investigation, visualization, methodology, writing–review and editing. <bold>A.F. Mohrbacher:</bold> Conceptualization, resources, formal analysis, funding acquisition, validation, investigation, visualization, methodology, writing–review and editing. <bold>P. Fields:</bold> Conceptualization, resources, formal analysis, funding acquisition, validation, investigation, visualization, methodology, writing–review and editing. <bold>P. Kuhn:</bold> Conceptualization, resources, data curation, formal analysis, supervision, funding acquisition, validation, investigation, visualization, methodology, writing–original draft, project administration, writing–review and editing. <bold>I. Siddiqi:</bold> Conceptualization, resources, data curation, formal analysis, supervision, funding acquisition, validation, investigation, visualization, methodology, writing–original draft, project administration, writing–review and editing. <bold>A. Merchant:</bold> Conceptualization, resources, data curation, formal analysis, supervision, funding acquisition, validation, investigation, visualization, methodology, writing–original draft, project administration, writing–review and editing. <bold>K.R. Kelly:</bold> Conceptualization, resources, data curation, formal analysis, supervision, funding acquisition, validation, investigation, visualization, methodology, writing–original draft, project administration, writing–review and editing.</p>
+            </sec>
+            <ref-list>
+              <title>References</title>
+              <ref id="bib1">
+                <label>1.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Siegel</surname><given-names>RL</given-names></string-name>, <string-name><surname>Miller</surname><given-names>KD</given-names></string-name>, <string-name><surname>Jemal</surname><given-names>A</given-names></string-name></person-group>. <article-title>Cancer statistics, 2017</article-title>. 
+<source>CA Cancer J Clin</source><year>2017</year>;<volume>67</volume>:<fpage>7</fpage>–<lpage>30</lpage>.<pub-id pub-id-type="pmid">28055103</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib2">
+                <label>2.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kyle</surname><given-names>RA</given-names></string-name>, <string-name><surname>Gertz</surname><given-names>MA</given-names></string-name>, <string-name><surname>Witzig</surname><given-names>TE</given-names></string-name>, <string-name><surname>Lust</surname><given-names>JA</given-names></string-name>, <string-name><surname>Lacy</surname><given-names>MQ</given-names></string-name>, <string-name><surname>Dispenzieri</surname><given-names>A</given-names></string-name>, 
+<etal/></person-group>. <article-title>Review of 1027 patients with newly diagnosed multiple myeloma</article-title>. 
+<source>Mayo Clin Proc</source><year>2003</year>;<volume>78</volume>:<fpage>21</fpage>–<lpage>33</lpage>.<pub-id pub-id-type="pmid">12528874</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib3">
+                <label>3.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Laubach</surname><given-names>J</given-names></string-name>, <string-name><surname>Garderet</surname><given-names>L</given-names></string-name>, <string-name><surname>Mahindra</surname><given-names>A</given-names></string-name>, <string-name><surname>Gahrton</surname><given-names>G</given-names></string-name>, <string-name><surname>Caers</surname><given-names>J</given-names></string-name>, <string-name><surname>Sezer</surname><given-names>O</given-names></string-name>, 
+<etal/></person-group>. <article-title>Management of relapsed multiple myeloma: recommendations of the International Myeloma Working Group</article-title>. 
+<source>Leukemia</source><year>2016</year>;<volume>30</volume>:<fpage>1005</fpage>–<lpage>17</lpage>.<pub-id pub-id-type="pmid">26710887</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib4">
+                <label>4.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Bobin</surname><given-names>A</given-names></string-name>, <string-name><surname>Leleu</surname><given-names>X</given-names></string-name></person-group>. <article-title>Recent advances in the treatment of multiple myeloma: a brief review</article-title>. 
+<source>Fac Rev</source><year>2022</year>;<volume>11</volume>:<fpage>28</fpage>.<pub-id pub-id-type="pmid">36225211</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib5">
+                <label>5.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kelly</surname><given-names>KR</given-names></string-name>, <string-name><surname>Espitia</surname><given-names>CM</given-names></string-name>, <string-name><surname>Zhao</surname><given-names>W</given-names></string-name>, <string-name><surname>Wendlandt</surname><given-names>E</given-names></string-name>, <string-name><surname>Tricot</surname><given-names>G</given-names></string-name>, <string-name><surname>Zhan</surname><given-names>F</given-names></string-name>, 
+<etal/></person-group>. <article-title>Junctional adhesion molecule-A is overexpressed in advanced multiple myeloma and determines response to oncolytic reovirus</article-title>. 
+<source>Oncotarget</source><year>2015</year>;<volume>6</volume>:<fpage>41275</fpage>–<lpage>89</lpage>.<pub-id pub-id-type="pmid">26513296</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib6">
+                <label>6.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kelly</surname><given-names>KR</given-names></string-name>, <string-name><surname>Espitia</surname><given-names>CM</given-names></string-name>, <string-name><surname>Mahalingam</surname><given-names>D</given-names></string-name>, <string-name><surname>Oyajobi</surname><given-names>BO</given-names></string-name>, <string-name><surname>Coffey</surname><given-names>M</given-names></string-name>, <string-name><surname>Giles</surname><given-names>FJ</given-names></string-name>, 
+<etal/></person-group>. <article-title>Reovirus therapy stimulates endoplasmic reticular stress, NOXA induction, and augments bortezomib-mediated apoptosis in multiple myeloma</article-title>. 
+<source>Oncogene</source><year>2012</year>;<volume>31</volume>:<fpage>3023</fpage>–<lpage>38</lpage>.<pub-id pub-id-type="pmid">22002308</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib7">
+                <label>7.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kelly</surname><given-names>KR</given-names></string-name>, <string-name><surname>Espitia</surname><given-names>CM</given-names></string-name>, <string-name><surname>Zhao</surname><given-names>W</given-names></string-name>, <string-name><surname>Wu</surname><given-names>K</given-names></string-name>, <string-name><surname>Visconte</surname><given-names>V</given-names></string-name>, <string-name><surname>Anwer</surname><given-names>F</given-names></string-name>, 
+<etal/></person-group>. <article-title>Oncolytic reovirus sensitizes multiple myeloma cells to anti–PD-L1 therapy</article-title>. 
+<source>Leukemia</source><year>2018</year>;<volume>32</volume>:<fpage>230</fpage>–<lpage>3</lpage>.<pub-id pub-id-type="pmid">28832023</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib8">
+                <label>8.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Errington</surname><given-names>F</given-names></string-name>, <string-name><surname>Steele</surname><given-names>L</given-names></string-name>, <string-name><surname>Prestwich</surname><given-names>R</given-names></string-name>, <string-name><surname>Harrington</surname><given-names>KJ</given-names></string-name>, <string-name><surname>Pandha</surname><given-names>HS</given-names></string-name>, <string-name><surname>Vidal</surname><given-names>L</given-names></string-name>, 
+<etal/></person-group>. <article-title>Reovirus activates human dendritic cells to promote innate antitumor immunity</article-title>. 
+<source>J Immunol</source><year>2008</year>;<volume>180</volume>:<fpage>6018</fpage>–<lpage>26</lpage>.<pub-id pub-id-type="pmid">18424722</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib9">
+                <label>9.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Keren</surname><given-names>L</given-names></string-name>, <string-name><surname>Bosse</surname><given-names>M</given-names></string-name>, <string-name><surname>Marquez</surname><given-names>D</given-names></string-name>, <string-name><surname>Angoshtari</surname><given-names>R</given-names></string-name>, <string-name><surname>Jain</surname><given-names>S</given-names></string-name>, <string-name><surname>Varma</surname><given-names>S</given-names></string-name>, 
+<etal/></person-group>. <article-title>A structured tumor-immune microenvironment in triple negative breast cancer revealed by multiplexed ion beam imaging</article-title>. 
+<source>Cell</source><year>2018</year>;<volume>174</volume>:<fpage>1373</fpage>–<lpage>87</lpage>.<pub-id pub-id-type="pmid">30193111</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib10">
+                <label>10.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Phillips</surname><given-names>D</given-names></string-name>, <string-name><surname>Schurch</surname><given-names>CM</given-names></string-name>, <string-name><surname>Khodadoust</surname><given-names>MS</given-names></string-name>, <string-name><surname>Kim</surname><given-names>YH</given-names></string-name>, <string-name><surname>Nolan</surname><given-names>GP</given-names></string-name>, <string-name><surname>Jiang</surname><given-names>S</given-names></string-name></person-group>. <article-title>Highly multiplexed phenotyping of immunoregulatory proteins in the tumor microenvironment by CODEX tissue imaging</article-title>. 
+<source>Front Immunol</source><year>2021</year>;<volume>12</volume>:<fpage>687673</fpage>.<pub-id pub-id-type="pmid">34093591</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib11">
+                <label>11.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Nerurkar</surname><given-names>SN</given-names></string-name>, <string-name><surname>Goh</surname><given-names>D</given-names></string-name>, <string-name><surname>Cheung</surname><given-names>CCL</given-names></string-name>, <string-name><surname>Nga</surname><given-names>PQY</given-names></string-name>, <string-name><surname>Lim</surname><given-names>JCT</given-names></string-name>, <string-name><surname>Yeong</surname><given-names>JPS</given-names></string-name></person-group>. <article-title>Transcriptional spatial profiling of cancer tissues in the era of immunotherapy: the potential and promise</article-title>. 
+<source>Cancers</source><year>2020</year>;<volume>12</volume>:<fpage>2572</fpage>.<pub-id pub-id-type="pmid">32917035</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib12">
+                <label>12.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kumar</surname><given-names>S</given-names></string-name>, <string-name><surname>Paiva</surname><given-names>B</given-names></string-name>, <string-name><surname>Anderson</surname><given-names>KC</given-names></string-name>, <string-name><surname>Durie</surname><given-names>B</given-names></string-name>, <string-name><surname>Landgren</surname><given-names>O</given-names></string-name>, <string-name><surname>Moreau</surname><given-names>P</given-names></string-name>, 
+<etal/></person-group>. <article-title>International Myeloma Working Group consensus criteria for response and minimal residual disease assessment in multiple myeloma</article-title>. 
+<source>Lancet Oncol</source><year>2016</year>;<volume>17</volume>:<fpage>e328</fpage>–<lpage>e46</lpage>.<pub-id pub-id-type="pmid">27511158</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib13">
+                <label>13.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Durie</surname><given-names>BG</given-names></string-name>, <string-name><surname>Harousseau</surname><given-names>JL</given-names></string-name>, <string-name><surname>Miguel</surname><given-names>JS</given-names></string-name>, <string-name><surname>Blade</surname><given-names>J</given-names></string-name>, <string-name><surname>Barlogie</surname><given-names>B</given-names></string-name>, <string-name><surname>Anderson</surname><given-names>K</given-names></string-name>, 
+<etal/></person-group>. <article-title>International uniform response criteria for multiple myeloma</article-title>. 
+<source>Leukemia</source><year>2006</year>;<volume>20</volume>:<fpage>1467</fpage>–<lpage>73</lpage>.<pub-id pub-id-type="pmid">16855634</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib14">
+                <label>14.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Nuovo</surname><given-names>GJ</given-names></string-name></person-group>. <article-title>In situ detection of microRNAs in paraffin-embedded, formalin-fixed tissues and the co-localization of their putative targets</article-title>. 
+<source>Methods</source><year>2010</year>;<volume>52</volume>:<fpage>307</fpage>–<lpage>15</lpage>.<pub-id pub-id-type="pmid">20723602</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib15">
+                <label>15.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Carlson</surname><given-names>CS</given-names></string-name>, <string-name><surname>Emerson</surname><given-names>RO</given-names></string-name>, <string-name><surname>Sherwood</surname><given-names>AM</given-names></string-name>, <string-name><surname>Desmarais</surname><given-names>C</given-names></string-name>, <string-name><surname>Chung</surname><given-names>MW</given-names></string-name>, <string-name><surname>Parsons</surname><given-names>JM</given-names></string-name>, 
+<etal/></person-group>. <article-title>Using synthetic templates to design an unbiased multiplex PCR assay</article-title>. 
+<source>Nat Commun</source><year>2013</year>;<volume>4</volume>:<fpage>2680</fpage>.<pub-id pub-id-type="pmid">24157944</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib16">
+                <label>16.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>DeWitt</surname><given-names>WS</given-names></string-name>, <string-name><surname>Emerson</surname><given-names>RO</given-names></string-name>, <string-name><surname>Lindau</surname><given-names>P</given-names></string-name>, <string-name><surname>Vignali</surname><given-names>M</given-names></string-name>, <string-name><surname>Snyder</surname><given-names>TM</given-names></string-name>, <string-name><surname>Desmarais</surname><given-names>C</given-names></string-name>, 
+<etal/></person-group>. <article-title>Dynamics of the cytotoxic T-cell response to a model of acute viral infection</article-title>. 
+<source>J Virol</source><year>2015</year>;<volume>89</volume>:<fpage>4517</fpage>–<lpage>26</lpage>.<pub-id pub-id-type="pmid">25653453</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib17">
+                <label>17.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Giesen</surname><given-names>C</given-names></string-name>, <string-name><surname>Wang</surname><given-names>HA</given-names></string-name>, <string-name><surname>Schapiro</surname><given-names>D</given-names></string-name>, <string-name><surname>Zivanovic</surname><given-names>N</given-names></string-name>, <string-name><surname>Jacobs</surname><given-names>A</given-names></string-name>, <string-name><surname>Hattendorf</surname><given-names>B</given-names></string-name>, 
+<etal/></person-group>. <article-title>Highly multiplexed imaging of tumor tissues with subcellular resolution by mass cytometry</article-title>. 
+<source>Nat Methods</source><year>2014</year>;<volume>11</volume>:<fpage>417</fpage>–<lpage>22</lpage>.<pub-id pub-id-type="pmid">24584193</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib18">
+                <label>18.</label>
+                <mixed-citation publication-type="other"><person-group person-group-type="author"><string-name><surname>Riccardo</surname><given-names>VZT</given-names></string-name>, <string-name><surname>Bodenmiller</surname><given-names>B</given-names></string-name></person-group>. <article-title>ImcSegmentationPipeline: a pixelclassification based multiplexed image segmentation pipeline</article-title>. 
+<year>2022</year>.</mixed-citation>
+              </ref>
+              <ref id="bib19">
+                <label>19.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Berg</surname><given-names>S</given-names></string-name>, <string-name><surname>Kutra</surname><given-names>D</given-names></string-name>, <string-name><surname>Kroeger</surname><given-names>T</given-names></string-name>, <string-name><surname>Straehle</surname><given-names>CN</given-names></string-name>, <string-name><surname>Kausler</surname><given-names>BX</given-names></string-name>, <string-name><surname>Haubold</surname><given-names>C</given-names></string-name>, 
+<etal/></person-group>. <article-title>ilastik: interactive machine learning for (bio)image analysis</article-title>. 
+<source>Nat Methods</source><year>2019</year>;<volume>16</volume>:<fpage>1226</fpage>–<lpage>32</lpage>.<pub-id pub-id-type="pmid">31570887</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib20">
+                <label>20.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>McQuin</surname><given-names>C</given-names></string-name>, <string-name><surname>Goodman</surname><given-names>A</given-names></string-name>, <string-name><surname>Chernyshev</surname><given-names>V</given-names></string-name>, <string-name><surname>Kamentsky</surname><given-names>L</given-names></string-name>, <string-name><surname>Cimini</surname><given-names>BA</given-names></string-name>, <string-name><surname>Karhohs</surname><given-names>KW</given-names></string-name>, 
+<etal/></person-group>. <article-title>CellProfiler 3.0: Next-generation image processing for biology</article-title>. 
+<source>PLoS Biol</source><year>2018</year>;<volume>16</volume>:<fpage>e2005970</fpage>.<pub-id pub-id-type="pmid">29969450</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib21">
+                <label>21.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Jackson</surname><given-names>HW</given-names></string-name>, <string-name><surname>Fischer</surname><given-names>JR</given-names></string-name>, <string-name><surname>Zanotelli</surname><given-names>VRT</given-names></string-name>, <string-name><surname>Ali</surname><given-names>HR</given-names></string-name>, <string-name><surname>Mechera</surname><given-names>R</given-names></string-name>, <string-name><surname>Soysal</surname><given-names>SD</given-names></string-name>, 
+<etal/></person-group>. <article-title>The single-cell pathology landscape of breast cancer</article-title>. 
+<source>Nature</source><year>2020</year>;<volume>578</volume>:<fpage>615</fpage>–<lpage>20</lpage>.<pub-id pub-id-type="pmid">31959985</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib22">
+                <label>22.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Levine</surname><given-names>JH</given-names></string-name>, <string-name><surname>Simonds</surname><given-names>EF</given-names></string-name>, <string-name><surname>Bendall</surname><given-names>SC</given-names></string-name>, <string-name><surname>Davis</surname><given-names>KL</given-names></string-name>, <string-name><surname>Amir el</surname><given-names>AD</given-names></string-name>, <string-name><surname>Tadmor</surname><given-names>MD</given-names></string-name>, 
+<etal/></person-group>. <article-title>Data-driven phenotypic dissection of AML reveals progenitor-like cells that correlate with prognosis</article-title>. 
+<source>Cell</source><year>2015</year>;<volume>162</volume>:<fpage>184</fpage>–<lpage>97</lpage>.<pub-id pub-id-type="pmid">26095251</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib23">
+                <label>23.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Schapiro</surname><given-names>D</given-names></string-name>, <string-name><surname>Jackson</surname><given-names>HW</given-names></string-name>, <string-name><surname>Raghuraman</surname><given-names>S</given-names></string-name>, <string-name><surname>Fischer</surname><given-names>JR</given-names></string-name>, <string-name><surname>Zanotelli</surname><given-names>VRT</given-names></string-name>, <string-name><surname>Schulz</surname><given-names>D</given-names></string-name>, 
+<etal/></person-group>. <article-title>histoCAT: analysis of cell phenotypes and interactions in multiplex image cytometry data</article-title>. 
+<source>Nat Methods</source><year>2017</year>;<volume>14</volume>:<fpage>873</fpage>–<lpage>6</lpage>.<pub-id pub-id-type="pmid">28783155</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib24">
+                <label>24.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Somarakis</surname><given-names>A</given-names></string-name>, <string-name><surname>Van Unen</surname><given-names>V</given-names></string-name>, <string-name><surname>Koning</surname><given-names>F</given-names></string-name>, <string-name><surname>Lelieveldt</surname><given-names>B</given-names></string-name>, <string-name><surname>Hollt</surname><given-names>T</given-names></string-name></person-group>. <article-title>ImaCytE: visual exploration of cellular micro-environments for imaging mass cytometry data</article-title>. 
+<source>IEEE Trans Vis Comput Graph</source><year>2021</year>;<volume>27</volume>:<fpage>98</fpage>–<lpage>110</lpage>.<pub-id pub-id-type="pmid">31369380</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib25">
+                <label>25.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ayers</surname><given-names>M</given-names></string-name>, <string-name><surname>Lunceford</surname><given-names>J</given-names></string-name>, <string-name><surname>Nebozhyn</surname><given-names>M</given-names></string-name>, <string-name><surname>Murphy</surname><given-names>E</given-names></string-name>, <string-name><surname>Loboda</surname><given-names>A</given-names></string-name>, <string-name><surname>Kaufman</surname><given-names>DR</given-names></string-name>, 
+<etal/></person-group>. <article-title>IFNγ-related mRNA profile predicts clinical response to PD-1 blockade</article-title>. 
+<source>J Clin Invest</source><year>2017</year>;<volume>127</volume>:<fpage>2930</fpage>–<lpage>40</lpage>.<pub-id pub-id-type="pmid">28650338</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib26">
+                <label>26.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Messina</surname><given-names>JL</given-names></string-name>, <string-name><surname>Fenstermacher</surname><given-names>DA</given-names></string-name>, <string-name><surname>Eschrich</surname><given-names>S</given-names></string-name>, <string-name><surname>Qu</surname><given-names>X</given-names></string-name>, <string-name><surname>Berglund</surname><given-names>AE</given-names></string-name>, <string-name><surname>Lloyd</surname><given-names>MC</given-names></string-name>, 
+<etal/></person-group>. <article-title>12-Chemokine gene signature identifies lymph node-like structures in melanoma: potential for patient selection for immunotherapy?</article-title><source>Sci Rep</source><year>2012</year>;<volume>2</volume>:<fpage>765</fpage>.<pub-id pub-id-type="pmid">23097687</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib27">
+                <label>27.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Carew</surname><given-names>JS</given-names></string-name>, <string-name><surname>Espitia</surname><given-names>CM</given-names></string-name>, <string-name><surname>Zhao</surname><given-names>W</given-names></string-name>, <string-name><surname>Mita</surname><given-names>MM</given-names></string-name>, <string-name><surname>Mita</surname><given-names>AC</given-names></string-name>, <string-name><surname>Nawrocki</surname><given-names>ST</given-names></string-name></person-group>. <article-title>Oncolytic reovirus inhibits angiogenesis through induction of CXCL10/IP-10 and abrogation of HIF activity in soft-tissue sarcomas</article-title>. 
+<source>Oncotarget</source><year>2017</year>;<volume>8</volume>:<fpage>86769</fpage>–<lpage>83</lpage>.<pub-id pub-id-type="pmid">29156834</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib28">
+                <label>28.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Parrish</surname><given-names>C</given-names></string-name>, <string-name><surname>Scott</surname><given-names>GB</given-names></string-name>, <string-name><surname>Migneco</surname><given-names>G</given-names></string-name>, <string-name><surname>Scott</surname><given-names>KJ</given-names></string-name>, <string-name><surname>Steele</surname><given-names>LP</given-names></string-name>, <string-name><surname>Ilett</surname><given-names>E</given-names></string-name>, 
+<etal/></person-group>. <article-title>Oncolytic reovirus enhances rituximab-mediated antibody-dependent cellular cytotoxicity against chronic lymphocytic leukaemia</article-title>. 
+<source>Leukemia</source><year>2015</year>;<volume>29</volume>:<fpage>1799</fpage>–<lpage>810</lpage>.<pub-id pub-id-type="pmid">25814029</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib29">
+                <label>29.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Adair</surname><given-names>RA</given-names></string-name>, <string-name><surname>Scott</surname><given-names>KJ</given-names></string-name>, <string-name><surname>Fraser</surname><given-names>S</given-names></string-name>, <string-name><surname>Errington-Mais</surname><given-names>F</given-names></string-name>, <string-name><surname>Pandha</surname><given-names>H</given-names></string-name>, <string-name><surname>Coffey</surname><given-names>M</given-names></string-name>, 
+<etal/></person-group>. <article-title>Cytotoxic and immune-mediated killing of human colorectal cancer by reovirus-loaded blood and liver mononuclear cells</article-title>. 
+<source>Int J Cancer</source><year>2013</year>;<volume>132</volume>:<fpage>2327</fpage>–<lpage>38</lpage>.<pub-id pub-id-type="pmid">23114986</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib30">
+                <label>30.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Pittari</surname><given-names>G</given-names></string-name>, <string-name><surname>Vago</surname><given-names>L</given-names></string-name>, <string-name><surname>Festuccia</surname><given-names>M</given-names></string-name>, <string-name><surname>Bonini</surname><given-names>C</given-names></string-name>, <string-name><surname>Mudawi</surname><given-names>D</given-names></string-name>, <string-name><surname>Giaccone</surname><given-names>L</given-names></string-name>, 
+<etal/></person-group>. <article-title>Restoring natural killer cell immunity against multiple myeloma in the era of new drugs</article-title>. 
+<source>Front Immunol</source><year>2017</year>;<volume>8</volume>:<fpage>1444</fpage>.<pub-id pub-id-type="pmid">29163516</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib31">
+                <label>31.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Joshua</surname><given-names>D</given-names></string-name>, <string-name><surname>Suen</surname><given-names>H</given-names></string-name>, <string-name><surname>Brown</surname><given-names>R</given-names></string-name>, <string-name><surname>Bryant</surname><given-names>C</given-names></string-name>, <string-name><surname>Ho</surname><given-names>PJ</given-names></string-name>, <string-name><surname>Hart</surname><given-names>D</given-names></string-name>, 
+<etal/></person-group>. <article-title>The T cell in myeloma</article-title>. 
+<source>Clin Lymphoma Myeloma Leuk</source><year>2016</year>;<volume>16</volume>:<fpage>537</fpage>–<lpage>42</lpage>.<pub-id pub-id-type="pmid">27601001</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib32">
+                <label>32.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Herbst</surname><given-names>RS</given-names></string-name>, <string-name><surname>Soria</surname><given-names>JC</given-names></string-name>, <string-name><surname>Kowanetz</surname><given-names>M</given-names></string-name>, <string-name><surname>Fine</surname><given-names>GD</given-names></string-name>, <string-name><surname>Hamid</surname><given-names>O</given-names></string-name>, <string-name><surname>Gordon</surname><given-names>MS</given-names></string-name>, 
+<etal/></person-group>. <article-title>Predictive correlates of response to the anti–PD-L1 antibody MPDL3280A in cancer patients</article-title>. 
+<source>Nature</source><year>2014</year>;<volume>515</volume>:<fpage>563</fpage>–<lpage>7</lpage>.<pub-id pub-id-type="pmid">25428504</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib33">
+                <label>33.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Tumeh</surname><given-names>PC</given-names></string-name>, <string-name><surname>Harview</surname><given-names>CL</given-names></string-name>, <string-name><surname>Yearley</surname><given-names>JH</given-names></string-name>, <string-name><surname>Shintaku</surname><given-names>IP</given-names></string-name>, <string-name><surname>Taylor</surname><given-names>EJ</given-names></string-name>, <string-name><surname>Robert</surname><given-names>L</given-names></string-name>, 
+<etal/></person-group>. <article-title>PD-1 blockade induces responses by inhibiting adaptive immune resistance</article-title>. 
+<source>Nature</source><year>2014</year>;<volume>515</volume>:<fpage>568</fpage>–<lpage>71</lpage>.<pub-id pub-id-type="pmid">25428505</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib34">
+                <label>34.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Colombo</surname><given-names>A</given-names></string-name>, <string-name><surname>Hav</surname><given-names>M</given-names></string-name>, <string-name><surname>Singh</surname><given-names>M</given-names></string-name>, <string-name><surname>Xu</surname><given-names>A</given-names></string-name>, <string-name><surname>Gamboa</surname><given-names>A</given-names></string-name>, <string-name><surname>Lemos</surname><given-names>T</given-names></string-name>, 
+<etal/></person-group>. <article-title>Single-cell spatial analysis of tumor immune architecture in diffuse large B-cell lymphoma</article-title>. 
+<source>Blood Adv</source><year>2022</year>;<volume>6</volume>:<fpage>4675</fpage>–<lpage>90</lpage>.<pub-id pub-id-type="pmid">35675517</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib35">
+                <label>35.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Karapanagiotou</surname><given-names>EM</given-names></string-name>, <string-name><surname>Roulstone</surname><given-names>V</given-names></string-name>, <string-name><surname>Twigger</surname><given-names>K</given-names></string-name>, <string-name><surname>Ball</surname><given-names>M</given-names></string-name>, <string-name><surname>Tanay</surname><given-names>M</given-names></string-name>, <string-name><surname>Nutting</surname><given-names>C</given-names></string-name>, 
+<etal/></person-group>. <article-title>Phase I/II trial of carboplatin and paclitaxel chemotherapy in combination with intravenous oncolytic reovirus in patients with advanced malignancies</article-title>. 
+<source>Clin Cancer Res</source><year>2012</year>;<volume>18</volume>:<fpage>2080</fpage>–<lpage>9</lpage>.<pub-id pub-id-type="pmid">22316603</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib36">
+                <label>36.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Sborov</surname><given-names>DW</given-names></string-name>, <string-name><surname>Nuovo</surname><given-names>GJ</given-names></string-name>, <string-name><surname>Stiff</surname><given-names>A</given-names></string-name>, <string-name><surname>Mace</surname><given-names>TA</given-names></string-name>, <string-name><surname>Lesinski</surname><given-names>GB</given-names></string-name>, <string-name><surname>Benson</surname><given-names>DM</given-names><suffix>Jr.</suffix></string-name>, 
+<etal/></person-group>. <article-title>A phase I trial of single agent reolysin in patients with relapsed multiple myeloma</article-title>. 
+<source>Clin Cancer Res</source><year>2014</year>;<volume>20</volume>:<fpage>5946</fpage>–<lpage>55</lpage>.<pub-id pub-id-type="pmid">25294913</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib37">
+                <label>37.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Manning</surname><given-names>ML</given-names></string-name>, <string-name><surname>Mason-Osann</surname><given-names>E</given-names></string-name>, <string-name><surname>Onda</surname><given-names>M</given-names></string-name>, <string-name><surname>Pastan</surname><given-names>I</given-names></string-name></person-group>. <article-title>Bortezomib reduces pre-existing antibodies to recombinant immunotoxins in mice</article-title>. 
+<source>J Immunol</source><year>2015</year>;<volume>194</volume>:<fpage>1695</fpage>–<lpage>701</lpage>.<pub-id pub-id-type="pmid">25560410</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib38">
+                <label>38.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Eledge</surname><given-names>MR</given-names></string-name>, <string-name><surname>Zita</surname><given-names>MD</given-names></string-name>, <string-name><surname>Boehme</surname><given-names>KW</given-names></string-name></person-group>. <article-title>Reovirus: friend and foe</article-title>. 
+<source>Curr Clin Microbiol Rep</source><year>2019</year>;<volume>6</volume>:<fpage>132</fpage>–<lpage>8</lpage>.<pub-id pub-id-type="pmid">33134034</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib39">
+                <label>39.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hulin</surname><given-names>C</given-names></string-name>, <string-name><surname>de la Rubia</surname><given-names>J</given-names></string-name>, <string-name><surname>Dimopoulos</surname><given-names>MA</given-names></string-name>, <string-name><surname>Terpos</surname><given-names>E</given-names></string-name>, <string-name><surname>Katodritou</surname><given-names>E</given-names></string-name>, <string-name><surname>Hungria</surname><given-names>V</given-names></string-name>, 
+<etal/></person-group>. <article-title>Bortezomib retreatment for relapsed and refractory multiple myeloma in real-world clinical practice</article-title>. 
+<source>Health Sci Rep</source><year>2019</year>;<volume>2</volume>:<fpage>e104</fpage>.<pub-id pub-id-type="pmid">30697597</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib40">
+                <label>40.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ravirala</surname><given-names>D</given-names></string-name>, <string-name><surname>Pei</surname><given-names>G</given-names></string-name>, <string-name><surname>Zhao</surname><given-names>Z</given-names></string-name>, <string-name><surname>Zhang</surname><given-names>X</given-names></string-name></person-group>. <article-title>Comprehensive characterization of tumor immune landscape following oncolytic virotherapy by single-cell RNA sequencing</article-title>. 
+<source>Cancer Immunol Immunother</source><year>2022</year>;<volume>71</volume>:<fpage>1479</fpage>–<lpage>95</lpage>.<pub-id pub-id-type="pmid">34716463</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib41">
+                <label>41.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Gajewski</surname><given-names>TF</given-names></string-name>, <string-name><surname>Schreiber</surname><given-names>H</given-names></string-name>, <string-name><surname>Fu</surname><given-names>YX</given-names></string-name></person-group>. <article-title>Innate and adaptive immune cells in the tumor microenvironment</article-title>. 
+<source>Nat Immunol</source><year>2013</year>;<volume>14</volume>:<fpage>1014</fpage>–<lpage>22</lpage>.<pub-id pub-id-type="pmid">24048123</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib42">
+                <label>42.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ribrag</surname><given-names>V</given-names></string-name>, <string-name><surname>Avigan</surname><given-names>DE</given-names></string-name>, <string-name><surname>Green</surname><given-names>DJ</given-names></string-name>, <string-name><surname>Wise-Draper</surname><given-names>T</given-names></string-name>, <string-name><surname>Posada</surname><given-names>JG</given-names></string-name>, <string-name><surname>Vij</surname><given-names>R</given-names></string-name>, 
+<etal/></person-group>. <article-title>Phase 1b trial of pembrolizumab monotherapy for relapsed/refractory multiple myeloma: KEYNOTE-013</article-title>. 
+<source>Br J Haematol</source><year>2019</year>;<volume>186</volume>:<fpage>e41</fpage>–<lpage>e44</lpage>.<pub-id pub-id-type="pmid">30937889</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib43">
+                <label>43.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Usmani</surname><given-names>SZ</given-names></string-name>, <string-name><surname>Schjesvold</surname><given-names>F</given-names></string-name>, <string-name><surname>Oriol</surname><given-names>A</given-names></string-name>, <string-name><surname>Karlin</surname><given-names>L</given-names></string-name>, <string-name><surname>Cavo</surname><given-names>M</given-names></string-name>, <string-name><surname>Rifkin</surname><given-names>RM</given-names></string-name>, 
+<etal/></person-group>. <article-title>Pembrolizumab plus lenalidomide and dexamethasone for patients with treatment-naive multiple myeloma (KEYNOTE-185): a randomized, open-label, phase III trial</article-title>. 
+<source>Lancet Haematol</source><year>2019</year>;<volume>6</volume>:<fpage>e448</fpage>–<lpage>e58</lpage>.<pub-id pub-id-type="pmid">31327689</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib44">
+                <label>44.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Mateos</surname><given-names>M-V</given-names></string-name>, <string-name><surname>Blacklock</surname><given-names>H</given-names></string-name>, <string-name><surname>Schjesvold</surname><given-names>F</given-names></string-name>, <string-name><surname>Oriol</surname><given-names>A</given-names></string-name>, <string-name><surname>Simpson</surname><given-names>D</given-names></string-name>, <string-name><surname>George</surname><given-names>A</given-names></string-name>, 
+<etal/></person-group>. <article-title>Pembrolizumab plus pomalidomide and dexamethasone for patients with relapsed or refractory multiple myeloma (KEYNOTE-183): a randomized, open-label, phase III trial</article-title>. 
+<source>Lancet Haematol</source><year>2019</year>;<volume>6</volume>:<fpage>e459</fpage>–<lpage>e69</lpage>.<pub-id pub-id-type="pmid">31327687</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib45">
+                <label>45.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Calton</surname><given-names>CM</given-names></string-name>, <string-name><surname>Kelly</surname><given-names>KR</given-names></string-name>, <string-name><surname>Anwer</surname><given-names>F</given-names></string-name>, <string-name><surname>Carew</surname><given-names>JS</given-names></string-name>, <string-name><surname>Nawrocki</surname><given-names>ST</given-names></string-name></person-group>. <article-title>Oncolytic viruses for multiple myeloma therapy</article-title>. 
+<source>Cancers</source><year>2018</year>;<volume>10</volume>:<fpage>198</fpage>.<pub-id pub-id-type="pmid">29903988</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib46">
+                <label>46.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Zhang</surname><given-names>Y</given-names></string-name>, <string-name><surname>Li</surname><given-names>Y</given-names></string-name>, <string-name><surname>Chen</surname><given-names>K</given-names></string-name>, <string-name><surname>Qian</surname><given-names>L</given-names></string-name>, <string-name><surname>Wang</surname><given-names>P</given-names></string-name></person-group>. <article-title>Oncolytic virotherapy reverses the immunosuppressive tumor microenvironment and its potential in combination with immunotherapy</article-title>. 
+<source>Cancer Cell Int</source><year>2021</year>;<volume>21</volume>:<fpage>262</fpage>.<pub-id pub-id-type="pmid">33985527</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib47">
+                <label>47.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ribas</surname><given-names>A</given-names></string-name>, <string-name><surname>Dummer</surname><given-names>R</given-names></string-name>, <string-name><surname>Puzanov</surname><given-names>I</given-names></string-name>, <string-name><surname>VanderWalde</surname><given-names>A</given-names></string-name>, <string-name><surname>Andtbacka</surname><given-names>RHI</given-names></string-name>, <string-name><surname>Michielin</surname><given-names>O</given-names></string-name>, 
+<etal/></person-group>. <article-title>Oncolytic virotherapy promotes intratumoral T-cell infiltration and improves anti–PD-1 immunotherapy</article-title>. 
+<source>Cell</source><year>2017</year>;<volume>170</volume>:<fpage>1109</fpage>–<lpage>19</lpage>.<pub-id pub-id-type="pmid">28886381</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib48">
+                <label>48.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Andtbacka</surname><given-names>RH</given-names></string-name>, <string-name><surname>Kaufman</surname><given-names>HL</given-names></string-name>, <string-name><surname>Collichio</surname><given-names>F</given-names></string-name>, <string-name><surname>Amatruda</surname><given-names>T</given-names></string-name>, <string-name><surname>Senzer</surname><given-names>N</given-names></string-name>, <string-name><surname>Chesney</surname><given-names>J</given-names></string-name>, 
+<etal/></person-group>. <article-title>Talimogene laherparepvec improves durable response rate in patients with advanced melanoma</article-title>. 
+<source>J Clin Oncol</source><year>2015</year>;<volume>33</volume>:<fpage>2780</fpage>–<lpage>8</lpage>.<pub-id pub-id-type="pmid">26014293</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib49">
+                <label>49.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>van Hall</surname><given-names>T</given-names></string-name>, <string-name><surname>Andre</surname><given-names>P</given-names></string-name>, <string-name><surname>Horowitz</surname><given-names>A</given-names></string-name>, <string-name><surname>Ruan</surname><given-names>DF</given-names></string-name>, <string-name><surname>Borst</surname><given-names>L</given-names></string-name>, <string-name><surname>Zerbib</surname><given-names>R</given-names></string-name>, 
+<etal/></person-group>. <article-title>Monalizumab: inhibiting the novel immune checkpoint NKG2A</article-title>. 
+<source>J Immunother Cancer</source><year>2019</year>;<volume>7</volume>:<fpage>263</fpage>.<pub-id pub-id-type="pmid">31623687</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib50">
+                <label>50.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Andre</surname><given-names>P</given-names></string-name>, <string-name><surname>Denis</surname><given-names>C</given-names></string-name>, <string-name><surname>Soulas</surname><given-names>C</given-names></string-name>, <string-name><surname>Bourbon-Caillet</surname><given-names>C</given-names></string-name>, <string-name><surname>Lopez</surname><given-names>J</given-names></string-name>, <string-name><surname>Arnoux</surname><given-names>T</given-names></string-name>, 
+<etal/></person-group>. <article-title>Anti-NKG2A mAb is a checkpoint inhibitor that promotes antitumor immunity by unleashing both T and NK cells</article-title>. 
+<source>Cell</source><year>2018</year>;<volume>175</volume>:<fpage>1731</fpage>–<lpage>43</lpage>.<pub-id pub-id-type="pmid">30503213</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib51">
+                <label>51.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Chao</surname><given-names>MP</given-names></string-name>, <string-name><surname>Takimoto</surname><given-names>CH</given-names></string-name>, <string-name><surname>Feng</surname><given-names>DD</given-names></string-name>, <string-name><surname>McKenna</surname><given-names>K</given-names></string-name>, <string-name><surname>Gip</surname><given-names>P</given-names></string-name>, <string-name><surname>Liu</surname><given-names>J</given-names></string-name>, 
+<etal/></person-group>. <article-title>Therapeutic targeting of the macrophage immune checkpoint CD47 in myeloid malignancies</article-title>. 
+<source>Front Oncol</source><year>2019</year>;<volume>9</volume>:<fpage>1380</fpage>.<pub-id pub-id-type="pmid">32038992</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib52">
+                <label>52.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Zavidij</surname><given-names>O</given-names></string-name>, <string-name><surname>Haradhvala</surname><given-names>NJ</given-names></string-name>, <string-name><surname>Mouhieddine</surname><given-names>TH</given-names></string-name>, <string-name><surname>Sklavenitis-Pistofidis</surname><given-names>R</given-names></string-name>, <string-name><surname>Cai</surname><given-names>S</given-names></string-name>, <string-name><surname>Reidy</surname><given-names>M</given-names></string-name>, 
+<etal/></person-group>. <article-title>Single-cell RNA sequencing reveals compromised immune microenvironment in precursor stages of multiple myeloma</article-title>. 
+<source>Nat Cancer</source><year>2020</year>;<volume>1</volume>:<fpage>493</fpage>–<lpage>506</lpage>.<pub-id pub-id-type="pmid">33409501</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib53">
+                <label>53.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Yao</surname><given-names>L</given-names></string-name>, <string-name><surname>Jayasinghe</surname><given-names>RG</given-names></string-name>, <string-name><surname>Lee</surname><given-names>BH</given-names></string-name>, <string-name><surname>Bhasin</surname><given-names>SS</given-names></string-name>, <string-name><surname>Pilcher</surname><given-names>W</given-names></string-name>, <string-name><surname>Doxie</surname><given-names>DB</given-names></string-name>, 
+<etal/></person-group>. <article-title>Comprehensive characterization of the multiple myeloma immune microenvironment using integrated scRNA-seq, CyTOF, and CITE-seq analysis</article-title>. 
+<source>Cancer Res Commun</source><year>2022</year>;<volume>2</volume>:<fpage>1255</fpage>–<lpage>65</lpage>.<pub-id pub-id-type="pmid">36969740</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bib54">
+                <label>54.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Lightbody</surname><given-names>ED</given-names></string-name>, <string-name><surname>Firer</surname><given-names>DT</given-names></string-name>, <string-name><surname>Sklavenitis-Pistofidis</surname><given-names>R</given-names></string-name>, <string-name><surname>Tsuji</surname><given-names>J</given-names></string-name>, <string-name><surname>Agius</surname><given-names>MP</given-names></string-name>, <string-name><surname>Dutta</surname><given-names>AK</given-names></string-name>, 
+<etal/></person-group>. <article-title>Single-cell RNA sequencing of rare circulating tumor cells in precursor myeloma patients reveals molecular underpinnings of tumor cell circulation</article-title>. 
+<source>Blood</source><year>2022</year>;<volume>140</volume>:<fpage>602</fpage>–<lpage>3</lpage>.</mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

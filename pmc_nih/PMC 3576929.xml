@@ -1,0 +1,1275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T06:25:59Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3576929" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:3576929</identifier>
+        <datestamp>2013-02-20</datestamp>
+        <setSpec>nihpa</setSpec>
+        <setSpec>pmc-open</setSpec>
+        <setSpec>manuscript</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-journal-id">101528555</journal-id>
+              <journal-id journal-id-type="pubmed-jr-id">37539</journal-id>
+              <journal-id journal-id-type="nlm-ta">Nat Commun</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Nat Commun</journal-id>
+              <journal-title-group>
+                <journal-title>Nature communications</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2041-1723</issn>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC3576929</article-id>
+              <article-id pub-id-type="pmcid">PMC3576929</article-id>
+              <article-id pub-id-type="pmc-uid">3576929</article-id>
+              <article-id pub-id-type="pmid">22968697</article-id>
+              <article-id pub-id-type="pmid">22968697</article-id>
+              <article-id pub-id-type="doi">10.1038/ncomms2054</article-id>
+              <article-id pub-id-type="manuscript">nihpa425629</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Attention gates visual coding in the human pulvinar</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Fischer</surname>
+                    <given-names>Jason</given-names>
+                  </name>
+                  <xref rid="FN1" ref-type="author-notes">*</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Whitney</surname>
+                    <given-names>David</given-names>
+                  </name>
+                </contrib>
+                <aff id="A1">Department of Psychology, University of California, Berkeley, Berkeley, California, 94720, USA</aff>
+              </contrib-group>
+              <author-notes>
+                <corresp id="FN1"><label>*</label>To whom correspondence should be addressed: <email>jtf@berkeley.edu</email></corresp>
+              </author-notes>
+              <pub-date pub-type="nihms-submitted">
+                <day>5</day>
+                <month>2</month>
+                <year>2013</year>
+              </pub-date>
+              <pub-date pub-type="ppub">
+                <year>2012</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>20</day>
+                <month>2</month>
+                <year>2013</year>
+              </pub-date>
+              <volume>3</volume>
+              <fpage>1051</fpage>
+              <lpage>1051</lpage>
+              <!--elocation-id from pubmed: 10.1038/ncomms2054-->
+              <permissions>
+                <license>
+                  <license-p>Users may view, print, copy, download and text and data- mine the content in such documents, for the purposes of academic research, subject always to the full Conditions of use: 
+<uri xlink:type="simple" xlink:href="http://www.nature.com/authors/editorial_policies/license.html#terms">http://www.nature.com/authors/editorial_policies/license.html#terms</uri></license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p id="P1">The pulvinar nucleus of the thalamus is suspected to play an important role in visual attention, based on its widespread connectivity with the visual cortex and the fronto-parietal attention network. However, at present, there remain many hypotheses on the pulvinar’s specific function, with sparse or conflicting evidence for each. Here we characterize how the human pulvinar encodes attended and ignored objects when they appear simultaneously and compete for attentional resources. Using multivoxel pattern analyses on data from two fMRI experiments, we show that attention gates both position and orientation information in the pulvinar: attended objects are encoded with high precision, while there is no measurable encoding of ignored objects. These data support a role of the pulvinar in distractor filtering – suppressing information from competing stimuli in order to isolate behaviorally relevant objects.</p>
+              </abstract>
+              <kwd-group>
+                <kwd>vision</kwd>
+                <kwd>perception</kwd>
+                <kwd>selective attention</kwd>
+                <kwd>spatial attention</kwd>
+                <kwd>distractor filtering</kwd>
+                <kwd>thalamus</kwd>
+                <kwd>fMRI</kwd>
+                <kwd>visual cortex</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <p id="P2">The pulvinar nucleus of the thalamus is believed to have an important, integrative function in the mammalian brain, likely related to visual attention<sup><xref rid="R1" ref-type="bibr">1</xref>,<xref rid="R2" ref-type="bibr">2</xref></sup>. While pinpointing the pulvinar’s specific role in vision has proven notoriously difficult, one line of evidence suggests the pulvinar may be important in isolating behaviorally relevant objects from surrounding distractors<sup><xref rid="R3" ref-type="bibr">3</xref>–<xref rid="R7" ref-type="bibr">7</xref></sup>. When Desimone et al.<sup><xref rid="R5" ref-type="bibr">5</xref></sup> deactivated the macaque pulvinar by muscimol injection, visual discrimination was impaired in the visual field contralateral to the injection site, but only when distractors were present; performance was normal in the absence of distractors. Recently<sup><xref rid="R6" ref-type="bibr">6</xref></sup>, a similar pattern was reported in human subjects with pulvinar lesions due to stroke: patients had compromised visual discrimination in the contralesional visual field, but only when salient distractors were present. These results point toward an involvement of the pulvinar in resolving competition between visual targets and distractors<sup><xref rid="R8" ref-type="bibr">8</xref>,<xref rid="R9" ref-type="bibr">9</xref></sup>. However, other studies based on lesions have failed to reinforce this notion. In a flanker interference task<sup><xref rid="R10" ref-type="bibr">10</xref></sup> and a global/local interference task<sup><xref rid="R11" ref-type="bibr">11</xref></sup>, subjects with pulvinar lesions showed no impairment in suppressing the distracting dimensions.</p>
+            <p id="P3">These results reveal two missing pieces of the puzzle with regard to distractor filtering in the pulvinar. First, lesion studies still paint a mixed picture of whether intact pulvinar function is necessary for normal distractor suppression. This may be due partly to the wide variety of stimuli and tasks used across the studies. Second, and more importantly, the current evidence for the pulvinar’s role in distractor suppression comes almost exclusively from monkey and human lesion studies. To establish a role of the human pulvinar in distractor suppression, it is critical to show that the pulvinar performs such a function in healthy humans.</p>
+            <p id="P4">Here, we tested for distractor filtering in the human pulvinar by characterizing how the pulvinar encodes targets and distractors when they compete for attentional resources. We capitalize on a newly emerging understanding of the human pulvinar’s organization<sup><xref rid="R12" ref-type="bibr">12</xref>–<xref rid="R15" ref-type="bibr">15</xref></sup>; specifically, the presence of precise, lateralized spatial maps in both hemispheres. Using a multi-voxel pattern analysis, we measured the precision with which attended and ignored stimuli are coded in the pulvinar when both were present simultaneously within the same visual hemifield. Our results show that attention gates both spatial and featural information in the pulvinar: the positions and orientations of attended targets were coded with high precision in pulvinar responses, while there was no detectable encoding of distractor positions or orientations, even though the targets and distractors differed only in their behavioral relevance. These data support the hypothesis that the pulvinar is involved in filtering distracting visual information and highlighting behaviorally relevant targets.</p>
+            <sec sec-type="results" id="S1">
+              <title>Results</title>
+              <sec id="S2">
+                <title>Attentional gating of spatial information in the pulvinar</title>
+                <p id="P5">Subjects viewed four visual stimuli at a time; two were attended and two were ignored. The stimuli were Gabor patches in the four visual quadrants (<xref rid="F1" ref-type="fig">Fig. 1a</xref>); in each ten-second stimulation block, they appeared at one of five possible eccentricities ranging from 8.4 to 9.6 degrees (<xref rid="F1" ref-type="fig">Fig. 1b</xref>). The top two Gabors were fixed to have the same eccentricity as each other, as were the bottom two, but the eccentricities for the upper and lower Gabors were random with respect to each other. On alternating runs, subjects attended to the Gabors in either the upper or the lower visual field (<xref rid="F1" ref-type="fig">Fig. 1c</xref>), watching for slight contrast decrements that occurred an average of five times per block. Attention was manipulated between the upper and lower visual fields (rather than left versus right) so that an attended and an ignored stimulus were always present within the same visual field, and hence represented in the pulvinar in the same hemisphere. At the end of each block, the subject responded whether there were more contrast decrements on the left, right, or the same number on the left and right (3 AFC; sensitivity [d′] for the task was 1.59, indicating that the task was challenging but above threshold). The contrast decrements also occurred in the ignored stimuli, such that they were not just irrelevant but also distracting; subjects were motivated to ignore those stimuli as completely as possible. We tracked the eye positions of 3 of the 5 subjects during scanning (<xref rid="F2" ref-type="fig">Fig. 2</xref>).</p>
+                <p id="P6">Independently manipulating the positions of the upper and lower Gabors allowed us to separately measure position coding at the attended and ignored locations within the same functional run. We extracted patterns of blood oxygenation level dependent (BOLD) responses corresponding to the attended and ignored stimuli from the same set of voxels by running two separate general linear models: one in which the five predictors were coded according to the positions of the attended stimuli, and one in which they were coded according to the positions of the ignored stimuli (<xref rid="F3" ref-type="fig">Fig. 3</xref>). In each GLM, we separately contrasted the five predictors against the fixation baseline condition to obtain five maps of t-values. The result was a set of maps corresponding to the five attended positions and another set corresponding to the five ignored positions. Because the positions of the attended and ignored stimuli varied independently of each other, information about one of the dimensions was randomly distributed in the maps corresponding to the other dimension. Our subsequent pattern analysis tested for systematic variation in these activity maps as a function of stimulus position.</p>
+                <p id="P7">We used a cross-correlation approach<sup><xref rid="R16" ref-type="bibr">16</xref>–<xref rid="R20" ref-type="bibr">20</xref></sup> to test for position selectivity in the BOLD response in the pulvinar. The analysis (<xref rid="F4" ref-type="fig">Fig. 4</xref>) tested whether stimuli presented closer together in space produced more similar patterns of activity. The center (position 3) map was used as a baseline, and we compared the four other positions with it by cross-correlating the activity patterns (<xref rid="F4" ref-type="fig">Fig. 4a</xref>). Cross-correlating all of the activity patterns for all stimulus positions against each other yielded similar results (<xref rid="SD1" ref-type="supplementary-material">Supp. Fig. S1</xref>), but using the central map as a baseline is more conservative because it avoids making assumptions about the linearity of the relationship between physical stimulus separation and correlation, as well as the independence of points in the plot (<xref rid="SD1" ref-type="supplementary-material">Supplementary Methods</xref>). In the plots in <xref rid="F4" ref-type="fig">Figure 4a</xref>, each point represents one voxel within the region of interest, its value from one BOLD map plotted on the x-axis (t units), and its value from a second BOLD map plotted on the y-axis. The correlation across voxels between a given pair of BOLD maps served as a measure of their similarity within that region of interest (ROI); we plotted the correlation between each pair as a function of the distance between the corresponding stimuli in visual space (<xref rid="F4" ref-type="fig">Fig. 4b</xref>). A significant negative slope on this plot indicates precise discrimination of the stimulus positions—the multivariate pattern of response within the ROI in question changed systematically with changes in stimulus position. This analytical approach allowed us to separately measure the encoding of the attended and ignored stimuli within the pulvinar without making any assumption about the nature of the underlying topographic organization there. We performed this analysis in pulvinar ROIs defined based on the Talairach Atlas<sup><xref rid="R21" ref-type="bibr">21</xref></sup> but fit to each subject’s individual anatomy (<xref rid="F4" ref-type="fig">Fig. 4c</xref>).</p>
+                <p id="P8"><xref rid="F5" ref-type="fig">Figure 5a</xref> shows position discrimination for attended objects (red data) and ignored objects (blue data) in the pulvinar. Data from the five subjects are plotted together and fit with a regression model that included a random effect of subject<sup><xref rid="R22" ref-type="bibr">22</xref></sup>. Both the left and right pulvinar showed significant coding of the attended stimulus positions, as indicated by significant negative slopes in the regression fits (Fisher z = −0.49, p = 0.011 in left pulvinar and z = −0.67, p = 0.001 in right pulvinar; n = 20 for each test; p values were assessed using a nonparametric bootstrap test described in the Methods). All subjects showed the same trend individually. However, there was no detectable encoding of ignored objects (z = 0.11 in left pulvinar and z = 0.05 in right pulvinar, both p &gt; 0.5; n = 20 for each test; nonparametric bootstrap test). <xref rid="F5" ref-type="fig">Figure 5b</xref> shows the same analysis performed in bilateral pulvinar ROIs; discrimination of attended positions was significantly better than discrimination of ignored positions (p = 0.01; n = 20 points in each plot; bootstrap test for a difference in model fits between attended and ignored). It is important to note that the data in the attended and ignored plots came from the same functional runs, analyzed within the same set of voxels, with the same stimuli present; no difference in signal-to-noise ratio, retinotopically-specific adaptation, or other aspects of signal quality could explain the difference in coding precision we found for attended and ignored objects in the pulvinar (<xref rid="SD1" ref-type="supplementary-material">Supplementary Methods</xref>). These data demonstrate an essentially absolute gating of spatial information in the pulvinar by attention: only attended positions are encoded in the multi-voxel pattern of activity within the pulvinar.</p>
+                <p id="P9">If the attentional gating of spatial information we observed in the pulvinar is related to filtering out distractors, we would expect measurable encoding of the ignored stimulus positions at earlier stages of visual processing, including in the input signals to the pulvinar. We repeated the same analysis in seven independently localized visual areas: V1, V2, V3, V3a, VP, V4v, and MT+. <xref rid="F5" ref-type="fig">Figure 5c</xref> shows position discrimination plots, constructed in the same way as those shown for the pulvinar, for V1: V1 exhibited precise coding of both the attended and the ignored stimuli (attended: left – z = 1.34, right – z = 1.46; ignored: left – z = 1.07, right – z = 1.23; all p &lt; 0.001; n = 20 for each test; nonparametric bootstrap test). In contrast to the pulvinar, each of the seven comparison visual areas showed significant discrimination of the ignored stimulus positions (nonparametric bootstrap test with n = 20 for each test; all p &lt; 0.02; significant with FDR control for multiple comparisons<sup><xref rid="R23" ref-type="bibr">23</xref></sup> with q = 0.05). Only the pulvinar displayed a complete gating of the ignored object positions, and attentional modulation of position coding was significantly stronger in the pulvinar than in the visual cortex (p = 0.008; n = 20 points in each plot; bootstrap test for a greater attended-ignored difference in the pulvinar vs. visual cortex). Of particular note is the significant encoding of ignored positions in MT+, which is thought to have a high density of driving input to the pulvinar<sup><xref rid="R24" ref-type="bibr">24</xref></sup>.</p>
+              </sec>
+              <sec id="S3">
+                <title>Attentional gating of orientation information in the pulvinar</title>
+                <p id="P10">We sought to test whether attention gates types of stimulus information besides position coding in the pulvinar. We also sought to verify that attentional gating in the pulvinar happens for task-relevant stimulus features (in Experiment 1, subjects attended at the locations of the cued stimuli, but were not required to make a position-related judgment). Three subjects participated in this second experiment. The experimental design was similar to the first experiment, but now subjects were required to detect orientation changes in the cued Gabors. Each Gabor was oriented at either −45 deg. or +45 degrees relative to vertical, and the orientations in the upper and lower visual fields varied independently of each other from block to block (<xref rid="F6" ref-type="fig">Fig. 6a</xref>). The left and right Gabors within the upper or lower visual field always had opposite orientations. An average of eight times per block, one of the four Gabors changed in orientation by 8 deg., for 200 ms. At the beginning of each run, subjects were instructed to attend to the orientations of either the upper two or lower two Gabors, and respond any time they detected an orientation change in one of the cued Gabors but to ignore orientation changes in the other two. Sensitivity (d′) for the orientation change detection task was 1.15; the task was challenging but above threshold.</p>
+                <p id="P11">We measured orientation coding within the pulvinar and visual cortex separately for the attended and ignored stimuli, which were simultaneously present at all times. To measure orientation coding, we used a support vector machine (SVM) pattern classifier to predict which orientation had been presented on each block. We used SVM in the second experiment rather than the correlation analysis because the power of the latter is diminished when discriminating between just two stimulus categories rather than a multilevel parametric stimulus manipulation (in the analysis of the first experiment, though we paired stimuli according to two possible separations, we utilized all five stimulus conditions); SVM, however, is well-suited to this case of binary classification<sup><xref rid="R25" ref-type="bibr">25</xref></sup>.</p>
+                <p id="P12">Classification results are shown for the pulvinar and early visual cortex in panels <bold>b</bold> and <bold>c</bold> of <xref rid="F6" ref-type="fig">Figure 6</xref>, respectively (data are collapsed across the three subjects). In the pulvinar, we found robust encoding of the attended stimulus orientations (54.7% correct; p &lt; 0.001; 7.8 standard deviations above the mean of the bootstrapped chance distribution; n = 192 training blocks and 48 test blocks per classification iteration per subject; reported performance is an average across 1000 classification iterations) but no evidence of encoding of ignored orientations (49.9% correct; p = 0.62; 0.34 standard deviations below bootstrapped chance; n = 192 training blocks and 48 test blocks per subject). Classification of the attended orientations was significantly better than classification of ignored orientations (p &lt; 0.001; nonparametric bootstrap test for whether the attended-chance difference was larger than the ignored-chance difference; n = 192 training blocks and 48 test blocks per subject in the classification of both the attended and ignored stimulus orientations).</p>
+                <p id="P13">In the visual cortex, in contrast to the pulvinar, we found significant classification of both attended and ignored stimulus orientations (56.3% correct for attended and 54.3% correct for ignored, 10.1 and 6.8 standard deviations above bootstrapped chance, respectively; both p &lt; 0.001; n = 192 training blocks and 48 test blocks per subject). Consistent with previous findings<sup><xref rid="R26" ref-type="bibr">26</xref>–<xref rid="R28" ref-type="bibr">28</xref></sup>, attended orientations were classified significantly better than ignored orientations in early visual areas (p = 0.016; bootstrap test for [attended-chance] &gt; [ignored-chance]; n = 192 training blocks and 48 test blocks per subject per condition). Importantly, the modulation of orientation coding by attention was significantly stronger in the pulvinar than in early visual areas (p = 0.012; bootstrap test for [pulvinar<sub>attended</sub>-pulvinar<sub>ignored</sub>] &gt; [early vis<sub>attended</sub>-early vis<sub>ignored</sub>]; n = 192 training blocks and 48 test blocks per subject per condition). These results demonstrate that attention gates not only spatial representations but also orientation information within the pulvinar. They also demonstrate attentional gating of a task-relevant feature within the pulvinar. Collectively, our results show a gating of ignored information within the pulvinar that generalizes across at least two stimulus features (position and orientation) and is distinct from the pattern of attentional modulation we observed in the visual cortex.</p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="S4">
+              <title>Discussion</title>
+              <p id="P14">Our results show that stimulus encoding in the human pulvinar is gated by attention: when behaviorally relevant visual stimuli compete with distractors for attentional resources within the same visual field, the pulvinar precisely represents attended but not ignored objects. Thus, activity in the pulvinar reflects an isolated representation of attended targets, which can serve to selectively confer further processing benefits on important stimuli.</p>
+              <p id="P15">Previous studies<sup><xref rid="R12" ref-type="bibr">12</xref>,<xref rid="R14" ref-type="bibr">14</xref>,<xref rid="R29" ref-type="bibr">29</xref></sup> have reported significant fMRI responses in the pulvinar to unattended stimuli. For example, when Smith et al., 2009 presented subjects with optic flow stimuli and examined the BOLD response in the pulvinar when attention was directed either toward or away from the stimuli, they found significant pulvinar activation in both the attended and unattended cases, with a ~20% amplitude modulation with attention. How do our present results square with these previous findings? First, it is important to distinguish between the amplitude of the raw BOLD response and information content in fMRI patterns of activity, which can be dissociated<sup><xref rid="R26" ref-type="bibr">26</xref>,<xref rid="R30" ref-type="bibr">30</xref>,<xref rid="R31" ref-type="bibr">31</xref></sup>; our study takes the important step of decoding position and orientation information within the multivariate pattern of activity in the pulvinar, providing converging evidence for attentional gating from two information-based MVPA approaches. Equally important, though, is a key difference in experimental design between the above-mentioned studies and our study. The spatial attention manipulations in both Smith et al. (2009) and Schneider (2011) had attended and ignored stimuli on opposite sides of the horizontal meridian, and thus in different hemispheres in the pulvinar. Given the evidence for at least partially independent attentional resources in the left and right hemispheres<sup><xref rid="R32" ref-type="bibr">32</xref>,<xref rid="R33" ref-type="bibr">33</xref></sup>, one possibility is that a left/right attentional manipulation induces less competition between attended and unattended stimuli than if both stimuli fell in the same visual field. Thus, a key aspect of our design is the upper/lower manipulation of attention, forcing targets and distractors to compete for attentional resources within the same visual field and same hemisphere.</p>
+              <p id="P16">Previously<sup><xref rid="R13" ref-type="bibr">13</xref></sup>, we reported position sensitivity in the pulvinar under passive viewing conditions (attention was engaged at the fixation point by a task unrelated to the stimuli). Critically, the stimuli used to measure spatial discrimination were neither targets nor distractors—they were irrelevant to the fixation task that subjects performed. Other studies of retinotopy in the healthy human pulvinar have used undivided attention<sup><xref rid="R14" ref-type="bibr">14</xref>,<xref rid="R15" ref-type="bibr">15</xref></sup> or featural attention<sup><xref rid="R12" ref-type="bibr">12</xref></sup>, but our study is the first to test how the healthy human pulvinar responds to <italic>competing</italic> stimuli in the same visual field. We introduced competition between simultaneously presented stimuli, which resulted in the ignored objects being gated out from encoding in the pulvinar. Unlike putative attentional source regions such as the IPS areas<sup><xref rid="R34" ref-type="bibr">34</xref></sup>, which show only weak responses to passive visual stimulation, the pulvinar precisely encodes passively viewed stimuli<sup><xref rid="R13" ref-type="bibr">13</xref></sup> but not <italic>distracting</italic> ones.</p>
+              <p id="P17">We intentionally analyzed ROIs that encompassed the entire pulvinar. While the primate pulvinar has been classically divided into several subnuclei based on cytoarchitecture<sup><xref rid="R35" ref-type="bibr">35</xref></sup>, no structural or functional homology between the monkey and human pulvinars has been firmly established<sup><xref rid="R6" ref-type="bibr">6</xref></sup>. Further, interactions between attentional signals and visual maps in the pulvinar likely involve more than a single subregion. While the lateral and inferior portions of the monkey pulvinar are the most visually responsive<sup><xref rid="R1" ref-type="bibr">1</xref>,<xref rid="R36" ref-type="bibr">36</xref></sup>, the pulvinar’s connections with areas in the fronto-parietal attention network project from the medial portion<sup><xref rid="R37" ref-type="bibr">37</xref></sup>. We therefore considered the multivariate pattern of activity within the pulvinar as a whole.</p>
+              <p id="P18">Our results dovetail with recent reports that visual awareness is correlated with variability in the strength of responses in the pulvinar<sup><xref rid="R38" ref-type="bibr">38</xref>,<xref rid="R39" ref-type="bibr">39</xref></sup>. For example, Padmala et al. (2010) used affective conditioning to increase the salience of otherwise neutral stimuli. Then, presenting conditioned and non-conditioned stimuli in a rapid serial visual presentation task during scanning, they found that stimuli detection was correlated with larger responses in the pulvinar; this effect was much larger for affectively conditioned stimuli. Our present results are complementary and demonstrate the flip side of the coin: we show that distracting stimuli are gated out from encoding in the pulvinar, while they demonstrated that the more salient an attended target is, the more robust a response it produces in the pulvinar, particularly if it has conditioned affective significance. Future work needs to study whether and how affective significance interacts with the attentional gating effect we report here.</p>
+              <p id="P19">Our orientation classification results complement and extend previous work on decoding orientation information from the human visual cortex<sup><xref rid="R26" ref-type="bibr">26</xref>–<xref rid="R28" ref-type="bibr">28</xref></sup>. Prior work has shown that attending to an orientation biases signals in the visual cortex to preferentially represent that orientation, yielding a boost in classification accuracy<sup><xref rid="R27" ref-type="bibr">27</xref>,<xref rid="R28" ref-type="bibr">28</xref></sup>. This attention-related enhancement can occur selectively for task-relevant features<sup><xref rid="R26" ref-type="bibr">26</xref></sup>, and is carried at least in part by a boosted response within the subpopulation of voxels that is tuned to the attended orientation<sup><xref rid="R27" ref-type="bibr">27</xref></sup>. In Experiment 2, we similarly found that attention significantly improved the precision of orientation coding in early visual cortex (<xref rid="F6" ref-type="fig">Fig. 6c</xref>). We extended the classification framework to measure orientation-selective responses in the human pulvinar for the first time, and found a significantly larger attentional modulation of orientation information in the pulvinar than in the visual cortex (<xref rid="F6" ref-type="fig">Fig. 6b</xref>), such that there was no measurable information about the ignored orientations, even though the ignored and attended stimuli differed only in their task-relevance. The gating of orientation information in the pulvinar by attention sets the pulvinar apart from the pattern of results found in the visual cortex, and lends support to the hypothesis that the pulvinar plays an important role in distractor filtering.</p>
+              <p id="P20">Selective attention reduces the deleterious influences of distracting information on perception and behavior<sup><xref rid="R9" ref-type="bibr">9</xref>,<xref rid="R40" ref-type="bibr">40</xref>–<xref rid="R42" ref-type="bibr">42</xref></sup> and is therefore a critical mechanism for many visuomotor and cognitive functions. The pulvinar has long been suspected to be a neural interface where attention signals can gate out distractors, but this filtering function has never been observed in action in the pulvinar. Our results show that in the healthy human pulvinar, visual distractors are gated out from spatial coding, leaving a map that can serve to isolate behaviorally relevant objects and their features from among competing information.</p>
+            </sec>
+            <sec sec-type="methods" id="S5">
+              <title>Methods</title>
+              <sec id="S6" sec-type="subjects">
+                <title>Subjects</title>
+                <p id="P21">Seven healthy subjects, ranging in age from 22 to 31 years, participated in the study. All subjects provided written consent prior to participation, and all experimental procedures were approved by the UC Davis and UC Berkeley institutional review boards.</p>
+              </sec>
+              <sec id="S7">
+                <title>Experimental design</title>
+                <p id="P22">Before each scanning run, subjects were cued to attend to the Gabors in either the upper or lower visual field, and the subject attended at that location for the duration of the entire run. Attend-upper and attend-lower runs were interleaved so that no trends across the scanning session could differentially affect the two conditions. Within a run, the Gabor positions in the upper and lower visual fields were random with respect to each other, and the ordering of the conditions within the upper and lower visual fields was pseudo-randomized by shuffling within a group of the five position conditions plus a baseline condition, and then presenting six such shuffled groups in sequence. The Gabors (0.4 cycles/deg, peak contrast 87% (Michelson), 1.66 deg. sd envelope, 8 Hz counterphase flicker) appeared at five possible eccentricities, ranging from 8.40 deg. to 9.60 deg in increments of 0.3 deg. Attend-upper and attend-lower runs were constructed in a completely identical fashion; the only difference between the two run types was the attended location. This upper/lower attention manipulation allowed the positions of the attended and ignored Gabors to vary independently of each other, and for both attended and ignored stimuli to be represented in each hemisphere. Stimuli were presented in 10 second blocks. We used a blocked design, rather than a rapid event-related design, to maximize the power in the position discrimination analysis (<xref rid="SD1" ref-type="supplementary-material">Supplementary Methods</xref>).</p>
+                <p id="P23">In Experiment 2, we measured orientation discrimination rather than position discrimination. Subjects viewed four Gabors (0.4 cycles/deg, 87% peak Michelson contrast, 1.66 deg. sd envelope, 8 Hz counterphase flicker), one in each visual quadrant (<xref rid="F6" ref-type="fig">Fig. 6a</xref>). The orientations of the Gabors in the upper and lower visual fields varied independently (<xref rid="F6" ref-type="fig">Fig. 6a</xref>), and the positions of the Gabors were randomly jittered from block to block with a standard deviation of .47 deg (mean 9.0 deg. eccentricity), independently in the upper and lower visual fields and independently of the orientations, in order to ensure that orientation decoding generalized across changes in position and was not simply capitalizing on localized luminance differences between orientations. Successful performance on the orientation change detection task required attending to both Gabors in the cued location (upper or lower visual field), while ignoring the Gabors in the non-cued field as completely as possible. As in Experiment 1, the stimuli in attend-upper and attend-lower runs were constructed in a completely identical fashion; the only difference was the verbal instruction at the beginning of the run.</p>
+              </sec>
+              <sec id="S8">
+                <title>fMRI acquisition</title>
+                <p id="P24">Scanning was conducted on a Siemens Trio 3T system at the UC Davis Imaging Research Center. Functional images were collected with a gradient-recalled echo EPI sequence using an eight-channel phased-array head coil. Whole-brain anatomical images were acquired with a high resolution (1 mm<sup>3</sup>) Turbo Spin Echo scan. The acquisition parameters were: TR = 2000 ms, TE = 26 ms, FA = 90 deg, FOV = 22 × 22 cm<sup>2</sup>, voxel size = 1.528 × 1.528 × 2.5 mm<sup>3</sup>. The 24-slice imaging volume was centered on the thalamus and ran through the occipital pole. Runs were 360 seconds long (180 volumes). Using a Digital Projection Mercury 5000HD projector, stimuli were back-projected at 75 Hz onto a semi-transparent screen from outside the bore. Subjects were able to see the screen and stimuli via a mirror angled at 45 degrees, located 9.5 cm directly above their eyes. Each subject participated in eight main experimental runs and one additional retinotopic localizer run.</p>
+              </sec>
+              <sec id="S9">
+                <title>Data analysis</title>
+                <p id="P25">fMRI data preprocessing, ROI definition, and general linear models were performed in BrainVoyager QX v. 2.0; all other analysis was performed in Matlab R2008a. Data preprocessing consisted of slice scan time correction with cubic spline interpolation, 3D motion correction with trilinear interpolation, and high-pass filtering with a cutoff of 2 cycles/run. The data were not otherwise spatially smoothed. The data were normalized to Talairach space to allow for atlas-assisted definition of the pulvinar ROIs (<xref rid="F4" ref-type="fig">Fig. 4c</xref>).</p>
+                <sec id="S10">
+                  <title>Position discrimination</title>
+                  <p id="P26">For each functional run, we constructed two general linear models, one with the five attended stimulus positions as five predictors, and the other with the five ignored stimulus positions as predictors. In addition, there was a sixth predictor for the baseline (fixation only) blocks. <xref rid="F3" ref-type="fig">Figure 3</xref> depicts the GLM recoding procedure. For each GLM, we separately contrasted each of the five stimulus position predictors against the fixation baseline to generate five maps of BOLD response (t values) for use in the correlation analysis (<xref rid="F4" ref-type="fig">Fig. 4</xref>).</p>
+                  <p id="P27">In the group analysis of position discrimination, we used a random effects model to account for between-subject variability<sup><xref rid="R22" ref-type="bibr">22</xref></sup>. The regression model took the form <italic>z<sub>ijk</sub></italic> = β<sub>0</sub> + β<italic>x<sub>jk</sub></italic> + <italic>U<sub>i</sub></italic> + ε<italic><sub>ijk</sub></italic>, where <italic>i</italic> indexed the subjects, the pair (<italic>j</italic>, <italic>k</italic>) indexed the stimulus pairings, and <italic>U<sub>i</sub></italic> accounted for intercept differences between subjects. This approach is comparable to a paired t-test and yields identical p values; we express the model in the general regression framework in order to make clear how the random effect of subject is incorporated into the model, and to visualize the slope of the data across stimulus separations. For significance testing, we generated bootstrapped confidence intervals for the group regression by sampling with replacement within each subject on 2000 iterations (<xref rid="SD1" ref-type="supplementary-material">Supplementary Methods</xref>).</p>
+                </sec>
+                <sec id="S11">
+                  <title>Orientation discrimination</title>
+                  <p id="P28">To measure the encoding of orientation information in the pulvinar and visual cortex, we used a support vector machine (SVM) classification analysis implemented in Matlab using the LIBSVM library<sup><xref rid="R43" ref-type="bibr">43</xref></sup>. Classification was run on block-by-block beta weights, rather than the raw BOLD timecourse, to improve SNR in the classification and account for hemodynamic lag. Within each subject and each region of interest, we concatenated the blockwise beta maps from all runs, and ran 1000 iterations of SVM classification with a linear kernel, each time training on a randomly selected 80% of blocks and testing on the remaining 20%. Overall classification accuracy was taken as the average classifier performance across the 1000 classification iterations. A label shuffling procedure confirmed that the training process did not “peek” at the test data (<xref rid="SD1" ref-type="supplementary-material">Supplementary Methods</xref>).</p>
+                </sec>
+              </sec>
+              <sec id="S12">
+                <title>ROI definition</title>
+                <p id="P29">No functional localizer exists for the pulvinar, and portions of the pulvinar can be difficult or impossible to delineate based on anatomical scans alone. Because of this, we based our pulvinar ROI definitions on standardized coordinates drawn from the Talairach Atlas<sup><xref rid="R21" ref-type="bibr">21</xref></sup>. To define individual pulvinar regions of interest for each subject, we began with standard pulvinar regions of interest drawn from the Talairach atlas (shown in blue in <xref rid="F4" ref-type="fig">Fig. 4c</xref>), and made minor manual corrections based on each subject’s anatomy. Corrections were only made where the atlas-based ROIs encroached on ventricle space or clearly disobeyed gray/white matter boundaries. We used the coronal plane running through the posterior commissure as a conservative anterior boundary to ensure that no gray matter outside the pulvinar was included the ROIs. The result was a left- and right-pulvinar ROI for each subject that fit the individual anatomy while staying close to the atlas coordinates (example ROIs shown in green in <xref rid="F4" ref-type="fig">Fig. 4c</xref>).</p>
+                <p id="P30">To localize the early retinotopic visual areas in each subject, subjects participated in a separate scanning run consisting of standard localizer stimuli including flickering checkerboard wedge and drifting stimuli presented along the horizontal and vertical meridians<sup><xref rid="R44" ref-type="bibr">44</xref></sup>. A map that contrasted the horizontal and vertical meridians was overlaid on an inflated surface map for each subject, and the meridians were used to delineate the early retinotopic areas.</p>
+              </sec>
+            </sec>
+            <sec sec-type="supplementary-material" id="S13">
+              <title>Supplementary Material</title>
+              <supplementary-material content-type="local-data" id="SD1">
+                <label>1</label>
+                <media xlink:href="NIHMS425629-supplement-1.pdf" mimetype="application" mime-subtype="pdf" orientation="portrait" xlink:type="simple" id="d37e571" position="anchor"/>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack id="S14">
+              <p>This work was supported by NIH grants T32EY015387 (J.F.) and EY018216 (D.W.) The authors thank Bruno Olshausen for providing resources and discussion on the pulvinar, Jack Gallant for helpful comments on a previous draft of the manuscript, and Erica V. Whitney for edits to the manuscript.</p>
+            </ack>
+            <fn-group>
+              <fn id="FN2" fn-type="con">
+                <p>
+                  <bold>Author Contributions:</bold>
+                </p>
+                <p>JF and DW designed the experiments. JF carried out the experiments and analyzed the data. JF and DW wrote the paper.</p>
+              </fn>
+              <fn id="FN3" fn-type="conflict">
+                <p>
+                  <bold>Competing Financial Interests:</bold>
+                </p>
+                <p>The authors declare no competing financial interests.</p>
+              </fn>
+            </fn-group>
+            <ref-list>
+              <ref id="R1">
+                <label>1</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Casanova</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <source>The visual neurosciences</source>
+                  <person-group person-group-type="editor">
+                    <name>
+                      <surname>Werner</surname>
+                      <given-names>John Simon</given-names>
+                    </name>
+                    <name>
+                      <surname>Chalupa</surname>
+                      <given-names>Leo M</given-names>
+                    </name>
+                  </person-group>
+                  <volume>36</volume>
+                  <fpage>592</fpage>
+                  <lpage>608</lpage>
+                  <publisher-name>MIT Press</publisher-name>
+                  <year>2004</year>
+                </element-citation>
+              </ref>
+              <ref id="R2">
+                <label>2</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shipp</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The brain circuitry of attention</article-title>
+                  <source>Trends Cogn Sci</source>
+                  <volume>8</volume>
+                  <fpage>223</fpage>
+                  <lpage>230</lpage>
+                  <year>2004</year>
+                  <pub-id pub-id-type="pmid">15120681</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R3">
+                <label>3</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>LaBerge</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Buchsbaum</surname>
+                      <given-names>MS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Positron emission tomographic measurements of pulvinar activity during an attention task</article-title>
+                  <source>J Neurosci</source>
+                  <volume>10</volume>
+                  <fpage>613</fpage>
+                  <lpage>619</lpage>
+                  <year>1990</year>
+                  <pub-id pub-id-type="pmid">2303863</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R4">
+                <label>4</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Laberge</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Carter</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Brown</surname>
+                      <given-names>V</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A Network Simulation of Thalamic Circuit Operations in Selective Attention</article-title>
+                  <source>Neural Computation</source>
+                  <volume>4</volume>
+                  <fpage>318</fpage>
+                  <lpage>331</lpage>
+                  <year>1992</year>
+                </element-citation>
+              </ref>
+              <ref id="R5">
+                <label>5</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Desimone</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Wessinger</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Thomas</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Schneider</surname>
+                      <given-names>W</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Attentional control of visual perception: cortical and subcortical mechanisms</article-title>
+                  <source>Cold Spring Harb Symp Quant Biol</source>
+                  <volume>55</volume>
+                  <fpage>963</fpage>
+                  <lpage>971</lpage>
+                  <year>1990</year>
+                  <pub-id pub-id-type="pmid">2132873</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R6">
+                <label>6</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Snow</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                    <name>
+                      <surname>Allen</surname>
+                      <given-names>HA</given-names>
+                    </name>
+                    <name>
+                      <surname>Rafal</surname>
+                      <given-names>RD</given-names>
+                    </name>
+                    <name>
+                      <surname>Humphreys</surname>
+                      <given-names>GW</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Impaired attentional selection following lesions to human pulvinar: evidence for homology between human and monkey</article-title>
+                  <source>Proc Natl Acad Sci U S A</source>
+                  <volume>106</volume>
+                  <fpage>4054</fpage>
+                  <lpage>4059</lpage>
+                  <year>2009</year>
+                  <pub-id pub-id-type="pmid">19237580</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R7">
+                <label>7</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Buchsbaum</surname>
+                      <given-names>MS</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Thalamocortical circuits: fMRI assessment of the pulvinar and medial dorsal nucleus in normal volunteers</article-title>
+                  <source>Neurosci Lett</source>
+                  <volume>404</volume>
+                  <fpage>282</fpage>
+                  <lpage>287</lpage>
+                  <year>2006</year>
+                  <pub-id pub-id-type="pmid">16860474</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R8">
+                <label>8</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Robinson</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                    <name>
+                      <surname>Petersen</surname>
+                      <given-names>SE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The pulvinar and visual salience</article-title>
+                  <source>Trends Neurosci</source>
+                  <volume>15</volume>
+                  <fpage>127</fpage>
+                  <lpage>132</lpage>
+                  <year>1992</year>
+                  <pub-id pub-id-type="pmid">1374970</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R9">
+                <label>9</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Desimone</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Duncan</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Neural mechanisms of selective visual attention</article-title>
+                  <source>Annu Rev Neurosci</source>
+                  <volume>18</volume>
+                  <fpage>193</fpage>
+                  <lpage>222</lpage>
+                  <pub-id pub-id-type="doi">10.1146/annurev.ne.18.030195.001205</pub-id>
+                  <year>1995</year>
+                  <pub-id pub-id-type="pmid">7605061</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R10">
+                <label>10</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Danziger</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Ward</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Owen</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Rafal</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Contributions of the human pulvinar to linking vision and action</article-title>
+                  <source>Cogn Affect Behav Neurosci</source>
+                  <volume>4</volume>
+                  <fpage>89</fpage>
+                  <lpage>99</lpage>
+                  <year>2004</year>
+                  <pub-id pub-id-type="pmid">15259891</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R11">
+                <label>11</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Danziger</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Ward</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Owen</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Rafal</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The effects of unilateral pulvinar damage in humans on reflexive orienting and filtering of irrelevant information</article-title>
+                  <source>Behav Neurol</source>
+                  <volume>13</volume>
+                  <fpage>95</fpage>
+                  <lpage>104</lpage>
+                  <year>2001</year>
+                  <pub-id pub-id-type="pmid">12446949</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R12">
+                <label>12</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schneider</surname>
+                      <given-names>KA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Subcortical mechanisms of feature-based attention</article-title>
+                  <source>J Neurosci</source>
+                  <volume>31</volume>
+                  <fpage>8643</fpage>
+                  <lpage>8653</lpage>
+                  <year>2011</year>
+                  <pub-id pub-id-type="pmid">21653868</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R13">
+                <label>13</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fischer</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Whitney</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Precise discrimination of object position in the human pulvinar</article-title>
+                  <source>Hum Brain Mapp</source>
+                  <volume>30</volume>
+                  <fpage>101</fpage>
+                  <lpage>111</lpage>
+                  <year>2009</year>
+                  <pub-id pub-id-type="pmid">17990302</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R14">
+                <label>14</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cotton</surname>
+                      <given-names>PL</given-names>
+                    </name>
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>AT</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Contralateral visual hemifield representations in the human pulvinar nucleus</article-title>
+                  <source>J Neurophysiol</source>
+                  <year>2007</year>
+                </element-citation>
+              </ref>
+              <ref id="R15">
+                <label>15</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kastner</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Functional imaging of the human lateral geniculate nucleus and pulvinar</article-title>
+                  <source>J Neurophysiol</source>
+                  <volume>91</volume>
+                  <fpage>438</fpage>
+                  <lpage>448</lpage>
+                  <year>2004</year>
+                  <pub-id pub-id-type="pmid">13679404</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R16">
+                <label>16</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fischer</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Spotswood</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Whitney</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Emergence of Perceived Position in the Visual System</article-title>
+                  <source>J Cogn Neurosci</source>
+                  <volume>23</volume>
+                  <fpage>119</fpage>
+                  <lpage>136</lpage>
+                  <year>2011</year>
+                  <pub-id pub-id-type="pmid">20044886</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R17">
+                <label>17</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Haxby</surname>
+                      <given-names>JV</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Distributed and overlapping representations of faces and objects in ventral temporal cortex</article-title>
+                  <source>Science</source>
+                  <volume>293</volume>
+                  <fpage>2425</fpage>
+                  <lpage>2430</lpage>
+                  <year>2001</year>
+                  <pub-id pub-id-type="pmid">11577229</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R18">
+                <label>18</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Haushofer</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Livingstone</surname>
+                      <given-names>MS</given-names>
+                    </name>
+                    <name>
+                      <surname>Kanwisher</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Multivariate patterns in object-selective cortex dissociate perceptual and physical shape similarity</article-title>
+                  <source>PLoS Biol</source>
+                  <volume>6</volume>
+                  <fpage>e187</fpage>
+                  <year>2008</year>
+                  <pub-id pub-id-type="pmid">18666833</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R19">
+                <label>19</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kriegeskorte</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Mur</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Bandettini</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Representational similarity analysis -connecting the branches of systems neuroscience</article-title>
+                  <source>Front Syst Neurosci</source>
+                  <volume>2</volume>
+                  <fpage>4</fpage>
+                  <year>2008</year>
+                  <pub-id pub-id-type="pmid">19104670</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R20">
+                <label>20</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fischer</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Whitney</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Attention narrows position tuning of population responses in V1</article-title>
+                  <source>Curr Biol</source>
+                  <volume>19</volume>
+                  <fpage>1356</fpage>
+                  <lpage>1361</lpage>
+                  <year>2009</year>
+                  <pub-id pub-id-type="pmid">19631540</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R21">
+                <label>21</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Talairach</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Tournoux</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <source>Co-planar stereotaxic atlas of the human brain: 3-dimensional proportional system: an approach to cerebral imaging</source>
+                  <publisher-name>Thieme Medical Publishers</publisher-name>
+                  <year>1988</year>
+                </element-citation>
+              </ref>
+              <ref id="R22">
+                <label>22</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Holmes</surname>
+                      <given-names>AP</given-names>
+                    </name>
+                    <name>
+                      <surname>Friston</surname>
+                      <given-names>KJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Generalisability, random effects and population inference</article-title>
+                  <source>Neuroimage</source>
+                  <volume>7</volume>
+                  <year>1998</year>
+                </element-citation>
+              </ref>
+              <ref id="R23">
+                <label>23</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Benjamini</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Hochberg</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Controlling the False Discovery Rate - a Practical and Powerful Approach to Multiple Testing</article-title>
+                  <source>Journal of the Royal Statistical Society Series B-Methodological</source>
+                  <volume>57</volume>
+                  <fpage>289</fpage>
+                  <lpage>300</lpage>
+                  <year>1995</year>
+                </element-citation>
+              </ref>
+              <ref id="R24">
+                <label>24</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Grieve</surname>
+                      <given-names>KL</given-names>
+                    </name>
+                    <name>
+                      <surname>Acuña</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Cudeiro</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The primate pulvinar nuclei: vision and action</article-title>
+                  <source>Trends in Neuroscience</source>
+                  <volume>23</volume>
+                  <fpage>35</fpage>
+                  <lpage>39</lpage>
+                  <year>2000</year>
+                </element-citation>
+              </ref>
+              <ref id="R25">
+                <label>25</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mourão-Miranda</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Bokde</surname>
+                      <given-names>ALW</given-names>
+                    </name>
+                    <name>
+                      <surname>Born</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Hampel</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Stetter</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Classifying brain states and determining the discriminating activation patterns: Support Vector Machine on functional MRI data</article-title>
+                  <source>Neuroimage</source>
+                  <volume>28</volume>
+                  <fpage>980</fpage>
+                  <lpage>995</lpage>
+                  <year>2005</year>
+                  <pub-id pub-id-type="pmid">16275139</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R26">
+                <label>26</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jehee</surname>
+                      <given-names>JFM</given-names>
+                    </name>
+                    <name>
+                      <surname>Brady</surname>
+                      <given-names>DK</given-names>
+                    </name>
+                    <name>
+                      <surname>Tong</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Attention Improves Encoding of Task-Relevant Features in the Human Visual Cortex</article-title>
+                  <source>The Journal of Neuroscience</source>
+                  <volume>31</volume>
+                  <fpage>8210</fpage>
+                  <lpage>8219</lpage>
+                  <year>2011</year>
+                  <pub-id pub-id-type="pmid">21632942</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R27">
+                <label>27</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Serences</surname>
+                      <given-names>JT</given-names>
+                    </name>
+                    <name>
+                      <surname>Saproo</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Scolari</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Ho</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Muftuler</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Estimating the influence of attention on population codes in human visual cortex using voxel-based tuning functions</article-title>
+                  <source>Neuroimage</source>
+                  <volume>44</volume>
+                  <fpage>223</fpage>
+                  <lpage>231</lpage>
+                  <year>2009</year>
+                  <pub-id pub-id-type="pmid">18721888</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R28">
+                <label>28</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kamitani</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Tong</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Decoding the visual and subjective contents of the human brain</article-title>
+                  <source>Nat Neurosci</source>
+                  <volume>8</volume>
+                  <fpage>679</fpage>
+                  <lpage>685</lpage>
+                  <year>2005</year>
+                  <pub-id pub-id-type="pmid">15852014</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R29">
+                <label>29</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>AT</given-names>
+                    </name>
+                    <name>
+                      <surname>Cotton</surname>
+                      <given-names>PL</given-names>
+                    </name>
+                    <name>
+                      <surname>Bruno</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Moutsiana</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Dissociating vision and visual attention in the human pulvinar</article-title>
+                  <source>J Neurophysiol</source>
+                  <volume>101</volume>
+                  <fpage>917</fpage>
+                  <lpage>925</lpage>
+                  <year>2009</year>
+                  <pub-id pub-id-type="pmid">19073806</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R30">
+                <label>30</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Haynes</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                    <name>
+                      <surname>Rees</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Decoding mental states from brain activity in humans</article-title>
+                  <source>Nature Reviews Neuroscience</source>
+                  <volume>7</volume>
+                  <fpage>523</fpage>
+                  <lpage>534</lpage>
+                  <year>2006</year>
+                  <pub-id pub-id-type="pmid">16791142</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R31">
+                <label>31</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tong</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Pratte</surname>
+                      <given-names>MS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Decoding Patterns of Human Brain Activity</article-title>
+                  <source>Annu Rev Psychol</source>
+                  <volume>63</volume>
+                  <fpage>483</fpage>
+                  <lpage>509</lpage>
+                  <year>2012</year>
+                  <pub-id pub-id-type="pmid">21943172</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R32">
+                <label>32</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Luck</surname>
+                      <given-names>SJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Hillyard</surname>
+                      <given-names>SA</given-names>
+                    </name>
+                    <name>
+                      <surname>Mangun</surname>
+                      <given-names>GR</given-names>
+                    </name>
+                    <name>
+                      <surname>Gazzaniga</surname>
+                      <given-names>MS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Independent hemispheric attentional systems mediate visual search in split-brain patients</article-title>
+                  <source>Nature</source>
+                  <volume>342</volume>
+                  <fpage>543</fpage>
+                  <lpage>545</lpage>
+                  <year>1989</year>
+                  <pub-id pub-id-type="pmid">2586625</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R33">
+                <label>33</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Alvarez</surname>
+                      <given-names>GA</given-names>
+                    </name>
+                    <name>
+                      <surname>Cavanagh</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Independent Resources for Attentional Tracking in the Left and Right Visual Hemifields</article-title>
+                  <source>Psychological Science</source>
+                  <volume>16</volume>
+                  <fpage>637</fpage>
+                  <lpage>643</lpage>
+                  <year>2005</year>
+                  <pub-id pub-id-type="pmid">16102067</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R34">
+                <label>34</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Silver</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Ress</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Heeger</surname>
+                      <given-names>DJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Topographic maps of visual spatial attention in human parietal cortex</article-title>
+                  <source>J Neurophysiol</source>
+                  <volume>94</volume>
+                  <fpage>1358</fpage>
+                  <lpage>1371</lpage>
+                  <year>2005</year>
+                  <pub-id pub-id-type="pmid">15817643</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R35">
+                <label>35</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kaas</surname>
+                      <given-names>JH</given-names>
+                    </name>
+                    <name>
+                      <surname>Lyon</surname>
+                      <given-names>DC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Pulvinar contributions to the dorsal and ventral streams of visual processing in primates</article-title>
+                  <source>Brain Res Rev</source>
+                  <year>2007</year>
+                </element-citation>
+              </ref>
+              <ref id="R36">
+                <label>36</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bender</surname>
+                      <given-names>DB</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Retinotopic organization of macaque pulvinar</article-title>
+                  <source>J Neurophysiol</source>
+                  <volume>46</volume>
+                  <fpage>672</fpage>
+                  <lpage>693</lpage>
+                  <year>1981</year>
+                  <pub-id pub-id-type="pmid">7299441</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R37">
+                <label>37</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hardy</surname>
+                      <given-names>SG</given-names>
+                    </name>
+                    <name>
+                      <surname>Lynch</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The spatial distribution of pulvinar neurons that project to two subregions of the inferior parietal lobule in the macaque</article-title>
+                  <source>Cereb Cortex</source>
+                  <volume>2</volume>
+                  <fpage>217</fpage>
+                  <lpage>230</lpage>
+                  <year>1992</year>
+                  <pub-id pub-id-type="pmid">1511222</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R38">
+                <label>38</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Padmala</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Lim</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Pessoa</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Pulvinar and affective significance: responses track moment-to-moment stimulus visibility</article-title>
+                  <source>Frontiers in Human Neuroscience</source>
+                  <volume>4</volume>
+                  <fpage>1</fpage>
+                  <lpage>9</lpage>
+                  <year>2010</year>
+                  <pub-id pub-id-type="pmid">20204154</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R39">
+                <label>39</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wilke</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Mueller</surname>
+                      <given-names>KM</given-names>
+                    </name>
+                    <name>
+                      <surname>Leopold</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Neural activity in the visual thalamus reflects perceptual suppression</article-title>
+                  <source>Proc Natl Acad Sci</source>
+                  <volume>106</volume>
+                  <fpage>9465</fpage>
+                  <lpage>9470</lpage>
+                  <year>2009</year>
+                  <pub-id pub-id-type="pmid">19458249</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R40">
+                <label>40</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Carrasco</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Visual attention: The past 25 years</article-title>
+                  <source>Vision Res</source>
+                  <volume>51</volume>
+                  <fpage>1484</fpage>
+                  <lpage>1525</lpage>
+                  <year>2011</year>
+                  <pub-id pub-id-type="pmid">21549742</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R41">
+                <label>41</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mangun</surname>
+                      <given-names>GR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Neural mechanisms of visual selective attention</article-title>
+                  <source>Psychophysiology</source>
+                  <volume>32</volume>
+                  <fpage>4</fpage>
+                  <lpage>18</lpage>
+                  <year>1995</year>
+                  <pub-id pub-id-type="pmid">7878167</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R42">
+                <label>42</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Treisman</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Strategies and models of selective attention</article-title>
+                  <source>Psychol Rev</source>
+                  <volume>76</volume>
+                  <fpage>282</fpage>
+                  <lpage>299</lpage>
+                  <year>1969</year>
+                  <pub-id pub-id-type="pmid">4893203</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R43">
+                <label>43</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lin</surname>
+                      <given-names>C-J</given-names>
+                    </name>
+                    <name>
+                      <surname>Chang</surname>
+                      <given-names>C-C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>LIBSVM: a library for support vector machines</article-title>
+                  <source>ACM Transactions on Intelligent Systems and Technology</source>
+                  <volume>2</volume>
+                  <issue>27</issue>
+                  <fpage>1</fpage>
+                  <lpage>27</lpage>
+                  <year>2011</year>
+                </element-citation>
+              </ref>
+              <ref id="R44">
+                <label>44</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sereno</surname>
+                      <given-names>MI</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Borders of multiple visual areas in humans revealed by functional magnetic resonance imaging</article-title>
+                  <source>Science</source>
+                  <volume>268</volume>
+                  <fpage>889</fpage>
+                  <lpage>893</lpage>
+                  <year>1995</year>
+                  <pub-id pub-id-type="pmid">7754376</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+          <floats-group>
+            <fig id="F1" orientation="portrait" position="float">
+              <label>Figure 1</label>
+              <caption>
+                <title>Stimuli and experimental design</title>
+                <p><bold>a)</bold> The stimuli consisted of four Gabor patches in the four visual quadrants. <bold>b)</bold> The Gabors appeared at five possible eccentricities, ranging from 8.40 deg. to 9.60 deg. From trial to trial, the positions of the upper two Gabors varied independently of the positions of the lower Gabors. <bold>c)</bold> In alternating runs, subjects were instructed to attend to the Gabors in either the upper visual field or the lower visual field, to detect slight contrast decrements in the stimuli.</p>
+              </caption>
+              <graphic xlink:href="nihms425629f1"/>
+            </fig>
+            <fig id="F2" orientation="portrait" position="float">
+              <label>Figure 2</label>
+              <caption>
+                <title>Analysis of eye position data</title>
+                <p><bold>a)</bold> Example eye trace, showing the horizontal eye position across one run for subject DH. Shades of blue indicate the position of the attended stimuli on each trial. For this run, the correlation between mean horizontal eye position within each block and the stimulus eccentricity was r = 0.043 (p = 0.80; based on 36 blocks per run; df = 34). The correlation between eye position and stimulus condition was not significant for any run, for either the attended or ignored stimuli. <bold>b)</bold> Mean eye position is shown for each of the five attended positions and the five ignored positions separately for each subject. Error bars are the standard deviation of the eye position measurements within each bin. We ran four one-way ANOVAs within each subject, testing for a systematic difference in horizontal or vertical eye position across the five stimulus locations for either the attended or ignored stimuli. None of these tests showed significant differences in eye position across the five stimulus locations (most significant was in subject DH for the ignored stimulus locations x horizontal eye position: F<sub>4,119995</sub> = 1.38, p = 0.24; all p values reported reflect tests for a main effect of eye position across the five stimulus locations, with 120,000 total eye position measurements). These results rule out the influence of systematic eye movements on our results.</p>
+              </caption>
+              <graphic xlink:href="nihms425629f2"/>
+            </fig>
+            <fig id="F3" orientation="portrait" position="float">
+              <label>Figure 3</label>
+              <caption>
+                <title>Parallel analysis of the attended and ignored stimuli in the BOLD response</title>
+                <p>In order to separately isolate the patterns of activity corresponding to the attended stimuli and the ignored stimuli, we fit each functional run with two separate general linear models. One had predictors coded according to positions of the Gabors in the upper visual field (shown in purple), while the other had predictors coded according to positions of the Gabors in the lower visual field (shown in green). By separately contrasting each of the five stimulus positions against a fixation baseline in each GLM, we generated ten maps of BOLD response: five corresponding to positions of the stimuli in the upper visual field, and five corresponding to the positions of the stimuli in the lower visual field. This approach allowed us to tease apart information about the attended and ignored stimulus positions within the same set of voxels by using two separate and independent encoding models, each of which explained a unique portion of the pattern of activity in the Pulvinar ROI.</p>
+              </caption>
+              <graphic xlink:href="nihms425629f3"/>
+            </fig>
+            <fig id="F4" orientation="portrait" position="float">
+              <label>Figure 4</label>
+              <caption>
+                <title>Correlation-based analysis of position selectivity</title>
+                <p><bold>a)</bold> We computed the pairwise correlations between the patterns of activity produced by the five stimulus positions (the central condition vs. each of the other conditions). Each point on the plot represents one voxel, its value from the first BOLD map plotted against its value from the second BOLD map. We then tested for a trend in the correlations indicating position selectivity by plotting them as a function of the visual distance between the corresponding stimuli <bold>(b)</bold>. A negative trend in the plot of correlation values indicates that as the stimuli became more retinotopically distinct, they produced more distinct multivariate patterns of activity<sup><xref rid="R20" ref-type="bibr">20</xref></sup>. A steeper negative slope on the plot indicates more precise encoding of stimulus position. <bold>c)</bold> To generate regions of interest for the pulvinar, we used the coordinates for the pulvinar drawn from the Talairach Atlas<sup><xref rid="R21" ref-type="bibr">21</xref></sup> (shown in blue), and made minor adjustments to match the ROIs to each subject’s individual anatomy (an example adjusted ROI is shown in green).</p>
+              </caption>
+              <graphic xlink:href="nihms425629f4"/>
+            </fig>
+            <fig id="F5" orientation="portrait" position="float">
+              <label>Figure 5</label>
+              <caption>
+                <title>Attention gates spatial encoding in the pulvinar</title>
+                <p><bold>a)</bold> Correlation-based analysis for left and right pulvinar, using the BOLD maps for the attended positions (red data) and the ignored positions (blue data). Each subject contributes four points to each plot – two independently computed correlations at each separation. Because multiple points were plotted for each subject, we fit the data with a regression model that included a random effect of subject<sup><xref rid="R22" ref-type="bibr">22</xref></sup>. Correlations are presented as Fisher z scores for the sake of linear comparison. In both hemispheres, there was significant discrimination of the attended positions (Fisher z = −0.49, p = 0.011 in left pulvinar; z = −0.67, p = 0.001 in right pulvinar; n = 20 for each test; nonparametric bootstrap test), but no discrimination of the ignored positions (z = 0.11, p = 0.69 in left pulvinar; z = 0.05, p = 0.57 in right pulvinar; n = 20 for each test; nonparametric bootstrap test). <bold>b)</bold> Position discrimination analyzed in bilateral pulvinar ROIs. Discrimination of attended positions was significantly better than discrimination of ignored positions (p = 0.01; n = 20 points in each plot; bootstrap test for a difference in model fits between attended and ignored). <bold>c)</bold> In primary visual cortex (V1), there was significant discrimination of both the attended and ignored stimulus positions, consistent with previous results<sup><xref rid="R20" ref-type="bibr">20</xref></sup>. Attentional modulation of position discrimination (z<sub>attended</sub> minus z<sub>ignored</sub>) was significantly greater in the pulvinar than in V1 (p = 0.04; n = 20 points in each plot; bootstrap test for a greater attended-ignored difference in the pulvinar vs. V1).</p>
+              </caption>
+              <graphic xlink:href="nihms425629f5"/>
+            </fig>
+            <fig id="F6" orientation="portrait" position="float">
+              <label>Figure 6</label>
+              <caption>
+                <title>Attention gates orientation encoding in the pulvinar</title>
+                <p><bold>a)</bold> Stimuli for the orientation decoding control experiment. Gabor patches were presented in the four visual quadrants; the Gabors could be oriented at −45 or +45 deg. with respect to vertical, and the orientations in the upper and lower visual fields varied independently (left and right Gabors within the upper or lower visual field were always oriented orthogonally). Subjects attended for brief orientation changes in the cued Gabors, ignoring the others. <bold>b)</bold> Classification of attended and ignored orientations within the pulvinar. ±1sd of chance classification, estimated by classifying with shuffled labels, is shown by the shaded region (<xref rid="SD1" ref-type="supplementary-material">Supplementary Methods</xref>). There was reliable classification of attended orientations (red bar; 54.7% correct; 7.8 standard deviations above the mean of the bootstrapped chance distribution; p &lt; 0.001), but chance classification of ignored orientations (blue bar; 49.9% correct; 0.34 standard deviations below bootstrapped chance; p = 0.62) in the pulvinar (n = 192 training blocks and 48 test blocks per subject for both tests; data shown are collapsed across three subjects). Classification of attended orientations was significantly better than classification of ignored orientation (p &lt; 0.001; nonparametric bootstrap test for whether the attended-chance difference was larger than the ignored-chance difference; n = 192 training blocks and 48 test blocks per subject in each condition). <bold>c)</bold> In early visual areas (V1 through MT+), orientation classification was significantly above chance for both attended and ignored Gabors (56.3% correct for attended and 54.3% correct for ignored, 10.1 and 6.8 standard deviations above bootstrapped chance, respectively; both p &lt; 0.001; n = 192 training blocks and 48 test blocks per subject for both tests). Attended orientations were classified significantly better than ignored orientations in early visual areas (p = 0.016; bootstrap test for [attended-chance] &gt; [ignored-chance]), but the modulation of orientation coding by attention was significantly stronger in the pulvinar than in early visual areas (p = 0.012; bootstrap test for [pulvinar<sub>attended</sub>-pulvinar<sub>ignored</sub>] &gt; [early vis<sub>attended</sub>-early vis<sub>ignored</sub>]; n = 192 training blocks and 48 test blocks per subject per condition for both tests).</p>
+              </caption>
+              <graphic xlink:href="nihms425629f6"/>
+            </fig>
+          </floats-group>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

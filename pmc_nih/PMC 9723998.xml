@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T01:56:48Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:9723998" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:9723998</identifier>
+        <datestamp>2022-12-12</datestamp>
+        <setSpec>epidinfect</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Epidemiol Infect</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Epidemiol Infect</journal-id>
+              <journal-id journal-id-type="publisher-id">HYG</journal-id>
+              <journal-title-group>
+                <journal-title>Epidemiology and Infection</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">0950-2688</issn>
+              <issn pub-type="epub">1469-4409</issn>
+              <publisher>
+                <publisher-name>Cambridge University Press</publisher-name>
+                <publisher-loc>Cambridge, UK</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC9723998</article-id>
+              <article-id pub-id-type="pmcid">PMC9723998</article-id>
+              <article-id pub-id-type="pmc-uid">9723998</article-id>
+              <article-id pub-id-type="pmid">36305040</article-id>
+              <article-id pub-id-type="pmid">36305040</article-id>
+              <article-id pub-id-type="doi">10.1017/S0950268822001650</article-id>
+              <article-id pub-id-type="pii">S0950268822001650</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Original Paper</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Spillover benefit of pre-exposure prophylaxis for HIV prevention: evaluating the importance of effect modification using an agent-based model</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-4715-3456</contrib-id>
+                  <name>
+                    <surname>Buchanan</surname>
+                    <given-names>Ashley L.</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <xref rid="cor1" ref-type="corresp"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Park</surname>
+                    <given-names>Carolyn J.</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Bessey</surname>
+                    <given-names>Sam</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-2869-1048</contrib-id>
+                  <name>
+                    <surname>Goedel</surname>
+                    <given-names>William C.</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Murray</surname>
+                    <given-names>Eleanor J.</given-names>
+                  </name>
+                  <xref rid="aff3" ref-type="aff">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Friedman</surname>
+                    <given-names>Samuel R.</given-names>
+                  </name>
+                  <xref rid="aff4" ref-type="aff">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Halloran</surname>
+                    <given-names>M. Elizabeth</given-names>
+                  </name>
+                  <xref rid="aff5" ref-type="aff">5</xref>
+                  <xref rid="aff6" ref-type="aff">6</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Katenka</surname>
+                    <given-names>Natallia V.</given-names>
+                  </name>
+                  <xref rid="aff7" ref-type="aff">7</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-0134-7052</contrib-id>
+                  <name>
+                    <surname>Marshall</surname>
+                    <given-names>Brandon D. L.</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1"><label>1</label>Department of Pharmacy Practice, College of Pharmacy, <institution>University of Rhode Island</institution>, <city>Kingston</city>, <state>RI</state>, <country>USA</country></aff>
+              <aff id="aff2"><label>2</label>Department of Epidemiology, <institution>Brown School of Public Health</institution>, <city>Providence</city>, <state>RI</state>, <country>USA</country></aff>
+              <aff id="aff3"><label>3</label>Department of Epidemiology, <institution>Boston University School of Public Health</institution>, <city>Boston</city>, <state>MA</state>, <country>USA</country></aff>
+              <aff id="aff4"><label>4</label>Department of Population Health, School of Medicine, <institution>New York University</institution>, <city>New York</city>, <state>NY</state>, <country>USA</country></aff>
+              <aff id="aff5"><label>5</label>Vaccine and Infectious Disease Division, <institution>Fred Hutchinson Cancer Center</institution>, <city>Seattle</city>, <state>WA</state>, <country>USA</country></aff>
+              <aff id="aff6"><label>6</label>Department of Biostatistics, <institution>University of Washington</institution>, <city>Seattle</city>, <state>WA</state>, <country>USA</country></aff>
+              <aff id="aff7"><label>7</label>Department of Computer Science and Statistics, College of Arts and Sciences, <institution>University of Rhode Island</institution>, <city>Kingston</city>, <state>RI</state>, <country>USA</country></aff>
+              <author-notes>
+                <corresp id="cor1"><bold>Author for correspondence:</bold> Ashley L. Buchanan, E-mail: <email>buchanan@uri.edu</email></corresp>
+              </author-notes>
+              <pub-date publication-format="electronic" date-type="collection" iso-8601-date="2022">
+                <year>2022</year>
+              </pub-date>
+              <pub-date date-type="pub" publication-format="electronic">
+                <day>28</day>
+                <month>10</month>
+                <year>2022</year>
+              </pub-date>
+              <volume>150</volume>
+              <elocation-id>e192</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>23</day>
+                  <month>2</month>
+                  <year>2022</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>26</day>
+                  <month>8</month>
+                  <year>2022</year>
+                </date>
+                <date date-type="accepted">
+                  <day>13</day>
+                  <month>10</month>
+                  <year>2022</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2022</copyright-statement>
+                <copyright-year>2022</copyright-year>
+                <copyright-holder>The Author(s)</copyright-holder>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>This is an Open Access article, distributed under the terms of the Creative Commons Attribution licence (<uri xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</uri>), which permits unrestricted re-use, distribution and reproduction, provided the original article is properly cited.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:title="pdf" xlink:href="S0950268822001650a.pdf"/>
+              <abstract abstract-type="normal">
+                <p>We developed an agent-based model using a trial emulation approach to quantify effect measure modification of spillover effects of pre-exposure prophylaxis (PrEP) for HIV among men who have sex with men (MSM) in the Atlanta-Sandy Springs-Roswell metropolitan area, Georgia. PrEP may impact not only the individual prescribed, but also their partners and beyond, known as spillover. We simulated a two-stage randomised trial with eligible components (≥3 agents with ≥1 HIV+ agent) first randomised to intervention or control (no PrEP). Within intervention components, agents were randomised to PrEP with coverage of 70%, providing insight into a high PrEP coverage strategy. We evaluated effect modification by component-level characteristics and estimated spillover effects on HIV incidence using an extension of randomisation-based estimators. We observed an attenuation of the spillover effect when agents were in components with a higher prevalence of either drug use or bridging potential (if an agent acts as a mediator between ≥2 connected groups of agents). The estimated spillover effects were larger in magnitude among components with either higher HIV prevalence or greater density (number of existing partnerships compared to all possible partnerships). Consideration of effect modification is important when evaluating the spillover of PrEP among MSM.</p>
+              </abstract>
+              <kwd-group>
+                <title>Key words</title>
+                <kwd>Agent based models</kwd>
+                <kwd>causal inference</kwd>
+                <kwd>effect modification</kwd>
+                <kwd>HIV prevention</kwd>
+                <kwd>interference</kwd>
+                <kwd>network</kwd>
+                <kwd>pre-exposure prophylaxis</kwd>
+                <kwd>spillover</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group id="aw1">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>National Institute of Allergy and Infectious Diseases</institution>
+                      <institution-id institution-id-type="doi">http://dx.doi.org/10.13039/100000060</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>R01AI085073</award-id>
+                </award-group>
+                <award-group id="aw2">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>National Institute on Drug Abuse</institution>
+                      <institution-id institution-id-type="doi">http://dx.doi.org/10.13039/100000026</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>1DP2DA046856-01</award-id>
+                </award-group>
+                <award-group id="aw3">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>National Institute on Drug Abuse</institution>
+                      <institution-id institution-id-type="doi">http://dx.doi.org/10.13039/100000026</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>DP1DA034989</award-id>
+                </award-group>
+                <award-group id="aw4">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>National Institute on Drug Abuse</institution>
+                      <institution-id institution-id-type="doi">http://dx.doi.org/10.13039/100000026</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>DP2DA040236</award-id>
+                </award-group>
+                <award-group id="aw5">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>National Institute on Drug Abuse</institution>
+                      <institution-id institution-id-type="doi">http://dx.doi.org/10.13039/100000026</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>P30DA011041</award-id>
+                </award-group>
+                <award-group id="aw6">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>National Institute of Mental Health</institution>
+                      <institution-id institution-id-type="doi">http://dx.doi.org/10.13039/100000025</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>R25MH083620</award-id>
+                </award-group>
+                <award-group id="aw7">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>National Institute of Child Health and Human Development</institution>
+                      <institution-id institution-id-type="doi">http://dx.doi.org/10.13039/100000071</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>R21HD098733</award-id>
+                </award-group>
+              </funding-group>
+              <counts>
+                <fig-count count="3"/>
+                <table-count count="3"/>
+                <ref-count count="40"/>
+                <page-count count="8"/>
+              </counts>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="intro" id="sec1">
+              <title>Introduction</title>
+              <p>Men who have sex with men (MSM) remain a population at high risk for HIV infection in the United States (US) and face barriers to optimal use of HIV prevention modalities, such as pre-exposure prophylaxis (PrEP), particularly in the Southern US [<xref rid="ref1" ref-type="bibr">1</xref>]. Many MSM are embedded in sexual risk networks such that the intervention may not only impact the individual prescribed PrEP, but also benefit their partners and beyond, which is known as <italic toggle="yes">spillover</italic> [<xref rid="ref2" ref-type="bibr">2</xref>]. The magnitude and extent to which PrEP confers spillover benefits to persons not prescribed themselves remains poorly understood.</p>
+              <p>Current PrEP prescribing guidelines from the Centers for Disease Control and Prevention (CDC) focus primarily on individual HIV risk behaviours, missing features of the sexual networks and larger context [<xref rid="ref3" ref-type="bibr">3</xref>, <xref rid="ref4" ref-type="bibr">4</xref>]. The package insert for brand-name PrEP medications does include assessment of HIV prevalence in individual's social networks and other factors that increase vulnerability, including incarceration, exchanging sex for commodities and drug use [<xref rid="ref5" ref-type="bibr">5</xref>]. However, the impact of features of the sexual network on spillover effects of PrEP remains largely unknown.</p>
+              <p>Causal inference using a potential outcomes framework [<xref rid="ref6" ref-type="bibr">6</xref>] was proposed to estimate spillover effects in agent-based models [<xref rid="ref7" ref-type="bibr">7</xref>], which are a type of individual-based microsimulation. Due to the complexity of the exposures resulting in spillover and various assumptions about the spillover mechanism, identification and estimation of causal effects is critical to ensuring the validity of the estimated spillover effects [<xref rid="ref8" ref-type="bibr">8</xref>]. Previous work employed an agent-based model to emulate a two-stage randomised trial to quantify spillover effects of PrEP use among MSM in Atlanta, Georgia (GA) [<xref rid="ref9" ref-type="bibr">9</xref>]. That study demonstrated a spillover benefit of PrEP in the sexual networks of MSM among persons not assigned to PrEP themselves; however, this prior study did not consider effect modification. Effect modification of spillover effects is possible by component-level characteristics in a sexual network, such as HIV and drug use prevalence, which, if present, could be used to increase PrEP uptake and better allocate resources, such as increasing prescriber time with individuals whose treatment may benefit that individual and their partners [<xref rid="ref10" ref-type="bibr">10</xref>]. Components are defined as subsets of agents (individuals) connected through sexual partnerships in a sexual network, but not sharing partnerships with agents in other components.</p>
+              <p>Nationally, African American (AA) MSM have an estimated HIV prevalence (25%) more than double that of White (W) MSM (8%) [<xref rid="ref11" ref-type="bibr">11</xref>]. In Atlanta, GA, this difference was more pronounced with an estimated prevalence of 43% among AAMSM, compared to 13% among WMSM. Neither race-specific assortativity in sexual partnering nor sexual behaviours can fully explain these differences [<xref rid="ref12" ref-type="bibr">12</xref>], highlighting that these disparities are driven by more distal, structural factors (like poverty and incarceration), rather than individual behaviours. Despite these disparities in HIV prevalence, PrEP uptake among AAMSM remains limited [<xref rid="ref13" ref-type="bibr">13</xref>, <xref rid="ref14" ref-type="bibr">14</xref>]. Furthermore, several studies have demonstrated that the CDC criteria for prescribing PrEP poorly identified AAMSM who eventually seroconverted [<xref rid="ref4" ref-type="bibr">4</xref>, <xref rid="ref15" ref-type="bibr">15</xref>]. Evaluation of effect modification offers information on what types of sexual networks could benefit the most from an intervention with spillover benefit.</p>
+              <p>In this methodologically-focused study that conducts causal inference with agent-based modelling, we evaluated effect measure modification of spillover effects by component-level characteristics, including HIV and drug use prevalence and network features, specifically density [<xref rid="ref16" ref-type="bibr">16</xref>] and bridging potential [<xref rid="ref17" ref-type="bibr">17</xref>], in the context of a simulated two-stage randomised trial. Bridging potential is a measure of centrality of an individual agent where they could act as a mediator between two or more closely connected groups of agents. We adapted a previously calibrated model of PrEP uptake and HIV transmission among MSM in the Atlanta metropolitan area to evaluate spillover effects of PrEP on the outcome HIV incidence [<xref rid="ref9" ref-type="bibr">9</xref>, <xref rid="ref18" ref-type="bibr">18</xref>, <xref rid="ref19" ref-type="bibr">19</xref>]. We aimed to evaluate the magnitude and direction of possible spillover effects of PrEP use across predefined levels of the component-level effect modifiers to demonstrate the utility of causal inference methodology in agent-based modelling.</p>
+            </sec>
+            <sec sec-type="methods" id="sec2">
+              <title>Methods</title>
+              <sec sec-type="other" id="sec2-1">
+                <title>Model setting and simulated trial</title>
+                <p>We used the TITAN (Treatment of Infectious Transmissions through Agent-based Network) model [<xref rid="ref20" ref-type="bibr">20</xref>] to simulate an agent-based model of PrEP uptake and HIV transmission among MSM in the Atlanta metropolitan area that was calibrated using available published data [<xref rid="ref12" ref-type="bibr">12</xref>, <xref rid="ref18" ref-type="bibr">18</xref>, <xref rid="ref19" ref-type="bibr">19</xref>, <xref rid="ref21" ref-type="bibr">21</xref>]. We employed Latin hypercube sampling for model calibration [<xref rid="ref22" ref-type="bibr">22</xref>]. Outputs from the initial model setting were obtained and compared to observed race-specific incidence rates from InvolveMENt [<xref rid="ref12" ref-type="bibr">12</xref>, <xref rid="ref23" ref-type="bibr">23</xref>] (see Supplementary Appendix 7). This agent-based model included 17 440 agents to represent the estimated number of WMSM and AAMSM ages 18 to 39 years old living in the Atlanta-Sandy Springs-Roswell region [<xref rid="ref21" ref-type="bibr">21</xref>, <xref rid="ref24" ref-type="bibr">24</xref>]. We then employed this calibrated model setting with demographics of this target population in our study; however, our aim was to simulate a randomised trial using this model, rather than recreate the HIV epidemic in this setting.</p>
+                <p>The agent-based model simulated a population of agents within a static sexual network; relationships and agents were initiated at population creation, and no agents entered or exited the model during the simulated trial for each run of the model with monthly time steps. Agents were assigned demographics, sexual behaviour characteristics, and HIV prevalence and treatment at model initiation, and components in the sexual network were identified based on sexual partnerships at model initialisation. Partner selection was a function of race and drug use class [<xref rid="ref25" ref-type="bibr">25</xref>], which resulted in the generation of assortative sexual networks. This model used a ‘bottom-up’ approach for generating networks, where agents were assigned a number of partners, types of partners, then partnerships were selected through an iterative process [<xref rid="ref20" ref-type="bibr">20</xref>]. At model initialisation for each model run, agents were assigned a target number of sexual partners. The total number of sexual partners per year was assumed to follow a negative binomial distribution with median = 5 for AAMSM and median = 7 for WMSM [<xref rid="ref12" ref-type="bibr">12</xref>]. The number of sexual acts per month within a partnership was assumed to follow a Poisson distribution, and each agent was assigned a total number of sexual acts per monthly time step, based on a mean number of monthly number of sexual acts identified at model initialisation [<xref rid="ref26" ref-type="bibr">26</xref>]. For each agent, a pool of potential partners was created from all other agents seeking partners, and subsequently narrowed by sexual position and the agent's assorting probabilities. An agent selected partners from this generated pool to achieve its target number of partners.</p>
+                <p>The per-act probability of HIV transmission in a serodiscordant sexual partnership was assumed to be constant for the duration for the two years and modified by the following factors: number of acts; condom use; type of anal intercourse; PrEP use and adherence (if HIV-negative and assigned); HIV infection status (acute <italic toggle="yes">vs.</italic> chronic), antiretroviral therapy (ART) use and adherence and viral suppression (if partner is HIV-positive). For serodiscordant partnerships with condomless sex, there were non-zero per-act probabilities of HIV transmission (per-act probability for condomless receptive anal intercourse was 1.38% and condomless insertive was 0.11%) [<xref rid="ref27" ref-type="bibr">27</xref>]. At each monthly time interval, information on each agent and their component were recorded, including HIV status, ART use and viral load (if HIV-positive) and number of sexual acts.</p>
+                <p>We simulated a two-stage randomised design among MSM in Atlanta evaluating spillover effects of PrEP on the outcome cumulative HIV incidence by two years after randomisation [<xref rid="ref9" ref-type="bibr">9</xref>, <xref rid="ref18" ref-type="bibr">18</xref>, <xref rid="ref19" ref-type="bibr">19</xref>]. Because we were interested in component-level effect measure modification, we required the components in the simulated trial to have at least three agents (at least one HIV+ agent) and individual agents had to be HIV-negative to be assigned to PrEP. These inclusion criteria ensured that the components included individuals at risk for HIV infection and the network structure of the component was complex enough to measure centrality.</p>
+                <p>In this simulated two-stage randomised design, enrolled components were first randomised 1:1 to either a PrEP allocation strategy (‘intervention’ components) or no PrEP allocation (‘control’ components). Then, eligible agents in each intervention component were randomised to PrEP according to a specific coverage level defined by the assigned allocation strategy. We considered the scenario of 70% PrEP coverage (on average) in intervention components to provide insight into strategies with high PrEP coverage.</p>
+                <p>We assumed the same set of parameters for this study as for the previously published work [<xref rid="ref21" ref-type="bibr">21</xref>]. However, some key adaptations were made for this study [<xref rid="ref9" ref-type="bibr">9</xref>]. We assumed static sexual networks defined at baseline and fixed for the study duration in each simulated trial. In this static sexual network, agents could have any number of partnerships with one or more sexual acts per monthly interval according to the initial model parameterisation (see Supplementary Table S1). The full sexual sociometric network was a set of smaller components, each agent belonged to only one component, and there were no partnerships between agents in different components. We also assumed no drop out (i.e. 100% retention in PrEP over the two years). These assumptions were necessary because the existing methods for evaluating spillover do not allow for time-varying components in the sexual network.</p>
+                <p>We added a ‘drug use’ agent class, which was defined at model initialisation and remained stable for the duration of the simulated trial. The prevalence of drug use was defined based on a review of relevant literature [<xref rid="ref28" ref-type="bibr">28</xref>]. Drug use was defined as self-reported use of cannabis, cocaine, amphetamines, methamphetamines, inhalant nitrites, heroin/opioids or benzodiazepines in the past 12 months and influenced PrEP adherence, condomless sex and assortativity. Specifically, agents who were defined as using drugs had a 35% lower probability of adherence to PrEP [<xref rid="ref25" ref-type="bibr">25</xref>] and 20% higher probability of condomless sex [<xref rid="ref29" ref-type="bibr">29</xref>]. We assumed that 20% of drug-using agents mixed with other drug-using agents.</p>
+                <p>Python software, version 2.7.12, along with the NumPy and NetworkX packages, was used for coding, testing and performing sensitivity analyses of this model. The analysis of model output for this paper was generated using SAS software (version 9.4, Cary, NC, USA). R software, version 3.5.1, along with ggplot2, was used to produce figures. Additional information regarding parameter values, key model assumptions, data sources and additional references are included in the Supplementary Appendices 1–8 (Table S1).</p>
+              </sec>
+              <sec sec-type="other" id="sec2-2">
+                <title>Causal inference methods for spillover</title>
+                <p>Let <italic toggle="yes">M</italic> be a baseline (pre-randomisation) binary component-level variable (1 = presence of a component-level factor, 0 = absence of that factor). Let <italic toggle="yes">Y</italic> denote the agent-level outcome ascertained two years after randomisation in the simulated trial. Given the two-stage randomised design, we expect exchangeability to hold at both the component and agent levels. We assume exchangeability within levels of <italic toggle="yes">M</italic>; that is, <italic toggle="yes">Y</italic><sup><italic toggle="yes">a</italic></sup>⊥<italic toggle="yes">A</italic>|<italic toggle="yes">M</italic>. This means that the intervention components are comparable to control components, and within intervention components, agents randomised to the intervention are comparable to those randomised to the control, in expectation conditional on <italic toggle="yes">M</italic> at baseline [<xref rid="ref30" ref-type="bibr">30</xref>].</p>
+                <p>Although static during follow-up, the component sizes at model initialisation varied in each simulated trial due to the partnering algorithm, so we extended estimators in [<xref rid="ref31" ref-type="bibr">31</xref>] to evaluate effect modification by component characteristics. We assume <italic toggle="yes">partial interference</italic>; that is, an agent's outcome is influenced only by others in the same component, but no agents outside the component. We also assume <italic toggle="yes">stratified interference</italic>, in which an agent's potential outcome is dependent only on their own intervention assignment and the proportion of agents randomised to the intervention in their component [<xref rid="ref2" ref-type="bibr">2</xref>]. We make the usual additional assumptions required for causal inference (i.e. exchangeability, consistency and positivity) [<xref rid="ref30" ref-type="bibr">30</xref>]. We assumed a Bernoulli allocation strategy for intervention assignment within each component [<xref rid="ref2" ref-type="bibr">2</xref>].</p>
+                <p>To evaluate effect modification by network features for the intention-to-treat effects, we first averaged agent-level characteristics for each component to determine the distribution across all components, then used this distribution to define a binary variable for each component. We are interested in quantifying a spillover effect, defined as the difference in the risk of HIV infection of an agent assigned to no PrEP under two different coverage levels of PrEP. This parameter can weight each agent or each component equally in the study population. We focused the presentation on the component-weighted estimators and compared to the individual-weighted estimators in the Supplementary Appendix 9 [<xref rid="ref30" ref-type="bibr">30</xref>].</p>
+                <p>For the estimator, we computed the inverse probability weights conditional on <italic toggle="yes">M</italic>, then we estimated the causal effect within each level of the component-level variable. These weights are two-stage, inverse probability weights and correspond to the probability of intervention assignment at the component level and at the agent level conditional on the component intervention assignment. We employed both stabilised and unstabilised estimators in the analysis [<xref rid="ref31" ref-type="bibr">31</xref>]. These estimators are unbiased in a two-stage randomised design with a single allocation strategy and a control group (no agents were assigned to PrEP) [<xref rid="ref31" ref-type="bibr">31</xref>]. The estimators of the risk ratio of the spillover effect are defined analogously [<xref rid="ref31" ref-type="bibr">31</xref>]. See Supplementary Appendix 12 for additional details on causal inference methods for effect modification of spillover.</p>
+              </sec>
+              <sec sec-type="other" id="sec2-3">
+                <title>Network structure of components</title>
+                <p>The network features considered were the bridging potential and density. A component's <italic toggle="yes">density</italic> is defined as the proportion of observed connections in a component among the maximum number of possible connections in a component of the same size [<xref rid="ref16" ref-type="bibr">16</xref>]. A sexual network component that is both large and dense is more likely to have agents who engage in sexual partnerships within the network component. This is particularly problematic when a pair of agents is HIV serodiscordant.</p>
+                <p>Bridging potential (also known as effective size) measures the redundancy in an agent's partnerships by examining the connections between their partners, providing a measure of centrality of an agent where they could act as a mediator between two or more closely connected groups of agents [<xref rid="ref17" ref-type="bibr">17</xref>]. Bridging potential can be used to identify critical agents for interrupting HIV transmission chains in a network component. Agents with high bridging potential can act as ‘gatekeepers’ in the network [<xref rid="ref16" ref-type="bibr">16</xref>] and, in the context of HIV, divide relatively isolated groups of other agents. If these agents remain uninfected, for example, by adhering to a PrEP regimen, they would limit or slow the spread of infection in the population (<xref rid="fig01" ref-type="fig">Fig. 1</xref>). Intervening to deliver PrEP to an HIV-negative agent with low bridging potential would only protect that agent against HIV acquisition; however, intervening to deliver PrEP to an HIV-negative agent with high bridging potential would protect that agent and the other HIV-negative agents in the component [<xref rid="ref32" ref-type="bibr">32</xref>]. See Supplementary Appendix 13 for additional details on the network measures.
+<fig position="float" id="fig01" fig-type="fig"><label>Fig. 1.</label><caption><p>HIV-negative agent on PrEP who has no bridging potential (left) <italic toggle="yes">vs.</italic> high bridging potential (right). Dashed lines represent sexual partnerships present in both components, while solid lines represent sexual partnerships in the fully connected component only (left). Adapted from [<xref rid="ref32" ref-type="bibr">32</xref>].</p></caption><graphic xlink:href="S0950268822001650_fig1" position="float"/></fig></p>
+              </sec>
+              <sec sec-type="other" id="sec2-4">
+                <title>Outcome measures</title>
+                <p>The primary outcome measure was cumulative HIV incidence over 24 months after randomisation, as measured by the number of incident HIV infections among those HIV-negative at the start of the trial (and reported as a proportion). We examined effect modification on both the ratio and difference scale using stabilised component-weighted estimators [<xref rid="ref31" ref-type="bibr">31</xref>]. We estimated <italic toggle="yes">spillover</italic> effects within levels of the following component-level effect modifiers aggregated to the component level: HIV prevalence and drug use prevalence; and network characteristics: average density and average bridging potential. For each of the four effect modifiers, we defined binary variables based on the distribution of each variable (e.g. <italic toggle="yes">M</italic> = 0 if ≤median <italic toggle="yes">vs. M</italic> = 1 if &gt;median). These parameters were computed using nonparametric estimators for this setting, averaging across 1000 simulations, along with 95% simulation intervals (SIs) (i.e. middle 95% of simulated output) to assess stochastic uncertainty [<xref rid="ref33" ref-type="bibr">33</xref>].</p>
+              </sec>
+              <sec sec-type="other" id="sec2-5">
+                <title>Sensitivity analyses</title>
+                <p>We conducted a sensitivity analysis in which PrEP coverage in the intervention components was set to 30% (on average), reflecting a lower coverage PrEP strategy. Furthermore, spillover is more meaningful if there are at least two HIV-negative agents in a component, so we conducted a sensitivity analysis excluding components with only one HIV-negative agent, which comprised about 13% of all components on average across the simulation runs. The model results may also depend on PrEP adherence and discontinuation among the agents randomised to PrEP. We performed one-way sensitivity analyses to assess the impact of our model parameterisation for PrEP adherence and PrEP discontinuation on model results for HIV cumulative incidence, focusing on two-stage randomised trials with 70% coverage allocation strategies in the intervention components. We quantified the effect measure modification, as specified above, across component-level factors. Specifically, we modified the proportion who were optimally adherent to PrEP in a monthly interval (i.e. 4 or more doses per week) to be 80% among WMSM and 50% among AAMSM [<xref rid="ref34" ref-type="bibr">34</xref>]. We considered a scenario where 10% of agents discontinued PrEP in each monthly interval during the two-year follow-up [<xref rid="ref35" ref-type="bibr">35</xref>].</p>
+              </sec>
+            </sec>
+            <sec sec-type="results" id="sec3">
+              <title>Results</title>
+              <p>In the two-stage simulated trial, there were an average of 3947 agents per simulation and about 800 components per trial with an average component size of 5 agents (standard deviation (<sc>s.d.</sc>) = 3). Characteristics of components were balanced between the intervention and control components (<xref rid="tab01" ref-type="table">Table 1</xref>). On average, HIV prevalence was approximately 34% in each component at enrolment (95% simulation interval (SI) = 33%, 36%). About 45% of agents were AA (95% SI = 42%, 47%) and prevalence of drug use was 35% in the components (95% SI = 34%, 37%), on average. Average bridging potential was 1.51 (<sc>s.d.</sc> = 0.17); therefore, an agent in a network component typically has either a single connection or lies between two other agents. Average density was 0.49 (<sc>s.d.</sc> = 0.17), implying about half of the possible connections were made in the simulated network.
+<table-wrap position="float" id="tab01"><label>Table 1.</label><caption><p>Characteristics of components at the time of enrolment into the simulated two-stage randomised trial with 70% PrEP coverage in the intervention group in an agent-based model representing MSM in the Atlanta metropolitan area, Georgia, 2015–2017</p></caption><alternatives><graphic xlink:href="S0950268822001650_tab1" position="float"/><table frame="hsides" rules="groups"><col align="left" width="1*" span="1"/><col align="left" width="1*" span="1"/><col align="char" char="." width="1*" span="1"/><col align="char" char="." width="1*" span="1"/><thead><tr><th align="left" colspan="1" rowspan="1"/><th align="center" colspan="1" rowspan="1"/><th align="center" colspan="2" rowspan="1">Component assignment</th></tr><tr><th align="left" colspan="1" rowspan="1">Characteristics</th><th align="center" colspan="1" rowspan="1">Summary measure</th><th align="center" colspan="1" rowspan="1">Intervention (<italic toggle="yes">n</italic> = 1977.0)</th><th align="center" colspan="1" rowspan="1">Control (<italic toggle="yes">n</italic> = 1969.5)</th></tr></thead><tbody><tr><td colspan="1" rowspan="1">Number of components</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">401.1</td><td colspan="1" rowspan="1">399.7</td></tr><tr><td colspan="1" rowspan="1">Average component size</td><td colspan="1" rowspan="1">Mean (<sc>s.d.</sc>)</td><td colspan="1" rowspan="1">4.9 (3.2)</td><td colspan="1" rowspan="1">4.9 (3.1)</td></tr><tr><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">Median (IQR)</td><td colspan="1" rowspan="1">4 (2)</td><td colspan="1" rowspan="1">4 (2)</td></tr><tr><td colspan="1" rowspan="1">HIV prevalence</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">34.2%</td><td colspan="1" rowspan="1">34.3%</td></tr><tr><td colspan="1" rowspan="1">African American race</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">44.7%</td><td colspan="1" rowspan="1">44.8%</td></tr><tr><td colspan="1" rowspan="1">Any drug use</td><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">35.4%</td><td colspan="1" rowspan="1">35.4%</td></tr><tr><td colspan="1" rowspan="1">Bridging potential</td><td colspan="1" rowspan="1">Mean (<sc>s.d.</sc>)</td><td colspan="1" rowspan="1">1.5 (0.2)</td><td colspan="1" rowspan="1">1.5 (0.2)</td></tr><tr><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">Median (IQR)</td><td colspan="1" rowspan="1">1.5 (0.3)</td><td colspan="1" rowspan="1">1.5 (0.3)</td></tr><tr><td colspan="1" rowspan="1">Density</td><td colspan="1" rowspan="1">Mean (<sc>s.d.</sc>)</td><td colspan="1" rowspan="1">0.5 (0.2)</td><td colspan="1" rowspan="1">0.5 (0.2)</td></tr><tr><td colspan="1" rowspan="1"/><td colspan="1" rowspan="1">Median (IQR)</td><td colspan="1" rowspan="1">0.5 (0.3)</td><td colspan="1" rowspan="1">0.5 (0.3)</td></tr></tbody></table></alternatives><table-wrap-foot><fn id="tfn1_1" fn-type="other"><p><italic toggle="yes">Note</italic>: Results above are from 1000 iterations of the agent-based model.</p></fn></table-wrap-foot></table-wrap></p>
+              <p>We evaluated the cumulative HIV incidence by 24 months of follow-up overall in the simulated trial and by four effect modifiers at the component level (<xref rid="tab02" ref-type="table">Table 2</xref>). Overall, cumulative incidence among those in control components was 10% (95% SI = 8%, 12%), compared to 9% among agents randomised to no PrEP in the intervention components (95% SI = 6%, 12%) and 1% among agents randomised to PrEP in intervention components (95% SI = 0.5%, 2%). Among components with HIV prevalence above the median, the HIV cumulative incidence was about twice as high for all three groups compared to components with prevalence below the median. A similar but more modest effect modification was observed for density. For drug use and bridging potential, the effect modification was reversed only among agents not on PrEP in both intervention and control components and also attenuated compared to HIV prevalence.
+<table-wrap position="float" id="tab02"><label>Table 2.</label><caption><p>Cumulative incidence of HIV over two years of follow-up after two-stage randomisation stratified by four modifiers (≤median <italic toggle="yes">M</italic> = 0 <italic toggle="yes">vs.</italic> &gt;median <italic toggle="yes">M</italic> = 1) among HIV-negative agents within PrEP intervention (70% coverage) and control components with 95% simulation intervals (SI) in an agent-based model representing MSM in the Atlanta metropolitan area, Georgia, 2015–2017 (<italic toggle="yes">n</italic> = 3947)</p></caption><alternatives><graphic xlink:href="S0950268822001650_tab2" position="float"/><table frame="hsides" rules="groups"><col align="left" width="1*" span="1"/><col align="char" char="." width="1*" span="1"/><col align="char" char="." width="1*" span="1"/><col align="char" char="." width="1*" span="1"/><col align="char" char="." width="1*" span="1"/><col align="char" char="." width="1*" span="1"/><col align="char" char="." width="1*" span="1"/><col align="char" char="." width="1*" span="1"/><col align="char" char="." width="1*" span="1"/><col align="char" char="." width="1*" span="1"/><thead><tr><th align="left" colspan="1" rowspan="1"/><th align="center" colspan="6" rowspan="1">Intervention components</th><th align="center" colspan="3" rowspan="1">Control components</th></tr><tr><th align="left" colspan="1" rowspan="1"/><th align="center" colspan="3" rowspan="1">Agents on PrEP</th><th align="center" colspan="3" rowspan="1">Agents not on PrEP</th><th align="center" colspan="3" rowspan="1">Agents not on PrEP</th></tr><tr><th align="left" colspan="1" rowspan="1">Effect modifiers</th><th align="center" colspan="1" rowspan="1">Total agents</th><th align="center" colspan="1" rowspan="1">Incident HIV infections</th><th align="center" colspan="1" rowspan="1">Cumulative incidence<xref rid="tfn2_1" ref-type="table-fn"><sup>a</sup></xref></th><th align="center" colspan="1" rowspan="1">Total agents</th><th align="center" colspan="1" rowspan="1">Incident HIV infections</th><th align="center" colspan="1" rowspan="1">Cumulative incidence<xref rid="tfn2_1" ref-type="table-fn"><sup>a</sup></xref></th><th align="center" colspan="1" rowspan="1">Total agents</th><th align="center" colspan="1" rowspan="1">Incident HIV infections</th><th align="center" colspan="1" rowspan="1">Cumulative incidence<xref rid="tfn2_1" ref-type="table-fn"><sup>a</sup></xref></th></tr></thead><tbody><tr><td colspan="1" rowspan="1">Overall</td><td colspan="1" rowspan="1">909.8</td><td colspan="1" rowspan="1">10.4</td><td colspan="1" rowspan="1">0.01</td><td colspan="1" rowspan="1">389.7</td><td colspan="1" rowspan="1">35.4</td><td colspan="1" rowspan="1">0.09</td><td colspan="1" rowspan="1">1295.7</td><td colspan="1" rowspan="1">125.2</td><td colspan="1" rowspan="1">0.10</td></tr><tr><td colspan="10" align="left" rowspan="1">Drug use</td></tr><tr><td colspan="1" rowspan="1">Among <italic toggle="yes">M</italic>  =  0</td><td colspan="1" rowspan="1">490.6</td><td colspan="1" rowspan="1">6.4</td><td colspan="1" rowspan="1">0.01</td><td colspan="1" rowspan="1">210.2</td><td colspan="1" rowspan="1">21.1</td><td colspan="1" rowspan="1">0.10</td><td colspan="1" rowspan="1">698.9</td><td colspan="1" rowspan="1">74.3</td><td colspan="1" rowspan="1">0.11</td></tr><tr><td colspan="1" rowspan="1">Among <italic toggle="yes">M</italic>  =  1</td><td colspan="1" rowspan="1">419.2</td><td colspan="1" rowspan="1">4.0</td><td colspan="1" rowspan="1">0.01</td><td colspan="1" rowspan="1">179.5</td><td colspan="1" rowspan="1">14.4</td><td colspan="1" rowspan="1">0.08</td><td colspan="1" rowspan="1">596.8</td><td colspan="1" rowspan="1">51.0</td><td colspan="1" rowspan="1">0.09</td></tr><tr><td colspan="10" align="left" rowspan="1">HIV Prevalence</td></tr><tr><td colspan="1" rowspan="1">Among <italic toggle="yes">M</italic>  =  0</td><td colspan="1" rowspan="1">700.1</td><td colspan="1" rowspan="1">6.0</td><td colspan="1" rowspan="1">0.01</td><td colspan="1" rowspan="1">300.1</td><td colspan="1" rowspan="1">21.6</td><td colspan="1" rowspan="1">0.07</td><td colspan="1" rowspan="1">998.0</td><td colspan="1" rowspan="1">77.5</td><td colspan="1" rowspan="1">0.08</td></tr><tr><td colspan="1" rowspan="1">Among <italic toggle="yes">M</italic>  =  1</td><td colspan="1" rowspan="1">209.7</td><td colspan="1" rowspan="1">4.4</td><td colspan="1" rowspan="1">0.02</td><td colspan="1" rowspan="1">89.7</td><td colspan="1" rowspan="1">13.8</td><td colspan="1" rowspan="1">0.16</td><td colspan="1" rowspan="1">297.7</td><td colspan="1" rowspan="1">47.7</td><td colspan="1" rowspan="1">0.16</td></tr><tr><td colspan="10" align="left" rowspan="1">Bridging potential</td></tr><tr><td colspan="1" rowspan="1">Among <italic toggle="yes">M</italic>  =  0</td><td colspan="1" rowspan="1">352.4</td><td colspan="1" rowspan="1">4.9</td><td colspan="1" rowspan="1">0.01</td><td colspan="1" rowspan="1">150.3</td><td colspan="1" rowspan="1">16.4</td><td colspan="1" rowspan="1">0.11</td><td colspan="1" rowspan="1">501.0</td><td colspan="1" rowspan="1">57.3</td><td colspan="1" rowspan="1">0.11</td></tr><tr><td colspan="1" rowspan="1">Among <italic toggle="yes">M</italic>  =  1</td><td colspan="1" rowspan="1">557.4</td><td colspan="1" rowspan="1">5.5</td><td colspan="1" rowspan="1">0.01</td><td colspan="1" rowspan="1">239.4</td><td colspan="1" rowspan="1">19.0</td><td colspan="1" rowspan="1">0.08</td><td colspan="1" rowspan="1">794.7</td><td colspan="1" rowspan="1">67.9</td><td colspan="1" rowspan="1">0.09</td></tr><tr><td colspan="10" align="left" rowspan="1">Density</td></tr><tr><td colspan="1" rowspan="1">Among <italic toggle="yes">M</italic>  =  0</td><td colspan="1" rowspan="1">719.3</td><td colspan="1" rowspan="1">7.5</td><td colspan="1" rowspan="1">0.01</td><td colspan="1" rowspan="1">308.1</td><td colspan="1" rowspan="1">25.8</td><td colspan="1" rowspan="1">0.08</td><td colspan="1" rowspan="1">1024.9</td><td colspan="1" rowspan="1">92.2</td><td colspan="1" rowspan="1">0.09</td></tr><tr><td colspan="1" rowspan="1">Among <italic toggle="yes">M</italic>  =  1</td><td colspan="1" rowspan="1">190.5</td><td colspan="1" rowspan="1">2.9</td><td colspan="1" rowspan="1">0.02</td><td colspan="1" rowspan="1">81.5</td><td colspan="1" rowspan="1">9.6</td><td colspan="1" rowspan="1">0.12</td><td colspan="1" rowspan="1">270.9</td><td colspan="1" rowspan="1">33.0</td><td colspan="1" rowspan="1">0.12</td></tr></tbody></table></alternatives><table-wrap-foot><fn id="tfn2_1" fn-type="other"><label>a</label><p>Cumulative incidence presented as a proportion (number of HIV+/total number).</p></fn></table-wrap-foot></table-wrap></p>
+              <p><xref rid="tab03" ref-type="table">Table 3</xref> displays the estimated spillover effects of PrEP on cumulative incidence of HIV by 24 months on the ratio and difference scale stratified by the four binary modifiers. For the effect modifier drug use, the estimated spillover effects were slightly larger in magnitude among components with a lower prevalence of drug use compared to those with a higher prevalence. For bridging potential, the estimated spillover effects were larger among components with lower average bridging potential, compared to those with higher bridging potential.
+<table-wrap position="float" id="tab03"><label>Table 3.</label><caption><p>Estimated spillover effects of PrEP on cumulative incidence of HIV over two years of follow-up after two-stage randomisation stratified by four effect modifiers (≤median <italic toggle="yes">M</italic> = 0 <italic toggle="yes">vs.</italic> &gt;median <italic toggle="yes">M</italic> = 1) among HIV-negative agents within PrEP intervention and control components with 95% simulation intervals (SI) in an agent-based model representing MSM in the Atlanta metropolitan area, Georgia, 2015–2017 (<italic toggle="yes">n</italic> = 3947)<xref rid="tfn3_2" ref-type="table-fn"><sup>a</sup></xref></p></caption><alternatives><graphic xlink:href="S0950268822001650_tab3" position="float"/><table frame="hsides" rules="groups"><col align="left" width="1*" span="1"/><col align="char" char="(" width="1*" span="1"/><col align="char" char="(" width="1*" span="1"/><thead><tr><th align="left" colspan="1" rowspan="1"/><th align="center" colspan="1" rowspan="1">RD (95% SI)</th><th align="center" colspan="1" rowspan="1">RR (95% SI)</th></tr></thead><tbody><tr><td colspan="3" align="left" rowspan="1"><italic toggle="yes">M</italic> = 0</td></tr><tr><td colspan="1" rowspan="1">Drug use</td><td colspan="1" rowspan="1">−0.08 (−0.14, −0.03)</td><td colspan="1" rowspan="1">0.47 (0.24, 0.78)</td></tr><tr><td colspan="1" rowspan="1">HIV prevalence</td><td colspan="1" rowspan="1">−0.05 (−0.10, −0.01)</td><td colspan="1" rowspan="1">0.56 (0.26, 0.91)</td></tr><tr><td colspan="1" rowspan="1">Bridging potential</td><td colspan="1" rowspan="1">−0.08 (−0.12, −0.03)</td><td colspan="1" rowspan="1">0.44 (0.23, 0.72)</td></tr><tr><td colspan="1" rowspan="1">Density</td><td colspan="1" rowspan="1">−0.06 (−0.10, −0.01)</td><td colspan="1" rowspan="1">0.58 (0.30, 0.94)</td></tr><tr><td colspan="3" align="left" rowspan="1"><italic toggle="yes">M</italic> = 1</td></tr><tr><td colspan="1" rowspan="1">Drug use</td><td colspan="1" rowspan="1">−0.07 (−0.14, 0.001)</td><td colspan="1" rowspan="1">0.53 (0.20, 1.01)</td></tr><tr><td colspan="1" rowspan="1">HIV prevalence</td><td colspan="1" rowspan="1">−0.13 (−0.22, −0.04)</td><td colspan="1" rowspan="1">0.41 (0.18, 0.76)</td></tr><tr><td colspan="1" rowspan="1">Bridging potential</td><td colspan="1" rowspan="1">−0.04 (−0.03, 0.02)</td><td colspan="1" rowspan="1">0.68 (0.31, 1.21)</td></tr><tr><td colspan="1" rowspan="1">Density</td><td colspan="1" rowspan="1">−0.08 (−0.14, −0.02)</td><td colspan="1" rowspan="1">0.42 (0.17, 0.79)</td></tr></tbody></table></alternatives><table-wrap-foot><fn id="tfn3_1" fn-type="other"><p>RD, risk difference; RR, risk ratio.</p></fn><fn id="tfn3_2" fn-type="other"><label>a</label><p>Estimates calculated using component-weighted stabilised estimators [<xref rid="ref31" ref-type="bibr">31</xref>].</p></fn></table-wrap-foot></table-wrap></p>
+              <p>The estimated spillover effects were larger in magnitude among components with higher HIV prevalence compared to lower prevalence. Similar patterns were observed for network density although the effect modification was attenuated on the difference scale. <xref rid="fig02" ref-type="fig">Figures 2</xref> and <xref rid="fig03" ref-type="fig">3</xref> display the estimated spillover effects across 1000 simulated trials on the difference and ratio scale. Consistent with the results in <xref rid="tab03" ref-type="table">Table 3</xref>, the spillover effects among components with HIV prevalence above the median were larger in magnitude on both the difference and ratio scale, as compared to components with prevalence below the median.
+<fig position="float" id="fig02" fig-type="fig"><label>Fig. 2.</label><caption><p>Estimated spillover risk difference of PrEP on cumulative incidence of HIV by effect modifiers. <italic toggle="yes">M</italic> = 1 if prevalence above median (<italic toggle="yes">vs. M</italic> = 0 at or below median) among HIV-negative agents within PrEP intervention (70% coverage) and control components in two-stage randomised designs of a PrEP intervention with 70% coverage in an agent-based model representing MSM in the Atlanta metropolitan area, Georgia, 2015–2017. Lines within boxes, median values; box borders, interquartile ranges (75th and 25th percentiles); bars, 90th and 10th percentiles; points, outliers. Shaded shape represented the distribution of estimates and dashed lines represent the null value (<italic toggle="yes">n</italic> = 3947).</p></caption><graphic xlink:href="S0950268822001650_fig2" position="float"/></fig>
+<fig position="float" id="fig03" fig-type="fig"><label>Fig. 3.</label><caption><p>Estimated spillover risk ratio of PrEP on cumulative incidence of HIV by effect modifiers. <italic toggle="yes">M</italic> = 1 if prevalence above median <italic toggle="yes">vs. M</italic> = 0 at or below median among HIV-negative agents within PrEP intervention (70% coverage) and control components in two-stage randomised designs of a PrEP intervention with 70% coverage in an agent-based model representing MSM in the Atlanta metropolitan area, Georgia, 2015–2017. Lines within boxes, median values; box borders, interquartile ranges (75th and 25th percentiles); bars, 90th and 10th percentiles; points, outliers. Shaded shape represented the distribution of estimates and dashed lines represent the null value (<italic toggle="yes">n</italic> = 3947).</p></caption><graphic xlink:href="S0950268822001650_fig3" position="float"/></fig></p>
+              <p>For the sensitivity analysis of PrEP coverage, we simulated the trial with a 30% coverage of PrEP in the intervention components. The estimated spillover effects were typically larger in magnitude with 70% coverage compared to 30% coverage (Supplementary Appendix 9 and Tables S2–S6). For the sensitivity analysis that excluded components with only one HIV-negative agent, the estimated stabilised component-weighted effects on both the risk difference and ratio scales were somewhat attenuated towards the null, except for HIV prevalence among <italic toggle="yes">M</italic> = 0 and bridging potential among <italic toggle="yes">M</italic> = 1. However, the effect measure modification observed in the main analysis largely remained but was also attenuated (Supplementary Appendix 10, Tables S7–S9 and Figures S1–S2). For the one-way sensitivity analyses, the estimated spillover effects were fairly robust to changes in both PrEP adherence and PrEP discontinuation and the results from both of these sensitivity analyses were comparable to the main analysis (Supplementary Appendix 11, Tables S10–S21 and Figures S3–S6).</p>
+            </sec>
+            <sec sec-type="discussion" id="sec4">
+              <title>Discussion</title>
+              <p>To leverage causal inference in agent-based models, we simulated a two-stage randomised trial to evaluate effect modification of PrEP spillover effects among MSM in the Atlanta metropolitan area, Georgia [<xref rid="ref18" ref-type="bibr">18</xref>, <xref rid="ref20" ref-type="bibr">20</xref>]. Estimated spillover effects were slightly larger in magnitude among components with a lower prevalence of drug use and larger among lower average bridging potential. Interestingly, the spillover effects were larger in magnitude in components with <italic toggle="yes">higher</italic> HIV prevalence and also greater network density. In components with higher HIV prevalence, the estimated spillover effect was a 13 fewer HIV infections per 100 agents, as compared to only 5 fewer HIV infections per 100 agents among components with lower HIV prevalence.</p>
+              <p>When there are more HIV-infected agents in a component, HIV-uninfected agents have an increased risk of HIV acquisition, and thus benefit more by having partners who are on PrEP due to the reduction in HIV transmission risk from their partners' concurrent partners [<xref rid="ref36" ref-type="bibr">36</xref>]. In fact, a component with no HIV-infected individuals at enrolment and no sexual risk connections outside the component has zero HIV risk, regardless of PrEP status, so these were excluded from our study. Furthermore, the estimated effects were stronger in denser components. When there are more partnerships in a component, there are more opportunities for PrEP to make a difference by preventing HIV seroconversion of agents [<xref rid="ref37" ref-type="bibr">37</xref>]. In this model, drug use decreased PrEP adherence and condom use, as well as influenced the partnering algorithm. A lower prevalence of drug use likely resulted in less sexual risk behavior in a component possibly bolstering the spillover effect.</p>
+              <p>Particularly in the Southern US, uptake of PrEP services remains concerningly low among AAMSM [<xref rid="ref14" ref-type="bibr">14</xref>]. Recent efforts in Atlanta, GA, to expand access to PrEP through the county health department are notable; however, initiating and adhering to PrEP remain a significant challenge for successful delivery among AAMSM [<xref rid="ref35" ref-type="bibr">35</xref>]. Disparities in PrEP uptake may weaken the population-level impact on HIV incidence [<xref rid="ref19" ref-type="bibr">19</xref>, <xref rid="ref38" ref-type="bibr">38</xref>]. Many evaluations of the efficacy and effectiveness of PrEP focus on an individual effect without consideration of the sexual risk network. With a better understanding of spillover effects and important effect modifiers, the delivery of PrEP interventions could be tailored to the most at-risk components, possibly mitigating disparities in PrEP uptake between WMSM and AAMSM. For example, network-based interventions could involve persons living with HIV referring their HIV-negative partners to PrEP. In fact, models such as the one employed here could be used to conduct preliminary evaluations of network-based PrEP interventions to inform subsequent delivery in the population [<xref rid="ref39" ref-type="bibr">39</xref>].</p>
+              <p>This simulated trial approach has several limitations. To evaluate effect measure modification of spillover effects, we designed this study to include components both of meaningful size and at-risk for HIV. To employ existing causal inference methods, we assumed that the sexual network was static over time, which could lead to HIV prevalence saturation sooner (or later) then a setting with a dynamic sexual network. As such, this simulation does not reflect the true underlying sexual networks among MSM in the Atlanta metropolitan area and the simulated trial is not intended to recreate the HIV epidemic in this setting. This approach could also create less turnover in sexual partnerships for the duration of the study resulting in less overall HIV transmission compared to a dynamic sexual network with more frequent partnership changes. In future work, we plan to develop an approach that allows for assessment of spillover with networks updated over time and incorporate assortative mixing by age, which may be more important in a dynamic sexual network. We considered the entire sexual component to be an interference (i.e. spillover) set, which means that the intervention status of one agent in the component could possibly affect the outcomes of all other agents in the component. If a component is large or not well connected through sexual behaviors, this assumption may be dubious. A more realistic interference set might include an agent's sexual partners and their partner's partners and also allow for the use of the calibrated population in the simulated trial. Future work should include an evaluation of different interference sets, for example, by considering an agent's partners, known as nearest neighbours [<xref rid="ref40" ref-type="bibr">40</xref>].</p>
+              <p>Careful consideration of effect modification of intervention effects with possible spillover is useful to inform the development of interventions that leverage network features. Although this study provides methodological insights into the design of two-stage randomised network trials with a sexual network ascertained only at baseline assuming the network is static for the duration of the study, allowing the network to be dynamic may result in a misspecified model in the analysis. Important extensions are required to understand real-world HIV transmission and to inform real-world PrEP allocation decisions, including simulation of dynamic sexual networks, along with more extensive calibration and validation studies. Persons not on PrEP may benefit from being in a network with higher PrEP coverage levels, and this benefit may be larger when component-level risk factors are more prevalent. Guidelines could encourage providers to ask about the PrEP status of sexual partners and encourage individuals on PrEP to recommend to others in their sexual network.</p>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>Not applicable.</p>
+            </ack>
+            <sec sec-type="supplementary-material" id="sec5">
+              <title>Supplementary material</title>
+              <supplementary-material id="S0950268822001650sup001" position="float" content-type="local-data">
+                <p>For supplementary material accompanying this paper visit http://doi.org/10.1017/S0950268822001650.</p>
+                <media xlink:href="S0950268822001650sup001.docx" id="d64e1254" position="anchor">
+                  <caption>
+                    <p>click here to view supplementary material</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </sec>
+            <sec sec-type="other" id="sec-nts1">
+              <title>Author's contributions</title>
+              <p>A. L. B. conducted a literature review, developed the methodology, performed the statistical analysis and contributed to manuscript writing. S. B. and C. J. P. developed and performed the agent-based and statistical modelling and contributed to manuscript writing. W. C. G. provided substantive guidance on the methodology development and contributed to the literature review and manuscript writing. E. J. M., M. E. H. and N. V. K. contributed to the literature review, development of methodology and manuscript writing. S. R. F. provided substantive guidance on the methodology development and contributed to the literature review and manuscript writing. B. D. L. M. provided guidance on the development and implementation of the agent-based models in this setting and contributed to the literature review and manuscript writing.</p>
+            </sec>
+            <sec sec-type="funding-statement" id="sec-fs1">
+              <title>Financial support</title>
+              <p>A. L. B., C. J. P., S. B., W. C. G., S. R. F., M. E. H., N. V. K. and B. D. L. M. were supported by the Avenir Award Program for Research on Substance Abuse and HIV/AIDS (DP2) from National Institute on Drug Abuse of the National Institutes of Health Award Number (NIH) DP2DA046856.. M. E. H. was also supported by the NIH grant R01AI085073. S. F. was also supported by NIH grants DP1DA034989 and P30DA011041. C. J. P., S. B., B. D. L. M. were also supported by DP2DA040236. W. C. G. was also supported by NIH grants R25MH083620. E. J. M. was supported by NIH grant R21HD098733. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.</p>
+            </sec>
+            <sec sec-type="coi-statement" id="sec-ci1">
+              <title>Conflict of interest</title>
+              <p>None.</p>
+            </sec>
+            <sec sec-type="data-availability" id="sec-das1">
+              <title>Data availability statement</title>
+              <p>Model code used to generate this data can be found at <uri xlink:href="https://pph-collective.github.io/TITAN/">https://pph-collective.github.io/TITAN/</uri>. Complete reference for the TITAN model is S. Bessey, Mary McGrath, Maximilian King, &amp; Carolyn Park. (2020, November 10). marshall-lab/TITAN: v1.2.4 (Version v1.2.4). Zenodo. <uri xlink:href="http://doi.org/10.5281/zenodo.4266540">http://doi.org/10.5281/zenodo.4266540</uri>. Data sets and post-modelling analysis code are available on Brown’s Digital Repository at <uri xlink:href="https://doi.org/10.26300/thhj-6v09">https://doi.org/10.26300/thhj-6v09</uri>.</p>
+            </sec>
+            <ref-list id="reflist1" content-type="normal">
+              <title>References</title>
+              <ref id="ref1">
+                <label>1.</label>
+                <mixed-citation publication-type="journal" id="cite1"><string-name><surname>Grant</surname><given-names>RM</given-names></string-name><etal/> (<year>2014</year>) <article-title>Uptake of pre-exposure prophylaxis, sexual practices, and HIV incidence in men and transgender women who have sex with men: a cohort study</article-title>. <source>The Lancet Infectious Diseases</source>
+<volume>14</volume>, <fpage>820</fpage>–<lpage>829</lpage>.<pub-id pub-id-type="pmid">25065857</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref2">
+                <label>2.</label>
+                <mixed-citation publication-type="journal" id="cite2"><string-name><surname>Hudgens</surname><given-names>MG</given-names></string-name> and <string-name><surname>Halloran</surname><given-names>ME</given-names></string-name> (<year>2008</year>) <article-title>Toward causal inference with interference</article-title>. <source>Journal of the American Statistical Association</source>
+<volume>103</volume>, <fpage>832</fpage>–<lpage>842</lpage>.<pub-id pub-id-type="pmid">19081744</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref3">
+                <label>3.</label>
+                <mixed-citation publication-type="other" id="cite3"><collab>Centers for Disease Control US Public Health Service</collab>. Preexposure Prophylaxis for the Prevention of HIV Infection in the United States – 2017 Update: A Clinical Practice Guideline Published March 2018 [cited 2021 May 21]. Available at <uri xlink:href="https://www.cdc.gov/hiv/pdf/risk/prep/cdc-hiv-prep-guidelines-2017.pdf">https://www.cdc.gov/hiv/pdf/risk/prep/cdc-hiv-prep-guidelines-2017.pdf</uri>.</mixed-citation>
+              </ref>
+              <ref id="ref4">
+                <label>4.</label>
+                <mixed-citation publication-type="journal" id="cite4"><string-name><surname>Siegler</surname><given-names>AJ</given-names></string-name> (<year>2020</year>) <article-title>Preexposure prophylaxis indication criteria underidentify black and latinx persons and require revision</article-title>. <source>American Journal of Public Health</source>
+<volume>110</volume>, <fpage>267</fpage>–<lpage>268</lpage>.<pub-id pub-id-type="pmid">32023104</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref5">
+                <label>5.</label>
+                <mixed-citation publication-type="book" id="cite5"><collab>Gilead Sciences</collab> (<year>2015</year>) <source>Truvada Package Insert</source>. <publisher-loc>Foster City, CA</publisher-loc>: <publisher-name>Gilead Sciences</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="ref6">
+                <label>6.</label>
+                <mixed-citation publication-type="journal" id="cite6"><string-name><surname>Rubin</surname><given-names>DB</given-names></string-name> (<year>1978</year>) <article-title>Bayesian-inference for causal effects – role of randomization</article-title>. <source>Annals of Statistics</source>
+<volume>6</volume>, <fpage>34</fpage>–<lpage>58</lpage>.</mixed-citation>
+              </ref>
+              <ref id="ref7">
+                <label>7.</label>
+                <mixed-citation publication-type="journal" id="cite7"><string-name><surname>Marshall</surname><given-names>BD</given-names></string-name> and <string-name><surname>Galea</surname><given-names>S</given-names></string-name> (<year>2014</year>) <article-title>Formalizing the role of agent-based modeling in causal inference and epidemiology</article-title>. <source>American Journal of Epidemiology</source>
+<volume>181</volume>, <fpage>92</fpage>–<lpage>99</lpage>.<pub-id pub-id-type="pmid">25480821</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref8">
+                <label>8.</label>
+                <mixed-citation publication-type="journal" id="cite8"><string-name><surname>Benjamin-Chung</surname><given-names>J</given-names></string-name><etal/> (<year>2017</year>) <article-title>Spillover effects in epidemiology: parameters, study designs and methodological considerations</article-title>. <source>International Journal of Epidemiology</source>
+<volume>47</volume>, <fpage>332</fpage>–<lpage>347</lpage>.</mixed-citation>
+              </ref>
+              <ref id="ref9">
+                <label>9.</label>
+                <mixed-citation publication-type="journal" id="cite9"><string-name><surname>Buchanan</surname><given-names>AL</given-names></string-name><etal/> (<year>2021</year>) <article-title>Disseminated effects in agent-based models: a potential outcomes framework and application to inform preexposure prophylaxis coverage levels for HIV prevention</article-title>. <source>American Journal of Epidemiology</source>
+<volume>190</volume>, <fpage>939</fpage>–<lpage>948</lpage>.<pub-id pub-id-type="pmid">33128066</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref10">
+                <label>10.</label>
+                <mixed-citation publication-type="journal" id="cite10"><string-name><surname>VanderWeele</surname><given-names>TJ</given-names></string-name> (<year>2009</year>) <article-title>On the distinction between interaction and effect modification</article-title>. <source>Epidemiology (Cambridge, Mass.)</source>
+<volume>20</volume>, <fpage>863</fpage>–<lpage>871</lpage>.<pub-id pub-id-type="pmid">19806059</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref11">
+                <label>11.</label>
+                <mixed-citation publication-type="journal" id="cite11"><string-name><surname>Rosenberg</surname><given-names>ES</given-names></string-name><etal/> (<year>2018</year>) <article-title>Rates of prevalent and new HIV diagnoses by race and ethnicity among men who have sex with men, US states, 2013–2014</article-title>. <source>Annals of Epidemiology</source>
+<volume>28</volume>, <fpage>865</fpage>–<lpage>873</lpage>.<pub-id pub-id-type="pmid">29753640</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref12">
+                <label>12.</label>
+                <mixed-citation publication-type="journal" id="cite12"><string-name><surname>Sullivan</surname><given-names>PS</given-names></string-name><etal/> (<year>2015</year>) <article-title>Explaining racial disparities in HIV incidence in black and white men who have sex with men in Atlanta, GA: a prospective observational cohort study</article-title>. <source>Annals of Epidemiology</source>
+<volume>25</volume>, <fpage>445</fpage>–<lpage>454</lpage>.<pub-id pub-id-type="pmid">25911980</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref13">
+                <label>13.</label>
+                <mixed-citation publication-type="journal" id="cite13"><string-name><surname>Goedel</surname><given-names>WC</given-names></string-name><etal/> (<year>2016</year>) <article-title>HIV risk behaviors, perceptions, and testing and preexposure prophylaxis (PrEP) awareness/use in Grindr-using men who have sex with men in Atlanta, Georgia</article-title>. <source>Journal of the Association of Nurses in AIDS Care</source>
+<volume>27</volume>, <fpage>133</fpage>–<lpage>142</lpage>.</mixed-citation>
+              </ref>
+              <ref id="ref14">
+                <label>14.</label>
+                <mixed-citation publication-type="journal" id="cite14"><string-name><surname>Elopre</surname><given-names>L</given-names></string-name><etal/> (<year>2017</year>) <article-title>The right people, right places, and right practices: disparities in PrEP access among African American men, women and MSM in the deep south</article-title>. <source>Journal of Acquired Immune Deficiency Syndromes</source>
+<volume>74</volume>, <fpage>56</fpage>–<lpage>59</lpage>.<pub-id pub-id-type="pmid">27552156</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref15">
+                <label>15.</label>
+                <mixed-citation publication-type="journal" id="cite15"><string-name><surname>Lancki</surname><given-names>N</given-names></string-name><etal/> (<year>2018</year>) <article-title>PrEP guidelines have low sensitivity for identifying seroconverters in a sample of Young Black men who have sex with men in Chicago</article-title>. <source>AIDS (London, England)</source>
+<volume>32</volume>, <fpage>383</fpage>–<lpage>392</lpage>.<pub-id pub-id-type="pmid">29194116</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref16">
+                <label>16.</label>
+                <mixed-citation publication-type="book" id="cite16"><string-name><surname>Newman</surname><given-names>M</given-names></string-name> (<year>2018</year>) <source>Networks</source>. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="ref17">
+                <label>17.</label>
+                <mixed-citation publication-type="journal" id="cite17"><string-name><surname>Burchard</surname><given-names>J</given-names></string-name> and <string-name><surname>Cornwell</surname><given-names>B</given-names></string-name> (<year>2018</year>) <article-title>Structural holes and bridging in two-mode networks</article-title>. <source>Social Networks</source>
+<volume>55</volume>, <fpage>11</fpage>–<lpage>20</lpage>.</mixed-citation>
+              </ref>
+              <ref id="ref18">
+                <label>18.</label>
+                <mixed-citation publication-type="journal" id="cite18"><string-name><surname>Marshall</surname><given-names>BD</given-names></string-name><etal/> (<year>2018</year>) <article-title>Potential effectiveness of long-acting injectable pre-exposure prophylaxis for HIV prevention in men who have sex with men: a modelling study</article-title>. <source>The Lancet HIV</source>
+<volume>5</volume>, <fpage>e498</fpage>–<lpage>e505</lpage>.<pub-id pub-id-type="pmid">29908917</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref19">
+                <label>19.</label>
+                <mixed-citation publication-type="journal" id="cite19"><string-name><surname>Goedel</surname><given-names>WC</given-names></string-name><etal/> (<year>2018</year>) <article-title>Effect of racial inequities in pre-exposure prophylaxis use on racial disparities in HIV incidence among men who have sex with men: a modeling study</article-title>. <source>Journal of Acquired Immune Deficiency Syndromes</source>
+<volume>79</volume>, <fpage>323</fpage>–<lpage>329</lpage>.<pub-id pub-id-type="pmid">30044303</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref20">
+                <label>20.</label>
+                <mixed-citation publication-type="other" id="cite20"><string-name><surname>Bessey</surname><given-names>S</given-names></string-name><etal/> (<year>2020</year>, November 10) marshall-lab/TITAN: v1.2.4 (Version v1.2.4).</mixed-citation>
+              </ref>
+              <ref id="ref21">
+                <label>21.</label>
+                <mixed-citation publication-type="journal" id="cite21"><string-name><surname>Goedel</surname><given-names>WC</given-names></string-name><etal/> (<year>2020</year>) <article-title>Projecting the impact of equity-based pre-exposure prophylaxis implementation on racial disparities in HIV incidence among men who have sex with men</article-title>. <source>AIDS (London, England)</source>
+<volume>34</volume>, <fpage>1509</fpage>–<lpage>1517</lpage>.<pub-id pub-id-type="pmid">32384282</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref22">
+                <label>22.</label>
+                <mixed-citation publication-type="journal" id="cite22"><string-name><surname>McKay</surname><given-names>MD</given-names></string-name>, <string-name><surname>Beckman</surname><given-names>RJ</given-names></string-name> and <string-name><surname>Conover</surname><given-names>WJ</given-names></string-name> (<year>2000</year>) <article-title>A comparison of three methods for selecting values of input variables in the analysis of output from a computer code</article-title>. <source>Technometrics</source>
+<volume>42</volume>, <fpage>55</fpage>–<lpage>61</lpage>.</mixed-citation>
+              </ref>
+              <ref id="ref23">
+                <label>23.</label>
+                <mixed-citation publication-type="other" id="cite23"><collab>Georgia Department of Public Health</collab> (<year>2019</year>). HIV surveillance summary – Georgia, 2017. Atlanta, GA: Georgia Department of Public Health. Available at <uri xlink:href="https://dph.georgia.gov/adult-core-hivaidssurveillance">https://dph.georgia.gov/adult-core-hivaidssurveillance</uri> (Accessed 17 April 2017).</mixed-citation>
+              </ref>
+              <ref id="ref24">
+                <label>24.</label>
+                <mixed-citation publication-type="journal" id="cite24"><string-name><surname>Grey</surname><given-names>JA</given-names></string-name><etal/> (<year>2016</year>) <article-title>Estimating the population sizes of men who have sex with men in US states and counties using data from the American Community Survey</article-title>. <source>JMIR Public Health and Surveillance</source>
+<volume>2</volume>, <fpage>e14</fpage>.<pub-id pub-id-type="pmid">27227149</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref25">
+                <label>25.</label>
+                <mixed-citation publication-type="journal" id="cite25"><string-name><surname>Grov</surname><given-names>C</given-names></string-name><etal/> (<year>2018</year>) <article-title>Determining the roles that club drugs, marijuana, and heavy drinking play in PrEP medication adherence among gay and bisexual men: implications for treatment and research</article-title>. <source>AIDS Behavior</source>
+<volume>23</volume>, <fpage>1277</fpage>–<lpage>1286</lpage>.</mixed-citation>
+              </ref>
+              <ref id="ref26">
+                <label>26.</label>
+                <mixed-citation publication-type="journal" id="cite26"><string-name><surname>Wall</surname><given-names>KM</given-names></string-name>, <string-name><surname>Stephenson</surname><given-names>R</given-names></string-name> and <string-name><surname>Sullivan</surname><given-names>PS</given-names></string-name> (<year>2013</year>) <article-title>Frequency of sexual activity with most recent male partner among young, Internet-using men who have sex with men in the United States</article-title>. <source>Journal of Homosexuality</source>
+<volume>60</volume>, <fpage>1520</fpage>–<lpage>1538</lpage>.<pub-id pub-id-type="pmid">24059971</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref27">
+                <label>27.</label>
+                <mixed-citation publication-type="journal" id="cite27"><string-name><surname>Patel</surname><given-names>P</given-names></string-name><etal/> (<year>2014</year>) <article-title>Estimating per-act HIV transmission risk: a systematic review</article-title>. <source>AIDS (London, England)</source>
+<volume>28</volume>, <fpage>1509</fpage>–<lpage>1519</lpage>.<pub-id pub-id-type="pmid">24809629</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref28">
+                <label>28.</label>
+                <mixed-citation publication-type="journal" id="cite28"><string-name><surname>Hernández-Romieu</surname><given-names>AC</given-names></string-name><etal/> (<year>2015</year>) <article-title>Heterogeneity of HIV prevalence among the sexual networks of Black and White MSM in Atlanta: illuminating a mechanism for increased HIV risk for young Black MSM</article-title>. <source>Sexually Transmitted Diseases</source>
+<volume>42</volume>, <fpage>505</fpage>–<lpage>512</lpage>.<pub-id pub-id-type="pmid">26267877</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref29">
+                <label>29.</label>
+                <mixed-citation publication-type="journal" id="cite29"><string-name><surname>Rendina</surname><given-names>HJ</given-names></string-name><etal/> (<year>2015</year>) <article-title>Aggregate and event-level associations between substance use and sexual behavior among gay and bisexual men: comparing retrospective and prospective data</article-title>. <source>Drug and Alcohol Dependence</source>
+<volume>154</volume>, <fpage>199</fpage>–<lpage>207</lpage>.<pub-id pub-id-type="pmid">26190557</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref30">
+                <label>30.</label>
+                <mixed-citation publication-type="journal" id="cite30"><string-name><surname>Ogburn</surname><given-names>EL</given-names></string-name> and <string-name><surname>VanderWeele</surname><given-names>TJ</given-names></string-name> (<year>2014</year>) <article-title>Causal diagrams for interference</article-title>. <source>Statistical Science</source>
+<volume>29</volume>, <fpage>559</fpage>–<lpage>578</lpage>.</mixed-citation>
+              </ref>
+              <ref id="ref31">
+                <label>31.</label>
+                <mixed-citation publication-type="journal" id="cite31"><string-name><surname>Basse</surname><given-names>G</given-names></string-name> and <string-name><surname>Feller</surname><given-names>A</given-names></string-name> (<year>2018</year>) <article-title>Analyzing two-stage experiments in the presence of interference</article-title>. <source>Journal of the American Statistical Association</source>
+<volume>113</volume>, <fpage>41</fpage>–<lpage>55</lpage>.</mixed-citation>
+              </ref>
+              <ref id="ref32">
+                <label>32.</label>
+                <mixed-citation publication-type="journal" id="cite32"><string-name><surname>Schafer</surname><given-names>MH</given-names></string-name>, <string-name><surname>Upenieks</surname><given-names>L</given-names></string-name> and <string-name><surname>DeMaria</surname><given-names>J</given-names></string-name> (<year>2021</year>) <article-title>Do older adults with HIV have distinctive personal networks? Stigma, network activation, and the role of disclosure in South Africa</article-title>. <source>AIDS and Behavior</source>
+<volume>25</volume>, <fpage>1560</fpage>–<lpage>1572</lpage>.<pub-id pub-id-type="pmid">32776180</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref33">
+                <label>33.</label>
+                <mixed-citation publication-type="journal" id="cite33"><string-name><surname>Jenness</surname><given-names>SM</given-names></string-name><etal/> (<year>2016</year>) <article-title>Impact of the Centers for Disease Control's HIV preexposure prophylaxis guidelines for men who have sex with men in the United States</article-title>. <source>The Journal of Infectious Diseases</source>
+<volume>214</volume>, <fpage>1800</fpage>–<lpage>1807</lpage>.<pub-id pub-id-type="pmid">27418048</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref34">
+                <label>34.</label>
+                <mixed-citation publication-type="journal" id="cite34"><string-name><surname>Chan</surname><given-names>PA</given-names></string-name><etal/> (<year>2016</year>) <article-title>Retention in care outcomes for HIV pre-exposure prophylaxis implementation programmes among men who have sex with men in three US cities</article-title>. <source>Journal of the International AIDS Society</source>
+<volume>19</volume>, <fpage>20903</fpage>.<pub-id pub-id-type="pmid">27302837</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref35">
+                <label>35.</label>
+                <mixed-citation publication-type="journal" id="cite35"><string-name><surname>Rolle</surname><given-names>C-P</given-names></string-name><etal/> (<year>2019</year>) <article-title>Prep implementation and persistence in a County health department setting in Atlanta, GA</article-title>. <source>AIDS and Behavior</source>
+<volume>23</volume>, <fpage>296</fpage>–<lpage>303</lpage>.<pub-id pub-id-type="pmid">31468296</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref36">
+                <label>36.</label>
+                <mixed-citation publication-type="journal" id="cite36"><string-name><surname>Khan</surname><given-names>B</given-names></string-name><etal/> (<year>2013</year>) <article-title>Network firewall dynamics and the subsaturation stabilization of HIV</article-title>. <source>Discrete Dynamics in Nature and Society</source>
+<volume>2013</volume>, <fpage>720818</fpage>.</mixed-citation>
+              </ref>
+              <ref id="ref37">
+                <label>37.</label>
+                <mixed-citation publication-type="journal" id="cite37"><string-name><surname>Tieu</surname><given-names>H-V</given-names></string-name><etal/> (<year>2015</year>) <article-title>Sexual networks and HIV risk among black men who have sex with men in 6 US cities</article-title>. <source>PLoS One</source>
+<volume>10</volume>, <fpage>e0134085</fpage>.<pub-id pub-id-type="pmid">26241742</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref38">
+                <label>38.</label>
+                <mixed-citation publication-type="journal" id="cite38"><string-name><surname>Keen</surname><given-names>P</given-names></string-name> and <string-name><surname>Bavinton</surname><given-names>BR</given-names></string-name> (<year>2020</year>) <article-title>Could disparities in PrEP uptake limit the public health benefit?</article-title>
+<source>The Lancet Public Health</source>
+<volume>5</volume>, <fpage>e467</fpage>.<pub-id pub-id-type="pmid">32888440</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref39">
+                <label>39.</label>
+                <mixed-citation publication-type="journal" id="cite39"><string-name><surname>Morgan</surname><given-names>E</given-names></string-name><etal/> (<year>2019</year>) <article-title>A network intervention to locate newly HIV infected persons within MSM networks in Chicago</article-title>. <source>AIDS and Behavior</source>
+<volume>23</volume>, <fpage>15</fpage>–<lpage>20</lpage>.<pub-id pub-id-type="pmid">29951972</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref40">
+                <label>40.</label>
+                <mixed-citation publication-type="journal" id="cite40"><string-name><surname>Forastiere</surname><given-names>L</given-names></string-name>, <string-name><surname>Airoldi</surname><given-names>EM</given-names></string-name> and <string-name><surname>Mealli</surname><given-names>F</given-names></string-name> (<year>2020</year>) <article-title>Identification and estimation of treatment and interference effects in observational studies on networks</article-title>. <source>Journal of the American Statistical Association</source>
+<volume>116</volume>, <fpage>901</fpage>–<lpage>918</lpage>.</mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,1823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T02:21:04Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8579548" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8579548</identifier>
+        <datestamp>2021-11-10</datestamp>
+        <setSpec>bmcmrm</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article" dtd-version="1.3">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">BMC Med Res Methodol</journal-id>
+              <journal-id journal-id-type="iso-abbrev">BMC Med Res Methodol</journal-id>
+              <journal-title-group>
+                <journal-title>BMC Medical Research Methodology</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1471-2288</issn>
+              <publisher>
+                <publisher-name>BioMed Central</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8579548</article-id>
+              <article-id pub-id-type="pmcid">PMC8579548</article-id>
+              <article-id pub-id-type="pmc-uid">8579548</article-id>
+              <article-id pub-id-type="pmid">34753452</article-id>
+              <article-id pub-id-type="publisher-id">1368</article-id>
+              <article-id pub-id-type="doi">10.1186/s12874-021-01368-w</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Visualizing adverse events in clinical trials using correspondence analysis with R-package visae</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Diniz</surname>
+                    <given-names>Márcio A.</given-names>
+                  </name>
+                  <address>
+                    <email>marcio.diniz@cshs.org</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Gresham</surname>
+                    <given-names>Gillian</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kim</surname>
+                    <given-names>Sungjin</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Luu</surname>
+                    <given-names>Michael</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Henry</surname>
+                    <given-names>N. Lynn</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Tighiouart</surname>
+                    <given-names>Mourad</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Yothers</surname>
+                    <given-names>Greg</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ganz</surname>
+                    <given-names>Patricia A.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rogatko</surname>
+                    <given-names>André</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.50956.3f</institution-id><institution-id institution-id-type="ISNI">0000 0001 2152 9905</institution-id><institution>Samuel Oschin Comprehensive Cancer Center, </institution><institution>Cedars-Sinai Medical Center, </institution></institution-wrap>Los Angeles, CA USA </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.214458.e</institution-id><institution-id institution-id-type="ISNI">0000000086837370</institution-id><institution>Rogel Cancer Center, </institution><institution>University of Michigan, </institution></institution-wrap>Ann Arbor, MI USA </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.21925.3d</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 9000</institution-id><institution>Graduate School of Public Health, </institution><institution>University of Pittsburgh and NRG Oncology, </institution></institution-wrap>Pittsburgh, PA USA </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.19006.3e</institution-id><institution-id institution-id-type="ISNI">0000 0000 9632 6718</institution-id><institution>Jonsson Comprehensive Cancer Center and Fielding School of Public Health, </institution><institution>University of California, </institution></institution-wrap>Los Angeles, CA USA </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>9</day>
+                <month>11</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>9</day>
+                <month>11</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2021</year>
+              </pub-date>
+              <volume>21</volume>
+              <elocation-id>244</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>16</day>
+                  <month>1</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>30</day>
+                  <month>7</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2021</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p><bold>Open Access</bold>This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>. The Creative Commons Public Domain Dedication waiver (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link>) applies to the data made available in this article, unless otherwise stated in a credit line to the data.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <sec>
+                  <title>Background</title>
+                  <p id="Par1">Graphical displays and data visualization are essential components of statistical analysis that can lead to improved understanding of clinical trial adverse event (AE) data. Correspondence analysis (CA) has been introduced decades ago as a multivariate technique that can communicate AE contingency tables using two-dimensional plots, while quantifying the loss of information as other dimension reduction techniques such as principal components and factor analysis.</p>
+                </sec>
+                <sec>
+                  <title>Methods</title>
+                  <p id="Par2">We propose the application of stacked CA using contribution biplots as a tool to explore differences in AE data among treatments in clinical trials. We defined five levels of refinement for the analysis based on data derived from the Common Terminology Criteria for Adverse Events (CTCAE) grades, domains, terms and their combinations. In addition, we developed a Shiny app built in an R-package, visae, publicly available on Comprehensive R Archive Network (CRAN), to interactively investigate CA configurations based on the contribution to the explained variance and relative frequency of AEs. Data from two randomized controlled trials (RCT) were used to illustrate the proposed methods: NSABP R-04, a neoadjuvant rectal 2 × 2 factorial trial comparing radiation therapy with either capecitabine (Cape) or 5-fluorouracil (5-FU) alone with or without oxaliplatin (Oxa), and NSABP B-35, a double-blind RCT comparing tamoxifen to anastrozole in postmenopausal women with hormone-positive ductal carcinoma in situ.</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p id="Par3">In the R04 trial (<italic>n</italic> = 1308), CA biplots displayed the discrepancies between single agent treatments and their combinations with Oxa at all levels of AE classes, such that these discrepancies were responsible for the largest portion of the explained variability among treatments. In addition, an interaction effect when adding Oxa to Cape/5-FU was identified when the distance between Cape+Oxa and 5-FU + Oxa was observed to be larger than the distance between 5-FU and Cape, with Cape+Oxa and 5-FU + Oxa in different quadrants of the CA biplots. In the B35 trial (<italic>n</italic> = 3009), CA biplots showed different patterns for non-adherent Anastrozole and Tamoxifen compared with their adherent counterparts.</p>
+                </sec>
+                <sec>
+                  <title>Conclusion</title>
+                  <p id="Par4">CA with contribution biplot is an effective tool that can be used to summarize AE data in a two-dimensional display while minimizing the loss of information and interpretation.</p>
+                </sec>
+                <sec>
+                  <title>Supplementary Information</title>
+                  <p>The online version contains supplementary material available at 10.1186/s12874-021-01368-w.</p>
+                </sec>
+              </abstract>
+              <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>Data visualization</kwd>
+                <kwd>Correspondence analysis</kwd>
+                <kwd>Adverse event</kwd>
+                <kwd>CTCAE</kwd>
+                <kwd>Clinical trials</kwd>
+              </kwd-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2021</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Background</title>
+              <p id="Par15">The understanding of adverse events is paramount in the assessment of therapies in clinical trials. In the endeavor to support investigators in the challenging task of identifying and documenting toxicities, the National Cancer Institute has maintained, since 1983, an empirical lexicon of AE terms that are commonly encountered in oncology: the CTCAE [<xref ref-type="bibr" rid="CR1">1</xref>], which has been broadly adopted over the last decades. The criteria classifies AE into 26 domain organ classes and severity grades, such that grade 1 corresponds to a mild or asymptomatic symptom and grade 5 indicates death.</p>
+              <p id="Par16">Although such comprehensive criteria has allowed investigators to collect a large amount of AE clinical trial data, the abundance of information has often been ignored in the analysis of clinical trials. Analyzing AE data is a complex task because each patient could experience more than one AE term from different organ domains and different grades of the same AE term during several cycles of treatment resulting in a high-dimensional toxicity profile. Investigators usually present lengthy and overwhelming AE tables, or partial toxicity profiles by treatment after summarizing AE chosen based either on a frequency threshold, severity of AEs or relatedness to treatments [<xref ref-type="bibr" rid="CR2">2</xref>] into their maximum grade. However, the use of maximum grade leads to loss of information and has been largely criticized and other alternative approaches have been discussed in the literature that summarizes toxicity profiles into a more comprehensive score [<xref ref-type="bibr" rid="CR3">3</xref>–<xref ref-type="bibr" rid="CR5">5</xref>].</p>
+              <p id="Par17">The CONSORT extension for reporting harm outcomes [<xref ref-type="bibr" rid="CR6">6</xref>] describes the importance of graphical displays for summarizing AE data. Several graphical summary approaches have been developed in the literature since then: Amit et al. [<xref ref-type="bibr" rid="CR7">7</xref>] considered dot-plots for the percentage of AE terms’ occurrence by treatment ordered by their relative risks; Zink et al. [<xref ref-type="bibr" rid="CR8">8</xref>] proposed volcano plots with bubble size proportional to the frequency of AE domain or terms; Thanarajasingam et al. [<xref ref-type="bibr" rid="CR4">4</xref>] recommended profile plots to illustrate the average toxicity as function of cycle for a given AE term; Karpefors and Weatherall [<xref ref-type="bibr" rid="CR9">9</xref>] suggested tendril plots to represent the occurrence of a given AE term over time, and Gresham et al. [<xref ref-type="bibr" rid="CR5">5</xref>] proposed stacked barplots for the AE frequency as function of the number of toxicities per patient and grade toxicity. However, the majority of these approaches cannot be applied to more than two treatments.</p>
+              <p id="Par18">Surprisingly, none of the aforementioned approaches have used any traditional statistical high dimension reduction technique such as CA, which is a multivariate technique with the purpose to communicate contingency tables using two-dimensional graphical displays, while quantifying the loss of information. Initial applications of CA and its variants (stacked, multiple, detrended) were broadly discussed in Greenacre [<xref ref-type="bibr" rid="CR10">10</xref>], with specific applications in epidemiology [<xref ref-type="bibr" rid="CR11">11</xref>–<xref ref-type="bibr" rid="CR13">13</xref>] and bioinformatics [<xref ref-type="bibr" rid="CR14">14</xref>–<xref ref-type="bibr" rid="CR16">16</xref>].</p>
+              <p id="Par19">In this article, we propose the use of stacked CA as a visualization tool for AE data to unravel differences in treatment profiles when comparing their AEs as a complementary tool to toxicity scores [<xref ref-type="bibr" rid="CR5">5</xref>, <xref ref-type="bibr" rid="CR17">17</xref>]. An R-package was developed to make our approach available interactively. We illustrate the use of CA to identify different toxicity profiles among treatments in two clinical trials R04 [<xref ref-type="bibr" rid="CR18">18</xref>, <xref ref-type="bibr" rid="CR19">19</xref>] and B35 [<xref ref-type="bibr" rid="CR20">20</xref>–<xref ref-type="bibr" rid="CR24">24</xref>]. Moreover, we apply CA using contribution biplots [<xref ref-type="bibr" rid="CR25">25</xref>] that are not widely disseminated yet, even though they address long-standing interpretation issues of CA such as outlier points with low contribution to the variance.</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Methods</title>
+              <sec id="Sec3">
+                <title>Correspondence analysis</title>
+                <p id="Par20">The seminal ideas of CA was proposed by Herman Otto Hartley (Hirschfeld) [<xref ref-type="bibr" rid="CR26">26</xref>], later developed by Jean-Paul Benźecri [<xref ref-type="bibr" rid="CR27">27</xref>] and disseminated by Michael Greenacre [<xref ref-type="bibr" rid="CR28">28</xref>, <xref ref-type="bibr" rid="CR29">29</xref>]. We will briefly review the main concepts of CA. A detailed mathematical is available as an <xref rid="MOESM1" ref-type="media">Additional file</xref>.</p>
+                <p id="Par21">The goal of CA is to graphically represent contingency tables. Following Greenacre [<xref ref-type="bibr" rid="CR29">29</xref>], we will apply CA on stacked tables such as Table <xref rid="Tab1" ref-type="table">1</xref>, where <italic>π</italic><sub><italic>ij</italic></sub> is the relative frequency of <italic>AE</italic><sub><italic>i</italic></sub> class for treatment <italic>Tj</italic> such that AE classes can be based on three levels of data aggregation: (a) AE grades, (b) AE domains, (c) AE terms and their combinations. While toxicity profiles can be presented and compared based on tables when AE classes are only defined by AE grades, it is a much more complex task when AE classes are defined by AE domains or AE terms, and their combinations with AE grades. There are 26 domains and 790 AE terms in CTCAE v4, which can generate 130 AE classes when AE domains are combined with AE grades and 3950 AE classes when AE terms are combined with AE grades.
+<table-wrap id="Tab1"><label>Table 1</label><caption><p>Contingency table 2<italic>I × J</italic> with row and column marginals</p></caption><graphic position="anchor" xlink:href="12874_2021_1368_Tab1_HTML" id="MO1"/></table-wrap></p>
+                <p>The interpretation of Table <xref rid="Tab1" ref-type="table">1</xref> is asymmetric: we are interested in studying the differences in toxicity profiles among treatments that lie in a high-dimensional space, which will be denoted as toxicity space. Visualizing the toxicity profiles in the toxicity space can give us insight regarding the association between treatments and AE classes. Nonetheless, it is not always feasible to display toxicity profiles when the number of dimensions is greater than three, i.e., four treatment arms (<italic>J ≥</italic> 4) or four AE classes (<italic>I ≥</italic> 4). Moreover, distances between toxicity profiles of treatments are not simple to be evaluated even in a three dimensional space.</p>
+                <p id="Par23">In this context, CA seeks the two-dimensional display that minimizes the loss of information when reducing the dimension of the toxicity space. Information is measured through variability, denoted as total inertia in CA, among toxicity profiles of treatments. Asymmetric contribution biplots [<xref ref-type="bibr" rid="CR30">30</xref>] are two-dimensional diplaying showing the projection of the two dimensions with highest variability in the toxicity space. The first dimension of the biplot represents the direction with highest variability of the toxicity space and the second dimension corresponds to the direction with the second highest inertia. Adding up the inertia of the remaining dimensions allows us to quantify the loss of information. Therefore, we can evaluate whether the two-dimensional representation of the toxicity space is adequate.</p>
+                <p id="Par24">The inertia associated with each dimension can also be broken down based on the contributions of each AE class. Dimensions can be interpreted based on AE classes with high contributions. AE classes with high contributions to a dimension ares’ identified based on their distance from the origin in the same direction of that given dimension. Then, a treatment with high frequency of a given AE class will have high values in the same dimension and direction of that AE class.</p>
+                <p id="Par25">In this way, we are able to compare toxicity profiles of treatments as following:
+<list list-type="order"><list-item><p id="Par26">Interpret each dimension based on the position of AE classes dots: AE classes further away from origin (0, 0) in a given direction indicates a high contribution to explain the variability in that dimension;</p></list-item><list-item><p id="Par27">Identify level of similarity among toxicity profiles of treatments based on how close their toxicity profiles are from the origin (0, 0), which represents a hypothetical average toxicity profile;</p></list-item><list-item><p id="Par28">Compare toxicity profiles of treatments based on their position on each dimension.</p></list-item></list></p>
+                <p id="Par29">Notice that distances between treatment profiles and AE classes are not meaningful because they are different spaces. Figures S<xref rid="MOESM1" ref-type="media">1</xref> and S<xref rid="MOESM1" ref-type="media">2</xref> based on toy data illustrate these steps.</p>
+              </sec>
+              <sec id="Sec4">
+                <title>R-package</title>
+                <p id="Par30">We developed the R-package <italic>visae</italic>, an acronym for visualizing AE, aiming to provide statistical software to quickly deploy Shiny applications making our visual approach interactively available for AE reporting. Currently, there are two R-packages specific for CA: <italic>ca</italic> [<xref ref-type="bibr" rid="CR31">31</xref>] and <italic>FactoMineR</italic> [<xref ref-type="bibr" rid="CR32">32</xref>]. The R-package <italic>visae</italic> is built based on <italic>ca</italic>. Although both R-packages ca and <italic>FactoMineR</italic> provides CA biplots, the R-package visae makes available the pre-processing of AE data to construct tables such as Table <xref rid="Tab1" ref-type="table">1</xref> and interactive Shiny application to explore CA configurations.</p>
+                <p id="Par31">Interactive applications allow statisticians and non-statisticians to easily collaborate to investigate several configurations for CA, and select the ones that are more informative to them. Therefore, the R-package <italic>visae</italic> provides a general framework for CA allowing statisticians easily interact with their collaborators.</p>
+                <p id="Par32">The function run_ca has seven arguments, with four of them required to execute the Shiny application:
+<list list-type="bullet"><list-item><p id="Par33"><italic>data</italic>: a data.frame or tibble object in a long format;</p></list-item><list-item><p id="Par34"><italic>group</italic>: unquoted variable name in the data that corresponds to the group variable;</p></list-item><list-item><p id="Par35"><italic>id:</italic> unquoted variable name in the data that corresponds to the patient identification variable;</p></list-item><list-item><p id="Par36"><italic>ae grade</italic>: unquoted variable name in the data that corresponds to AE grade class;</p></list-item></list></p>
+                <p id="Par37">While the other three inputs can be used in any combination,
+<list list-type="bullet"><list-item><p id="Par38"><italic>ae domain:</italic> unquoted variable name in the data that corresponds to AE domain class;</p></list-item><list-item><p id="Par39"><italic>ae term</italic>: unquoted variable name in the data that corresponds to AE term class;</p></list-item><list-item><p id="Par40"><italic>ae cycle</italic>: unquoted variable name in the data that corresponds to AE cycle.</p></list-item></list></p>
+                <p id="Par41">For example, an R user can open the Shiny application as below:
+<list list-type="bullet"><list-item><p id="Par42">library(visae)</p></list-item><list-item><p id="Par43">library (magrittr)</p></list-item></list><list list-type="bullet"><list-item><p id="Par44">patient_id &lt;- 1:100</p></list-item><list-item><p id="Par45">group &lt;- c (rep(“A”, 50), rep(“B”, 50))</p></list-item><list-item><p id="Par46">grade &lt;- sample(1:5, size = 100, replace = TRUE)</p></list-item><list-item><p id="Par47">domain &lt;- sample(c(“C”, “D”), size = 100,replace = TRUE)</p></list-item><list-item><p id="Par48">term &lt;- sample(c(“E”, “F”, “G”, “H”),size = 100, replace = TRUE)</p></list-item></list><list list-type="bullet"><list-item><p id="Par49">data &lt;- data.frame (patient_id, group,grade, domain, term)</p></list-item><list-item><p id="Par50">head (data, n = 6)</p></list-item></list></p>
+                <p id="Par51">
+                  <table-wrap id="Taba">
+                    <table frame="hsides" rules="groups">
+                      <tbody>
+                        <tr>
+                          <td>patient_id</td>
+                          <td>group</td>
+                          <td>grade</td>
+                          <td>domain</td>
+                          <td>term</td>
+                        </tr>
+                        <tr>
+                          <td>1</td>
+                          <td>A</td>
+                          <td>3</td>
+                          <td>C</td>
+                          <td>G</td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>A</td>
+                          <td>3</td>
+                          <td>C</td>
+                          <td>E</td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td>A</td>
+                          <td>2</td>
+                          <td>D</td>
+                          <td>G</td>
+                        </tr>
+                        <tr>
+                          <td>4</td>
+                          <td>A</td>
+                          <td>2</td>
+                          <td>D</td>
+                          <td>E</td>
+                        </tr>
+                        <tr>
+                          <td>5</td>
+                          <td>A</td>
+                          <td>5</td>
+                          <td>D</td>
+                          <td>F</td>
+                        </tr>
+                        <tr>
+                          <td>6</td>
+                          <td>A</td>
+                          <td>3</td>
+                          <td>C</td>
+                          <td>H</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </table-wrap>
+                </p>
+                <p id="Par52">
+                  <list list-type="bullet">
+                    <list-item>
+                      <p id="Par53">data %&gt;% run_ca(group = trt,
+<list list-type="bullet"><list-item><p id="Par54">id = patient_id,</p></list-item><list-item><p id="Par55">ae_grade = grade,</p></list-item><list-item><p id="Par56">ae_domain = domain,</p></list-item><list-item><p id="Par57">ae_term = term)</p></list-item></list></p>
+                    </list-item>
+                  </list>
+                </p>
+                <p id="Par58">All the contribution biplots and relative frequency tables presented in the next sections were generated using our Shiny application.</p>
+              </sec>
+              <sec id="Sec5">
+                <title>Data sets</title>
+                <p id="Par59">Data from two randomized clinical trials from the National Surgical Adjuvant Breast and Bowel Project (NSABP) were used as case examples for this analysis:</p>
+              </sec>
+              <sec id="Sec6">
+                <title>R04</title>
+                <p id="Par60">NSABP R04 was a Phase III randomized 2x2 factorial trial comparing neoadjuvant radiation therapy (RT) in combination with either Cape or 5-FU with or without Oxa in patients with rectal cancer (NCT00058474) [<xref ref-type="bibr" rid="CR19">19</xref>]. AE data (CTCAE version 4.0) were collected at a single time point and included a list of 50 AEs of special interest that were selected a priori and evaluated after chemoradiation treatment within 2 weeks of surgery. Additional details of the trial are reported elsewhere [<xref ref-type="bibr" rid="CR19">19</xref>].</p>
+              </sec>
+              <sec id="Sec7">
+                <title>B35</title>
+                <p id="Par61">NSABP B35 was a Phase III double-blind, randomized, placebo-controlled trial comparing daily oral tamoxifen with oral anastrozole for 5 years in postmenopausal women with hormone receptor-positive ductal carcinoma in situ treated with lumpectomy and radiation therapy (NCT00053898) [<xref ref-type="bibr" rid="CR33">33</xref>]. Adverse events were assessed every 6 months during therapy and 6 months after the last dose of therapy using a list of predefined AEs (e.g., depression, thromboembolic events, GI disturbance, hot flashes, joint pain, vaginal dryness), graded per Common Toxicity Criteria (CTC) v2.0. Non-adherent patients were defined as patients that stopped treatment early before 5 years for reasons other than disease progression or death.</p>
+              </sec>
+            </sec>
+            <sec id="Sec8">
+              <title>Results</title>
+              <p id="Par62">We illustrate the main concepts of correspondence analysis when used to represent AE data comparing treatments in the R04 trial and discuss the interaction between treatment and adherence using data from the B35 trial. Analyses at five levels of refinement are presented, but only contingency tables for AE classes defined based on grades are shown. For all other AE classes, contingency tables are presented as <xref rid="MOESM1" ref-type="media">Additional file.</xref></p>
+              <sec id="Sec9">
+                <title>R04</title>
+                <p id="Par63">We performed CA considering the different AE class definitions discussed previously with four treatments: 5-FU, Cape, 5-FU+Oxa and Cape+Oxa. Table <xref rid="Tab2" ref-type="table">2</xref> shows the total number of AE classes for each definition with the percentage of explained inertia for each of the three dimensions. When we define AE classes solely based on AE grades, Table <xref rid="Tab1" ref-type="table">1</xref> will have 10 (2 <italic>× I</italic> ) rows with 5 AE grades (each one adds its complementary), such that a two-dimensional display describes 98.23% of the variability among treatments with a 1.77% loss of information when dimension 3 of the toxicity space is ignored. The loss of information when representing the toxicity space in a two-dimensional display increases as the level of complexity for AE classes increases. For all AE class definitions, the loss of information is no more than 21% making the two-dimensional display an acceptable representations of the toxicity space.
+<table-wrap id="Tab2"><label>Table 2</label><caption><p>AE classes and their decomposition of total inertia into 3 dimensions for R04 trial</p></caption><table frame="hsides" rules="groups"><thead><tr><th>AE Class</th><th># AE classes</th><th>Dim 1</th><th>Dim 2</th><th>Dim 3</th></tr></thead><tbody><tr><td>Grade</td><td>5</td><td>87.77</td><td>10.46</td><td>1.77</td></tr><tr><td>Domain</td><td>21</td><td>84.65</td><td>10.97</td><td>4.38</td></tr><tr><td>Domain + Grade</td><td>61</td><td>66.47</td><td>22.94</td><td>10.59</td></tr><tr><td>Term</td><td>209</td><td>52.29</td><td>28.03</td><td>19.68</td></tr><tr><td>Term + Grade</td><td>313</td><td>48.92</td><td>30.26</td><td>20.82</td></tr></tbody></table></table-wrap></p>
+                <p id="Par64">Initially, we assume AE classes based on AE grades as showed in Table <xref rid="Tab3" ref-type="table">3</xref>. In Fig. <xref rid="Fig1" ref-type="fig">1</xref>a, main differences are observed in dimension 1 such that discrepancies among treatments are small because their treatment profiles are posed close to each other and they are near to the origin, which represents the average treatment. In dimension 1, ignoring grade 1 AEs that were under-reported, treatments can be ordered based on their relative positions indicating that 5-FU is associated with the lowest frequencies for all AE grades, while Cape+Oxa and 5-FU+Oxa present higher frequency of grade 2, 3, 4 and 5 AEs than their corresponding single agents. Moreover, Cape is associated with higher frequency of grade 5 AEs than 5-FU, Cape+Oxa is associated with higher frequency of grades 1, 4 and 5 AEs, and 5-FU+Oxa with higher frequency of grade 2 AEs than other treatments.
+<table-wrap id="Tab3"><label>Table 3</label><caption><p>Percentage (%) of AE grades by treatment in R04 trial</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2">AE Class</th><th colspan="4">Treatment</th><th rowspan="2">Average</th></tr><tr><th>5-FU</th><th>5-FU + Oxa</th><th>Cape</th><th>Cape + Oxa</th></tr></thead><tbody><tr><td>G1</td><td>1.22</td><td>2.75</td><td>1.23</td><td>3.96</td><td>2.29</td></tr><tr><td>G2</td><td>60.67</td><td>74.01</td><td>63.08</td><td>70.73</td><td>67.12</td></tr><tr><td>G3</td><td>25.31</td><td>38.53</td><td>27.39</td><td>39.94</td><td>32.79</td></tr><tr><td>G4</td><td>0.61</td><td>3.06</td><td>2.15</td><td>4.27</td><td>2.52</td></tr><tr><td>G5</td><td>0.31</td><td>0.31</td><td>1.23</td><td>1.52</td><td>0.84</td></tr></tbody></table></table-wrap><fig id="Fig1"><label>Fig. 1</label><caption><p>Asymmetric contribution biplots for AE data from R04 trial – <bold>a</bold> AE class defined by AE grades; <bold>b</bold> AE class defined by AE domains with contribution at least 4.76%; <bold>c</bold> AE class defined by AE domains and grades with contribution and relative frequency at least 3.22%; <bold>d</bold> AE class defined by AE terms with contribution and relative frequency at least 0.96%; <bold>e</bold> AE class defined by AE terms and grades with contribution at least 0.64% and relative frequency at least 0.96%</p></caption><graphic xlink:href="12874_2021_1368_Fig1_HTML" id="MO2"/></fig></p>
+                <p id="Par65">While Table <xref rid="Tab3" ref-type="table">3</xref> is small enough to be understood without a CA biplot, we are interested in more refined AE classes. We define AE classes based on domains as showed in Fig. <xref rid="Fig1" ref-type="fig">1</xref>b, with main differences among treatments in dimension 1. Single agents 5-FU and Cape are not very different between them, but both of them differ from their combinations with Oxa. Treatment combinations are associated with AEs in the domains Immune, Nervous, General, Metabolism, Gastrointestinal and Investigations; such that Cape+Oxa and 5-Fu+Oxa are associated in a larger extent with AEs in the domain Investigations and Gastrointestinal, respectively. In addition, Cape+Oxa is associated with the domain Vascular and 5-FU+Oxa is associated with domains Infections and Hepatobiliary.</p>
+                <p id="Par66">In Fig. <xref rid="Fig1" ref-type="fig">1</xref>c, AE classes are defined based on the combination between domains and grades, with differences in both dimensions. Similar interpretation as Fig. <xref rid="Fig1" ref-type="fig">1</xref>b can be outlined, except that the domains Metabolism and General are posed into different quadrants when broken down by grades: Metabolism:G2 and General:G2 are associated with 5-FU+Oxa, while Metabolism:G3 and General:G3 with Cape+Oxa. Moreover, it is possible to observe clustering of domains: (i) domains in the top left quadrant have higher frequency among patients that received 5-FU+Oxa; (ii) domains in the bottom left quadrant have higher frequency for Cape+Oxa; (iii) domain Nervous:G2 is associated with both treatments, and Injury:G2 with their single agents counterparts.</p>
+                <p id="Par67">Next, we show AE terms in Fig. <xref rid="Fig1" ref-type="fig">1</xref>d with differences in both dimensions. As in the previous analyses, differences between Cape and 5-FU are small such that both are associated with higher frequency of Dermatitis RT when compared to their combinations with Oxa. Treatment combinations are both associated with several of AE terms including Peripheral sensory neuropathy, Diarrhea, Dehydration, Nausea, Vomiting, and Fatigue; such that 5-Fu+Oxa is associated in a larger extent with Diarrhea, Vomiting and Nausea. Cape+Oxa is also associated with Hand-foot syndrome. In particular, anal pain and abdominal pain were not identified in CA configurations that were not overpopulated by AE terms, indicating that their contribution to treatment differences is low in dimension 1 and 2 even though they have high average frequency of 19.42% and 7.49%, respectively. The highest contribution of anal pain is 1.22% in the third dimension.</p>
+                <p id="Par68">Finally, we broke down the AE terms by adding their grades. In Fig. <xref rid="Fig1" ref-type="fig">1</xref>e, AE classes are defined based on terms and grades. Differences among treatments are found in both dimensions. When comparing Fig. <xref rid="Fig1" ref-type="fig">1</xref>e to d, we highlight the term Fatigue that was divided into Fatigue:G2 and G3 associated with 5-FU+Oxa and Cape+Oxa, respectively; the term Nausea was also divided into Nausea:G2 and G3 associated with 5-FU+Oxa and Cape+Oxa, respectively. Furthermore, the AE term Diarrhea is divided in Diarrhea:G3 associated with both 5-FU+Oxa dn Cape+Oxa, and Diarrhea:G2 associated with 5-Fu+Oxa. Furthermore, the distance between 5-FU and Cape is smaller than the distance between 5-FU+Oxa and Cape+Oxa in all CA configurations, which can be interpreted as an interaction effect of Oxa.</p>
+              </sec>
+              <sec id="Sec10">
+                <title>B-35</title>
+                <p id="Par69">We performed CA considering the different AE class definitions discussed in the previous section comparing four groups: adherent Anastrozole and Tamoxifen, and their non-adherent counterparts based on AEs reported at cycle 1. Table <xref rid="Tab4" ref-type="table">4</xref> shows the total number of AE classes for each definition with the percentage of explained inertia for each of the three dimensions. For all AE class definitions, the loss of information is at most 11% for the highest complexity level of the toxicity space.
+<table-wrap id="Tab4"><label>Table 4</label><caption><p>AE classes and their decomposition of total inertia into 3 dimensions for B35 trial</p></caption><table frame="hsides" rules="groups"><thead><tr><th>AE Class</th><th># AE classes</th><th>Dim 1</th><th>Dim 2</th><th>Dim 3</th></tr></thead><tbody><tr><td>Grade</td><td>3</td><td>92.57</td><td>6.98</td><td>0.45</td></tr><tr><td>Domain</td><td>20</td><td>62.35</td><td>34.46</td><td>3.19</td></tr><tr><td>Domain + Grade</td><td>60</td><td>55.73</td><td>39.80</td><td>4.47</td></tr><tr><td>Term</td><td>214</td><td>47.20</td><td>43.01</td><td>9.79</td></tr><tr><td>Term + Grade</td><td>384</td><td>48.18</td><td>41.52</td><td>10.30</td></tr></tbody></table></table-wrap></p>
+                <p id="Par70">As previously, we assume AE classes based on AE grades as showed in Table <xref rid="Tab5" ref-type="table">5</xref>. Because of small size of contingency table, the first dimension is enough to understand the differences among treatments in Fig. <xref rid="Fig2" ref-type="fig">2</xref>a. Adherent Tamoxifen and Anastrozole groups are quite similar to each other and are close to the average treatment. Both non-adherent groups are on the left quadrants indicating higher frequency of AE grades 2, 3 and 4. Nonetheless, non-adherent Tamoxifen and Anastrozole are in different quadrants showing that their discrepancies from the average treatment are grade specific: non-adherent Tamoxifen is more associated with grade 4 AEs, while non-adherent Anastrozole is more associated with grade 2 and 3 AEs. Table <xref rid="Tab5" ref-type="table">5</xref> leads to similar conclusions.
+<table-wrap id="Tab5"><label>Table 5</label><caption><p>Percentage (%) of AE grades at cycle 1 by treatment in B35 trial</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2">AE class</th><th colspan="2">Adherent</th><th colspan="2">Non-adherent</th><th rowspan="2">Average</th></tr><tr><th>Anastrozole</th><th>Tamoxifen</th><th>Anastrozole</th><th>Tamoxifen</th></tr></thead><tbody><tr><td>G2</td><td>38.22</td><td>40.69</td><td>49.66</td><td>52.23</td><td>45.20</td></tr><tr><td>G3</td><td>2.22</td><td>3.91</td><td>10.61</td><td>11.94</td><td>7.63</td></tr><tr><td>G4</td><td>0.188</td><td>0.279</td><td>0.903</td><td>3.279</td><td>1.162</td></tr></tbody></table></table-wrap><fig id="Fig2"><label>Fig. 2</label><caption><p>Asymmetric contribution biplots for AE at cycle 1 from B35 trial – <bold>a</bold> AE class defined by AE grades; <bold>b</bold> AE class defined by AE domains with contribution at least 5.0%; <bold>c</bold> AE class defined by AE domains and grades with contribution and relative frequency at least 1.64%; <bold>d</bold> AE class defined by AE terms with contribution at least 0.94% and relative frequency at least 0.47%; <bold>e</bold> AE class defined by AE terms and grades with contribution and relative frequency at least 0.52%</p></caption><graphic xlink:href="12874_2021_1368_Fig2_HTML" id="MO3"/></fig></p>
+                <p id="Par71">In Fig. <xref rid="Fig2" ref-type="fig">2</xref>b, AE classes are defined based on domains, such that differences between adherent and non-adherent groups are showed in the first dimension and differences between non-adherent Anastrozole and non-adherent Tamoxifen in the second dimension. Non-adherent groups are associated with higher frequency of AEs in the domains Pain, Neurology, Constitutional Symptoms, Psychiatric, Cardiovascular, Gastrointestinal, Allergy/Immunology. In particular, non-adherent Anastrozole is more associated with the domains Psychiatric and Pain, while non-adherent Tamoxifen is associated with the domains Gastrointestinal, Allergy/Immunology and Cardiovascular.</p>
+                <p id="Par72">Figure <xref rid="Fig2" ref-type="fig">2</xref>c combines AE grades to the AE domains as AE classes. Differences are found in both dimensions with similar interpretation from Fig. <xref rid="Fig2" ref-type="fig">2</xref>b. In particular, we highlighted the domain Pain from Fig. <xref rid="Fig2" ref-type="fig">2</xref>b that was broken down into Pain:G3 associated with both non-Aaherent Tamoxifen and non-adherent Anastrozole, while Pain:G2 is associated only with non-adherent Anastrozole..</p>
+                <p id="Par73">In Fig. <xref rid="Fig2" ref-type="fig">2</xref>d, AE classes are defined based on terms. Differences are found in both dimensions with similar interpretation from Fig. <xref rid="Fig2" ref-type="fig">2</xref>b. The AE terms can be divided into three clusters: (i) Dizziness, Sweating, Edema, Constipation, Dyspnea, Hot flashes and Radiation dermatitis associated with non-adherent Tamoxifen; (ii) Arthralgia, Bone Pain, Headache, Myalgia, Varginal dryness are associated with non-adherent Anastrozole; (iii) Fatigue, Depression, and Insomnia are associated with both non-adherent groups.</p>
+                <p id="Par74">As the last step, Fig. <xref rid="Fig2" ref-type="fig">2</xref>e combines terms and grades. There is a change in the interpretation of the dimensions: discrepancies between non-adherent Anastrozole and Tamoxifen becomes more relevant to explain the variability among groups than the differences between adherent and their non-adherent counterparts, which yields the reverse interpretation of the dimensions from Fig. <xref rid="Fig2" ref-type="fig">2</xref>a-d. Furthermore, clusters of AEs associated with non-adherent Anastrozole and Tamoxifen are observed similar to Fig. <xref rid="Fig2" ref-type="fig">2</xref>d.</p>
+              </sec>
+            </sec>
+            <sec id="Sec11">
+              <title>Discussion</title>
+              <p id="Par75">We proposed stacked CA using contribution biplots as a tool to explore differences in AE data among treatments in clinical trials. We defined five levels of refinement for the analysis based on AE grades, domains, terms and their combinations. In addition, we developed a Shiny application built in an R-package to interactively investigate CA configurations based on the contribution to the explained variance and relative frequency of AEs, and we made it publicly available on CRAN. Phillips et al [<xref ref-type="bibr" rid="CR2">2</xref>] have found that only 12% among 184 clinical trials published in major medical journals between 2015 and 2016 showed graphical presentations. We expect to improve AE reporting through statistical graphical displays and easy-to-use software that can also be transformed into web applications as suggested by the Consolidated Standards of Reporting Trials (CONSORT) Harm extension [<xref ref-type="bibr" rid="CR6">6</xref>]. Furthermore, the proposed analysis could also be applied to patient reported outcomes (PRO) such as PRO-CTCAE [<xref ref-type="bibr" rid="CR34">34</xref>].</p>
+              <p id="Par76">Morever, we illustrated the use of stacked CA for different goals in the R04 and B35 clinical trials. In our examples, toxicity spaces representing contingency tables at the highest level of refinement of AE classes - term and grade combination - have three dimensions such that the loss of information when using CA biplots was 20.82% in R04 and 10.30% in B35, which are within the threshold of 30% as proposed by some authors. In R04 trial, CA biplots displayed the differences in AE patterns between single agent treatments and their combinations with Oxa at all levels of AE classes, such that an interaction effect when adding Oxa to Cape/5-FU was identified. In the B35 trial, CA biplots showed the discrepancies between non-adherent and adherent Tamoxifen and Anastrozole. Different patterns for non-adherent Anastrozole and Tamoxifen were observed contrasting with their adherent counterparts. Interestingly, CA biplots identified expected differences in AE frequency between treatments (e.g., Arthralgia associating with non-adherent Anastrozole and Hot Flashes associated with non-adherent Tamoxifen), but also others that were less expected (e.g., Depression and fatigue associated with Anastrozole and Dizziness with Tamoxifen).</p>
+              <p id="Par77">The main goal of CA in the context of AEs is to visualize associations between treatments and AEs while controlling the loss of information due the dimension reduction of the toxicity space. The loss of information is an increasing function of the level of refinement of AE classes. The several levels of AE classes could give researchers insights regarding the discrepancies among treatments. While CA with AE grades presents a more understandable biplot, it does not discriminate the toxicity profiles enough. On the other hand, CA biplots with AE terms and grades presents a lot of information that might make harder to draw conclusions at the same time allowing one to understand detailed differences among groups. A possible compromise is CA biplots with domains or domains and grades that indicate enough differences among treatment without being visually overwhelming.</p>
+              <p id="Par78">Ideally, CA biplots with AE classes defined based on AE grades and their combinations with terms/ domains would show AEs following the grade ordering. Nonetheless, such pattern is rarely observed even in CA biplots that are based solely on AE grades with large variability explained by dimension 1. The lack of ordering is expected, although not intuitive, because associations, which are shown by CA biplots, between treatments and AE classes defined based on AE grades are often not ordered. At first glance, the understanding of CA biplots might be misleading, but we believe that annotated toy CA biplots as presented in this work will help researchers to interpret results.</p>
+              <p id="Par79">We have not discussed inference based on CA given its limited scope. Few authors have [<xref ref-type="bibr" rid="CR35">35</xref>–<xref ref-type="bibr" rid="CR37">37</xref>] presented inferential procedures using bootstrap to provide confidence regions on CA biplots with poor performance when dealing with sparse matrices. Also, we did not study the association pattern within AE classes for a treatment and multiple AE of the same grade are not taken into account if a CA biplot is based on more than one treatment cycle. In future work, we plan to apply joint CA to visualize association pattern within AE classes by treatments and analysis of matched matrices to compare such patterns between treatments, respectively.</p>
+            </sec>
+            <sec id="Sec12">
+              <title>Conclusion</title>
+              <p id="Par80">CA with contribution biplot is an effective tool that can be used to summarize AE data in a two-dimensional display while minimizing the loss of information and interpretation. It is general enough to be applied to a variety of drugs classes and diseases. Instead of lengthy frequency tables presented as supplemental material of trial reports, CA biplots for AE classes defined based on either terms or the combination between terms and grades could be presented, so the data can be examined visually. Furthermore, CA could be used to help investigators to select AE classes to be summarized based on objective criteria given by their contributions to the explained variance and relative frequencies. In this way, AE reporting would be more consistent across studies. A drawback of such strategy is that it could miss AE classes with high frequencies, but low contribution such as Anal and Abdominal Pain in R04 trial. Therefore, clinical input such as relatedness to treatment and severity of AEs should also be considered and several configurations of CA biplots should be investigated such that conclusions need to be double-checked with frequencies tables, which are also provided in the Shiny app in the R-package <italic>visae</italic>.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Information</title>
+              <sec id="Sec13">
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM1">
+                    <media xlink:href="12874_2021_1368_MOESM1_ESM.pdf">
+                      <caption>
+                        <p>
+                          <bold>Additional file 1.</bold>
+                        </p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term>AE</term>
+                  <def>
+                    <p id="Par5">Adverse Event</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>CA</term>
+                  <def>
+                    <p id="Par6">Correspondence Analysis</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>CTCAE</term>
+                  <def>
+                    <p id="Par7">Common Terminology Criteria for Adverse Events</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>CRAN</term>
+                  <def>
+                    <p id="Par8">Comprehensive R Archive Network</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>RCT</term>
+                  <def>
+                    <p id="Par9">Randomized Clinical Trial</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>Cape</term>
+                  <def>
+                    <p id="Par10">Capecitabine</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>5-FU</term>
+                  <def>
+                    <p id="Par11">5-fluorouracil</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>Oxa</term>
+                  <def>
+                    <p id="Par12">Oxaliplatin</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>RT</term>
+                  <def>
+                    <p id="Par13">Radiation therapy</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>CTC</term>
+                  <def>
+                    <p id="Par14">Common Toxicity Criteria</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Publisher’s Note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <notes notes-type="author-contribution">
+              <title>Authors’ contributions</title>
+              <p>MAD, GG and AR have design the study; GY and SK have acquired the data; MAD and SK have analyzed the data; MAD, AR, PG and NLH have interpreted the results; MAD and ML have developed the software; MAD and GG have drafted the manuscript; AR, MT, NLH, PG revised the manuscript. All authors read and approved the final manuscript.</p>
+            </notes>
+            <notes notes-type="funding-information">
+              <title>Funding</title>
+              <p>This work was supported in part by the National Cancer Institute of the NIH (1U01CA232859-01) (MAD, GG, ML, SK, MT, GY, PAG, AR); and NIH National Center for Advancing Translational Science UCLA CTSI (UL1 TR001881–01) (MAD, MT, AR). Additional funding included support from the NIH for the original trials (U10-CA180868, U10-CA180822, UG1-CA189867, U10-CA180888, U10-CA180820, and U10-CA180821).</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Availability of data and materials</title>
+              <p>The data that support the findings of this study are available from NRG Oncology but restrictions apply to the availability of these data, which were used under license for the current study, and so are not publicly available. Requests for the data, however, can be made to NRG Oncology at <ext-link ext-link-type="uri" xlink:href="http://www.nrgoncology.org/Resources/Ancillary-Projects-Data-Sharing-Application">https://www.nrgoncology</ext-link>.o<ext-link ext-link-type="uri" xlink:href="http://www.nrgoncology.org/Resources/Ancillary-Projects-Data-Sharing-Application">rg/Resources/Ancillary-Projects-Data-Sharing-Application</ext-link>.</p>
+            </notes>
+            <notes>
+              <title>Declarations</title>
+              <notes id="FPar1">
+                <title>Ethics approval and consent to participate</title>
+                <p id="Par81">Not applicable.</p>
+              </notes>
+              <notes id="FPar2">
+                <title>Consent for publication</title>
+                <p id="Par82">Not applicable.</p>
+              </notes>
+              <notes id="FPar3" notes-type="COI-statement">
+                <title>Competing interests</title>
+                <p id="Par83">The authors declare that they have no competing interests.</p>
+              </notes>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <collab>of Health, U.D., Services, H</collab>
+                    <etal/>
+                  </person-group>
+                  <source>National Cancer Institute: Common Terminology Criteria for Adverse Events (CTCAE) Version 4.0</source>
+                  <year>2009</year>
+                  <publisher-loc>Bethesda</publisher-loc>
+                  <publisher-name>National Cancer Institute</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Phillips</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Hazell</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Sauzet</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <name>
+                      <surname>Cornelius</surname>
+                      <given-names>V</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Analysis and reporting of adverse events in randomised controlled trials: a review</article-title>
+                  <source>BMJ Open</source>
+                  <year>2019</year>
+                  <volume>9</volume>
+                  <issue>2</issue>
+                  <fpage>024537</fpage>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Hershman</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Martin</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Leonard</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Cheung</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Toxicity burden score: a novel approach to summarize multiple toxic effects</article-title>
+                  <source>Ann Oncol</source>
+                  <year>2011</year>
+                  <volume>23</volume>
+                  <issue>2</issue>
+                  <fpage>537</fpage>
+                  <lpage>541</lpage>
+                  <pub-id pub-id-type="doi">10.1093/annonc/mdr146</pub-id>
+                  <?supplied-pmid 21536663?>
+                  <pub-id pub-id-type="pmid">21536663</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Thanarajasingam</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Atherton</surname>
+                      <given-names>PJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Novotny</surname>
+                      <given-names>PJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Loprinzi</surname>
+                      <given-names>CL</given-names>
+                    </name>
+                    <name>
+                      <surname>Sloan</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Grothey</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Longitudinal adverse event assessment in oncology clinical trials: the toxicity over time (toxt) analysis of alliance trials ncctg n9741 and 979254</article-title>
+                  <source>Lancet Oncol</source>
+                  <year>2016</year>
+                  <volume>17</volume>
+                  <issue>5</issue>
+                  <fpage>663</fpage>
+                  <lpage>670</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S1470-2045(16)00038-3</pub-id>
+                  <?supplied-pmid 27083333?>
+                  <pub-id pub-id-type="pmid">27083333</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gresham</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Diniz</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Razaee</surname>
+                      <given-names>ZS</given-names>
+                    </name>
+                    <name>
+                      <surname>Luu</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Hays</surname>
+                      <given-names>RD</given-names>
+                    </name>
+                    <name>
+                      <surname>Piantadosi</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Tighiouart</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Yothers</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Ganz</surname>
+                      <given-names>PA</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Evaluating treatment tolerability in cancer clinical trials using the toxicity index</article-title>
+                  <source>J Natl Cancer Instit</source>
+                  <year>2020</year>
+                  <volume>112</volume>
+                  <issue>12</issue>
+                  <fpage>1266</fpage>
+                  <lpage>1274</lpage>
+                  <pub-id pub-id-type="doi">10.1093/jnci/djaa028</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ioannidis</surname>
+                      <given-names>JP</given-names>
+                    </name>
+                    <name>
+                      <surname>Evans</surname>
+                      <given-names>SJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Gøtzsche</surname>
+                      <given-names>PC</given-names>
+                    </name>
+                    <name>
+                      <surname>O’neill</surname>
+                      <given-names>RT</given-names>
+                    </name>
+                    <name>
+                      <surname>Altman</surname>
+                      <given-names>DG</given-names>
+                    </name>
+                    <name>
+                      <surname>Schulz</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Moher</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Better reporting of harms in randomized trials: an extension of the consort statement</article-title>
+                  <source>Ann Intern Med</source>
+                  <year>2004</year>
+                  <volume>141</volume>
+                  <issue>10</issue>
+                  <fpage>781</fpage>
+                  <lpage>788</lpage>
+                  <pub-id pub-id-type="doi">10.7326/0003-4819-141-10-200411160-00009</pub-id>
+                  <?supplied-pmid 15545678?>
+                  <pub-id pub-id-type="pmid">15545678</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Amit</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <name>
+                      <surname>Heiberger</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                    <name>
+                      <surname>Lane</surname>
+                      <given-names>PW</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Graphical approaches to the analysis of safety data from clinical trials</article-title>
+                  <source>Pharm Stat</source>
+                  <year>2008</year>
+                  <volume>7</volume>
+                  <issue>1</issue>
+                  <fpage>20</fpage>
+                  <lpage>35</lpage>
+                  <pub-id pub-id-type="doi">10.1002/pst.254</pub-id>
+                  <?supplied-pmid 17323410?>
+                  <pub-id pub-id-type="pmid">17323410</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zink</surname>
+                      <given-names>RC</given-names>
+                    </name>
+                    <name>
+                      <surname>Wolfinger</surname>
+                      <given-names>RD</given-names>
+                    </name>
+                    <name>
+                      <surname>Mann</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Summarizing the incidence of adverse events using volcano plots and time intervals</article-title>
+                  <source>Clin Trials</source>
+                  <year>2013</year>
+                  <volume>10</volume>
+                  <issue>3</issue>
+                  <fpage>398</fpage>
+                  <lpage>406</lpage>
+                  <pub-id pub-id-type="doi">10.1177/1740774513485311</pub-id>
+                  <?supplied-pmid 23690094?>
+                  <pub-id pub-id-type="pmid">23690094</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Karpefors</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Weatherall</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The tendril plot—a novel visual summary of the incidence, significance and temporal aspects of adverse events in clinical trials</article-title>
+                  <source>J Am Med Inform Assoc</source>
+                  <year>2018</year>
+                  <volume>25</volume>
+                  <issue>8</issue>
+                  <fpage>1069</fpage>
+                  <lpage>1073</lpage>
+                  <pub-id pub-id-type="doi">10.1093/jamia/ocy016</pub-id>
+                  <?supplied-pmid 29579254?>
+                  <pub-id pub-id-type="pmid">29579254</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Greenacre</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Correspondence analysis in medical research</article-title>
+                  <source>Stat Methods Med Res</source>
+                  <year>1992</year>
+                  <volume>1</volume>
+                  <issue>1</issue>
+                  <fpage>97</fpage>
+                  <lpage>117</lpage>
+                  <pub-id pub-id-type="doi">10.1177/096228029200100106</pub-id>
+                  <?supplied-pmid 1341654?>
+                  <pub-id pub-id-type="pmid">1341654</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sourial</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Wolfson</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhu</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Quail</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Fletcher</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Karunananthan</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Bandeen-Roche</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Beland</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Bergman</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Correspondence analysis is a useful tool to uncover the relationships among categorical variables</article-title>
+                  <source>J Clin Epidemiol</source>
+                  <year>2010</year>
+                  <volume>63</volume>
+                  <issue>6</issue>
+                  <fpage>638</fpage>
+                  <lpage>646</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jclinepi.2009.08.008</pub-id>
+                  <?supplied-pmid 19896800?>
+                  <pub-id pub-id-type="pmid">19896800</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hirsch</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <name>
+                      <surname>Bosner</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Hüllermeier</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Senge</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Dembczynski</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Donner-Banzhoff</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Multivariate modeling to identify patterns in clinical data: the example of chest pain</article-title>
+                  <source>BMC Med Res Methodol</source>
+                  <year>2011</year>
+                  <volume>11</volume>
+                  <issue>1</issue>
+                  <fpage>155</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1471-2288-11-155</pub-id>
+                  <?supplied-pmid 22108386?>
+                  <pub-id pub-id-type="pmid">22108386</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Befus</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Mukherjee</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Herzig</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Lowy</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Larson</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Correspondence analysis to evaluate the transmission of staphylococcus aureus strains in two New York state maximum-security prisons</article-title>
+                  <source>Epidemiol Infect</source>
+                  <year>2017</year>
+                  <volume>145</volume>
+                  <issue>10</issue>
+                  <fpage>2161</fpage>
+                  <lpage>2165</lpage>
+                  <pub-id pub-id-type="doi">10.1017/S0950268817000942</pub-id>
+                  <?supplied-pmid 28506332?>
+                  <pub-id pub-id-type="pmid">28506332</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fellenberg</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Hauser</surname>
+                      <given-names>NC</given-names>
+                    </name>
+                    <name>
+                      <surname>Brors</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Neutzner</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Hoheisel</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                    <name>
+                      <surname>Vingron</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Correspondence analysis applied to microarray data</article-title>
+                  <source>Proc Natl Acad Sci</source>
+                  <year>2001</year>
+                  <volume>98</volume>
+                  <issue>19</issue>
+                  <fpage>10781</fpage>
+                  <lpage>10786</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.181597298</pub-id>
+                  <?supplied-pmid 11535808?>
+                  <pub-id pub-id-type="pmid">11535808</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Busold</surname>
+                      <given-names>CH</given-names>
+                    </name>
+                    <name>
+                      <surname>Winter</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Hauser</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Bauer</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Dippon</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Hoheisel</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                    <name>
+                      <surname>Fellenberg</surname>
+                      <given-names>K</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Integration of go annotations in correspondence analysis: facilitating the interpretation of microarray data</article-title>
+                  <source>Bioinformatics</source>
+                  <year>2005</year>
+                  <volume>21</volume>
+                  <issue>10</issue>
+                  <fpage>2424</fpage>
+                  <lpage>2429</lpage>
+                  <pub-id pub-id-type="doi">10.1093/bioinformatics/bti367</pub-id>
+                  <?supplied-pmid 15746280?>
+                  <pub-id pub-id-type="pmid">15746280</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Horita</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Gaballah</surname>
+                      <given-names>MH</given-names>
+                    </name>
+                    <name>
+                      <surname>Fukuta</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Kanno</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Kato</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Takamiya</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Aoki</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Time course analysis of large-scale gene expression in incised muscle using correspondence analysis</article-title>
+                  <source>PLoS One</source>
+                  <year>2020</year>
+                  <volume>15</volume>
+                  <issue>3</issue>
+                  <fpage>0230737</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0230737</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Le-Rademacher</surname>
+                      <given-names>JG</given-names>
+                    </name>
+                    <name>
+                      <surname>Hillman</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Storrick</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Mahoney</surname>
+                      <given-names>MR</given-names>
+                    </name>
+                    <name>
+                      <surname>Thall</surname>
+                      <given-names>PF</given-names>
+                    </name>
+                    <name>
+                      <surname>Jatoi</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Mandrekar</surname>
+                      <given-names>SJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Adverse event burden score—a versatile summary measure for cancer clinical trials</article-title>
+                  <source>Cancers</source>
+                  <year>2020</year>
+                  <volume>12</volume>
+                  <issue>11</issue>
+                  <fpage>3251</fpage>
+                  <pub-id pub-id-type="doi">10.3390/cancers12113251</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Russell</surname>
+                      <given-names>MM</given-names>
+                    </name>
+                    <name>
+                      <surname>Ganz</surname>
+                      <given-names>PA</given-names>
+                    </name>
+                    <name>
+                      <surname>Lopa</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Yothers</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Ko</surname>
+                      <given-names>CY</given-names>
+                    </name>
+                    <name>
+                      <surname>Arora</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Atkins</surname>
+                      <given-names>JN</given-names>
+                    </name>
+                    <name>
+                      <surname>Bahary</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Soori</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Robertson</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Comparative effectiveness of sphincter-sparing surgery versus abdominoperineal resection in rectal cancer: patient-reported outcomes in national surgical adjuvant breast and bowel project randomized trial r-04</article-title>
+                  <source>Ann Surg</source>
+                  <year>2015</year>
+                  <volume>261</volume>
+                  <issue>1</issue>
+                  <fpage>144</fpage>
+                  <lpage>148</lpage>
+                  <pub-id pub-id-type="doi">10.1097/SLA.0000000000000594</pub-id>
+                  <?supplied-pmid 24670844?>
+                  <pub-id pub-id-type="pmid">24670844</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Allegra</surname>
+                      <given-names>CJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Yothers</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>O’Connell</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Beart</surname>
+                      <given-names>RW</given-names>
+                    </name>
+                    <name>
+                      <surname>Wozniak</surname>
+                      <given-names>TF</given-names>
+                    </name>
+                    <name>
+                      <surname>Pitot</surname>
+                      <given-names>HC</given-names>
+                    </name>
+                    <name>
+                      <surname>Shields</surname>
+                      <given-names>AF</given-names>
+                    </name>
+                    <name>
+                      <surname>Landry</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                    <name>
+                      <surname>Ryan</surname>
+                      <given-names>DP</given-names>
+                    </name>
+                    <name>
+                      <surname>Arora</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Neoadjuvant 5-fu or capecitabine plus radiation with or without oxaliplatin in rectal cancer patients: a phase iii randomized clinical trial</article-title>
+                  <source>J Natl Cancer Inst</source>
+                  <year>2015</year>
+                  <volume>107</volume>
+                  <issue>11</issue>
+                  <fpage>248</fpage>
+                  <pub-id pub-id-type="doi">10.1093/jnci/djv248</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cella</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Land</surname>
+                      <given-names>SR</given-names>
+                    </name>
+                    <name>
+                      <surname>Chang</surname>
+                      <given-names>C-H</given-names>
+                    </name>
+                    <name>
+                      <surname>Day</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Costantino</surname>
+                      <given-names>JP</given-names>
+                    </name>
+                    <name>
+                      <surname>Wolmark</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Ganz</surname>
+                      <given-names>PA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Symptom measurement in the breast cancer prevention trial (bcpt)(p-1): psychometric properties of a new measure of symptoms for midlife women</article-title>
+                  <source>Breast Cancer Res Treat</source>
+                  <year>2008</year>
+                  <volume>109</volume>
+                  <issue>3</issue>
+                  <fpage>515</fpage>
+                  <lpage>526</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s10549-007-9682-9</pub-id>
+                  <?supplied-pmid 17851765?>
+                  <pub-id pub-id-type="pmid">17851765</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Land</surname>
+                      <given-names>SR</given-names>
+                    </name>
+                    <name>
+                      <surname>Cronin</surname>
+                      <given-names>WM</given-names>
+                    </name>
+                    <name>
+                      <surname>Wickerham</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                    <name>
+                      <surname>Costantino</surname>
+                      <given-names>JP</given-names>
+                    </name>
+                    <name>
+                      <surname>Christian</surname>
+                      <given-names>NJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Klein</surname>
+                      <given-names>WM</given-names>
+                    </name>
+                    <name>
+                      <surname>Ganz</surname>
+                      <given-names>PA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cigarette smoking, obesity, physical activity, and alcohol use as predictors of chemoprevention adherence in the national surgical adjuvant breast and bowel project p-1 breast cancer prevention trial</article-title>
+                  <source>Cancer Prev Res</source>
+                  <year>2011</year>
+                  <volume>4</volume>
+                  <issue>9</issue>
+                  <fpage>1393</fpage>
+                  <lpage>1400</lpage>
+                  <pub-id pub-id-type="doi">10.1158/1940-6207.CAPR-11-0172</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Margolese</surname>
+                      <given-names>RG</given-names>
+                    </name>
+                    <name>
+                      <surname>Cecchini</surname>
+                      <given-names>RS</given-names>
+                    </name>
+                    <name>
+                      <surname>Julian</surname>
+                      <given-names>TB</given-names>
+                    </name>
+                    <name>
+                      <surname>Ganz</surname>
+                      <given-names>PA</given-names>
+                    </name>
+                    <name>
+                      <surname>Costantino</surname>
+                      <given-names>JP</given-names>
+                    </name>
+                    <name>
+                      <surname>Vallow</surname>
+                      <given-names>LA</given-names>
+                    </name>
+                    <name>
+                      <surname>Albain</surname>
+                      <given-names>KS</given-names>
+                    </name>
+                    <name>
+                      <surname>Whitworth</surname>
+                      <given-names>PW</given-names>
+                    </name>
+                    <name>
+                      <surname>Cianfrocca</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Brufsky</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                    <name>
+                      <surname>Gross</surname>
+                      <given-names>HM</given-names>
+                    </name>
+                    <name>
+                      <surname>Soori</surname>
+                      <given-names>GS</given-names>
+                    </name>
+                    <name>
+                      <surname>Hopkins</surname>
+                      <given-names>JO</given-names>
+                    </name>
+                    <name>
+                      <surname>Fehrenbacher</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Sturtz</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Wozniak</surname>
+                      <given-names>TF</given-names>
+                    </name>
+                    <name>
+                      <surname>Seay</surname>
+                      <given-names>TE</given-names>
+                    </name>
+                    <name>
+                      <surname>Mamounas</surname>
+                      <given-names>EP</given-names>
+                    </name>
+                    <name>
+                      <surname>Wolmark</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Anastrozole versus tamoxifen in postmenopausal women with ductal carcinoma in situ undergoing lumpectomy plus radiotherapy (nsabp b-35): a randomised, double-blind, phase 3 clinical trial</article-title>
+                  <source>Lancet</source>
+                  <year>2016</year>
+                  <volume>387</volume>
+                  <issue>10021</issue>
+                  <fpage>849</fpage>
+                  <lpage>856</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0140-6736(15)01168-X</pub-id>
+                  <?supplied-pmid 26686957?>
+                  <pub-id pub-id-type="pmid">26686957</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ganz</surname>
+                      <given-names>PA</given-names>
+                    </name>
+                    <name>
+                      <surname>Cecchini</surname>
+                      <given-names>RS</given-names>
+                    </name>
+                    <name>
+                      <surname>Julian</surname>
+                      <given-names>TB</given-names>
+                    </name>
+                    <name>
+                      <surname>Margolese</surname>
+                      <given-names>RG</given-names>
+                    </name>
+                    <name>
+                      <surname>Costantino</surname>
+                      <given-names>JP</given-names>
+                    </name>
+                    <name>
+                      <surname>Vallow</surname>
+                      <given-names>LA</given-names>
+                    </name>
+                    <name>
+                      <surname>Albain</surname>
+                      <given-names>KS</given-names>
+                    </name>
+                    <name>
+                      <surname>Whitworth</surname>
+                      <given-names>PW</given-names>
+                    </name>
+                    <name>
+                      <surname>Cianfrocca</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Brufsky</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                    <name>
+                      <surname>Gross</surname>
+                      <given-names>HM</given-names>
+                    </name>
+                    <name>
+                      <surname>Soori</surname>
+                      <given-names>GS</given-names>
+                    </name>
+                    <name>
+                      <surname>Hopkins</surname>
+                      <given-names>JO</given-names>
+                    </name>
+                    <name>
+                      <surname>Fehrenbacher</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Sturtz</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Wozniak</surname>
+                      <given-names>TF</given-names>
+                    </name>
+                    <name>
+                      <surname>Seay</surname>
+                      <given-names>TE</given-names>
+                    </name>
+                    <name>
+                      <surname>Mamounas</surname>
+                      <given-names>EP</given-names>
+                    </name>
+                    <name>
+                      <surname>Wolmark</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Patient-reported outcomes with anastrozole versus tamoxifen for postmenopausal patients with ductal carcinoma in situ treated with lumpectomy plus radiotherapy (nsabp b-35): a randomised, double-blind, phase 3 clinical trial</article-title>
+                  <source>Lancet</source>
+                  <year>2016</year>
+                  <volume>387</volume>
+                  <issue>10021</issue>
+                  <fpage>857</fpage>
+                  <lpage>865</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0140-6736(15)01169-1</pub-id>
+                  <?supplied-pmid 26686960?>
+                  <pub-id pub-id-type="pmid">26686960</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Land</surname>
+                      <given-names>SR</given-names>
+                    </name>
+                    <name>
+                      <surname>Walcott</surname>
+                      <given-names>FL</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Wickerham</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                    <name>
+                      <surname>Costantino</surname>
+                      <given-names>JP</given-names>
+                    </name>
+                    <name>
+                      <surname>Ganz</surname>
+                      <given-names>PA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Symptoms and qol as predictors of chemoprevention adherence in nrg oncology/nsabp trial p-1</article-title>
+                  <source>J Natl Cancer Inst</source>
+                  <year>2016</year>
+                  <volume>108</volume>
+                  <issue>4</issue>
+                  <fpage>365</fpage>
+                  <pub-id pub-id-type="doi">10.1093/jnci/djv365</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Greenacre</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Contribution biplots</article-title>
+                  <source>J Comput Graph Stat</source>
+                  <year>2013</year>
+                  <volume>22</volume>
+                  <issue>1</issue>
+                  <fpage>107</fpage>
+                  <lpage>122</lpage>
+                  <pub-id pub-id-type="doi">10.1080/10618600.2012.702494</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <mixed-citation publication-type="other">Hirschfeld HO. A connection between correlation and contingency. In: Mathematical Proceedings of the Cambridge Philosophical Society. Cambridge University Press; 1935;31:520–4.</mixed-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Benźecri</surname>
+                      <given-names>J-P</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <source>L’analyse des Donńees</source>
+                  <year>1973</year>
+                  <publisher-loc>Paris</publisher-loc>
+                  <publisher-name>Dunod</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Greenacre</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                  </person-group>
+                  <source>Theory and applications of correspondence analysis, 1st edition edn</source>
+                  <year>1984</year>
+                  <publisher-loc>London</publisher-loc>
+                  <publisher-name>London (UK) Academic Press</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <mixed-citation publication-type="other">Greenacre MJ. Correspondence Analysis in Practice. 1st ed: CRC press; 1993.</mixed-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Greenacre</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Biplots in correspondence analysis</article-title>
+                  <source>J Appl Stat</source>
+                  <year>1993</year>
+                  <volume>20</volume>
+                  <issue>2</issue>
+                  <fpage>251</fpage>
+                  <lpage>269</lpage>
+                  <pub-id pub-id-type="doi">10.1080/02664769300000021</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nenadic</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <name>
+                      <surname>Greenacre</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Correspondence analysis in r, with two- and three-dimensional graphics: the ca package</article-title>
+                  <source>J Stat Softw</source>
+                  <year>2007</year>
+                  <volume>20</volume>
+                  <issue>3</issue>
+                  <fpage>1</fpage>
+                  <lpage>13</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Le</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Josse</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Husson</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>FactoMineR: A package for multivariate analysis</article-title>
+                  <source>J Stat Software</source>
+                  <year>2008</year>
+                  <volume>25</volume>
+                  <issue>1</issue>
+                  <fpage>1</fpage>
+                  <lpage>18</lpage>
+                  <pub-id pub-id-type="doi">10.18637/jss.v025.i01</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Forbes</surname>
+                      <given-names>JF</given-names>
+                    </name>
+                    <name>
+                      <surname>Sestak</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Howell</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Bonanni</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Bundred</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Levy</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Von Minckwitz</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Eiermann</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Neven</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Stierer</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Anastrozole versus tamoxifen for the prevention of locoregional and contralateral breast cancer in postmenopausal women with locally excised ductal carcinoma in situ (ibis-ii dcis): a double-blind, randomised controlled trial</article-title>
+                  <source>Lancet</source>
+                  <year>2016</year>
+                  <volume>387</volume>
+                  <issue>10021</issue>
+                  <fpage>866</fpage>
+                  <lpage>873</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0140-6736(15)01129-0</pub-id>
+                  <?supplied-pmid 26686313?>
+                  <pub-id pub-id-type="pmid">26686313</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dueck</surname>
+                      <given-names>AC</given-names>
+                    </name>
+                    <name>
+                      <surname>Mendoza</surname>
+                      <given-names>TR</given-names>
+                    </name>
+                    <name>
+                      <surname>Mitchell</surname>
+                      <given-names>SA</given-names>
+                    </name>
+                    <name>
+                      <surname>Reeve</surname>
+                      <given-names>BB</given-names>
+                    </name>
+                    <name>
+                      <surname>Castro</surname>
+                      <given-names>KM</given-names>
+                    </name>
+                    <name>
+                      <surname>Rogak</surname>
+                      <given-names>LJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Atkinson</surname>
+                      <given-names>TM</given-names>
+                    </name>
+                    <name>
+                      <surname>Bennett</surname>
+                      <given-names>AV</given-names>
+                    </name>
+                    <name>
+                      <surname>Denicoff</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                    <name>
+                      <surname>O’Mara</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Validity and reliability of the us national cancer institute’s patient-reported outcomes version of the common terminology criteria for adverse events (pro-ctcae)</article-title>
+                  <source>JAMA Oncol</source>
+                  <year>2015</year>
+                  <volume>1</volume>
+                  <issue>8</issue>
+                  <fpage>1051</fpage>
+                  <lpage>1059</lpage>
+                  <pub-id pub-id-type="doi">10.1001/jamaoncol.2015.2639</pub-id>
+                  <?supplied-pmid 26270597?>
+                  <pub-id pub-id-type="pmid">26270597</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ringrose</surname>
+                      <given-names>TJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Bootstrap confidence regions for correspondence analysis</article-title>
+                  <source>J Stat Comput Simul</source>
+                  <year>2012</year>
+                  <volume>82</volume>
+                  <issue>10</issue>
+                  <fpage>1397</fpage>
+                  <lpage>1413</lpage>
+                  <pub-id pub-id-type="doi">10.1080/00949655.2011.579968</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lombardo</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Ringrose</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Bootstrap confidence regions in non-symmetrical correspondence analysis</article-title>
+                  <source>Electron J Appl Stat Analysis</source>
+                  <year>2012</year>
+                  <volume>5</volume>
+                  <issue>3</issue>
+                  <fpage>413</fpage>
+                  <lpage>417</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Beh</surname>
+                      <given-names>EJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Lombardo</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Confidence regions and approximate p-values for classical and non symmetric correspondence analysis</article-title>
+                  <source>Commun Stati Theory Methods</source>
+                  <year>2015</year>
+                  <volume>44</volume>
+                  <issue>1</issue>
+                  <fpage>95</fpage>
+                  <lpage>114</lpage>
+                  <pub-id pub-id-type="doi">10.1080/03610926.2013.768665</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

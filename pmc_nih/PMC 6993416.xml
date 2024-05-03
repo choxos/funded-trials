@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T03:44:24Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:6993416" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:6993416</identifier>
+        <datestamp>2020-02-04</datestamp>
+        <setSpec>implemsci</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Implement Sci</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Implement Sci</journal-id>
+              <journal-title-group>
+                <journal-title>Implementation Science : IS</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1748-5908</issn>
+              <publisher>
+                <publisher-name>BioMed Central</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC6993416</article-id>
+              <article-id pub-id-type="pmcid">PMC6993416</article-id>
+              <article-id pub-id-type="pmc-uid">6993416</article-id>
+              <article-id pub-id-type="pmid">32000812</article-id>
+              <article-id pub-id-type="publisher-id">967</article-id>
+              <article-id pub-id-type="doi">10.1186/s13012-020-0967-2</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Study Protocol</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>QuitSMART Utah: an implementation study protocol for a cluster-randomized, multi-level Sequential Multiple Assignment Randomized Trial to increase Reach and Impact of tobacco cessation treatment in Community Health Centers</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" equal-contrib="yes">
+                  <name>
+                    <surname>Fernandez</surname>
+                    <given-names>Maria E.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes" equal-contrib="yes">
+                  <name>
+                    <surname>Schlechter</surname>
+                    <given-names>Chelsey R.</given-names>
+                  </name>
+                  <address>
+                    <email>Chelsey.schlechter@hci.utah.edu</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Del Fiol</surname>
+                    <given-names>Guilherme</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Gibson</surname>
+                    <given-names>Bryan</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kawamoto</surname>
+                    <given-names>Kensaku</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Siaperas</surname>
+                    <given-names>Tracey</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Pruhs</surname>
+                    <given-names>Alan</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Greene</surname>
+                    <given-names>Tom</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Nahum-Shani</surname>
+                    <given-names>Inbal</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Schulthies</surname>
+                    <given-names>Sandra</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff7">7</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Nelson</surname>
+                    <given-names>Marci</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff7">7</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Bohner</surname>
+                    <given-names>Claudia</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff7">7</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kramer</surname>
+                    <given-names>Heidi</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Borbolla</surname>
+                    <given-names>Damian</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Austin</surname>
+                    <given-names>Sharon</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Weir</surname>
+                    <given-names>Charlene</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Walker</surname>
+                    <given-names>Timothy W.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lam</surname>
+                    <given-names>Cho Y.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Wetter</surname>
+                    <given-names>David W.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0000 9206 2401</institution-id><institution-id institution-id-type="GRID">grid.267308.8</institution-id><institution>Center for Health Promotion and Prevention Research, Department of Health Promotion &amp; Behavioral Sciences, </institution><institution>University of Texas Health Science Center at Houston School of Public Health, </institution></institution-wrap>7000 Fannin St, Houston, TX 77030 USA </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2193 0096</institution-id><institution-id institution-id-type="GRID">grid.223827.e</institution-id><institution>Center for Health Outcomes and Population Equity, Huntsman Cancer Institute, </institution><institution>University of Utah, </institution></institution-wrap>2000 Circle of Hope Dr, Salt Lake City, UT 84112 USA </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2193 0096</institution-id><institution-id institution-id-type="GRID">grid.223827.e</institution-id><institution>Department of Biomedical Informatics, </institution><institution>University of Utah, </institution></institution-wrap>421 Wakara Way #140, Salt Lake City, UT 84108 USA </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0000 8761 1402</institution-id><institution-id institution-id-type="GRID">grid.492404.f</institution-id><institution>Association for Utah Community Health, </institution></institution-wrap>860 E 4500 S, Murray, UT 84107 USA </aff>
+                <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2193 0096</institution-id><institution-id institution-id-type="GRID">grid.223827.e</institution-id><institution>Department of Population Health Sciences, </institution><institution>University of Utah, </institution></institution-wrap>295 Chipeta Way, Salt Lake City, UT 84108 USA </aff>
+                <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="ISNI">0000000086837370</institution-id><institution-id institution-id-type="GRID">grid.214458.e</institution-id><institution>Institute for Social Research, </institution><institution>University of Michigan, </institution></institution-wrap>426 Thompson St, Ann Arbor, MI 48104 USA </aff>
+                <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 0460 7459</institution-id><institution-id institution-id-type="GRID">grid.280326.d</institution-id><institution>Utah Department of Health, </institution></institution-wrap>288 N 1460 W, Salt Lake City, UT 84116 USA </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>30</day>
+                <month>1</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>30</day>
+                <month>1</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2020</year>
+              </pub-date>
+              <volume>15</volume>
+              <elocation-id>9</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>18</day>
+                  <month>12</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="accepted">
+                  <day>13</day>
+                  <month>1</month>
+                  <year>2020</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s). 2020</copyright-statement>
+                <license license-type="OpenAccess">
+                  <license-p><bold>Open Access</bold> This article is distributed under the terms of the Creative Commons Attribution 4.0 International License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The Creative Commons Public Domain Dedication waiver (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link>) applies to the data made available in this article, unless otherwise stated.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <sec>
+                  <title>Background</title>
+                  <p id="Par1">Tobacco use remains the leading cause of death and disability in the USA and is disproportionately concentrated among low socioeconomic status (SES) populations. Community Health Centers (CHCs) are a key venue for reaching low SES populations with evidence-based tobacco cessation treatment such as Quitlines. Electronic health record (EHR)-based interventions at the point-of-care, text messaging (TM), and phone counseling have the potential to increase Quitline reach and are feasible to implement within CHCs. However, there is a lack of data to inform how, when, and in what combination these strategies should be implemented. The aims of this cluster-randomized trial are to evaluate multi-level implementation strategies to increase the Reach (i.e., proportion of tobacco-using patients who enroll in the Quitline) and Impact (i.e., Reach × Efficacy [efficacy is defined as the proportion of tobacco-using patients who enroll in Quitline treatment that successfully quit]) and to evaluate characteristics of healthcare system, providers, and patients that may influence tobacco-use outcomes.</p>
+                </sec>
+                <sec>
+                  <title>Methods</title>
+                  <p id="Par2">This study is a multilevel, three-phase, Sequential Multiple Assignment Randomized Trial (SMART), conducted in CHCs (<italic>N</italic> = 33 clinics; <italic>N</italic> = 6000 patients). In the first phase, clinics will be randomized to two different EHR conditions. The second and third phases are patient-level randomizations based on prior treatment response. Patients who enroll in the Quitline receive no further interventions. In phase two, patients who are non-responders (i.e., patients who do not enroll in Quitline) will be randomized to receive either TM or continued-EHR. In phase three, patients in the TM condition who are non-responders will be randomized to receive either continued-TM or TM + phone coaching.</p>
+                </sec>
+                <sec>
+                  <title>Discussion</title>
+                  <p id="Par3">This project will evaluate scalable, multi-level interventions to directly address strategic national priorities for reducing tobacco use and related disparities by increasing the Reach and Impact of evidence-based tobacco cessation interventions in low SES populations.</p>
+                </sec>
+                <sec>
+                  <title>Trial registration</title>
+                  <p id="Par4">This trial was registered at ClinicalTrials.gov (<ext-link ext-link-type="uri" xlink:href="https://clinicaltrials.gov/ct2/show/NCT03900767">NCT03900767</ext-link>) on April 4th, 2019.</p>
+                </sec>
+              </abstract>
+              <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>Tobacco cessation</kwd>
+                <kwd>Adaptive intervention</kwd>
+                <kwd>Implementation science</kwd>
+                <kwd>Health information technology</kwd>
+                <kwd>Quitline</kwd>
+                <kwd>Implementation strategy</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100006093</institution-id>
+                      <institution>Patient-Centered Outcomes Research Institute</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>PCS-2017C2-7613</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Wetter</surname>
+                      <given-names>David W.</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100006108</institution-id>
+                      <institution>National Center for Advancing Translational Sciences</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>UL1TR002538</award-id>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>National Cancer Institute</institution>
+                  </funding-source>
+                  <award-id>P30CA042014</award-id>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100010637</institution-id>
+                      <institution>Huntsman Cancer Foundation</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>NA</award-id>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2020</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <boxed-text>
+                <label>Contribution to literature</label>
+                <p id="Par29">
+                  <list list-type="bullet">
+                    <list-item>
+                      <p id="Par30">QuitSMART Utah is a Sequential Multiple Assignment Randomized Trial (SMART) to optimize the sequencing and integration of effective, scalable, multi-level implementation strategies for evidence-based tobacco cessation treatment.</p>
+                    </list-item>
+                    <list-item>
+                      <p id="Par31">This pragmatic trial is conducted in real-world healthcare settings that serve socioeconomically disadvantaged populations (Community Health Centers).</p>
+                    </list-item>
+                    <list-item>
+                      <p id="Par32">Researchers and practitioners alike struggle to apply guidance from implementation science in the development and evaluation of implementation efforts. The study presents a conceptual framework to guide the use of both behavioral science theory and implementation frameworks in the development and evaluation of implementation strategies at multiple levels.</p>
+                    </list-item>
+                  </list>
+                </p>
+              </boxed-text>
+            </sec>
+            <sec id="Sec2">
+              <title>Background</title>
+              <p id="Par33">Tobacco use is the leading cause of preventable death and disability in the United States (US) and 30% of all cancers are directly attributable to tobacco use [<xref ref-type="bibr" rid="CR1">1</xref>]. Over the last several decades, tobacco use has become increasingly concentrated among individuals living in poverty, with low education, and the uninsured and unemployed [<xref ref-type="bibr" rid="CR2">2</xref>]. Consequently, the implementation and dissemination of “evidence-based tobacco control strategies” was identified as a priority recommendation for reducing health disparities by the National Institutes of Health [<xref ref-type="bibr" rid="CR3">3</xref>].</p>
+              <p id="Par34">Despite conclusive evidence that evidence-based tobacco cessation treatment is both effective and cost-effective, it is grossly underutilized [<xref ref-type="bibr" rid="CR4">4</xref>–<xref ref-type="bibr" rid="CR9">9</xref>]. Although 70% of current tobacco users want to quit and over 50% attempt to quit each year [<xref ref-type="bibr" rid="CR10">10</xref>], over 90% of those quit attempts fail, in large part because the majority (80%) fail to utilize any form of evidence-based treatment [<xref ref-type="bibr" rid="CR7">7</xref>, <xref ref-type="bibr" rid="CR11">11</xref>, <xref ref-type="bibr" rid="CR12">12</xref>]. Low SES tobacco users have less awareness and access to evidence-based cessation treatments [<xref ref-type="bibr" rid="CR13">13</xref>, <xref ref-type="bibr" rid="CR14">14</xref>], are less likely to participate in treatment, and have even less success in quitting [<xref ref-type="bibr" rid="CR13">13</xref>–<xref ref-type="bibr" rid="CR18">18</xref>].</p>
+              <sec id="Sec3">
+                <title>Evidence-based tobacco cessation: Quitlines</title>
+                <p id="Par35">One of the most significant advances in tobacco control over the last several decades has been the creation of tobacco cessation Quitlines [<xref ref-type="bibr" rid="CR7">7</xref>]. Quitlines provide both pharmacotherapy and behavioral interventions via phone counseling, online platforms, and text messaging. The efficacy of Quitlines and their potential to reach an extraordinarily large number of tobacco users are extensively documented [<xref ref-type="bibr" rid="CR7">7</xref>]. Quitlines serve all 50 states as well as Puerto Rico, Guam, and the District of Columbia [<xref ref-type="bibr" rid="CR19">19</xref>]. Nevertheless, Quitlines are grossly underutilized, reaching only about 1–2% of all smokers annually [<xref ref-type="bibr" rid="CR6">6</xref>], and even modest increases in their reach could impact tobacco use prevalence at the population level [<xref ref-type="bibr" rid="CR8">8</xref>, <xref ref-type="bibr" rid="CR20">20</xref>].</p>
+              </sec>
+              <sec id="Sec4">
+                <title>Tobacco cessation and primary care</title>
+                <p id="Par36">Primary care provides an ideal setting to address tobacco cessation because there is an established relationship and coordination of care, tobacco use can be routinely assessed, and 80% of all tobacco users see a physician at least annually [<xref ref-type="bibr" rid="CR21">21</xref>]. Federally Qualified Health Centers and Community Health Centers (referred to collectively as CHCs) are extraordinary venues for reaching low SES populations with evidence-based treatment for tobacco cessation [<xref ref-type="bibr" rid="CR7">7</xref>, <xref ref-type="bibr" rid="CR22">22</xref>]. In 2018, CHCs provided primary care to over 28 million patients, ~ 40% were minorities and ~ 70% had incomes below the federal poverty level [<xref ref-type="bibr" rid="CR23">23</xref>]. Recommendations from the Centers for Disease Control and Prevention and others include aggressive, targeted, proactive strategies to increase the utilization of Quitlines including formal partnerships with primary care [<xref ref-type="bibr" rid="CR4">4</xref>, <xref ref-type="bibr" rid="CR5">5</xref>, <xref ref-type="bibr" rid="CR9">9</xref>].</p>
+                <p id="Par37">Electronic health record (EHR)-based strategies at the point of care can dramatically increase the reach of Quitline treatment, are feasible, and can fit within existing clinical systems [<xref ref-type="bibr" rid="CR24">24</xref>, <xref ref-type="bibr" rid="CR25">25</xref>]. Ask–Advise–Connect (AAC; also called “eReferral”) utilizes widely available, standards-based EHR capabilities to systematically assess the tobacco use status of patients, advise them to quit, and directly and electronically connect interested tobacco users with evidence-based Quitline treatment. Prior research has clearly documented the efficacy of AAC (a 13-to-30-fold increase in the proportion of tobacco users who receive evidence-based treatment from a Quitline compared to the previously recommended standard of care) [<xref ref-type="bibr" rid="CR24">24</xref>, <xref ref-type="bibr" rid="CR25">25</xref>], yet it has not been widely adopted and implemented in primary care settings. Additionally, there is a potential for increasing the effectiveness of AAC by combining it with other approaches (text messaging, counseling).</p>
+                <p id="Par38">Text messaging is effective for improving tobacco cessation outcomes and engagement with treatment [<xref ref-type="bibr" rid="CR26">26</xref>–<xref ref-type="bibr" rid="CR28">28</xref>]. Text messaging may be a scalable approach for increasing the reach of evidence-based treatment for tobacco use given that mobile phones and text messaging are widely used even in low SES populations [<xref ref-type="bibr" rid="CR29">29</xref>], are very low cost, can be automated, and can potentially reach a high proportion of tobacco users [<xref ref-type="bibr" rid="CR28">28</xref>].</p>
+                <p id="Par39">Proactive counseling is another effective strategy for improving engagement with tobacco cessation treatment [<xref ref-type="bibr" rid="CR30">30</xref>–<xref ref-type="bibr" rid="CR32">32</xref>] because it helps patients overcome barriers to accessing and adhering to tobacco cessation interventions. It is highly feasible in primary care given increasing integration with behavioral health and the widespread use of health educators and patient navigators [<xref ref-type="bibr" rid="CR33">33</xref>].</p>
+              </sec>
+              <sec id="Sec5">
+                <title>Multilevel implementation strategies to improve Quitline engagement</title>
+                <p id="Par40">Multilevel implementation strategies (MLIs) target change in more than one contextual level (e.g., healthcare system, provider, patient) to influence health behavior, health care practice change, and health outcomes [<xref ref-type="bibr" rid="CR34">34</xref>–<xref ref-type="bibr" rid="CR37">37</xref>]. Although multiple national organizations have underscored the need to implement MLIs [<xref ref-type="bibr" rid="CR38">38</xref>–<xref ref-type="bibr" rid="CR40">40</xref>], there are few data addressing how and when to implement MLIs for tobacco cessation in primary care or how interventions at multiple levels interact and influence each other.</p>
+              </sec>
+              <sec id="Sec6">
+                <title>Adaptive interventions</title>
+                <p id="Par41">Adaptive interventions can be used to operationalize the sequencing and integration of MLIs. An adaptive intervention is an intervention design involving a sequence of intervention decisions that are individualized such that ongoing information from the individual (e.g., patient) or organization (e.g., clinic) is used to guide whether and how to intervene over time [<xref ref-type="bibr" rid="CR41">41</xref>–<xref ref-type="bibr" rid="CR43">43</xref>]. Modifying intensity or type of strategy over time can improve outcomes if an individual or organization is not responding or may reduce costs and burden if more resource intensive strategies are not necessary [<xref ref-type="bibr" rid="CR43">43</xref>]. Adaptive stepped care interventions [<xref ref-type="bibr" rid="CR42">42</xref>–<xref ref-type="bibr" rid="CR45">45</xref>] have the potential to conserve scarce resources (e.g., counseling) for the patients that need them most and minimize unnecessary treatment burden. The Sequential Multiple Assignment Randomized Trial (SMART) is an experimental design developed explicitly for the purpose of optimizing adaptive interventions [<xref ref-type="bibr" rid="CR46">46</xref>–<xref ref-type="bibr" rid="CR48">48</xref>].</p>
+              </sec>
+              <sec id="Sec7">
+                <title>Aims and objectives</title>
+                <p id="Par42">The overall objective of this research, entitled “QuitSMART Utah,” is to increase the Reach and Impact of evidence-based tobacco cessation treatment in order to reduce the prevalence of tobacco use among low SES populations. The scientific premise of the study is based on (1) substantial consensus that evidence-based tobacco cessation treatments delivered via Quitlines are effective but grossly underutilized [<xref ref-type="bibr" rid="CR4">4</xref>–<xref ref-type="bibr" rid="CR7">7</xref>, <xref ref-type="bibr" rid="CR9">9</xref>], (2) data demonstrating that EHR based strategies at the point of care can dramatically increase the reach of Quitline treatment, are feasible, rely on ubiquitous EHR capabilities, and can fit within existing clinical workflows [<xref ref-type="bibr" rid="CR24">24</xref>, <xref ref-type="bibr" rid="CR25">25</xref>], (3) results demonstrating that technology-based approaches such as text messaging can increase the reach of evidence-based treatment [<xref ref-type="bibr" rid="CR26">26</xref>], and (4) evidence highlighting the effectiveness of proactive counseling in increasing the reach of and impact of treatment [<xref ref-type="bibr" rid="CR26">26</xref>, <xref ref-type="bibr" rid="CR30">30</xref>–<xref ref-type="bibr" rid="CR32">32</xref>].</p>
+                <p id="Par43">The aims of QuitSMART Utah are threefold: (1) evaluate healthcare system, provider, and patient level implementation strategies to increase the Reach of evidence-based treatment for tobacco use (delivered via Quitline). Reach is defined as the proportion of smokers who enroll in Quitline delivered treatment. (2) Evaluate healthcare system, provider, and patient-level implementation strategies to increase the Impact of Quitline treatment. Impact is defined as Reach × Efficacy, where efficacy is defined as the proportion of tobacco users who enroll in Quitline delivered treatment that successfully quit. (3) Evaluate characteristics of healthcare system, providers, and patients that may influence tobacco use outcomes.</p>
+              </sec>
+            </sec>
+            <sec id="Sec8">
+              <title>Methods</title>
+              <p id="Par44">We will conduct a pragmatic, multilevel, Sequential Multiple Assignment Randomized Trial (SMART) in CHC primary care clinics across Utah. The protocol for the study has been reviewed and approved by the University of Utah Institutional Review Boards (IRBs). The project is registered at <ext-link ext-link-type="uri" xlink:href="http://clinicaltrials.gov">clinicaltrials.gov</ext-link> (NCT03900767).</p>
+              <sec id="Sec9">
+                <title>Conceptual framework</title>
+                <p id="Par45">The conceptual framework illustrates how various frameworks and models inform the development or adaptation of components of the MLIs and describe potential mediators, moderators, and outcomes (Fig. <xref rid="Fig1" ref-type="fig">1</xref>). We use Implementation Mapping (IM) [<xref ref-type="bibr" rid="CR49">49</xref>–<xref ref-type="bibr" rid="CR51">51</xref>] to organize our conceptual framework. IM is a systematic process for planning implementation strategies. It is based on Intervention Mapping, a planning framework that has been used extensively in the development and implementation of multilevel interventions. Our conceptual framework includes RE-AIM [<xref ref-type="bibr" rid="CR52">52</xref>], Social Cognitive Theory (SCT) [<xref ref-type="bibr" rid="CR53">53</xref>, <xref ref-type="bibr" rid="CR54">54</xref>], and the Consolidated Framework for Implementation Research (CFIR) [<xref ref-type="bibr" rid="CR55">55</xref>]. RE-AIM [<xref ref-type="bibr" rid="CR52">52</xref>] defines our primary outcomes of Reach and Impact (Reach × Efficacy). SCT identifies the determinants of behavior (e.g., motivation, self-efficacy, behavioral capability) and methods for influencing these determinants at multiple levels (e.g., patient, clinic) [<xref ref-type="bibr" rid="CR53">53</xref>, <xref ref-type="bibr" rid="CR54">54</xref>]. CFIR includes a comprehensive, multi-level taxonomy of factors that influence implementation (e.g., inner and outer settings of the organization, implementation processes). SCT and CFIR are synergistic in that SCT specifies the core determinants and predictive relations driving implementation behaviors, while CFIR guides the consideration of what implementation behaviors are important to target and describes contextual factors that can influence implementation.
+<fig id="Fig1"><label>Fig. 1</label><caption><p>Conceptual framework</p></caption><graphic xlink:href="13012_2020_967_Fig1_HTML" id="MO1"/></fig></p>
+                <p id="Par46">In designing the MLIs, we identified SCT determinants (e.g., self-efficacy, motivation, behavioral capabilities) among primary care providers (PCPs), staff, and patients in four of the five CFIR domains (i.e., strategy characteristics, inner setting, outer setting, characteristics of involved individuals) and chose strategies that addressed these factors (Fig. <xref rid="Fig1" ref-type="fig">1</xref>). All implementation strategies will be adapted in collaboration with potential adopters and implementers.</p>
+              </sec>
+              <sec id="Sec10">
+                <title>Setting</title>
+                <p id="Par47">Thirty-three primary care clinics within 11 CHC organizations will be recruited to participate in the project. All CHC organizations and clinics will be recruited in partnership with the Association for Utah Community Health (AUCH), the federally designated Primary Care Association that represents Utah’s 13 CHC organizations. The 11 participating CHCs serve ~ 88,000 unique adult patients annually with a mix of patient demographics, including &gt; 50% minority (48% Latino; 9% American Indian), 52% uninsured, and 68% living under the federal poverty level [<xref ref-type="bibr" rid="CR56">56</xref>]. CHCs range in size from one to seven primary care clinics per organization and include both rural and urban clinics.</p>
+              </sec>
+              <sec id="Sec11">
+                <title>Participants</title>
+                <sec id="Sec12">
+                  <title>Participants</title>
+                  <p id="Par48">Participants will be 6000 current tobacco users ≥ 18 years of age who speak English or Spanish, have a working cellphone that can accept texts and calls, and who present at participating clinics. Patients will be identified as tobacco users during the clinical encounter. Tobacco use includes cigarettes; little cigars, cigars, or cigarillos; vape pen, Juul, or e-cigarettes; and smokeless tobacco/snus.</p>
+                </sec>
+                <sec id="Sec13">
+                  <title>Organization and clinic staff</title>
+                  <p id="Par49">All organization and clinic staff of participating CHCs and clinics will be eligible to participate.</p>
+                </sec>
+              </sec>
+              <sec id="Sec14">
+                <title>Research–practice partnership</title>
+                <p id="Par50">Community and stakeholder engagement is a basic premise of patient-centered outcomes research, an integral component of our conceptual framework, and fundamental for the Implementation Mapping process. The project is being conducted in partnership with AUCH, CHCs, the Utah Department of Health (UDOH) Tobacco Prevention and Control Program (TPCP), and the investigator team. The investigator team, UDOH, and AUCH jointly identified tobacco control as a priority among CHCs in Utah, specifically, the need to integrate e-referral between clinics and the Utah Tobacco Quit Line (UTQL). UDOH provides UTQL treatment free of cost to all residents of Utah and has partnered with the investigator team to facilitate data sharing between the UTQL, UDOH, and the investigator team.</p>
+              </sec>
+              <sec id="Sec15">
+                <title>Evidence-based practice to be implemented: Utah Tobacco Quit Line treatment</title>
+                <p id="Par51">Patients who enroll in UTQL-delivered treatment are eligible to receive free behavioral treatment via phone counseling, e-chat, online, or text platforms, as well as nicotine replacement therapy (NRT) if there are no medical contraindications.</p>
+              </sec>
+              <sec id="Sec16">
+                <title>Clinic implementation strategy</title>
+                <p id="Par52">Participating clinics will be assigned to either an opt-in (AAC-In) or an opt-out version of AAC (AAC-Out). The AAC EHR configuration will be developed by the research team in conjunction with CHC partners. Both AAC-In and AAC-Out are based on EHR capabilities that are required for EHR certification in the US, including tobacco-use documentation and the ability to securely send electronic referrals with a summary of the patient’s health record automatically added as an attachment.</p>
+                <sec id="Sec17">
+                  <title>AAC-Opt In</title>
+                  <p id="Par53">To date, procedures for increasing tobacco cessation treatment uptake in primary care, including AAC, have generally utilized opt-in policies in which the EHR provides the option for clinical staff to initiate advice to tobacco users to quit and to offer an automated, electronic connection to the Quitline.</p>
+                </sec>
+                <sec id="Sec18">
+                  <title>AAC-Opt Out</title>
+                  <p id="Par54">AAC-Opt Out is based on work in behavioral economics on “nudges,” which refer to “any aspect of the choice architecture that alters people’s behavior in a predictable way without forbidding any options or significantly changing their economic incentives” [<xref ref-type="bibr" rid="CR57">57</xref>]. Setting up the default option in a specific way constitutes a nudge and can have extremely potent effects [<xref ref-type="bibr" rid="CR58">58</xref>]. In the opt-out approach, the EHR requires clinical staff to advise tobacco users to quit and offer a connection to the Quitline prior to moving forward or to opt-out. Opting out is simple and generally requires only a single keystroke, consistent with nudge choice architecture providing an easy way to avoid the intervention.</p>
+                </sec>
+              </sec>
+              <sec id="Sec19">
+                <title>Clinic staff implementation strategy</title>
+                <sec id="Sec20">
+                  <title>Training</title>
+                  <p id="Par55">Prior to AAC implementation, the clinic practice team at each clinic will receive a brief (e.g., 30 min), in-person training designed to increase provider and staff motivation, self-efficacy, and behavioral capabilities to implement AAC. The trainings will be delivered by an employee of AUCH.</p>
+                </sec>
+              </sec>
+              <sec id="Sec21">
+                <title>Patient facing implementation strategies</title>
+                <p id="Par56">We define patient facing implementation strategies as those designed to increase patient engagement with the evidence-based treatment (i.e., UTQL).</p>
+                <sec id="Sec22">
+                  <title>Text messaging</title>
+                  <p id="Par57">Patients will receive Health Insurance Portability and Accountability Act (HIPAA)-compliant text messages that offer repeated opportunities to enroll in UTQL treatment with a simple two-touch response [<xref ref-type="bibr" rid="CR26">26</xref>].</p>
+                </sec>
+                <sec id="Sec23">
+                  <title>MAPS</title>
+                  <p id="Par58">Patients will receive brief counseling calls by health coaches trained in Motivation And Problem Solving (MAPS) [<xref ref-type="bibr" rid="CR44">44</xref>–<xref ref-type="bibr" rid="CR46">46</xref>]. MAPS is designed to help patients address the larger context in which tobacco use occurs, motivate patients towards a long-term goal of quitting tobacco, and identify and address barriers to quitting and engaging in treatment. MAPS has demonstrated effectiveness for addressing the entire cessation process of considering quitting, cessation, and Quitline treatment engagement [<xref ref-type="bibr" rid="CR30">30</xref>–<xref ref-type="bibr" rid="CR32">32</xref>, <xref ref-type="bibr" rid="CR60">60</xref>].</p>
+                </sec>
+              </sec>
+              <sec id="Sec24">
+                <title>Study design</title>
+                <p id="Par59">QuitSMART Utah is a multilevel, three-phase, Sequential Multiple Assignment Randomized Trial (SMART), conducted in 33 CHC clinics within 11 CHC organizations with 6000 tobacco users (Fig. <xref rid="Fig2" ref-type="fig">2</xref>). Descriptions of the clinic and patient conditions are listed in Table <xref rid="Tab1" ref-type="table">1</xref>. See Fig. <xref rid="Fig3" ref-type="fig">3</xref> for the clinic and patient flow diagram.
+<fig id="Fig2"><label>Fig. 2</label><caption><p>Study design</p></caption><graphic xlink:href="13012_2020_967_Fig2_HTML" id="MO2"/></fig>
+<table-wrap id="Tab1"><label>Table 1</label><caption><p>Description of clinic and patient conditions</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Randomization (level)</th><th>Condition</th><th>Description</th></tr></thead><tbody><tr><td colspan="3">Phase 1 (clinic)</td></tr><tr><td rowspan="2"/><td>Ask–Advise–Connect Opt-In (AAC-In)</td><td>AAC-In consists of an EHR based point of care reminder that allows medical staff to choose when to perform Advise and Connect (i.e., the default does not require an action).</td></tr><tr><td>Ask–Advise–Connect Opt-Out (AAC-Out)</td><td>AAC-Out consists of an EHR based point of care alert that requires clinic staff to Advise and Connect tobacco users to the UTQL or to “opt out” (i.e., the default requires an action; Advise and Connect or Opt Out).</td></tr><tr><td colspan="3">Phase 2 (patient)</td></tr><tr><td rowspan="2"/><td>Text message (TM)</td><td>Patients will receive text messages with a two-touch response that directly connects patients to the UTQL. Texts will be sent once per week for the first month and once per month for the remaining 5 months (10 texts total in 6 months).</td></tr><tr><td>Continued AAC (CO)</td><td>Continued EHR intervention (i.e., AAC-In or AAC-Out). Clinic staff will perform AAC if patient returns to clinic.</td></tr><tr><td colspan="3">Phase 3 (patient)</td></tr><tr><td rowspan="2"/><td>Continued text message (TM-Cont)</td><td>Patients will continue to receive text messages with a two-touch response that directly connects patients to the UTQL. Texts will be sent once per month for 6 months.</td></tr><tr><td>Text message + MAPS (TM + MAPS)</td><td>Patients will continue to receive text messages with a two-touch response that directly connects patients to the UTQL, plus two brief telephone calls from patient navigators/health educators trained in MAPS counseling.</td></tr></tbody></table><table-wrap-foot><p><italic>EHR</italic> electronic health record, <italic>UTQL</italic> Utah Tobacco Quit Line, <italic>MAPS</italic> Motivation And Problem Solving</p></table-wrap-foot></table-wrap>
+<fig id="Fig3"><label>Fig. 3</label><caption><p>Clinic and patient flow diagram</p></caption><graphic xlink:href="13012_2020_967_Fig3_HTML" id="MO3"/></fig></p>
+                <p id="Par60">In the first phase, clinics will be randomized to either AAC-In or AAC-Out. After the initial clinical encounter with a patient, those patients who do not enroll in UTQL treatment in response to the AAC condition after ~ 2 weeks will be individually randomized to receive either text messaging (TM) or continued AAC only (CO) in a 4:1 ratio (4 to TM for every 1 to CO). Patients who enroll in the UTQL receive no further interventions. Six months after the clinical encounter, participants in the TM condition who are non-responders (i.e., have not enrolled in UTQL treatment) will be randomized to receive either continued text messages (TM-Cont) or text messages + MAPS (TM + MAPS) in a 1:1 ratio. Patients who enroll in UTQL receive no further interventions. All randomization sequences will be generated using random permuted blocks with random block sizes to assure balanced randomization over time. Clinic randomization will be stratified by CHC and clinic size, with several of the smaller CHCs grouped into the same stratum to provide sufficient clinics for stratification by clinic size within this stratum. Patient-level randomization will be stratified by clinic and by the treatment groups of earlier phases in the SMART design.</p>
+              </sec>
+              <sec id="Sec25">
+                <title>Stakeholder and patient engagement in the development/adaptation of implementation strategies</title>
+                <p id="Par61">To ensure implementation strategies align with the contexts in which they are delivered, the implementation protocols and materials will be developed using the IM process in partnership with the implementers of the study components using the following activities: (1) meetings with CHC organization adopters and implementers, (2) patient and study advisory committees, and (3) clinic workflow assessments and EHR adaptation usability assessments.</p>
+                <p id="Par62">The research team will conduct semi-structured interviews with potential adopters and implementers at the CHCs. The interviews will include questions regarding successes and barriers for ongoing and past tobacco control efforts, goals and expectations for the current study, and other constructs expected to influence successful implementation. As we better understand implementation behaviors and determinants through discussion and observation of clinical contexts, we will present these to our stakeholders for validation and/or revision. Patient and study advisory committees, including representation from patients, each of the participating CHCs, UDOH, AUCH, and the investigator team, will meet throughout the duration of the project to inform development of all implementation strategies and to give input on study procedures, outcome assessments, and study dissemination.</p>
+                <p id="Par63">Consistent with sociotechnical principles of design [<xref ref-type="bibr" rid="CR61">61</xref>] and implementation science frameworks [<xref ref-type="bibr" rid="CR55">55</xref>], HIT implementation strategies such as AAC should be designed to fit within the context of the existing clinical system workflow to avoid disruption [<xref ref-type="bibr" rid="CR59">59</xref>] without compromising the active ingredients of the strategy. The research team will perform mixed methods clinic workflow evaluations in clinics prior to designing AAC to (1) understand the needs and assets of the existing clinical workflow to minimize disruption and enhance AAC delivery and (2) identify possible implementation barriers to be addressed during the clinic practice team training. The research team will observe patient clinical encounters to collect data regarding who, what, when, where, and how (i.e., the “five rights” of clinical decision support) [<xref ref-type="bibr" rid="CR62">62</xref>] patient tobacco use is collected, stored, and communicated, cessation advice is delivered, and patients are referred to tobacco cessation services. Observations will be supplemented by paper-based surveys administered to front office and clinical staff regarding their roles and responsibilities related to identification of tobacco users, recommendations to quit, and referral to cessation services. Following EHR adaptations (i.e., AAC-In, AAC-Out), we will conduct iterative usability testing with EHR screen “mock-ups” to evaluate fit within existing clinic workflows, obtain user feedback, and address barriers to AAC implementation.</p>
+              </sec>
+              <sec id="Sec26">
+                <title>Outcomes measures and data collection</title>
+                <p id="Par64">Outcomes and assessments are guided by the conceptual framework (Fig. <xref rid="Fig1" ref-type="fig">1</xref>) and represent either our outcomes or potential determinants/moderators of outcomes.</p>
+                <sec id="Sec27">
+                  <title>Patient</title>
+                  <p id="Par65">The primary outcome, Reach, is defined as the proportion of tobacco users who enroll in UTQL treatment. Patient enrollment in the UTQL (i.e., the numerator of Reach) will be assessed and obtained from the UTQL vendor on a continuous basis throughout the duration of the study. The total number of tobacco-using patients seen at participating clinics (i.e., the denominator of Reach) will be gathered from the EHR at participating clinics on a continuous basis. Use of tobacco/nicotine products (e.g., smokeless, cigars, e-cigarettes, vaporizers) and patient demographics (e.g., race/ethnicity, insurance status, primary language, age) will be collected via the EHR.</p>
+                  <p id="Par66">The other primary outcome, Impact, is defined as the product of Reach and Efficacy. Efficacy is defined as patient abstinence status at 12 months following the patients’ initial clinical encounter among patients who enrolled in the UTQL. Tobacco-using patients will be contacted to complete a self-report abstinence survey at 12 months following the initial clinical encounter. Patient self-reported abstinence status will be assessed using recommendations for cessation induction trials (i.e., 7- and 30-day point prevalence abstinence) [<xref ref-type="bibr" rid="CR63">63</xref>]. A subset of patients (<italic>n</italic> = 300) self-reporting abstinence at 12 months will complete biochemical verification of abstinence (i.e., cotinine) using mailed saliva sample kits.</p>
+                </sec>
+                <sec id="Sec28">
+                  <title>Clinic and organization</title>
+                  <p id="Par67">CHC system and clinic practice team implementation determinants and outcomes will be assessed via staff surveys, qualitative interviews, data from Uniform Data System (UDS) reporting (i.e., the standardized reporting system) [<xref ref-type="bibr" rid="CR64">64</xref>], and the EHR. We will conduct in-depth interviews with clinic staff halfway through study completion that will be recorded and transcribed for analysis. We will conduct a thematic content analysis using iterative and deductive coding to better understand implementation in clinics and further inform dissemination efforts [<xref ref-type="bibr" rid="CR65">65</xref>–<xref ref-type="bibr" rid="CR68">68</xref>]. We will collect survey data on implementation determinants from staff from each clinic (e.g., medical assistants, nurses, doctors, clinic directors) at three time points (i.e., prior to AAC implementation, midway through study completion, at the conclusion of patient follow-up). Assessments will measure changes in implementation self-efficacy, outcome expectations, and behavioral capabilities (Fig. <xref rid="Fig1" ref-type="fig">1</xref>). We will assess selected constructs from key CFIR domains such as the inner setting, intervention characteristics, outer setting, characteristics of individuals, and process [<xref ref-type="bibr" rid="CR55">55</xref>]. We will obtain data on clinic characteristics such as number of patients served each year, patient demographics, and health insurance status, from UDS. We will collect data regarding fidelity of the clinic practice team to administering AAC routinely from the EHR.</p>
+                </sec>
+              </sec>
+              <sec id="Sec29">
+                <title>Statistical analyses and power calculations</title>
+                <sec id="Sec30">
+                  <title>Analytic plan</title>
+                  <p id="Par68">The richness of the three-phase SMART design provides the opportunity to test multiple hypotheses [<xref ref-type="bibr" rid="CR69">69</xref>, <xref ref-type="bibr" rid="CR70">70</xref>]. Our primary hypotheses address the capability of the specific interventions in each phase to extend Reach and Impact beyond the preceding phase: Is AAC- Out superior to AAC-In at 2 weeks? Is TM superior to CO at 6 months among those who fail to use the Quitline after the ACC interventions? Is TM + MAPS superior to TM-Cont at 12 months among those who fail to use the Quitline after both the AAC and TM interventions? Secondary analyses will compare embedded dynamic treatment regimens.</p>
+                </sec>
+                <sec id="Sec31">
+                  <title>Primary analyses for reach</title>
+                  <p id="Par69">Our primary analyses of Reach will be performed using generalized estimating equations (GEE) to account for clustering of patients within clinic [<xref ref-type="bibr" rid="CR71">71</xref>, <xref ref-type="bibr" rid="CR72">72</xref>]. We will use robust standard errors used for statistical inference, which will incorporate appropriate upward covariance adjustment to correct for the downward bias of these estimates when the number of clusters is limited [<xref ref-type="bibr" rid="CR73">73</xref>]. Separate analyses will be applied for the different treatment comparisons at each stage of the three-phase design. At each phase, GEE will be applied to a binary outcome model and will include the CHC as a clinic-level factor and patient level covariates as predictor variables to control for baseline imbalances that can occur when clinic level randomization is used [<xref ref-type="bibr" rid="CR74">74</xref>]. The GEE analyses for the phase 2 and phase 3 treatment comparisons will also include indicator variables for the patients’ randomized assignments at previous phases as covariates.</p>
+                  <p id="Par70">Our primary analyses will estimate (1) the effect of the AAC-Out vs. AAC-In on Reach at 2 weeks for the full cohort of all randomized patients, (2) the effect of TM vs. CO on 6-month Reach in the subcohort without UTQL use by week 2, and (3) the effect of the TM + MAPS vs. TM on month 12 Reach in the subcohort with no UTQL use by month. Our primary phase 2 and phase 3 comparisons will average over patients exposed to different interventions in the previous phases. Secondary contrasts will compare the effects of the phase 2 and phase 3 interventions within subgroups exposed to specific interventions in the earlier phases.</p>
+                </sec>
+                <sec id="Sec32">
+                  <title>Primary analyses for impact</title>
+                  <p id="Par71">GEE analyses with a binary outcome model will also be used for Impact, defined by a binary indicator which is equal to 1 only for patients who both use the UTQL by a designated follow-up time and are abstinent at month 12. We will also evaluate efficacy by conducting secondary analyses to compare 12 month abstinence among patients assigned to the respective treatments (or treatment regimens) within the subgroups who use the UTQL by the designated follow-up times. For example, the effect of AAC-Out vs. AAC-In on efficacy will be evaluated by comparing the proportions of patients who report 12 month abstinence between those in the AAC-Out and AAC-In groups who use the UTQL by 2 weeks.</p>
+                </sec>
+                <sec id="Sec33">
+                  <title>Multiple comparisons</title>
+                  <p id="Par72">Evaluating multiple hypotheses under the SMART design may inflate studywise Type 1 error. We address this issue by designating Reach and Impact as co-primary outcomes and testing focused primary hypotheses concerning the effects of the three interventions at the individual stages of the design. Other analyses are secondary or exploratory. Because our hypothesis tests for the three interventions address distinct questions, we will apply a Bonferroni-Holm multiple comparison adjustment to account for the two co-primary outcomes (Reach and Impact) when evaluating each intervention, but will not perform additional multiple-comparison adjustment for the three interventions [<xref ref-type="bibr" rid="CR75">75</xref>].</p>
+                </sec>
+                <sec id="Sec34">
+                  <title>Statistical power</title>
+                  <p id="Par73">The power calculations for the AAC-Out vs. AAC-In comparison assume an intraclass correlation for each outcome of 0.02 and a coefficient of variation of the clinic sizes of 0.88 based on a census of the 33 participating clinics. The calculations for TM vs. CO in phase 2 assume ≥ 80% of subjects fail to use the UTQL by week 2, and the calculations for TM + MAPS vs. TM-Cont in phase 3 assume both that ≥ 80% of subjects fail to use the UTQL by week 2, and ≥ 80% of those assigned to TM in phase 2 fail to use the UTQL by month 6. Under these assumptions, the 6000-patient SMART design will provide 80% power (two-sided α = 0.025 to account for two co-primary outcomes) to detect increases in Reach of 6.2%, 2.8%, and 3.6% from assumed control group percentages of 10%, 5%, and 10%, for the AAC-Out vs. AAC-In, TM vs. CO, and TM + MAPS vs. TM-Cont. comparisons, respectively. The corresponding minimum detectable effects for Impact are 3.5%, 1.5%, and 1.9%, relative to assumed control group percentages of 2.0%, 1.0%, and 2.0%, respectively.</p>
+                </sec>
+              </sec>
+            </sec>
+            <sec id="Sec35">
+              <title>Discussion</title>
+              <p id="Par74">QuitSMART Utah is a pragmatic, cluster-randomized clinical trial with the objective of increasing the Reach and Impact of evidence-based tobacco cessation treatment among low SES populations. The innovative SMART design will provide key guidance on which strategies are most effective for implementing the linkage between primary care and Quitlines, as well as whether progressively more resource intensive strategies provide unique, incremental effectiveness over and above the implementation of less resource intensive approaches. QuitSMART Utah will provide critical data regarding the impact of pragmatic and scalable strategies at both the clinic and patient level and advance the field of implementation science by testing key constructs hypothesized to influence implementation effectiveness. The ultimate goal is to decrease tobacco use at the population level and reduce the disproportionate burden of tobacco related morbidity and mortality among low SES populations.</p>
+              <p id="Par75">There are several operational and practical challenges to conducting QuitSMART Utah including (1) EHR technical capabilities that can impact the ability to both implement the AAC conditions exactly as envisioned and to randomize individual clinic sites to study conditions in the first step of the SMART design, (2) CHC decisions to change EHR vendors during the project, (3) change in the UTQL vendor during the project, and (4) obtaining approval from multiple IRBs, including a Tribal IRB.</p>
+              <sec id="Sec36">
+                <title>EHR technical capabilities</title>
+                <p id="Par76">During the first phase of the SMART design, clinics will be randomized to receive ether the opt-in or opt-out condition for implementing AAC. Adapting AAC for the wide variety of EHR vendors in a consistent way across different EHRs is challenging. For example, the investigative team has implemented AAC-In and AAC-Out in several healthcare systems using an EHR product that provides the technical capability to embed logic such that a “pop-up” alert window can be triggered after a patient is identified as a tobacco user. To get past the pop-up window, the clinical team must either provide advice and an offer of connection to evidence-based cessation treatment or “opt-out.” However, not all of the EHR products used by CHCs provide the capability to embed logic that can trigger these kinds of prompts/reminders. These limitations may impact the ability to implement AAC-In and AAC-Out precisely as conceptualized, and the team is actively attempting to find “work-arounds.”</p>
+                <p id="Par77">The study includes 11 CHCs and 33 individual clinics. Although all of the CHCs agreed to allow individual clinic sites to be randomized to AAC study condition, technical constrains with at least one of the EHRs may make this challenging. For those CHCs, the alternative would be to randomize the CHC systems, rather than clinics, to AAC-In or AAC-Out. This would reduce the study power for the phase 1 randomization, and we are actively looking for solutions to this challenge. The clinic assignment will not affect power to detect differences for the comparisons in the second and third phases since we will randomize individuals within clinics. Additionally, we have recruited more CHCs and clinics than were included in our original sample size calculation. As such, power for detecting differences in the AAC-Out vs. AAC-In condition may be relatively unaffected.</p>
+              </sec>
+              <sec id="Sec37">
+                <title>Change in EHR vendor</title>
+                <p id="Par78">Another issue, also related to the EHR, is that one of the CHCs decided to change their EHR product after study initiation. Since the new EHR product will be implemented after the scheduled trial kick-off, this CHC will need to join the trial later than other CHCs. Nevertheless, because the CHC is changing to one of the three EHRs that are already part of the study, we will have experience modifying that EHR platform.</p>
+              </sec>
+              <sec id="Sec38">
+                <title>Change in UTQL vendor</title>
+                <p id="Par79">The goal of the implementation strategies evaluated in QuitSMART Utah center around connecting tobacco users to evidence-based tobacco cessation treatment, with the most commonly implemented treatment being Quitlines [<xref ref-type="bibr" rid="CR19">19</xref>]. One practical challenge encountered in our study is that the UTQL changed Quitline vendors midway through the first year of QuitSMART Utah. We had already begun working with the original vendor, including negotiating costs, how to implement bi-directional electronic referrals via AAC, obtaining data on patient enrollment by clinic, and other procedural issues related to data transfer. Hence, we needed to begin these discussions a new with the new vendor once the change was implemented.</p>
+              </sec>
+              <sec id="Sec39">
+                <title>Complex data collection and reporting procedures with multiple IRBs</title>
+                <p id="Par80">We have worked closely with our study partners and IRBs to develop a process for collecting outcome data that capitalizes on data sources that our partners (i.e., AUCH and UDOH) already utilize. Although the process we developed will minimize patient and clinic practice team burden, the procedures include extensive data sharing between partner organizations and have resulted in the need for &gt; 10 data sharing agreements and approval from three separate IRBs. Gaining approval from multiple IRBs from distinct entities (i.e., academic, department of health, tribal) can present a number of challenges, as the entities may have conflicting procedural requirements. For example, two of the three IRBs have policies that a study must be approved by other IRBs before their board can approve the study (i.e., the university IRB requires tribal IRB approval prior to reviewing the project; the tribal IRB requires university approval prior to reviewing the project). To resolve this and other similar issues, we have held numerous meetings with the three IRBs and facilitated communications between the IRB directors.</p>
+                <p id="Par81">Review boards representing communities that have experienced injustice from scientific research, such as American Indian populations, often include additional policies and protocols to protect the rights of their communities. Two of the CHC organizations participating in this project serve primarily American Indian populations from two different tribes, one of which has an independent Tribal IRB. Approval from the Tribal IRB is a time-intensive process, designed to build relationships between the researchers and the communities with whom the research is being conducted to ensure the rights of the community are protected. We have spent over 1 year in this process and have traveled over 4000 miles to gain the necessary support to present our application at the Tribal IRB.</p>
+              </sec>
+            </sec>
+            <sec id="Sec40">
+              <title>Summary</title>
+              <p id="Par82">QuitSMART Utah will be conducted in real-world practice settings that reach underserved populations. There is minimal disruption to clinical workflow to maximize external validity and the potential for broad population-level scale up. Some of the challenges mentioned above will likely be relevant in future real-life dissemination of the implementation strategies developed and tested here. Thus, thorough documentation of these issues and the solutions applied to overcome them is critical. Our team will assess and describe these issues as well as any others to provide guidance for future implementation and dissemination efforts. Eventual broad-scale dissemination of the results and implementation strategies developed in QuitSMART Utah could increase tobacco cessation at the population level and reduce the disproportionate burden of tobacco-related morbidity and mortality among low SES populations.</p>
+              <sec id="Sec41">
+                <title>Update to study design and statistical analysis</title>
+                <p>In the time from submission of this manuscript to acceptance, there has been a change in the study protocol. First, two clinics within a single CHC organization combined to form one clinic. Therefore, our total sample of clinics will change from 33 clinics to 32 clinics. Second, the study team was unable to develop an ‘Opt-Out’ version of AAC in one of the EHR systems due to technical limitations (as described in the discussion). Therefore, the Phase 1 randomization will occur only among the CHC clinics that use the two EHR systems that can be configured to both AAC-In and AAC-Out (<italic>n</italic> = 21 clinics). Clinics that use the third, nonconfigurable EHR will not be randomized in phase 1 (<italic>n</italic> = 11 clinics), and will all receive the EHR intervention of AAC-In. Patients in clinics using the nonconfigurable EHR will be randomized in the patient level randomizations (Phase 2 and Phase 3). Our primary analyses of the AAC-Out vs AAC-In comparison will be restricted to the 21 clinics with EHRs that allow them to be randomized to either condition, and will thus exclude the clinics that use the EHR that cannot be configured to AAC-Out. Comparisons of TM vs. CO and of TM+MAPS vs. TM will be performed for patients who receive care in all 32 clinics. The updated power calculations for the AAC-Out vs. AAC-In comparison continue to assume an intraclass correlation for each outcome of 0.02, and now assume a coefficient of variation of the clinic sizes of 0.96 based on a census of the 21 participating clinics that use the two configurable EHRs. The 21 clinics have a projected total of 4,019 patients out of the projected total of 6,000 patients across all 32 participating clinics. Our updated power analyses indicate that the minimum detectable effect for Reach of the AAC-Out vs. AAC-In comparison is an 8.1 percentage point increase in AAC-Out relative to an estimated reach of 10% in AAC-In. The corresponding minimum detectable effect for Impact is 4.8 percentage points in AAC-Out relative to an assumed Impact of 2.0% in AAC-In. In addition to these changes in the design and power calculations, we have also modified our plans for addressing missing abstinence data in the computation of the Impact Outcome. We now plan to apply multiple imputation in cases where patients who fail to respond to the abstinence questionnaire.</p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term>AAC </term>
+                  <def>
+                    <p id="Par5">Ask–Advise–Connect</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>AUCH</term>
+                  <def>
+                    <p id="Par6">Association for Utah Community Health</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>CFIR </term>
+                  <def>
+                    <p id="Par7">Consolidated Framework for Implementation Research</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>CHCs</term>
+                  <def>
+                    <p id="Par8">Federally Qualified Health Centers/Community Health Centers</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>EHR</term>
+                  <def>
+                    <p id="Par9">Electronic health record</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>HIPAA</term>
+                  <def>
+                    <p id="Par10">Health Insurance Portability and Accountability Act</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>IM </term>
+                  <def>
+                    <p id="Par11">Implementation Mapping</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>IRB </term>
+                  <def>
+                    <p id="Par12">Institutional Review Board</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>NRT </term>
+                  <def>
+                    <p id="Par13">Nicotine Replacement Therapy</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>SCT </term>
+                  <def>
+                    <p id="Par14">Social Cognitive Theory</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>SES</term>
+                  <def>
+                    <p id="Par15">Socioeconomic status</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>SMART </term>
+                  <def>
+                    <p id="Par16">Sequential Multiple Assignment Randomized Trial</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>TPCP</term>
+                  <def>
+                    <p id="Par17">Tobacco Prevention and Control Program</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>US</term>
+                  <def>
+                    <p id="Par18">United States</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>UDOH </term>
+                  <def>
+                    <p id="Par19">Utah Department of Health</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>UTQL </term>
+                  <def>
+                    <p id="Par20">Utah Tobacco Quit Line</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>MAPS</term>
+                  <def>
+                    <p id="Par21">Motivation And Problem Solving</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>TM</term>
+                  <def>
+                    <p id="Par22">Text messaging</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>CO</term>
+                  <def>
+                    <p id="Par23">Continued</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>TM-Cont</term>
+                  <def>
+                    <p id="Par24">Continued text messaging</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>TM + MAPS</term>
+                  <def>
+                    <p id="Par25">Text messaging + MAPS</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>HIT</term>
+                  <def>
+                    <p id="Par26">Health Information Technology</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>SF-12</term>
+                  <def>
+                    <p id="Par27">12-Item Short Form Survey</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>UDS</term>
+                  <def>
+                    <p id="Par28">Uniform Data System</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Publisher’s Note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+              <fn>
+                <p>Maria E. Fernandez and Chelsey R. Schlechter contributed equally to this work.</p>
+              </fn>
+            </fn-group>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>We would like to thank the Utah Department of Health, National Jewish Health, the Association for Utah Community Health, and all the Community Health Center organizations who volunteered for participation. We are deeply grateful to the Patient and Study Advisory Committee members who have provided invaluable feedback on study procedures.</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Authors’ contributions</title>
+              <p>DW, CL, MF, and TG conceived the study design. DW, CL, MF, IN, TG, CS, TS, SS, MN, CB, AP, GDF, BG, CW, HK, DB, KK, and TW developed the study procedures and protocols. DW, TS, AP, SS, MN, and CB facilitated partnerships with Community Health Centers and Utah Tobacco Quit Line vendor. CS, DW, and MF drafted manuscript. All authors have read, edited, and approved the final manuscript.</p>
+            </notes>
+            <notes notes-type="funding-information">
+              <title>Funding</title>
+              <p>This work was supported through a Patient Centered Outcomes Research Institute (PCORI) Project Program Award (PCS-2017C2-7613). Additional support was provided by the National Center for Advancing Translational Sciences of the National Institutes of Health (UL1TR002538), by the National Cancer Institute of the National Institutes of Health (P30CA042014), and by the Huntsman Cancer Foundation. Disclaimer: All statements in this report, including its findings and conclusions, are soley those of the authors and do not necessarily represent the views of the Patient-Centered Outcomes Research Institute (PCORI), its Board of Governors or Methodology Committee.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Availability of data and materials</title>
+              <p>Not applicable.</p>
+            </notes>
+            <notes>
+              <title>Ethics approval and consent to participate</title>
+              <p id="Par83">The protocol for the study has been reviewed and approved by the University of Utah Institutional Review Board (#00111985).</p>
+            </notes>
+            <notes>
+              <title>Consent for publication</title>
+              <p id="Par84">Not applicable.</p>
+            </notes>
+            <notes notes-type="COI-statement">
+              <title>Competing interests</title>
+              <p id="Par85">KK reports honoraria, consulting, sponsored research, or sponsored travel related to health information technology (IT) in the past 3 years with McKesson InterQual, Hitachi, Pfizer, Premier, Klesis Healthcare, RTI International, Vanderbilt University, the University of Washington, the University of California at San Francisco, the Mayo Clinic, the Association of American Medical Colleges, and the U.S. Office of the National Coordinator for Health IT (via ESAC, JBS International, A+ Government Solutions, Hausam Consulting, and Security Risk Solutions). KK is also an unpaid board member of the non-profit Health Level Seven International health IT standard development organization, and he has helped develop a number of health IT tools which may be commercialized to enable wider impact. None of these relationships have direct relevance to the manuscript but are reported in the interest of full disclosure.</p>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <mixed-citation publication-type="other">Siegel RL, Miller KD, Jemal A. Cancer statistics, 2019. CA Cancer J Clin. 2019;69(1):7–34.</mixed-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <mixed-citation publication-type="other">Drope J, Liber AC, Cahn Z, Stoklosa M, Kennedy R, Douglas CE, et al. Who’s still smoking? Disparities in adult cigarette smoking prevalence in the United States. CA Cancer J Clin. 2018;68(2):106–15.</mixed-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <mixed-citation publication-type="other">Group T-HCHDPR. Making cancer health disparities history. U.S. Department of Health and Human Services; 2004.</mixed-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <mixed-citation publication-type="other">Abrams DB, Graham AL, Levy DT, Mabry PL, Orleans CT. Boosting population quits through evidence-based cessation treatment and policy. Am J Prev Med. 2010;38(3):S351–S63.</mixed-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <mixed-citation publication-type="other">Control CfD, Prevention. Best practices for comprehensive tobacco control programs—2007. Atlanta: US Department of Health and Human Services, Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Office on Smoking and Health; 2007. p. 8.</mixed-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <mixed-citation publication-type="other">Cummins SE, Bailey L, Campbell S, Koon-Kirby C, Zhu S-H. Tobacco cessation quitlines in North America: a descriptive study. Tob Control. 2007;16(Suppl 1):i9–i15.</mixed-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <mixed-citation publication-type="other">Fiore MC, Jaen CR, Baker TB, et al. Treating Tobacco Use and Dependence: 2008 Update. Clinical Practice Guideline. Rockville: US Public Health Service; 2008.</mixed-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <mixed-citation publication-type="other">McAfee TA. Quitlines - a tool for research and dissemination of evidence-based cessation practices. Am J Prev Med. 2007;33(6):S357–S67.</mixed-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <mixed-citation publication-type="other">Orleans CT. Increasing the demand for and use of effective smoking-cessation treatments - reaping the full health benefits of tobacco-control science and policy gains - in our lifetime. Am J Prev Med. 2007;33(6):S340–S8.</mixed-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <mixed-citation publication-type="other">Warren GW, Alberg AJ, Kraft AS, Cummings KM. The 2014 Surgeon General’s Report: “The health consequences of smoking-50 years of progress”: a paradigm shift in cancer care. Cancer. 2014;120(13):1914–6.</mixed-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <mixed-citation publication-type="other">Cokkinides VE, Ward E, Jemal A, Thun MJ. Under-use of smoking-cessation treatments: results from the National Health Interview Survey, 2000. Am J Prev Med. 2005;28(1):119–22.</mixed-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <mixed-citation publication-type="other">Fix BV, Hyland A, Rivard C, McNeill A, Fong GT, Borland R, et al. Usage patterns of stop smoking medications in Australia, Canada, the United Kingdom, and the United States: findings from the 2006–2008 International Tobacco Control (ITC) four country survey. Int J Environ Res Public Health. 2011;8(1):222–33.</mixed-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <mixed-citation publication-type="other">Browning KK, Ferketich AK, Salsberry PJ, Wewers ME. Socioeconomic disparity in provider-delivered assistance to quit smoking. Nicotine Tob Res. 2008;10(1):55–61.</mixed-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <mixed-citation publication-type="other">Houston TK, Scarinci IC, Person SD, Greene PG. Patient smoking cessation advice by health care providers: the role of ethnicity, socioeconomic status, and health. Am J Public Health. 2005;95(6):1056–61.</mixed-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <mixed-citation publication-type="other">Kendzor DE, Businelle MS, Costello TJ, Castro Y, Reitzel LR, Cofta-Woerpel LM, et al. Financial strain and smoking cessation among racially/ethnically diverse smokers. Am J Public Health. 2010;100(4):702–6.</mixed-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <mixed-citation publication-type="other">Kotz D, West R. Explaining the social gradient in smoking cessation: it’s not in the trying, but in the succeeding. Tob Control. 2009;18(1):43–6.</mixed-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <mixed-citation publication-type="other">Reid JL, Hammond D, Boudreau C, Fong GT, Siahpush M, Collaboration I. Socioeconomic disparities in quit intentions, quit attempts, and smoking abstinence among smokers in four western countries: findings from the International Tobacco Control Four Country Survey. Nicotine Tobacco Research. 2010;12(suppl_1):S20–33.</mixed-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <mixed-citation publication-type="other">Roddy E, Antoniak M, Britton J, Molyneux A, Lewis S. Barriers and motivators to gaining access to smoking cessation services amongst deprived smokers–a qualitative study. BMC Health Serv Res. 2006;6(1):147.</mixed-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <mixed-citation publication-type="other">Lichtenstein E, Zhu SH, Tedeschi GJ. Smoking cessation quit lines an underrecognized intervention success story. Am Psychol. 2010;65(4):252–61.</mixed-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <mixed-citation publication-type="other">Glasgow RE, Klesges LM, Dzewaltowski DA, Bull SS, Estabrooks P. The future of health behavior change research: what is needed to improve translation of research into health promotion practice? Ann Behav Med. 2004;27(1):3–12.</mixed-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <mixed-citation publication-type="other">Piper ME, Baker TB, Mermelstein R, Collins LM, Fraser DL, Jorenby DE, et al. Recruiting and engaging smokers in treatment in a primary care setting: developing a chronic care model implemented through a modified electronic health record. Transl Behav Med. 2012;3(3):253–63.</mixed-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <mixed-citation publication-type="other">Viswanath K, Herbst RS, Land SR, Leischow SJ, Shields PG. Tobacco and cancer: an American Association for Cancer Research policy statement. Cancer Res. 2010;70(9):3419–30.</mixed-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <mixed-citation publication-type="other">(HRSA) HRSA. 2018 Health Center Program Awardee Data. Available from: <ext-link ext-link-type="uri" xlink:href="https://bphc.hrsa.gov/uds/datacenter.aspx?q=d&amp;year=2018&amp;state=UT#glist">https://bphc.hrsa.gov/uds/datacenter.aspx?q=d&amp;year=2018&amp;state=UT#glist</ext-link>. Accessed 1 Nov 2019.</mixed-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <mixed-citation publication-type="other">Vidrine JI, Shete S, Cao YM, Greisinger A, Harmonson P, Sharp B, et al. Ask-advise-connect a new approach to smoking treatment delivery in health care settings. JAMA Intern Med. 2013;173(6):458–64.</mixed-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <mixed-citation publication-type="other">Vidrine JI, Shete S, Li YS, Cao YM, Alford MH, Galindo-Talton M, et al. The ask-advise-connect approach for smokers in a safety net healthcare system a group-randomized trial. Am J Prev Med. 2013;45(6):737–41.</mixed-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <mixed-citation publication-type="other">Marcano Belisario JS, Bruggeling MN, Gunn LH, Brusamento S, Car J. Interventions for recruiting smokers into cessation programmes. Cochrane Database Syst Rev. 2012;12.</mixed-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <mixed-citation publication-type="other">Scott-Sheldon LA, Lantini RC, Jennings EG, Thind H, Rosen RK, Salmoirago-Blotcher E, et al. Text messaging-based interventions for smoking cessation: a systematic review and meta-analysis. JMIR mHealth uHealth. 2016;4(2):e49.</mixed-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <mixed-citation publication-type="other">Vodopivec-Jamsek V, de Jongh T, Gurol-Urganci I, Atun R, Car J. Mobile phone messaging for preventive health care. Cochrane Database Syst Rev. 2012;12.</mixed-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <mixed-citation publication-type="other">Center PR. Mobile Fact Sheet 2019. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.pewresearch.org/internet/fact-sheet/mobile/">https://www.pewresearch.org/internet/fact-sheet/mobile/</ext-link>. Accessed 1 Nov 2019.</mixed-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <mixed-citation publication-type="other">McClure JB, Westbrook E, Curry SJ, Wetter DW. Proactive, motivationally enhanced smoking cessation counseling among women with elevated cervical cancer risk. Nicotine Tob Res. 2005;7(6):881–9.</mixed-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <mixed-citation publication-type="other">Vidrine JI, Reitzel LR, Figueroa PY, Velasquez MM, Mazas CA, Cinciripini PM, et al. Motivation and problem solving (MAPS): motivationally based skills training for treating substance use. Cogn Behav Pract. 2013;20(4):501–16.</mixed-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <mixed-citation publication-type="other">Wetter DW, Mazas C, Daza P, Nguyen L, Fouladi RT, Li YS, et al. Reaching and treating Spanish-speaking smokers through the National Cancer Institute’s cancer information service - a randomized controlled trial. Cancer. 2007;109(2):406–13.</mixed-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <mixed-citation publication-type="other">Lubetkin EI, Lu W-H, Krebs P, Yeung H, Ostroff JS. Exploring primary care providers’ interest in using patient navigators to assist in the delivery of tobacco cessation treatment to low income, ethnic/racial minority patients. J Community Health. 2010;35(6):618–24.</mixed-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <mixed-citation publication-type="other">Clauser SB, Taplin SH, Foster MK, Fagan P, Kaluzny AD. Multilevel intervention research: lessons learned and pathways forward. J Natl Cancer Inst Monogr. 2012;2012(44):127–33.</mixed-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <mixed-citation publication-type="other">Yano EM, Green LW, Glanz K, Ayanian JZ, Mittman BS, Chollette V, et al. Implementation and spread of interventions into the multilevel context of routine practice and policy: implications for the cancer care continuum. J Natl Cancer Inst Monogr. 2012;2012(44):86–99.</mixed-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <mixed-citation publication-type="other">Flood AB, Fennell ML, Devers KJ. Health reforms as examples of multilevel interventions in cancer care. J Natl Cancer Inst Monogr. 2012;2012(44):80–5.</mixed-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <mixed-citation publication-type="other">Orleans C, Phillips T. Innovations in building consumer demand for tobacco cessation products and services: 6 core strategies for increasing the use of evidence-based tobacco cessation treatments. September Washington, DC: National Tobacco Cessation Collaborative; 2007.</mixed-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <mixed-citation publication-type="other">Edwards HM, Taplin SH, Chollette V, Clauser SB, Das IP, Kaluzny AD. Summary of the multilevel interventions in health care conference. J Natl Cancer Inst Monogr. 2012;2012(44):123–6.</mixed-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <mixed-citation publication-type="other">Stange KC, Breslau ES, Dietrich AJ, Glasgow RE. State-of-the-art and future directions in multilevel interventions across the cancer control continuum. J Natl Cancer Inst Monogr. 2012;2012(44):20–31.</mixed-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <mixed-citation publication-type="other">Taplin SH, Anhang Price R, Edwards HM, Foster MK, Breslau ES, Chollette V, et al. Introduction: understanding and influencing multilevel factors across the cancer care continuum. J Natl Cancer Inst Monogr. 2012;2012(44):2–10.</mixed-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <mixed-citation publication-type="other">Bierman KL, Nix RL, Maples JJ, Murphy SA. Examining clinical judgment in an adaptive intervention design: the fast track program. J Consult Clin Psychol. 2006;74(3):468.</mixed-citation>
+              </ref>
+              <ref id="CR42">
+                <label>42.</label>
+                <mixed-citation publication-type="other">McKay JR. Is there a case for extended interventions for alcohol and drug use disorders? Addiction. 2005;100(11):1594–610.</mixed-citation>
+              </ref>
+              <ref id="CR43">
+                <label>43.</label>
+                <mixed-citation publication-type="other">Lei H, Nahum-Shani I, Lynch K, Oslin D, Murphy SA. A“ SMART” design for building individualized treatment sequences. Annu Rev Clin Psychol. 2012;8:21–48.</mixed-citation>
+              </ref>
+              <ref id="CR44">
+                <label>44.</label>
+                <mixed-citation publication-type="other">Pfammatter AF, Nahum-Shani I, DeZelar M, Scanlan L, McFadden HG, Siddique J, et al. SMART: study protocol for a sequential multiple assignment randomized controlled trial to optimize weight loss management. Contemporary Clinical Trials. 2019;82:36–45.</mixed-citation>
+              </ref>
+              <ref id="CR45">
+                <label>45.</label>
+                <mixed-citation publication-type="other">Sobell MB, Sobell LC. Stepped care as a heuristic approach to the treatment of alcohol problems. J Consult Clin Psychol. 2000;68(4):573.</mixed-citation>
+              </ref>
+              <ref id="CR46">
+                <label>46.</label>
+                <mixed-citation publication-type="other">Dawson R, Lavori PW. Efficient design and inference for multistage randomized trials of individualized treatment policies. Biostatistics. 2012;13(1):142-52.</mixed-citation>
+              </ref>
+              <ref id="CR47">
+                <label>47.</label>
+                <mixed-citation publication-type="other">Lavori PW, Dawson R. A design for testing clinical strategies: biased adaptive within-subject randomization. J Royal Stat Soc Series A (Statistics in Society). 2000;163(1):29–38.</mixed-citation>
+              </ref>
+              <ref id="CR48">
+                <label>48.</label>
+                <mixed-citation publication-type="other">Murphy SA. An experimental design for the development of adaptive treatment strategies. Stat Med. 2005;24(10):1455–81.</mixed-citation>
+              </ref>
+              <ref id="CR49">
+                <label>49.</label>
+                <mixed-citation publication-type="other">Fernandez ME, Gill A, van Lieshout S, Rodriguez SA, Beidas RS, Parcel G, et al. Implementation mapping: using intervention mapping to develop implementation strategies. Front Public Health. 2019;7.</mixed-citation>
+              </ref>
+              <ref id="CR50">
+                <label>50.</label>
+                <mixed-citation publication-type="other">Fernandez ME, Ruiter RA, Markham CM, Kok G. Theory-and evidence-based health promotion program planning: intervention mapping. Front Public Health. 2019;7:209.</mixed-citation>
+              </ref>
+              <ref id="CR51">
+                <label>51.</label>
+                <mixed-citation publication-type="other">Bartholomew LK, Cushman WC, Cutler JA, Davis BR, Dawson G, Einhorn PT, et al. Getting clinical trial results into practice: design, implementation, and process evaluation of the ALLHAT Dissemination Project. Clinical Trials. 2009;6(4):329–43.</mixed-citation>
+              </ref>
+              <ref id="CR52">
+                <label>52.</label>
+                <mixed-citation publication-type="other">Glasgow RE, Vogt TM, Boles SM. Evaluating the public health impact of health promotion interventions: the RE-AIM framework. Am J Public Health. 1999;89(9):1322–7.</mixed-citation>
+              </ref>
+              <ref id="CR53">
+                <label>53.</label>
+                <mixed-citation publication-type="other">Bandura A. Social Foundations of Thought and Action: A Social Cognitive Theory. Englewood Cliffs: Prentice-Hall; 1986.</mixed-citation>
+              </ref>
+              <ref id="CR54">
+                <label>54.</label>
+                <mixed-citation publication-type="other">Bandura A. Social cognitive theory: an agentic perspective. Annu Rev Psychol. 2001;52(1):1–26.</mixed-citation>
+              </ref>
+              <ref id="CR55">
+                <label>55.</label>
+                <mixed-citation publication-type="other">Damschroder LJ, Aron DC, Keith RE, Kirsh SR, Alexander JA, Lowery JC. Fostering implementation of health services research findings into practice: a consolidated framework for advancing implementation science. Implement Sci. 2009;4(1):50.</mixed-citation>
+              </ref>
+              <ref id="CR56">
+                <label>56.</label>
+                <mixed-citation publication-type="other">HRSA. 2018 Health Center Data, Utah 2018. Available from: <ext-link ext-link-type="uri" xlink:href="https://bphc.hrsa.gov/uds/datacenter.aspx?year=2018&amp;state=UT">https://bphc.hrsa.gov/uds/datacenter.aspx?year=2018&amp;state=UT</ext-link>. Accessed 1 Nov 2019.</mixed-citation>
+              </ref>
+              <ref id="CR57">
+                <label>57.</label>
+                <mixed-citation publication-type="other">Thaler RH, Sunstein CR. Nudge: improving decisions about health, wealth, and happiness: Penguin; 2009.</mixed-citation>
+              </ref>
+              <ref id="CR58">
+                <label>58.</label>
+                <mixed-citation publication-type="other">Madrian BC, Shea DF. The power of suggestion: Inertia in 401 (k) participation and savings behavior. Q J Econ. 2001;116(4):1149–87.</mixed-citation>
+              </ref>
+              <ref id="CR59">
+                <label>59.</label>
+                <mixed-citation publication-type="other">Reitzel LR, Vidrine JI, Businelle MS, Kendzor DE, Costello TJ, Li Y, et al. Preventing postpartum smoking relapse among diverse low-income women: a randomized clinical trial. Nicotine Tob Res. 2010;12(4):326–35.</mixed-citation>
+              </ref>
+              <ref id="CR60">
+                <label>60.</label>
+                <mixed-citation publication-type="other">Elwyn G, Scholl I, Tietbohl C, Mann M, Edwards AG, Clay C, et al. “Many miles to go…”: a systematic review of the implementation of patient decision support interventions into routine clinical practice. BMC Med informatics Decision Making. 2013;13(S2):S14.</mixed-citation>
+              </ref>
+              <ref id="CR61">
+                <label>61.</label>
+                <mixed-citation publication-type="other">Clegg CW. Sociotechnical principles for system design. Appl Ergon. 2000;31(5):463–77.</mixed-citation>
+              </ref>
+              <ref id="CR62">
+                <label>62.</label>
+                <mixed-citation publication-type="other">Sirajuddin AM, Osheroff JA, Sittig DF, Chuo J, Velasco F, Collins DA. Implementation pearls from a new guidebook on improving medication use and outcomes with clinical decision support: effective CDS is essential for addressing healthcare performance improvement imperatives. J Healthcare Information Management. 2009;23(4):38.</mixed-citation>
+              </ref>
+              <ref id="CR63">
+                <label>63.</label>
+                <mixed-citation publication-type="other">Hughes JR, Keely JP, Niaura RS, Ossip-Klein DJ, Richmond RL, Swan GE. Measures of abstinence in clinical trials: issues and recommendations. Nicotine Tob Res. 2003;5(1):13–25.</mixed-citation>
+              </ref>
+              <ref id="CR64">
+                <label>64.</label>
+                <mixed-citation publication-type="other">Administration HRS. Uniform Data System (UDS) Resources 2019. Available from: <ext-link ext-link-type="uri" xlink:href="https://bphc.hrsa.gov/datareporting/reporting/index.html">https://bphc.hrsa.gov/datareporting/reporting/index.html</ext-link>. Accessed 1 Nov 2019.</mixed-citation>
+              </ref>
+              <ref id="CR65">
+                <label>65.</label>
+                <mixed-citation publication-type="other">Glaser BG, Strauss AL, Strutzel E. The discovery of grounded theory; strategies for qualitative research. Nurs Res. 1968;17(4):364.</mixed-citation>
+              </ref>
+              <ref id="CR66">
+                <label>66.</label>
+                <mixed-citation publication-type="other">Miles MB, Huberman AM, Huberman MA, Huberman M. Qualitative data analysis: an expanded sourcebook: sage; 1994.</mixed-citation>
+              </ref>
+              <ref id="CR67">
+                <label>67.</label>
+                <mixed-citation publication-type="other">Braun V, Clarke V. Using thematic analysis in psychology. Qual Res Psychol. 2006;3(2):77–101.</mixed-citation>
+              </ref>
+              <ref id="CR68">
+                <label>68.</label>
+                <mixed-citation publication-type="other">Glesne C. Becoming qualitative researchers: an introduction: ERIC; 2016.</mixed-citation>
+              </ref>
+              <ref id="CR69">
+                <label>69.</label>
+                <mixed-citation publication-type="other">Chakraborty B, Murphy SA. Dynamic treatment regimes. Ann rRview Statistics Application. 2014;1:447–64.</mixed-citation>
+              </ref>
+              <ref id="CR70">
+                <label>70.</label>
+                <mixed-citation publication-type="other">Lavori PW, Dawson R. Introduction to dynamic treatment strategies and sequential multiple assignment randomization. Clinical trials. 2014;11(4):393–9.</mixed-citation>
+              </ref>
+              <ref id="CR71">
+                <label>71.</label>
+                <mixed-citation publication-type="other">Murray DM. Design and analysis of group-randomized trials. Oxford University Press; 1998.</mixed-citation>
+              </ref>
+              <ref id="CR72">
+                <label>72.</label>
+                <mixed-citation publication-type="other">Zeger SL, Liang KY. Longitudinal data analysis for discrete and continuous outcomes. Biometrics. 1986:121-30.</mixed-citation>
+              </ref>
+              <ref id="CR73">
+                <label>73.</label>
+                <mixed-citation publication-type="other">Wang M, Kong L, Li Z, Zhang L. Covariance estimators for generalized estimating equations (GEE) in longitudinal analysis with small samples. Stat Med. 2016;35(10):1706–21.</mixed-citation>
+              </ref>
+              <ref id="CR74">
+                <label>74.</label>
+                <mixed-citation publication-type="other">Donner A. Some aspects of the design and analysis of cluster randomization trials. J R Stat Soc: Ser C: Appl Stat. 1998;47(1):95–113.</mixed-citation>
+              </ref>
+              <ref id="CR75">
+                <label>75.</label>
+                <mixed-citation publication-type="other">Bender R, Lange S. Adjusting for multiple testing—when and how? J Clin Epidemiol. 2001;54(4):343–9.</mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

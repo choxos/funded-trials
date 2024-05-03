@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2024-05-03T02:15:02Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:9893923" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:9893923</identifier>
+        <datestamp>2023-02-03</datestamp>
+        <setSpec>frontimmu</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Front Immunol</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Front Immunol</journal-id>
+              <journal-id journal-id-type="publisher-id">Front. Immunol.</journal-id>
+              <journal-title-group>
+                <journal-title>Frontiers in Immunology</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1664-3224</issn>
+              <publisher>
+                <publisher-name>Frontiers Media S.A.</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC9893923</article-id>
+              <article-id pub-id-type="pmcid">PMC9893923</article-id>
+              <article-id pub-id-type="pmc-uid">9893923</article-id>
+              <article-id pub-id-type="pmid">36741404</article-id>
+              <article-id pub-id-type="pmid">36741404</article-id>
+              <article-id pub-id-type="doi">10.3389/fimmu.2022.1093242</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Immunology</subject>
+                  <subj-group>
+                    <subject>Original Research</subject>
+                  </subj-group>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>The Vacc-SeqQC project: Benchmarking RNA-Seq for clinical vaccine studies</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Goll</surname>
+                    <given-names>Johannes B.</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                  <xref rid="fn003" ref-type="author-notes">
+                    <sup>†</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Bosinger</surname>
+                    <given-names>Steven E.</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                  <xref rid="aff3" ref-type="aff">
+                    <sup>3</sup>
+                  </xref>
+                  <xref rid="aff4" ref-type="aff">
+                    <sup>4</sup>
+                  </xref>
+                  <xref rid="aff5" ref-type="aff">
+                    <sup>5</sup>
+                  </xref>
+                  <xref rid="fn003" ref-type="author-notes">
+                    <sup>†</sup>
+                  </xref>
+                  <uri xlink:href="https://loop.frontiersin.org/people/516809"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Jensen</surname>
+                    <given-names>Travis L.</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Walum</surname>
+                    <given-names>Hasse</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                  <uri xlink:href="https://loop.frontiersin.org/people/245272"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Grimes</surname>
+                    <given-names>Tyler</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                  <uri xlink:href="https://loop.frontiersin.org/people/1200747"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Tharp</surname>
+                    <given-names>Gregory K.</given-names>
+                  </name>
+                  <xref rid="aff4" ref-type="aff">
+                    <sup>4</sup>
+                  </xref>
+                  <uri xlink:href="https://loop.frontiersin.org/people/2118549"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Natrajan</surname>
+                    <given-names>Muktha S.</given-names>
+                  </name>
+                  <xref rid="aff5" ref-type="aff">
+                    <sup>5</sup>
+                  </xref>
+                  <xref rid="aff6" ref-type="aff">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Blazevic</surname>
+                    <given-names>Azra</given-names>
+                  </name>
+                  <xref rid="aff7" ref-type="aff">
+                    <sup>7</sup>
+                  </xref>
+                  <uri xlink:href="https://loop.frontiersin.org/people/2118701"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Head</surname>
+                    <given-names>Richard D.</given-names>
+                  </name>
+                  <xref rid="aff8" ref-type="aff">
+                    <sup>8</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Gelber</surname>
+                    <given-names>Casey E.</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Steenbergen</surname>
+                    <given-names>Kristen J.</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                  <uri xlink:href="https://loop.frontiersin.org/people/2031572"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Patel</surname>
+                    <given-names>Nirav B.</given-names>
+                  </name>
+                  <xref rid="aff4" ref-type="aff">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Sanz</surname>
+                    <given-names>Patrick</given-names>
+                  </name>
+                  <xref rid="aff9" ref-type="aff">
+                    <sup>9</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rouphael</surname>
+                    <given-names>Nadine G.</given-names>
+                  </name>
+                  <xref rid="aff5" ref-type="aff">
+                    <sup>5</sup>
+                  </xref>
+                  <xref rid="aff6" ref-type="aff">
+                    <sup>6</sup>
+                  </xref>
+                  <xref rid="aff10" ref-type="aff">
+                    <sup>10</sup>
+                  </xref>
+                  <uri xlink:href="https://loop.frontiersin.org/people/716697"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Anderson</surname>
+                    <given-names>Evan J.</given-names>
+                  </name>
+                  <xref rid="aff10" ref-type="aff">
+                    <sup>10</sup>
+                  </xref>
+                  <xref rid="aff11" ref-type="aff">
+                    <sup>11</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Mulligan</surname>
+                    <given-names>Mark J.</given-names>
+                  </name>
+                  <xref rid="aff5" ref-type="aff">
+                    <sup>5</sup>
+                  </xref>
+                  <xref rid="aff6" ref-type="aff">
+                    <sup>6</sup>
+                  </xref>
+                  <xref rid="aff10" ref-type="aff">
+                    <sup>10</sup>
+                  </xref>
+                  <xref rid="aff12" ref-type="aff">
+                    <sup>12</sup>
+                  </xref>
+                  <xref rid="fn001" ref-type="author-notes">
+                    <sup>*</sup>
+                  </xref>
+                  <xref rid="fn003" ref-type="author-notes">
+                    <sup>†</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Hoft</surname>
+                    <given-names>Daniel F.</given-names>
+                  </name>
+                  <xref rid="aff7" ref-type="aff">
+                    <sup>7</sup>
+                  </xref>
+                  <xref rid="aff13" ref-type="aff">
+                    <sup>13</sup>
+                  </xref>
+                  <xref rid="fn001" ref-type="author-notes">
+                    <sup>*</sup>
+                  </xref>
+                  <xref rid="fn003" ref-type="author-notes">
+                    <sup>†</sup>
+                  </xref>
+                  <uri xlink:href="https://loop.frontiersin.org/people/682401"/>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1"><sup>1</sup><institution>Department of Biomedical Data Science and Bioinformatics, The Emmes Company, LLC</institution>, <addr-line>Rockville, MD</addr-line>, <country>United States</country></aff>
+              <aff id="aff2"><sup>2</sup><institution>Division of Microbiology &amp; Immunology, Emory National Primate Research Center, Emory University</institution>, <addr-line>Atlanta, GA</addr-line>, <country>United States</country></aff>
+              <aff id="aff3"><sup>3</sup><institution>Department of Pathology &amp; Laboratory Medicine, School of Medicine, Emory University</institution>, <addr-line>Atlanta, GA</addr-line>, <country>United States</country></aff>
+              <aff id="aff4"><sup>4</sup><institution>Emory NPRC Genomics Core, Emory National Primate Research Center, Emory University</institution>, <addr-line>Atlanta, GA</addr-line>, <country>United States</country></aff>
+              <aff id="aff5"><sup>5</sup><institution>Emory Vaccine Center, Emory University School of Medicine</institution>, <addr-line>Atlanta, GA</addr-line>, <country>United States</country></aff>
+              <aff id="aff6"><sup>6</sup><institution>Hope Clinic of the Emory Vaccine Center, Emory University</institution>, <addr-line>Atlanta, GA</addr-line>, <country>United States</country></aff>
+              <aff id="aff7"><sup>7</sup><institution>Division of Infectious Diseases, Allergy, and Immunology, Department of Internal Medicine, Saint Louis University School of Medicine</institution>, <addr-line>St. Louis, MO</addr-line>, <country>United States</country></aff>
+              <aff id="aff8"><sup>8</sup><institution>McDonnell Genome Institute, Washington University</institution>, <addr-line>St. Louis, MO</addr-line>, <country>United States</country></aff>
+              <aff id="aff9"><sup>9</sup><institution>Office of Biodefense, Research Resources and Translational Research, National Institute of Allergy and Infectious Diseases, National Institutes of Health</institution>, <addr-line>Rockville, MD</addr-line>, <country>United States</country></aff>
+              <aff id="aff10"><sup>10</sup><institution>Department of Medicine, Division of Infectious Diseases, Emory University School of Medicine, Emory University</institution>, <addr-line>Atlanta, GA</addr-line>, <country>United States</country></aff>
+              <aff id="aff11"><sup>11</sup><institution>Center for Childhood Infections and Vaccines (CCIV) of Children’s Healthcare of Atlanta and Department of Pediatrics, Emory University School of Medicine</institution>, <addr-line>Atlanta, GA</addr-line>, <country>United States</country></aff>
+              <aff id="aff12"><sup>12</sup><institution>New York University Vaccine Center</institution>, <addr-line>New York, NY</addr-line>, <country>United States</country></aff>
+              <aff id="aff13"><sup>13</sup><institution>Department of Molecular Microbiology &amp; Immunology, Saint Louis University</institution>, <addr-line>St. Louis, MO</addr-line>, <country>United States</country></aff>
+              <author-notes>
+                <fn fn-type="edited-by">
+                  <p>Edited by: Mahbuba Rahman, McMaster University, Canada</p>
+                </fn>
+                <fn fn-type="edited-by">
+                  <p>Reviewed by: Samiksha Garse, DY Patil Deemed to be University, India; Mathieu Garand, Washington University in St. Louis, United States; Tengchuan Jin, University of Science and Technology of China, China</p>
+                </fn>
+                <corresp id="fn001">*Correspondence: Daniel F. Hoft, <email xlink:href="mailto:Daniel.Hoft@health.slu.edu">Daniel.Hoft@health.slu.edu</email>; Mark J. Mulligan, <email xlink:href="mailto:mark.mulligan@nyulangone.org">mark.mulligan@nyulangone.org</email>
+</corresp>
+                <fn fn-type="equal" id="fn003">
+                  <p>†These authors have contributed equally to this work</p>
+                </fn>
+                <fn fn-type="other" id="fn002">
+                  <p>This article was submitted to Systems Immunology, a section of the journal Frontiers in Immunology</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>19</day>
+                <month>1</month>
+                <year>2023</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2022</year>
+              </pub-date>
+              <volume>13</volume>
+              <elocation-id>1093242</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>08</day>
+                  <month>11</month>
+                  <year>2022</year>
+                </date>
+                <date date-type="accepted">
+                  <day>30</day>
+                  <month>12</month>
+                  <year>2022</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>Copyright © 2023 Goll, Bosinger, Jensen, Walum, Grimes, Tharp, Natrajan, Blazevic, Head, Gelber, Steenbergen, Patel, Sanz, Rouphael, Anderson, Mulligan and Hoft</copyright-statement>
+                <copyright-year>2023</copyright-year>
+                <copyright-holder>Goll, Bosinger, Jensen, Walum, Grimes, Tharp, Natrajan, Blazevic, Head, Gelber, Steenbergen, Patel, Sanz, Rouphael, Anderson, Mulligan and Hoft</copyright-holder>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <sec>
+                  <title>Introduction</title>
+                  <p>Over the last decade, the field of systems vaccinology has emerged, in which high throughput transcriptomics and other omics assays are used to probe changes of the innate and adaptive immune system in response to vaccination. The goal of this study was to benchmark key technical and analytical parameters of RNA sequencing (RNA-seq) in the context of a multi-site, double-blind randomized vaccine clinical trial.</p>
+                </sec>
+                <sec>
+                  <title>Methods</title>
+                  <p>We collected longitudinal peripheral blood mononuclear cell (PBMC) samples from 10 subjects before and after vaccination with a live attenuated <italic>Francisella tularensis</italic> vaccine and performed RNA-Seq at two different sites using aliquots from the same sample to generate two replicate datasets (5 time points for 50 samples each). We evaluated the impact of (i) filtering lowly-expressed genes, (ii) using external RNA controls, (iii) fold change and false discovery rate (FDR) filtering, (iv) read length, and (v) sequencing depth on differential expressed genes (DEGs) concordance between replicate datasets. Using synthetic mRNA spike-ins, we developed a method for empirically establishing minimal read-count thresholds for maintaining fold change accuracy on a per-experiment basis. We defined a reference PBMC transcriptome by pooling sequence data and established the impact of sequencing depth and gene filtering on transcriptome representation. Lastly, we modeled statistical power to detect DEGs for a range of sample sizes, effect sizes, and sequencing depths.</p>
+                </sec>
+                <sec>
+                  <title>Results and Discussion</title>
+                  <p>Our results showed that (i) filtering lowly-expressed genes is recommended to improve fold-change accuracy and inter-site agreement, if possible guided by mRNA spike-ins (ii) read length did not have a major impact on DEG detection, (iii) applying fold-change cutoffs for DEG detection reduced inter-set agreement and should be used with caution, if at all, (iv) reduction in sequencing depth had a minimal impact on statistical power but reduced the identifiable fraction of the PBMC transcriptome, (v) after sample size, effect size (i.e. the magnitude of fold change) was the most important driver of statistical power to detect DEG. The results from this study provide RNA sequencing benchmarks and guidelines for planning future similar vaccine studies.</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>RNA-Seq</kwd>
+                <kwd>statistical power</kwd>
+                <kwd>ERCC</kwd>
+                <kwd>tularemia vaccine (DVC-LVS)</kwd>
+                <kwd>gene filtering</kwd>
+                <kwd>sequencing depth</kwd>
+                <kwd>read length</kwd>
+                <kwd>reproducibility</kwd>
+              </kwd-group>
+              <funding-group>
+                <funding-statement>This study was funded through the Vaccine Treatment and Evaluation Units (VTEU) awarded to Emory University (HHSN272201300018I) and St. Louis University (HHSN27220130021I).</funding-statement>
+              </funding-group>
+              <counts>
+                <fig-count count="7"/>
+                <table-count count="1"/>
+                <equation-count count="0"/>
+                <ref-count count="41"/>
+                <page-count count="18"/>
+                <word-count count="12506"/>
+              </counts>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="intro" id="s1">
+              <label>1</label>
+              <title>Introduction</title>
+              <p>Since 2008, high-throughput technologies, primarily transcriptomics, have been used to characterize the <italic>in vivo</italic> response to clinical vaccination (<xref rid="B1" ref-type="bibr">1</xref>, <xref rid="B2" ref-type="bibr">2</xref>). This approach referred to as “Systems Vaccinology,” has been employed to investigate the molecular mechanisms regulating vaccine activity (<xref rid="B3" ref-type="bibr">3</xref>), to identify correlates that predict antibody titer, breadth, or persistence (<xref rid="B4" ref-type="bibr">4</xref>–<xref rid="B7" ref-type="bibr">7</xref>), and to predict responses to vaccination (<xref rid="B8" ref-type="bibr">8</xref>). Systems vaccinology studies previously utilized microarray technology to identify transcriptomes. However, microarrays have now been virtually replaced by RNA-Seq technology due to its technical superiority (larger dynamic range, no signal saturation, and no restriction to a static set of printed probes) (<xref rid="B9" ref-type="bibr">9</xref>–<xref rid="B12" ref-type="bibr">12</xref>). Unlike microarrays, RNA-Seq is inherently flexible, and several technical parameters can be tailored uniquely for each experiment. The goal of this study was to establish parameters to optimally apply RNA-Seq to clinical vaccine studies.</p>
+              <p>Some work has been done to benchmark RNA-Seq analyses and understand how technical parameters influence experimental findings (<xref rid="B13" ref-type="bibr">13</xref>–<xref rid="B18" ref-type="bibr">18</xref>). Quality metrics, methods to estimate reproducibility, and algorithms to estimate statistical power have been developed for RNA-Seq technology; however, these have almost exclusively been defined using standardized reference samples (<xref rid="B14" ref-type="bibr">14</xref>, <xref rid="B19" ref-type="bibr">19</xref>–<xref rid="B22" ref-type="bibr">22</xref>). Despite these efforts, relatively little work has been done to benchmark the utility of reference controls (Universal Human Reference RNA (UHRRs) and External Reference Control Consortium (ERCC) synthetic RNA spike-ins) and to assess the impact of the choice of sequencing depth and read length in the context of “real-life” biological samples, or RNA-Seq-based clinical immunology/vaccine studies (<xref rid="B23" ref-type="bibr">23</xref>–<xref rid="B26" ref-type="bibr">26</xref>).</p>
+              <p>In this study, we sought to empirically establish the impact of these and other technical parameters on the ability to accurately assess differentially expressed genes (DEGs) using samples collected for a phase II clinical trial of a live attenuated tularemia vaccine. Tularemia is a disease caused by infection with the Gram-negative, aerobic and facultative intracellular bacterium, <italic>Francisella tularensis</italic>, transmitted from a wide range of infected rodents and rabbits to humans by a tick or other insect bites, direct skin contact with infected material, or inhalation/ingestion. <italic>F. tularensis</italic> infects human monocytes/macrophages, escapes the phagosome, and replicates within the cytoplasm of infected cells. Because of its high infectivity, virulence, and mortality after inhalation, tularemia is considered a Tier 1 Select Agent with significant potential for use as an agent of bioterrorism. To protect its troops, the US military developed a live, attenuated tularemia vaccine which was evaluated in an NIAID-funded Vaccine and Treatment Evaluation Unit (VTEU) network trial before the COVID-19 pandemic. While we provide a high-level summary of transcriptomic changes following vaccination, this study was not intended to be a comprehensive biological transcriptional characterization of Tularemia vaccination or to identify correlates of Tularemia vaccine protection; these studies recently have been published elsewhere (<xref rid="B27" ref-type="bibr">27</xref>, <xref rid="B28" ref-type="bibr">28</xref>).</p>
+              <p>Specifically, our main goals were to (i) assess the reproducibility of gene expression measurements and the ability to detect the same DEGs in two different laboratories using technical replicate samples; (ii) assess the impact of various sequencing depths on gene representation for which we approximated an ultra-deeply sequenced PBMC transcriptome by pooling all hundred samples sequenced; (iii) estimate statistical power to determine DEGs as a function of effect size, sequencing depth, and sample size; (iv) define the impact of changes in technical parameters (sequencing depth and read length) on the identification of DEGs; (v) assess the accuracy of fold-change estimates using synthetic mRNA spike-ins for varying read-count filtering cutoffs; (vi) determine an empirical read-count cutoff for filtering out lowly-expressed genes, and (vii) establish recommendations for RNA-Seq analyses conducted in clinical vaccine studies. It is also important to note that the goals of this study were not to perform an exhaustive comparison of established analytical methods to quantify gene expression or detect DEGs, or to compare the performance of these tools, as these comparisons already exist in the literature (<xref rid="B29" ref-type="bibr">29</xref>). The replication of the study at different sites was performed in a manner similar to that described in the influential “SEQC/MAQ-III” studies that sequenced a small number of technical replicates at multiple sites (<xref rid="B16" ref-type="bibr">16</xref>). The rationale for replicating this benchmarking experiment on the same sample sets (parallel aliquots of PBMCs from the same subjects and time points) run in two separate laboratories was to firmly establish if the findings could be validated using “real world” clinical trial samples.</p>
+            </sec>
+            <sec sec-type="results" id="s2">
+              <label>2</label>
+              <title>Results</title>
+              <sec id="s2_1">
+                <label>2.1</label>
+                <title>Experimental design</title>
+                <p>The RNA-Seq benchmarking study described here utilized samples from a Phase 2, multi-center, double-blind randomized trial comparing the immunogenicity of two live attenuated vaccines against <italic>Francisella tularensis</italic>: an aging stock used for decades by the United States Army Medical Research Institute of Infectious Diseases (USAMRIID-LVS) and a novel lot produced by the Dynport Vaccine Company, DVC-LVS, intended to be its replacement (<xref rid="B30" ref-type="bibr">30</xref>) (<xref rid="f1" ref-type="fig"><bold>Figure 1</bold></xref>) (registered at ClinicalTrials.gov NCT01150695). Replicate aliquots of the same PBMC sample from each subject time point were used to evaluate the agreement between laboratory RNA-Seq results (<xref rid="f1" ref-type="fig"><bold>Figure 1B</bold></xref>). Briefly, RNA was extracted from PBMCs from 10 healthy subjects at Days 0 (pre-vaccination), 1, 2, 7, and 14 following DVC-LVS vaccination at both sites (referred to as Site 1 and Site 2). Samples were prepared for sequencing using poly A selection followed by mRNA fragmentation, reverse transcription, adapter ligation, and amplification at two different sequencing facilities; Site 1 employed Illumina TruSeq and Site 2 utilized a similar “in-house” protocol(see Materials &amp; Methods). A single operator at each site extracted the RNA, conducted the library preparation, and performed CBot clustering and loading of pooled libraries onto Illumina HiSeq 3000 sequencers. Internal (ERCC) and external (UHRR) RNA controls were included in each experiment to estimate the dynamic range and fold change accuracy, as well as to evaluate the suitability of external RNA references for inter-site normalization. RNA sequencing was performed at each site by distributing the libraries for 53 samples evenly across 5 lanes of the respective Illumina HiSeq 3000 devices at each site (<xref rid="f1" ref-type="fig"><bold>Figure 1B</bold></xref>). Sequences were aligned to the GRCh38 reference genome.</p>
+                <fig position="float" id="f1">
+                  <label>Figure 1</label>
+                  <caption>
+                    <p>Experimental design of RNA-Seq benchmarking for the clinical vaccine study. <bold>(A)</bold> The samples utilized in this benchmarking experiment were obtained from parent study DMID 08-006 (ClinicalTrials.gov NCT01150695), of which 42 patients had RNA samples collected for microarray analysis. <bold>(B)</bold> RNA from five time points taken from 10 volunteers, for a total of 50 samples, at both Site 1 and Site 2. Each biological sample was spiked with either ERCC mix 1 or mix 2, for 25 replicate spike-ins of each mix. Samples were sequenced as single-ended 151 or 100 bp reads on an Illumina HiSeq3000 at each Site, with multiplexing targeting a sequencing depth of 30 M reads. At each site, an additional set of three RNA samples from UHRR controls were included for an independent reference. <bold>(C)</bold> Median sequencing metrics for all samples at each site. The yellow bar indicates the median total sequencing depth obtained for all samples for each site; the top of the green bar indicates the total reads that are uniquely mapping to the GRCh38 reference, and the grey bar indicates the reads mapping to annotated features (i.e., genes) in the reference. Created with <uri xlink:href="https://BioRender.com">BioRender.com</uri>.</p>
+                  </caption>
+                  <graphic xlink:href="fimmu-13-1093242-g001" position="float"/>
+                </fig>
+              </sec>
+              <sec id="s2_2">
+                <label>2.2</label>
+                <title>Sequencing statistics</title>
+                <p>A summary of the reference alignment statistics is listed in <xref rid="T1" ref-type="table"><bold>Table 1</bold></xref>. Site 1 data was sequenced at 151 nt singled ended (SE) to a median total sequencing depth of 31.8 x 10<sup>6</sup> reads, with 28.1 x 10<sup>6</sup> (93.8%) uniquely mapping reads, whereas Site 2 data was sequenced at 100 nt SE and had a median total and unique sequencing depth of 34.9 x 10<sup>6</sup> and 28.8 x 10<sup>6</sup> (88.1%), respectively (<xref rid="f1" ref-type="fig"><bold>Figure 1C</bold></xref> and <xref rid="T1" ref-type="table"><bold>Table 1</bold></xref>). When reads were mapped against known gene models, a median of 22.4 x 10<sup>6</sup> and 20.1 x 10<sup>6</sup> reads were uniquely counted in the expression quantification step for Site 1 and Site 2 data, respectively. The majority (median of 86.6% for Site 1 and 76.6% for Site 2) of tags (i.e. spliced reads) mapped to known exonic regions, and fewer mapped to intronic (12.6% and 22.2%, respectively), and intergenic regions (0.9% and 1.2%, respectively) (<xref rid="T1" ref-type="table"><bold>Table 1</bold></xref>). The GC content in sequenced libraries was comparable between sites (medians 49.3, 50.5 for Site 1 and Site 2 data, respectively). Of note, one baseline (pre-vaccination) sample at Site 1 showed substantial GC content bias with a median GC of 55.6% and was identified as an outlier in principal component analysis (PCA). This sample was removed from downstream analyses unless otherwise specified.</p>
+                <table-wrap position="float" id="T1">
+                  <label>Table 1</label>
+                  <caption>
+                    <p>Summary of human reference alignment statistics.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <thead>
+                      <tr>
+                        <th valign="bottom" align="left" rowspan="1" colspan="1"/>
+                        <th valign="bottom" colspan="5" align="center" rowspan="1">Site 1 (N=50)</th>
+                        <th valign="bottom" colspan="5" align="center" rowspan="1">Site 2 (N=50)</th>
+                      </tr>
+                      <tr>
+                        <th valign="bottom" align="left" rowspan="1" colspan="1">Sequencing Parameter</th>
+                        <th valign="bottom" align="center" rowspan="1" colspan="1">Min</th>
+                        <th valign="bottom" align="center" rowspan="1" colspan="1">Q1</th>
+                        <th valign="bottom" align="center" rowspan="1" colspan="1">Median</th>
+                        <th valign="bottom" align="center" rowspan="1" colspan="1">Q3</th>
+                        <th valign="bottom" align="center" rowspan="1" colspan="1">Max</th>
+                        <th valign="bottom" align="center" rowspan="1" colspan="1">Min</th>
+                        <th valign="bottom" align="center" rowspan="1" colspan="1">Q1</th>
+                        <th valign="bottom" align="center" rowspan="1" colspan="1">Median</th>
+                        <th valign="bottom" align="center" rowspan="1" colspan="1">Q3</th>
+                        <th valign="bottom" align="center" rowspan="1" colspan="1">Max</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td valign="middle" align="left" rowspan="1" colspan="1">Total Reads [10<sup>6</sup>]</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">26.69</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">30.39</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">31.81</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">34.25</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">42.69</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">21.16</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">30.32</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">34.85</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">43.95</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">63.76</td>
+                      </tr>
+                      <tr>
+                        <td valign="middle" align="left" rowspan="1" colspan="1">Total Mapped Reads [10<sup>6</sup>]</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">25.37</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">28.71</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">30.27</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">32.54</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">40.65</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">20.34</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">29.27</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">33.8</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">42.43</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">61.65</td>
+                      </tr>
+                      <tr>
+                        <td valign="middle" align="left" rowspan="1" colspan="1">Unmapped Reads [10<sup>6</sup>]</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">1.0</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">1.5</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">1.61</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">1.71</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">2.05</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">0.66</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">1.05</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">1.19</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">1.49</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">2.11</td>
+                      </tr>
+                      <tr>
+                        <td valign="middle" align="left" rowspan="1" colspan="1">Uniquely Mapped Reads [10<sup>6</sup>]</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">16.06</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">26.69</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">28.06</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">30.19</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">37.47</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">18.22</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">25.92</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">28.76</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">36.79</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">55.74</td>
+                      </tr>
+                      <tr>
+                        <td valign="middle" align="left" rowspan="1" colspan="1">Uniquely Mapped Reads [%]</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">42.7</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">92.8</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">93.75</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">94.2</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">95.3</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">83.7</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">86.3</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">88.1</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">90</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">91.1</td>
+                      </tr>
+                      <tr>
+                        <td valign="middle" align="left" rowspan="1" colspan="1">Counted Reads [10<sup>6</sup>]</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">11.65</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">21.51</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">22.36</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">24.35</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">30.24</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">12.32</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">17.57</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">20.1</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">25.16</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">37.13</td>
+                      </tr>
+                      <tr>
+                        <td valign="middle" align="left" rowspan="1" colspan="1">Median GC [%]</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">47.83</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">49.01</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">49.33</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">49.67</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">55.63</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">49.5</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">50.5</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">50.5</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">50.5</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">51.49</td>
+                      </tr>
+                      <tr>
+                        <td valign="middle" align="left" rowspan="1" colspan="1">Exon Tags [%]</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">64.33</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">85.57</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">86.6</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">87.42</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">91.44</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">71.95</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">75</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">76.61</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">77.99</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">82.63</td>
+                      </tr>
+                      <tr>
+                        <td valign="middle" align="left" rowspan="1" colspan="1">Intron Tags [%]</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">8.04</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">11.64</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">12.6</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">13.55</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">33.45</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">16.38</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">20.9</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">22.16</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">23.74</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">26.82</td>
+                      </tr>
+                      <tr>
+                        <td valign="middle" align="left" rowspan="1" colspan="1">Intergenic Tags [%]</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">0.52</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">0.79</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">0.85</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">0.89</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">2.21</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">0.99</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">1.11</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">1.2</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">1.25</td>
+                        <td valign="middle" align="center" rowspan="1" colspan="1">1.34</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+                <p>Taken together, these summary statistics demonstrated that, in general, the replicate samples were sequenced effectively at each site. However, despite using replicate PBMC samples as starting material and identical sequencing platforms, sequencing depth metrics and mapping statistics varied. Variation was less pronounced for the 3 external UHRR control samples whose sequences were combined prior to processing (<xref rid="f1" ref-type="fig"><bold>Figure 1</bold></xref>) indicating that variability in RNA content between paired samples may have contributed to this. In addition, read lengths differed between protocols (151 vs. 101 nt). Except for read length, we considered these differences between datasets to reflect true variability introduced by different operators generating distinct library preparations. Thus, these data should represent a good comparison set for investigating the overall reproducibility of Illumina-based RNA-Seq results in the context of a vaccine study.</p>
+              </sec>
+              <sec id="s2_3">
+                <label>2.3</label>
+                <title>Inter-site agreement of RNA-Seq log<sub>2</sub> counts per million and fold-change estimates improved after filtering out lowly-expressed genes</title>
+                <p>A prior study assessed the technical accuracy of RNA-Seq measurements between laboratory sites (<xref rid="B14" ref-type="bibr">14</xref>). This prior study relied on a comparison of read counts of reference RNAs (i.e. UHRR) between laboratories, which involved non-matching sequencing platforms. Here, we extended this benchmarking of RNA-Seq accuracy by using replicate samples from clinical samples. To assess the agreement of read-count estimation and fold change, and to test the impact of filtering lowly-expressed genes, we calculated an adjusted Euclidean distance (which uses the mean squared distance rather than the sum of squared distances to normalize for the total number of genes) and Pearson correlation between the two sites for the log<sub>2</sub> counts per million (LCPM) (n=49) and the log<sub>2</sub> fold change (LFC) (n=36, post-vaccination vs. pre-vaccination) for each subject. This analysis was performed on the data after applying different counts-per-million (CPM) filtering cutoffs (unfiltered, 1, 2, 4, and 8 CPM) to remove lowly-expressed genes; these filtering cutoffs were applied by removing any gene whose maximum expression level across samples was below the specified threshold.</p>
+                <p>The Euclidean distance showed improved reproducibility of gene expression profiles between replicate samples as the CPM cutoff increased (<xref rid="f2" ref-type="fig"><bold>Figure 2A</bold></xref>); the average Euclidean distance was 1.45 for the unfiltered dataset, and this distance dropped to 0.80 after applying the &gt;1 CPM cutoff. Increasing the threshold to &gt;2 CPM, &gt;4 CPM, and &gt;8 CPM showed additional, incremental shifts in the distribution toward lower Euclidean distances. Similarly, the Pearson correlation showed improved reproducibility with filtering; the mean correlation increased from 0.945 for the unfiltered data up to 0.960 for the &gt;1 CPM filtering, but it did not continue to increase substantially with additional filtering (<xref rid="f2" ref-type="fig"><bold>Figure 2B</bold></xref>). The Euclidean distances of the LFC profile for each replicate paired sample showed a similar trend: reproducibility between Sites improved with increased filtering (<xref rid="f2" ref-type="fig"><bold>Figure 2C</bold></xref>). The average Euclidean distances on the LFCs shrunk from 1.06 for the unfiltered dataset down to 0.30 for the &gt;8 CPM filtering. In contrast to the LCPM profiles, the Pearson correlation of the LFCs did show continued improvement with additional filtering (<xref rid="f2" ref-type="fig"><bold>Figure 2D</bold></xref>). The average Pearson correlation jumped from 0.11 for the unfiltered data to 0.48 with &gt;1 CPM filtering. Increasing the threshold continued to improve the correlation reaching an average of 0.73 with &gt;8 CPM filtering. A similar analysis was performed looking at reproducibility by gene (rather than by sample), and this also demonstrated improvements in Euclidean distance and Pearson correlation after applying filtering (<xref rid="SM1" ref-type="supplementary-material"><bold>Supplemental Figure 1</bold></xref>). Taken together, these results demonstrated that (i) the overall concordance of log<sub>2</sub> counts per million and fold-change estimates increased with increasing minimum gene expression abundance, (ii) low expressed genes provide inaccurate measurements, as demonstrated here by low concordance of data between sites, and (iii) commonly used cutoffs such as &gt;1 CPM might not be sufficiently stringent to ensure accurate calculation of fold changes.</p>
+                <fig position="float" id="f2">
+                  <label>Figure 2</label>
+                  <caption>
+                    <p>Inter-site agreement of RNA-Seq log<sub>2</sub> counts per million and fold-change estimates improves after filtering out lowly-expressed genes. LCPM: log<sub>2</sub> counts per million. LFC: log<sub>2</sub> fold change. <bold>(A)</bold> Violin plot depicting the distribution of adjusted Euclidean distance between Site 1 and Site 2 of the LCPM gene expression profile for each subject. Each distribution consists of a total of 49 observations. Red dots mark the mean of the distribution, and black diamonds mark the median. Each column shows the distribution after filtering genes at the CPM thresholds indicated on the x-axis. <bold>(B)</bold> The same analysis and plotting design as described in <bold>(A)</bold>, but for the Pearson correlation between Site 1 and Site 2 of the LCPM gene expression profile for each subject. <bold>(C, D)</bold> show the same results but calculated on the LFCs. For these, each distribution consists of a total of 36 observations.</p>
+                  </caption>
+                  <graphic xlink:href="fimmu-13-1093242-g002" position="float"/>
+                </fig>
+              </sec>
+              <sec id="s2_4">
+                <label>2.4</label>
+                <title>Discordance of detection of DE genes between sites was mainly driven by differences in mean fold change</title>
+                <p>To assess and compare the strength of the biological signal, i.e. the change in magnitude of gene expression longitudinally over time (Days 1, 2, 7, and 14), we contrasted mean LFC and mean LCPM using MA plots (<xref rid="f3" ref-type="fig"><bold>Figure 3A</bold></xref>). We determined the number of DEGs using edgeR (FDR &lt;0.05, fold change of ±1.5) after applying a maximum CPM ≤8 across samples to filter out lowly-expressed genes. For both sites, an increase in fold change and the number of DEGs was observed over time indicating that the complexity of vaccine-induced gene expression signals in PBMCs reached a peak at Day 14. As shown in <xref rid="f3" ref-type="fig"><bold>Figure 3A</bold></xref>, substantially higher numbers of DEGs were detected at Day 14 as well as Day 7, compared to Day 1 and Day 2 for which few DEGs were detected. These results are consistent with other studies describing the use of transcriptomics to characterize responses to live-attenuated vaccines, in which increases in gene expression correspond with the initiation of the adaptive immune response. Overall, 1173 and 1218 DEGs were detected across all time points for Site 1 and Site 2, respectively, of which 869 overlapped with a concordance of 74% for Site 1 and 71% for Site 2. To better understand where the loss of concordance in DEGs occurred, we examined whether missed DEGs were due to missing FDR and/or fold-change cutoffs or due to CPM filtering (<xref rid="f3" ref-type="fig"><bold>Figure 3A</bold></xref>; <xref rid="SM1" ref-type="supplementary-material"><bold>Supplemental Table 1</bold></xref>). At the Day 1 and Day 2 time points, the overall DEG concordance was only ~60% (<xref rid="f3" ref-type="fig"><bold>Figure 3A</bold></xref>, right panel, green bar). However, when we accounted for genes that had a significant FDR but did not pass the fold-change threshold of ±1.5, the maximum concordance increased to nearly 80% (<xref rid="f3" ref-type="fig"><bold>Figure 3A</bold></xref>, right panel, grey bar). Generally, we noted that the failure of genes to pass a FC cutoff (grey bars) was consistently the largest contributor to gene list discordance, followed by the effects of different levels of CPM filtering (blue bars) (<xref rid="f3" ref-type="fig"><bold>Figure 3A</bold></xref>). However, failing both FDR and FC cutoffs had more pronounced effects than CPM filtering for the weaker biological signals observed at Days 1 and 2, indicating that statistical power was more negatively impacted by lower effect sizes and higher variability in changes for these days. Overall, only a small fraction of genes was discordant due to failing to pass only the FDR cutoff (orange bars). We considered that the lack of overlap due to fold change differences between Site 1 and Site 2 was due to the low magnitude of fold change for DEGs at Day 1 and Day 2. However, when we compared the Site 1 vs. Site 2 DEG overlaps from the Day 7 and Day 14 time points, which had more gene expression changes, the fraction of discordant genes due to failing to meet the fold-change criteria (grey bars) was similar. To examine the disagreement between fold changes in more depth, we ranked the DEGs by fold change, from most downregulated to most upregulated, and plotted them for each post-vaccination day (<xref rid="f3" ref-type="fig"><bold>Figure 3B</bold></xref>). DEG fold-change ranks were highly concordant between the two sites and overall directions agreed. Variability in ranks was greatest for the middle ranks as was evident by the overall scatterplot patterns with the least variability at the upper and lower ends. Genes that had a fold change below the threshold of ±1.5 relative to the other site fell generally in this middle area with some having much higher ranks in one site vs. the other.</p>
+                <fig position="float" id="f3">
+                  <label>Figure 3</label>
+                  <caption>
+                    <p><bold>(A)</bold> Fold change and DEGs over time. MA plots shown to the left contrast average log<sub>2</sub> fold changes from pre-vaccination (y-axis) by average gene expression levels (log<sub>2</sub> CPM as shown on the x-axis) for each site and post-vaccination time point. Blue lines indicate the pre-specified minimum fold-change cutoff of ±1.5 fold. DEGs (edgeR FDR &lt;0.05, fold change ≥ ± 1.5 in either direction, and maximum read count of &gt;8 CPM across all samples) are colored in red. Stacked bar plots to the right summarize the overlap between the two sites. The first bar plot for each post-vaccination day represents DEGs identified for Site 1 color-coded by the overlap class for genes identified for Site 2 (combination of FDR and fold change criteria or CPM gene filtering criterion that were met/not met). The second barplot shows the reverse presenting a characterization of Site 2 DEGs based on the overlap with Site 1 genes. <bold>(B)</bold> Scatterplots of ranks of log<sub>2</sub> fold changes based on a union of DEGs identified for each site by post-vaccination day. A rank of 1 corresponds to the lowest log<sub>2</sub> fold change. Dashed lines represent the upper and lower rank boundaries of the ≥1.5 fold-change cutoff for each site.</p>
+                  </caption>
+                  <graphic xlink:href="fimmu-13-1093242-g003" position="float"/>
+                </fig>
+                <p>These data were instructive for establishing the relative contribution of cutoffs to the discordance of DEGs between sites. We demonstrated here that by removing the FC cutoff criterion of 1.5 fold (in either direction), an increase in the inter-site agreement of DEGs by 20 percentage points was obtained. We hypothesize that the observed differences in fold changes between sites are attributable to differences in RNA representation in the aliquoted PBMCs.</p>
+              </sec>
+              <sec id="s2_5">
+                <label>2.5</label>
+                <title>The influence of sequencing depth on gene representation of the PBMC transcriptome</title>
+                <p>We next assessed the influence of sequencing depth on gene representation in our datasets. To establish a comprehensive reference of genes expressed in PBMCs, we first pooled, <italic>in silico</italic>, data from all 100 samples (10 individuals, 5 time points, 2 sequencing sites), yielding a reference transcriptome comprising 2.2 B total reads that mapped to hg38 human reference gene models. We next filtered out genes with fewer than 100 total aggregate reads (corresponding to approximately 1 read per sample). This resulted in a “PBMC transcriptome compendium” comprised of 26,172 gene models that we used as a reference set considered “truly expressed” in the PBMC compartment. To assess the impact of sequencing depth on gene representation, we used the PBMC transcriptome compendium to determine the proportion of genes detectable per sample as a function of decreasing simulated sequencing depth (<xref rid="f4" ref-type="fig"><bold>Figure 4</bold></xref>). To focus on genes with strong evidence of genuine expression, we choose a cutoff of ≥16 reads per sample. At a sequencing depth of 30 M reads, an average of 14,545 genes were detected with ≥16 reads, representing 56% of the truly expressed PBMC compartment (or 44% lost). While relaxing our read-count threshold increased the number of detected genes, there was still an incomplete representation of transcripts: at a threshold of 5 reads, only 67% of genes in the compendium were detected, and at a threshold of 1 read, detection was 83%. As expected, the number of detected genes from the PBMC reference transcriptome compendium decreased with lower sequencing depth. At 25 M reads, the fraction of genes with ≥16 reads from the cumulative PBMC reference was 53%, and at 20 M reads the fraction of genes lost was 52%. In comparison, when subsampling <italic>in silico</italic> to 10 M reads per sample, 12,030 genes (46%) were detected on average, representing a loss of 54% relative to the cumulative gene set. At sequencing depth of 10 M reads, on average 2,515 genes (9.6%) fewer genes with ≥16 reads could be detected compared to samples at 30 M. This demonstrated that, even at relatively deep sequencing depth of 30 M, a significant percentage of the gene content expressed in PBMCs was not detected.</p>
+                <fig position="float" id="f4">
+                  <label>Figure 4</label>
+                  <caption>
+                    <p>The impact of sequencing depth on gene representation by establishment of a deep “compendium” transcriptome of PBMCs. The x-axis represents simulated datasets (n=50) with coverage x, the y-axis shows the percentage of genes that we considered truly expressed in the PBMC compartment for genes that met the filtering cutoff. Bar plots summarizing the mean percentage of the detected PBMC compartment genes by coverage and read filter criterion.</p>
+                  </caption>
+                  <graphic xlink:href="fimmu-13-1093242-g004" position="float"/>
+                </fig>
+              </sec>
+              <sec id="s2_6">
+                <label>2.6</label>
+                <title>Sequencing depth was more influential than read length in ensuring consistent DEG results</title>
+                <p>Two of the main technical parameters that determine cost in an RNA-Seq experiment are (i) read length and (ii) sequencing depth. The impact of read length on the ability to accurately measure DEGs has not been comprehensively studied to date: One previous study utilized data from the SEQC study and determined virtually no impact of using paired-end reads vs. single-end reads on the ability to reproducibly detect top 200 DEGs when sorted by p-value and log2 fold change (<xref rid="B17" ref-type="bibr">17</xref>). Thus, we focused our analysis on defining the optimal single-ended read length. In the Chhangawala study (<xref rid="B17" ref-type="bibr">17</xref>), the dataset utilized commercial reference RNA samples (UHRR and Ambion FirstChoice Human Brain Reference RNA) and relatively low replication (n=3). In this regard, the current study, which used “real-world” samples from a vaccine trial and was more robustly powered (n=10), provided an optimal opportunity to empirically test the impact of varying read-length parameters. To evaluate the impact of different read lengths on DEG identification, we used the Site 1 dataset as it utilized longer read lengths compared to Site 2. Different read lengths were simulated by right-truncating the actual sequencing reads (100 nt, 75 nt, and 50 nt read length) to most accurately mimic true Illumina sequencing and the range of Q-scores that would result from bonafide sequencing at those lengths. To simulate different coverage levels, we randomly down-sampled the original 31.8 M reads to 25 M, 20 M, 15 M, and 10 M reads. For the comparisons, we used the DEG results identified for the original data (151 nt read length and 31.8 M sequencing depth) as the reference, essentially controlling for all other parameters. We then compared DEGs obtained using differing read lengths and sequencing depth levels using the Jaccard index. Results showed that shortening read length had a lesser impact on DEG detection compared to a reduction in sequencing depth (<xref rid="f5" ref-type="fig"><bold>Figure 5</bold></xref>). Notably, although the set of genes identified as DE was affected, the total number of DEGs detected did not change substantially with either shortening read length or a reduction in sequencing depth (<xref rid="SM1" ref-type="supplementary-material"><bold>Supplemental Figure 2</bold></xref>). Reducing the read-length from 151 to 100, 75, and 50 nt at the same sequencing depth (35 million) showed a mean DE agreement (based on the Jaccard index) for days with strongest biological signals (Day 7-14) of 0.95, 0.94, and 0.91, respectively. At the lowest read length level of 50 nt, 91% of the detected DEGs agreed. In contrast, reducing sequencing depth from 35 to 25, 20, 15, and 10 M reads at the same read length (151 nt) showed a mean DE agreement (based on Jaccard index) for days with the strongest biological signals (Day 7 and 14) of 0.93, 0.87, 0.83, and 0.80, respectively (<xref rid="f5" ref-type="fig"><bold>Figure 5</bold></xref>). In summary, this showed that read length had a much lesser impact on DEG agreement compared to sequencing depth. Changing the read length by approximately half from 151 nt to 75 nt only resulted in 6% disagreeing DEGs. In contrast, reducing sequencing depth by approximately half from 32 M to 15 M reads resulted in 17% disagreeing DEGs. The disagreement was not explained by a change in the total number of DEGs.</p>
+                <fig position="float" id="f5">
+                  <label>Figure 5</label>
+                  <caption>
+                    <p>Impact of read length and sequencing depth on DEG detection. Impact of read length and sequencing depth on Jaccard index between DEGs (Site 1). The Jaccard index represents the proportion of intersecting DEGs compared to the union of DEGs identified for a subsampled/truncated dataset and the original dataset.</p>
+                  </caption>
+                  <graphic xlink:href="fimmu-13-1093242-g005" position="float"/>
+                </fig>
+              </sec>
+              <sec id="s2_7">
+                <label>2.7</label>
+                <title>Establishment of a read-count cutoff for accurate fold-change assessment</title>
+                <p>In RNA-Seq experiments, pre-filtering genes with low read counts to reduce low-quality data is an important part of the analysis but is frequently done using arbitrarily defined thresholds. As we have shown in <xref rid="f2" ref-type="fig"><bold>Figure 2</bold></xref>, filtering also improved inter-site agreement in LCPM and LFC based on Pearson correlation. Exogenous RNA species used as spike-in controls provide the ability to include within a dataset a set of references with known abundance levels that can be used as an internal “truth” by which to judge the accuracy of the analysis accounting for varying sequencing parameters. Here, we tested the utility of the spike-in controls provided by the External RNA Controls Consortium (ERCC) (<xref rid="B24" ref-type="bibr">24</xref>) to empirically derive read-count cutoffs within our datasets that result in a high agreement between expected and observed fold changes. To achieve this, we used 92 ERCC spike-in RNA control pairs (ERCC2 vs. ERCC1 mixes with known abundance ratios) that were spiked into pre-defined sample pairs (n=40 for each site). The 92 spike-in transcripts were binned into 7 groups of increasing expression levels (based on the average LCPM of each ERCC1 and ERCC2 spike-in pair), and the Spearman correlation between the observed and expected ERCC 2 vs. ERCC 1 ratio was calculated within each bin (on average 13 ERCC1/2 spike ins per bin) for each paired sample, along with the respective average LCPM. These values were used to model the relationship between the LCPM and the correlation of empirical vs. expected fold changes (<xref rid="f6" ref-type="fig"><bold>Figure 6</bold></xref>). The trend plots showed that the correlation increased with increasing LCPM values. We then empirically determined a read-count threshold based on LCPM abundance that marks good agreement between the expected and observed LFC. We defined good agreement as having a correlation value of 0.9 or higher. The non-linear relationship between Spearman correlation and average LCPM was modeled using a 3<sup>rd</sup>-order polynomial. The model was fit to our two datasets (n=40 paired samples each), and the LCPM value that gave a predicted correlation value of 0.90 was used as the empirically determined threshold. This method yielded LCPM expression cutoffs of 3.34 and 1.73 for Sites 1 and 2, respectively. To assess the degree of variability of the point estimate we used bootstrapping. The resulting 95% CIs were 2.15 to 6.84 LCPM for Site 1 and 1.29 to 2.17 LCPM for Site 2 (<xref rid="f6" ref-type="fig"><bold>Figure 6</bold></xref>). These intervals can be used to balance the trade-off between fold-change accuracy and filtering out too many genes. To maximize the number of genes for the analysis while maintaining good agreement between observed and expected fold changes, the lower bound of the 95% CI may be used as the cutoff threshold, in this case, 2.15 and 1.29 for Site 1 and Site 2, respectively. With nearest integer increments typically used for read counts, this would translate to 3 and 2 LCPMs for Sites 1 and 2, respectively.</p>
+                <fig position="float" id="f6">
+                  <label>Figure 6</label>
+                  <caption>
+                    <p>Determination of empirical minimum expression cutoffs using ERCC spike-ins. Each dot represents a subset of the 92 ERCC1 and ERCC2 transcripts for one paired sample grouped by average ERCC1 and ERCC2 abundance (on average 13 per abundance bin). The y-axis summarizes the Spearman correlation between the empirical log<sub>2</sub> fold change and expected log<sub>2</sub> fold change across these transcripts. The x-axis represents the average log<sub>2</sub> abundance per paired sample for a subset of the ERCCs. Overall, 40 pre- and post-treatment pairs were created for each experiment. Each pair is shown multiple times (once in each abundance bin). The purple line represents the fitted 3<sup>rd</sup> order polynomial function. Red dots represent paired samples with outlying correlation results relative to their abundance bin (exceeding ±1.5 times the interquartile range) which were excluded from curve fitting. The vertical blue solid line indicates the log<sub>2</sub> counts per million value at which the fitted curve is equal to a correlation value of 0.9, and the vertical light-blue dashed lines show the 95% bootstrap confidence interval for this log<sub>2</sub> counts per million value. The values in the lower right correspond to these vertical lines: the point estimate and 95% bootstrap confidence interval of the log<sub>2</sub> counts per million at which the fitted polynomial was equal to 0.9.</p>
+                  </caption>
+                  <graphic xlink:href="fimmu-13-1093242-g006" position="float"/>
+                </fig>
+                <p>In this section, we highlighted a new algorithm that utilizes internal ERCC spike-ins for determining an optimal read-count threshold for each dataset independently. The <italic>CpmERCCutoff</italic> R package implements this algorithm to empirically determine the LCPM cutoff. The advantage of this approach is that it is data-driven and implicitly controls for any inherent sequencing parameters. These results suggested that the 8 CPM cutoff (3 LCPM) used in the original analysis of these data provided a good agreement between observed and expected fold changes for Site 1. For Site 2, a 4 CPM cutoff (2 LCPM) would have been more optimal.</p>
+              </sec>
+              <sec id="s2_8">
+                <label>2.8</label>
+                <title>Power estimates for vaccine studies for DEG detection</title>
+                <p>To further evaluate the impact of different parameters on DEG identification, we assessed relative statistical power for different scenarios characterized by varying sample size (n=3 to n=15), effect size (1.25 to 2 minimum absolute fold change), and sequencing depth (10 to 60 M reads) (<xref rid="f7" ref-type="fig"><bold>Figure 7</bold></xref>). In lieu of a “truth set” of genes for which the differential expression was independently known, we defined a set of “truly differentially expressed genes” (TDEGs) as those genes identified as DEG for both sites using two different R packages (edgeR and DESeq2). Using these conservative criteria, we obtained 444, 357, 2,300, and 3,284 TDEGs for post-vaccination Days 1, 2, 7, and 14 respectively. We then simulated negative binomial data for each post-vaccination day using Site 2 data as the basis for power analyses as this set was more complete than Site 1 due to one outlying subject.</p>
+                <fig position="float" id="f7">
+                  <label>Figure 7</label>
+                  <caption>
+                    <p>Relative power by sample size, effect size, and sequencing depth at each post-vaccination day as simulated using the modified PROPER R package. Days were sorted by decreasing vaccination effect based on overall fold changes and DEG responses observed for this study (see <xref rid="f3" ref-type="fig"><bold>Figure 3A</bold></xref>). Power was assessed for different fold-change cutoffs (indicated by color-coded lines), sequencing depth (as indicated by the line type), and sample size (x-axis).</p>
+                  </caption>
+                  <graphic xlink:href="fimmu-13-1093242-g007" position="float"/>
+                </fig>
+                <p>The power curves shown in <xref rid="f7" ref-type="fig"><bold>Figure 7</bold></xref> demonstrate that statistical power to detect TDEGs was most strongly influenced by sample size. Importantly, power was modulated by the overall magnitude and breadth of the biological vaccine effect, which was evident by the overall horizontal shifts in the power curves with increasing power for increasing vaccine effects reported for Days 1-14 (see <xref rid="f3" ref-type="fig"><bold>Figure 3A</bold></xref>). Most positively impacted was the statistical power to detect TDEGs with smaller fold changes (FC ≥1.25 fold change), for example, with a sample size of n=10 and sequencing depth of 30 M reads, the statistical power increased from ~30% on Day 1 to 50%, 55% and 68% on Days 2, 7, and 14, respectively. Three other notable trends were apparent:</p>
+                <p>First, the statistical power to detect TDEGs was remarkably higher for genes with larger effect sizes. For example, at Day 14, for genes with greater than 1.75-fold or 2-fold effect sizes, even at the lowest level of sample size evaluated (n=3) the statistical power was 55% and 68%, respectively. An increase in sample size to 10 or higher led to greater than 90% power for the detection of TDEGs with fold changes at or above 1.75 (<xref rid="f7" ref-type="fig"><bold>Figure 7</bold></xref>). In contrast, at a lower effect-size cutoff of 1.5-fold, the approximated power was 37% at a sample size of n=3, and 90% power wasn’t attained until a sample size of 13 or more. For the smallest effect size considered, a cutoff of 1.25-fold, statistical power dropped much lower for smaller n with only 18% of TDEGs detected at n=3. However, sensitivity increased steadily with increased sample sizes: at n=6, 44% of TDEGs were detected; at n=10, 68% of TDEGs were detected; and at n=15, the largest sample size considered, 84% of TDEGs were detected.</p>
+                <p>Second, sequencing depth had a minor effect on power (<xref rid="f7" ref-type="fig"><bold>Figure 7</bold></xref>). A noticeable negative effect on power was only observed when coverage was reduced from 20 M to 10 M, and even with this magnitude of coverage reduction, the power difference was minor. No substantial gains in statistical power were detected beyond 20 M reads. Furthermore, this lack of dependence on power on the sequencing depth was observed across all four days. This means that since the biological signal increased across time, deeper coverage over 20 M reads did not improve power in the presence of weaker biological signals.</p>
+                <p>Lastly, the false discovery rate (FDR), defined by the proportion of statistically significant genes that were not TDEGs, showed a strong dependence on the strength of the biological signal (<xref rid="SM1" ref-type="supplementary-material"><bold>Supplemental Figure 3</bold></xref>). The statistical significance of each gene was determined based on an adjusted p-value set to control the false discovery rate at a 5% level. At Day 1, when the signal was weakest, the approximated FDR was inflated to 41% for a sample size of n=3. However, the FDR improved as the sample size increased; with a sample size of n=13 or larger, the FDR was below 10% for all fold-change cutoffs and below 5% for the more stringent 1.75- and 2-fold-change cutoffs. In contrast, at Day 14 when the biological signal was strongest, the FDR was near 5% for all sample sizes and fold-change cutoffs. Of note, the coverage level did not noticeably affect the FDR, regardless of the strength of the biological signal, similar to what was observed for power.</p>
+                <p>The type-I-error rate, defined as the proportion of non-TDEGs that were declared statistically significant, was also evaluated (<xref rid="SM1" ref-type="supplementary-material"><bold>Supplemental Figure 4</bold></xref>). In all simulation settings, the type-I-error rate was below 2%. It should be noted, however, that a low type-I-error rate is not surprising in this context because its value is directly related to the proportion of genes declared to be statistically significant. As a result, the type-I error should be assessed together with power to form an accurate summary of the performance. With this in mind, we found that: (i) the stronger biological signals at Days 7 and 14 led to increased type-I error relative to Days 1 and 2, but this was accompanied by improved power; (ii) there was no apparent dependence between coverage level and the type-I-error rate in any scenario; and (iii) the type-I-error rate remained relatively unchanged with increasing sample size, except at Days 7 and 14 when the lowest fold-change cutoff of 1.25 was used, in which case the type-I error showed a slight, gradual increase for each sample size considered even though power still improved.</p>
+                <p>While the magnitude of the fold change for the TDEGs was fixed in this simulation, the variance of these genes was allowed to change based on each simulated coverage dataset. Since variance plays an important role in power—higher variance directly results in lower power, all else equal—we investigated whether the mean-variance relationship across genes was affected by the different sequencing depth. Overall, the mean-variance trends across genes were maintained for different sequencing depth considered in this simulation; the curves shift left with lower coverage to produce fewer total counts, but the trend of lowly-expressed genes having higher variance compared to highly-expressed genes persisted (<xref rid="SM1" ref-type="supplementary-material"><bold>Supplemental Figure 5A</bold></xref>). While the trends shifted vertically with increasing log mean expression, the corresponding log over dispersion values remained similar. Additionally, after applying TMM-normalization and obtaining LCPM values for the gene expression in the simulated coverage datasets, these values aligned with the LCPM values in the original dataset (<xref rid="SM1" ref-type="supplementary-material"><bold>Supplemental Figure 5B</bold></xref>). Hence, this suggested that sequencing depth would also have a minimal differential impact on lowly-expressed gene filtering based on CPM. Thus, while we performed this analysis for genes with &gt;8 CPM, given this result, our findings that coverage did not have a substantial impact on power can be generalized to other CPM cutoffs.</p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="s3">
+              <label>3</label>
+              <title>Discussion</title>
+              <p>RNA-Seq offers a large amount of flexibility in the design of experiments, and many technical parameters such as read length, sequencing depth, and replication (i.e. sample size) can be varied to match the needs of an experiment. In addition, choices of the lowly-expressed gene, and fold-change thresholds have an impact on downstream analysis. The goal of most RNA-Seq experiments is to detect genes with statistically significant differences in expression across conditions. Several studies in recent years have sought to investigate how technical parameters influence the composition of DEGs and to provide standards for the design of RNA-Seq experiments. The contributions of technical variation to RNA-Seq analysis have been reduced in recent years due to the improvements in library preparation methods and widespread use of Illumina sequencing; however, the contribution of biological variation remains unique to each dataset.</p>
+              <p>With this in mind, we sought to provide general recommendations for conducting RNA-Seq in clinical vaccine studies using real-world data generated from a vaccine clinical trial. To achieve this, we assessed human blood PBMC transcriptomes for 10 healthy subjects at Days 0 (pre-vaccination), 1, 2, 7, and 14 following vaccinations with a <italic>Francisella tularensis</italic> live vaccine strain (DVC-LVS) and compared results obtained from matching aliquots from two different sequencing laboratories addressing the following questions:</p>
+              <p>
+                <bold>
+                  <italic>Inter-site reproducibility:</italic>
+                </bold>
+                <italic>How reproducible are data generated in separate laboratories? How can agreement be improved?</italic>
+              </p>
+              <p>
+                <bold>
+                  <italic>Technical Parameters</italic>
+                </bold>
+                <italic>: What is the impact of altering lowly-expressed gene thresholds, read length, and coverage? How is PBMC transcript coverage impacted? How can lowly-expressed gene thresholds be derived empirically?</italic>
+              </p>
+              <p>
+                <bold>
+                  <italic>Sample Size &amp; Statistical Power</italic>
+                </bold>
+                <italic>: Given the biological variation and effect sizes observed in a clinical vaccine study, what relative role does sample size, effect size, and coverage play? What is the impact on false discoveries and the type-1 error?</italic>
+              </p>
+              <sec id="s3_1">
+                <label>3.1</label>
+                <title>Inter-site reproducibility</title>
+                <p>The seminal SEQC study investigated the concordance of samples processed in multiple sites performing contrasts of two reference samples (Universal Human Reference RNA vs Brain Reference RNA). One important conclusion from SEQC was that while RNA-Seq fold-change estimates were generally concordant between laboratories, read-count data could not be reliably combined (<xref rid="B16" ref-type="bibr">16</xref>). Normalization improved overall inter-site agreement but not to the level where read counts could be combined (<xref rid="B31" ref-type="bibr">31</xref>).</p>
+                <p>In this study, we showed that the inter-site agreement between log<sub>2</sub> count per million and fold changes was strongly dependent on the degree of read-count filtering. While the commonly used cutoff of &gt;1 CPM resulted in the biggest gain, inter-site agreement showed continuous further improvements with more stringent filtering and the observed Pearson correlation was modest with an average of r=0.7 for LCPM and r=0.50 between LFCs. This indicated that (i) genes that are lowly expressed disproportionally contribute to disagreement between sites, as demonstrated here by lower concordance of data between sites when not excluded; (ii) that these low abundance transcripts are most effectively negated by filtering; (iii) average explained variance was 92% and 24% for LCPM and LFC, respectively, when using &gt;1 CPM demonstrating that a lot of the inter-site variability remained unexplained; and (iv) commonly used cutoffs such as 1 CPM might not be stringent enough to ensure a high level of reproducibility of LCPM and LFC obtained from data run at two different sites. For example, increasing the cutoff from 1 CPM to 8 CPM increased the explained variance for fold changes from 24% to 52%.</p>
+                <p>Several groups have demonstrated that correlations are not sufficient to allow the combination of datasets generated at distinct sites (<xref rid="B16" ref-type="bibr">16</xref>, <xref rid="B29" ref-type="bibr">29</xref>). Thus, we extended our comparison to further investigate to what extent DEGs detected from Site 1 and Site 2 datasets were congruent after applying a &gt;8 CPM low expressed gene cutoff and how gene filtering, fold change, and FDR cutoffs modulated this agreement. We found that when using &gt;8 CPM, FDR &lt;0.05, and FC ≥1.5 that (i) agreement increased with the strength of the biological signal (55-73% of DEGs agreeing between Days 1-14 with an average of 65% agreement) and (ii) the largest negative impact on inter-site DEG agreement was driven by genes meeting the FDR but not meeting the FC for one site but not the other (on average 68% of DEGs among genes with &gt;8 CPM in both laboratories). These findings highlighted the importance of the accuracy of fold changes for inter-site DEG agreement. Based on these findings, our recommendation for improving inter-site DEG agreement is to apply gene expression filtering and determine DEGs using an FDR cutoff but to not use fold-change cutoffs. In our case, after removing the fold-change cutoff requirement, the agreement in DEGs increased from 65% to 82% on average between the two sites.</p>
+                <p>In addition to the aforementioned differences, global PCA and MDS analysis of LCPM across all 100 samples showed a strong separation of the two sites indicating that the data could not simply be merged, e.g., by using the sum of the read counts obtained for the two aliquots belonging to the same sample (<xref rid="SM1" ref-type="supplementary-material"><bold>Supplemental Figure 6</bold></xref>). This effect could not be removed using TMM normalization, a common approach used for normalizing systematic differences between samples in RNA-Seq data. While sequencing technology was the same, each site utilized a similar, but distinct library preparation method: Site 1 used the Illumina TruSeq method and 500 ng of RNA as input, whereas Site 2 used a modified, in-house method similar to TruSeq and 1 ug of RNA for starting material. Thus, even when using highly similar library preparation methodologies, the random variation added by different sequencing laboratories is sufficient to discourage pooling the data. In addition, biological variation between aliquots derived from the same samples may explain some of these differences as well. These results have important implications for RNA-Seq experimental design considerations in the setting of large consortia, in which hundreds or thousands of samples are sequenced across multiple sites. These data indicate that, even under scenarios in which sequencing laboratories have harmonized library prep methodology, strategies that pool data at the read-count level directly should be avoided. However, biological conclusions drawn from each individual dataset on the DEG level were very similar including heatmap log<sub>2</sub> fold change profiles showing clustering of all DEGs within aliquots from the same subject for all time points (<xref rid="SM1" ref-type="supplementary-material"><bold>Supplemental Figure 7</bold></xref>). This indicated that, while differences were observed on the global gene expression level, these did not sufficiently confound the key signals in the data that these were accurately captured in either experiment.</p>
+              </sec>
+              <sec id="s3_2">
+                <label>3.2</label>
+                <title>Technical parameters</title>
+                <sec id="s3_2_1">
+                  <label>3.2.1</label>
+                  <title>Choice of read length</title>
+                  <p>We assessed the impact of differing read length on our ability to detect DEGs by truncating reads to mimic common Illumina sequencing configurations (100 nt SE, 75 nt SE, and 50 nt SE), and compared DEGs recovered to those found using 151 nt. Overall, for the strongest biological signal observed at Days 2-14, we found very little impact, the overlap in DEGs was &gt;90% for all configurations, and it was 95% and 94% for the 100 nt and 75 nt simulations, respectively, based on Jaccard index. Our findings are largely in agreement with prior work examining this relationship: Chhangawala et al. (<xref rid="B17" ref-type="bibr">17</xref>), utilized commercial reference RNA samples (UHRR and Ambion FirstChoice Human Brain Reference RNA) and found very little difference in the sensitivity to detect DEGs when varying read length from 50-100 nt, but read lengths of 25 nt were inferior. In this regard, our study replicates and extends this principle to “real-world” samples from a vaccine trial. In contrast, recent data has emerged that indicates that short-paired end reads (i.e. 2x40 nt) outperform longer single-ended libraries for gene expression estimates (<xref rid="B32" ref-type="bibr">32</xref>). These findings are intriguing and warrant future investigation. However, it should be noted that the primary metrics for this determination were correlations of read counts to the “parent” dataset which comprised of 2 x 125 paired-end reads. Given the size of our dataset, we did not utilize paired-end sequencing and are unable to directly test these findings. Collectively, our data demonstrate that RNA-Seq studies with clinical PBMC datasets can reduce read length down to 50 nt with relatively minimal impact on the ability to detect DEGs compared to the untruncated data. While our observations on the relatively modest impact of read count are generally consistent with prior observations, our simulation was performed using a dataset with relatively deep coverage (~35 M reads per sample), and the impact may be more evident on datasets with less sequencing depth. Nevertheless, these results indicate that reducing read length can be a viable option for cost savings.</p>
+                </sec>
+                <sec id="s3_2_2">
+                  <label>3.2.2</label>
+                  <title>Choice of Coverage</title>
+                  <p>For this analysis, we assessed the relative impact of reducing coverage from 35 to 25, 20, 15, and 10 M reads on DEG agreement. Our main findings were that (i) compared to read length when coverage was kept constant (35 M reads), coverage had a larger influence on DEG agreement when read length was kept constant (151 nt); (ii) the relationship was modulated by the strength of the biological signal; (iii) for the strongest biological signals (Day 7 and 14), an approximate linear relationship was observed with a 5% drop in agreement with each drop in 5 M sequencing depth (down to 80% agreement with 10 M reads); and (iv) for the weaker signal at Day 2, a non-linear relationship was observed with the biggest drop seen between 15 M and 10 M, indicating that weaker biological signals require higher coverage than stronger signals to produce robust DEG results.</p>
+                  <p>In order to assess the impact of coverage on accurately covering genes expressed in the PBMC transcriptome, based on pooled data, we generated a “PBMC transcriptome compendium” comprised of 26,172 genes. Cumulatively, our results demonstrated that, even at relatively deep sequencing depth of 30 M, a significant percentage of the gene content expressed in PBMCs was not detectable (17-44% depending on read count filtering). This limitation in turn negatively impacts DEG detection contributing to an increased false negative rate.</p>
+                </sec>
+                <sec id="s3_2_3">
+                  <label>3.2.3</label>
+                  <title>Choice of lowly-expressed gene cutoff</title>
+                  <p>Our analysis showed that stronger filtering improved the inter-site agreement—in particular, the correlation between fold-change estimates—by removing lowly-expressed genes. This prompted us to investigate the relationship between known fold changes using endogenous reference RNA (ERCC1 and ERCC2 controls) which were spiked into clinical samples in a way to evaluate fold-change accuracy (ERCC1 was spiked into 10 samples, and ERCC2 was spiked into the remaining 40 samples). Based on the observed non-linear trend, we devised a method to empirically determine a low gene expression LCPM cutoff that represents good Spearman correlation of observed vs expected ERCC control fold changes. Using this approach with each site’s data separately, we established low gene expression thresholds of 3 LCPM and 2 LCPM for Sites 1 and 2, respectively. These thresholds balance the trade-off between fold-change accuracy and filtering out too many genes for each site. These results were encouraging as they demonstrated that both sites retained a high level of technical precision to accurately quantify ERCC1/2 spike-in expression changes at relatively low CPM. However, differences remained with Site 1 requiring stronger filtering than Site 2 due to the slightly lower sequencing depth and increased noise (one globally outlying sample was identified) for Site 1. This highlights the usefulness of internal ERRC1/2 spike-ins for estimating empirical gene expression filtering cutoffs accounting for systematic experimental differences across sites. This strategy for determining the LCPM cutoff was implemented in the <italic>CpmERCCutoff</italic> R package and is available for download on CRAN.</p>
+                </sec>
+              </sec>
+              <sec id="s3_3">
+                <label>3.3</label>
+                <title>Impact of sample size and sequencing depth on statistical power</title>
+                <p>One of the most important decisions to be made during the design of an RNA-Seq experiment is the number of samples to sequence. A set of “truly differentially expressed genes” or TDEGs was established based on a stringent FDR threshold and replication in both sites using different DEG detection methods. This strategy to define a “truth set” has been used effectively by prior studies examining the relationship of RNA-Seq parameters with power (<xref rid="B33" ref-type="bibr">33</xref>). We defined statistical power, or sensitivity, as our ability to detect TDEGs with a given effect size at varying sequencing depths and sample sizes for each post-vaccination day. The results unambiguously demonstrated that sample size was a much more important factor than sequencing depth for the detection of TDEGs in PBMCs after vaccination. A few other principles were identified:</p>
+                <list list-type="roman-lower">
+                  <list-item>
+                    <p>i. <italic>the power to detect gene expression with variable sample sizes was highly influenced by the effect size (i.e. the fold change).</italic> When we restricted our analyses to genes with a greater than 2-fold change on Day 14, the power was 66% to 68% for all coverage levels considered with only n=3 samples, and this increased to &gt;90% with n=8 samples. In contrast, when we lowered the threshold to 1.5-fold changes, the power to detect TDEGs fell to below 38% with n=3 and was below 79% with n=8. While we did not run a simulation using all genes, our simulation using a fold-change threshold of 1.25-fold contained between 70% to 88% of all DEGs found at each day at an FDR &lt;0.05, and we reasoned that this was an acceptable threshold likely to screen out unreliable transcripts with extremely low effect sizes and allow us to estimate the power to detect most (if not all) of the TDEGs. Nevertheless, using the fold-change cutoff of ≥1.25-fold, even at a simulated sample size of n=8, we were only able to detect fewer than 58% of the TDEGs on Day 14. This relationship between effect size and power has been observed by others: Hart et al. found using simulated RNA-Seq datasets from PBMCs that genes with fold changes approaching 3 are nearly universally detected, but as the fold change becomes lower than 2-fold, sensitivity decreases sharply (<xref rid="B34" ref-type="bibr">34</xref>).</p>
+                  </list-item>
+                  <list-item>
+                    <p>ii. <italic>the sample size needed to sensitively detect the full complement of differentially expressed genes (i.e., all TDEGs at all fold changes) is remarkably high</italic>. Even with enforcing a ≥1.25-fold-change cutoff, our simulations indicated that a sample size of n=10 provided only 29% power to detect TDEGs on Day 1 and peaked on Day 14 with 68% power. This observation has been reported several times using a wide variety of datasets with differing samples: Wu et al. demonstrated that even using extremely high sequencing depth, sample sizes of &gt;10 were needed to achieve sensitivities above 80%. Ching and colleagues examined a diverse array of datasets: whereas some datasets were able to achieve a high level of power at low replicates (i.e., n=3 to 5), these tended to be unique scenarios such as comparing reference samples from highly divergent tissues and employing technical replicates, where average fold changes of DEGs were high, and the gene-level dispersion extremely low (<xref rid="B33" ref-type="bibr">33</xref>). In contrast, our work demonstrated that when analyzing human samples from diverse individuals that mimic true biological variability and comparing responses in the same tissue induced by exogenous stimuli, the sample size to achieve power &gt;80% across all fold-change cutoffs was n≥15 for the strongest biological signal observed at Day 14. At Day 7 and Day 2, power was ≥70% followed by Day 1 with ≥50%. Schurch et al.’s findings suggest that sample sizes should be larger than n=12 if the goal is to sensitively describe the majority of DEGs (<xref rid="B20" ref-type="bibr">20</xref>). Hart and colleagues demonstrated that the gene-level dispersion was the main driving factor determining the sensitivity of an RNA-Seq dataset and that while datasets with low coefficients of variation could achieve 80% power at n=8, other datasets needed n&gt;20 or even n&gt;40. In the context of these prior studies, our power simulations illustrate the utility and limitations of RNA-Seq data using PBMCs in clinical studies. First, in our PBMC dataset, we found that at a relatively low fold-change cutoff of ≥1.5, we achieved 80% power at n=9 for TDEGs on Day 14. At this sample size, we had extremely high sensitivity to detect the genes most dramatically influenced by the perturbation. Conversely, when the gene set is defined with the fold-change threshold of ≥1.25, we estimated approximately 62% power at n=9 and attained 80% power only at n&gt;14. In practical terms, these results provide guidance on how RNA-Seq data can be interpreted from studies using similar data. Importantly, these results do not imply that datasets where the sample size is &lt;10 are totally unreliable. Rather, we conclude that, at smaller sample sizes, if one employs a higher fold-change cutoff, then there is a higher degree of confidence to detect true DEGs. However, more caution must be placed on interpreting genes that do not pass the FDR or fold-change threshold as true negatives—the study may be underpowered to detect them. If the goal of the experiment is to catalog all (or nearly all) DEGs induced by a perturbation, then a large sample size is needed. While applying a fold-change cutoff increased statistical power, we have shown that inter-site agreement in DEGs was reduced when using ≥1.5 due to variation in fold-change estimates between sites. Thus, the ability to detect true TDEGs would need to be balanced with the ability to reproduce findings between different experiments.</p>
+                  </list-item>
+                  <list-item>
+                    <p>iii. <italic>the impact of sequencing depth on the power to detect TDEGs was minimal.</italic> The ability to detect TDEGs was indistinguishable ranging from 20 M reads to 60 M reads (at 10 M read intervals). A minor loss of sensitivity was observed when samples were subsampled down to 10 M reads. This result demonstrated that a sequencing depth of 20 M reads is sufficient to capture the majority of TDEGs in a PBMC-derived dataset. Ching et al. reported nearly identical findings, that minimal increased sensitivity was gained above 20 M reads (<xref rid="B33" ref-type="bibr">33</xref>). Similarly, others have simulated the increase in power at increased sequencing depths and found that at 2-fold depth, the increase in power only increased by 3-5%, and even at 10-fold depth, that power only increased by 2-3%.</p>
+                  </list-item>
+                </list>
+                <p>While sequencing depth did not profoundly influence statistical power, we did observe that reducing sequencing depth had a stronger influence on transcript representation. We found that even at relatively deep sequencing depths, only approximately 65% of the total fraction of PBMC transcripts are reported in any individual sample. Decreasing sequencing depths led to a loss of content of approximately 5% of identifiable genes for each 10 M drop in depth. For example, reducing coverage from 30 M reads to 10 M reads detected 2,515 fewer genes. Taken together with our power simulations, this analysis demonstrates that while sequencing depth does not alter overall power, a substantial proportion of genes with lower expression will be lost or provide unreliable quantification. The true impact on the biological interpretation of reduced transcript representation needs to be evaluated for each RNA-Seq dataset independently. In summary, these results demonstrated that while it is possible to reduce costs in an RNA-Seq experiment with an overall loss of power by decreasing coverage, this step must be carefully considered as there is a tangible loss of gene content. As the cost-per-base continues to drop as sequencing technology improves, the relative savings in reducing sequencing depth are becoming minimal compared to the cost of gene-content loss in an RNA-Seq experiment.</p>
+                <list list-type="roman-lower">
+                  <list-item>
+                    <p>(iv) <italic>the false discovery rate and type-I error was dependent on the biological signal strength.</italic> Day 14 produced the strongest biological signal, having a relatively high number of TDEGs and magnitude of fold changes compared to other days. The FDR was near or below the 5% level on Day 14, regardless of the sample size, coverage level, or fold-change threshold used. As we moved back toward Day 1, the strength of the biological signal weakened at each preceding time point, and the control of the FDR became more dependent on sample size. On Day 2 and Day 1, the sample size was the most important factor for ensuring the FDR was not inflated. As with power, the sequencing depth did not affect FDR as long as the depth was at or above 20 M.</p>
+                  </list-item>
+                </list>
+                <p>The strength of the biological signal appeared to be the greatest influencer on type-I error, but this effect was balanced by the power and FDR. For example, Day 14 shows the highest type-I-error rates (although still below 2% in all cases), but this is accompanied by the highest power and lowest FDR. Sequencing depth had a negligible impact on the type-I-error rate, consistent with the findings for power and FDR.</p>
+              </sec>
+            </sec>
+            <sec sec-type="conclusions" id="s4">
+              <label>4</label>
+              <title>Conclusion</title>
+              <p>In this study, our goal was to establish parameters and guidelines for RNA-Seq studies using patient PBMC samples obtained before and after vaccination with a live attenuated tularemia vaccine. Estimating statistical power in RNA-Seq studies is a complex endeavor, as power is strongly influenced by the biological variance of the particular experiment, the range of effect sizes, and the technical factors we have described in this study. The near-universal usage of Illumina sequencing has partially standardized the technical factors influencing RNA-Seq power. A number of recent studies have established a framework of statistical power and quality control for RNA-Seq experiments, and their findings are largely in agreement with our data (<xref rid="B14" ref-type="bibr">14</xref>, <xref rid="B16" ref-type="bibr">16</xref>, <xref rid="B18" ref-type="bibr">18</xref>). Here, we have extended these framework studies by demonstrating that the principles established hold true using “real world” clinical samples from a vaccine clinical trial. The main conclusions are: (i) filtering lowly-expressed genes is recommended, if possible guided <italic>via</italic> ERCC spike-ins, to improve fold-change accuracy and inter-site agreement—we produced an algorithm that is implemented in the R package <italic>CpmERCCutoff</italic> that is publicly-available through CRAN; (ii) read length did not have a major impact on DEG detection, and although shortening reads will result in some lost DEGs compared to longer reads, it may be a good option to save costs (iii) applying fold-change cutoffs for DEG detection reduced inter-set DEG agreement and should be used with caution, if at all; (iv) reduction in coverage had a minimal impact on statistical power but reduced the identifiable fraction of the PBMC transcriptome—20 M reads appear to be sufficient; (v) sample size is the most important driver of statistical power followed by effect size (i.e. the magnitude of fold change)—a sample size of n=15 captured TDEGs with ≥1.25 fold change at &gt;80% power for the strongest signal (Day 14). As transcriptomics is being increasingly included in clinical drug and vaccine trials to understand biological molecular mechanisms and to provide more sensitive monitoring for toxicities, this study should provide useful guidelines for the design of multicenter RNA-Seq studies.</p>
+            </sec>
+            <sec sec-type="materials|methods" id="s5">
+              <label>5</label>
+              <title>Materials and methods</title>
+              <p>Total RNA was extracted using the RNeasy kit (Qiagen, CA) and quantitated on a Thermo Nanodrop, quality assessment was performed on an Agilent Bioanalyzer. Samples with a RIN score &gt;7.5 were used for library construction.</p>
+              <sec id="s5_1">
+                <label>5.1</label>
+                <title>RNA-Seq library preparation and sequencing: Site 1</title>
+                <p>Libraries were prepared using the Illumina (Illumina Inc. San Diego, CA, USA) TruSeq™ mRNA stranded kit as per the manufacturer’s instructions. 500 ng of total RNA was used for library preparation. ERCC synthetic spike-in 1 or 2 (Thermo Fisher Scientific Inc., Waltham, Massachusetts) was added to each total RNA sample and processed in parallel. The TruSeq method (high-throughput protocol) employs two rounds of poly-A based mRNA enrichment using oligo-dT magnetic beads followed by mRNA fragmentation (120-200 bp) using cations at high temperatures. First and second strand cDNA synthesis was performed followed by end repair of the blunt cDNA ends. One single “A” base was added at the 3’ end of the cDNA followed by ligation of the barcoded adapter unique to each sample. The adapter-ligated libraries were then enriched using PCR amplification. The amplified library was validated using a DNA tape on the Agilent 4200 TapeStation and quantified using a fluorescence-based method. The libraries were normalized and pooled and clustered on the HiSeq3000/4000 flow cell on the Illumina cBot. The clustered flowcell was sequenced on the Illumina HiSeq3000 system employing a single-end 101 cycles run, each sample was sequenced to an average depth of 25 M reads.</p>
+              </sec>
+              <sec id="s5_2">
+                <label>5.2</label>
+                <title>RNA-Seq library preparation and sequencing: Site 2</title>
+                <p>Total RNA integrity was determined using Agilent Bioanalyzer or 4200 Tapestation. ERCC synthetic spike-in 1 or 2 (Thermo Fisher Scientific Inc., Waltham, Massachusetts) was added to each total RNA sample and processed in parallel. Library preparation was performed with 1 ug, of total RNA with a Bioanalyzer RIN score greater than 8.0. Ribosomal RNA was removed by poly-A selection using Oligo-dT beads (mRNA Direct kit, Life Technologies. In cases, where samples had less than 1ug of total RNA, the entire available amount was used. mRNA was then fragmented in buffer containing 40 mM Tris Acetate pH 8.2, 100 mM Potassium Acetate, and 30 mM Magnesium Acetate and heated to 94 degrees for 150 seconds. mRNA was reverse transcribed to yield cDNA using SuperScript III RT enzyme (Life Technologies, per manufacturer’s instructions) and random hexamers. A second strand reaction was performed to yield ds-cDNA. cDNA was blunt ended, had an A base added to the 3’ ends, and then had Illumina sequencing adapters ligated to the ends. Ligated fragments were then amplified for 14 cycles using primers incorporating unique index tags. Fragments were sequenced on an Illumina HiSeq 3000 using single-end reads extending 100 bases to an average of 35 M reads per sample.</p>
+              </sec>
+              <sec id="s5_3">
+                <label>5.3</label>
+                <title>RNA-Seq data processing and detection of DEGs</title>
+                <p>The latest version of the human reference genome (GRCh38), gene models, and associated gene annotation information at the time of the study start were obtained from the ENSEMBL database (Version 84, March 2016). The genomic reference was built by merging all human chromosomes except X and Y chromosomes to avoid gender-specific effects. Reads were mapped against the human reference genome using the STAR splice-aware read aligner (Version 2.5.2a) (<xref rid="B35" ref-type="bibr">35</xref>). Gene expression quantification was carried out using the featureCounts function as implemented in the <italic>Subread</italic> software (Version 1.5.0-p2) (<xref rid="B36" ref-type="bibr">36</xref>). TMM normalization was executed as implemented in <italic>edgeR</italic> (<xref rid="B37" ref-type="bibr">37</xref>).</p>
+                <p>Genes with expression levels ≤8 CPM for all 50 samples within site were filtered out and were excluded in the differential gene analysis. To identify genes that were significantly differentially expressed (DE) from baseline for each post-vaccination day (Days 1, 2, 7, 14), a negative binomial model was fit to read counts using the implementation provided by the <italic>edgeR</italic> software (<xref rid="B37" ref-type="bibr">37</xref>). Each model included fixed effects for subjects to account for paired samples and study visit day (baseline or post-vaccination day). For each gene, the statistical significance of the study visit day effect was evaluated using a likelihood ratio test. To control for testing multiple genes, the false-discovery rate (FDR) based on the Benjamini-Hochberg procedure as implemented in the p.adjust R function was applied for each model (<xref rid="B38" ref-type="bibr">38</xref>). Genes with a fold change from baseline ≥1.5 and FDR-adjusted p-value &lt;0.05 were considered DEGs.</p>
+              </sec>
+              <sec id="s5_4">
+                <label>5.4</label>
+                <title>Simulation of datasets to assess the impact of sequencing depths, read length, and simulate power</title>
+                <p>The original 50 FASTQ files from Site 1 with a read length of 151 nt were right-truncated to obtain three additional FASTQ files per sample with 50 nt, 75 nt, and 100 nt long reads. Truncation of reads was carried out using the fastx_trimmer tool of the FASTX Toolkit. A set of four FASTQ files per sample to simulate different coverage levels were obtained by randomly down-sampling original reads to 25 million (25 M), 20 million (20 M), 15 million (15 M), and 10 million (10 M) reads. Random subsampling of reads was carried out using the sample tool of the seqtk Toolkit (Version 1.2-r95-dirty). An additional four FASTQ files were simulated for the power analysis using the same approach, which contained 30 M, 40 M, 50 M, and 60 M reads, respectively.</p>
+              </sec>
+              <sec id="s5_5">
+                <label>5.5</label>
+                <title>Empirical determination of a cutoff for filtering lowly-expressed genes using ERCC controls</title>
+                <p>The 92 ERCC 1 mix transcripts were added to pre-vaccination samples, and the ERCC 2 mix was added to each post-vaccination sample. ERCC spike-ins cover a range of concentrations from 0.014 to 30,000 CPM for both mixes, and the expected LFCs from mix 2 to mix 1 range from 0.25 to 2. For paired samples, the empirical fold change (based on fold change in CPM from the RNA-Seq experiment) and expected fold changes were determined for each of the 92 ERCC transcripts. Likewise, the mean LCPM of each ERCC transcript was determined by first calculating the average LCPM value for each paired sample, and then taking the mean of those averages. This results in a weighted average for each ERCC transcript across the pre- and post-vaccination samples. Based on the distribution of the mean ERCC LCPM, the 92 spike-ins were allocated into 7 bins of increasing abundance from low to high (≥13 transcripts per bin).</p>
+                <p>Next, for each paired sample, the Spearman correlation between the empirical and the expected fold changes was calculated for the subset of ERCC transcripts within each bin. The mean LCPM of the transcripts within each bin was also computed for each paired sample. This produces a pair of values—the Spearman correlation and the mean LCPM—for each paired sample within each bin of ERCC transcripts. A 3<sup>rd</sup>-order polynomial was fitted to these correlation data to estimate a trend line that captured the non-linear relationship between the correlation and average LCPM. To make this step more robust, outliers within each bin (points with correlation values exceeding Q3 + 1.5 IQR or less than Q1 – 1.5 IQR) were excluded from this step. The LCPM cutoff value was then chosen as the value at which the fitted polynomial gave a correlation of 0.9. Bootstrapping (sampling with replacement of paired samples) was used to determine the 95% confidence interval of the cutoff point; the lower and upper bound of the confidence interval represented the 2.5 and 97.5 percentiles, respectively, of the bootstrap cutoff values.</p>
+                <p>The <italic>CpmERCCutoff</italic> R package was developed to implement the method described above (<uri xlink:href="https://CRAN.R-project.org/package=CpmERCCutoff">https://CRAN.R-project.org/package=CpmERCCutoff</uri>). The getLowLcpmCutoff function takes the paired samples and the expected and observed fold changes as input, calculates the LCPM cutoff threshold, and returns the summarized results. The package also includes plotting capabilities to visualize the 3<bold><sup>rd</sup></bold> order fit with the empirically-derived LCPM cutoff highlighted, as seen in <xref rid="f7" ref-type="fig"><bold>Figure 6</bold></xref>.</p>
+              </sec>
+              <sec id="s5_6">
+                <label>5.6</label>
+                <title>Calculation of statistical power</title>
+                <p>Statistical power was assessed using a modified version of the <italic>PROPER</italic> (<xref rid="B39" ref-type="bibr">39</xref>, <xref rid="B40" ref-type="bibr">40</xref>) R package. The simulation strategy was designed to assess the effect of (i) the coverage level of the RNA-Seq experiment, (ii) the log fold-change cutoff used to filter genes, (iii) the sample size, and iv) the varying strength of the biological signal post-vaccination (Day 1, 2, 7, and 14).</p>
+                <p>For each post-vaccination day, we defined a gold standard set of genes that were “truly differentially expressed genes” (TDEG) as those genes with a maximum expression level of at least 8 CPM for all 50 samples within a site and an FDR-adjusted p-value below 0.05, independently detected in the data from both sites by both the <italic>edgeR</italic> (<xref rid="B37" ref-type="bibr">37</xref>) and <italic>DESeq2</italic> R packages (<xref rid="B41" ref-type="bibr">41</xref>), using the original coverage data (<xref rid="T1" ref-type="table"><bold>Table 1</bold></xref>). Using these criteria, these analyses yielded 444, 357, 2,300, and 3,284 TDEGs for post-vaccination Days 1, 2, 7, and 14 respectively. Each TDEG was associated with an effect size based on the estimated average fold change (FC) for that gene in the original dataset from Site 1. All non-TDEGs were associated with a null effect size (FC=1).</p>
+                <p>We used the most complete set (Site 2) that did not have any outliers for the power assessment. To estimate statistical power to detect TDEGs, different coverage levels were simulated by down-sampling the FASTQ files from Site 2 to 30 M, 20 M, 10 M reads and over-sampling them to sizes of 40 M, 50 M, and 60 M reads. We simulated FASTQ files for each of these different coverage levels for each subject and each of the five time points (pre-vaccination and each post-vaccination day). The simulated FASTQ files were aligned against the reference and processed to obtain corresponding gene count datasets as described for the original data. The same genes that were filtered out in the original analysis were also removed from these datasets. Finally, the average gene expression levels (normalized average LCPM) and dispersion estimates (trended dispersion) were calculated based on the pre-vaccination day data, resulting in paired mean and dispersion estimates for each gene and for each coverage level.</p>
+                <p>These estimates were then used to simulate gene count datasets for the power assessment: for each coverage level, post-vaccination day, and sample size (, 500 datasets were simulated using independent negative binomial models for each gene parameterized by its estimated mean expression, dispersion, and effect-size level. In each dataset, samples were simulated for both the pre- and post-vaccination day. The TDEGs were simulated so that the average difference in expression between the pre- and post-vaccination days was equal to its estimated effect size. The model did not include a dependence between paired samples. The simulated dataset was then analyzed with edgeR to identify differentially expressed genes. The estimated FC and p-value for each gene were calculated and recorded.</p>
+                <p>The statistical power for each combination of parameters was determined as the average proportion of TDEGs that were identified in the simulated datasets with an FDR-adjusted p-value &lt;0.05. Four levels of fold-change cutoffs were considered: 1.25, 1.5, 1.75, and 2.0. The power calculation was conditioned on the given fold-change criteria, which means the TDEGs considered had an effect size above the cutoff value.</p>
+              </sec>
+            </sec>
+            <sec sec-type="data-availability" id="s6">
+              <title>Data availability statement</title>
+              <p>The datasets presented in this study can be found in online repositories. The names of the repository/repositories and accession number(s) can be found below: <uri xlink:href="https://www.ncbi.nlm.nih.gov/geo/">https://www.ncbi.nlm.nih.gov/geo/</uri>, GSE149809.</p>
+            </sec>
+            <sec sec-type="ethics-statement" id="s7">
+              <title>Ethics statement</title>
+              <p>The studies involving human participants were reviewed and approved by the internal review boards for the parent clinical trial (NCT01150695). Subjects gave their consent for inclusion before they enrolled in the parent clinical trial (NCT01150695). The original protocol and consent form were reviewed by the US Food and Drug Administration, and approved and monitored by the sites’ institutional review boards. The patients/participants provided their written informed consent to participate in this study.</p>
+            </sec>
+            <sec sec-type="author-contributions" id="s8">
+              <title>Author contributions</title>
+              <p>Conceptualization: JG, SB, HW, MN, RH, PS, NR, EA, MM, DH. Methodology: JG, SB, TG, MN, AB, NR, EA, MM, DH. Software: JG, TJ, HW, TG, KS. Validation: HW, GT, AB, CG. Formal analysis: JG, TJ, TG. Investigation: MN, AB, RH, NP, NR, EA, MM. Resources: SB, GT, MN, NP, NR, MM, DH. Data curation: GT, AB, RH, CG, NP. Writing - original draft: JG, SB, DH. Writing - review and editing: JG, SB, TG, MN, AB, RH, KS, PS, NR, EA, MM, DH. Visualization: JG, SB, TJ, TG, DH. Supervision: SB, MN, PS, NR, EA, MM, DH. Project administration: MN, AB, PS, NR, EA, MM, DH. Funding acquisition: SB, NR, EA, MM, DH. All authors contributed to the article and approved the submitted version.</p>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <title>Acknowledgments</title>
+              <p>We thank the Emory VTEU administrative and finance core for their support including Dean Kleinhenz, Hannah Huston, and Michele Paine McCullough. The Emory NPRC Genomics Core is supported in part by NIH P51 OD011132 and S10 OD026799. We also thank the Georgia Research Alliance.</p>
+            </ack>
+            <sec sec-type="COI-statement" id="s10">
+              <title>Conflict of interest</title>
+              <p>JG, TLJ, TG, CEG, KJS were employed by The Emmes Company. EA has consulted for Pfizer, Sanofi Pasteur, GSK, Janssen, Moderna, and Medscape, and his institution receives funds to conduct clinical research unrelated to this manuscript from MedImmune, Regeneron, PaxVax, Pfizer, GSK, Merck, Sanofi-Pasteur, Janssen, and Micron. He also serves on a safety monitoring board for Kentucky BioProcessing, Inc. and Sanofi Pasteur. He serves on a data adjudication board for WCG and ACI Clinical. His institution has also received funding from NIH to conduct clinical trials of COVID-19 vaccines. MM reported potential competing interests: laboratory and clinical trial contract funding for vaccines or MAB vs SARS-CoV-2 with Lilly, Pfizer, and Sanofi; personal fees for Scientific Advisory Board service from Merck, Meissa Vaccines, Inc., and Pfizer.</p>
+              <p>The remaining authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p>
+              <p>The reviewer MG declared a shared affiliation with the author RH to the handling editor at the time of review.</p>
+            </sec>
+            <sec sec-type="disclaimer" id="s11">
+              <title>Publisher’s note</title>
+              <p>All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.</p>
+            </sec>
+            <sec sec-type="supplementary-material" id="s12">
+              <title>Supplementary material</title>
+              <p>The Supplementary Material for this article can be found online at: <ext-link xlink:href="https://www.frontiersin.org/articles/10.3389/fimmu.2022.1093242/full#supplementary-material" ext-link-type="uri">https://www.frontiersin.org/articles/10.3389/fimmu.2022.1093242/full#supplementary-material</ext-link>
+</p>
+              <supplementary-material id="SM1" position="float" content-type="local-data">
+                <media xlink:href="DataSheet_1.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </sec>
+            <ref-list>
+              <title>References</title>
+              <ref id="B1">
+                <label>1</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hagan</surname><given-names>T</given-names></name><name><surname>Nakaya</surname><given-names>HI</given-names></name><name><surname>Subramaniam</surname><given-names>S</given-names></name><name><surname>Pulendran</surname><given-names>B</given-names></name></person-group>. <article-title>Systems vaccinology: Enabling rational vaccine design with systems biological approaches</article-title>. <source>Vaccine</source> (<year>2015</year>) <volume>33</volume>(<issue>40</issue>):<page-range>5294–301</page-range>. doi: <pub-id pub-id-type="doi">10.1016/j.vaccine.2015.03.072</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B2">
+                <label>2</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Germain</surname><given-names>RN</given-names></name></person-group>. <article-title>Will systems biology deliver its promise and contribute to the development of new or improved vaccines? what really constitutes the study of “Systems biology” and how might such an approach facilitate vaccine design</article-title>. <source>Cold Spring Harb Perspect Biol</source> (<year>2018</year>) <volume>10</volume>(<issue>8</issue>). doi: <pub-id pub-id-type="doi">10.1101/cshperspect.a</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B3">
+                <label>3</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Nakaya</surname><given-names>HI</given-names></name><name><surname>Wrammert</surname><given-names>J</given-names></name><name><surname>Lee</surname><given-names>EK</given-names></name><name><surname>Racioppi</surname><given-names>L</given-names></name><name><surname>Marie-Kunze</surname><given-names>S</given-names></name><name><surname>Haining</surname><given-names>WN</given-names></name><etal/></person-group>. <article-title>Systems biology of vaccination for seasonal influenza in humans</article-title>. <source>Nat Immunol</source> (<year>2011</year>) <volume>12</volume>(<issue>8</issue>):<page-range>786–95</page-range>. doi: <pub-id pub-id-type="doi">10.1038/ni.2067</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B4">
+                <label>4</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Querec</surname><given-names>TD</given-names></name><name><surname>Akondy</surname><given-names>RS</given-names></name><name><surname>Lee</surname><given-names>EK</given-names></name><name><surname>Cao</surname><given-names>W</given-names></name><name><surname>Nakaya</surname><given-names>HI</given-names></name><name><surname>Teuwen</surname><given-names>D</given-names></name><etal/></person-group>. <article-title>Systems biology approach predicts immunogenicity of the yellow fever vaccine in humans</article-title>. <source>Nat Immunol</source> (<year>2009</year>) <volume>10</volume>(<issue>1</issue>):<page-range>116–25</page-range>. doi: <pub-id pub-id-type="doi">10.1038/ni.688</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B5">
+                <label>5</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Gaucher</surname><given-names>D</given-names></name><name><surname>Therrien</surname><given-names>R</given-names></name><name><surname>Kettaf</surname><given-names>N</given-names></name><name><surname>Angermann</surname><given-names>BR</given-names></name><name><surname>Boucher</surname><given-names>G</given-names></name><name><surname>Filali-Mouhim</surname><given-names>A</given-names></name><etal/></person-group>. <article-title>Yellow fever vaccine induces integrated multilineage and polyfunctional immune responses</article-title>. <source>J Exp Med</source> (<year>2008</year>) <volume>205</volume>(<issue>13</issue>):<page-range>3119–31</page-range>. doi: <pub-id pub-id-type="doi">10.1084/jem.20082292</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B6">
+                <label>6</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Li</surname><given-names>S</given-names></name><name><surname>Rouphael</surname><given-names>N</given-names></name><name><surname>Duraisingham</surname><given-names>S</given-names></name><name><surname>Romero-Steiner</surname><given-names>S</given-names></name><name><surname>Presnell</surname><given-names>S</given-names></name><name><surname>Davis</surname><given-names>C</given-names></name><etal/></person-group>. <article-title>Molecular signatures of antibody responses derived from a systems biology study of five human vaccines</article-title>. <source>Nat Immunol</source> (<year>2014</year>) <volume>15</volume>(<issue>2</issue>):<fpage>195</fpage>–<lpage>204</lpage>. doi: <pub-id pub-id-type="doi">10.1038/ni.2789</pub-id>
+<pub-id pub-id-type="pmid">24336226</pub-id></mixed-citation>
+              </ref>
+              <ref id="B7">
+                <label>7</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Li</surname><given-names>S</given-names></name><name><surname>Sullivan</surname><given-names>NL</given-names></name><name><surname>Rouphael</surname><given-names>N</given-names></name><name><surname>Yu</surname><given-names>T</given-names></name><name><surname>Banton</surname><given-names>S</given-names></name><name><surname>Maddur</surname><given-names>MS</given-names></name><etal/></person-group>. <article-title>Metabolic phenotypes of response to vaccination in humans</article-title>. <source>Cell</source> (<year>2017</year>) <volume>169</volume>(<issue>5</issue>):<fpage>862</fpage>–<lpage>77.e17</lpage>. doi: <pub-id pub-id-type="doi">10.1016/j.cell.2017.04.026</pub-id>
+<pub-id pub-id-type="pmid">28502771</pub-id></mixed-citation>
+              </ref>
+              <ref id="B8">
+                <label>8</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Tsang</surname><given-names>JS</given-names></name><name><surname>Schwartzberg</surname><given-names>PL</given-names></name><name><surname>Kotliarov</surname><given-names>Y</given-names></name><name><surname>Biancotto</surname><given-names>A</given-names></name><name><surname>Xie</surname><given-names>Z</given-names></name><name><surname>Germain</surname><given-names>RN</given-names></name><etal/></person-group>. <article-title>Global analyses of human immune variation reveal baseline predictors of postvaccination responses</article-title>. <source>Cell</source> (<year>2014</year>) <volume>157</volume>(<issue>2</issue>):<fpage>499</fpage>–<lpage>513</lpage>. doi: <pub-id pub-id-type="doi">10.1016/j.cell.2014.03.031</pub-id>
+<pub-id pub-id-type="pmid">24725414</pub-id></mixed-citation>
+              </ref>
+              <ref id="B9">
+                <label>9</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Marioni</surname><given-names>JC</given-names></name><name><surname>Mason</surname><given-names>CE</given-names></name><name><surname>Mane</surname><given-names>SM</given-names></name><name><surname>Stephens</surname><given-names>M</given-names></name><name><surname>Gilad</surname><given-names>Y</given-names></name></person-group>. <article-title>Rna-seq: An assessment of technical reproducibility and comparison with gene expression arrays</article-title>. <source>Genome Res</source> (<year>2008</year>) <volume>18</volume>(<issue>9</issue>):<page-range>1509–17</page-range>. doi: <pub-id pub-id-type="doi">10.101/gr.079558.108</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B10">
+                <label>10</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Shendure</surname><given-names>J</given-names></name></person-group>. <article-title>The beginning of the end for microarrays</article-title>? <source>Nat Methods</source> (<year>2008</year>) <volume>5</volume>(<issue>7</issue>):<page-range>585–7</page-range>. doi: <pub-id pub-id-type="doi">10.1038/nmeth0708-585</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B11">
+                <label>11</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Zhang</surname><given-names>W</given-names></name><name><surname>Yu</surname><given-names>Y</given-names></name><name><surname>Hertwig</surname><given-names>F</given-names></name><name><surname>Thierry-Mieg</surname><given-names>J</given-names></name><name><surname>Zhang</surname><given-names>W</given-names></name><name><surname>Thierry-Mieg</surname><given-names>D</given-names></name><etal/></person-group>. <article-title>Comparison of rna-seq and microarray-based models for clinical endpoint prediction</article-title>. <source>Genome Biol</source> (<year>2015</year>) <volume>16</volume>(<issue>1</issue>):<fpage>133</fpage>. doi: <pub-id pub-id-type="doi">10.1186/s13059-015-0694-1</pub-id>
+<pub-id pub-id-type="pmid">26109056</pub-id></mixed-citation>
+              </ref>
+              <ref id="B12">
+                <label>12</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Goodwin</surname><given-names>S</given-names></name><name><surname>McPherson</surname><given-names>JD</given-names></name><name><surname>McCombie</surname><given-names>RW</given-names></name></person-group>. <article-title>Coming of age: Ten years of next-generation sequencing technologies</article-title>. <source>Nat Rev Genet</source> (<year>2016</year>) <volume>17</volume>(<issue>6</issue>):<page-range>333–51</page-range>. doi: <pub-id pub-id-type="doi">10.1038/nrg.2016.49</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B13">
+                <label>13</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Łabaj</surname><given-names>PPP</given-names></name><name><surname>Kreil</surname><given-names>DP</given-names></name></person-group>. <article-title>Sensitivity, specificity, and reproducibility of rna-seq differential expression calls</article-title>. <source>Biol Direct</source> (<year>2016</year>) <volume>11</volume>(<issue>1</issue>):<fpage>66</fpage>. doi: <pub-id pub-id-type="doi">10.1186/s13062-016-0169-7</pub-id>
+<pub-id pub-id-type="pmid">27993156</pub-id></mixed-citation>
+              </ref>
+              <ref id="B14">
+                <label>14</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Li</surname><given-names>S</given-names></name><name><surname>Tighe</surname><given-names>SW</given-names></name><name><surname>Nicolet</surname><given-names>CM</given-names></name><name><surname>Grove</surname><given-names>D</given-names></name><name><surname>Levy</surname><given-names>S</given-names></name><name><surname>Farmerie</surname><given-names>W</given-names></name><etal/></person-group>. <article-title>Multi-platform assessment of transcriptome profiling using rna-seq in the abrf next-generation sequencing study</article-title>. <source>Nat Biotechnol</source> (<year>2014</year>) <volume>32</volume>(<issue>9</issue>):<page-range>915–25</page-range>. doi: <pub-id pub-id-type="doi">10.1038/nbt.2972</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B15">
+                <label>15</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Everaert</surname><given-names>C</given-names></name><name><surname>Luypaert</surname><given-names>M</given-names></name><name><surname>Maag</surname><given-names>JLV</given-names></name><name><surname>Cheng</surname><given-names>Q</given-names></name><name><surname>Dinger</surname><given-names>ME</given-names></name><name><surname>Hellemans</surname><given-names>J</given-names></name><etal/></person-group>. <article-title>Benchmarking of rna-sequencing analysis workflows using whole-transcriptome rt-qpcr expression data</article-title>. <source>Sci Rep</source> (<year>2017</year>) <volume>7</volume>(<issue>1</issue>):<fpage>1559</fpage>. doi: <pub-id pub-id-type="doi">10.1038/s41598-017-01617-3</pub-id>
+<pub-id pub-id-type="pmid">28484260</pub-id></mixed-citation>
+              </ref>
+              <ref id="B16">
+                <label>16</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><collab>Consortium SM, III</collab></person-group>. <article-title>A comprehensive assessment of rna-seq accuracy, reproducibility and information content by the sequencing quality control consortium</article-title>. <source>Nat Biotechnol</source> (<year>2014</year>) <volume>32</volume>(<issue>9</issue>):<page-range>903–14</page-range>. doi: <pub-id pub-id-type="doi">10.1038/nbt.2957</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B17">
+                <label>17</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Chhangawala</surname><given-names>S</given-names></name><name><surname>Rudy</surname><given-names>G</given-names></name><name><surname>Mason</surname><given-names>CE</given-names></name><name><surname>Rosenfeld</surname><given-names>JA</given-names></name></person-group>. <article-title>The impact of read length on quantification of differentially expressed genes and splice junction detection</article-title>. <source>Genome Biol</source> (<year>2015</year>) <volume>16</volume>(<issue>1</issue>):<fpage>131</fpage>. doi: <pub-id pub-id-type="doi">10.1186/s13059-015-0697-y</pub-id>
+<pub-id pub-id-type="pmid">26100517</pub-id></mixed-citation>
+              </ref>
+              <ref id="B18">
+                <label>18</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>t Hoen</surname><given-names>PA</given-names></name><name><surname>Friedländer</surname><given-names>MR</given-names></name><name><surname>Almlöf</surname><given-names>J</given-names></name><name><surname>Sammeth</surname><given-names>M</given-names></name><name><surname>Pulyakhina</surname><given-names>I</given-names></name><name><surname>Anvar</surname><given-names>SY</given-names></name><etal/></person-group>. <article-title>Reproducibility of high-throughput mrna and small rna sequencing across laboratories</article-title>. <source>Nat Biotechnol</source> (<year>2013</year>) <volume>31</volume>(<issue>11</issue>):<page-range>1015–22</page-range>. doi: <pub-id pub-id-type="doi">10.1038/nbt.2702</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B19">
+                <label>19</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Munro</surname><given-names>SA</given-names></name><name><surname>Lund</surname><given-names>SP</given-names></name><name><surname>Pine</surname><given-names>SP</given-names></name><name><surname>Binder</surname><given-names>H</given-names></name><name><surname>Clevert</surname><given-names>D-A</given-names></name><name><surname>Conesa</surname><given-names>A</given-names></name><etal/></person-group>. <article-title>Assessing technical performance in differential gene expression experiments with external spike-in rna control ratio mixtures</article-title>. <source>Nat Commun</source> (<year>2014</year>) <volume>5</volume>(<issue>1</issue>):<fpage>5125</fpage>. doi: <pub-id pub-id-type="doi">10.1038/ncomms6125</pub-id>
+<pub-id pub-id-type="pmid">25254650</pub-id></mixed-citation>
+              </ref>
+              <ref id="B20">
+                <label>20</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Schurch</surname><given-names>NJ</given-names></name><name><surname>Schofield</surname><given-names>P</given-names></name><name><surname>Gierliński</surname><given-names>M</given-names></name><name><surname>Cole</surname><given-names>C</given-names></name><name><surname>Sherstnev</surname><given-names>A</given-names></name><name><surname>Singh</surname><given-names>V</given-names></name><etal/></person-group>. <article-title>How many biological replicates are needed in an rna-seq experiment and which differential expression tool should you use</article-title>? <source>RNA (New York NY)</source> (<year>2016</year>) <volume>22</volume>(<issue>6</issue>):<page-range>839–51</page-range>. doi: <pub-id pub-id-type="doi">10.1261/rna.053959.115</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B21">
+                <label>21</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Poplawski</surname><given-names>A</given-names></name><name><surname>Binder</surname><given-names>H</given-names></name></person-group>. <article-title>Feasibility of sample size calculation for rna-seq studies</article-title>. <source>Briefings Bioinf</source> (<year>2017</year>) <volume>19</volume>
+<issue>(4)</issue>:<page-range>713–20</page-range>. doi: <pub-id pub-id-type="doi">10.1093/bib/bbw144</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B22">
+                <label>22</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Yu</surname><given-names>L</given-names></name><name><surname>Fernandez</surname><given-names>S</given-names></name><name><surname>Brock</surname><given-names>G</given-names></name></person-group>. <article-title>Power analysis for rna-seq differential expression studies</article-title>. <source>BMC Bioinf</source> (<year>2017</year>) <volume>18</volume>(<issue>1</issue>):<fpage>234</fpage>. doi: <pub-id pub-id-type="doi">10.1186/s12859-017-1648-2</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B23">
+                <label>23</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Chen</surname><given-names>K</given-names></name><name><surname>Hu</surname><given-names>Z</given-names></name><name><surname>Xia</surname><given-names>Z</given-names></name><name><surname>Zhao</surname><given-names>D</given-names></name><name><surname>Li</surname><given-names>W</given-names></name><name><surname>Tyler</surname><given-names>JK</given-names></name></person-group>. <article-title>The overlooked fact: Fundamental need for spike-in control for virtually all genome-wide analyses</article-title>. <source>Mol Cell Biol</source> (<year>2016</year>) <volume>36</volume>(<issue>5</issue>):<page-range>662–7</page-range>. doi: <pub-id pub-id-type="doi">10.1128/MCB.00970-14</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B24">
+                <label>24</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hardwick</surname><given-names>SA</given-names></name><name><surname>Deveson</surname><given-names>IW</given-names></name><name><surname>Mercer</surname><given-names>TR</given-names></name></person-group>. <article-title>Reference standards for next-generation sequencing</article-title>. <source>Nat Rev Genet</source> (<year>2017</year>) <volume>18</volume>(<issue>8</issue>):<page-range>473–84</page-range>. doi: <pub-id pub-id-type="doi">10.1038/nrg.2017.44</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B25">
+                <label>25</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Jiang</surname><given-names>L</given-names></name><name><surname>Schlesinger</surname><given-names>F</given-names></name><name><surname>Davis</surname><given-names>CA</given-names></name><name><surname>Zhang</surname><given-names>Y</given-names></name><name><surname>Li</surname><given-names>R</given-names></name><name><surname>Salit</surname><given-names>M</given-names></name><etal/></person-group>. <article-title>Synthetic spike-in standards for rna-seq experiments</article-title>. <source>Genome Res</source> (<year>2011</year>) <volume>21</volume>(<issue>9</issue>):<page-range>1543–51</page-range>. doi: <pub-id pub-id-type="doi">10.1101/gr.121095.111</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B26">
+                <label>26</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Mason</surname><given-names>CE</given-names></name><name><surname>Afshinnekoo</surname><given-names>E</given-names></name><name><surname>Tighe</surname><given-names>S</given-names></name><name><surname>Wu</surname><given-names>S</given-names></name><name><surname>Levy</surname><given-names>S</given-names></name></person-group>. <article-title>International standards for genomes, transcriptomes, and metagenomes</article-title>. <source>J Biomol Techniques: JBT</source> (<year>2017</year>) <volume>28</volume>
+<issue>(1)</issue>:<page-range>8</page-range>. doi: <pub-id pub-id-type="doi">10.7171/jbt.17-2801-006</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B27">
+                <label>27</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Natrajan</surname><given-names>MS</given-names></name><name><surname>Rouphael</surname><given-names>N</given-names></name><name><surname>Lai</surname><given-names>L</given-names></name><name><surname>Kazmin</surname><given-names>D</given-names></name><name><surname>Jensen</surname><given-names>TL</given-names></name><name><surname>Weiss</surname><given-names>DS</given-names></name><etal/></person-group>. <article-title>Systems vaccinology for a live attenuated tularemia vaccine reveals unique transcriptional signatures that predict humoral and cellular immune responses</article-title>. <source>Vaccines</source> (<year>2019</year>) <volume>8</volume>(<issue>1</issue>):<page-range>4</page-range>. doi: <pub-id pub-id-type="doi">10.3390/vaccines8010004</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B28">
+                <label>28</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Goll</surname><given-names>JB</given-names></name><name><surname>Li</surname><given-names>S</given-names></name><name><surname>Edwards</surname><given-names>JL</given-names></name><name><surname>Bosinger</surname><given-names>SE</given-names></name><name><surname>Jensen</surname><given-names>TL</given-names></name><name><surname>Wang</surname><given-names>Y</given-names></name><etal/></person-group>. <article-title>Transcriptomic and metabolic responses to a live-attenuated francisella tularensis vaccine</article-title>. <source>Vaccines</source> (<year>2020</year>) <volume>8</volume>(<issue>3</issue>):<fpage>412</fpage>. doi: <pub-id pub-id-type="doi">10.3390/vaccines8030412</pub-id>
+<pub-id pub-id-type="pmid">32722194</pub-id></mixed-citation>
+              </ref>
+              <ref id="B29">
+                <label>29</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Teng</surname><given-names>M</given-names></name><name><surname>Love</surname><given-names>MI</given-names></name><name><surname>Davis</surname><given-names>CA</given-names></name><name><surname>Djebali</surname><given-names>S</given-names></name><name><surname>Dobin</surname><given-names>A</given-names></name><name><surname>Graveley</surname><given-names>BR</given-names></name><etal/></person-group>. <article-title>A benchmark for rna-seq quantification pipelines</article-title>. <source>Genome Biol</source> (<year>2016</year>) <volume>17</volume>(<issue>1</issue>):<fpage>74</fpage>. doi: <pub-id pub-id-type="doi">10.1186/s13059-016-0940-1</pub-id>
+<pub-id pub-id-type="pmid">27107712</pub-id></mixed-citation>
+              </ref>
+              <ref id="B30">
+                <label>30</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Mulligan</surname><given-names>MJ</given-names></name><name><surname>Stapleton</surname><given-names>JT</given-names></name><name><surname>Keitel</surname><given-names>WA</given-names></name><name><surname>Frey</surname><given-names>SE</given-names></name><name><surname>Chen</surname><given-names>WH</given-names></name><name><surname>Rouphael</surname><given-names>N</given-names></name><etal/></person-group>. <article-title>Tularemia vaccine: Safety, reactogenicity, “Take” skin reactions, and antibody responses following vaccination with a new lot of the francisella tularensis live vaccine strain – a phase 2 randomized clinical trial</article-title>. <source>Vaccine</source> (<year>2017</year>) <volume>35</volume>(<issue>36</issue>):<page-range>4730–7</page-range>. doi: <pub-id pub-id-type="doi">10.1016/j.vaccine.2017.07.024</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B31">
+                <label>31</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Li</surname><given-names>S</given-names></name><name><surname>Łabaj</surname><given-names>PPP</given-names></name><name><surname>Zumbo</surname><given-names>P</given-names></name><name><surname>Sykacek</surname><given-names>P</given-names></name><name><surname>Shi</surname><given-names>W</given-names></name><name><surname>Shi</surname><given-names>L</given-names></name><etal/></person-group>. <article-title>Detecting and correcting systematic variation in Large-scale rna sequencing data</article-title>. <source>Nat Biotechnol</source> (<year>2014</year>) <volume>32</volume>(<issue>9</issue>):<page-range>888–95</page-range>. doi: <pub-id pub-id-type="doi">10.1038/nbt.3000</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B32">
+                <label>32</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Freedman</surname><given-names>AH</given-names></name><name><surname>Gaspar</surname><given-names>JM</given-names></name><name><surname>Sackton</surname><given-names>TB</given-names></name></person-group>. <article-title>Short paired-end reads trump long single-end reads for expression analysis</article-title>. <source>BMC Bioinf</source> (<year>2020</year>) <volume>21</volume>(<issue>1</issue>):<fpage>149</fpage>. doi: <pub-id pub-id-type="doi">10.1186/s12859-020-3484-z</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B33">
+                <label>33</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Ching</surname><given-names>T</given-names></name><name><surname>Huang</surname><given-names>S</given-names></name><name><surname>Garmire</surname><given-names>LX</given-names></name></person-group>. <article-title>Power analysis and sample size estimation for rna-seq differential expression</article-title>. <source>RNA</source> (<year>2014</year>) <volume>20</volume>(<issue>11</issue>):<page-range>1684–96</page-range>. doi: <pub-id pub-id-type="doi">10.1261/rna.046011.114</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B34">
+                <label>34</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hart</surname><given-names>SN</given-names></name><name><surname>Therneau</surname><given-names>TM</given-names></name><name><surname>Zhang</surname><given-names>Y</given-names></name><name><surname>Poland</surname><given-names>GA</given-names></name><name><surname>Kocher</surname><given-names>JP</given-names></name></person-group>. <article-title>Calculating sample size estimates for rna sequencing data</article-title>. <source>J Comput Biol</source> (<year>2013</year>) <volume>20</volume>(<issue>12</issue>):<page-range>970–8</page-range>. doi: <pub-id pub-id-type="doi">10.1089/cmb.2012.0283</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B35">
+                <label>35</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Dobin</surname><given-names>A</given-names></name><name><surname>Davis</surname><given-names>CA</given-names></name><name><surname>Schlesinger</surname><given-names>F</given-names></name><name><surname>Drenkow</surname><given-names>J</given-names></name><name><surname>Zaleski</surname><given-names>C</given-names></name><name><surname>Jha</surname><given-names>S</given-names></name><etal/></person-group>. <article-title>Star: Ultrafast universal rna-seq aligner</article-title>. <source>Bioinformatics</source> (<year>2013</year>) <volume>29</volume>(<issue>1</issue>):<fpage>15</fpage>–<lpage>21</lpage>. doi: <pub-id pub-id-type="doi">10.1093/bioinformatics/bts635</pub-id>
+<pub-id pub-id-type="pmid">23104886</pub-id></mixed-citation>
+              </ref>
+              <ref id="B36">
+                <label>36</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Liao</surname><given-names>Y</given-names></name><name><surname>Smyth</surname><given-names>GK</given-names></name><name><surname>Shi</surname><given-names>W</given-names></name></person-group>. <article-title>Featurecounts: An efficient general purpose program for assigning sequence reads to genomic features</article-title>. <source>Bioinf (Oxford England)</source> (<year>2014</year>) <volume>30</volume>(<issue>7</issue>):<page-range>923–30</page-range>. doi: <pub-id pub-id-type="doi">10.1093/bioinformatics/btt656</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B37">
+                <label>37</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Robinson</surname><given-names>MD</given-names></name><name><surname>McCarthy</surname><given-names>DJ</given-names></name><name><surname>Smyth</surname><given-names>GK</given-names></name></person-group>. <article-title>Edger: A bioconductor package for differential expression analysis of digital gene expression data</article-title>. <source>Bioinformatics</source> (<year>2010</year>) <volume>26</volume>(<issue>1</issue>):<page-range>139–40</page-range>. doi: <pub-id pub-id-type="doi">10.1093/bioinformatics/btp616</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B38">
+                <label>38</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Benjamini</surname><given-names>Y</given-names></name><name><surname>Hochberg</surname><given-names>Y</given-names></name></person-group>. <article-title>Controlling the false discovery rate: A practical and powerful approach to multiple testing</article-title>. <source>J R Stat Soc: Ser B (Methodological)</source> (<year>1995</year>) <volume>57</volume>(<issue>1</issue>):<fpage>289</fpage>–<lpage>300</lpage>. doi: <pub-id pub-id-type="doi">10.1111/j.2517-6161.1995.tb02031.x</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B39">
+                <label>39</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wu</surname><given-names>Z</given-names></name><name><surname>Wu</surname><given-names>H</given-names></name></person-group>. <article-title>Experimental design and power calculation for rna-seq experiments</article-title>. <source>Methods Mol Biol (Clifton NJ)</source> (<year>2016</year>) <volume>1418</volume>:<page-range>379–90</page-range>. doi: <pub-id pub-id-type="doi">10.1007/978-1-4939-3578-9_18</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B40">
+                <label>40</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wu</surname><given-names>H</given-names></name><name><surname>Wang</surname><given-names>C</given-names></name><name><surname>Wu</surname><given-names>Z</given-names></name></person-group>. <article-title>Proper: Comprehensive power evaluation for differential expression using rna-seq</article-title>. <source>Bioinf (Oxford England)</source> (<year>2015</year>) <volume>31</volume>(<issue>2</issue>):<page-range>233–41</page-range>. doi: <pub-id pub-id-type="doi">10.1093/bioinformatics/btu640</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B41">
+                <label>41</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Love</surname><given-names>MI</given-names></name><name><surname>Huber</surname><given-names>W</given-names></name><name><surname>Anders</surname><given-names>S</given-names></name></person-group>. <article-title>Moderated estimation of fold change and dispersion for rna-seq data with Deseq2</article-title>. <source>Genome Biol</source> (<year>2014</year>) <volume>15</volume>(<issue>12</issue>):<elocation-id>550</elocation-id>. doi: <pub-id pub-id-type="doi">10.1186/s13059-014-0550-8</pub-id>
+<pub-id pub-id-type="pmid">25516281</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>
